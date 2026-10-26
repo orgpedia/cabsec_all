@@ -1,0 +1,15 @@
+[project]
+name = "cabsec-all"
+version = "0.1.0"
+description = "Download, archive and mirror Council of Ministers orders and AOB / TOB rule amendments published by the Cabinet Secretariat (cabsec.gov.in)"
+readme = "SPEC.md"
+requires-python = ">=3.10"
+dependencies = [
+    "huggingface-hub>=0.34.0",
+    "internetarchive>=5.0.5",
+    "python-dotenv>=1.0.0",
+    "requests>=2.32.3",
+]
+
+[tool.uv]
+package = false

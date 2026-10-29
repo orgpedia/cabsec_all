@@ -1,11 +1,12 @@
 """Upload files to archive.org (one item per active item), or refresh item metadata.
 
 Usage:
-    CABSEC_COLLECTION=council|aob|tob upload_archive.py [--scope new|all] [--window 7d] [--limit N] [--collection opensource]
-    CABSEC_COLLECTION=council|aob|tob upload_archive.py --update-metadata [--collection opensource]
+    CABSEC_COLLECTION=<collection> upload_archive.py [--scope new|all] [--window 7d] [--limit N] [--collection india-cabsec]
+    CABSEC_COLLECTION=<collection> upload_archive.py --update-metadata [--collection india-cabsec]
 
+Only for council, aob-ammend and tob-ammend; the rules sets are not uploaded (ARCHIVE in common.py).
 Identifier: IA_PREFIX + item_id, file <identifier>.<ext> (e.g. in.gov.cabsec.aob.386.pdf). Items go oldest
-first (council by date, aob / tob by series number). A replaced file (new file_key) is uploaded under the same
+first (council by date, amendments by series number). A replaced file (new file_key) is uploaded under the same
 name; archive.org keeps the old one in history/files/.
 First run: --limit 55 into opensource (Community Texts), ask archive.org for the collection with those URLs,
 then `--update-metadata --collection <new>` moves them and a plain run uploads the rest.
@@ -22,7 +23,9 @@ import sys
 import internetarchive as ia
 
 from common import (
+    ARCHIVE,
     COLLECTION,
+    KIND,
     active,
     ensure_file,
     file_ext,
@@ -50,8 +53,8 @@ LANGUAGE = "eng"  # MARC code
 # council items also get their category, e.g. ["Ministers", "Change In Portfolios"]
 SUBJECTS = {
     "council": ["Ministers"],
-    "aob": ["Allocation of Business Rules"],
-    "tob": ["Transaction of Business Rules"],
+    "aob-ammend": ["Allocation of Business Rules", "AOB Amendment"],
+    "tob-ammend": ["Transaction of Business Rules", "TOB Amendment"],
 }
 
 
@@ -64,7 +67,7 @@ def make_title(item):
     sno = item["source_key"]
     if COLLECTION == "council":
         return f"{item['category']}: {site}" if site else f"{item['category']}, {human_date(item.get('date'))}"
-    if COLLECTION == "aob":
+    if COLLECTION == "aob-ammend":
         return f"Allocation of Business Rules, 1961: Amendment No. {sno} ({site})"
     return f"Transaction of Business Rules, 1961: Amendment No. {sno} ({site})"
 
@@ -75,7 +78,7 @@ def build_metadata(item, d, wb, collection):
     wayback_url = wb.get("archive_url", "") if wb.get("link_success") else ""  # omitted when not linked
     source_page = item.get("list_url") or ""
     listed = is_listed(item)
-    gazette = ", ".join(x for x in (item.get("gazette"), item.get("gazette_date")) if x) if COLLECTION == "aob" else ""
+    gazette = ", ".join(x for x in (item.get("gazette"), item.get("gazette_date")) if x) if COLLECTION == "aob-ammend" else ""
 
     def row(label, value):
         return f'<tr><td style="vertical-align: top"><b>{label}</b>:&nbsp;</td><td style="vertical-align: top">{value}</td></tr>'
@@ -120,7 +123,7 @@ def build_metadata(item, d, wb, collection):
         "language": LANGUAGE,
         "subject": subjects,
         "category": item.get("category") or "",
-        "series_number": str(item["source_key"]) if COLLECTION != "council" else "",
+        "series_number": str(item["source_key"]) if KIND == "ammend" else "",
         "file_number": item.get("file_number") or "",
         "gazette": gazette,
         "source": item["file_url"],
@@ -262,11 +265,14 @@ def show(item_id):
     item["same_file_as"] = same.get(item_id, [])
     key = item["file_key"]
     print(f"identifier: {identifier_for(item_id)}   file: {identifier_for(item_id)}.{file_ext(downloads.get(key))}")
-    print(json.dumps(build_metadata(item, downloads.get(key, {}), wayback.get(key, {}), "opensource"),
+    print(json.dumps(build_metadata(item, downloads.get(key, {}), wayback.get(key, {}), "india-cabsec"),
                      indent=2, ensure_ascii=False))
 
 
 def main(args):
+    if not ARCHIVE:
+        print(f"*** {COLLECTION}: not uploaded to archive.org (download, HF and Wayback only)")
+        return
     if args.show:
         return show(args.show)
     load_env()
@@ -295,7 +301,7 @@ if __name__ == "__main__":
     p.add_argument("--scope", choices=("new", "all"), default="all")
     p.add_argument("--window", default="7d", help="what --scope new means")
     p.add_argument("--limit", type=int, default=0, help="max uploads this run (0 = no limit)")
-    p.add_argument("--collection", default="opensource")
+    p.add_argument("--collection", default="india-cabsec")
     p.add_argument("--update-metadata", action="store_true", help="re-apply changed metadata to uploaded items")
     p.add_argument("--show", metavar="ITEM_ID", help="only print the metadata for one item")
     main(p.parse_args())

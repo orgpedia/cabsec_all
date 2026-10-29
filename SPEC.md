@@ -1,17 +1,22 @@
 # cabsec_all: Spec
 
-The Cabinet Secretariat (cabsec.gov.in) publishes three sets of documents this repo archives:
+The Cabinet Secretariat (cabsec.gov.in) publishes the documents this repo archives, in five collections (`C`):
 
-1. **Council of Ministers orders** in four categories (Council of Ministers lists, Change in Portfolios, Swearing of
-   New Ministers, Initial Compositions), 1947 to today.
-2. **Amendments to the Allocation of Business (AOB) Rules, 1961**, series no. 1–386.
-3. **Amendments to the Transaction of Business (TOB) Rules, 1961**, nos. 1–75.
+1. `council`: **Council of Ministers orders** in four categories (Council of Ministers lists, Change in Portfolios,
+   Swearing of New Ministers, Initial Compositions), 1947 to today.
+2. `aob-ammend`: **Amendments to the Allocation of Business (AOB) Rules, 1961**, series no. 1–386.
+3. `tob-ammend`: **Amendments to the Transaction of Business (TOB) Rules, 1961**, nos. 1–75.
+4. `aob-rules`: **The AOB Rules themselves**, every consolidated version from 1961 to today (88). §9.
+5. `tob-rules`: **The TOB Rules themselves**, every consolidated version (15). §9.
+
+`aob-ammend` and `tob-ammend` were called `aob` and `tob` until 2026-10-29 (`make onetime_rename_ammend`).
 
 This spec covers only getting the files in reliably: download → Hugging Face → Wayback → archive.org. OCR and
 extraction (what `~/orgpedia/cabsec` does today) come later and stay in that repo.
 
-One repo, one HF dataset and one archive.org collection (`india-cabsec`). Every target takes `C=council|aob|tob`
-(default: all three).
+One repo, one HF dataset and one archive.org collection (`india-cabsec`). Every target takes `C=<collection>`
+(default: all five). **archive.org is off** (`ARCHIVE=0`) until archive.org creates `india-cabsec`: every mode still
+downloads, pushes to HF and links Wayback. The rules collections are never uploaded to archive.org for now.
 
 | Mode | Target | What |
 |---|---|---|
@@ -25,20 +30,20 @@ One repo, one HF dataset and one archive.org collection (`india-cabsec`). Every 
 |---|---|---|
 | A1 | Scope | The three sets above, English files only. |
 | A2 | Existing files | **Seed** council from HF `Orgpedia/cabsec` (912 PDFs) plus `~/orgpedia/cabsec/LFS/cabsec/pdfs` (9 PDFs, 2024–26). **Copy only**; the old repo and dataset are not touched. AOB and TOB are downloaded fresh. |
-| B1 | source_key | council: `<site folder>/<file stem>`, e.g. `changeinportfolio/1_Upload_1595`. aob, tob: the site's `sno` (series number). |
-| B2 | file_key | council: same as source_key. aob, tob: file stem (`1_Upload_4249`), so a re-uploaded amendment becomes a new file in the same item. |
-| B3 | item_id | council: `<abbr>.<YYYY-Mon-DD>.<n>`, where `abbr` is `com` (Council of Ministers), `cip` (Change in Portfolios), `snm` (Swearing of New Ministers) or `icm` (Initial Compositions of Council of Ministers). `n` is counted per category and date, ordered by upload number, and **frozen** once given. aob, tob: `<sno>`, unpadded. |
-| B4 | archive.org identifier | `in.gov.cabsec.council.<item_id>`, `in.gov.cabsec.aob.<item_id>`, `in.gov.cabsec.tob.<item_id>` |
+| B1 | source_key | council: `<site folder>/<file stem>`, e.g. `changeinportfolio/1_Upload_1595`. aob-ammend, tob-ammend: the site's `sno` (series number). aob-rules, tob-rules: the file stem. |
+| B2 | file_key | council, rules: same as source_key. aob-ammend, tob-ammend: file stem (`1_Upload_4249`), so a re-uploaded amendment becomes a new file in the same item. |
+| B3 | item_id | council: `<abbr>.<YYYY-Mon-DD>.<n>`, where `abbr` is `com` (Council of Ministers), `cip` (Change in Portfolios), `snm` (Swearing of New Ministers) or `icm` (Initial Compositions of Council of Ministers). `n` is counted per category and date, ordered by upload number, and **frozen** once given. aob-ammend, tob-ammend: `<sno>`, unpadded. aob-rules, tob-rules: `<YYYY-Mon-DD>.<n>` (§9). |
+| B4 | archive.org identifier | `in.gov.cabsec.council.<item_id>`, `in.gov.cabsec.aob.<item_id>` (aob-ammend; later also aob-rules), `in.gov.cabsec.tob.<item_id>` (tob-ammend; later tob-rules) |
 | B5 | Curated inputs | `overrides.json` per collection (§2): 5 AOB date typos, 1 council date. |
 | C1 | NAME / HF dataset | `cabsec_all` → `LFS/cabsec_all/`, dataset `Orgpedia/cabsec_all` (new, public, `viewer: false`). |
-| C2 | Folders in the dataset | **Site file names kept**: `council/pdfs/<site folder>/1_Upload_N.pdf`, `aob/pdfs/1_Upload_N.pdf`, `tob/pdfs/1_Upload_N.pdf`. No year folders. |
+| C2 | Folders in the dataset | **Site file names kept**: `council/pdfs/<site folder>/1_Upload_N.pdf`, `<collection>/pdfs/1_Upload_N.pdf` for the other four. No year folders. |
 | C3 | Symlinks | `input/documents/<C>/pdfs/<same sub path>` |
 | C4 | File types | PDF only (all 1,405 entries are `.pdf`). Type checked from the bytes. |
 | C5 | Replaced files | council: never re-downloaded, warn if `Last-Modified` or size changes. aob/tob: a new upload number under an existing sno is a new file_key, uploaded to the same item. |
 | D1 | Metadata | Table in §5, with one real example per collection. |
 | D2 | Title language | All English. `language=eng`. |
-| D3 | Collection | One collection, `india-cabsec`, for all three sets; `opensource` until archive.org creates it (`IA_COLLECTION`). The sets are told apart by identifier prefix and `subject` (§5). |
-| D4 | First upload | 55 of each set (165 total), oldest first. Then `update_archive_metadata IA_COLLECTION=india-cabsec` and `backfill WHAT=archive IA_COLLECTION=india-cabsec`. |
+| D3 | Collection | One collection, `india-cabsec`, for council and the amendments. The first 164 items went to `opensource` on 2026-10-24; since then archive.org is off (`ARCHIVE=0`) until `india-cabsec` exists, and nothing more goes to `opensource`. The sets are told apart by identifier prefix and `subject` (§5). |
+| D4 | First upload | 55 of each of council, aob-ammend, tob-ammend (164 uploaded, `tob.16` timed out). Then `update_archive_metadata ARCHIVE=1` (moves them to `india-cabsec`) and `backfill WHAT=archive ARCHIVE=1`. |
 | D5 | File name inside the archive.org item | `<identifier>.pdf`, e.g. `in.gov.cabsec.council.cip.1995-Nov-22.1.pdf`, `in.gov.cabsec.aob.1.pdf`. HF keeps the site names (C2). |
 | E1 | Wayback in setup | **None** (`SETUP_WAYBACK=0`). `backfill WHAT=wayback LIMIT=n` links files and refreshes the archive.org metadata afterwards. |
 | E2 | WAYBACK_REUSE | `30d`. All files are ≤ 11 MB, so the default poll timeout is fine. |
@@ -112,14 +117,25 @@ council  item_id = <abbr>.<YYYY-Mon-DD>.<n>   e.g. cip.1995-Nov-22.1
          archive.org : in.gov.cabsec.council.cip.1995-Nov-22.1   file in.gov.cabsec.council.cip.1995-Nov-22.1.pdf
          HF / LFS    : council/pdfs/changeinportfolio/1_Upload_1595.pdf
 
-aob      item_id = <sno>                       e.g. 386
+aob-ammend  item_id = <sno>                    e.g. 386
          archive.org : in.gov.cabsec.aob.386                     file in.gov.cabsec.aob.386.pdf
-         HF / LFS    : aob/pdfs/1_Upload_4249.pdf
+         HF / LFS    : aob-ammend/pdfs/1_Upload_4249.pdf
 
-tob      item_id = <sno>                       e.g. 75
+tob-ammend  item_id = <sno>                    e.g. 75
          archive.org : in.gov.cabsec.tob.75                      file in.gov.cabsec.tob.75.pdf
-         HF / LFS    : tob/pdfs/1_Upload_3982.pdf
+         HF / LFS    : tob-ammend/pdfs/1_Upload_3982.pdf
+
+aob-rules   item_id = <YYYY-Mon-DD>.<n>        e.g. 2026-Jul-27.1
+         archive.org : (later) in.gov.cabsec.aob.2026-Jul-27.1
+         HF / LFS    : aob-rules/pdfs/1_Upload_4265.pdf
+
+tob-rules   item_id = <YYYY-Mon-DD>.<n>        e.g. 2025-Jan-13.1
+         archive.org : (later) in.gov.cabsec.tob.2025-Jan-13.1
+         HF / LFS    : tob-rules/pdfs/1_Upload_3983.pdf
 ```
+
+The amendment identifiers keep the `in.gov.cabsec.aob.` / `in.gov.cabsec.tob.` prefix they were uploaded with. The rules
+share the prefix; their ids (`<YYYY-Mon-DD>.<n>`) can't collide with the numeric amendment ids.
 
 | abbr | Category (site name) | Site folder | Items |
 |---|---|---|---:|
@@ -174,18 +190,16 @@ The dates come from the `index.html` snapshots in `Orgpedia/cabsec` (`pdfs/<cat>
 cabsec_new/
 ├── Makefile  SPEC.md  pyproject.toml  env.example  .gitignore
 ├── input/
-│   ├── src/        common.py discover.py download.py link_wayback.py upload_archive.py status.py onetime_seed.py
+│   ├── src/        common.py discover.py download.py link_wayback.py upload_archive.py status.py onetime_seed.py onetime_rename.py
 │   ├── documents/
 │   │   ├── council/  items.json downloads.json wayback.json archive.json overrides.json delisted.json changes/
 │   │   │             pdfs/<site folder>/1_Upload_N.pdf -> ../../../../../LFS/cabsec_all/council/pdfs/...
-│   │   ├── aob/      (same files)   pdfs/1_Upload_N.pdf -> …
-│   │   └── tob/      (same files)   pdfs/1_Upload_N.pdf -> …
+│   │   ├── aob-ammend/  tob-ammend/  aob-rules/  tob-rules/   (same files)   pdfs/1_Upload_N.pdf -> …
 │   ├── hf/README.md
 │   └── logs/
 └── LFS/cabsec_all/     NOT in git; mirror of HF dataset Orgpedia/cabsec_all
     ├── council/pdfs/{councilofministers,changeinportfolio,swearingofnewministers,initial_compositions_of_council_of_ministers}/
-    ├── aob/pdfs/
-    ├── tob/pdfs/
+    ├── aob-ammend/pdfs/  tob-ammend/pdfs/  aob-rules/pdfs/  tob-rules/pdfs/
     └── raw/<C>/<run>/      raw list responses (not pushed)
 ```
 
@@ -194,11 +208,14 @@ CONFIG, and every script takes `--collection`:
 
 ```python
 COLLECTIONS = {
-    "council": dict(ia_prefix="in.gov.cabsec.council.", hf_prefix="council/pdfs", source_page="https://cabsec.gov.in/councilofministers/changeinportfolios/"),
-    "aob":     dict(ia_prefix="in.gov.cabsec.aob.",     hf_prefix="aob/pdfs",     source_page="https://cabsec.gov.in/allocationofbusinessrules/amendment/"),
-    "tob":     dict(ia_prefix="in.gov.cabsec.tob.",     hf_prefix="tob/pdfs",     source_page="https://cabsec.gov.in/transactionofbusiness/tobamendment/"),
+    "council":    dict(kind="council", ia_prefix="in.gov.cabsec.council.", hf_prefix="council/pdfs",    archive=True,  ...),
+    "aob-ammend": dict(kind="ammend",  ia_prefix="in.gov.cabsec.aob.",     hf_prefix="aob-ammend/pdfs", archive=True,  ...),
+    "tob-ammend": dict(kind="ammend",  ia_prefix="in.gov.cabsec.tob.",     hf_prefix="tob-ammend/pdfs", archive=True,  ...),
+    "aob-rules":  dict(kind="rules",   ia_prefix="in.gov.cabsec.aob.",     hf_prefix="aob-rules/pdfs",  archive=False, ...),
+    "tob-rules":  dict(kind="rules",   ia_prefix="in.gov.cabsec.tob.",     hf_prefix="tob-rules/pdfs",  archive=False, ...),
 }
 ```
+`archive=False`: `upload_archive.py` refuses the collection and `status` skips the archive.org counts.
 
 (Each item's `source_page` metadata is the exact list page it came from, e.g. `/archived/5/1995`.)
 
@@ -223,7 +240,7 @@ COLLECTIONS = {
 }
 ```
 
-`items.json` (aob):
+`items.json` (aob-ammend):
 ```json
 {
   "source_key": "386", "item_id": "386",
@@ -235,7 +252,7 @@ COLLECTIONS = {
 }
 ```
 
-`items.json` (tob): like aob, with `file_no: "1/20/1/2024-Cab"` and `date: "2025-01-13"`, and no gazette fields.
+`items.json` (tob-ammend): like aob-ammend, with `file_no: "1/20/1/2024-Cab"` and `date: "2025-01-13"`, and no gazette fields.
 
 `downloads.json`, `wayback.json` and `archive.json` are as in the reference. Seeded rows have `status: "seeded"`,
 `seed_source: "hf:Orgpedia/cabsec@f079e0b:pdfs/changePort/1995/1_Upload_1595.pdf"` (or `local:…`), and the old
@@ -247,7 +264,8 @@ COLLECTIONS = {
 - council `discover`: the current API (`page_id` 18/19/20, `POST year_id` for each year in the dropdown), plus the
   `/archived/<sec>` year list, fetching only years not seen before and the latest archived year.
 - council `discover_full`: every archived year page as well (157 pages).
-- aob, tob: one GET returns the whole list, so `discover` and `discover_full` are the same.
+- aob-ammend, tob-ammend: one GET returns the whole list, so `discover` and `discover_full` are the same.
+- aob-rules, tob-rules: the current version (API) plus the archived year pages, incremental like council (§9).
 - A known file that is missing from a full walk is marked `listed: false` and logged. It is never deleted.
 
 **onetime_seed (council only).**
@@ -264,7 +282,7 @@ COLLECTIONS = {
 
 **upload_archive.** `build_metadata()` per collection. Empty values are dropped, and `wayback_url` is included only when linked.
 
-| Field | council (`in.gov.cabsec.council.cip.1995-Nov-22.1`) | aob (`in.gov.cabsec.aob.386`) | tob (`in.gov.cabsec.tob.75`) |
+| Field | council (`in.gov.cabsec.council.cip.1995-Nov-22.1`) | aob-ammend (`in.gov.cabsec.aob.386`) | tob-ammend (`in.gov.cabsec.tob.75`) |
 |---|---|---|---|
 | collection | `opensource` → `india-cabsec` | same | same |
 | mediatype | `texts` | `texts` | `texts` |
@@ -272,7 +290,7 @@ COLLECTIONS = {
 | date | `1995-11-22` | `2026-07-22` | `2025-01-13` |
 | creator, publisher | `Cabinet Secretariat, Government of India` | same | same |
 | language | `eng` | `eng` | `eng` |
-| subject | `Ministers`; `Change In Portfolios` (`Ministers` + one of the 4 categories) | `Allocation of Business Rules` | `Transaction of Business Rules` |
+| subject | `Ministers`; `Change In Portfolios` (`Ministers` + one of the 4 categories) | `Allocation of Business Rules`; `AOB Amendment` | `Transaction of Business Rules`; `TOB Amendment` |
 | category | `Change In Portfolios` (one of the 4 site names) | n/a | n/a |
 | series_number | n/a | `386` | `75` |
 | gazette | n/a | `S.O. 4040(E), 2026-07-23` | n/a |
@@ -286,19 +304,23 @@ COLLECTIONS = {
 | wayback_url | only after Wayback is linked | | |
 | description | HTML table: title, date, category, source URL, source page, Wayback, downloaded, same file as | same, plus gazette | same |
 
-All three sets go into the one `india-cabsec` collection. Subjects are kept to these few values so archive.org's
-topic facet splits the collection cleanly: `Ministers` (with the council category as a second subject),
-`Allocation of Business Rules` and `Transaction of Business Rules`. The council category is also in `category`.
+Council and the amendments go into the one `india-cabsec` collection. Subjects are kept to these few values so
+archive.org's topic facet splits the collection cleanly: `Ministers` (with the council category as a second subject),
+`Allocation of Business Rules` + `AOB Amendment`, and `Transaction of Business Rules` + `TOB Amendment`. The council
+category is also in `category`. (The 164 items uploaded on 2026-10-24 still have the older subjects until
+`update_archive_metadata ARCHIVE=1` runs.)
 
-**update_archive_metadata IA_COLLECTION=<new>.** Moves already-uploaded items to the new collection and refreshes their metadata.
+**upload_archive, update_archive_metadata.** Do nothing unless `ARCHIVE=1`; never for the rules collections.
+
+**update_archive_metadata ARCHIVE=1.** Moves already-uploaded items to `IA_COLLECTION` (`india-cabsec`) and refreshes their metadata.
 
 **status.** Per collection: site counts against items, downloads, wayback and archive, held items, delisted items, and the
 archive.org search count per prefix.
 
 ## 6. Hugging Face dataset
 
-`Orgpedia/cabsec_all` (new), public, files only, `viewer: false`. The card is `input/hf/README.md` and describes the three
-folders and the archive.org prefixes. `make sync_hf_push` uses `hf upload`. Pushing large sets in folders is the
+`Orgpedia/cabsec_all` (new), public, files only, `viewer: false`. The card is `input/hf/README.md` and describes the
+folders (`council/`, `aob-ammend/`, `tob-ammend/`, `aob-rules/`, `tob-rules/`) and the archive.org prefixes. `make sync_hf_push` uses `hf upload`. Pushing large sets in folders is the
 fallback. `Orgpedia/cabsec` stays as it is.
 
 ## 7. Environment
@@ -309,8 +331,9 @@ and `IA_SECRET_KEY` (also used for SPN2). `env.example` ships with the repo.
 Makefile ADAPT block:
 ```make
 NAME                  := cabsec_all
-C                     ?= council aob tob
-IA_COLLECTION         ?= opensource   # then india-cabsec
+C                     ?= council aob-ammend tob-ammend aob-rules tob-rules
+ARCHIVE               ?= 0            # 1 once archive.org has created india-cabsec
+IA_COLLECTION         ?= india-cabsec
 SETUP_ARCHIVE_LIMIT   ?= 55
 SETUP_WAYBACK         ?= 0
 ```
@@ -319,6 +342,29 @@ SETUP_WAYBACK         ?= 0
 
 - OCR, translation, order extraction (`~/orgpedia/cabsec` flow).
 - Hindi versions of the documents.
-- Other cabsec pages (Complete AOB Rules, First/Second Schedule, Cabinet Committees, the TOB Rules text). Each is easy to
-  add later as another set.
+- Other cabsec pages (First/Second Schedule, Cabinet Committees). Each is easy to add later as another collection.
+- archive.org items for the rules collections.
 - GitHub Actions or a scheduler. `make update` is run by hand.
+
+## 9. The complete rules (aob-rules, tob-rules), studied 2026-10-29
+
+| Collection | Current version | Earlier versions | Files |
+|---|---|---|---:|
+| aob-rules | `page_id=206` (`/allocationofbusinessrules/completeaobrules/`): `Complete AOB rules (27.07.2026)`, `1_Upload_4265` | `/archived/30/<year>`: 17 years, 1961 and 2011–2026, 87 rows | 88, about 120 MB |
+| tob-rules | `page_id=207` (`/transactionofbusiness/transactionofbusinessrules/`): `Transaction of Business Rules (13.01.2025)`, `1_Upload_3983` | `/archived/17/<year>`: 10 years, 1961 and 2010–2024, 14 rows | 15, about 5 MB |
+
+- Rows: `(Upto Amendment Series No.299) (13/07/2011) (930.3 KB)`, `Complete AOB Rules (07/05/2026) (1.5 MB)`,
+  `First AOB Notification (14/01/1961) (8.8 MB)`. The archive rows have the same table as the council archive pages.
+- No series numbers, and some dates have two or three versions (three on 23/12/2022). Identical files show up in
+  `same_file_as`.
+- Files: `writereaddata/allocationbusinessrule/completeaobrules/english/…`,
+  `writereaddata/transactionofbusinessrulescomplete/completeaobrules/english/…` (sic). No file name clashes with the
+  amendments.
+
+| | |
+|---|---|
+| source_key = file_key | file stem, `1_Upload_4265` |
+| item_id | `<YYYY-Mon-DD>.<n>`, `n` per date in upload-number order; frozen. Held (`bad_date`) if the date won't parse. |
+| fields | `title_site`, `date_site`, `date`, `upto_amendment` (N from "Upto Amendment Series No. N", else null), `current` (true for the version on the live page), `list_url`, `size_site` |
+| discover | live page + archived years not seen before + the latest archived year; `discover_full` walks every year. When a new version is posted, the old one moves into the archive under the same key: logged as `metadata_changed` (`current`), not a new item. |
+| pipeline | download → HF (`aob-rules/pdfs/`, `tob-rules/pdfs/`) → Wayback. No archive.org. |

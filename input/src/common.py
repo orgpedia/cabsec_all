@@ -1,7 +1,7 @@
 """Shared paths, constants and helpers for the import scripts.
 
-The collection (council, aob or tob) comes from the CABSEC_COLLECTION environment variable, which the
-Makefile sets for every run. Everything collection-specific below is derived from it.
+The collection (council, aob-ammend, tob-ammend, aob-rules or tob-rules) comes from the CABSEC_COLLECTION
+environment variable, which the Makefile sets for every run. Everything collection-specific below is derived from it.
 
 Files keep the site's names: <HF_PREFIX>/<file_key>.pdf, e.g. council/pdfs/changeinportfolio/1_Upload_1595.pdf.
 """
@@ -30,21 +30,44 @@ SITE = "https://cabsec.gov.in"
 USER_AGENT = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:128.0) Gecko/20100101 Firefox/128.0"
 FORMATS = ("pdf",)                          # accepted file types, detected from bytes
 
+# kind: council (4 categories), ammend (amendments, numbered by the site), rules (complete text, by date).
+# archive: False = download, HF and Wayback only; upload_archive.py refuses the set.
+# Amendments and rules share an archive.org prefix: item ids <sno> vs <YYYY-Mon-DD>.<n> never collide.
 COLLECTIONS = {
     "council": {
+        "kind": "council",
         "ia_prefix": "in.gov.cabsec.council.",
         "hf_prefix": "council/pdfs",
         "source_page": f"{SITE}/councilofministers/changeinportfolios/",
+        "archive": True,
     },
-    "aob": {
+    "aob-ammend": {
+        "kind": "ammend",
         "ia_prefix": "in.gov.cabsec.aob.",
-        "hf_prefix": "aob/pdfs",
+        "hf_prefix": "aob-ammend/pdfs",
         "source_page": f"{SITE}/allocationofbusinessrules/amendment/",
+        "archive": True,
     },
-    "tob": {
+    "tob-ammend": {
+        "kind": "ammend",
         "ia_prefix": "in.gov.cabsec.tob.",
-        "hf_prefix": "tob/pdfs",
+        "hf_prefix": "tob-ammend/pdfs",
         "source_page": f"{SITE}/transactionofbusiness/tobamendment/",
+        "archive": True,
+    },
+    "aob-rules": {
+        "kind": "rules",
+        "ia_prefix": "in.gov.cabsec.aob.",
+        "hf_prefix": "aob-rules/pdfs",
+        "source_page": f"{SITE}/allocationofbusinessrules/completeaobrules/",
+        "archive": False,
+    },
+    "tob-rules": {
+        "kind": "rules",
+        "ia_prefix": "in.gov.cabsec.tob.",
+        "hf_prefix": "tob-rules/pdfs",
+        "source_page": f"{SITE}/transactionofbusiness/transactionofbusinessrules/",
+        "archive": False,
     },
 }
 
@@ -53,6 +76,8 @@ if COLLECTION not in COLLECTIONS:
     raise SystemExit(f"Set CABSEC_COLLECTION to one of {', '.join(COLLECTIONS)} (got {COLLECTION!r})")
 _C = COLLECTIONS[COLLECTION]
 
+KIND = _C["kind"]
+ARCHIVE = _C["archive"]                     # False: never uploaded to archive.org
 HF_PREFIX = _C["hf_prefix"]                 # folder inside LFS/<NAME>/ and the HF repo
 IA_PREFIX = _C["ia_prefix"]                 # archive.org identifier = IA_PREFIX + item_id
 SOURCE_PAGE = _C["source_page"]             # default human-facing page (items carry their own list_url)
@@ -283,10 +308,10 @@ def is_new(item, window):
 
 
 def upload_order(item):
-    """Oldest first: council by date, aob / tob by series number."""
-    if COLLECTION == "council":
-        return (item.get("date") or "9999", sort_key(item.get("item_id") or ""))
-    return (0, sort_key(item["source_key"]))
+    """Oldest first: amendments by series number, council and rules by date."""
+    if KIND == "ammend":
+        return (0, sort_key(item["source_key"]))
+    return (item.get("date") or "9999", sort_key(item.get("item_id") or ""))
 
 
 def group_by_file(items):

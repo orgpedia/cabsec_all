@@ -1,11 +1,13 @@
 """Discover documents on cabsec.gov.in and record them in input/documents/<collection>/items.json.
 
-Usage: CABSEC_COLLECTION=council|aob|tob discover.py [--full]
+Usage: CABSEC_COLLECTION=<collection> discover.py [--full]
 
 council: the current lists (ajax_page_data.php page_id 18/19/20, every year in the dropdown) and the archived
          lists (/archived/<1|3|5|88>/<year>). Without --full only archived years not seen before, plus the latest
          year of each section, are fetched. Files the site no longer lists come from delisted.json.
-aob/tob: one request returns the whole list (page_id 205 / 208), so every run is a full walk.
+aob-ammend/tob-ammend: one request returns the whole list (page_id 205 / 208), so every run is a full walk.
+aob-rules/tob-rules: the current version (page_id 206 / 207) and earlier versions (/archived/<30|17>/<year>),
+         fetched like the council archive.
 
 --full walks the whole site: updates changed entries, records replaced files, and marks entries no longer listed
 as removed (their files and archive.org items are kept). overrides.json fixes site values (e.g. bad dates).
@@ -20,6 +22,7 @@ import time
 
 from common import (
     COLLECTION,
+    KIND,
     RAW_DIR,
     SITE,
     ChangeLog,
@@ -35,7 +38,7 @@ from common import (
     write_records,
 )
 
-TRACKED = ("title_site", "date", "category", "file_url")  # fields whose change is logged as metadata_changed
+TRACKED = ("title_site", "date", "category", "file_url", "current")  # changes logged as metadata_changed
 MIN_FULL_RATIO = 0.9  # don't mark entries removed if a full walk saw fewer than this share of known ones
 LIST_DELAY = 0.5      # seconds between list pages
 FIRST_DATE = "1947-08-15"
@@ -59,6 +62,11 @@ CATEGORIES = {
                                                          page_id=None, page=None, archived=88),
 }
 AOB_PAGE_ID, TOB_PAGE_ID = 205, 208
+# Complete rules: current version (page_id, page) and the archived section with the earlier versions
+RULES = {
+    "aob-rules": dict(page_id=206, page="/allocationofbusinessrules/completeaobrules/", archived=30),
+    "tob-rules": dict(page_id=207, page="/transactionofbusiness/transactionofbusinessrules/", archived=17),
+}
 
 
 class Fetcher:
@@ -158,24 +166,32 @@ def archived_rows(text):
             yield cells[1], hrefs[0]
 
 
-def council_archived(fetch, full, items):
+def archived(fetch, sec, full, items):
+    """(path, title, date_site, list_url, size) per row of /archived/<sec>/<year>.
+
+    Without full: only years no known item came from, plus the latest year.
+    """
     seen_years = {m.group(0) for i in items.values() for m in [re.search(r"archived/\d+/\d{4}", i.get("list_url") or "")] if m}
-    for folder, cat in CATEGORIES.items():
-        sec = cat["archived"]
-        index = fetch(f"{SITE}/archived/{sec}", name=f"archived_{sec}.html")
-        years = sorted(set(re.findall(rf"archived/{sec}/(\d{{4}})", index)))
-        if not full and years:
-            years = [y for y in years if f"archived/{sec}/{y}" not in seen_years] + [years[-1]]
-        for y in sorted(set(years)):
-            url = f"{SITE}/archived/{sec}/{y}"
-            for desc, href in archived_rows(fetch(url, name=f"archived_{sec}_{y}.html")):
-                path = href.split("writereaddata/", 1)[-1]
-                m = re.search(r"\((\d{1,2}\s*/\s*\d{1,2}\s*/\s*\d{4})\)", desc)
-                title = clean(re.sub(r"\s*\(\s*[\d.]+\s*(?:KB|MB|GB|B)\s*\)\s*$", "", desc))
-                size = re.search(r"\(\s*([\d.]+\s*(?:KB|MB|GB|B))\s*\)\s*$", desc)
-                e = council_entry(path, title, m.group(1) if m else "", url, size.group(1) if size else "")
-                if e:
-                    yield e
+    index = fetch(f"{SITE}/archived/{sec}", name=f"archived_{sec}.html")
+    years = sorted(set(re.findall(rf"archived/{sec}/(\d{{4}})", index)))
+    if not full and years:
+        years = [y for y in years if f"archived/{sec}/{y}" not in seen_years] + [years[-1]]
+    for y in sorted(set(years)):
+        url = f"{SITE}/archived/{sec}/{y}"
+        for desc, href in archived_rows(fetch(url, name=f"archived_{sec}_{y}.html")):
+            path = href.split("writereaddata/", 1)[-1]
+            m = re.search(r"\((\d{1,2}\s*/\s*\d{1,2}\s*/\s*\d{4})\)", desc)
+            title = clean(re.sub(r"\s*\(\s*[\d.]+\s*(?:KB|MB|GB|B)\s*\)\s*$", "", desc))
+            size = re.search(r"\(\s*([\d.]+\s*(?:KB|MB|GB|B))\s*\)\s*$", desc)
+            yield path, title, m.group(1) if m else "", url, size.group(1) if size else ""
+
+
+def council_archived(fetch, full, items):
+    for cat in CATEGORIES.values():
+        for row in archived(fetch, cat["archived"], full, items):
+            e = council_entry(*row)
+            if e:
+                yield e
 
 
 def list_council(full, items, fetch):
@@ -233,6 +249,42 @@ def list_tob(fetch):
         }
 
 
+def rules_entry(path, title_site, date_site, list_url, size_site, current):
+    """One version of the complete rules, e.g. '(Upto Amendment Series No.299) (13/07/2011)'."""
+    upto = re.search(r"Amendment\s+Series\s+No\.?\s*(\d+)", title_site, re.I)
+    return {
+        "source_key": stem(path),
+        "file_key": stem(path),
+        "file_url": f"{SITE}/writereaddata/{path}",
+        "title_site": title_site,
+        "date_site": date_site,
+        "date": parse_dmy(date_site),
+        "upto_amendment": int(upto.group(1)) if upto else None,
+        "current": current,
+        "list_url": list_url,
+        "size_site": size_site,
+        "listed": True,
+    }
+
+
+def list_rules(full, items, fetch):
+    """The current version first (it wins), then the archived versions."""
+    cfg = RULES[COLLECTION]
+    seen = set()
+    rows = []
+    for r in api_rows(fetch, cfg["page_id"]):
+        path, size = split_fileinfo(r.get("fileinfo"))
+        if path:
+            date_site = clean(r.get("dateformat"))
+            rows.append((path, clean(f"{clean(r.get('title'))} {date_site}"), date_site, f"{SITE}{cfg['page']}", size, True))
+    rows += [(*row, False) for row in archived(fetch, cfg["archived"], full, items)]
+    for row in rows:
+        e = rules_entry(*row)
+        if e["source_key"] not in seen:
+            seen.add(e["source_key"])
+            yield e
+
+
 # ---------------------------------------------------------------- ADAPT
 
 def list_entries(full, items, raw_dir):
@@ -240,34 +292,37 @@ def list_entries(full, items, raw_dir):
     fetch = Fetcher(raw_dir)
     if COLLECTION == "council":
         yield from list_council(full, items, fetch)
-    elif COLLECTION == "aob":
+    elif COLLECTION == "aob-ammend":
         yield from list_aob(fetch)
-    else:
+    elif COLLECTION == "tob-ammend":
         yield from list_tob(fetch)
+    else:
+        yield from list_rules(full, items, fetch)
 
 
 def assign_order(rec):
-    """Order in which new entries get ids: council by site folder, then upload number (1_Upload_<n>)."""
-    if COLLECTION != "council":
+    """Order in which new entries get ids: amendments by sno; council (by site folder) and rules by upload number."""
+    if KIND == "ammend":
         return sort_key(rec["source_key"])
     m = re.search(r"(\d+)$", rec["source_key"])
     return (rec.get("site_folder") or "", int(m.group(1)) if m else 0, rec["source_key"])
 
 
 def make_item_id(entry, items):
-    """Frozen id: council <abbr>.<YYYY-Mon-DD>.<n> (n per abbr and date), aob/tob <sno>.
+    """Frozen id: council <abbr>.<YYYY-Mon-DD>.<n> (n per abbr and date), rules <YYYY-Mon-DD>.<n>, amendments <sno>.
 
     Only [A-Za-z0-9._-] allowed, IA_PREFIX + item_id <= 100 chars. Raise Held("reason") rather than guess:
     an archive.org identifier can never be renamed.
     """
-    if COLLECTION != "council":
+    if KIND == "ammend":
         return str(entry["source_key"])
     date = entry.get("date")
     latest = (datetime.date.today() + datetime.timedelta(days=30)).isoformat()
     if not date or not FIRST_DATE <= date <= latest:
         raise Held("bad_date")
     y, m, d = date.split("-")
-    prefix = f"{entry['abbr']}.{y}-{MONTHS[int(m) - 1].title()}-{d}."
+    prefix = f"{entry['abbr']}." if KIND == "council" else ""
+    prefix += f"{y}-{MONTHS[int(m) - 1].title()}-{d}."
     used = [int(i["item_id"][len(prefix):]) for i in items.values()
             if (i.get("item_id") or "").startswith(prefix) and i["item_id"][len(prefix):].isdigit()]
     item_id = f"{prefix}{max(used, default=0) + 1}"
@@ -359,7 +414,7 @@ def assign(items, log):
 def main(args):
     items = read_records("items")
     overrides = read_json("overrides", {})
-    full = args.full or not items or COLLECTION != "council"
+    full = args.full or not items or KIND == "ammend"
     log, now = ChangeLog(), utc_now()
     raw_dir = RAW_DIR / datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d_%H%M%S")
     seen, new = set(), 0

@@ -26,11 +26,13 @@ The files keep the names they have on cabsec.gov.in (`writereaddata/<folder>/eng
 | `council/pdfs/changeinportfolio/` | Change in Portfolios orders | <https://cabsec.gov.in/councilofministers/changeinportfolios/> |
 | `council/pdfs/swearingofnewministers/` | Swearing of New Ministers | <https://cabsec.gov.in/councilofministers/swearingofnewministers/> |
 | `council/pdfs/initial_compositions_of_council_of_ministers/` | Initial Compositions of Council of Ministers | <https://cabsec.gov.in/archived/88> |
-| `aob/pdfs/` | Amendments to the Government of India (Allocation of Business) Rules, 1961 | <https://cabsec.gov.in/allocationofbusinessrules/amendment/> |
-| `tob/pdfs/` | Amendments to the Government of India (Transaction of Business) Rules, 1961 | <https://cabsec.gov.in/transactionofbusiness/tobamendment/> |
+| `aob-ammend/pdfs/` | Amendments to the Government of India (Allocation of Business) Rules, 1961 | <https://cabsec.gov.in/allocationofbusinessrules/amendment/> |
+| `tob-ammend/pdfs/` | Amendments to the Government of India (Transaction of Business) Rules, 1961 | <https://cabsec.gov.in/transactionofbusiness/tobamendment/> |
+| `aob-rules/pdfs/` | The Allocation of Business Rules, 1961: every consolidated version, 1961 to today | <https://cabsec.gov.in/allocationofbusinessrules/completeaobrules/>, <https://cabsec.gov.in/archived/30> |
+| `tob-rules/pdfs/` | The Transaction of Business Rules, 1961: every consolidated version, 1961 to today | <https://cabsec.gov.in/transactionofbusiness/transactionofbusinessrules/>, <https://cabsec.gov.in/archived/17> |
 
-Older council orders come from the site's archive pages (`/archived/<1|3|5|88>/<year>`). A few files the site
-no longer lists are kept as well.
+Older council orders and earlier versions of the rules come from the site's archive pages (`/archived/<sec>/<year>`).
+A few files the site no longer lists are kept as well.
 
 ## Also archived at
 
@@ -38,8 +40,9 @@ no longer lists are kept as well.
   - `https://archive.org/details/in.gov.cabsec.council.<abbr>.<YYYY-Mon-DD>.<n>`, where `abbr` is `com` (Council of
     Ministers), `cip` (Change in Portfolios), `snm` (Swearing of New Ministers) or `icm` (Initial Compositions).
     Example: `in.gov.cabsec.council.cip.1995-Nov-22.1`.
-  - `https://archive.org/details/in.gov.cabsec.aob.<series no.>`, e.g. `in.gov.cabsec.aob.386`
-  - `https://archive.org/details/in.gov.cabsec.tob.<no.>`, e.g. `in.gov.cabsec.tob.75`
+  - `https://archive.org/details/in.gov.cabsec.aob.<series no.>`, e.g. `in.gov.cabsec.aob.386` (AOB amendments)
+  - `https://archive.org/details/in.gov.cabsec.tob.<no.>`, e.g. `in.gov.cabsec.tob.75` (TOB amendments)
+  - The complete rules are not on archive.org yet.
 - Wayback Machine: the original source URL of each file
 
 ## Updates

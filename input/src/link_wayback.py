@@ -1,6 +1,6 @@
 """Ask the Wayback Machine (Save Page Now 2) to capture each file URL not yet linked.
 
-Usage: CABSEC_COLLECTION=council|aob|tob link_wayback.py [--scope new|all] [--window 7d] [--limit N] [--reuse 30d]
+Usage: CABSEC_COLLECTION=<collection> link_wayback.py [--scope new|all] [--window 7d] [--limit N] [--reuse 30d]
 
 SPN2 API: https://docs.google.com/document/d/1Nsv52MvSjbLb2PCpHlat0gkzw0EvtSgpKHu4mk0MnrA
 Needs only URLs, not the files. Oldest first; re-runs retry only what isn't linked.

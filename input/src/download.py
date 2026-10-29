@@ -1,6 +1,6 @@
 """Download the current file of every active item, once per file_key.
 
-Usage: CABSEC_COLLECTION=council|aob|tob download.py [--scope new|all] [--window 7d] [--limit N] [--retry-failed] [--delay 1]
+Usage: CABSEC_COLLECTION=<collection> download.py [--scope new|all] [--window 7d] [--limit N] [--retry-failed] [--delay 1]
 
 --scope new  only files of items first seen within --window; all = every current file.
 

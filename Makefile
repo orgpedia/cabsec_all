@@ -7,12 +7,16 @@ PY   := uv run python -u
 
 # ---------------------------------------------------------------- ADAPT
 NAME := cabsec_all
-# collections every target works on; e.g. make download C=aob
-C ?= council aob tob
-# one archive.org collection for all three: opensource (Community Texts) until archive.org creates india-cabsec, then
-#   make update_archive_metadata IA_COLLECTION=india-cabsec
-IA_COLLECTION ?= opensource
-# setup uploads only this many items of each of council, aob, tob to archive.org (enough to request a collection); empty = all
+# collections every target works on; e.g. make download C=aob-rules
+C ?= council aob-ammend tob-ammend aob-rules tob-rules
+# 0 = archive.org is off: upload_archive and update_archive_metadata do nothing (every mode still downloads,
+# pushes to HF and links Wayback). Once archive.org has created india-cabsec:
+#   make update_archive_metadata ARCHIVE=1     moves the 164 items already in opensource and refreshes their metadata
+#   make backfill WHAT=archive ARCHIVE=1       uploads the rest
+# The rules collections (aob-rules, tob-rules) are never uploaded (ARCHIVE in input/src/common.py).
+ARCHIVE ?= 0
+IA_COLLECTION ?= india-cabsec
+# setup uploads only this many items of each collection to archive.org; empty = all
 SETUP_ARCHIVE_LIMIT ?= 55
 # 1 = setup links Wayback before uploading; 0 = leave Wayback to `backfill WHAT=wayback`
 SETUP_WAYBACK ?= 0
@@ -44,6 +48,7 @@ LIMIT_ARG := $(if $(LIMIT),--limit $(LIMIT))
 RETRY_ARG := $(if $(filter 1,$(RETRY_FAILED)),--retry-failed)
 SCOPE_ARG = --scope $(SCOPE) --window $(NEW_WINDOW)
 COLL_ARG := --collection $(IA_COLLECTION)
+ARCHIVE_OFF = echo "*** archive.org is off (ARCHIVE=0): $@ skipped"
 
 # $(call EACH,<script and args>): run once per collection in C,
 # log to input/logs/<target>.<collection>.log; every collection runs, the target fails if any failed.
@@ -52,15 +57,15 @@ EACH = mkdir -p $(LOGS); set -o pipefail; rc=0; \
 	$(foreach c,$(C),echo "===== $(c)"; $(call RUN_C,$(c),$(1)) || rc=1;) exit $$rc
 HF = mkdir -p $(LOGS); set -o pipefail; uv run $(ENV_FILE) hf $(1) 2>&1 | tee $(2)
 
-.PHONY: help install discover discover_full onetime_seed download link_wayback upload_archive update_archive_metadata \
-        show_metadata sync_hf_push hf_card import status setup update backfill
+.PHONY: help install discover discover_full onetime_seed onetime_rename_ammend download link_wayback upload_archive \
+        update_archive_metadata show_metadata sync_hf_push hf_card import status setup update backfill
 
 help:
-	@echo "Usage: make <target> [C='council aob tob'] [VAR=value ...]   (see SPEC.md)"
+	@echo "Usage: make <target> [C='$(C)'] [VAR=value ...]   (see SPEC.md)"
 	@echo ""
 	@echo "Modes"
 	@echo "  setup                    first time: discover_full onetime_seed download sync_hf_push hf_card upload_archive LIMIT=$(SETUP_ARCHIVE_LIMIT)"
-	@echo "  update                   new items: discover download link_wayback upload_archive sync_hf_push status"
+	@echo "  update                   new items: discover download link_wayback upload_archive (ARCHIVE=1 only) sync_hf_push status"
 	@echo "  backfill WHAT=archive    upload the archive.org backlog              [C=... LIMIT=$(LIMIT)]"
 	@echo "  backfill WHAT=wayback    capture the Wayback backlog, then refresh archive.org metadata"
 	@echo ""
@@ -69,17 +74,18 @@ help:
 	@echo "  discover                 record new entries from cabsec.gov.in in input/documents/<c>/items.json"
 	@echo "  discover_full            walk the whole site: update changed entries, mark removed ones"
 	@echo "  onetime_seed             council only: hf download $(SEED_HF_REPO) -> $(SEED_DIR), seed matching files"
+	@echo "  onetime_rename_ammend    rename aob -> aob-ammend, tob -> tob-ammend (git, LFS, symlinks, HF)"
 	@echo "  download                 download missing files                       [SCOPE=$(SCOPE) LIMIT=$(LIMIT) RETRY_FAILED=$(RETRY_FAILED)]"
 	@echo "  link_wayback             Wayback SPN2 captures                        [SCOPE=$(SCOPE) LIMIT=$(LIMIT) WAYBACK_REUSE=$(WAYBACK_REUSE)]"
-	@echo "  upload_archive           upload to archive.org, oldest first          [SCOPE=$(SCOPE) LIMIT=$(LIMIT) IA_COLLECTION=$(IA_COLLECTION)]"
-	@echo "  update_archive_metadata  re-apply changed metadata (incl. collection) [IA_COLLECTION=india-cabsec]"
-	@echo "  show_metadata            print one item's archive.org metadata         [C=aob ID=386]"
+	@echo "  upload_archive           upload to archive.org, oldest first          [ARCHIVE=$(ARCHIVE) SCOPE=$(SCOPE) LIMIT=$(LIMIT)]"
+	@echo "  update_archive_metadata  re-apply changed metadata (incl. collection) [ARCHIVE=$(ARCHIVE)]"
+	@echo "  show_metadata            print one item's archive.org metadata         [C=aob-ammend ID=386]"
 	@echo "  sync_hf_push             hf upload: LFS/$(NAME)/<c>/pdfs -> $(HF_REPO) (unchanged files skipped)"
 	@echo "  hf_card                  hf upload: input/hf/README.md -> $(HF_REPO)"
 	@echo "  import                   hf download: $(HF_REPO) -> LFS/$(NAME), then relink"
 	@echo "  status                   counts + site vs archive.org check           [IA_CHECK=$(IA_CHECK)]"
 	@echo ""
-	@echo "archive.org collection: $(IA_COLLECTION) (target: india-cabsec)"
+	@echo "archive.org: ARCHIVE=$(ARCHIVE) (1 = upload to $(IA_COLLECTION)); never for aob-rules, tob-rules"
 	@echo "Credentials come from .env (see env.example)."
 
 install: pyproject.toml
@@ -98,6 +104,10 @@ onetime_seed:
 	$(call HF,download $(SEED_HF_REPO) --repo-type dataset --include "pdfs/**/*.pdf" --local-dir $(SEED_DIR),$(LOGS)/onetime_seed_hf.log)
 	mkdir -p $(LOGS); set -o pipefail; $(call RUN_C,council,onetime_seed.py --seed-dir $(SEED_DIR))
 
+# Renames the amendment collections locally and on HF; archive.org identifiers stay. Commit afterwards.
+onetime_rename_ammend:
+	mkdir -p $(LOGS); set -o pipefail; uv run python -u $(SRC)/onetime_rename.py 2>&1 | tee $(LOGS)/$@.log
+
 download:
 	$(call EACH,download.py $(SCOPE_ARG) --delay $(DOWNLOAD_DELAY) $(RETRY_ARG) $(LIMIT_ARG))
 
@@ -105,13 +115,21 @@ link_wayback:
 	$(call EACH,link_wayback.py $(SCOPE_ARG) --reuse $(WAYBACK_REUSE) $(LIMIT_ARG))
 
 upload_archive:
+ifeq ($(ARCHIVE),1)
 	$(call EACH,upload_archive.py $(SCOPE_ARG) $(LIMIT_ARG) $(COLL_ARG))
+else
+	@$(ARCHIVE_OFF)
+endif
 
 update_archive_metadata:
+ifeq ($(ARCHIVE),1)
 	$(call EACH,upload_archive.py --update-metadata $(COLL_ARG))
+else
+	@$(ARCHIVE_OFF)
+endif
 
 show_metadata:
-	@test -n "$(ID)" || { echo ">>> usage: make show_metadata C=aob ID=386"; exit 1; }
+	@test -n "$(ID)" || { echo ">>> usage: make show_metadata C=aob-ammend ID=386"; exit 1; }
 	@for c in $(C); do CABSEC_COLLECTION=$$c $(PY) $(SRC)/upload_archive.py --show "$(ID)" || true; done
 
 # Unchanged files are skipped and nothing is deleted on HF; the dataset is created (public) on the first push.
@@ -167,5 +185,5 @@ backfill:
 	    $(MAKE) --no-print-directory link_wayback SCOPE=all || rc=1; \
 	    $(MAKE) --no-print-directory update_archive_metadata || rc=1; \
 	    $(MAKE) --no-print-directory status || rc=1; exit $$rc ;; \
-	  *) echo ">>> usage: make backfill WHAT=archive|wayback [C=council|aob|tob] [LIMIT=n]"; exit 1 ;; \
+	  *) echo ">>> usage: make backfill WHAT=archive|wayback [C=...] [LIMIT=n] [ARCHIVE=1]"; exit 1 ;; \
 	esac

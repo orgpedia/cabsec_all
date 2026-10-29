@@ -1,18 +1,23 @@
 """Print pipeline counts and compare the site with archive.org.
 
-Usage: CABSEC_COLLECTION=council|aob|tob status.py [--no-ia]
+Usage: CABSEC_COLLECTION=<collection> status.py [--no-ia]
 """
 
 import argparse
+import re
 from collections import Counter
 
-from common import COLLECTION, IA_PREFIX, active, file_ext, identifier_for, is_listed, read_records
+from common import ARCHIVE, COLLECTION, IA_PREFIX, KIND, active, file_ext, identifier_for, is_listed, read_records
+
+# item ids per kind; amendments and rules share an IA_PREFIX, so the search result is filtered by these
+ID_RE = {"council": r"[a-z]{3}\.\d{4}-[A-Z][a-z]{2}-\d{2}\.\d+", "ammend": r"\d+", "rules": r"\d{4}-[A-Z][a-z]{2}-\d{2}\.\d+"}
 
 
 def archive_org_identifiers():
     import internetarchive as ia
 
-    return {r["identifier"] for r in ia.search_items(f"identifier:{IA_PREFIX}*", fields=["identifier"])}
+    found = {r["identifier"] for r in ia.search_items(f"identifier:{IA_PREFIX}*", fields=["identifier"])}
+    return {i for i in found if re.fullmatch(ID_RE[KIND], i[len(IA_PREFIX):])}
 
 
 def main(args):
@@ -41,14 +46,17 @@ def main(args):
     if reasons:
         print(f"\tfailed by reason: {dict(reasons)}")
     print(f"*** Wayback: linked {len(linked)} / {len(done)}   pending {len(done) - len(linked)}")
-    print(f"*** archive.org: uploaded {len(uploaded)} / {len(act)}   pending {len(act) - len(uploaded)}   "
-          f"by collection: {dict(collections)}")
+    if ARCHIVE:
+        print(f"*** archive.org: uploaded {len(uploaded)} / {len(act)}   pending {len(act) - len(uploaded)}   "
+              f"by collection: {dict(collections)}")
+    else:
+        print("*** archive.org: not uploaded for this collection (download, HF and Wayback only)")
 
     held = sorted((str(i["source_key"]), i["status"]) for i in on_site if (i.get("status") or "").startswith("held"))
     if held:
         print(f"*** Held ({len(held)}): {held[:20]}")
 
-    if not args.no_ia:
+    if ARCHIVE and not args.no_ia:
         expected = {identifier_for(i["item_id"]) for i in act}
         print("*** Site vs archive.org")
         print(f"\ton site {len(on_site)} - no_file {statuses.get('no_file', 0)} - held {len(held)} = expected items {len(expected)}")

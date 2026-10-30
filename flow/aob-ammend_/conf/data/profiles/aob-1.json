@@ -1,0 +1,19 @@
+[
+  {
+    "doc_type": "gazette_issue", "version": "1",
+    "description": "An issue of the Gazette of India (Extraordinary): its masthead, and the notifications in it",
+    "role_labels": ["core:masthead"], "entity_categories": [], "metadata": {}
+  },
+  {
+    "doc_type": "aob_amendment", "version": "1",
+    "description": "A notification amending the Government of India (Allocation of Business) Rules, 1961",
+    "parent_types": ["gazette_issue"],
+    "role_labels": ["gazette:notification_no", "legal:commencement", "core:division", "core:quoted_text"],
+    "entity_categories": ["core:provision"],
+    "relation_labels": ["legal:insertion", "legal:repeal", "legal:replacement", "legal:substitution", "legal:renumbering"],
+    "metadata": {
+      "so_number": {"from": "gazette:notification_no", "type": "text"},
+      "in_force": {"from": "legal:commencement", "type": "date"}
+    }
+  }
+]

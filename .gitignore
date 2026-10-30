@@ -7,3 +7,9 @@ LFS/
 input/logs/*.log
 *.part
 *.tmp
+
+# the flow's tasks: docflow's working store (GovDoc files by id, the call cache, state); output/ links to its files
+flow/*/.storage/
+flow/*/logs/run-*.jsonl
+flow/*/held.txt
+flow/*/failed.txt

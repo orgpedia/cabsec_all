@@ -3,13 +3,22 @@ name = "cabsec-all"
 version = "0.1.0"
 description = "Download, archive and mirror Council of Ministers orders and AOB / TOB rule amendments published by the Cabinet Secretariat (cabsec.gov.in)"
 readme = "SPEC.md"
-requires-python = ">=3.10"
+requires-python = ">=3.12"
 dependencies = [
     "huggingface-hub>=0.34.0",
     "internetarchive>=5.0.5",
     "python-dotenv>=1.0.0",
     "requests>=2.32.3",
+    # the flow's tasks (flow/): GovDoc files, the pipeline and the reviewer, from orgpedia/doc
+    "govdoc",
+    "govdoc-flow[ocr,gcv,unipdf,gemini]",
+    "govdoc-studio",
 ]
 
 [tool.uv]
 package = false
+
+[tool.uv.sources]
+govdoc = { path = "../doc/packages/govdoc", editable = true }
+govdoc-flow = { path = "../doc/packages/docflow", editable = true }
+govdoc-studio = { path = "../doc/packages/studio", editable = true }

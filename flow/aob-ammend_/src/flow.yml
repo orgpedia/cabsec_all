@@ -1,0 +1,82 @@
+# The amendments to the Government of India (Allocation of Business) Rules, 1961 (orgpedia/doc: specs/aob.md §A5,
+# and AoB Amendment Extraction – Requirements, "the ops spec"). Paths are relative to this file: the PDFs are
+# ../input/, links into the collection's input/documents/aob-ammend/pdfs/. Settings are collection-wide; mistakes
+# are found by checkers and fixed in the reviewer (edits in ../conf/), never by per-document settings.
+# Outside data, pinned: the profiles (data/profiles/<version>.json; data/ is ../conf/data/).
+data: {profiles: aob-1}
+
+exclude: {}
+
+flow:
+  - name: import
+    task: import_manifest
+    config: {paths: ["../input/*.pdf"], portal: cabsec_aob, publisher: Cabinet Secretariat,
+             sources: ../../../input/documents/aob-ammend/items.json, url_field: file_url}
+
+  # The text layer (born-digital gazettes, 2017 on). The scanned era will read its pages by Cloud Vision
+  # (ocr: gcv, hidden: ocr).
+  - name: text
+    task: pdf_text
+    config: {languages: [eng], ocr: none}
+
+  # Lines, then paragraphs in reading order. Only English stays in the flow: the Hindi half of a bilingual
+  # gazette, and its running headers, are out of it. An amendment has no tables of its own.
+  - name: lines
+    task: word_lines
+  - name: layout
+    task: pdftable_finder
+    config: {scripts: [LATIN], min_rows: 1000}
+
+  # A gazette issue (its masthead) and a notification at each "S.O. <n>(E).—"; one issue may hold
+  # several amendments. A notification's id: its S.O. number and year.
+  - name: split
+    task: section_splitter
+    config:
+      doc_type: gazette_issue
+      ids: ["GOI_GAZETTE_EXT_{issue}_{year}"]
+      captures:
+        issue: {pattern: 'No\.\s*(?P<value>\d+)\s*\]'}
+        year: {pattern: 'NEW DELHI,[^\n]*?(?P<value>(?:19|20)\d\d)'}
+      parts:
+        doc_type: aob_amendment
+        start: '^\s*S\.\s*O\.\s*(?P<number>\d+)\s*\(\s*E\s*\)'
+        lead: false
+        ids: ["GOI_SO_{number}E_{year}"]
+
+  # The ops (model-tagger.md): one answer per notification from Gemini 4 Argon, read by three steps: its
+  # clauses and quoted text (roles), the provisions it cites (entities), and the changes (legal: relations
+  # named after Akoma Ntoso's textualMod types). The prompt and the answer's shape are in prompts/.
+  - name: ops_roles
+    task: model_tagger
+    applies_to: {doc_type: [aob_amendment]}
+    context: {retries: 3}
+    config: &ops
+      provider: gemini
+      model: gemini-4-argon
+      thinking: low
+      instructions: prompts/ops.md
+      schema_file: prompts/ops.schema.json
+      with_parent: true               # the issue's heading: the notification's date
+      labels:
+        notification: {layer: role, label: "gazette:notification_no", value: {from: number, type: text}}
+        commencement: {layer: role, label: "legal:commencement", value: {from: date, type: date}}
+        clauses: {layer: role, label: "core:division", value: {from: ref, type: text}}
+        quoted: {layer: role, label: "core:quoted_text", target: lines}
+        provisions: {layer: entity, label: "core:provision",
+                     value: {from: path, into: path, add: {act: ACT_GOI_AOB_RULES_1961}, type: provision}}
+        changes: {relation: "legal:{type}",
+                  allowed: ["legal:insertion", "legal:repeal", "legal:replacement", "legal:substitution",
+                            "legal:renumbering"],
+                  args: {provision: targets, anchor: anchor, new_text: content, refers: refers},
+                  values: [seq, clause_ref, position, scope, expect, old, new, new_num, flags],
+                  stated_by: clause}
+  - name: ops_provisions
+    task: model_entities
+    applies_to: {doc_type: [aob_amendment]}
+    context: {retries: 3}
+    config: *ops
+  - name: ops
+    task: model_relations
+    applies_to: {doc_type: [aob_amendment]}
+    context: {retries: 3}
+    config: *ops

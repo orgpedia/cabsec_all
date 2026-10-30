@@ -1,0 +1,303 @@
+{
+  "type": "object",
+  "properties": {
+    "notification": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "line": {
+            "type": "string"
+          },
+          "quote": {
+            "type": "string"
+          },
+          "number": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "line",
+          "quote",
+          "number"
+        ]
+      }
+    },
+    "commencement": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "line": {
+            "type": "string"
+          },
+          "quote": {
+            "type": "string"
+          },
+          "basis": {
+            "type": "string",
+            "enum": [
+              "at_once",
+              "stated",
+              "retrospective",
+              "appointed"
+            ]
+          },
+          "date": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "required": [
+          "id",
+          "line",
+          "quote",
+          "basis",
+          "date"
+        ]
+      }
+    },
+    "clauses": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "line": {
+            "type": "string"
+          },
+          "quote": {
+            "type": "string"
+          },
+          "ref": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "line",
+          "quote",
+          "ref"
+        ]
+      }
+    },
+    "quoted": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "lines": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "minItems": 2,
+            "maxItems": 2
+          }
+        },
+        "required": [
+          "id",
+          "lines"
+        ]
+      }
+    },
+    "provisions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "line": {
+            "type": "string"
+          },
+          "quote": {
+            "type": "string"
+          },
+          "path": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "kind": {
+                  "type": "string",
+                  "enum": [
+                    "schedule",
+                    "ministry",
+                    "department",
+                    "group_heading",
+                    "entry",
+                    "item",
+                    "entry_range",
+                    "rule",
+                    "sub_rule"
+                  ]
+                },
+                "number": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "text": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                }
+              },
+              "required": [
+                "kind"
+              ]
+            },
+            "minItems": 1
+          }
+        },
+        "required": [
+          "id",
+          "line",
+          "quote",
+          "path"
+        ]
+      }
+    },
+    "changes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "seq": {
+            "type": "integer"
+          },
+          "clause": {
+            "type": "string"
+          },
+          "clause_ref": {
+            "type": "string"
+          },
+          "type": {
+            "type": "string",
+            "enum": [
+              "repeal",
+              "insertion",
+              "replacement",
+              "substitution",
+              "renumbering"
+            ]
+          },
+          "targets": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "anchor": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "position": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "enum": [
+              "after",
+              "before",
+              null
+            ]
+          },
+          "content": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "expect": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "old": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "new": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "new_num": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "scope": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "refers": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "flags": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": [
+                "ambiguous_target",
+                "page_break_inside",
+                "hindi_missing"
+              ]
+            }
+          }
+        },
+        "required": [
+          "id",
+          "seq",
+          "clause",
+          "clause_ref",
+          "type",
+          "targets",
+          "flags"
+        ]
+      }
+    }
+  },
+  "required": [
+    "notification",
+    "commencement",
+    "clauses",
+    "quoted",
+    "provisions",
+    "changes"
+  ]
+}

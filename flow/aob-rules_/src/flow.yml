@@ -1,0 +1,33 @@
+# The consolidated versions of the Government of India (Allocation of Business) Rules, 1961, from 2016 on
+# (orgpedia/doc: specs/aob.md §A5): the checkpoints. Paths are relative to this file: the PDFs are ../input/,
+# links into the collection's input/documents/aob-rules/pdfs/. Settings are collection-wide.
+data: {profiles: aob-rules-1}
+
+exclude: {}
+
+flow:
+  - name: import
+    task: import_manifest
+    config: {paths: ["../input/*.pdf"], portal: cabsec_aob_rules, publisher: Cabinet Secretariat,
+             sources: ../../../input/documents/aob-rules/items.json, url_field: file_url}
+
+  # The text layer, read by pdfium; a footnote's number printed as a superscript is a word of its own.
+  - name: text
+    task: ocr
+    config: {engine: textlayer_super}
+
+  # Lines, and a block per page: the export reads the lines in order.
+  - name: lines
+    task: word_lines
+  - name: layout
+    task: page_blocks
+
+  # A version is one document: the Rules as amended up to a date.
+  - name: split
+    task: one_document
+    config: {doc_type: aob_rules, id_prefix: "GOI_AOB_RULES_1961@"}
+
+  # The version read into its tree of parts and its footnotes (output/<name>.json).
+  - name: export
+    task: rules_export
+    config: {dir: ../output, doc_types: [aob_rules]}

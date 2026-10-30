@@ -1,0 +1,19 @@
+# T1 (the ops spec §8): Consumer Affairs, Department B (Food and Public Distribution), series 385.
+count: {aob_amendment: 1}
+documents:
+  - doc_type: aob_amendment
+    ops:
+      - {seq: 1, op: omit, expect: "Directorate of Vanaspati, Vegetable Oils and Fats.",
+         target: {cited: [{type: schedule, num: "2"}, {type: ministry, heading: {contains: CONSUMER AFFAIRS}},
+                          {type: department, heading: {contains: FOOD AND PUBLIC DISTRIBUTION}}, {type: entry, num: "14"}]}}
+      - {seq: 2, op: omit, expect: "Directorate of Sugar, New Delhi.",
+         target: {cited: [{type: schedule, num: "2"}, {type: ministry, heading: {contains: CONSUMER AFFAIRS}},
+                          {type: department, heading: {contains: FOOD AND PUBLIC DISTRIBUTION}}, {type: entry, num: "15"}]}}
+      - {seq: 3, op: omit, expect: {contains: Development Council of Sugar Industry},
+         target: {cited: [{type: schedule, num: "2"}, {type: ministry, heading: {contains: CONSUMER AFFAIRS}},
+                          {type: department, heading: {contains: FOOD AND PUBLIC DISTRIBUTION}}, {type: entry, num: "18"}]}}
+      - {seq: 4, op: insert, position: after,
+         anchor: {cited: [{type: schedule, num: "2"}, {type: ministry, heading: {contains: CONSUMER AFFAIRS}},
+                          {type: department, heading: {contains: FOOD AND PUBLIC DISTRIBUTION}}, {type: entry, num: "23"}]},
+         content: [{type: entry, num: "24", text: Directorate of Sugar and Vegetable Oils (DSVO).}]}
+notes: three entries omitted, each with its text quoted; one inserted after entry 23.

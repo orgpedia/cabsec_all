@@ -13,11 +13,12 @@ flow:
     config: {paths: ["../input/*.pdf"], portal: cabsec_aob, publisher: Cabinet Secretariat,
              sources: ../../../input/documents/aob-ammend/items.json, url_field: file_url}
 
-  # The text layer (born-digital gazettes, 2017 on). The scanned era will read its pages by Cloud Vision
-  # (ocr: gcv, hidden: ocr).
+  # The text layer (born-digital gazettes, 2017 on), read by pdfium: only the English is kept, and pdfium places
+  # the words of the 2019-2020 gazettes, whose Hindi is set in a legacy font, where unipdf does not. The scanned era
+  # will read its pages by Cloud Vision.
   - name: text
-    task: pdf_text
-    config: {languages: [eng], ocr: none}
+    task: ocr
+    config: {engine: textlayer}
 
   # Lines, then paragraphs in reading order. Only English stays in the flow: the Hindi half of a bilingual
   # gazette, and its running headers, are out of it. An amendment has no tables of its own.
@@ -80,3 +81,16 @@ flow:
     applies_to: {doc_type: [aob_amendment]}
     context: {retries: 3}
     config: *ops
+
+  # The ops spec's checks (§7): a clause saying "shall be" without a change, changes out of order or referring
+  # to a later one, quoted words not in the text, and the model's flags, as aob: issues.
+  - name: ops_check
+    task: legal_ops_check
+    applies_to: {doc_type: [aob_amendment]}
+    config: {prefix: aob}
+
+  # The ops spec's `amendment` object per notification (§3): output/<name>.json, each op pointing at its words
+  # and boxes in the GovDoc file.
+  - name: export
+    task: amendment_export
+    config: {dir: ../output, doc_types: [aob_amendment]}

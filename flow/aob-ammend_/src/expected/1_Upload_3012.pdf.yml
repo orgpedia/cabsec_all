@@ -1,0 +1,20 @@
+# T4 (the ops spec §8): the Ministry of Cooperation, both schedules, series 362.
+count: {aob_amendment: 1}
+documents:
+  - doc_type: aob_amendment
+    ops:
+      - {seq: 1, op: replace, source_ref: 2(a)(i)}
+      - {seq: 2, op: replace, content: [{num: 8A, heading: {contains: Cooperation}}, {num: 8B, heading: {contains: Corporate Affairs}},
+                                        {num: 8C, heading: {contains: Culture}}]}
+      - {seq: 3, op: replace}
+      - {seq: 4, op: omit, ref_seq: 3,
+         target: [{cited: [{type: schedule, num: "2"}, {type: ministry}, {type: department}, {type: entry, num: "24"}]},
+                  {cited: [{type: schedule, num: "2"}, {type: ministry}, {type: department}, {type: entry, num: "25"}]},
+                  {cited: [{type: schedule, num: "2"}, {type: ministry}, {type: department}, {type: entry, num: "26"}]},
+                  {cited: [{type: schedule, num: "2"}, {type: ministry}, {type: department}, {type: entry, num: "27"}]},
+                  {cited: [{type: schedule, num: "2"}, {type: ministry}, {type: department}, {type: entry, num: "28"}]}]}
+      - {seq: 5, op: replace, target: {cited: [{type: schedule, num: "2"}, {type: ministry, heading: {contains: CHEMICALS AND FERTILIZERS}},
+                                               {type: department, heading: {contains: FERTILIZERS}}, {type: entry, num: "2"}]}}
+      - {seq: 6, op: insert, position: after, flags: [page_break_inside],
+         anchor: {cited: [{type: schedule, num: "2"}, {type: ministry, heading: {contains: CONSUMER AFFAIRS}}, {type: department, heading: {contains: FOOD}}]}}
+notes: the subtree inserted in op 6 is the Ministry of Cooperation with entries 1 to 9 and more, a note and a proviso.

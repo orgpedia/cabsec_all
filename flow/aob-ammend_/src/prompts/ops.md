@@ -48,8 +48,8 @@ notification gives in an enclosing clause copied in full**, so each path stands 
 | step `kind` | identified by | example |
 |---|---|---|
 | `schedule` | `number`: `1` or `2` | "THE SECOND SCHEDULE" → `{"kind": "schedule", "number": "2"}` |
-| `ministry` | `text`: the heading in English, as printed, without its bracketed Hindi transliteration | "MINISTRY OF PERSONNEL, PUBLIC GRIEVANCES AND PENSIONS" |
-| `department` | `text`: the sub-heading as printed, without its letter or numeral and without the transliteration | "DEPARTMENT OF FOOD AND PUBLIC DISTRIBUTION" |
+| `ministry` | `text`: the heading in English, as printed, **without its number** (the First Schedule numbers ministries: "17. Ministry of Home Affairs") and without its bracketed Hindi transliteration | "MINISTRY OF PERSONNEL, PUBLIC GRIEVANCES AND PENSIONS", "Ministry of Home Affairs" |
+| `department` | `text`: the sub-heading as printed, **without its letter or numeral** ("B.", "(v)") and without the transliteration | "DEPARTMENT OF FOOD AND PUBLIC DISTRIBUTION" |
 | `group_heading` | `text` as printed, numeral included | "XIII. Right to Information." |
 | `entry` | `number` as printed | `"14"`, `"20A"` |
 | `item` | `number` as printed, without brackets | `"k"` |

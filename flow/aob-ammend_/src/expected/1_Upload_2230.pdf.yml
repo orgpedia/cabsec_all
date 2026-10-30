@@ -1,0 +1,9 @@
+# T3 (the ops spec §8): Health and Family Welfare, Department A, series 355. One omission of an item, nothing quoted.
+count: {aob_amendment: 1}
+documents:
+  - doc_type: aob_amendment
+    ops:
+      - {seq: 1, op: omit, expect: null,
+         target: {cited: [{type: schedule, num: "2"}, {type: ministry, heading: {contains: HEALTH AND FAMILY WELFARE}},
+                          {type: department, heading: {contains: HEALTH AND FAMILY WELFARE}}, {type: entry, num: "16"},
+                          {type: item, num: k}]}}

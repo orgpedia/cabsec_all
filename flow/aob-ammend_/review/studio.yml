@@ -1,0 +1,40 @@
+# GovDoc Studio for the amendments task (orgpedia/doc: specs/reviewer.md §R2; specs/aob.md §A5, step 1a).
+# Paths are relative to this task's folder. `make studio` serves output/; edits go to conf/<file>.edits.yml.
+collection: aob-ammend
+title: Allocation of Business Rules — amendments
+profiles: conf/data/profiles/aob-1.json
+goal: [fields, relations]
+unit: aob_amendment                       # one notification at a time; its gazette issue is the context
+levels: [relations, document, fields, blocks, lines, words]
+
+documents:                                # the documents screen
+  group_by: file
+  columns:
+    - {label: S.O., role: "gazette:notification_no"}
+    - {label: In force, role: "legal:commencement"}
+
+record:
+  aob_amendment:
+    header: ["gazette:notification_no", "legal:commencement"]
+    sections: ["core:division", "core:quoted_text"]
+
+relations:                                # the Relations level: each change a card, in the order numbered
+  title: Changes
+  labels: [legal:insertion, legal:repeal, legal:replacement, legal:substitution, legal:renumbering]
+  names: {insertion: insert, repeal: omit, replacement: replace, substitution: substitute text, renumbering: renumber}
+  number: seq                             # the card's number, and the order
+  order_by: seq
+  ref: clause_ref                         # the clause as printed: 2(i)
+  paths: [provision, anchor]              # arguments whose annotation's value is a path: edited as steps
+  path_label: core:provision
+  text: [new_text]                        # arguments shown as their printed lines: the quoted text
+  text_label: core:quoted_text
+  values: [seq, clause_ref, position, scope, expect, old, new, new_num]
+  step_kinds: [schedule, rule, sub_rule, ministry, department, group_heading, entry, entry_range, item]
+
+issues:
+  categories:                             # code -> category; the panel groups issues by category
+    changes: ["aob:unparsed_clause", "aob:sequence", "aob:verbatim_mismatch", "aob:ambiguous_target"]
+    model: ["core:model_unanchored", "core:model_invalid"]
+    layout: ["aob:page_break_inside", "aob:hindi_missing"]
+  collapse: [info]

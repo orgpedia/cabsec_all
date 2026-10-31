@@ -14,11 +14,11 @@ flow:
              sources: ../../../input/documents/aob-ammend/items.json, url_field: file_url}
 
   # The text layer (born-digital gazettes, 2017 on), read by pdfium: only the English is kept, and pdfium places
-  # the words of the 2019-2020 gazettes, whose Hindi is set in a legacy font, where unipdf does not. The scanned era
-  # will read its pages by Cloud Vision.
+  # the words of the 2019-2020 gazettes, whose Hindi is set in a legacy font, where unipdf does not. A page
+  # without a text layer (a scan: S.O. 2163(E) and 2164(E) of 2017) is read by Cloud Vision.
   - name: text
     task: ocr
-    config: {engine: textlayer}
+    config: {engine: auto, ocr: gcv, languages: [eng, hin]}
 
   # Lines, then paragraphs in reading order. Only English stays in the flow: the Hindi half of a bilingual
   # gazette, and its running headers, are out of it. An amendment has no tables of its own.
@@ -29,7 +29,8 @@ flow:
     config: {scripts: [LATIN], min_rows: 1000}
 
   # A gazette issue (its masthead) and a notification at each "S.O. <n>(E).—"; one issue may hold
-  # several amendments. A notification's id: its S.O. number and year.
+  # several amendments. A notification's id: its S.O. number and year, the year from the masthead's date or,
+  # in a file cut from the middle of an issue (no masthead), from the notification's "New Delhi, the …".
   - name: split
     task: section_splitter
     config:
@@ -37,7 +38,7 @@ flow:
       ids: ["GOI_GAZETTE_EXT_{issue}_{year}"]
       captures:
         issue: {pattern: 'No\.\s*(?P<value>\d+)\s*\]'}
-        year: {pattern: 'NEW DELHI,[^\n]*?(?P<value>(?:19|20)\d\d)'}
+        year: {pattern: '(?i:NEW DELHI),[^\n]*?(?P<value>(?:19|20)\d\d)'}
       parts:
         doc_type: aob_amendment
         start: '^\s*S\.\s*O\.\s*(?P<number>\d+)\s*\(\s*E\s*\)'

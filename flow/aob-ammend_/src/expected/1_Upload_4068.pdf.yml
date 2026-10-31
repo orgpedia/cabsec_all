@@ -2,16 +2,17 @@
 count: {aob_amendment: 1}
 documents:
   - doc_type: aob_amendment
-    ops:
-      - {seq: 1, op: insert, position: after, anchor: {cited: [{type: schedule, num: "2"}, {type: ministry}, {type: department}, {type: entry, num: "2"}]},
-         content: [{type: entry, num: 2A}], flags: []}
-      - {seq: 2, op: insert, position: after, anchor: {cited: [{type: schedule, num: "2"}, {type: ministry}, {type: department}, {type: entry, num: "5"}]},
-         content: [{type: entry, num: 5A}, {type: entry, num: 5B}], flags: []}
-      - {seq: 3, op: substitute_text, target: {cited: [{type: schedule, num: "2"}, {type: ministry}, {type: department}, {type: entry, num: 20A}]},
-         old: {contains: "1947"}, new: {contains: "1988"}, flags: []}
-      - {seq: 4, op: insert, position: after, anchor: {cited: [{type: schedule, num: "2"}, {type: ministry}, {type: department}, {type: entry, num: 20A}]},
-         content: [{type: entry, num: 20B}], flags: []}
-      - {seq: 5, op: substitute_text, target: {cited: [{type: schedule, num: "2"}, {type: ministry}, {type: department}, {type: entry, num: "26"}]},
-         old: {contains: "1949"}, new: {contains: "1965"}, flags: []}
-      - {seq: 6, op: insert, position: after, anchor: {cited: [{type: schedule, num: "2"}, {type: ministry}, {type: department}, {type: entry, num: "45"}]},
-         content: [{type: group_heading, num: XIII}, {type: entry, num: "46"}], flags: []}
+    amendment:
+      ops:
+        - {seq: 1, op: insert, position: after, anchor: {cited: [{type: schedule, num: "2"}, {type: ministry}, {type: department}, {type: entry, num: "2"}]},
+           content: [{type: entry, num: 2A}], flags: []}
+        - {seq: 2, op: insert, position: after, anchor: {cited: [{type: schedule, num: "2"}, {type: ministry}, {type: department}, {type: entry, num: "5"}]},
+           content: [{type: entry, num: 5A}, {type: entry, num: 5B}], flags: []}
+        - {seq: 3, op: substitute_text, target: {cited: [{type: schedule, num: "2"}, {type: ministry}, {type: department}, {type: entry, num: 20A}]},
+           old: {contains: "1947"}, new: {contains: "1988"}, flags: []}
+        - {seq: 4, op: insert, position: after, anchor: {cited: [{type: schedule, num: "2"}, {type: ministry}, {type: department}, {type: entry, num: 20A}]},
+           content: [{type: entry, num: 20B}], flags: []}
+        - {seq: 5, op: substitute_text, target: {cited: [{type: schedule, num: "2"}, {type: ministry}, {type: department}, {type: entry, num: "26"}]},
+           old: {contains: "1949"}, new: {contains: "1965"}, flags: []}
+        - {seq: 6, op: insert, position: after, anchor: {cited: [{type: schedule, num: "2"}, {type: ministry}, {type: department}, {type: entry, num: "45"}]},
+           content: [{type: group_heading, num: XIII}, {type: entry, num: "46"}], flags: []}

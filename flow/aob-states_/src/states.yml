@@ -1,0 +1,11 @@
+# The Rules after each amendment (orgpedia/doc: specs/aob.md §A6): from the consolidated version upto 329
+# forward through the amendments' ops, checked against the consolidated versions. Paths are relative to
+# this file.
+product: rules_states
+config:
+  checkpoints: ../../aob-rules_/output
+  amendments: ../../aob-ammend_/output
+  checkpoint_items: ../../../input/documents/aob-rules/items.json
+  amendment_items: ../../../input/documents/aob-ammend/items.json
+  start: 329
+  out: ../output

@@ -1,7 +1,7 @@
 # GovDoc Studio for the consolidated versions (orgpedia/doc: specs/reviewer.md §R2; specs/aob.md §A6). Paths are
 # relative to this task's folder. `make studio` serves output/; edits go to conf/<file>.edits.yml. What is
 # reviewed here: the Rules' states' problems in parts no amendment touched (states_check), each an issue on the
-# version's words, fixed or dismissed with a note.
+# version's words, fixed, dismissed with a note, or verified (the states take the version's text).
 collection: aob-rules
 title: Allocation of Business Rules — consolidated versions
 profiles: conf/data/profiles/aob-rules-1.json
@@ -15,3 +15,6 @@ documents:
 issues:
   categories:                             # code -> category; the panel groups issues by category
     states: ["aob:version_text", "aob:version_missing", "aob:version_extra"]
+  verify:                                 # a difference the version is right about, no amendment made: the states
+    label: Take the version's text        # take the version's text there from then on (aob.md §A6)
+    codes: ["aob:version_text", "aob:version_missing", "aob:version_extra"]

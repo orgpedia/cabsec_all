@@ -44,4 +44,7 @@ issues:
     states: ["aob:path_not_found", "aob:path_ambiguous", "aob:expect_mismatch", "aob:old_not_found",
              "aob:already_omitted", "aob:ref_not_made", "aob:op_unknown",
              "aob:version_text", "aob:version_missing", "aob:version_extra"]  # the Rules' states (states_check)
+  verify:                                 # a difference the version is right about, no amendment made: the states
+    label: Take the version's text        # take the version's text there from then on (aob.md §A6)
+    codes: ["aob:version_text", "aob:version_missing", "aob:version_extra"]
   collapse: [info]

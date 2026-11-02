@@ -41,4 +41,7 @@ issues:
     changes: ["aob:unparsed_clause", "aob:sequence", "aob:verbatim_mismatch", "aob:ambiguous_target"]
     model: ["core:model_unanchored", "core:model_invalid"]
     layout: ["aob:page_break_inside", "aob:hindi_missing"]
+    states: ["aob:path_not_found", "aob:path_ambiguous", "aob:expect_mismatch", "aob:old_not_found",
+             "aob:already_omitted", "aob:ref_not_made", "aob:op_unknown",
+             "aob:version_text", "aob:version_missing", "aob:version_extra"]  # the Rules' states (states_check)
   collapse: [info]

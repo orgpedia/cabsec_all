@@ -31,3 +31,10 @@ flow:
   - name: export
     task: rules_export
     config: {dir: ../output, doc_types: [aob_rules]}
+
+  # The Rules' states' problems in parts no amendment touched (../aob-states_/output/problems.json, specs/aob.md
+  # §A6), as aob: issues on the version's words: a misreading, or the compilers' own correction, dismissed with
+  # a note in the studio.
+  - name: states_check
+    task: problems_check
+    config: {problems: ../../aob-states_/output/problems.json, prefix: aob}

@@ -95,3 +95,10 @@ flow:
   - name: export
     task: amendment_export
     config: {dir: ../output, doc_types: [aob_amendment]}
+
+  # The Rules' states' problems (../aob-states_/output/problems.json, specs/aob.md §A6) as aob: issues on the
+  # changes they belong to: a person fixes the change in the studio, or dismisses the issue with a note, and the
+  # states are built again. A problem in a part no change touched goes to the consolidated version instead.
+  - name: states_check
+    task: problems_check
+    config: {problems: ../../aob-states_/output/problems.json, prefix: aob}

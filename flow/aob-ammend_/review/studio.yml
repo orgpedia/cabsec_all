@@ -33,7 +33,9 @@ relations:                                # the Relations level: each change a c
   text: [new_text]                        # arguments shown as their printed lines: the quoted text
   text_label: core:quoted_text
   values: [seq, clause_ref, position, scope, expect, old, new, new_num]
-  step_kinds: [schedule, rule, sub_rule, ministry, department, group_heading, entry, entry_range, item]
+  step_kinds: [schedule, rule, sub_rule, ministry, department, group_heading, entry, entry_range, item, note, proviso,
+               explanation]
+  bare_steps: [note, proviso, explanation]  # named by their kind alone: "in entry 4, in the Note"
   layout:                                 # shown as what is there now and what goes in (old and new)
     old: {at: provision, as_changed_by: refers, "{scope|text}": expect, words: old}
     new: {"{position}": anchor, as_changed_by: refers, "{scope|parts}": new_text, words: new, num: new_num}

@@ -8,6 +8,15 @@ data: {profiles: aob-rules-1}
 # read again by OCR when the ocr task can ignore such a hidden layer (phase C).
 exclude:
   1_Upload_886.pdf: "a scan with a poor hidden OCR layer: set aside until it can be read again by OCR"
+  # listed upto 299 and 300, but made later (2012-03-02, 2014-08-21) and printing the next amendments' changes
+  # (300's Department of Electronics and Information Technology; 301's two Social Justice departments): 913 is
+  # 910 (upto 301) word for word
+  1_Upload_915.pdf: "made after amendment 300 and prints its change: not the version upto 299 it is listed as"
+  1_Upload_913.pdf: "the same text as 1_Upload_910 (upto 301), made in 2014: not the version upto 300 it is listed as"
+  # another printing of the same version: one is kept, the latest (the states' choice)
+  1_Upload_1896.pdf: "the same text as 1_Upload_1901 (upto 351, the same day)"
+  1_Upload_3511.pdf: "an earlier printing of upto 370; 1_Upload_3540 (the same day) corrects it"
+  1_Upload_3517.pdf: "an earlier printing of upto 370; 1_Upload_3540 (the same day) corrects it"
 
 flow:
   - name: import

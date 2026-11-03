@@ -10,6 +10,7 @@ levels: [relations, document, fields, blocks, lines, words]
 documents:                                # the documents screen
   group_by: file
   sort: [Series]                           # in the order of the amendments
+  chain: ../aob-states_/output/chain.json  # in the header: the version applied to › the amendment › the version it gives
   columns:
     - {label: Series, from: listing, listing: ../../input/documents/aob-ammend/items.json, field: source_key,
        match: {field: gazette, role: "gazette:notification_no"}}  # one file, two notifications: each its own

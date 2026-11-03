@@ -22,6 +22,7 @@ issues:
   see: [input, ../aob-ammend_/input]  # where the PDFs an issue names are: opened from its links
   categories:                             # code -> category; the panel groups issues by category
     states: ["aob:version_text", "aob:version_missing", "aob:version_extra"]
+    upto: ["aob:version_ahead", "aob:version_unchanged"]  # a version listed under the wrong upto
   verify:                                 # a difference the version is right about, no amendment made: the states
     label: Take the version's text        # take the version's text there from then on (aob.md §A6)
     codes: ["aob:version_text", "aob:version_missing", "aob:version_extra"]

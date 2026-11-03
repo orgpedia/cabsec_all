@@ -126,6 +126,22 @@ they are. If it stays, read it like the same code without "state_".</p>
 
 <h2>Checking against the consolidated versions</h2>
 
+<section id="aob:version_ahead">
+<p><b>The version an amendment was applied to already prints what the amendment makes</b>, where it makes it
+(the heading it gives, the parts it inserts), so the amendment's changes could not be applied. The version is
+probably later than its listed "upto": the website's file was replaced by a later one (1_Upload_915, listed upto
+299, was made after amendment 300 and prints its rename).</p>
+<p><b>Do:</b> open the version under "See" and check. If it is later than listed, set it aside (the versions
+flow's <i>exclude</i>, with the reason); otherwise dismiss with a note.</p>
+</section>
+
+<section id="aob:version_unchanged">
+<p><b>Two versions in a row read the same, though the amendment between them changes the Rules.</b> One of them is
+probably listed under the wrong "upto" (1_Upload_913, listed upto 300, is 1_Upload_910, upto 301, word for word).</p>
+<p><b>Do:</b> find which one holds the amendment's change; set the other aside (the versions flow's
+<i>exclude</i>), or dismiss with a note.</p>
+</section>
+
 <section id="aob:version_text">
 <p><b>A part reads differently in the consolidated version than in the Rules built from the version before plus
 this amendment.</b> The words that differ are shown, the version's text second. Look at both versions under

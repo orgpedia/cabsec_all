@@ -3,7 +3,11 @@
 # links into the collection's input/documents/aob-rules/pdfs/. Settings are collection-wide.
 data: {profiles: aob-rules-1}
 
-exclude: {}
+# Set aside for now: a scan whose text is someone else's OCR laid under the page images ("lFFCO", "U)" for "(j)",
+# footnote numbers full size), about 500 differences at 319-320; the version upto 320 checks 318-320 instead. To be
+# read again by OCR when the ocr task can ignore such a hidden layer (phase C).
+exclude:
+  1_Upload_886.pdf: "a scan with a poor hidden OCR layer: set aside until it can be read again by OCR"
 
 flow:
   - name: import

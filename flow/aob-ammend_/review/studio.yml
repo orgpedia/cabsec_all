@@ -38,6 +38,7 @@ relations:                                # the Relations level: each change a c
     old: {at: provision, as_changed_by: refers, "{scope|text}": expect, words: old}
     new: {"{position}": anchor, as_changed_by: refers, "{scope|parts}": new_text, words: new, num: new_num}
   step_names: {group_heading: part}       # a "PART I" heading line, shown as part I
+  states: ../aob-states_/output/changes.json  # each change's part before and after it, with the versions' pages
 
 issues:
   help: review/issues.html            # what each code means, under the issue ("What this means")

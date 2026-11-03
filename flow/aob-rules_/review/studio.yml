@@ -11,6 +11,11 @@ levels: [document, blocks, lines, words]
 
 documents:
   group_by: file
+  sort: [Upto]                           # in the order of the amendments
+  columns:                                # the last amendment each version takes in, its date
+    - {label: Upto, from: export, field: upto,       # as the version prints it, else as the listing says
+       fallback: {from: listing, listing: ../../input/documents/aob-rules/items.json, field: upto_amendment}}
+    - {label: Date, from: listing, listing: ../../input/documents/aob-rules/items.json, field: date}
 
 issues:
   categories:                             # code -> category; the panel groups issues by category

@@ -40,6 +40,8 @@ relations:                                # the Relations level: each change a c
   step_names: {group_heading: part}       # a "PART I" heading line, shown as part I
 
 issues:
+  help: review/issues.html            # what each code means, under the issue ("What this means")
+  see: [input, ../aob-rules_/input]   # where the PDFs an issue names are: opened from its links
   categories:                             # code -> category; the panel groups issues by category
     changes: ["aob:unparsed_clause", "aob:sequence", "aob:verbatim_mismatch", "aob:ambiguous_target"]
     model: ["core:model_unanchored", "core:model_invalid"]

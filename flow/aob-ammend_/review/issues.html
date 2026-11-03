@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AoB issue codes</title>
+<!-- What each issue code in the AoB studios means (aob-ammend_ and aob-rules_). GovDoc Studio shows a code's
+     section under the issue ("What this means"): <section id="code">, or one section for several codes with
+     data-codes. Keep each short: what it says, why it usually happens, what to do. -->
+<style>
+  :root { --text: #1e293b; --muted: #64748b; --rule: #e2e8f0; --bg: #ffffff; }
+  @media (prefers-color-scheme: dark) { :root { --text: #e2e8f0; --muted: #94a3b8; --rule: #334155; --bg: #0f172a; } }
+  body { background: var(--bg); color: var(--text); font: 15px/1.5 system-ui, sans-serif; max-width: 760px;
+         margin: 0 auto; padding: 24px 16px; }
+  h1 { font-size: 22px; } h2 { font-size: 16px; margin-top: 28px; color: var(--muted); }
+  section { border-top: 1px solid var(--rule); padding: 10px 0; }
+  section::before { content: attr(id); display: block; font: 600 13px ui-monospace, monospace; margin-bottom: 4px; }
+  p { margin: 0 0 6px; } b { font-weight: 600; }
+</style>
+</head>
+<body>
+<h1>AoB issue codes</h1>
+<p>What each issue in the amendments (aob-ammend_) and consolidated versions (aob-rules_) studios means.</p>
+
+<h2>Reading an amendment (ops check)</h2>
+
+<section id="aob:verbatim_mismatch">
+<p><b>A change quotes words that are not in the notification.</b> Each change's quoted strings (its <i>expect</i>,
+<i>old</i> and <i>new</i>, and the headings in its path) should appear word for word in the notification's text.</p>
+<p>Usually the model paraphrased or misread the quote. Sometimes the change is right and the file's text is wrong:
+a scan whose lines came out of order, or an "after X, add Y" written as a substitution whose new text joins X and Y.</p>
+<p><b>Do:</b> if the quote is wrong, correct it at the Changes level. If the change is right, dismiss with a note.</p>
+</section>
+
+<section id="aob:unparsed_clause">
+<p><b>A clause says something "shall be" inserted, omitted or substituted, but no change was read from it.</b></p>
+<p><b>Do:</b> add the missing change at the Changes level, or dismiss if the clause makes no change to the Rules
+(its short title, its commencement).</p>
+</section>
+
+<section id="aob:sequence">
+<p><b>The changes are not numbered 1, 2, 3… in order, or one refers to a change that is not an earlier insertion or
+replacement</b> ("the heading as so substituted" pointing at the wrong change).</p>
+<p><b>Do:</b> fix the numbering or the reference at the Changes level.</p>
+</section>
+
+<section id="aob:ambiguous_target">
+<p><b>The model was not sure which part a change's path means</b>: the path could fit more than one.</p>
+<p><b>Do:</b> check the path against the notification and the version; make it name the part fully, or dismiss.</p>
+</section>
+
+<section id="aob:page_break_inside">
+<p><b>For information: the quoted text runs across a page break.</b> Running headers and page numbers sit in the
+middle of it, and may have crept into the quote.</p>
+<p><b>Do:</b> nothing, unless the change's new text has a page header or number in it.</p>
+</section>
+
+<section id="aob:hindi_missing">
+<p><b>For information: a new ministry or department heading has no Hindi name in brackets</b>, which headings
+usually carry, e.g. "(KRISHI MANTRALAYA)".</p>
+<p><b>Do:</b> nothing if the notification prints none; otherwise check the change's new text has it.</p>
+</section>
+
+<section id="core:model_unanchored">
+<p><b>The model named text that could not be found</b> where it said, so the item was not linked to its words.</p>
+<p><b>Do:</b> set it again by picking its words on the page, or dismiss if the item is not needed.</p>
+</section>
+
+<section id="core:model_invalid">
+<p><b>The model gave a label or a value the flow does not allow</b> (a kind of change it does not know, a date that
+is not a date). It was left out.</p>
+<p><b>Do:</b> add the item by hand if it matters.</p>
+</section>
+
+<h2>Applying a change to the Rules (the states)</h2>
+
+<section id="aob:path_not_found">
+<p><b>A change's path leads nowhere in the Rules as they stood before it</b>: no part with that number or heading.
+Its op was left out, so nothing was changed.</p>
+<p>Usually the path is misread (a heading's spelling, the wrong department letter or schedule), or the version
+before printed the part differently. Look at the version named under "See".</p>
+<p><b>Do:</b> correct the path at the Changes level. If the Rules before it are wrong, fix that version instead.</p>
+</section>
+
+<section id="aob:path_ambiguous">
+<p><b>A change's path fits more than one part</b> ("entry 1" under a ministry with two departments), or an
+insertion has no single part to go after or before. Its op was left out.</p>
+<p><b>Do:</b> add the missing step (the department, the part) to the path at the Changes level.</p>
+</section>
+
+<section id="aob:expect_mismatch">
+<p><b>The part the change acts on does not read as the notification quotes it</b> ("for entry 5, which reads …").
+Its op was left out.</p>
+<p><b>Do:</b> if the path picks the wrong part, correct it. If the quote is misread, correct the <i>expect</i>. If
+the Rules before it were printed differently, dismiss with a note.</p>
+</section>
+
+<section id="aob:old_not_found">
+<p><b>The words to substitute or omit are not in the part</b> the path leads to. Its op was left out.</p>
+<p><b>Do:</b> correct the <i>old</i> words or the path at the Changes level.</p>
+</section>
+
+<section id="aob:already_omitted">
+<p><b>The change omits a part that is already omitted.</b> Its op was left out.</p>
+<p><b>Do:</b> check the path; an earlier amendment may have omitted it, or the path names the wrong part.</p>
+</section>
+
+<section id="aob:ref_not_made">
+<p><b>The change refers to the part an earlier change made</b> ("the heading as so substituted"), <b>but its path
+does not lead there.</b> Its op was left out.</p>
+<p><b>Do:</b> correct the path or the reference at the Changes level.</p>
+</section>
+
+<section id="aob:op_unknown">
+<p><b>A kind of change the patcher cannot apply.</b> Its op was left out.</p>
+<p><b>Do:</b> correct the change's kind at the Changes level, or tell the developer.</p>
+</section>
+
+<section id="aob:state_…" data-codes="aob:state_path_not_found aob:state_path_ambiguous aob:state_expect_mismatch aob:state_old_not_found aob:state_already_omitted aob:state_ref_not_made aob:state_op_unknown">
+<p><b>The change applies to the version printed before it, but not to the Rules as built up from the start</b>
+(the states). So the states differ there from that version, because an earlier difference was left open, or
+because there is no version before this amendment to check it against.</p>
+<p><b>Do:</b> usually nothing here. Settle the earlier differences first (series in order); this goes away when
+they are. If it stays, read it like the same code without "state_".</p>
+</section>
+
+<h2>Checking against the consolidated versions</h2>
+
+<section id="aob:version_text">
+<p><b>A part reads differently in the consolidated version than in the Rules built from the version before plus
+this amendment.</b> The words that differ are shown, the version's text second. Look at both versions under
+"See".</p>
+<p>It is one of these: a change misread (fix the change); a version misread (fix its words at the Words level);
+a typo printed for years and corrected later (ask for the typo script); or the compilers' own correction with no
+amendment making it.</p>
+<p><b>Do:</b> fix what is misread. For the compilers' correction, use <b>Take the version's text</b>, so the Rules
+follow the version from here on. Dismiss, with a note, only what is not worth tracking.</p>
+</section>
+
+<section id="aob:version_missing">
+<p><b>A part is in the consolidated version but not in the Rules built from the version before plus this
+amendment.</b></p>
+<p>Usually: a change that inserts it was missed or read with the wrong path; the version is misread (a footnote or
+a heading read as a part); or the compilers added it with no amendment.</p>
+<p><b>Do:</b> add or fix the change; fix the version's reading; or <b>Take the version's text</b> if the version is
+right and no amendment made it.</p>
+</section>
+
+<section id="aob:version_extra">
+<p><b>A part is in the Rules built from the version before plus this amendment, but not in the consolidated
+version.</b></p>
+<p>Usually: a change that omits it was missed; a change inserted it in the wrong place (it shows as extra here and
+missing elsewhere); or the version is misread.</p>
+<p><b>Do:</b> fix the change or the version's reading; <b>Take the version's text</b> if the version is right and
+no amendment made it.</p>
+</section>
+
+</body>
+</html>

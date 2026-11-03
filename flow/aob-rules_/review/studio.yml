@@ -18,6 +18,8 @@ documents:
     - {label: Date, from: listing, listing: ../../input/documents/aob-rules/items.json, field: date}
 
 issues:
+  help: ../aob-ammend_/review/issues.html # what each code means, under the issue ("What this means")
+  see: [input, ../aob-ammend_/input]  # where the PDFs an issue names are: opened from its links
   categories:                             # code -> category; the panel groups issues by category
     states: ["aob:version_text", "aob:version_missing", "aob:version_extra"]
   verify:                                 # a difference the version is right about, no amendment made: the states

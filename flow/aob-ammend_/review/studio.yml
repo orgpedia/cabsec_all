@@ -48,17 +48,18 @@ relations:                                # the Relations level: each change a c
 issues:
   help: review/issues.html            # what each code means, under the issue ("What this means")
   see: [input, ../aob-rules_/input]   # where the PDFs an issue names are: opened from its links
-  categories:                             # code -> category; the panel groups issues by category
-    changes: ["aob:unparsed_clause", "aob:sequence", "aob:verbatim_mismatch", "aob:ambiguous_target"]
-    model: ["core:model_unanchored", "core:model_invalid"]
-    layout: ["aob:page_break_inside", "aob:hindi_missing"]
-    states: ["aob:path_not_found", "aob:path_ambiguous", "aob:expect_mismatch", "aob:old_not_found",
-             "aob:already_omitted", "aob:ref_not_made", "aob:op_unknown",
-             "aob:version_text", "aob:version_missing", "aob:version_extra",  # the Rules' states (states_check)
-             "aob:version_hindi",
-             "aob:state_path_not_found", "aob:state_path_ambiguous", "aob:state_expect_mismatch",
-             "aob:state_old_not_found", "aob:state_already_omitted", "aob:state_ref_not_made"]
+  categories:                             # code -> category; the panel groups issues by category, by the stage
+    read: ["aob:read_quote_mismatch", "aob:read_clause_missed", "aob:read_sequence",  # found at (aob.md §A6):
+           "aob:read_path_unsure", "aob:read_page_break", "aob:read_hindi_missing",  # reading the amendment
+           "core:model_unanchored", "core:model_invalid"]
+    old: ["aob:old_path_missing", "aob:old_path_ambiguous", "aob:old_quote_mismatch",  # applying it to old
+          "aob:old_words_missing", "aob:old_already_omitted", "aob:old_ref_missing", "aob:old_op_unknown",
+          "aob:old_upto_ahead", "aob:old_upto_same"]
+    states: ["aob:states_path_missing", "aob:states_path_ambiguous", "aob:states_quote_mismatch",  # to the states
+             "aob:states_words_missing", "aob:states_already_omitted", "aob:states_ref_missing",
+             "aob:states_op_unknown"]
+    new: ["aob:new_text_differs", "aob:new_missing", "aob:new_extra", "aob:new_hindi_differs"]  # expected new
   verify:                                 # a difference the version is right about, no amendment made: the states
     label: Take the version's text        # take the version's text there from then on (aob.md §A6)
-    codes: ["aob:version_text", "aob:version_missing", "aob:version_extra", "aob:version_hindi"]
+    codes: ["aob:new_text_differs", "aob:new_missing", "aob:new_extra", "aob:new_hindi_differs"]
   collapse: [info]

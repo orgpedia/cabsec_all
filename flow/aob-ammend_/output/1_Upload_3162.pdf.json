@@ -1,0 +1,213 @@
+{
+  "file": {
+    "name": "1_Upload_3162.pdf",
+    "file_id": "f_bcf07812d6119890",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_3162.pdf",
+    "sha256": "bcf07812d6119890b62f6df8e92daa024d8fd3e1e7bc8addf6ae3e5c4a049c2a",
+    "govdoc": "1_Upload_3162.pdf.govdoc.json.zst",
+    "revision": 62
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_543E_2022",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_524_2022",
+      "fields": {
+        "number": {
+          "value": "S.O. 543(E)"
+        },
+        "in_force": {
+          "value": "2022-02-07"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "2022-02-07",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "2",
+          "model": "gemini-4-argon",
+          "at": "2026-11-03T16:59:06.447863+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(a)(i)",
+            "op": "substitute_text",
+            "akn_type": "substitution",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF ELECTRONICS AND INFORMATION TECHNOLOGY"
+                },
+                {
+                  "type": "entry",
+                  "num": "6"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r17.w323",
+                "r17.w325"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    501,
+                    1066,
+                    704,
+                    1109
+                  ]
+                }
+              ]
+            },
+            "old": "excluding all matters relating to Semiconductor Complex Limited (SCL), Mohali",
+            "new": "",
+            "flags": [],
+            "words": [
+              "r17.w322",
+              "r17.w328"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  401,
+                  1066,
+                  1138,
+                  1109
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(a)(ii)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF ELECTRONICS AND INFORMATION TECHNOLOGY"
+                },
+                {
+                  "type": "entry",
+                  "num": "14"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r17.w342",
+                "r17.w344"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    501,
+                    1194,
+                    756,
+                    1236
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "15",
+                "text": "Semi-Conductor Laboratory, Mohali."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r17.w341",
+              "r17.w347"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  401,
+                  1194,
+                  1121,
+                  1236
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 3,
+            "source_ref": "2(b)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "DEPARTMENT OF SPACE"
+                },
+                {
+                  "type": "entry",
+                  "num": "15"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r17.w366",
+                "r17.w367"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1902,
+                    1344,
+                    2058,
+                    1386
+                  ]
+                }
+              ]
+            },
+            "flags": [],
+            "words": [
+              "r17.w357",
+              "r17.w363"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  263,
+                  1343,
+                  1335,
+                  1386
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

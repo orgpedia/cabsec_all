@@ -1,0 +1,195 @@
+{
+  "file": {
+    "name": "1_Upload_3146.pdf",
+    "file_id": "f_c91a632eea0bf8ce",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_3146.pdf",
+    "sha256": "c91a632eea0bf8ce36f1ef7dbf5ef1ff80e847f49060a80f66360f96f1c0d881",
+    "govdoc": "1_Upload_3146.pdf.govdoc.json.zst",
+    "revision": 62
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_74E_2022",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_73_2022",
+      "fields": {
+        "number": {
+          "value": "S.O. 74(E)"
+        },
+        "in_force": {
+          "value": "2022-01-05"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "2022-01-05",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "2",
+          "model": "gemini-4-argon",
+          "at": "2026-11-03T16:59:06.526247+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(a)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF DEFENCE"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF DEFENCE PRODUCTION"
+                },
+                {
+                  "type": "entry",
+                  "num": "1"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r17.w330",
+                "r17.w331"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    551,
+                    1666,
+                    673,
+                    1707
+                  ]
+                }
+              ]
+            },
+            "flags": [],
+            "words": [
+              "r17.w329",
+              "r17.w334"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  413,
+                  1665,
+                  993,
+                  1707
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(b)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF DEFENCE"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF DEFENCE PRODUCTION"
+                },
+                {
+                  "type": "entry",
+                  "num": "15"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r17.w336",
+                "r17.w338"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    551,
+                    1739,
+                    806,
+                    1782
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "16",
+                "text": "Munitions India Limited."
+              },
+              {
+                "type": "entry",
+                "num": "17",
+                "text": "Armoured Vehicles Nigam Limited."
+              },
+              {
+                "type": "entry",
+                "num": "18",
+                "text": "Advanced Weapons and Equipment India Limited."
+              },
+              {
+                "type": "entry",
+                "num": "19",
+                "text": "Troop Comforts Limited."
+              },
+              {
+                "type": "entry",
+                "num": "20",
+                "text": "Yantra India Limited."
+              },
+              {
+                "type": "entry",
+                "num": "21",
+                "text": "India Optel Limited."
+              },
+              {
+                "type": "entry",
+                "num": "22",
+                "text": "Gliders India Limited."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r17.w335",
+              "r17.w346"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  413,
+                  1739,
+                  1704,
+                  1782
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

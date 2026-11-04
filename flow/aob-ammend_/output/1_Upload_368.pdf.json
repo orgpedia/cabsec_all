@@ -1,0 +1,280 @@
+{
+  "file": {
+    "name": "1_Upload_368.pdf",
+    "file_id": "f_6588b354885bfb80",
+    "pages": 3,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_368.pdf",
+    "sha256": "6588b354885bfb8049260c2a65cf4aca8b5b8fb95fb67d73238f728619863ab8",
+    "govdoc": "1_Upload_368.pdf.govdoc.json.zst",
+    "revision": 41
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_1435E_2016",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_924_2016",
+      "fields": {
+        "number": {
+          "value": "S.O.1435(E)"
+        },
+        "in_force": {
+          "value": "2016-04-14"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "2016-04-14",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "2",
+          "model": "gemini-4-argon",
+          "at": "2026-11-03T16:59:03.314736+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(a)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Finance"
+                },
+                {
+                  "type": "department",
+                  "heading": "Department of Disinvestment"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w607",
+                "r1.w615"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    462,
+                    2522,
+                    2227,
+                    2602
+                  ]
+                }
+              ]
+            },
+            "expect": "(iv) Department of Disinvestment (Vinivesh Vibhag)",
+            "scope": "heading",
+            "content": [
+              {
+                "type": "department",
+                "num": "iv",
+                "heading": "Department of Investment and Public Asset Management (DIPAM)",
+                "heading_hi": "Nivesh aur Lok Parisampatti Prabandhan Vibhag (DIPAM)"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w593",
+              "r1.w600"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  462,
+                  2522,
+                  1364,
+                  2557
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(b)(i)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF FINANCE"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF ECONOMIC AFFAIRS"
+                },
+                {
+                  "type": "entry",
+                  "num": "93"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w664",
+                "r1.w665"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    804,
+                    2953,
+                    930,
+                    2988
+                  ]
+                }
+              ]
+            },
+            "flags": [],
+            "words": [
+              "r1.w652",
+              "r1.w660"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  603,
+                  2907,
+                  1899,
+                  2943
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 3,
+            "source_ref": "2(b)(ii)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF FINANCE"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF DISINVESTMENT"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w679",
+                "r1.w691"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    602,
+                    267,
+                    2228,
+                    347
+                  ]
+                }
+              ]
+            },
+            "expect": "D. DEPARTMENT OF DISINVESTMENT (VINIVESH VIBHAG)",
+            "content": [
+              {
+                "type": "department",
+                "num": "D",
+                "heading": "DEPARTMENT OF INVESTMENT AND PUBLIC ASSET MANAGEMENT (DIPAM)",
+                "heading_hi": "NIVESH AUR LOK PARISAMPATTI PRABANDHAN VIBHAG (DIPAM)"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": ""
+              },
+              {
+                "type": "item",
+                "num": "a",
+                "text": "All matters relating to management of Central Government investments in equity including disinvestment of equity in Central Public Sector Undertakings."
+              },
+              {
+                "type": "item",
+                "num": "b",
+                "text": "All matters relating to sale of Central Government equity through offer for sale or private placement or any other mode in the erstwhile Central Public Sector Undertakings."
+              },
+              {
+                "type": "note",
+                "text": "Note:- All other post disinvestment matters, including those relating to and arising out of the exercise of Call option by the Strategic Partner in the erstwhile Central Public Sector Undertakings, shall continue to be handled by the administrative Ministry or Department concerned, where necessary, in consultation with the Department of Investment and Public Asset Management (DIPAM)."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "Decisions on the recommendations of Administrative Ministries, NITI Aayog, etc. for disinvestment including strategic disinvestment."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "All matters related to Independent External Monitor(s) for disinvestment and public asset management."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": ""
+              },
+              {
+                "type": "item",
+                "num": "a",
+                "text": "Decisions in matters relating to Central Public Sector Undertakings for purposes of Government investment in equity like capital restructuring, bonus, dividends disinvestment of government equity and other related issues."
+              },
+              {
+                "type": "item",
+                "num": "b",
+                "text": "Advise the Government in the matters of financial restructuring of Central Public Sector Enterprises and for attracting investment through capital markets."
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "Financial policy in regard to the utilisation of the proceeds of disinvestment channelised into the National Investment Fund."
+              },
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "The Unit Trust of India Act, 1963 (52 of 1963) along with subjects relating to Specified Undertaking of the Unit Trust of India (SUUTI)."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w678",
+              "r1.w684"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  603,
+                  267,
+                  1736,
+                  302
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

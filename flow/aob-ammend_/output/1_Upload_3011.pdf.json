@@ -1,0 +1,646 @@
+{
+  "file": {
+    "name": "1_Upload_3011.pdf",
+    "file_id": "f_037a1b32b07e836c",
+    "pages": 7,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_3011.pdf",
+    "sha256": "037a1b32b07e836c7722d71dc2281afb487589d2c4305af3b7f250685908d953",
+    "govdoc": "1_Upload_3011.pdf.govdoc.json.zst",
+    "revision": 62
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_2718E_2021",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_2517_2021",
+      "fields": {
+        "number": {
+          "value": "S.O. 2718(E)"
+        },
+        "in_force": {
+          "value": "2021-07-06"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "2021-07-06",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "2",
+          "model": "gemini-4-argon",
+          "at": "2026-11-03T16:59:02.750118+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(a)(i)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Finance"
+                },
+                {
+                  "type": "department",
+                  "heading": "Department of Financial Services"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r17.w1015",
+                "r17.w1025"
+              ],
+              "boxes": [
+                {
+                  "page": 5,
+                  "bbox": [
+                    251,
+                    259,
+                    2231,
+                    354
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "department",
+                "num": "vi",
+                "heading": "Department of Public Enterprises",
+                "heading_hi": "Lok Udyam Vibhag"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r17.w1005",
+              "r17.w1014"
+            ],
+            "boxes": [
+              {
+                "page": 5,
+                "bbox": [
+                  251,
+                  259,
+                  1504,
+                  301
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(a)(ii)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Heavy Industries and Public Enterprises"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r17.w1041",
+                "r17.w1060"
+              ],
+              "boxes": [
+                {
+                  "page": 5,
+                  "bbox": [
+                    250,
+                    467,
+                    2230,
+                    562
+                  ]
+                }
+              ]
+            },
+            "expect": "16. Ministry of Heavy Industries and Public Enterprises (Bhari Udyog aur Lok Udyam Mantralaya)",
+            "content": [
+              {
+                "type": "ministry",
+                "num": "16",
+                "heading": "Ministry of Heavy Industries",
+                "heading_hi": "Bhari Udyog Mantralaya"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r17.w1040",
+              "r17.w1051"
+            ],
+            "boxes": [
+              {
+                "page": 5,
+                "bbox": [
+                  251,
+                  467,
+                  1658,
+                  509
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 3,
+            "source_ref": "2(b)(i)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF FINANCE"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF FINANCIAL SERVICES"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r17.w1090",
+                "r17.w1103"
+              ],
+              "boxes": [
+                {
+                  "page": 5,
+                  "bbox": [
+                    250,
+                    753,
+                    2231,
+                    899
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "department",
+                "num": "F",
+                "heading": "DEPARTMENT OF PUBLIC ENTERPRISES",
+                "heading_hi": "LOK UDYAM VIBHAG"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Residual work relating to erstwhile Bureau of Public Enterprises including Industrial Management Pool."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "Coordination of matters of general policy affecting all Public Sector Enterprises."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "Evaluation and monitoring the performance of Public Sector Enterprises, including the Memorandum of Understanding mechanism."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "Matters relating to Permanent Machinery of Arbitration for the Public Sector Enterprises."
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "Counselling, training and rehabilitation of employees in Central Public Sector Undertakings under Voluntary Retirement Scheme."
+              },
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "Review of capital projects and expenditure in Central Public Sector Enterprises."
+              },
+              {
+                "type": "entry",
+                "num": "7",
+                "text": "Measures aimed at improving performance of Central Public Sector Enterprises and other capacity building initiatives of Public Sector Enterprises."
+              },
+              {
+                "type": "entry",
+                "num": "8",
+                "text": "Rendering advice relating to revival, restructuring or closure of Public Sector Enterprises including the mechanisms therefor."
+              },
+              {
+                "type": "entry",
+                "num": "9",
+                "text": "Matters relating to Standing Conference of Public Enterprises."
+              },
+              {
+                "type": "entry",
+                "num": "10",
+                "text": "Matters relating to International Center for Public Enterprises."
+              },
+              {
+                "type": "entry",
+                "num": "11",
+                "text": "Categorisation of Central Public Sector Enterprises including conferring „Ratna‟ status."
+              },
+              {
+                "type": "entry",
+                "num": "12",
+                "text": "Survey of Public Enterprises."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r17.w1081",
+              "r17.w1089"
+            ],
+            "boxes": [
+              {
+                "page": 5,
+                "bbox": [
+                  251,
+                  753,
+                  1817,
+                  795
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 4,
+            "source_ref": "2(b)(ii)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF HEAVY INDUSTRIES AND PUBLIC ENTERPRISES"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r17.w1276",
+                "r17.w1296"
+              ],
+              "boxes": [
+                {
+                  "page": 5,
+                  "bbox": [
+                    250,
+                    2209,
+                    2164,
+                    2305
+                  ]
+                }
+              ]
+            },
+            "expect": "MINISTRY OF HEAVY INDUSTRIES AND PUBLIC ENTERPRISES (BHARI UDYOG AUR LOK UDYAM MANTRALAYA)",
+            "content": [
+              {
+                "type": "ministry",
+                "heading": "MINISTRY OF HEAVY INDUSTRIES",
+                "heading_hi": "BHARI UDYOG MANTRALAYA"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "The Heavy Engineering Corporation Limited."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "The Mining and Allied Machinery Corporation Limited."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "The Engineering Projects (India) Limited."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "Bharat Heavy Electricals Limited."
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "H.M.T. Bearing Limited."
+              },
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "H.M.T. Limited."
+              },
+              {
+                "type": "entry",
+                "num": "7",
+                "text": "H.M.T. International Limited."
+              },
+              {
+                "type": "entry",
+                "num": "8",
+                "text": "Scooters India Limited."
+              },
+              {
+                "type": "entry",
+                "num": "9",
+                "text": "Andrew Yule and Company Limited."
+              },
+              {
+                "type": "entry",
+                "num": "10",
+                "text": "Bharat Opthalmic Glass Limited."
+              },
+              {
+                "type": "entry",
+                "num": "11",
+                "text": "Bharat Leather Corporation."
+              },
+              {
+                "type": "entry",
+                "num": "12",
+                "text": "Cement Corporation of India Limited."
+              },
+              {
+                "type": "entry",
+                "num": "13",
+                "text": "Cycle Corporation of India Limited."
+              },
+              {
+                "type": "entry",
+                "num": "14",
+                "text": "Hindustan Cables Limited."
+              },
+              {
+                "type": "entry",
+                "num": "15",
+                "text": "Hindustan Paper Corporation Limited."
+              },
+              {
+                "type": "entry",
+                "num": "16",
+                "text": "Hindustan Photo Films Manufacturing Company Limited."
+              },
+              {
+                "type": "entry",
+                "num": "17",
+                "text": "Hindustan Salts Limited."
+              },
+              {
+                "type": "entry",
+                "num": "18",
+                "text": "Hooghly Printing Company Limited."
+              },
+              {
+                "type": "entry",
+                "num": "19",
+                "text": "Instrumentation Limited."
+              },
+              {
+                "type": "entry",
+                "num": "20",
+                "text": "The Mandya National Paper Mills Limited."
+              },
+              {
+                "type": "entry",
+                "num": "21",
+                "text": "Nagaland Pulp and Paper Company Limited."
+              },
+              {
+                "type": "entry",
+                "num": "22",
+                "text": "National Bicycle Corporation of India Limited."
+              },
+              {
+                "type": "entry",
+                "num": "23",
+                "text": "The National Industrial Development Corporation Limited."
+              },
+              {
+                "type": "entry",
+                "num": "24",
+                "text": "National Instruments Limited."
+              },
+              {
+                "type": "entry",
+                "num": "25",
+                "text": "N.E.P.A. Limited."
+              },
+              {
+                "type": "entry",
+                "num": "26",
+                "text": "Rajasthan Electronics and Instruments Limited."
+              },
+              {
+                "type": "entry",
+                "num": "27",
+                "text": "Hindustan Newsprint Limited."
+              },
+              {
+                "type": "entry",
+                "num": "28",
+                "text": "Damodar Cement and Slag Limited."
+              },
+              {
+                "type": "entry",
+                "num": "29",
+                "text": "Tannery and Footwear Corporation of India Limited."
+              },
+              {
+                "type": "entry",
+                "num": "30",
+                "text": "Tyre Corporation of India."
+              },
+              {
+                "type": "entry",
+                "num": "31",
+                "text": "Praga Tools Limited."
+              },
+              {
+                "type": "entry",
+                "num": "32",
+                "text": "Rehabilitation Industries Corporation."
+              },
+              {
+                "type": "entry",
+                "num": "33",
+                "text": "Sambhar Salts Limited."
+              },
+              {
+                "type": "entry",
+                "num": "34",
+                "text": "Fluid Control Research Institute."
+              },
+              {
+                "type": "entry",
+                "num": "35",
+                "text": "Bharat Bhari Udyog Nigam Limited: SUBSIDIARIES"
+              },
+              {
+                "type": "item",
+                "num": "a",
+                "text": "Bharat Brakes and Valves Limited"
+              },
+              {
+                "type": "item",
+                "num": "b",
+                "text": "Bharat Process and Mechanical Engineers Limited"
+              },
+              {
+                "type": "item",
+                "num": "c",
+                "text": "Bharat Wagon and Engineering Company Limited"
+              },
+              {
+                "type": "item",
+                "num": "d",
+                "text": "Braithwaite and Company Limited"
+              },
+              {
+                "type": "item",
+                "num": "e",
+                "text": "Burn Standard Company Limited"
+              },
+              {
+                "type": "item",
+                "num": "f",
+                "text": "Jessop and Company Limited"
+              },
+              {
+                "type": "item",
+                "num": "g",
+                "text": "The Lagan Jute Machinery Company Limited"
+              },
+              {
+                "type": "item",
+                "num": "h",
+                "text": "Braithwaite, Burn and Jessop Construction Limited"
+              },
+              {
+                "type": "item",
+                "num": "i",
+                "text": "Reyrolle Burn Limited"
+              },
+              {
+                "type": "item",
+                "num": "j",
+                "text": "Weighbird (India) Limited."
+              },
+              {
+                "type": "entry",
+                "num": "36",
+                "text": "Bharat Yantra Nigam Limited: SUBSIDIARIES"
+              },
+              {
+                "type": "item",
+                "num": "a",
+                "text": "The Triveni Structurals Limited, Allahabad"
+              },
+              {
+                "type": "item",
+                "num": "b",
+                "text": "The Tungabhadra Steel Products (India) Limited, Durgapur"
+              },
+              {
+                "type": "item",
+                "num": "c",
+                "text": "The Bharat Heavy Plates and Vessels Limited"
+              },
+              {
+                "type": "item",
+                "num": "d",
+                "text": "Bharat Pumps and Compressors Limited"
+              },
+              {
+                "type": "item",
+                "num": "e",
+                "text": "Richardson and Cruddas (1972) Limited"
+              },
+              {
+                "type": "item",
+                "num": "f",
+                "text": "Bridge and Roof Company."
+              },
+              {
+                "type": "entry",
+                "num": "37",
+                "text": "Maruti Udyog Limited."
+              },
+              {
+                "type": "entry",
+                "num": "38",
+                "text": "Manufacture of heavy engineering equipment for all industries."
+              },
+              {
+                "type": "entry",
+                "num": "39",
+                "text": "Heavy electrical engineering industries."
+              },
+              {
+                "type": "entry",
+                "num": "40",
+                "text": "Machinery Industries including Machine Tools and Steel Manufactures."
+              },
+              {
+                "type": "entry",
+                "num": "41",
+                "text": "Auto Industries, including tractors and earth moving equipment."
+              },
+              {
+                "type": "entry",
+                "num": "42",
+                "text": "All types of diesel engines."
+              },
+              {
+                "type": "entry",
+                "num": "43",
+                "text": "Automotive Research Association, Pune."
+              },
+              {
+                "type": "entry",
+                "num": "44",
+                "text": "National Automative Testing and Research and Development Infrastructure Project (NATRIP) and NATRIP Implementation Society (NATIS)."
+              }
+            ],
+            "flags": [
+              "page_break_inside"
+            ],
+            "words": [
+              "r17.w1275",
+              "r17.w1285"
+            ],
+            "boxes": [
+              {
+                "page": 5,
+                "bbox": [
+                  251,
+                  2209,
+                  1993,
+                  2252
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

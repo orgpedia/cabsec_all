@@ -1,0 +1,107 @@
+{
+  "file": {
+    "name": "1_Upload_356.pdf",
+    "file_id": "f_9950372406b60e34",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_356.pdf",
+    "sha256": "9950372406b60e346388fe8a829bd74191a16e3982a10a3046e2fec2b1644a56",
+    "govdoc": "1_Upload_356.pdf.govdoc.json.zst",
+    "revision": 41
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_136E_2015",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_79_2015",
+      "fields": {
+        "number": {
+          "value": "S.O. 136(E)"
+        },
+        "in_force": {
+          "value": "2015-01-09"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "2015-01-09",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "2",
+          "model": "gemini-4-argon",
+          "at": "2026-11-03T16:59:06.247158+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2",
+            "op": "insert",
+            "akn_type": "insertion",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF DEFENCE"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF DEFENCE"
+                },
+                {
+                  "type": "entry",
+                  "num": "19"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w291",
+                "r1.w293"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1447,
+                    1022,
+                    1710,
+                    1063
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "20",
+                "text": "All matters relating to Border Roads Development Board and Border Roads Organisation."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w260",
+              "r1.w260"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  231,
+                  917,
+                  261,
+                  949
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,216 @@
+{
+  "file": {
+    "name": "1_Upload_2384.pdf",
+    "file_id": "f_92e7b34d6d70dc14",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_2384.pdf",
+    "sha256": "92e7b34d6d70dc143297566797e6813f90b6e874016610512cff3c5668993727",
+    "govdoc": "1_Upload_2384.pdf.govdoc.json.zst",
+    "revision": 62
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_2782E_2020",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_2465_2020",
+      "fields": {
+        "number": {
+          "value": "S.O. 2782(E)"
+        },
+        "in_force": {
+          "value": "2020-08-14"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "2020-08-14",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "2",
+          "model": "gemini-4-argon",
+          "at": "2026-11-03T16:59:06.237283+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(A)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Human Resource Development"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r17.w286",
+                "r17.w298"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    251,
+                    939,
+                    2230,
+                    1035
+                  ]
+                }
+              ]
+            },
+            "expect": "18. Ministry of Human Resource Development (Manav Sansadhan Vikas Mantralaya)",
+            "scope": "heading",
+            "content": [
+              {
+                "type": "ministry",
+                "num": "18",
+                "heading": "Ministry of Education",
+                "heading_hi": "Shiksha Mantralaya"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r17.w281",
+              "r17.w294"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  251,
+                  939,
+                  2230,
+                  981
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(B)(i)",
+            "op": "substitute_text",
+            "akn_type": "substitution",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF EXTERNAL AFFAIRS"
+                },
+                {
+                  "type": "entry",
+                  "num": "48"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r17.w325",
+                "r17.w328"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    400,
+                    1193,
+                    2230,
+                    1289
+                  ]
+                }
+              ]
+            },
+            "old": "Ministry of Human Resource Development",
+            "new": "Ministry of Education",
+            "flags": [],
+            "words": [
+              "r17.w315",
+              "r17.w325"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  401,
+                  1193,
+                  2230,
+                  1236
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 3,
+            "source_ref": "2(B)(ii)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF HUMAN RESOURCE DEVELOPMENT"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r17.w346",
+                "r17.w357"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    402,
+                    1373,
+                    2230,
+                    1469
+                  ]
+                }
+              ]
+            },
+            "expect": "MINISTRY OF HUMAN RESOURCE DEVELOPMENT (MANAV SANSADHAN VIKAS MANTRALAYA)",
+            "scope": "heading",
+            "content": [
+              {
+                "type": "ministry",
+                "heading": "MINISTRY OF EDUCATION",
+                "heading_hi": "SHIKSHA MANTRALAYA"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r17.w345",
+              "r17.w354"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  401,
+                  1373,
+                  2230,
+                  1416
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

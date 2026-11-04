@@ -1,0 +1,103 @@
+{
+  "file": {
+    "name": "1_Upload_2230.pdf",
+    "file_id": "f_8d999fd0c5feb956",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_2230.pdf",
+    "sha256": "8d999fd0c5feb956ca849400e5a448a46a4a833d59c0c3c19cdf61b491b1c07a",
+    "govdoc": "1_Upload_2230.pdf.govdoc.json.zst",
+    "revision": 69
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_1405E_2020",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_1257_2020",
+      "fields": {
+        "number": {
+          "value": "S.O. 1405(E)"
+        },
+        "in_force": {
+          "value": "2020-04-29"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "2020-04-29",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "2",
+          "model": "gemini-4-argon",
+          "at": "2026-11-03T16:59:03.557584+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2",
+            "op": "omit",
+            "akn_type": "repeal",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF HEALTH AND FAMILY WELFARE"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF HEALTH AND FAMILY WELFARE"
+                },
+                {
+                  "type": "entry",
+                  "num": "16"
+                },
+                {
+                  "type": "item",
+                  "num": "k"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r24.w289",
+                "r24.w293"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1523,
+                    1022,
+                    1888,
+                    1065
+                  ]
+                }
+              ]
+            },
+            "flags": [],
+            "words": [
+              "r24.w245",
+              "r24.w296"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  250,
+                  865,
+                  2230,
+                  1065
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

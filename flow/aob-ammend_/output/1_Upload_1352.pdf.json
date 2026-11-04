@@ -1,0 +1,164 @@
+{
+  "file": {
+    "name": "1_Upload_1352.pdf",
+    "file_id": "f_f969047ad3d8db8f",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_1352.pdf",
+    "sha256": "f969047ad3d8db8f3d1244a7e23da5dbfeb347348c684e5dcd9908357e934862",
+    "govdoc": "1_Upload_1352.pdf.govdoc.json.zst",
+    "revision": 62
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_3871E_2017",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_3395_2017",
+      "fields": {
+        "number": {
+          "value": "S.O. 3871(E)"
+        },
+        "in_force": {
+          "value": "2017-12-08"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "2017-12-08",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "2",
+          "model": "gemini-4-argon",
+          "at": "2026-11-03T16:59:06.699517+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(i)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF COMMERCE AND INDUSTRY"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF COMMERCE"
+                },
+                {
+                  "type": "entry",
+                  "num": "27"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r17.w302",
+                "r17.w304"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    559,
+                    990,
+                    762,
+                    1030
+                  ]
+                }
+              ]
+            },
+            "flags": [],
+            "words": [
+              "r17.w301",
+              "r17.w308"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  476,
+                  990,
+                  1135,
+                  1030
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(ii)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF COMMERCE AND INDUSTRY"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF COMMERCE"
+                },
+                {
+                  "type": "entry",
+                  "num": "32"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r17.w310",
+                "r17.w313"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    560,
+                    1063,
+                    835,
+                    1103
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "32",
+                "text": "Development, operation and maintenance of National Public Procurement Portal— Government e-Marketplace."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r17.w309",
+              "r17.w320"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  476,
+                  1063,
+                  1723,
+                  1103
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

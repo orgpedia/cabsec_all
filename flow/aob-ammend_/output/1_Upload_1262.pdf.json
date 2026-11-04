@@ -1,0 +1,246 @@
+{
+  "file": {
+    "name": "1_Upload_1262.pdf",
+    "file_id": "f_8245db94d0fafafb",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_1262.pdf",
+    "sha256": "8245db94d0fafafbfb2235c60b1c749e11ebab7542d9f978d61db1c67ed63a55",
+    "govdoc": "1_Upload_1262.pdf.govdoc.json.zst",
+    "revision": 62
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_2492E_2017",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_2191_2017",
+      "fields": {
+        "number": {
+          "value": "S.O. 2492(E)"
+        },
+        "in_force": {
+          "value": "2017-08-04"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "2017-08-04",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "2",
+          "model": "gemini-4-argon",
+          "at": "2026-11-03T16:59:03.492145+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(a)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF NEW AND RENEWABLE ENERGY"
+                },
+                {
+                  "type": "entry",
+                  "num": "11"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r17.w361",
+                "r17.w362"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1276,
+                    939,
+                    1409,
+                    977
+                  ]
+                }
+              ]
+            },
+            "flags": [],
+            "words": [
+              "r17.w346",
+              "r17.w355"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  376,
+                  891,
+                  1912,
+                  929
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(b)(i)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF PETROLEUM AND NATURAL GAS"
+                },
+                {
+                  "type": "entry",
+                  "num": "4"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r17.w382",
+                "r17.w384"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    576,
+                    1126,
+                    787,
+                    1164
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "4A",
+                "text": ""
+              },
+              {
+                "type": "item",
+                "num": "i",
+                "text": "Overall coordination concerning bio-fuels"
+              },
+              {
+                "type": "item",
+                "num": "ii",
+                "text": "National Policy on Bio-fuels"
+              },
+              {
+                "type": "item",
+                "num": "iii",
+                "text": "marketing, distribution and retailing of bio-fuels and its blended products"
+              },
+              {
+                "type": "item",
+                "num": "iv",
+                "text": "policy/scheme for supporting manufacturing of bio-fuels"
+              },
+              {
+                "type": "item",
+                "num": "v",
+                "text": "blending and blending prescriptions for bio-fuels including laying down the standards for such blending"
+              },
+              {
+                "type": "item",
+                "num": "vi",
+                "text": "setting up of a National Bio-fuel Development Board and strengthening the existing institutional mechanism; and"
+              },
+              {
+                "type": "item",
+                "num": "vii",
+                "text": "research, development and demonstration on transport, stationary and other applications of bio- fuels."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r17.w381",
+              "r17.w391"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  476,
+                  1126,
+                  1596,
+                  1164
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 3,
+            "source_ref": "2(b)(ii)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF PETROLEUM AND NATURAL GAS"
+                },
+                {
+                  "type": "entry",
+                  "num": "5A"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r17.w467",
+                "r17.w468"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    576,
+                    1828,
+                    721,
+                    1866
+                  ]
+                }
+              ]
+            },
+            "flags": [],
+            "words": [
+              "r17.w466",
+              "r17.w471"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  476,
+                  1828,
+                  1006,
+                  1866
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

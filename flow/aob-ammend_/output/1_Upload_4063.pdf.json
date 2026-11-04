@@ -1,0 +1,107 @@
+{
+  "file": {
+    "name": "1_Upload_4063.pdf",
+    "file_id": "f_0e62d99e186e8561",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_4063.pdf",
+    "sha256": "0e62d99e186e8561e4f87f2477f45249bfb629ecd9091e88cc8e2a11117e6295",
+    "govdoc": "1_Upload_4063.pdf.govdoc.json.zst",
+    "revision": 62
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_2701E_2025",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_2636_2025",
+      "fields": {
+        "number": {
+          "value": "S.O. 2701(E)"
+        },
+        "in_force": {
+          "value": "2025-06-16"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "2025-06-16",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "2",
+          "model": "gemini-4-argon",
+          "at": "2026-11-03T16:59:02.802568+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2",
+            "op": "insert",
+            "akn_type": "insertion",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF HOME AFFAIRS"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF STATES"
+                },
+                {
+                  "type": "entry",
+                  "num": "18"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r17.w271",
+                "r17.w273"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1878,
+                    1044,
+                    2161,
+                    1090
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "19",
+                "text": "Coordinating activities for further progression of Ex-Agniveers."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r17.w238",
+              "r17.w248"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  401,
+                  929,
+                  1844,
+                  975
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

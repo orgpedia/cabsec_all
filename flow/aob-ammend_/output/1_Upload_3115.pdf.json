@@ -1,0 +1,166 @@
+{
+  "file": {
+    "name": "1_Upload_3115.pdf",
+    "file_id": "f_efd03ae6d05caa24",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_3115.pdf",
+    "sha256": "efd03ae6d05caa241dab78466c740924fbbd774053e26b22a9e62e5da5945e2a",
+    "govdoc": "1_Upload_3115.pdf.govdoc.json.zst",
+    "revision": 62
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_4725E_2021",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_4359_2021",
+      "fields": {
+        "number": {
+          "value": "S.O. 4725 (E)"
+        },
+        "in_force": {
+          "value": "2021-11-10"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "2021-11-10",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "2",
+          "model": "gemini-4-argon",
+          "at": "2026-11-03T16:59:06.678822+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(a)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF COMMERCE AND INDUSTRY"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF COMMERCE"
+                },
+                {
+                  "type": "entry",
+                  "num": "21"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r17.w324",
+                "r17.w326"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    501,
+                    1103,
+                    2232,
+                    1201
+                  ]
+                }
+              ]
+            },
+            "expect": "and Footwear Design and Development Institute",
+            "flags": [],
+            "words": [
+              "r17.w314",
+              "r17.w321"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  414,
+                  1103,
+                  1696,
+                  1146
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(b)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF COMMERCE AND INDUSTRY"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT FOR PROMOTION OF INDUSTRY AND INTERNAL TRADE"
+                },
+                {
+                  "type": "entry",
+                  "num": "22"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r17.w357",
+                "r17.w359"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    501,
+                    1350,
+                    756,
+                    1392
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "22A",
+                "text": "Footwear Design and Development Institute."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r17.w338",
+              "r17.w345"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  414,
+                  1239,
+                  1765,
+                  1282
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

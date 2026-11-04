@@ -1,0 +1,177 @@
+{
+  "file": {
+    "name": "1_Upload_360.pdf",
+    "file_id": "f_74449ae2db682e5c",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_360.pdf",
+    "sha256": "74449ae2db682e5cd683b1e29bd7f316a8fd5a037b1f8f05ad5704985bb901b6",
+    "govdoc": "1_Upload_360.pdf.govdoc.json.zst",
+    "revision": 41
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_2130E_2015",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_1641_2015",
+      "fields": {
+        "number": {
+          "value": "S.O. 2130(E)"
+        },
+        "in_force": {
+          "value": "2015-08-05"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "2015-08-05",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "2",
+          "model": "gemini-4-argon",
+          "at": "2026-11-03T16:59:03.438096+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(a)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF CHEMICALS AND FERTILIZERS"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF PHARMACEUTICALS"
+                },
+                {
+                  "type": "entry",
+                  "num": "1"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w351",
+                "r1.w353"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    231,
+                    1016,
+                    442,
+                    1054
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "1A",
+                "text": "Medical Devices – Industry issues relating to promotion, production and manufacture; excluding those specifically allotted to other Departments."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w329",
+              "r1.w335"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  231,
+                  920,
+                  1284,
+                  958
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(b)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF HEALTH AND FAMILY WELFARE"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF HEALTH AND FAMILY WELFARE"
+                },
+                {
+                  "type": "entry",
+                  "num": "12"
+                },
+                {
+                  "type": "item",
+                  "num": "i"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w410",
+                "r1.w415"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1191,
+                    1306,
+                    1623,
+                    1344
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "item",
+                "num": "j",
+                "text": ". Regulatory aspects namely quality, safety, labelling and performance of medical devices."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w380",
+              "r1.w386"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  231,
+                  1210,
+                  1183,
+                  1248
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

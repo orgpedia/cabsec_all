@@ -1,0 +1,593 @@
+{
+  "file": {
+    "name": "1_Upload_2224.pdf",
+    "file_id": "f_6152f7b4708a5e02",
+    "pages": 3,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_2224.pdf",
+    "sha256": "6152f7b4708a5e02c937591caf29faed62ae829c3921ebac20987bc1429e5a4b",
+    "govdoc": "1_Upload_2224.pdf.govdoc.json.zst",
+    "revision": 62
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_4710E_2019",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_4208_2019",
+      "fields": {
+        "number": {
+          "value": "S.O. 4710(E)"
+        },
+        "in_force": {
+          "value": "2019-12-30"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "2019-12-30",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "2",
+          "model": "gemini-4-argon",
+          "at": "2026-11-03T16:59:03.266509+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(A)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Defence"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r17.w571",
+                "r17.w587"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    325,
+                    2960,
+                    2250,
+                    3054
+                  ]
+                }
+              ]
+            },
+            "scope": "children",
+            "content": [
+              {
+                "type": "department",
+                "num": "i",
+                "heading": "Department of Defence",
+                "heading_hi": "Raksha Vibhag"
+              },
+              {
+                "type": "department",
+                "num": "ii",
+                "heading": "Department of Military Affairs",
+                "heading_hi": "Sainya Karya Vibhag"
+              },
+              {
+                "type": "department",
+                "num": "iii",
+                "heading": "Department of Defence Production",
+                "heading_hi": "Raksha Utpadan Vibhag"
+              },
+              {
+                "type": "department",
+                "num": "iv",
+                "heading": "Department of Defence Research and Development",
+                "heading_hi": "Raksha Anusandhan aur Vikas Vibhag"
+              },
+              {
+                "type": "department",
+                "num": "v",
+                "heading": "Department of Ex-Servicemen Welfare",
+                "heading_hi": "Poorva Senani Kalyan Vibhag"
+              }
+            ],
+            "flags": [
+              "page_break_inside"
+            ],
+            "words": [
+              "r17.w570",
+              "r17.w584"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  327,
+                  2960,
+                  2250,
+                  3001
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(B)(a)(i)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF DEFENCE"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF DEFENCE"
+                },
+                {
+                  "type": "entry",
+                  "num": "1"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r17.w672",
+                "r17.w674"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    567,
+                    728,
+                    769,
+                    770
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Defence of India and every part thereof including defence policy and preparation for defence and all such acts as may be conducive in times of war to its prosecution and after its termination to effective demobilisation."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r17.w671",
+              "r17.w681"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  513,
+                  728,
+                  1625,
+                  770
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 3,
+            "source_ref": "2(B)(a)(ii)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "target": [
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "MINISTRY OF DEFENCE"
+                  },
+                  {
+                    "type": "department",
+                    "heading": "DEPARTMENT OF DEFENCE"
+                  },
+                  {
+                    "type": "entry",
+                    "num": "2"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r17.w721",
+                  "r17.w721"
+                ],
+                "boxes": [
+                  {
+                    "page": 3,
+                    "bbox": [
+                      739,
+                      989,
+                      770,
+                      1027
+                    ]
+                  }
+                ]
+              },
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "MINISTRY OF DEFENCE"
+                  },
+                  {
+                    "type": "department",
+                    "heading": "DEPARTMENT OF DEFENCE"
+                  },
+                  {
+                    "type": "entry",
+                    "num": "3"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r17.w722",
+                  "r17.w722"
+                ],
+                "boxes": [
+                  {
+                    "page": 3,
+                    "bbox": [
+                      785,
+                      989,
+                      816,
+                      1027
+                    ]
+                  }
+                ]
+              },
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "MINISTRY OF DEFENCE"
+                  },
+                  {
+                    "type": "department",
+                    "heading": "DEPARTMENT OF DEFENCE"
+                  },
+                  {
+                    "type": "entry",
+                    "num": "5"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r17.w723",
+                  "r17.w723"
+                ],
+                "boxes": [
+                  {
+                    "page": 3,
+                    "bbox": [
+                      830,
+                      989,
+                      850,
+                      1022
+                    ]
+                  }
+                ]
+              },
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "MINISTRY OF DEFENCE"
+                  },
+                  {
+                    "type": "department",
+                    "heading": "DEPARTMENT OF DEFENCE"
+                  },
+                  {
+                    "type": "entry",
+                    "num": "7"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r17.w725",
+                  "r17.w725"
+                ],
+                "boxes": [
+                  {
+                    "page": 3,
+                    "bbox": [
+                      942,
+                      990,
+                      962,
+                      1021
+                    ]
+                  }
+                ]
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r17.w719",
+              "r17.w728"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  527,
+                  989,
+                  1279,
+                  1029
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 4,
+            "source_ref": "2(B)(a)(iii)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF DEFENCE"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF DEFENCE"
+                },
+                {
+                  "type": "entry",
+                  "num": "19"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r17.w730",
+                "r17.w732"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    606,
+                    1067,
+                    831,
+                    1108
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "19",
+                "text": "Capital Acquisitions exclusive to the Defence Services."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r17.w729",
+              "r17.w738"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  527,
+                  1067,
+                  1675,
+                  1108
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 5,
+            "source_ref": "2(B)(a)(iv)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF DEFENCE"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF DEFENCE"
+                },
+                {
+                  "type": "entry",
+                  "num": "20"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r17.w748",
+                "r17.w750"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    604,
+                    1222,
+                    859,
+                    1264
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "21",
+                "text": "Institute for Defence Studies and Analysis, National Defence College and any other organisation within the Ministry of Defence whose remit is broader than military matters."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r17.w747",
+              "r17.w756"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  527,
+                  1222,
+                  1650,
+                  1264
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 6,
+            "source_ref": "2(B)(b)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF DEFENCE"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF DEFENCE"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r17.w784",
+                "r17.w795"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    495,
+                    1483,
+                    2248,
+                    1574
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "department",
+                "num": "AA",
+                "heading": "DEPARTMENT OF MILITARY AFFAIRS",
+                "heading_hi": "SAINYA KARYA VIBHAG"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "The Armed Forces of the Union, namely, Army, Navy and Air Force."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "Integrated Headquarters of the Ministry of Defence comprising of Army Headquarters Naval Headquarters, Air Headquarters and Defence Staff Headquarters."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "The Territorial Army."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "Works relating to Army, Navy and Air Force."
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "Procurement exclusive to the Services except capital acquisitions, as per prevalent rules and procedures."
+              },
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "Promoting jointness in procurement, training and staffing for the Services through joint planning and integration of their requirements."
+              },
+              {
+                "type": "entry",
+                "num": "7",
+                "text": "Facilitation of restructuring of Military Commands for optimal utilisation of resources by bringing about jointness in operations, including through establishment of joint/ theatre commands."
+              },
+              {
+                "type": "entry",
+                "num": "8",
+                "text": "Promoting use of indigenous equipment by the Services."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r17.w783",
+              "r17.w794"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  427,
+                  1483,
+                  2248,
+                  1525
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,288 @@
+{
+  "file": {
+    "name": "1_Upload_1413.pdf",
+    "file_id": "f_f11b208ee77569cd",
+    "pages": 3,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_1413.pdf",
+    "sha256": "f11b208ee77569cd34ad83c47a8cbc78de8655316d5c5fa18425e99a460c19f4",
+    "govdoc": "1_Upload_1413.pdf.govdoc.json.zst",
+    "revision": 62
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_1847E_2018",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_1660_2018",
+      "fields": {
+        "number": {
+          "value": "S. O. 1847(E)"
+        },
+        "in_force": {
+          "value": "2018-05-07"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "2018-05-07",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "2",
+          "model": "gemini-4-argon",
+          "at": "2026-11-03T16:59:06.688580+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(i)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "target": [
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "MINISTRY OF CORPORATE AFFAIRS"
+                  },
+                  {
+                    "type": "entry",
+                    "num": "3"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r17.w328",
+                  "r17.w329"
+                ],
+                "boxes": [
+                  {
+                    "page": 2,
+                    "bbox": [
+                      626,
+                      2315,
+                      769,
+                      2346
+                    ]
+                  }
+                ]
+              },
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "MINISTRY OF CORPORATE AFFAIRS"
+                  },
+                  {
+                    "type": "entry",
+                    "num": "4"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r17.w331",
+                  "r17.w331"
+                ],
+                "boxes": [
+                  {
+                    "page": 2,
+                    "bbox": [
+                      856,
+                      2316,
+                      876,
+                      2346
+                    ]
+                  }
+                ]
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r17.w327",
+              "r17.w334"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  462,
+                  2315,
+                  1171,
+                  2353
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(ii)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF CORPORATE AFFAIRS"
+                },
+                {
+                  "type": "entry",
+                  "num": "11"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r17.w337",
+                "r17.w338"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    687,
+                    2406,
+                    837,
+                    2445
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "The Competition Act, 2002 (12 of 2003)."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r17.w335",
+              "r17.w344"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  462,
+                  2405,
+                  1546,
+                  2445
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 3,
+            "source_ref": "2(iii)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF CORPORATE AFFAIRS"
+                },
+                {
+                  "type": "entry",
+                  "num": "13"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r17.w354",
+                "r17.w355"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    716,
+                    2586,
+                    865,
+                    2625
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "14",
+                "text": "Administration of Insolvency and Bankruptcy Board of India."
+              },
+              {
+                "type": "entry",
+                "num": "15",
+                "text": "Administration of National Company Law Appellate Tribunal."
+              },
+              {
+                "type": "entry",
+                "num": "16",
+                "text": "Administration of National Company Law Tribunal."
+              },
+              {
+                "type": "entry",
+                "num": "17",
+                "text": "Administration of Investor Education and Protection Fund Authority."
+              },
+              {
+                "type": "entry",
+                "num": "18",
+                "text": "Indian Institute of Corporate Affairs."
+              },
+              {
+                "type": "entry",
+                "num": "19",
+                "text": "National Financial Reporting Authority."
+              },
+              {
+                "type": "entry",
+                "num": "20",
+                "text": "Administration of the Limited Liability Partnership Act, 2008 (6 of 2009)."
+              },
+              {
+                "type": "entry",
+                "num": "21",
+                "text": "Administration of the Companies Act, 2013 (18 of 2013)."
+              }
+            ],
+            "flags": [
+              "page_break_inside"
+            ],
+            "words": [
+              "r17.w352",
+              "r17.w362"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  462,
+                  2585,
+                  1698,
+                  2625
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

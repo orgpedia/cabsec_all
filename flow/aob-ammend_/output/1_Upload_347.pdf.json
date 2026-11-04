@@ -1,0 +1,175 @@
+{
+  "file": {
+    "name": "1_Upload_347.pdf",
+    "file_id": "f_6dd19d5e6a74d13c",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_347.pdf",
+    "sha256": "6dd19d5e6a74d13c8d1fd97f9319f16b1792e0286c036749c20d108ff7badaf7",
+    "govdoc": "1_Upload_347.pdf.govdoc.json.zst",
+    "revision": 41
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_1521E_2013",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_1339_2013",
+      "fields": {
+        "number": {
+          "value": "S.O. 1521(E)"
+        },
+        "in_force": {
+          "value": "2013-06-10"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "2013-06-10",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "2",
+          "model": "gemini-4-argon",
+          "at": "2026-11-03T16:59:03.349995+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(a)(i)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF LAW AND JUSTICE"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF LEGAL AFFAIRS"
+                },
+                {
+                  "type": "entry",
+                  "num": "14"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w318",
+                "r1.w319"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1448,
+                    2014,
+                    1615,
+                    2058
+                  ]
+                }
+              ]
+            },
+            "flags": [],
+            "words": [
+              "r1.w306",
+              "r1.w314"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  746,
+                  1951,
+                  2230,
+                  1996
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(a)(ii)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF LAW AND JUSTICE"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF JUSTICE"
+                },
+                {
+                  "type": "entry",
+                  "num": "10"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w333",
+                "r1.w335"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1316,
+                    2138,
+                    1607,
+                    2183
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "11",
+                "text": "Legal aid to the poor."
+              },
+              {
+                "type": "entry",
+                "num": "12",
+                "text": "Administration of Justice."
+              },
+              {
+                "type": "entry",
+                "num": "13",
+                "text": "Access to Justice, Justice Delivery and Legal Reforms."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w323",
+              "r1.w330"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  746,
+                  2075,
+                  2230,
+                  2121
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "file": {
+    "name": "1_Upload_1905.pdf",
+    "file_id": "f_312319f9ca8a42d5",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_1905.pdf",
+    "sha256": "312319f9ca8a42d5f5e5baa5eb9ae3e92b8a7bb3fc6e96fa1cd4c7f056257272",
+    "govdoc": "1_Upload_1905.pdf.govdoc.json.zst",
+    "revision": 62
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_2886E_2019",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_2627_2019",
+      "fields": {
+        "number": {
+          "value": "S.O. 2886(E)"
+        },
+        "in_force": {
+          "value": "2019-08-06"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "2019-08-06",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "2",
+          "model": "gemini-4-argon",
+          "at": "2026-11-03T16:59:02.928788+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(a)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "NITI Aayog (National Institution for Transforming India)"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r17.w317",
+                "r17.w327"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    934,
+                    1664,
+                    2226,
+                    1700
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "department",
+                "num": "50",
+                "heading": "National Security Council Secretariat",
+                "heading_hi": "Rashtriya Suraksha Parishad Sachivalaya"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r17.w312",
+              "r17.w319"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  391,
+                  1664,
+                  1197,
+                  1700
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(b)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "NITI AAYOG (NATIONAL INSTITUTION FOR TRANSFORMING INDIA)"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r17.w349",
+                "r17.w363"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    461,
+                    1867,
+                    2228,
+                    1954
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "ministry",
+                "heading": "NATIONAL SECURITY COUNCIL SECRETARIAT",
+                "heading_hi": "RASHTRIYA SURAKSHA PARISHAD SACHIVALAYA"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Secretariat of the National Security Council, chaired by the Prime Minister."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "To assist the National Security Adviser, the Principal Adviser on National Security matters to the Prime Minister; and the National Security Council."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r17.w344",
+              "r17.w351"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  391,
+                  1867,
+                  1329,
+                  1902
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

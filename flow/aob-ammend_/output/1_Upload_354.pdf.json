@@ -1,0 +1,299 @@
+{
+  "file": {
+    "name": "1_Upload_354.pdf",
+    "file_id": "f_3b794e8ce0384e0e",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_354.pdf",
+    "sha256": "3b794e8ce0384e0ef4f9abf8b2066c30a6a0ba2099adf6fc4aafa71521deb58b",
+    "govdoc": "1_Upload_354.pdf.govdoc.json.zst",
+    "revision": 50
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_3106E_2014",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_2508_2014",
+      "fields": {
+        "number": {
+          "value": "S.O. 3106(E)"
+        },
+        "in_force": {
+          "value": "2014-12-08"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "2014-12-08",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "2",
+          "model": "gemini-4-argon",
+          "at": "2026-11-03T16:59:02.947167+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(1)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Social Justice and Empowerment"
+                },
+                {
+                  "type": "department",
+                  "heading": "Department of Disability Affairs"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w383",
+                "r1.w393"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    525,
+                    1691,
+                    2255,
+                    1777
+                  ]
+                }
+              ]
+            },
+            "expect": "(ii) Department of Disability Affairs (Nishaktata Karya Vibhag)",
+            "scope": "heading",
+            "content": [
+              {
+                "type": "department",
+                "num": "ii",
+                "heading": "Department of Empowerment of Persons with Disabilities",
+                "heading_hi": "Viklangjan Sashaktikaran Vibhag"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w363",
+              "r1.w370"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  376,
+                  1643,
+                  1321,
+                  1681
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(2)(i)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF SOCIAL JUSTICE AND EMPOWERMENT"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF SOCIAL JUSTICE AND EMPOWERMENT"
+                },
+                {
+                  "type": "entry",
+                  "num": "4"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w445",
+                "r1.w447"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1688,
+                    2028,
+                    1909,
+                    2066
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "4A",
+                "text": "Employment of Manual Scavengers and Construction of Dry Latrines (Prohibition) Act, 1993 (46 of 1993)"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w429",
+              "r1.w437"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  526,
+                  1980,
+                  1814,
+                  2018
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 3,
+            "source_ref": "2(2)(ii)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF SOCIAL JUSTICE AND EMPOWERMENT"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF DISABILITY AFFAIRS"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w472",
+                "r1.w482"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    675,
+                    2293,
+                    2255,
+                    2377
+                  ]
+                }
+              ]
+            },
+            "expect": "B. DEPARTMENT OF DISABILITY AFFAIRS (NISHAKTATA KARYA VIBHAG)",
+            "scope": "heading",
+            "content": [
+              {
+                "type": "department",
+                "num": "B",
+                "heading": "DEPARTMENT OF EMPOWERMENT OF PERSONS WITH DISABILITIES",
+                "heading_hi": "VIKLANGJAN SASHAKTIKARAN VIBHAG"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w471",
+              "r1.w479"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  526,
+                  2293,
+                  1943,
+                  2331
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 4,
+            "source_ref": "2(2)(iii)",
+            "op": "substitute_text",
+            "akn_type": "substitution",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF SOCIAL JUSTICE AND EMPOWERMENT"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF EMPOWERMENT OF PERSONS WITH DISABILITIES"
+                },
+                {
+                  "type": "entry",
+                  "num": "4"
+                },
+                {
+                  "type": "note"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w519",
+                "r1.w524"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    675,
+                    2557,
+                    2255,
+                    2640
+                  ]
+                }
+              ]
+            },
+            "old": "Department of Disability Affairs",
+            "new": "Department of Empowerment of Persons with Disabilities",
+            "ref_seq": 3,
+            "flags": [],
+            "words": [
+              "r1.w501",
+              "r1.w509"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  526,
+                  2510,
+                  1913,
+                  2548
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

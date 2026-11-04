@@ -1,0 +1,30 @@
+# A person's changes to 1_Upload_349.pdf (GovDoc §8.3), one record per action, in order. Written by
+# GovDoc Studio and brought into the GovDoc file by the pipeline before it runs (Pipeline §P9).
+file: 1_Upload_349.pdf
+file_id: f_3c5c117a68990008
+next: 3
+runs:
+- id: h1
+  by: mukundesh
+  at: '2026-11-03T12:22:27Z'
+  edits:
+  - op: remove_word
+    target: r1.w157
+    before:
+      page: 1
+      word: {id: r1.w157, text: iz.kc, bbox: [1039, 2519, 1114, 2546]}
+      line: r2.l44
+      after: null
+    after: null
+- id: h2
+  by: mukundesh
+  at: '2026-11-03T12:22:31Z'
+  edits:
+  - op: remove_word
+    target: r1.w158
+    before:
+      page: 1
+      word: {id: r1.w158, text: 'eq[kthZ', bbox: [1128, 2508, 1226, 2555]}
+      line: r2.l44
+      after: null
+    after: null

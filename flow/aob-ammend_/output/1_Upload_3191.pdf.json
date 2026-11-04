@@ -1,0 +1,100 @@
+{
+  "file": {
+    "name": "1_Upload_3191.pdf",
+    "file_id": "f_32e32c2f3c06b76e",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_3191.pdf",
+    "sha256": "32e32c2f3c06b76e704fdb4e27254e8f97f6110139f16e1f99c16db0f0ed024b",
+    "govdoc": "1_Upload_3191.pdf.govdoc.json.zst",
+    "revision": 62
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_1550E_2022",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_1489_2022",
+      "fields": {
+        "number": {
+          "value": "S.O. 1550(E)"
+        },
+        "in_force": {
+          "value": "2022-03-31"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "2022-03-31",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "2",
+          "model": "gemini-4-argon",
+          "at": "2026-11-03T16:59:02.939050+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2",
+            "op": "omit",
+            "akn_type": "repeal",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF HOME AFFAIRS"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF HOME"
+                },
+                {
+                  "type": "entry",
+                  "num": "9"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r17.w279",
+                "r17.w281"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1249,
+                    970,
+                    1436,
+                    1012
+                  ]
+                }
+              ]
+            },
+            "expect": "(except Jammu and Kashmir)",
+            "flags": [],
+            "words": [
+              "r17.w246",
+              "r17.w246"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  251,
+                  865,
+                  281,
+                  898
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

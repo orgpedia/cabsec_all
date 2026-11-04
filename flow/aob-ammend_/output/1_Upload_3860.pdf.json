@@ -1,0 +1,107 @@
+{
+  "file": {
+    "name": "1_Upload_3860.pdf",
+    "file_id": "f_bd2238f6d3d20c98",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_3860.pdf",
+    "sha256": "bd2238f6d3d20c9810e2851bdb075fd3941f58f4037eba7dee2e755530545529",
+    "govdoc": "1_Upload_3860.pdf.govdoc.json.zst",
+    "revision": 62
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_1614E_2024",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_1531_2024",
+      "fields": {
+        "number": {
+          "value": "S.O. 1614(E)"
+        },
+        "in_force": {
+          "value": "2024-04-03"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "2024-04-03",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "2",
+          "model": "gemini-4-argon",
+          "at": "2026-11-03T16:59:06.458311+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2",
+            "op": "insert",
+            "akn_type": "insertion",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF FISHERIES, ANIMAL HUSBANDRY AND DAIRYING"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF FISHERIES"
+                },
+                {
+                  "type": "entry",
+                  "num": "8"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r17.w310",
+                "r17.w312"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    806,
+                    1117,
+                    1016,
+                    1155
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "8A",
+                "text": "Promotion of Seaweeds cultivation and associated activities, industrial applications, marketing, import including exotics, quarantine, etc."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r17.w272",
+              "r17.w281"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  401,
+                  973,
+                  1503,
+                  1011
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

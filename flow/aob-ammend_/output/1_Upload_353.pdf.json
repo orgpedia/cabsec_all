@@ -1,0 +1,161 @@
+{
+  "file": {
+    "name": "1_Upload_353.pdf",
+    "file_id": "f_3bf08656f05f9ee7",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_353.pdf",
+    "sha256": "3bf08656f05f9ee784f844d811f935e4fa34d29f4e363ed3fb0ae7fbcfbce4c2",
+    "govdoc": "1_Upload_353.pdf.govdoc.json.zst",
+    "revision": 41
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_2014E_2014",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_1584_2014",
+      "fields": {
+        "number": {
+          "value": "S.O. 2014(E)"
+        },
+        "in_force": {
+          "value": "2014-08-07"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "2014-08-07",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "2",
+          "model": "gemini-4-argon",
+          "at": "2026-11-03T16:59:02.959204+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(a)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF CIVIL AVIATION"
+                },
+                {
+                  "type": "entry",
+                  "num": "4"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w282",
+                "r1.w283"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    911,
+                    1193,
+                    1034,
+                    1234
+                  ]
+                }
+              ]
+            },
+            "flags": [],
+            "words": [
+              "r1.w271",
+              "r1.w278"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  440,
+                  1142,
+                  1734,
+                  1183
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(b)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF DEFENCE"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF DEFENCE PRODUCTION"
+                },
+                {
+                  "type": "entry",
+                  "num": "12"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w307",
+                "r1.w309"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    767,
+                    1371,
+                    1015,
+                    1412
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "12A",
+                "text": "Production of aircraft and aircraft components for civil use."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w287",
+              "r1.w293"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  440,
+                  1268,
+                  1421,
+                  1309
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

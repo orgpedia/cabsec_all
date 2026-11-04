@@ -1,0 +1,107 @@
+{
+  "file": {
+    "name": "1_Upload_349.pdf",
+    "file_id": "f_3c5c117a68990008",
+    "pages": 1,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_349.pdf",
+    "sha256": "3c5c117a6899000885216f36c4ecbbe5c71713f41755ea9862111eb9967de997",
+    "govdoc": "1_Upload_349.pdf.govdoc.json.zst",
+    "revision": 50
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_3091E_2013",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_2398_2013",
+      "fields": {
+        "number": {
+          "value": "S.O. 3091(E)"
+        },
+        "in_force": {
+          "value": "2013-10-09"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "2013-10-09",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "2",
+          "model": "gemini-4-argon",
+          "at": "2026-11-03T16:59:02.967203+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2",
+            "op": "insert",
+            "akn_type": "insertion",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF FINANCE"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF EXPENDITURE"
+                },
+                {
+                  "type": "entry",
+                  "num": "12"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w273",
+                "r1.w275"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    1326,
+                    2354,
+                    1582,
+                    2392
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "13",
+                "text": "Direct Benefits Transfer Scheme and matters related thereto."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w242",
+              "r1.w250"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  1326,
+                  2104,
+                  2273,
+                  2140
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

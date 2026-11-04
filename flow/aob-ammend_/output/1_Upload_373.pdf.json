@@ -1,0 +1,222 @@
+{
+  "file": {
+    "name": "1_Upload_373.pdf",
+    "file_id": "f_2f24b2f36ad05434",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_373.pdf",
+    "sha256": "2f24b2f36ad0543456de68da8a85183d070a707fa751f098a5ec07064c75851b",
+    "govdoc": "1_Upload_373.pdf.govdoc.json.zst",
+    "revision": 41
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_2577E_2016",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_1914_2016",
+      "fields": {
+        "number": {
+          "value": "S.O. 2577(E)"
+        },
+        "in_force": {
+          "value": "2016-07-29"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "2016-07-29",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "2",
+          "model": "gemini-4-argon",
+          "at": "2026-11-03T16:59:02.902276+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(1)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF CORPORATE AFFAIRS"
+                },
+                {
+                  "type": "entry",
+                  "num": "12"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w325",
+                "r1.w327"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    876,
+                    1029,
+                    1130,
+                    1071
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "13",
+                "text": "Administration of Insolvency and Bankruptcy Code."
+              }
+            ],
+            "flags": [
+              "version_hindi"
+            ],
+            "words": [
+              "r1.w314",
+              "r1.w321"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  392,
+                  977,
+                  1726,
+                  1018
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(2)(i)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF FINANCE"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF ECONOMIC AFFAIRS"
+                },
+                {
+                  "type": "entry",
+                  "num": "107"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w363",
+                "r1.w364"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1027,
+                    1315,
+                    1199,
+                    1357
+                  ]
+                }
+              ]
+            },
+            "flags": [],
+            "words": [
+              "r1.w351",
+              "r1.w359"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  503,
+                  1263,
+                  2025,
+                  1304
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 3,
+            "source_ref": "2(2)(ii)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF FINANCE"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF FINANCIAL SERVICES"
+                },
+                {
+                  "type": "entry",
+                  "num": "22"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w380",
+                "r1.w382"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1118,
+                    1446,
+                    1356,
+                    1487
+                  ]
+                }
+              ]
+            },
+            "expect": "and entry 9 of the Concurrent List",
+            "flags": [],
+            "words": [
+              "r1.w368",
+              "r1.w376"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  503,
+                  1393,
+                  2017,
+                  1435
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

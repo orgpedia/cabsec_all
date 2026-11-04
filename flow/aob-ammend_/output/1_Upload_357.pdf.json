@@ -1,0 +1,372 @@
+{
+  "file": {
+    "name": "1_Upload_357.pdf",
+    "file_id": "f_90a8d8a274020b56",
+    "pages": 4,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_357.pdf",
+    "sha256": "90a8d8a274020b5616ddfb78db43bd848d0256da2ef9d6f8877cec2a26f04972",
+    "govdoc": "1_Upload_357.pdf.govdoc.json.zst",
+    "revision": 45
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_815E_2015",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_621_2015",
+      "fields": {
+        "number": {
+          "value": "S.O. 815(E)"
+        },
+        "in_force": {
+          "value": "2015-03-21"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "2015-03-21",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "2",
+          "model": "gemini-4-argon",
+          "at": "2026-11-03T17:53:34.837304+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(1)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Planning Commission"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w771",
+                "r1.w778"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    1096,
+                    987,
+                    2247,
+                    1029
+                  ]
+                }
+              ]
+            },
+            "expect": "49. Planning Commission (Yojana Ayog)",
+            "scope": "heading",
+            "content": [
+              {
+                "type": "department",
+                "num": "49",
+                "heading": "NITI Aayog (National Institution for Transforming India)"
+              }
+            ],
+            "flags": [
+              "hindi_missing"
+            ],
+            "words": [
+              "r1.w766",
+              "r1.w773"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  382,
+                  987,
+                  1382,
+                  1029
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(2)(I)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF AGRICULTURE"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF AGRICULTURE AND COOPERATION"
+                },
+                {
+                  "type": "entry",
+                  "num": "53"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w821",
+                "r1.w823"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    1003,
+                    1378,
+                    1257,
+                    1420
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "54",
+                "text": "National Rainfed Area Authority (NRAA)."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w799",
+              "r1.w805"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  382,
+                  1273,
+                  1549,
+                  1315
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 3,
+            "source_ref": "2(2)(II)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF PLANNING"
+                },
+                {
+                  "type": "paragraph"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w846",
+                "r1.w849"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    381,
+                    1534,
+                    2249,
+                    1628
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Responsibility to Parliament in regard to the NITI Aayog (National Institution for Transforming India)."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w837",
+              "r1.w843"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  393,
+                  1534,
+                  1480,
+                  1575
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 4,
+            "source_ref": "2(2)(III)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "PLANNING COMMISSION"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w872",
+                "r1.w886"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    382,
+                    1795,
+                    2247,
+                    1890
+                  ]
+                }
+              ]
+            },
+            "expect": "PLANNING COMMISSION (YOJANA AYOG)",
+            "content": [
+              {
+                "type": "ministry",
+                "heading": "NITI AAYOG (NATIONAL INSTITUTION FOR TRANSFORMING INDIA)"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "NITI Aayog (National Institution for Transforming India):"
+              },
+              {
+                "type": "item",
+                "num": "i",
+                "text": "a. To evolve a shared vision of national development priorities, sectors and strategies with the active involvement of States in the light of national objectives"
+              },
+              {
+                "type": "item",
+                "num": "b",
+                "text": "To foster cooperative federalism through structured support initiatives and mechanisms with the States on a continuous basis, recognizing that strong States make a strong nation"
+              },
+              {
+                "type": "item",
+                "num": "c",
+                "text": "To develop mechanisms to formulate credible plans at the village level and aggregate these progressively at higher levels of government"
+              },
+              {
+                "type": "item",
+                "num": "d",
+                "text": "To ensure, on areas that are specifically referred to it, that the interests of national security are incorporated in economic strategy and policy"
+              },
+              {
+                "type": "item",
+                "num": "e",
+                "text": "To pay special attention to the sections of our society that may be at risk of not benefitting adequately from economic progress"
+              },
+              {
+                "type": "item",
+                "num": "f",
+                "text": "To design strategic and long term policy and programme frameworks and initiatives, and monitor their progress and their efficacy. The lessons learnt through monitoring and feedback will be used for making innovative improvements, including necessary mid-course corrections"
+              },
+              {
+                "type": "item",
+                "num": "g",
+                "text": "To provide advice and encourage partnerships between key stakeholders and national and international like-minded Think Tanks, as well as educational and policy research institutions"
+              },
+              {
+                "type": "item",
+                "num": "h",
+                "text": "To create a knowledge, innovation and entrepreneurial support system through a collaborative community of national and international experts practitioners and other partners"
+              },
+              {
+                "type": "item",
+                "num": "i",
+                "text": "To offer a platform for resolution of inter-sectoral and inter-departmental issues in order to accelerate the implementation of the development agenda"
+              },
+              {
+                "type": "item",
+                "num": "j",
+                "text": "To maintain a state-of-the-art Resource Centre, be a repository of research on good governance and best practices in sustainable and equitable development as well as help their dissemination to stake-holders"
+              },
+              {
+                "type": "item",
+                "num": "k",
+                "text": "To actively monitor and evaluate the implementation of programmes and initiatives, including the identification of the needed resources so as to strengthen the probability of success and scope of delivery"
+              },
+              {
+                "type": "item",
+                "num": "l",
+                "text": "To focus on technology upgradation and capacity building for implementation of programmes and initiatives"
+              },
+              {
+                "type": "item",
+                "num": "m",
+                "text": "To undertake other activities as may be necessary in order to further the execution of the national development agenda, and the objectives mentioned above"
+              },
+              {
+                "type": "item",
+                "num": "ii",
+                "text": "Unique Identification Authority of India (UIDAI)"
+              },
+              {
+                "type": "item",
+                "num": "iii",
+                "text": "National Institute of Labour Economics Research and Development (NILERD)"
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "The NITI Aayog is the successor in interest to the Planning Commission."
+              }
+            ],
+            "flags": [
+              "hindi_missing",
+              "page_break_inside"
+            ],
+            "words": [
+              "r1.w871",
+              "r1.w877"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  382,
+                  1795,
+                  1614,
+                  1836
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "file": {
+    "name": "1_Upload_370.pdf",
+    "file_id": "f_2a8b6fd867e5b6e2",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_370.pdf",
+    "sha256": "2a8b6fd867e5b6e2cfa96badbda0e59700e7554ce79e02cc2b7e81f00c02d592",
+    "govdoc": "1_Upload_370.pdf.govdoc.json.zst",
+    "revision": 42
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_1832E_2016",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_1251_2016",
+      "fields": {
+        "number": {
+          "value": "S.O. 1832(E)"
+        },
+        "in_force": {
+          "value": "2016-05-18"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "2016-05-18",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "2",
+          "model": "gemini-4-argon",
+          "at": "2026-11-03T16:59:02.871214+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2",
+            "op": "replace",
+            "akn_type": "replacement",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF EARTH SCIENCES"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w413",
+                "r1.w426"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    460,
+                    1470,
+                    2227,
+                    1551
+                  ]
+                }
+              ]
+            },
+            "scope": "children",
+            "content": [
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Earth Commission and all matters relating thereto."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": ""
+              },
+              {
+                "type": "item",
+                "num": "a",
+                "text": "(i) Matters of policy, coordination and schemes relating to the Ocean, Atmospheric and Meteorological Sciences, Seismology and Solid Earth, Polar Science and Earth System Sciences, not specifically allocated to any other Department or Ministry"
+              },
+              {
+                "type": "item",
+                "num": "ii",
+                "text": "research (including fundamental research) related to Earth System Sciences and the development of uses relatable thereto"
+              },
+              {
+                "type": "item",
+                "num": "iii",
+                "text": "technology development"
+              },
+              {
+                "type": "item",
+                "num": "iv",
+                "text": "surveys to map, locate and assess living and non-living marine resources"
+              },
+              {
+                "type": "item",
+                "num": "v",
+                "text": "preservation, conservation and protection of marine and polar resources"
+              },
+              {
+                "type": "item",
+                "num": "vi",
+                "text": "development of appropriate skills and manpower"
+              },
+              {
+                "type": "item",
+                "num": "vii",
+                "text": "international collaboration and cooperation"
+              },
+              {
+                "type": "item",
+                "num": "b",
+                "text": "laws and regulatory measures relating to the above."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "Marine Environment on the high seas."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "Earth System Science Oganisation (ESSO)."
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "Earth System Science and Technology Agency or Board."
+              }
+            ],
+            "flags": [
+              "version_text"
+            ],
+            "words": [
+              "r1.w398",
+              "r1.w434"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  320,
+                  1470,
+                  2227,
+                  1633
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

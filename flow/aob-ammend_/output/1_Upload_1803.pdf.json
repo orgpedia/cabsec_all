@@ -1,0 +1,882 @@
+{
+  "file": {
+    "name": "1_Upload_1803.pdf",
+    "file_id": "f_742a37252c3375b7",
+    "pages": 5,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_1803.pdf",
+    "sha256": "742a37252c3375b76bb9fadd7d625fd4ec452c4dc8b6001325b75274cb6d260a",
+    "govdoc": "1_Upload_1803.pdf.govdoc.json.zst",
+    "revision": 62
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_762E_2019",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_644_2019",
+      "fields": {
+        "number": {
+          "value": "S.O. 762(E)"
+        },
+        "in_force": {
+          "value": "2019-02-05"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "2019-02-05",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "2",
+          "model": "gemini-4-argon",
+          "at": "2026-11-03T16:59:03.386479+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(1)(a)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Agriculture and Farmers Welfare"
+                },
+                {
+                  "type": "department",
+                  "heading": "Department of Animal Husbandry, Dairying and Fisheries"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r17.w958",
+                "r17.w972"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    580,
+                    2262,
+                    2227,
+                    2351
+                  ]
+                }
+              ]
+            },
+            "expect": "(iii) Department of Animal Husbandry, Dairying and Fisheries (Pashupalan, Dairy aur Matsyapalan Vibhag)",
+            "content": [
+              {
+                "type": "department",
+                "num": "iii",
+                "heading": "Department of Animal Husbandry and Dairying",
+                "heading_hi": "Pashupalan aur Dairy Vibhag"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r17.w956",
+              "r17.w964"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  462,
+                  2262,
+                  1760,
+                  2302
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(1)(b)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Agriculture and Farmers Welfare"
+                },
+                {
+                  "type": "department",
+                  "heading": "Department of Animal Husbandry and Dairying"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r17.w993",
+                "r17.w1005"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    578,
+                    2507,
+                    2228,
+                    2597
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "department",
+                "num": "iv",
+                "heading": "Department of Fisheries",
+                "heading_hi": "Matsyapalan Vibhag"
+              }
+            ],
+            "ref_seq": 1,
+            "flags": [],
+            "words": [
+              "r17.w991",
+              "r17.w999"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  462,
+                  2507,
+                  1678,
+                  2547
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 3,
+            "source_ref": "2(2)(a)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF AGRICULTURE AND FARMERS WELFARE"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF ANIMAL HUSBANDRY, DAIRYING AND FISHERIES"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r17.w1044",
+                "r17.w1058"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    599,
+                    2825,
+                    2227,
+                    2913
+                  ]
+                }
+              ]
+            },
+            "expect": "C. DEPARTMENT OF ANIMAL HUSBANDRY, DAIRYING AND FISHERIES (PASHUPALAN, DAIRY AUR MATSYAPALAN VIBHAG)",
+            "scope": "heading",
+            "content": [
+              {
+                "type": "department",
+                "num": "C",
+                "heading": "DEPARTMENT OF ANIMAL HUSBANDRY AND DAIRYING",
+                "heading_hi": "PASHUPALAN AUR DAIRY VIBHAG"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r17.w1042",
+              "r17.w1050"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  462,
+                  2825,
+                  1884,
+                  2865
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 4,
+            "source_ref": "2(2)(b)(i)",
+            "op": "substitute_text",
+            "akn_type": "substitution",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF AGRICULTURE AND FARMERS WELFARE"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF ANIMAL HUSBANDRY AND DAIRYING"
+                },
+                {
+                  "type": "group_heading",
+                  "heading": "PART I"
+                },
+                {
+                  "type": "entry",
+                  "num": "1"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r17.w1100",
+                "r17.w1101"
+              ],
+              "boxes": [
+                {
+                  "page": 4,
+                  "bbox": [
+                    792,
+                    477,
+                    925,
+                    516
+                  ]
+                }
+              ]
+            },
+            "old": "Livestock, fish and birds feed and dairy, poultry and fish products",
+            "new": "Livestock and birds feed and dairy and poultry products",
+            "ref_seq": 3,
+            "flags": [],
+            "words": [
+              "r17.w1098",
+              "r17.w1104"
+            ],
+            "boxes": [
+              {
+                "page": 4,
+                "bbox": [
+                  603,
+                  477,
+                  1178,
+                  516
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 5,
+            "source_ref": "2(2)(b)(ii)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF AGRICULTURE AND FARMERS WELFARE"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF ANIMAL HUSBANDRY AND DAIRYING"
+                },
+                {
+                  "type": "group_heading",
+                  "heading": "PART I"
+                },
+                {
+                  "type": "entry",
+                  "num": "1"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r17.w1132",
+                "r17.w1133"
+              ],
+              "boxes": [
+                {
+                  "page": 4,
+                  "bbox": [
+                    833,
+                    657,
+                    961,
+                    696
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "1A",
+                "text": "Promotion and Development of Livestock, Dairy and Poultry and its associated activities, including infrastructure development, Marketing, Exports and institutional arrangements etc."
+              },
+              {
+                "type": "entry",
+                "num": "1B",
+                "text": "Welfare of persons engaged in activities relating to livestock, Dairy and Poultry."
+              }
+            ],
+            "ref_seq": 3,
+            "flags": [],
+            "words": [
+              "r17.w1130",
+              "r17.w1136"
+            ],
+            "boxes": [
+              {
+                "page": 4,
+                "bbox": [
+                  603,
+                  657,
+                  1330,
+                  696
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 6,
+            "source_ref": "2(2)(b)(iii)",
+            "op": "substitute_text",
+            "akn_type": "substitution",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF AGRICULTURE AND FARMERS WELFARE"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF ANIMAL HUSBANDRY AND DAIRYING"
+                },
+                {
+                  "type": "group_heading",
+                  "heading": "PART I"
+                },
+                {
+                  "type": "entry",
+                  "num": "2"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r17.w1178",
+                "r17.w1179"
+              ],
+              "boxes": [
+                {
+                  "page": 4,
+                  "bbox": [
+                    794,
+                    999,
+                    927,
+                    1038
+                  ]
+                }
+              ]
+            },
+            "old": "livestock, poultry and fisheries development",
+            "new": "livestock and poultry development",
+            "ref_seq": 3,
+            "flags": [],
+            "words": [
+              "r17.w1176",
+              "r17.w1182"
+            ],
+            "boxes": [
+              {
+                "page": 4,
+                "bbox": [
+                  603,
+                  999,
+                  1185,
+                  1038
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 7,
+            "source_ref": "2(2)(b)(iv)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "target": [
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "MINISTRY OF AGRICULTURE AND FARMERS WELFARE"
+                  },
+                  {
+                    "type": "department",
+                    "heading": "DEPARTMENT OF ANIMAL HUSBANDRY AND DAIRYING"
+                  },
+                  {
+                    "type": "group_heading",
+                    "heading": "PART I"
+                  },
+                  {
+                    "type": "entry",
+                    "num": "7"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r17.w1199",
+                  "r17.w1200"
+                ],
+                "boxes": [
+                  {
+                    "page": 4,
+                    "bbox": [
+                      807,
+                      1129,
+                      951,
+                      1159
+                    ]
+                  }
+                ]
+              },
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "MINISTRY OF AGRICULTURE AND FARMERS WELFARE"
+                  },
+                  {
+                    "type": "department",
+                    "heading": "DEPARTMENT OF ANIMAL HUSBANDRY AND DAIRYING"
+                  },
+                  {
+                    "type": "group_heading",
+                    "heading": "PART I"
+                  },
+                  {
+                    "type": "entry",
+                    "num": "8"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r17.w1202",
+                  "r17.w1202"
+                ],
+                "boxes": [
+                  {
+                    "page": 4,
+                    "bbox": [
+                      1038,
+                      1129,
+                      1056,
+                      1160
+                    ]
+                  }
+                ]
+              }
+            ],
+            "ref_seq": 3,
+            "flags": [],
+            "words": [
+              "r17.w1197",
+              "r17.w1205"
+            ],
+            "boxes": [
+              {
+                "page": 4,
+                "bbox": [
+                  603,
+                  1129,
+                  1354,
+                  1167
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 8,
+            "source_ref": "2(2)(c)",
+            "op": "substitute_text",
+            "akn_type": "substitution",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF AGRICULTURE AND FARMERS WELFARE"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF ANIMAL HUSBANDRY AND DAIRYING"
+                },
+                {
+                  "type": "group_heading",
+                  "heading": "PART II"
+                },
+                {
+                  "type": "entry",
+                  "num": "10"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r17.w1211",
+                "r17.w1212"
+              ],
+              "boxes": [
+                {
+                  "page": 4,
+                  "bbox": [
+                    868,
+                    1210,
+                    1019,
+                    1249
+                  ]
+                }
+              ]
+            },
+            "old": "or infectious or contagious diseases or pests affecting animals, fish and birds",
+            "new": "of infectious or contagious diseases or pests affecting animals and birds",
+            "ref_seq": 3,
+            "flags": [],
+            "words": [
+              "r17.w1206",
+              "r17.w1215"
+            ],
+            "boxes": [
+              {
+                "page": 4,
+                "bbox": [
+                  462,
+                  1210,
+                  1265,
+                  1249
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 9,
+            "source_ref": "2(2)(d)(i)",
+            "op": "substitute_text",
+            "akn_type": "substitution",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF AGRICULTURE AND FARMERS WELFARE"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF ANIMAL HUSBANDRY AND DAIRYING"
+                },
+                {
+                  "type": "group_heading",
+                  "heading": "PART III"
+                },
+                {
+                  "type": "entry",
+                  "num": "13"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r17.w1250",
+                "r17.w1251"
+              ],
+              "boxes": [
+                {
+                  "page": 4,
+                  "bbox": [
+                    771,
+                    1471,
+                    927,
+                    1510
+                  ]
+                }
+              ]
+            },
+            "old": "animals, fish and birds",
+            "new": "animals and birds",
+            "ref_seq": 3,
+            "flags": [],
+            "words": [
+              "r17.w1248",
+              "r17.w1254"
+            ],
+            "boxes": [
+              {
+                "page": 4,
+                "bbox": [
+                  603,
+                  1470,
+                  1188,
+                  1510
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 10,
+            "source_ref": "2(2)(d)(ii)",
+            "op": "substitute_text",
+            "akn_type": "substitution",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF AGRICULTURE AND FARMERS WELFARE"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF ANIMAL HUSBANDRY AND DAIRYING"
+                },
+                {
+                  "type": "group_heading",
+                  "heading": "PART III"
+                },
+                {
+                  "type": "entry",
+                  "num": "15"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r17.w1269",
+                "r17.w1270"
+              ],
+              "boxes": [
+                {
+                  "page": 4,
+                  "bbox": [
+                    768,
+                    1601,
+                    921,
+                    1641
+                  ]
+                }
+              ]
+            },
+            "old": "livestock, fish and birds",
+            "new": "livestock and birds",
+            "ref_seq": 3,
+            "flags": [],
+            "words": [
+              "r17.w1267",
+              "r17.w1273"
+            ],
+            "boxes": [
+              {
+                "page": 4,
+                "bbox": [
+                  603,
+                  1601,
+                  1172,
+                  1641
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 11,
+            "source_ref": "2(2)(e)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF AGRICULTURE AND FARMERS WELFARE"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF ANIMAL HUSBANDRY AND DAIRYING"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r17.w1288",
+                "r17.w1305"
+              ],
+              "boxes": [
+                {
+                  "page": 4,
+                  "bbox": [
+                    462,
+                    1731,
+                    2227,
+                    1821
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "department",
+                "num": "D",
+                "heading": "DEPARTMENT OF FISHERIES",
+                "heading_hi": "MATSYAPALAN VIBHAG"
+              },
+              {
+                "type": "part",
+                "num": "I",
+                "heading": "PART I",
+                "text": "The following subjects which fall within List I of the Seventh Schedule to the Constitution of India:"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Industries, the control of which by the Union is declared by Parliament by law to be expedient in Public interest as far as these relate to Development of fish feed and fish products with the limitation that in regard to the development of industries, the functions of the Department of Fisheries do not go further than the formulation of the demand and fixation of targets."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "Promotion and development of Fishing and Fisheries (inland, marine and beyond territorial waters) and its associated activities, including infrastructure development, Marketing, Exports and institutional arrangements etc."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "Welfare of Fishermen and other Fisher-folk and strengthening of their livelihoods."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "Liaison and cooperation with international organizations in matters relating to fisheries development."
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "Fisheries Statistics."
+              },
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "Matters relating to loss of fish stock due to natural calamities."
+              },
+              {
+                "type": "entry",
+                "num": "7",
+                "text": "Regulation of fish stock importation, Quarantine and Certification."
+              },
+              {
+                "type": "entry",
+                "num": "8",
+                "text": "Fishery Survey of India, Mumbai."
+              },
+              {
+                "type": "part",
+                "num": "II",
+                "heading": "PART II",
+                "text": "The following subjects which fall within List III of the Seventh Schedule to the Constitution of India (as regards legislation only):"
+              },
+              {
+                "type": "entry",
+                "num": "9",
+                "text": "Prevention of the extension from one State to another of infectious or contagious diseases or pests affecting fish."
+              },
+              {
+                "type": "entry",
+                "num": "10",
+                "text": "Pattern of financial assistance to various State Undertakings, Fisheries Development Schemes through State agencies/Co-operative Unions."
+              },
+              {
+                "type": "part",
+                "num": "III",
+                "heading": "PART III",
+                "text": "For the Union Territories the subjects mentioned in Parts I and II above, so far as they exist in regard to these territories and, in addition, to the following subjects which fall within List II of the Seventh Schedule to the Constitution of India:"
+              },
+              {
+                "type": "entry",
+                "num": "11",
+                "text": "Preservation, protection and improvement of fish stocks and prevention of diseases thereof, Veterinary training and practice."
+              },
+              {
+                "type": "entry",
+                "num": "12",
+                "text": "Insurance of fish stock."
+              }
+            ],
+            "ref_seq": 3,
+            "flags": [
+              "page_break_inside"
+            ],
+            "words": [
+              "r17.w1286",
+              "r17.w1294"
+            ],
+            "boxes": [
+              {
+                "page": 4,
+                "bbox": [
+                  473,
+                  1731,
+                  1891,
+                  1771
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,235 @@
+{
+  "file": {
+    "name": "1_Upload_367.pdf",
+    "file_id": "f_9db7403a5949f920",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_367.pdf",
+    "sha256": "9db7403a5949f920516be134e527e5a7f666687dab5590cfe089341f1b31074a",
+    "govdoc": "1_Upload_367.pdf.govdoc.json.zst",
+    "revision": 67
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_1163E_2016",
+      "doc_type": "aob_amendment",
+      "parent": "GAZETTE_ISSUE_9db7403a5949f920",
+      "fields": {
+        "number": {
+          "value": "S.O. 1163(E)"
+        },
+        "in_force": {
+          "value": "2016-03-17"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "2016-03-17",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "2",
+          "model": "gemini-4-argon",
+          "at": "2026-11-04T06:20:25.623509+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(a)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF COMMERCE AND INDUSTRY"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF INDUSTRIAL POLICY AND PROMOTION"
+                },
+                {
+                  "type": "entry",
+                  "num": "31A"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "h14.w1",
+                "r1.w308"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    492,
+                    1934,
+                    2037,
+                    2008
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "31B",
+                "text": "The Copyright Act, 1957 (14 of 1957) and International Conventions on Copyrights."
+              },
+              {
+                "type": "entry",
+                "num": "31C",
+                "text": "The Semiconductor Integrated Circuits Layout Design Act, 2000 (37 of 2000)."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w280",
+              "r1.w286"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  361,
+                  1818,
+                  1380,
+                  1878
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(b)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF COMMUNICATIONS AND INFORMATION TECHNOLOGY"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF ELECTRONICS AND INFORMATION TECHNOLOGY"
+                },
+                {
+                  "type": "entry",
+                  "num": "6"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w364",
+                "r1.w366"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    484,
+                    2288,
+                    2029,
+                    2362
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "Matters relating to promotion and manufacturing of Semiconductor Devices in the country excluding all matters relating to Semiconductor Complex Limited (SCL), Mohali."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w429",
+              "r1.w340"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  355,
+                  2123,
+                  1589,
+                  2185
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 3,
+            "source_ref": "2(c)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF HUMAN RESOURCE DEVELOPMENT"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF HIGHER EDUCATION"
+                },
+                {
+                  "type": "entry",
+                  "num": "6"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w420",
+                "r1.w421"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1569,
+                    2582,
+                    1683,
+                    2620
+                  ]
+                }
+              ]
+            },
+            "flags": [],
+            "words": [
+              "r1.w430",
+              "r1.w403"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  349,
+                  2466,
+                  1282,
+                  2528
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

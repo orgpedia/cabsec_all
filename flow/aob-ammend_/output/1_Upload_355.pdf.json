@@ -1,0 +1,954 @@
+{
+  "file": {
+    "name": "1_Upload_355.pdf",
+    "file_id": "f_bcc812f5c0c8b33d",
+    "pages": 9,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_355.pdf",
+    "sha256": "bcc812f5c0c8b33d2d3f1b8e20bb53e9d082c088edeacf81dfa27cf89ad5017f",
+    "govdoc": "1_Upload_355.pdf.govdoc.json.zst",
+    "revision": 41
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_3105E_2014",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_2507_2014",
+      "fields": {
+        "number": {
+          "value": "S.O. 3105(E)"
+        },
+        "in_force": {
+          "value": "2014-12-08"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "2014-12-08",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "2",
+          "model": "gemini-4-argon",
+          "at": "2026-11-03T16:59:06.398630+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(1)(a)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Agriculture"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w1575",
+                "r1.w1586"
+              ],
+              "boxes": [
+                {
+                  "page": 6,
+                  "bbox": [
+                    676,
+                    420,
+                    2254,
+                    458
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "ministry",
+                "num": "2",
+                "heading": "Ministry of Ayurveda, Yoga and Naturopathy, Unani, Siddha and Homoeopathy (AYUSH)",
+                "heading_hi": "Ayurveda, Yoga aur Prakratik Chikitsa, Unani, Siddha aur Homoeopathy (AYUSH) Mantralaya"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w1574",
+              "r1.w1581"
+            ],
+            "boxes": [
+              {
+                "page": 6,
+                "bbox": [
+                  526,
+                  420,
+                  1438,
+                  458
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(1)(b)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Health and Family Welfare"
+                },
+                {
+                  "type": "department",
+                  "heading": "Department of Ayurveda, Yoga and Naturopathy, Unani, Siddha and Homoeopathy (AYUSH)"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w1618",
+                "r1.w1657"
+              ],
+              "boxes": [
+                {
+                  "page": 6,
+                  "bbox": [
+                    656,
+                    709,
+                    2255,
+                    891
+                  ]
+                }
+              ]
+            },
+            "expect": "(ii) Department of Ayurveda, Yoga and Naturopathy, Unani, Siddha and Homoeopathy (AYUSH) (Ayurveda, Yoga aur Prakratik Chikitsa, Unani, Siddha aur Homoeopathy (AYUSH) Vibhag),",
+            "flags": [],
+            "words": [
+              "r1.w1617",
+              "r1.w1624"
+            ],
+            "boxes": [
+              {
+                "page": 6,
+                "bbox": [
+                  526,
+                  709,
+                  1384,
+                  747
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 3,
+            "source_ref": "2(1)(c)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Skill Development, Entrepreneurship, Youth Affairs and Sports"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w1662",
+                "r1.w1686"
+              ],
+              "boxes": [
+                {
+                  "page": 6,
+                  "bbox": [
+                    656,
+                    926,
+                    2255,
+                    1060
+                  ]
+                }
+              ]
+            },
+            "expect": "33. Ministry of Skill Development, Entrepreneurship, Youth Affairs and Sports (Kaushal Vikas, Udyamshilta, Yuvak Karyakram aur Khel Mantralaya)",
+            "content": [
+              {
+                "type": "ministry",
+                "num": "33",
+                "heading": "Ministry of Skill Development and Entrepreneurship",
+                "heading_hi": "Kaushal Vikas aur Udyamshilta Mantralaya"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w1661",
+              "r1.w1668"
+            ],
+            "boxes": [
+              {
+                "page": 6,
+                "bbox": [
+                  526,
+                  926,
+                  1338,
+                  964
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 4,
+            "source_ref": "2(1)(d)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Women and Child Development"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w1708",
+                "r1.w1722"
+              ],
+              "boxes": [
+                {
+                  "page": 6,
+                  "bbox": [
+                    656,
+                    1215,
+                    2253,
+                    1301
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "ministry",
+                "num": "42",
+                "heading": "Ministry of Youth Affairs and Sports",
+                "heading_hi": "Yuvak Karyakram aur Khel Mantralaya"
+              },
+              {
+                "type": "department",
+                "num": "i",
+                "heading": "Department of Youth Affairs",
+                "heading_hi": "Yuvak Karyakram Vibhag"
+              },
+              {
+                "type": "department",
+                "num": "ii",
+                "heading": "Department of Sports",
+                "heading_hi": "Khel Vibhag"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w1707",
+              "r1.w1714"
+            ],
+            "boxes": [
+              {
+                "page": 6,
+                "bbox": [
+                  526,
+                  1215,
+                  1423,
+                  1253
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 5,
+            "source_ref": "2(2)(a)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF AGRICULTURE"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w1764",
+                "r1.w1778"
+              ],
+              "boxes": [
+                {
+                  "page": 6,
+                  "bbox": [
+                    675,
+                    1628,
+                    2240,
+                    1714
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "ministry",
+                "heading": "MINISTRY OF AYURVEDA, YOGA AND NATUROPATHY, UNANI, SIDDHA AND HOMOEOPATHY (AYUSH)",
+                "heading_hi": "AYURVEDA, YOGA AUR PRAKRATIK CHIKITSA UNANI, SIDDHA AUR HOMOEOPATHY (AYUSH) MANTRALAYA"
+              },
+              {
+                "type": "group_heading",
+                "num": "I",
+                "text": "UNION BUSINESS"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Formulation of policy and policy issues for development and propagation of Ayurveda, Siddha, Unani, Homoeopathy, Yoga and Naturopathy systems."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "Development and implementation of programmes including Central schemes and Centrally sponsored schemes for development and propagation of Ayurveda, Siddha Unani, Homoeopathy, Yoga and Naturopathy systems."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "Co-ordination and promotion of research and development including assistance therefor in Ayurveda, Siddha, Unani, Homoeopathy, Yoga and Naturopathy systems."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "Setting up and maintenance of Central institutions for research and development education and standards relating to Ayurveda, Siddha, Unani, Homoeopathy, Yoga and Naturopathy systems."
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "All issues and matters requiring action at the level of Government in regard to-"
+              },
+              {
+                "type": "item",
+                "num": "a",
+                "text": "Pharmacopoeial Laboratory for Indian Medicine, Ghaziabad"
+              },
+              {
+                "type": "item",
+                "num": "b",
+                "text": "Homoeopathic Pharmacopoeia Laboratory, Ghaziabad"
+              },
+              {
+                "type": "item",
+                "num": "c",
+                "text": "Central Council of Indian Medicines"
+              },
+              {
+                "type": "item",
+                "num": "d",
+                "text": "Central Council of Homoeopathy"
+              },
+              {
+                "type": "item",
+                "num": "e",
+                "text": "Ayurvedic Pharmacopoeia Committee"
+              },
+              {
+                "type": "item",
+                "num": "f",
+                "text": "Homoeopathic Pharmacopoeia Committee"
+              },
+              {
+                "type": "item",
+                "num": "g",
+                "text": "Unani Pharmacopoeia Committee"
+              },
+              {
+                "type": "item",
+                "num": "h",
+                "text": "Siddha Pharmacopoeia Committee"
+              },
+              {
+                "type": "item",
+                "num": "i",
+                "text": "Ayurvedic, Siddha and Unani Drugs Technical Advisory Board"
+              },
+              {
+                "type": "item",
+                "num": "j",
+                "text": "Central Council for Research in Ayurveda and Siddha"
+              },
+              {
+                "type": "item",
+                "num": "k",
+                "text": "Central Council for Research in Homoeopathy"
+              },
+              {
+                "type": "item",
+                "num": "l",
+                "text": "Central Council for Research in Unani Medicine"
+              },
+              {
+                "type": "item",
+                "num": "m",
+                "text": "Central Council for Research in Yoga and Naturopathy"
+              },
+              {
+                "type": "item",
+                "num": "n",
+                "text": "National Institute of Ayurveda"
+              },
+              {
+                "type": "item",
+                "num": "o",
+                "text": "National Institute of Homoeopathy"
+              },
+              {
+                "type": "item",
+                "num": "p",
+                "text": "National Institute of Naturopathy"
+              },
+              {
+                "type": "item",
+                "num": "q",
+                "text": "National Institute of Yoga"
+              },
+              {
+                "type": "item",
+                "num": "r",
+                "text": "National Institute of Unani Medicine"
+              },
+              {
+                "type": "item",
+                "num": "s",
+                "text": "National Institute of Siddha"
+              },
+              {
+                "type": "item",
+                "num": "t",
+                "text": "Institute of Post-Graduate Teaching and Research, Gujarat Ayurveda University"
+              },
+              {
+                "type": "item",
+                "num": "u",
+                "text": "Indian Medicines and Pharmaceuticals Corporation Limited"
+              },
+              {
+                "type": "item",
+                "num": "v",
+                "text": "Rashtriya Ayurveda Vidyapeeth."
+              },
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "Education, Training and Research in all aspects of Indian Systems of Medicine including higher training abroad."
+              },
+              {
+                "type": "entry",
+                "num": "7",
+                "text": "Matters of cadre formation and control including formation and amendment of recruitment rules, recruitment, promotion and all other service matters relating to Indian Systems of Medicine and Homoeopathy doctors of Central Government Health Scheme including doctors in Indian Systems of Medicine and Homoeopathy central hospitals requiring action at Government level."
+              },
+              {
+                "type": "note",
+                "text": "Note.- Day-to-day administration and management will continue to be with the Director, Central Government Health Scheme."
+              },
+              {
+                "type": "entry",
+                "num": "8",
+                "text": "Liaison with foreign countries and international bodies as regards matters relating to Indian Systems of Medicine and Homoeopathy."
+              },
+              {
+                "type": "entry",
+                "num": "9",
+                "text": "Matters relating to scientific societies/associations and charitable and religious endowments relating to Indian Systems of Medicine and Homoeopathy."
+              },
+              {
+                "type": "entry",
+                "num": "10",
+                "text": "Matters relating to quality and standards for drugs in Indian Systems of Medicine and Homoeopathy to the extent such matters require action at the level of Government."
+              },
+              {
+                "type": "entry",
+                "num": "11",
+                "text": "Consultation and coordination with State Governments, Non-Government Organisations and institutions for review of work and programmes in Indian Systems of Medicine and Homoeopathy."
+              },
+              {
+                "type": "entry",
+                "num": "12",
+                "text": "Statistics relating to various aspects of Indian Systems of Medicine and Homoeopathy."
+              },
+              {
+                "type": "entry",
+                "num": "13",
+                "text": "Proposals and matters concerning Union Territories requiring sanction and concurrence of Government of India in regard to Indian Systems of Medicine and Homoeopathy."
+              },
+              {
+                "type": "entry",
+                "num": "14",
+                "text": "Legislative proposals pertaining to Indian Systems of Medicine and Homoeopathy of individual states requiring sanction and concurrence of Government of India."
+              },
+              {
+                "type": "entry",
+                "num": "15",
+                "text": "Medicinal Plant Board."
+              }
+            ],
+            "flags": [
+              "page_break_inside"
+            ],
+            "words": [
+              "r1.w1763",
+              "r1.w1769"
+            ],
+            "boxes": [
+              {
+                "page": 6,
+                "bbox": [
+                  526,
+                  1628,
+                  1579,
+                  1666
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 6,
+            "source_ref": "2(2)(b)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF HEALTH AND FAMILY WELFARE"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF AYURVEDA, YOGA AND NATUROPATHY, UNANI, SIDDHA AND HOMOEOPATHY (AYUSH)"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w2299",
+                "r1.w2341"
+              ],
+              "boxes": [
+                {
+                  "page": 7,
+                  "bbox": [
+                    825,
+                    2947,
+                    2255,
+                    3224
+                  ]
+                }
+              ]
+            },
+            "expect": "B. DEPARTMENT OF AYURVEDA, YOGA AND NATUROPATHY, UNANI, SIDDHA AND HOMOEOPATHY (AYUSH) (AYURVEDA, YOGA AUR PRAKRATIK CHIKITSA, UNANI, SIDDHA AUR HOMOEOPATHY (AYUSH) VIBHAG)",
+            "flags": [],
+            "words": [
+              "r1.w2298",
+              "r1.w2304"
+            ],
+            "boxes": [
+              {
+                "page": 7,
+                "bbox": [
+                  676,
+                  2947,
+                  1708,
+                  2985
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 7,
+            "source_ref": "2(2)(c)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF SKILL DEVELOPMENT, ENTREPRENEURSHIP, YOUTH AFFAIRS AND SPORTS"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w2356",
+                "r1.w2381"
+              ],
+              "boxes": [
+                {
+                  "page": 8,
+                  "bbox": [
+                    825,
+                    347,
+                    2255,
+                    528
+                  ]
+                }
+              ]
+            },
+            "expect": "MINISTRY OF SKILL DEVELOPMENT, ENTREPRENEURSHIP, YOUTH AFFAIRS AND SPORTS (KAUSHAL VIKAS, UDYAMSHILTA, YUVAK KARYAKRAM AUR KHEL MANTRALAYA)",
+            "content": [
+              {
+                "type": "ministry",
+                "heading": "MINISTRY OF SKILL DEVELOPMENT AND ENTREPRENEURSHIP",
+                "heading_hi": "KAUSHAL VIKAS AUR UDYAMSHILTA MANTRALAYA"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Coordination with all concerned for evolving an appropriate skill development framework, removal of disconnect between the demand for and supply of skilled manpower through vocational and technical training, skill up-gradation, building of new skills, innovative thinking and talents not only for the existing jobs but also the jobs that are to be created."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "Mapping of existing skills and their certification."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "Expansion of youth entrepreneurship education and capacity through forging strong partnership between educational institutions, business and other community organisations and set national standards for it."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "Role of coordination relating to skill development."
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "Doing market research and devising training curriculum in important sectors."
+              },
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "Industry-Institute linkage."
+              },
+              {
+                "type": "entry",
+                "num": "7",
+                "text": "Bringing Public Private Partnership element in this activity - partnership with the industry who need the skilled manpower."
+              },
+              {
+                "type": "entry",
+                "num": "8",
+                "text": "Making broad policies for all other Ministries/Departments with regard to market requirements and skill development."
+              },
+              {
+                "type": "entry",
+                "num": "9",
+                "text": "To frame policies for soft skills."
+              },
+              {
+                "type": "entry",
+                "num": "10",
+                "text": "Computer Education."
+              },
+              {
+                "type": "entry",
+                "num": "11",
+                "text": "Academic equivalence of skill sets."
+              },
+              {
+                "type": "entry",
+                "num": "12",
+                "text": "Work relating to Industrial Training Institutes."
+              },
+              {
+                "type": "entry",
+                "num": "13",
+                "text": ""
+              },
+              {
+                "type": "item",
+                "num": "i",
+                "text": "National Skill Development Corporation."
+              },
+              {
+                "type": "item",
+                "num": "ii",
+                "text": "National Skill Development Agency."
+              },
+              {
+                "type": "item",
+                "num": "iii",
+                "text": "National Skill Development Trust."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w2355",
+              "r1.w2361"
+            ],
+            "boxes": [
+              {
+                "page": 8,
+                "bbox": [
+                  676,
+                  347,
+                  1528,
+                  385
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 8,
+            "source_ref": "2(2)(d)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF WOMEN AND CHILD DEVELOPMENT"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w2589",
+                "r1.w2606"
+              ],
+              "boxes": [
+                {
+                  "page": 8,
+                  "bbox": [
+                    675,
+                    2209,
+                    2255,
+                    2295
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "ministry",
+                "heading": "MINISTRY OF YOUTH AFFAIRS AND SPORTS",
+                "heading_hi": "YUVAK KARYAKRAM AUR KHEL MANTRALAYA"
+              },
+              {
+                "type": "department",
+                "num": "A",
+                "heading": "DEPARTMENT OF YOUTH AFFAIRS",
+                "heading_hi": "YUVAK KARYAKRAM VIBHAG"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Youth Affairs/ Youth Policy."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "Nehru Yuva Kendra Sangathan."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "National Reconstruction Corps Scheme."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "Rajiv Gandhi National Institute of Youth Development."
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "Scheme for assistance to Rural Youth and Sports Clubs."
+              },
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "National Commission for Youth."
+              },
+              {
+                "type": "entry",
+                "num": "7",
+                "text": "National Service Scheme."
+              },
+              {
+                "type": "entry",
+                "num": "8",
+                "text": "Voluntary Youth Organisations including financial assistance to them."
+              },
+              {
+                "type": "entry",
+                "num": "9",
+                "text": "National Service Volunteer Scheme."
+              },
+              {
+                "type": "entry",
+                "num": "10",
+                "text": "Commonwealth Youth Programme and United Nations Volunteers."
+              },
+              {
+                "type": "entry",
+                "num": "11",
+                "text": "Youth welfare activities, youth festivals, work camp and other related matters."
+              },
+              {
+                "type": "entry",
+                "num": "12",
+                "text": "Boy-scouts and girl-guides."
+              },
+              {
+                "type": "entry",
+                "num": "13",
+                "text": "Youth Hostels."
+              },
+              {
+                "type": "entry",
+                "num": "14",
+                "text": "National Youth Awards."
+              },
+              {
+                "type": "entry",
+                "num": "15",
+                "text": "Residual work of the erstwhile National Discipline Scheme."
+              },
+              {
+                "type": "entry",
+                "num": "16",
+                "text": "Exchange of Youth Delegation with foreign countries."
+              },
+              {
+                "type": "department",
+                "num": "B",
+                "heading": "DEPARTMENT OF SPORTS",
+                "heading_hi": "KHEL VIBHAG"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Sports Policy."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "Sports and Games."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "National Welfare Fund for Sportsmen."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "Netaji Subhas National Institute of Sports."
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "Sports Authority of India."
+              },
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "Matters relating to the Indian Olympic Association and national sports federations."
+              },
+              {
+                "type": "entry",
+                "num": "7",
+                "text": "Participation of Indian sports teams in tournaments abroad and participation of foreign sports teams in international tournaments in India."
+              },
+              {
+                "type": "entry",
+                "num": "8",
+                "text": "National Sports Awards including Arjuna Awards."
+              },
+              {
+                "type": "entry",
+                "num": "9",
+                "text": "Sports Scholarships."
+              },
+              {
+                "type": "entry",
+                "num": "10",
+                "text": "Exchange of Sports persons, experts and teams with foreign countries."
+              },
+              {
+                "type": "entry",
+                "num": "11",
+                "text": "Sports infrastructure including financial assistance for creation and development of such infrastructure."
+              },
+              {
+                "type": "entry",
+                "num": "12",
+                "text": "Financial assistance for coaching, tournaments, equipment and other related matters."
+              },
+              {
+                "type": "entry",
+                "num": "13",
+                "text": "Sports matters relating to Union Territories."
+              },
+              {
+                "type": "entry",
+                "num": "14",
+                "text": "Physical Education."
+              }
+            ],
+            "flags": [
+              "page_break_inside"
+            ],
+            "words": [
+              "r1.w2588",
+              "r1.w2594"
+            ],
+            "boxes": [
+              {
+                "page": 8,
+                "bbox": [
+                  526,
+                  2209,
+                  1468,
+                  2247
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

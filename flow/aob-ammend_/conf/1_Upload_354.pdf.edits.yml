@@ -1,0 +1,36 @@
+# A person's changes to 1_Upload_354.pdf (GovDoc §8.3), one record per action, in order. Written by
+# GovDoc Studio and brought into the GovDoc file by the pipeline before it runs (Pipeline §P9).
+file: 1_Upload_354.pdf
+file_id: f_3b794e8ce0384e0e
+next: 2
+runs:
+- id: h1
+  by: mukundesh
+  at: '2026-11-03T16:45:31Z'
+  annotations:
+  - id: h1.a1
+    layer: entity
+    label: core:provision
+    words: [r1.w519, r1.w524]
+    value:
+      act: ACT_GOI_AOB_RULES_1961
+      path:
+      - {kind: schedule, number: '2'}
+      - {kind: ministry, text: MINISTRY OF SOCIAL JUSTICE AND EMPOWERMENT}
+      - {kind: department, text: DEPARTMENT OF EMPOWERMENT OF PERSONS WITH DISABILITIES}
+      - {kind: entry, number: '4'}
+      - {kind: note}
+    supersedes: {label: 'core:provision', words: [r1.w519, r1.w524]}
+  relations:
+  - id: h1.r1
+    label: legal:substitution
+    words: [r1.w501, r1.w509]
+    doc_id: GOI_SO_3106E_2014
+    args:
+    - {name: provision, annotation: h1.a1}
+    - {name: refers, relation: {label: 'legal:replacement', words: [r1.w471, r1.w479]}}
+    - {name: seq, value: 4}
+    - {name: clause_ref, value: 2(2)(iii)}
+    - {name: old, value: Department of Disability Affairs}
+    - {name: new, value: Department of Empowerment of Persons with Disabilities}
+    supersedes: {label: 'legal:substitution', words: [r1.w501, r1.w509]}

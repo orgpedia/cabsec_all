@@ -1,0 +1,245 @@
+{
+  "file": {
+    "name": "1_Upload_1791.pdf",
+    "file_id": "f_ff4f0b28b71499ec",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_1791.pdf",
+    "sha256": "ff4f0b28b71499ecf94e493de2a4cf6cefec6b6f3a2afe04af258f31187fa1be",
+    "govdoc": "1_Upload_1791.pdf.govdoc.json.zst",
+    "revision": 62
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_503E_2019",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_390_2019",
+      "fields": {
+        "number": {
+          "value": "S.O. 503(E)"
+        },
+        "in_force": {
+          "value": "2019-01-27"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "2019-01-27",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "2",
+          "model": "gemini-4-argon",
+          "at": "2026-11-03T16:59:06.728771+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(a)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Commerce and Industry"
+                },
+                {
+                  "type": "department",
+                  "heading": "Department of Industrial Policy and Promotion"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r17.w387",
+                "r17.w401"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    321,
+                    1472,
+                    2227,
+                    1561
+                  ]
+                }
+              ]
+            },
+            "expect": "(ii) Department of Industrial Policy and Promotion (Audyogik Niti aur Samvardhan Vibhag)",
+            "scope": "heading",
+            "content": [
+              {
+                "type": "department",
+                "num": "ii",
+                "heading": "Department for Promotion of Industry and Internal Trade",
+                "heading_hi": "Udyog Samvardhan aur Antarik Vyapar Vibhag"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r17.w369",
+              "r17.w376"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  462,
+                  1423,
+                  1477,
+                  1463
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(b)(i)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF COMMERCE AND INDUSTRY"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT FOR PROMOTION OF INDUSTRY AND INTERNAL TRADE"
+                },
+                {
+                  "type": "entry",
+                  "num": "4A"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r17.w463",
+                "r17.w466"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    978,
+                    1916,
+                    1301,
+                    1955
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "4B",
+                "text": "Promotion of Internal Trade, including Retail Trade."
+              },
+              {
+                "type": "entry",
+                "num": "4C",
+                "text": "Welfare of Traders and their Employees."
+              },
+              {
+                "type": "entry",
+                "num": "4D",
+                "text": "Matters relating to facilitating “Ease of Doing Business”."
+              },
+              {
+                "type": "entry",
+                "num": "4E",
+                "text": "Matters relating to Start-Ups."
+              }
+            ],
+            "ref_seq": 1,
+            "flags": [],
+            "words": [
+              "r17.w429",
+              "r17.w437"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  462,
+                  1767,
+                  1888,
+                  1807
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 3,
+            "source_ref": "2(b)(ii)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF CONSUMER AFFAIRS, FOOD AND PUBLIC DISTRIBUTION"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF CONSUMER AFFAIRS"
+                },
+                {
+                  "type": "entry",
+                  "num": "1"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r17.w533",
+                "r17.w534"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1115,
+                    2391,
+                    1230,
+                    2430
+                  ]
+                }
+              ]
+            },
+            "flags": [],
+            "words": [
+              "r17.w503",
+              "r17.w511"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  462,
+                  2242,
+                  1920,
+                  2281
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

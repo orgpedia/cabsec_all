@@ -1,0 +1,107 @@
+{
+  "file": {
+    "name": "1_Upload_3831.pdf",
+    "file_id": "f_da946a2c546b51ee",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_3831.pdf",
+    "sha256": "da946a2c546b51eeff54f54d7c2f054e52e0a027d8b887a4cf2dcec3fd5bf90f",
+    "govdoc": "1_Upload_3831.pdf.govdoc.json.zst",
+    "revision": 62
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_1229E_2024",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_1167_2024",
+      "fields": {
+        "number": {
+          "value": "S.O. 1229(E)"
+        },
+        "in_force": {
+          "value": "2024-03-10"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "2024-03-10",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "2",
+          "model": "gemini-4-argon",
+          "at": "2026-11-03T16:59:06.611061+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2",
+            "op": "insert",
+            "akn_type": "insertion",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF JAL SHAKTI"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF WATER RESOURCES, RIVER DEVELOPMENT AND GANGA REJUVENATION"
+                },
+                {
+                  "type": "entry",
+                  "num": "7A"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r17.w304",
+                "r17.w306"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    251,
+                    1176,
+                    2230,
+                    1271
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "7B",
+                "text": "Glacial Studies."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r17.w258",
+              "r17.w258"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  250,
+                  1019,
+                  281,
+                  1051
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

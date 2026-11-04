@@ -1,0 +1,416 @@
+{
+  "file": {
+    "name": "1_Upload_372.pdf",
+    "file_id": "f_2f79300152d01ce6",
+    "pages": 4,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_372.pdf",
+    "sha256": "2f79300152d01ce656a259ce49ee26bc148cfe6707906e931fd32983199a3729",
+    "govdoc": "1_Upload_372.pdf.govdoc.json.zst",
+    "revision": 41
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_2449E_2016",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_1801_2016",
+      "fields": {
+        "number": {
+          "value": "S.O. 2449(E)"
+        },
+        "in_force": {
+          "value": "2016-07-16"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "2016-07-16",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "2",
+          "model": "gemini-4-argon",
+          "at": "2026-11-03T16:59:02.911154+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(1)(a)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Communications and Information Technology"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w625",
+                "r1.w640"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    225,
+                    1867,
+                    2255,
+                    1952
+                  ]
+                }
+              ]
+            },
+            "expect": "7.Ministry of Communications and Information Technology (Sanchar aur Soochana Praudyogiki Mantralaya)",
+            "content": [
+              {
+                "type": "ministry",
+                "num": "7",
+                "heading": "Ministry of Communications",
+                "heading_hi": "Sanchar Mantralaya"
+              },
+              {
+                "type": "department",
+                "num": "i",
+                "heading": "Department of Telecommunications",
+                "heading_hi": "Doorsanchar Vibhag"
+              },
+              {
+                "type": "department",
+                "num": "ii",
+                "heading": "Department of Posts",
+                "heading_hi": "Dak Vibhag"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w623",
+              "r1.w632"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  376,
+                  1867,
+                  1850,
+                  1905
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(1)(b)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Earth Sciences"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w670",
+                "r1.w679"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    613,
+                    2254,
+                    1874,
+                    2292
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "ministry",
+                "num": "10A",
+                "heading": "Ministry of Electronics and Information Technology",
+                "heading_hi": "Electroniki aur Soochana Praudyogiki Mantralaya"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w668",
+              "r1.w676"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  376,
+                  2254,
+                  1358,
+                  2292
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 3,
+            "source_ref": "2(2)(i)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF COMMUNICATIONS AND INFORMATION TECHNOLOGY"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w706",
+                "r1.w718"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    526,
+                    2569,
+                    2255,
+                    2653
+                  ]
+                }
+              ]
+            },
+            "expect": "MINISTRY OF COMMUNICATIONS AND INFORMATION TECHNOLOGY (SANCHAR AUR SOOCHANA PRAUDYOGIKI MANTRALAYA)",
+            "scope": "heading",
+            "content": [
+              {
+                "type": "ministry",
+                "heading": "MINISTRY OF COMMUNICATIONS",
+                "heading_hi": "SANCHAR MANTRALAYA"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w704",
+              "r1.w713"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  376,
+                  2569,
+                  2255,
+                  2607
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 4,
+            "source_ref": "2(2)(ii)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF COMMUNICATIONS"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF ELECTRONICS AND INFORMATION TECHNOLOGY"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w732",
+                "r1.w756"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    525,
+                    2764,
+                    2254,
+                    2896
+                  ]
+                }
+              ]
+            },
+            "expect": "DEPARTMENT OF ELECTRONICS AND INFORMATION TECHNOLOGY (ELECTRONIKI AUR SOOCHANA PRAUDYOGIKI VIBHAG)",
+            "ref_seq": 3,
+            "flags": [],
+            "words": [
+              "r1.w731",
+              "r1.w739"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  376,
+                  2764,
+                  2102,
+                  2802
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 5,
+            "source_ref": "2(2)(iii)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF EARTH SCIENCES"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w762",
+                "r1.w774"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    526,
+                    2956,
+                    2254,
+                    3042
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "ministry",
+                "heading": "MINISTRY OF ELECTRONICS AND INFORMATION TECHNOLOGY",
+                "heading_hi": "ELECTRONIKI AUR SOOCHANA PRAUDYOGIKI MANTRALAYA"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Policy matters relating to information technology; Electronics; and Internet (all matters other than licensing of Internet Service Provider)."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "Promotion of internet, IT and IT enabled services."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "Assistance to other departments in the promotion of E-Governance, E- Commerce, E- Medicine E- Infrastructure, etc."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "Promotion of Information Technology education and Information Technology-based education."
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "Matters relating to Cyber Laws, administration of the Information Technology Act, 2000 (21 of 2000) and other IT related laws."
+              },
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "Matters relating to promotion and manufacturing of Semiconductor Devices in the country excluding all matters relating to Semiconductor Complex Limited (SCL), Mohali."
+              },
+              {
+                "type": "entry",
+                "num": "7",
+                "text": "Interaction in IT related matters with international agencies and bodies e. g. Internet for Business Limited (IFB), Institute for Education in Information Society (IBI) and International Code Council – on line (ICC)."
+              },
+              {
+                "type": "entry",
+                "num": "8",
+                "text": "Initiative on bridging the Digital Divide: Matters relating to Media Lab Asia."
+              },
+              {
+                "type": "entry",
+                "num": "9",
+                "text": "Promotion of Standardization, Testing and Quality in IT and standardization of procedure for IT application and Tasks."
+              },
+              {
+                "type": "entry",
+                "num": "10",
+                "text": "Electronics Export and Computer Software Promotion Council (ESC)."
+              },
+              {
+                "type": "entry",
+                "num": "11",
+                "text": "National Informatics Centre (NIC)."
+              },
+              {
+                "type": "entry",
+                "num": "12",
+                "text": "Initiatives for development of Hardware/Software industry including knowledge–based enterprises, measures for promoting IT exports and competitiveness of the industry."
+              },
+              {
+                "type": "entry",
+                "num": "13",
+                "text": "All matters relating to personnel under the control of the Ministry."
+              },
+              {
+                "type": "entry",
+                "num": "14",
+                "text": "Unique Identification Authority of India (UIDAI)."
+              }
+            ],
+            "flags": [
+              "page_break_inside"
+            ],
+            "words": [
+              "r1.w760",
+              "r1.w767"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  376,
+                  2956,
+                  1469,
+                  2994
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

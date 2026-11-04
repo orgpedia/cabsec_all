@@ -1,0 +1,160 @@
+{
+  "file": {
+    "name": "1_Upload_1522.pdf",
+    "file_id": "f_3edd2330bf9d32fd",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_1522.pdf",
+    "sha256": "3edd2330bf9d32fd8f90f66109217307dc68ef1c3a078d9bf7eaf04d130613b9",
+    "govdoc": "1_Upload_1522.pdf.govdoc.json.zst",
+    "revision": 62
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_5343E_2018",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_4152_2018",
+      "fields": {
+        "number": {
+          "value": "S.O. 5343(E)"
+        },
+        "in_force": {
+          "value": "2018-10-17"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "2018-10-17",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "2",
+          "model": "gemini-4-argon",
+          "at": "2026-11-03T16:59:02.983538+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(i)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF ELECTRONICS AND INFORMATION TECHNOLOGY"
+                },
+                {
+                  "type": "entry",
+                  "num": "8"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r17.w293",
+                "r17.w295"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1923,
+                    975,
+                    2146,
+                    1015
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "8",
+                "text": "Initiative on bridging the Digital Divide: Matters relating to Digital India Corporation."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r17.w278",
+              "r17.w284"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  415,
+                  925,
+                  1473,
+                  965
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(ii)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF SCIENCE AND TECHNOLOGY"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF SCIENCE AND TECHNOLOGY"
+                },
+                {
+                  "type": "entry",
+                  "num": "2"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r17.w342",
+                "r17.w343"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1747,
+                    1270,
+                    1865,
+                    1309
+                  ]
+                }
+              ]
+            },
+            "flags": [],
+            "words": [
+              "r17.w316",
+              "r17.w322"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  415,
+                  1171,
+                  1427,
+                  1210
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

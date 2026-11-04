@@ -1,0 +1,165 @@
+{
+  "file": {
+    "name": "1_Upload_365.pdf",
+    "file_id": "f_465e15f5d088ff08",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_365.pdf",
+    "sha256": "465e15f5d088ff08fc36cbce71d34160b94f25f27946662ee2ca31855e4fa12b",
+    "govdoc": "1_Upload_365.pdf.govdoc.json.zst",
+    "revision": 41
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_8E_2016",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_08_2016",
+      "fields": {
+        "number": {
+          "value": "S.O. 8(E)"
+        },
+        "in_force": {
+          "value": "2015-12-26"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "2015-12-26",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "2",
+          "model": "gemini-4-argon",
+          "at": "2026-11-03T16:59:03.057639+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(1)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF FINANCE"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF ECONOMIC AFFAIRS"
+                },
+                {
+                  "type": "entry",
+                  "num": "106"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w252",
+                "r1.w254"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1698,
+                    1000,
+                    1938,
+                    1034
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "107",
+                "text": "Legislation relating to bankruptcy and insolvency."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w233",
+              "r1.w239"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  483,
+                  960,
+                  1305,
+                  995
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(2)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF LAW AND JUSTICE"
+                },
+                {
+                  "type": "department",
+                  "heading": "LEGISLATIVE DEPARTMENT"
+                },
+                {
+                  "type": "entry",
+                  "num": "14"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w289",
+                "r1.w290"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1745,
+                    1254,
+                    1869,
+                    1288
+                  ]
+                }
+              ]
+            },
+            "flags": [],
+            "words": [
+              "r1.w269",
+              "r1.w275"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  491,
+                  1212,
+                  1208,
+                  1247
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

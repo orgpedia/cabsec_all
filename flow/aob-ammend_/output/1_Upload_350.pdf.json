@@ -1,0 +1,112 @@
+{
+  "file": {
+    "name": "1_Upload_350.pdf",
+    "file_id": "f_b40a1bde568cb04c",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_350.pdf",
+    "sha256": "b40a1bde568cb04c409c9126c8e01206781d11525fafdd529259226a642cb8eb",
+    "govdoc": "1_Upload_350.pdf.govdoc.json.zst",
+    "revision": 41
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_608E_2014",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_519_2014",
+      "fields": {
+        "number": {
+          "value": "S.O. 608(E)"
+        },
+        "in_force": {
+          "value": "2014-02-25"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "2014-02-25",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "2",
+          "model": "gemini-4-argon",
+          "at": "2026-11-03T16:59:06.371183+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2",
+            "op": "insert",
+            "akn_type": "insertion",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF FINANCE"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF ECONOMIC AFFAIRS"
+                },
+                {
+                  "type": "entry",
+                  "num": "81"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w285",
+                "r1.w287"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1741,
+                    960,
+                    2006,
+                    1002
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "81A",
+                "text": "Coordination relating to Skill Development."
+              },
+              {
+                "type": "entry",
+                "num": "81B",
+                "text": "National Skill Development Agency."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w251",
+              "r1.w261"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  426,
+                  850,
+                  1678,
+                  890
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

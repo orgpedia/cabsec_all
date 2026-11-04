@@ -1,0 +1,107 @@
+{
+  "file": {
+    "name": "1_Upload_3981.pdf",
+    "file_id": "f_869159e6436b9f6f",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_3981.pdf",
+    "sha256": "869159e6436b9f6f8b2619be16aee8ba7d2ae2e5690539be7e0fcc9496bcfc35",
+    "govdoc": "1_Upload_3981.pdf.govdoc.json.zst",
+    "revision": 62
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_203E_2025",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_201_2025",
+      "fields": {
+        "number": {
+          "value": "S.O. 203(E)"
+        },
+        "in_force": {
+          "value": "2025-01-13"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "2025-01-13",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "2",
+          "model": "gemini-4-argon",
+          "at": "2026-11-03T16:59:03.529254+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2",
+            "op": "insert",
+            "akn_type": "insertion",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF HEALTH AND FAMILY WELFARE"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF HEALTH RESEARCH"
+                },
+                {
+                  "type": "entry",
+                  "num": "10"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r17.w286",
+                "r17.w289"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1111,
+                    1042,
+                    1531,
+                    1085
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "11",
+                "text": "Matters related to Health Technology Assessment."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r17.w246",
+              "r17.w297"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  250,
+                  885,
+                  2230,
+                  1138
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

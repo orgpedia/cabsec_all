@@ -1,0 +1,97 @@
+{
+  "file": {
+    "name": "1_Upload_3749.pdf",
+    "file_id": "f_f9c6d3c5cb60af9a",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_3749.pdf",
+    "sha256": "f9c6d3c5cb60af9a350ace63dab64a8fd8a9a9995b9bd8b67b4ec12bfeef5bbc",
+    "govdoc": "1_Upload_3749.pdf.govdoc.json.zst",
+    "revision": 62
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_3849E_2023",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_3688_2023",
+      "fields": {
+        "number": {
+          "value": "S.O. 3849(E)"
+        },
+        "in_force": {
+          "value": "2023-08-30"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "2023-08-30",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "2",
+          "model": "gemini-4-argon",
+          "at": "2026-11-03T16:59:06.708235+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2",
+            "op": "substitute_text",
+            "akn_type": "substitution",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF CULTURE"
+                },
+                {
+                  "type": "entry",
+                  "num": "9"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r17.w267",
+                "r17.w269"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1501,
+                    887,
+                    1676,
+                    926
+                  ]
+                }
+              ]
+            },
+            "old": "Nehru Memorial Museum and Library",
+            "new": "Prime Ministers Museum and Library",
+            "flags": [],
+            "words": [
+              "r17.w244",
+              "r17.w244"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  250,
+                  840,
+                  278,
+                  869
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

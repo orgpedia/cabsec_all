@@ -1,0 +1,107 @@
+{
+  "file": {
+    "name": "1_Upload_3153.pdf",
+    "file_id": "f_9d71bebc3274f0ee",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_3153.pdf",
+    "sha256": "9d71bebc3274f0eed3b9c57be70571c180b62ed95ca47ead5f71b20bf22f3ec1",
+    "govdoc": "1_Upload_3153.pdf.govdoc.json.zst",
+    "revision": 62
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_169E_2022",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_165_2022",
+      "fields": {
+        "number": {
+          "value": "S.O. 169(E)"
+        },
+        "in_force": {
+          "value": "2022-01-10"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "2022-01-10",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "2",
+          "model": "gemini-4-argon",
+          "at": "2026-11-03T16:59:06.296266+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2",
+            "op": "insert",
+            "akn_type": "insertion",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF COMMUNICATIONS"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF POSTS"
+                },
+                {
+                  "type": "entry",
+                  "num": "2"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r17.w288",
+                "r17.w290"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1069,
+                    935,
+                    1281,
+                    974
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "2A",
+                "text": "Matters related to India Post Payments Bank."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r17.w257",
+              "r17.w266"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  401,
+                  839,
+                  1503,
+                  877
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

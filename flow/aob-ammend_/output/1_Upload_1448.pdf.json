@@ -1,0 +1,161 @@
+{
+  "file": {
+    "name": "1_Upload_1448.pdf",
+    "file_id": "f_d1625e083175bf48",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_1448.pdf",
+    "sha256": "d1625e083175bf482ade3d17e997fb84bd707452a27a04c1a769bb7df7f01049",
+    "govdoc": "1_Upload_1448.pdf.govdoc.json.zst",
+    "revision": 62
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_3691E_2018",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_2905_2018",
+      "fields": {
+        "number": {
+          "value": "S.O. 3691(E)"
+        },
+        "in_force": {
+          "value": "2018-07-26"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "2018-07-26",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "2",
+          "model": "gemini-4-argon",
+          "at": "2026-11-03T16:59:06.577694+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(i)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF FINANCE"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF ECONOMIC AFFAIRS"
+                },
+                {
+                  "type": "entry",
+                  "num": "47A"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r17.w304",
+                "r17.w306"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1978,
+                    963,
+                    2249,
+                    1003
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "47B",
+                "text": "Central Road and Infrastructure Fund."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r17.w284",
+              "r17.w290"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  439,
+                  914,
+                  1341,
+                  953
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(ii)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF ROAD TRANSPORT AND HIGHWAYS"
+                },
+                {
+                  "type": "entry",
+                  "num": "8"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r17.w336",
+                "r17.w337"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1487,
+                    1209,
+                    1604,
+                    1248
+                  ]
+                }
+              ]
+            },
+            "flags": [],
+            "words": [
+              "r17.w320",
+              "r17.w326"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  439,
+                  1159,
+                  1380,
+                  1198
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

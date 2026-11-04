@@ -1,0 +1,176 @@
+{
+  "file": {
+    "name": "1_Upload_371.pdf",
+    "file_id": "f_8763e92c1ff1867c",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_371.pdf",
+    "sha256": "8763e92c1ff1867c6047340b06fd0b63d990f5cf4e73a30c94711540c2700336",
+    "govdoc": "1_Upload_371.pdf.govdoc.json.zst",
+    "revision": 41
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_1858E_2016",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_1273_2016",
+      "fields": {
+        "number": {
+          "value": "S.O. 1858(E)"
+        },
+        "in_force": {
+          "value": "2016-05-21"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "2016-05-21",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "2",
+          "model": "gemini-4-argon",
+          "at": "2026-11-03T16:59:03.537503+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(i)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF HEALTH AND FAMILY WELFARE"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF HEALTH AND FAMILY WELFARE"
+                },
+                {
+                  "type": "entry",
+                  "num": "18"
+                },
+                {
+                  "type": "item",
+                  "num": "a"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w366",
+                "r1.w371"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1777,
+                    1015,
+                    2191,
+                    1050
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "item",
+                "num": "a",
+                "text": "National Health Mission."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w336",
+              "r1.w345"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  475,
+                  924,
+                  1885,
+                  960
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(ii)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF SOCIAL JUSTICE AND EMPOWERMENT"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF SOCIAL JUSTICE AND EMPOWERMENT"
+                },
+                {
+                  "type": "entry",
+                  "num": "3"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w412",
+                "r1.w414"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1817,
+                    1338,
+                    2027,
+                    1373
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "3A",
+                "text": "Welfare of Transgender Persons."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w382",
+              "r1.w391"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  475,
+                  1247,
+                  1901,
+                  1282
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

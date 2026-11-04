@@ -1,0 +1,103 @@
+{
+  "file": {
+    "name": "1_Upload_4163.pdf",
+    "file_id": "f_be33b0d5d5cd3992",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_4163.pdf",
+    "sha256": "be33b0d5d5cd3992d89eab6db40580bbe7475d255822c75b965449ef4dfd853b",
+    "govdoc": "1_Upload_4163.pdf.govdoc.json.zst",
+    "revision": 62
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_689E_2026",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_655_2026",
+      "fields": {
+        "number": {
+          "value": "S.O. 689(E)"
+        },
+        "in_force": {
+          "value": "2026-02-07"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "2026-02-07",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "2",
+          "model": "gemini-4-argon",
+          "at": "2026-11-03T16:59:06.487673+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2",
+            "op": "replace",
+            "akn_type": "replacement",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF PORTS, SHIPPING AND WATERWAYS"
+                },
+                {
+                  "type": "entry",
+                  "num": "10"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r17.w316",
+                "r17.w329"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    401,
+                    2144,
+                    2231,
+                    2231
+                  ]
+                }
+              ]
+            },
+            "expect": "10. Organisation and maintenance of mainland islands and inter-island shipping services.",
+            "content": [
+              {
+                "type": "entry",
+                "num": "10",
+                "text": "Organisation, development and maintenance of ports along with shipping services in the islands, except to the extent delegated to the Union Territory Administrations."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r17.w287",
+              "r17.w296"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  401,
+                  2049,
+                  1503,
+                  2087
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

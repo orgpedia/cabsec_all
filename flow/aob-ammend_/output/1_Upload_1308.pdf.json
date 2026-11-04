@@ -1,0 +1,481 @@
+{
+  "file": {
+    "name": "1_Upload_1308.pdf",
+    "file_id": "f_d55c8dcd1eb96e10",
+    "pages": 3,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_1308.pdf",
+    "sha256": "d55c8dcd1eb96e104497bd61843daf47fcd70c5327c6152dca95897f9ec8b829",
+    "govdoc": "1_Upload_1308.pdf.govdoc.json.zst",
+    "revision": 62
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_3565E_2017",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_3125_2017",
+      "fields": {
+        "number": {
+          "value": "S.O. 3565(E)"
+        },
+        "in_force": {
+          "value": "2017-11-07"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "2017-11-07",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "2",
+          "model": "gemini-4-argon",
+          "at": "2026-11-03T16:59:06.586907+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(A)(I)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF FINANCE"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF ECONOMIC AFFAIRS"
+                },
+                {
+                  "type": "entry",
+                  "num": "1"
+                },
+                {
+                  "type": "item",
+                  "num": "b"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r17.w509",
+                "r17.w513"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    941,
+                    318,
+                    1263,
+                    357
+                  ]
+                }
+              ]
+            },
+            "flags": [],
+            "words": [
+              "r17.w497",
+              "r17.w505"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  556,
+                  268,
+                  1904,
+                  307
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(A)(II)(i)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF FINANCE"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF REVENUE"
+                },
+                {
+                  "type": "entry",
+                  "num": "14"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r17.w528",
+                "r17.w530"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    884,
+                    463,
+                    1095,
+                    503
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "14",
+                "text": "Subordinate Organisations:"
+              },
+              {
+                "type": "item",
+                "num": "a",
+                "text": "Income Tax Department"
+              },
+              {
+                "type": "item",
+                "num": "b",
+                "text": "Customs Department"
+              },
+              {
+                "type": "item",
+                "num": "c",
+                "text": "Central Excise Department"
+              },
+              {
+                "type": "item",
+                "num": "d",
+                "text": "Narcotics Department (excluding Narcotics Control Bureau); and"
+              },
+              {
+                "type": "item",
+                "num": "e",
+                "text": "Goods and Services Tax Administration."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r17.w527",
+              "r17.w537"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  744,
+                  463,
+                  1952,
+                  503
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 3,
+            "source_ref": "2(A)(II)(ii)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF FINANCE"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF REVENUE"
+                },
+                {
+                  "type": "entry",
+                  "num": "17"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r17.w567",
+                "r17.w569"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    885,
+                    975,
+                    1124,
+                    1014
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "17A",
+                "text": "Work relating to the Financial Action Task Force (FATF) and related Inter-Ministerial Coordination."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r17.w566",
+              "r17.w576"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  744,
+                  975,
+                  1930,
+                  1014
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 4,
+            "source_ref": "2(A)(II)(iii)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF FINANCE"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF REVENUE"
+                },
+                {
+                  "type": "entry",
+                  "num": "18"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r17.w592",
+                "r17.w594"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    885,
+                    1170,
+                    1124,
+                    1210
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "18A",
+                "text": "The Goods and Services Tax Council."
+              },
+              {
+                "type": "entry",
+                "num": "18B",
+                "text": "The Goods and Services Tax Appellate Tribunal."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r17.w591",
+              "r17.w601"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  744,
+                  1170,
+                  1957,
+                  1210
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 5,
+            "source_ref": "2(A)(II)(iv)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF FINANCE"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF REVENUE"
+                },
+                {
+                  "type": "entry",
+                  "num": "20"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r17.w618",
+                "r17.w620"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    1026,
+                    1390,
+                    1265,
+                    1429
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "21",
+                "text": "All matters relating to –"
+              },
+              {
+                "type": "item",
+                "num": "a",
+                "text": "The Central Goods and Services Tax Act, 2017 (12 of 2017)"
+              },
+              {
+                "type": "item",
+                "num": "b",
+                "text": "The Integrated Goods and Services Tax Act, 2017 (13 of 2017)"
+              },
+              {
+                "type": "item",
+                "num": "c",
+                "text": "The Union Territory Goods and Services Tax Act, 2017 (14 of 2017)"
+              },
+              {
+                "type": "item",
+                "num": "d",
+                "text": "The Goods and Services Tax (Compensation to States) Act, 2017 (15 of 2017); and"
+              },
+              {
+                "type": "item",
+                "num": "e",
+                "text": "Legislative work related to Indirect Taxes (excluding Custom Duty) in Union Territories without Legislature."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r17.w617",
+              "r17.w627"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  885,
+                  1390,
+                  2071,
+                  1429
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 6,
+            "source_ref": "2(B)",
+            "op": "substitute_text",
+            "akn_type": "substitution",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF HOME AFFAIRS"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF INTERNAL SECURITY"
+                },
+                {
+                  "type": "entry",
+                  "num": "58"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r17.w722",
+                "r17.w724"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    461,
+                    2099,
+                    664,
+                    2138
+                  ]
+                }
+              ]
+            },
+            "old": "Department of Economic Affairs",
+            "new": "Department of Revenue",
+            "flags": [],
+            "words": [
+              "r17.w701",
+              "r17.w710"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  462,
+                  2000,
+                  2049,
+                  2039
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

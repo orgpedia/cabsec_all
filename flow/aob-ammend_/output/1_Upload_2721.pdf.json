@@ -1,0 +1,103 @@
+{
+  "file": {
+    "name": "1_Upload_2721.pdf",
+    "file_id": "f_eb9db5bd3c6aa70d",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_2721.pdf",
+    "sha256": "eb9db5bd3c6aa70d2f7af613d1b75257a52c647d30e3c0269f5e16d7de817c19",
+    "govdoc": "1_Upload_2721.pdf.govdoc.json.zst",
+    "revision": 62
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_480E_2021",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_439_2021",
+      "fields": {
+        "number": {
+          "value": "S.O. 480(E)"
+        },
+        "in_force": {
+          "value": "2021-01-30"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "2021-01-30",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "2",
+          "model": "gemini-4-argon",
+          "at": "2026-11-03T16:59:06.637287+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2",
+            "op": "insert",
+            "akn_type": "insertion",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF ROAD TRANSPORT AND HIGHWAYS"
+                },
+                {
+                  "type": "entry",
+                  "num": "13"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r17.w285",
+                "r17.w287"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    589,
+                    916,
+                    822,
+                    955
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "13A",
+                "text": "Coordination, research, standards and policy matters in respect of ropeways and other innovative/ alternative mobility solutions."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r17.w256",
+              "r17.w265"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  401,
+                  821,
+                  1503,
+                  859
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

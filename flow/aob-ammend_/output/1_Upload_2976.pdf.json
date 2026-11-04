@@ -1,0 +1,515 @@
+{
+  "file": {
+    "name": "1_Upload_2976.pdf",
+    "file_id": "f_827dfdd4c1415278",
+    "pages": 3,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_2976.pdf",
+    "sha256": "827dfdd4c141527808365fced1a309310f60d50f9292cfad2dd07d02c15eff5e",
+    "govdoc": "1_Upload_2976.pdf.govdoc.json.zst",
+    "revision": 62
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_1605E_2021",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_1494_2021",
+      "fields": {
+        "number": {
+          "value": "S.O. 1605(E)"
+        },
+        "in_force": {
+          "value": "2021-04-13"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "2021-04-13",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "2",
+          "model": "gemini-4-argon",
+          "at": "2026-11-03T16:59:03.503304+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(A)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Ayurveda, Yoga and Naturopathy, Unani, Siddha and Homoeopathy (AYUSH)"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r17.w502",
+                "r17.w526"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    250,
+                    2595,
+                    2232,
+                    2744
+                  ]
+                }
+              ]
+            },
+            "expect": "2. Ministry of Ayurveda, Yoga and Naturopathy, Unani, Siddha and Homoeopathy (AYUSH) (Ayurveda, Yoga aur Prakratik Chikitsa, Unani, Siddha aur Homoeopathy (AYUSH) Mantralaya)",
+            "scope": "heading",
+            "content": [
+              {
+                "type": "ministry",
+                "num": "2",
+                "heading": "Ministry of Ayush",
+                "heading_hi": "Ayush Mantralaya"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r17.w496",
+              "r17.w503"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  251,
+                  2595,
+                  1259,
+                  2638
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(B)(i)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF AYURVEDA, YOGA AND NATUROPATHY, UNANI, SIDDHA AND HOMOEOPATHY (AYUSH)"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r17.w547",
+                "r17.w570"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    250,
+                    2925,
+                    2228,
+                    3073
+                  ]
+                }
+              ]
+            },
+            "expect": "MINISTRY OF AYURVEDA, YOGA AND NATUROPATHY, UNANI, SIDDHA AND HOMOEOPATHY (AYUSH) (AYURVEDA, YOGA AUR PRAKRATIK CHIKITSA, UNANI, SIDDHA AUR HOMOEOPATHY (AYUSH) MANTRALAYA)",
+            "scope": "heading",
+            "content": [
+              {
+                "type": "ministry",
+                "heading": "MINISTRY OF AYUSH",
+                "heading_hi": "AYUSH MANTRALAYA"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r17.w545",
+              "r17.w552"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  251,
+                  2925,
+                  1529,
+                  2967
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 3,
+            "source_ref": "2(B)(ii)(a)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "target": [
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "MINISTRY OF AYUSH"
+                  },
+                  {
+                    "type": "entry",
+                    "num": "1"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r17.w608",
+                  "r17.w608"
+                ],
+                "boxes": [
+                  {
+                    "page": 3,
+                    "bbox": [
+                      603,
+                      334,
+                      629,
+                      374
+                    ]
+                  }
+                ]
+              },
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "MINISTRY OF AYUSH"
+                  },
+                  {
+                    "type": "entry",
+                    "num": "2"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r17.w609",
+                  "r17.w609"
+                ],
+                "boxes": [
+                  {
+                    "page": 3,
+                    "bbox": [
+                      644,
+                      334,
+                      675,
+                      374
+                    ]
+                  }
+                ]
+              },
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "MINISTRY OF AYUSH"
+                  },
+                  {
+                    "type": "entry",
+                    "num": "3"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r17.w610",
+                  "r17.w610"
+                ],
+                "boxes": [
+                  {
+                    "page": 3,
+                    "bbox": [
+                      691,
+                      334,
+                      709,
+                      367
+                    ]
+                  }
+                ]
+              },
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "MINISTRY OF AYUSH"
+                  },
+                  {
+                    "type": "entry",
+                    "num": "4"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r17.w612",
+                  "r17.w612"
+                ],
+                "boxes": [
+                  {
+                    "page": 3,
+                    "bbox": [
+                      801,
+                      334,
+                      833,
+                      374
+                    ]
+                  }
+                ]
+              }
+            ],
+            "content": [
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Formulation of policy and policy issues for development and propagation of Traditional & Non-Conventional Systems of Health Care and Healing which include Ayurveda, Yoga Naturopathy, Unani, Siddha, Sowa Rigpa and Homoeopathy etc. (Ayush systems of Health Care)."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "Development and implementation of programmes including Central schemes and Centrally sponsored schemes for development and propagation of Ayush systems of Health Care."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "Co-ordination and promotion of research and development including assistance therefor in Ayush systems of Health Care."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "Setting up and maintenance of Central institutions for research and development, education and standards relating to Ayush systems of Health Care."
+              }
+            ],
+            "ref_seq": 2,
+            "flags": [],
+            "words": [
+              "r17.w605",
+              "r17.w619"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  338,
+                  334,
+                  1774,
+                  376
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 4,
+            "source_ref": "2(B)(ii)(b)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF AYUSH"
+                },
+                {
+                  "type": "entry",
+                  "num": "4A"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r17.w721",
+                "r17.w722"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    403,
+                    971,
+                    563,
+                    1012
+                  ]
+                }
+              ]
+            },
+            "ref_seq": 2,
+            "flags": [],
+            "words": [
+              "r17.w720",
+              "r17.w725"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  338,
+                  970,
+                  877,
+                  1012
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 5,
+            "source_ref": "2(B)(ii)(c)(i)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF AYUSH"
+                },
+                {
+                  "type": "entry",
+                  "num": "5"
+                },
+                {
+                  "type": "item",
+                  "num": "a"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r17.w733",
+                "r17.w734"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    567,
+                    1119,
+                    810,
+                    1162
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "item",
+                "num": "a",
+                "text": "Pharmacopoeia Commission for Indian Medicine and Homoeopathy"
+              }
+            ],
+            "ref_seq": 2,
+            "flags": [],
+            "words": [
+              "r17.w731",
+              "r17.w741"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  413,
+                  1119,
+                  1801,
+                  1162
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 6,
+            "source_ref": "2(B)(ii)(c)(ii)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF AYUSH"
+                },
+                {
+                  "type": "entry",
+                  "num": "5"
+                },
+                {
+                  "type": "item",
+                  "num": "b"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r17.w751",
+                "r17.w752"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    502,
+                    1269,
+                    736,
+                    1311
+                  ]
+                }
+              ]
+            },
+            "ref_seq": 2,
+            "flags": [],
+            "words": [
+              "r17.w750",
+              "r17.w755"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  413,
+                  1269,
+                  1050,
+                  1311
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

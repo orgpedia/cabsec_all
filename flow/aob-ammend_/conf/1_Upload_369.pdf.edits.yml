@@ -1,0 +1,65 @@
+# A person's changes to 1_Upload_369.pdf (GovDoc §8.3), one record per action, in order. Written by
+# GovDoc Studio and brought into the GovDoc file by the pipeline before it runs (Pipeline §P9).
+file: 1_Upload_369.pdf
+file_id: f_83ce67a7f1bad168
+next: 3
+runs:
+- id: h1
+  by: mukundesh
+  at: '2026-11-04T07:01:41Z'
+  annotations:
+  - id: h1.a1
+    layer: entity
+    label: core:provision
+    words: [r1.w478, r1.w483]
+    value:
+      act: ACT_GOI_AOB_RULES_1961
+      path:
+      - {kind: schedule, number: '2'}
+      - {kind: ministry, text: MINISTRY OF SOCIAL JUSTICE AND EMPOWERMENT}
+      - {kind: department, text: DEPARTMENT OF EMPOWERMENT OF PERSONS WITH DISABILITIES (DIVYANGJAN)}
+      - {kind: entry, number: '4'}
+    supersedes: {label: 'core:provision', words: [r1.w478, r1.w483]}
+  relations:
+  - id: h1.r1
+    label: legal:substitution
+    words: [r1.w459, r1.w465]
+    doc_id: GOI_SO_1815E_2016
+    args:
+    - {name: provision, annotation: h1.a1}
+    - {name: refers, relation: {label: 'legal:replacement', words: [r1.w424, r1.w430]}}
+    - {name: seq, value: 3}
+    - {name: clause_ref, value: 2(2)(ii)}
+    - {name: old, value: Department of Empowerment of Persons with Disabilities}
+    - {name: new, value: Department of Empowerment of Persons with Disabilities (Divyangjan)}
+    supersedes: {label: 'legal:substitution', words: [r1.w459, r1.w465]}
+- id: h2
+  by: mukundesh
+  at: '2026-11-04T07:13:07Z'
+  annotations:
+  - id: h2.a1
+    layer: entity
+    label: core:provision
+    words: [r1.w478, r1.w483]
+    value:
+      act: ACT_GOI_AOB_RULES_1961
+      path:
+      - {kind: schedule, number: '2'}
+      - {kind: ministry, text: MINISTRY OF SOCIAL JUSTICE AND EMPOWERMENT}
+      - {kind: department, text: DEPARTMENT OF EMPOWERMENT OF PERSONS WITH DISABILITIES (DIVYANGJAN)}
+      - {kind: entry, number: '4'}
+      - {kind: note}
+    supersedes: {label: 'core:provision', words: [r1.w478, r1.w483]}
+  relations:
+  - id: h2.r1
+    label: legal:substitution
+    words: [r1.w459, r1.w465]
+    doc_id: GOI_SO_1815E_2016
+    args:
+    - {name: provision, annotation: h2.a1}
+    - {name: refers, relation: {label: 'legal:replacement', words: [r1.w424, r1.w430]}}
+    - {name: seq, value: 3}
+    - {name: clause_ref, value: 2(2)(ii)}
+    - {name: old, value: Department of Empowerment of Persons with Disabilities}
+    - {name: new, value: Department of Empowerment of Persons with Disabilities (Divyangjan)}
+    supersedes: {label: 'legal:substitution', words: [r1.w459, r1.w465]}

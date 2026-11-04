@@ -1,0 +1,32 @@
+# A person's changes to 1_Upload_357.pdf (GovDoc §8.3), one record per action, in order. Written by
+# GovDoc Studio and brought into the GovDoc file by the pipeline before it runs (Pipeline §P9).
+file: 1_Upload_357.pdf
+file_id: f_90a8d8a274020b56
+next: 2
+runs:
+- id: h1
+  by: mukundesh
+  at: '2026-11-03T17:53:32Z'
+  annotations:
+  - id: h1.a1
+    layer: entity
+    label: core:provision
+    words: [r1.w846, r1.w849]
+    value:
+      act: ACT_GOI_AOB_RULES_1961
+      path:
+      - {kind: schedule, number: '2'}
+      - {kind: ministry, text: MINISTRY OF PLANNING}
+      - {kind: paragraph}
+    supersedes: {label: 'core:provision', words: [r1.w846, r1.w849]}
+  relations:
+  - id: h1.r1
+    label: legal:replacement
+    words: [r1.w837, r1.w843]
+    doc_id: GOI_SO_815E_2015
+    args:
+    - {name: provision, annotation: h1.a1}
+    - {name: new_text, annotation: {label: 'core:quoted_text', blocks: [r1.w857]}}
+    - {name: seq, value: 3}
+    - {name: clause_ref, value: 2(2)(II)}
+    supersedes: {label: 'legal:replacement', words: [r1.w837, r1.w843]}

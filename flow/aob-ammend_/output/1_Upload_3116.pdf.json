@@ -1,0 +1,165 @@
+{
+  "file": {
+    "name": "1_Upload_3116.pdf",
+    "file_id": "f_3c9794905661d9f7",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_3116.pdf",
+    "sha256": "3c9794905661d9f7246be4c1a789914b095b419526df0bedd8cd919f51f4702a",
+    "govdoc": "1_Upload_3116.pdf.govdoc.json.zst",
+    "revision": 62
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_4726E_2021",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_4360_2021",
+      "fields": {
+        "number": {
+          "value": "S.O. 4726 (E)"
+        },
+        "in_force": {
+          "value": "2021-11-10"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "2021-11-10",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "2",
+          "model": "gemini-4-argon",
+          "at": "2026-11-03T16:59:02.974560+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(a)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF COMMERCE AND INDUSTRY"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF COMMERCE"
+                },
+                {
+                  "type": "entry",
+                  "num": "33"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r17.w306",
+                "r17.w307"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    501,
+                    1107,
+                    2231,
+                    1192
+                  ]
+                }
+              ]
+            },
+            "flags": [],
+            "words": [
+              "r17.w296",
+              "r17.w303"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  413,
+                  1103,
+                  1657,
+                  1146
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(b)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF COMMERCE AND INDUSTRY"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT FOR PROMOTION OF INDUSTRY AND INTERNAL TRADE"
+                },
+                {
+                  "type": "entry",
+                  "num": "4E"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r17.w331",
+                "r17.w332"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    597,
+                    1351,
+                    761,
+                    1392
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "4F",
+                "text": "Integrated development of Logistics Sector."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r17.w311",
+              "r17.w320"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  413,
+                  1239,
+                  2106,
+                  1282
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

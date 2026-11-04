@@ -1,0 +1,213 @@
+{
+  "file": {
+    "name": "1_Upload_1730.pdf",
+    "file_id": "f_5dc9b1f52ed29fac",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_1730.pdf",
+    "sha256": "5dc9b1f52ed29fac0d4efccb63c4a765012de0f3501be090e0827767a8fa93c4",
+    "govdoc": "1_Upload_1730.pdf.govdoc.json.zst",
+    "revision": 62
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_5661E_2018",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_4449_2018",
+      "fields": {
+        "number": {
+          "value": "S.O. 5661(E)"
+        },
+        "in_force": {
+          "value": "2018-11-02"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "2018-11-02",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "2",
+          "model": "gemini-4-argon",
+          "at": "2026-11-03T16:59:03.256321+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(i)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "target": [
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "MINISTRY OF CHEMICALS AND FERTILIZERS"
+                  },
+                  {
+                    "type": "department",
+                    "heading": "DEPARTMENT OF CHEMICALS AND PETRO- CHEMICALS"
+                  },
+                  {
+                    "type": "entry",
+                    "num": "3"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r17.w337",
+                  "r17.w338"
+                ],
+                "boxes": [
+                  {
+                    "page": 2,
+                    "bbox": [
+                      1540,
+                      1085,
+                      1671,
+                      1113
+                    ]
+                  }
+                ]
+              },
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "MINISTRY OF CHEMICALS AND FERTILIZERS"
+                  },
+                  {
+                    "type": "department",
+                    "heading": "DEPARTMENT OF CHEMICALS AND PETRO- CHEMICALS"
+                  },
+                  {
+                    "type": "entry",
+                    "num": "4"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r17.w340",
+                  "r17.w340"
+                ],
+                "boxes": [
+                  {
+                    "page": 2,
+                    "bbox": [
+                      1749,
+                      1085,
+                      1768,
+                      1112
+                    ]
+                  }
+                ]
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r17.w310",
+              "r17.w316"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  462,
+                  995,
+                  1494,
+                  1030
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(ii)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF CONSUMER AFFAIRS, FOOD AND PUBLIC DISTRIBUTION"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF FOOD AND PUBLIC DISTRIBUTION"
+                },
+                {
+                  "type": "entry",
+                  "num": "20"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r17.w379",
+                "r17.w381"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    821,
+                    1310,
+                    1039,
+                    1345
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "21",
+                "text": "Molasses."
+              },
+              {
+                "type": "entry",
+                "num": "22",
+                "text": "Alcohol – industrial and potable from the molasses route."
+              },
+              {
+                "type": "entry",
+                "num": "23",
+                "text": "Stand-alone Distilleries."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r17.w344",
+              "r17.w350"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  462,
+                  1175,
+                  1399,
+                  1210
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

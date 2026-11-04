@@ -1,0 +1,1234 @@
+{
+  "file": {
+    "name": "1_Upload_351.pdf",
+    "file_id": "f_48b91f2c574f298e",
+    "pages": 8,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_351.pdf",
+    "sha256": "48b91f2c574f298e0488f53f75bf250f55dc9332e7567e384688bcb0dd8c8071",
+    "govdoc": "1_Upload_351.pdf.govdoc.json.zst",
+    "revision": 41
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_1986E_2014",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_1556_2014",
+      "fields": {
+        "number": {
+          "value": "S.O. 1986(E)"
+        },
+        "in_force": {
+          "value": "2014-07-31"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "2014-07-31",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "2",
+          "model": "gemini-4-argon",
+          "at": "2026-11-03T16:59:03.120607+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(1)(a)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Environment and Forests"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w1251",
+                "r1.w1263"
+              ],
+              "boxes": [
+                {
+                  "page": 5,
+                  "bbox": [
+                    657,
+                    2232,
+                    2225,
+                    2326
+                  ]
+                }
+              ]
+            },
+            "expect": "11. Ministry of Environment and Forests (Paryavaran aur Van Mantralaya)",
+            "scope": "heading",
+            "content": [
+              {
+                "type": "ministry",
+                "num": "11",
+                "heading": "Ministry of Environment, Forest and Climate Change",
+                "heading_hi": "Paryavaran, Van aur Jalvaayu Parivartan Mantralaya"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w1250",
+              "r1.w1259"
+            ],
+            "boxes": [
+              {
+                "page": 5,
+                "bbox": [
+                  527,
+                  2232,
+                  1800,
+                  2274
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(1)(b)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Shipping"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w1287",
+                "r1.w1296"
+              ],
+              "boxes": [
+                {
+                  "page": 5,
+                  "bbox": [
+                    676,
+                    2493,
+                    2141,
+                    2535
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "ministry",
+                "num": "33",
+                "heading": "Ministry of Skill Development, Entrepreneurship, Youth Affairs and Sports (Kaushal Vikas, Udyamshilta, Yuvak Karyakram aur Khel Mantralaya)."
+              },
+              {
+                "type": "department",
+                "num": "i",
+                "heading": "Department of Skill Development and Entrepreneurship",
+                "heading_hi": "Kaushal Vikas aur Udyamshilta Vibhag"
+              },
+              {
+                "type": "department",
+                "num": "ii",
+                "heading": "Department of Youth Affairs",
+                "heading_hi": "Yuvak Karyakram Vibhag"
+              },
+              {
+                "type": "department",
+                "num": "iii",
+                "heading": "Department of Sports",
+                "heading_hi": "Khel Vibhag"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w1286",
+              "r1.w1293"
+            ],
+            "boxes": [
+              {
+                "page": 5,
+                "bbox": [
+                  527,
+                  2493,
+                  1551,
+                  2535
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 3,
+            "source_ref": "2(1)(c)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Water Resources"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w1352",
+                "r1.w1362"
+              ],
+              "boxes": [
+                {
+                  "page": 5,
+                  "bbox": [
+                    675,
+                    3040,
+                    2153,
+                    3081
+                  ]
+                }
+              ]
+            },
+            "expect": "41. Ministry of Water Resources (Jal Sansadhan Mantralaya)",
+            "scope": "heading",
+            "content": [
+              {
+                "type": "ministry",
+                "num": "41",
+                "heading": "Ministry of Water Resources, River Development and Ganga Rejuvenation",
+                "heading_hi": "Jal Sansadhan, Nadi Vikas aur Ganga Sanrakshan Mantralaya"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w1351",
+              "r1.w1359"
+            ],
+            "boxes": [
+              {
+                "page": 5,
+                "bbox": [
+                  527,
+                  3040,
+                  1596,
+                  3081
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 4,
+            "source_ref": "2(1)(d)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Youth Affairs and Sports"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w1400",
+                "r1.w1416"
+              ],
+              "boxes": [
+                {
+                  "page": 6,
+                  "bbox": [
+                    675,
+                    403,
+                    2224,
+                    497
+                  ]
+                }
+              ]
+            },
+            "expect": "42. Ministry of Youth Affairs and Sports (Yuvak Karyakram aur Khel Mantralaya)",
+            "flags": [],
+            "words": [
+              "r1.w1399",
+              "r1.w1408"
+            ],
+            "boxes": [
+              {
+                "page": 6,
+                "bbox": [
+                  538,
+                  403,
+                  1680,
+                  444
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 5,
+            "source_ref": "2(2)(a)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF ENVIRONMENT AND FORESTS"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w1426",
+                "r1.w1437"
+              ],
+              "boxes": [
+                {
+                  "page": 6,
+                  "bbox": [
+                    675,
+                    611,
+                    2223,
+                    703
+                  ]
+                }
+              ]
+            },
+            "expect": "MINISTRY OF ENVIRONMENT AND FORESTS (PARYAVARAN TATHA VAN MANTRALAYA)",
+            "scope": "heading",
+            "content": [
+              {
+                "type": "ministry",
+                "heading": "MINISTRY OF ENVIRONMENT, FOREST AND CLIMATE CHANGE",
+                "heading_hi": "PARYAVARAN, VAN AUR JALVAAYU PARIVARTAN MANTRALAYA"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w1425",
+              "r1.w1433"
+            ],
+            "boxes": [
+              {
+                "page": 6,
+                "bbox": [
+                  527,
+                  611,
+                  2223,
+                  652
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 6,
+            "source_ref": "2(2)(b)(i)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF ENVIRONMENT, FOREST AND CLIMATE CHANGE"
+                },
+                {
+                  "type": "entry",
+                  "num": "8"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w1481",
+                "r1.w1484"
+              ],
+              "boxes": [
+                {
+                  "page": 6,
+                  "bbox": [
+                    825,
+                    1107,
+                    1095,
+                    1149
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "8",
+                "text": "Conservation, development, management and abatement of pollution of rivers excluding the river Ganga and its tributaries."
+              },
+              {
+                "type": "entry",
+                "num": "8A",
+                "text": "National River Conservation Directorate."
+              }
+            ],
+            "ref_seq": 5,
+            "flags": [],
+            "words": [
+              "r1.w1480",
+              "r1.w1492"
+            ],
+            "boxes": [
+              {
+                "page": 6,
+                "bbox": [
+                  677,
+                  1107,
+                  2079,
+                  1149
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 7,
+            "source_ref": "2(2)(b)(ii)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF ENVIRONMENT, FOREST AND CLIMATE CHANGE"
+                },
+                {
+                  "type": "entry",
+                  "num": "36"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w1516",
+                "r1.w1519"
+              ],
+              "boxes": [
+                {
+                  "page": 6,
+                  "bbox": [
+                    826,
+                    1393,
+                    1148,
+                    1435
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "36A",
+                "text": "Climate change and all other matters related thereto."
+              }
+            ],
+            "ref_seq": 5,
+            "flags": [],
+            "words": [
+              "r1.w1515",
+              "r1.w1527"
+            ],
+            "boxes": [
+              {
+                "page": 6,
+                "bbox": [
+                  677,
+                  1393,
+                  2051,
+                  1435
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 8,
+            "source_ref": "2(2)(c)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "target": [
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "MINISTRY OF FINANCE"
+                  },
+                  {
+                    "type": "department",
+                    "heading": "DEPARTMENT OF ECONOMIC AFFAIRS"
+                  },
+                  {
+                    "type": "entry",
+                    "num": "81A"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r1.w1557",
+                  "r1.w1558"
+                ],
+                "boxes": [
+                  {
+                    "page": 6,
+                    "bbox": [
+                      1087,
+                      1654,
+                      1298,
+                      1687
+                    ]
+                  }
+                ]
+              },
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "MINISTRY OF FINANCE"
+                  },
+                  {
+                    "type": "department",
+                    "heading": "DEPARTMENT OF ECONOMIC AFFAIRS"
+                  },
+                  {
+                    "type": "entry",
+                    "num": "81B"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r1.w1560",
+                  "r1.w1560"
+                ],
+                "boxes": [
+                  {
+                    "page": 6,
+                    "bbox": [
+                      1390,
+                      1654,
+                      1461,
+                      1687
+                    ]
+                  }
+                ]
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w1537",
+              "r1.w1543"
+            ],
+            "boxes": [
+              {
+                "page": 6,
+                "bbox": [
+                  527,
+                  1549,
+                  1551,
+                  1590
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 9,
+            "source_ref": "2(2)(d)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF SHIPPING"
+                },
+                {
+                  "type": "entry",
+                  "num": "5"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w1574",
+                "r1.w1577"
+              ],
+              "boxes": [
+                {
+                  "page": 6,
+                  "bbox": [
+                    1096,
+                    1784,
+                    1443,
+                    1826
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "5A",
+                "text": "Ship breaking."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w1564",
+              "r1.w1570"
+            ],
+            "boxes": [
+              {
+                "page": 6,
+                "bbox": [
+                  527,
+                  1732,
+                  1753,
+                  1773
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 10,
+            "source_ref": "2(2)(e)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF SHIPPING"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w1590",
+                "r1.w1602"
+              ],
+              "boxes": [
+                {
+                  "page": 6,
+                  "bbox": [
+                    675,
+                    1993,
+                    2224,
+                    2087
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "ministry",
+                "heading": "MINISTRY OF SKILL DEVELOPMENT, ENTREPRENEURSHIP, YOUTH AFFAIRS AND SPORTS",
+                "heading_hi": "KAUSHAL VIKAS, UDYAMSHILTA, YUVAK KARYAKRAM AUR KHEL MANTRALAYA"
+              },
+              {
+                "type": "department",
+                "num": "A",
+                "heading": "DEPARTMENT OF SKILL DEVELOPMENT AND ENTREPRENEURSHIP",
+                "heading_hi": "KAUSHAL VIKAS AUR UDYAMSHILTA VIBHAG"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Coordination with all concerned for evolving an appropriate skill development framework, removal of disconnect between the demand for and supply of skilled manpower through vocational and technical training skill up-gradation, building of new skills, innovative thinking and talents not only for the existing jobs but also the jobs that are to be created."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "Mapping of existing skills and their certification."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "Expansion of youth entrepreneurship education and capacity through forging strong partnership between educational institutions, business and other community organisations and set national standards for it."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "Role of coordination relating to skill development."
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "Doing market research and devising training curriculum in important sectors."
+              },
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "Industry-Institute linkage."
+              },
+              {
+                "type": "entry",
+                "num": "7",
+                "text": "Bringing Public Private Partnership element in this activity-partnership with the industry who need the skilled manpower."
+              },
+              {
+                "type": "entry",
+                "num": "8",
+                "text": "Making broad policies for all other Ministries/Departments with regard to market requirements and skill development."
+              },
+              {
+                "type": "entry",
+                "num": "9",
+                "text": "To frame policies for soft skills."
+              },
+              {
+                "type": "entry",
+                "num": "10",
+                "text": "Computer Education."
+              },
+              {
+                "type": "entry",
+                "num": "11",
+                "text": "Academic equivalence of skill sets."
+              },
+              {
+                "type": "entry",
+                "num": "12",
+                "text": "Work relating to Industrial Training Institutes."
+              },
+              {
+                "type": "entry",
+                "num": "13",
+                "text": ""
+              },
+              {
+                "type": "item",
+                "num": "i",
+                "text": "National Skill Development Corporation."
+              },
+              {
+                "type": "item",
+                "num": "ii",
+                "text": "National Skill Development Agency."
+              },
+              {
+                "type": "item",
+                "num": "iii",
+                "text": "National Skill Development Trust."
+              },
+              {
+                "type": "department",
+                "num": "B",
+                "heading": "DEPARTMENT OF YOUTH AFFAIRS",
+                "heading_hi": "YUVAK KARYAKRAM VIBHAG"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Youth Affairs/Youth Policy."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "Nehru Yuva Kendra Sangathan."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "National Reconstruction Corps Scheme."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "Rajiv Gandhi National Institute of Youth Development."
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "Scheme for assistance to Rural Youth and Sports Clubs."
+              },
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "National Commission for Youth."
+              },
+              {
+                "type": "entry",
+                "num": "7",
+                "text": "National Service Scheme."
+              },
+              {
+                "type": "entry",
+                "num": "8",
+                "text": "Voluntary Youth Organisations including financial assistance to them."
+              },
+              {
+                "type": "entry",
+                "num": "9",
+                "text": "National Service Volunteer Scheme."
+              },
+              {
+                "type": "entry",
+                "num": "10",
+                "text": "Commonwealth Youth Programme and United Nations Volunteers."
+              },
+              {
+                "type": "entry",
+                "num": "11",
+                "text": "Youth welfare activities, youth festivals, work camp, etc."
+              },
+              {
+                "type": "entry",
+                "num": "12",
+                "text": "Boy-scouts and girl-guides."
+              },
+              {
+                "type": "entry",
+                "num": "13",
+                "text": "Youth Hostels."
+              },
+              {
+                "type": "entry",
+                "num": "14",
+                "text": "National Youth Awards."
+              },
+              {
+                "type": "entry",
+                "num": "15",
+                "text": "Residual work of the erstwhile National Discipline Scheme."
+              },
+              {
+                "type": "entry",
+                "num": "16",
+                "text": "Exchange of Youth Delegation with foreign countries."
+              },
+              {
+                "type": "department",
+                "num": "C",
+                "heading": "DEPARTMENT OF SPORTS",
+                "heading_hi": "KHEL VIBHAG"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Sports Policy."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "Sports and Games."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "National Welfare Fund for Sportsmen."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "Netaji Subhas National Institute of Sports."
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "Sports Authority of India."
+              },
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "Matters relating to the Indian Olympic Association and National Sports Federations."
+              },
+              {
+                "type": "entry",
+                "num": "7",
+                "text": "Participation of Indian sports teams in tournaments abroad and participation of foreign sports teams in international tournaments in India."
+              },
+              {
+                "type": "entry",
+                "num": "8",
+                "text": "National Sports Awards including Arjuna Awards."
+              },
+              {
+                "type": "entry",
+                "num": "9",
+                "text": "Sports Scholarships."
+              },
+              {
+                "type": "entry",
+                "num": "10",
+                "text": "Exchange of Sports persons, experts and teams with foreign countries."
+              },
+              {
+                "type": "entry",
+                "num": "11",
+                "text": "Sports infrastructure including financial assistance for creation and development of such infrastructure."
+              },
+              {
+                "type": "entry",
+                "num": "12",
+                "text": "Financial assistance for coaching, tournaments, equipment, etc."
+              },
+              {
+                "type": "entry",
+                "num": "13",
+                "text": "Sports matters relating to Union territories."
+              },
+              {
+                "type": "entry",
+                "num": "14",
+                "text": "Physical Education."
+              }
+            ],
+            "flags": [
+              "page_break_inside"
+            ],
+            "words": [
+              "r1.w1589",
+              "r1.w1595"
+            ],
+            "boxes": [
+              {
+                "page": 6,
+                "bbox": [
+                  538,
+                  1993,
+                  1742,
+                  2034
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 11,
+            "source_ref": "2(2)(f)",
+            "op": "substitute_text",
+            "akn_type": "substitution",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF STEEL"
+                },
+                {
+                  "type": "entry",
+                  "num": "1"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w2077",
+                "r1.w2079"
+              ],
+              "boxes": [
+                {
+                  "page": 8,
+                  "bbox": [
+                    699,
+                    791,
+                    2224,
+                    882
+                  ]
+                }
+              ]
+            },
+            "old": "including ship breaking",
+            "new": "",
+            "flags": [],
+            "words": [
+              "r1.w2068",
+              "r1.w2074"
+            ],
+            "boxes": [
+              {
+                "page": 8,
+                "bbox": [
+                  602,
+                  791,
+                  1516,
+                  833
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 12,
+            "source_ref": "2(2)(g)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF WATER RESOURCES"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w2089",
+                "r1.w2098"
+              ],
+              "boxes": [
+                {
+                  "page": 8,
+                  "bbox": [
+                    675,
+                    922,
+                    2225,
+                    1014
+                  ]
+                }
+              ]
+            },
+            "expect": "MINISTRY OF WATER RESOURCES (JAL SANSADHAN MANTRALAYA)",
+            "scope": "heading",
+            "content": [
+              {
+                "type": "ministry",
+                "heading": "MINISTRY OF WATER RESOURCES, RIVER DEVELOPMENT AND GANGA REJUVENATION",
+                "heading_hi": "JAL SANSADHAN, NADI VIKAS AUR GANGA SANRAKSHAN MANTRALAYA"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w2088",
+              "r1.w2095"
+            ],
+            "boxes": [
+              {
+                "page": 8,
+                "bbox": [
+                  595,
+                  922,
+                  1798,
+                  963
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 13,
+            "source_ref": "2(2)(h)(i)",
+            "op": "substitute_text",
+            "akn_type": "substitution",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF WATER RESOURCES, RIVER DEVELOPMENT AND GANGA REJUVENATION"
+                },
+                {
+                  "type": "entry",
+                  "num": "1"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w2148",
+                "r1.w2150"
+              ],
+              "boxes": [
+                {
+                  "page": 8,
+                  "bbox": [
+                    825,
+                    1418,
+                    1043,
+                    1460
+                  ]
+                }
+              ]
+            },
+            "old": "diverse uses of water",
+            "new": "diverse uses of water and interlinking of rivers",
+            "ref_seq": 12,
+            "flags": [],
+            "words": [
+              "r1.w2147",
+              "r1.w2157"
+            ],
+            "boxes": [
+              {
+                "page": 8,
+                "bbox": [
+                  677,
+                  1418,
+                  1885,
+                  1460
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 14,
+            "source_ref": "2(2)(h)(ii)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF WATER RESOURCES, RIVER DEVELOPMENT AND GANGA REJUVENATION"
+                },
+                {
+                  "type": "entry",
+                  "num": "30"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w2168",
+                "r1.w2171"
+              ],
+              "boxes": [
+                {
+                  "page": 8,
+                  "bbox": [
+                    826,
+                    1549,
+                    1148,
+                    1590
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "30A",
+                "text": "National Ganga River Basin Authority including the Mission Directorate, National Mission for Clean Ganga and other related matters of Ganga Rejuvenation."
+              },
+              {
+                "type": "entry",
+                "num": "30B",
+                "text": "Conservation, development, management and abatement of pollution in river Ganga and its tributaries."
+              }
+            ],
+            "ref_seq": 12,
+            "flags": [],
+            "words": [
+              "r1.w2167",
+              "r1.w2178"
+            ],
+            "boxes": [
+              {
+                "page": 8,
+                "bbox": [
+                  677,
+                  1549,
+                  2034,
+                  1590
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 15,
+            "source_ref": "2(2)(i)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF YOUTH AFFAIRS AND SPORTS"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w2216",
+                "r1.w2236"
+              ],
+              "boxes": [
+                {
+                  "page": 8,
+                  "bbox": [
+                    675,
+                    1940,
+                    2225,
+                    2087
+                  ]
+                }
+              ]
+            },
+            "expect": " MINISTRY OF YOUTH AFFAIRS AND SPORTS (YUVAK KARYAKRAM AUR KHEL MANTRALAYA)",
+            "flags": [],
+            "words": [
+              "r1.w2215",
+              "r1.w2224"
+            ],
+            "boxes": [
+              {
+                "page": 8,
+                "bbox": [
+                  602,
+                  1940,
+                  2014,
+                  1981
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

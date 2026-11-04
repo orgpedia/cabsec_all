@@ -1,0 +1,206 @@
+{
+  "file": {
+    "name": "1_Upload_3974.pdf",
+    "file_id": "f_ed0253105e3920fb",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_3974.pdf",
+    "sha256": "ed0253105e3920fb2219558f82831387e7e8378f7b2ca2e733aaef769a5a047d",
+    "govdoc": "1_Upload_3974.pdf.govdoc.json.zst",
+    "revision": 62
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_5382E_2024",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_4982_2024",
+      "fields": {
+        "number": {
+          "value": "S.O. 5382(E)"
+        },
+        "in_force": {
+          "value": "2024-12-12"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "2024-12-12",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "2",
+          "model": "gemini-4-argon",
+          "at": "2026-11-03T16:59:06.645736+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(a)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF WOMEN AND CHILD DEVELOPMENT"
+                },
+                {
+                  "type": "entry",
+                  "num": "13"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r17.w304",
+                "r17.w312"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    475,
+                    1082,
+                    1496,
+                    1121
+                  ]
+                }
+              ]
+            },
+            "expect": "Central Social Welfare Board (CSWB)",
+            "flags": [],
+            "words": [
+              "r17.w303",
+              "r17.w312"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  401,
+                  1082,
+                  1496,
+                  1121
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(b)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF WOMEN AND CHILD DEVELOPMENT"
+                },
+                {
+                  "type": "entry",
+                  "num": "15"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r17.w317",
+                "r17.w324"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    475,
+                    1155,
+                    1278,
+                    1194
+                  ]
+                }
+              ]
+            },
+            "expect": "Food and Nutrition Board",
+            "flags": [],
+            "words": [
+              "r17.w316",
+              "r17.w324"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  401,
+                  1155,
+                  1278,
+                  1194
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 3,
+            "source_ref": "2(c)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF WOMEN AND CHILD DEVELOPMENT"
+                },
+                {
+                  "type": "entry",
+                  "num": "19"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r17.w329",
+                "r17.w335"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    475,
+                    1228,
+                    1233,
+                    1267
+                  ]
+                }
+              ]
+            },
+            "expect": "Rashtriya Mahila Kosh",
+            "flags": [],
+            "words": [
+              "r17.w328",
+              "r17.w335"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  401,
+                  1228,
+                  1233,
+                  1267
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

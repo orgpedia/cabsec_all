@@ -1,0 +1,228 @@
+{
+  "file": {
+    "name": "1_Upload_1939.pdf",
+    "file_id": "f_c688ee1b6f9837e6",
+    "pages": 3,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_1939.pdf",
+    "sha256": "c688ee1b6f9837e6910e72cabd6e723911bb2056d956dc3390d770d4ec2db47f",
+    "govdoc": "1_Upload_1939.pdf.govdoc.json.zst",
+    "revision": 62
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_3964E_2019",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_3572_2019",
+      "fields": {
+        "number": {
+          "value": "S.O. 3964(E)"
+        },
+        "in_force": {
+          "value": "2019-10-31"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "2019-10-31",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "2",
+          "model": "gemini-4-argon",
+          "at": "2026-11-03T16:59:06.506046+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(A)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Home Affairs"
+                },
+                {
+                  "type": "department",
+                  "heading": "Department of Jammu and Kashmir Affairs"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r17.w641",
+                "r17.w654"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    320,
+                    2719,
+                    2228,
+                    2808
+                  ]
+                }
+              ]
+            },
+            "expect": "(v) Department of Jammu and Kashmir Affairs (Jammu tatha Kashmir Vibhag)",
+            "scope": "heading",
+            "content": [
+              {
+                "type": "department",
+                "num": "v",
+                "heading": "Department of Jammu, Kashmir and Ladakh Affairs",
+                "heading_hi": "Jammu, Kashmir aur Ladakh Vibhag"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r17.w626",
+              "r17.w640"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  333,
+                  2719,
+                  2160,
+                  2759
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(B)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF HOME AFFAIRS"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF JAMMU AND KASHMIR AFFAIRS"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r17.w698",
+                "r17.w715"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    321,
+                    331,
+                    2225,
+                    419
+                  ]
+                }
+              ]
+            },
+            "expect": "E. DEPARTMENT OF JAMMU AND KASHMIR AFFAIRS (JAMMU TATHA KASHMIR VIBHAG)",
+            "content": [
+              {
+                "type": "department",
+                "num": "E",
+                "heading": "DEPARTMENT OF JAMMU, KASHMIR AND LADAKH AFFAIRS",
+                "heading_hi": "JAMMU, KASHMIR AUR LADAKH VIBHAG"
+              },
+              {
+                "type": "group_heading",
+                "num": "A",
+                "text": "General:"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "All matters falling within the purview of the Union Government in terms of provisions contained in Part VIII of the Constitution, in so far as these are applicable to the Union territory of Jammu and Kashmir or Union territory of Ladakh, as the case may be, except all such matters as have been specifically assigned under these rules to any other Ministry or Department of the Government of India."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "All matters falling within the purview of the Union Government in terms of the provisions of the Jammu and Kashmir Reorganisation Act, 2019 (34 of 2019) relating to both the Union territories except all such matters as have been specifically assigned under these rules to any other Ministry or Department of the Government of India."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "All matters relating to the Union territory of Jammu and Kashmir or Union territory of Ladakh, as the case may be, including counter terrorism within the Union territory of Jammu and Kashmir and co- ordination with the Ministry of Defence as regards manning and managing the Line Of Control between India and Pakistan, but excluding those with which the Ministry of External Affairs is concerned."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "Administration of the Armed Forces (Jammu and Kashmir) Special Powers Act, 1990 (21 of 1990) in both the Union territories."
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "Delegation of powers of State Government and Central Government under various enactments to the Administrator or the Lt. Governor of the Union territory of Jammu and Kashmir or the Union territory of Ladakh, as the case may be, under article 239 of the Constitution."
+              },
+              {
+                "type": "group_heading",
+                "num": "B",
+                "text": "Provisions specific to the Union territory of Ladakh:"
+              },
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "Making of Regulations under article 240 of the Constitution for peace, progress and good government of the Union territory of Ladakh."
+              },
+              {
+                "type": "entry",
+                "num": "7",
+                "text": "All matters enumerated in the State List and concurrent List in so far as any such matter concerns the said Union territory, except all such matters as have, under these rules, been specifically assigned to any other Ministry or Department of the Government of India."
+              },
+              {
+                "type": "entry",
+                "num": "8",
+                "text": "General Questions relating to public services in the Union territory of Ladakh and service matters in so far as these fall within the purview of the State Governments."
+              },
+              {
+                "type": "group_heading",
+                "num": "C",
+                "text": "Provisions specific to the Union territory of Jammu and Kashmir:"
+              },
+              {
+                "type": "entry",
+                "num": "9",
+                "text": "General Questions relating to public services in the said Union territory and service matters relating to the officers of the Indian Administrative Service and the Indian Police Service serving in connection with the affairs of the said Union territory."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r17.w684",
+              "r17.w697"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  320,
+                  281,
+                  2227,
+                  369
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

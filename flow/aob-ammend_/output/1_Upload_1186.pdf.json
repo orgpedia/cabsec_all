@@ -1,0 +1,293 @@
+{
+  "file": {
+    "name": "1_Upload_1186.pdf",
+    "file_id": "f_8f6bf0fd38358d1a",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_1186.pdf",
+    "sha256": "8f6bf0fd38358d1a61e9fd022e4dcd9a3fe0312deb83199c0263e078870c4382",
+    "govdoc": "1_Upload_1186.pdf.govdoc.json.zst",
+    "revision": 62
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_194E_2017",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_174_2017",
+      "fields": {
+        "number": {
+          "value": "S.O. 194(E)"
+        },
+        "in_force": {
+          "value": "2017-01-16"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "2017-01-16",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "2",
+          "model": "gemini-4-argon",
+          "at": "2026-11-03T16:59:06.190475+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(A)(i)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF FINANCE"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF ECONOMIC AFFAIRS"
+                },
+                {
+                  "type": "entry",
+                  "num": "28"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r17.w385",
+                "r17.w386"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    731,
+                    1769,
+                    867,
+                    1804
+                  ]
+                }
+              ]
+            },
+            "expect": "other than Railway Budget",
+            "flags": [],
+            "words": [
+              "r17.w383",
+              "r17.w395"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  603,
+                  1768,
+                  1766,
+                  1804
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(A)(ii)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF FINANCE"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF ECONOMIC AFFAIRS"
+                },
+                {
+                  "type": "entry",
+                  "num": "47"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r17.w398",
+                "r17.w399"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    762,
+                    1847,
+                    897,
+                    1882
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "47A",
+                "text": "Financial policy in regard to the utilisation of the proceeds of disinvestment channelised into the National Investment Fund."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r17.w396",
+              "r17.w406"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  603,
+                  1846,
+                  1630,
+                  1882
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 3,
+            "source_ref": "2(B)(i)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF FINANCE"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF INVESTMENT AND PUBLIC ASSET MANAGEMENT (DIPAM)"
+                },
+                {
+                  "type": "entry",
+                  "num": "4"
+                },
+                {
+                  "type": "item",
+                  "num": "b"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r17.w447",
+                "r17.w452"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    673,
+                    2246,
+                    1029,
+                    2282
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "item",
+                "num": "b",
+                "text": ". Advise the Government in matters of financial restructuring of the Central Public Sector Enterprises and for attracting investment in the said Enterprises through capital market."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r17.w446",
+              "r17.w459"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  603,
+                  2246,
+                  1798,
+                  2282
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 4,
+            "source_ref": "2(B)(ii)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF FINANCE"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF INVESTMENT AND PUBLIC ASSET MANAGEMENT (DIPAM)"
+                },
+                {
+                  "type": "entry",
+                  "num": "5"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r17.w487",
+                "r17.w488"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    673,
+                    2459,
+                    779,
+                    2493
+                  ]
+                }
+              ]
+            },
+            "flags": [],
+            "words": [
+              "r17.w486",
+              "r17.w491"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  603,
+                  2457,
+                  1048,
+                  2493
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

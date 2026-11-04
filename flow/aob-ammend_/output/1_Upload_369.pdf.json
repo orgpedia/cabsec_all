@@ -1,0 +1,232 @@
+{
+  "file": {
+    "name": "1_Upload_369.pdf",
+    "file_id": "f_83ce67a7f1bad168",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_369.pdf",
+    "sha256": "83ce67a7f1bad1686ef7037e459367e6cdeb14631055464ec855b9ad5d8c8955",
+    "govdoc": "1_Upload_369.pdf.govdoc.json.zst",
+    "revision": 51
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_1815E_2016",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_1238_2016",
+      "fields": {
+        "number": {
+          "value": "S.O. 1815(E)"
+        },
+        "in_force": {
+          "value": "2016-05-17"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "2016-05-17",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "2",
+          "model": "gemini-4-argon",
+          "at": "2026-11-04T07:13:23.908105+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(1)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Social Justice and Empowerment"
+                },
+                {
+                  "type": "department",
+                  "heading": "Department of Empowerment of Persons with Disabilities"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w372",
+                "r1.w385"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    461,
+                    917,
+                    2229,
+                    997
+                  ]
+                }
+              ]
+            },
+            "expect": "(ii) Department of Empowerment of Persons with Disabilities (Viklangjan Sashaktikaran Vibhag)",
+            "content": [
+              {
+                "type": "department",
+                "num": "ii",
+                "heading": "Department of Empowerment of Persons with Disabilities (Divyangjan)",
+                "heading_hi": "Divyangjan Sashaktikaran Vibhag"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w352",
+              "r1.w359"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  462,
+                  871,
+                  1347,
+                  907
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(2)(i)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF SOCIAL JUSTICE AND EMPOWERMENT"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF EMPOWERMENT OF PERSONS WITH DISABILITIES"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w425",
+                "r1.w438"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    461,
+                    1302,
+                    2227,
+                    1382
+                  ]
+                }
+              ]
+            },
+            "expect": "B. DEPARTMENT OF EMPOWERMENT OF PERSONS WITH DISABILITIES (VIKLANGJAN SASHAKTIKARAN VIBHAG)",
+            "scope": "heading",
+            "content": [
+              {
+                "type": "department",
+                "num": "B",
+                "heading": "DEPARTMENT OF EMPOWERMENT OF PERSONS WITH DISABILITIES (DIVYANGJAN)",
+                "heading_hi": "DIVYANGJAN SASHAKTIKARAN VIBHAG"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w424",
+              "r1.w430"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  462,
+                  1302,
+                  1444,
+                  1338
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 3,
+            "source_ref": "2(2)(ii)",
+            "op": "substitute_text",
+            "akn_type": "substitution",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF SOCIAL JUSTICE AND EMPOWERMENT"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF EMPOWERMENT OF PERSONS WITH DISABILITIES (DIVYANGJAN)"
+                },
+                {
+                  "type": "entry",
+                  "num": "4"
+                },
+                {
+                  "type": "note"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w478",
+                "r1.w483"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    461,
+                    1596,
+                    2228,
+                    1677
+                  ]
+                }
+              ]
+            },
+            "old": "Department of Empowerment of Persons with Disabilities",
+            "new": "Department of Empowerment of Persons with Disabilities (Divyangjan)",
+            "ref_seq": 2,
+            "flags": [],
+            "words": [
+              "r1.w459",
+              "r1.w465"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  462,
+                  1551,
+                  1463,
+                  1587
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

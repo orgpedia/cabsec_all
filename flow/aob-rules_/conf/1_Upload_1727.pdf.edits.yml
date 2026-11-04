@@ -1,0 +1,18 @@
+# A person's changes to 1_Upload_1727.pdf (GovDoc §8.3), one record per action, in order. Written by
+# GovDoc Studio and brought into the GovDoc file by the pipeline before it runs (Pipeline §P9).
+file: 1_Upload_1727.pdf
+file_id: f_7c659e3393bf8375
+next: 3
+runs:
+- id: h1
+  by: mukundesh
+  at: '2026-11-02T10:59:14Z'
+  edits:
+  - {op: text, target: r5.w18724, before: {text: Liaision}, after: {text: Liaison}}
+- id: h2
+  by: mukundesh
+  at: '2026-11-02T12:40:02Z'
+  note: a typo in print, corrected in later versions
+  edits:
+  - {op: text, target: r5.w3756, before: {text: extention}, after: {text: extension}}
+  - {op: text, target: r5.w4250, before: {text: Machanised}, after: {text: Mechanized}}

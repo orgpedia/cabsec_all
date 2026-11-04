@@ -63,3 +63,9 @@ issues:
     label: Take the version's text        # take the version's text there from then on (aob.md §A6)
     codes: ["aob:new_text_differs", "aob:new_missing", "aob:new_extra", "aob:new_hindi_differs"]
   collapse: [info]
+
+run:                                      # Run, and r (reviewer.md §R8): after the flow on the files with edits,
+  then:                                   # what follows from them, as `make refresh` in flow/ does
+    - product: ../aob-states_/src/states.yml  # the Rules' states and their problems
+    - flow: .                             # this task's states_check on every file
+    - flow: ../aob-rules_                 # the other task's

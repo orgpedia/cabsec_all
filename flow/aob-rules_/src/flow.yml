@@ -22,7 +22,9 @@ flow:
   - name: import
     task: import_manifest
     config: {paths: ["../input/*.pdf"], portal: cabsec_aob_rules, publisher: Cabinet Secretariat,
-             sources: ../../../input/documents/aob-rules/items.json, url_field: file_url}
+             sources: [../../../input/documents/aob-rules/items.json, include.json], url_field: file_url}
+  # include.json: what the website does not list as versions but is one, the schedules re-issued whole (Series
+  # 271), each with the amendment it holds and why
 
   # The text layer, read by pdfium; a footnote's number printed as a superscript is a word of its own.
   - name: text

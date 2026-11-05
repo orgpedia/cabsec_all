@@ -5,7 +5,9 @@ product: rules_states
 config:
   checkpoints: ../../aob-rules_/output
   amendments: ../../aob-ammend_/output
-  checkpoint_items: ../../../input/documents/aob-rules/items.json
+  checkpoint_items: [../../../input/documents/aob-rules/items.json, ../../aob-rules_/src/include.json]
   amendment_items: ../../../input/documents/aob-ammend/items.json
-  start: 301
+  start: 271                              # C3: from the schedules re-issued in Series 271 (1_Upload_535, aob-rules_'s include.json)
+  restarts: [301]                         # C3 ends at 1_Upload_910 (upto 301); phase B starts again from it (aob.md §A6)
+  schedules: ["1"]                        # phase C: Schedule 1 before Schedule 2 (the Order's problems always)
   out: ../output

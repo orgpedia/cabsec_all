@@ -58,10 +58,12 @@ issues:
     states: ["aob:states_path_missing", "aob:states_path_ambiguous", "aob:states_quote_mismatch",  # to the states
              "aob:states_words_missing", "aob:states_already_omitted", "aob:states_ref_missing",
              "aob:states_op_unknown"]
-    new: ["aob:new_text_differs", "aob:new_missing", "aob:new_extra", "aob:new_hindi_differs"]  # expected new
+    new: ["aob:new_text_differs", "aob:new_missing", "aob:new_extra", "aob:new_renumbered",
+             "aob:new_hindi_differs"]  # expected new
   verify:                                 # a difference the version is right about, no amendment made: the states
     label: Take the version's text        # take the version's text there from then on (aob.md §A6)
-    codes: ["aob:new_text_differs", "aob:new_missing", "aob:new_extra", "aob:new_hindi_differs"]
+    codes: ["aob:new_text_differs", "aob:new_missing", "aob:new_extra", "aob:new_renumbered",
+             "aob:new_hindi_differs"]
   collapse: [info]
 
 run:                                      # Run, and r (reviewer.md §R8): after the flow on the files with edits,

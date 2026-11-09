@@ -22,10 +22,12 @@ issues:
   see: [input, ../aob-ammend_/input]  # where the PDFs an issue names are: opened from its links
   categories:                             # code -> category; the panel groups issues by the stage found at
     old: ["aob:old_upto_ahead", "aob:old_upto_same"]  # old listed under the wrong upto (aob.md §A6)
-    new: ["aob:new_text_differs", "aob:new_missing", "aob:new_extra", "aob:new_hindi_differs"]  # expected new
+    new: ["aob:new_text_differs", "aob:new_missing", "aob:new_extra", "aob:new_renumbered",
+             "aob:new_hindi_differs"]  # expected new
   verify:                                 # a difference the version is right about, no amendment made: the states
     label: Take the version's text        # take the version's text there from then on (aob.md §A6)
-    codes: ["aob:new_text_differs", "aob:new_missing", "aob:new_extra", "aob:new_hindi_differs"]
+    codes: ["aob:new_text_differs", "aob:new_missing", "aob:new_extra", "aob:new_renumbered",
+             "aob:new_hindi_differs"]
 
 run:                                      # Run, and r (reviewer.md §R8): after the flow on the files with edits,
   then:                                   # what follows from them, as `make refresh` in flow/ does

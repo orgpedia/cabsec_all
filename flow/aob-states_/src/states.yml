@@ -7,7 +7,8 @@ config:
   amendments: ../../aob-ammend_/output
   checkpoint_items: [../../../input/documents/aob-rules/items.json, ../../aob-rules_/src/include.json]
   amendment_items: ../../../input/documents/aob-ammend/items.json
-  start: 271                              # C3: from the schedules re-issued in Series 271 (1_Upload_535, aob-rules_'s include.json)
-  restarts: [301]                         # C3 ends at 1_Upload_910 (upto 301); phase B starts again from it (aob.md §A6)
+  start: 174                              # C2: from the schedules re-issued in Series 174 (1_Upload_212, aob-rules_'s include.json);
+                                          # the re-issue in 271 (1_Upload_535) ends C2 and starts C3 (aob.md §A6)
+  restarts: [301]                         # C3 ends at 1_Upload_910 (upto 301); phase B starts again from it
   schedules: ["1"]                        # phase C: Schedule 1 before Schedule 2 (the Order's problems always)
   out: ../output

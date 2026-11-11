@@ -24,18 +24,21 @@ flow:
     config: {paths: ["../input/*.pdf"], portal: cabsec_aob_rules, publisher: Cabinet Secretariat,
              sources: [../../../input/documents/aob-rules/items.json, include.json], url_field: file_url}
   # include.json: what the website does not list as versions but is one, the schedules re-issued whole (Series
-  # 271), each with the amendment it holds and why
+  # 174 and 271), and a schedule substituted alone (217), each with the amendment it holds and why
 
   # The text layer, read by pdfium; a footnote's number printed as a superscript is a word of its own.
   - name: text
     task: ocr
     config: {engine: textlayer_super}
 
-  # Lines, and a block per page: the export reads the lines in order.
+  # Lines, and a block per page: the export reads the lines in order. A page set in columns (the re-issue of 1985)
+  # is read column by column, no line running across a gutter.
   - name: lines
     task: word_lines
+    config: {columns: true}
   - name: layout
     task: page_blocks
+    config: {columns: true}
 
   # A version is one document: the Rules as amended up to a date.
   - name: split

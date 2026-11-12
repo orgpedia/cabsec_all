@@ -34,7 +34,11 @@ flow:
   # several amendments. A notification's id: its S.O. number and year, the year from the masthead's date or,
   # in a file cut from the middle of an issue (no masthead), from the notification's "New Delhi, the …". A file
   # with no "S.O." at all is the notification as signed, not the gazette's print (1_Upload_254, Series 214): it
-  # starts at the enacting words, and its number and year are the listing's.
+  # starts at the enacting words, and its number and year are the listing's. Before 1972 (Series 1-91) a
+  # notification is "S.O. 861" with no "(E)", and OCR may read "So. 33(E)": a block starting with an S.O. as read
+  # starts one, or with the place and date it is dated and then the S.O.; the id has the "E" only where the
+  # listing's S.O. has it. A copy as signed (Rashtrapati Bhavan's, or "to be published", the S.O. left blank) starts
+  # at its enacting words, read in a block with its "NOTIFICATION" or cut after "conferred by".
   - name: split
     task: section_splitter
     config:
@@ -44,14 +48,16 @@ flow:
       captures:
         issue: {pattern: 'No\.\s*(?P<value>\d+)\s*\]'}
         year: {pattern: '(?i:NEW DELHI),[^\n]*?(?P<value>(?:19|20)\d\d)'}
-        listed: {source: listing, field: gazette, pattern: 'S\.\s*O\.\s*(?P<value>\d+)'}
+        listed: {source: listing, field: gazette, pattern: 'S\.?\s*O\.?\s*(?P<value>\d+)'}
         listed_year: {source: listing, field: date, pattern: '(?P<value>(?:19|20)\d\d)'}
+        e: {source: listing, field: gazette, pattern: '\d\s*\(\s*(?P<value>E)\s*\)'}
       parts:
         doc_type: aob_amendment
-        start: '^\s*S\.\s*O\.\s*(?P<number>\d+)\s*\(\s*E\s*\)'
-        start_else: '^\s*In exercise of the powers conferred by clause \(3\) of article 77'
+        start: '^\s*(?:New\s+Delhi\b[^\n]{0,40}?(?:19|20)\d\d\.?\s+)?S\W{0,2}[Oo0]\W{0,3}(?P<number>\d+)\s*(?:\(\s*E\s*\))?(?![\d(])'
+        start_else: '^\s*(?:NOTIFICATION\s+)?In\s+exercise\s+of\s+the\s+powers\s+conferred\s+by\b'
         lead: false
-        ids: ["GOI_SO_{number}E_{year}", "GOI_SO_{listed}E_{listed_year}"]
+        ids: ["GOI_SO_{number}{e}_{year}", "GOI_SO_{listed}{e}_{listed_year}", "GOI_SO_{number}_{year}",
+              "GOI_SO_{listed}_{listed_year}"]
 
   # The ops (model-tagger.md): one answer per notification from Gemini 4 Argon, read by three steps: its
   # clauses and quoted text (roles), the provisions it cites (entities), and the changes (legal: relations

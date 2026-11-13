@@ -37,4 +37,4 @@ expect:
 # a run from the studio may call Gemini (reviewer.md §R8): gcloud's project, unless one is set
 studio: export GOOGLE_CLOUD_PROJECT ?= $(shell gcloud config get-value project 2>/dev/null)
 studio:
-	$(run) studio serve $(if $(DOCS),--docs $(DOCS)) $(if $(DOC),--doc $(DOC)) $(if $(DIR),--dir $(DIR))
+	$(run) studio serve $(if $(DOCS),--docs $(DOCS)) $(if $(DOC),--doc $(DOC)) $(if $(DIR),--dir $(DIR)) $(if $(PORT),--port $(PORT))

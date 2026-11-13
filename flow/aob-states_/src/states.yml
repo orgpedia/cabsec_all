@@ -13,3 +13,8 @@ config:
   restarts: [301]                         # C3 ends at 1_Upload_910 (upto 301); phase B starts again from it
   schedules: ["1"]                        # phase C: Schedule 1 before Schedule 2 (the Order's problems always)
   out: ../output
+  studio:                                 # where the First Schedule page's cells open the studio (one a collection)
+    amendments: /#/aob-ammend             # the studio this page is served by (make studio in aob-ammend_)
+    checkpoints: http://localhost:8801/#/aob-rules  # make studio PORT=8801 in aob-rules_
+  page_skip: [88]                         # 1_Upload_122: its First Schedule in Hindi names alone, re-issued in English
+                                          # a month later (89): left off the page, 89 compared with the states at 87

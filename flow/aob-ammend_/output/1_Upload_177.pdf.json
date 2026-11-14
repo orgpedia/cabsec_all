@@ -1,0 +1,213 @@
+{
+  "file": {
+    "name": "1_Upload_177.pdf",
+    "file_id": "f_42040f32da5bbb51",
+    "pages": 4,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_177.pdf",
+    "sha256": "42040f32da5bbb51b972b328ce3036fcbe89076cfaeda69178e1ed36e8f2ddc9",
+    "govdoc": "1_Upload_177.pdf.govdoc.json.zst",
+    "revision": 46
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_793E_1979",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_525_1979",
+      "fields": {
+        "number": {
+          "value": "S.O. 793(E)"
+        },
+        "in_force": {
+          "value": "1979-12-12"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "1979-12-12",
+          "basis": "stated"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T13:49:06.652270+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(i)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r10.rel1",
+            "target": [
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "Ministry of Rural Reconstruction"
+                  },
+                  {
+                    "type": "entry",
+                    "num": "3"
+                  },
+                  {
+                    "type": "item",
+                    "num": "b"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r1.w453",
+                  "r1.w460"
+                ],
+                "boxes": [
+                  {
+                    "page": 2,
+                    "bbox": [
+                      1506,
+                      2111,
+                      2155,
+                      2147
+                    ]
+                  }
+                ]
+              },
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "Ministry of Rural Reconstruction"
+                  },
+                  {
+                    "type": "entry",
+                    "num": "3"
+                  },
+                  {
+                    "type": "item",
+                    "num": "b"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r1.w453",
+                  "r1.w460"
+                ],
+                "boxes": [
+                  {
+                    "page": 2,
+                    "bbox": [
+                      1506,
+                      2111,
+                      2155,
+                      2147
+                    ]
+                  }
+                ]
+              }
+            ],
+            "content": [
+              {
+                "type": "text",
+                "text": "( a ) direct responsibility for rural roads [ माग II - 3 ( 11 ) ]"
+              },
+              {
+                "type": "item",
+                "num": "b",
+                "text": "nodal responsibility for elementary education, adult education, rural health, rural electrification, rural water supply (excluding centrally sponsored scheme of accelerated rural water supply), housing for landless rural labour and the nutrition programme"
+              }
+            ],
+            "flags": [
+              "read_page_break"
+            ],
+            "words": [
+              "r1.w439",
+              "r1.w450"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  1058,
+                  2071,
+                  2245,
+                  2114
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(ii)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r10.rel2",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Works and Housing"
+                },
+                {
+                  "type": "entry",
+                  "num": "23E"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w540",
+                "r1.w542"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    852,
+                    488,
+                    1109,
+                    521
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "23E",
+                "text": "Drinking water supply, including centrally sponsored scheme of accelerated rural water supply, and sanitation."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w527",
+              "r1.w537"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  427,
+                  452,
+                  1613,
+                  485
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,196 @@
+{
+  "file": {
+    "name": "1_Upload_220.pdf",
+    "file_id": "f_b797d80481953c12",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_220.pdf",
+    "sha256": "b797d80481953c12dba202c936508c21fbba3a4c20359f3e282762e26ff115ee",
+    "govdoc": "1_Upload_220.pdf.govdoc.json.zst",
+    "revision": 118
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_102E_1986",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_88_1986",
+      "fields": {
+        "number": {
+          "value": "S.O. 102(E)"
+        },
+        "in_force": {
+          "value": "1986-03-19"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "1986-03-19",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T12:56:56.933668+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(1)(i)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r81.rel1",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Human Resource Development"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w406",
+                "r1.w422"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    301,
+                    1224,
+                    1111,
+                    1393
+                  ]
+                }
+              ]
+            },
+            "expect": "12. Ministry of Human Resource Development (Manav Sansadhan Vikas Mantralaya)",
+            "content": [
+              {
+                "type": "ministry",
+                "num": "12",
+                "heading": "Ministry of Human Resource Development",
+                "heading_hi": "Manav Sansadhan Vikas Mantralaya"
+              },
+              {
+                "type": "department",
+                "num": "i",
+                "heading": "Department of Education",
+                "heading_hi": "Shiksha Vibhag"
+              },
+              {
+                "type": "department",
+                "num": "ii",
+                "heading": "Department of Youth Affairs and Sports",
+                "heading_hi": "Yuva Karyakaram aur Khel Vibhag"
+              },
+              {
+                "type": "department",
+                "num": "iii",
+                "heading": "Department of Arts",
+                "heading_hi": "Kala Vibhag"
+              },
+              {
+                "type": "department",
+                "num": "iv",
+                "heading": "Department of Culture",
+                "heading_hi": "Sanskriti Vibhag"
+              },
+              {
+                "type": "department",
+                "num": "v",
+                "heading": "Department of Women and Child Development",
+                "heading_hi": "Mahila aur Bal Vikas Vibhag"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w404",
+              "r1.w412"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  211,
+                  1224,
+                  1105,
+                  1264
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(2)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r81.rel2",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF HUMAN RESOURCE DEVELOPMENT"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF WOMEN'S WELFARE"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w508",
+                "r1.w519"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1401,
+                    922,
+                    2211,
+                    1088
+                  ]
+                }
+              ]
+            },
+            "expect": "E. DEPARTMENT OF WOMEN'S WELFARE (MAHILA KAL- YAN VIBHAG)",
+            "scope": "heading",
+            "content": [
+              {
+                "type": "department",
+                "num": "E",
+                "heading": "DEPARTMENT OF WOMEN AND CHILD DEVE OPMENT",
+                "heading_hi": "MAHILA AUR BAL VIKAS VIBHAG"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w490",
+              "r1.w497"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  1308,
+                  787,
+                  2210,
+                  831
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

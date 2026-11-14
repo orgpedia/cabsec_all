@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_1939.pdf",
     "sha256": "c688ee1b6f9837e6910e72cabd6e723911bb2056d956dc3390d770d4ec2db47f",
     "govdoc": "1_Upload_1939.pdf.govdoc.json.zst",
-    "revision": 65
+    "revision": 201
   },
   "documents": [
     {
@@ -29,9 +29,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "2",
+          "version": "3",
           "model": "gemini-4-argon",
-          "at": "2026-11-03T16:59:06.506046+00:00"
+          "at": "2026-11-12T12:56:58.221399+00:00"
         },
         "ops": [
           {
@@ -39,6 +39,7 @@
             "source_ref": "2(A)",
             "op": "replace",
             "akn_type": "replacement",
+            "relation": "r165.rel1",
             "target": {
               "cited": [
                 {
@@ -103,6 +104,7 @@
             "source_ref": "2(B)",
             "op": "replace",
             "akn_type": "replacement",
+            "relation": "r165.rel2",
             "target": {
               "cited": [
                 {
@@ -161,7 +163,7 @@
               {
                 "type": "entry",
                 "num": "3",
-                "text": "All matters relating to the Union territory of Jammu and Kashmir or Union territory of Ladakh, as the case may be, including counter terrorism within the Union territory of Jammu and Kashmir and co- ordination with the Ministry of Defence as regards manning and managing the Line Of Control between India and Pakistan, but excluding those with which the Ministry of External Affairs is concerned."
+                "text": "All matters relating to the Union territory of Jammu and Kashmir or Union territory of Ladakh, as the case may be, including counter terrorism within the Union territory of Jammu and Kashmir and coordination with the Ministry of Defence as regards manning and managing the Line Of Control between India and Pakistan, but excluding those with which the Ministry of External Affairs is concerned."
               },
               {
                 "type": "entry",

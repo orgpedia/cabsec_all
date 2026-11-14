@@ -1,0 +1,105 @@
+{
+  "file": {
+    "name": "1_Upload_153.pdf",
+    "file_id": "f_8dc5ebaeb102d258",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_153.pdf",
+    "sha256": "8dc5ebaeb102d25896f2e69f026725a3dae4e0a57be78aee729466cf3108907f",
+    "govdoc": "1_Upload_153.pdf.govdoc.json.zst",
+    "revision": 46
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_262E_1976",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_161_1976",
+      "fields": {
+        "number": {
+          "value": "S.O. 262(E)"
+        },
+        "in_force": {
+          "value": "1976-03-29"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "1976-03-29",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T13:49:24.329998+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r10.rel1",
+            "target": {
+              "cited": [
+                {
+                  "type": "rule",
+                  "num": "3"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w193",
+                "r1.w195"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    1380,
+                    1891,
+                    1570,
+                    1924
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "rule",
+                "num": "3",
+                "text": "Distribution of subjects"
+              },
+              {
+                "type": "sub_rule",
+                "num": "1",
+                "text": "The distribution of subjects among the departments shall be as specified in the Second Schedule to these Rules and sub-rule (2) of this rule."
+              },
+              {
+                "type": "sub_rule",
+                "num": "2",
+                "text": "The compiling of the accounts of each Department shall stand allocated to that Department with effect from the date from which the President relieves. by order made under the first proviso to sub-section (1) of section 10 of the Comptroller and Auditor General's (Duties, Powers and Conditions of Service) Act, 1971, the Comptroller and Auditor General from the responsibility for compiling the accounts of that Department."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w182",
+              "r1.w192"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  206,
+                  1886,
+                  1353,
+                  1923
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

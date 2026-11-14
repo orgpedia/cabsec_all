@@ -1,0 +1,638 @@
+{
+  "file": {
+    "name": "1_Upload_311.pdf",
+    "file_id": "f_9fe12ad944e7dd25",
+    "pages": 7,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_311.pdf",
+    "sha256": "9fe12ad944e7dd252ffa1d2f589be6518735395f9ddad4875c376a07f03eb881",
+    "govdoc": "1_Upload_311.pdf.govdoc.json.zst",
+    "revision": 109
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_107E_2003",
+      "doc_type": "aob_amendment",
+      "parent": "GAZETTE_ISSUE_9fe12ad944e7dd25",
+      "fields": {
+        "number": {
+          "value": "S.O. 107 (E)"
+        },
+        "in_force": {
+          "value": "2003-01-30"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "2003-01-30",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T12:56:37.714982+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(1)(a)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r73.rel1",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Coal and Mines"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w1040",
+                "r1.w1052"
+              ],
+              "boxes": [
+                {
+                  "page": 5,
+                  "bbox": [
+                    510,
+                    1173,
+                    2264,
+                    1266
+                  ]
+                }
+              ]
+            },
+            "expect": "3A. Ministry of Coal and Mines",
+            "content": [
+              {
+                "type": "text",
+                "text": "ÇA. Ministry of Coal (Koyala Mantralaya)"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w1038",
+              "r1.w1050"
+            ],
+            "boxes": [
+              {
+                "page": 5,
+                "bbox": [
+                  367,
+                  1173,
+                  2264,
+                  1222
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(1)(b)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r73.rel2",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Law and Justice"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w1069",
+                "r1.w1084"
+              ],
+              "boxes": [
+                {
+                  "page": 5,
+                  "bbox": [
+                    508,
+                    1411,
+                    2270,
+                    1503
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "ministry",
+                "num": "20",
+                "heading": "Ministry of Mines",
+                "heading_hi": "Khan Mantralaya"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w1067",
+              "r1.w1079"
+            ],
+            "boxes": [
+              {
+                "page": 5,
+                "bbox": [
+                  370,
+                  1411,
+                  2270,
+                  1456
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 3,
+            "source_ref": "2(2)(A)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r73.rel3",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF COAL AND MINES"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w1106",
+                "r1.w1122"
+              ],
+              "boxes": [
+                {
+                  "page": 5,
+                  "bbox": [
+                    469,
+                    1802,
+                    2114,
+                    1896
+                  ]
+                }
+              ]
+            },
+            "expect": "MINISTRY OF COAL AND MINES (KOYALA AUR KHAN MANTRALAYA)",
+            "content": [
+              {
+                "type": "ministry",
+                "heading": "MINISTRY OF COAL",
+                "heading_hi": "KOYALA MANTRALAYA"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Exploration and development of coking and non-coking coal and lignite deposits in India. .2. All matters relating to production, supply distribution and prices of coal. .3. Development and operation of coal washeries other than those for which the Department of Steel (Ispat Vibhag) is responsible."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "Low Temperature carbonisation of coal and productim of synthetic oil from coal."
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "Administration of the Coal Mines (Conservation and Development) Act, 1974 (28 of 1974)"
+              },
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "The Coal Mines Provident Fund Organisation."
+              },
+              {
+                "type": "entry",
+                "num": "7",
+                "text": "The Coal Mines Welfare Organisation."
+              },
+              {
+                "type": "entry",
+                "num": "8",
+                "text": "Administration of the Coal Mines Provident Fund and Miscellaneous Provision Act, 1948 (46 of 1948)."
+              },
+              {
+                "type": "entry",
+                "num": "9",
+                "text": "Administration of the Coal Mines Labour Welfare Fund Act, 1947 (32 of 1947)."
+              },
+              {
+                "type": "entry",
+                "num": "10",
+                "text": "Rules under the Mines Act, 1952 (32 of 1952) for the levy and collection of duty of excise on coke and coal produced and despatched from mines and administration of rescue fund."
+              },
+              {
+                "type": "entry",
+                "num": "11",
+                "text": "Administration of the Coal Bearing Areas (Acquisition and Development) Act, 1957 (20 of 1957)."
+              },
+              {
+                "type": "entry",
+                "num": "12",
+                "text": "Public Sector Enterprises dealing with coal and lignite."
+              },
+              {
+                "type": "entry",
+                "num": "13",
+                "text": "Administration of the Mines and Minerals (Development and Regulation) Act, 1957 (67 of 1957) and other Union Laws in so far the said Act and Laws relate to coal and lignite and sand for stowing, business incidental to such administration including questions concerning various States."
+              }
+            ],
+            "flags": [
+              "read_page_break"
+            ],
+            "words": [
+              "r1.w1103",
+              "r1.w1104"
+            ],
+            "boxes": [
+              {
+                "page": 5,
+                "bbox": [
+                  366,
+                  1802,
+                  2114,
+                  1847
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 4,
+            "source_ref": "2(2)(B)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r73.rel4",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF COMMERCE AND INDUSTRY"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF INDUSTRIAL POLICY AND PROMOTION"
+                },
+                {
+                  "type": "entry",
+                  "num": "19"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w1395",
+                "r1.w1397"
+              ],
+              "boxes": [
+                {
+                  "page": 6,
+                  "bbox": [
+                    400,
+                    1452,
+                    2157,
+                    1531
+                  ]
+                }
+              ]
+            },
+            "flags": [],
+            "words": [
+              "r1.w1224",
+              "r1.w1377"
+            ],
+            "boxes": [
+              {
+                "page": 6,
+                "bbox": [
+                  255,
+                  1355,
+                  2154,
+                  1394
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 5,
+            "source_ref": "2(2)(C)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r73.rel5",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF FINANCE AND COMPANY AFFAIRS"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF ECONOMIC AFFAIRS"
+                },
+                {
+                  "type": "entry",
+                  "num": "16"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w1427",
+                "r1.w1428"
+              ],
+              "boxes": [
+                {
+                  "page": 6,
+                  "bbox": [
+                    1579,
+                    1688,
+                    1797,
+                    1726
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "16A",
+                "text": "Foreign Investment Promotion Board (FIPB)."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w1225",
+              "r1.w1411"
+            ],
+            "boxes": [
+              {
+                "page": 6,
+                "bbox": [
+                  258,
+                  1590,
+                  2157,
+                  1630
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 6,
+            "source_ref": "2(2)(D)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r73.rel6",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF LAW AND JUSTICE"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w1445",
+                "r1.w1461"
+              ],
+              "boxes": [
+                {
+                  "page": 6,
+                  "bbox": [
+                    399,
+                    1927,
+                    2160,
+                    2009
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "ministry",
+                "heading": "MINISTRY OF MINES",
+                "heading_hi": "KHAN MANTRALAYA"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": ""
+              },
+              {
+                "type": "item",
+                "num": "i",
+                "text": "Legislation for regulation of mines and development of minerals within the territory of India, including mines and minerals underlying the ocean within the territorial waters or the continental shelf, or the exclusive economic zone and other maritime zones of India as may be specified, from time to time, by or under any law made by Parliament."
+              },
+              {
+                "type": "item",
+                "num": "ii",
+                "text": "Regulation of mines and development of minerals other than coal, lignite and sand for stowing and any other mineral declared as prescribed substances for the purpose of the Atomic Energy Act, 1962 (33 of 1962) under the control of the Union as declared by law including questions concerning regulation and development of minerals in various States and the matters connected therewith or incidental thereto."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "All other metals and minerals not specifically allotted to any other Ministries/Departments, such as aluminium, zinc, copper, gold, diamonds, lead and nickel. NII"
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "Planning, development' and control of, and + assistance to, all industries dealt with by the Department."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "Geological Survey of India."
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "Indian Bureau of Mines."
+              },
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "All other Attached or Subordinate Offices or other organisations concerned with any of the subjects specified in this list."
+              },
+              {
+                "type": "entry",
+                "num": "7",
+                "text": "Public Sector Enterprises and undertakings falling under the subjects included in this list, except those which are specifically allotted to any other Department."
+              },
+              {
+                "type": "entry",
+                "num": "8",
+                "text": "Metallurgical Grade Silicon."
+              }
+            ],
+            "flags": [
+              "read_page_break"
+            ],
+            "words": [
+              "r1.w1443",
+              "r1.w1454"
+            ],
+            "boxes": [
+              {
+                "page": 6,
+                "bbox": [
+                  259,
+                  1927,
+                  2160,
+                  1965
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 7,
+            "source_ref": "2(2)(E)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r73.rel7",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF PERSONNEL, PUBLIC GRIEVANCES AND PENSIONS"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF PERSONNEL AND TRAINING"
+                },
+                {
+                  "type": "entry",
+                  "num": "20"
+                },
+                {
+                  "type": "item",
+                  "num": "a"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w1744",
+                "r1.w1746"
+              ],
+              "boxes": [
+                {
+                  "page": 7,
+                  "bbox": [
+                    1001,
+                    1371,
+                    1266,
+                    1406
+                  ]
+                }
+              ]
+            },
+            "flags": [],
+            "words": [
+              "r1.w1714",
+              "r1.w1719"
+            ],
+            "boxes": [
+              {
+                "page": 7,
+                "bbox": [
+                  307,
+                  1225,
+                  2207,
+                  1269
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 8,
+            "source_ref": "2(2)(F)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r73.rel8",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "CABINET SECRETARIAT"
+                },
+                {
+                  "type": "entry",
+                  "num": "2"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w1759",
+                "r1.w1760"
+              ],
+              "boxes": [
+                {
+                  "page": 7,
+                  "bbox": [
+                    605,
+                    1515,
+                    795,
+                    1551
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "The Prevention of Corruption Act, 1947 (2 of 1947); the Central Bureau of Investigation (the Delhi Special Police Establishment including the Legal Division, the Technical Division, the Policy Division and the Administration Division); the Food Offences Wing; and Economic Offences Wing."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w1768",
+              "r1.w1757"
+            ],
+            "boxes": [
+              {
+                "page": 7,
+                "bbox": [
+                  312,
+                  1459,
+                  2204,
+                  1503
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

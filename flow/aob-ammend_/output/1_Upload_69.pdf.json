@@ -1,0 +1,953 @@
+{
+  "file": {
+    "name": "1_Upload_69.pdf",
+    "file_id": "f_86922f4a98a91d7e",
+    "pages": 4,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_69.pdf",
+    "sha256": "86922f4a98a91d7e4f343e1886e24dd4ec386c54a6e8e9f3a4037064a7c14d12",
+    "govdoc": "1_Upload_69.pdf.govdoc.json.zst",
+    "revision": 55
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_4017_1964",
+      "doc_type": "aob_amendment",
+      "parent": "GAZETTE_ISSUE_86922f4a98a91d7e",
+      "fields": {
+        "number": {
+          "value": null
+        },
+        "in_force": {
+          "value": "1964-11-20"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "1964-11-20",
+          "basis": "stated"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T18:25:33.461737+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "A",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r28.rel1",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "entry",
+                  "num": "7"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w130",
+                "r1.w131"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    778,
+                    1725,
+                    919,
+                    1758
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "ministry",
+                "heading": "Ministry of Finance:"
+              },
+              {
+                "type": "department",
+                "num": "i",
+                "heading": "Department of Economic Affairs"
+              },
+              {
+                "type": "department",
+                "num": "ii",
+                "heading": "Department of Expenditure"
+              },
+              {
+                "type": "department",
+                "num": "iii",
+                "heading": "Department of Revenue"
+              },
+              {
+                "type": "department",
+                "num": "iv",
+                "heading": "Department of Co-ordination"
+              },
+              {
+                "type": "department",
+                "num": "v",
+                "heading": "Department of Company Affairs and Insurance"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w124",
+              "r1.w136"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  208,
+                  1725,
+                  1447,
+                  1758
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "B(a)(i)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r28.rel2",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Finance"
+                },
+                {
+                  "type": "department",
+                  "heading": "Department of Economic Affairs"
+                },
+                {
+                  "type": "group_heading",
+                  "heading": "III. Internal Finance"
+                },
+                {
+                  "type": "entry",
+                  "num": "9"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w193",
+                "r1.w194"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    1060,
+                    2228,
+                    1198,
+                    2261
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "10",
+                "text": "Investment Policy"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w186",
+              "r1.w197"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  269,
+                  2228,
+                  1570,
+                  2261
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 3,
+            "source_ref": "B(a)(ii)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r28.rel3",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Finance"
+                },
+                {
+                  "type": "department",
+                  "heading": "Department of Economic Affairs"
+                },
+                {
+                  "type": "entry",
+                  "range": [
+                    "10",
+                    "49"
+                  ]
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w210",
+                "r1.w238"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    370,
+                    2363,
+                    1566,
+                    2501
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "group_heading",
+                "num": "IV",
+                "text": "Economic Advice"
+              },
+              {
+                "type": "entry",
+                "num": "11",
+                "text": "Preparation of briefs and submission of material on financial and economic questions relating to India's participation in the United Nations and Allied Organisations (as for example, Economic and Social Council, Economic Commission for Asia and Far East, etc.)."
+              },
+              {
+                "type": "group_heading",
+                "num": "V",
+                "text": "Budget"
+              },
+              {
+                "type": "entry",
+                "num": "12",
+                "text": "Ways and Means."
+              },
+              {
+                "type": "entry",
+                "num": "13",
+                "text": "Preparation of Central Budget, other than Railways Budget, including Supplementary, Excess Grants."
+              },
+              {
+                "type": "entry",
+                "num": "14",
+                "text": "Borrowing and Floatation of Market Loans by the Central and State Governments."
+              },
+              {
+                "type": "entry",
+                "num": "15",
+                "text": "Borrowing of Public Bodies such as Corporations, Municipalities, etc."
+              },
+              {
+                "type": "entry",
+                "num": "16",
+                "text": "Administration of the Public Debt Act."
+              },
+              {
+                "type": "entry",
+                "num": "17",
+                "text": "Administration of the Central Treasury Rules"
+              },
+              {
+                "type": "entry",
+                "num": "18",
+                "text": "Fixation of interest rates, including Borrowing Rates, Productivity Test Rates, etc."
+              },
+              {
+                "type": "entry",
+                "num": "19",
+                "text": "Accounting and Audit procedures including classification of transactions."
+              },
+              {
+                "type": "entry",
+                "num": "20",
+                "text": "Financial matters relating to partition, Federal Financial integration and Reorganisation of States."
+              },
+              {
+                "type": "entry",
+                "num": "21",
+                "text": "Administration of the Contingency Fund of India Rules."
+              },
+              {
+                "type": "entry",
+                "num": "22",
+                "text": "Treasury bills including ad hocs to replenish the Central balances."
+              },
+              {
+                "type": "entry",
+                "num": "23",
+                "text": "Sterling pensions Transfer of responsibility to U.K. Government and actuarial calculation of the liability involved."
+              },
+              {
+                "type": "entry",
+                "num": "24",
+                "text": "Conspectus of Central and State Government Budgets."
+              },
+              {
+                "type": "entry",
+                "num": "25",
+                "text": "Finance Commission."
+              },
+              {
+                "type": "entry",
+                "num": "26",
+                "text": "Taxation Enquiry Commission."
+              },
+              {
+                "type": "entry",
+                "num": "27",
+                "text": "Small Savings, including the administration of the National Savings Organisations."
+              },
+              {
+                "type": "group_heading",
+                "num": "VI",
+                "text": "Corporations"
+              },
+              {
+                "type": "entry",
+                "num": "28",
+                "text": "The Administration of Industrial Finance Corporation Act, 1948 and Rehabilitation Finance Administration Act, 1948."
+              },
+              {
+                "type": "entry",
+                "num": "29",
+                "text": "State Financial Corporation under the State Financial Corporation Act"
+              },
+              {
+                "type": "entry",
+                "num": "1951"
+              },
+              {
+                "type": "entry",
+                "num": "30",
+                "text": "The Industrial Credit and Investment Corporation of India, Ltd."
+              },
+              {
+                "type": "entry",
+                "num": "31",
+                "text": "The Refinance Corporation for Industry."
+              },
+              {
+                "type": "group_heading",
+                "num": "VII",
+                "text": "Capital Issues"
+              },
+              {
+                "type": "entry",
+                "num": "32",
+                "text": "Control over the Issues of Capital by Joint Stock Companies."
+              }
+            ],
+            "ref_seq": 2,
+            "flags": [],
+            "words": [
+              "r1.w205",
+              "r1.w215"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  257,
+                  2363,
+                  1564,
+                  2402
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 4,
+            "source_ref": "B(b)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r28.rel4",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Finance"
+                },
+                {
+                  "type": "department",
+                  "heading": "Department of Revenue and Company Law"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w271",
+                "r1.w282"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    507,
+                    265,
+                    1736,
+                    345
+                  ]
+                }
+              ]
+            },
+            "expect": "C. Department of Revenue and Company Law",
+            "scope": "heading",
+            "content": [
+              {
+                "type": "department",
+                "num": "C",
+                "heading": "Department of Revenue"
+              }
+            ],
+            "flags": [
+              "read_hindi_missing"
+            ],
+            "words": [
+              "r1.w269",
+              "r1.w279"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  399,
+                  265,
+                  1736,
+                  310
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 5,
+            "source_ref": "B(c)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r28.rel5",
+            "target": [
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "Ministry of Finance"
+                  },
+                  {
+                    "type": "department",
+                    "heading": "Department of Revenue"
+                  },
+                  {
+                    "type": "entry",
+                    "num": "12"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r1.w303",
+                  "r1.w304"
+                ],
+                "boxes": [
+                  {
+                    "page": 2,
+                    "bbox": [
+                      1554,
+                      459,
+                      1739,
+                      492
+                    ]
+                  }
+                ]
+              },
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "Ministry of Finance"
+                  },
+                  {
+                    "type": "department",
+                    "heading": "Department of Revenue"
+                  },
+                  {
+                    "type": "entry",
+                    "num": "12A"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r1.w305",
+                  "r1.w305"
+                ],
+                "boxes": [
+                  {
+                    "page": 2,
+                    "bbox": [
+                      514,
+                      500,
+                      584,
+                      535
+                    ]
+                  }
+                ]
+              },
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "Ministry of Finance"
+                  },
+                  {
+                    "type": "department",
+                    "heading": "Department of Revenue"
+                  },
+                  {
+                    "type": "entry",
+                    "num": "12B"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r1.w306",
+                  "r1.w306"
+                ],
+                "boxes": [
+                  {
+                    "page": 2,
+                    "bbox": [
+                      605,
+                      500,
+                      674,
+                      534
+                    ]
+                  }
+                ]
+              },
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "Ministry of Finance"
+                  },
+                  {
+                    "type": "department",
+                    "heading": "Department of Revenue"
+                  },
+                  {
+                    "type": "entry",
+                    "num": "13"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r1.w307",
+                  "r1.w307"
+                ],
+                "boxes": [
+                  {
+                    "page": 2,
+                    "bbox": [
+                      696,
+                      499,
+                      737,
+                      534
+                    ]
+                  }
+                ]
+              },
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "Ministry of Finance"
+                  },
+                  {
+                    "type": "department",
+                    "heading": "Department of Revenue"
+                  },
+                  {
+                    "type": "entry",
+                    "num": "14"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r1.w308",
+                  "r1.w308"
+                ],
+                "boxes": [
+                  {
+                    "page": 2,
+                    "bbox": [
+                      760,
+                      499,
+                      800,
+                      533
+                    ]
+                  }
+                ]
+              },
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "Ministry of Finance"
+                  },
+                  {
+                    "type": "department",
+                    "heading": "Department of Revenue"
+                  },
+                  {
+                    "type": "entry",
+                    "num": "15"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r1.w309",
+                  "r1.w309"
+                ],
+                "boxes": [
+                  {
+                    "page": 2,
+                    "bbox": [
+                      824,
+                      499,
+                      864,
+                      533
+                    ]
+                  }
+                ]
+              },
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "Ministry of Finance"
+                  },
+                  {
+                    "type": "department",
+                    "heading": "Department of Revenue"
+                  },
+                  {
+                    "type": "entry",
+                    "num": "16"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r1.w310",
+                  "r1.w310"
+                ],
+                "boxes": [
+                  {
+                    "page": 2,
+                    "bbox": [
+                      885,
+                      498,
+                      918,
+                      533
+                    ]
+                  }
+                ]
+              },
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "Ministry of Finance"
+                  },
+                  {
+                    "type": "department",
+                    "heading": "Department of Revenue"
+                  },
+                  {
+                    "type": "entry",
+                    "num": "17"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r1.w312",
+                  "r1.w312"
+                ],
+                "boxes": [
+                  {
+                    "page": 2,
+                    "bbox": [
+                      1019,
+                      498,
+                      1053,
+                      532
+                    ]
+                  }
+                ]
+              }
+            ],
+            "ref_seq": 4,
+            "flags": [],
+            "words": [
+              "r1.w294",
+              "r1.w304"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  403,
+                  459,
+                  1739,
+                  501
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 6,
+            "source_ref": "B(c)",
+            "op": "renumber",
+            "akn_type": "renumbering",
+            "relation": "r28.rel6",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Finance"
+                },
+                {
+                  "type": "department",
+                  "heading": "Department of Revenue"
+                },
+                {
+                  "type": "entry",
+                  "num": "18"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w317",
+                "r1.w321"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    512,
+                    494,
+                    1742,
+                    566
+                  ]
+                }
+              ]
+            },
+            "new_num": "12",
+            "ref_seq": 4,
+            "flags": [],
+            "words": [
+              "r1.w294",
+              "r1.w304"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  403,
+                  459,
+                  1739,
+                  501
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 7,
+            "source_ref": "B(d)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r28.rel7",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Finance"
+                },
+                {
+                  "type": "department",
+                  "heading": "Department of Co-ordination"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w334",
+                "r1.w340"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    513,
+                    587,
+                    1738,
+                    661
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "E, DEPARTMENT OF COmpany affairs and INSURANCE"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Administration of the Companies Act."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "Administration of Securities Contracts (Regulation) Act, 1958."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "Regulation of Stock Exchanges."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "Profession of Accountancy (Chartered Accountants Act). Profession of Costs and Works Accountancy and Company Secretaryship."
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "Collection of Statistics relating to Companies."
+              },
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "Legislation of the Indian Partnership Act and the exercise of certain functions_under Chapter VII of the Act in centrally administered areas. (The administration of the Act vests in the State Governments)."
+              },
+              {
+                "type": "entry",
+                "num": "7",
+                "text": "Commission of Inquiry."
+              },
+              {
+                "type": "entry",
+                "num": "8",
+                "text": "Policy relating to General Insurance; Administration of the Insurance Act, 1988; Insurance Companies Association Pool; Subsidiaries of the Life Insurance Corporation."
+              },
+              {
+                "type": "entry",
+                "num": "9",
+                "text": "Policy relating to Life Insurance; Nationalisation of the Life Insurance business; Administration of the Life Insurance Corporation Act, 1956 Life Insurance Tribunal."
+              },
+              {
+                "type": "entry",
+                "num": "10",
+                "text": "Office of the Controller of Insurance."
+              },
+              {
+                "type": "entry",
+                "num": "11",
+                "text": "The responsibility of the Centre relating to matters concerning centrally administered areas in respect of any of the items above."
+              }
+            ],
+            "flags": [
+              "read_hindi_missing"
+            ],
+            "words": [
+              "r1.w329",
+              "r1.w339"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  405,
+                  587,
+                  1738,
+                  627
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

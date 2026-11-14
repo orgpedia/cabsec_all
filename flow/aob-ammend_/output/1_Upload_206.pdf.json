@@ -1,0 +1,591 @@
+{
+  "file": {
+    "name": "1_Upload_206.pdf",
+    "file_id": "f_ff0f7b292a59c0ba",
+    "pages": 4,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_206.pdf",
+    "sha256": "ff0f7b292a59c0ba88d741474ddd5d8d773e1004d0437dcb6d68613099102fd9",
+    "govdoc": "1_Upload_206.pdf.govdoc.json.zst",
+    "revision": 46
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_284E_1985",
+      "doc_type": "aob_amendment",
+      "parent": "GAZETTE_ISSUE_ff0f7b292a59c0ba",
+      "fields": {
+        "number": {
+          "value": "S.O. 284 (E)"
+        },
+        "in_force": {
+          "value": "1985-03-30"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "1985-03-30",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T13:50:11.397624+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(a)(i)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r10.rel1",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Commerce and Supply"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w806",
+                "r1.w822"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1423,
+                    1697,
+                    2236,
+                    1821
+                  ]
+                }
+              ]
+            },
+            "expect": "3. Ministry of Commerce and Supply (Vanijya aur Poorti Mantra- laya)",
+            "content": [
+              {
+                "type": "ministry",
+                "num": "3",
+                "heading": "Ministry of Commerce",
+                "heading_hi": "Vanijya Mantralaya"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w804",
+              "r1.w811"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  1332,
+                  1697,
+                  2232,
+                  1739
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(a)(ii)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r10.rel2",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Steel, Mines and Coal"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w838",
+                "r1.w858"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1422,
+                    2045,
+                    2246,
+                    2215
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "department",
+                "num": "23",
+                "heading": "A. Ministry of Supply and Textiles",
+                "heading_hi": "Poorti aur Vastra Mantralaya"
+              },
+              {
+                "type": "department",
+                "num": "i",
+                "heading": "Department of Supply",
+                "heading_hi": "Poorti Vibhag"
+              },
+              {
+                "type": "department",
+                "num": "ii",
+                "heading": "Department of Textiles",
+                "heading_hi": "Vastra Vibhag"
+              }
+            ],
+            "flags": [
+              "new_extra"
+            ],
+            "words": [
+              "r1.w836",
+              "r1.w843"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  1337,
+                  2044,
+                  2235,
+                  2092
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 3,
+            "source_ref": "2(b)(1)(i)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r10.rel3",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Com- merce and Supply"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w920",
+                "r1.w922"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1472,
+                    2776,
+                    1858,
+                    2818
+                  ]
+                }
+              ]
+            },
+            "scope": "heading",
+            "content": [
+              {
+                "type": "ministry",
+                "heading": "MINISTRY OF COMMERCE",
+                "heading_hi": "Vanijya Mantralaya"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w918",
+              "r1.w925"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  1341,
+                  2776,
+                  2243,
+                  2820
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 4,
+            "source_ref": "2(b)(1)(ii)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r10.rel4",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Com- merce and Supply"
+                },
+                {
+                  "type": "department",
+                  "heading": "Department of Coom- merce"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w938",
+                "r1.w948"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1415,
+                    3002,
+                    2240,
+                    3087
+                  ]
+                }
+              ]
+            },
+            "expect": "A Department of Coom- merce (Vanijya Vibhag ",
+            "scope": "heading",
+            "flags": [],
+            "words": [
+              "r1.w937",
+              "r1.w943"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  1338,
+                  3002,
+                  2240,
+                  3047
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 5,
+            "source_ref": "2(b)(1)(iii)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r10.rel5",
+            "target": [
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "Ministry of Com- merce and Supply"
+                  },
+                  {
+                    "type": "department",
+                    "heading": "Department of Supply"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r1.w955",
+                  "r1.w960"
+                ],
+                "boxes": [
+                  {
+                    "page": 2,
+                    "bbox": [
+                      1439,
+                      3104,
+                      2231,
+                      3186
+                    ]
+                  }
+                ]
+              },
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "Ministry of Com- merce and Supply"
+                  },
+                  {
+                    "type": "department",
+                    "heading": "Department of Textiles"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r1.w962",
+                  "r1.w964"
+                ],
+                "boxes": [
+                  {
+                    "page": 2,
+                    "bbox": [
+                      1879,
+                      3148,
+                      2259,
+                      3191
+                    ]
+                  }
+                ]
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w952",
+              "r1.w958"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  1332,
+                  3100,
+                  2231,
+                  3147
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 6,
+            "source_ref": "2(b)(2)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r10.rel6",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Steel, Mines and Coal"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w990",
+                "r1.w1006"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    114,
+                    410,
+                    1108,
+                    539
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "ministry",
+                "heading": "MINISTRY OF SUPPLY AND TEXTILES",
+                "heading_hi": "Poorti Aur Vastra Mantralaya"
+              },
+              {
+                "type": "department",
+                "num": "A",
+                "heading": "DEPARTMENT OF SUPPLY",
+                "heading_hi": "Poorti Vibhag"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Purchase, inspection and shipment of stores for the Central Government other than items the pur- . chase, inspecion and shipment of which are delegated to other authoritics by a general or special order."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "Disposal of surplus stores."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "Residual work of supply and disposal relating to the late war organisations including the Directorate General. Aircraft, including Civil Maintenance Unit and Directorate General, Ship Repairs"
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "Administration of-"
+              },
+              {
+                "type": "item",
+                "num": "a",
+                "text": "Directorate General of Supplies and Disposals"
+              },
+              {
+                "type": "item",
+                "num": "b",
+                "text": "Office of the Chief Pay and Accounts Officcr, New Delhi:"
+              },
+              {
+                "type": "item",
+                "num": "c",
+                "text": "National Test House, Alipore, Calcutta."
+              },
+              {
+                "type": "department",
+                "num": "B",
+                "heading": "DEPARTMENT OF TEXTILES",
+                "heading_hi": "Vastra Vibhag"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Production, distribution (for domestic consumption and exports) and development of jute, jute products, handicrafts and all textiles and woollens including handlooms, powerlooms, ready made garments and industrics relating to the production of silk and cellulosic fibres but excluding non-cellulosic synthetic fibres (nylon, polyester, acrylic, etc)."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "Textiles Commissioner."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "Jute Commissioner."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "Jute Corporation of India Limited."
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "Cotton Corporation of India Limited."
+              },
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "All India Handicrafts Board."
+              },
+              {
+                "type": "entry",
+                "num": "7",
+                "text": "All India Handlooms Board. ."
+              },
+              {
+                "type": "entry",
+                "num": "8",
+                "text": "The National Textile Corporation Limited."
+              },
+              {
+                "type": "entry",
+                "num": "9",
+                "text": "Sericulture."
+              },
+              {
+                "type": "entry",
+                "num": "10",
+                "text": "Central Silk Board."
+              },
+              {
+                "type": "entry",
+                "num": "11",
+                "text": "Handloom Development Commissioner. 12, Abmedabad Textlie Industries. Research Association, Ahmedabad."
+              },
+              {
+                "type": "entry",
+                "num": "13",
+                "text": "Bombay Textile Research Association, Bombay."
+              },
+              {
+                "type": "entry",
+                "num": "14",
+                "text": "The Silk and Art Silk Mills' Rescarch Association, Bombay."
+              },
+              {
+                "type": "entry",
+                "num": "15",
+                "text": "The South India Textile Research Association Coimbatore."
+              },
+              {
+                "type": "entry",
+                "num": "16",
+                "text": "Wool Research Association, Bombay."
+              },
+              {
+                "type": "entry",
+                "num": "17",
+                "text": "Indian Jute Industries Research Association Calcutta."
+              },
+              {
+                "type": "entry",
+                "num": "18",
+                "text": "Northern India Textile Research Association New Delhi."
+              },
+              {
+                "type": "entry",
+                "num": "19",
+                "text": "Development and expansion of export production in relation to textiles, woollens, handlooms ready-made garments, silk and cellulosic fibres, jute and jute products and handicrafts."
+              },
+              {
+                "type": "entry",
+                "num": "20",
+                "text": "Handicrafts and Handlooms Export Corporation and its subsidiary."
+              },
+              {
+                "type": "entry",
+                "num": "21",
+                "text": "Textile Committees."
+              },
+              {
+                "type": "entry",
+                "num": "22",
+                "text": "Commissioner of Payments."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w988",
+              "r1.w995"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  159,
+                  410,
+                  1105,
+                  455
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

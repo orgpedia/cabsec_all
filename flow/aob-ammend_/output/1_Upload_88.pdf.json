@@ -1,0 +1,425 @@
+{
+  "file": {
+    "name": "1_Upload_88.pdf",
+    "file_id": "f_a62aabe956eecc19",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_88.pdf",
+    "sha256": "a62aabe956eecc194645c57f3cbc072c496f3365155c2ddda5f424f1eedf8baf",
+    "govdoc": "1_Upload_88.pdf.govdoc.json.zst",
+    "revision": 49
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_3261_1966",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_345_1966",
+      "fields": {
+        "number": {
+          "value": "S.O. 3261"
+        },
+        "in_force": {
+          "value": null
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": null,
+          "basis": null
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T13:49:37.666508+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "(1)(a)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r12.rel1",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Education"
+                },
+                {
+                  "type": "entry",
+                  "num": "14"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w178",
+                "r1.w179"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    469,
+                    2053,
+                    626,
+                    2088
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "14",
+                "text": "Youth Welfare activities (excluding youth hostels), youth festivals work camp, etc."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w176",
+              "r1.w186"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  323,
+                  2053,
+                  1559,
+                  2088
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "(1)(b)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r12.rel2",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Education"
+                },
+                {
+                  "type": "entry",
+                  "num": "15"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w202",
+                "r1.w203"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    503,
+                    2201,
+                    663,
+                    2236
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "16",
+                "text": "Books (other than the books with which the Ministry of Information & Broadcasting is concerned) and Book Development (excluding stationery, paper and newsprint industrics with which the Ministry of Industry is concerned)."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w200",
+              "r1.w210"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  324,
+                  2201,
+                  1549,
+                  2236
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 3,
+            "source_ref": "(2)(a)(1)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r12.rel3",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Food, Agriculture, Community Development and Cooperation"
+                },
+                {
+                  "type": "department",
+                  "heading": "Department of Agriculture"
+                },
+                {
+                  "type": "entry",
+                  "num": "13"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w277",
+                "r1.w278"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    479,
+                    229,
+                    634,
+                    261
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "13",
+                "text": "Cesses for financing the Indian Council of Agricultural Research and the Commodity Research and Development programmes other than those relating to tea, coffee and rubber."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w275",
+              "r1.w286"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  340,
+                  229,
+                  1595,
+                  261
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 4,
+            "source_ref": "(2)(a)(ii)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r12.rel4",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Food, Agriculture, Community Development and Cooperation"
+                },
+                {
+                  "type": "department",
+                  "heading": "Department of Agriculture"
+                },
+                {
+                  "type": "entry",
+                  "num": "17"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w314",
+                "r1.w315"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    420,
+                    403,
+                    569,
+                    435
+                  ]
+                }
+              ]
+            },
+            "flags": [],
+            "words": [
+              "r1.w313",
+              "r1.w318"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  340,
+                  403,
+                  912,
+                  435
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 5,
+            "source_ref": "(2)(b)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r12.rel5",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Food, Agriculture, Community Development and Cooperation"
+                },
+                {
+                  "type": "department",
+                  "heading": "Department of Food"
+                },
+                {
+                  "type": "entry",
+                  "num": "10"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w327",
+                "r1.w328"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1436,
+                    462,
+                    1600,
+                    492
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "10A",
+                "text": "Indian People's Famine Trust."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w319",
+              "r1.w329"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  305,
+                  460,
+                  1681,
+                  494
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 6,
+            "source_ref": "(3)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r12.rel6",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Transport and Aviation"
+                },
+                {
+                  "type": "department",
+                  "heading": "Department of Aviation and Tourism"
+                },
+                {
+                  "type": "entry",
+                  "num": "7"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w361",
+                "r1.w362"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1275,
+                    640,
+                    1417,
+                    676
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "7A",
+                "text": "Youth Hostels."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w342",
+              "r1.w352"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  250,
+                  611,
+                  1681,
+                  645
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

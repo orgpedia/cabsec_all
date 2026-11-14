@@ -1,0 +1,5651 @@
+{
+  "file": {
+    "name": "1_Upload_202.pdf",
+    "file_id": "f_9b914e52fcba3fb1",
+    "pages": 24,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_202.pdf",
+    "sha256": "9b914e52fcba3fb146cad564366aafc531778d72ec4474371dd15bc87cfa33ed",
+    "govdoc": "1_Upload_202.pdf.govdoc.json.zst",
+    "revision": 64
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_7E_1985",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_6_1985",
+      "fields": {
+        "number": {
+          "value": "S.O. 7(E)"
+        },
+        "in_force": {
+          "value": "1984-12-31"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "1984-12-31",
+          "basis": "retrospective"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T19:01:21.036336+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(a)(1)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r39.rel1",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Agriculture"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w7303",
+                "r1.w7346"
+              ],
+              "boxes": [
+                {
+                  "page": 12,
+                  "bbox": [
+                    247,
+                    277,
+                    2261,
+                    3166
+                  ]
+                }
+              ]
+            },
+            "expect": "1. Ministry of Agriculture (Krishi Mantralaya)",
+            "content": [
+              {
+                "type": "ministry",
+                "num": "1",
+                "heading": "Ministry of Agriculture and Rural Development",
+                "heading_hi": "Krishi aur Gramin Vikas Mantralaya"
+              },
+              {
+                "type": "department",
+                "num": "i",
+                "heading": "Department of Agriculture and Cooperation",
+                "heading_hi": "Krishi aur Sahkarita Vibhag"
+              },
+              {
+                "type": "department",
+                "num": "ii",
+                "heading": "Department of Agricultural Research and Education",
+                "heading_hi": "Krishi Anusandhan aur Siksha Vibhag"
+              },
+              {
+                "type": "department",
+                "num": "iii",
+                "heading": "Department of Rural Development",
+                "heading_hi": "Gramin Vikas Vibhag"
+              }
+            ],
+            "flags": [
+              "new_extra"
+            ],
+            "words": [
+              "r1.w7303",
+              "r1.w7310"
+            ],
+            "boxes": [
+              {
+                "page": 12,
+                "bbox": [
+                  247,
+                  3080,
+                  1150,
+                  3124
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(a)(2)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r39.rel2",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Commerce"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w7382",
+                "r1.w7394"
+              ],
+              "boxes": [
+                {
+                  "page": 12,
+                  "bbox": [
+                    1265,
+                    921,
+                    2263,
+                    1044
+                  ]
+                }
+              ]
+            },
+            "expect": "3. Ministry of Commerce (Vanijya Mantralaya)",
+            "content": [
+              {
+                "type": "ministry",
+                "num": "3",
+                "heading": "Ministry of Commerce and Supply",
+                "heading_hi": "Vanijya aur Poorti Mantralaya"
+              },
+              {
+                "type": "department",
+                "num": "i",
+                "heading": "Department of Commerce",
+                "heading_hi": "Vanijya Vibhag"
+              },
+              {
+                "type": "department",
+                "num": "ii",
+                "heading": "Department of Supply",
+                "heading_hi": "Poorti Vibhag"
+              },
+              {
+                "type": "department",
+                "num": "iii",
+                "heading": "Department of Textiles",
+                "heading_hi": "Vastra Vibhag"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w7380",
+              "r1.w7387"
+            ],
+            "boxes": [
+              {
+                "page": 12,
+                "bbox": [
+                  1315,
+                  920,
+                  2263,
+                  965
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 3,
+            "source_ref": "2(a)(3)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r39.rel3",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Communications"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w7436",
+                "r1.w7444"
+              ],
+              "boxes": [
+                {
+                  "page": 12,
+                  "bbox": [
+                    1261,
+                    1494,
+                    2260,
+                    1580
+                  ]
+                }
+              ]
+            },
+            "expect": "4. Ministry of Communications (Sanchar Mantralaya)",
+            "content": [
+              {
+                "type": "ministry",
+                "num": "4",
+                "heading": "Ministry of Communications",
+                "heading_hi": "Sanchar Mantralaya"
+              },
+              {
+                "type": "department",
+                "num": "i",
+                "heading": "Department of Posts",
+                "heading_hi": "Dak Vibhag"
+              },
+              {
+                "type": "department",
+                "num": "ii",
+                "heading": "Department of Telecommnications",
+                "heading_hi": "Door Sanchar Vibhag"
+              }
+            ],
+            "flags": [
+              "new_extra",
+              "new_missing"
+            ],
+            "words": [
+              "r1.w7434",
+              "r1.w7441"
+            ],
+            "boxes": [
+              {
+                "page": 12,
+                "bbox": [
+                  1309,
+                  1493,
+                  2260,
+                  1537
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 4,
+            "source_ref": "2(a)(4)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r39.rel4",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Defence"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w7478",
+                "r1.w7519"
+              ],
+              "boxes": [
+                {
+                  "page": 12,
+                  "bbox": [
+                    1256,
+                    1940,
+                    2260,
+                    2235
+                  ]
+                }
+              ]
+            },
+            "expect": "5. Ministry of Defence (Raksha Mantralaya). with a Department of Defence Production (Raksha Utpadan Vibhag), a Department of Defence Supplies (Raksha Poorti Vibhag) and a Department of Defence Research and Development (Raksha Anusandhan tatha Vikas Vibhag) within the Ministry (Mantralaya)]",
+            "content": [
+              {
+                "type": "ministry",
+                "num": "5",
+                "heading": "Ministry of Defence",
+                "heading_hi": "Raksha Mantralaya"
+              },
+              {
+                "type": "department",
+                "num": "i",
+                "heading": "Department of Defence",
+                "heading_hi": "Raksha Vibhag"
+              },
+              {
+                "type": "department",
+                "num": "ii",
+                "heading": "Department of Defence Production and Supplies",
+                "heading_hi": "Raksha Utpadan aur Poorti Vibhag"
+              },
+              {
+                "type": "department",
+                "num": "iii",
+                "heading": "Department of Defence Research and Development",
+                "heading_hi": "Raksha Anusandhan tatha Vikas Vibhag"
+              }
+            ],
+            "flags": [
+              "new_hindi_differs"
+            ],
+            "words": [
+              "r1.w7476",
+              "r1.w7484"
+            ],
+            "boxes": [
+              {
+                "page": 12,
+                "bbox": [
+                  1309,
+                  1939,
+                  2258,
+                  1986
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 5,
+            "source_ref": "2(a)(5)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r39.rel5",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Education and Culture"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w7567",
+                "r1.w7582"
+              ],
+              "boxes": [
+                {
+                  "page": 12,
+                  "bbox": [
+                    1257,
+                    2770,
+                    2257,
+                    2895
+                  ]
+                }
+              ]
+            },
+            "expect": "6. Ministry of Education and Culture (Shiksha aur Sanskriti Mantralaya)",
+            "content": [
+              {
+                "type": "ministry",
+                "num": "6",
+                "heading": "Ministry of Education (Shiksha Mantrala-"
+              },
+              {
+                "type": "item",
+                "num": "ya",
+                "text": "."
+              }
+            ],
+            "flags": [
+              "new_extra"
+            ],
+            "words": [
+              "r1.w7565",
+              "r1.w7573"
+            ],
+            "boxes": [
+              {
+                "page": 12,
+                "bbox": [
+                  1305,
+                  2769,
+                  2255,
+                  2818
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 6,
+            "source_ref": "2(a)(6)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r39.rel6",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Energy"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w7599",
+                "r1.w7610"
+              ],
+              "boxes": [
+                {
+                  "page": 12,
+                  "bbox": [
+                    1259,
+                    3085,
+                    2254,
+                    3176
+                  ]
+                }
+              ]
+            },
+            "expect": "7. Ministry of Energy (Oorja Mantralaya)",
+            "content": [
+              {
+                "type": "ministry",
+                "num": "7",
+                "heading": "Ministry of Environment and Forests",
+                "heading_hi": "Paryavaran aur Van Mantralaya"
+              },
+              {
+                "type": "department",
+                "num": "i",
+                "heading": "Department of Environment",
+                "heading_hi": "Paryavaran Vibhag"
+              },
+              {
+                "type": "department",
+                "num": "ii",
+                "heading": "Department of Forests and Wild Life",
+                "heading_hi": "Vanya aur Van Jeev Vibhag"
+              }
+            ],
+            "flags": [
+              "new_extra",
+              "new_missing"
+            ],
+            "words": [
+              "r1.w7597",
+              "r1.w7605"
+            ],
+            "boxes": [
+              {
+                "page": 12,
+                "bbox": [
+                  1306,
+                  3083,
+                  2254,
+                  3140
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 7,
+            "source_ref": "2(a)(7)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r39.rel7",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Home Affairs"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w7664",
+                "r1.w7697"
+              ],
+              "boxes": [
+                {
+                  "page": 13,
+                  "bbox": [
+                    105,
+                    724,
+                    1108,
+                    977
+                  ]
+                }
+              ]
+            },
+            "expect": "12. Ministry of Home Affairs (Grih Mantralaya) [with a Department of Official Language (Rajbhasha Vibhag) and a Department of Personnel and Administrative Reforms Karmik aur Prashasanik Sudhar Vibhag) within the Ministry (Mantralaya)]",
+            "content": [
+              {
+                "type": "ministry",
+                "num": "12",
+                "heading": "Ministry of Home Affairs",
+                "heading_hi": "Grih Mantralaya"
+              },
+              {
+                "type": "department",
+                "num": "i",
+                "heading": "Department of Home Affairs",
+                "heading_hi": "Grih Vibhag"
+              },
+              {
+                "type": "department",
+                "num": "ii",
+                "heading": "Department of Official Language",
+                "heading_hi": "Rajbhasha Vibhag"
+              }
+            ],
+            "flags": [
+              "new_extra",
+              "new_hindi_differs",
+              "new_missing",
+              "new_text_differs"
+            ],
+            "words": [
+              "r1.w7662",
+              "r1.w7670"
+            ],
+            "boxes": [
+              {
+                "page": 13,
+                "bbox": [
+                  152,
+                  724,
+                  1105,
+                  762
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 8,
+            "source_ref": "2(a)(8)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r39.rel8",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Irrigation"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w7735",
+                "r1.w7742"
+              ],
+              "boxes": [
+                {
+                  "page": 13,
+                  "bbox": [
+                    109,
+                    1419,
+                    1109,
+                    1502
+                  ]
+                }
+              ]
+            },
+            "expect": "15. Ministry of Irrigation (Sinchai Mantralaya)",
+            "content": [
+              {
+                "type": "ministry",
+                "num": "15",
+                "heading": "Ministry of Irrigation and Power",
+                "heading_hi": "Sinchai aur Vidyut Mantralaya"
+              },
+              {
+                "type": "department",
+                "num": "i",
+                "heading": "Department of Irrigation (Sinchai Vib- . hag)."
+              },
+              {
+                "type": "department",
+                "num": "ii",
+                "heading": "Department of Power",
+                "heading_hi": "Vidyut Vibhag"
+              }
+            ],
+            "flags": [
+              "new_extra"
+            ],
+            "words": [
+              "r1.w7733",
+              "r1.w7740"
+            ],
+            "boxes": [
+              {
+                "page": 13,
+                "bbox": [
+                  153,
+                  1419,
+                  1109,
+                  1463
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 9,
+            "source_ref": "2(a)(9)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r39.rel9",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Labour and Rehabilitation"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w7777",
+                "r1.w7793"
+              ],
+              "boxes": [
+                {
+                  "page": 13,
+                  "bbox": [
+                    103,
+                    1907,
+                    1110,
+                    2037
+                  ]
+                }
+              ]
+            },
+            "expect": "16. Ministry of Labour and Rehabilitation (Shram aur Punarwas - Mantralaya)",
+            "content": [
+              {
+                "type": "ministry",
+                "num": "16",
+                "heading": "Ministry of Labour",
+                "heading_hi": "Shram Mantralaya"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w7775",
+              "r1.w7783"
+            ],
+            "boxes": [
+              {
+                "page": 13,
+                "bbox": [
+                  153,
+                  1907,
+                  1108,
+                  1951
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 10,
+            "source_ref": "2(a)(10)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r39.rel10",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Law and Justice"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w7811",
+                "r1.w7827"
+              ],
+              "boxes": [
+                {
+                  "page": 13,
+                  "bbox": [
+                    102,
+                    2222,
+                    1111,
+                    2348
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "ministry",
+                "num": "17A",
+                "heading": "Ministry of Parliamentary Affairs",
+                "heading_hi": "Sansadiya Karya Mantralaya"
+              },
+              {
+                "type": "ministry",
+                "num": "17B",
+                "heading": "Ministry of Petroleum",
+                "heading_hi": "Petroleum Mantralaya"
+              }
+            ],
+            "flags": [
+              "new_extra"
+            ],
+            "words": [
+              "r1.w7809",
+              "r1.w7817"
+            ],
+            "boxes": [
+              {
+                "page": 13,
+                "bbox": [
+                  154,
+                  2221,
+                  1111,
+                  2266
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 11,
+            "source_ref": "2(a)(11)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r39.rel11",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Planning"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w7853",
+                "r1.w7867"
+              ],
+              "boxes": [
+                {
+                  "page": 13,
+                  "bbox": [
+                    107,
+                    2670,
+                    1111,
+                    2794
+                  ]
+                }
+              ]
+            },
+            "expect": "18. Ministry of Planning (Yojana Mantralaya) with a Department of Statistics (Sankhyiki Vibhag)",
+            "content": [
+              {
+                "type": "ministry",
+                "num": "18",
+                "heading": "Ministry of Planning",
+                "heading_hi": "Yojana Mantralaya"
+              },
+              {
+                "type": "department",
+                "num": "i",
+                "heading": "Department of Planning 1",
+                "heading_hi": "Yojana Vibhag"
+              },
+              {
+                "type": "department",
+                "num": "ii",
+                "heading": "Department of Statistics",
+                "heading_hi": "Sankhyiki Vibhag"
+              }
+            ],
+            "flags": [
+              "new_text_differs"
+            ],
+            "words": [
+              "r1.w7851",
+              "r1.w7858"
+            ],
+            "boxes": [
+              {
+                "page": 13,
+                "bbox": [
+                  152,
+                  2668,
+                  1111,
+                  2718
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 12,
+            "source_ref": "2(a)(12)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r39.rel12",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Rural Development"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w7902",
+                "r1.w7912"
+              ],
+              "boxes": [
+                {
+                  "page": 13,
+                  "bbox": [
+                    1216,
+                    237,
+                    2211,
+                    328
+                  ]
+                }
+              ]
+            },
+            "expect": "20. Ministry of Rural Development (Gramin Vikas Mantralaya)",
+            "content": [
+              {
+                "type": "ministry",
+                "num": "20",
+                "heading": "Ministry of Science and Technology",
+                "heading_hi": "Vigyan aur Prodyogiki Mantralaya"
+              },
+              {
+                "type": "department",
+                "num": "i",
+                "heading": "Department of Science and Technology",
+                "heading_hi": "Vigyan aur Prodyogiki Vibhag"
+              },
+              {
+                "type": "department",
+                "num": "ii",
+                "heading": "Department of Scientific and Industrial Research",
+                "heading_hi": "Vigyan aur Audyogik Anusandhan Vibhag"
+              },
+              {
+                "type": "department",
+                "num": "iii",
+                "heading": "Department of Non-conventional Energy Sources",
+                "heading_hi": "Aparamparik Oorja Srota Vibhag"
+              }
+            ],
+            "flags": [
+              "new_extra",
+              "new_hindi_differs"
+            ],
+            "words": [
+              "r1.w7900",
+              "r1.w7908"
+            ],
+            "boxes": [
+              {
+                "page": 13,
+                "bbox": [
+                  1263,
+                  237,
+                  2211,
+                  286
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 13,
+            "source_ref": "2(a)(13)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r39.rel13",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Social Welfare"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w7971",
+                "r1.w7981"
+              ],
+              "boxes": [
+                {
+                  "page": 13,
+                  "bbox": [
+                    1212,
+                    1013,
+                    2213,
+                    1096
+                  ]
+                }
+              ]
+            },
+            "expect": "22. Ministry of Social Welfare (Samaj Kalyan Mantralaya)",
+            "scope": "heading",
+            "content": [
+              {
+                "type": "ministry",
+                "num": "22",
+                "heading": "Ministry of Social and Women's Welfare",
+                "heading_hi": "Samaj aur Mahilayen Kalyan Mantralaya"
+              }
+            ],
+            "flags": [
+              "new_extra"
+            ],
+            "words": [
+              "r1.w7969",
+              "r1.w7977"
+            ],
+            "boxes": [
+              {
+                "page": 13,
+                "bbox": [
+                  1263,
+                  1013,
+                  2213,
+                  1052
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 14,
+            "source_ref": "2(a)(14)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r39.rel14",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Steel and Mines"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w8005",
+                "r1.w8021"
+              ],
+              "boxes": [
+                {
+                  "page": 13,
+                  "bbox": [
+                    1214,
+                    1308,
+                    2214,
+                    1433
+                  ]
+                }
+              ]
+            },
+            "expect": "23. Ministry of Steel and Mines (Ispat aur Khan Mantralaya)",
+            "content": [
+              {
+                "type": "ministry",
+                "num": "23",
+                "heading": "Ministry of Steel, Mines and Coal",
+                "heading_hi": "Ispat Khan aur Koyala Mantralaya"
+              },
+              {
+                "type": "department",
+                "num": "i",
+                "heading": "Department of Steel",
+                "heading_hi": "Ispat Vibhag"
+              },
+              {
+                "type": "department",
+                "num": "ii",
+                "heading": "Department of Mines",
+                "heading_hi": "Khan Vibhag"
+              },
+              {
+                "type": "department",
+                "num": "iii",
+                "heading": "Department of Coal",
+                "heading_hi": "Koyala Vibhag"
+              }
+            ],
+            "flags": [
+              "new_extra"
+            ],
+            "words": [
+              "r1.w8003",
+              "r1.w8011"
+            ],
+            "boxes": [
+              {
+                "page": 13,
+                "bbox": [
+                  1263,
+                  1308,
+                  2214,
+                  1352
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 15,
+            "source_ref": "2(a)(15)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r39.rel15",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Department of Atomic Energy"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w8065",
+                "r1.w8074"
+              ],
+              "boxes": [
+                {
+                  "page": 13,
+                  "bbox": [
+                    1218,
+                    1850,
+                    2218,
+                    1934
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "department",
+                "num": "26A",
+                "heading": "Department of Culture",
+                "heading_hi": "Sanskriti Vibhag"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w8063",
+              "r1.w8070"
+            ],
+            "boxes": [
+              {
+                "page": 13,
+                "bbox": [
+                  1267,
+                  1849,
+                  2218,
+                  1891
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 16,
+            "source_ref": "2(a)(16)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r39.rel16",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Department of Environment"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w8091",
+                "r1.w8099"
+              ],
+              "boxes": [
+                {
+                  "page": 13,
+                  "bbox": [
+                    1222,
+                    2149,
+                    2218,
+                    2230
+                  ]
+                }
+              ]
+            },
+            "expect": "28. Department of Environment (Paryavaran Vibhag)",
+            "flags": [],
+            "words": [
+              "r1.w8090",
+              "r1.w8096"
+            ],
+            "boxes": [
+              {
+                "page": 13,
+                "bbox": [
+                  1268,
+                  2148,
+                  2218,
+                  2193
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 17,
+            "source_ref": "2(a)(17)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r39.rel17",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Department of Parliamentary. Affairs"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w8105",
+                "r1.w8115"
+              ],
+              "boxes": [
+                {
+                  "page": 13,
+                  "bbox": [
+                    1219,
+                    2268,
+                    2219,
+                    2354
+                  ]
+                }
+              ]
+            },
+            "expect": "30. Department of Parliamentary. Affairs (Sansadiya Karya Vibhag)",
+            "scope": "heading",
+            "content": [
+              {
+                "type": "department",
+                "num": "30",
+                "heading": "Department of Personnel and Administrative Reforms",
+                "heading_hi": "Karmik aur Prashasanik Sudhar Vibhag"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w8103",
+              "r1.w8110"
+            ],
+            "boxes": [
+              {
+                "page": 13,
+                "bbox": [
+                  1270,
+                  2267,
+                  2219,
+                  2313
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 18,
+            "source_ref": "2(a)(18)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r39.rel18",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Department of Science and Technology"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w8139",
+                "r1.w8150"
+              ],
+              "boxes": [
+                {
+                  "page": 13,
+                  "bbox": [
+                    1219,
+                    2589,
+                    2219,
+                    2678
+                  ]
+                }
+              ]
+            },
+            "expect": "31. Department of Science and Technology (Vigyan aur Praudyogiki Vibhag)",
+            "flags": [],
+            "words": [
+              "r1.w8138",
+              "r1.w8145"
+            ],
+            "boxes": [
+              {
+                "page": 13,
+                "bbox": [
+                  1270,
+                  2588,
+                  2219,
+                  2638
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 19,
+            "source_ref": "2(a)(19)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r39.rel19",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Department of Sports"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w8156",
+                "r1.w8163"
+              ],
+              "boxes": [
+                {
+                  "page": 13,
+                  "bbox": [
+                    1224,
+                    2773,
+                    2219,
+                    2855
+                  ]
+                }
+              ]
+            },
+            "expect": "33. Department of Sports (Khel Vibhag)",
+            "scope": "heading",
+            "content": [
+              {
+                "type": "department",
+                "num": "33",
+                "heading": "Department of Youth Affairs and Sports",
+                "heading_hi": "Yuvaka Karyakaram aur Khel Vibhag"
+              }
+            ],
+            "flags": [
+              "new_extra"
+            ],
+            "words": [
+              "r1.w8154",
+              "r1.w8161"
+            ],
+            "boxes": [
+              {
+                "page": 13,
+                "bbox": [
+                  1268,
+                  2771,
+                  2219,
+                  2822
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 20,
+            "source_ref": "2(a)(20)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r39.rel20",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Department of Supply"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w8185",
+                "r1.w8192"
+              ],
+              "boxes": [
+                {
+                  "page": 13,
+                  "bbox": [
+                    1225,
+                    3065,
+                    2217,
+                    3149
+                  ]
+                }
+              ]
+            },
+            "expect": "34. Department of Supply (Poorti Vibhag)",
+            "flags": [],
+            "words": [
+              "r1.w8184",
+              "r1.w8190"
+            ],
+            "boxes": [
+              {
+                "page": 13,
+                "bbox": [
+                  1268,
+                  3064,
+                  2217,
+                  3119
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 21,
+            "source_ref": "2(b)(1)(a)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r39.rel21",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Agriculture"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w8221",
+                "r1.w8223"
+              ],
+              "boxes": [
+                {
+                  "page": 14,
+                  "bbox": [
+                    446,
+                    405,
+                    824,
+                    447
+                  ]
+                }
+              ]
+            },
+            "expect": "Ministry of Agriculture (Krishi Mantralaya)",
+            "scope": "heading",
+            "content": [
+              {
+                "type": "text",
+                "text": "Ministry of Agriculture and Rural Development (Krishi aur Gramin Vikas Mantralaya)"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w8219",
+              "r1.w8226"
+            ],
+            "boxes": [
+              {
+                "page": 14,
+                "bbox": [
+                  292,
+                  405,
+                  1197,
+                  450
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 22,
+            "source_ref": "2(b)(1)(b)(i)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r39.rel22",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Agriculture"
+                },
+                {
+                  "type": "department",
+                  "heading": "Department of Agriculture and Cooperation"
+                },
+                {
+                  "type": "entry",
+                  "num": "8"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w8260",
+                "r1.w8261"
+              ],
+              "boxes": [
+                {
+                  "page": 14,
+                  "bbox": [
+                    423,
+                    831,
+                    553,
+                    869
+                  ]
+                }
+              ]
+            },
+            "flags": [],
+            "words": [
+              "r1.w8259",
+              "r1.w8264"
+            ],
+            "boxes": [
+              {
+                "page": 14,
+                "bbox": [
+                  349,
+                  831,
+                  874,
+                  869
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 23,
+            "source_ref": "2(b)(1)(b)(ii)",
+            "op": "substitute_text",
+            "akn_type": "substitution",
+            "relation": "r39.rel23",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Agriculture"
+                },
+                {
+                  "type": "department",
+                  "heading": "Department of Agriculture and Cooperation"
+                },
+                {
+                  "type": "entry",
+                  "num": "10"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w8268",
+                "r1.w8269"
+              ],
+              "boxes": [
+                {
+                  "page": 14,
+                  "bbox": [
+                    477,
+                    898,
+                    648,
+                    933
+                  ]
+                }
+              ]
+            },
+            "old": "Indian Forest Service",
+            "new": "",
+            "flags": [],
+            "words": [
+              "r1.w8266",
+              "r1.w8273"
+            ],
+            "boxes": [
+              {
+                "page": 14,
+                "bbox": [
+                  335,
+                  898,
+                  1194,
+                  933
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 24,
+            "source_ref": "2(b)(1)(b)(iii)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r39.rel24",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Agriculture"
+                },
+                {
+                  "type": "department",
+                  "heading": "Department of Agriculture and Cooperation"
+                },
+                {
+                  "type": "entry",
+                  "num": "27"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w8279",
+                "r1.w8280"
+              ],
+              "boxes": [
+                {
+                  "page": 14,
+                  "bbox": [
+                    420,
+                    1007,
+                    574,
+                    1046
+                  ]
+                }
+              ]
+            },
+            "flags": [],
+            "words": [
+              "r1.w8278",
+              "r1.w8283"
+            ],
+            "boxes": [
+              {
+                "page": 14,
+                "bbox": [
+                  322,
+                  1005,
+                  896,
+                  1047
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 25,
+            "source_ref": "2(b)(1)(c)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r39.rel25",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Agriculture"
+                },
+                {
+                  "type": "department",
+                  "heading": "Department of Agricultural Research and Education"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w8286",
+                "r1.w8304"
+              ],
+              "boxes": [
+                {
+                  "page": 14,
+                  "bbox": [
+                    185,
+                    1081,
+                    1189,
+                    1208
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "department",
+                "num": "C",
+                "heading": "DEPARTMENT OF RURAL DEVELOPMENT",
+                "heading_hi": "GRAMIN VIKAS VIBHAG"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "All matters relating to Panchayati Raj."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "Land reforms, land tenures, land records consolidation of holdings and other rclated matters."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "Administration of the Land Acquisition Act"
+              },
+              {
+                "type": "entry",
+                "num": "10",
+                "text": "Integrated rural development, including small farmers development agency, 'marginal farmers and agricultural labourers, drought prone area programes, etc."
+              },
+              {
+                "type": "entry",
+                "num": "11",
+                "text": "Desert Development Programmes."
+              },
+              {
+                "type": "entry",
+                "num": "12",
+                "text": "Public cooperation, including all matters relating to voluntary agencies for rural reconstruction."
+              },
+              {
+                "type": "entry",
+                "num": "13",
+                "text": "Warehousing in rural areas, including rural godowns."
+              },
+              {
+                "type": "entry",
+                "num": "14",
+                "text": "Town and country planning so far as it relates to rural areas."
+              },
+              {
+                "type": "entry",
+                "num": "15",
+                "text": "Setting up of agricultural markets in rural areas and the Agricultural Produce (Grading and Marking) Act, 1937."
+              },
+              {
+                "type": "entry",
+                "num": "16",
+                "text": "Cooperatives relatable to the items in this list."
+              },
+              {
+                "type": "entry",
+                "num": "17",
+                "text": "All attached or subordinate offices or other organisations concerned with any of the sub- + jects specified in this list. 1"
+              },
+              {
+                "type": "entry",
+                "num": "18",
+                "text": "All matters relating to rural roads including those under the Minimum Needs Programme in the rural areas."
+              },
+              {
+                "type": "entry",
+                "num": "19",
+                "text": "All matters relating to cooperation with the Centre for Integrated Rural Development for Asia and Pacific (CIRDAP) and the Afro- Asian Rural Reconstruction Organisation (AARRO)\": (2) in the entries under the heading \"Ministry of 1894, and other matters relating to acqui- Commerce Vanijya Mantralaya)\"; - sition of land for purpose of the Union."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "Recovery of claims in a State in respect of taxes and other public demands, including arrears of land revenue and sums recoverable as such arrears, arising outside that State."
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "Land, that is to say, collection of rents, transfer and alienation of land and improvement and agricultural loans, excluding acquisition of non-agricultural land or buildings town planning improvements."
+              },
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "Land revenue, including the assessment ami collection of revenue, survey for revenue purposes, alienation of revenues."
+              },
+              {
+                "type": "entry",
+                "num": "7",
+                "text": "Duties in respect of succession to agricultural land."
+              },
+              {
+                "type": "entry",
+                "num": "8",
+                "text": "Nodal responsibility for all matters relating to the Minimum Needs Programme in the rural areas in the field of elementary education, adult education, rural health, rural electrification, rural water supply (excluding centrally sponsored scheme of accelerated rural water supply), housing for landless rural labour and the nutrition programme."
+              },
+              {
+                "type": "entry",
+                "num": "9",
+                "text": "Programme for tackling - rural unemployment including 'food for work' programme training programmes, and rural works programmes."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w8284",
+              "r1.w8291"
+            ],
+            "boxes": [
+              {
+                "page": 14,
+                "bbox": [
+                  237,
+                  1081,
+                  1189,
+                  1123
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 26,
+            "source_ref": "2(b)(2)(a)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r39.rel26",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Commerce"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w8699",
+                "r1.w8701"
+              ],
+              "boxes": [
+                {
+                  "page": 14,
+                  "bbox": [
+                    1528,
+                    1799,
+                    1908,
+                    1840
+                  ]
+                }
+              ]
+            },
+            "expect": "Ministry of Commerce Vanijya Mantralaya)",
+            "scope": "heading",
+            "content": [
+              {
+                "type": "ministry",
+                "heading": "Ministry of Commerce and Supply",
+                "heading_hi": "Vanijya Aur Poorti Mantralaya"
+              }
+            ],
+            "flags": [
+              "read_quote_mismatch"
+            ],
+            "words": [
+              "r1.w8697",
+              "r1.w8704"
+            ],
+            "boxes": [
+              {
+                "page": 14,
+                "bbox": [
+                  1375,
+                  1799,
+                  2281,
+                  1840
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 27,
+            "source_ref": "2(b)(2)(b)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r39.rel27",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Commerce"
+                },
+                {
+                  "type": "department",
+                  "heading": "Department of - Commerce"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w8721",
+                "r1.w8733"
+              ],
+              "boxes": [
+                {
+                  "page": 14,
+                  "bbox": [
+                    1428,
+                    2009,
+                    2279,
+                    2134
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "department",
+                "num": "B",
+                "heading": "Department of Supply",
+                "heading_hi": "Poorti Vibhag"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Purchase, inspection and shipment of store's for the Central Government other than items the purchase, inspection and shipment of which are delegated to other authorities by a general or special order."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "Disposal of surplus stores."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "Residual work of supply and disposal relating to the late war organisations including the Directorate General, Aircraft including Civil Maintenance Unit and Directorate General, Ship Repairs."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "Administration of—"
+              },
+              {
+                "type": "item",
+                "num": "a",
+                "text": "Directorate General of Supplies and Disposals."
+              },
+              {
+                "type": "item",
+                "num": "b",
+                "text": "Office of the Chief Pay and Accounts Officer, New Delhi."
+              },
+              {
+                "type": "item",
+                "num": "c",
+                "text": "National Test House, Alipore, Calcutta."
+              }
+            ],
+            "flags": [
+              "read_page_break"
+            ],
+            "words": [
+              "r1.w8719",
+              "r1.w8725"
+            ],
+            "boxes": [
+              {
+                "page": 14,
+                "bbox": [
+                  1373,
+                  2009,
+                  2278,
+                  2052
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 28,
+            "source_ref": "2(b)(2)(c)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r39.rel28",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Commerce"
+                },
+                {
+                  "type": "department",
+                  "heading": "Department of Textitles"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w8859",
+                "r1.w8867"
+              ],
+              "boxes": [
+                {
+                  "page": 15,
+                  "bbox": [
+                    104,
+                    359,
+                    1092,
+                    441
+                  ]
+                }
+              ]
+            },
+            "expect": "B. Department of Textitles (Vastra Vibhag)",
+            "scope": "heading",
+            "content": [
+              {
+                "type": "group_heading",
+                "num": "C",
+                "text": "Department of Textiles (Vastra Vibhag)"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w8857",
+              "r1.w8864"
+            ],
+            "boxes": [
+              {
+                "page": 15,
+                "bbox": [
+                  148,
+                  359,
+                  1092,
+                  397
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 29,
+            "source_ref": "2(b)(3)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r39.rel29",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Communications"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w8882",
+                "r1.w8894"
+              ],
+              "boxes": [
+                {
+                  "page": 15,
+                  "bbox": [
+                    102,
+                    557,
+                    1092,
+                    643
+                  ]
+                }
+              ]
+            },
+            "scope": "children",
+            "content": [
+              {
+                "type": "department",
+                "num": "A",
+                "heading": "DEPARTMENT OF POSTS"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Implementation of treaties and agreements relating to matters dealt within the Department of Posts with other countries."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "Execution of works and purchase of land debitable to the Capital Budget pertaining to the Department of Posts."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "Posts, including Post Office Saving Bank (Administration), Post Office Certificates (Administration) and Post Officee Life Insurance Fund (Administration)."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "Offences against laws with respect to any of the matters in this list."
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "Inquiries and statistics for the purposes of any of the matters in this list."
+              },
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "Fees in respect of any of the matters in this list but not including fees taken in any court."
+              },
+              {
+                "type": "department",
+                "num": "B",
+                "heading": "DEPARTMENT OF TELECOMMUNICA- TIONS"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Implementation of treaties and agreements relating to matters dealt within he Department of Telecommunications with other ! countries."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "Execution of work and purchase of land debitable to the Capital Budget pertaining to the telecommunications. I"
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "Telegraphs, including Telephones, Wireless and other like forms of communications."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "Indian Telephone Industries, Bangalore and the Hindustan Teleprinters Ltd., Madras."
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "Offences against laws with respect to any of the matters in this list. 1"
+              },
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "Inquiries and statistic for the purpose of any other matter in this list."
+              },
+              {
+                "type": "entry",
+                "num": "7",
+                "text": "Fees in respect of any of the matters in this list but not including fees taken in any court."
+              }
+            ],
+            "flags": [
+              "read_hindi_missing"
+            ],
+            "words": [
+              "r1.w8881",
+              "r1.w8887"
+            ],
+            "boxes": [
+              {
+                "page": 15,
+                "bbox": [
+                  147,
+                  557,
+                  1089,
+                  601
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 30,
+            "source_ref": "2(b)(4)(a)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r39.rel30",
+            "position": "before",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Defence"
+                },
+                {
+                  "type": "entry",
+                  "num": "1"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w9399",
+                "r1.w9400"
+              ],
+              "boxes": [
+                {
+                  "page": 15,
+                  "bbox": [
+                    423,
+                    2986,
+                    576,
+                    3029
+                  ]
+                }
+              ]
+            },
+            "scope": "heading",
+            "content": [
+              {
+                "type": "department",
+                "num": "A",
+                "heading": "DEPARTMENT OF DEFENCE",
+                "heading_hi": "RAKSHA VIBHAG"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w9397",
+              "r1.w9403"
+            ],
+            "boxes": [
+              {
+                "page": 15,
+                "bbox": [
+                  189,
+                  2986,
+                  1093,
+                  3031
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 31,
+            "source_ref": "2(b)(4)(b)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r39.rel31",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Defence"
+                },
+                {
+                  "type": "department",
+                  "heading": "Department of Defence Production"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w9116",
+                "r1.w9125"
+              ],
+              "boxes": [
+                {
+                  "page": 15,
+                  "bbox": [
+                    1380,
+                    285,
+                    2192,
+                    412
+                  ]
+                }
+              ]
+            },
+            "expect": "Department of Defence Production (Raksha Utpadan Vibhag)",
+            "scope": "heading",
+            "content": [
+              {
+                "type": "department",
+                "num": "B",
+                "heading": "DEPARTMENT OF DEFENCE PRODUCTION AND SUPPLIES",
+                "heading_hi": "RAKSHA UTPADAN AUR POORTI VIBHAG"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w9114",
+              "r1.w9120"
+            ],
+            "boxes": [
+              {
+                "page": 15,
+                "bbox": [
+                  1293,
+                  285,
+                  2191,
+                  325
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 32,
+            "source_ref": "2(b)(4)(c)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r39.rel32",
+            "target": [
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "Ministry of Defence"
+                  },
+                  {
+                    "type": "entry",
+                    "num": "22"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r1.w9146",
+                  "r1.w9147"
+                ],
+                "boxes": [
+                  {
+                    "page": 15,
+                    "bbox": [
+                      1373,
+                      654,
+                      1563,
+                      689
+                    ]
+                  }
+                ]
+              },
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "Ministry of Defence"
+                  },
+                  {
+                    "type": "entry",
+                    "num": "25"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r1.w9148",
+                  "r1.w9148"
+                ],
+                "boxes": [
+                  {
+                    "page": 15,
+                    "bbox": [
+                      1583,
+                      654,
+                      1627,
+                      688
+                    ]
+                  }
+                ]
+              },
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "Ministry of Defence"
+                  },
+                  {
+                    "type": "entry",
+                    "num": "23"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r1.w9150",
+                  "r1.w9150"
+                ],
+                "boxes": [
+                  {
+                    "page": 15,
+                    "bbox": [
+                      1724,
+                      653,
+                      1767,
+                      688
+                    ]
+                  }
+                ]
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w9145",
+              "r1.w9153"
+            ],
+            "boxes": [
+              {
+                "page": 15,
+                "bbox": [
+                  1292,
+                  652,
+                  2086,
+                  690
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 33,
+            "source_ref": "2(b)(4)(d)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r39.rel33",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Defence"
+                },
+                {
+                  "type": "department",
+                  "heading": "Department of Defence Supplies"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w9155",
+                "r1.w9163"
+              ],
+              "boxes": [
+                {
+                  "page": 15,
+                  "bbox": [
+                    1380,
+                    718,
+                    2190,
+                    806
+                  ]
+                }
+              ]
+            },
+            "expect": "Department of Defence Supplies (Raksha Poortį Vibhag)",
+            "scope": "heading",
+            "flags": [],
+            "words": [
+              "r1.w9154",
+              "r1.w9159"
+            ],
+            "boxes": [
+              {
+                "page": 15,
+                "bbox": [
+                  1289,
+                  718,
+                  2190,
+                  761
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 34,
+            "source_ref": "2(b)(4)(e)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r39.rel34",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Defence"
+                },
+                {
+                  "type": "department",
+                  "heading": "Department of Diefence Research and Development"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w9169",
+                "r1.w9182"
+              ],
+              "boxes": [
+                {
+                  "page": 15,
+                  "bbox": [
+                    1374,
+                    875,
+                    2189,
+                    996
+                  ]
+                }
+              ]
+            },
+            "expect": "Department of Diefence Research and Development (Raksha Anusandhan Tatha Vikas Vibhag)",
+            "scope": "heading",
+            "content": [
+              {
+                "type": "department",
+                "num": "C",
+                "heading": "Department of Defence Research and Development",
+                "heading_hi": "Raksha Anusandhan Tatha Vikas Vibhag"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w9167",
+              "r1.w9173"
+            ],
+            "boxes": [
+              {
+                "page": 15,
+                "bbox": [
+                  1288,
+                  875,
+                  2188,
+                  913
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 35,
+            "source_ref": "2(b)(4)(f)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r39.rel35",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Defence"
+                },
+                {
+                  "type": "entry",
+                  "num": "31"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w9203",
+                "r1.w9204"
+              ],
+              "boxes": [
+                {
+                  "page": 15,
+                  "bbox": [
+                    1453,
+                    1195,
+                    1625,
+                    1234
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "31",
+                "text": "All matters relating to the scientific and technical personnel under the control of the Department."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w9201",
+              "r1.w9209"
+            ],
+            "boxes": [
+              {
+                "page": 15,
+                "bbox": [
+                  1301,
+                  1195,
+                  2194,
+                  1234
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 36,
+            "source_ref": "2(b)(5)(a)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r39.rel36",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Education and Culture"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w9248",
+                "r1.w9250"
+              ],
+              "boxes": [
+                {
+                  "page": 15,
+                  "bbox": [
+                    1465,
+                    1631,
+                    1888,
+                    1672
+                  ]
+                }
+              ]
+            },
+            "expect": "Ministry of Education and Culture (Shiksha aur Sanskriti Mantralaya)",
+            "scope": "heading",
+            "content": [
+              {
+                "type": "ministry",
+                "heading": "MINISTRY OF EDUCATION (SHIKSHA MAN- TRALAYA)"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w9246",
+              "r1.w9252"
+            ],
+            "boxes": [
+              {
+                "page": 15,
+                "bbox": [
+                  1288,
+                  1631,
+                  2192,
+                  1672
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 37,
+            "source_ref": "2(b)(5)(b)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r39.rel37",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Education and Culture"
+                },
+                {
+                  "type": "department",
+                  "heading": "Department of Education"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w9266",
+                "r1.w9274"
+              ],
+              "boxes": [
+                {
+                  "page": 15,
+                  "bbox": [
+                    1377,
+                    1856,
+                    2193,
+                    1941
+                  ]
+                }
+              ]
+            },
+            "expect": "A. Department of Education (Shiksha Vibhag)",
+            "scope": "heading",
+            "flags": [],
+            "words": [
+              "r1.w9265",
+              "r1.w9271"
+            ],
+            "boxes": [
+              {
+                "page": 15,
+                "bbox": [
+                  1290,
+                  1856,
+                  2193,
+                  1899
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 38,
+            "source_ref": "2(b)(5)(c)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r39.rel38",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Education and Culture"
+                },
+                {
+                  "type": "department",
+                  "heading": "Department of Culture"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w9280",
+                "r1.w9292"
+              ],
+              "boxes": [
+                {
+                  "page": 15,
+                  "bbox": [
+                    1355,
+                    2009,
+                    2190,
+                    2127
+                  ]
+                }
+              ]
+            },
+            "expect": "B. Department of Culture (Sanskriti Vibhag)",
+            "flags": [],
+            "words": [
+              "r1.w9279",
+              "r1.w9285"
+            ],
+            "boxes": [
+              {
+                "page": 15,
+                "bbox": [
+                  1285,
+                  2009,
+                  2190,
+                  2052
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 39,
+            "source_ref": "2(b)(6)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r39.rel39",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Engery"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w9298",
+                "r1.w9311"
+              ],
+              "boxes": [
+                {
+                  "page": 15,
+                  "bbox": [
+                    1194,
+                    2183,
+                    2195,
+                    2307
+                  ]
+                }
+              ]
+            },
+            "expect": "Ministry of Engery (Oorja Mantralaya)",
+            "content": [
+              {
+                "type": "ministry",
+                "heading": "MINISTRY OF ENVIRONMENT. AND FOREST",
+                "heading_hi": "PARYAVARAN TATHA VAN MANTRALAYA"
+              },
+              {
+                "type": "department",
+                "num": "A",
+                "heading": "Department of Environment (Parayavaran Vibhag) -"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": ". Environment and Ecology, including environment in coastal waters, in mangroves and coral reefs but excluding marine environment on the high seas."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "Botancial Survey of India and Botanical Gardens."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "Zoological Survey of India."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "National Museum of Natural History."
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "The Water (Prevention and Control of Pollution) Act, 1974."
+              },
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "The Water (Prevention and Control ot Pollution) Cess Act, 1977."
+              },
+              {
+                "type": "entry",
+                "num": "7",
+                "text": "The Air (Prevention and Control of Pollution) Act, 1981."
+              },
+              {
+                "type": "entry",
+                "num": "8",
+                "text": "Biosphere Reserve Programme."
+              },
+              {
+                "type": "department",
+                "num": "B",
+                "heading": "DEPARTMENT OF FORESTS AND WILD LIFE (VAN AUR VANYA JEEV VIBHAG) ---"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "National Forest Policy and Forestry development in the country including Social Forestry. Forest Policy and all matters relating to forests and forest administration in so far as the Andaman and Nicobar Islands are concerned."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "Indian Forest Service."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "Wild life reservation and protection of wild birds and animals."
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "Fundamental research including co-ordination thereof and higher education in Forestry."
+              },
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "Padmaja Naidu Himalayan Zoological Park."
+              }
+            ],
+            "flags": [
+              "read_page_break"
+            ],
+            "words": [
+              "r1.w9296",
+              "r1.w9303"
+            ],
+            "boxes": [
+              {
+                "page": 15,
+                "bbox": [
+                  1245,
+                  2182,
+                  2195,
+                  2228
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 40,
+            "source_ref": "2(b)(7)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r39.rel40",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Finance"
+                },
+                {
+                  "type": "department",
+                  "heading": "Department of Revenue"
+                },
+                {
+                  "type": "entry",
+                  "num": "14"
+                },
+                {
+                  "type": "item",
+                  "num": "e"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w9580",
+                "r1.w9605"
+              ],
+              "boxes": [
+                {
+                  "page": 16,
+                  "bbox": [
+                    187,
+                    1439,
+                    1184,
+                    1605
+                  ]
+                }
+              ]
+            },
+            "flags": [],
+            "words": [
+              "r1.w9580",
+              "r1.w9587"
+            ],
+            "boxes": [
+              {
+                "page": 16,
+                "bbox": [
+                  233,
+                  1439,
+                  1181,
+                  1479
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 41,
+            "source_ref": "2(b)(8)(a)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r39.rel41",
+            "position": "before",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Home Affairs"
+                },
+                {
+                  "type": "group_heading",
+                  "heading": "Part I Union Subjects"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w9619",
+                "r1.w9622"
+              ],
+              "boxes": [
+                {
+                  "page": 16,
+                  "bbox": [
+                    495,
+                    1753,
+                    962,
+                    1794
+                  ]
+                }
+              ]
+            },
+            "scope": "heading",
+            "content": [
+              {
+                "type": "text",
+                "text": "heading \"A. Department of Home Affairs (Grih Vibhag) shall be inserted"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w9617",
+              "r1.w9624"
+            ],
+            "boxes": [
+              {
+                "page": 16,
+                "bbox": [
+                  279,
+                  1753,
+                  1180,
+                  1795
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 42,
+            "source_ref": "2(b)(8)(b)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r39.rel42",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Home Affairs"
+                },
+                {
+                  "type": "group_heading",
+                  "heading": "Part IV-Miscellaneous Business"
+                },
+                {
+                  "type": "entry",
+                  "num": "104"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w9637",
+                "r1.w9643"
+              ],
+              "boxes": [
+                {
+                  "page": 16,
+                  "bbox": [
+                    370,
+                    1908,
+                    1178,
+                    1991
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "105",
+                "text": "Relief and Rehabilitation of displaced persons from former East Pakistan. Relief includes: -- Establishments of camps, payment of cash doles, provision of other amenities and necessities. Rehabilitation includes :- Housing training and employment resettlement on land in business, industries and other non-agricultural occupations. ** LIFTET MED"
+              },
+              {
+                "type": "entry",
+                "num": "106",
+                "text": "Relief and Rehabilitation of repatriated Indian nationals."
+              },
+              {
+                "type": "entry",
+                "num": "107",
+                "text": "Relief and Rehabilitation of Tibetan refugees. 119145"
+              },
+              {
+                "type": "entry",
+                "num": "108",
+                "text": "Relief and Rehabilitation of displaced persons from Chhamb area in Jammu and Kashmir, Chhamb Displaced Persons Rehabilitation Authority."
+              },
+              {
+                "type": "entry",
+                "num": "109",
+                "text": "Dandakaranya Development Scheme and Dandakaranaya Development Authority-"
+              },
+              {
+                "type": "entry",
+                "num": "110",
+                "text": "Administration of Central Camps, work site camps and Karmi Shibirs for displaced persons from former East Pakistan."
+              },
+              {
+                "type": "entry",
+                "num": "111",
+                "text": "Rehabilitation Industries Corporation."
+              },
+              {
+                "type": "entry",
+                "num": "112",
+                "text": "Residuary problems relating to displaced persons from former East Pakistan in West Bengal."
+              },
+              {
+                "type": "entry",
+                "num": "113",
+                "text": "Residuary, problems of refugees from Bangladesh."
+              },
+              {
+                "type": "entry",
+                "num": "114",
+                "text": "Residuary problems of migrants from Pakistan occupied areas of Jammu and Kashmir."
+              },
+              {
+                "type": "entry",
+                "num": "115",
+                "text": "Development of such special areas as may be indicated by Prime Minister from time to time."
+              },
+              {
+                "type": "entry",
+                "num": "116",
+                "text": "Relief and Resettlement of persons affected in the border areas of Jammu and Kashmir Punjab, Gujarat and Kajasthan during the Indo Pak Conflict, 1971."
+              },
+              {
+                "type": "entry",
+                "num": "117",
+                "text": "Residuary matters relating to displaced persons from former West Pakistan, now Pakistan."
+              },
+              {
+                "type": "entry",
+                "num": "118",
+                "text": "Administration of the following Acts:-"
+              },
+              {
+                "type": "item",
+                "num": "a",
+                "text": "Administration of Evacuee Property Act 1950 (31 of 1950)"
+              },
+              {
+                "type": "item",
+                "num": "b",
+                "text": "Evacuee Interest (Separation) Act, 1951 (64 of 1951)"
+              },
+              {
+                "type": "item",
+                "num": "c",
+                "text": "Displaced Persons (Debts adjustment) Act, 1951 (70 of 1951)"
+              },
+              {
+                "type": "item",
+                "num": "d",
+                "text": "Displaced Persons (Compensation and Rehabilitation) Act, 1954 (44 of 1954)."
+              },
+              {
+                "type": "item",
+                "num": "e",
+                "text": "Displaced Persons (Claims) Supplementary Act, 1954 (12 of 1954)."
+              },
+              {
+                "type": "item",
+                "num": "f",
+                "text": "Transfer of Evacuee Deposits Act, 1954 (15 of 1954)"
+              },
+              {
+                "type": "item",
+                "num": "g",
+                "text": "Matters relating to Goa, Daman and Diu- Administration of Evacuee Property Act"
+              },
+              {
+                "type": "entry",
+                "num": "1964"
+              },
+              {
+                "type": "entry",
+                "num": "119",
+                "text": "Negotiations with Pakistan concerning evacuee property left by displaced persons from former West Pakistan now Pakistan. 4"
+              },
+              {
+                "type": "entry",
+                "num": "120",
+                "text": "Restoration of movable property received from former West Pakistan now Pakistan, to the displaced persons from former West Pakistan now Pakistan."
+              },
+              {
+                "type": "entry",
+                "num": "121",
+                "text": "Vertification and payment of claims of displace persons from former West Pakistan now Pakistan, who were Government servants in the undivided provinces, and local bodies in respect of pension, provident fund, leave salary and security deposits."
+              },
+              {
+                "type": "item",
+                "num": "b",
+                "text": "Ad-hoc schemes for payment of Pension"
+              },
+              {
+                "type": "group_heading",
+                "num": "G",
+                "text": "P. Fund, leave salary and exgratia, relief to displaced Government servants from former West Pakistan. [ भाग II - - खड 3 (ii) ] now Pakistan, grant of relief to the contractors in respect of their verified claims; grant of relief to pensioners migrated from former East Pakistan and West Pakistan, now Pakistan, between 1-1-1961 and 25-3-1971."
+              },
+              {
+                "type": "entry",
+                "num": "122",
+                "text": "All attached or Subordinate Offices or other organisations concerned with any of the subjects specified in this Part. N.B. Except where specified the programmes of relief and rehabilitation are executed and administered through the State Governments."
+              }
+            ],
+            "flags": [
+              "read_page_break"
+            ],
+            "words": [
+              "r1.w9636",
+              "r1.w9640"
+            ],
+            "boxes": [
+              {
+                "page": 16,
+                "bbox": [
+                  283,
+                  1908,
+                  1178,
+                  1943
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 43,
+            "source_ref": "2(b)(8)(c)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r39.rel43",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Home Affairs"
+                },
+                {
+                  "type": "department",
+                  "heading": "Department of Official Language"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w10132",
+                "r1.w10139"
+              ],
+              "boxes": [
+                {
+                  "page": 17,
+                  "bbox": [
+                    341,
+                    893,
+                    1148,
+                    978
+                  ]
+                }
+              ]
+            },
+            "expect": "Department of Official Language (Rajbhasha Vibhag)",
+            "scope": "heading",
+            "content": [
+              {
+                "type": "department",
+                "num": "B",
+                "heading": "Department of Official Language",
+                "heading_hi": "Rajbhasha Vibhag"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w10130",
+              "r1.w10136"
+            ],
+            "boxes": [
+              {
+                "page": 17,
+                "bbox": [
+                  248,
+                  893,
+                  1148,
+                  934
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 44,
+            "source_ref": "2(b)(8)(d)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r39.rel44",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Home Affairs"
+                },
+                {
+                  "type": "department",
+                  "heading": "Department of Personnel and Administrative Reforms"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w10156",
+                "r1.w10172"
+              ],
+              "boxes": [
+                {
+                  "page": 17,
+                  "bbox": [
+                    337,
+                    1128,
+                    1155,
+                    1293
+                  ]
+                }
+              ]
+            },
+            "expect": "Department of Personnel and Administrative Reforms (Karmik aur Prashasanik Sudhar Vibhag)",
+            "flags": [],
+            "words": [
+              "r1.w10155",
+              "r1.w10160"
+            ],
+            "boxes": [
+              {
+                "page": 17,
+                "bbox": [
+                  251,
+                  1128,
+                  1150,
+                  1173
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 45,
+            "source_ref": "2(b)(9)(a)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r39.rel45",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Irrigation"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w10191",
+                "r1.w10193"
+              ],
+              "boxes": [
+                {
+                  "page": 17,
+                  "bbox": [
+                    424,
+                    1435,
+                    845,
+                    1480
+                  ]
+                }
+              ]
+            },
+            "expect": "Ministry of Irrigation (Sinchai Mantralaya)",
+            "scope": "heading",
+            "content": [
+              {
+                "type": "ministry",
+                "heading": "Ministry of Irrigation and Power",
+                "heading_hi": "Sinchai Aur Vidyut Mantralaya"
+              },
+              {
+                "type": "department",
+                "num": "A",
+                "heading": "Department of Irrigation",
+                "heading_hi": "Sinchai Vibhag"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w10189",
+              "r1.w10188"
+            ],
+            "boxes": [
+              {
+                "page": 17,
+                "bbox": [
+                  254,
+                  1434,
+                  1148,
+                  1481
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 46,
+            "source_ref": "2(b)(9)(b)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r39.rel46",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Irrigation"
+                },
+                {
+                  "type": "entry",
+                  "num": "11"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w10362",
+                "r1.w10363"
+              ],
+              "boxes": [
+                {
+                  "page": 17,
+                  "bbox": [
+                    458,
+                    1806,
+                    634,
+                    1846
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "department",
+                "num": "B",
+                "heading": "Department of Power",
+                "heading_hi": "Vidyut Vibhag"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "General policy in the field of energy."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "Research, development, technical assistance and all matters relating to Hydroelectric and thermal power."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "Administration of the Indian Electricity Act, 1910."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "Administration of the electricity (Supply) Act, 1948."
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "Central Electricity Board."
+              },
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "Central Electricity Authority."
+              },
+              {
+                "type": "entry",
+                "num": "7",
+                "text": "Power schemes in Union territories."
+              },
+              {
+                "type": "entry",
+                "num": "8",
+                "text": "The Damodar Vally Corporation."
+              },
+              {
+                "type": "entry",
+                "num": "9",
+                "text": "National Projects Construction Corporation ⚫ Limited."
+              },
+              {
+                "type": "entry",
+                "num": "10",
+                "text": "Bhakra Management Board and Beas Project (except matters relating to irrigation)."
+              },
+              {
+                "type": "entry",
+                "num": "11",
+                "text": ""
+              },
+              {
+                "type": "item",
+                "num": "i",
+                "text": "National Thermal Power Corporation."
+              },
+              {
+                "type": "item",
+                "num": "ii",
+                "text": "National Hydro-electric Power Corporation."
+              },
+              {
+                "type": "item",
+                "num": "iii",
+                "text": "Rural Electrification Corporation. 1360 GT/85-3"
+              },
+              {
+                "type": "item",
+                "num": "iv",
+                "text": "North eastern Electric Power Corporation."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w10360",
+              "r1.w10366"
+            ],
+            "boxes": [
+              {
+                "page": 17,
+                "bbox": [
+                  254,
+                  1804,
+                  1150,
+                  1852
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 47,
+            "source_ref": "2(b)(10)(a)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r39.rel47",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Labour and Rehabilitation"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w10230",
+                "r1.w10232"
+              ],
+              "boxes": [
+                {
+                  "page": 17,
+                  "bbox": [
+                    1517,
+                    542,
+                    1940,
+                    583
+                  ]
+                }
+              ]
+            },
+            "expect": "Ministry of Labour and Rehabilitation (Shram aur Punarwas Mantralaya)",
+            "scope": "heading",
+            "content": [
+              {
+                "type": "ministry",
+                "heading": "Ministry of Labour",
+                "heading_hi": "Shram Mantralaya"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w10228",
+              "r1.w10234"
+            ],
+            "boxes": [
+              {
+                "page": 17,
+                "bbox": [
+                  1347,
+                  541,
+                  2245,
+                  583
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 48,
+            "source_ref": "2(b)(10)(b)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r39.rel48",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Labour and Rehabilitation"
+                },
+                {
+                  "type": "department",
+                  "heading": "department of Labour"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w10247",
+                "r1.w10254"
+              ],
+              "boxes": [
+                {
+                  "page": 17,
+                  "bbox": [
+                    1435,
+                    700,
+                    2249,
+                    786
+                  ]
+                }
+              ]
+            },
+            "expect": "A. department of Labour (Shram Vibhag)",
+            "scope": "heading",
+            "flags": [],
+            "words": [
+              "r1.w10246",
+              "r1.w10252"
+            ],
+            "boxes": [
+              {
+                "page": 17,
+                "bbox": [
+                  1349,
+                  700,
+                  2249,
+                  745
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 49,
+            "source_ref": "2(b)(10)(c)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r39.rel49",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Labour and Rehabilitation"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF REHABILITATION"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w10259",
+                "r1.w10272"
+              ],
+              "boxes": [
+                {
+                  "page": 17,
+                  "bbox": [
+                    1427,
+                    811,
+                    2251,
+                    932
+                  ]
+                }
+              ]
+            },
+            "expect": "B. DEPARTMENT OF REHABILITATION (PUNARWAS VIBHAG)",
+            "flags": [],
+            "words": [
+              "r1.w10258",
+              "r1.w10264"
+            ],
+            "boxes": [
+              {
+                "page": 17,
+                "bbox": [
+                  1351,
+                  811,
+                  2250,
+                  853
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 50,
+            "source_ref": "2(b)(11)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r39.rel50",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF LAW AND JUSTICE"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w10278",
+                "r1.w10293"
+              ],
+              "boxes": [
+                {
+                  "page": 17,
+                  "bbox": [
+                    1255,
+                    1016,
+                    2250,
+                    1139
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "department",
+                "num": "B",
+                "heading": "DEPARTMENT OF STATISTICS (13) for the heading \"MINISTRY OF RURAL",
+                "heading_hi": "SAN- KHYIKI VIBHAG"
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "Additives for petroleum and petroleum pro- DEVELOPMENT (GRAMIN VIKAS MANTRALA- ducts."
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "Tube Blending and greases."
+              },
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "Petro-chemicals."
+              },
+              {
+                "type": "entry",
+                "num": "7",
+                "text": "Industries relating to the production of noncellulosic synthetic fibres (Nylon, Polyester Acrylic, etc.)"
+              },
+              {
+                "type": "entry",
+                "num": "8",
+                "text": "Synthetic Rubber."
+              },
+              {
+                "type": "entry",
+                "num": "9",
+                "text": "Plastics, including fabrication of plastic and plastic moulded goods."
+              },
+              {
+                "type": "entry",
+                "num": "10",
+                "text": "Planning, development and control of, and assistance to, all industries dealt with by the Ministry."
+              },
+              {
+                "type": "entry",
+                "num": "11",
+                "text": "All attached or subordinate offices or other organisations concerned with any of the subjects specified in this list."
+              },
+              {
+                "type": "entry",
+                "num": "12",
+                "text": "Planning, development and regulation of Oilfield services."
+              },
+              {
+                "type": "entry",
+                "num": "13",
+                "text": "Public sector projects falling under the subjects included in this list. Engineers India Limited and Indo-Burma Petroleum Company, together with its subsidiaries, except such projects as are specifically alloted to any other Ministry Department."
+              },
+              {
+                "type": "entry",
+                "num": "14",
+                "text": "The Oilfields [(Regulation and Development) Act, 1948 (53 of 1948)]."
+              },
+              {
+                "type": "entry",
+                "num": "15",
+                "text": "The Oil and Natural Gas Commission Act 1959 (43 of 1959)."
+              },
+              {
+                "type": "entry",
+                "num": "16",
+                "text": "The Petroleum Pipelines [(Acquisition of Right of User in Land) Act, 1962 (50 of 1962)]."
+              },
+              {
+                "type": "entry",
+                "num": "17",
+                "text": "The Esso [(Acquisition of Undertakings in India) Act, 1974 (4 of 1974)]."
+              },
+              {
+                "type": "entry",
+                "num": "18",
+                "text": "The Oil Industry (Development) Act, 1974 (47 of 1974)."
+              },
+              {
+                "type": "entry",
+                "num": "19",
+                "text": "The Burmah-Shell (Acquisition of Undertakings in India) Act, 1976 (2 of 1976)]."
+              },
+              {
+                "type": "entry",
+                "num": "20",
+                "text": "The Caltex [(Acquisition of Shares of Caltex Oil Refining (India) Limited and of the Undertakings in India of Caltex (India) Limited] Act, 1977 (17 of 1977)"
+              }
+            ],
+            "flags": [
+              "read_page_break"
+            ],
+            "words": [
+              "r1.w10276",
+              "r1.w10282"
+            ],
+            "boxes": [
+              {
+                "page": 17,
+                "bbox": [
+                  1303,
+                  1016,
+                  2246,
+                  1054
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 51,
+            "source_ref": "2(b)(12)(a)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r39.rel51",
+            "position": "before",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF PLANNING"
+                },
+                {
+                  "type": "entry",
+                  "num": "1"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w10717",
+                "r1.w10730"
+              ],
+              "boxes": [
+                {
+                  "page": 18,
+                  "bbox": [
+                    1495,
+                    369,
+                    2309,
+                    501
+                  ]
+                }
+              ]
+            },
+            "scope": "heading",
+            "content": [
+              {
+                "type": "group_heading",
+                "num": "A",
+                "text": "DEPART- MENT OF PLANNING (YOJANA VI- BHAG)"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w10715",
+              "r1.w10721"
+            ],
+            "boxes": [
+              {
+                "page": 18,
+                "bbox": [
+                  1408,
+                  369,
+                  2307,
+                  417
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 52,
+            "source_ref": "2(b)(12)(b)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r39.rel52",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF PLANNING"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF STATISTICS"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w10747",
+                "r1.w10753"
+              ],
+              "boxes": [
+                {
+                  "page": 18,
+                  "bbox": [
+                    1501,
+                    606,
+                    2313,
+                    688
+                  ]
+                }
+              ]
+            },
+            "expect": "DEPARTMENT OF STATISTICS (SANKHYIKI VIBHAG)",
+            "scope": "heading",
+            "content": [
+              {
+                "type": "department",
+                "num": "B",
+                "heading": "DEPARTMENT OF STATISTICS",
+                "heading_hi": "SAN- KHYIKI VIBHAG"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w10745",
+              "r1.w10750"
+            ],
+            "boxes": [
+              {
+                "page": 18,
+                "bbox": [
+                  1410,
+                  606,
+                  2309,
+                  648
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 54,
+            "source_ref": "2(b)(14)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r39.rel54",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF SOCIAL WELFARE"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w11398",
+                "r1.w11406"
+              ],
+              "boxes": [
+                {
+                  "page": 19,
+                  "bbox": [
+                    1196,
+                    744,
+                    2189,
+                    822
+                  ]
+                }
+              ]
+            },
+            "expect": "MINISTRY OF SOCIAL WELFARE (SAMAJ KALYAN MANTRALAYA)",
+            "scope": "heading",
+            "content": [
+              {
+                "type": "ministry",
+                "heading": "MINISTRY OF SOCIAL AND WO- MEN'S WELFARE",
+                "heading_hi": "SAMAJ AUR MAHILAYEN KALYAN MANTRALAYA"
+              }
+            ],
+            "flags": [
+              "read_sequence"
+            ],
+            "words": [
+              "r1.w11396",
+              "r1.w11402"
+            ],
+            "boxes": [
+              {
+                "page": 19,
+                "bbox": [
+                  1245,
+                  744,
+                  2189,
+                  785
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 55,
+            "source_ref": "2(b)(15)(a)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r39.rel55",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF STEEL AND MINES"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w11440",
+                "r1.w11442"
+              ],
+              "boxes": [
+                {
+                  "page": 19,
+                  "bbox": [
+                    1394,
+                    1167,
+                    1775,
+                    1208
+                  ]
+                }
+              ]
+            },
+            "expect": "MINISTRY OF STEEL AND MINES (ISPAT AUR KHAN MANTRALAYA)",
+            "scope": "heading",
+            "content": [
+              {
+                "type": "ministry",
+                "heading": "MINISTRY OF STEEL,MINES AND COAL (ISPAT, KHAN AUR KOYALA MAN- TRALAYA)"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w11438",
+              "r1.w11445"
+            ],
+            "boxes": [
+              {
+                "page": 19,
+                "bbox": [
+                  1241,
+                  1167,
+                  2191,
+                  1208
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 56,
+            "source_ref": "2(b)(15)(b)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r39.rel56",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF STEEL AND MINES"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF INES"
+                },
+                {
+                  "type": "entry",
+                  "num": "8"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w11462",
+                "r1.w11473"
+              ],
+              "boxes": [
+                {
+                  "page": 19,
+                  "bbox": [
+                    1193,
+                    1450,
+                    2186,
+                    1530
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "9",
+                "text": "Metallurgical Grade Silicon."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w11461",
+              "r1.w11466"
+            ],
+            "boxes": [
+              {
+                "page": 19,
+                "bbox": [
+                  1239,
+                  1450,
+                  2186,
+                  1487
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 57,
+            "source_ref": "2(b)(15)(c)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r39.rel57",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF STEEL AND MINES"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF MINES"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w11487",
+                "r1.w11498"
+              ],
+              "boxes": [
+                {
+                  "page": 19,
+                  "bbox": [
+                    1191,
+                    1712,
+                    2187,
+                    1846
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "department",
+                "num": "C",
+                "heading": "DEPARTMENT OF COAL",
+                "heading_hi": "KOYALA VIBHAG"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Exploration and development of coking and non-coking coal and lignite deposits in India."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "All matters relating to production, supply distribution and prices of coal."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "Development and operation of coal washeries other than those for which the Department of Steel (Ispat Vibhag) is responsible."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "Low Temperature carbonisation of coal and production of synthetic oil from coal."
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "Almithtmation of the Coal Mines (Conser- ANA . D) Act, 1974."
+              },
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "The Coal Mines Provident Fund Organisation."
+              },
+              {
+                "type": "entry",
+                "num": "7",
+                "text": "' The Coal Mines Welfare Organisation."
+              },
+              {
+                "type": "entry",
+                "num": "8",
+                "text": "Administration of the Coal Mines Provident Fund and Miscellaneous Provisions Act 1948 (46 of 1948)."
+              },
+              {
+                "type": "entry",
+                "num": "9",
+                "text": "Administration of the Coal Mines Labour Welfare Fund Act, 1947 (32 of 1947)."
+              },
+              {
+                "type": "entry",
+                "num": "9A",
+                "text": "Rules under the Mines Act, 1952 (32 of 1952) for the levy and collection of duty of excise on coke and coal produced and despatched from mines and administration of rescue fund."
+              },
+              {
+                "type": "entry",
+                "num": "10",
+                "text": "Administration of the Coal Bearing Areas (Acquisition and Development) Act, 1957."
+              },
+              {
+                "type": "entry",
+                "num": "11",
+                "text": "Public Sector Enterprises dealing with coal and lignite."
+              },
+              {
+                "type": "entry",
+                "num": "12",
+                "text": "Administration of the Mines and Minerals (Regulation and Development) Act, 1957 and other Union Laws in so far as the said Act and Laws relate to coal and lignite and sand for stowing, business incidental to such administration including questions concerning various States."
+              }
+            ],
+            "flags": [
+              "read_page_break"
+            ],
+            "words": [
+              "r1.w11485",
+              "r1.w11490"
+            ],
+            "boxes": [
+              {
+                "page": 19,
+                "bbox": [
+                  1239,
+                  1712,
+                  2185,
+                  1760
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 58,
+            "source_ref": "2(b)(16)(a)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r39.rel58",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF TOURISM AND CIVIL AVIATION"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF TOURISM"
+                },
+                {
+                  "type": "entry",
+                  "num": "2"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w11872",
+                "r1.w11882"
+              ],
+              "boxes": [
+                {
+                  "page": 20,
+                  "bbox": [
+                    386,
+                    1214,
+                    1205,
+                    1338
+                  ]
+                }
+              ]
+            },
+            "flags": [],
+            "words": [
+              "r1.w11871",
+              "r1.w11876"
+            ],
+            "boxes": [
+              {
+                "page": 20,
+                "bbox": [
+                  300,
+                  1214,
+                  1205,
+                  1253
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 59,
+            "source_ref": "2(b)(16)(b)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r39.rel59",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF TOURISM AND CIVIL AVIATION"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF CIVIL AVIATION"
+                },
+                {
+                  "type": "entry",
+                  "num": "1"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w11887",
+                "r1.w11900"
+              ],
+              "boxes": [
+                {
+                  "page": 20,
+                  "bbox": [
+                    391,
+                    1365,
+                    1209,
+                    1488
+                  ]
+                }
+              ]
+            },
+            "flags": [],
+            "words": [
+              "r1.w11886",
+              "r1.w11891"
+            ],
+            "boxes": [
+              {
+                "page": 20,
+                "bbox": [
+                  304,
+                  1365,
+                  1208,
+                  1402
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 60,
+            "source_ref": "2(b)(17)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r39.rel60",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "DEPARTMENT OF ATOMIC ENERGY"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w11905",
+                "r1.w11937"
+              ],
+              "boxes": [
+                {
+                  "page": 20,
+                  "bbox": [
+                    213,
+                    1565,
+                    1211,
+                    1840
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "ministry",
+                "heading": "DEPARTMENT OF CULTURE",
+                "heading_hi": "SANSKRI- TI VIBHAG"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "National Library, the Indian Museum; the Indian War Memorial Museum; the Victoria Memorial and the Indian War Memorial and any other like institutions financed by the Government of India wholly or in part and declared by Parliament by law to be an institution of national importance."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "Archaeology, archaeological Museums."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "The Ancient Monuments and Archaeological Sites and Remains Act, 1958 and the Ancient Monuments Preservation Act"
+              },
+              {
+                "type": "entry",
+                "num": "1904"
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "Grants to Universities and Research Institutions for excavation and exploration of historical and archaeological remains."
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "International Conventions for the protection of cultural property in the event of armed conflict."
+              },
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "History of Freedom Movement."
+              },
+              {
+                "type": "entry",
+                "num": "6A",
+                "text": "Jalianwala Bagh National Memorial Trust."
+              },
+              {
+                "type": "entry",
+                "num": "7",
+                "text": "Administration of Gandhi Smriti Samiti and Gandhi Darshan."
+              },
+              {
+                "type": "entry",
+                "num": "8",
+                "text": "The delivery of Books (Public Libraries) Act and the Press and Registration of Books f Act (in so far as supply of books and catalogues to the Central Government is concerned)."
+              },
+              {
+                "type": "entry",
+                "num": "9",
+                "text": "Promotion of fine arts."
+              },
+              {
+                "type": "entry",
+                "num": "10",
+                "text": "Sahitya, Lalit Kala and Sangeet Natak Academies."
+              },
+              {
+                "type": "entry",
+                "num": "11",
+                "text": "The Central Secretariat Library; Central Reference Library, Calcutta; Rampur Raza Library, Rampur; Delhi Public Library India Office Library; National Museum New Delhi; Salar Jung Museum and Library, Hyderabad; Khudabux Oriental Public Library; Nehru Memorial Museum and Library; Gandhi Darshan Samiti; National Gallery of Portraits; General Development of Museums."
+              },
+              {
+                "type": "entry",
+                "num": "12",
+                "text": "National Gallery of Modern Art, New Delhi."
+              },
+              {
+                "type": "entry",
+                "num": "13",
+                "text": "Acquisition of Indian and Foreign Art objects."
+              },
+              {
+                "type": "entry",
+                "num": "14",
+                "text": "Treasure Trove the Antiquities and Art Treasures Act, 1972 and Export of Antiquities."
+              },
+              {
+                "type": "entry",
+                "num": "15",
+                "text": "Open air theatres in rural areas and theatres in State Capitals."
+              },
+              {
+                "type": "entry",
+                "num": "16",
+                "text": "Financial assistance to authors and artists or their survivors in indigent circumstances, other than those belonging to the categories, covered under the Scheme of the Ministry of Information and Broadcasting (Soochna aur Prasaran Mantralaya)."
+              },
+              {
+                "type": "entry",
+                "num": "17",
+                "text": "Charities and Charitable Institutions, Charities and Religious Endowments pertaining to subjects dealt within this Department."
+              },
+              {
+                "type": "entry",
+                "num": "18",
+                "text": "Scholarships, including those offered by foreign Government and foreign agencies in respect of subjects dealt with by this Department."
+              },
+              {
+                "type": "entry",
+                "num": "19",
+                "text": "Schemes for grant of financial assistance to voluntary organisations for promotion of Modern Indian Language."
+              },
+              {
+                "type": "entry",
+                "num": "20",
+                "text": "Publication of rare manuscripts."
+              },
+              {
+                "type": "entry",
+                "num": "21",
+                "text": "Grants to all-India Cultural Institutions."
+              },
+              {
+                "type": "entry",
+                "num": "22",
+                "text": "Grants to Indo-foreign Cultural Societies."
+              },
+              {
+                "type": "entry",
+                "num": "23",
+                "text": "Cultural agreements and friendship treaties with foreign countries."
+              },
+              {
+                "type": "entry",
+                "num": "24",
+                "text": "Distribution of gift books received from abroad."
+              },
+              {
+                "type": "entry",
+                "num": "25",
+                "text": "Appointment of Cultural Attaches abroad."
+              },
+              {
+                "type": "entry",
+                "num": "26",
+                "text": "Visit of Cultural Delegations, etc. to India sponsored and unsponsored."
+              },
+              {
+                "type": "entry",
+                "num": "27",
+                "text": "Individuals (including cultural lecturers) sponsored by Government for visits abroad."
+              },
+              {
+                "type": "entry",
+                "num": "28",
+                "text": "Presentation of books to foreign countries."
+              },
+              {
+                "type": "entry",
+                "num": "29",
+                "text": "Establishment of libraries abroad."
+              },
+              {
+                "type": "entry",
+                "num": "30",
+                "text": "Translation of Indian classics into foreign languages."
+              },
+              {
+                "type": "entry",
+                "num": "31",
+                "text": "Exchange of official publications with foreign Governments and institutions and agreements for such exchanges."
+              },
+              {
+                "type": "entry",
+                "num": "32",
+                "text": "Presentation of Indian art objects abroad."
+              },
+              {
+                "type": "entry",
+                "num": "33",
+                "text": "Admission of Foreign students in Cultural Institutions."
+              },
+              {
+                "type": "entry",
+                "num": "34",
+                "text": "Exchange of artists, dancers, musicians, etc. under the Cultural Exchange Programmes."
+              },
+              {
+                "type": "entry",
+                "num": "35",
+                "text": "Revision of Gazetteers."
+              },
+              {
+                "type": "entry",
+                "num": "36",
+                "text": "Observance of Centenaries and Anniversaries of important personalities."
+              },
+              {
+                "type": "entry",
+                "num": "37",
+                "text": "Publication, information and statistics relating to subjects dealt with by this Department."
+              },
+              {
+                "type": "entry",
+                "num": "38",
+                "text": "International Congress of Orientalists."
+              },
+              {
+                "type": "entry",
+                "num": "39",
+                "text": "Anthropological Survey of India."
+              },
+              {
+                "type": "entry",
+                "num": "40",
+                "text": "National Archives of India."
+              },
+              {
+                "type": "entry",
+                "num": "40A",
+                "text": "Rashtriya Manava Sangrahalaya."
+              },
+              {
+                "type": "entry",
+                "num": "41",
+                "text": "National Council of Science Museums, Calcutta."
+              },
+              {
+                "type": "entry",
+                "num": "42",
+                "text": "All other attached or subordinate offices or other organisations concerned with any of the subjects specified in this list."
+              }
+            ],
+            "flags": [
+              "read_page_break"
+            ],
+            "words": [
+              "r1.w11905",
+              "r1.w11911"
+            ],
+            "boxes": [
+              {
+                "page": 20,
+                "bbox": [
+                  264,
+                  1565,
+                  1209,
+                  1605
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 61,
+            "source_ref": "2(b)(18)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r39.rel61",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "DEPARTMENT OF ELECTRONIC"
+                },
+                {
+                  "type": "entry",
+                  "num": "3"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w12470",
+                "r1.w12480"
+              ],
+              "boxes": [
+                {
+                  "page": 21,
+                  "bbox": [
+                    178,
+                    1605,
+                    1179,
+                    1729
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "3A",
+                "text": "All technology pertaining to silicon, other than metallurgical grade silicon."
+              },
+              {
+                "type": "entry",
+                "num": "3B",
+                "text": "National Silicon Facility."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w12469",
+              "r1.w12474"
+            ],
+            "boxes": [
+              {
+                "page": 21,
+                "bbox": [
+                  221,
+                  1605,
+                  1171,
+                  1642
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 62,
+            "source_ref": "2(b)(19)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r39.rel62",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "DEPARTMENT OF ENVIRONMENT"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w12505",
+                "r1.w12516"
+              ],
+              "boxes": [
+                {
+                  "page": 21,
+                  "bbox": [
+                    178,
+                    2008,
+                    1179,
+                    2125
+                  ]
+                }
+              ]
+            },
+            "expect": "DEPARTMENT OF ENVIRONMENT (PARYAVARAN VIBHAG)",
+            "flags": [],
+            "words": [
+              "r1.w12504",
+              "r1.w12509"
+            ],
+            "boxes": [
+              {
+                "page": 21,
+                "bbox": [
+                  223,
+                  2008,
+                  1178,
+                  2045
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 63,
+            "source_ref": "2(b)(20)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r39.rel63",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "DEPARTMENT OF PARLIAMENTARY AFFAIRS"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w12522",
+                "r1.w12535"
+              ],
+              "boxes": [
+                {
+                  "page": 21,
+                  "bbox": [
+                    181,
+                    2164,
+                    1186,
+                    2292
+                  ]
+                }
+              ]
+            },
+            "expect": "DEPARTMENT OF PARLIAMENTARY AFFAIRS (SANSADIYA KARYA VIBHAG)",
+            "content": [
+              {
+                "type": "ministry",
+                "heading": "DEPARTMENT OF PERSONNEL AND AD- MINISTRATIVE REFORMS (KARMIK AUR PRASHASANIK SUDHAR VIBHAG)."
+              },
+              {
+                "type": "group_heading",
+                "num": "I",
+                "text": "Recruitment, Promotion and Morale of the Services:"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Reservation of posts in Services for certain . classes of citiens."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "General questions relating to recruitment, promotion and seniority pertaining to Central Services except Railway Services and Services under the control of the Department of Atomic Energy (Parmanu Oorja Vibhag), the Department of Electronics (Electroniki Vibhag), the Department of Space (Antariksh Vibhag) and the Scientific and Technical Services under the Department of Defence Research and Development (Raksha Anusandhan Tatha Vikas Vibhag)."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "General policy regarding age limits, medical standards, educational qualifications and recognition of non-technical degrees diplomas for appointment to Government service."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "General policy matters \" regarding classification of posts and grant of gazetted status in relation to Services other than Railway Services."
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "Recruitment of ministerial staff for the Government of India Secretariat and its attached offices, except that for the Ministry of Railways (Rail Mantralaya), the Department of Atomic Energy (Parmanu Oorja Vibhag) the Department of Electronic (Electroniki Vibhag), and the Department of Space (Antariksh Vighag)."
+              },
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "Appointment of non-Indians to Civil posts under the Government of India except posts under the Ministry of Railways (Rail Mantralaya), the Department of Atomic Energy (Parmanu Oorja Vibhag), the Department of Electronics (Electroniki Vibhag), and the Department of Space (Antarikhsh Vibhag)."
+              },
+              {
+                "type": "entry",
+                "num": "7",
+                "text": "General policy regarding employment assistance to persons of Indian origin coming from various countries."
+              },
+              {
+                "type": "entry",
+                "num": "8",
+                "text": "Concessions to War Service candidates in respect of appointments to Civil posts and services. : 9. General policy regarding resettlement of displaced Government servants from areas now in Pakistan, and retrenched temporary employees."
+              },
+              {
+                "type": "entry",
+                "num": "10",
+                "text": "Concessions to political sufferers in the matters of first appointment or reappointment to the Public Services."
+              },
+              {
+                "type": "entry",
+                "num": "11",
+                "text": "General policy regarding grant of extension to or re-employment of superannuated officers."
+              },
+              {
+                "type": "entry",
+                "num": "12",
+                "text": "Issue of certificates of eligibility for appointment to Civil Services and posts under the Union in respect of persons other than Indian citizens."
+              },
+              {
+                "type": "entry",
+                "num": "13",
+                "text": ""
+              },
+              {
+                "type": "item",
+                "num": "a",
+                "text": "Deputation of Indian experts abroad under the Indian Technical and Economic Cooperation Programme of the Ministry of External Affairs (Videsh Mantralaya) and on bilateral basis of the developing countries of Asia, Africa Africa and Latin America."
+              },
+              {
+                "type": "item",
+                "num": "b",
+                "text": "Deputation of officers or placements with the United Nations and its allied agencies as also with other international agencies like ILO, FAO, etc."
+              },
+              {
+                "type": "entry",
+                "num": "14",
+                "text": "General policy regarding, verification of charracter and antecedents-suitability of candidates for appointment to Government service."
+              },
+              {
+                "type": "entry",
+                "num": "15",
+                "text": "Policy matters relating to issue of No Objec- IV, Service Conditions. tion certificate to serving personnel for registration with the Employment. Exchange for higher posts."
+              },
+              {
+                "type": "entry",
+                "num": "16",
+                "text": "Matters relating to Personal Staff of Ministers."
+              },
+              {
+                "type": "entry",
+                "num": "17",
+                "text": "Re-deployment of staff rendered surplus in Central Government offices as a result of:—"
+              },
+              {
+                "type": "item",
+                "num": "i",
+                "text": "administrative reforms."
+              },
+              {
+                "type": "item",
+                "num": "ii",
+                "text": "studies made by the S.I.U."
+              },
+              {
+                "type": "item",
+                "num": "iii",
+                "text": "winding up of long term but temporary organisations."
+              },
+              {
+                "type": "entry",
+                "num": "18",
+                "text": "Advising Ministeries on proper management of various cadres under their control."
+              },
+              {
+                "type": "group_heading",
+                "num": "II",
+                "text": "Training"
+              },
+              {
+                "type": "entry",
+                "num": "19",
+                "text": ""
+              },
+              {
+                "type": "item",
+                "num": "a",
+                "text": "Formation and coordination of training policies for the All India and Central Services."
+              },
+              {
+                "type": "item",
+                "num": "b",
+                "text": "Lal Bahadur Shastri National Academy of Administration and Institute of Secretariat Traming and Management."
+              },
+              {
+                "type": "item",
+                "num": "c",
+                "text": "Traning programmes for the Indian Administrative Service and the Central Secretariat Service."
+              },
+              {
+                "type": "item",
+                "num": "d",
+                "text": "Preparation and publication of training material and of information of training techniques, facilities and programmes"
+              },
+              {
+                "type": "item",
+                "num": "e",
+                "text": "Liaison with training institutinos within the States and abroad."
+              },
+              {
+                "type": "item",
+                "num": "f",
+                "text": "Refresher and special courses for Middle and Senior Management levels."
+              },
+              {
+                "type": "group_heading",
+                "num": "III",
+                "text": "Vigilance and Discipline 20% (a) The Prevention of Corruption Act, 1947 the Central Bureau of Investigation (the Delhi Special Police Establishment. including the Legal Division, the Technical Division, the Policy Division and the Administration Division); the Food Offences Wing; and Economic Offences Wing."
+              },
+              {
+                "type": "item",
+                "num": "b",
+                "text": "Accord of sanction for the prosecution of any person for any offence investigated into by the Delhi Special Police Establishment where such sanction is required to be accorded by, the Central Government."
+              },
+              {
+                "type": "note",
+                "text": "NOTE: Sanction for the prosecution of any person for any offence not investigated into by the Delhi Special Police Establishment shall e accoded by the Administrative Department where such sanction is required to be accorded by the Central Government."
+              },
+              {
+                "type": "item",
+                "num": "c",
+                "text": "Central Vigilance Commission."
+              },
+              {
+                "type": "item",
+                "num": "d",
+                "text": "All policy matters pertaining to vigilance and discipline among pulic servants."
+              },
+              {
+                "type": "item",
+                "num": "e",
+                "text": "Relationship between members of Parlià- ment and the Administration."
+              },
+              {
+                "type": "entry",
+                "num": "21",
+                "text": "General questions (other than those which have a financial bearing) including Conduct • Rules relating to All dia and Urion Public Service except in regard to services under the control of the Ministry of Railways (Rail Mantralaya), the Department of Atomic Energy (Parmanu Oorja Vibhag) the Department of Electronics (Electroniki Vibhag), and the department of Space (Antariksh Vibhag)."
+              },
+              {
+                "type": "entry",
+                "num": "22",
+                "text": "Conditions of service of Central Government employees (excluding those under the control of the Ministry of Railways (Rail Mantralaya), the Department of Atomic Energy (Parmanu Oorja Vibhag), the Department of Electronics (Electroniki Vibhag), the Department of Space (Antariksh Vibhag) and the Scientific and Technical personnel under the Department of Defence Research and Development (Raksha Anusandhan Tatha Vikas Vibhag), other than those having a financial bearing and in so far as they raise points of general service interests."
+              },
+              {
+                "type": "entry",
+                "num": "23",
+                "text": ""
+              },
+              {
+                "type": "item",
+                "num": "a",
+                "text": "The administration of all Service Rules including F. Rs., S. Rs. and C.S.Rs. except-"
+              },
+              {
+                "type": "item",
+                "num": "i",
+                "text": "proposals relating to revisions of pay structure of employees"
+              },
+              {
+                "type": "item",
+                "num": "ii",
+                "text": "proposals for revisions of pay scales of Central Government employees"
+              },
+              {
+                "type": "item",
+                "num": "iii",
+                "text": "appointment of Pay Commission, processing of the recommendations and implementation thereof"
+              },
+              {
+                "type": "item",
+                "num": "iv",
+                "text": "dearness allowance and other compensatory allowances and travelling allowances"
+              },
+              {
+                "type": "item",
+                "num": "v",
+                "text": "pension structure and relief to pensioners"
+              },
+              {
+                "type": "item",
+                "num": "vi",
+                "text": "any new facility to Government employees by way of service conditions or fringe benefits which involve significant recurring financial implications and"
+              },
+              {
+                "type": "item",
+                "num": "vii",
+                "text": "matters relating to amendments to service rules having a predominantly financial character."
+              },
+              {
+                "type": "item",
+                "num": "b",
+                "text": "Initiation of proposals for new facility to Government employees by way of service conditions and fringe benefits involving significant recurring financial implications."
+              },
+              {
+                "type": "item",
+                "num": "c",
+                "text": "Issue of formal orders of the Government of India in matters. relating to amendments to service rules including those having a predominantly financial character referred to in item (vii) of clause (a)."
+              },
+              {
+                "type": "item",
+                "num": "d",
+                "text": "Relaxation and liberalisation of any service rules having a long-term financial implications in consultation with the Ministry of Finance. :23 II-3(il)]"
+              },
+              {
+                "type": "entry",
+                "num": "24",
+                "text": "Grants to the Indian Institute of Public Ad- VI. Government Employees Relations, including Staff ministration."
+              },
+              {
+                "type": "entry",
+                "num": "25",
+                "text": "Leave travel concession for civil employees other than Railway employees."
+              },
+              {
+                "type": "entry",
+                "num": "26",
+                "text": "The Central Services (Temporary Service) Rules, 1949."
+              },
+              {
+                "type": "entry",
+                "num": "27",
+                "text": "General policy regarding retrenchment and reversion of temporary Government servants except those under the Ministry of Railways (Rail Mantralaya)."
+              },
+              {
+                "type": "entry",
+                "num": "28",
+                "text": "Administration of the Central Services (Safeguarding of National Security) Rules."
+              },
+              {
+                "type": "entry",
+                "num": "29",
+                "text": "Uniforms for Class IV and other Government servants in the Central Secretariat and its attached offices."
+              },
+              {
+                "type": "entry",
+                "num": "30",
+                "text": "Working Hours and Holidays for Government of India offices."
+              },
+              {
+                "type": "entry",
+                "num": "31",
+                "text": "Administration of service rules with financial content under specific delegation made Grievances and Welfare."
+              },
+              {
+                "type": "entry",
+                "num": "39",
+                "text": ""
+              },
+              {
+                "type": "item",
+                "num": "a",
+                "text": "Service Associating of the industrial, and non-industrial employees of the Government of India."
+              },
+              {
+                "type": "item",
+                "num": "b",
+                "text": "Joint Consultative Machinery; Departmental Council for the Department of Personnel and Administrative Reforms (Karmik aur Prashasanik Sudhar Vibhag). . (c) Machinery for the redress of staff grievances."
+              },
+              {
+                "type": "item",
+                "num": "d",
+                "text": "Staff welfare including sports, cultural activities (Grih Kalyan Kendras, Canteens, Co-operative, Stores, etc.)."
+              },
+              {
+                "type": "item",
+                "num": "e",
+                "text": "Other matters involving Government Employees relations not specifically provided for under any other entry relating to the Department."
+              },
+              {
+                "type": "group_heading",
+                "num": "VII",
+                "text": "Union Public Service Commission"
+              },
+              {
+                "type": "entry",
+                "num": "40",
+                "text": "Union Public Service Commission."
+              },
+              {
+                "type": "group_heading",
+                "num": "VIII",
+                "text": "Centralised aspects of Managing IAS, Interby the Ministry of Finance (Vitta Mantra- Ministry cadres, including a Career Planning for the laya)."
+              },
+              {
+                "type": "entry",
+                "num": "32",
+                "text": "Advice on proposals in respect of the Ministry of Finance (Vitta Mantralaya) relating to the number or 1 grade of posts to the strength of a service or to the pay and allowances of Government servants or any other condtions of their service having financial implications."
+              },
+              {
+                "type": "entry",
+                "num": "33",
+                "text": "General policy regarding reimbursement of legal expenses incurred by Government servants."
+              },
+              {
+                "type": "entry",
+                "num": "34",
+                "text": "Proposals for grant of ex-officio Secretarial status."
+              },
+              {
+                "type": "entry",
+                "num": "35",
+                "text": "Honorary appointments of persons in civil posts."
+              },
+              {
+                "type": "entry",
+                "num": "36",
+                "text": "Oath of allegiance to the Constitution."
+              },
+              {
+                "type": "group_heading",
+                "num": "V",
+                "text": "Senior and Middle Management"
+              },
+              {
+                "type": "entry",
+                "num": "37",
+                "text": "All aspects of Senior Management (i.e. Joint Secretaries and above and their equivalents) including developments of personnel for it. members thereof."
+              },
+              {
+                "type": "entry",
+                "num": "41",
+                "text": ""
+              },
+              {
+                "type": "item",
+                "num": "a",
+                "text": "Creation of new All India Services."
+              },
+              {
+                "type": "item",
+                "num": "b",
+                "text": "Rules and Regulations under the All India Services Act, 1951."
+              },
+              {
+                "type": "item",
+                "num": "c",
+                "text": "All matters relating to the Indian Administrative Service, including the Indian Civil Service."
+              },
+              {
+                "type": "item",
+                "num": "d",
+                "text": "All India Civil List and History of Ser- { vices."
+              },
+              {
+                "type": "item",
+                "num": "e",
+                "text": "Central Secretariat Service, Central Sectariat Stenographers' Service and Central Secretariat Clerical Service."
+              },
+              {
+                "type": "group_heading",
+                "num": "IX",
+                "text": "Career Planning and Manpower Planning"
+              },
+              {
+                "type": "entry",
+                "num": "42",
+                "text": ""
+              },
+              {
+                "type": "item",
+                "num": "a",
+                "text": "General policy questions regarding Career Planning and Manpower Planning for the All India and Central Government Services."
+              },
+              {
+                "type": "item",
+                "num": "b",
+                "text": "All matters pertaining to Career Planning and Manpower Planning for the Indian Administrative Service and the Central Secretariat Service."
+              },
+              {
+                "type": "entry",
+                "num": "38",
+                "text": ""
+              },
+              {
+                "type": "item",
+                "num": "a",
+                "text": "Estalishment Officer to the Government of X. Personnel Management Agencies. India."
+              },
+              {
+                "type": "item",
+                "num": "b",
+                "text": "Appointments Committee of the Cabinet."
+              },
+              {
+                "type": "item",
+                "num": "c",
+                "text": "Central Establishment Board."
+              },
+              {
+                "type": "item",
+                "num": "d",
+                "text": "Career Development for Middle Management (i.e. Directors, Deputy and Under Secretaries and equivalents)."
+              },
+              {
+                "type": "entry",
+                "num": "43",
+                "text": "Coordination of the work of personnel management agencies within varicus Ministeries."
+              },
+              {
+                "type": "group_heading",
+                "num": "XI",
+                "text": "Research in Personnel Administration, etc."
+              },
+              {
+                "type": "entry",
+                "num": "44",
+                "text": "Research in Personnel Administration; liaison with State Governments, prefe-sional institutions etc. in personnel matters. THE GAZETTE FO INDIA: EXTRAORDINARY"
+              },
+              {
+                "type": "group_heading",
+                "num": "XII",
+                "text": "Allocation of personnel and integration of Services as a result of States Re-organisation"
+              },
+              {
+                "type": "entry",
+                "num": "45",
+                "text": ""
+              },
+              {
+                "type": "item",
+                "num": "a",
+                "text": "Allocation of service personnel affected by re-organisation of States."
+              },
+              {
+                "type": "item",
+                "num": "b",
+                "text": "Division and integration of services affected by the re-organisation of States other than in Union Territories."
+              },
+              {
+                "type": "item",
+                "num": "c",
+                "text": "Protection of service conditions of personnel affected by re-organisation of States."
+              },
+              {
+                "type": "item",
+                "num": "d",
+                "text": "Other matters relating to State Services affected by the re-organisation of States."
+              },
+              {
+                "type": "group_heading",
+                "num": "XIII",
+                "text": "Administrative Reforms"
+              },
+              {
+                "type": "entry",
+                "num": "46",
+                "text": "Administrative Reforms."
+              },
+              {
+                "type": "entry",
+                "num": "47",
+                "text": "Organisation and methods."
+              }
+            ],
+            "flags": [
+              "read_page_break"
+            ],
+            "words": [
+              "r1.w12520",
+              "r1.w12526"
+            ],
+            "boxes": [
+              {
+                "page": 21,
+                "bbox": [
+                  229,
+                  2164,
+                  1178,
+                  2207
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 64,
+            "source_ref": "2(b)(21)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r39.rel64",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "DEPARTMENT OF SCIENCE AND TECHNOLOGY"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w14233",
+                "r1.w14248"
+              ],
+              "boxes": [
+                {
+                  "page": 24,
+                  "bbox": [
+                    198,
+                    1136,
+                    1198,
+                    1258
+                  ]
+                }
+              ]
+            },
+            "expect": "DEPARTMENT OF SCIENCE AND TECHNOLOGY (VIGYAN AUR PRAUDYOGIKI VIBHAG)",
+            "flags": [],
+            "words": [
+              "r1.w14232",
+              "r1.w14237"
+            ],
+            "boxes": [
+              {
+                "page": 24,
+                "bbox": [
+                  243,
+                  1136,
+                  1195,
+                  1175
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 65,
+            "source_ref": "2(b)(22)(a)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r39.rel65",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "DEPARTMENT OF SPORTS"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w14271",
+                "r1.w14273"
+              ],
+              "boxes": [
+                {
+                  "page": 24,
+                  "bbox": [
+                    1531,
+                    421,
+                    1917,
+                    460
+                  ]
+                }
+              ]
+            },
+            "expect": "DEPARTMENT OF SPORTS (KHEL VIBHAĞ)",
+            "scope": "heading",
+            "content": [
+              {
+                "type": "ministry",
+                "heading": "DEPARTMENT OF YOUTH AFFAIRS AND SPORTS",
+                "heading_hi": "YUVAK KARYA- KARAM AUR KHEL VIBHAG"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w14269",
+              "r1.w14276"
+            ],
+            "boxes": [
+              {
+                "page": 24,
+                "bbox": [
+                  1388,
+                  421,
+                  2298,
+                  460
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 66,
+            "source_ref": "2(b)(22)(b)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r39.rel66",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "DEPARTMENT OF SPORTS"
+                },
+                {
+                  "type": "entry",
+                  "num": "3"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w14296",
+                "r1.w14297"
+              ],
+              "boxes": [
+                {
+                  "page": 24,
+                  "bbox": [
+                    1573,
+                    700,
+                    1723,
+                    742
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "Youth Affairs."
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "Youth hostels."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w14294",
+              "r1.w14302"
+            ],
+            "boxes": [
+              {
+                "page": 24,
+                "bbox": [
+                  1393,
+                  697,
+                  2300,
+                  743
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 67,
+            "source_ref": "2(b)(23)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r39.rel67",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "DEPARTMENT OF SUPPLY"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w14312",
+                "r1.w14322"
+              ],
+              "boxes": [
+                {
+                  "page": 24,
+                  "bbox": [
+                    1304,
+                    930,
+                    2299,
+                    1007
+                  ]
+                }
+              ]
+            },
+            "expect": "DEPARTMENT OF SUPPLY (POORTI VIBHAG)",
+            "flags": [],
+            "words": [
+              "r1.w14311",
+              "r1.w14316"
+            ],
+            "boxes": [
+              {
+                "page": 24,
+                "bbox": [
+                  1343,
+                  930,
+                  2296,
+                  967
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

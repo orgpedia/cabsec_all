@@ -1,0 +1,210 @@
+{
+  "file": {
+    "name": "1_Upload_48.pdf",
+    "file_id": "f_18f4b94ab292c2dd",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_48.pdf",
+    "sha256": "18f4b94ab292c2dd6bdd204db19da2813274a3166ee166e941669bb11b2ba6fe",
+    "govdoc": "1_Upload_48.pdf.govdoc.json.zst",
+    "revision": 46
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_489_1963",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_27_1963",
+      "fields": {
+        "number": {
+          "value": "S.O. 489"
+        },
+        "in_force": {
+          "value": null
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": null,
+          "basis": null
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T13:48:57.134201+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "(A)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r10.rel1",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "entry",
+                  "num": "2"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w103",
+                "r1.w104"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    914,
+                    1483,
+                    1052,
+                    1516
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "ministry",
+                "num": "2",
+                "heading": "Ministry of Community Development and Co-operation:"
+              },
+              {
+                "type": "department",
+                "num": "i",
+                "heading": "Department of Community Development."
+              },
+              {
+                "type": "department",
+                "num": "ii",
+                "heading": "Department of Co-operation."
+              }
+            ],
+            "flags": [
+              "read_hindi_missing"
+            ],
+            "words": [
+              "r1.w97",
+              "r1.w109"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  346,
+                  1483,
+                  1580,
+                  1516
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "(B)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r10.rel2",
+            "target": [
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "Ministry of Community Development, Panchayati Raj & Cooperation"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r1.w136",
+                  "r1.w147"
+                ],
+                "boxes": [
+                  {
+                    "page": 1,
+                    "bbox": [
+                      447,
+                      1730,
+                      1716,
+                      1798
+                    ]
+                  }
+                ]
+              },
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "Ministry of Community Development, Panchayati Raj & Cooperation"
+                  },
+                  {
+                    "type": "department",
+                    "heading": "Department of Community Development and Panchayati Raj"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r1.w149",
+                  "r1.w157"
+                ],
+                "boxes": [
+                  {
+                    "page": 1,
+                    "bbox": [
+                      449,
+                      1764,
+                      1717,
+                      1834
+                    ]
+                  }
+                ]
+              }
+            ],
+            "scope": "heading",
+            "content": [
+              {
+                "type": "text",
+                "text": "Ministry of Community Development and Cooperation."
+              },
+              {
+                "type": "department",
+                "num": "A",
+                "heading": "Department of Community Development"
+              }
+            ],
+            "flags": [
+              "read_hindi_missing"
+            ],
+            "words": [
+              "r1.w130",
+              "r1.w140"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  344,
+                  1730,
+                  1603,
+                  1766
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

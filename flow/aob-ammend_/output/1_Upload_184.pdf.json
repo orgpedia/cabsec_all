@@ -1,0 +1,342 @@
+{
+  "file": {
+    "name": "1_Upload_184.pdf",
+    "file_id": "f_54afc9e9c8eed27f",
+    "pages": 4,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_184.pdf",
+    "sha256": "54afc9e9c8eed27ffa6042a6ac2f5ec07d9ab44d199ceb11d3d8b09ae8e3646d",
+    "govdoc": "1_Upload_184.pdf.govdoc.json.zst",
+    "revision": 46
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_878E_1980",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_508_1980",
+      "fields": {
+        "number": {
+          "value": "S.O. 878(E)"
+        },
+        "in_force": {
+          "value": "1980-11-01"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "1980-11-01",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T13:49:13.409269+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(a)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r10.rel1",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "DEPARTMENT OF ELECTRONICS"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w442",
+                "r1.w450"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    479,
+                    414,
+                    1583,
+                    481
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "department",
+                "num": "26A",
+                "heading": "DEPARTMENT OF ENVIRONMENT (PARYAVARAN VI- BHAG)"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w437",
+              "r1.w444"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  422,
+                  414,
+                  1113,
+                  446
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(b)(i)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r10.rel2",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "DEPARTMENT OF ELECTRONICS"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w472",
+                "r1.w484"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    473,
+                    697,
+                    1585,
+                    766
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "ministry",
+                "heading": "DEPARTMENT OF ENVIRONMENT",
+                "heading_hi": "PARYAVARAN VIBHAG"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Environment and Ecology"
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "Botanical Survey of India"
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "Zoological Survey of India"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w471",
+              "r1.w477"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  421,
+                  697,
+                  1416,
+                  729
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 3,
+            "source_ref": "2(b)(ii)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r10.rel3",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "DEPARTMENT OF SCIENCE AND TECHNO- LOGY"
+                },
+                {
+                  "type": "entry",
+                  "num": "5"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w538",
+                "r1.w541"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    402,
+                    1172,
+                    879,
+                    1206
+                  ]
+                }
+              ]
+            },
+            "expect": "5. Environment and Ecology",
+            "flags": [],
+            "words": [
+              "r1.w514",
+              "r1.w521"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  412,
+                  1057,
+                  1396,
+                  1089
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 4,
+            "source_ref": "2(b)(ii)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r10.rel4",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "DEPARTMENT OF SCIENCE AND TECHNO- LOGY"
+                },
+                {
+                  "type": "entry",
+                  "num": "9"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w542",
+                "r1.w546"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    422,
+                    1227,
+                    880,
+                    1259
+                  ]
+                }
+              ]
+            },
+            "expect": "9. Botanical Survey of India",
+            "flags": [],
+            "words": [
+              "r1.w514",
+              "r1.w521"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  412,
+                  1057,
+                  1396,
+                  1089
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 5,
+            "source_ref": "2(b)(ii)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r10.rel5",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "DEPARTMENT OF SCIENCE AND TECHNO- LOGY"
+                },
+                {
+                  "type": "entry",
+                  "num": "10"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w547",
+                "r1.w551"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    408,
+                    1275,
+                    920,
+                    1308
+                  ]
+                }
+              ]
+            },
+            "expect": "10. Zoological Survey of India",
+            "flags": [],
+            "words": [
+              "r1.w514",
+              "r1.w521"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  412,
+                  1057,
+                  1396,
+                  1089
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

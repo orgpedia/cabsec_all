@@ -1,0 +1,317 @@
+{
+  "file": {
+    "name": "1_Upload_158.pdf",
+    "file_id": "f_bbbccf4529fee0b2",
+    "pages": 6,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_158.pdf",
+    "sha256": "bbbccf4529fee0b20ec806663ad62c1c3ff7bfb09ae469e9306cf3a882dbb66a",
+    "govdoc": "1_Upload_158.pdf.govdoc.json.zst",
+    "revision": 46
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_378E_1977",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_228_1977",
+      "fields": {
+        "number": {
+          "value": "S.O. 378(E)"
+        },
+        "in_force": {
+          "value": "1977-06-01"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "1977-06-01",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T13:49:50.400849+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r10.rel1",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "entry",
+                  "num": "1C"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w202",
+                "r1.w208"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    653,
+                    2117,
+                    1330,
+                    2156
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "ministry",
+                "num": "1C",
+                "heading": "Ministry of Commerce",
+                "heading_hi": "Vanijya Mantralaya",
+                "remark": "with a Department of Textiles (Vastar Vibhag ) Wwlthin the Ministry (Mantralaya)"
+              },
+              {
+                "type": "department",
+                "num": "-",
+                "heading": "Department of Textiles (Vastar Vibhag ) Wwlthin the Ministry (Mantralaya)"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w182",
+              "r1.w193"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  154,
+                  2084,
+                  1363,
+                  2120
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "3",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r10.rel2",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF COMMERCE"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w245",
+                "r1.w255"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    100,
+                    2325,
+                    1592,
+                    2402
+                  ]
+                }
+              ]
+            },
+            "expect": "MINISTRY OF COMMERCE (VANIJYA MANTRALAYA)",
+            "content": [
+              {
+                "type": "ministry",
+                "heading": "MINISTRY OF COMMERCE",
+                "heading_hi": "VANIJYA MANTRALAYA"
+              },
+              {
+                "type": "group_heading",
+                "num": "I",
+                "text": "General International Trade Policy 1 International Commercial Policy."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "International agencies principally connected with commercial policy (e.g. UNCTAD, ECAFE, ÉCA, ECIA, EEC, EFTA, GATT)."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "International commodity Agreements other than agreements relating to Wheat"
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "All matters relating to international trade policy including tariff and nontariff barriers II Foreign Trade"
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "All matters relating to foreign trade including trade negotiations, and agreements (including General Agreement on 'Tariffs and Trade and Commonwealth Tariff Preferences), trade missions and delegations trade cooperation and promotion, and protection of interests of Indian traders abroad."
+              },
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "Import and Export Trade Policy and Control excluding the matters relat ing to (1) import of feature films (11) export of Indian films-both feature length and shorts, and (11) import and distribution of cine-film (un-exposed) and other goods required by the film industry"
+              },
+              {
+                "type": "entry",
+                "num": "7",
+                "text": "Chief Controller of Imports and Exports."
+              },
+              {
+                "type": "group_heading",
+                "num": "III",
+                "text": "State Trading"
+              },
+              {
+                "type": "entry",
+                "num": "8",
+                "text": "Policies of State Trading and performance of organisations established for the purpose, including (1) State Trading Corporation and its following subsidiaries."
+              },
+              {
+                "type": "item",
+                "num": "a",
+                "text": "Cashew Corporation of India"
+              },
+              {
+                "type": "item",
+                "num": "b",
+                "text": "Projects & Equipment Corporation of India. (11) Minerals & Metals Trading Corporation."
+              },
+              {
+                "type": "group_heading",
+                "num": "IV",
+                "text": "Trading with the enemy; enemy property"
+              },
+              {
+                "type": "entry",
+                "num": "9",
+                "text": "Trading with the enemy, enemy firms and enemy property, reparations (other than German industrial equipment), Controller of Enemy Trading; Controller of Enemy firms, Custodian of Enemy Property for India"
+              },
+              {
+                "type": "entry",
+                "num": "10",
+                "text": "Tariff Commission [The Tariff Commission Act, 1951 (50 of 1951)], Tariff Protection to Industries, International Customs Tariff Bureau."
+              },
+              {
+                "type": "entry",
+                "num": "11",
+                "text": "Development and expansion of export production in relation to all commodities, products, manufactures, and semi-manufactures including the following:"
+              },
+              {
+                "type": "item",
+                "num": "a",
+                "text": "agricultural produce within the meaning of the Agricultural Produce (Grading and Marking) Act, 1937"
+              },
+              {
+                "type": "item",
+                "num": "b",
+                "text": "marine products"
+              },
+              {
+                "type": "item",
+                "num": "c",
+                "text": "industrial products (engineering goods, chemicals, plastics, leather products, etc)"
+              },
+              {
+                "type": "item",
+                "num": "d",
+                "text": "fuels, minerals and mineral products"
+              },
+              {
+                "type": "item",
+                "num": "e",
+                "text": "Specific export-oriented products (including plantation crops etc. but excluding jute products and handicrafts) which are directly the charge of this Department"
+              },
+              {
+                "type": "entry",
+                "num": "12",
+                "text": "All organisations and institutions connected with the provision of ser. vices relating to the export effort including."
+              },
+              {
+                "type": "item",
+                "num": "a",
+                "text": "Export Credit and Guarantee Corporation"
+              },
+              {
+                "type": "item",
+                "num": "b",
+                "text": "Export Inspection Council"
+              },
+              {
+                "type": "item",
+                "num": "c",
+                "text": "Directorate General of Commercial Intelligence and Statistics"
+              },
+              {
+                "type": "item",
+                "num": "d",
+                "text": "Directorate of Exhibitions and Commercial Publicity"
+              },
+              {
+                "type": "item",
+                "num": "e",
+                "text": "Free Trade-Zones."
+              },
+              {
+                "type": "entry",
+                "num": "13",
+                "text": "Projects and programmes for stimulating and assisting the export efforts"
+              },
+              {
+                "type": "entry",
+                "num": "14",
+                "text": "Production, distribution (for domestic consumption and exports ) and development of plantation crops, tea, coffee, rubber and Cardamon. 15 (1) Tea Trading Corporation of India. ( 12 ) Tea Board. (111) Coffee Board"
+              },
+              {
+                "type": "item",
+                "num": "iv",
+                "text": "Rubber Board"
+              },
+              {
+                "type": "item",
+                "num": "v",
+                "text": "Cardamom Board DEPARTMENT OF TEXTILES ( VASTR VIBHAG ) 1 Production, distribution (for domestic consumption and exports ) and development of all textiles, and woollens including handlooms and readymade garments, and industries relating to the production of silk and cellulosic flores but excluding non-cellulosic synthetic fibres ( nylon polyster, acrylic etc ), Jute, Jute products and Handicrafts. 2 Textile Commissioner 3 Jute Commissioner 4 Jute Corporation of India Limited 5 Cotton Corporation of India Limited 6 All India Handicrafts Board. 7 All India Handloom Board 9 [h National Textile Corporation Limited 4 Senculture 10 Central Silk Board 11 Handicrafts and Handlooms Export Corporation. 12 Handloom Development Commissioner"
+              }
+            ],
+            "flags": [
+              "read_page_break"
+            ],
+            "words": [
+              "r1.w236",
+              "r1.w255"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  100,
+                  2325,
+                  1592,
+                  2402
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

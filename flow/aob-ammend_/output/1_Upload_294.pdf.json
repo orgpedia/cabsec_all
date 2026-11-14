@@ -1,0 +1,831 @@
+{
+  "file": {
+    "name": "1_Upload_294.pdf",
+    "file_id": "f_854ec1a506df84e4",
+    "pages": 4,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_294.pdf",
+    "sha256": "854ec1a506df84e4077bb3ac29e66e950ef0a539a3d0c4d6cb64bedaedc245de",
+    "govdoc": "1_Upload_294.pdf.govdoc.json.zst",
+    "revision": 127
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_209E_2001",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_151_2001",
+      "fields": {
+        "number": {
+          "value": "S. O. 209 (E)"
+        },
+        "in_force": {
+          "value": "2001-03-07"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "2001-03-07",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T12:56:16.774699+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(1)(A)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r89.rel1",
+            "target": [
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "1"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "Ministry of Communications"
+                  },
+                  {
+                    "type": "department",
+                    "heading": "Department of Telecom Services"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r1.w1035",
+                  "r1.w1043"
+                ],
+                "boxes": [
+                  {
+                    "page": 3,
+                    "bbox": [
+                      507,
+                      1426,
+                      2197,
+                      1511
+                    ]
+                  }
+                ]
+              },
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "1"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "Ministry of Communications"
+                  },
+                  {
+                    "type": "department",
+                    "heading": "Department of Telecom Operations"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r1.w1045",
+                  "r1.w1053"
+                ],
+                "boxes": [
+                  {
+                    "page": 3,
+                    "bbox": [
+                      508,
+                      1473,
+                      2199,
+                      1558
+                    ]
+                  }
+                ]
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w1021",
+              "r1.w1031"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  400,
+                  1420,
+                  1311,
+                  1460
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(1)(B)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r89.rel2",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Human Resource Development"
+                },
+                {
+                  "type": "department",
+                  "heading": "Department of Secondary Education and Higher Education"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w1070",
+                "r1.w1086"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    506,
+                    1625,
+                    2197,
+                    1715
+                  ]
+                }
+              ]
+            },
+            "expect": "(ii) Department of Secondary Education and Higher Education (Madhyamik Shiksha aur Uchchatar Shiksha Vibhag)",
+            "content": [
+              {
+                "type": "department",
+                "num": "ii",
+                "heading": "Department of Secondary and Higher Education",
+                "heading_hi": "Madhyamik aur Uchchatar Shiksha Vibhag"
+              }
+            ],
+            "flags": [
+              "new_hindi_differs"
+            ],
+            "words": [
+              "r1.w1022",
+              "r1.w1064"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  407,
+                  1576,
+                  1329,
+                  1615
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 3,
+            "source_ref": "2(2)(A)(i)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r89.rel3",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF COMMUNICATIONS"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF TELECOMMUNICATIONS"
+                },
+                {
+                  "type": "entry",
+                  "num": "16"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w1129",
+                "r1.w1131"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    719,
+                    1942,
+                    943,
+                    1980
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "17",
+                "text": "Bharat Sanchar Nigam Limited."
+              },
+              {
+                "type": "entry",
+                "num": "18",
+                "text": "Mahanagar Telephone Nigam Limited, Videsh Sanchar Nigam Limited and Telecommunicaitons Consultants (India) Limited."
+              },
+              {
+                "type": "entry",
+                "num": "19",
+                "text": "All matters relating to Centre for Development of Telematics (C-DOT)."
+              },
+              {
+                "type": "entry",
+                "num": "20",
+                "text": "Residual work relating to the erstwhile Department of Telecom Services and Department of Telecom Operations including matters relating to the following:"
+              },
+              {
+                "type": "item",
+                "num": "a",
+                "text": "cadre control functions of Group 'A' and other categories of personnel till their absorption in Bharat Sanchar Nigam Limited"
+              },
+              {
+                "type": "item",
+                "num": "b",
+                "text": "administration and payment of terminal benefits."
+              },
+              {
+                "type": "entry",
+                "num": "21",
+                "text": "Execution of works purchase and acquisition of land debitable to the capital Budget pertaining to telecommunications."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w1118",
+              "r1.w1125"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  510,
+                  1893,
+                  1848,
+                  1930
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 4,
+            "source_ref": "2(2)(A)(ii)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r89.rel4",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF COMMUNICATIONS"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF POSTS"
+                },
+                {
+                  "type": "entry",
+                  "range": [
+                    "1",
+                    "6"
+                  ]
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w1245",
+                "r1.w1250"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    1779,
+                    2569,
+                    2140,
+                    2607
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Implementation of treaties and agreements relating to matters dealt within the Department of Posts with other countries."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "Execution of works, including purchase of land debitable to the Capital Budget pertaining to the Department of Posts."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "Posts, including Post Office Savings Banks (Administration), Post Office Certificate (Administration), Post Office Life Insurance Fund (Administration), printing of public postage stamps/commemorative stamps, premium postal products and any agency function."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "International relations in matters connected with postal communications, including matters relating to all international bodies dealing with postal communications such as Universal Postal Union. Asia Pacific Postal Union (APPU), Commonwealth Postal Union."
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "Matters relating to introduction, development and maintenance of all Postal Services including those based on cable, radio and Satellite communications channels:"
+              },
+              {
+                "type": "proviso",
+                "text": "Provided that these matters do not amount to broadcasting, narrowcasting, cable and radio networking services and are also not governed by the Indian Telegraph Act, 1885 and the rules made thereunder."
+              },
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "Promotion of feasibility survey, research and development in the field of activities allotted to the Department."
+              },
+              {
+                "type": "entry",
+                "num": "7",
+                "text": "Matters relating to administration of the Indian Post Office Act, 1898 and rules made thereunder as well as other law's or enactments having a bearing on postal activities, not specifically allotted to any other Department."
+              },
+              {
+                "type": "entry",
+                "num": "8",
+                "text": "Offences against laws with respect to any of the matters specified in this list"
+              },
+              {
+                "type": "entry",
+                "num": "9",
+                "text": "Inquiries and statistics for the purposes of any of the matters specified in this list."
+              },
+              {
+                "type": "entry",
+                "num": "10",
+                "text": "Fees in respect of any of the matters specified in this list but not including fees taken in any court."
+              }
+            ],
+            "flags": [
+              "read_page_break"
+            ],
+            "words": [
+              "r1.w1235",
+              "r1.w1242"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  447,
+                  2572,
+                  1440,
+                  2612
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 5,
+            "source_ref": "2(2)(A)(iii)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r89.rel5",
+            "target": [
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "MINISTRY OF COMMUNICATIONS"
+                  },
+                  {
+                    "type": "department",
+                    "heading": "DEPARTMENT OF TELECOM SERVICES"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r1.w1530",
+                  "r1.w1538"
+                ],
+                "boxes": [
+                  {
+                    "page": 4,
+                    "bbox": [
+                      741,
+                      1055,
+                      2138,
+                      1096
+                    ]
+                  }
+                ]
+              },
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "MINISTRY OF COMMUNICATIONS"
+                  },
+                  {
+                    "type": "department",
+                    "heading": "DEPARTMENT OF TELECOM OPERATIONS"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r1.w1540",
+                  "r1.w1548"
+                ],
+                "boxes": [
+                  {
+                    "page": 4,
+                    "bbox": [
+                      516,
+                      1107,
+                      2140,
+                      1142
+                    ]
+                  }
+                ]
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w1528",
+              "r1.w1534"
+            ],
+            "boxes": [
+              {
+                "page": 4,
+                "bbox": [
+                  441,
+                  1055,
+                  1505,
+                  1096
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 6,
+            "source_ref": "2(2)(B)(i)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r89.rel6",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF FINANCE"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF ECONOMIC AFFAIRS"
+                },
+                {
+                  "type": "entry",
+                  "num": "1"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w1577",
+                "r1.w1579"
+              ],
+              "boxes": [
+                {
+                  "page": 4,
+                  "bbox": [
+                    516,
+                    1280,
+                    2211,
+                    1374
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Administration of the Foreign Exchange Management Act, 1999 (42 of 1999) other than enforcement work mentioned under the Department of Revenue (Rajaswa Vibhag)"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w1565",
+              "r1.w1572"
+            ],
+            "boxes": [
+              {
+                "page": 4,
+                "bbox": [
+                  459,
+                  1283,
+                  1480,
+                  1325
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 7,
+            "source_ref": "2(2)(B)(ii)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r89.rel7",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF FINANCE"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF REVENUE"
+                },
+                {
+                  "type": "entry",
+                  "num": "17"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w1621",
+                "r1.w1623"
+              ],
+              "boxes": [
+                {
+                  "page": 4,
+                  "bbox": [
+                    1940,
+                    1502,
+                    2147,
+                    1539
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "17",
+                "text": "Enforcement, viz., investigation, and adjudication of cases arising out of breaches under the Foreign Exchange Management Act, 1999 (42 of 1999), Directorate General of Revenue Intelligence and Directorate of Enforcement."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w1611",
+              "r1.w1618"
+            ],
+            "boxes": [
+              {
+                "page": 4,
+                "bbox": [
+                  452,
+                  1504,
+                  1504,
+                  1545
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 8,
+            "source_ref": "2(2)(C)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r89.rel8",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF HEALTH AND FAMILY WELFARE"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF INDIAN SYSTEMS OF MEDICINE AND HOMOEOPATHY"
+                },
+                {
+                  "type": "entry",
+                  "num": "14"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w1695",
+                "r1.w1697"
+              ],
+              "boxes": [
+                {
+                  "page": 4,
+                  "bbox": [
+                    740,
+                    1930,
+                    963,
+                    1969
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "15, Medicinal Plant Board."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w1662",
+              "r1.w1669"
+            ],
+            "boxes": [
+              {
+                "page": 4,
+                "bbox": [
+                  447,
+                  1779,
+                  1355,
+                  1825
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 9,
+            "source_ref": "2(2)(D)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r89.rel9",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF HUMAN RESOURCE DEVELOPMENT"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF SECONDARY EDUCATION AND HIGHER EDUCATION"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w1722",
+                "r1.w1738"
+              ],
+              "boxes": [
+                {
+                  "page": 4,
+                  "bbox": [
+                    526,
+                    2094,
+                    2214,
+                    2192
+                  ]
+                }
+              ]
+            },
+            "expect": "B. DEPARTMENT OF SECONDARY EDUCATION AND HIGHER EDUCATION (MADHYMIK SHIKSHA AUR UCHCHATAR SHIKSHA VIBHAG)",
+            "scope": "heading",
+            "content": [
+              {
+                "type": "department",
+                "num": "B",
+                "heading": "DEPARTMENT OF SECONDARY AND HIGHER EDUCATION",
+                "heading_hi": "MADHYMIK AUR UCHCHATAR SHIKSHA VIBHAG"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w1709",
+              "r1.w1716"
+            ],
+            "boxes": [
+              {
+                "page": 4,
+                "bbox": [
+                  447,
+                  2049,
+                  1476,
+                  2099
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 10,
+            "source_ref": "2(2)(E)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r89.rel10",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF LAW, JUSTICE AND COMPANY AFFAIRS"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF LEGAL AFFAIRS"
+                },
+                {
+                  "type": "entry",
+                  "num": "13"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w1786",
+                "r1.w1788"
+              ],
+              "boxes": [
+                {
+                  "page": 4,
+                  "bbox": [
+                    1186,
+                    2476,
+                    1386,
+                    2514
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "13",
+                "text": "Appellate Tribunal for Foreign Exchange."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w1758",
+              "r1.w1765"
+            ],
+            "boxes": [
+              {
+                "page": 4,
+                "bbox": [
+                  458,
+                  2378,
+                  1364,
+                  2424
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

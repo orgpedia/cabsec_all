@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_3012.pdf",
     "sha256": "53996c47140650184024b7a6e6fb574795769c1f040abd0cf520e792c3a7c896",
     "govdoc": "1_Upload_3012.pdf.govdoc.json.zst",
-    "revision": 69
+    "revision": 218
   },
   "documents": [
     {
@@ -29,9 +29,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "2",
+          "version": "3",
           "model": "gemini-4-argon",
-          "at": "2026-11-03T16:59:03.212601+00:00"
+          "at": "2026-11-12T12:55:58.307537+00:00"
         },
         "ops": [
           {
@@ -39,6 +39,7 @@
             "source_ref": "2(a)(i)",
             "op": "replace",
             "akn_type": "replacement",
+            "relation": "r182.rel1",
             "target": {
               "cited": [
                 {
@@ -56,8 +57,8 @@
               ],
               "eId": null,
               "words": [
-                "r21.w720",
-                "r21.w736"
+                "r76.w720",
+                "r76.w736"
               ],
               "boxes": [
                 {
@@ -83,8 +84,8 @@
             ],
             "flags": [],
             "words": [
-              "r21.w704",
-              "r21.w714"
+              "r76.w704",
+              "r76.w714"
             ],
             "boxes": [
               {
@@ -103,6 +104,7 @@
             "source_ref": "2(a)(ii)",
             "op": "replace",
             "akn_type": "replacement",
+            "relation": "r182.rel2",
             "target": [
               {
                 "cited": [
@@ -117,8 +119,8 @@
                 ],
                 "eId": null,
                 "words": [
-                  "r21.w782",
-                  "r21.w789"
+                  "r76.w782",
+                  "r76.w789"
                 ],
                 "boxes": [
                   {
@@ -145,8 +147,8 @@
                 ],
                 "eId": null,
                 "words": [
-                  "r21.w791",
-                  "r21.w796"
+                  "r76.w791",
+                  "r76.w796"
                 ],
                 "boxes": [
                   {
@@ -184,8 +186,8 @@
             ],
             "flags": [],
             "words": [
-              "r21.w756",
-              "r21.w768"
+              "r76.w756",
+              "r76.w768"
             ],
             "boxes": [
               {
@@ -204,6 +206,7 @@
             "source_ref": "2(b)(i)(A)",
             "op": "replace",
             "akn_type": "replacement",
+            "relation": "r182.rel3",
             "target": {
               "cited": [
                 {
@@ -221,8 +224,8 @@
               ],
               "eId": null,
               "words": [
-                "r21.w846",
-                "r21.w862"
+                "r76.w846",
+                "r76.w862"
               ],
               "boxes": [
                 {
@@ -248,8 +251,8 @@
             ],
             "flags": [],
             "words": [
-              "r21.w845",
-              "r21.w854"
+              "r76.w845",
+              "r76.w854"
             ],
             "boxes": [
               {
@@ -268,6 +271,7 @@
             "source_ref": "2(b)(i)(B)",
             "op": "omit",
             "akn_type": "repeal",
+            "relation": "r182.rel4",
             "target": [
               {
                 "cited": [
@@ -290,8 +294,8 @@
                 ],
                 "eId": null,
                 "words": [
-                  "r21.w905",
-                  "r21.w905"
+                  "r76.w905",
+                  "r76.w905"
                 ],
                 "boxes": [
                   {
@@ -326,8 +330,8 @@
                 ],
                 "eId": null,
                 "words": [
-                  "r21.w906",
-                  "r21.w906"
+                  "r76.w906",
+                  "r76.w906"
                 ],
                 "boxes": [
                   {
@@ -362,8 +366,8 @@
                 ],
                 "eId": null,
                 "words": [
-                  "r21.w907",
-                  "r21.w907"
+                  "r76.w907",
+                  "r76.w907"
                 ],
                 "boxes": [
                   {
@@ -398,8 +402,8 @@
                 ],
                 "eId": null,
                 "words": [
-                  "r21.w908",
-                  "r21.w908"
+                  "r76.w908",
+                  "r76.w908"
                 ],
                 "boxes": [
                   {
@@ -434,8 +438,8 @@
                 ],
                 "eId": null,
                 "words": [
-                  "r21.w910",
-                  "r21.w910"
+                  "r76.w910",
+                  "r76.w910"
                 ],
                 "boxes": [
                   {
@@ -453,8 +457,8 @@
             "ref_seq": 3,
             "flags": [],
             "words": [
-              "r21.w883",
-              "r21.w892"
+              "r76.w883",
+              "r76.w892"
             ],
             "boxes": [
               {
@@ -473,6 +477,7 @@
             "source_ref": "2(b)(ii)",
             "op": "replace",
             "akn_type": "replacement",
+            "relation": "r182.rel5",
             "target": {
               "cited": [
                 {
@@ -494,8 +499,8 @@
               ],
               "eId": null,
               "words": [
-                "r21.w936",
-                "r21.w939"
+                "r76.w936",
+                "r76.w939"
               ],
               "boxes": [
                 {
@@ -518,8 +523,8 @@
             ],
             "flags": [],
             "words": [
-              "r21.w914",
-              "r21.w924"
+              "r76.w914",
+              "r76.w924"
             ],
             "boxes": [
               {
@@ -538,6 +543,7 @@
             "source_ref": "2(b)(iii)",
             "op": "insert",
             "akn_type": "insertion",
+            "relation": "r182.rel6",
             "position": "after",
             "anchor": {
               "cited": [
@@ -556,8 +562,8 @@
               ],
               "eId": null,
               "words": [
-                "r21.w973",
-                "r21.w1008"
+                "r76.w973",
+                "r76.w1008"
               ],
               "boxes": [
                 {
@@ -589,7 +595,7 @@
               {
                 "type": "entry",
                 "num": "2",
-                "text": "Realisation of vision “from cooperation to prosperity”."
+                "text": "Realisation of vision “from cooperation to prosperity"
               },
               {
                 "type": "entry",
@@ -635,8 +641,8 @@
               "read_page_break"
             ],
             "words": [
-              "r21.w972",
-              "r21.w983"
+              "r76.w972",
+              "r76.w983"
             ],
             "boxes": [
               {

@@ -1,0 +1,373 @@
+{
+  "file": {
+    "name": "1_Upload_320.pdf",
+    "file_id": "f_500a44e2de4cc5ac",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_320.pdf",
+    "sha256": "500a44e2de4cc5ac4d87500df752b9478843e1e93d424c6cc9bd5e38b37d9550",
+    "govdoc": "1_Upload_320.pdf.govdoc.json.zst",
+    "revision": 147
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_1032E_2004",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_808_2004",
+      "fields": {
+        "number": {
+          "value": "S.O. 1032(E)"
+        },
+        "in_force": {
+          "value": "2004-09-22"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "2004-09-22",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T12:55:58.132309+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(1)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r111.rel1",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Defence"
+                },
+                {
+                  "type": "department",
+                  "heading": "Department of Defence Research and Development"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r5.w495",
+                "r5.w508"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    479,
+                    1524,
+                    2181,
+                    1617
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "department",
+                "num": "iv",
+                "heading": "Department of Ex-Servicemen Welfare",
+                "heading_hi": "Bhootpoorva Sainik Kalyan Vibhag"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r5.w481",
+              "r5.w488"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  412,
+                  1524,
+                  1118,
+                  1566
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(2)(A)(a)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r111.rel2",
+            "target": [
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "MINISTRY OF DEFENCE"
+                  },
+                  {
+                    "type": "department",
+                    "heading": "DEPARTMENT OF DEFENCE"
+                  },
+                  {
+                    "type": "entry",
+                    "num": "14"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r5.w549",
+                  "r5.w549"
+                ],
+                "boxes": [
+                  {
+                    "page": 2,
+                    "bbox": [
+                      2026,
+                      1853,
+                      2063,
+                      1891
+                    ]
+                  }
+                ]
+              },
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "MINISTRY OF DEFENCE"
+                  },
+                  {
+                    "type": "department",
+                    "heading": "DEPARTMENT OF DEFENCE"
+                  },
+                  {
+                    "type": "entry",
+                    "num": "20"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r5.w551",
+                  "r5.w551"
+                ],
+                "boxes": [
+                  {
+                    "page": 2,
+                    "bbox": [
+                      2137,
+                      1852,
+                      2179,
+                      1890
+                    ]
+                  }
+                ]
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r5.w539",
+              "r5.w545"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  545,
+                  1855,
+                  1503,
+                  1898
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 3,
+            "source_ref": "2(2)(A)(b)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r111.rel3",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF DEFENCE"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF DEFENCE RESEARCH AND DEVELOPMENT"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r5.w556",
+                "r5.w573"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    616,
+                    1961,
+                    2179,
+                    2051
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "department",
+                "num": "D",
+                "heading": "DEPARTMENT OF EX-SERVICEMEN WELFARE",
+                "heading_hi": "BHOOTPOORVA SAINIK KALYAN .....-... VIBHAG"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Matters relating to Ex-servicemen including pensioners."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "Ex-Servicemen Contributory Health Scheme."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "Matters relating to Directorate General of Resettlenient and Kendriya Sainik Board."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "Administration of-"
+              },
+              {
+                "type": "item",
+                "num": "a",
+                "text": "the Pension Regulations for the Army, 1961 (Parts I and II) ·"
+              },
+              {
+                "type": "item",
+                "num": "b",
+                "text": "the Pension Regulations for the Air Force, 1961 (Parts I and II)"
+              },
+              {
+                "type": "item",
+                "num": "c",
+                "text": "the Navy (Pension) Regulations, 1964; and"
+              },
+              {
+                "type": "item",
+                "num": "d",
+                "text": "the Entitlement Rules to Casualty Pensionary Awards to the Armed Forces Personnel"
+              },
+              {
+                "type": "entry",
+                "num": "1982"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r5.w555",
+              "r5.w561"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  551,
+                  1965,
+                  1418,
+                  2004
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 4,
+            "source_ref": "2(2)(B)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r111.rel4",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF STATISTICS AND PROGRAMME IMPLEMENTATION"
+                },
+                {
+                  "type": "entry",
+                  "num": "21"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r5.w680",
+                "r5.w682"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1838,
+                    2784,
+                    2061,
+                    2824
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "22",
+                "text": "Coordination and policy issues relating to National Common Minimum Programme excluding sectoral policies allocated to other Ministries/Departments."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r5.w667",
+              "r5.w674"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  555,
+                  2735,
+                  1792,
+                  2780
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

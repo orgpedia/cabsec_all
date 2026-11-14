@@ -1,0 +1,842 @@
+{
+  "file": {
+    "name": "1_Upload_335.pdf",
+    "file_id": "f_2e082903bb9963f6",
+    "pages": 6,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_335.pdf",
+    "sha256": "2e082903bb9963f6c4b7e163dec3a36c31ab49172c1d57a0282119c57d70c16e",
+    "govdoc": "1_Upload_335.pdf.govdoc.json.zst",
+    "revision": 157
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_1050E_2007",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_785_2007",
+      "fields": {
+        "number": {
+          "value": "S.O. 1050(E)"
+        },
+        "in_force": {
+          "value": "2007-06-28"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "2007-06-28",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-14T08:02:13.323227+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(1)(a)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r147.rel1",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Defence"
+                },
+                {
+                  "type": "department",
+                  "heading": "Depart- ment of Ex-Servicemen Welfare"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r6.w1311",
+                "r6.w1323"
+              ],
+              "boxes": [
+                {
+                  "page": 4,
+                  "bbox": [
+                    668,
+                    1022,
+                    2239,
+                    1111
+                  ]
+                }
+              ]
+            },
+            "expect": "(iv) Depart- ment of Ex-Servicemen Welfare (Bhootpoorva Sainik Kalyan Vibhag)",
+            "scope": "heading",
+            "content": [
+              {
+                "type": "department",
+                "num": "iv",
+                "heading": "Department of Ex-Servicemen Welfare",
+                "heading_hi": "Poorva Senani Kalyan Vibhag"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r6.w1301",
+              "r6.w1308"
+            ],
+            "boxes": [
+              {
+                "page": 4,
+                "bbox": [
+                  586,
+                  1017,
+                  1332,
+                  1059
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(1)(b)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r147.rel2",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Finance"
+                },
+                {
+                  "type": "department",
+                  "heading": "Depart- ment of Disinvestment"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r6.w1350",
+                "r6.w1359"
+              ],
+              "boxes": [
+                {
+                  "page": 4,
+                  "bbox": [
+                    668,
+                    1271,
+                    2236,
+                    1356
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "department",
+                "num": "v",
+                "heading": "Department of Financial Services",
+                "heading_hi": "Vittiy Sewayen Vibhag"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r6.w1340",
+              "r6.w1347"
+            ],
+            "boxes": [
+              {
+                "page": 4,
+                "bbox": [
+                  601,
+                  1266,
+                  1343,
+                  1308
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 3,
+            "source_ref": "2(2)(a)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r147.rel3",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF COMMERCE AND INDUSTRY"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF COMMERCE"
+                },
+                {
+                  "type": "group_heading",
+                  "heading": "IV. TRADING WITH THE ENEMY: ENEMY PROPERTY"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r6.w1402",
+                "r6.w1414"
+              ],
+              "boxes": [
+                {
+                  "page": 4,
+                  "bbox": [
+                    666,
+                    1646,
+                    2153,
+                    1688
+                  ]
+                }
+              ]
+            },
+            "expect": "IV. TRADING WITH THE ENEMY: ENEMY PROPERTY",
+            "flags": [],
+            "words": [
+              "r6.w1380",
+              "r6.w1387"
+            ],
+            "boxes": [
+              {
+                "page": 4,
+                "bbox": [
+                  601,
+                  1544,
+                  1574,
+                  1583
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 4,
+            "source_ref": "2(2)(b)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r147.rel4",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF DEFENCE"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF EX-SERVICEMEN WELFARE"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r6.w1427",
+                "r6.w1444"
+              ],
+              "boxes": [
+                {
+                  "page": 4,
+                  "bbox": [
+                    662,
+                    1772,
+                    2234,
+                    1911
+                  ]
+                }
+              ]
+            },
+            "expect": "D. DEPARTMENT OF EX-SERVICEMEN WELFARE (BHOOTPOORVA SAINIK KALYAN VIBHAG)",
+            "content": [
+              {
+                "type": "department",
+                "num": "D",
+                "heading": "DEPARTMENT OF EX-SERVICEMEN WELFARE",
+                "heading_hi": "POORVA SENANI KALYAN VIBHAG"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Matters relating to Armed Forces Veterans (Ex-Servicemen) including pensioners."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "Armed Forces Veterans (Ex-Servicemen) Contributory Health Scheme."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r6.w1418",
+              "r6.w1425"
+            ],
+            "boxes": [
+              {
+                "page": 4,
+                "bbox": [
+                  600,
+                  1765,
+                  1594,
+                  1807
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 5,
+            "source_ref": "2(2)(c)(i)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "h2.r1",
+            "target": [
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "MINISTRY OF FINANCE"
+                  },
+                  {
+                    "type": "department",
+                    "heading": "DEPARTMENT OF ECONOMIC AFFAIRS"
+                  },
+                  {
+                    "type": "group_heading",
+                    "heading": "V. INSURANCE"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r6.w1502",
+                  "r6.w1515"
+                ],
+                "boxes": [
+                  {
+                    "page": 4,
+                    "bbox": [
+                      773,
+                      2346,
+                      2232,
+                      2431
+                    ]
+                  }
+                ]
+              },
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "MINISTRY OF FINANCE"
+                  },
+                  {
+                    "type": "department",
+                    "heading": "DEPARTMENT OF ECONOMIC AFFAIRS"
+                  },
+                  {
+                    "type": "group_heading",
+                    "heading": "VI. BANKING"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r6.w1490",
+                  "r6.w1497"
+                ],
+                "boxes": [
+                  {
+                    "page": 4,
+                    "bbox": [
+                      712,
+                      2297,
+                      1719,
+                      2336
+                    ]
+                  }
+                ]
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r6.w1490",
+              "r6.w1497"
+            ],
+            "boxes": [
+              {
+                "page": 4,
+                "bbox": [
+                  712,
+                  2297,
+                  1719,
+                  2336
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 6,
+            "source_ref": "2(2)(c)(ii)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r147.rel6",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF FINANCE"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF DISINVESTMENT"
+                },
+                {
+                  "type": "entry",
+                  "num": "1"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r6.w1529",
+                "r6.w1531"
+              ],
+              "boxes": [
+                {
+                  "page": 4,
+                  "bbox": [
+                    771,
+                    2475,
+                    2233,
+                    2560
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "1 (a). All matters relating to disinvestment of Central Government equity from Central Public Sector Undertakings."
+              },
+              {
+                "type": "item",
+                "num": "b",
+                "text": ". All matters relating to sale of Central Government equity through offer for sale or private placement in the erstwhile Central Public Sector Undertakings."
+              },
+              {
+                "type": "note",
+                "text": "Note. All other post disinvestment matters, including those relating to and arising out of the exercise of Call option by the Strategic Partner in the erstwhile Central Public Sector Undertakings, shall continue to be handled by the administrative Ministry or Department concerned, where necessary, in consultation with the Department of Disinvestment."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r6.w1519",
+              "r6.w1526"
+            ],
+            "boxes": [
+              {
+                "page": 4,
+                "bbox": [
+                  704,
+                  2470,
+                  1770,
+                  2510
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 7,
+            "source_ref": "2(2)(c)(iii)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r147.rel7",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF FINANCE"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF DISINVESTMENT"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r6.w1632",
+                "r6.w1660"
+              ],
+              "boxes": [
+                {
+                  "page": 4,
+                  "bbox": [
+                    841,
+                    3126,
+                    2456,
+                    3172
+                  ]
+                },
+                {
+                  "page": 5,
+                  "bbox": [
+                    727,
+                    298,
+                    1224,
+                    339
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "department",
+                "num": "E",
+                "heading": "DEPARTMENT OF FINANCIAL SERVICES I INSURANCE",
+                "heading_hi": "VITTIYA SEWAYEN VIBHAG"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Policy relating to general insurance; administration of the Insurance Act, 1938 (4 of 1938) and the General Insurance Business (Nationalisation) Act, 1972 (57 of 1972) and related matters, General Insurance and Reinsurance Companies in Public Sector."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "Policy relating to life insurance; Administration of the Life Insurance Corporation Act, 1956 (31 of 1956); and related matters, Life Insurance Corporation of India."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "Administration of the Insurance Regulatory and Development Authority Act, 1999 (41 of 1999) and related matters."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "The responsibility of the Central Government relating to matters concerning centrally administered areas in respect of any of the entries from 1 to 3 above."
+              },
+              {
+                "type": "group_heading",
+                "num": "II",
+                "text": "BANKING"
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "All matters relating to Indian banks, whether nationalised or not."
+              },
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "All matters relating to foreign banks so far as their operations in India are concerned."
+              },
+              {
+                "type": "entry",
+                "num": "7",
+                "text": "All matters relating to Reserve Bank of India."
+              },
+              {
+                "type": "entry",
+                "num": "8",
+                "text": "All matters relating to Cooperative Banking."
+              },
+              {
+                "type": "entry",
+                "num": "9",
+                "text": "Matters concerning All India Development Financial Institutions, including those relating to, Industrial Development Bank of India (IDBI), IFCI Limited, Small Scale Industrial Development Bank of India (SIDBI) and Industrial Investment Bank of India (IIBI)."
+              },
+              {
+                "type": "entry",
+                "num": "10",
+                "text": "Matters concerning Export-Import Bank of India."
+              },
+              {
+                "type": "entry",
+                "num": "11",
+                "text": "Administration of the Shipping Development Fund Committee (Abolition) Act 1986 (66 of 1986)."
+              },
+              {
+                "type": "entry",
+                "num": "12",
+                "text": "Matters relating to Scindhia Steamship Navigation Company."
+              },
+              {
+                "type": "entry",
+                "num": "13",
+                "text": "Matters relating to Infrastructure Development Finance Corporation (IDFC) and Infrastructure Leasing and Financial Services (ILFS)."
+              },
+              {
+                "type": "entry",
+                "num": "14",
+                "text": "Chit Fund and other non-banking companies accepting deposits."
+              },
+              {
+                "type": "entry",
+                "num": "15",
+                "text": "Other matters relating to Banking in India."
+              },
+              {
+                "type": "entry",
+                "num": "16",
+                "text": "Matters relating to National Bank for Agriculture and Rural Development (NABARD)."
+              },
+              {
+                "type": "entry",
+                "num": "17",
+                "text": "Administration of the Regional Rural Banks Act, 1976 (21 of 1976)."
+              },
+              {
+                "type": "entry",
+                "num": "18",
+                "text": "Administration of the Recovery of Debts Due to Banks and Financial Institutions Act, 1993 (51 of 1993)."
+              },
+              {
+                "type": "entry",
+                "num": "19",
+                "text": "Matters relating to implementation of the State Financial Corporation Act, 1951 (63 of 1951)."
+              },
+              {
+                "type": "entry",
+                "num": "20",
+                "text": "Matters relating to implementation of the Sick Industrial Companies (Special Provisions) Act, 1985 including matters relating to Board for Industrial Financial Reconstruction (BIFR) and Appellate Authority for Industrial Financial Reconstruction (AAIFR)."
+              },
+              {
+                "type": "entry",
+                "num": "21",
+                "text": "All matters relating to National Housing Bank."
+              },
+              {
+                "type": "entry",
+                "num": "22",
+                "text": "Administration of all other statutes, regulations and other laws connected with entries 38, 45 and 46 of the Union List and entry 9 of the Concurrent List. } 244165/07-2"
+              },
+              {
+                "type": "entry",
+                "num": "23",
+                "text": "Matters concerning Securitisation and Foreclosure."
+              },
+              {
+                "type": "entry",
+                "num": "24",
+                "text": "Administration of the Special Court (Trial of Offences Relating to Transactions in Securities) Act, 1992 (27 of 1992)."
+              },
+              {
+                "type": "entry",
+                "num": "25",
+                "text": "Administration of the Banking Regulation Act, 1949 (10 of 1949), the Banking Com- - panies (Acquisition and Transfer of Undertakings) Act, 1970 (5 of 1970) and the Banking Companies (Acquisition and Transfer of Undertakings) Act, 1980 (40 of 1980), the Bankers' Books Evidence Act, 1891 (18 of 1891) and the Banking Service Commission Act, 1984 (44 of 1984)."
+              },
+              {
+                "type": "entry",
+                "num": "26",
+                "text": "Administration of the State Bank of India Act, 1955 (23 of 1955) and the State Bank of India (Subsidiary Banks) Act, 1959 (38 of 1959)."
+              },
+              {
+                "type": "entry",
+                "num": "27",
+                "text": "The Reserve Bank of India (Amendment and Miscellaneous Provisions) Act, 1953 (54 of 1953)."
+              },
+              {
+                "type": "entry",
+                "num": "28",
+                "text": "Administration of the State Agricultural Credit Corporation Act, 1968 (60 of 1968)."
+              },
+              {
+                "type": "entry",
+                "num": "29",
+                "text": "Administration of the Public Financial Institutions (Obligation as to Fidelity and Secrecy) Act, 1983 (48 of 1983)."
+              },
+              {
+                "type": "entry",
+                "num": "30",
+                "text": "Administration of the Deposit Insurance and Credit Guarantee Corporation Act 1961 (47 of 1961)."
+              },
+              {
+                "type": "entry",
+                "num": "31",
+                "text": "Administration of the Negotiable Instruments Act, 1881 (26 of 1881)."
+              },
+              {
+                "type": "group_heading",
+                "num": "III",
+                "text": "PENSION REFORMS."
+              }
+            ],
+            "flags": [
+              "read_page_break"
+            ],
+            "words": [
+              "r6.w1631",
+              "r6.w1638"
+            ],
+            "boxes": [
+              {
+                "page": 4,
+                "bbox": [
+                  766,
+                  3126,
+                  1841,
+                  3169
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 8,
+            "source_ref": "2(2)(d)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r147.rel8",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF HOME AFFAIRS"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF INTERNAL SECURITY"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r6.w2264",
+                "r6.w2280"
+              ],
+              "boxes": [
+                {
+                  "page": 6,
+                  "bbox": [
+                    633,
+                    1510,
+                    2205,
+                    1639
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "group_heading",
+                "num": "IV",
+                "text": "TRADING WITH THE ENEMY: ENEMY PROPERTY"
+              },
+              {
+                "type": "entry",
+                "num": "57",
+                "text": "Matters relating to management, preservation and control of enemy property including Custodian of Enemy Property in India ."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r6.w2254",
+              "r6.w2261"
+            ],
+            "boxes": [
+              {
+                "page": 6,
+                "bbox": [
+                  569,
+                  1499,
+                  1513,
+                  1545
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 9,
+            "source_ref": "2(2)(e)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r147.rel9",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF PETROLEUM AND NATURAL GAS"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r6.w2315",
+                "r6.w2333"
+              ],
+              "boxes": [
+                {
+                  "page": 6,
+                  "bbox": [
+                    628,
+                    1873,
+                    2201,
+                    1972
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "17",
+                "text": "Administration of Balmer Lawrie Investments Limited and Balmer Lawrie and Company Limited."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r6.w2314",
+              "r6.w2321"
+            ],
+            "boxes": [
+              {
+                "page": 6,
+                "bbox": [
+                  568,
+                  1873,
+                  1540,
+                  1917
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

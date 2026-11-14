@@ -1,0 +1,171 @@
+{
+  "file": {
+    "name": "1_Upload_148.pdf",
+    "file_id": "f_d9b930ad8171900f",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_148.pdf",
+    "sha256": "d9b930ad8171900f71f13bbd7cdad4b54a7ce839d05e44ebd9e51cef8d957aa8",
+    "govdoc": "1_Upload_148.pdf.govdoc.json.zst",
+    "revision": 46
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_412E_1975",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_289_1975",
+      "fields": {
+        "number": {
+          "value": "S.O. 412(E)"
+        },
+        "in_force": {
+          "value": "1975-08-02"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "1975-08-02",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T13:50:03.624699+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(A)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r10.rel1",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF COMMERCE"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF EXPORT PRODUCTION"
+                },
+                {
+                  "type": "entry",
+                  "num": "6"
+                },
+                {
+                  "type": "item",
+                  "num": "xi"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w216",
+                "r1.w221"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    1279,
+                    2481,
+                    1741,
+                    2515
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "item",
+                "num": "xii",
+                "text": "The National Textile Corporation Limited."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w192",
+              "r1.w198"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  374,
+                  2413,
+                  1310,
+                  2452
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(B)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r10.rel2",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF INDUSTRY AND CIVIL SUPPLIES"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF INDUSTRIAL DEVELOPMENT"
+                },
+                {
+                  "type": "entry",
+                  "num": "33"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w275",
+                "r1.w276"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    947,
+                    377,
+                    1085,
+                    411
+                  ]
+                }
+              ]
+            },
+            "flags": [],
+            "words": [
+              "r1.w248",
+              "r1.w257"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  485,
+                  270,
+                  1855,
+                  303
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

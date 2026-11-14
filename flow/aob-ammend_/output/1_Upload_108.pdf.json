@@ -1,0 +1,618 @@
+{
+  "file": {
+    "name": "1_Upload_108.pdf",
+    "file_id": "f_5ad81dc5a5ddd3c5",
+    "pages": 4,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_108.pdf",
+    "sha256": "5ad81dc5a5ddd3c539f03fddfc0f38b12e1ed8a324f4dfc0a9020c238d549028",
+    "govdoc": "1_Upload_108.pdf.govdoc.json.zst",
+    "revision": 55
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_3624_1969",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_306_1969",
+      "fields": {
+        "number": {
+          "value": "S.O. 3624"
+        },
+        "in_force": {
+          "value": "1969-09-03"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "1969-09-03",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T18:01:27.704372+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(a)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r28.rel1",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "entry",
+                  "num": "4"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w197",
+                "r1.w203"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    398,
+                    2290,
+                    992,
+                    2325
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "ministry",
+                "num": "4",
+                "heading": "Ministry of Finance:"
+              },
+              {
+                "type": "department",
+                "num": "i",
+                "heading": "Department of Banking."
+              },
+              {
+                "type": "department",
+                "num": "ii",
+                "heading": "Department of Economic Affairs."
+              },
+              {
+                "type": "department",
+                "num": "iii",
+                "heading": "Department of Expenditure."
+              },
+              {
+                "type": "department",
+                "num": "iv",
+                "heading": "Department of Revenue and Insurance."
+              }
+            ],
+            "flags": [
+              "read_hindi_missing"
+            ],
+            "words": [
+              "r1.w196",
+              "r1.w209"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  332,
+                  2290,
+                  1708,
+                  2325
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(b)(i)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r28.rel2",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Finance"
+                },
+                {
+                  "type": "department",
+                  "heading": "Department of Economic Affairs"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w257",
+                "r1.w268"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    390,
+                    305,
+                    1669,
+                    372
+                  ]
+                }
+              ]
+            },
+            "expect": "A. Department of Economic Affairs",
+            "content": [
+              {
+                "type": "text",
+                "text": "A, Department of Banking 1 All Indian Banks, whether nationalised or not."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "All foreign banks so far as their operations in India are concerned."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "All matters relating to the Reserve Bank of India, except those which remain directly the concern of the Economic Affairs Department."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "All matters relating to Co-operative Banking which are the concern of the Ministry of Finance."
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "All long-term financial institutions excluding the Life Insurance Corporation and the Unit Trust of India."
+              },
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "Chit Funds and other non-banking Companies accepting deposits"
+              },
+              {
+                "type": "entry",
+                "num": "7",
+                "text": "Other matters relating to banking in India."
+              },
+              {
+                "type": "entry",
+                "num": "8",
+                "text": "Administration of all Statutes, Regulations and other laws connected with items 1 to 7 above."
+              },
+              {
+                "type": "department",
+                "num": "B",
+                "heading": "Department of Economic Affairs"
+              },
+              {
+                "type": "group_heading",
+                "num": "I",
+                "text": "Exchange Control"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Administration of the Foreign Exchange Regulations Act, other than enforcement work mentioned under the Department of Revenue and Insurance."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "Foreign exchange budgeting."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "Control of the foreign exchange resources including scrutiny of proposals for imports from the foreign exchange point of view"
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "Foreign investment."
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "Import and export of gold and silver."
+              },
+              {
+                "type": "group_heading",
+                "num": "II",
+                "text": "Foreign Ald for Economic Development"
+              },
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "Technical and economic assistance received by India under—"
+              },
+              {
+                "type": "item",
+                "num": "a",
+                "text": "The Technical Co-operation Scheme of the Colombo Plan."
+              },
+              {
+                "type": "item",
+                "num": "b",
+                "text": "The United States Point Four Programme."
+              },
+              {
+                "type": "item",
+                "num": "c",
+                "text": "The United Nations' Technical Assistance Administration Programme."
+              },
+              {
+                "type": "item",
+                "num": "d",
+                "text": "Ad hoc offers of Technical Assistance from various foreign countries."
+              },
+              {
+                "type": "entry",
+                "num": "7",
+                "text": "Technical assistance given by India to the Member countries of the Colombo Plan under Technical Co-operation Scheme of the Colombo Plan."
+              },
+              {
+                "type": "entry",
+                "num": "8",
+                "text": "All matters relating to the Meetings of Colombo Plan Council and the Consultative Committee of the Plan and- (1) U. S. Technical Co-operation Mission (11) U. S. Development Loan Fund."
+              },
+              {
+                "type": "item",
+                "num": "ii",
+                "text": "Colombo Plan. (Iv) Norweglan Aid."
+              },
+              {
+                "type": "item",
+                "num": "v",
+                "text": "Ford Foundation and Rockefeller Foundation."
+              },
+              {
+                "type": "item",
+                "num": "vi",
+                "text": "Loans and Credit from foreign countries."
+              },
+              {
+                "type": "item",
+                "num": "vi",
+                "text": "Loans and credit from IBRD and IMF, Export-Import Banks, etc."
+              },
+              {
+                "type": "group_heading",
+                "num": "III",
+                "text": "Internal Finance"
+              },
+              {
+                "type": "entry",
+                "num": "9",
+                "text": "Currency and Colnage, that is to say, questions relating to-"
+              },
+              {
+                "type": "item",
+                "num": "a",
+                "text": "the Security Press and the Mints Including the Assay Department and Silver Refinery Project:"
+              },
+              {
+                "type": "item",
+                "num": "b",
+                "text": "coinage; and"
+              },
+              {
+                "type": "item",
+                "num": "c",
+                "text": "Note issue."
+              },
+              {
+                "type": "entry",
+                "num": "10",
+                "text": "Functions of the Treasurer of Charitable Endowments for India."
+              },
+              {
+                "type": "entry",
+                "num": "11",
+                "text": "Investment Policy. SEC. 3(H)]"
+              },
+              {
+                "type": "group_heading",
+                "num": "IV",
+                "text": "Economic Advice"
+              },
+              {
+                "type": "entry",
+                "num": "12",
+                "text": "Preparation of briefs and submission of material on financial and economic questions relating to India's participation in the United Nations and Allied Organisations (as for example, Economic and Social Council Economic Commission for Asia and Far East, etc.)."
+              },
+              {
+                "type": "group_heading",
+                "num": "V",
+                "text": "Budget"
+              },
+              {
+                "type": "entry",
+                "num": "13",
+                "text": "Ways and Means."
+              },
+              {
+                "type": "entry",
+                "num": "14",
+                "text": "Preparation of Central Budget, other than Railways Budget, including Supplementary, Excess Grants."
+              },
+              {
+                "type": "entry",
+                "num": "15",
+                "text": "Borrowing and Floatation of Market loans by the Central and State Governments."
+              },
+              {
+                "type": "entry",
+                "num": "16",
+                "text": "Borrowing of Public Bodies such as Corporations, Municipalities, etc."
+              },
+              {
+                "type": "entry",
+                "num": "17",
+                "text": "Administration of the Public Debt Act."
+              },
+              {
+                "type": "entry",
+                "num": "18",
+                "text": "Administration of the Central Treasury Rules."
+              },
+              {
+                "type": "entry",
+                "num": "19",
+                "text": "Fixation of Interest rates, including Borrowing Rates, Productivity Test Rates, etc."
+              },
+              {
+                "type": "entry",
+                "num": "20",
+                "text": "Accounting and Audit procedures including classification of transactions."
+              },
+              {
+                "type": "entry",
+                "num": "21",
+                "text": "Financial matters relating to partition, Federal Financial Integration and Reorganisation of States."
+              },
+              {
+                "type": "entry",
+                "num": "22",
+                "text": "Administration of the Contingency Fund of India Rules."
+              },
+              {
+                "type": "entry",
+                "num": "23",
+                "text": "Treasury bills including ad hocs to replenish the Central balances."
+              },
+              {
+                "type": "entry",
+                "num": "24",
+                "text": "Sterling pensions-Transfer of responsibility to U.K. Government and actuarial calculation of the liability involved."
+              },
+              {
+                "type": "entry",
+                "num": "25",
+                "text": "Conspectus of Central and State Government Budgets"
+              },
+              {
+                "type": "entry",
+                "num": "26",
+                "text": "Finance Commission."
+              },
+              {
+                "type": "entry",
+                "num": "27",
+                "text": "Taxation Enquiry Commission."
+              },
+              {
+                "type": "entry",
+                "num": "28",
+                "text": "Grants to the Indian Institute of Public Administration."
+              },
+              {
+                "type": "entry",
+                "num": "29",
+                "text": "Small Savings, including the administration of the National Sayings Organisations."
+              },
+              {
+                "type": "group_heading",
+                "num": "VI",
+                "text": "Stock exchanges"
+              },
+              {
+                "type": "entry",
+                "num": "30",
+                "text": "Administration of Securities Contracts (Regulation) Act, 1956."
+              },
+              {
+                "type": "entry",
+                "num": "31",
+                "text": "Regulation of Stock Exchanges."
+              },
+              {
+                "type": "group_heading",
+                "num": "VII",
+                "text": "Stock Issues"
+              },
+              {
+                "type": "entry",
+                "num": "32",
+                "text": "Control over the Issues of Capital by Joint Stock Companies."
+              },
+              {
+                "type": "group_heading",
+                "num": "VIII",
+                "text": "Liaison with Reserve Bank"
+              },
+              {
+                "type": "entry",
+                "num": "33",
+                "text": "Direct liaison with the Reserve Bank of India on all matters covered by the entries in items I to VII above."
+              }
+            ],
+            "flags": [
+              "read_hindi_missing",
+              "read_page_break"
+            ],
+            "words": [
+              "r1.w256",
+              "r1.w266"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  334,
+                  305,
+                  1669,
+                  338
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 3,
+            "source_ref": "2(b)(il)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r28.rel3",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Finance"
+                },
+                {
+                  "type": "department",
+                  "heading": "Department of Expenditure"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w904",
+                "r1.w910"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    376,
+                    1920,
+                    1316,
+                    1953
+                  ]
+                }
+              ]
+            },
+            "expect": "B. Department of Expenditure",
+            "scope": "heading",
+            "content": [
+              {
+                "type": "department",
+                "num": "C",
+                "heading": "Department of Expenditure"
+              }
+            ],
+            "flags": [
+              "read_hindi_missing"
+            ],
+            "words": [
+              "r1.w903",
+              "r1.w913"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  310,
+                  1920,
+                  1657,
+                  1953
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 4,
+            "source_ref": "2(b)(i)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r28.rel4",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Finance"
+                },
+                {
+                  "type": "department",
+                  "heading": "Department of Revenue & Insurance"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w926",
+                "r1.w934"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    380,
+                    2051,
+                    1564,
+                    2082
+                  ]
+                }
+              ]
+            },
+            "expect": "C. Department of Revenue & Insurance",
+            "scope": "heading",
+            "content": [
+              {
+                "type": "department",
+                "num": "D",
+                "heading": "Department of Revenue and Insurance"
+              }
+            ],
+            "flags": [
+              "read_hindi_missing"
+            ],
+            "words": [
+              "r1.w925",
+              "r1.w935"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  301,
+                  2051,
+                  1659,
+                  2082
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

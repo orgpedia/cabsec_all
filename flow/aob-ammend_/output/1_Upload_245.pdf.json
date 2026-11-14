@@ -1,0 +1,415 @@
+{
+  "file": {
+    "name": "1_Upload_245.pdf",
+    "file_id": "f_6ec0dbf791706bb2",
+    "pages": 4,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_245.pdf",
+    "sha256": "6ec0dbf791706bb2748f2622ecdee1a0263af0a58c39337ec2fd0cc35b3d8194",
+    "govdoc": "1_Upload_245.pdf.govdoc.json.zst",
+    "revision": 109
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_1069E_1989",
+      "doc_type": "aob_amendment",
+      "parent": "GAZETTE_ISSUE_6ec0dbf791706bb2",
+      "fields": {
+        "number": {
+          "value": "S.O. 1069(E)"
+        },
+        "in_force": {
+          "value": "1989-12-26"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "1989-12-26",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T12:56:15.410473+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(1)(a)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r73.rel1",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF CIVIL AVIATION AND TOURISM"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w678",
+                "r1.w697"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1422,
+                    1141,
+                    2244,
+                    1358
+                  ]
+                }
+              ]
+            },
+            "expect": "2. MINISTRY OF CIVIL AVIATION AND TOURISM (NAGAR VIMANAN AUR PARAYATAN MAN- TRALAYA)",
+            "content": [
+              {
+                "type": "ministry",
+                "num": "2",
+                "heading": "MINISTRY OF CIVIL AVIATION",
+                "heading_hi": "NAGAR VIMANAN MANTRALAYA"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w676",
+              "r1.w683"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  1330,
+                  1141,
+                  2236,
+                  1181
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(1)(b)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r73.rel2",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF TEXTILES"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w717",
+                "r1.w724"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1431,
+                    1531,
+                    2248,
+                    1609
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "ministry",
+                "num": "28A",
+                "heading": "MINISTRY OF TOURISM",
+                "heading_hi": "PARYATAN MANTRALAYA"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w715",
+              "r1.w721"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  1347,
+                  1531,
+                  2243,
+                  1573
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 3,
+            "source_ref": "2(2)(a)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r73.rel3",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF CIVIL AVIATION AND TOURISM"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w746",
+                "r1.w763"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1427,
+                    1866,
+                    2248,
+                    2035
+                  ]
+                }
+              ]
+            },
+            "expect": "MINISTRY OF CIVIL AVIATION AND TOURISM (NAGAR VIMANAN AUR PARYATAN MAN- TRALAYA)",
+            "content": [
+              {
+                "type": "ministry",
+                "heading": "MINISTRY OF CIVIL AVIATION (NAGAR VIMANAN MANTRA- LAYA)"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Aircraft and air navigation, provision of aerodrome; regulation and organisation of air traffic and of aerodromes excepting sanitary 'control of air navigation.."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "Beacons and other provisions for the safety of aircraft."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "Carriage of passengers and goods by air."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "International Civil Aviation Organisation (ICAO)."
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "International Air Transport Association (IATA)."
+              },
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "Commonwealth Air Transport Council ·· · ; . (CATC).."
+              },
+              {
+                "type": "entry",
+                "num": "7",
+                "text": "Commonwealth Advisory Aeronautical Research Council (CAARC)."
+              },
+              {
+                "type": "entry",
+                "num": "8",
+                "text": "Corporations established under the Air Corporation Act, 1953 (27 of 1953)"
+              },
+              {
+                "type": "entry",
+                "num": "9",
+                "text": "Hotel Corporation of India."
+              },
+              {
+                "type": "entry",
+                "num": "10",
+                "text": "Chief Commissioner of Railway Safety."
+              },
+              {
+                "type": "entry",
+                "num": "11",
+                "text": "International Airports Authority of India (IAA])."
+              },
+              {
+                "type": "entry",
+                "num": "12",
+                "text": "Offences against laws with respect to any of the matters specified in this list."
+              },
+              {
+                "type": "entry",
+                "num": "13",
+                "text": "Inquiries and statistics for the purpose of any of the matters specified in this list."
+              },
+              {
+                "type": "entry",
+                "num": "14",
+                "text": "Fees in respect of any of the matters specified in this list but not including fees taken in any court."
+              },
+              {
+                "type": "entry",
+                "num": "15",
+                "text": "Implementation of treaties and agreements relating to any of the matters specified in this list."
+              },
+              {
+                "type": "entry",
+                "num": "16",
+                "text": "Helicopter Corporation of India."
+              },
+              {
+                "type": "entry",
+                "num": "17",
+                "text": "Agricultural Aviation."
+              },
+              {
+                "type": "entry",
+                "num": "18",
+                "text": "Director General of Civil Aviation."
+              },
+              {
+                "type": "entry",
+                "num": "19",
+                "text": "National Airports Authority."
+              },
+              {
+                "type": "entry",
+                "num": "20",
+                "text": "Indira Gandhi Rashtriya Uran Akademi."
+              },
+              {
+                "type": "entry",
+                "num": "21",
+                "text": "Vayudoot Limited."
+              },
+              {
+                "type": "entry",
+                "num": "22",
+                "text": "Directorate of Civil Aviation Security. =="
+              },
+              {
+                "type": "entry",
+                "num": "23",
+                "text": "Administration of the Aircraft Act. 1934 (22 of 1934)."
+              },
+              {
+                "type": "entry",
+                "num": "24",
+                "text": "Production of aircraft for civil use."
+              },
+              {
+                "type": "entry",
+                "num": "25",
+                "text": "Issuing of technical licenses/certificates approval for use of civil airerunt"
+              }
+            ],
+            "flags": [
+              "read_page_break"
+            ],
+            "words": [
+              "r1.w744",
+              "r1.w750"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  1345,
+                  1866,
+                  2246,
+                  1906
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 4,
+            "source_ref": "2(2)(b)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r73.rel4",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF TEX- TILES"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w1048",
+                "r1.w1059"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    1492,
+                    674,
+                    2313,
+                    801
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "ministry",
+                "heading": "MINISTRY OF TOURISM",
+                "heading_hi": "PARYATAN MANTRALAYA"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Development of Fourism."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "India Tourism Develoment Corpurition and public sector Hotels or Motels dereunder. Inquiries and Statistics for the purpose of any of the matters spacined in this list."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w1046",
+              "r1.w1052"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  1413,
+                  674,
+                  2311,
+                  718
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,524 @@
+{
+  "file": {
+    "name": "1_Upload_342.pdf",
+    "file_id": "f_4c07ffcee9f2b845",
+    "pages": 4,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_342.pdf",
+    "sha256": "4c07ffcee9f2b845b9757db7d6a6b37b4465ea79c2490bba926cfdb3c57742e7",
+    "govdoc": "1_Upload_342.pdf.govdoc.json.zst",
+    "revision": 148
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_1336E_2010",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_1121_2010",
+      "fields": {
+        "number": {
+          "value": "S.O. 1336(E)"
+        },
+        "in_force": {
+          "value": "2010-06-05"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "2010-06-05",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T12:55:58.015815+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(1)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r111.rel1",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Rural Development"
+                },
+                {
+                  "type": "department",
+                  "heading": "Department of Drinking Water Supply"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r5.w554",
+                "r5.w566"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    547,
+                    1448,
+                    2040,
+                    1656
+                  ]
+                }
+              ]
+            },
+            "expect": "(iii) Department of Drinking Water Supply (Peya Jal Poorti Vibhag)",
+            "scope": "heading",
+            "content": [
+              {
+                "type": "department",
+                "num": "iii",
+                "heading": "Department of Drinking Water and Sanitation",
+                "heading_hi": "Peya Jal aur Swachchhata Vibhag"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r5.w537",
+              "r5.w545"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  396,
+                  1406,
+                  1488,
+                  1484
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(2)(A)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r111.rel2",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF EXTERNAL AFFAIRS"
+                },
+                {
+                  "type": "entry",
+                  "num": "35"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r5.w601",
+                "r5.w603"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    1267,
+                    2053,
+                    1577,
+                    2108
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "35A",
+                "text": "Technical and Economic assistance received by India under Technical Cooperation Scheme of the Colombo Plan."
+              },
+              {
+                "type": "entry",
+                "num": "35B",
+                "text": "Technical assistance given by India to the member countries of the Colombo Plan under Technical Cooperation Scheme of the Colombo Plan."
+              },
+              {
+                "type": "entry",
+                "num": "35C",
+                "text": "All matters relating to the meetings of the Colombo Plan Council and the Consultative Committee of the Plan."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r5.w591",
+              "r5.w598"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  563,
+                  1981,
+                  2042,
+                  2069
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 3,
+            "source_ref": "2(2)(B)(a)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r111.rel3",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF FINANCE"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF ECONOMIC AFFAIRS"
+                },
+                {
+                  "type": "entry",
+                  "num": "1"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r5.w700",
+                "r5.w702"
+              ],
+              "boxes": [
+                {
+                  "page": 4,
+                  "bbox": [
+                    810,
+                    472,
+                    1091,
+                    534
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "1",
+                "text": ""
+              },
+              {
+                "type": "item",
+                "num": "a",
+                "text": "Administration of Foreign Exchange Management Act, 1999 (42 of 1999) other than enforcement work mentioned under the Department of Revenue."
+              },
+              {
+                "type": "item",
+                "num": "b",
+                "text": "Work relating to the Financial Action Task Force (FATF) and related inter-Ministerial Coordination."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r5.w698",
+              "r5.w708"
+            ],
+            "boxes": [
+              {
+                "page": 4,
+                "bbox": [
+                  688,
+                  463,
+                  2068,
+                  593
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 4,
+            "source_ref": "2(2)(B)(b)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r111.rel4",
+            "target": [
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "MINISTRY OF FINANCE"
+                  },
+                  {
+                    "type": "department",
+                    "heading": "DEPARTMENT OF ECONOMIC AFFAIRS"
+                  },
+                  {
+                    "type": "entry",
+                    "num": "11"
+                  },
+                  {
+                    "type": "item",
+                    "num": "a"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r5.w746",
+                  "r5.w750"
+                ],
+                "boxes": [
+                  {
+                    "page": 4,
+                    "bbox": [
+                      777,
+                      1102,
+                      1400,
+                      1188
+                    ]
+                  }
+                ]
+              },
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "MINISTRY OF FINANCE"
+                  },
+                  {
+                    "type": "department",
+                    "heading": "DEPARTMENT OF ECONOMIC AFFAIRS"
+                  },
+                  {
+                    "type": "entry",
+                    "num": "12"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r5.w752",
+                  "r5.w753"
+                ],
+                "boxes": [
+                  {
+                    "page": 4,
+                    "bbox": [
+                      1513,
+                      1147,
+                      1696,
+                      1206
+                    ]
+                  }
+                ]
+              },
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "MINISTRY OF FINANCE"
+                  },
+                  {
+                    "type": "department",
+                    "heading": "DEPARTMENT OF ECONOMIC AFFAIRS"
+                  },
+                  {
+                    "type": "entry",
+                    "num": "13"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r5.w755",
+                  "r5.w756"
+                ],
+                "boxes": [
+                  {
+                    "page": 4,
+                    "bbox": [
+                      1804,
+                      1164,
+                      1988,
+                      1222
+                    ]
+                  }
+                ]
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r5.w745",
+              "r5.w756"
+            ],
+            "boxes": [
+              {
+                "page": 4,
+                "bbox": [
+                  649,
+                  1095,
+                  1988,
+                  1222
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 5,
+            "source_ref": "2(2)(C)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r111.rel5",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF HOME AFFAIRS"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF INTERNAL SECURITY"
+                },
+                {
+                  "type": "entry",
+                  "num": "57"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r5.w781",
+                "r5.w782"
+              ],
+              "boxes": [
+                {
+                  "page": 4,
+                  "bbox": [
+                    527,
+                    1468,
+                    723,
+                    1523
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "58",
+                "text": "All matters relating to combating financing of terrorist acts other than the work mentioned under Department of Economic Affairs."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r5.w677",
+              "r5.w766"
+            ],
+            "boxes": [
+              {
+                "page": 4,
+                "bbox": [
+                  365,
+                  1282,
+                  1812,
+                  1406
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 6,
+            "source_ref": "2(2)(D)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r111.rel6",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF RURAL DEVELOPMENT"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF DRINKING WATER SUPPLY"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r5.w821",
+                "r5.w831"
+              ],
+              "boxes": [
+                {
+                  "page": 4,
+                  "bbox": [
+                    497,
+                    1976,
+                    1955,
+                    2174
+                  ]
+                }
+              ]
+            },
+            "expect": "C. DEPARTMENT OF DRINKING WATER SUPPLY (PEYA JAL POORTI VIBHAG)",
+            "scope": "heading",
+            "content": [
+              {
+                "type": "department",
+                "num": "C",
+                "heading": "DEPARTMENT OF DRINKING WATER AND SANITATION",
+                "heading_hi": "PEYA JAL AUR SWACHCHHATA VIBHAG"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r5.w810",
+              "r5.w817"
+            ],
+            "boxes": [
+              {
+                "page": 4,
+                "bbox": [
+                  342,
+                  1868,
+                  1959,
+                  1994
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

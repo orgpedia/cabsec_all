@@ -1,0 +1,124 @@
+{
+  "file": {
+    "name": "1_Upload_34.pdf",
+    "file_id": "f_3673d406152ff53e",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_34.pdf",
+    "sha256": "3673d406152ff53e9cd0bf1d53a2c2d2f6174510e373ed52d5ffd0f7510778cc",
+    "govdoc": "1_Upload_34.pdf.govdoc.json.zst",
+    "revision": 46
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_861_1961",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_93_1961",
+      "fields": {
+        "number": {
+          "value": "S.O. 861"
+        },
+        "in_force": {
+          "value": null
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": null,
+          "basis": null
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T13:49:06.148354+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "1",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r10.rel1",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "department",
+                  "heading": "Department of Atomic Energy"
+                },
+                {
+                  "type": "entry",
+                  "num": "7"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w108",
+                "r1.w110"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    753,
+                    1455,
+                    995,
+                    1491
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "8",
+                "text": "All matters connected with the advancement of higher mathematics including:"
+              },
+              {
+                "type": "item",
+                "num": "i",
+                "text": "Matters relating to the promotion and co-ordination of advanced study and research"
+              },
+              {
+                "type": "item",
+                "num": "ii",
+                "text": "International relations in higher mathematics, including, in particular, matters relating to the Indian National Committee for Mathematics and International Mathematical Union"
+              },
+              {
+                "type": "item",
+                "num": "iii",
+                "text": "Grants to institutions and associations engaged in the advancement of higher mathematics; and"
+              },
+              {
+                "type": "item",
+                "num": "iv",
+                "text": "Grant of scholarships and other forms of financial aid for advanced study and research."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w93",
+              "r1.w100"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  282,
+                  1423,
+                  1066,
+                  1459
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

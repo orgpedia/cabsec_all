@@ -1,0 +1,26 @@
+# A person's changes to 1_Upload_172.pdf (GovDoc §8.3), one record per action, in order. Written by
+# GovDoc Studio and brought into the GovDoc file by the pipeline before it runs (Pipeline §P9).
+file: 1_Upload_172.pdf
+file_id: f_bd918916ef15fa78
+next: 5
+runs:
+- id: h1
+  by: claude
+  at: '2026-11-13T01:00:00Z'
+  edits:
+  - {op: text, target: r1.w129, before: {text: "SCHEDULF"}, after: {text: "SCHEDULE"}}
+- id: h2
+  by: claude
+  at: '2026-11-13T01:30:00Z'
+  edits:
+  - {op: text, target: r1.w504, before: {text: "(Sankhyki"}, after: {text: "(Sankhyiki"}}
+- id: h3
+  by: claude
+  at: '2026-11-13T02:00:00Z'
+  edits:
+  - {op: text, target: r1.w483, before: {text: "(ij)"}, after: {text: "(ii)"}}
+- id: h4
+  by: claude
+  at: '2026-11-13T02:01:00Z'
+  edits:
+  - {op: text, target: r1.w486, before: {text: "Chemica's"}, after: {text: "Chemicals"}}

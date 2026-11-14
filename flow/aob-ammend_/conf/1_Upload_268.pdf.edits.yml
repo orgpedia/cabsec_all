@@ -1,0 +1,60 @@
+# A person's changes to 1_Upload_268.pdf (GovDoc §8.3), one record per action, in order. Written by
+# GovDoc Studio and brought into the GovDoc file by the pipeline before it runs (Pipeline §P9).
+file: 1_Upload_268.pdf
+file_id: f_9436dc14ad16de34
+next: 7
+runs:
+- id: h1
+  by: mukundesh
+  at: '2026-11-11T11:01:49Z'
+  edits:
+  - {op: text, target: r1.w4201, before: {text: Fmrloyment}, after: {text: Employment}}
+- id: h2
+  by: mukundesh
+  at: '2026-11-11T11:02:01Z'
+  edits:
+  - {op: text, target: r1.w4205, before: {text: Rozear}, after: {text: Rozgar}}
+- id: h3
+  by: mukundesh
+  at: '2026-11-11T17:42:44Z'
+  edits:
+  - {op: text, target: r1.w4114, before: {text: Mantralaya!";}, after: {text: Mantralaya)";}}
+- id: h4
+  by: claude
+  at: '2026-11-12T12:02:00Z'
+  edits:
+  - {op: text, target: r1.w4135, before: {text: Wasteland}, after: {text: Wastelands}}
+- id: h5
+  by: claude
+  at: '2026-11-12T12:03:00Z'
+  edits:
+  - {op: text, target: r1.w5983, before: {text: VEJ}, after: {text: VELOPMENT}}
+  - op: fields
+    target: r1.w5983
+    before: {bbox: [1430, 3003, 1496, 3031]}
+    after: {bbox: [1430, 3003, 1666, 3031]}
+  - op: remove_word
+    target: r1.w5984
+    before:
+      page: 10
+      word: {id: r1.w5984, text: OPMENT, bbox: [1505, 3003, 1666, 3031], confidence: 0.99}
+      line: r2.l953
+      after: r1.w5983
+    after: null
+- id: h6
+  by: claude
+  at: '2026-11-12T12:04:00Z'
+  edits:
+  - {op: text, target: r1.w5988, before: {text: I}, after: {text: 'LAYA)",'}}
+  - op: fields
+    target: r1.w5988
+    before: {bbox: [1429, 3037, 1444, 3065]}
+    after: {bbox: [1429, 3037, 1573, 3065]}
+  - op: remove_word
+    target: r1.w5989
+    before:
+      page: 10
+      word: {id: r1.w5989, text: 'AYA)",', bbox: [1454, 3037, 1573, 3065], confidence: 0.66}
+      line: r2.l955
+      after: r1.w5988
+    after: null

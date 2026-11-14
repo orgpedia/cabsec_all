@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_351.pdf",
     "sha256": "48b91f2c574f298e0488f53f75bf250f55dc9332e7567e384688bcb0dd8c8071",
     "govdoc": "1_Upload_351.pdf.govdoc.json.zst",
-    "revision": 44
+    "revision": 193
   },
   "documents": [
     {
@@ -29,9 +29,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "2",
+          "version": "3",
           "model": "gemini-4-argon",
-          "at": "2026-11-03T16:59:03.120607+00:00"
+          "at": "2026-11-12T12:55:41.213623+00:00"
         },
         "ops": [
           {
@@ -39,6 +39,7 @@
             "source_ref": "2(1)(a)",
             "op": "replace",
             "akn_type": "replacement",
+            "relation": "r157.rel1",
             "target": {
               "cited": [
                 {
@@ -52,8 +53,8 @@
               ],
               "eId": null,
               "words": [
-                "r1.w1251",
-                "r1.w1263"
+                "r51.w1251",
+                "r51.w1263"
               ],
               "boxes": [
                 {
@@ -79,8 +80,8 @@
             ],
             "flags": [],
             "words": [
-              "r1.w1250",
-              "r1.w1259"
+              "r51.w1250",
+              "r51.w1259"
             ],
             "boxes": [
               {
@@ -99,6 +100,7 @@
             "source_ref": "2(1)(b)",
             "op": "insert",
             "akn_type": "insertion",
+            "relation": "r157.rel2",
             "position": "after",
             "anchor": {
               "cited": [
@@ -113,8 +115,8 @@
               ],
               "eId": null,
               "words": [
-                "r1.w1287",
-                "r1.w1296"
+                "r51.w1287",
+                "r51.w1296"
               ],
               "boxes": [
                 {
@@ -132,7 +134,8 @@
               {
                 "type": "ministry",
                 "num": "33",
-                "heading": "Ministry of Skill Development, Entrepreneurship, Youth Affairs and Sports (Kaushal Vikas, Udyamshilta, Yuvak Karyakram aur Khel Mantralaya)."
+                "heading": "Ministry of Skill Development, Entrepreneurship, Youth Affairs and Sports",
+                "heading_hi": "Kaushal Vikas, Udyamshilta, Yuvak Karyakram aur Khel Mantralaya"
               },
               {
                 "type": "department",
@@ -155,8 +158,8 @@
             ],
             "flags": [],
             "words": [
-              "r1.w1286",
-              "r1.w1293"
+              "r51.w1286",
+              "r51.w1295"
             ],
             "boxes": [
               {
@@ -164,7 +167,7 @@
                 "bbox": [
                   527,
                   2493,
-                  1551,
+                  1862,
                   2535
                 ]
               }
@@ -175,6 +178,7 @@
             "source_ref": "2(1)(c)",
             "op": "replace",
             "akn_type": "replacement",
+            "relation": "r157.rel3",
             "target": {
               "cited": [
                 {
@@ -188,8 +192,8 @@
               ],
               "eId": null,
               "words": [
-                "r1.w1352",
-                "r1.w1362"
+                "r51.w1352",
+                "r51.w1362"
               ],
               "boxes": [
                 {
@@ -215,8 +219,8 @@
             ],
             "flags": [],
             "words": [
-              "r1.w1351",
-              "r1.w1359"
+              "r51.w1351",
+              "r51.w1360"
             ],
             "boxes": [
               {
@@ -224,7 +228,7 @@
                 "bbox": [
                   527,
                   3040,
-                  1596,
+                  1676,
                   3081
                 ]
               }
@@ -235,6 +239,7 @@
             "source_ref": "2(1)(d)",
             "op": "omit",
             "akn_type": "repeal",
+            "relation": "r157.rel4",
             "target": {
               "cited": [
                 {
@@ -248,8 +253,8 @@
               ],
               "eId": null,
               "words": [
-                "r1.w1400",
-                "r1.w1416"
+                "r51.w1400",
+                "r51.w1416"
               ],
               "boxes": [
                 {
@@ -266,8 +271,8 @@
             "expect": "42. Ministry of Youth Affairs and Sports (Yuvak Karyakram aur Khel Mantralaya)",
             "flags": [],
             "words": [
-              "r1.w1399",
-              "r1.w1408"
+              "r51.w1399",
+              "r51.w1408"
             ],
             "boxes": [
               {
@@ -286,6 +291,7 @@
             "source_ref": "2(2)(a)",
             "op": "replace",
             "akn_type": "replacement",
+            "relation": "r157.rel5",
             "target": {
               "cited": [
                 {
@@ -299,8 +305,8 @@
               ],
               "eId": null,
               "words": [
-                "r1.w1426",
-                "r1.w1437"
+                "r51.w1426",
+                "r51.w1437"
               ],
               "boxes": [
                 {
@@ -325,8 +331,8 @@
             ],
             "flags": [],
             "words": [
-              "r1.w1425",
-              "r1.w1433"
+              "r51.w1425",
+              "r51.w1433"
             ],
             "boxes": [
               {
@@ -345,6 +351,7 @@
             "source_ref": "2(2)(b)(i)",
             "op": "replace",
             "akn_type": "replacement",
+            "relation": "r157.rel6",
             "target": {
               "cited": [
                 {
@@ -362,8 +369,8 @@
               ],
               "eId": null,
               "words": [
-                "r1.w1481",
-                "r1.w1484"
+                "r51.w1481",
+                "r51.w1484"
               ],
               "boxes": [
                 {
@@ -392,8 +399,8 @@
             "ref_seq": 5,
             "flags": [],
             "words": [
-              "r1.w1480",
-              "r1.w1492"
+              "r51.w1480",
+              "r51.w1489"
             ],
             "boxes": [
               {
@@ -401,7 +408,7 @@
                 "bbox": [
                   677,
                   1107,
-                  2079,
+                  1640,
                   1149
                 ]
               }
@@ -412,6 +419,7 @@
             "source_ref": "2(2)(b)(ii)",
             "op": "insert",
             "akn_type": "insertion",
+            "relation": "r157.rel7",
             "position": "after",
             "anchor": {
               "cited": [
@@ -430,8 +438,8 @@
               ],
               "eId": null,
               "words": [
-                "r1.w1516",
-                "r1.w1519"
+                "r51.w1516",
+                "r51.w1519"
               ],
               "boxes": [
                 {
@@ -455,8 +463,8 @@
             "ref_seq": 5,
             "flags": [],
             "words": [
-              "r1.w1515",
-              "r1.w1527"
+              "r51.w1515",
+              "r51.w1524"
             ],
             "boxes": [
               {
@@ -464,7 +472,7 @@
                 "bbox": [
                   677,
                   1393,
-                  2051,
+                  1666,
                   1435
                 ]
               }
@@ -475,6 +483,7 @@
             "source_ref": "2(2)(c)",
             "op": "omit",
             "akn_type": "repeal",
+            "relation": "r157.rel8",
             "target": [
               {
                 "cited": [
@@ -497,14 +506,14 @@
                 ],
                 "eId": null,
                 "words": [
-                  "r1.w1557",
-                  "r1.w1558"
+                  "r51.w1558",
+                  "r51.w1558"
                 ],
                 "boxes": [
                   {
                     "page": 6,
                     "bbox": [
-                      1087,
+                      1222,
                       1654,
                       1298,
                       1687
@@ -533,8 +542,8 @@
                 ],
                 "eId": null,
                 "words": [
-                  "r1.w1560",
-                  "r1.w1560"
+                  "r51.w1560",
+                  "r51.w1560"
                 ],
                 "boxes": [
                   {
@@ -551,8 +560,8 @@
             ],
             "flags": [],
             "words": [
-              "r1.w1537",
-              "r1.w1543"
+              "r51.w1537",
+              "r51.w1546"
             ],
             "boxes": [
               {
@@ -560,7 +569,7 @@
                 "bbox": [
                   527,
                   1549,
-                  1551,
+                  2225,
                   1590
                 ]
               }
@@ -571,6 +580,7 @@
             "source_ref": "2(2)(d)",
             "op": "insert",
             "akn_type": "insertion",
+            "relation": "r157.rel9",
             "position": "after",
             "anchor": {
               "cited": [
@@ -589,8 +599,8 @@
               ],
               "eId": null,
               "words": [
-                "r1.w1574",
-                "r1.w1577"
+                "r51.w1574",
+                "r51.w1577"
               ],
               "boxes": [
                 {
@@ -613,8 +623,8 @@
             ],
             "flags": [],
             "words": [
-              "r1.w1564",
-              "r1.w1570"
+              "r51.w1564",
+              "r51.w1572"
             ],
             "boxes": [
               {
@@ -622,7 +632,7 @@
                 "bbox": [
                   527,
                   1732,
-                  1753,
+                  2224,
                   1773
                 ]
               }
@@ -633,6 +643,7 @@
             "source_ref": "2(2)(e)",
             "op": "insert",
             "akn_type": "insertion",
+            "relation": "r157.rel10",
             "position": "after",
             "anchor": {
               "cited": [
@@ -647,8 +658,8 @@
               ],
               "eId": null,
               "words": [
-                "r1.w1590",
-                "r1.w1602"
+                "r51.w1590",
+                "r51.w1602"
               ],
               "boxes": [
                 {
@@ -921,8 +932,8 @@
               "read_page_break"
             ],
             "words": [
-              "r1.w1589",
-              "r1.w1595"
+              "r51.w1589",
+              "r51.w1597"
             ],
             "boxes": [
               {
@@ -930,7 +941,7 @@
                 "bbox": [
                   538,
                   1993,
-                  1742,
+                  2224,
                   2034
                 ]
               }
@@ -939,8 +950,9 @@
           {
             "seq": 11,
             "source_ref": "2(2)(f)",
-            "op": "substitute_text",
-            "akn_type": "substitution",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r157.rel11",
             "target": {
               "cited": [
                 {
@@ -958,8 +970,8 @@
               ],
               "eId": null,
               "words": [
-                "r1.w2077",
-                "r1.w2079"
+                "r51.w2077",
+                "r51.w2079"
               ],
               "boxes": [
                 {
@@ -973,12 +985,11 @@
                 }
               ]
             },
-            "old": "including ship breaking",
-            "new": "",
+            "expect": "including ship breaking",
             "flags": [],
             "words": [
-              "r1.w2068",
-              "r1.w2074"
+              "r51.w2068",
+              "r51.w2077"
             ],
             "boxes": [
               {
@@ -986,7 +997,7 @@
                 "bbox": [
                   602,
                   791,
-                  1516,
+                  2115,
                   833
                 ]
               }
@@ -997,6 +1008,7 @@
             "source_ref": "2(2)(g)",
             "op": "replace",
             "akn_type": "replacement",
+            "relation": "r157.rel12",
             "target": {
               "cited": [
                 {
@@ -1010,8 +1022,8 @@
               ],
               "eId": null,
               "words": [
-                "r1.w2089",
-                "r1.w2098"
+                "r51.w2089",
+                "r51.w2098"
               ],
               "boxes": [
                 {
@@ -1036,8 +1048,8 @@
             ],
             "flags": [],
             "words": [
-              "r1.w2088",
-              "r1.w2095"
+              "r51.w2088",
+              "r51.w2097"
             ],
             "boxes": [
               {
@@ -1045,7 +1057,7 @@
                 "bbox": [
                   595,
                   922,
-                  1798,
+                  2225,
                   963
                 ]
               }
@@ -1056,6 +1068,7 @@
             "source_ref": "2(2)(h)(i)",
             "op": "substitute_text",
             "akn_type": "substitution",
+            "relation": "r157.rel13",
             "target": {
               "cited": [
                 {
@@ -1073,8 +1086,8 @@
               ],
               "eId": null,
               "words": [
-                "r1.w2148",
-                "r1.w2150"
+                "r51.w2148",
+                "r51.w2150"
               ],
               "boxes": [
                 {
@@ -1093,8 +1106,8 @@
             "ref_seq": 12,
             "flags": [],
             "words": [
-              "r1.w2147",
-              "r1.w2157"
+              "r51.w2147",
+              "r51.w2156"
             ],
             "boxes": [
               {
@@ -1102,7 +1115,7 @@
                 "bbox": [
                   677,
                   1418,
-                  1885,
+                  1739,
                   1460
                 ]
               }
@@ -1113,6 +1126,7 @@
             "source_ref": "2(2)(h)(ii)",
             "op": "insert",
             "akn_type": "insertion",
+            "relation": "r157.rel14",
             "position": "after",
             "anchor": {
               "cited": [
@@ -1131,8 +1145,8 @@
               ],
               "eId": null,
               "words": [
-                "r1.w2168",
-                "r1.w2171"
+                "r51.w2168",
+                "r51.w2171"
               ],
               "boxes": [
                 {
@@ -1161,8 +1175,8 @@
             "ref_seq": 12,
             "flags": [],
             "words": [
-              "r1.w2167",
-              "r1.w2178"
+              "r51.w2167",
+              "r51.w2176"
             ],
             "boxes": [
               {
@@ -1170,7 +1184,7 @@
                 "bbox": [
                   677,
                   1549,
-                  2034,
+                  1694,
                   1590
                 ]
               }
@@ -1181,6 +1195,7 @@
             "source_ref": "2(2)(i)",
             "op": "omit",
             "akn_type": "repeal",
+            "relation": "r157.rel15",
             "target": {
               "cited": [
                 {
@@ -1194,8 +1209,8 @@
               ],
               "eId": null,
               "words": [
-                "r1.w2216",
-                "r1.w2236"
+                "r51.w2216",
+                "r51.w2236"
               ],
               "boxes": [
                 {
@@ -1212,8 +1227,8 @@
             "expect": " MINISTRY OF YOUTH AFFAIRS AND SPORTS (YUVAK KARYAKRAM AUR KHEL MANTRALAYA)",
             "flags": [],
             "words": [
-              "r1.w2215",
-              "r1.w2224"
+              "r51.w2215",
+              "r51.w2224"
             ],
             "boxes": [
               {

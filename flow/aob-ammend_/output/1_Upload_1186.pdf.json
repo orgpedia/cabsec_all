@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_1186.pdf",
     "sha256": "8f6bf0fd38358d1a61e9fd022e4dcd9a3fe0312deb83199c0263e078870c4382",
     "govdoc": "1_Upload_1186.pdf.govdoc.json.zst",
-    "revision": 65
+    "revision": 201
   },
   "documents": [
     {
@@ -29,9 +29,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "2",
+          "version": "3",
           "model": "gemini-4-argon",
-          "at": "2026-11-03T16:59:06.190475+00:00"
+          "at": "2026-11-12T12:56:36.246901+00:00"
         },
         "ops": [
           {
@@ -39,6 +39,7 @@
             "source_ref": "2(A)(i)",
             "op": "omit",
             "akn_type": "repeal",
+            "relation": "r165.rel1",
             "target": {
               "cited": [
                 {
@@ -98,6 +99,7 @@
             "source_ref": "2(A)(ii)",
             "op": "insert",
             "akn_type": "insertion",
+            "relation": "r165.rel2",
             "position": "after",
             "anchor": {
               "cited": [
@@ -164,6 +166,7 @@
             "source_ref": "2(B)(i)",
             "op": "replace",
             "akn_type": "replacement",
+            "relation": "r165.rel3",
             "target": {
               "cited": [
                 {
@@ -233,6 +236,7 @@
             "source_ref": "2(B)(ii)",
             "op": "omit",
             "akn_type": "repeal",
+            "relation": "r165.rel4",
             "target": {
               "cited": [
                 {

@@ -1,0 +1,82 @@
+# A person's changes to 1_Upload_220.pdf (GovDoc §8.3), one record per action, in order. Written by
+# GovDoc Studio and brought into the GovDoc file by the pipeline before it runs (Pipeline §P9).
+file: 1_Upload_220.pdf
+file_id: f_b797d80481953c12
+next: 9
+runs:
+- id: h1
+  by: mukundesh
+  at: '2026-11-11T10:57:32Z'
+  edits:
+  - {op: text, target: r1.w409, before: {text: Mini}, after: {text: Minis}}
+- id: h2
+  by: mukundesh
+  at: '2026-11-11T10:57:40Z'
+  edits:
+  - {op: text, target: r1.w409, before: {text: Minis}, after: {text: Ministry}}
+  - op: fields
+    target: r1.w409
+    before: {bbox: [708, 1224, 794, 1262]}
+    after: {bbox: [708, 1224, 860, 1262]}
+  - op: remove_word
+    target: r1.w410
+    before:
+      page: 2
+      word: {id: r1.w410, text: try, bbox: [810, 1224, 860, 1261], confidence: 0.77}
+      line: r2.l86
+      after: r1.w409
+    after: null
+- id: h3
+  by: mukundesh
+  at: '2026-11-11T10:58:00Z'
+  edits:
+  - {op: text, target: r1.w424, before: {text: foll}, after: {text: follow}}
+- id: h4
+  by: mukundesh
+  at: '2026-11-11T10:58:04Z'
+  edits:
+  - {op: text, target: r1.w425, before: {text: ng}, after: {text: ing}}
+- id: h5
+  by: mukundesh
+  at: '2026-11-11T10:58:09Z'
+  edits:
+  - {op: text, target: r1.w424, before: {text: follow}, after: {text: following}}
+  - op: fields
+    target: r1.w424
+    before: {bbox: [620, 1356, 683, 1393]}
+    after: {bbox: [620, 1356, 789, 1393]}
+  - op: remove_word
+    target: r1.w425
+    before:
+      page: 2
+      word: {id: r1.w425, text: ing, bbox: [747, 1356, 789, 1393], confidence: 0.78}
+      line: r2.l90
+      after: r1.w424
+    after: null
+- id: h6
+  by: mukundesh
+  at: '2026-11-11T10:58:23Z'
+  edits:
+  - {op: text, target: r1.w436, before: {text: ource}, after: {text: source}}
+- id: h7
+  by: mukundesh
+  at: '2026-11-11T10:58:27Z'
+  edits:
+  - {op: text, target: r1.w435, before: {text: Re}, after: {text: Resource}}
+  - op: fields
+    target: r1.w435
+    before: {bbox: [757, 1469, 807, 1506]}
+    after: {bbox: [757, 1469, 920, 1507]}
+  - op: remove_word
+    target: r1.w436
+    before:
+      page: 2
+      word: {id: r1.w436, text: source, bbox: [824, 1469, 920, 1507], confidence: 0.88}
+      line: r2.l94
+      after: r1.w435
+    after: null
+- id: h8
+  by: mukundesh
+  at: '2026-11-11T10:58:41Z'
+  edits:
+  - {op: text, target: r1.w447, before: {text: Fducation}, after: {text: Education}}

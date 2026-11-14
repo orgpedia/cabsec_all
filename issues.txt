@@ -1,0 +1,103 @@
+Here are the issue codes, described in old/new terms. The words mean:
+
+- old: the consolidated version printed before the amendment, e.g. 1_Upload_883.pdf.
+- amendment: the notification for Series N, e.g. 1_Upload_367.pdf (Series 322).
+- new: the consolidated version printed after it, e.g. 1_Upload_884.pdf.
+- expected new: what we get when we apply the amendment to old.
+- states: the Rules built up from the start (Series 301) by applying every amendment in turn, without using the printed versions in between. In Phase C, where there are no versions in between, this is the only chain we'll have.
+
+1. Reading the amendment (the amendment on its own)
+
+┌─────────────────────────────────────┬────────────────────────────────────────────────────────────────────────────────────┐
+│                Code                 │                                      Meaning                                       │
+├─────────────────────────────────────┼────────────────────────────────────────────────────────────────────────────────────┤
+│ aob:verbatim_mismatch               │ A change quotes words that aren't in the amendment's text. Either the model        │
+│                                     │ misquoted or the OCR is wrong.                                                     │
+├─────────────────────────────────────┼────────────────────────────────────────────────────────────────────────────────────┤
+│ aob:unparsed_clause                 │ A clause says something "shall be inserted/omitted/substituted", but no change was │
+│                                     │  read from it.                                                                     │
+├─────────────────────────────────────┼────────────────────────────────────────────────────────────────────────────────────┤
+│ aob:sequence                        │ The changes aren't numbered in order, or "as so substituted" points at the wrong   │
+│                                     │ earlier change.                                                                    │
+├─────────────────────────────────────┼────────────────────────────────────────────────────────────────────────────────────┤
+│ aob:ambiguous_target                │ The model wasn't sure which part a change's path names.                            │
+├─────────────────────────────────────┼────────────────────────────────────────────────────────────────────────────────────┤
+│ aob:page_break_inside               │ For information only: a quote runs across a page break.                            │
+├─────────────────────────────────────┼────────────────────────────────────────────────────────────────────────────────────┤
+│ aob:hindi_missing                   │ For information only: a new ministry or department heading has no Hindi name in    │
+│                                     │ brackets.                                                                          │
+├─────────────────────────────────────┼────────────────────────────────────────────────────────────────────────────────────┤
+│ core:model_unanchored /             │ The model named text that couldn't be found, or gave a value the flow doesn't      │
+│ core:model_invalid                  │ allow.                                                                             │
+└─────────────────────────────────────┴────────────────────────────────────────────────────────────────────────────────────┘
+
+2. Applying the amendment to old (the change didn't fit old, so it was left out)
+
+┌─────────────────────┬─────────────────────────────────────────────────────────────────────────────────┐
+│        Code         │                                     Meaning                                     │
+├─────────────────────┼─────────────────────────────────────────────────────────────────────────────────┤
+│ aob:path_not_found  │ Old has no part at the change's path. Usually the path or a heading is misread. │
+├─────────────────────┼─────────────────────────────────────────────────────────────────────────────────┤
+│ aob:path_ambiguous  │ The path fits more than one part in old.                                        │
+├─────────────────────┼─────────────────────────────────────────────────────────────────────────────────┤
+│ aob:expect_mismatch │ The part in old doesn't read as the amendment quotes it ("which reads …").      │
+├─────────────────────┼─────────────────────────────────────────────────────────────────────────────────┤
+│ aob:old_not_found   │ The words to substitute or omit aren't in that part of old.                     │
+├─────────────────────┼─────────────────────────────────────────────────────────────────────────────────┤
+│ aob:already_omitted │ The part is already omitted in old.                                             │
+├─────────────────────┼─────────────────────────────────────────────────────────────────────────────────┤
+│ aob:ref_not_made    │ "The entry as so inserted" doesn't lead to the part an earlier change made.     │
+├─────────────────────┼─────────────────────────────────────────────────────────────────────────────────┤
+│ aob:op_unknown      │ A kind of change the patcher can't apply.                                       │
+└─────────────────────┴─────────────────────────────────────────────────────────────────────────────────┘
+
+3. Applying the amendment to the states, not old
+
+┌─────────────────────────────────┬────────────────────────────────────────────────────────────────────────────────────────┐
+│              Code               │                                        Meaning                                         │
+├─────────────────────────────────┼────────────────────────────────────────────────────────────────────────────────────────┤
+│ aob:state_… (e.g.               │ The change fits old but not the states, because an earlier difference is still open.   │
+│ state_path_not_found)           │ It usually goes away once the earlier series are settled.                              │
+└─────────────────────────────────┴────────────────────────────────────────────────────────────────────────────────────────┘
+
+4. Comparing expected new with new
+
+┌───────────────────────┬───────────────────────────────────────────────────────────────────────────────────────────────────┐
+│         Code          │                                              Meaning                                              │
+├───────────────────────┼───────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ aob:version_text      │ A part reads differently in expected new and new. Something is misread, or the compilers made a   │
+│                       │ correction that no amendment made ("Take the version's text").                                    │
+├───────────────────────┼───────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ aob:version_missing   │ A part is in new but not in expected new. A change that inserts it was missed or misplaced.       │
+├───────────────────────┼───────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ aob:version_extra     │ A part is in expected new but not in new. A change that omits it was missed, or an insertion      │
+│                       │ landed in the wrong place.                                                                        │
+├───────────────────────┼───────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ aob:version_ahead     │ Old already prints what the amendment makes, so old is later than its listed "upto" (as 915 was). │
+├───────────────────────┼───────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ aob:version_unchanged │ Old and new read the same although the amendment changes things, so one of them is listed under   │
+│                       │ the wrong "upto" (as 913 was).                                                                    │
+└───────────────────────┴───────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+Open now, by file
+
+aob-ammend_ (the amendments):
+- page_break_inside 19: 346, 351, 355, 357, 361, 366, 372, 1240, 1413, 1803, …. These are for information only.
+- state_path_not_found 12: 372, 1186, 1188, 1192, 1522, 3162, 3515, 3731, 3934, 4068, ….
+- version_extra 8: 368, 370, 372.
+- hindi_missing 2: 357.
+- path_not_found 2:
+  - 367 (Series 322): change 1, "3 IA" for 31A;
+  - 369 (Series 324): change 3, "entry Note".
+- verbatim_mismatch 1: 345.
+- version_text 1: 367.
+
+aob-rules_ (the versions):
+- version_missing 15: 876, 877, 879, 881, 884.
+- version_text 10: 884, 3015, 3540.
+- version_extra 7: 879, 887.
+
+All file numbers are 1_Upload_XXX.pdf. The help page in the studio (flow/aob-ammend_/review/issues.html) already explains each of these codes. I can add these old/new words to it if you like.
+
+The Series 322 change 1 correction you approved ("3 IA" → "31A" in conf/1_Upload_367.pdf.edits.yml) isn't made yet. I'll do that next.
+

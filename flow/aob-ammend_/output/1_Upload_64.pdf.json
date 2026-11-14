@@ -1,0 +1,168 @@
+{
+  "file": {
+    "name": "1_Upload_64.pdf",
+    "file_id": "f_d9b0b28ae6d81077",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_64.pdf",
+    "sha256": "d9b0b28ae6d8107762588d03e7c49044c14e35b2a7c7cad309a5404b9b829d61",
+    "govdoc": "1_Upload_64.pdf.govdoc.json.zst",
+    "revision": 49
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_2344_1964",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_165_1964",
+      "fields": {
+        "number": {
+          "value": "S.O. 2344"
+        },
+        "in_force": {
+          "value": null
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": null,
+          "basis": null
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T13:50:03.604904+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "1",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r12.rel1",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Education"
+                },
+                {
+                  "type": "entry",
+                  "num": "03"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w125",
+                "r1.w132"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    377,
+                    1602,
+                    1348,
+                    1635
+                  ]
+                }
+              ]
+            },
+            "flags": [],
+            "words": [
+              "r1.w124",
+              "r1.w135"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  302,
+                  1602,
+                  1674,
+                  1635
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r12.rel2",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Department of Social Security"
+                },
+                {
+                  "type": "department",
+                  "heading": "Social Security"
+                },
+                {
+                  "type": "entry",
+                  "num": "15"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w138",
+                "r1.w152"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    378,
+                    1681,
+                    1677,
+                    1747
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "16",
+                "text": "Central Social Welfare Board."
+              },
+              {
+                "type": "entry",
+                "num": "17",
+                "text": "All attached or subordinate offices or other organisations concerned with any of the subjects specified in this list."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w137",
+              "r1.w146"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  305,
+                  1681,
+                  1677,
+                  1716
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

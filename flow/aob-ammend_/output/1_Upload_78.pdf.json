@@ -1,0 +1,166 @@
+{
+  "file": {
+    "name": "1_Upload_78.pdf",
+    "file_id": "f_8db6aac7b9ea6705",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_78.pdf",
+    "sha256": "8db6aac7b9ea6705f79ce30fc02161a02e57a72d9e7edde73d1cc05909ed02ae",
+    "govdoc": "1_Upload_78.pdf.govdoc.json.zst",
+    "revision": 46
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_161_1966",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_3_1966",
+      "fields": {
+        "number": {
+          "value": "S.O. 161"
+        },
+        "in_force": {
+          "value": null
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": null,
+          "basis": null
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T13:49:24.305758+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "1",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r10.rel1",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Education"
+                },
+                {
+                  "type": "entry",
+                  "num": "47"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w184",
+                "r1.w186"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    1172,
+                    2373,
+                    1406,
+                    2410
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "47",
+                "text": "Financial assistance to authors and artists or their survivors in indigent circumstances. other than those belonging to the categories covered under the Scheme of the Ministry of Information and Broadcasting."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w177",
+              "r1.w183"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  289,
+                  2368,
+                  1148,
+                  2408
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r10.rel2",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Information and Broadcasting"
+                },
+                {
+                  "type": "entry",
+                  "num": "22"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w250",
+                "r1.w252"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    416,
+                    252,
+                    1680,
+                    320
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "22A",
+                "text": "Financial assistance to distinguished musicians, both vocal and instrumental, dancers and dramatists who have contributed substantially to the success of All India Radio and other Units of this Ministry, or their survivors in indigent circumstances."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w241",
+              "r1.w249"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  304,
+                  251,
+                  1572,
+                  283
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

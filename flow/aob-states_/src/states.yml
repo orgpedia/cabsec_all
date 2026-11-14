@@ -16,5 +16,9 @@ config:
   studio:                                 # where the First Schedule page's cells open the studio (one a collection)
     amendments: /#/aob-ammend             # the studio this page is served by (make studio in aob-ammend_)
     checkpoints: http://localhost:8801/#/aob-rules  # make studio PORT=8801 in aob-rules_
+  evolution: [1_Upload_1144, 1_Upload_212, 1_Upload_535, 1_Upload_902, 1_Upload_1867, 1_Upload_3935, 1_Upload_4265]
+                                          # the units over time, an epoch a version printed: the Rules of 1961, the
+                                          # re-issues of 1985 and 2004, the versions after the elections of 2014, 2019
+                                          # and 2024, the latest (versions/evolution.html)
   page_skip: [88]                         # 1_Upload_122: its First Schedule in Hindi names alone, re-issued in English
                                           # a month later (89): left off the page, 89 compared with the states at 87

@@ -1,0 +1,851 @@
+{
+  "file": {
+    "name": "1_Upload_334.pdf",
+    "file_id": "f_e92fa774e81fc74c",
+    "pages": 6,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_334.pdf",
+    "sha256": "e92fa774e81fc74c6e9da81819007a07a4fbca7c3fb61fd1314d0465ede13c71",
+    "govdoc": "1_Upload_334.pdf.govdoc.json.zst",
+    "revision": 143
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_750E_2007",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_556_2007",
+      "fields": {
+        "number": {
+          "value": "S.O. 750(E)"
+        },
+        "in_force": {
+          "value": "2007-05-09"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "2007-05-09",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T12:57:19.700873+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(1)(A)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r107.rel1",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Agro and Rural Industries"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w1319",
+                "r1.w1332"
+              ],
+              "boxes": [
+                {
+                  "page": 4,
+                  "bbox": [
+                    663,
+                    981,
+                    2194,
+                    1022
+                  ]
+                }
+              ]
+            },
+            "expect": "2 Ministry of Agro and Rural Industries (Krishi Evam Gramin Udyog Mantralaya)",
+            "flags": [],
+            "words": [
+              "r1.w1318",
+              "r1.w1324"
+            ],
+            "boxes": [
+              {
+                "page": 4,
+                "bbox": [
+                  584,
+                  981,
+                  1168,
+                  1022
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(1)(B)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r107.rel2",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Company Affairs"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w1337",
+                "r1.w1346"
+              ],
+              "boxes": [
+                {
+                  "page": 4,
+                  "bbox": [
+                    664,
+                    1100,
+                    1930,
+                    1140
+                  ]
+                }
+              ]
+            },
+            "expect": "7A Ministry of Company Affairs (Kampany Karya Mantralaya)",
+            "flags": [],
+            "words": [
+              "r1.w1336",
+              "r1.w1342"
+            ],
+            "boxes": [
+              {
+                "page": 4,
+                "bbox": [
+                  593,
+                  1100,
+                  1286,
+                  1140
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 3,
+            "source_ref": "2(1)(C)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r107.rel3",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Consumer Affairs, Food and Public Distribution"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w1351",
+                "r1.w1372"
+              ],
+              "boxes": [
+                {
+                  "page": 4,
+                  "bbox": [
+                    664,
+                    1164,
+                    2279,
+                    1253
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "ministry",
+                "num": "8A",
+                "heading": "Ministry of Corporate Affairs",
+                "heading_hi": "Korporate Karya Mantralaya"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w1350",
+              "r1.w1356"
+            ],
+            "boxes": [
+              {
+                "page": 4,
+                "bbox": [
+                  590,
+                  1164,
+                  1176,
+                  1202
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 4,
+            "source_ref": "2(1)(D)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r107.rel4",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Culture"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w1389",
+                "r1.w1397"
+              ],
+              "boxes": [
+                {
+                  "page": 4,
+                  "bbox": [
+                    663,
+                    1397,
+                    1689,
+                    1437
+                  ]
+                }
+              ]
+            },
+            "expect": "8A Ministry of Culture (Sanskriti Mantralaya)",
+            "scope": "heading",
+            "content": [
+              {
+                "type": "ministry",
+                "num": "8B",
+                "heading": "Ministry of Culture",
+                "heading_hi": "Sanskriti Mantralaya"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w1388",
+              "r1.w1394"
+            ],
+            "boxes": [
+              {
+                "page": 4,
+                "bbox": [
+                  589,
+                  1397,
+                  1176,
+                  1437
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 5,
+            "source_ref": "2(1)(E)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r107.rel5",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Mines"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w1410",
+                "r1.w1418"
+              ],
+              "boxes": [
+                {
+                  "page": 4,
+                  "bbox": [
+                    663,
+                    1514,
+                    1648,
+                    1553
+                  ]
+                }
+              ]
+            },
+            "expect": "21A Ministry of Mines (Khan Mantralaya)",
+            "content": [
+              {
+                "type": "ministry",
+                "num": "21A",
+                "heading": "Ministry of Micro, Small and Medium Enterprises",
+                "heading_hi": "Sukshma Laghu Aur Madhyam Udyam Mantralaya"
+              },
+              {
+                "type": "ministry",
+                "num": "21AA",
+                "heading": "Ministry of Mines",
+                "heading_hi": "Khan Mantralaya"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w1409",
+              "r1.w1415"
+            ],
+            "boxes": [
+              {
+                "page": 4,
+                "bbox": [
+                  594,
+                  1514,
+                  1201,
+                  1553
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 6,
+            "source_ref": "2(1)(F)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r107.rel6",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Small Scale Industries"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w1448",
+                "r1.w1458"
+              ],
+              "boxes": [
+                {
+                  "page": 4,
+                  "bbox": [
+                    663,
+                    1809,
+                    1947,
+                    1849
+                  ]
+                }
+              ]
+            },
+            "expect": "33 Ministry of Small Scale Industries (Laghu Udyog Mantralaya)",
+            "flags": [],
+            "words": [
+              "r1.w1447",
+              "r1.w1453"
+            ],
+            "boxes": [
+              {
+                "page": 4,
+                "bbox": [
+                  594,
+                  1809,
+                  1213,
+                  1849
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 7,
+            "source_ref": "2(2)(A)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r107.rel7",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF AGRO AND RURAL INDUSTRIES"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w1469",
+                "r1.w1486"
+              ],
+              "boxes": [
+                {
+                  "page": 4,
+                  "bbox": [
+                    665,
+                    1945,
+                    2279,
+                    2029
+                  ]
+                }
+              ]
+            },
+            "expect": "MINISTRY OF AGRO AND RURAL INDUSTRIES (KRISHI EVAM GRAMIN UDYOG MANTRALAYA)",
+            "flags": [],
+            "words": [
+              "r1.w1468",
+              "r1.w1473"
+            ],
+            "boxes": [
+              {
+                "page": 4,
+                "bbox": [
+                  586,
+                  1945,
+                  1293,
+                  1981
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 8,
+            "source_ref": "2(2)(B)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r107.rel8",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF COMPANY AFFAIRS"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w1491",
+                "r1.w1500"
+              ],
+              "boxes": [
+                {
+                  "page": 4,
+                  "bbox": [
+                    664,
+                    2059,
+                    2225,
+                    2099
+                  ]
+                }
+              ]
+            },
+            "expect": "MINISTRY OF COMPANY AFFAIRS (KAMPANY KARYA MANTRALAYA)",
+            "scope": "heading",
+            "content": [
+              {
+                "type": "ministry",
+                "heading": "MINISTRY OF CORPORATE",
+                "heading_hi": "KORPORATE KARYA MANTRALAYA"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w1490",
+              "r1.w1496"
+            ],
+            "boxes": [
+              {
+                "page": 4,
+                "bbox": [
+                  591,
+                  2059,
+                  1377,
+                  2099
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 9,
+            "source_ref": "2(2)(C)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r107.rel9",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF LAW AND JUSTICE"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w1515",
+                "r1.w1531"
+              ],
+              "boxes": [
+                {
+                  "page": 4,
+                  "bbox": [
+                    664,
+                    2243,
+                    2281,
+                    2332
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "ministry",
+                "heading": "MINISTRY OF MICRO, SMALL AND MEDIUM ENTERPRISES",
+                "heading_hi": "SUKSHMA LAGHU AUR MADHYAM UDYAM MANTRALAYA"
+              },
+              {
+                "type": "part",
+                "num": "I",
+                "heading": "PART I",
+                "text": "Subjects in List I of the Seventh Schedule to the Constitution of India:"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Industries, the development and regulation of which by the Union are declared by Parliament to be expedient in public interest under the Industries (Development and Regulation) Act 1951 (65 of 1951) and the Micro, Small and Medium Enterprises Development Act, 2006 (27 of 2006) so far as they relate respectively to small scale industrial undertakings and ancillary industrial undertakings and, as the case may be, micro, small and medium enterprises defined in the said Acts."
+              },
+              {
+                "type": "part",
+                "num": "II",
+                "heading": "PART II"
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "For the Union Territories, the subject mentioned in PART 1 above so far as they exist in regard to these territories."
+              },
+              {
+                "type": "part",
+                "num": "III",
+                "heading": "PART III",
+                "text": "General and Consequential:"
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "All matters of policy and planning relating to and coordination of all measures for development of micro, small and medium enterprises, including khadi, cottage, village and coir industries."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "National Board for Micro, Small and Medium Enterprises."
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "Co-operation in the micro, small and medium enterprises sector, including cottage, khadi village and coir industries, excepting cooperative sugar factories."
+              },
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "All matters relating to preference policies for procurement of goods produced and services. rendered by micro and small enterprises by Ministries or Departments, public sector undertakings and aided institutions of the Central Government."
+              },
+              {
+                "type": "entry",
+                "num": "7",
+                "text": "All matters relating to technical and economic cooperation with the United Nations Industrial Development Organisation for promotion and development of micro, small and medium enterprises, including cottage, khadi, village and coir industries."
+              },
+              {
+                "type": "part",
+                "num": "IV",
+                "heading": "PART IV",
+                "text": "Attached Office:"
+              },
+              {
+                "type": "entry",
+                "num": "8",
+                "text": "Small Industries Development Organisation (SIDO) and Office of the Development Commissioner (Small Scale Industries), including Small Industries Development Organisation field units like Small Industry Service Institutes, Regional Testing Centres and Field Testing Stations, Small Entrepreneurs Promotion and Training Institute (SEPTI), etc."
+              },
+              {
+                "type": "part",
+                "num": "V",
+                "heading": "PART V",
+                "text": "Statutory and Autonomous Bodies and Training Institutes:"
+              },
+              {
+                "type": "entry",
+                "num": "9",
+                "text": "Khadi and Village Industries Commission (KVIC), Mumbai."
+              },
+              {
+                "type": "entry",
+                "num": "10",
+                "text": "Coir Board (CB), Kochi."
+              },
+              {
+                "type": "entry",
+                "num": "11",
+                "text": "Tool Rooms and Training Centres operated through the Small Industries Development Organisation."
+              },
+              {
+                "type": "entry",
+                "num": "12",
+                "text": "Entrepreneurship Development and Skill Development or Training Institutes:"
+              },
+              {
+                "type": "item",
+                "num": "i",
+                "text": "National Institute of Small Industry Extension Training (NISIET), Hyderabad."
+              },
+              {
+                "type": "item",
+                "num": "ii",
+                "text": "National Institute for Entrepreneurship and Small Business Development (NIESBUD) NOIDA."
+              },
+              {
+                "type": "item",
+                "num": "iii",
+                "text": "Indian Institute of Entrepreneurship (IIE), Guwahati."
+              },
+              {
+                "type": "item",
+                "num": "iv",
+                "text": "Central Footwear Training Institute (CFTI), Agra."
+              },
+              {
+                "type": "item",
+                "num": "v",
+                "text": "Central Footwear Training Institute (CFTI), Chennai."
+              },
+              {
+                "type": "item",
+                "num": "vi",
+                "text": "All Training Institutes of Khadi and Village Industries Commission."
+              },
+              {
+                "type": "item",
+                "num": "vii",
+                "text": "All Training Institutes of Coir Board"
+              },
+              {
+                "type": "entry",
+                "num": "13",
+                "text": "Credit Guarantee Fund Trust for Small Industries."
+              },
+              {
+                "type": "entry",
+                "num": "14",
+                "text": "Research and Development Centres, including: 1 (1) Institute for Design of Electrical Measuring Instruments (IDEMI), Mumbai."
+              },
+              {
+                "type": "item",
+                "num": "ii",
+                "text": "Electronic Service and Training Centre (ESTC), Ramnagar."
+              },
+              {
+                "type": "item",
+                "num": "iii",
+                "text": "Process and Product Development Centre (PPDC), Agra."
+              },
+              {
+                "type": "item",
+                "num": "iv",
+                "text": "Process and Product Development Centre (PPDC), Meerut."
+              },
+              {
+                "type": "item",
+                "num": "v",
+                "text": "Fragrance and Flavour Development Centre (FFDC), Kannauj."
+              },
+              {
+                "type": "item",
+                "num": "vi",
+                "text": "Centre for the Development of Glass Industry (CDGI), Firozabad."
+              },
+              {
+                "type": "item",
+                "num": "vii",
+                "text": "Mahatma Gandhi Institute of Rural Industrialisation, Wardha."
+              },
+              {
+                "type": "entry",
+                "num": "15",
+                "text": "Any other statutory body or institute created for Micro, Small and Medium Enterprises including those in the unorganised sector. 238795/07-2"
+              },
+              {
+                "type": "part",
+                "num": "VI",
+                "heading": "PART VI",
+                "text": "Public Sector Undertaking:"
+              },
+              {
+                "type": "entry",
+                "num": "16",
+                "text": "National Small Industries Corporation Limited, Delhi."
+              },
+              {
+                "type": "part",
+                "num": "VII",
+                "heading": "PART VII",
+                "text": "Awards and Exhibitions:"
+              },
+              {
+                "type": "entry",
+                "num": "17",
+                "text": "National Awards for Micro, Small and Medium Enterprises, including khadi, cottage, village and coir industries."
+              },
+              {
+                "type": "entry",
+                "num": "18",
+                "text": "National Awards for Research and Development Efforts by Micro, Small and Medium Enterprises, including khadi, cottage, village and coir industries."
+              },
+              {
+                "type": "entry",
+                "num": "19",
+                "text": "National Awards for Quality Products, including khadi, cottage, village and coir industries."
+              },
+              {
+                "type": "entry",
+                "num": "20",
+                "text": "National and international exhibitions, buyer-seller meets and similar events for promotion and development of micro, small and medium enterprises, including khadi, cottage, village and coir industries. PART VIHI Administration of Acts, Rules and Regulations:"
+              },
+              {
+                "type": "entry",
+                "num": "21",
+                "text": "The Micro, Small and Medium Enterprises Development Act, 2006 (27 of 2006) and Rules and Regulations thereunder."
+              },
+              {
+                "type": "entry",
+                "num": "22",
+                "text": "Section 29B of the Industries (Development and Regulation) Act, 1951 (65 of 1951) to the extent its provisions relate to small scale industrial undertakings and ancillary industrial undertakings and Rules and Regulations thereunder."
+              },
+              {
+                "type": "entry",
+                "num": "23",
+                "text": "The Khadi and Village Industries Commission Act, 1956 (61 of 1956) and Rules and Regulations thereunder."
+              },
+              {
+                "type": "entry",
+                "num": "24",
+                "text": "The Coir Industry Act, 1953 (45 of 1953) and Rules and Regulations thereunder."
+              },
+              {
+                "type": "part",
+                "num": "IX",
+                "heading": "PART IX",
+                "text": "Miscellaneous:"
+              },
+              {
+                "type": "entry",
+                "num": "25",
+                "text": "Coordination and implementation of Prime Minister's Rozgar Yojana and Rural Employment Generation Programme and similar schemes or programmes relating to industrialisation and employment generation through promotion and development of micro, small and medium enterprises, including khadi, cottage, village and coir industries with the States or Union territories, and enhancing the competitiveness of such enterprises and industries."
+              },
+              {
+                "type": "entry",
+                "num": "26",
+                "text": "All other matters relating to micro, small, medium enterprises including khadi, cottage, village and coir industries, not specifically allocated to any other Ministry or Department and renomenclature of the existing non-statutory organisations, field offices and institutions under the Ministry in line with the Micro, Small and Medium Enterprises Development Act, 2006 (27 of 2006)"
+              }
+            ],
+            "flags": [
+              "read_page_break"
+            ],
+            "words": [
+              "r1.w1514",
+              "r1.w1520"
+            ],
+            "boxes": [
+              {
+                "page": 4,
+                "bbox": [
+                  592,
+                  2243,
+                  1286,
+                  2281
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 10,
+            "source_ref": "2(2)(D)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r107.rel10",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF SMALL SCALE INDUSTRIES"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w2382",
+                "r1.w2396"
+              ],
+              "boxes": [
+                {
+                  "page": 6,
+                  "bbox": [
+                    608,
+                    2355,
+                    2224,
+                    2450
+                  ]
+                }
+              ]
+            },
+            "expect": "MINISTRY OF SMALL SCALE INDUSTRIES (LAGHU UDYOG MANTRALAYA)",
+            "flags": [],
+            "words": [
+              "r1.w2381",
+              "r1.w2386"
+            ],
+            "boxes": [
+              {
+                "page": 6,
+                "bbox": [
+                  533,
+                  2354,
+                  1189,
+                  2404
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

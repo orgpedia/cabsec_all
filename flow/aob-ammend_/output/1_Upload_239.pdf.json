@@ -1,0 +1,216 @@
+{
+  "file": {
+    "name": "1_Upload_239.pdf",
+    "file_id": "f_818d57db65f30eae",
+    "pages": 4,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_239.pdf",
+    "sha256": "818d57db65f30eaecdb966e1ba221980979ae33f3dc19091cb8049e448e7e2af",
+    "govdoc": "1_Upload_239.pdf.govdoc.json.zst",
+    "revision": 109
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_1039E_1988",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_568_1988",
+      "fields": {
+        "number": {
+          "value": "S.O. 1039(E)"
+        },
+        "in_force": {
+          "value": "1988-10-31"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "1988-10-31",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T12:56:16.510255+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(a)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r73.rel1",
+            "target": [
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "MINISTRY OF FOOD AND CIVIL SUPPLIES"
+                  },
+                  {
+                    "type": "department",
+                    "heading": "DEPARTMENT OF FOOD"
+                  },
+                  {
+                    "type": "entry",
+                    "num": "11"
+                  },
+                  {
+                    "type": "item",
+                    "num": "iv"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r1.w420",
+                  "r1.w426"
+                ],
+                "boxes": [
+                  {
+                    "page": 3,
+                    "bbox": [
+                      266,
+                      337,
+                      893,
+                      376
+                    ]
+                  }
+                ]
+              },
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "MINISTRY OF FOOD AND CIVIL SUPPLIES"
+                  },
+                  {
+                    "type": "department",
+                    "heading": "DEPARTMENT OF FOOD"
+                  },
+                  {
+                    "type": "entry",
+                    "num": "11"
+                  },
+                  {
+                    "type": "item",
+                    "num": "iv"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r1.w420",
+                  "r1.w426"
+                ],
+                "boxes": [
+                  {
+                    "page": 3,
+                    "bbox": [
+                      266,
+                      337,
+                      893,
+                      376
+                    ]
+                  }
+                ]
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w389",
+              "r1.w398"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  280,
+                  2140,
+                  1655,
+                  2181
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(b)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r73.rel2",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF FOOD PROCESSING INDUSTRIES"
+                },
+                {
+                  "type": "entry",
+                  "num": "7"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w444",
+                "r1.w446"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    230,
+                    513,
+                    467,
+                    551
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "8",
+                "text": "Modern Food Industries (India) Ltd."
+              },
+              {
+                "type": "entry",
+                "num": "9",
+                "text": "North Eastern Regional Agricultural Marketing Corporation. Ltd."
+              }
+            ],
+            "flags": [
+              "read_quote_mismatch"
+            ],
+            "words": [
+              "r1.w430",
+              "r1.w438"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  144,
+                  414,
+                  1541,
+                  451
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

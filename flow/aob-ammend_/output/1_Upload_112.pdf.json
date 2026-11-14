@@ -1,0 +1,232 @@
+{
+  "file": {
+    "name": "1_Upload_112.pdf",
+    "file_id": "f_94c883b3e35a4d3c",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_112.pdf",
+    "sha256": "94c883b3e35a4d3c415ebd647cad72895445b5e0c1ae6aa4efb8d1075b604b79",
+    "govdoc": "1_Upload_112.pdf.govdoc.json.zst",
+    "revision": 46
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_1035_1970",
+      "doc_type": "aob_amendment",
+      "parent": "GAZETTE_ISSUE_94c883b3e35a4d3c",
+      "fields": {
+        "number": {
+          "value": "S.O. 1035"
+        },
+        "in_force": {
+          "value": "1970-03-10"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "1970-03-10",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T13:49:35.709283+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(a)(1)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r10.rel1",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Food, Agriculture, Community Development and Cooperation"
+                },
+                {
+                  "type": "department",
+                  "heading": "Department of Agriculture"
+                },
+                {
+                  "type": "entry",
+                  "num": "43"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w230",
+                "r1.w231"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    1433,
+                    2316,
+                    1593,
+                    2355
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "43",
+                "text": "Refrigeration and Cold Storage facilities for fish, potatoes, fruit and other similar commodities."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w222",
+              "r1.w228"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  329,
+                  2316,
+                  1339,
+                  2355
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(a)(ii)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r10.rel2",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Food, Agriculture, Community Development and Cooperation"
+                },
+                {
+                  "type": "department",
+                  "heading": "Department of Food"
+                },
+                {
+                  "type": "entry",
+                  "num": "16"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w261",
+                "r1.w262"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    1313,
+                    2477,
+                    1473,
+                    2512
+                  ]
+                }
+              ]
+            },
+            "flags": [],
+            "words": [
+              "r1.w253",
+              "r1.w260"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  321,
+                  2478,
+                  1267,
+                  2518
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 3,
+            "source_ref": "2(b)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r10.rel3",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Cabinet Secretariat"
+                },
+                {
+                  "type": "department",
+                  "heading": "Department of Statistics"
+                },
+                {
+                  "type": "entry",
+                  "num": "5"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w290",
+                "r1.w291"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1096,
+                    313,
+                    1241,
+                    351
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "Computer Centre; Coordination of requirements relating to electronio processing equipment (computers)."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w277",
+              "r1.w282"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  419,
+                  283,
+                  1318,
+                  317
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

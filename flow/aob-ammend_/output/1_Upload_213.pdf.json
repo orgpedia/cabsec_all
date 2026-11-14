@@ -1,0 +1,398 @@
+{
+  "file": {
+    "name": "1_Upload_213.pdf",
+    "file_id": "f_6a41af97f3e0cb1e",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_213.pdf",
+    "sha256": "6a41af97f3e0cb1efc33e637f7aa4b95120b258ca3dcc60d72e7a703ab3c3349",
+    "govdoc": "1_Upload_213.pdf.govdoc.json.zst",
+    "revision": 118
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_831E_1985",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_546_1985",
+      "fields": {
+        "number": {
+          "value": "S.O. 831(E)"
+        },
+        "in_force": {
+          "value": "1985-11-15"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "1985-11-15",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T12:55:59.663758+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(a)(i)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r81.rel1",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Commerce"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w630",
+                "r1.w642"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    320,
+                    2779,
+                    1177,
+                    2861
+                  ]
+                }
+              ]
+            },
+            "expect": "2. Ministry of Commerce (Vanijya Mantralaya)",
+            "content": [
+              {
+                "type": "ministry",
+                "num": "2",
+                "heading": "Ministry of Commerce",
+                "heading_hi": "Vanijya Mantralaya"
+              },
+              {
+                "type": "department",
+                "num": "i",
+                "heading": "Department of Commerce",
+                "heading_hi": "Vanijya Vibhag"
+              },
+              {
+                "type": "department",
+                "num": "ii",
+                "heading": "Department of Supply",
+                "heading_hi": "Poorti Vibhag"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w629",
+              "r1.w637"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  272,
+                  2779,
+                  1177,
+                  2822
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(a)(ii)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r81.rel2",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Steel and Mines"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w676",
+                "r1.w692"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1454,
+                    374,
+                    2293,
+                    489
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "ministry",
+                "num": "23A",
+                "heading": "Ministry of Textiles",
+                "heading_hi": "Vastra Mantralaya"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w675",
+              "r1.w684"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  1447,
+                  374,
+                  2293,
+                  415
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 3,
+            "source_ref": "2(b)(i)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r81.rel3",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF COMMERCE"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF TEXTILES"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w720",
+                "r1.w730"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1447,
+                    738,
+                    2306,
+                    849
+                  ]
+                }
+              ]
+            },
+            "expect": "C. DEPARTMENT OF TEXTILES (VASTRA VIBHAG)",
+            "flags": [],
+            "words": [
+              "r1.w711",
+              "r1.w717"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  1449,
+                  686,
+                  2303,
+                  727
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 4,
+            "source_ref": "2(b)(ii)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r81.rel4",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF STEEL AND MINES"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w735",
+                "r1.w750"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1448,
+                    872,
+                    2302,
+                    992
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "ministry",
+                "heading": "MINISTRY OF TEXTILES",
+                "heading_hi": "VASTRA MANTRALAYA"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Production, distribution (for domestic consumption and exports) and development of jute, jute products. handicrafts and all textiles and woollens including handlooms, powerlooms, ready-made garments and industries relating to the production of sak the coliticsie fibres but excluding non-cellulosic synt Len fle (nylon, polyster, acrylic, etc.)."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "Textiles Commissioner."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "Jute Commissioner."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "Jute Corporation of India Limited."
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "Cotton Corporation of India Limited."
+              },
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "All India Handicrafts Board."
+              },
+              {
+                "type": "entry",
+                "num": "7",
+                "text": "All India Handlooms Board."
+              },
+              {
+                "type": "entry",
+                "num": "8",
+                "text": "The National Textile Corporation Ltd."
+              },
+              {
+                "type": "entry",
+                "num": "9",
+                "text": "Sericulture."
+              },
+              {
+                "type": "entry",
+                "num": "10",
+                "text": "Central Silk Board."
+              },
+              {
+                "type": "entry",
+                "num": "11",
+                "text": "Handloom Development Commissioner."
+              },
+              {
+                "type": "entry",
+                "num": "12",
+                "text": "Ahmedabad Textile Industries Research Association Ahmedabad."
+              },
+              {
+                "type": "entry",
+                "num": "13",
+                "text": "Bombay Textile Research Association, Bombay."
+              },
+              {
+                "type": "entry",
+                "num": "14",
+                "text": "The Silk and Art Silk Mills' Research Association Bombay."
+              },
+              {
+                "type": "entry",
+                "num": "15",
+                "text": "The South India Textile Research Association Coimbatore."
+              },
+              {
+                "type": "entry",
+                "num": "16",
+                "text": "Wool Research Association, Bombay."
+              },
+              {
+                "type": "entry",
+                "num": "17",
+                "text": "Indian Jute Industries Research Association, Calcutta."
+              },
+              {
+                "type": "entry",
+                "num": "18",
+                "text": "Northern India Textile Research Association, New Delhi."
+              },
+              {
+                "type": "entry",
+                "num": "19",
+                "text": "Development and expansion of export production in relation to textiles, woollens, handlooms, ready-made garments, silk and cellulosic fibres, jute and jute prodducts and handicrafts."
+              },
+              {
+                "type": "entry",
+                "num": "20",
+                "text": "Handicrafts and Handlooms Export Corporation and its subsidiary."
+              },
+              {
+                "type": "entry",
+                "num": "21",
+                "text": "Textile Commistrees."
+              },
+              {
+                "type": "entry",
+                "num": "22",
+                "text": "Commissioner of Payments."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w734",
+              "r1.w741"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  1443,
+                  872,
+                  2300,
+                  910
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

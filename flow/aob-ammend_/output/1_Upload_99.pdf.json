@@ -1,0 +1,1090 @@
+{
+  "file": {
+    "name": "1_Upload_99.pdf",
+    "file_id": "f_c11690c75631e2fb",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_99.pdf",
+    "sha256": "c11690c75631e2fb1f8efaac00426e3965a972476e7e4286a6f0d372e6833996",
+    "govdoc": "1_Upload_99.pdf.govdoc.json.zst",
+    "revision": 46
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_656_1968",
+      "doc_type": "aob_amendment",
+      "parent": "GAZETTE_ISSUE_c11690c75631e2fb",
+      "fields": {
+        "number": {
+          "value": "SO. 656"
+        },
+        "in_force": {
+          "value": "1968-02-12"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "1968-02-12",
+          "basis": "stated"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T13:49:50.864502+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "A",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r10.rel1",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "entry",
+                  "num": "7"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w174",
+                "r1.w180"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    281,
+                    2035,
+                    905,
+                    2069
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "ministry",
+                "num": "7",
+                "heading": "Ministry of Health, Family Planning and Urban Development :"
+              },
+              {
+                "type": "department",
+                "num": "i",
+                "heading": "Department of Health and Urban Development."
+              },
+              {
+                "type": "department",
+                "num": "ii",
+                "heading": "Department of Family Planning."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w173",
+              "r1.w180"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  223,
+                  2035,
+                  905,
+                  2069
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "B(a)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r10.rel2",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Health and Family Planning"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w216",
+                "r1.w225"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    361,
+                    2310,
+                    1584,
+                    2345
+                  ]
+                }
+              ]
+            },
+            "expect": "Ministry of Health and Family Planning",
+            "scope": "heading",
+            "content": [
+              {
+                "type": "text",
+                "text": "Ministry of Health, Family Planning and Urban Development"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w215",
+              "r1.w225"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  287,
+                  2310,
+                  1584,
+                  2345
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 3,
+            "source_ref": "B(a)(i)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r10.rel3",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Health, Family Planning and Urban Development"
+                },
+                {
+                  "type": "department",
+                  "heading": "Department of Health"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w242",
+                "r1.w249"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    427,
+                    2433,
+                    1444,
+                    2474
+                  ]
+                }
+              ]
+            },
+            "expect": "A. Department of Health",
+            "scope": "heading",
+            "content": [
+              {
+                "type": "text",
+                "text": "A, Department of Health and Urban Development"
+              }
+            ],
+            "ref_seq": 2,
+            "flags": [],
+            "words": [
+              "r1.w241",
+              "r1.w249"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  361,
+                  2433,
+                  1444,
+                  2475
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 4,
+            "source_ref": "B(a)(ii)",
+            "op": "renumber",
+            "akn_type": "renumbering",
+            "relation": "r10.rel4",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Health, Family Planning and Urban Development"
+                },
+                {
+                  "type": "department",
+                  "heading": "Department of Health and Urban Development"
+                },
+                {
+                  "type": "entry",
+                  "num": "66"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w291",
+                "r1.w293"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1037,
+                    235,
+                    1380,
+                    266
+                  ]
+                }
+              ]
+            },
+            "new_num": "73",
+            "ref_seq": 3,
+            "flags": [],
+            "words": [
+              "r1.w279",
+              "r1.w278"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  361,
+                  200,
+                  1691,
+                  234
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 5,
+            "source_ref": "B(a)(ii)",
+            "op": "renumber",
+            "akn_type": "renumbering",
+            "relation": "r10.rel5",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Health, Family Planning and Urban Development"
+                },
+                {
+                  "type": "department",
+                  "heading": "Department of Health and Urban Development"
+                },
+                {
+                  "type": "entry",
+                  "num": "67"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w294",
+                "r1.w294"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1405,
+                    235,
+                    1441,
+                    266
+                  ]
+                }
+              ]
+            },
+            "new_num": "74",
+            "ref_seq": 3,
+            "flags": [],
+            "words": [
+              "r1.w279",
+              "r1.w278"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  361,
+                  200,
+                  1691,
+                  234
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 6,
+            "source_ref": "B(a)(ii)",
+            "op": "renumber",
+            "akn_type": "renumbering",
+            "relation": "r10.rel6",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Health, Family Planning and Urban Development"
+                },
+                {
+                  "type": "department",
+                  "heading": "Department of Health and Urban Development"
+                },
+                {
+                  "type": "entry",
+                  "num": "68"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w296",
+                "r1.w296"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1549,
+                    235,
+                    1583,
+                    266
+                  ]
+                }
+              ]
+            },
+            "new_num": "75",
+            "ref_seq": 3,
+            "flags": [],
+            "words": [
+              "r1.w279",
+              "r1.w278"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  361,
+                  200,
+                  1691,
+                  234
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 7,
+            "source_ref": "B(a)(ii)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r10.rel7",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Health, Family Planning and Urban Development"
+                },
+                {
+                  "type": "department",
+                  "heading": "Department of Health and Urban Development"
+                },
+                {
+                  "type": "entry",
+                  "num": "65"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w308",
+                "r1.w310"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    497,
+                    267,
+                    1691,
+                    334
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "66",
+                "text": "Urban Development including Slum Clearance Schemes"
+              },
+              {
+                "type": "entry",
+                "num": "67",
+                "text": "Town and Country Planning; Matters relating to Calcutta Metropolitan Planning Organisation."
+              },
+              {
+                "type": "entry",
+                "num": "68",
+                "text": "Scheme of large scale acquisition, development and disposal of land in Delhi."
+              },
+              {
+                "type": "entry",
+                "num": "69",
+                "text": "Delhi Development Authority."
+              },
+              {
+                "type": "entry",
+                "num": "70",
+                "text": "Improvement Trusts."
+              },
+              {
+                "type": "entry",
+                "num": "71",
+                "text": "Master Plan of Delhi. Co-ordination of work in respect of the Master Plan and slum clearance in the Union Territory of Delhi."
+              },
+              {
+                "type": "entry",
+                "num": "72",
+                "text": "Administration of the Delhi Development Act, 1957."
+              }
+            ],
+            "ref_seq": 3,
+            "flags": [],
+            "words": [
+              "r1.w279",
+              "r1.w278"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  361,
+                  200,
+                  1691,
+                  234
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 8,
+            "source_ref": "B(b)(i)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r10.rel8",
+            "target": [
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "Ministry of Works, Housing and Supply"
+                  },
+                  {
+                    "type": "department",
+                    "heading": "Department of Works and Housing"
+                  },
+                  {
+                    "type": "entry",
+                    "num": "15"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r1.w409",
+                  "r1.w410"
+                ],
+                "boxes": [
+                  {
+                    "page": 2,
+                    "bbox": [
+                      418,
+                      850,
+                      597,
+                      884
+                    ]
+                  }
+                ]
+              },
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "Ministry of Works, Housing and Supply"
+                  },
+                  {
+                    "type": "department",
+                    "heading": "Department of Works and Housing"
+                  },
+                  {
+                    "type": "entry",
+                    "num": "16"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r1.w411",
+                  "r1.w411"
+                ],
+                "boxes": [
+                  {
+                    "page": 2,
+                    "bbox": [
+                      617,
+                      850,
+                      661,
+                      883
+                    ]
+                  }
+                ]
+              },
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "Ministry of Works, Housing and Supply"
+                  },
+                  {
+                    "type": "department",
+                    "heading": "Department of Works and Housing"
+                  },
+                  {
+                    "type": "entry",
+                    "num": "17"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r1.w412",
+                  "r1.w412"
+                ],
+                "boxes": [
+                  {
+                    "page": 2,
+                    "bbox": [
+                      681,
+                      850,
+                      724,
+                      883
+                    ]
+                  }
+                ]
+              },
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "Ministry of Works, Housing and Supply"
+                  },
+                  {
+                    "type": "department",
+                    "heading": "Department of Works and Housing"
+                  },
+                  {
+                    "type": "entry",
+                    "num": "18"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r1.w413",
+                  "r1.w413"
+                ],
+                "boxes": [
+                  {
+                    "page": 2,
+                    "bbox": [
+                      743,
+                      849,
+                      787,
+                      882
+                    ]
+                  }
+                ]
+              },
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "Ministry of Works, Housing and Supply"
+                  },
+                  {
+                    "type": "department",
+                    "heading": "Department of Works and Housing"
+                  },
+                  {
+                    "type": "entry",
+                    "num": "19"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r1.w414",
+                  "r1.w414"
+                ],
+                "boxes": [
+                  {
+                    "page": 2,
+                    "bbox": [
+                      806,
+                      849,
+                      849,
+                      882
+                    ]
+                  }
+                ]
+              },
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "Ministry of Works, Housing and Supply"
+                  },
+                  {
+                    "type": "department",
+                    "heading": "Department of Works and Housing"
+                  },
+                  {
+                    "type": "entry",
+                    "num": "20"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r1.w415",
+                  "r1.w415"
+                ],
+                "boxes": [
+                  {
+                    "page": 2,
+                    "bbox": [
+                      866,
+                      849,
+                      900,
+                      882
+                    ]
+                  }
+                ]
+              },
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "Ministry of Works, Housing and Supply"
+                  },
+                  {
+                    "type": "department",
+                    "heading": "Department of Works and Housing"
+                  },
+                  {
+                    "type": "entry",
+                    "num": "21"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r1.w417",
+                  "r1.w417"
+                ],
+                "boxes": [
+                  {
+                    "page": 2,
+                    "bbox": [
+                      999,
+                      848,
+                      1033,
+                      881
+                    ]
+                  }
+                ]
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w408",
+              "r1.w420"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  352,
+                  846,
+                  1351,
+                  885
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 9,
+            "source_ref": "B(b)(ii)",
+            "op": "renumber",
+            "akn_type": "renumbering",
+            "relation": "r10.rel9",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Works, Housing and Supply"
+                },
+                {
+                  "type": "department",
+                  "heading": "Department of Works and Housing"
+                },
+                {
+                  "type": "entry",
+                  "num": "22"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w423",
+                "r1.w426"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    412,
+                    896,
+                    829,
+                    932
+                  ]
+                }
+              ]
+            },
+            "new_num": "15",
+            "flags": [],
+            "words": [
+              "r1.w422",
+              "r1.w434"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  333,
+                  894,
+                  1632,
+                  933
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 10,
+            "source_ref": "B(b)(ii)",
+            "op": "renumber",
+            "akn_type": "renumbering",
+            "relation": "r10.rel10",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Works, Housing and Supply"
+                },
+                {
+                  "type": "department",
+                  "heading": "Department of Works and Housing"
+                },
+                {
+                  "type": "entry",
+                  "num": "23"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w427",
+                "r1.w427"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    852,
+                    896,
+                    897,
+                    930
+                  ]
+                }
+              ]
+            },
+            "new_num": "16",
+            "flags": [],
+            "words": [
+              "r1.w422",
+              "r1.w434"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  333,
+                  894,
+                  1632,
+                  933
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 11,
+            "source_ref": "B(b)(ii)",
+            "op": "renumber",
+            "akn_type": "renumbering",
+            "relation": "r10.rel11",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Works, Housing and Supply"
+                },
+                {
+                  "type": "department",
+                  "heading": "Department of Works and Housing"
+                },
+                {
+                  "type": "entry",
+                  "num": "24"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w428",
+                "r1.w428"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    919,
+                    896,
+                    965,
+                    930
+                  ]
+                }
+              ]
+            },
+            "new_num": "17",
+            "flags": [],
+            "words": [
+              "r1.w422",
+              "r1.w434"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  333,
+                  894,
+                  1632,
+                  933
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 12,
+            "source_ref": "B(b)(ii)",
+            "op": "renumber",
+            "akn_type": "renumbering",
+            "relation": "r10.rel12",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Works, Housing and Supply"
+                },
+                {
+                  "type": "department",
+                  "heading": "Department of Works and Housing"
+                },
+                {
+                  "type": "entry",
+                  "num": "25"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w429",
+                "r1.w429"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    985,
+                    895,
+                    1024,
+                    929
+                  ]
+                }
+              ]
+            },
+            "new_num": "18",
+            "flags": [],
+            "words": [
+              "r1.w422",
+              "r1.w434"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  333,
+                  894,
+                  1632,
+                  933
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 13,
+            "source_ref": "B(b)(ii)",
+            "op": "renumber",
+            "akn_type": "renumbering",
+            "relation": "r10.rel13",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Works, Housing and Supply"
+                },
+                {
+                  "type": "department",
+                  "heading": "Department of Works and Housing"
+                },
+                {
+                  "type": "entry",
+                  "num": "26"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w431",
+                "r1.w431"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1164,
+                    895,
+                    1200,
+                    922
+                  ]
+                }
+              ]
+            },
+            "new_num": "19",
+            "flags": [],
+            "words": [
+              "r1.w422",
+              "r1.w434"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  333,
+                  894,
+                  1632,
+                  933
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

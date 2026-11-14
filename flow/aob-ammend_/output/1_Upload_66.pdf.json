@@ -1,0 +1,226 @@
+{
+  "file": {
+    "name": "1_Upload_66.pdf",
+    "file_id": "f_a7f205c814a0d652",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_66.pdf",
+    "sha256": "a7f205c814a0d652e61bc0976a43aa46d591183fff12d5af68a2dea01d16ee42",
+    "govdoc": "1_Upload_66.pdf.govdoc.json.zst",
+    "revision": 46
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_2986_1964",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_225_1964",
+      "fields": {
+        "number": {
+          "value": "S.O. 2986"
+        },
+        "in_force": {
+          "value": "1964-09-01"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "1964-09-01",
+          "basis": "stated"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T13:49:37.915579+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "(1)(a)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r10.rel1",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of External Affairs"
+                },
+                {
+                  "type": "entry",
+                  "num": "15"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w138",
+                "r1.w141"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    455,
+                    1705,
+                    821,
+                    1738
+                  ]
+                }
+              ]
+            },
+            "flags": [],
+            "words": [
+              "r1.w137",
+              "r1.w144"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  389,
+                  1705,
+                  1133,
+                  1738
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "(1)(b)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r10.rel2",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of External Affairs"
+                },
+                {
+                  "type": "entry",
+                  "num": "16"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w146",
+                "r1.w150"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    455,
+                    1751,
+                    929,
+                    1783
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "16",
+                "text": "Matters in respect of Pondicherry, Goa, Daman and Diu, involving relations with France and Portugal"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w145",
+              "r1.w156"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  391,
+                  1751,
+                  1727,
+                  1783
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 3,
+            "source_ref": "(2)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r10.rel3",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Home Affairs"
+                },
+                {
+                  "type": "group_heading",
+                  "heading": "Part III-Addi- tional subjects with regard to Union Territories"
+                },
+                {
+                  "type": "group_heading",
+                  "heading": "(i) For the Union Territories of Delhi, Himachal Pradesh, Manipur and Tripura"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w193",
+                "r1.w207"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    459,
+                    1944,
+                    1730,
+                    2043
+                  ]
+                }
+              ]
+            },
+            "expect": "(i) For the Union Territories of Delhi, Himachal Pradesh, Manipur and Tripura",
+            "scope": "heading",
+            "content": [
+              {
+                "type": "item",
+                "num": "i",
+                "text": "For the Union Territories of Delhi, Himachal Pradesh, Manipur Tripura, Pondicherry, Goa, Daman and Diu and Dadra and Nagar Haveli"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w175",
+              "r1.w185"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  353,
+                  1910,
+                  1730,
+                  1943
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

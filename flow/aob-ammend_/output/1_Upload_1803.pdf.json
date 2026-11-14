@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_1803.pdf",
     "sha256": "742a37252c3375b76bb9fadd7d625fd4ec452c4dc8b6001325b75274cb6d260a",
     "govdoc": "1_Upload_1803.pdf.govdoc.json.zst",
-    "revision": 65
+    "revision": 201
   },
   "documents": [
     {
@@ -29,9 +29,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "2",
+          "version": "3",
           "model": "gemini-4-argon",
-          "at": "2026-11-03T16:59:03.386479+00:00"
+          "at": "2026-11-12T12:56:15.550079+00:00"
         },
         "ops": [
           {
@@ -39,6 +39,7 @@
             "source_ref": "2(1)(a)",
             "op": "replace",
             "akn_type": "replacement",
+            "relation": "r165.rel1",
             "target": {
               "cited": [
                 {
@@ -102,6 +103,7 @@
             "source_ref": "2(1)(b)",
             "op": "insert",
             "akn_type": "insertion",
+            "relation": "r165.rel2",
             "position": "after",
             "anchor": {
               "cited": [
@@ -166,6 +168,7 @@
             "source_ref": "2(2)(a)",
             "op": "replace",
             "akn_type": "replacement",
+            "relation": "r165.rel3",
             "target": {
               "cited": [
                 {
@@ -230,6 +233,7 @@
             "source_ref": "2(2)(b)(i)",
             "op": "substitute_text",
             "akn_type": "substitution",
+            "relation": "r165.rel4",
             "target": {
               "cited": [
                 {
@@ -295,6 +299,7 @@
             "source_ref": "2(2)(b)(ii)",
             "op": "insert",
             "akn_type": "insertion",
+            "relation": "r165.rel5",
             "position": "after",
             "anchor": {
               "cited": [
@@ -371,6 +376,7 @@
             "source_ref": "2(2)(b)(iii)",
             "op": "substitute_text",
             "akn_type": "substitution",
+            "relation": "r165.rel6",
             "target": {
               "cited": [
                 {
@@ -436,6 +442,7 @@
             "source_ref": "2(2)(b)(iv)",
             "op": "omit",
             "akn_type": "repeal",
+            "relation": "r165.rel7",
             "target": [
               {
                 "cited": [
@@ -541,6 +548,7 @@
             "source_ref": "2(2)(c)",
             "op": "substitute_text",
             "akn_type": "substitution",
+            "relation": "r165.rel8",
             "target": {
               "cited": [
                 {
@@ -606,6 +614,7 @@
             "source_ref": "2(2)(d)(i)",
             "op": "substitute_text",
             "akn_type": "substitution",
+            "relation": "r165.rel9",
             "target": {
               "cited": [
                 {
@@ -671,6 +680,7 @@
             "source_ref": "2(2)(d)(ii)",
             "op": "substitute_text",
             "akn_type": "substitution",
+            "relation": "r165.rel10",
             "target": {
               "cited": [
                 {
@@ -736,6 +746,7 @@
             "source_ref": "2(2)(e)",
             "op": "insert",
             "akn_type": "insertion",
+            "relation": "r165.rel11",
             "position": "after",
             "anchor": {
               "cited": [

@@ -1,0 +1,170 @@
+{
+  "file": {
+    "name": "1_Upload_233.pdf",
+    "file_id": "f_34dd47e946bb8f3a",
+    "pages": 4,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_233.pdf",
+    "sha256": "34dd47e946bb8f3a11ff5b3443e6dcf948accf45a0b7bb602c2af49e6683ab0e",
+    "govdoc": "1_Upload_233.pdf.govdoc.json.zst",
+    "revision": 109
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_49E_1988",
+      "doc_type": "aob_amendment",
+      "parent": "GAZETTE_ISSUE_34dd47e946bb8f3a",
+      "fields": {
+        "number": {
+          "value": "S.O. 49 (E)"
+        },
+        "in_force": {
+          "value": "1988-01-09"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "1988-01-09",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T12:55:38.772465+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(a)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r73.rel1",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF EXTERNAL AFFAIRS"
+                },
+                {
+                  "type": "entry",
+                  "num": "42"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w455",
+                "r1.w457"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    850,
+                    524,
+                    1105,
+                    561
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "43",
+                "text": "Technical Assistance given by India to African countries under the Special Commonwealth African Assistance Plan Programme."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w445",
+              "r1.w452"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  170,
+                  478,
+                  1521,
+                  522
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(b)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r73.rel2",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF FINANCE"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF ECONOMIC AFFAIRS"
+                },
+                {
+                  "type": "entry",
+                  "num": "10"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w510",
+                "r1.w512"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    260,
+                    836,
+                    1520,
+                    918
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "10",
+                "text": "Technical assistance given by India to the member countries of the Colombo Plan under Technical Cooperation Scheme of the Colombo Plan."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w491",
+              "r1.w497"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  180,
+                  755,
+                  1175,
+                  792
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

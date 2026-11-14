@@ -1,0 +1,166 @@
+{
+  "file": {
+    "name": "1_Upload_330.pdf",
+    "file_id": "f_c6737501efec4cf9",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_330.pdf",
+    "sha256": "c6737501efec4cf9f3c65ea41d106f0c3c463c51e534a6ce0e544cd9b2eee13e",
+    "govdoc": "1_Upload_330.pdf.govdoc.json.zst",
+    "revision": 147
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_367E_2006",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_261_2006",
+      "fields": {
+        "number": {
+          "value": "S.O.367(E)"
+        },
+        "in_force": {
+          "value": "2006-03-17"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "2006-03-17",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T12:56:58.178138+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(i)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r110.rel1",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Environment and Forests"
+                },
+                {
+                  "type": "entry",
+                  "num": "47"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w372",
+                "r1.w374"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    604,
+                    961,
+                    2265,
+                    1050
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "note",
+                "text": "Note - The Ministry of Environment and Forests will be responsible for overall policy in relation to forests, except all matters, including legislation, relating to the rights of forest dwelling Scheduled Tribes on forest lands."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w359",
+              "r1.w367"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  522,
+                  961,
+                  1544,
+                  1000
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(ii)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r110.rel2",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Tribal Affairs"
+                },
+                {
+                  "type": "entry",
+                  "num": "5"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w432",
+                "r1.w434"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1841,
+                    1266,
+                    2042,
+                    1304
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "5A",
+                "text": "All matters including legislation relating to the rights of forest dwelling Scheduled Tribes on forest lands."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w421",
+              "r1.w428"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  512,
+                  1266,
+                  1325,
+                  1304
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

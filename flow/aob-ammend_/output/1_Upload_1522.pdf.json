@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_1522.pdf",
     "sha256": "3edd2330bf9d32fd8f90f66109217307dc68ef1c3a078d9bf7eaf04d130613b9",
     "govdoc": "1_Upload_1522.pdf.govdoc.json.zst",
-    "revision": 65
+    "revision": 214
   },
   "documents": [
     {
@@ -29,9 +29,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "2",
+          "version": "3",
           "model": "gemini-4-argon",
-          "at": "2026-11-03T16:59:02.983538+00:00"
+          "at": "2026-11-12T12:55:40.509021+00:00"
         },
         "ops": [
           {
@@ -39,6 +39,7 @@
             "source_ref": "2(i)",
             "op": "replace",
             "akn_type": "replacement",
+            "relation": "r178.rel1",
             "target": {
               "cited": [
                 {
@@ -56,8 +57,8 @@
               ],
               "eId": null,
               "words": [
-                "r17.w293",
-                "r17.w295"
+                "r72.w293",
+                "r72.w295"
               ],
               "boxes": [
                 {
@@ -80,8 +81,8 @@
             ],
             "flags": [],
             "words": [
-              "r17.w278",
-              "r17.w284"
+              "r72.w278",
+              "r72.w287"
             ],
             "boxes": [
               {
@@ -89,7 +90,7 @@
                 "bbox": [
                   415,
                   925,
-                  1473,
+                  2227,
                   965
                 ]
               }
@@ -100,6 +101,7 @@
             "source_ref": "2(ii)",
             "op": "omit",
             "akn_type": "repeal",
+            "relation": "r178.rel2",
             "target": {
               "cited": [
                 {
@@ -121,8 +123,8 @@
               ],
               "eId": null,
               "words": [
-                "r17.w342",
-                "r17.w343"
+                "r72.w342",
+                "r72.w343"
               ],
               "boxes": [
                 {
@@ -138,8 +140,8 @@
             },
             "flags": [],
             "words": [
-              "r17.w316",
-              "r17.w322"
+              "r72.w316",
+              "r72.w326"
             ],
             "boxes": [
               {
@@ -147,7 +149,7 @@
                 "bbox": [
                   415,
                   1171,
-                  1427,
+                  2228,
                   1210
                 ]
               }

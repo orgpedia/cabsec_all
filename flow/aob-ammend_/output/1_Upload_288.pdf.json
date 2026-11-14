@@ -1,0 +1,1617 @@
+{
+  "file": {
+    "name": "1_Upload_288.pdf",
+    "file_id": "f_c20b661be53e1de6",
+    "pages": 24,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_288.pdf",
+    "sha256": "c20b661be53e1de65b25494a628b03abc5f658040eb9ed13a4dd46284be42407",
+    "govdoc": "1_Upload_288.pdf.govdoc.json.zst",
+    "revision": 118
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_523E_2000",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_362_2000",
+      "fields": {
+        "number": {
+          "value": "S.O. 523 (E)"
+        },
+        "in_force": {
+          "value": "2000-05-27"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "2000-05-27",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T12:56:57.700662+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(1)(A)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r81.rel1",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Civil Aviation"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w3121",
+                "r1.w3131"
+              ],
+              "boxes": [
+                {
+                  "page": 14,
+                  "bbox": [
+                    668,
+                    515,
+                    2163,
+                    618
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "ministry",
+                "num": "3A",
+                "heading": "Ministry of Coal (Koyala Mantralya)"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w3120",
+              "r1.w3128"
+            ],
+            "boxes": [
+              {
+                "page": 14,
+                "bbox": [
+                  521,
+                  515,
+                  2163,
+                  570
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(1)(B)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r81.rel2",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Culture, Youth Affairs and Sports"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w3146",
+                "r1.w3182"
+              ],
+              "boxes": [
+                {
+                  "page": 14,
+                  "bbox": [
+                    666,
+                    815,
+                    2167,
+                    1117
+                  ]
+                }
+              ]
+            },
+            "expect": "5A. Ministry of Culture, Youth Affairs and Sports (Sanskriti, Yuvak Karyakram aur Khel Mantralaya)",
+            "flags": [],
+            "words": [
+              "r1.w3145",
+              "r1.w3152"
+            ],
+            "boxes": [
+              {
+                "page": 14,
+                "bbox": [
+                  522,
+                  815,
+                  2166,
+                  868
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 3,
+            "source_ref": "2(1)(C)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r81.rel3",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Mines and Minerals"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w3187",
+                "r1.w3204"
+              ],
+              "boxes": [
+                {
+                  "page": 14,
+                  "bbox": [
+                    668,
+                    1166,
+                    2171,
+                    1316
+                  ]
+                }
+              ]
+            },
+            "expect": "20. Ministry of Mines and Minerals (Khan aur Khanij Mantralaya)",
+            "content": [
+              {
+                "type": "ministry",
+                "num": "20",
+                "heading": "Ministry of Mines",
+                "heading_hi": "Khan Mantralaya"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w3186",
+              "r1.w3194"
+            ],
+            "boxes": [
+              {
+                "page": 14,
+                "bbox": [
+                  525,
+                  1166,
+                  2169,
+                  1218
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 4,
+            "source_ref": "2(1)(D)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r81.rel4",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Tourism"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w3219",
+                "r1.w3227"
+              ],
+              "boxes": [
+                {
+                  "page": 14,
+                  "bbox": [
+                    662,
+                    1545,
+                    2159,
+                    1635
+                  ]
+                }
+              ]
+            },
+            "expect": "32A. Ministry of Tourism (Paryatan Mantralaya)",
+            "content": [
+              {
+                "type": "ministry",
+                "num": "32A",
+                "heading": "Ministry of Tourism and Culture",
+                "heading_hi": "Paryatan aur Sanskriti Mantralaya"
+              },
+              {
+                "type": "department",
+                "num": "i",
+                "heading": "Department of Tourism",
+                "heading_hi": "Paryatan Vibhag"
+              },
+              {
+                "type": "item",
+                "num": "ii",
+                "text": "Department of Culture (Sanskriti Vibhag)."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w3212",
+              "r1.w3225"
+            ],
+            "boxes": [
+              {
+                "page": 14,
+                "bbox": [
+                  512,
+                  1545,
+                  2159,
+                  1586
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 5,
+            "source_ref": "2(1)(E)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r81.rel5",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Urban Development"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w3259",
+                "r1.w3269"
+              ],
+              "boxes": [
+                {
+                  "page": 14,
+                  "bbox": [
+                    661,
+                    2149,
+                    2163,
+                    2238
+                  ]
+                }
+              ]
+            },
+            "expect": "33. Ministry of Urban Development (Shahari Vikas Mantralaya)",
+            "content": [
+              {
+                "type": "ministry",
+                "num": "33",
+                "heading": "Ministry of Urban Development and Poverty Alleviation",
+                "heading_hi": "Shahari Vikas aur Garibi Upshaman Mantralaya"
+              },
+              {
+                "type": "department",
+                "num": "i",
+                "heading": "Department of Urban Development",
+                "heading_hi": "Shahari Vikas Vibhag"
+              },
+              {
+                "type": "department",
+                "num": "ii",
+                "heading": "Department of Urban Employment and Poverty Alleviation",
+                "heading_hi": "Shahari Rozgar aur Garibi Upshaman Vibhag"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w3258",
+              "r1.w3266"
+            ],
+            "boxes": [
+              {
+                "page": 14,
+                "bbox": [
+                  512,
+                  2147,
+                  2163,
+                  2189
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 6,
+            "source_ref": "2(1)(F)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r81.rel6",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Urban Employment and Poverty Alleviation"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w3316",
+                "r1.w3332"
+              ],
+              "boxes": [
+                {
+                  "page": 14,
+                  "bbox": [
+                    660,
+                    2901,
+                    2161,
+                    3043
+                  ]
+                }
+              ]
+            },
+            "expect": "33A. Ministry of Urban Employment and Poverty Alleviation (Shahari Rozgar aur Garibi Upshaman Mantralaya)",
+            "flags": [],
+            "words": [
+              "r1.w3315",
+              "r1.w3323"
+            ],
+            "boxes": [
+              {
+                "page": 14,
+                "bbox": [
+                  517,
+                  2901,
+                  2161,
+                  2943
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 7,
+            "source_ref": "2(1)(G)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r81.rel7",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Social Justice and Empowerment"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w3354",
+                "r1.w3368"
+              ],
+              "boxes": [
+                {
+                  "page": 15,
+                  "bbox": [
+                    716,
+                    265,
+                    2216,
+                    408
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "ministry",
+                "num": "35A",
+                "heading": "Ministry of Youth Affairs and Sports",
+                "heading_hi": "Yuvak Karyakram aur Khel Mantralaya"
+              }
+            ],
+            "flags": [
+              "new_text_differs"
+            ],
+            "words": [
+              "r1.w3348",
+              "r1.w3361"
+            ],
+            "boxes": [
+              {
+                "page": 15,
+                "bbox": [
+                  570,
+                  265,
+                  2216,
+                  304
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 8,
+            "source_ref": "2(2)(A)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r81.rel8",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF CIVIL AVIATION"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w3392",
+                "r1.w3404"
+              ],
+              "boxes": [
+                {
+                  "page": 15,
+                  "bbox": [
+                    718,
+                    755,
+                    2214,
+                    845
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "ministry",
+                "heading": "MINISTRY OF COAL",
+                "heading_hi": "KOYALA MANTRALAYA"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Exploration and development of coking and non-coking coal and lignite deposits in India."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "All matters relating to production, supply. distribution and prices of coal."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "Development and operation of coal washeries other than those for which the Department of Steel (Ispat Vibhag) is responsible."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "Low Temperature carbonisation of coal and production of synthetic oil from coal."
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "Administration of the Coal Mines (Conservation and Development) Act, 1974 (28 of 1974)."
+              },
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "The Coal Mines Provident Fund Organisation."
+              },
+              {
+                "type": "entry",
+                "num": "7",
+                "text": "The Coal Mines Welfare Organisation."
+              },
+              {
+                "type": "entry",
+                "num": "8",
+                "text": "Administration of the Coal Mines Provident Fund and Miscellaneous Provision Act, 1948 (46 of 1948)."
+              },
+              {
+                "type": "entry",
+                "num": "9",
+                "text": "Administration of the Coal Mines Labour Welfare Fund Act, 1947 (32 of 1947)."
+              },
+              {
+                "type": "entry",
+                "num": "10",
+                "text": "Rules under the Mines Act, 1952 (32 of 1952) for the levy and collection of duty of excise on coke and coal produced and despatched from mines and administration of rescue fund."
+              },
+              {
+                "type": "entry",
+                "num": "11",
+                "text": "Administration of the Coal Bearing Areas (Acquisition and Development) Act, 1957 (20 of 1957)."
+              },
+              {
+                "type": "entry",
+                "num": "12",
+                "text": "Public Sector Enterprises dealing with coal and lignite."
+              },
+              {
+                "type": "entry",
+                "num": "13",
+                "text": "Administration of the Mines and Minerals (Regulation and Development) Act, 1957 (67 of 1957) and other Union Laws in so far the said Act and Laws relate to coal and lignite and sand for stowing, business incidental to such administration - including questions concerning various States."
+              }
+            ],
+            "flags": [
+              "read_page_break"
+            ],
+            "words": [
+              "r1.w3391",
+              "r1.w3398"
+            ],
+            "boxes": [
+              {
+                "page": 15,
+                "bbox": [
+                  573,
+                  753,
+                  2214,
+                  796
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 9,
+            "source_ref": "2(2)(B)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r81.rel9",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF CULTURE, YOUTH AFFAIRS AND SPORTS"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w3655",
+                "r1.w3675"
+              ],
+              "boxes": [
+                {
+                  "page": 16,
+                  "bbox": [
+                    389,
+                    441,
+                    2049,
+                    626
+                  ]
+                }
+              ]
+            },
+            "expect": "MINISTRY OF CULTURE, YOUTH AFFAIRS AND SPORTS (SANSKRITI, YUVAK KARYAKRAM AUR KHEL MANTRALAYA)",
+            "flags": [],
+            "words": [
+              "r1.w3623",
+              "r1.w3662"
+            ],
+            "boxes": [
+              {
+                "page": 16,
+                "bbox": [
+                  245,
+                  438,
+                  2049,
+                  489
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 10,
+            "source_ref": "2(2)(C)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r81.rel10",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF MINES AND MINERALS"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w3680",
+                "r1.w3697"
+              ],
+              "boxes": [
+                {
+                  "page": 16,
+                  "bbox": [
+                    388,
+                    692,
+                    2046,
+                    837
+                  ]
+                }
+              ]
+            },
+            "expect": "MINISTRY OF MINES AND MINERALS (KHAN AUR KHANIJ MANTRALAYA)",
+            "content": [
+              {
+                "type": "ministry",
+                "heading": "MINISTRY OF MINES",
+                "heading_hi": "KHAN MANTRALAYA"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": ""
+              },
+              {
+                "type": "item",
+                "num": "i",
+                "text": "Legislation for regulation of mines and development of minerals within the territory of India, including mines and minerals underlying the ocean within the territorial waters or the continental shelf, or the exclusive economic zone and other maritime zones of India as may be specified, from time to time, by or under any law made by Parliament."
+              },
+              {
+                "type": "item",
+                "num": "ii",
+                "text": "Regulation of mines and development of minerals other than coal, lignite and sand for stowing and any other mineral declared as prescribed substances for the purpose of the Atomic Energy Act, 1962 (33 of 1962) under the control of the Union as declared by law, including questions concerning regulation and development of minerals in various States and the matters connected therewith or incidental thereto."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "All other metals and minerals not specifically allotted to any other Ministries/Departments, such as aluminium, zinc, copper, gold, diamonds lead and nickel."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "Planning, development and control of, and assistance to, all industries dealt with by the Department."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "Geological Survey of India."
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "Indian Bureau of Mines."
+              },
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "All other Attacor Subordinate Offices or other organisations concerned with any of the subjects specified in this list. 7 The Sikkim Mining Corporation Limited. 8- Public Sector Enterprises and undertakings falling under the subjects included in this list, except those which are specifically allotted to any other Department."
+              },
+              {
+                "type": "entry",
+                "num": "9",
+                "text": "Metallurgical Grade Silicon."
+              }
+            ],
+            "flags": [
+              "read_page_break"
+            ],
+            "words": [
+              "r1.w3624",
+              "r1.w3688"
+            ],
+            "boxes": [
+              {
+                "page": 16,
+                "bbox": [
+                  245,
+                  688,
+                  2044,
+                  742
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 11,
+            "source_ref": "2(2)(D)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r81.rel11",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF TOURISM"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w3954",
+                "r1.w3964"
+              ],
+              "boxes": [
+                {
+                  "page": 17,
+                  "bbox": [
+                    566,
+                    310,
+                    2212,
+                    421
+                  ]
+                }
+              ]
+            },
+            "expect": "MINISTRY OF TOURISM (PARYATAN MANTRALAYA)",
+            "content": [
+              {
+                "type": "ministry",
+                "heading": "MINISTRY OF TOURISM AND CULTURE",
+                "heading_hi": "PARYATAN AUR SANSKRITI MANTRALAYA"
+              },
+              {
+                "type": "department",
+                "num": "A",
+                "heading": "DEPARTMENT OF TOURISM",
+                "heading_hi": "PARYATAN VIBHAG"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Development of Tourism."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "India Tourism Development Corporation and public Sector Hotels or Motels thereunder."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "Inquiries and Statistics for the purpose of any of the matters specified in this list."
+              },
+              {
+                "type": "department",
+                "num": "B",
+                "heading": "DEPARTMENT OF CULTURE",
+                "heading_hi": "SANSKRITI VIBHAG"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "National Library: the Indian Museum; the Indian War Memorial Museum; the Victoria Memorial, the Asiatic Society, Calcutta and the India War Memorial and all other like institutions financed by the Government of India wholly or in part and declared by Parliament by law to be institutions of national importance."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": ". National Research Laboratory for Conservation of Cultural Property, Lucknow."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "Archaeology, Archaeological Museums."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "The Ancient Monuments and Archaeological sites and Remains Act, 1958 (24 of 1958) and the Ancient Monuments Preservation Act, 1904 (7 of 1904)."
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "Grants of Universities and Research Institutions for excavation and exploration of historical and archaeological remains."
+              },
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "International Conventions for the protection of cultural property in the event of armed conflict."
+              },
+              {
+                "type": "entry",
+                "num": "7",
+                "text": "History of Freedom Movement."
+              },
+              {
+                "type": "entry",
+                "num": "8",
+                "text": "Jallianwala Bagh National Memorial Trust."
+              },
+              {
+                "type": "entry",
+                "num": "9",
+                "text": "Administration of Gandhi Smriti and Gandhi Darshan."
+              },
+              {
+                "type": "entry",
+                "num": "10",
+                "text": "The delivery of Books (Public Libraries) Act and (Public the Press and Registration of Books Act (in so far as supply of books and catalogues to the Central of books Government is concerned)."
+              },
+              {
+                "type": "entry",
+                "num": "11",
+                "text": "Promotion of fine arts."
+              },
+              {
+                "type": "entry",
+                "num": "12",
+                "text": "Sahitya, Lalit Kala and Sangeet Natak Academies."
+              },
+              {
+                "type": "entry",
+                "num": "13",
+                "text": "The Central Secretariat Library%; Central Reference Library, Calcutta%3B Rampur Raza Library, Rampur%; Delhi public Library: India Office Library; National Museum New Delhi Salar Jung Museum and Library, Hyderabad Khudabux Oriental Public Library; Nehru Memorial Museum and Library: Gandhi Darshan Samiti; National Gallery of Portraits, National School of Drama, New Delhi Centre for Cultural Resources and Training, New Delhi Raja Rammohan Roy Library Foundation, Calcutta%3B Allahabad Museum, Allahabad; General Development of Museums."
+              },
+              {
+                "type": "entry",
+                "num": "14",
+                "text": "Museum of Gems and Jewellery."
+              },
+              {
+                "type": "entry",
+                "num": "15",
+                "text": "National Gallery of Modern Art, New Delhi."
+              },
+              {
+                "type": "entry",
+                "num": "16",
+                "text": "Acquisition of Indian and Foreign Art objects."
+              },
+              {
+                "type": "entry",
+                "num": "17",
+                "text": "Treasure Trove: the Antiquities and Art Treasures Act 1972 (52 of 1972) and Export of antiquities."
+              },
+              {
+                "type": "entry",
+                "num": "18",
+                "text": "Open air theatres in rural areas and theatres in State capitals."
+              },
+              {
+                "type": "entry",
+                "num": "19",
+                "text": "Financial assistance to authors and artists or or their survivors in indigent circumstances, other than those belonging to the categories covered under the scheme of the Ministry of Information and Broadcasting (Soochana aur Prasaran Mantralaya)."
+              },
+              {
+                "type": "entry",
+                "num": "20",
+                "text": "Charities and Charitable institutions. Charities and Religious Endowments pertaining to subjects dealt within this Department."
+              },
+              {
+                "type": "entry",
+                "num": "21",
+                "text": "Scholarships, including those offered by foreign including Government and foreign agencies, in respect of subjects dealt with by this Department."
+              },
+              {
+                "type": "entry",
+                "num": "22",
+                "text": "Publication of rare manuscripts."
+              },
+              {
+                "type": "entry",
+                "num": "23",
+                "text": "Grants to all-India Cultural Institutions."
+              },
+              {
+                "type": "entry",
+                "num": "24",
+                "text": "Grants to Indo foreign Cultural Societies."
+              },
+              {
+                "type": "entry",
+                "num": "25",
+                "text": "Cultural agreements and friendsnip treaties with foreign countries."
+              },
+              {
+                "type": "entry",
+                "num": "26",
+                "text": "Distribution of gift books received from abroad."
+              },
+              {
+                "type": "entry",
+                "num": "27",
+                "text": "Appointment of Cultural Attaches abroad."
+              },
+              {
+                "type": "entry",
+                "num": "28",
+                "text": "Visit of Cultural Delegations, etc. to India, sponsored and unsponsored."
+              },
+              {
+                "type": "entry",
+                "num": "29",
+                "text": "Individuals (including cultural lecturers) sponsored by Government for visits abroad."
+              },
+              {
+                "type": "entry",
+                "num": "30",
+                "text": "Presentation of books to foreign countries."
+              },
+              {
+                "type": "entry",
+                "num": "31",
+                "text": "Establishment of libraries abroad."
+              },
+              {
+                "type": "entry",
+                "num": "32",
+                "text": "Translation of Indian classics into foreign languages."
+              },
+              {
+                "type": "entry",
+                "num": "33",
+                "text": "Exchange of official publications with foreign Governments and institutions and agreements for such exchanges."
+              },
+              {
+                "type": "entry",
+                "num": "34",
+                "text": "Presentation of Indian art objects abroad."
+              },
+              {
+                "type": "entry",
+                "num": "35",
+                "text": "Admission of Foreign students in Cultural Institutions."
+              },
+              {
+                "type": "entry",
+                "num": "36",
+                "text": "Exchange of artists, dancers, musicians, etc. under the Cultural Exchange Programmes."
+              },
+              {
+                "type": "entry",
+                "num": "37",
+                "text": "Revision of Gazetters."
+              },
+              {
+                "type": "entry",
+                "num": "38",
+                "text": "Observance of Centenaries and anniversaries of important personalities."
+              },
+              {
+                "type": "entry",
+                "num": "39",
+                "text": "Publication information and statistics relating to subjects dealt with by this Department."
+              },
+              {
+                "type": "entry",
+                "num": "40",
+                "text": "International Congress of Orientalists."
+              },
+              {
+                "type": "entry",
+                "num": "41",
+                "text": "Anthropological Survey of India."
+              },
+              {
+                "type": "entry",
+                "num": "42",
+                "text": "National Archives of India."
+              },
+              {
+                "type": "entry",
+                "num": "43",
+                "text": "Indira Gandhi Rashtriya Manav Sangrahalaya."
+              },
+              {
+                "type": "entry",
+                "num": "44",
+                "text": "National Council of Science Museums, Calcutta."
+              },
+              {
+                "type": "entry",
+                "num": "45",
+                "text": "All other attached or subordinate offices or other organisations concerned with any of the subjects specified in this list."
+              },
+              {
+                "type": "entry",
+                "num": "46",
+                "text": "Rabindra Rangshalla."
+              },
+              {
+                "type": "entry",
+                "num": "47",
+                "text": "Zonal Cultural Centres."
+              },
+              {
+                "type": "entry",
+                "num": "48",
+                "text": "National Council of Culture."
+              },
+              {
+                "type": "entry",
+                "num": "49",
+                "text": "Indira Gandhi National Centre for Arts (IGNCA)."
+              },
+              {
+                "type": "entry",
+                "num": "50",
+                "text": "National Theatre."
+              }
+            ],
+            "flags": [
+              "read_page_break"
+            ],
+            "words": [
+              "r1.w3939",
+              "r1.w3960"
+            ],
+            "boxes": [
+              {
+                "page": 17,
+                "bbox": [
+                  423,
+                  310,
+                  2212,
+                  373
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 12,
+            "source_ref": "2(2)(E)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r81.rel12",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF URBAN DEVELOPMENT"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w4672",
+                "r1.w4684"
+              ],
+              "boxes": [
+                {
+                  "page": 20,
+                  "bbox": [
+                    491,
+                    185,
+                    2139,
+                    283
+                  ]
+                }
+              ]
+            },
+            "expect": "MINISTRY OF URBAN DEVELOPMENT (SHAHRI VIKAS MANTRALAYA)",
+            "content": [
+              {
+                "type": "ministry",
+                "heading": "MINISTRY OF URBAN DEVELOPMENT AND POVERTY ALLEVIATION",
+                "heading_hi": "SHAHARI VIKAS AUR GARIBI UPSHAMAN MANTRALAYA"
+              },
+              {
+                "type": "department",
+                "num": "A",
+                "heading": "DEPARTMENT OF URBAN DEVELOPMENT",
+                "heading_hi": "SHAHARI VIKAS VIBHAG"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Properties of the Union, whether lands or buildings with the following exceptions :-"
+              },
+              {
+                "type": "item",
+                "num": "i",
+                "text": "Those belonging to the Ministry of Defence (Raksha Mantralaya) the Ministry of Railways (Rail Mantralaya) and the Department of Atomic Atomic Energy (Parmanu Dorja Vibhag) and the Department of Space (Antariksh Vibhag)."
+              },
+              {
+                "type": "item",
+                "num": "ii",
+                "text": "Buildings or lands, the construction or acquisition of which has been financed otherwise than from the Civil Works Budget; and"
+              },
+              {
+                "type": "item",
+                "num": "iii",
+                "text": "Buildings or lands, the control of which has at the time of construction or acquisition or subsequently been permanently made over to other Ministries and Departments."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "All Government Civil Works and Buildings including those of Union territories excluding Roads and excluding works executed by or buildings belonging to the Ministry of Railways (Rail Mantralaya), Department of of Posts (Dak Vibhag), Department of Telecommunications (Doorsanchar Vibhag), Department of Atomic Energy (Parmanu Oorja Vibhag) and the Department of Space (Antariksh Vibhag)."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "Horticulture operations."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "Central Public Works Organisation."
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "Administration of Government estates including Government Hostels under the control of the Ministry. Location or dispersal of offices in or from the metropolitan cities."
+              },
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "Allotment of accommodation in Vigyan Bhawan."
+              },
+              {
+                "type": "entry",
+                "num": "7",
+                "text": "Administration of the Requisitioning and Acquisition of Immovable Property Act, 1952 (30 of 1952)."
+              },
+              {
+                "type": "entry",
+                "num": "8",
+                "text": "Administration of Delhi Hotels (Control of Accommodation Act, 1949 (24 of 1949)."
+              },
+              {
+                "type": "entry",
+                "num": "9",
+                "text": "The Public Premises (Eviction of Unauthorised Occupants) Act, 1971 (40 of 1971)."
+              },
+              {
+                "type": "entry",
+                "num": "10",
+                "text": "Administration of four Rehabilitation Markets viz. Sarojini Nagar Market, Shankar Market, Pleasure Garden Market and Kamla Market."
+              },
+              {
+                "type": "entry",
+                "num": "11",
+                "text": "Issue of lease or conveyance deeds in respect of Government built properties in Delhi and New Delhi under the Displaced Persons (Compensation and Rehabilitation) Act, 1954 (44 of 1954) and conversion of lease deeds, allotment of additional strips of land and correctional areas adjoining such properties."
+              },
+              {
+                "type": "entry",
+                "num": "12",
+                "text": "Stationery and Printing for the Government of India including official publications."
+              },
+              {
+                "type": "entry",
+                "num": "13",
+                "text": "Planning and Coordination of urban transport systems with technical planning and road based systems being subject to items 22 and 23 under the Ministry of Surface Transport (Jal-Bhootal Pariwahan Mantralaya) and technical planning of rail based systems being subjects to items 1 and 2 under the Ministry of Railways (Rail Mantralaya), Railway Board (Rail Board)."
+              },
+              {
+                "type": "entry",
+                "num": "14",
+                "text": "Town and Country Planning; matters relating to the Planning and Development of Metropolitan Areas, International Cooperation and technical assistance in this field."
+              },
+              {
+                "type": "entry",
+                "num": "15",
+                "text": "Schemes of large scale acquisition, development and disposal of land in Delhi."
+              },
+              {
+                "type": "entry",
+                "num": "16",
+                "text": "Delhi Development Authority."
+              },
+              {
+                "type": "entry",
+                "num": "17",
+                "text": "Master Plan of Delhi, Coordination of work in respect of the Master Plan and Slum Clearance in the National Capital Territory of Delhi."
+              },
+              {
+                "type": "entry",
+                "num": "18",
+                "text": "Erection of memorials in honour of freedom fighters."
+              },
+              {
+                "type": "entry",
+                "num": "19",
+                "text": "Administration of the Delhi Development Act, 1957 (61 of 1957)."
+              },
+              {
+                "type": "entry",
+                "num": "20",
+                "text": "The Delhi Rent Control Act, 1958 (59 of 1958)."
+              },
+              {
+                "type": "entry",
+                "num": "21",
+                "text": "Development of Government Colonies."
+              },
+              {
+                "type": "entry",
+                "num": "22",
+                "text": "Local Government, that is to say, the constitution and powers of the Municipal Corporations (excluding the Municipal Corporation of Delhi), Municipalities (excluding the New Delhi Municipal Committee), other Local Self-Government Administrations excluding Panchayati Raj Institutions."
+              },
+              {
+                "type": "entry",
+                "num": "23",
+                "text": "The Delhi Water Supply and Sewage Disposal Undertaking of the Municipal Corporation of Delhi."
+              },
+              {
+                "type": "entry",
+                "num": "24",
+                "text": "Water supply (subject to overall national perspective of water planning and coordination assigned to the Ministry of Water Resources), sewage, drainage and sanitation drainage relating to urban areas and linkages from allocated water resources. ▸ International cooperation and technical assistance in this field."
+              },
+              {
+                "type": "entry",
+                "num": "25",
+                "text": "The Central Council of Local Self-Government."
+              },
+              {
+                "type": "entry",
+                "num": "26",
+                "text": "Allotment of Government land in Delhi."
+              },
+              {
+                "type": "entry",
+                "num": "27",
+                "text": "All attached or Subordinate Offices or other organisations concerned with any of the subjects specified in this list."
+              },
+              {
+                "type": "entry",
+                "num": "28",
+                "text": "Public Sector Projects falling under the subjects included in this list, except such projects as are specifically allotted to any other Department."
+              },
+              {
+                "type": "entry",
+                "num": "29",
+                "text": "The Urban Land (Celling and Regulation) Act, 1976 (33 of 1976)."
+              },
+              {
+                "type": "entry",
+                "num": "30",
+                "text": "Delhi Urban Art Commission, the Delhi Urban Art Commission Act, 1973 (1 of 1973)."
+              },
+              {
+                "type": "entry",
+                "num": "31",
+                "text": "Administration of Rajghat Samadhi Committee."
+              },
+              {
+                "type": "entry",
+                "num": "32",
+                "text": "All matters relating to Planning and Development of the National Capital Region and administration of the National Capital Region Planning Board Act, 1985 (2 of 1985)."
+              },
+              {
+                "type": "entry",
+                "num": "33",
+                "text": "Matters relating to the Indian National Trust for Art and Cultural Heritage (INTACH)."
+              },
+              {
+                "type": "entry",
+                "num": "34",
+                "text": "Matters of the Housing and Urban Development Corporation (HUDCO) relating to urban infrastructure."
+              },
+              {
+                "type": "department",
+                "num": "B",
+                "heading": "DEPARTMENT OF URBAN EMPLOYMENT AND POVERTY ALLEVIATION",
+                "heading_hi": "SHAHARI ROZGAR AUR GARIBI UPSHAMAN VIBHAG"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Formulation of housing policy and programme (except rural housing which is assigned to the Department of Rural Development, Poverty Alleviation and Rural Employment (Gramin Vikas, Garibi Upshaman aur Gramin Rozgar Vibhag), review of the Gramin Rozgar implementation of the Plan Schemes, collection and dissemination of data housing, building materials and techniques, general measures for reduction of building costs and nodal responsibility for National Housing Policy."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "Human Settlements including the United Nations the Commission for Human Settlements and International Corporation and Technical Assistance in the field of Housing and Human Settlements."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "Urban Development including Slum Clearance Schemes and the Jhuggi and Jhonpri Removal Schemes. International Cooperation and technical assistance in this field."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "National Cooperative Housing Federation."
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "Implementation of the specific programmes of Urban Employment and Urban Poverty Alleviation including other programmes evolved from time to time."
+              },
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "All matters relating to the Housing and Urban Development Corporation (HUDCO) other than those (HUDCO) relating to urban infrastructure.%"
+              }
+            ],
+            "flags": [
+              "read_page_break"
+            ],
+            "words": [
+              "r1.w4653",
+              "r1.w4679"
+            ],
+            "boxes": [
+              {
+                "page": 20,
+                "bbox": [
+                  345,
+                  184,
+                  2139,
+                  230
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 13,
+            "source_ref": "2(2)(F)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r81.rel13",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF URBAN EMPLOYMENT AND POVERTY ALLEVIATION"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w5633",
+                "r1.w5651"
+              ],
+              "boxes": [
+                {
+                  "page": 23,
+                  "bbox": [
+                    511,
+                    1006,
+                    2160,
+                    1150
+                  ]
+                }
+              ]
+            },
+            "expect": "MINISTRY OF URBAN EMPLOYMENT AND POVERTY ALLEVIATION (SHAHARI ROZGAR AND GARIBI UPSHAMAN MANTRALAYA)",
+            "flags": [],
+            "words": [
+              "r1.w5559",
+              "r1.w5640"
+            ],
+            "boxes": [
+              {
+                "page": 23,
+                "bbox": [
+                  367,
+                  1006,
+                  2160,
+                  1051
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 14,
+            "source_ref": "2(2)(G)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r81.rel14",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF SOCIAL JUSTICE AND EMPOWERMENT"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w5655",
+                "r1.w5671"
+              ],
+              "boxes": [
+                {
+                  "page": 23,
+                  "bbox": [
+                    510,
+                    1257,
+                    2163,
+                    1397
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "ministry",
+                "heading": "MINISTRY OF YOUTH AFFAIRS AND SPORTS",
+                "heading_hi": "YUVAK KARYAKRAM AUR KHEL MANTRALAYA"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Sports Policy. N Sports and Games."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "National Welfare Fund for Sportsmen. W"
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "Netaji Subhas National Institute of Sports."
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "Sports Authority of India."
+              },
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "Matters relating to the Indian Olympic Association and national sports federations."
+              },
+              {
+                "type": "entry",
+                "num": "7",
+                "text": "Participation of Indian sports teams in tournaments of abroad and participation of foreign sports teams in international tournaments in India."
+              },
+              {
+                "type": "entry",
+                "num": "8",
+                "text": "National Sports Awards, including Arjuna Awards."
+              },
+              {
+                "type": "entry",
+                "num": "9",
+                "text": "Sports Scholarships."
+              },
+              {
+                "type": "entry",
+                "num": "10",
+                "text": "Exchange of Sports persons, Youth delegation, experts and teams with foreign countries."
+              },
+              {
+                "type": "entry",
+                "num": "11",
+                "text": "Sports infrastructure, including financial assistance for creation and development of such infrastructure."
+              },
+              {
+                "type": "entry",
+                "num": "12",
+                "text": "Financial assistance for coaching, tournaments equipment, etc."
+              },
+              {
+                "type": "entry",
+                "num": "13",
+                "text": "Sports matters relating to Union Territories."
+              },
+              {
+                "type": "entry",
+                "num": "14",
+                "text": "Youth Affairs."
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "5. Nehru Yuvak Kendras."
+              },
+              {
+                "type": "entry",
+                "num": "16",
+                "text": "National Service Scheme."
+              },
+              {
+                "type": "entry",
+                "num": "17",
+                "text": "Voluntary Youth Organisations, including financial assistance to them."
+              },
+              {
+                "type": "entry",
+                "num": "18",
+                "text": "National Service Volunteer Scheme."
+              },
+              {
+                "type": "entry",
+                "num": "19",
+                "text": "Commonwealth Youth Progamme and United Nations Volunteers."
+              },
+              {
+                "type": "entry",
+                "num": "20",
+                "text": "Youth welfare activities, youth festivals, work camp etc."
+              },
+              {
+                "type": "entry",
+                "num": "21",
+                "text": "Boy-scouts and girl-guides."
+              },
+              {
+                "type": "entry",
+                "num": "22",
+                "text": "Youth Hostels."
+              },
+              {
+                "type": "entry",
+                "num": "23",
+                "text": "National Youth Awards."
+              },
+              {
+                "type": "entry",
+                "num": "24",
+                "text": "Residual work of the erstwhile National Discipline Scheme."
+              },
+              {
+                "type": "entry",
+                "num": "25",
+                "text": "All attached or subordinate offices and autonomous bodies set up by the Department concerning any of the subjects specified above."
+              },
+              {
+                "type": "entry",
+                "num": "26",
+                "text": "Physical Education."
+              }
+            ],
+            "flags": [
+              "read_page_break"
+            ],
+            "words": [
+              "r1.w5560",
+              "r1.w5662"
+            ],
+            "boxes": [
+              {
+                "page": 23,
+                "bbox": [
+                  367,
+                  1257,
+                  2163,
+                  1299
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

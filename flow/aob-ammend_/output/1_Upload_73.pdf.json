@@ -1,0 +1,199 @@
+{
+  "file": {
+    "name": "1_Upload_73.pdf",
+    "file_id": "f_0eebf4c4df1323ec",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_73.pdf",
+    "sha256": "0eebf4c4df1323eccb6cfcb9144765fab77641b9971a62a109b59b82b2fc34fa",
+    "govdoc": "1_Upload_73.pdf.govdoc.json.zst",
+    "revision": 46
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_1804_1965",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_115_1965",
+      "fields": {
+        "number": {
+          "value": "S.O. 1804"
+        },
+        "in_force": {
+          "value": null
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": null,
+          "basis": null
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T13:48:56.722050+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "(a)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r10.rel1",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Community Development & Cooperation"
+                },
+                {
+                  "type": "department",
+                  "heading": "Department of Community Development"
+                },
+                {
+                  "type": "entry",
+                  "num": "1"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w190",
+                "r1.w191"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    343,
+                    2351,
+                    481,
+                    2384
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Rural Community Development Programme including Programmes of Rural Works and Local Development Works other than plped water supply."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w180",
+              "r1.w189"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  232,
+                  2317,
+                  1614,
+                  2353
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "(b)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r10.rel2",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Community Development & Cooperation"
+                },
+                {
+                  "type": "department",
+                  "heading": "Department of Cooperation"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w232",
+                "r1.w241"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    443,
+                    220,
+                    1753,
+                    286
+                  ]
+                }
+              ]
+            },
+            "scope": "children",
+            "content": [
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Agricultural indebtedness and credit."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "Cooperation in agricultural sector."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "Matters relating to National Cooperative Organisations"
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "National Cooperative Development Corporation."
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "Incorporation, regulation and winding up of cooperative societies with objects not confined to one State."
+              },
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "Training of personnel of cooperative departments and cooperative institutions (including education of members, office bearers and nonofficials)."
+              },
+              {
+                "type": "note",
+                "text": "NOTE: The Department of Cooperation is responsible for basic cooperative policies and for co-ordinating co-operative activities in all sectors The Ministries are responsible for the formulation and implementation of programmes within their respective spheres."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w231",
+              "r1.w240"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  377,
+                  220,
+                  1753,
+                  255
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

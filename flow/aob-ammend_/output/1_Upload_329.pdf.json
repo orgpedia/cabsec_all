@@ -1,0 +1,103 @@
+{
+  "file": {
+    "name": "1_Upload_329.pdf",
+    "file_id": "f_5e4bc6e8e4a6750a",
+    "pages": 1,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_329.pdf",
+    "sha256": "5e4bc6e8e4a6750ac59bed2c0be9a8169121165971f59354e7d936e2884f0614",
+    "govdoc": "1_Upload_329.pdf.govdoc.json.zst",
+    "revision": 147
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_261E_2006",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_180_2006",
+      "fields": {
+        "number": {
+          "value": "S.O. 261 (E)"
+        },
+        "in_force": {
+          "value": "2006-02-28"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "2006-02-28",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T12:55:58.845686+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r111.rel1",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Minority Affairs"
+                },
+                {
+                  "type": "entry",
+                  "num": "11"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r5.w312",
+                "r5.w315"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    1625,
+                    2239,
+                    1870,
+                    2279
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "11",
+                "text": "Matters pertaining to the socio-economic cultural and educational status of minorities minority organisations, including the Maulana · Azad Education Foundation."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r5.w287",
+              "r5.w294"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  1343,
+                  2088,
+                  2180,
+                  2125
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

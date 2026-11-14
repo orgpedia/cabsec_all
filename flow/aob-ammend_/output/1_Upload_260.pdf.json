@@ -1,0 +1,754 @@
+{
+  "file": {
+    "name": "1_Upload_260.pdf",
+    "file_id": "f_692bae3e5e8162da",
+    "pages": 3,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_260.pdf",
+    "sha256": "692bae3e5e8162da90968658101083b314b425fb67d6909dc12a46dcd29a59a0",
+    "govdoc": "1_Upload_260.pdf.govdoc.json.zst",
+    "revision": 109
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_496E_1992",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_430_1992",
+      "fields": {
+        "number": {
+          "value": "S.O. 496(E)"
+        },
+        "in_force": {
+          "value": "1992-07-02"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "1992-07-02",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T12:55:59.452688+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(1)(a)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r73.rel1",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "entry",
+                  "num": "21"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w732",
+                "r1.w734"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1692,
+                    1323,
+                    2029,
+                    1361
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "ministry",
+                "num": "21A",
+                "heading": "MINISTRY OF NON-CONVEN- TIONAL ENERGY SOURCES",
+                "heading_hi": "APARAMPARIK OORJA SROTA MANTRALAYA"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w728",
+              "r1.w736"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  1456,
+                  1323,
+                  2268,
+                  1361
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(1)(b)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r73.rel2",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "entry",
+                  "num": "26"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w757",
+                "r1.w764"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1551,
+                    1608,
+                    2277,
+                    1687
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "ministry",
+                "num": "26",
+                "heading": "MINISTRY OF POWER",
+                "heading_hi": "VIDHYUT MANTRALAYA"
+              }
+            ],
+            "flags": [
+              "new_hindi_differs"
+            ],
+            "words": [
+              "r1.w754",
+              "r1.w762"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  1471,
+                  1608,
+                  2277,
+                  1646
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 3,
+            "source_ref": "2(1)(c)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r73.rel3",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "entry",
+                  "num": "28"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w781",
+                "r1.w783"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1691,
+                    1852,
+                    2038,
+                    1894
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "ministry",
+                "num": "28",
+                "heading": "MINISTRY OF RURAL DEVELOP- MENT (GRAMIN VIKAS MAN- TRALAYA)"
+              },
+              {
+                "type": "department",
+                "num": "i",
+                "heading": "DEPARTMENT OF RURAL DEVELOPMENT",
+                "heading_hi": "GRAMIN VIKAS VIBHAG"
+              },
+              {
+                "type": "department",
+                "num": "ii",
+                "heading": "DEPARTMENT OF WASTELANDS DEVELOPMENT",
+                "heading_hi": "BANJAR BHOOMI VIKAS VIBHAG"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w778",
+              "r1.w785"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  1475,
+                  1851,
+                  2281,
+                  1895
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 4,
+            "source_ref": "2(2)(a)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r73.rel4",
+            "target": [
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "MINISTRY OF ENVIRONMENT AND FORESTS"
+                  },
+                  {
+                    "type": "entry",
+                    "num": "15"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r1.w842",
+                  "r1.w844"
+                ],
+                "boxes": [
+                  {
+                    "page": 2,
+                    "bbox": [
+                      1825,
+                      2573,
+                      2144,
+                      2613
+                    ]
+                  }
+                ]
+              },
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "MINISTRY OF ENVIRONMENT AND FORESTS"
+                  },
+                  {
+                    "type": "entry",
+                    "num": "16"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r1.w846",
+                  "r1.w846"
+                ],
+                "boxes": [
+                  {
+                    "page": 2,
+                    "bbox": [
+                      2257,
+                      2578,
+                      2296,
+                      2615
+                    ]
+                  }
+                ]
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w828",
+              "r1.w836"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  1488,
+                  2450,
+                  2292,
+                  2533
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 5,
+            "source_ref": "2(2)(b)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r73.rel5",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF MINES"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w852",
+                "r1.w862"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1576,
+                    2675,
+                    2305,
+                    2792
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "ministry",
+                "heading": "MINISTRY OF NON-CONVENTIONAL ENERGY SOURCES (APARAM- PARIK OORJA SROTA MANTRA- LAYA)"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Research and development of bio-gas and programmes relating to bio-gas units. 3 [ भाग II - - बड 3 (ii) ]"
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "Commission for Additional Sources of Energy (CASE)."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "Solar Energy including photovoltaic devices and their development, production and applications."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "Mini micro hydel projects of and below 3 mw capacity and Geothermal energy."
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "Programmes relating to improved chulhas and rescarch and development thereof."
+              },
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "Indian Renewable Energy Development Agency."
+              },
+              {
+                "type": "entry",
+                "num": "7",
+                "text": "Research and development of other non-conventional renewable sources of energy and programmes relating thereto."
+              }
+            ],
+            "flags": [
+              "read_page_break"
+            ],
+            "words": [
+              "r1.w850",
+              "r1.w858"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  1499,
+                  2673,
+                  2299,
+                  2755
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 6,
+            "source_ref": "2(2)(c)(i)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r73.rel6",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF POWER AND NON-CONVENTIONAL ENERGY SOURCES"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w1032",
+                "r1.w1048"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    527,
+                    1231,
+                    1212,
+                    1493
+                  ]
+                }
+              ]
+            },
+            "expect": "MINISTRY OF POWER AND NON-CONVENTIONAL ENERGY SOURCES (VIDHYUT AUR APARAMPARIK OORJA SROTA MANTRALAYA),",
+            "scope": "heading",
+            "content": [
+              {
+                "type": "ministry",
+                "heading": "MINISTRY OF POWER",
+                "heading_hi": "VIDH- YUT MANTRALAYA"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w1029",
+              "r1.w1038"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  353,
+                  1231,
+                  1209,
+                  1316
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 7,
+            "source_ref": "2(2)(c)(ii)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r73.rel7",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF POWER"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF POWER"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w1062",
+                "r1.w1077"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    535,
+                    1662,
+                    1223,
+                    1837
+                  ]
+                }
+              ]
+            },
+            "expect": "A. DEPARTMENT OF POWER (VIDHYUT VIEHAG)",
+            "scope": "heading",
+            "ref_seq": 6,
+            "flags": [],
+            "words": [
+              "r1.w1061",
+              "r1.w1069"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  440,
+                  1662,
+                  1219,
+                  1752
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 8,
+            "source_ref": "2(2)(c)(iii)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r73.rel8",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF POWER"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF NON-CONVENTIONAL ENERGY SOURCES"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w1082",
+                "r1.w1105"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    536,
+                    1860,
+                    1227,
+                    2156
+                  ]
+                }
+              ]
+            },
+            "expect": "B. DEPARTMENT OF NON-CONVENTIONAL ENERGY SOURCES (APARAMPARIK OORJA SROTA VIBHAG)",
+            "ref_seq": 6,
+            "flags": [],
+            "words": [
+              "r1.w1081",
+              "r1.w1087"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  432,
+                  1860,
+                  1223,
+                  1941
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 9,
+            "source_ref": "2(2)(d)(1)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r73.rel9",
+            "position": "before",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF RURAL DEVELOPMENT"
+                },
+                {
+                  "type": "entry",
+                  "num": "1"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w1124",
+                "r1.w1126"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    780,
+                    2322,
+                    1151,
+                    2360
+                  ]
+                }
+              ]
+            },
+            "scope": "heading",
+            "content": [
+              {
+                "type": "department",
+                "num": "A",
+                "heading": "DEPARTMENT OF RURAL DEVELOPMENT",
+                "heading_hi": "GRAMIN VIKAS VIBHAG"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w1109",
+              "r1.w1118"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  375,
+                  2193,
+                  1232,
+                  2273
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 10,
+            "source_ref": "2(2)(d)(ii)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r73.rel10",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF RURAL DEVELOPMENT"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF RURAL DEVELOPMENT"
+                },
+                {
+                  "type": "entry",
+                  "num": "21"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w962",
+                "r1.w969"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    1613,
+                    381,
+                    2290,
+                    468
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "department",
+                "num": "B",
+                "heading": "DEPARTMENT OF WASTE- LANDS DEVELOPMENT (BANJAR BHOOMI VIKAS VIBHAG) -"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "National Wastelands Development Board."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "National Land Use and Wasteland Development Council."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "Promotion of rural employment through Wastelands Development."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "Promotion of production of fuelwood, fodder and timber on non-forest lands including private wastelands. .५ Research and development of appropriate low cost technologies for increasing productivity of wastelands in sustainable ways."
+              },
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "Inter-departmental and inter-disciplinary coordination in programme planning and implementation of the Wastelands Development Programme including training."
+              },
+              {
+                "type": "entry",
+                "num": "7",
+                "text": "Promotion of people's participation and public cooperation, and coordination of efforts of Panchayats and other voluntary and non-Government agencies for Wastelands Development."
+              }
+            ],
+            "ref_seq": 9,
+            "flags": [],
+            "words": [
+              "r1.w959",
+              "r1.w969"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  1513,
+                  381,
+                  2290,
+                  468
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

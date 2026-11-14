@@ -1,0 +1,16 @@
+# A person's changes to 1_Upload_133.pdf (GovDoc §8.3), one record per action, in order. Written by
+# GovDoc Studio and brought into the GovDoc file by the pipeline before it runs (Pipeline §P9).
+file: 1_Upload_133.pdf
+file_id: f_c2de50227f48f7fe
+next: 3
+runs:
+- id: h1
+  by: claude
+  at: '2026-11-12T15:01:00Z'
+  edits:
+  - {op: text, target: r1.w112, before: {text: '3.'}, after: {text: S.}}
+- id: h2
+  by: claude
+  at: '2026-11-12T15:02:00Z'
+  edits:
+  - {op: text, target: r1.w115, before: {text: (B)}, after: {text: (E)}}

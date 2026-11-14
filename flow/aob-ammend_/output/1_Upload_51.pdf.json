@@ -1,0 +1,235 @@
+{
+  "file": {
+    "name": "1_Upload_51.pdf",
+    "file_id": "f_acdd3dc2e775d7d7",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_51.pdf",
+    "sha256": "acdd3dc2e775d7d7b0bab02c7ad2e732ca897a19e760f992fb9339baf4a00efe",
+    "govdoc": "1_Upload_51.pdf.govdoc.json.zst",
+    "revision": 46
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_2115_1963",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_143_1963",
+      "fields": {
+        "number": {
+          "value": "S.O. 2115"
+        },
+        "in_force": {
+          "value": null
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": null,
+          "basis": null
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T13:49:38.024262+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "(1)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r10.rel1",
+            "target": [
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "Ministry of Irrigation & Power"
+                  },
+                  {
+                    "type": "entry",
+                    "num": "21"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r1.w114",
+                  "r1.w115"
+                ],
+                "boxes": [
+                  {
+                    "page": 1,
+                    "bbox": [
+                      1382,
+                      1543,
+                      1565,
+                      1577
+                    ]
+                  }
+                ]
+              },
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "Ministry of Irrigation & Power"
+                  },
+                  {
+                    "type": "entry",
+                    "num": "22"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r1.w116",
+                  "r1.w116"
+                ],
+                "boxes": [
+                  {
+                    "page": 1,
+                    "bbox": [
+                      1587,
+                      1542,
+                      1622,
+                      1576
+                    ]
+                  }
+                ]
+              },
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "Ministry of Irrigation & Power"
+                  },
+                  {
+                    "type": "entry",
+                    "num": "23"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r1.w118",
+                  "r1.w118"
+                ],
+                "boxes": [
+                  {
+                    "page": 1,
+                    "bbox": [
+                      439,
+                      1583,
+                      474,
+                      1613
+                    ]
+                  }
+                ]
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w105",
+              "r1.w117"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  331,
+                  1542,
+                  1705,
+                  1583
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "(2)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r10.rel2",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Scientific Research & Cultural Affairs"
+                },
+                {
+                  "type": "entry",
+                  "num": "80"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w134",
+                "r1.w136"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    439,
+                    1676,
+                    690,
+                    1710
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "81",
+                "text": "The Muslim Wakfs Act, 1954."
+              },
+              {
+                "type": "entry",
+                "num": "82",
+                "text": "The Delhi Muslim Wakfs Act, 1943"
+              },
+              {
+                "type": "entry",
+                "num": "83",
+                "text": "Work in respect of Wakf properties under the Administration of Evacuee Property Act, 1950"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w123",
+              "r1.w133"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  330,
+                  1636,
+                  1707,
+                  1677
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,381 @@
+{
+  "file": {
+    "name": "1_Upload_321.pdf",
+    "file_id": "f_90165e1e91d9bcdb",
+    "pages": 4,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_321.pdf",
+    "sha256": "90165e1e91d9bcdb499bd02aeb135b6092aa6e10efb8fe89aed0ad8fddc91d71",
+    "govdoc": "1_Upload_321.pdf.govdoc.json.zst",
+    "revision": 143
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_1328E_2004",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_1034_2004",
+      "fields": {
+        "number": {
+          "value": "S.O. 1328 (E)"
+        },
+        "in_force": {
+          "value": "2004-12-03"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "2004-12-03",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T12:56:36.378044+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(1)(a)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r107.rel1",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Coal and Mines"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w815",
+                "r1.w831"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    544,
+                    535,
+                    2201,
+                    624
+                  ]
+                }
+              ]
+            },
+            "expect": "5. Ministry of Coal and Mines (Koyala aur Khan Mantralaya)",
+            "content": [
+              {
+                "type": "ministry",
+                "num": "5",
+                "heading": "Ministry of Coal",
+                "heading_hi": "Koyala Mantralaya"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w813",
+              "r1.w829"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  464,
+                  535,
+                  2201,
+                  580
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(1)(b)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r107.rel2",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Law and Justice"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w847",
+                "r1.w864"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    545,
+                    736,
+                    2200,
+                    824
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "ministry",
+                "num": "21A",
+                "heading": "Ministry of Mines",
+                "heading_hi": "Khan Mantralaya"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w845",
+              "r1.w861"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  461,
+                  736,
+                  2200,
+                  777
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 3,
+            "source_ref": "2(2)(A)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r107.rel3",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Coal and Mines"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w885",
+                "r1.w900"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    542,
+                    1009,
+                    2198,
+                    1099
+                  ]
+                }
+              ]
+            },
+            "expect": "Ministry of Coal and Mines (Koyalȧ aur Khan Mantralaya)",
+            "content": [
+              {
+                "type": "ministry",
+                "heading": "MINISTRY OF COAL",
+                "heading_hi": "KOYALA MANTRALAYA"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Exploration and development of coking and non-coking coal and lignite deposits in India."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "All matters relating to production, supply, distribution and prices of coal."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "Development and operation of coal washeries other than those for which the Department of Steel is responsible."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "Low temperature carbonisation of coal and production of synthetic oil from coal."
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "Administration of the Coal Mines (Conservation and Development) Act, 1974 (28 of 1974)."
+              },
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "The Coal Mines Provident Fund Organisation."
+              },
+              {
+                "type": "entry",
+                "num": "7",
+                "text": "The Coal Mines Welfare Organisation."
+              },
+              {
+                "type": "entry",
+                "num": "8",
+                "text": "Administration of the Coal Mines Provident Fund and Miscellaneous Provision Act, 1948 (46 of 1948)."
+              },
+              {
+                "type": "entry",
+                "num": "9",
+                "text": "Administration of the Coal Mines Labour Welfare Fund Act, 1947 (32 of 1947). :"
+              },
+              {
+                "type": "entry",
+                "num": "10",
+                "text": "Rules under the Mines Act, 1952 (32 of 1952) for the levy and collection of duty of excise on coke and coal produced and despatched from mines and administration of rescue fund."
+              },
+              {
+                "type": "entry",
+                "num": "11",
+                "text": "Administration of the Coal Bearing Areas (Acquisition and Development) Act, 1957 (20 of 1957)."
+              },
+              {
+                "type": "entry",
+                "num": "12",
+                "text": "Administration of the Mines and Minerals (Development and Regulation) Act, 1957 (67 of 1957) and other Union Laws in so far the said Act and Laws relate to coal and lignite and sand for stowing, business incidental to such administration including questions concerning various States."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w883",
+              "r1.w899"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  448,
+                  1009,
+                  2198,
+                  1047
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 4,
+            "source_ref": "2(2)(B)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r107.rel4",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Law and Justice"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w1129",
+                "r1.w1145"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    653,
+                    2448,
+                    2195,
+                    2547
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "ministry",
+                "heading": "MINISTRY OF MINES",
+                "heading_hi": "KHAN MANTRALAYA"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": ""
+              },
+              {
+                "type": "item",
+                "num": "a",
+                "text": "Legislation for regulation of mines and development of minerals within the territory of India including mines and minerals underlying the ocean within the territorial waters or the continental shelf, or the exclusive economic zone and other maritime zones of India as may be specified, from time to time, by or under any law made by Parliament."
+              },
+              {
+                "type": "item",
+                "num": "b",
+                "text": "Regulation of mines and development of minerals other than coal, lignite and sand for stowing and any other mineral declared as prescribed substances for the purpose of the Atomic Energy Act, 1962 (33 of 1962) under the control of the Union as declared by law, including questions concerning regulation and development of minerals in various States and the matters connected therewith or incidental thereto."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "All other metals and minerals not specifically allotted to any other Ministry/Department, such as, aluminium, zinc, copper, gold, diamonds, lead and nickel. [PART II-SEC. 3(ii)}"
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "Planning, development and control of, and assistance to, all industries dealt with by the Department."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "Geological Survey of India."
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "Indian Bureau of Mines."
+              },
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "Metallurgical Grade Silicon."
+              }
+            ],
+            "flags": [
+              "read_page_break"
+            ],
+            "words": [
+              "r1.w919",
+              "r1.w1142"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  518,
+                  2448,
+                  2195,
+                  2498
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

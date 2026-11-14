@@ -1,0 +1,162 @@
+{
+  "file": {
+    "name": "1_Upload_265.pdf",
+    "file_id": "f_c1a040705ff80338",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_265.pdf",
+    "sha256": "c1a040705ff8033867b5b75c06831cad4dd0f7ee127991ce0f8e337d8790fa01",
+    "govdoc": "1_Upload_265.pdf.govdoc.json.zst",
+    "revision": 109
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_723E_1994",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_501_1994",
+      "fields": {
+        "number": {
+          "value": "S.O. 723(E)"
+        },
+        "in_force": {
+          "value": "1994-09-30"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "1994-09-30",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T12:56:57.620563+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(4)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r73.rel1",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MiNISTRY OF INDUSTRY"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF INDUSTRIAL DEVELOPMENT"
+                },
+                {
+                  "type": "entry",
+                  "num": "24"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w361",
+                "r1.w363"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    987,
+                    1631,
+                    1205,
+                    1667
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "24",
+                "text": "Technical Development including Bureau of Industrial Costs and Prices and United Nations Industrial Devclcpment Organisation."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w339",
+              "r1.w348"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  320,
+                  1561,
+                  1696,
+                  1597
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(b)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r73.rel2",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF WATER RESOURCES"
+                },
+                {
+                  "type": "entry",
+                  "num": "30"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w400",
+                "r1.w401"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    720,
+                    1878,
+                    853,
+                    1910
+                  ]
+                }
+              ]
+            },
+            "flags": [],
+            "words": [
+              "r1.w389",
+              "r1.w398"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  325,
+                  1837,
+                  1699,
+                  1883
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_1905.pdf",
     "sha256": "312319f9ca8a42d5f5e5baa5eb9ae3e92b8a7bb3fc6e96fa1cd4c7f056257272",
     "govdoc": "1_Upload_1905.pdf.govdoc.json.zst",
-    "revision": 65
+    "revision": 215
   },
   "documents": [
     {
@@ -29,9 +29,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "2",
+          "version": "3",
           "model": "gemini-4-argon",
-          "at": "2026-11-03T16:59:02.928788+00:00"
+          "at": "2026-11-12T12:55:38.437860+00:00"
         },
         "ops": [
           {
@@ -39,6 +39,7 @@
             "source_ref": "2(a)",
             "op": "insert",
             "akn_type": "insertion",
+            "relation": "r179.rel1",
             "position": "after",
             "anchor": {
               "cited": [
@@ -53,8 +54,8 @@
               ],
               "eId": null,
               "words": [
-                "r17.w317",
-                "r17.w327"
+                "r73.w317",
+                "r73.w327"
               ],
               "boxes": [
                 {
@@ -78,8 +79,8 @@
             ],
             "flags": [],
             "words": [
-              "r17.w312",
-              "r17.w319"
+              "r73.w312",
+              "r73.w319"
             ],
             "boxes": [
               {
@@ -98,6 +99,7 @@
             "source_ref": "2(b)",
             "op": "insert",
             "akn_type": "insertion",
+            "relation": "r179.rel2",
             "position": "after",
             "anchor": {
               "cited": [
@@ -112,8 +114,8 @@
               ],
               "eId": null,
               "words": [
-                "r17.w349",
-                "r17.w363"
+                "r73.w349",
+                "r73.w363"
               ],
               "boxes": [
                 {
@@ -146,8 +148,8 @@
             ],
             "flags": [],
             "words": [
-              "r17.w344",
-              "r17.w351"
+              "r73.w344",
+              "r73.w351"
             ],
             "boxes": [
               {

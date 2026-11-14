@@ -1,0 +1,184 @@
+{
+  "file": {
+    "name": "1_Upload_313.pdf",
+    "file_id": "f_025fa71cf2c1e236",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_313.pdf",
+    "sha256": "025fa71cf2c1e236286bd323c5a96c66e89d1c7ee7113aff89318cfc65f79656",
+    "govdoc": "1_Upload_313.pdf.govdoc.json.zst",
+    "revision": 109
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_427E_2003",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_349_2003",
+      "fields": {
+        "number": {
+          "value": "S.O. 427(E)"
+        },
+        "in_force": {
+          "value": "2003-04-10"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "2003-04-10",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T12:55:18.564583+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(1)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r73.rel1",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Finance and Company Affairs"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w331",
+                "r1.w348"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    556,
+                    918,
+                    2298,
+                    1013
+                  ]
+                }
+              ]
+            },
+            "expect": "10. Ministry of Finance and Company Affairs (Vitta aur Kampany Karya Mantralaya)",
+            "content": [
+              {
+                "type": "ministry",
+                "num": "10",
+                "heading": "Ministry of Finance",
+                "heading_hi": "Vitta Mantralaya"
+              },
+              {
+                "type": "department",
+                "num": "i",
+                "heading": "Department of Economic Affairs",
+                "heading_hi": "Arthik Karya Vibhag"
+              },
+              {
+                "type": "department",
+                "num": "ii",
+                "heading": "Department of Expenditure",
+                "heading_hi": "Vyaya Vibhag"
+              },
+              {
+                "type": "department",
+                "num": "iii",
+                "heading": "Department of Revenue",
+                "heading_hi": "Rajaswa Vibhag"
+              },
+              {
+                "type": "department",
+                "num": "iv",
+                "heading": "Department of Company Affairs (Kampany Karya Vighag)"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w325",
+              "r1.w332"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  474,
+                  916,
+                  1170,
+                  959
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(2)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r73.rel2",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF FINANCE AND COMPANY AFFAIRS"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w398",
+                "r1.w410"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    555,
+                    1474,
+                    2297,
+                    1564
+                  ]
+                }
+              ]
+            },
+            "expect": "MINISTRY OF FINANCE AND COMPANY AFFAIRS (VITTA AUR KAMPANY KARYA MANTRALAYA)",
+            "scope": "heading",
+            "content": [
+              {
+                "type": "ministry",
+                "heading": "MINISTRY OF FINANCE",
+                "heading_hi": "VITTA MANTRALAYA"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w392",
+              "r1.w399"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  469,
+                  1473,
+                  1203,
+                  1515
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

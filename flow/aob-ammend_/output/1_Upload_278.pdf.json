@@ -1,0 +1,1332 @@
+{
+  "file": {
+    "name": "1_Upload_278.pdf",
+    "file_id": "f_1152b7ff7e464cb7",
+    "pages": 8,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_278.pdf",
+    "sha256": "1152b7ff7e464cb754f8b24e6c1d03ddbd52b7e1d35c0af05301b572abce3fdb",
+    "govdoc": "1_Upload_278.pdf.govdoc.json.zst",
+    "revision": 118
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_455E_1998",
+      "doc_type": "aob_amendment",
+      "parent": "GAZETTE_ISSUE_1152b7ff7e464cb7",
+      "fields": {
+        "number": {
+          "value": "S.O. 455 (E)"
+        },
+        "in_force": {
+          "value": "1998-05-23"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "1998-05-23",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T12:55:19.322461+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(1)(a)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r81.rel1",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Civil Aviation and Tourism"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w1704",
+                "r1.w1721"
+              ],
+              "boxes": [
+                {
+                  "page": 5,
+                  "bbox": [
+                    461,
+                    331,
+                    2263,
+                    420
+                  ]
+                }
+              ]
+            },
+            "expect": "3. Ministry of Civil Aviation and Tourism (Nagar Vimanan aur Paryatan Mantralaya)",
+            "content": [
+              {
+                "type": "ministry",
+                "num": "3",
+                "heading": "Ministry of Civil Aviation",
+                "heading_hi": "Nagar Vimanan Mantralaya"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w1702",
+              "r1.w1717"
+            ],
+            "boxes": [
+              {
+                "page": 5,
+                "bbox": [
+                  390,
+                  331,
+                  2191,
+                  370
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(1)(b)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r81.rel2",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Finance"
+                },
+                {
+                  "type": "department",
+                  "heading": "Department of company Affairs"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w1749",
+                "r1.w1758"
+              ],
+              "boxes": [
+                {
+                  "page": 5,
+                  "bbox": [
+                    461,
+                    499,
+                    2316,
+                    589
+                  ]
+                }
+              ]
+            },
+            "expect": "(iv) Department of company Affairs (Kampany Karya Vibhag)",
+            "flags": [],
+            "words": [
+              "r1.w1739",
+              "r1.w1748"
+            ],
+            "boxes": [
+              {
+                "page": 5,
+                "bbox": [
+                  388,
+                  499,
+                  1524,
+                  539
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 3,
+            "source_ref": "2(1)(c)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r81.rel3",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Law and Justice"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w1764",
+                "r1.w1779"
+              ],
+              "boxes": [
+                {
+                  "page": 5,
+                  "bbox": [
+                    462,
+                    607,
+                    2280,
+                    696
+                  ]
+                }
+              ]
+            },
+            "expect": "19. Ministry of Law and Justice (Vidhi aur Nyaya Mantralaya)",
+            "content": [
+              {
+                "type": "ministry",
+                "num": "19",
+                "heading": "Ministry of Law, Justice and Company Affairs",
+                "heading_hi": "Vidhi, Nyaya aur Kampany Karya Mantralaya"
+              },
+              {
+                "type": "department",
+                "num": "i",
+                "heading": "Department of Legal Affairs",
+                "heading_hi": "Vidhi Karya Vibhag"
+              },
+              {
+                "type": "item",
+                "num": "ii",
+                "text": "Legislative Department (Vidhayee Vibhag)"
+              },
+              {
+                "type": "department",
+                "num": "iii",
+                "heading": "Department of Justice",
+                "heading_hi": "Nyaya Vibhag"
+              },
+              {
+                "type": "department",
+                "num": "iv",
+                "heading": "Department of Company Affairs",
+                "heading_hi": "Kampany Karya Vibhag"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w1762",
+              "r1.w1775"
+            ],
+            "boxes": [
+              {
+                "page": 5,
+                "bbox": [
+                  388,
+                  607,
+                  1894,
+                  647
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 4,
+            "source_ref": "2(1)(d)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r81.rel4",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Mines"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w1831",
+                "r1.w1838"
+              ],
+              "boxes": [
+                {
+                  "page": 5,
+                  "bbox": [
+                    462,
+                    1007,
+                    1382,
+                    1051
+                  ]
+                }
+              ]
+            },
+            "expect": "20. Ministry of Mines (Khan Mantralya)",
+            "flags": [],
+            "words": [
+              "r1.w1830",
+              "r1.w1841"
+            ],
+            "boxes": [
+              {
+                "page": 5,
+                "bbox": [
+                  390,
+                  1005,
+                  1678,
+                  1052
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 5,
+            "source_ref": "2(1)(e)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r81.rel5",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Steel"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w1844",
+                "r1.w1851"
+              ],
+              "boxes": [
+                {
+                  "page": 5,
+                  "bbox": [
+                    522,
+                    1068,
+                    1446,
+                    1109
+                  ]
+                }
+              ]
+            },
+            "expect": "30. Ministry of Steel (Ispat Mantralaya)",
+            "content": [
+              {
+                "type": "ministry",
+                "num": "30",
+                "heading": "Ministry of Steel and Mines",
+                "heading_hi": "Ispat aur Khan Mantralaya"
+              },
+              {
+                "type": "department",
+                "num": "i",
+                "heading": "Department of Steel",
+                "heading_hi": "Ispat Vibhag"
+              },
+              {
+                "type": "department",
+                "num": "ii",
+                "heading": "Department of Mines",
+                "heading_hi": "Khan Vibhag"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w1842",
+              "r1.w1858"
+            ],
+            "boxes": [
+              {
+                "page": 5,
+                "bbox": [
+                  393,
+                  1068,
+                  2290,
+                  1109
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 6,
+            "source_ref": "2(1)(f)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r81.rel6",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Textiles"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w1883",
+                "r1.w1891"
+              ],
+              "boxes": [
+                {
+                  "page": 5,
+                  "bbox": [
+                    465,
+                    1351,
+                    1596,
+                    1394
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "ministry",
+                "num": "32A",
+                "heading": "Ministry of Tourism",
+                "heading_hi": "Paryatan Mantralaya"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w1882",
+              "r1.w1897"
+            ],
+            "boxes": [
+              {
+                "page": 5,
+                "bbox": [
+                  396,
+                  1351,
+                  2314,
+                  1394
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 7,
+            "source_ref": "2(1)(g)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r81.rel7",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Welfare"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w1907",
+                "r1.w1914"
+              ],
+              "boxes": [
+                {
+                  "page": 5,
+                  "bbox": [
+                    525,
+                    1519,
+                    1564,
+                    1561
+                  ]
+                }
+              ]
+            },
+            "expect": "35 Ministry of Welfare (Kalyan Mantralaya)",
+            "scope": "heading",
+            "content": [
+              {
+                "type": "ministry",
+                "num": "35",
+                "heading": "Ministry of Social Justice and Empowerment",
+                "heading_hi": "Samajik Nyaya aur Adhikartia Mantralaya"
+              }
+            ],
+            "flags": [
+              "new_hindi_differs"
+            ],
+            "words": [
+              "r1.w1905",
+              "r1.w1920"
+            ],
+            "boxes": [
+              {
+                "page": 5,
+                "bbox": [
+                  389,
+                  1519,
+                  2313,
+                  1561
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 8,
+            "source_ref": "2(2)(a)(i)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r81.rel8",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF CIVIL AVIATION AND TOURISM"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF CIVIL AVIATION"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w1942",
+                "r1.w1970"
+              ],
+              "boxes": [
+                {
+                  "page": 5,
+                  "bbox": [
+                    465,
+                    1748,
+                    2311,
+                    1887
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "ministry",
+                "heading": "MINISTRY OF CIVIL AVAIATION",
+                "heading_hi": "NAGAR VIMANAN MANTRALAYA"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Aircraft and air navigation; provision of aerodromes; regulation and organisation of air traffic and of aerodromes excepting sanitized control of air navigation."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "Provision of navigational and other aids relating to air navigation."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "carriage of passengers and goods by air."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "International Civil Aviation Organisation (ICAO)."
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "International Air Transport Association (IATA)."
+              },
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "Commonwealth Air Transport Council (CATC)."
+              },
+              {
+                "type": "entry",
+                "num": "7",
+                "text": "Commonwealth Advisory Aeronautical Research Council (CAARC)."
+              },
+              {
+                "type": "entry",
+                "num": "8",
+                "text": "Air India Limited and its subsidiaries."
+              },
+              {
+                "type": "entry",
+                "num": "9",
+                "text": "Indian Airlines Limited and its subsidiaries."
+              },
+              {
+                "type": "entry",
+                "num": "10",
+                "text": "Hotel Corporation of India and its subsidiaries."
+              },
+              {
+                "type": "entry",
+                "num": "11",
+                "text": "Commissioners of Railways Safety."
+              },
+              {
+                "type": "entry",
+                "num": "12",
+                "text": "Airports Authority of India (AAI)."
+              },
+              {
+                "type": "entry",
+                "num": "13",
+                "text": "Pawan Hans Helicopters Limited and its subsidiaries."
+              },
+              {
+                "type": "entry",
+                "num": "14",
+                "text": "Agricultrual Aviation."
+              },
+              {
+                "type": "entry",
+                "num": "15",
+                "text": "Directorate General of Civil Aviation."
+              },
+              {
+                "type": "entry",
+                "num": "16",
+                "text": "Indira Gandhi Rashtriya Uran Akademi."
+              },
+              {
+                "type": "entry",
+                "num": "17",
+                "text": "Vayudoot Limited."
+              },
+              {
+                "type": "entry",
+                "num": "18",
+                "text": "Bureau of Civil Aviation Security. 1420-41/98-2"
+              },
+              {
+                "type": "entry",
+                "num": "19",
+                "text": "Administration of the Aircraft Act, 1934 (22 of 1934)."
+              },
+              {
+                "type": "entry",
+                "num": "20",
+                "text": "Production of aircraft and aircraft components for civil use."
+              },
+              {
+                "type": "entry",
+                "num": "21",
+                "text": "Issuing of techinical licences/Certificates/approval for the use of civil aircraft."
+              },
+              {
+                "type": "entry",
+                "num": "22",
+                "text": "Private Air Transport (including Cargo) Industry."
+              },
+              {
+                "type": "entry",
+                "num": "23",
+                "text": "Offences against laws with respect to any of the matters specified in this ¡list."
+              },
+              {
+                "type": "entry",
+                "num": "24",
+                "text": "Inquiries and statistics for the purpose of any of the matters specified in this ſlist."
+              },
+              {
+                "type": "entry",
+                "num": "25",
+                "text": "Fees in respect of any of the matters specified in this list but not inclubling (foes (taken in any court."
+              },
+              {
+                "type": "entry",
+                "num": "26",
+                "text": "Implementation of treaties and agreements relating to any of the matters specified in this list."
+              }
+            ],
+            "flags": [
+              "read_page_break"
+            ],
+            "words": [
+              "r1.w1939",
+              "r1.w1952"
+            ],
+            "boxes": [
+              {
+                "page": 5,
+                "bbox": [
+                  392,
+                  1748,
+                  2311,
+                  1788
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 9,
+            "source_ref": "2(2)(a)(ii)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r81.rel9",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF CIVIL AVIATION"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF TOURISM"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w2249",
+                "r1.w2262"
+              ],
+              "boxes": [
+                {
+                  "page": 6,
+                  "bbox": [
+                    385,
+                    839,
+                    2236,
+                    928
+                  ]
+                }
+              ]
+            },
+            "expect": "B. DEPARTMENT OF TOURISM (PARYATAN VIBHAG)",
+            "ref_seq": 8,
+            "flags": [],
+            "words": [
+              "r1.w2236",
+              "r1.w2247"
+            ],
+            "boxes": [
+              {
+                "page": 6,
+                "bbox": [
+                  305,
+                  790,
+                  2236,
+                  828
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 10,
+            "source_ref": "2(2)(b)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r81.rel10",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF FINANCE"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF COMPANY AFFAIRS"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w2275",
+                "r1.w2289"
+              ],
+              "boxes": [
+                {
+                  "page": 6,
+                  "bbox": [
+                    384,
+                    948,
+                    2236,
+                    1037
+                  ]
+                }
+              ]
+            },
+            "expect": "DEPART- MENT OF COMPANY AFFAIRS (KAMPANI KARYA, VEBHAG)",
+            "flags": [],
+            "words": [
+              "r1.w2266",
+              "r1.w2277"
+            ],
+            "boxes": [
+              {
+                "page": 6,
+                "bbox": [
+                  308,
+                  948,
+                  2236,
+                  987
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 11,
+            "source_ref": "2(2)(c)(i)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r81.rel11",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF LAW AND JUSTICE"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w2296",
+                "r1.w2305"
+              ],
+              "boxes": [
+                {
+                  "page": 6,
+                  "bbox": [
+                    536,
+                    1108,
+                    2234,
+                    1146
+                  ]
+                }
+              ]
+            },
+            "expect": "MINISTRY OF LAW AND JUSTICE WIDHIMUR NYAYA MANTRALAYA)",
+            "scope": "heading",
+            "content": [
+              {
+                "type": "ministry",
+                "heading": "MINISTRY OF LAW, JUSTCE AND COMPANY AFFAIRS(",
+                "heading_hi": "VIDIHI, NYAYA AUR KAMPANY KARYA MANTRALAYA"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w2293",
+              "r1.w2305"
+            ],
+            "boxes": [
+              {
+                "page": 6,
+                "bbox": [
+                  310,
+                  1108,
+                  2234,
+                  1146
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 12,
+            "source_ref": "2(2)(c)(ii)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r81.rel12",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF LAW, JUSTICE AND COMPANY AFFAIRS"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF JUSTICE"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w2345",
+                "r1.w2359"
+              ],
+              "boxes": [
+                {
+                  "page": 6,
+                  "bbox": [
+                    471,
+                    1378,
+                    2232,
+                    1464
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "ministry",
+                "heading": "MINISTRY OF LAW, JUSTICE AND COMPANY AFFAIRS (VIDHI, NYAYA AUR KAMPANI KRYA MANTRALAYA)\", as sqaubstituted, after the sub-headings \"C. DEPART- MENT OF JUSTICE (NYAYA VIBHAG)\" and the entries relating thereto, the following sub-heading and the entries relating thereto shall be addedly"
+              },
+              {
+                "type": "department",
+                "num": "D",
+                "heading": "DEPARTMENT OF COMPANY AFFAIRS(",
+                "heading_hi": "KAMPANY KARYA VIBHAG"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Administration of the Companies Act, 1956((loof (the 1956)."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "Administration of the Companies (Donations of National Funds) Act, 1951 (54 of 1951)."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "Administration of the Monopolies and Restrictive Trade Menotices Act, 1969 (54 of 1969)."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "Monopolies and Restrictive Trade Practices Commission."
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "Profession of Accountancy [chartered Accountants Act, 1949 (38 of 1949)]; Profession of Costs and Works Accountancy [Cost and Worksuntants Act, 1959 (23 of 1959 )]; Profession of Company Secretaries [Company Secretaries Act, 1980 (56 of 1980)]."
+              },
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "Collection of Statistics relating to Companies."
+              },
+              {
+                "type": "entry",
+                "num": "7",
+                "text": "Legislation relating to law of Partnership and the emencise of certain functions under Chapter VII of the Indian Partnership Act, 1932 (9 of 1982) in cesatrally adminsistrated areas. (The administration of the Act vests in the State Govenmments)."
+              },
+              {
+                "type": "entry",
+                "num": "8",
+                "text": "The responsibility of the Centre relating to matters commoerning centrally administered areas in respect of any of the above items."
+              },
+              {
+                "type": "entry",
+                "num": "9",
+                "text": "Legislation in relation to societies registration and exercise of functions under the Societies registration Act, 1860 (21 of 1860) in centrally administered areas."
+              }
+            ],
+            "ref_seq": 11,
+            "flags": [],
+            "words": [
+              "r1.w2326",
+              "r1.w2338"
+            ],
+            "boxes": [
+              {
+                "page": 6,
+                "bbox": [
+                  398,
+                  1328,
+                  2234,
+                  1364
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 13,
+            "source_ref": "2(2)(d)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r81.rel13",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF MINES"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w2552",
+                "r1.w2563"
+              ],
+              "boxes": [
+                {
+                  "page": 6,
+                  "bbox": [
+                    471,
+                    2419,
+                    2236,
+                    2458
+                  ]
+                }
+              ]
+            },
+            "expect": "MINISTRY OF MINES (KHAN MANTRALAYA)",
+            "flags": [],
+            "words": [
+              "r1.w2551",
+              "r1.w2563"
+            ],
+            "boxes": [
+              {
+                "page": 6,
+                "bbox": [
+                  397,
+                  2419,
+                  2236,
+                  2458
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 14,
+            "source_ref": "2(2)(e)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r81.rel14",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF STEEL"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w2569",
+                "r1.w2579"
+              ],
+              "boxes": [
+                {
+                  "page": 6,
+                  "bbox": [
+                    535,
+                    2530,
+                    2170,
+                    2568
+                  ]
+                }
+              ]
+            },
+            "expect": "MINISTRY OF STEEL (ISPAT MANTRALAYA)",
+            "content": [
+              {
+                "type": "ministry",
+                "heading": "MINISTRY OF STEEL AND MINES",
+                "heading_hi": "ISPAT AUR KHAN MANTRALAYA"
+              },
+              {
+                "type": "department",
+                "num": "A",
+                "heading": "DEPARTMENT OF STEEL",
+                "heading_hi": "ISPAT MANTRALAYA"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Steel Plants in the public and private sectors, the re-rolling industry and ferro-alloys, including all future developments."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "development of iron ore mines, in the public sector."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "Development of other ore mines and roal washeries and mineral processing for the steel plants."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "Production, distribution, prises, imports and exports of iron and steel and ferro-alloys."
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "Planning, development and control of, and assistance to, all iron and steel industries."
+              },
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "Production, supply, pricing and distribution of iron ore, manganese ore, limestones, Sillimanite, kyanite and other minerals and alloys used in steel industry including magnesite and referactories but excluding mining leases or matters connected therewith."
+              },
+              {
+                "type": "entry",
+                "num": "7",
+                "text": "The Steel Authority of India Limited and its subsidiaries."
+              },
+              {
+                "type": "entry",
+                "num": "8",
+                "text": "Matters relating to the following undertakings, namely — (1) Visvesvaraya Iron and Steel Limited. (2) The Bolani Ores (India) Ltd. (3) The manganese Ore (India) Ltd. (4) The Metals Scrap Trading Corporation."
+              },
+              {
+                "type": "entry",
+                "num": "9",
+                "text": "Other public Sector Enterprises or Undertakings falling under the subjects included in this list, except those which are specifically allotted to any other Department."
+              },
+              {
+                "type": "entry",
+                "num": "10",
+                "text": "All attached or Subordinate Offices or other organisations concerned with any of the subjects specified in this list."
+              },
+              {
+                "type": "department",
+                "num": "B",
+                "heading": "DEPARTMENT OF MINES",
+                "heading_hi": "KHAN VIBHAG"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": ""
+              },
+              {
+                "type": "item",
+                "num": "i",
+                "text": "Legislation for regulation of mines and development of minerals within the territory of India, including mines and minerals underlying the ocean within the territorial water or the continental shelf, or the excluding economic zone and other maritime zone of India as may be specified, from time to time, by or under any law by Parliament."
+              },
+              {
+                "type": "item",
+                "num": "ii",
+                "text": "Regulation of mines and development of minerals other than coal, lignite and sand for stowing and any other mineral declared as prescribed substances for the purpose of the Atomic Energy Act, 1962 (33 of 1962) under the control of the Union a declared by law, including questions concerning regulation and development of minerals in various States and the matters connected therewith or incidental thereto."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "All other metals and minerals not specifically allotted to any other Department, such as, aluminium zinc, copper, gold, diamonds, lead and nickel."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "Planning development and control of, and assistance to, all industries dealt with by the Department."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "Geological Survey of India."
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "Indian Bureau of Mines."
+              },
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "All other Attached or Subordinate Offices or other organisations concerned with any of the subjects specified in this list."
+              },
+              {
+                "type": "entry",
+                "num": "7",
+                "text": "The Sikkim Mining Corporation Limited."
+              },
+              {
+                "type": "entry",
+                "num": "8",
+                "text": "Public Sector Enterprises and undertakings falling under the subjects including in this list, except those which are specifically allotted to any other Department."
+              },
+              {
+                "type": "entry",
+                "num": "9",
+                "text": "Metallurgical Grade Sillcon."
+              }
+            ],
+            "flags": [
+              "read_page_break"
+            ],
+            "words": [
+              "r1.w2567",
+              "r1.w2580"
+            ],
+            "boxes": [
+              {
+                "page": 6,
+                "bbox": [
+                  399,
+                  2530,
+                  2238,
+                  2568
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 15,
+            "source_ref": "2(2)(b)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r81.rel15",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF TEXTILES"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w3047",
+                "r1.w3058"
+              ],
+              "boxes": [
+                {
+                  "page": 7,
+                  "bbox": [
+                    458,
+                    2204,
+                    2299,
+                    2242
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "ministry",
+                "heading": "MINISTRY OF TOURISM",
+                "heading_hi": "PRAYATAN MANTRALAYA"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Development of Tourism."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "India Tourism development Corporation and public Sector Hotels or Motels thereunder."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "Inquiries and Statistics for the purpose of any of the matters specified in this list."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w3046",
+              "r1.w3058"
+            ],
+            "boxes": [
+              {
+                "page": 7,
+                "bbox": [
+                  368,
+                  2204,
+                  2299,
+                  2242
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 16,
+            "source_ref": "2(2)(g)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r81.rel16",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF WELFARE"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w3109",
+                "r1.w3115"
+              ],
+              "boxes": [
+                {
+                  "page": 7,
+                  "bbox": [
+                    519,
+                    2544,
+                    1809,
+                    2583
+                  ]
+                }
+              ]
+            },
+            "expect": "MINISTRY OF WELFARE (KALYAN MANTRALAYA),",
+            "scope": "heading",
+            "content": [
+              {
+                "type": "ministry",
+                "heading": "MINISTRY OF SOCIAL JUSTICE AND EMPOWERMENT",
+                "heading_hi": "SAMAJIK NAYA AUR ADHIKARITA MANTRALAYA"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w3107",
+              "r1.w3119"
+            ],
+            "boxes": [
+              {
+                "page": 7,
+                "bbox": [
+                  366,
+                  2544,
+                  2302,
+                  2583
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "file": {
+    "name": "1_Upload_121.pdf",
+    "file_id": "f_66b5bb731eea9dcf",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_121.pdf",
+    "sha256": "66b5bb731eea9dcf6aa65bd91c3d9d93b3fb0c645a40d795d2b47dae7c334c93",
+    "govdoc": "1_Upload_121.pdf.govdoc.json.zst",
+    "revision": 49
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_3548_1970",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_390_1970",
+      "fields": {
+        "number": {
+          "value": "S.O. 3548"
+        },
+        "in_force": {
+          "value": "1970-10-27"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "1970-10-27",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T13:49:14.100938+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r12.rel1",
+            "target": {
+              "cited": [
+                {
+                  "type": "rule",
+                  "num": "4"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w178",
+                "r1.w179"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    375,
+                    2312,
+                    482,
+                    2344
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "rule",
+                "num": "4",
+                "text": "Allocation of Departments among Ministers. ( 1 ) The business of the Government of India allocated to the Cabinet Secretariat is and, shall always be deemed to have been allotted to the Prime Minister. THE GAZETTE OF INDIA EXTRAORDINARY [PART 11-SEC. 3 (ii)] (2) Subject to the provisions of sub-rule (1), the President may, on the advice of the Prime Minister, allocate the business of the Government of India among Ministers by assigning one or more departments to the charge of a Minister. (3) Notwithstanding anything contained in sub-rule (1) or sub-rule (2), the President may, on the advice of the Prime Minister,—"
+              },
+              {
+                "type": "sub_rule",
+                "num": "a",
+                "text": "associate in relation to the business allotted to a Minister under either of the said sub-rules, another Minister or Deputy Minister to perform such functions as may be assigned to him; or"
+              },
+              {
+                "type": "sub_rule",
+                "num": "b",
+                "text": "entrust the responsibility for specified items of business affecting any of or more than one Department to a Minister who is in charge of any other Department or to a Minister without Portfolio who is not in charge of any Department."
+              }
+            ],
+            "flags": [
+              "read_page_break"
+            ],
+            "words": [
+              "r1.w176",
+              "r1.w189"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  249,
+                  2312,
+                  1684,
+                  2344
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,405 @@
+{
+  "file": {
+    "name": "1_Upload_222.pdf",
+    "file_id": "f_ff8db588ce279dac",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_222.pdf",
+    "sha256": "ff8db588ce279dac6ece19eb3c656ff3151134f27e3d6a3671c3d011d770c6db",
+    "govdoc": "1_Upload_222.pdf.govdoc.json.zst",
+    "revision": 109
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_254E_1986",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_179_1986",
+      "fields": {
+        "number": {
+          "value": "S.O. 254(E)"
+        },
+        "in_force": {
+          "value": "1986-05-12"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "1986-05-12",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T12:57:35.074854+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(1)(a)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r73.rel1",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Parliamentary Affairs and Tourism"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w604",
+                "r1.w624"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    370,
+                    1992,
+                    1147,
+                    2162
+                  ]
+                }
+              ]
+            },
+            "expect": "17. Ministry of Parliamentary Affairs and Tourism (Sansadiya Karya aur Paiyatan Mantra- laya)",
+            "content": [
+              {
+                "type": "ministry",
+                "num": "17",
+                "heading": "Ministry of Parliamentary Affairs",
+                "heading_hi": "Sansadiya Karya Mantralaya"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w603",
+              "r1.w610"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  289,
+                  1992,
+                  1147,
+                  2032
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(1)(b)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r73.rel2",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Min- istry of Textiles"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w472",
+                "r1.w483"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1490,
+                    250,
+                    2264,
+                    337
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "ministry",
+                "num": "23B",
+                "heading": "Ministry of Tourism",
+                "heading_hi": "Paryatan Mantralaya"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w471",
+              "r1.w478"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  1407,
+                  250,
+                  2264,
+                  296
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 3,
+            "source_ref": "2(2)(a)(i)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r73.rel3",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF PARLIAMENTARY AFFAIRS & TOURISM"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w508",
+                "r1.w522"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1566,
+                    627,
+                    2256,
+                    846
+                  ]
+                }
+              ]
+            },
+            "expect": "MINISTRY OF PARLIAMENTARY AFFAIRS & TOURISM (SANSADIYA KARYA AUR PARYATAN MANTRA- LAYA)",
+            "scope": "heading",
+            "content": [
+              {
+                "type": "ministry",
+                "heading": "MINISTRY OF PARLIAMENTARY AFFAIRS",
+                "heading_hi": "SANSADIYA KARYA MANTRALAYA"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w506",
+              "r1.w512"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  1400,
+                  627,
+                  2255,
+                  678
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 4,
+            "source_ref": "2(2)(a)(ii)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r73.rel4",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF PARLIAMENTARY AFFAIRS"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPART- MENT OF PARLIAMENTARY AFFAIRS"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w538",
+                "r1.w548"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1564,
+                    1058,
+                    2252,
+                    1229
+                  ]
+                }
+              ]
+            },
+            "expect": "A. DEPART- MENT OF PARLIAMENTARY AFFAIRS (SANSADIYA KARYA VIBHAG)",
+            "scope": "heading",
+            "ref_seq": 3,
+            "flags": [],
+            "words": [
+              "r1.w537",
+              "r1.w541"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  1470,
+                  1058,
+                  2248,
+                  1100
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 5,
+            "source_ref": "2(2)(a)(iii)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r73.rel5",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF PARLIAMENTARY AFFAIRS"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPART- MENT OF TOURISM"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w553",
+                "r1.w566"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1567,
+                    1252,
+                    2249,
+                    1415
+                  ]
+                }
+              ]
+            },
+            "expect": "B. DEPART- MENT OF TOURISM (PARYA- TAN VIBHAG)",
+            "ref_seq": 3,
+            "flags": [],
+            "words": [
+              "r1.w552",
+              "r1.w556"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  1459,
+                  1252,
+                  2247,
+                  1289
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 6,
+            "source_ref": "2(2)(b)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r73.rel6",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF TEX- TILES"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w571",
+                "r1.w583"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1474,
+                    1440,
+                    2248,
+                    1565
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "ministry",
+                "heading": "MINISTRY OF TOURISM",
+                "heading_hi": "PARYA- TAN MANTRALAYA"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Development of Tourism."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "India Tourism Develorment Corporation and Public Sector Hotels or Motels thereunder. Inquiries and Statistics for the purpose of any of the matters specified in this list."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w570",
+              "r1.w576"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  1390,
+                  1440,
+                  2247,
+                  1479
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

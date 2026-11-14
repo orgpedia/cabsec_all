@@ -1,0 +1,460 @@
+{
+  "file": {
+    "name": "1_Upload_53.pdf",
+    "file_id": "f_3506dd65e656d0b9",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_53.pdf",
+    "sha256": "3506dd65e656d0b90105dcec31078105122e4b36c6cd0eb7988dc2138a6b8006",
+    "govdoc": "1_Upload_53.pdf.govdoc.json.zst",
+    "revision": 55
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_2653_1963",
+      "doc_type": "aob_amendment",
+      "parent": "GAZETTE_ISSUE_3506dd65e656d0b9",
+      "fields": {
+        "number": {
+          "value": "S.O. 2653"
+        },
+        "in_force": {
+          "value": "1963-09-01"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "1963-09-01",
+          "basis": "stated"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T18:01:26.198335+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "(A)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r28.rel1",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "entry",
+                  "num": "5"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w104",
+                "r1.w110"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    408,
+                    1622,
+                    1033,
+                    1659
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "ministry",
+                "num": "5",
+                "heading": "Ministry of Finance"
+              },
+              {
+                "type": "department",
+                "num": "i",
+                "heading": "Department of Economic Affairs"
+              },
+              {
+                "type": "department",
+                "num": "ii",
+                "heading": "Department of Expenditure"
+              },
+              {
+                "type": "department",
+                "num": "iii",
+                "heading": "Department of Revenue"
+              },
+              {
+                "type": "department",
+                "num": "iv",
+                "heading": "Department of Co-ordination."
+              }
+            ],
+            "flags": [
+              "read_hindi_missing"
+            ],
+            "words": [
+              "r1.w103",
+              "r1.w110"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  327,
+                  1622,
+                  1033,
+                  1660
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "(B)(a)(i)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r28.rel2",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Finance"
+                },
+                {
+                  "type": "department",
+                  "heading": "Department of Economic Affairs"
+                },
+                {
+                  "type": "entry",
+                  "num": "13"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w160",
+                "r1.w162"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    534,
+                    2127,
+                    785,
+                    2163
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "13A",
+                "text": "Borrowing of Public Bodies such as Corporations, Municipalities etc."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w158",
+              "r1.w165"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  402,
+                  2127,
+                  1141,
+                  2163
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 3,
+            "source_ref": "(B)(a)(ii)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r28.rel3",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Finance"
+                },
+                {
+                  "type": "department",
+                  "heading": "Department of Economic Affairs"
+                },
+                {
+                  "type": "entry",
+                  "num": "23"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w181",
+                "r1.w183"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    478,
+                    2281,
+                    729,
+                    2315
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "23A",
+                "text": "Taxation Enquiry Commission"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w180",
+              "r1.w186"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  401,
+                  2281,
+                  1083,
+                  2315
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 4,
+            "source_ref": "(B)(a)(iii)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r28.rel4",
+            "target": [
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "Ministry of Finance"
+                  },
+                  {
+                    "type": "department",
+                    "heading": "Department of Economic Affairs"
+                  },
+                  {
+                    "type": "group_heading",
+                    "heading": "VI-Planning"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r1.w196",
+                  "r1.w197"
+                ],
+                "boxes": [
+                  {
+                    "page": 1,
+                    "bbox": [
+                      487,
+                      2388,
+                      883,
+                      2421
+                    ]
+                  }
+                ]
+              },
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "Ministry of Finance"
+                  },
+                  {
+                    "type": "department",
+                    "heading": "Department of Economic Affairs"
+                  },
+                  {
+                    "type": "entry",
+                    "range": [
+                      "25",
+                      "34"
+                    ]
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r1.w199",
+                  "r1.w205"
+                ],
+                "boxes": [
+                  {
+                    "page": 1,
+                    "bbox": [
+                      982,
+                      2388,
+                      1599,
+                      2421
+                    ]
+                  }
+                ]
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w195",
+              "r1.w202"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  400,
+                  2388,
+                  1257,
+                  2421
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 5,
+            "source_ref": "(B)(b)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r28.rel5",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Finance"
+                },
+                {
+                  "type": "department",
+                  "heading": "Department of Revenue"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w222",
+                "r1.w231"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    563,
+                    207,
+                    1787,
+                    241
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "department",
+                "num": "D",
+                "heading": "Department of Co-ordination"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Statutory grants to States provided for in the Constitution and ad học grants and loans to them for financing their development schemes and other approved purposes"
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "Local Taxation."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "State Finance."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "Capital Budget."
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "Co-ordination in regard to important economic issues other than those handled by the Department of Economic Affairs."
+              },
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "Planning and Development."
+              },
+              {
+                "type": "entry",
+                "num": "7",
+                "text": "Grants to the Indian Institute of Public Administration."
+              },
+              {
+                "type": "entry",
+                "num": "8",
+                "text": "Scrutiny of Central and State Legislation having financial and economic implications."
+              }
+            ],
+            "flags": [
+              "read_hindi_missing"
+            ],
+            "words": [
+              "r1.w221",
+              "r1.w227"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  491,
+                  207,
+                  1257,
+                  241
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

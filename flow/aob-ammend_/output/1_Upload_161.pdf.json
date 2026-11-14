@@ -1,0 +1,402 @@
+{
+  "file": {
+    "name": "1_Upload_161.pdf",
+    "file_id": "f_8dfcb9209571fcd1",
+    "pages": 6,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_161.pdf",
+    "sha256": "8dfcb9209571fcd16c10e8e4d02d33704e3b230a932a7e87581e39dac273e1e2",
+    "govdoc": "1_Upload_161.pdf.govdoc.json.zst",
+    "revision": 49
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_790E_1977",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_500_1977",
+      "fields": {
+        "number": {
+          "value": "S.O. 790 (E)"
+        },
+        "in_force": {
+          "value": "1977-11-26"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "1977-11-26",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T13:49:24.364697+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(a)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r12.rel1",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "entry",
+                  "num": "16"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w206",
+                "r1.w208"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    337,
+                    2179,
+                    563,
+                    2213
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "ministry",
+                "num": "16",
+                "heading": "Ministry of Planning",
+                "remark": "with a Department of Statistics (Sankhyiki Vibhag ) within the Ministry (Mantralaya )",
+                "heading_hi": "Yojana Mantralaya"
+              },
+              {
+                "type": "department",
+                "num": "-",
+                "heading": "Department of Statistics",
+                "heading_hi": "Sankhyiki Vibhag"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w205",
+              "r1.w203"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  274,
+                  2179,
+                  1498,
+                  2213
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(b)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r12.rel2",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "entry",
+                  "num": "26"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w240",
+                "r1.w242"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    347,
+                    2308,
+                    617,
+                    2341
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "27 Department of Science and Technology (Vigyan and Prodyogiki Vibhag)."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w239",
+              "r1.w238"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  276,
+                  2305,
+                  1531,
+                  2342
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 3,
+            "source_ref": "3(a)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r12.rel3",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF PLANNING"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF SCIENCE AND TECH- NOLOGY"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w284",
+                "r1.w308"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    459,
+                    250,
+                    1762,
+                    386
+                  ]
+                }
+              ]
+            },
+            "flags": [],
+            "words": [
+              "r1.w283",
+              "r1.w291"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  384,
+                  250,
+                  1751,
+                  293
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 4,
+            "source_ref": "3(b)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r12.rel4",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "DEPARTMENT OF PARLIAMENTARY AFFAIRS"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w313",
+                "r1.w326"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    467,
+                    403,
+                    1761,
+                    475
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "DEPARTMENT OF SCIENCE AND TECHNOLOGY (VIGYAN AUR PRODYOGIKI VIBHAG) 1 Formulation of policy statements and guidelines on science and technology and the following through their implementation"
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "National Committee on Science and Technology."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "Promotion of new areas of science and technology."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "Oceanography including the scientific and technological aspects of the seabed and ocean floor."
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "Environment and Ecology."
+              },
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "Futurology."
+              },
+              {
+                "type": "entry",
+                "num": "7",
+                "text": "All matters concerning the Council of Scientific and Industrial Research"
+              },
+              {
+                "type": "entry",
+                "num": "8",
+                "text": "Survey of India and National Atlas Organisation."
+              },
+              {
+                "type": "entry",
+                "num": "9",
+                "text": "Botanical Survey of India."
+              },
+              {
+                "type": "entry",
+                "num": "10",
+                "text": "Zoological Survey of India."
+              },
+              {
+                "type": "entry",
+                "num": "11",
+                "text": "National Research Development Corporation."
+              },
+              {
+                "type": "entry",
+                "num": "12",
+                "text": "Annual Session of the Indian Science Congress Association."
+              },
+              {
+                "type": "entry",
+                "num": "13",
+                "text": "Central Board of Geophysics."
+              },
+              {
+                "type": "entry",
+                "num": "14",
+                "text": "The Pan-Indian Ocean Science Association."
+              },
+              {
+                "type": "entry",
+                "num": "15",
+                "text": "Indian National Scientific Documentation Centre."
+              },
+              {
+                "type": "entry",
+                "num": "16",
+                "text": "Coordination of areas of science and technology in which a number of institutions and departments have interests and capabilities."
+              },
+              {
+                "type": "entry",
+                "num": "17",
+                "text": "Undertaking or financially sponsoring scientific and technological surveys, research, design, development where necessary."
+              },
+              {
+                "type": "entry",
+                "num": "18",
+                "text": "Grants to national research institutions, scientific associations and gcientific bodies, including the Indian National Science Academy, the Indian Academy of Science and the National Academy of Sciences"
+              },
+              {
+                "type": "entry",
+                "num": "19",
+                "text": "All matters concerning domestic technology particularly the promotion of ventures involving the commercialisation of such technology."
+              },
+              {
+                "type": "entry",
+                "num": "20",
+                "text": "International Scientific and Technological Affairs including-"
+              },
+              {
+                "type": "item",
+                "num": "a",
+                "text": "the negotiation and implementation of Scientific and Technological Cooperation Agreements and responsibility for scientific and technological aspects of activities of international organisation; and"
+              },
+              {
+                "type": "item",
+                "num": "b",
+                "text": "appointment of Scientific Attaches abroad. 1 0"
+              },
+              {
+                "type": "note",
+                "text": "NOTE. These functions shall be exercise by the Department of Science and Technology (Vievan aur Prodvogiki Vibhag) in close cooperation with the Ministry of External Affairs (Videsh Mantralaya)."
+              },
+              {
+                "type": "entry",
+                "num": "21",
+                "text": "Matters commonly affecting scientific and technological institutions e.g financial, personnel, purchase and import policies and practices."
+              },
+              {
+                "type": "entry",
+                "num": "22",
+                "text": "Matters relating to creation of a pool for temporary placement of Indian scientists and technologists returning from abroad"
+              },
+              {
+                "type": "entry",
+                "num": "23",
+                "text": "All other measures needed for the promotion of science and technology and their application to the development and security to the nation."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w312",
+              "r1.w319"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  385,
+                  403,
+                  1761,
+                  442
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

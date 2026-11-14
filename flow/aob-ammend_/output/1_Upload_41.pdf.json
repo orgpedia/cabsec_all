@@ -1,0 +1,222 @@
+{
+  "file": {
+    "name": "1_Upload_41.pdf",
+    "file_id": "f_b604d6a46e2d587c",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_41.pdf",
+    "sha256": "b604d6a46e2d587ccac641b2d4286d9dbb554fdb444f07fade8cc3916d39e013",
+    "govdoc": "1_Upload_41.pdf.govdoc.json.zst",
+    "revision": 55
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_1896_1962",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_229_1962",
+      "fields": {
+        "number": {
+          "value": "S.O. 1896"
+        },
+        "in_force": {
+          "value": "1962-06-16"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "1962-06-16",
+          "basis": "stated"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T18:01:35.634215+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "(a)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r28.rel1",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "entry",
+                  "num": "22"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w111",
+                "r1.w117"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    451,
+                    1377,
+                    1086,
+                    1411
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "department",
+                "num": "22",
+                "heading": "Cabinet Secretariat:"
+              },
+              {
+                "type": "department",
+                "num": "i",
+                "heading": "Department of Cabinet Affairs"
+              },
+              {
+                "type": "department",
+                "num": "ii",
+                "heading": "Department of Statistics"
+              },
+              {
+                "type": "department",
+                "num": "iii",
+                "heading": "Department of Special Economic Co-ordination"
+              }
+            ],
+            "flags": [
+              "read_hindi_missing"
+            ],
+            "words": [
+              "r1.w110",
+              "r1.w122"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  385,
+                  1377,
+                  1628,
+                  1411
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "(b)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r28.rel2",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Cabinet Secretariat"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w146",
+                "r1.w157"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    449,
+                    1632,
+                    1760,
+                    1699
+                  ]
+                }
+              ]
+            },
+            "scope": "children",
+            "content": [
+              {
+                "type": "department",
+                "num": "A",
+                "heading": "Department of Cabinet Affairs"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Secretarial assistance to the Cabinet and Cabinet Committees."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "Rules of Business."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "Organisation and Methods."
+              },
+              {
+                "type": "department",
+                "num": "B",
+                "heading": "Department of Statistics"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Standards and norms and methods of collection of statistics."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "Central Statistical Organisation."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "National Sample Survey."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "Indian Statistical Institute."
+              },
+              {
+                "type": "department",
+                "num": "C",
+                "heading": "Department of Special Economic Co-ordination. Specific matters of economic co-ordination as may be assigned by the Prime Minister from time to time."
+              }
+            ],
+            "flags": [
+              "read_hindi_missing"
+            ],
+            "words": [
+              "r1.w145",
+              "r1.w156"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  382,
+                  1632,
+                  1760,
+                  1665
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

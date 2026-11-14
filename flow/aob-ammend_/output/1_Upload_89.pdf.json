@@ -1,0 +1,109 @@
+{
+  "file": {
+    "name": "1_Upload_89.pdf",
+    "file_id": "f_490ed4a31537dc90",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_89.pdf",
+    "sha256": "490ed4a31537dc9043c5620c966fa4bbc56e0289bfba14f8fd09dad265fc9991",
+    "govdoc": "1_Upload_89.pdf.govdoc.json.zst",
+    "revision": 46
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_3368_1966",
+      "doc_type": "aob_amendment",
+      "parent": "GAZETTE_ISSUE_490ed4a31537dc90",
+      "fields": {
+        "number": {
+          "value": "S.O. 3368"
+        },
+        "in_force": {
+          "value": "1965-11-01"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "1965-11-01",
+          "basis": "stated"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T13:49:06.778348+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "1",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r10.rel1",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Home Affairs"
+                },
+                {
+                  "type": "group_heading",
+                  "heading": "Part III - Additional subjects with regard to Union Territories"
+                },
+                {
+                  "type": "group_heading",
+                  "heading": "( 1 ) For the Union Territories of Delhi, Himachal Pradesh, Manipur, Tripura, Pondicherry, Goa, Daman and Dlu, and Dadra and Nagar Haveli,"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w204",
+                "r1.w227"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    178,
+                    2413,
+                    1520,
+                    2510
+                  ]
+                }
+              ]
+            },
+            "expect": "( 1 ) For the Union Territories of Delhi, Himachal Pradesh, Manipur, Tripura, Pondicherry, Goa, Daman and Dlu, and Dadra and Nagar Haveli,",
+            "scope": "heading",
+            "content": [
+              {
+                "type": "item",
+                "num": "i",
+                "text": "For the Union Territories of Delhi, Himachal Pradesh, Manipur Tripura, Pondicherry, Goa, Daman and Dlu, Dadra and Nagar Haveli and Chandigarh."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w176",
+              "r1.w183"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  141,
+                  2223,
+                  917,
+                  2258
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

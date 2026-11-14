@@ -1,0 +1,1414 @@
+{
+  "file": {
+    "name": "1_Upload_38.pdf",
+    "file_id": "f_2a2b0d45858116c3",
+    "pages": 6,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_38.pdf",
+    "sha256": "2a2b0d45858116c369168046a70d658a7a290eb282376e31b6b97fff4529a6e2",
+    "govdoc": "1_Upload_38.pdf.govdoc.json.zst",
+    "revision": 55
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_1140_1962",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_161_1962",
+      "fields": {
+        "number": {
+          "value": "S.O. 1140"
+        },
+        "in_force": {
+          "value": "1962-04-10"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "1962-04-10",
+          "basis": "stated"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T18:01:24.680920+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "(A)(a)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r28.rel1",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "entry",
+                  "num": "1"
+                },
+                {
+                  "type": "item",
+                  "num": "1"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w117",
+                "r1.w126"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    432,
+                    1640,
+                    1659,
+                    1674
+                  ]
+                }
+              ]
+            },
+            "expect": "Department of Commerce",
+            "content": [
+              {
+                "type": "department",
+                "num": "i",
+                "heading": "Department of International Trade."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w116",
+              "r1.w126"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  360,
+                  1640,
+                  1659,
+                  1674
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "(A)(b)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r28.rel2",
+            "target": [
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "1"
+                  },
+                  {
+                    "type": "entry",
+                    "num": "14"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r1.w141",
+                  "r1.w142"
+                ],
+                "boxes": [
+                  {
+                    "page": 1,
+                    "bbox": [
+                      501,
+                      1778,
+                      676,
+                      1813
+                    ]
+                  }
+                ]
+              },
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "1"
+                  },
+                  {
+                    "type": "entry",
+                    "num": "15"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r1.w144",
+                  "r1.w144"
+                ],
+                "boxes": [
+                  {
+                    "page": 1,
+                    "bbox": [
+                      775,
+                      1778,
+                      820,
+                      1813
+                    ]
+                  }
+                ]
+              }
+            ],
+            "content": [
+              {
+                "type": "ministry",
+                "num": "14",
+                "heading": "Ministry of Mines & Fuel."
+              },
+              {
+                "type": "ministry",
+                "num": "15",
+                "heading": "Ministry of Railways (Railway Board)"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w139",
+              "r1.w150"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  357,
+                  1778,
+                  1733,
+                  1813
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 3,
+            "source_ref": "(A)(c)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r28.rel3",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "entry",
+                  "num": "17"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w175",
+                "r1.w177"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    423,
+                    1996,
+                    662,
+                    2031
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "ministry",
+                "num": "17",
+                "heading": "Ministry of Steel & Heavy Industries"
+              },
+              {
+                "type": "department",
+                "num": "i",
+                "heading": "Department of Iron & Steel"
+              },
+              {
+                "type": "department",
+                "num": "i",
+                "heading": "Department of Heavy Industries."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w174",
+              "r1.w184"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  353,
+                  1996,
+                  1629,
+                  2031
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 4,
+            "source_ref": "(B)(a)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r28.rel4",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "department",
+                  "heading": "Department of Commerce"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w209",
+                "r1.w220"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    421,
+                    2240,
+                    1725,
+                    2306
+                  ]
+                }
+              ]
+            },
+            "expect": "Department of Commerce",
+            "scope": "children",
+            "content": [
+              {
+                "type": "ministry",
+                "heading": "DEPARTMENT OF INTERNATIONAL TRADE"
+              },
+              {
+                "type": "group_heading",
+                "num": "I",
+                "text": "Trade"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Foreign Trade."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "State Trading."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "Protection of interests of Indian traders abroad."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "Trade Missions and Delegations."
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "International Commodity Agreement other than wheat."
+              },
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "International Trade Agreements."
+              },
+              {
+                "type": "entry",
+                "num": "7",
+                "text": "Import Trade Control."
+              },
+              {
+                "type": "entry",
+                "num": "8",
+                "text": "Export Trade Control"
+              },
+              {
+                "type": "entry",
+                "num": "9",
+                "text": "Control of prices of export goods."
+              },
+              {
+                "type": "entry",
+                "num": "10",
+                "text": "Trade, Promotion (except promotion of exports of exposed cine films) Publicity and Research"
+              },
+              {
+                "type": "entry",
+                "num": "11",
+                "text": "ECAFE and its Committee on Industry and Trade."
+              },
+              {
+                "type": "entry",
+                "num": "12",
+                "text": "Export Credit Guarantee."
+              },
+              {
+                "type": "entry",
+                "num": "13",
+                "text": "Fairs and Exhibitions abroad and in India; Government Showrooms and Trade Centres abroad."
+              },
+              {
+                "type": "group_heading",
+                "num": "II",
+                "text": "Commercial Intelligence, Statistics and Publications"
+              },
+              {
+                "type": "entry",
+                "num": "14",
+                "text": "Commercial Intelligence and Statistics."
+              },
+              {
+                "type": "entry",
+                "num": "15",
+                "text": "Commercial Publications including periodicals. SEC. 3 (II)]"
+              },
+              {
+                "type": "group_heading",
+                "num": "III",
+                "text": "Enemy Property"
+              },
+              {
+                "type": "entry",
+                "num": "16",
+                "text": "Reparations (other than German Industrial Equipment)."
+              },
+              {
+                "type": "entry",
+                "num": "17",
+                "text": "Control of trade with the enemy and enemy firms and custody of enemy property."
+              },
+              {
+                "type": "group_heading",
+                "num": "IV",
+                "text": "Plantation Industries"
+              },
+              {
+                "type": "entry",
+                "num": "18",
+                "text": "Tea (The Tea Act, 1953); International Tea Regulation Scheme, Export Cess on Tea."
+              },
+              {
+                "type": "entry",
+                "num": "19",
+                "text": "Rubber (The Rubber Act, 1947)."
+              },
+              {
+                "type": "entry",
+                "num": "20",
+                "text": "Coffee (The Coffee Act, 1942)."
+              },
+              {
+                "type": "group_heading",
+                "num": "V",
+                "text": "Textiles"
+              },
+              {
+                "type": "entry",
+                "num": "21",
+                "text": "Cotton Textiles (including Jute)."
+              },
+              {
+                "type": "entry",
+                "num": "22",
+                "text": "Raw Cotton."
+              },
+              {
+                "type": "entry",
+                "num": "23",
+                "text": "All questions connected with supply, prices and distribution of Textiles."
+              },
+              {
+                "type": "entry",
+                "num": "24",
+                "text": "Co-ordination of the development of the Coir Industry; the Coir Industry Act, 1953."
+              },
+              {
+                "type": "group_heading",
+                "num": "VI",
+                "text": "Tariffs and Customs"
+              },
+              {
+                "type": "entry",
+                "num": "25",
+                "text": "General Agreement on Tariffs and Trade."
+              },
+              {
+                "type": "entry",
+                "num": "26",
+                "text": "Tariff Policy (The Indian Tariff Act, 1934)."
+              },
+              {
+                "type": "entry",
+                "num": "27",
+                "text": "Tariff Commission (The Tariff Commission Act, 1951)."
+              },
+              {
+                "type": "entry",
+                "num": "28",
+                "text": "Tariff Valuation."
+              },
+              {
+                "type": "entry",
+                "num": "29",
+                "text": "Tariff Protection to Industries."
+              },
+              {
+                "type": "entry",
+                "num": "30",
+                "text": "International Customs Tariff Bureau."
+              },
+              {
+                "type": "entry",
+                "num": "31",
+                "text": "Commonwealth Tariff Preferences."
+              },
+              {
+                "type": "entry",
+                "num": "32",
+                "text": "Customs nomenclature and similar matters."
+              },
+              {
+                "type": "group_heading",
+                "num": "VII",
+                "text": "All matters relating to the following"
+              },
+              {
+                "type": "entry",
+                "num": "33",
+                "text": ""
+              },
+              {
+                "type": "item",
+                "num": "a",
+                "text": "Attached/Subordinate Offices and Semi-Government Organisations:"
+              },
+              {
+                "type": "item",
+                "num": "i",
+                "text": "Chief Controller of Imports and Exports, New Delhi."
+              },
+              {
+                "type": "item",
+                "num": "ii",
+                "text": "Tariff Commission, Bombay."
+              },
+              {
+                "type": "item",
+                "num": "ii",
+                "text": "Textile Commissioner, Bombay."
+              },
+              {
+                "type": "item",
+                "num": "iv",
+                "text": "Jute Commissioner, Calcutta."
+              },
+              {
+                "type": "item",
+                "num": "v",
+                "text": "Director General of Commercial Intelligence and Statistics, Calcutta."
+              },
+              {
+                "type": "item",
+                "num": "vi",
+                "text": "Controller of Enemy Trading and Enemy Firms and Custodian of Enemy Property."
+              },
+              {
+                "type": "item",
+                "num": "vii",
+                "text": "Cotton Textiles Fund Committee, Bombay (viii) Rubber Board, Kottayam."
+              },
+              {
+                "type": "item",
+                "num": "ix",
+                "text": "Tea Board, Calcutta."
+              },
+              {
+                "type": "item",
+                "num": "x",
+                "text": "Coffee Board, Bangalore. (x1) Coir Board, Ernakulam."
+              },
+              {
+                "type": "item",
+                "num": "xli",
+                "text": "Indian Trade Representatives Abroad."
+              },
+              {
+                "type": "item",
+                "num": "b",
+                "text": "State Undertakings and Government Corporations:"
+              },
+              {
+                "type": "item",
+                "num": "i",
+                "text": "State Trading Corporation Ltd."
+              },
+              {
+                "type": "item",
+                "num": "ii",
+                "text": "Export Risks Insurance Corporation Ltd."
+              }
+            ],
+            "flags": [
+              "read_hindi_missing",
+              "read_page_break"
+            ],
+            "words": [
+              "r1.w208",
+              "r1.w218"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  350,
+                  2240,
+                  1725,
+                  2274
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 5,
+            "source_ref": "(B)(b)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r28.rel5",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "department",
+                  "heading": "Department of Industry"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w245",
+                "r1.w253"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    422,
+                    2443,
+                    1516,
+                    2480
+                  ]
+                }
+              ]
+            },
+            "scope": "children",
+            "content": [
+              {
+                "type": "ministry",
+                "heading": "DEPARTMENT OF INDUSTRY"
+              },
+              {
+                "type": "group_heading",
+                "num": "I",
+                "text": "Industrial Policy"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "General Industrial Policy."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "The Administration of the Industries (Development & Regulation) Act"
+              },
+              {
+                "type": "entry",
+                "num": "1951"
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "Industrial Management."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "Productivity in Industry."
+              },
+              {
+                "type": "group_heading",
+                "num": "II",
+                "text": "Industries and Industrial Development"
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "Planning, development and control of and assistance to all industries. (with the exception of the industries falling under the Ministry of Steel & Heavy Industries and Food & Agriculture)."
+              },
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "Cables."
+              },
+              {
+                "type": "entry",
+                "num": "7",
+                "text": "Light Engincering Industries (e.g. Sewing machines, type-writers,. weighing machines, bicycles, etc.)."
+              },
+              {
+                "type": "entry",
+                "num": "8",
+                "text": "Optical Glass Project."
+              },
+              {
+                "type": "entry",
+                "num": "9",
+                "text": "Light Industries (e.g. Plywood, stationery, matches, cigarettes, etc.)."
+              },
+              {
+                "type": "entry",
+                "num": "10",
+                "text": "Light Electrical Engineering Industries."
+              },
+              {
+                "type": "group_heading",
+                "num": "III",
+                "text": "Chemicals and Drugs"
+              },
+              {
+                "type": "entry",
+                "num": "11",
+                "text": "Chemical Industries (e.g. Caustic Soda, Soda Ash, Raw films, Hardboard Paper and Newsprint, Synthetic Rubber, Tyres and Tubes, Dyestuffs, Drugs and other fine chemicals, Plastics, Soap, etc.)."
+              },
+              {
+                "type": "entry",
+                "num": "12",
+                "text": "Insecticides."
+              },
+              {
+                "type": "entry",
+                "num": "13",
+                "text": "Antibiotics."
+              },
+              {
+                "type": "entry",
+                "num": "14",
+                "text": "Salt."
+              },
+              {
+                "type": "entry",
+                "num": "15",
+                "text": "Power Alcohol (The Indian Power Alcohol Act, 1948)."
+              },
+              {
+                "type": "group_heading",
+                "num": "IV",
+                "text": "Small Scale Industries"
+              },
+              {
+                "type": "entry",
+                "num": "16",
+                "text": "Coordination of the development of small-scale industries"
+              },
+              {
+                "type": "item",
+                "num": "i",
+                "text": "Small Scale Industries Board."
+              },
+              {
+                "type": "item",
+                "num": "ii",
+                "text": "National Small Industries Corporation."
+              },
+              {
+                "type": "item",
+                "num": "iii",
+                "text": "Setting up of new industries in displaced persons townships and colonies and places where there are heavy concentrations of displaced persons for mitigating their unemployment in the Western Region, viz., Punjab, Uttar Pradesh, Maharashtra, Gujarat, Rajasthan, Madhya Pradesh and the Union territory of Delhi."
+              },
+              {
+                "type": "group_heading",
+                "num": "V",
+                "text": "All matters relating to the following"
+              },
+              {
+                "type": "entry",
+                "num": "17",
+                "text": ""
+              },
+              {
+                "type": "item",
+                "num": "a",
+                "text": "Attached/Subordinate Offices: (1) The Development Wing (other than Directorates under the Department of Heavy Industries). (II) The Development Commissioner, Small Scale Industries, New Delhi."
+              },
+              {
+                "type": "item",
+                "num": "iii",
+                "text": "The Salt Commissioner, Jaipur."
+              },
+              {
+                "type": "item",
+                "num": "iv",
+                "text": "Government Salt Works."
+              },
+              {
+                "type": "item",
+                "num": "b",
+                "text": "State Industrial Undertakings and Government Corporations"
+              },
+              {
+                "type": "item",
+                "num": "i",
+                "text": "The National Industrial Development Corporation Ltd."
+              },
+              {
+                "type": "item",
+                "num": "ii",
+                "text": "The National Small Industries Corporation Ltd."
+              },
+              {
+                "type": "item",
+                "num": "iii",
+                "text": "Hindustan Insecticides Ltd., Delhi and Alwaye (Kerala State)."
+              },
+              {
+                "type": "item",
+                "num": "iv",
+                "text": "Hindustan Antibiotics Ltd., Pimpri."
+              },
+              {
+                "type": "item",
+                "num": "v",
+                "text": "National Instruments Ltd., Calcutta.. SEC. 3 (1)"
+              },
+              {
+                "type": "item",
+                "num": "vi",
+                "text": "Hindustan Cables Ltd., Roopnarainpur, West Bengal."
+              },
+              {
+                "type": "item",
+                "num": "vii",
+                "text": "Hindustan Salt Company Ltd., Jaipur"
+              },
+              {
+                "type": "item",
+                "num": "vii",
+                "text": "Rehabilitation Industries Corporation Ltd."
+              },
+              {
+                "type": "item",
+                "num": "ix",
+                "text": "Hindustan Photo Films Manufacturing Co. Ltd., Madras."
+              },
+              {
+                "type": "item",
+                "num": "x",
+                "text": "Hindustan Organic Chemicals Ltd., Bombay."
+              },
+              {
+                "type": "item",
+                "num": "xi",
+                "text": "National Newsprint and Paper Mills Ltd., Nepanagar."
+              },
+              {
+                "type": "item",
+                "num": "xii",
+                "text": "Indian Drugs & Pharmaceuticals Ltd., New Delhi."
+              },
+              {
+                "type": "group_heading",
+                "num": "VI",
+                "text": "Trade"
+              },
+              {
+                "type": "entry",
+                "num": "18",
+                "text": "Internal trade."
+              },
+              {
+                "type": "entry",
+                "num": "19",
+                "text": "Inter-State trade; the spirituous Preparation (Inter-State Trade and Commerce) Control Act, 1955."
+              },
+              {
+                "type": "entry",
+                "num": "20",
+                "text": "Control of Futures Trading [the Forward Contracts (Regulation) Act 1952]."
+              },
+              {
+                "type": "entry",
+                "num": "21",
+                "text": "Essential Commodities Act (Supply, prices and distribution of essential commodities not dealt with specifically by any other Ministry)."
+              },
+              {
+                "type": "group_heading",
+                "num": "VII",
+                "text": "Trade Marks, Patents and Designs"
+              },
+              {
+                "type": "entry",
+                "num": "22",
+                "text": "The Trade and Merchandise Marks Act, 1958."
+              },
+              {
+                "type": "entry",
+                "num": "23",
+                "text": "Standards of Weights & Measures."
+              },
+              {
+                "type": "entry",
+                "num": "24",
+                "text": "Standardisation of international products and raw materials; the Indian Standards Institution (Certification Marks) Act, 1952."
+              },
+              {
+                "type": "entry",
+                "num": "25",
+                "text": "Patents & Designs (The Indian Patents and Designs Act, 1911)."
+              },
+              {
+                "type": "group_heading",
+                "num": "VIII",
+                "text": "Village Industries"
+              },
+              {
+                "type": "entry",
+                "num": "26",
+                "text": "Development of Handloom Industry (The Khadi & Other Handloom Industries Development—Additional Excise Duty on Cloth Act, 1953)."
+              },
+              {
+                "type": "entry",
+                "num": "27",
+                "text": "Coordination and development of village industries including Khadi & Handicrafts."
+              },
+              {
+                "type": "entry",
+                "num": "28",
+                "text": "Ambar Charkha."
+              },
+              {
+                "type": "entry",
+                "num": "29",
+                "text": "Sericulture."
+              },
+              {
+                "type": "entry",
+                "num": "30",
+                "text": "Development of Gur and Khandsari Industry."
+              },
+              {
+                "type": "group_heading",
+                "num": "IX",
+                "text": "All Matters relating to the following"
+              },
+              {
+                "type": "entry",
+                "num": "31",
+                "text": "Attached or subordinate offices and semi-government organisations and government corporations:"
+              },
+              {
+                "type": "item",
+                "num": "i",
+                "text": "Economic Adviser to the Government of India, New Delhi. (11) Forward Markets Commission, Bombay. (HI) Controller General of Patents, Designs and Trade Marks, Bombay."
+              },
+              {
+                "type": "item",
+                "num": "iv",
+                "text": "Indian Standards Institution, New Delhi."
+              },
+              {
+                "type": "item",
+                "num": "v",
+                "text": "Khadi and Village Industries Commission, Bombay."
+              },
+              {
+                "type": "item",
+                "num": "vi",
+                "text": "All-India Handloom Board, Bombay."
+              },
+              {
+                "type": "item",
+                "num": "vi",
+                "text": "Khadi and Village Industries Board. (viii) Central Silk Board, Bombay."
+              },
+              {
+                "type": "item",
+                "num": "ix",
+                "text": "Central Sericultural Research Station, Berhampur."
+              },
+              {
+                "type": "item",
+                "num": "x",
+                "text": "All-India Handicrafts Board."
+              },
+              {
+                "type": "item",
+                "num": "x",
+                "text": "Indian Handicrafts Development Corporation Ltd."
+              }
+            ],
+            "flags": [
+              "read_page_break"
+            ],
+            "words": [
+              "r1.w244",
+              "r1.w255"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  347,
+                  2443,
+                  1723,
+                  2480
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 6,
+            "source_ref": "(B)(c)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r28.rel6",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "department",
+                  "heading": "Legislative Department"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w276",
+                "r1.w292"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    532,
+                    256,
+                    1837,
+                    327
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Ministry of Mines & Fuel\"; and entries as under the existing heading Department of Mines & Fuel."
+              }
+            ],
+            "flags": [
+              "read_hindi_missing"
+            ],
+            "words": [
+              "r1.w275",
+              "r1.w284"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  463,
+                  256,
+                  1837,
+                  294
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 7,
+            "source_ref": "(B)(d)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r28.rel7",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Rehabilitation"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w320",
+                "r1.w330"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    534,
+                    450,
+                    1838,
+                    516
+                  ]
+                }
+              ]
+            },
+            "expect": "Ministry of Rehabilitation",
+            "flags": [],
+            "words": [
+              "r1.w319",
+              "r1.w329"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  461,
+                  450,
+                  1838,
+                  484
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 8,
+            "source_ref": "(B)(e)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r28.rel8",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Steel, Mines & Fuel"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w336",
+                "r1.w344"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    530,
+                    527,
+                    1542,
+                    565
+                  ]
+                }
+              ]
+            },
+            "expect": "Ministry of Steel, Mines & Fuel",
+            "scope": "heading",
+            "content": [
+              {
+                "type": "text",
+                "text": "Ministry of Steel & Heavy Industries."
+              }
+            ],
+            "flags": [
+              "read_hindi_missing"
+            ],
+            "words": [
+              "r1.w335",
+              "r1.w346"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  460,
+                  527,
+                  1832,
+                  567
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 9,
+            "source_ref": "(B)(f)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r28.rel9",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "department",
+                  "heading": "Department of Mines & Fuel"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w359",
+                "r1.w372"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    522,
+                    655,
+                    1835,
+                    721
+                  ]
+                }
+              ]
+            },
+            "expect": "Department of Mines & Fuel",
+            "content": [
+              {
+                "type": "ministry",
+                "heading": "DEPARTMENT OF HEAVY INDUSTRIES"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Manufacture of heavy engineering equipment for all industries including coal mining equipment. THE GAZETTE OF INDIA EXTRAORDINARY"
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "Heavy Machinery Project."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "Foundry Forge Project."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "Coal Mining Equipment Project."
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "Heavy Electrical Equipment Project."
+              },
+              {
+                "type": "entry",
+                "num": "8",
+                "text": "Machinery Industries Including Machine Tools and Steel manufacture."
+              },
+              {
+                "type": "entry",
+                "num": "7",
+                "text": "Auto industries, including tractors, earth moving equipment and diesal engines."
+              },
+              {
+                "type": "entry",
+                "num": "8",
+                "text": "Heavy Electrical Engineering Industries."
+              },
+              {
+                "type": "entry",
+                "num": "9",
+                "text": "Cement."
+              },
+              {
+                "type": "entry",
+                "num": "10",
+                "text": "Fertilizers."
+              },
+              {
+                "type": "entry",
+                "num": "11",
+                "text": "Public sector projects falling under the above mentioned subjects."
+              },
+              {
+                "type": "entry",
+                "num": "12",
+                "text": "The Directorates of the Development Wing dealing with the above subjects."
+              }
+            ],
+            "flags": [
+              "read_hindi_missing",
+              "read_page_break"
+            ],
+            "words": [
+              "r1.w358",
+              "r1.w370"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  455,
+                  655,
+                  1835,
+                  690
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 10,
+            "source_ref": "(B)(g)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r28.rel10",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Works, Housing and Supply"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w397",
+                "r1.w411"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    527,
+                    845,
+                    1830,
+                    912
+                  ]
+                }
+              ]
+            },
+            "scope": "heading",
+            "content": [
+              {
+                "type": "department",
+                "num": "A",
+                "heading": "Department of Works, Housing & Supply."
+              }
+            ],
+            "flags": [
+              "read_hindi_missing"
+            ],
+            "words": [
+              "r1.w396",
+              "r1.w406"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  453,
+                  845,
+                  1830,
+                  885
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 11,
+            "source_ref": "(B)(h)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r28.rel11",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "department",
+                  "heading": "Department of Works, Housing & Supply"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w428",
+                "r1.w449"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    527,
+                    1003,
+                    1830,
+                    1104
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "department",
+                "num": "B",
+                "heading": "Department of Rehabilitation\"; and entries as under the existing heading \"Ministry of Rehabilitation."
+              }
+            ],
+            "ref_seq": 10,
+            "flags": [
+              "read_hindi_missing"
+            ],
+            "words": [
+              "r1.w427",
+              "r1.w441"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  451,
+                  1003,
+                  1828,
+                  1076
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

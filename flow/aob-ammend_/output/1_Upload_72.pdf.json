@@ -1,0 +1,163 @@
+{
+  "file": {
+    "name": "1_Upload_72.pdf",
+    "file_id": "f_a7123f0d8142118a",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_72.pdf",
+    "sha256": "a7123f0d8142118a93bdd49c40f00ef1c6d985c1d1ff2b168df2d5cb106819a8",
+    "govdoc": "1_Upload_72.pdf.govdoc.json.zst",
+    "revision": 46
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_1564_1965",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_103_1965",
+      "fields": {
+        "number": {
+          "value": "S.O. 1564"
+        },
+        "in_force": {
+          "value": null
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": null,
+          "basis": null
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T13:49:37.846912+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "(1)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r10.rel1",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Education"
+                },
+                {
+                  "type": "entry",
+                  "num": "68"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w179",
+                "r1.w181"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    1133,
+                    1963,
+                    1382,
+                    2000
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "66A",
+                "text": "International Congress of Orientalists."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w172",
+              "r1.w178"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  258,
+                  1963,
+                  1112,
+                  2000
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "(2)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r10.rel2",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Petroleum & Chernlbals"
+                },
+                {
+                  "type": "department",
+                  "heading": "Department of Chemicals"
+                },
+                {
+                  "type": "entry",
+                  "num": "17"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w212",
+                "r1.w213"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    1028,
+                    2123,
+                    1178,
+                    2156
+                  ]
+                }
+              ]
+            },
+            "flags": [],
+            "words": [
+              "r1.w196",
+              "r1.w204"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  261,
+                  2089,
+                  1364,
+                  2122
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

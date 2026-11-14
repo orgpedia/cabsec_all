@@ -1,0 +1,312 @@
+{
+  "file": {
+    "name": "1_Upload_208.pdf",
+    "file_id": "f_6aab5cd6c5ab8f35",
+    "pages": 4,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_208.pdf",
+    "sha256": "6aab5cd6c5ab8f35f168e7eff6ade01026efb6e7d679ea831e60f0323a026157",
+    "govdoc": "1_Upload_208.pdf.govdoc.json.zst",
+    "revision": 46
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_569E_1985",
+      "doc_type": "aob_amendment",
+      "parent": "GAZETTE_ISSUE_6aab5cd6c5ab8f35",
+      "fields": {
+        "number": {
+          "value": null
+        },
+        "in_force": {
+          "value": "1985-07-31"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "1985-07-31",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T13:49:14.197446+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(i)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r10.rel1",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF AGRICULTURE AND RURAL DEVELOPMENT"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF AGRICULTURE AND COOPERATION"
+                },
+                {
+                  "type": "group_heading",
+                  "heading": "IV General and Consequential"
+                },
+                {
+                  "type": "entry",
+                  "num": "42"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w132",
+                "r1.w134"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    1918,
+                    1521,
+                    2363,
+                    1572
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "42A",
+                "text": "National Land Use and Conservation Board."
+              }
+            ],
+            "flags": [
+              "read_quote_mismatch"
+            ],
+            "words": [
+              "r1.w99",
+              "r1.w107"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  673,
+                  1311,
+                  2366,
+                  1379
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(ii)",
+            "op": "substitute_text",
+            "akn_type": "substitution",
+            "relation": "r10.rel2",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF COMMUNICATIONS"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF POSTS"
+                },
+                {
+                  "type": "entry",
+                  "num": "3"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w167",
+                "r1.w169"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    1035,
+                    1877,
+                    1359,
+                    1928
+                  ]
+                }
+              ]
+            },
+            "old": "and Post Office Life Insurance Fund (Administration)",
+            "new": "Post Office Life Insurance Fund (Administration) and Broadcast Receiver Licences",
+            "flags": [],
+            "words": [
+              "r1.w151",
+              "r1.w158"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  649,
+                  1764,
+                  2431,
+                  1832
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 3,
+            "source_ref": "2(iii)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r10.rel3",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF ENVIRONMENT AND FORESTS"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF FORESTS AND WILD LIFE"
+                },
+                {
+                  "type": "entry",
+                  "num": "6"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w228",
+                "r1.w230"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    1556,
+                    2323,
+                    1972,
+                    2374
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "7",
+                "text": "National Land use and Wastelands Development Concil."
+              },
+              {
+                "type": "entry",
+                "num": "8",
+                "text": "National Wastelands Development Board."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w199",
+              "r1.w207"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  626,
+                  2166,
+                  2441,
+                  2235
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 4,
+            "source_ref": "2(iv)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r10.rel4",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "DEPARTMENT OF SPACE"
+                },
+                {
+                  "type": "entry",
+                  "num": "9"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w261",
+                "r1.w263"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    1121,
+                    2756,
+                    1517,
+                    2809
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "10",
+                "text": "All maters relating to the National Natural .. 2 : 2: it a Resources Management System including the generation of integrated data mainly based on remote sensing and assistance in the analysis and dissemination of such information."
+              }
+            ],
+            "flags": [
+              "read_page_break"
+            ],
+            "words": [
+              "r1.w252",
+              "r1.w259"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  660,
+                  2695,
+                  2298,
+                  2761
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

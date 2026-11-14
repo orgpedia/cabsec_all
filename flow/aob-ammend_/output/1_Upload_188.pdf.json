@@ -1,0 +1,108 @@
+{
+  "file": {
+    "name": "1_Upload_188.pdf",
+    "file_id": "f_b3f72f2d1580f017",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_188.pdf",
+    "sha256": "b3f72f2d1580f0177f3850311cc887a9e9bd5b1f873e4f73662de0a30d8844bc",
+    "govdoc": "1_Upload_188.pdf.govdoc.json.zst",
+    "revision": 46
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_653E_1981",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_380_1981",
+      "fields": {
+        "number": {
+          "value": "S.O. 653 (E)"
+        },
+        "in_force": {
+          "value": "1981-08-14"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "1981-08-14",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T13:49:50.185118+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r10.rel1",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF HOME AFFAIRS"
+                },
+                {
+                  "type": "group_heading",
+                  "heading": "Part II - Concurrent Subjects"
+                },
+                {
+                  "type": "entry",
+                  "num": "105"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w379",
+                "r1.w382"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    443,
+                    1456,
+                    1732,
+                    1523
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "105A",
+                "text": "The Essential Services Maintenance Ordinance, 1981."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w347",
+              "r1.w358"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  499,
+                  1387,
+                  1617,
+                  1420
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

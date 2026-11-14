@@ -2,7 +2,7 @@
 # GovDoc Studio and brought into the GovDoc file by the pipeline before it runs (Pipeline §P9).
 file: 1_Upload_887.pdf
 file_id: f_c3cbf15ea05a2a8f
-next: 3
+next: 4
 runs:
 - id: h1
   by: mukundesh
@@ -20,3 +20,11 @@ runs:
   note: a typo in print, corrected in later versions
   edits:
   - {op: text, target: r1.w18586, before: {text: DEVELOMENT}, after: {text: DEVELOPMENT}}
+- id: h3
+  by: mukundesh
+  at: '2026-11-04T11:04:54Z'
+  reviews:
+  - {status: verified, issue: {code: 'aob:new_extra', word: r1.w9973, page: 45}}
+  - {status: verified, issue: {code: 'aob:new_extra', word: r1.w16712, page: 75}}
+  - {status: verified, issue: {code: 'aob:new_extra', word: r1.w20577, page: 92}}
+  - {status: verified, issue: {code: 'aob:new_extra', word: r1.w24280, page: 108}}

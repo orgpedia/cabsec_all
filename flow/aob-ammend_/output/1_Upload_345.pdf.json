@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_345.pdf",
     "sha256": "1f62a476f3ccf41dcf6d2b4d3f8c707578c8580377613e774d732be8b510b33d",
     "govdoc": "1_Upload_345.pdf.govdoc.json.zst",
-    "revision": 44
+    "revision": 181
   },
   "documents": [
     {
@@ -29,9 +29,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "2",
+          "version": "3",
           "model": "gemini-4-argon",
-          "at": "2026-11-03T16:59:02.818942+00:00"
+          "at": "2026-11-12T12:55:19.749658+00:00"
         },
         "ops": [
           {
@@ -39,6 +39,7 @@
             "source_ref": "2(1)",
             "op": "replace",
             "akn_type": "replacement",
+            "relation": "r144.rel1",
             "target": {
               "cited": [
                 {
@@ -77,12 +78,11 @@
               {
                 "type": "department",
                 "num": "iii",
-                "heading": "Department of Electronics and Information Technology (Electroniki aur Soochana Praudyogiki Vibhag)."
+                "heading": "Department of Electronics and Information Technology",
+                "heading_hi": "Electroniki aur Soochana Praudyogiki Vibhag"
               }
             ],
-            "flags": [
-              "read_quote_mismatch"
-            ],
+            "flags": [],
             "words": [
               "r1.w583",
               "r1.w593"
@@ -104,6 +104,7 @@
             "source_ref": "2(2)(A)",
             "op": "replace",
             "akn_type": "replacement",
+            "relation": "r144.rel2",
             "target": {
               "cited": [
                 {
@@ -142,7 +143,8 @@
               {
                 "type": "department",
                 "num": "C",
-                "heading": "DEPARTMENT OF ELECTRONICS AND INFORMATION TECHNOLOGY (ELECTRONIKI AUR SOOCHANA PRAUDYOGIKI VIBHAG)."
+                "heading": "DEPARTMENT OF ELECTRONICS AND INFORMATION TECHNOLOGY",
+                "heading_hi": "ELECTRONIKI AUR SOOCHANA PRAUDYOGIKI VIBHAG"
               }
             ],
             "flags": [],
@@ -167,6 +169,7 @@
             "source_ref": "2(2)(B)",
             "op": "replace",
             "akn_type": "replacement",
+            "relation": "r144.rel3",
             "target": {
               "cited": [
                 {
@@ -228,6 +231,7 @@
             "source_ref": "2(2)(C)(i)",
             "op": "replace",
             "akn_type": "replacement",
+            "relation": "r144.rel4",
             "target": {
               "cited": [
                 {
@@ -293,6 +297,7 @@
             "source_ref": "2(2)(C)(ii)",
             "op": "insert",
             "akn_type": "insertion",
+            "relation": "r144.rel5",
             "position": "after",
             "anchor": {
               "cited": [
@@ -364,6 +369,7 @@
             "source_ref": "2(2)(D)",
             "op": "replace",
             "akn_type": "replacement",
+            "relation": "r144.rel6",
             "target": {
               "cited": [
                 {

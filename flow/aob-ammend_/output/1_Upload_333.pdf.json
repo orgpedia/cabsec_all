@@ -1,0 +1,407 @@
+{
+  "file": {
+    "name": "1_Upload_333.pdf",
+    "file_id": "f_beaa25465b14b023",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_333.pdf",
+    "sha256": "beaa25465b14b023f2b9fbea2d167224dd7baabc7a65567fcd4925c5f4fa47e7",
+    "govdoc": "1_Upload_333.pdf.govdoc.json.zst",
+    "revision": 149
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_1778E_2006",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_1244_2006",
+      "fields": {
+        "number": {
+          "value": "S.O. 1778(E)"
+        },
+        "in_force": {
+          "value": "2006-10-14"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "2006-10-14",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T12:56:57.557303+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(1)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r112.rel1",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Non-Conventional Energy Sources"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w557",
+                "r1.w570"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    440,
+                    1186,
+                    1174,
+                    1374
+                  ]
+                }
+              ]
+            },
+            "expect": "22. Ministry of Non-Conventional Energy Sources (Aparamparik Oorja Srota Mantralaya)",
+            "scope": "heading",
+            "content": [
+              {
+                "type": "ministry",
+                "num": "22",
+                "heading": "Ministry of New and Renewable Energy",
+                "heading_hi": "Naveen aur Navikarniya Oorja Mantralaya"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w551",
+              "r1.w559"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  343,
+                  1184,
+                  1173,
+                  1225
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(2)(A)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r112.rel2",
+            "target": [
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "MINISTRY OF AGRICULTURE"
+                  },
+                  {
+                    "type": "department",
+                    "heading": "DEPARTMENT OF AGRICULTURE AND COOPERATION"
+                  },
+                  {
+                    "type": "entry",
+                    "num": "8"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r1.w619",
+                  "r1.w621"
+                ],
+                "boxes": [
+                  {
+                    "page": 2,
+                    "bbox": [
+                      677,
+                      1937,
+                      957,
+                      1973
+                    ]
+                  }
+                ]
+              },
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "MINISTRY OF AGRICULTURE"
+                  },
+                  {
+                    "type": "department",
+                    "heading": "DEPARTMENT OF AGRICULTURE AND COOPERATION"
+                  },
+                  {
+                    "type": "entry",
+                    "num": "27"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r1.w623",
+                  "r1.w623"
+                ],
+                "boxes": [
+                  {
+                    "page": 2,
+                    "bbox": [
+                      1045,
+                      1937,
+                      1095,
+                      1973
+                    ]
+                  }
+                ]
+              }
+            ],
+            "content": [
+              {
+                "type": "entry",
+                "num": "8",
+                "text": "Co-ordination of relief measures necessitated by drought, hailstorm and pest-attacks."
+              },
+              {
+                "type": "entry",
+                "num": "27",
+                "text": "Incorporation, regulation and winding up of Co-operative societies with objects not confined to one State including administration of 'the Multi-State Cooperative Societies Act, 2002 (39 of 2002)':"
+              },
+              {
+                "type": "proviso",
+                "text": "Provided that the administrative Ministry or Department shall be 'the : Printed by the Manager, Govt. of India Press, Ring Central Government' for the purpose of exercising powers under the Multi-State Co-operative Societies Act, 2002 (39 of 2002), for co-operative units functioning under its control"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w594",
+              "r1.w600"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  440,
+                  1637,
+                  1171,
+                  1718
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 3,
+            "source_ref": "2(2)(B)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r112.rel3",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF HEAVY INDUSTRIES AND PUBLIC ENTERPRISES"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF HEAVY INDUSTRY"
+                },
+                {
+                  "type": "entry",
+                  "num": "43"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w740",
+                "r1.w742"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1940,
+                    889,
+                    2142,
+                    924
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "44",
+                "text": "National Automative Testing and Research and Development Infrastructure Project (NATRIP) and NATRIP Implementation Society (NATIS)"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w682",
+              "r1.w718"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  1367,
+                  636,
+                  2195,
+                  677
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 4,
+            "source_ref": "2(2)(C)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r112.rel4",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF HOME AFFAIRS"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF INTERNAL SECURITY"
+                },
+                {
+                  "type": "entry",
+                  "num": "52"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w787",
+                "r1.w791"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1464,
+                    1421,
+                    2432,
+                    1511
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "52",
+                "text": "Coordination of relief measures in the event of natural calamities (other than drought hailstorm, pest attacks or epidemics) and manmade disasters, excluding specific items of business allocated to other Ministries or Departments"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w683",
+              "r1.w772"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  1366,
+                  1220,
+                  2192,
+                  1261
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 5,
+            "source_ref": "2(2)(D)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r112.rel5",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF NON-CONVENTIONAL ENERGY SOURCES"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w833",
+                "r1.w845"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1464,
+                    1903,
+                    2196,
+                    2090
+                  ]
+                }
+              ]
+            },
+            "expect": "MINISTRY OF NON- CONVENTIONAL ENERGY SOURCES (APARAMPARIK OORJA SROTA MANTRALAYA)",
+            "scope": "heading",
+            "content": [
+              {
+                "type": "ministry",
+                "heading": "MINISTRY OF NEW AND RENEWABLE ENERGY (NAVEEN AUR NAVIKARNIYA ! OORJA MANTRALAYA)"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w684",
+              "r1.w838"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  1366,
+                  1903,
+                  2195,
+                  1942
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

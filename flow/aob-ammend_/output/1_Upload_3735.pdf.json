@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_3735.pdf",
     "sha256": "69a1c60f121464145ca01928182ab193a3962e7d5c2cf5dbb7d8ad222e0027a9",
     "govdoc": "1_Upload_3735.pdf.govdoc.json.zst",
-    "revision": 65
+    "revision": 214
   },
   "documents": [
     {
@@ -29,9 +29,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "2",
+          "version": "3",
           "model": "gemini-4-argon",
-          "at": "2026-11-03T16:59:03.330272+00:00"
+          "at": "2026-11-12T12:55:59.536573+00:00"
         },
         "ops": [
           {
@@ -39,6 +39,7 @@
             "source_ref": "2(a)",
             "op": "replace",
             "akn_type": "replacement",
+            "relation": "r178.rel1",
             "target": {
               "cited": [
                 {
@@ -56,14 +57,14 @@
               ],
               "eId": null,
               "words": [
-                "r17.w314",
-                "r17.w326"
+                "r72.w315",
+                "r72.w326"
               ],
               "boxes": [
                 {
                   "page": 2,
                   "bbox": [
-                    401,
+                    469,
                     1009,
                     2159,
                     1048
@@ -81,8 +82,8 @@
             ],
             "flags": [],
             "words": [
-              "r17.w313",
-              "r17.w319"
+              "r72.w313",
+              "r72.w319"
             ],
             "boxes": [
               {
@@ -101,6 +102,7 @@
             "source_ref": "2(b)",
             "op": "insert",
             "akn_type": "insertion",
+            "relation": "r178.rel2",
             "position": "after",
             "anchor": {
               "cited": [
@@ -119,15 +121,15 @@
               ],
               "eId": null,
               "words": [
-                "r17.w347",
-                "r17.w349"
+                "r72.w348",
+                "r72.w349"
               ],
               "boxes": [
                 {
                   "page": 2,
                   "bbox": [
-                    401,
-                    1203,
+                    488,
+                    1204,
                     661,
                     1242
                   ]
@@ -143,8 +145,8 @@
             ],
             "flags": [],
             "words": [
-              "r17.w346",
-              "r17.w352"
+              "r72.w346",
+              "r72.w352"
             ],
             "boxes": [
               {

@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_357.pdf",
     "sha256": "90a8d8a274020b5616ddfb78db43bd848d0256da2ef9d6f8877cec2a26f04972",
     "govdoc": "1_Upload_357.pdf.govdoc.json.zst",
-    "revision": 48
+    "revision": 183
   },
   "documents": [
     {
@@ -29,9 +29,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "2",
+          "version": "3",
           "model": "gemini-4-argon",
-          "at": "2026-11-03T17:53:34.837304+00:00"
+          "at": "2026-11-12T12:56:36.456465+00:00"
         },
         "ops": [
           {
@@ -39,6 +39,7 @@
             "source_ref": "2(1)",
             "op": "replace",
             "akn_type": "replacement",
+            "relation": "r145.rel1",
             "target": {
               "cited": [
                 {
@@ -81,7 +82,7 @@
             ],
             "words": [
               "r1.w766",
-              "r1.w773"
+              "r1.w778"
             ],
             "boxes": [
               {
@@ -89,7 +90,7 @@
                 "bbox": [
                   382,
                   987,
-                  1382,
+                  2247,
                   1029
                 ]
               }
@@ -100,6 +101,7 @@
             "source_ref": "2(2)(I)",
             "op": "insert",
             "akn_type": "insertion",
+            "relation": "r145.rel2",
             "position": "after",
             "anchor": {
               "cited": [
@@ -147,7 +149,7 @@
             "flags": [],
             "words": [
               "r1.w799",
-              "r1.w805"
+              "r1.w808"
             ],
             "boxes": [
               {
@@ -155,7 +157,7 @@
                 "bbox": [
                   382,
                   1273,
-                  1549,
+                  2250,
                   1315
                 ]
               }
@@ -166,6 +168,7 @@
             "source_ref": "2(2)(II)",
             "op": "replace",
             "akn_type": "replacement",
+            "relation": "r145.rel3",
             "target": {
               "cited": [
                 {
@@ -177,7 +180,8 @@
                   "heading": "MINISTRY OF PLANNING"
                 },
                 {
-                  "type": "paragraph"
+                  "type": "entry",
+                  "num": "1"
                 }
               ],
               "eId": null,
@@ -206,7 +210,7 @@
             "flags": [],
             "words": [
               "r1.w837",
-              "r1.w843"
+              "r1.w847"
             ],
             "boxes": [
               {
@@ -214,7 +218,7 @@
                 "bbox": [
                   393,
                   1534,
-                  1480,
+                  2249,
                   1575
                 ]
               }
@@ -225,6 +229,7 @@
             "source_ref": "2(2)(III)",
             "op": "replace",
             "akn_type": "replacement",
+            "relation": "r145.rel4",
             "target": {
               "cited": [
                 {
@@ -351,7 +356,7 @@
             ],
             "words": [
               "r1.w871",
-              "r1.w877"
+              "r1.w884"
             ],
             "boxes": [
               {
@@ -359,7 +364,7 @@
                 "bbox": [
                   382,
                   1795,
-                  1614,
+                  2247,
                   1836
                 ]
               }

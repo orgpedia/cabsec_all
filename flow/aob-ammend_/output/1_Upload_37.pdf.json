@@ -1,0 +1,203 @@
+{
+  "file": {
+    "name": "1_Upload_37.pdf",
+    "file_id": "f_c74b00151a5b2a48",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_37.pdf",
+    "sha256": "c74b00151a5b2a48bbcd6fa3343d35b4091ff5beb86335af5eba39ac50b624a8",
+    "govdoc": "1_Upload_37.pdf.govdoc.json.zst",
+    "revision": 46
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_386_1962",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_54_1962",
+      "fields": {
+        "number": {
+          "value": "S.O. 386"
+        },
+        "in_force": {
+          "value": null
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": null,
+          "basis": null
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T13:49:51.674118+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "(1)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r10.rel1",
+            "target": [
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "Ministry of Health"
+                  },
+                  {
+                    "type": "entry",
+                    "num": "66"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r1.w111",
+                  "r1.w112"
+                ],
+                "boxes": [
+                  {
+                    "page": 1,
+                    "bbox": [
+                      1067,
+                      1517,
+                      1238,
+                      1551
+                    ]
+                  }
+                ]
+              },
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "Ministry of Health"
+                  },
+                  {
+                    "type": "entry",
+                    "num": "67"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r1.w114",
+                  "r1.w114"
+                ],
+                "boxes": [
+                  {
+                    "page": 1,
+                    "bbox": [
+                      1335,
+                      1517,
+                      1369,
+                      1551
+                    ]
+                  }
+                ]
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w104",
+              "r1.w110"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  260,
+                  1517,
+                  1051,
+                  1551
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "(2)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r10.rel2",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Department of Atomic Energy"
+                },
+                {
+                  "type": "entry",
+                  "num": "9"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w127",
+                "r1.w129"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    1352,
+                    1609,
+                    1608,
+                    1645
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "10",
+                "text": "All matters relating to:"
+              },
+              {
+                "type": "item",
+                "num": "i",
+                "text": "Tata Memorial Hospital, Bombay."
+              },
+              {
+                "type": "item",
+                "num": "ii",
+                "text": "Indian Cancer Research Centre, Bombay."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w119",
+              "r1.w126"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  260,
+                  1609,
+                  1324,
+                  1645
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

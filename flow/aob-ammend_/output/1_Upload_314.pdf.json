@@ -1,0 +1,168 @@
+{
+  "file": {
+    "name": "1_Upload_314.pdf",
+    "file_id": "f_6d1be8ec03899c9b",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_314.pdf",
+    "sha256": "6d1be8ec03899c9b84544da3d3268442d53ba498c335f8111aa15f9a9d8c605b",
+    "govdoc": "1_Upload_314.pdf.govdoc.json.zst",
+    "revision": 113
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_1295E_2003",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_1016_2003",
+      "fields": {
+        "number": {
+          "value": "S.O. 1295(E)"
+        },
+        "in_force": {
+          "value": "2003-11-11"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "2003-11-11",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "human-records",
+          "version": "0.1.0",
+          "model": null,
+          "at": "2026-11-12T06:27:48+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(1)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "h1.r1",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Health and Family Welfare"
+                },
+                {
+                  "type": "department",
+                  "heading": "Department of Indian Systems of Medicine and Homoeopathy"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w377",
+                "r1.w394"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    381,
+                    1019,
+                    2126,
+                    1152
+                  ]
+                }
+              ]
+            },
+            "expect": "(iii) Department of Indian Systems of Medicine and Homoeopathy (Bhartiya Chikitsa Paddhati aur Homoeopathy Vibhag)",
+            "scope": "heading",
+            "content": [
+              {
+                "type": "department",
+                "num": "iii",
+                "heading": "Department of Ayurveda, Yoga & Naturopathy, Unani, Siddha and Homoeopathy (AYUSH) [Ayurveda Yoga aur Prakratik Chikitsa, Unani, Siddha aur Homoeopathy (AYUSH) Vibhag]"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w357",
+              "r1.w364"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  310,
+                  956,
+                  1086,
+                  1010
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(2)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r75.rel2",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF HEALTH AND FAMILY WELFARE"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF INDIAN SYSTEMS OF MEDICINE AND HOMOEOPATHY"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w444",
+                "r1.w461"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    376,
+                    1360,
+                    2119,
+                    1487
+                  ]
+                }
+              ]
+            },
+            "expect": "C. DEPARTMENT OF INDIAN SYSTEMS OF MEDICINE AND HOMOEOPATHY (BHARTIYA CHIKITSA PADDHATI AUR HOMOEOPATHY VIBHAG)",
+            "scope": "heading",
+            "content": [
+              {
+                "type": "text",
+                "text": "Department of Ayurveda, Yoga & Naturopathy, Unani, Siddha and Homoeopathy (AYUSH) [Ayurveda Yoga aur Prakratik Chikitsa, Unani, Siddha aur Homoeopathy (AYUSH)Vibhag]"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w425",
+              "r1.w432"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  305,
+                  1293,
+                  1145,
+                  1343
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

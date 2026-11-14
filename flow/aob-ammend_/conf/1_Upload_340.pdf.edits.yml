@@ -1,0 +1,22 @@
+# A person's changes to 1_Upload_340.pdf (GovDoc §8.3), one record per action, in order. Written by
+# GovDoc Studio and brought into the GovDoc file by the pipeline before it runs (Pipeline §P9).
+file: 1_Upload_340.pdf
+file_id: f_7e7cea08f5ba12b7
+next: 2
+runs:
+- id: h1
+  by: mukundesh
+  at: '2026-11-10T13:47:23Z'
+  reviews:
+  - status: rejected
+    issue: {code: 'aob:read_quote_mismatch', n: 1}
+    note: the page's reading order puts changes 1-3 before the notification's heading, so they fall in the gazette
+      issue's document; the changes are read right and apply
+  - status: rejected
+    issue: {code: 'aob:read_quote_mismatch', n: 2}
+    note: the page's reading order puts changes 1-3 before the notification's heading, so they fall in the gazette
+      issue's document; the changes are read right and apply
+  - status: rejected
+    issue: {code: 'aob:read_quote_mismatch', n: 3}
+    note: the page's reading order puts changes 1-3 before the notification's heading, so they fall in the gazette
+      issue's document; the changes are read right and apply

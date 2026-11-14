@@ -32,13 +32,14 @@ flow:
     config: {engine: textlayer_super}
 
   # Lines, and a block per page: the export reads the lines in order. A page set in columns (the re-issue of 1985)
-  # is read column by column, no line running across a gutter.
+  # is read column by column, no line running across a gutter: cut where fewest words cross it (its right
+  # column's items are indented), the blocks read by those cuts (some of its pages are scanned tilted).
   - name: lines
     task: word_lines
-    config: {columns: true}
+    config: {columns: true, cut: fewest}
   - name: layout
     task: page_blocks
-    config: {columns: true}
+    config: {columns: true, cut: words}
 
   # A version is one document: the Rules as amended up to a date.
   - name: split

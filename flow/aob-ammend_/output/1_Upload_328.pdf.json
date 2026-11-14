@@ -1,0 +1,2167 @@
+{
+  "file": {
+    "name": "1_Upload_328.pdf",
+    "file_id": "f_3a2d5edd717a41d7",
+    "pages": 27,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_328.pdf",
+    "sha256": "3a2d5edd717a41d7a50770a11cd10a8f552f8a02690280936e4e9329119dda83",
+    "govdoc": "1_Upload_328.pdf.govdoc.json.zst",
+    "revision": 147
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_219E_2006",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_147_2006",
+      "fields": {
+        "number": {
+          "value": "S.O.219(E)"
+        },
+        "in_force": {
+          "value": "2006-02-16"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "2006-02-16",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T12:55:39.002802+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(1)(i)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r111.rel1",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Culture"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r5.w3019",
+                "r5.w3026"
+              ],
+              "boxes": [
+                {
+                  "page": 14,
+                  "bbox": [
+                    865,
+                    1470,
+                    2092,
+                    1575
+                  ]
+                }
+              ]
+            },
+            "expect": "8A. Ministry of Culture (Sanskriti Mantralaya)",
+            "flags": [],
+            "words": [
+              "r5.w3018",
+              "r5.w3024"
+            ],
+            "boxes": [
+              {
+                "page": 14,
+                "bbox": [
+                  720,
+                  1470,
+                  1840,
+                  1513
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(1)(ii)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r111.rel2",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Human Resource Development"
+                },
+                {
+                  "type": "department",
+                  "heading": "Department of Women and Child Development"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r5.w3044",
+                "r5.w3057"
+              ],
+              "boxes": [
+                {
+                  "page": 14,
+                  "bbox": [
+                    864,
+                    1778,
+                    2090,
+                    1883
+                  ]
+                }
+              ]
+            },
+            "expect": "(iii) Department of Women and Child Development (Mahila aur Bal Vikas Vibhag)",
+            "flags": [],
+            "words": [
+              "r5.w3030",
+              "r5.w3036"
+            ],
+            "boxes": [
+              {
+                "page": 14,
+                "bbox": [
+                  721,
+                  1654,
+                  1684,
+                  1700
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 3,
+            "source_ref": "2(1)(iii)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r111.rel3",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Mines"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r5.w3063",
+                "r5.w3070"
+              ],
+              "boxes": [
+                {
+                  "page": 14,
+                  "bbox": [
+                    868,
+                    2026,
+                    2091,
+                    2132
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "ministry",
+                "num": "21B",
+                "heading": "Ministry of Minority Affairs",
+                "heading_hi": "Alpasankhyak Karya Mantralaya"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r5.w3061",
+              "r5.w3067"
+            ],
+            "boxes": [
+              {
+                "page": 14,
+                "bbox": [
+                  719,
+                  2026,
+                  1763,
+                  2071
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 4,
+            "source_ref": "2(1)(iv)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r111.rel4",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Overseas Indian Affairs"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r5.w3089",
+                "r5.w3101"
+              ],
+              "boxes": [
+                {
+                  "page": 14,
+                  "bbox": [
+                    876,
+                    2416,
+                    2104,
+                    2530
+                  ]
+                }
+              ]
+            },
+            "expect": "22A. Ministry of Overseas Indian Affairs (Pravasi Bhartiya Karya Mantralaya)",
+            "scope": "heading",
+            "content": [
+              {
+                "type": "ministry",
+                "num": "22A",
+                "heading": "Ministry of Ocean Development",
+                "heading_hi": "Mahasagar Vikas Mantralaya"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r5.w3078",
+              "r5.w3093"
+            ],
+            "boxes": [
+              {
+                "page": 14,
+                "bbox": [
+                  729,
+                  2414,
+                  1804,
+                  2467
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 5,
+            "source_ref": "2(1)(v)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r111.rel5",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Ocean Development"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r5.w3116",
+                "r5.w3128"
+              ],
+              "boxes": [
+                {
+                  "page": 14,
+                  "bbox": [
+                    875,
+                    2724,
+                    2102,
+                    2890
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "ministry",
+                "num": "22AA",
+                "heading": "Ministry of Overseas Indian Affairs",
+                "heading_hi": "Pravasi Bhartiya Karya Mantralaya"
+              }
+            ],
+            "ref_seq": 4,
+            "flags": [],
+            "words": [
+              "r5.w3079",
+              "r5.w3120"
+            ],
+            "boxes": [
+              {
+                "page": 14,
+                "bbox": [
+                  730,
+                  2722,
+                  1903,
+                  2771
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 6,
+            "source_ref": "2(1)(vi)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r111.rel6",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Tourism"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r5.w3163",
+                "r5.w3170"
+              ],
+              "boxes": [
+                {
+                  "page": 15,
+                  "bbox": [
+                    813,
+                    371,
+                    2040,
+                    478
+                  ]
+                }
+              ]
+            },
+            "expect": "38. Ministry of Tourism (Paryatan Mantralaya)",
+            "content": [
+              {
+                "type": "ministry",
+                "num": "38",
+                "heading": "Ministry of Tourism and Culture",
+                "heading_hi": "Paryatan aur Sanskriti Mantralaya"
+              },
+              {
+                "type": "department",
+                "num": "i",
+                "heading": "Department of Tourism",
+                "heading_hi": "Paryatan Vibhag"
+              },
+              {
+                "type": "department",
+                "num": "ii",
+                "heading": "Department of Culture",
+                "heading_hi": "Sanskriti Vibhag"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r5.w3154",
+              "r5.w3167"
+            ],
+            "boxes": [
+              {
+                "page": 15,
+                "bbox": [
+                  669,
+                  371,
+                  1596,
+                  419
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 7,
+            "source_ref": "2(1)(vii)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r111.rel7",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Water Resources"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r5.w3203",
+                "r5.w3212"
+              ],
+              "boxes": [
+                {
+                  "page": 15,
+                  "bbox": [
+                    813,
+                    1045,
+                    2039,
+                    1152
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "ministry",
+                "num": "41A",
+                "heading": "Ministry of Women and Child Development",
+                "heading_hi": "Mahila aur Bal Vikas Mantralaya"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r5.w3156",
+              "r5.w3207"
+            ],
+            "boxes": [
+              {
+                "page": 15,
+                "bbox": [
+                  666,
+                  1047,
+                  1624,
+                  1094
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 8,
+            "source_ref": "2(1)(viii)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r111.rel8",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Department of Ocean Development"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r5.w3233",
+                "r5.w3242"
+              ],
+              "boxes": [
+                {
+                  "page": 15,
+                  "bbox": [
+                    810,
+                    1478,
+                    2043,
+                    1584
+                  ]
+                }
+              ]
+            },
+            "expect": "44. Department of Ocean Development (Mahasagar Vikas Vibhag)",
+            "flags": [],
+            "words": [
+              "r5.w3232",
+              "r5.w3238"
+            ],
+            "boxes": [
+              {
+                "page": 15,
+                "bbox": [
+                  666,
+                  1478,
+                  1719,
+                  1521
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 9,
+            "source_ref": "2(2)(i)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r111.rel9",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF CULTURE"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r5.w3253",
+                "r5.w3263"
+              ],
+              "boxes": [
+                {
+                  "page": 15,
+                  "bbox": [
+                    812,
+                    1779,
+                    2038,
+                    1889
+                  ]
+                }
+              ]
+            },
+            "expect": "MINISTRY OF CULTURE (SANSKRITI MANTRALAYA)",
+            "flags": [],
+            "words": [
+              "r5.w3250",
+              "r5.w3258"
+            ],
+            "boxes": [
+              {
+                "page": 15,
+                "bbox": [
+                  681,
+                  1779,
+                  2038,
+                  1831
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 10,
+            "source_ref": "2(2)(ii)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r111.rel10",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF EXTERNAL AFFAIRS"
+                },
+                {
+                  "type": "entry",
+                  "num": "26"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r5.w3276",
+                "r5.w3278"
+              ],
+              "boxes": [
+                {
+                  "page": 15,
+                  "bbox": [
+                    1718,
+                    2022,
+                    2040,
+                    2066
+                  ]
+                }
+              ]
+            },
+            "flags": [],
+            "words": [
+              "r5.w3251",
+              "r5.w3272"
+            ],
+            "boxes": [
+              {
+                "page": 15,
+                "bbox": [
+                  663,
+                  1958,
+                  2038,
+                  2010
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 11,
+            "source_ref": "2(2)(iii)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r111.rel11",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF HUMAN RESOURCE DEVELOPMENT"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF WOMEN AND CHILD DEVELOPMENT"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r5.w3294",
+                "r5.w3311"
+              ],
+              "boxes": [
+                {
+                  "page": 15,
+                  "bbox": [
+                    812,
+                    2332,
+                    2039,
+                    2566
+                  ]
+                }
+              ]
+            },
+            "expect": "C. DEPARTMENT OF WOMEN AND CHILD DEVELOPMENT (MAHILA AUR BAL VIKAS VIBHAG)",
+            "flags": [],
+            "words": [
+              "r5.w3252",
+              "r5.w3287"
+            ],
+            "boxes": [
+              {
+                "page": 15,
+                "bbox": [
+                  664,
+                  2204,
+                  2035,
+                  2251
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 12,
+            "source_ref": "2(2)(iv)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r111.rel12",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Mines"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r5.w3317",
+                "r5.w3328"
+              ],
+              "boxes": [
+                {
+                  "page": 15,
+                  "bbox": [
+                    800,
+                    2602,
+                    2023,
+                    2721
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "ministry",
+                "heading": "MINISTRY OF MINORITY AFFAIRS",
+                "heading_hi": "ALPASANKHAYAK KARYA MANTRALAYA"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Overall policy, planning, coordination evaluation and review of the regulatory and developmental programmes of the minority communities. PARTH-SEC. 3(ii)"
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "All matters relating to uninority communities excess matters relating to law and order."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "Policy initiatives for protection of minorities and their security in consultation with other Central Government Ministries and State Governments."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "Matters relating to linguistic minorities and of the office of the Commissioner for Linguistic Minorities."
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "Matters relating to the National Commission for Minorities Act."
+              },
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "Work relating to the evacuee Wakf properties under the Administration of Evacuee Property Act, 1950 (31 of 1950) (since repealed)."
+              },
+              {
+                "type": "entry",
+                "num": "7",
+                "text": "Representation of the Anglo-Indian Community."
+              },
+              {
+                "type": "entry",
+                "num": "8",
+                "text": "Protection and preservation of non-Muslim shrines in Pakistan and Muslim shrines in India in terms of the Pant-Mirza Agreement of 1955 in consultation with the Ministry of External Affairs."
+              },
+              {
+                "type": "entry",
+                "num": "9",
+                "text": "Questions relating to the minority communities in neighbouring Countries, in consultation with the Ministry of External Affairs."
+              },
+              {
+                "type": "entry",
+                "num": "10",
+                "text": "Charities and Charitable Institutions, Charitable and religious Endowments pertaining to subjects dealt with in the Department."
+              },
+              {
+                "type": "entry",
+                "num": "11",
+                "text": "Socio-economic, cultural and educational matters pertaining to minorities, including issues related to minority educational institutions and organizations, including the Maulana Azad Education Foundation."
+              },
+              {
+                "type": "entry",
+                "num": "12",
+                "text": "The Wakf Act, 1995 (43 of 1995) and Central Waki Council."
+              },
+              {
+                "type": "entry",
+                "num": "13",
+                "text": "The Durgah Khawaja Saheb Act, 1955 (36 of"
+              },
+              {
+                "type": "entry",
+                "num": "14",
+                "text": "Funding of programmes and projects for the welfare of minorities, including the National Minorities Development and Finance Corporation."
+              },
+              {
+                "type": "entry",
+                "num": "15",
+                "text": "Employment opportunities for minorities in the Central and State public sector undertakings as also in the private sector."
+              },
+              {
+                "type": "entry",
+                "num": "16",
+                "text": "Formulation of measures relating to the protection of minorities and their security in consultation with other concerned Central Ministries and State Governments."
+              },
+              {
+                "type": "entry",
+                "num": "17",
+                "text": "National Commission for Socially and Economically Backward Sections among Religious and Linguistic Minorities."
+              },
+              {
+                "type": "entry",
+                "num": "18",
+                "text": "All matters relating to the Justice Sachar Committee."
+              },
+              {
+                "type": "entry",
+                "num": "19",
+                "text": "Prime Minister's new 15-Point Programme for Minorities."
+              },
+              {
+                "type": "entry",
+                "num": "20",
+                "text": "Any other issue pertaining to the minority communities."
+              }
+            ],
+            "flags": [
+              "read_page_break"
+            ],
+            "words": [
+              "r5.w3315",
+              "r5.w3321"
+            ],
+            "boxes": [
+              {
+                "page": 15,
+                "bbox": [
+                  666,
+                  2603,
+                  1834,
+                  2658
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 13,
+            "source_ref": "2(2)(v)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r111.rel13",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF OVERSEAS INDIAN AFFAIRS"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r5.w3688",
+                "r5.w3704"
+              ],
+              "boxes": [
+                {
+                  "page": 17,
+                  "bbox": [
+                    689,
+                    1938,
+                    1919,
+                    2111
+                  ]
+                }
+              ]
+            },
+            "expect": "MINISTRY OF OVERSEAS INDIAN AFFAIRS (PRAVASI BHARTIYA KARYA MANTRALYA)",
+            "content": [
+              {
+                "type": "ministry",
+                "heading": "MINISTRY OF OCEAN DEVELOPMENT",
+                "heading_hi": "MAHASAGAR VIKAS MANTRALAYA"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Matters relating to the Ocean and not specifically allocated to any other Department/Ministry."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "Policy, coordination, and schemes relating to the Oceans and Polar regions covering interalia:"
+              },
+              {
+                "type": "item",
+                "num": "a",
+                "text": "(i) research (including fundamental research) and the development of uses relatable thereto ( technology development"
+              },
+              {
+                "type": "entry",
+                "num": "42",
+                "text": "60106"
+              },
+              {
+                "type": "item",
+                "num": "iii",
+                "text": "surveys to map, locate and assess living and non-living marine resources"
+              },
+              {
+                "type": "item",
+                "num": "iv",
+                "text": "preservation conservation and protection of marine resources"
+              },
+              {
+                "type": "item",
+                "num": "v",
+                "text": "development of appropriate skills and manpower"
+              },
+              {
+                "type": "item",
+                "num": "vi",
+                "text": "international collaboration and cooperation"
+              },
+              {
+                "type": "item",
+                "num": "b",
+                "text": "laws and regulatory measures relating to the above."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "Marine environment on the high seas."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "Ocean Commission."
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "The Pan Indian Ocean Science Association."
+              },
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "Ocean Science and Technology Agency or Board."
+              },
+              {
+                "type": "entry",
+                "num": "7",
+                "text": "National Institute of Ocean Technology (NIOT)."
+              },
+              {
+                "type": "entry",
+                "num": "8",
+                "text": "National Centre for Antarctic and Ocean Research (NCAOR)."
+              },
+              {
+                "type": "entry",
+                "num": "9",
+                "text": "Indian National Centre for Ocean Information Services (INCOIS)."
+              }
+            ],
+            "flags": [
+              "read_page_break"
+            ],
+            "words": [
+              "r5.w3605",
+              "r5.w3692"
+            ],
+            "boxes": [
+              {
+                "page": 17,
+                "bbox": [
+                  542,
+                  1940,
+                  1636,
+                  1992
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 14,
+            "source_ref": "2(2)(vi)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r111.rel14",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF OCEAN DEVELOPMENT"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r5.w3870",
+                "r5.w3897"
+              ],
+              "boxes": [
+                {
+                  "page": 18,
+                  "bbox": [
+                    645,
+                    2242,
+                    2017,
+                    2531
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "ministry",
+                "heading": "MINISTRY OF OVERSEAS INDIAN AFFAIRS",
+                "heading_hi": "PRAVASI BHARTIYA KARYA MANTRALAYA"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "All matters relating to Overseas Indians comprising Persons of Indian Origin (PIO) and Non-Resident Indians (NRIs) excluding entries specifically allotted to other Departments."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "Promotion of investment by Overseas Indians in India including innovative investments and policy initiatives consistent with the overall Government policies particularly in areas such as exclusive Special Economic Zones (SEZs) for Overseas Indians."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "To be represented in the Foreign Investment Promotion Board and the Foreign Investment Implementation Authority."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "To interact with the Investment Commission and to be consulted by the said Commission and to be kept informed of all matters relating to Foreign Direct Investment (FDI) by Overseas Indians."
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "All emigration under the Emigration Act, 1983 (31 of 1983) from India to overseas countries and the return of emigrants."
+              },
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "Matters relating to Pravasi Bharatiya Divas Pravasi Bharatiya Samman Awards and Pravasi Bharatiya Kendra."
+              },
+              {
+                "type": "entry",
+                "num": "7",
+                "text": "Matters relating to programmes in India for overseas Indian Volunteers."
+              },
+              {
+                "type": "entry",
+                "num": "8",
+                "text": "Setting up and administration of Centres for Overseas Indians' Affairs in countries having major concentration of Overseas Indians in consultation and coordination with the Ministry of External Affairs."
+              },
+              {
+                "type": "entry",
+                "num": "9",
+                "text": "Policy regarding employment assistance to PIO/NRIs excluding reservations in Government service."
+              },
+              {
+                "type": "entry",
+                "num": "10",
+                "text": "Collection and dissemination of information concerning admission of NRI/PIO students to various educational, technical and cultural institutions in India wherever discretionary quota for NRI/PIO * students exists, in consultation with the Ministry of Human Resource Development and the Ministry of Culture."
+              },
+              {
+                "type": "entry",
+                "num": "11",
+                "text": "Scholarship to NRI/PIO students for study in India under different schemes in consultation with the Ministry of External Affairs. 2(1"
+              },
+              {
+                "type": "entry",
+                "num": "12",
+                "text": "Development of morkating and communication strated to ensure strong links between the Oversons Indian community and India."
+              },
+              {
+                "type": "entry",
+                "num": "13",
+                "text": "Matters relating to NRI/PIO contributions to the Government and parental organisations in consultation with the Department of Economic Affairs."
+              },
+              {
+                "type": "entry",
+                "num": "14",
+                "text": "Guidance to and Cooperation with the State Governments and coordination with them on matters related to Overseas Indians."
+              },
+              {
+                "type": "entry",
+                "num": "15",
+                "text": "To be represented in the Indian Council of Cultural Relations."
+              },
+              {
+                "type": "entry",
+                "num": "16",
+                "text": "Establishment of institutions to impart vocational and technical training to meet the requirements of skilled manpower abroad with the concurrence of the Ministry of Labour and Employment."
+              },
+              {
+                "type": "entry",
+                "num": "17",
+                "text": "External Publicity relating to Overseas Indians affairs in consultation with the Ministry of External Affairs and in consonance with foreign policy objectives."
+              },
+              {
+                "type": "entry",
+                "num": "18",
+                "text": "New initiatives for interaction by Overseas Indians with India in the fields such as Trade Culture, Tourism, Media, Youth Affairs, Health Education, Science and Technology in consultation with concerned Ministries."
+              },
+              {
+                "type": "entry",
+                "num": "19",
+                "text": "Exercise of powers conferred by the section 7B(1) of the Citizenship Act, 1955 (57 of 1955)."
+              },
+              {
+                "type": "note",
+                "text": "Note: The Ministry of Overseas Indian Affairs will be consulted by the concerned Ministries in all matters concerning Overseas indians handled by them such as PIO Card Scheme, dual citizens issues, FCRA matters of Non- Goal Organisations (NGOs) of dians. Similarly Reserve Bank of consult Ministry of Overseas abs while framing policies and overning deposits by Overseas Bodies"
+              }
+            ],
+            "ref_seq": 13,
+            "flags": [
+              "read_page_break"
+            ],
+            "words": [
+              "r5.w3870",
+              "r5.w3878"
+            ],
+            "boxes": [
+              {
+                "page": 18,
+                "bbox": [
+                  645,
+                  2242,
+                  2013,
+                  2284
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 15,
+            "source_ref": "2(2)(vii)(a)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r111.rel15",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF SOCIAL JUSTICE AND EMPOWERMENT"
+                },
+                {
+                  "type": "entry",
+                  "num": "12"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r5.w4439",
+                "r5.w4441"
+              ],
+              "boxes": [
+                {
+                  "page": 21,
+                  "bbox": [
+                    896,
+                    554,
+                    1178,
+                    598
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "12",
+                "text": "Beggary."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r5.w4438",
+              "r5.w4445"
+            ],
+            "boxes": [
+              {
+                "page": 21,
+                "bbox": [
+                  752,
+                  554,
+                  1859,
+                  601
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 16,
+            "source_ref": "2(2)(vii)(b)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r111.rel16",
+            "target": [
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "MINISTRY OF SOCIAL JUSTICE AND EMPOWERMENT"
+                  },
+                  {
+                    "type": "entry",
+                    "num": "13"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r5.w4453",
+                  "r5.w4453"
+                ],
+                "boxes": [
+                  {
+                    "page": 21,
+                    "bbox": [
+                      1175,
+                      802,
+                      1242,
+                      843
+                    ]
+                  }
+                ]
+              },
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "MINISTRY OF SOCIAL JUSTICE AND EMPOWERMENT"
+                  },
+                  {
+                    "type": "entry",
+                    "num": "14"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r5.w4454",
+                  "r5.w4454"
+                ],
+                "boxes": [
+                  {
+                    "page": 21,
+                    "bbox": [
+                      1278,
+                      802,
+                      1344,
+                      843
+                    ]
+                  }
+                ]
+              },
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "MINISTRY OF SOCIAL JUSTICE AND EMPOWERMENT"
+                  },
+                  {
+                    "type": "entry",
+                    "num": "39"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r5.w4455",
+                  "r5.w4455"
+                ],
+                "boxes": [
+                  {
+                    "page": 21,
+                    "bbox": [
+                      1377,
+                      802,
+                      1449,
+                      844
+                    ]
+                  }
+                ]
+              },
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "MINISTRY OF SOCIAL JUSTICE AND EMPOWERMENT"
+                  },
+                  {
+                    "type": "entry",
+                    "num": "40"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r5.w4456",
+                  "r5.w4456"
+                ],
+                "boxes": [
+                  {
+                    "page": 21,
+                    "bbox": [
+                      1479,
+                      803,
+                      1551,
+                      844
+                    ]
+                  }
+                ]
+              },
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "MINISTRY OF SOCIAL JUSTICE AND EMPOWERMENT"
+                  },
+                  {
+                    "type": "entry",
+                    "num": "41"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r5.w4457",
+                  "r5.w4457"
+                ],
+                "boxes": [
+                  {
+                    "page": 21,
+                    "bbox": [
+                      1582,
+                      803,
+                      1654,
+                      844
+                    ]
+                  }
+                ]
+              },
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "MINISTRY OF SOCIAL JUSTICE AND EMPOWERMENT"
+                  },
+                  {
+                    "type": "entry",
+                    "num": "42"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r5.w4458",
+                  "r5.w4458"
+                ],
+                "boxes": [
+                  {
+                    "page": 21,
+                    "bbox": [
+                      1687,
+                      803,
+                      1758,
+                      845
+                    ]
+                  }
+                ]
+              },
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "MINISTRY OF SOCIAL JUSTICE AND EMPOWERMENT"
+                  },
+                  {
+                    "type": "entry",
+                    "num": "43"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r5.w4459",
+                  "r5.w4459"
+                ],
+                "boxes": [
+                  {
+                    "page": 21,
+                    "bbox": [
+                      1788,
+                      804,
+                      1861,
+                      845
+                    ]
+                  }
+                ]
+              },
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "MINISTRY OF SOCIAL JUSTICE AND EMPOWERMENT"
+                  },
+                  {
+                    "type": "entry",
+                    "num": "45"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r5.w4460",
+                  "r5.w4460"
+                ],
+                "boxes": [
+                  {
+                    "page": 21,
+                    "bbox": [
+                      1919,
+                      804,
+                      1978,
+                      845
+                    ]
+                  }
+                ]
+              },
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "MINISTRY OF SOCIAL JUSTICE AND EMPOWERMENT"
+                  },
+                  {
+                    "type": "entry",
+                    "num": "47"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r5.w4462",
+                  "r5.w4462"
+                ],
+                "boxes": [
+                  {
+                    "page": 21,
+                    "bbox": [
+                      993,
+                      864,
+                      1051,
+                      902
+                    ]
+                  }
+                ]
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r5.w4446",
+              "r5.w4456"
+            ],
+            "boxes": [
+              {
+                "page": 21,
+                "bbox": [
+                  768,
+                  801,
+                  1551,
+                  844
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 17,
+            "source_ref": "2(2)(viii)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r111.rel17",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF TOURISM"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r5.w4466",
+                "r5.w4477"
+              ],
+              "boxes": [
+                {
+                  "page": 21,
+                  "bbox": [
+                    733,
+                    953,
+                    1965,
+                    1117
+                  ]
+                }
+              ]
+            },
+            "expect": "MINISTRY OF TOURISM (PARYATAN MANTRALAYA)",
+            "content": [
+              {
+                "type": "ministry",
+                "heading": "MINISTRY OF TOURISM AND CULTURE"
+              },
+              {
+                "type": "department",
+                "num": "A",
+                "heading": "DEPARTMENT OF TOURISM",
+                "heading_hi": "PARYATAN VIBHAG"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Development and Promotion of Tourism."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "International Cooperation in the field of Tourism."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "India Tourism Development Corporation and Autonomous Institutes."
+              },
+              {
+                "type": "department",
+                "num": "B",
+                "heading": "DEPARTMENT OF CULTURE",
+                "heading_hi": "SANSKRITI VIBHAG"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Policy matters regarding Library development."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "National Library, Kolkata; Central Reference Library, Kolkata; Central Secretariat Library New Delhi; Rampur Raza Library, Rampur; Delhi Public Library, New Delhi; Khudabaksh Oriental Public Library, Patna; Raja Rammohan Roy Library Foundation, Kolkata; India Office Library, London."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": ". National Research Laboratory for Conservation of Cultural Property, Lucknow."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "National Mission for Preservation of Manuscripts. 418 41/08 [PART SLC. 3(ii)]"
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "Archaeological Survey of India, New Delhi Archaeological Site Museums; Excavation and exploration of historical and archaeological remains."
+              },
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "Grants of Universities and Research Institutions for excavation and exploration of historical and archaeological remains."
+              },
+              {
+                "type": "entry",
+                "num": "7",
+                "text": "International Conventions for the protection of cultural property in the event of armed conflict."
+              },
+              {
+                "type": "entry",
+                "num": "8",
+                "text": "History of Freedom Movement."
+              },
+              {
+                "type": "entry",
+                "num": "9",
+                "text": "Gandhi Smriti and Darshan Samiti, New Delhi Nehru Memorial Museum & Library, New Delhi Jallianwala Bagh National Memorial Trust Maulana Abul Kalam Azad Institute for Asian Studies, Kolkata; Indian War Memorial."
+              },
+              {
+                "type": "entry",
+                "num": "10",
+                "text": "Promotion of Fine Arts and Performing Arts."
+              },
+              {
+                "type": "entry",
+                "num": "11",
+                "text": "Sahitya Akademi; Lalit Kala Akademi; Sangeet Natak Akademi."
+              },
+              {
+                "type": "entry",
+                "num": "12",
+                "text": "National Museum, New Delhi; Indian Museum Kolkata, Salar Jung Museum, Hyderabad Salar Jung Allahabad Museum, Allahabad; National Gallery of Modem Art, New Delhi, Mumbai and Bangalore; Victoria Memorial Hall, Kolkata Indira Gandhi Rashtriya Manav Sangrahalaya Bhopal; National Council of Science Museum Kolkata; Museum of Gems and Jewellery General Development of Museums."
+              },
+              {
+                "type": "entry",
+                "num": "13",
+                "text": "National Museum Institute of History of Art Conservation and Museology, New Delhi."
+              },
+              {
+                "type": "entry",
+                "num": "14",
+                "text": "Acquisition of Indian and Foreign Art objects."
+              },
+              {
+                "type": "entry",
+                "num": "15",
+                "text": "Open air theatres in rural areas and theatres in State capitals."
+              },
+              {
+                "type": "entry",
+                "num": "16",
+                "text": "Financial assistance to authors and artists or their survivors in indigent circumstances, other than those belonging to the categories covered under the scheme of Ministry of Information and Broadcasting; Grants to cultural organizations and institutions; Scholarships and Fellowships including those offered by foreign governments and foreign agencies, in respect of subjects dealt with by this Department Grants for setting up Multipurpose Cultural Complex."
+              },
+              {
+                "type": "entry",
+                "num": "17",
+                "text": "Charities and Charitable institutions, Charities and Religious Endowments pertaining to subjects dealt within this Department."
+              },
+              {
+                "type": "entry",
+                "num": "18",
+                "text": "Scholarships, including those offered by foreign Government and foreign agencies, in respect of subjects dealt with by this Department."
+              },
+              {
+                "type": "entry",
+                "num": "19",
+                "text": "Publication of rare manuscripts."
+              },
+              {
+                "type": "entry",
+                "num": "20",
+                "text": "Safeguarding of Traditional Culture and Folklore."
+              },
+              {
+                "type": "entry",
+                "num": "21",
+                "text": "Grants to Indo-foreign Cultural Societies."
+              },
+              {
+                "type": "entry",
+                "num": "22",
+                "text": "Cultural Agreements, Cultural Exchange Programmes (CEP) and Friendship Treaties with foreign countries."
+              },
+              {
+                "type": "entry",
+                "num": "23",
+                "text": "Distribution of gift books received from abroad."
+              },
+              {
+                "type": "entry",
+                "num": "24",
+                "text": "Appointment of Cultural Attaches abroad."
+              },
+              {
+                "type": "entry",
+                "num": "25",
+                "text": "Visit of Cultural Delegations, etc. to India sponsored and unsponsored."
+              },
+              {
+                "type": "entry",
+                "num": "26",
+                "text": "Individuals (including cultural lecturers) sponsored by Government for visits abroad."
+              },
+              {
+                "type": "entry",
+                "num": "27",
+                "text": "Presentation of books to foreign countries."
+              },
+              {
+                "type": "entry",
+                "num": "28",
+                "text": "Establishment of libraries abroad."
+              },
+              {
+                "type": "entry",
+                "num": "29",
+                "text": "Translation of Indian classics into foreign languages."
+              },
+              {
+                "type": "entry",
+                "num": "30",
+                "text": "Exchange of official publications with foreign Governments and institutions and agreements for such exchanges."
+              },
+              {
+                "type": "entry",
+                "num": "31",
+                "text": "Presentation of Indian art objects abroad."
+              },
+              {
+                "type": "entry",
+                "num": "32",
+                "text": "Export of antiquities."
+              },
+              {
+                "type": "entry",
+                "num": "33",
+                "text": "Admission of Foreign students in Cultural Institutions."
+              },
+              {
+                "type": "entry",
+                "num": "34",
+                "text": "Exchange of artists, dancers, musicians, etc. under the Cultural Exchange Programmes."
+              },
+              {
+                "type": "entry",
+                "num": "35",
+                "text": "Festivals of India abroad."
+              },
+              {
+                "type": "entry",
+                "num": "36",
+                "text": "Revision of Gazetters."
+              },
+              {
+                "type": "entry",
+                "num": "37",
+                "text": "Observance of Centenaries and Anniversaries of important personalities and events."
+              },
+              {
+                "type": "entry",
+                "num": "38",
+                "text": "Centre for Cultural Resources and Training New Delhi."
+              },
+              {
+                "type": "entry",
+                "num": "39",
+                "text": "International Congress of Orientalists."
+              },
+              {
+                "type": "entry",
+                "num": "40",
+                "text": "Anthropological Survey of India, Kolkata."
+              },
+              {
+                "type": "entry",
+                "num": "41",
+                "text": "National Archives of India, New Delhi Gazeteers; Asiatic Society, Kolkata."
+              },
+              {
+                "type": "entry",
+                "num": "42",
+                "text": "Indira Gandhi Rashtriya Manav Sangrahalaya."
+              },
+              {
+                "type": "entry",
+                "num": "43",
+                "text": "Rabindra Rangshalla."
+              },
+              {
+                "type": "entry",
+                "num": "44",
+                "text": "Zonal Cultural Centres."
+              },
+              {
+                "type": "entry",
+                "num": "45",
+                "text": "National Council of Culture."
+              },
+              {
+                "type": "entry",
+                "num": "46",
+                "text": "Indira Gandhi National Centre for Arts, New Delhi."
+              },
+              {
+                "type": "entry",
+                "num": "47",
+                "text": "National School of Drama, New Delhi; National Theatre."
+              },
+              {
+                "type": "entry",
+                "num": "48",
+                "text": "National Culture Fund."
+              },
+              {
+                "type": "entry",
+                "num": "49",
+                "text": "Gandhi Peace Prize."
+              },
+              {
+                "type": "entry",
+                "num": "50",
+                "text": "Central Institute of Higher Tibetan Studies Sarnath; Central Institute of Buddhist Studies Leh; Nav Nalanda Mahavidyalaya, Nalanda."
+              },
+              {
+                "type": "entry",
+                "num": "51",
+                "text": "Kalakshetra Foundation, Chennai."
+              },
+              {
+                "type": "entry",
+                "num": "52",
+                "text": "Implementation and enforcement of the following Acts, namely:-"
+              },
+              {
+                "type": "item",
+                "num": "a",
+                "text": "The Indian Treasure Trove Act, 1878 (6 of 1878)"
+              },
+              {
+                "type": "item",
+                "num": "b",
+                "text": "The Antiquities and Art Treasures Act, 1972 (52 of 1972)"
+              },
+              {
+                "type": "item",
+                "num": "c",
+                "text": "The Ancient Monuments and Archaeological Sites and Remains Act, 1958 (24 of 1958)"
+              },
+              {
+                "type": "item",
+                "num": "d",
+                "text": "The Ancient Monuments Preservation Act 1904 (7 of 1904)"
+              },
+              {
+                "type": "item",
+                "num": "e",
+                "text": "The Delivery of Books and Newspapers (Public Libraries) Act, 1954 (27 of 1954)"
+              },
+              {
+                "type": "item",
+                "num": "f",
+                "text": "Press and Registration of Books Act, 1867 (25 of 1867) (in so far as supply of books and catalogues to Central Government is concerned)"
+              },
+              {
+                "type": "item",
+                "num": "g",
+                "text": "The Public Record Act, 1993 (69 of 1993)."
+              }
+            ],
+            "flags": [
+              "read_hindi_missing",
+              "read_page_break"
+            ],
+            "words": [
+              "r5.w4447",
+              "r5.w4470"
+            ],
+            "boxes": [
+              {
+                "page": 21,
+                "bbox": [
+                  589,
+                  948,
+                  1961,
+                  996
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 18,
+            "source_ref": "2(2)(ix)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r111.rel18",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF WATER RESOURCES"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r5.w5283",
+                "r5.w5296"
+              ],
+              "boxes": [
+                {
+                  "page": 25,
+                  "bbox": [
+                    739,
+                    2177,
+                    1967,
+                    2344
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "ministry",
+                "heading": "MINISTRY OF WOMEN AND CHILD DEVELOPMENT",
+                "heading_hi": "MAHILA AUR BAL VIKAS MANTRALAYA"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Welfare of the family."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "Women and Child welfare and co-ordination of activities of other Ministries and Organisations in connection with this subject."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "References from the United Nations Organisations relating to traffic in women and children. 418 07/96"
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "Care of pre-school children including preprimary education."
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "National Nutrition Policy, National Plan of Action for Nutrition and National Nutrition Mission."
+              },
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "Charitable and religious endowments pertaining to subjects allocated to this Department."
+              },
+              {
+                "type": "entry",
+                "num": "7",
+                "text": "Promotion and development of voluntary effort on subjects allocated to this Department."
+              },
+              {
+                "type": "entry",
+                "num": "8",
+                "text": "Implementation of-"
+              },
+              {
+                "type": "item",
+                "num": "a",
+                "text": "The immoral Traffic (Prevention) Act, 1956 (104 of 1956) (as amended upto 1986)"
+              },
+              {
+                "type": "item",
+                "num": "b",
+                "text": "The Indecent Representation of Women (Prevention) Act, 1986 (60 of 1986)"
+              },
+              {
+                "type": "item",
+                "num": "c",
+                "text": "The Dowry Prohibition Act, 1961 (28 of 1961) (as amended upto 1986)"
+              },
+              {
+                "type": "item",
+                "num": "d",
+                "text": "The Commission of Sati (Prevention) Act, 1987 (3 of 1988), excluding the administration of criminal justice in regard to offences under these Acts."
+              },
+              {
+                "type": "entry",
+                "num": "9",
+                "text": "Implementation of the Infant Milk Substitutes Feeding Bottles and Infant Food (Regulation of Production, Supply and Distribution) Act, 1992 (41 of 1992)."
+              },
+              {
+                "type": "entry",
+                "num": "10",
+                "text": "Coordination of activities and programmes of Cooperative for Assistance and Relief Everywhere (CARE)."
+              },
+              {
+                "type": "entry",
+                "num": "11",
+                "text": "Planning, Research, Evaluation, Monitoring Project Formulations, Statistics and Training relating to the welfare and development of women and children, including development of gender sensitive data base."
+              },
+              {
+                "type": "entry",
+                "num": "12",
+                "text": "United Nations Children's Fund (UNICEF)."
+              },
+              {
+                "type": "entry",
+                "num": "13",
+                "text": "Central Social Welfare Board (CSWB)."
+              },
+              {
+                "type": "entry",
+                "num": "14",
+                "text": "National Institute of Public Cooperation and Child Development (NIPCCD)."
+              },
+              {
+                "type": "entry",
+                "num": "15",
+                "text": "Food and Nutrition Board."
+              },
+              {
+                "type": "entry",
+                "num": "16",
+                "text": ""
+              },
+              {
+                "type": "item",
+                "num": "i",
+                "text": "Development and popularisation of subsidary and protective foods."
+              },
+              {
+                "type": "item",
+                "num": "ii",
+                "text": "Nutrition extension."
+              },
+              {
+                "type": "entry",
+                "num": "17",
+                "text": "Women's Empowerment and Gender Equity."
+              },
+              {
+                "type": "entry",
+                "num": "18",
+                "text": "National Commission for Women."
+              },
+              {
+                "type": "entry",
+                "num": "19",
+                "text": "Rashtriya Mahila Kosh. 1"
+              },
+              {
+                "type": "entry",
+                "num": "20",
+                "text": "Juvenile delinquency and vagrancy."
+              },
+              {
+                "type": "entry",
+                "num": "21",
+                "text": "Probation of Juvenile offenders."
+              },
+              {
+                "type": "entry",
+                "num": "22",
+                "text": "Issues relating to adoption, Central Adoption Resource Agency and Child Help Line (Childline)."
+              },
+              {
+                "type": "entry",
+                "num": "23",
+                "text": "The Children Act, 1960 (60 of 1960)."
+              },
+              {
+                "type": "entry",
+                "num": "24",
+                "text": "The Juvenile Justice (Care and Protection of Children) Act, 2000 (56 of 2000)."
+              },
+              {
+                "type": "entry",
+                "num": "25",
+                "text": "The Child Marriage - Restraint Act, 1929 (19 of 1929)."
+              }
+            ],
+            "flags": [
+              "read_page_break"
+            ],
+            "words": [
+              "r5.w5281",
+              "r5.w5287"
+            ],
+            "boxes": [
+              {
+                "page": 25,
+                "bbox": [
+                  591,
+                  2175,
+                  1967,
+                  2219
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 19,
+            "source_ref": "2(2)(x)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r111.rel19",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "DEPARTMENT OF OCEAN DEVELOPMENT"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r5.w5676",
+                "r5.w5688"
+              ],
+              "boxes": [
+                {
+                  "page": 27,
+                  "bbox": [
+                    733,
+                    2268,
+                    1960,
+                    2440
+                  ]
+                }
+              ]
+            },
+            "expect": "DEPARTMENT OF OCEAN DEVELOPMENT (MAHASAGAR VIKAS VIBHAG)",
+            "flags": [],
+            "words": [
+              "r5.w5675",
+              "r5.w5680"
+            ],
+            "boxes": [
+              {
+                "page": 27,
+                "bbox": [
+                  585,
+                  2268,
+                  1960,
+                  2314
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

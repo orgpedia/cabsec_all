@@ -1,0 +1,107 @@
+{
+  "file": {
+    "name": "1_Upload_101.pdf",
+    "file_id": "f_ff89bf8ab900ea0b",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_101.pdf",
+    "sha256": "ff89bf8ab900ea0b46d56429e1d4e9cc19e077df277355c68c4f3d264aceec33",
+    "govdoc": "1_Upload_101.pdf.govdoc.json.zst",
+    "revision": 46
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_2233_1968",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_220_1968",
+      "fields": {
+        "number": {
+          "value": "S. O. 2233"
+        },
+        "in_force": {
+          "value": "1968-06-21"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "1968-06-21",
+          "basis": "stated"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T13:50:11.474527+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "1",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r10.rel1",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Health, Family Planning and Urban Development"
+                },
+                {
+                  "type": "department",
+                  "heading": "Department of Health and Urban Development"
+                },
+                {
+                  "type": "entry",
+                  "num": "66"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w201",
+                "r1.w203"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    1047,
+                    2052,
+                    1275,
+                    2088
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "66",
+                "text": "Urban Development including Slum Clearance Schemes and the Thuggi and Jhonpri Removal Scheme."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w172",
+              "r1.w179"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  211,
+                  1984,
+                  1023,
+                  2017
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

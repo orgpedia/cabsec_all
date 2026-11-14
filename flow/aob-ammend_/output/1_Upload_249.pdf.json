@@ -1,0 +1,171 @@
+{
+  "file": {
+    "name": "1_Upload_249.pdf",
+    "file_id": "f_eb10915a81385e52",
+    "pages": 4,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_249.pdf",
+    "sha256": "eb10915a81385e52364693c755cd1649955c2485973e4b631a1c459b53bbcbbc",
+    "govdoc": "1_Upload_249.pdf.govdoc.json.zst",
+    "revision": 109
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_324E_1990",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_205_1990",
+      "fields": {
+        "number": {
+          "value": "S.O. 324(E)"
+        },
+        "in_force": {
+          "value": "1990-04-10"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "1990-04-10",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T12:57:21.087675+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(a)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r73.rel1",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF EXTERNAL AFFAIRS"
+                },
+                {
+                  "type": "entry",
+                  "num": "12"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w476",
+                "r1.w478"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    982,
+                    397,
+                    1231,
+                    440
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "12",
+                "text": "Scholarship to foreign students for study in India under different schemse."
+              }
+            ],
+            "flags": [
+              "read_quote_mismatch"
+            ],
+            "words": [
+              "r1.w467",
+              "r1.w466"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  299,
+                  355,
+                  1657,
+                  394
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(b)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r73.rel2",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF HUMAN RESOURCE DEVELOPMENT"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF EDUCATION"
+                },
+                {
+                  "type": "entry",
+                  "num": "22"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w521",
+                "r1.w523"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    858,
+                    735,
+                    1103,
+                    777
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "22",
+                "text": "All scholarship including those offered by foreign countries and foreign agencies in subjects dealt with by this Department but excluding scholarship to students belonging to the Scheduled Castes and Scheduled Tribes, denotified, nomadic and semi-nomadic tribes and General Scholarships Scheme and Scholarships to foreign students under different schemes"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w498",
+              "r1.w506"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  298,
+                  610,
+                  1654,
+                  648
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

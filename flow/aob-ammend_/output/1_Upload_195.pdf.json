@@ -1,0 +1,1308 @@
+{
+  "file": {
+    "name": "1_Upload_195.pdf",
+    "file_id": "f_84f560408187cf04",
+    "pages": 6,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_195.pdf",
+    "sha256": "84f560408187cf04f85ba63e0a7913d2aa9d48a54550b9c9039192b31b585cf3",
+    "govdoc": "1_Upload_195.pdf.govdoc.json.zst",
+    "revision": 55
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_125E_1983",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_79_1983",
+      "fields": {
+        "number": {
+          "value": "S.O. 125(E)"
+        },
+        "in_force": {
+          "value": "1983-02-17"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "1983-02-17",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T18:25:33.405067+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(1)(a)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r28.rel1",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "entry",
+                  "num": "1"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w1655",
+                "r1.w1664"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    1436,
+                    2623,
+                    2290,
+                    2704
+                  ]
+                }
+              ]
+            },
+            "expect": "Ministry of Agriculture (Krishi Mantralaya)",
+            "content": [
+              {
+                "type": "ministry",
+                "num": "1",
+                "heading": "Ministry of Agriculture",
+                "heading_hi": "Krishi Mantralaya"
+              },
+              {
+                "type": "department",
+                "num": "i",
+                "heading": "Department of Agriculture and Cooperation",
+                "heading_hi": "Krishi aur Sahkarita Vibhag"
+              },
+              {
+                "type": "department",
+                "num": "ii",
+                "heading": "Department of Agricultural Research and Education",
+                "heading_hi": "Krishi Anusandhan aur Shiksha Vibhag"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w1653",
+              "r1.w1662"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  1370,
+                  2623,
+                  2290,
+                  2664
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(1)(b)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r28.rel2",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "entry",
+                  "num": "1B"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w1707",
+                "r1.w1715"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    1433,
+                    3037,
+                    2293,
+                    3117
+                  ]
+                }
+              ]
+            },
+            "expect": "1B. Ministry of Civil Aviation (Nagar Vimanan Mantralaya)",
+            "flags": [],
+            "words": [
+              "r1.w1706",
+              "r1.w1718"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  1375,
+                  3037,
+                  2293,
+                  3117
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 3,
+            "source_ref": "2(1)(c)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r28.rel3",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "entry",
+                  "num": "1C"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w1720",
+                "r1.w1730"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    1430,
+                    3139,
+                    2293,
+                    3219
+                  ]
+                }
+              ]
+            },
+            "expect": "1C. Ministry of Civil Supplies (Nagrik Poorti Mantralaya )",
+            "flags": [],
+            "words": [
+              "r1.w1719",
+              "r1.w1733"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  1376,
+                  3139,
+                  2293,
+                  3219
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 4,
+            "source_ref": "2(1)(d)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r28.rel4",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "entry",
+                  "num": "8"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w1742",
+                "r1.w1751"
+              ],
+              "boxes": [
+                {
+                  "page": 4,
+                  "bbox": [
+                    380,
+                    333,
+                    1227,
+                    407
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "ministry",
+                "num": "8A",
+                "heading": "Ministry of Food and Civil Supplies",
+                "heading_hi": "Khadya aur Nagrik Poorti Mantralaya"
+              },
+              {
+                "type": "department",
+                "num": "i",
+                "heading": "Department of Food",
+                "heading_hi": "Khadya Vibhag"
+              },
+              {
+                "type": "department",
+                "num": "ii",
+                "heading": "Department of Civil Supplies",
+                "heading_hi": "Nagrik Poorti Vibhag"
+              }
+            ],
+            "flags": [
+              "new_text_differs"
+            ],
+            "words": [
+              "r1.w1740",
+              "r1.w1749"
+            ],
+            "boxes": [
+              {
+                "page": 4,
+                "bbox": [
+                  313,
+                  333,
+                  1130,
+                  364
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 5,
+            "source_ref": "2(1)(e)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r28.rel5",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "entry",
+                  "num": "21"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w1786",
+                "r1.w1792"
+              ],
+              "boxes": [
+                {
+                  "page": 4,
+                  "bbox": [
+                    365,
+                    709,
+                    1226,
+                    739
+                  ]
+                }
+              ]
+            },
+            "expect": "21. Ministry of Supply (Poort Mantralaya)",
+            "flags": [],
+            "words": [
+              "r1.w1785",
+              "r1.w1795"
+            ],
+            "boxes": [
+              {
+                "page": 4,
+                "bbox": [
+                  308,
+                  709,
+                  1226,
+                  778
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 6,
+            "source_ref": "2(1)(f)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r28.rel6",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "entry",
+                  "num": "22"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w1798",
+                "r1.w1808"
+              ],
+              "boxes": [
+                {
+                  "page": 4,
+                  "bbox": [
+                    377,
+                    811,
+                    1227,
+                    885
+                  ]
+                }
+              ]
+            },
+            "expect": "Ministry of Tourism (Parya- tan Mantralaya)",
+            "content": [
+              {
+                "type": "ministry",
+                "num": "22",
+                "heading": "Ministry of Tourism and Civil Aviation",
+                "heading_hi": "Parvatan aur Nagai Vimanan Mantralaya"
+              },
+              {
+                "type": "department",
+                "num": "i",
+                "heading": "Department of Tourism",
+                "heading_hi": "Paryatan Vibhag"
+              },
+              {
+                "type": "department",
+                "num": "ii",
+                "heading": "Department of Civil Aviation",
+                "heading_hi": "Nagar Vimanan Vibhag"
+              }
+            ],
+            "flags": [
+              "new_extra"
+            ],
+            "words": [
+              "r1.w1796",
+              "r1.w1805"
+            ],
+            "boxes": [
+              {
+                "page": 4,
+                "bbox": [
+                  306,
+                  811,
+                  1104,
+                  845
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 7,
+            "source_ref": "2(1)(g)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r28.rel7",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "entry",
+                  "num": "29A"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w1845",
+                "r1.w1854"
+              ],
+              "boxes": [
+                {
+                  "page": 4,
+                  "bbox": [
+                    372,
+                    1200,
+                    1221,
+                    1273
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "department",
+                "num": "29B",
+                "heading": "Department of Supply",
+                "heading_hi": "Poorti Vibhag"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w1843",
+              "r1.w1852"
+            ],
+            "boxes": [
+              {
+                "page": 4,
+                "bbox": [
+                  303,
+                  1200,
+                  1221,
+                  1233
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 8,
+            "source_ref": "2(2)(a)(1)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r28.rel8",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF AGRICULTURF"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT QF FOOD"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w1884",
+                "r1.w1893"
+              ],
+              "boxes": [
+                {
+                  "page": 4,
+                  "bbox": [
+                    436,
+                    1529,
+                    1216,
+                    1604
+                  ]
+                }
+              ]
+            },
+            "expect": "B. DEPARTMENT QF FOOD (KHADYA VIBHAG)",
+            "flags": [],
+            "words": [
+              "r1.w1883",
+              "r1.w1896"
+            ],
+            "boxes": [
+              {
+                "page": 4,
+                "bbox": [
+                  388,
+                  1529,
+                  1216,
+                  1646
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 9,
+            "source_ref": "2(2)(a)(u)",
+            "op": "renumber",
+            "akn_type": "renumbering",
+            "relation": "r28.rel9",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF AGRICULTURF"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF AGRICULTURAL RESEARCH AND EDUCATION"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w1898",
+                "r1.w1914"
+              ],
+              "boxes": [
+                {
+                  "page": 4,
+                  "bbox": [
+                    435,
+                    1666,
+                    1216,
+                    1824
+                  ]
+                }
+              ]
+            },
+            "new_num": "B",
+            "flags": [],
+            "words": [
+              "r1.w1897",
+              "r1.w1906"
+            ],
+            "boxes": [
+              {
+                "page": 4,
+                "bbox": [
+                  375,
+                  1666,
+                  1214,
+                  1739
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 10,
+            "source_ref": "2(2)(b)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r28.rel10",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF CIVIL AVIATION"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w1923",
+                "r1.w1935"
+              ],
+              "boxes": [
+                {
+                  "page": 4,
+                  "bbox": [
+                    356,
+                    1910,
+                    1214,
+                    2024
+                  ]
+                }
+              ]
+            },
+            "expect": "MINISTRY OF CIVIL AVIATION (NAGAR VIMANAN MANTRALAYA)",
+            "flags": [],
+            "words": [
+              "r1.w1922",
+              "r1.w1938"
+            ],
+            "boxes": [
+              {
+                "page": 4,
+                "bbox": [
+                  297,
+                  1910,
+                  1214,
+                  2024
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 11,
+            "source_ref": "2(2)(c)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r28.rel11",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF CIVIL SUPPLIFS"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w1940",
+                "r1.w1953"
+              ],
+              "boxes": [
+                {
+                  "page": 4,
+                  "bbox": [
+                    351,
+                    2056,
+                    1213,
+                    2170
+                  ]
+                }
+              ]
+            },
+            "expect": "MINISTRY OF CIVIL SUPPLIFS (NAG- RIK POORTI MANTRALAYA)",
+            "flags": [],
+            "words": [
+              "r1.w1939",
+              "r1.w1956"
+            ],
+            "boxes": [
+              {
+                "page": 4,
+                "bbox": [
+                  296,
+                  2056,
+                  1213,
+                  2170
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 12,
+            "source_ref": "2(2)(d)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r28.rel12",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF FINANCE"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w1959",
+                "r1.w1969"
+              ],
+              "boxes": [
+                {
+                  "page": 4,
+                  "bbox": [
+                    364,
+                    2201,
+                    1212,
+                    2274
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "ministry",
+                "heading": "MINISTRY OF FOOD AND CIVIL SUPPLIES",
+                "heading_hi": "KHADYA AUR NAGRIK POORTI MANTRALAYA"
+              },
+              {
+                "type": "department",
+                "num": "A",
+                "heading": "DEPARTMENT OF FOOD",
+                "heading_hi": "KHADYA VIBHAG"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "The following subjects which fall within List I of the Seventh Schedule to the Constitution of India: - 1 Purchase of foodstuffs for civil and military requirements and their disposal."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "Participation in international conferences, associations and other bodies concerning food, e.g. International Wheat Council, International Sugar Council, World Food Council, International Food Policy Research Institute and implementation of decisions made thereat."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "Entering into treaties and agreements with loreign countries and implementing of treaties, agreements conventions with foreign countries relating to trade and commerce in foodgraing and other foodstuffs [PART II SEC. 3(i)]"
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "Hiring and acquisition of godowns for storage of foodgrains including sugar; taking on lease or acquiring land for construction of foodgrains godowns."
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "Inter-State trade and commerce in respect of foodgrains and other food-stuffs including sugar."
+              },
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "Industries, the control of which by the Union is declared by Parliament by Law to be expedient in public interest, as far as these relate to:"
+              },
+              {
+                "type": "item",
+                "num": "a",
+                "text": "Fruit and vegetable processing industry (including freezing and dehydration)."
+              },
+              {
+                "type": "item",
+                "num": "b",
+                "text": "Sugar Industry (including development of gur and khandsari); and"
+              },
+              {
+                "type": "item",
+                "num": "c",
+                "text": "Foodgrain milling industry."
+              },
+              {
+                "type": "entry",
+                "num": "7",
+                "text": "Central Warchousing Corporation and the Warchousing Corporations. Jl. The following subjects which fall within List III of the Seventh Schedule to the Constitution of India (as regards legislation only):—"
+              },
+              {
+                "type": "entry",
+                "num": "8",
+                "text": "Trade and commerce in and supply and distribution of foodgrains."
+              },
+              {
+                "type": "entry",
+                "num": "9",
+                "text": "Trade and commerce in and the production, supply and distribution of sugar and foodstuffs other than foodgrains."
+              },
+              {
+                "type": "entry",
+                "num": "10",
+                "text": "Price control of foodgrains, foodstuffs and sugar"
+              },
+              {
+                "type": "group_heading",
+                "num": "III",
+                "text": "For the subjects detailed in Parts 1 and II as well as the Food Administration of Delhi, the Andaman and Nicobar Islands and Lakshadweep."
+              },
+              {
+                "type": "group_heading",
+                "num": "IV",
+                "text": "General and Consequential:"
+              },
+              {
+                "type": "entry",
+                "num": "11",
+                "text": "Matters relating to the following offices:-"
+              },
+              {
+                "type": "item",
+                "num": "i",
+                "text": "Subordinate Offices under the Department of Food."
+              },
+              {
+                "type": "item",
+                "num": "ii",
+                "text": "Directorate of Sugar, New Delhi."
+              },
+              {
+                "type": "item",
+                "num": "iii",
+                "text": "National Sugar Institute, Kanpur."
+              },
+              {
+                "type": "entry",
+                "num": "12",
+                "text": "Matters relating to the Development Council for Sugar Industry, New Delhi."
+              },
+              {
+                "type": "entry",
+                "num": "13",
+                "text": "Offences against laws with respect to any of the subjects allotted to this Department."
+              },
+              {
+                "type": "entry",
+                "num": "14",
+                "text": "Inquiries and statistics for the purpose of any of the subjects allotted to this Department."
+              },
+              {
+                "type": "entry",
+                "num": "15",
+                "text": "Fecs in respect of any of the subjects allotted to this Department except fees taken in a court."
+              },
+              {
+                "type": "department",
+                "num": "B",
+                "heading": "DEPARTMENT OF CIVIL SUPPLIES",
+                "heading_hi": "NAGRIK POORTI VIBHAG"
+              },
+              {
+                "type": "group_heading",
+                "num": "I",
+                "text": "Internal Trade:"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Internal Trade"
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "Inter-State Trade, the Spirituous Preparations (Inter-State Trade and Commerce) Control Act"
+              },
+              {
+                "type": "entry",
+                "num": "1955"
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "Control of futures trading [The Forward Contracts (Regulation) Act, 1952]."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "The Essential Commodities Act, 1955 (Supply prices and distribution of essential commodities not dealt with specifically by any other Ministry)"
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "Prevention of Blackmarketing and Maintenance of supplies and Essential Commodities Act, 1980."
+              },
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "Consumer Cooperatives."
+              },
+              {
+                "type": "entry",
+                "num": "7",
+                "text": "Public Distribution System."
+              },
+              {
+                "type": "entry",
+                "num": "8",
+                "text": "Monitoring of prices and availability of essential commodities."
+              },
+              {
+                "type": "entry",
+                "num": "9",
+                "text": "The National Consumer Protection Council."
+              },
+              {
+                "type": "entry",
+                "num": "10",
+                "text": "Regulation of packaged Commodities."
+              },
+              {
+                "type": "entry",
+                "num": "11",
+                "text": "Training in Legal Metiology."
+              },
+              {
+                "type": "entry",
+                "num": "12",
+                "text": "Industries, the control of which by the Union is declated by Parliament by law to be expedient in public interest, as far as these relate to Vanaspati Oil Seeds, Vegetable Oils, Cakes and Fats."
+              },
+              {
+                "type": "entry",
+                "num": "13",
+                "text": "Price control of and inter-state trade and commerce in and supply and distribution of Vanaspati, Oil Seeds, Vegetable Oils, Cakes and fats."
+              },
+              {
+                "type": "entry",
+                "num": "14",
+                "text": "Directorate of Vanaspati, Vegetable Oils and Fats"
+              },
+              {
+                "type": "group_heading",
+                "num": "II",
+                "text": "Trade Marks, etc."
+              },
+              {
+                "type": "entry",
+                "num": "15",
+                "text": "The Trade and Merchandise Marks Act, 1958."
+              },
+              {
+                "type": "entry",
+                "num": "16",
+                "text": "The emblems and Names (Prevention of Improper Use) Act, 1950"
+              },
+              {
+                "type": "entry",
+                "num": "17",
+                "text": "Standards of Weights and Measures (The Standard> of Weights and Measures Act, 1956. The Standards of Weights and Measures Act, 1976)."
+              },
+              {
+                "type": "entry",
+                "num": "18",
+                "text": "The Indian Standards Institution (Certification Marks) Act, 1952."
+              },
+              {
+                "type": "entry",
+                "num": "19",
+                "text": "All attached or subordinate offices or other organisations concerned with any of the subjects specified in this list, including the Forward Markets Commission, Bombay."
+              }
+            ],
+            "flags": [
+              "read_page_break"
+            ],
+            "words": [
+              "r1.w1957",
+              "r1.w1969"
+            ],
+            "boxes": [
+              {
+                "page": 4,
+                "bbox": [
+                  295,
+                  2201,
+                  1212,
+                  2274
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 13,
+            "source_ref": "2(2)(e)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r28.rel13",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF STEEL AND MINES"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w2636",
+                "r1.w2651"
+              ],
+              "boxes": [
+                {
+                  "page": 5,
+                  "bbox": [
+                    317,
+                    1641,
+                    1169,
+                    1753
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "ministry",
+                "heading": "MINISTRY OF TOURISM AND CIVIL AVIATION",
+                "heading_hi": "PARYATAN AUR NAGAR VIMANAN MANTRALAYA"
+              },
+              {
+                "type": "department",
+                "num": "A",
+                "heading": "DEPARTMENT OF TOURISM",
+                "heading_hi": "PARYATAN VIBHAG"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Development of Tourism."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "Youth Hostels."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "India Tourism Development Corporation and Public Sector Hotels/Motels thereunder."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "Inquiries and statistics for the purpose of any of the matters specified in this list."
+              },
+              {
+                "type": "department",
+                "num": "B",
+                "heading": "DEPARTMENT OF CIVIL AVIATION",
+                "heading_hi": "NAGAR VIMA- NAN VIBHAG"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Meteorological Organisation."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "Aircraft and air navigation; provision of aerodromes regulation and organisation of air traffic and of aerodromes excepting sanitary control of air navigation. 1350 GI 82-2"
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "Beacons and other provision for the safety of aircraft."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "Camage of passengers and goods by air."
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "International Civil Aviation Organisation (ICAO)"
+              },
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "International Air Transport Association (IATA)."
+              },
+              {
+                "type": "entry",
+                "num": "7",
+                "text": "Commonwealth Air Transport Council (CAT)."
+              },
+              {
+                "type": "entry",
+                "num": "8",
+                "text": "Commonwealth Advisory Aeronautical Research Council."
+              },
+              {
+                "type": "entry",
+                "num": "9",
+                "text": "Corporations established under the Air Corporations Act 1953 (27 of 1953)."
+              },
+              {
+                "type": "entry",
+                "num": "10",
+                "text": "Hotel Corporation of India."
+              },
+              {
+                "type": "entry",
+                "num": "11",
+                "text": "Chief Commissioner of Railway Safety."
+              },
+              {
+                "type": "entry",
+                "num": "12",
+                "text": "International Airports Authority of India."
+              },
+              {
+                "type": "entry",
+                "num": "13",
+                "text": "Offencies against Jaws with respect to any of the matters specified in this list."
+              },
+              {
+                "type": "entry",
+                "num": "14",
+                "text": "Inquiries and statistics for the purpose of any of the matters. specified in this list."
+              },
+              {
+                "type": "entry",
+                "num": "15",
+                "text": "Ices in respect of any of the matters specified in this list but not including fees taken in any court"
+              },
+              {
+                "type": "entry",
+                "num": "16",
+                "text": "Implementation of treaties and agicements relaung to any of the matters specified in this list."
+              }
+            ],
+            "flags": [
+              "read_page_break"
+            ],
+            "words": [
+              "r1.w2634",
+              "r1.w2651"
+            ],
+            "boxes": [
+              {
+                "page": 5,
+                "bbox": [
+                  250,
+                  1641,
+                  1169,
+                  1753
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 14,
+            "source_ref": "2(2)(f)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r28.rel14",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF SUPPLY"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w2888",
+                "r1.w2898"
+              ],
+              "boxes": [
+                {
+                  "page": 5,
+                  "bbox": [
+                    1472,
+                    1376,
+                    2280,
+                    1448
+                  ]
+                }
+              ]
+            },
+            "expect": "MINISTRY OF SUPPLY (POORT! MANTRALAYA)",
+            "flags": [],
+            "words": [
+              "r1.w2887",
+              "r1.w2901"
+            ],
+            "boxes": [
+              {
+                "page": 5,
+                "bbox": [
+                  1419,
+                  1376,
+                  2280,
+                  1491
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 15,
+            "source_ref": "2(2)(g)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r28.rel15",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF SPACE"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w2904",
+                "r1.w2915"
+              ],
+              "boxes": [
+                {
+                  "page": 5,
+                  "bbox": [
+                    1486,
+                    1514,
+                    2268,
+                    1628
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "ministry",
+                "heading": "DEPARTMENT OF SUPPLY (POORTI VIGHAG)"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Purchase, inspection and shipment of stores for the Central Government other than the items the purchase inspection and shipment of which are delegated to other authorities by a general or special order"
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "Disposal of sui plus stores."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "Residual work of supply and disposal relating to the late war organisations including the Directorate General Aircraft, including Civil Maintenance Unit and Directorate General Ship Repairs"
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "Administration of: --"
+              },
+              {
+                "type": "item",
+                "num": "a",
+                "text": "Directorate General of Supplies and Disposals."
+              },
+              {
+                "type": "item",
+                "num": "b",
+                "text": "Office of the Chief Pay and Accounts Officer, New Delhi."
+              },
+              {
+                "type": "item",
+                "num": "c",
+                "text": "National Test House, Alipore, Calcutta"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w2902",
+              "r1.w2915"
+            ],
+            "boxes": [
+              {
+                "page": 5,
+                "bbox": [
+                  1418,
+                  1514,
+                  2268,
+                  1628
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

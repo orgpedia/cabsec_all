@@ -1,0 +1,548 @@
+{
+  "file": {
+    "name": "1_Upload_156.pdf",
+    "file_id": "f_011379765722d79a",
+    "pages": 6,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_156.pdf",
+    "sha256": "011379765722d79acf519d324b48d9a7f4348eccccc85b88b4c819fc082cba80",
+    "govdoc": "1_Upload_156.pdf.govdoc.json.zst",
+    "revision": 46
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_794E_1976",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_533_1976",
+      "fields": {
+        "number": {
+          "value": "S.O. 794(E)"
+        },
+        "in_force": {
+          "value": "1976-12-10"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "1976-12-10",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T13:48:56.385484+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(1)(a)(1)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r10.rel1",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF AGRICULTURE AND IRRIGATION"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF AGRICULTURE"
+                },
+                {
+                  "type": "entry",
+                  "num": "6"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w233",
+                "r1.w235"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    530,
+                    306,
+                    738,
+                    340
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "Planning, development and control of, and assistance to, all indusllament by law to be expedient in public interest, as far as these relate to:-"
+              },
+              {
+                "type": "item",
+                "num": "a",
+                "text": "Processing and refrigeration of certain agricultural products (Milk powder, Infant milk food, Malted milk food, Condensed milk. Ghee and other dairy products, Meat and meat products"
+              },
+              {
+                "type": "item",
+                "num": "b",
+                "text": "Development of agricultural industries including machinery fertilizer seeds and cattle-feed with the limitation that in regard to the development of agricultural industries including machinery and fertilizer, the functions of the Department of Agriculture (Krishi Vibhag) do not go further than the formulation of demands and the fixation of targets"
+              },
+              {
+                "type": "item",
+                "num": "c",
+                "text": "Shellac Industry; and"
+              },
+              {
+                "type": "item",
+                "num": "d",
+                "text": "Processing of fish (including canning and freezing)."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w232",
+              "r1.w242"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  468,
+                  306,
+                  1671,
+                  340
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(1)(a)(i)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r10.rel2",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF AGRICULTURE AND IRRIGATION"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF AGRICULTURE"
+                },
+                {
+                  "type": "entry",
+                  "num": "7"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w362",
+                "r1.w364"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    541,
+                    1027,
+                    743,
+                    1062
+                  ]
+                }
+              ]
+            },
+            "expect": "and processing of fish for industrial pur- poses",
+            "flags": [],
+            "words": [
+              "r1.w361",
+              "r1.w373"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  465,
+                  1027,
+                  1767,
+                  1062
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 3,
+            "source_ref": "2(1)(b)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r10.rel3",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF AGRICULTURE AND IRRIGATION"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF FOOD"
+                },
+                {
+                  "type": "entry",
+                  "num": "7"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w388",
+                "r1.w390"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    716,
+                    1169,
+                    933,
+                    1203
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "7",
+                "text": "Industries, the control of which by the Union is declared by Parllament by law to be expedient in public interest, as far as these relate to"
+              },
+              {
+                "type": "item",
+                "num": "a",
+                "text": "Fruit and vegetable processing industry (including freezing and dehydration)"
+              },
+              {
+                "type": "item",
+                "num": "b",
+                "text": "Sugar Industry (including development of gur and Khandsari) and"
+              },
+              {
+                "type": "item",
+                "num": "c",
+                "text": "Foodgrain milling industry."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w378",
+              "r1.w386"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  437,
+                  1135,
+                  1767,
+                  1168
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 4,
+            "source_ref": "2(2)(a)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r10.rel4",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF COMMERCE"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF FOREIGN TRADE"
+                },
+                {
+                  "type": "entry",
+                  "num": "8"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w472",
+                "r1.w474"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1075,
+                    1775,
+                    1290,
+                    1809
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "8",
+                "text": "Policies of State trading and performance of organisations established for the purpose, including (1) State Trading Corporation and its following subsidiaries:--"
+              },
+              {
+                "type": "item",
+                "num": "a",
+                "text": "Cashew Corporation of India"
+              },
+              {
+                "type": "item",
+                "num": "b",
+                "text": "Projects & Equipment Corporation of India."
+              },
+              {
+                "type": "item",
+                "num": "i",
+                "text": "Mineral & Metals Trading Corporation."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w460",
+              "r1.w468"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  439,
+                  1742,
+                  1768,
+                  1773
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 5,
+            "source_ref": "2(2)(b)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r10.rel5",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF COMMERCE"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF TEXTILES"
+                },
+                {
+                  "type": "entry",
+                  "num": "8"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w532",
+                "r1.w534"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    782,
+                    2222,
+                    1054,
+                    2258
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "9",
+                "text": "Handloom Development Commissioner."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w523",
+              "r1.w530"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  433,
+                  2188,
+                  1770,
+                  2224
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 6,
+            "source_ref": "2(3)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r10.rel6",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF EDUCATION AND SOCIAL WELFARE"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF EDUCATION"
+                },
+                {
+                  "type": "entry",
+                  "num": "24"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w571",
+                "r1.w573"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    686,
+                    2495,
+                    915,
+                    2528
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "24",
+                "text": "Grant of permission to teachers of Universities colleges and institutions of higher learning to accept assignments abroad."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w546",
+              "r1.w555"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  403,
+                  2387,
+                  1768,
+                  2427
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 7,
+            "source_ref": "2(4)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r10.rel7",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF INDUSTRY"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF INDUSTRIAL DEVELOPMENT"
+                },
+                {
+                  "type": "entry",
+                  "num": "6"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w632",
+                "r1.w634"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    1361,
+                    360,
+                    1578,
+                    392
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "Planning development and control of, and assistance to, all industries other than those dealt with by any other Department, but including industries relating to bread oilseed meals ( edible ) breakfast foods, biscuits, confectionery (including Cocoa processing and Chocolate making), malt extract, protein isolate, high protein food, weaning food and extruded food products (including other ready-to-eat foods ), instant Tea and Coffee."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w611",
+              "r1.w620"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  309,
+                  289,
+                  1677,
+                  324
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

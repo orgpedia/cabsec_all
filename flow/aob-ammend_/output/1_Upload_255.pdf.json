@@ -1,0 +1,96 @@
+{
+  "file": {
+    "name": "1_Upload_255.pdf",
+    "file_id": "f_e531ecb4a72f0ed6",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_255.pdf",
+    "sha256": "e531ecb4a72f0ed621fc2ad94ac51b61550e96696a0e7dd669925eb5a65bfec7",
+    "govdoc": "1_Upload_255.pdf.govdoc.json.zst",
+    "revision": 109
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_112E_1991",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_103_1991",
+      "fields": {
+        "number": {
+          "value": "S.O. 112(E)"
+        },
+        "in_force": {
+          "value": "1991-02-16"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "1991-02-16",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T12:57:19.258410+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r73.rel1",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "CABINET SECRETARIAT"
+                },
+                {
+                  "type": "entry",
+                  "num": "3"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w339",
+                "r1.w340"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1760,
+                    1603,
+                    1907,
+                    1648
+                  ]
+                }
+              ]
+            },
+            "flags": [],
+            "words": [
+              "r1.w317",
+              "r1.w327"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  944,
+                  1496,
+                  2342,
+                  1538
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

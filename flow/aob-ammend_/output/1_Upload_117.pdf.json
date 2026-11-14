@@ -1,0 +1,570 @@
+{
+  "file": {
+    "name": "1_Upload_117.pdf",
+    "file_id": "f_120cbd019c20e6ba",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_117.pdf",
+    "sha256": "120cbd019c20e6ba9d3a179c47e434e80b73cc48ddc4b3f9a7614a0da42a80b5",
+    "govdoc": "1_Upload_117.pdf.govdoc.json.zst",
+    "revision": 55
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_2247_1970",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_236_1970",
+      "fields": {
+        "number": {
+          "value": "S.O. 2247"
+        },
+        "in_force": {
+          "value": "1970-06-28"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "1970-06-28",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T18:01:24.629244+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r28.rel1",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "entry",
+                  "num": "23"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w190",
+                "r1.w192"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    435,
+                    2148,
+                    651,
+                    2183
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "department",
+                "num": "23",
+                "heading": "Cabinet Secretariat :"
+              },
+              {
+                "type": "department",
+                "num": "i",
+                "heading": "Department of Cabinet Affairs."
+              },
+              {
+                "type": "department",
+                "num": "ii",
+                "heading": "Department of Electronics."
+              },
+              {
+                "type": "department",
+                "num": "iii",
+                "heading": "Department of Scientific and Industrial Research."
+              },
+              {
+                "type": "department",
+                "num": "iv",
+                "heading": "Department of Personnel."
+              },
+              {
+                "type": "department",
+                "num": "v",
+                "heading": "Department of Statistics."
+              }
+            ],
+            "flags": [
+              "read_hindi_missing"
+            ],
+            "words": [
+              "r1.w175",
+              "r1.w189"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  211,
+                  2115,
+                  1695,
+                  2183
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "3(a)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r28.rel2",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Defence"
+                },
+                {
+                  "type": "department",
+                  "heading": "Department of Defence Supplies"
+                },
+                {
+                  "type": "entry",
+                  "num": "21A"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w258",
+                "r1.w259"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    1093,
+                    2629,
+                    1270,
+                    2665
+                  ]
+                }
+              ]
+            },
+            "flags": [],
+            "words": [
+              "r1.w244",
+              "r1.w257"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  329,
+                  2591,
+                  1709,
+                  2665
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 3,
+            "source_ref": "3(b)(i)",
+            "op": "substitute_text",
+            "akn_type": "substitution",
+            "relation": "r28.rel3",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Education and Youth Services"
+                },
+                {
+                  "type": "entry",
+                  "num": "51"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w285",
+                "r1.w287"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    496,
+                    379,
+                    716,
+                    412
+                  ]
+                }
+              ]
+            },
+            "old": "atomic energy",
+            "new": "atomic energy or grants to institutions, associations or bodies with which any other department is concerned",
+            "flags": [
+              "read_quote_mismatch"
+            ],
+            "words": [
+              "r1.w284",
+              "r1.w292"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  433,
+                  379,
+                  1354,
+                  415
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 4,
+            "source_ref": "3(b)(ii)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r28.rel4",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Education and Youth Services"
+                },
+                {
+                  "type": "entry",
+                  "num": "91"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w314",
+                "r1.w315"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    490,
+                    497,
+                    636,
+                    530
+                  ]
+                }
+              ]
+            },
+            "flags": [],
+            "words": [
+              "r1.w313",
+              "r1.w318"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  415,
+                  497,
+                  958,
+                  530
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 5,
+            "source_ref": "3(c)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r28.rel5",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Industrial Development, Internal Trade and Company Affairs"
+                },
+                {
+                  "type": "department",
+                  "heading": "Department of Industrial Development"
+                },
+                {
+                  "type": "group_heading",
+                  "heading": "III. Industries and Industrial and Technical Development"
+                },
+                {
+                  "type": "entry",
+                  "num": "12"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w350",
+                "r1.w352"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1140,
+                    662,
+                    1397,
+                    698
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "12A",
+                "text": "Administration of the Petroleum Act, 1934, and the rules made thereunder."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w319",
+              "r1.w331"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  395,
+                  558,
+                  1772,
+                  627
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 6,
+            "source_ref": "3(d)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r28.rel6",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Petroleum and Chemicals and Mines and Metals"
+                },
+                {
+                  "type": "department",
+                  "heading": "Department of Petroleum"
+                },
+                {
+                  "type": "entry",
+                  "num": "6"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w392",
+                "r1.w393"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    503,
+                    893,
+                    634,
+                    929
+                  ]
+                }
+              ]
+            },
+            "flags": [],
+            "words": [
+              "r1.w372",
+              "r1.w384"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  396,
+                  827,
+                  1768,
+                  897
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 7,
+            "source_ref": "3(e)(i)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r28.rel7",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Cabinet Secretariat"
+                },
+                {
+                  "type": "department",
+                  "heading": "Department of Cabinet Affairs"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w404",
+                "r1.w415"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    495,
+                    1002,
+                    1768,
+                    1076
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "department",
+                "num": "B",
+                "heading": "Department of Electronics Development of Electronics and coordination amongst its various users."
+              },
+              {
+                "type": "department",
+                "num": "C",
+                "heading": "Department of Scientific and Industrial Research. All matters relating to the Council of Scientific and Industrial Research."
+              },
+              {
+                "type": "department",
+                "num": "D",
+                "heading": "Department of Personnel"
+              }
+            ],
+            "flags": [
+              "read_hindi_missing"
+            ],
+            "words": [
+              "r1.w403",
+              "r1.w415"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  428,
+                  1002,
+                  1768,
+                  1076
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 8,
+            "source_ref": "3(e)(ii)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r28.rel8",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Cabinet Secretariat"
+                },
+                {
+                  "type": "department",
+                  "heading": "Department of Statistics"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w461",
+                "r1.w467"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    486,
+                    1294,
+                    1436,
+                    1333
+                  ]
+                }
+              ]
+            },
+            "expect": "B. Department of Statistics",
+            "scope": "heading",
+            "content": [
+              {
+                "type": "department",
+                "num": "E",
+                "heading": "Department of Statistics"
+              }
+            ],
+            "flags": [
+              "read_hindi_missing"
+            ],
+            "words": [
+              "r1.w460",
+              "r1.w476"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  411,
+                  1294,
+                  1766,
+                  1369
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

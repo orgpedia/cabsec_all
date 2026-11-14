@@ -1,0 +1,167 @@
+{
+  "file": {
+    "name": "1_Upload_113.pdf",
+    "file_id": "f_ef51413de5e86554",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_113.pdf",
+    "sha256": "ef51413de5e865546a6580d8547036d2e11fedd8357a58cb0b36890a71f958f7",
+    "govdoc": "1_Upload_113.pdf.govdoc.json.zst",
+    "revision": 49
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_1363_1970",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_138_1970",
+      "fields": {
+        "number": {
+          "value": "S.O. 1363"
+        },
+        "in_force": {
+          "value": "1970-04-06"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "1970-04-06",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T13:50:10.848407+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(a)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r12.rel1",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Health and Family Planning and Works, Housing and Urban Development"
+                },
+                {
+                  "type": "department",
+                  "heading": "Depart - ment of Works, Housing and Urban Development"
+                },
+                {
+                  "type": "entry",
+                  "num": "19"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w225",
+                "r1.w227"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    1385,
+                    2160,
+                    1669,
+                    2195
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "19A",
+                "text": "Erection of memorials in honour of freedom fighters."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w197",
+              "r1.w206"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  298,
+                  2091,
+                  1451,
+                  2126
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(b)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r12.rel2",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Home Affairs"
+                },
+                {
+                  "type": "group_heading",
+                  "heading": "Part I – Unlon Subjects"
+                },
+                {
+                  "type": "entry",
+                  "num": "90A"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w260",
+                "r1.w261"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    889,
+                    2324,
+                    1069,
+                    2358
+                  ]
+                }
+              ]
+            },
+            "flags": [],
+            "words": [
+              "r1.w245",
+              "r1.w254"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  299,
+                  2289,
+                  1669,
+                  2326
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

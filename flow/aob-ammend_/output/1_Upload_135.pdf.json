@@ -1,0 +1,682 @@
+{
+  "file": {
+    "name": "1_Upload_135.pdf",
+    "file_id": "f_d1d8c026b40b9b29",
+    "pages": 10,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_135.pdf",
+    "sha256": "d1d8c026b40b9b29b277c943089cc7c1ac99257b9239888f80e712c7e08f9813",
+    "govdoc": "1_Upload_135.pdf.govdoc.json.zst",
+    "revision": 46
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_696E_1973",
+      "doc_type": "aob_amendment",
+      "parent": "GAZETTE_ISSUE_d1d8c026b40b9b29",
+      "fields": {
+        "number": {
+          "value": null
+        },
+        "in_force": {
+          "value": "1973-11-10"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "1973-11-10",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T13:50:03.113892+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(i)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r10.rel1",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "entry",
+                  "num": "13"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w103",
+                "r1.w104"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    827,
+                    1922,
+                    1086,
+                    1978
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "ministry",
+                "num": "13",
+                "heading": "Ministry of Labour",
+                "heading_hi": "Shrem Mantralaya"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w101",
+              "r1.w109"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  591,
+                  1920,
+                  1959,
+                  1986
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(ii)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r10.rel2",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "entry",
+                  "num": "19"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w120",
+                "r1.w121"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    885,
+                    2236,
+                    1141,
+                    2284
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "ministry",
+                "num": "19A",
+                "heading": "Ministry of Supply and Rehabilitation",
+                "heading_hi": "Poorti aur Punarvas Mantralaya"
+              },
+              {
+                "type": "department",
+                "num": "i",
+                "heading": "Department of Rehabilitation",
+                "heading_hi": "Punarvas Vibhag"
+              },
+              {
+                "type": "department",
+                "num": "ii",
+                "heading": "Department of Supply",
+                "heading_hi": "Foorti Vibhag"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w118",
+              "r1.w126"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  559,
+                  2223,
+                  2050,
+                  2292
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 3,
+            "source_ref": "2(iii)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r10.rel3",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "entry",
+                  "num": "28"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w152",
+                "r1.w153"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    698,
+                    2784,
+                    934,
+                    2836
+                  ]
+                }
+              ]
+            },
+            "flags": [],
+            "words": [
+              "r1.w151",
+              "r1.w156"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  523,
+                  2782,
+                  1464,
+                  2843
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 4,
+            "source_ref": "3(a)(i)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r10.rel4",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF LABOUR AND REHABILITATION"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w168",
+                "r1.w173"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    942,
+                    2986,
+                    1987,
+                    3046
+                  ]
+                }
+              ]
+            },
+            "expect": "MINISTRY OF LABOUR AND REHABILITATION (SHRAM AUR PUNARVAS MANTRALAYA)",
+            "scope": "heading",
+            "content": [
+              {
+                "type": "ministry",
+                "heading": "MINISTRY OF LABOUR",
+                "heading_hi": "SHRAM MANTRALAYA"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w165",
+              "r1.w173"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  581,
+                  2984,
+                  1987,
+                  3046
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 5,
+            "source_ref": "3(a)(ii)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r10.rel5",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF LABOUR"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF LABOUR AND EMPLOYMENT"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w193",
+                "r1.w204"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    776,
+                    388,
+                    2092,
+                    571
+                  ]
+                }
+              ]
+            },
+            "expect": "A. DEPARTMENT OF LABOUR AND EMPLOYMENT (SHRAM AUR ROZGAR VIBHAG)",
+            "scope": "heading",
+            "ref_seq": 4,
+            "flags": [],
+            "words": [
+              "r1.w192",
+              "r1.w199"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  637,
+                  384,
+                  2092,
+                  480
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 6,
+            "source_ref": "3(a)(iii)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r10.rel6",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF LABOUR"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF REHABILITATION"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w209",
+                "r1.w220"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    769,
+                    697,
+                    2172,
+                    890
+                  ]
+                }
+              ]
+            },
+            "expect": "B. DEPARTMENT OF REHABILITATION (PUNARWAS VIRHAG)",
+            "ref_seq": 4,
+            "flags": [],
+            "words": [
+              "r1.w208",
+              "r1.w214"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  597,
+                  691,
+                  2172,
+                  794
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 7,
+            "source_ref": "3(b)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r10.rel7",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF STEEL AND MINES"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w226",
+                "r1.w240"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    603,
+                    1007,
+                    2158,
+                    1203
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "ministry",
+                "heading": "MINISTRY OF SUPPLY AND REHABILITATION",
+                "heading_hi": "POORTI AUR PUNARVAS MANTRALAYA"
+              },
+              {
+                "type": "department",
+                "num": "A",
+                "heading": "DEPARTMENT OF REHABILITATION (PUNARVAS VIRHAG)."
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Camps for displaced persons from East Pakistan."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "Relief for displaced persons (including supplies of medicine, food, clothing and other necessities)."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "Rehabilitation of displaced persons."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "Assistance to displaced persons from East Pakistan in setting up business or industry including provision of settlement on land."
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "Housing of displaced persons."
+              },
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "Setting up of new industries, for providing employment in places where there are heavy concentration of displaced persons from East Pakistan."
+              },
+              {
+                "type": "entry",
+                "num": "7",
+                "text": "Rehabilitation Industries Corporation."
+              },
+              {
+                "type": "entry",
+                "num": "8",
+                "text": "Matters relating to orants-in-aid to educational medical and cultural institutions. Training and employment of displaced persons from East Pakistan. As regards rehabilitation matters in States, the Central Government is concerned mainly with questions of policy in respect of the subjects marked with an asterisk and is not directly concerned with administrative and executive details which are the functions of the State Governments, except where camps, rehabilitation colonies educational institutions, training centres, etc. are directly administered by the Central Government. .3/- -3-"
+              },
+              {
+                "type": "entry",
+                "num": "10",
+                "text": "Management of evacuee property."
+              },
+              {
+                "type": "entry",
+                "num": "11",
+                "text": "The Evacuee Interest (Separation) Act, 1951"
+              },
+              {
+                "type": "entry",
+                "num": "12",
+                "text": "The Transfer of Evacuee Deposits Act, 1954."
+              },
+              {
+                "type": "entry",
+                "num": "13",
+                "text": "The Displaced persons (Debts Adjustment) Act, 1951."
+              },
+              {
+                "type": "entry",
+                "num": "14",
+                "text": "Matters relating to the Goa, Daman and Diu Administra tion of Evacuee Property Act, 1964"
+              },
+              {
+                "type": "entry",
+                "num": "15",
+                "text": "All negotiations concerning the evacuee property movable and immovable of displaced persons from Pakistan left behind by them n Pakistan and restoration of movable property including firearms lockers, safe-depostis, etc."
+              },
+              {
+                "type": "entry",
+                "num": "16",
+                "text": "Verification of displaced persons' claims for the immovable property left in West Pakistan."
+              },
+              {
+                "type": "entry",
+                "num": "17",
+                "text": "Settlement of verified claims and payment of rehabilitation grants to displaced persons in respect of immovable property left by them in West Pakistan."
+              },
+              {
+                "type": "entry",
+                "num": "18",
+                "text": "Valuation and disposal of Government built and evacuee properties."
+              },
+              {
+                "type": "entry",
+                "num": "19",
+                "text": "Verification and payment of claims of displaced Government servants of undivided Provinces and servants of States and local bodies in respect of pensions, provident funds, leave salary and security deposits."
+              },
+              {
+                "type": "entry",
+                "num": "20",
+                "text": "Rehabilitation of migrants from Pakistan-occupied areas of Jammu & Kashmir."
+              },
+              {
+                "type": "entry",
+                "num": "21",
+                "text": "Rehabilitation of Muslim migrants who have returned from East Pakistan to West Bengal under the Nehru- Liaquat Pact; rehabilitation of Muslims internally displaced in West Bengal at the time of communal disturbances on the partition of the country; and restoration of mosques and other places of religious worship to Muslims in \"West Bengal."
+              },
+              {
+                "type": "entry",
+                "num": "22",
+                "text": "Dandakaranya Scheme - Integrated development of Dandɛkaranya area for the rehabilitation of East Pakistan displaced persons and welfare of tribals."
+              },
+              {
+                "type": "entry",
+                "num": "23",
+                "text": "Development of such special arças as may be indicated by the Prime Minister from time to time."
+              },
+              {
+                "type": "entry",
+                "num": "24",
+                "text": "Relief and rehabilitation measures for Indian nationals repatriated from Burma, Ceylone and Mozambi que."
+              },
+              {
+                "type": "entry",
+                "num": "25",
+                "text": "Relief and Rehabilitation of the Tibetan Refugees."
+              },
+              {
+                "type": "entry",
+                "num": "26",
+                "text": "All Attached or Subordinate Offices or other organisations concerned with any of the subjects specified in this list."
+              },
+              {
+                "type": "department",
+                "num": "B",
+                "heading": "DEPARTMENT OF SUPPLY",
+                "heading_hi": "POORTI VIBHAG"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Purchase, inspection and shipment of stores for the Central Covernment other than the items the purchase, inspection and shipment of which are delegated to other authorities by a general or special order. 4/-.. - 4."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "Disposal of surplus stores."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "Residual work of supply and disposal relating to the late war organisations including the Directorate General, Aircraft, including Civil Maintenance Units and Directorate General, Ship"
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "Administration of - ) Directorate General of Supplies and Disposals Office of the Chief Pay and Accounts Officer,. New Delhi c) National Test House, Alipore, Calcutta"
+              },
+              {
+                "type": "item",
+                "num": "d",
+                "text": "India"
+              },
+              {
+                "type": "item",
+                "num": "d",
+                "text": "India Supply"
+              },
+              {
+                "type": "item",
+                "num": "e",
+                "text": "India Supply Mission Supply Mission, the United Kingdom Missior, the U.S.A."
+              }
+            ],
+            "flags": [
+              "read_page_break"
+            ],
+            "words": [
+              "r1.w224",
+              "r1.w233"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  496,
+                  997,
+                  2158,
+                  1107
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 8,
+            "source_ref": "3(c)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r10.rel8",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "DEPARTMENT OF SUPPLY"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w859",
+                "r1.w869"
+              ],
+              "boxes": [
+                {
+                  "page": 4,
+                  "bbox": [
+                    508,
+                    1281,
+                    1959,
+                    1449
+                  ]
+                }
+              ]
+            },
+            "expect": "DEPARTMENT OF SUPPLY (POORTI VIBHAG)",
+            "flags": [],
+            "words": [
+              "r1.w818",
+              "r1.w865"
+            ],
+            "boxes": [
+              {
+                "page": 4,
+                "bbox": [
+                  360,
+                  1267,
+                  1959,
+                  1365
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

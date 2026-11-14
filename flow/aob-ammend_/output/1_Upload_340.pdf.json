@@ -1,0 +1,612 @@
+{
+  "file": {
+    "name": "1_Upload_340.pdf",
+    "file_id": "f_7e7cea08f5ba12b7",
+    "pages": 5,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_340.pdf",
+    "sha256": "7e7cea08f5ba12b786d9e48773015d703ffc2446bf076d452516652ca3b1d4a5",
+    "govdoc": "1_Upload_340.pdf.govdoc.json.zst",
+    "revision": 147
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_1410E_2009",
+      "doc_type": "aob_amendment",
+      "parent": "GAZETTE_ISSUE_7e7cea08f5ba12b7",
+      "fields": {
+        "number": {
+          "value": "S.O. 1410(E)"
+        },
+        "in_force": {
+          "value": null
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": null,
+          "basis": null
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T12:56:16.064042+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(2)(A)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r109.rel1",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Railways"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w1347",
+                "r1.w1354"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    1477,
+                    775,
+                    2198,
+                    865
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "ministry",
+                "num": "29",
+                "heading": "Ministry of Road Transport and Highways",
+                "heading_hi": "Sadak Parivahan aur Raj Marg Mantralaya"
+              }
+            ],
+            "flags": []
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(2)(B)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r109.rel2",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Shipping, Road Transport and Highways"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w1378",
+                "r1.w1399"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    1470,
+                    1130,
+                    2198,
+                    1369
+                  ]
+                }
+              ]
+            },
+            "expect": "32. Ministry of Shipping, Road Transport and Highways (Pot Parivahan, Sadak Parivahan aur Raj Marg Mantralaya)",
+            "content": [
+              {
+                "type": "ministry",
+                "num": "32",
+                "heading": "Ministry of Shipping",
+                "heading_hi": "Pot Parivahan Mantralaya"
+              }
+            ],
+            "flags": []
+          },
+          {
+            "seq": 3,
+            "source_ref": "2(2)(A)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r109.rel3",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF RAILWAYS"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w1422",
+                "r1.w1432"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    1474,
+                    1656,
+                    2194,
+                    1800
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "Roads other than National Highways."
+              },
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "Administration of the Motor Vehicles Act, 1988 (59 of 1988 ) and taxation of motor vehicles."
+              },
+              {
+                "type": "entry",
+                "num": "7",
+                "text": "Vehicles other than mechanically propelled vehicles."
+              },
+              {
+                "type": "group_heading",
+                "num": "III",
+                "text": "OTHER SUBJECTS WHICH HAVE NOT BEEN INCLUDED UNDER THE PREVIOUS PARTS :"
+              },
+              {
+                "type": "entry",
+                "num": "8",
+                "text": "Central Road Fund."
+              },
+              {
+                "type": "entry",
+                "num": "9",
+                "text": "Coordination and Research pertaining to Road Works."
+              },
+              {
+                "type": "entry",
+                "num": "10",
+                "text": "Road works financed in whole or in part by the . Central Government other than those in the North Eastern Region."
+              },
+              {
+                "type": "entry",
+                "num": "11",
+                "text": "Motor vehicles legislation."
+              },
+              {
+                "type": "entry",
+                "num": "12",
+                "text": "Promotion of Transport Co-operatives in the field of motor transport and inland water transport."
+              },
+              {
+                "type": "entry",
+                "num": "13",
+                "text": "Formulation of the privatisation policy in the infrastructure areas of roads."
+              },
+              {
+                "type": "group_heading",
+                "num": "IV",
+                "text": "AUTONOMOUS BODIES:"
+              },
+              {
+                "type": "entry",
+                "num": "14",
+                "text": "National Highways Authority of India."
+              },
+              {
+                "type": "group_heading",
+                "num": "V",
+                "text": "SOCIETIES/ASSOCIATIONS:"
+              },
+              {
+                "type": "entry",
+                "num": "15",
+                "text": "National Institute of Training for Highway Engineers."
+              },
+              {
+                "type": "group_heading",
+                "num": "VL",
+                "text": "PUBLIC SECTOR UNDERTAKINGS:"
+              },
+              {
+                "type": "entry",
+                "num": "16",
+                "text": "Indian Road Construction Corporation."
+              },
+              {
+                "type": "group_heading",
+                "num": "VII",
+                "text": "ACTS:"
+              },
+              {
+                "type": "entry",
+                "num": "17",
+                "text": "The Road Transport Corporations Act, 1950 (64 of 1950)."
+              },
+              {
+                "type": "entry",
+                "num": "18",
+                "text": "The National Highway Act, 1956 (48 of 1956)."
+              },
+              {
+                "type": "entry",
+                "num": "19",
+                "text": "The Motor Vehicles Act, 1988 (59 of 1988)."
+              },
+              {
+                "type": "entry",
+                "num": "20",
+                "text": "The National Highways Authority of India Act 1988 (68 of 1988)."
+              }
+            ],
+            "flags": [
+              "read_page_break"
+            ]
+          },
+          {
+            "seq": 4,
+            "source_ref": "2(2)(B)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r109.rel4",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF SHIPPING, ROAD TRANSPORT AND HIGHWAYS"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w1735",
+                "r1.w1757"
+              ],
+              "boxes": [
+                {
+                  "page": 4,
+                  "bbox": [
+                    312,
+                    2235,
+                    1160,
+                    2477
+                  ]
+                }
+              ]
+            },
+            "expect": "MINISTRY OF SHIPPING, ROAD TRANSPORT AND HIGHWAYS (POT PARIVAHAN, SADAK PARIVAHAN AUR RAJ MARG MANTRALAYA)",
+            "content": [
+              {
+                "type": "ministry",
+                "heading": "MINISTRY OF SHIPPING L THE FOLLOWING SUBJECTS WHICH FALL WITHIN LIST I OF THE SEVENTH SCHEDULE TO THE CONSTITUTION OF INDIA :",
+                "heading_hi": "POT PARIVAHAN MANTRALAYA"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Maritime shipping and navigation; provision of education and training for the mercantile marine."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "Lighthouses and lightships."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "Administration of the Indian Ports Act, 1908 (15 of 1908) and the Major Port Trusts Act, 1963 (38 of 1963) and ports declared as major ports."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "Shipping and navigation including carriage of passengers and goods on inland waterways declared by Parliament by law to be national waterways as regards mechanically propelled vessels, the rule of the road on such waterways."
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "Ship-building and ship-repair industry."
+              },
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "Fishing vessels industry."
+              },
+              {
+                "type": "entry",
+                "num": "7",
+                "text": "Floating craft industry."
+              },
+              {
+                "type": "group_heading",
+                "num": "II",
+                "text": "IN RESPECT OF THE UNION TERRITORIES: ·"
+              },
+              {
+                "type": "entry",
+                "num": "8",
+                "text": "Inland waterways and traffic thereon. IL IN RESPECT OF THE UNION TERRITORIES OF THE ANDAMAN AND NICOBAR ISLANDS AND THE LAKSHADWEEP :"
+              },
+              {
+                "type": "entry",
+                "num": "9",
+                "text": "Organisation and maintenance of mainland islands and inter-island shipping services."
+              },
+              {
+                "type": "group_heading",
+                "num": "IV",
+                "text": "OTHER SUBJECTS WHICH HAVE NOT BEEN INCLUDED UNDER THE PREVIOUS PARTS:"
+              },
+              {
+                "type": "entry",
+                "num": "10",
+                "text": "Legislation relating to shipping and navigation on inland waterways as regards mechanically propelled vessels and the carriage of passengers and goods on inland waterways."
+              },
+              {
+                "type": "entry",
+                "num": "11",
+                "text": "Legislation relating to and coordination of the development of minor and major ports."
+              },
+              {
+                "type": "entry",
+                "num": "12",
+                "text": "Administration of the Dock Workers (Regulation of Employment) Act, 1948 (9 of 1948) and the Schemes framed thereunder other than the Dock Workers (Safety, Health and Welfare) Scheme"
+              },
+              {
+                "type": "entry",
+                "num": "1961"
+              },
+              {
+                "type": "entry",
+                "num": "13",
+                "text": "To make shipping arrangements for and on behalf of the Government of India/Public Sector Undertakings/State Governments/ State Government Public Sector Undertakings and autonomous bodies in respect of import of cargo on Free on Board/Free along Site and export on Cost and Freight/Cost Insurance and Freight basis."
+              },
+              {
+                "type": "entry",
+                "num": "14",
+                "text": "Planning of Inland Water Transport."
+              },
+              {
+                "type": "entry",
+                "num": "15",
+                "text": "Formulation of the Privatization policy in the infrastructure areas of ports, shipping and inland waterways."
+              },
+              {
+                "type": "entry",
+                "num": "16",
+                "text": "The Development of township of Gandhidham."
+              },
+              {
+                "type": "entry",
+                "num": "17",
+                "text": "Prevention and control of pollution:"
+              },
+              {
+                "type": "item",
+                "num": "a",
+                "text": "Prevention and control of pollution arising from ships, shipwrecks and abandoned ships in the sea, including the port areas"
+              },
+              {
+                "type": "item",
+                "num": "b",
+                "text": "enactment and administration of legislation related to prevention, control and combating of pollution arising from ships; and"
+              },
+              {
+                "type": "item",
+                "num": "c",
+                "text": "monitoring and combating of oil pollution in the port areas."
+              },
+              {
+                "type": "group_heading",
+                "num": "V",
+                "text": "SUBORDINATE OFFICES :"
+              },
+              {
+                "type": "entry",
+                "num": "18",
+                "text": "Directorate General of Shipping."
+              },
+              {
+                "type": "entry",
+                "num": "19",
+                "text": "Andaman Lakshadweep Harbour Works."
+              },
+              {
+                "type": "entry",
+                "num": "20",
+                "text": "Directorate General of Lighthouses and Lightships."
+              },
+              {
+                "type": "entry",
+                "num": "21",
+                "text": "Minor Ports Survey Organisation."
+              },
+              {
+                "type": "group_heading",
+                "num": "VI",
+                "text": "AUTONOMOUS BODIES:"
+              },
+              {
+                "type": "entry",
+                "num": "22",
+                "text": "Tariff Authority for Major Ports (TAMP)."
+              },
+              {
+                "type": "entry",
+                "num": "23",
+                "text": "Port Trusts at Mumbai, Kolkata, Kochi, Kandla Chennai, Mormugao, Jawahar Lal Nehru (Nhava Sheva), Paradip, Tuticorin, Visakhapatnam and New Mangalore."
+              },
+              {
+                "type": "entry",
+                "num": "24",
+                "text": "Dock Labour Boards at Kolkata, Kandla and Visakhapatnam."
+              },
+              {
+                "type": "entry",
+                "num": "25",
+                "text": "Inland Waterways Authority of India."
+              },
+              {
+                "type": "entry",
+                "num": "26",
+                "text": "Seamen's Provident Fund Organisation."
+              },
+              {
+                "type": "group_heading",
+                "num": "VII",
+                "text": "SOCIETIES/ASSOCIATIONS :"
+              },
+              {
+                "type": "entry",
+                "num": "27",
+                "text": "National Institute of Port Management."
+              },
+              {
+                "type": "entry",
+                "num": "28",
+                "text": "National Ship Design and Research Centre."
+              },
+              {
+                "type": "entry",
+                "num": "29",
+                "text": "Seafarers Welfare Fund Society. VIIL PUBLIC SECTOR UNDERTAKINGS :"
+              },
+              {
+                "type": "entry",
+                "num": "30",
+                "text": "Shipping Corporation of India."
+              },
+              {
+                "type": "entry",
+                "num": "31",
+                "text": "Hindustan Shipyard Limited."
+              },
+              {
+                "type": "entry",
+                "num": "32",
+                "text": "Cochin Shipyard Limited. 21225609-2"
+              },
+              {
+                "type": "entry",
+                "num": "33",
+                "text": "Central Inland Water Transport Corporation Limited."
+              },
+              {
+                "type": "entry",
+                "num": "34",
+                "text": "Dredging Corporation of India."
+              },
+              {
+                "type": "entry",
+                "num": "35",
+                "text": "Hooghly Dock and Ports Engineers Limited."
+              },
+              {
+                "type": "entry",
+                "num": "36",
+                "text": "Ennore Port Limited."
+              },
+              {
+                "type": "group_heading",
+                "num": "IX",
+                "text": "INTERNATIONAL ASPECTS:"
+              },
+              {
+                "type": "entry",
+                "num": "37",
+                "text": "International Maritime Organisation. X ACTS:"
+              },
+              {
+                "type": "entry",
+                "num": "38",
+                "text": "The Indian Ports Act, 1908 (15 of 1908)."
+              },
+              {
+                "type": "entry",
+                "num": "39",
+                "text": "The Inland Vessels Act, 1917 (1 of 1917).."
+              },
+              {
+                "type": "entry",
+                "num": "40",
+                "text": "The Dock Workers (Regulation of Employment) Act, 1948 (9 of 1948)."
+              },
+              {
+                "type": "entry",
+                "num": "41",
+                "text": "The Merchant Shipping Act, 1958 (44 of 1958)."
+              },
+              {
+                "type": "entry",
+                "num": "42",
+                "text": "The Major Port Trusts Act, 1963 (38 of 1963)."
+              },
+              {
+                "type": "entry",
+                "num": "43",
+                "text": "Seamen's Provident Fund Act, 1966 (4 of 1966)."
+              },
+              {
+                "type": "entry",
+                "num": "44",
+                "text": "The Inland Waterways Authority of India Act 1985 (82 of 1985)."
+              },
+              {
+                "type": "entry",
+                "num": "45",
+                "text": "The Multimodal Transportation of Goods Act 1993 (28 of 1993)."
+              }
+            ],
+            "flags": [
+              "read_page_break"
+            ],
+            "words": [
+              "r1.w1733",
+              "r1.w1739"
+            ],
+            "boxes": [
+              {
+                "page": 4,
+                "bbox": [
+                  216,
+                  2235,
+                  1158,
+                  2273
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

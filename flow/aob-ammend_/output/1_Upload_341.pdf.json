@@ -1,0 +1,298 @@
+{
+  "file": {
+    "name": "1_Upload_341.pdf",
+    "file_id": "f_f07a6a02a20fdee7",
+    "pages": 3,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_341.pdf",
+    "sha256": "f07a6a02a20fdee7fbb3f0736467e6a2e4456e4101786d456727c6be95798507",
+    "govdoc": "1_Upload_341.pdf.govdoc.json.zst",
+    "revision": 143
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_458E_2010",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_381_2010",
+      "fields": {
+        "number": {
+          "value": "S.O. 458(E)"
+        },
+        "in_force": {
+          "value": "2010-02-22"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "2010-02-22",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T12:57:34.158832+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(i)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r107.rel1",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF DEFENCE"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF DEFENCE PRODUCTION"
+                },
+                {
+                  "type": "entry",
+                  "num": "14"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w422",
+                "r1.w423"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    587,
+                    774,
+                    784,
+                    826
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "15",
+                "text": "Hindustan Shipyard Limited."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w401",
+              "r1.w407"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  472,
+                  501,
+                  1833,
+                  560
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(ii)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r107.rel2",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF SHIPPING"
+                },
+                {
+                  "type": "entry",
+                  "num": "31"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w445",
+                "r1.w446"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    1003,
+                    1215,
+                    1175,
+                    1263
+                  ]
+                }
+              ]
+            },
+            "flags": [],
+            "words": [
+              "r1.w435",
+              "r1.w441"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  476,
+                  1120,
+                  1657,
+                  1180
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 3,
+            "source_ref": "2(iii)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r107.rel3",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF STATISTICS AND PROGRAMME IMPLEMENTATION"
+                },
+                {
+                  "type": "entry",
+                  "num": "19"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w466",
+                "r1.w467"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    1828,
+                    1531,
+                    2013,
+                    1579
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "19",
+                "text": "Monitoring of projects of Rs. 150 crores and above."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w450",
+              "r1.w457"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  448,
+                  1353,
+                  2100,
+                  1399
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 4,
+            "source_ref": "2(iv)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r107.rel4",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "PLANNING COMMISSION"
+                },
+                {
+                  "type": "entry",
+                  "num": "11"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w494",
+                "r1.w499"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    714,
+                    1993,
+                    1474,
+                    2043
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "12",
+                "text": "Unique Identification Authority of India (UIDAI) – -"
+              },
+              {
+                "type": "item",
+                "num": "a",
+                "text": "Policy, planning and implementation of Unique Identification Number (UID) for residents in India and all matters related to it."
+              },
+              {
+                "type": "item",
+                "num": "b",
+                "text": "Unique Identification Authority of India (UIDAI) and connected matters."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w485",
+              "r1.w492"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  445,
+                  1932,
+                  2095,
+                  1990
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

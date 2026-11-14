@@ -1,0 +1,1666 @@
+{
+  "file": {
+    "name": "1_Upload_332.pdf",
+    "file_id": "f_e8deba36c85d411c",
+    "pages": 10,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_332.pdf",
+    "sha256": "e8deba36c85d411c3dda9d2ced39627f297b1c22f052866a0236d54c001fd631",
+    "govdoc": "1_Upload_332.pdf.govdoc.json.zst",
+    "revision": 143
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_1120E_2006",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_750_2006",
+      "fields": {
+        "number": {
+          "value": "S.O. 1120(E)"
+        },
+        "in_force": {
+          "value": "2006-07-12"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "2006-07-12",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T12:57:19.388030+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(1)(A)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r107.rel1",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Development of North Eastern Region"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w2199",
+                "r1.w2214"
+              ],
+              "boxes": [
+                {
+                  "page": 6,
+                  "bbox": [
+                    623,
+                    951,
+                    2230,
+                    1037
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "ministry",
+                "num": "10",
+                "heading": "Ministry of Earth Sciences",
+                "heading_hi": "Prithvi Vigyan Mantralaya"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w2198",
+              "r1.w2209"
+            ],
+            "boxes": [
+              {
+                "page": 6,
+                "bbox": [
+                  528,
+                  951,
+                  1775,
+                  987
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(1)(B)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r107.rel2",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Human Resource Development"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w2231",
+                "r1.w2247"
+              ],
+              "boxes": [
+                {
+                  "page": 6,
+                  "bbox": [
+                    624,
+                    1133,
+                    2228,
+                    1222
+                  ]
+                }
+              ]
+            },
+            "scope": "children",
+            "content": [
+              {
+                "type": "department",
+                "num": "i",
+                "heading": "Department of School Education and Literacy",
+                "heading_hi": "School Shiksha aur Sakshrta Vibhag"
+              },
+              {
+                "type": "department",
+                "num": "ii",
+                "heading": "Department of Higher Education",
+                "heading_hi": "Uchchatar Shiksha Vibhag"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w2230",
+              "r1.w2239"
+            ],
+            "boxes": [
+              {
+                "page": 6,
+                "bbox": [
+                  528,
+                  1133,
+                  1776,
+                  1173
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 3,
+            "source_ref": "2(1)(C)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r107.rel3",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Ocean Development"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w2276",
+                "r1.w2285"
+              ],
+              "boxes": [
+                {
+                  "page": 6,
+                  "bbox": [
+                    626,
+                    1487,
+                    2091,
+                    1525
+                  ]
+                }
+              ]
+            },
+            "expect": "22A, Ministry of Ocean Development (Mahasagar Vikas Mantralaya)",
+            "flags": [],
+            "words": [
+              "r1.w2275",
+              "r1.w2282"
+            ],
+            "boxes": [
+              {
+                "page": 6,
+                "bbox": [
+                  528,
+                  1487,
+                  1543,
+                  1525
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 4,
+            "source_ref": "2(2)(A)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r107.rel4",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Human Resource Development"
+                },
+                {
+                  "type": "department",
+                  "heading": "Department of Elementary Education and Literacy"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w2308",
+                "r1.w2328"
+              ],
+              "boxes": [
+                {
+                  "page": 6,
+                  "bbox": [
+                    527,
+                    1721,
+                    2232,
+                    1810
+                  ]
+                }
+              ]
+            },
+            "expect": "A. Department of Elementary Education and Literacy (Prarambhik Shiksha Aur Saksharta Vibhag)",
+            "content": [
+              {
+                "type": "department",
+                "num": "A",
+                "heading": "Department of School Education and Literacy",
+                "heading_hi": "School Shiksha Aur Saksharta Vibhag"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Elementary Education."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "Basic Education."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "Bal Bhavan, Children's Museum."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "Social Education and adult education."
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "Audio Visual Education with reference to entries in this list."
+              },
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "Books (other than the books with which the Ministry of Information and Broadcasting is concerned) and Book Development (excluding stationery paper and news print industries with which the Ministry of Commerce and Industry is concerned) with respect to the items in the list."
+              },
+              {
+                "type": "entry",
+                "num": "7",
+                "text": "Educational Research with respect to items in the list."
+              },
+              {
+                "type": "entry",
+                "num": "8",
+                "text": "Publications, information and statistics with reference to the items in the list."
+              },
+              {
+                "type": "entry",
+                "num": "9",
+                "text": "Teachers training with reference to the items in the list."
+              },
+              {
+                "type": "entry",
+                "num": "10",
+                "text": "National Council for Teacher Education."
+              },
+              {
+                "type": "entry",
+                "num": "11",
+                "text": "Charities and Charitable Institutions, Charities and Religious Endowments pertaining to subjects dealt within this Department."
+              },
+              {
+                "type": "entry",
+                "num": "12",
+                "text": "Secondary Education and Vocational Guidance."
+              },
+              {
+                "type": "entry",
+                "num": "13",
+                "text": "National Council for Educational Research and Training"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w2295",
+              "r1.w2303"
+            ],
+            "boxes": [
+              {
+                "page": 6,
+                "bbox": [
+                  527,
+                  1670,
+                  1592,
+                  1707
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 5,
+            "source_ref": "2(2)(B)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r107.rel5",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Human Resource Development"
+                },
+                {
+                  "type": "department",
+                  "heading": "Department of Secondary and Higher Education"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w2508",
+                "r1.w2527"
+              ],
+              "boxes": [
+                {
+                  "page": 6,
+                  "bbox": [
+                    529,
+                    3027,
+                    2235,
+                    3116
+                  ]
+                }
+              ]
+            },
+            "expect": "B. Department of Secondary and Higher Education (Madhyamik Aur Uchchatar Shiksha Bivhag)",
+            "content": [
+              {
+                "type": "department",
+                "num": "B",
+                "heading": "Department of Higher Education",
+                "heading_hi": "Uchchatar Shiksha Vibhag"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "University Education; Central Universities; Rural Higher Education; Foreign Aid Programe relating to Higher Education and Technical Education Planning."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "Institutions of higher learning (other than Universities)."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "Books (other than the books with which the Ministry of Information and Broadcasting is concerned) and Book Development (excluding stationery paper and news print industries with which the Ministry of Commerce and Industry is concerned) with respect to the items in the list."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "Audio Visual Education with reference to the items in the list."
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "Production of University level text-books in Regional Languages."
+              },
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "The Copyright Act, 1957 (14 of 1957) and International Conventions on Copyrights."
+              },
+              {
+                "type": "entry",
+                "num": "7",
+                "text": "Educational Research."
+              },
+              {
+                "type": "entry",
+                "num": "8",
+                "text": "Publications, Information and Statistics."
+              },
+              {
+                "type": "entry",
+                "num": "9",
+                "text": "Development and propagation of Hindi, including multilingual dictionaries."
+              },
+              {
+                "type": "entry",
+                "num": "10",
+                "text": "Grant of Financial assistance for the teaching and promotion of Hindi."
+              },
+              {
+                "type": "entry",
+                "num": "11",
+                "text": "Propagation and development of Sanskrit."
+              },
+              {
+                "type": "entry",
+                "num": "12",
+                "text": "Rehabilitation and other problems relating to displaced teachers and students."
+              },
+              {
+                "type": "entry",
+                "num": "13",
+                "text": "Central Advisory Board of Education."
+              },
+              {
+                "type": "entry",
+                "num": "14",
+                "text": "UNESCO and Indian National Commission for Cooperation with UNESCO."
+              },
+              {
+                "type": "entry",
+                "num": "15",
+                "text": "Matters relating to all scholarships including those offered by foreign countries and foreign agencies in subjects dealt with by the Department but excluding scholarships to students belonging to scheduled castes and scheduled tribes, denotified, nomadic and semi-nomadic tribes and General Scholarships Schemes and scholarships to foreign students under different schemes."
+              },
+              {
+                "type": "entry",
+                "num": "16",
+                "text": "Education and Welfare of Indian Students overseas; Education Departments of Indian Missions overseas; Financial assistance to educational institutions and Indian Students Associations abroad."
+              },
+              {
+                "type": "entry",
+                "num": "17",
+                "text": "Educational Exchange programmes; exchange of teachers, professors, educationists, scientists technologists, etc.; programme of exchange of scholars between India and foreign countries."
+              },
+              {
+                "type": "entry",
+                "num": "18",
+                "text": "Grant permission to teachers of Universities, colleges and institutions of higher learning to accept. assignments abroad."
+              },
+              {
+                "type": "entry",
+                "num": "19",
+                "text": "Admission of foreign students in Indian Institutions."
+              },
+              {
+                "type": "entry",
+                "num": "20",
+                "text": "Charities and Charitable Institutions, Charities and Religious Endowments pertaining to subjects dealt within this Department."
+              },
+              {
+                "type": "entry",
+                "num": "21",
+                "text": "Adhoc scientific research, other than research in higher mathematics, nuclear science and atomic energy, in universities and educational institutions."
+              },
+              {
+                "type": "entry",
+                "num": "22",
+                "text": "Vigyan Mandirs."
+              },
+              {
+                "type": "entry",
+                "num": "23",
+                "text": "General Policy regarding partial financial assistance to Scientists going abroad for studies in fields other than mathematics, nuclear science and atomic energy."
+              },
+              {
+                "type": "entry",
+                "num": "24",
+                "text": "Expansion, Development and Coordination of Technical Education."
+              },
+              {
+                "type": "entry",
+                "num": "25",
+                "text": "School of Planning and Architecture."
+              },
+              {
+                "type": "entry",
+                "num": "26",
+                "text": "Regional Schools of Printing."
+              },
+              {
+                "type": "entry",
+                "num": "27",
+                "text": "Grants-in-aid to State Government institutions, non-Government institutions, professional bodies and technical institutions of Union Territories for technical education. Grants-in-aid for post-graduate studies in basic sciences, grants-in-aid for development of higher scientific and technological education and research in educational institutions; Grant-in-aid for fundamental research in science and technology; grants to individuals for fundamental research."
+              },
+              {
+                "type": "entry",
+                "num": "28",
+                "text": "All India Council for Technical Education including conduct of its National Diploma and National Certificate Examinations."
+              },
+              {
+                "type": "entry",
+                "num": "2182",
+                "text": "GI06-3"
+              },
+              {
+                "type": "entry",
+                "num": "29",
+                "text": "Practical training facilities for students of engineering and technological institutions."
+              },
+              {
+                "type": "entry",
+                "num": "30",
+                "text": "Recognition of professional technical qualification for purposes of recruitment to posts under Governmnet of India."
+              },
+              {
+                "type": "entry",
+                "num": "31",
+                "text": "National Research Professorships and Fellowships."
+              },
+              {
+                "type": "entry",
+                "num": "32",
+                "text": "Holding of Foreign Examination in the fields of professional and technical education in India."
+              },
+              {
+                "type": "entry",
+                "num": "33",
+                "text": "University Grants Commission."
+              },
+              {
+                "type": "entry",
+                "num": "34",
+                "text": "National Book Trust."
+              },
+              {
+                "type": "entry",
+                "num": "35",
+                "text": "Administrative Staff College of India, Hyderabad."
+              },
+              {
+                "type": "entry",
+                "num": "36",
+                "text": "Indian School of Mines and Applied Geology, Dhanbad."
+              },
+              {
+                "type": "entry",
+                "num": "37",
+                "text": "Indian Institutes of Technology at Kharagpur, Mumbai, Kanpur, Chennai, Delhi, Guwahati and Roorkee"
+              },
+              {
+                "type": "entry",
+                "num": "38",
+                "text": "Indian Institute of Science, Bangalore."
+              },
+              {
+                "type": "entry",
+                "num": "39",
+                "text": "The Tata Institute of Social Sciences, Mumbai"
+              },
+              {
+                "type": "entry",
+                "num": "40",
+                "text": "International Students Houses in India and abroad."
+              },
+              {
+                "type": "entry",
+                "num": "41",
+                "text": "Schemes for grant of financial assistance to voluntary organizations for promotion of modern Indian languages."
+              },
+              {
+                "type": "entry",
+                "num": "42",
+                "text": "Regulation of Engineering Professional Services."
+              }
+            ],
+            "flags": [
+              "read_page_break"
+            ],
+            "words": [
+              "r1.w2495",
+              "r1.w2503"
+            ],
+            "boxes": [
+              {
+                "page": 6,
+                "bbox": [
+                  532,
+                  2977,
+                  1588,
+                  3017
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 6,
+            "source_ref": "2(2)(C)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r107.rel6",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF DEVELOPMENT OF NORTH EASTERN REGION"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w3143",
+                "r1.w3162"
+              ],
+              "boxes": [
+                {
+                  "page": 8,
+                  "bbox": [
+                    509,
+                    1289,
+                    2214,
+                    1380
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "ministry",
+                "heading": "MINISTRY OF EARTH SCIENCES",
+                "heading_hi": "PRITHVI VIGYAN MANTRALAYA"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Earth Commission and all matters relating thereto."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": ""
+              },
+              {
+                "type": "item",
+                "num": "a",
+                "text": "(i) Matters of policy, coordination and schemes relating to the Ocean, meteorology, seismology. marine environment, atmosphere and earth sciences, not specifically allocated to any other Department or Ministry"
+              },
+              {
+                "type": "item",
+                "num": "ii",
+                "text": "research (including fundamental research) and the development of uses relatable thereto:"
+              },
+              {
+                "type": "item",
+                "num": "ii",
+                "text": "technology development"
+              },
+              {
+                "type": "item",
+                "num": "iv",
+                "text": "surveys to map, locate and assess living and non-living marine resources"
+              },
+              {
+                "type": "item",
+                "num": "v",
+                "text": "preservation, conservation and protection of marine resources"
+              },
+              {
+                "type": "item",
+                "num": "vi",
+                "text": "development of appropriate skills and manpower"
+              },
+              {
+                "type": "item",
+                "num": "vii",
+                "text": "international collaboration and cooperation."
+              },
+              {
+                "type": "item",
+                "num": "b",
+                "text": "laws and regulatory measures relating to the above."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "Marine environment on the high seas."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "Earth System Organisation (ESO)."
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "The Pan Indian Ocean Science Association."
+              },
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "Ocean Science and Technology Agency or Board."
+              },
+              {
+                "type": "entry",
+                "num": "7",
+                "text": "National Institute of Ocean Technology (NIOT)."
+              },
+              {
+                "type": "entry",
+                "num": "8",
+                "text": "National Centre for Antarctic and Ocean Research (NCAOR)."
+              },
+              {
+                "type": "entry",
+                "num": "9",
+                "text": "Indian National Centre for Ocean Information Services (INCOIS). }"
+              },
+              {
+                "type": "entry",
+                "num": "10",
+                "text": "Institute of Tropical Meteorology."
+              },
+              {
+                "type": "entry",
+                "num": "11",
+                "text": "Indian Meteorological Department (IMD) and Earthquake Risk Evaluation Centre."
+              },
+              {
+                "type": "entry",
+                "num": "12",
+                "text": "National Centre for Medium Range Weather Forecasting (NCMRWF)."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w3142",
+              "r1.w3152"
+            ],
+            "boxes": [
+              {
+                "page": 8,
+                "bbox": [
+                  411,
+                  1289,
+                  1900,
+                  1326
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 7,
+            "source_ref": "2(2)(D)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r107.rel7",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF OCEAN DEVELOPMENT"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w3350",
+                "r1.w3363"
+              ],
+              "boxes": [
+                {
+                  "page": 8,
+                  "bbox": [
+                    524,
+                    2910,
+                    2214,
+                    2997
+                  ]
+                }
+              ]
+            },
+            "expect": "MINISTRY OF OCEAN DEVELOPMENT (MAHASAGAR VIKAS MANTRALAYA¡¨",
+            "flags": [],
+            "words": [
+              "r1.w3349",
+              "r1.w3355"
+            ],
+            "boxes": [
+              {
+                "page": 8,
+                "bbox": [
+                  446,
+                  2910,
+                  1484,
+                  2947
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 8,
+            "source_ref": "2(2)(E)(i)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r107.rel8",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF AGRICULTURE"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF AGRICULTURE AND COOPERATION"
+                },
+                {
+                  "type": "entry",
+                  "num": "46"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w3403",
+                "r1.w3405"
+              ],
+              "boxes": [
+                {
+                  "page": 9,
+                  "bbox": [
+                    1007,
+                    341,
+                    1226,
+                    380
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "46A",
+                "text": "Production of plant material, development of nurseries and plantations for bio-fuels including coordination with other Ministries or Departments in this regard"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w3389",
+              "r1.w3398"
+            ],
+            "boxes": [
+              {
+                "page": 9,
+                "bbox": [
+                  499,
+                  291,
+                  1948,
+                  329
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 9,
+            "source_ref": "2(2)(E)(ii)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r107.rel9",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF AGRICULTURE"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF AGRICULTURAL RESEARCH AND EDUCATION"
+                },
+                {
+                  "type": "entry",
+                  "num": "11"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w3451",
+                "r1.w3453"
+              ],
+              "boxes": [
+                {
+                  "page": 9,
+                  "bbox": [
+                    1500,
+                    575,
+                    1728,
+                    616
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "12",
+                "text": "Research and Development on production and improvement of bio-fuels plants"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w3435",
+              "r1.w3445"
+            ],
+            "boxes": [
+              {
+                "page": 9,
+                "bbox": [
+                  488,
+                  525,
+                  2187,
+                  563
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 10,
+            "source_ref": "2(2)(F)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r107.rel10",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF CONSUMER AFFAIRS, FOOD AND PUBLIC DISTRIBUTION"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF CONSUMER AFFAIRS"
+                },
+                {
+                  "type": "entry",
+                  "num": "10"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w3503",
+                "r1.w3505"
+              ],
+              "boxes": [
+                {
+                  "page": 9,
+                  "bbox": [
+                    553,
+                    858,
+                    2184,
+                    944
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "10A",
+                "text": "Laying down specifications, standard and codes and ensuring quality control of bio-fuels for and uses"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w3473",
+              "r1.w3484"
+            ],
+            "boxes": [
+              {
+                "page": 9,
+                "bbox": [
+                  483,
+                  758,
+                  2182,
+                  795
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 11,
+            "source_ref": "2(2)(G)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r107.rel11",
+            "target": [
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "MINISTRY OF SCIENCE AND TECHNOLOGY"
+                  },
+                  {
+                    "type": "department",
+                    "heading": "DEPARTMENT OF SCIENCE AND TECHNOLOGY"
+                  },
+                  {
+                    "type": "entry",
+                    "num": "8"
+                  },
+                  {
+                    "type": "item",
+                    "num": "f"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r1.w3556",
+                  "r1.w3562"
+                ],
+                "boxes": [
+                  {
+                    "page": 9,
+                    "bbox": [
+                      1300,
+                      1193,
+                      1849,
+                      1232
+                    ]
+                  }
+                ]
+              },
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "MINISTRY OF SCIENCE AND TECHNOLOGY"
+                  },
+                  {
+                    "type": "department",
+                    "heading": "DEPARTMENT OF SCIENCE AND TECHNOLOGY"
+                  },
+                  {
+                    "type": "entry",
+                    "num": "8"
+                  },
+                  {
+                    "type": "item",
+                    "num": "h"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r1.w3562",
+                  "r1.w3562"
+                ],
+                "boxes": [
+                  {
+                    "page": 9,
+                    "bbox": [
+                      1781,
+                      1193,
+                      1849,
+                      1232
+                    ]
+                  }
+                ]
+              }
+            ],
+            "content": [
+              {
+                "type": "entry",
+                "num": "8",
+                "text": ""
+              },
+              {
+                "type": "item",
+                "num": "f",
+                "text": "Autonomous Science and Technology Institutions relating to the subject under the Department of Science and Technology, including Institute of Astro-physics and Institute of Geo-magnetism"
+              },
+              {
+                "type": "entry",
+                "num": "8",
+                "text": ""
+              },
+              {
+                "type": "item",
+                "num": "h",
+                "text": "The Survey.of India and National Atlas and Thematic Mapping Organization"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w3529",
+              "r1.w3537"
+            ],
+            "boxes": [
+              {
+                "page": 9,
+                "bbox": [
+                  480,
+                  1091,
+                  1635,
+                  1130
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 12,
+            "source_ref": "2(2)(II)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r107.rel12",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF ENVIRONMENT AND FORESTS"
+                },
+                {
+                  "type": "entry",
+                  "num": "23"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w3619",
+                "r1.w3621"
+              ],
+              "boxes": [
+                {
+                  "page": 9,
+                  "bbox": [
+                    890,
+                    1544,
+                    1112,
+                    1582
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "23A",
+                "text": "Bio-fuel plantations in forest, wastelands and environmental issues concerning bio-fuels"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w3606",
+              "r1.w3614"
+            ],
+            "boxes": [
+              {
+                "page": 9,
+                "bbox": [
+                  478,
+                  1494,
+                  1654,
+                  1531
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 13,
+            "source_ref": "2(2)(I)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r107.rel13",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF NON-CONVENTIONAL ENERGY SOURCES"
+                },
+                {
+                  "type": "entry",
+                  "num": "10"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w3653",
+                "r1.w3655"
+              ],
+              "boxes": [
+                {
+                  "page": 9,
+                  "bbox": [
+                    1165,
+                    1727,
+                    1390,
+                    1766
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "11",
+                "text": "National Policy on Bio-fuels"
+              },
+              {
+                "type": "item",
+                "num": "ii",
+                "text": "research, development and demonstration on transport, stationary and other applications of bio-fuels"
+              },
+              {
+                "type": "item",
+                "num": "iii",
+                "text": "setting up of a National Bio-fuel Development Board and strengthening the existing institutional mechanism; and"
+              },
+              {
+                "type": "item",
+                "num": "iv",
+                "text": "overall coordination concerning bio-fuels"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w3640",
+              "r1.w3648"
+            ],
+            "boxes": [
+              {
+                "page": 9,
+                "bbox": [
+                  490,
+                  1676,
+                  1867,
+                  1716
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 14,
+            "source_ref": "2(2)(J)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r107.rel14",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF PETROLEUM AND NATURAL GAS"
+                },
+                {
+                  "type": "entry",
+                  "num": "5"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w3717",
+                "r1.w3719"
+              ],
+              "boxes": [
+                {
+                  "page": 9,
+                  "bbox": [
+                    1196,
+                    2212,
+                    1394,
+                    2250
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "5A",
+                "text": ""
+              },
+              {
+                "type": "item",
+                "num": "i",
+                "text": "Blending and blending prescriptions for bio-fuels including laying down the standards for such blending; and"
+              },
+              {
+                "type": "item",
+                "num": "ii",
+                "text": "marketing, distribution and retailing of bio-fuels and its blended products"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w3702",
+              "r1.w3711"
+            ],
+            "boxes": [
+              {
+                "page": 9,
+                "bbox": [
+                  486,
+                  2161,
+                  1801,
+                  2200
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 15,
+            "source_ref": "2(2)(K)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r107.rel15",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF RURAL DEVELOPMENT"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF LAND RESOURCES"
+                },
+                {
+                  "type": "entry",
+                  "num": "16"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w3776",
+                "r1.w3778"
+              ],
+              "boxes": [
+                {
+                  "page": 9,
+                  "bbox": [
+                    553,
+                    2565,
+                    778,
+                    2603
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "17",
+                "text": ""
+              },
+              {
+                "type": "item",
+                "num": "i",
+                "text": "National Mission on Bio-fuels"
+              },
+              {
+                "type": "item",
+                "num": "ii",
+                "text": "bio-fuel plant production, propagation and commercial plantation of bio-fuel plants under various schemes of the Ministry of Rural Development in consultation with the Ministry of Agriculture and the Ministry of Panchayati Raj; and"
+              },
+              {
+                "type": "item",
+                "num": "iii",
+                "text": "identification of non-forest land wastelands in consultation with; the State Governments, the Ministry of Agriculture and the Ministry of Panchayati Raj for bio-fuel plant production"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w3755",
+              "r1.w3762"
+            ],
+            "boxes": [
+              {
+                "page": 9,
+                "bbox": [
+                  479,
+                  2460,
+                  1540,
+                  2501
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 16,
+            "source_ref": "2(2)(1)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r107.rel16",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF SCIENCE AND TECHNOLOGY"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF SCIENCE AND TECHNOLOGY."
+                },
+                {
+                  "type": "entry",
+                  "num": "3"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w3889",
+                "r1.w3891"
+              ],
+              "boxes": [
+                {
+                  "page": 10,
+                  "bbox": [
+                    1367,
+                    288,
+                    1578,
+                    326
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "group_heading",
+                "num": "A",
+                "text": "(i) Research and Development through its research institutions or laboratories for development of indigenous technologies concerning bio-fuel production, processing, standardization and applications, in co-ordination with the concerned Ministry or Department; and"
+              },
+              {
+                "type": "item",
+                "num": "ii",
+                "text": "Research and Development activities to promote utilization of by-products to develop value added chemicals"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w3852",
+              "r1.w3860"
+            ],
+            "boxes": [
+              {
+                "page": 9,
+                "bbox": [
+                  480,
+                  2981,
+                  1633,
+                  3026
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 17,
+            "source_ref": "2(2)(M)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r107.rel17",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF SCIENCE AND TECHNOLOGY"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF BIOTECHNOLOGY"
+                },
+                {
+                  "type": "entry",
+                  "num": "5"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w3968",
+                "r1.w3970"
+              ],
+              "boxes": [
+                {
+                  "page": 10,
+                  "bbox": [
+                    1222,
+                    787,
+                    1469,
+                    824
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "5A",
+                "text": "Research and Development programme on biodiesel including production and demonstration of quality plantation material, establishment of clonal nurseries of superior accessions, oil characterization and ex situ conservation of superior accessions; lab studies on tranesterification of Jatropha, Pongamia, Madhuca, Salvadora and mixed oils; plant genetics for increasing yield and productivity; Research and Development for bioethanol recovery from alternate feed stock through bio-technological interventions"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w3946",
+              "r1.w3954"
+            ],
+            "boxes": [
+              {
+                "page": 10,
+                "bbox": [
+                  507,
+                  688,
+                  1656,
+                  725
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 18,
+            "source_ref": "2(2)(N)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r107.rel18",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF COAL"
+                },
+                {
+                  "type": "entry",
+                  "num": "4"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w4050",
+                "r1.w4052"
+              ],
+              "boxes": [
+                {
+                  "page": 10,
+                  "bbox": [
+                    1779,
+                    1223,
+                    1978,
+                    1259
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "4A",
+                "text": "All work related to coal gasitication"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w4041",
+              "r1.w4047"
+            ],
+            "boxes": [
+              {
+                "page": 10,
+                "bbox": [
+                  505,
+                  1223,
+                  1249,
+                  1259
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

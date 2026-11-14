@@ -1,0 +1,69 @@
+# A person's changes to 1_Upload_335.pdf (GovDoc §8.3), one record per action, in order. Written by
+# GovDoc Studio and brought into the GovDoc file by the pipeline before it runs (Pipeline §P9).
+file: 1_Upload_335.pdf
+file_id: f_2e082903bb9963f6
+next: 5
+runs:
+- id: h1
+  by: mukundesh
+  at: '2026-11-07T15:47:28Z'
+  annotations:
+  - id: h1.a1
+    layer: entity
+    label: core:provision
+    words: [r6.w1502, r6.w1515]
+    value:
+      act: ACT_GOI_AOB_RULES_1961
+      path:
+      - {kind: schedule, number: '2'}
+      - {kind: ministry, text: MINISTRY OF FINANCE}
+      - {kind: department, text: DEPARTMENT OF ECONOMIC AFFAIRS}
+      - {kind: group_heading, text: V. INSURANCE}
+    supersedes: {label: 'core:provision', words: [r6.w1502, r6.w1515]}
+  relations:
+  - id: h1.r1
+    label: legal:repeal
+    words: [r6.w1490, r6.w1497]
+    doc_id: GOI_SO_1050E_2007
+    args:
+    - {name: provision, annotation: h1.a1}
+    - {name: provision, annotation: {label: 'core:provision', words: [r6.w1502, r6.w1515]}}
+    - {name: seq, value: 5}
+    - {name: clause_ref, value: 2(2)(c)(i)}
+    supersedes: {label: 'legal:repeal', words: [r6.w1490, r6.w1497]}
+- id: h2
+  by: mukundesh
+  at: '2026-11-14T07:57:53Z'
+  annotations:
+  - id: h2.a1
+    layer: entity
+    label: core:provision
+    words: [r6.w1490, r6.w1497]
+    value:
+      act: ACT_GOI_AOB_RULES_1961
+      path:
+      - {kind: schedule, number: '2'}
+      - {kind: ministry, text: MINISTRY OF FINANCE}
+      - {kind: department, text: DEPARTMENT OF ECONOMIC AFFAIRS}
+      - {kind: group_heading, text: VI. BANKING}
+  relations:
+  - id: h2.r1
+    label: legal:repeal
+    words: [r6.w1490, r6.w1497]
+    doc_id: GOI_SO_1050E_2007
+    args:
+    - {name: provision, annotation: h1.a1}
+    - {name: provision, annotation: h2.a1}
+    - {name: seq, value: 5}
+    - {name: clause_ref, value: 2(2)(c)(i)}
+    supersedes: {label: 'legal:repeal', words: [r6.w1490, r6.w1497]}
+- id: h3
+  by: mukundesh
+  at: '2026-11-14T08:16:52Z'
+  reviews:
+  - {status: rejected, issue: {code: 'aob:read_quote_mismatch', word: r6.w1490, n: 1}}
+- id: h4
+  by: mukundesh
+  at: '2026-11-14T08:16:53Z'
+  reviews:
+  - {status: rejected, issue: {code: 'aob:read_quote_mismatch', word: r6.w1490, n: 2}}

@@ -1,0 +1,130 @@
+# A person's changes to 1_Upload_123.pdf (GovDoc §8.3), one record per action, in order. Written by
+# GovDoc Studio and brought into the GovDoc file by the pipeline before it runs (Pipeline §P9).
+file: 1_Upload_123.pdf
+file_id: f_4d37241428607c7a
+next: 16
+runs:
+- id: h1
+  by: claude
+  at: '2026-11-12T16:01:00Z'
+  edits:
+  - {op: text, target: r1.w140, before: {text: '(Khadva'}, after: {text: '(Khadya'}}
+- id: h2
+  by: claude
+  at: '2026-11-12T16:02:00Z'
+  edits:
+  - {op: text, target: r1.w187, before: {text: '(Mantralaya)7'}, after: {text: '(Mantralaya)'}}
+- id: h3
+  by: claude
+  at: '2026-11-12T16:03:00Z'
+  edits:
+  - {op: text, target: r1.w327, before: {text: i)}, after: {text: '(ii)'}}
+- id: h4
+  by: claude
+  at: '2026-11-12T16:04:00Z'
+  edits:
+  - {op: text, target: r1.w340, before: {text: '(Socchana'}, after: {text: '(Soochana'}}
+- id: h5
+  by: claude
+  at: '2026-11-12T16:05:00Z'
+  edits:
+  - {op: text, target: r1.w510, before: {text: '(Niman'}, after: {text: '(Nirman'}}
+- id: h6
+  by: claude
+  at: '2026-11-12T16:06:00Z'
+  edits:
+  - {op: text, target: r1.w551, before: {text: nur}, after: {text: Aur}}
+- id: h7
+  by: claude
+  at: '2026-11-12T16:07:00Z'
+  edits:
+  - {op: text, target: r1.w596, before: {text: 'nyog).";'}, after: {text: 'Ayog).";'}}
+- id: h8
+  by: claude
+  at: '2026-11-12T16:08:00Z'
+  edits:
+  - {op: text, target: r1.w116, before: {text: SECRETAR}, after: {text: SECRETARIATS}}
+- id: h9
+  by: claude
+  at: '2026-11-12T16:09:00Z'
+  edits:
+  - op: remove_word
+    target: r1.w481
+    before:
+      page: 3
+      word: {id: r1.w481, text: ☐, bbox: [413, 1548, 457, 1594], confidence: 0.46}
+      line: r2.l117
+      after: null
+    after: null
+- id: h10
+  by: claude
+  at: '2026-11-12T16:10:00Z'
+  edits:
+  - op: remove_word
+    target: r1.w213
+    before:
+      page: 1
+      word: {id: r1.w213, text: 2/-.., bbox: [1867, 3366, 2014, 3415], confidence: 0.34}
+      line: r2.l44
+      after: null
+    after: null
+- id: h11
+  by: claude
+  at: '2026-11-12T16:11:00Z'
+  edits:
+  - op: remove_word
+    target: r1.w220
+    before:
+      page: 2
+      word: {id: r1.w220, text: i, bbox: [1875, 261, 1898, 293], confidence: 0.49}
+      line: r2.l45
+      after: null
+    after: null
+- id: h12
+  by: claude
+  at: '2026-11-12T16:12:00Z'
+  edits:
+  - op: remove_word
+    target: r1.w455
+    before:
+      page: 2
+      word: {id: r1.w455, text: 3/m., bbox: [1832, 3349, 1931, 3382], confidence: 0.53}
+      line: r2.l100
+      after: null
+    after: null
+- id: h13
+  by: claude
+  at: '2026-11-12T16:13:00Z'
+  edits:
+  - op: remove_word
+    target: r1.w456
+    before:
+      page: 3
+      word: {id: r1.w456, text: '3', bbox: [1278, 214, 1312, 246], confidence: 0.98}
+      line: r2.l101
+      after: null
+    after: null
+- id: h14
+  by: claude
+  at: '2026-11-12T16:14:00Z'
+  edits:
+  - op: remove_word
+    target: r1.w117
+    before:
+      page: 1
+      word: {id: r1.w117, text: ATS, bbox: [1765, 2185, 1848, 2224], confidence: 0.98}
+      line: r2.l22
+      after: r1.w116
+    after: null
+- id: h15
+  by: claude
+  at: '2026-11-12T16:16:00Z'
+  edits:
+  - op: add_word
+    target: h15.w1
+    before: null
+    after:
+      page: 2
+      word: {id: h15.w1, text: '9.', bbox: [386, 1289, 440, 1330]}
+      line: r2.l62
+      after: null

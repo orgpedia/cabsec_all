@@ -1,0 +1,357 @@
+{
+  "file": {
+    "name": "1_Upload_92.pdf",
+    "file_id": "f_1fe02da08aeac8c2",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_92.pdf",
+    "sha256": "1fe02da08aeac8c2efe52f6d644dd9e7d176de8a4c0973ecdf2c753ce579e27a",
+    "govdoc": "1_Upload_92.pdf.govdoc.json.zst",
+    "revision": 46
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_1352_1967",
+      "doc_type": "aob_amendment",
+      "parent": "GAZETTE_ISSUE_1fe02da08aeac8c2",
+      "fields": {
+        "number": {
+          "value": "S.O. 1352"
+        },
+        "in_force": {
+          "value": "1967-04-14"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "1967-04-14",
+          "basis": "stated"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T13:48:57.304892+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "(A)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r10.rel1",
+            "target": {
+              "cited": [
+                {
+                  "type": "rule",
+                  "num": "4"
+                },
+                {
+                  "type": "sub_rule",
+                  "num": "b"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w176",
+                "r1.w184"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    384,
+                    2052,
+                    1120,
+                    2087
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "sub_rule",
+                "num": "b",
+                "text": "the responsibility for specified items of business affecting any one or more than onc department may be rntrusted to a Minister who is incharge of any other Department or to a Minister without Portfolio who is not incharge of any department."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w175",
+              "r1.w181"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  304,
+                  2052,
+                  832,
+                  2087
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "(B)(1)(a)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r10.rel2",
+            "target": [
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "Ministry of Education"
+                  },
+                  {
+                    "type": "entry",
+                    "num": "97"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r1.w252",
+                  "r1.w252"
+                ],
+                "boxes": [
+                  {
+                    "page": 1,
+                    "bbox": [
+                      582,
+                      2398,
+                      628,
+                      2432
+                    ]
+                  }
+                ]
+              },
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "Ministry of Education"
+                  },
+                  {
+                    "type": "entry",
+                    "num": "98"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r1.w253",
+                  "r1.w253"
+                ],
+                "boxes": [
+                  {
+                    "page": 1,
+                    "bbox": [
+                      649,
+                      2398,
+                      682,
+                      2432
+                    ]
+                  }
+                ]
+              },
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "Ministry of Education"
+                  },
+                  {
+                    "type": "entry",
+                    "num": "99"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r1.w255",
+                  "r1.w255"
+                ],
+                "boxes": [
+                  {
+                    "page": 1,
+                    "bbox": [
+                      787,
+                      2398,
+                      822,
+                      2432
+                    ]
+                  }
+                ]
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w249",
+              "r1.w255"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  373,
+                  2398,
+                  822,
+                  2432
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 3,
+            "source_ref": "(B)(1)(b)",
+            "op": "renumber",
+            "akn_type": "renumbering",
+            "relation": "r10.rel3",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Education"
+                },
+                {
+                  "type": "entry",
+                  "num": "100"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w260",
+                "r1.w263"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    444,
+                    2447,
+                    843,
+                    2482
+                  ]
+                }
+              ]
+            },
+            "new_num": "97",
+            "flags": [],
+            "words": [
+              "r1.w259",
+              "r1.w265"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  370,
+                  2447,
+                  1009,
+                  2482
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 4,
+            "source_ref": "(B)(2)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r10.rel4",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Law"
+                },
+                {
+                  "type": "department",
+                  "heading": "Legislative Department"
+                },
+                {
+                  "type": "entry",
+                  "num": "15"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w294",
+                "r1.w296"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1176,
+                    188,
+                    1445,
+                    226
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Other Subjects"
+              },
+              {
+                "type": "entry",
+                "num": "16",
+                "text": "The Muslim Wakfs Act, 1954."
+              },
+              {
+                "type": "entry",
+                "num": "17",
+                "text": "Work in respect of Wakf properties under the Administration of Evacuee Property Act, 1950."
+              },
+              {
+                "type": "entry",
+                "num": "18",
+                "text": "Administration of Durgah Khawaja Saheb Act, 1955."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w280",
+              "r1.w286"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  380,
+                  160,
+                  1202,
+                  193
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

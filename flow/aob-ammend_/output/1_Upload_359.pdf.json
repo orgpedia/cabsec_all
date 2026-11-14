@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_359.pdf",
     "sha256": "63be9ca2ac189dcb01f585ea4d39217ada490f196630663ab891bc33cff0b426",
     "govdoc": "1_Upload_359.pdf.govdoc.json.zst",
-    "revision": 44
+    "revision": 188
   },
   "documents": [
     {
@@ -29,9 +29,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "2",
+          "version": "3",
           "model": "gemini-4-argon",
-          "at": "2026-11-03T16:59:03.296056+00:00"
+          "at": "2026-11-12T12:55:59.055441+00:00"
         },
         "ops": [
           {
@@ -39,6 +39,7 @@
             "source_ref": "2(a)",
             "op": "omit",
             "akn_type": "repeal",
+            "relation": "r152.rel1",
             "target": [
               {
                 "cited": [
@@ -57,14 +58,14 @@
                 ],
                 "eId": null,
                 "words": [
-                  "r1.w379",
-                  "r1.w379"
+                  "r51.w378",
+                  "r51.w379"
                 ],
                 "boxes": [
                   {
                     "page": 2,
                     "bbox": [
-                      1228,
+                      1090,
                       1642,
                       1268,
                       1675
@@ -89,8 +90,8 @@
                 ],
                 "eId": null,
                 "words": [
-                  "r1.w381",
-                  "r1.w381"
+                  "r51.w381",
+                  "r51.w381"
                 ],
                 "boxes": [
                   {
@@ -107,8 +108,8 @@
             ],
             "flags": [],
             "words": [
-              "r1.w365",
-              "r1.w373"
+              "r51.w365",
+              "r51.w373"
             ],
             "boxes": [
               {
@@ -127,6 +128,7 @@
             "source_ref": "2(b)",
             "op": "omit",
             "akn_type": "repeal",
+            "relation": "r152.rel2",
             "target": [
               {
                 "cited": [
@@ -149,8 +151,8 @@
                 ],
                 "eId": null,
                 "words": [
-                  "r1.w406",
-                  "r1.w406"
+                  "r51.w406",
+                  "r51.w406"
                 ],
                 "boxes": [
                   {
@@ -185,8 +187,8 @@
                 ],
                 "eId": null,
                 "words": [
-                  "r1.w408",
-                  "r1.w408"
+                  "r51.w408",
+                  "r51.w408"
                 ],
                 "boxes": [
                   {
@@ -203,8 +205,8 @@
             ],
             "flags": [],
             "words": [
-              "r1.w385",
-              "r1.w395"
+              "r51.w385",
+              "r51.w395"
             ],
             "boxes": [
               {
@@ -223,6 +225,7 @@
             "source_ref": "2(c)(i)",
             "op": "replace",
             "akn_type": "replacement",
+            "relation": "r152.rel3",
             "target": {
               "cited": [
                 {
@@ -240,8 +243,8 @@
               ],
               "eId": null,
               "words": [
-                "r1.w428",
-                "r1.w430"
+                "r51.w428",
+                "r51.w430"
               ],
               "boxes": [
                 {
@@ -264,8 +267,8 @@
             ],
             "flags": [],
             "words": [
-              "r1.w427",
-              "r1.w437"
+              "r51.w427",
+              "r51.w436"
             ],
             "boxes": [
               {
@@ -273,7 +276,7 @@
                 "bbox": [
                   532,
                   2009,
-                  1825,
+                  1618,
                   2050
                 ]
               }
@@ -284,6 +287,7 @@
             "source_ref": "2(c)(ii)",
             "op": "insert",
             "akn_type": "insertion",
+            "relation": "r152.rel4",
             "position": "after",
             "anchor": {
               "cited": [
@@ -302,8 +306,8 @@
               ],
               "eId": null,
               "words": [
-                "r1.w451",
-                "r1.w458"
+                "r51.w451",
+                "r51.w458"
               ],
               "boxes": [
                 {
@@ -341,8 +345,8 @@
             ],
             "flags": [],
             "words": [
-              "r1.w450",
-              "r1.w465"
+              "r51.w450",
+              "r51.w460"
             ],
             "boxes": [
               {
@@ -350,8 +354,8 @@
                 "bbox": [
                   532,
                   2200,
-                  2248,
-                  2294
+                  1771,
+                  2241
                 ]
               }
             ]

@@ -1,0 +1,161 @@
+{
+  "file": {
+    "name": "1_Upload_114.pdf",
+    "file_id": "f_b2caf13f6bf0945d",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_114.pdf",
+    "sha256": "b2caf13f6bf0945d6fcdd825007978a8375da4a084b852a5e91a2a5ac7ac5393",
+    "govdoc": "1_Upload_114.pdf.govdoc.json.zst",
+    "revision": 49
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_1525_1970",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_156_1970",
+      "fields": {
+        "number": {
+          "value": "S.O. 1525"
+        },
+        "in_force": {
+          "value": "1970-04-22"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "1970-04-22",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T13:49:50.163025+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(a)",
+            "op": "substitute_text",
+            "akn_type": "substitution",
+            "relation": "r12.rel1",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Education and Youth Services"
+                },
+                {
+                  "type": "entry",
+                  "num": "39"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w210",
+                "r1.w212"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    409,
+                    2215,
+                    1676,
+                    2286
+                  ]
+                }
+              ]
+            },
+            "old": "and Indian Council for Cultural Relations",
+            "new": "",
+            "flags": [],
+            "words": [
+              "r1.w199",
+              "r1.w209"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  302,
+                  2215,
+                  1611,
+                  2250
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(b)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r12.rel2",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of External Affairs"
+                },
+                {
+                  "type": "entry",
+                  "num": "2"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w233",
+                "r1.w235"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    1340,
+                    2334,
+                    1597,
+                    2369
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "2A",
+                "text": "Indian Council for Cultural Relations."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w225",
+              "r1.w235"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  301,
+                  2334,
+                  1597,
+                  2369
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

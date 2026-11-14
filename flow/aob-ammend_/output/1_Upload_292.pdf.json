@@ -1,0 +1,216 @@
+{
+  "file": {
+    "name": "1_Upload_292.pdf",
+    "file_id": "f_f1f9a45c843af90c",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_292.pdf",
+    "sha256": "f1f9a45c843af90cc987c3332292452fefac5e340e06a9389712e59ed9d7ab0f",
+    "govdoc": "1_Upload_292.pdf.govdoc.json.zst",
+    "revision": 109
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_897E_2000",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_637_2000",
+      "fields": {
+        "number": {
+          "value": "S.O. 897 (E)"
+        },
+        "in_force": {
+          "value": "2000-09-27"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "2000-09-27",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T12:57:34.319839+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "3(A)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r73.rel1",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF AGRICULTURE"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF AGRICULTURE AND COOPERATION"
+                },
+                {
+                  "type": "entry",
+                  "num": "38"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w439",
+                "r1.w440"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    923,
+                    1430,
+                    1108,
+                    1477
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "38",
+                "text": "Projection of demand of fertilizers and manures at all-India, zone or region level; fixation of targets, nutrient-wise, for zones or regions."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w415",
+              "r1.w422"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  434,
+                  1254,
+                  1875,
+                  1306
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "3(B)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r73.rel2",
+            "target": [
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "MINISTRY OF CHEMICALS AND FERTILIZERS"
+                  },
+                  {
+                    "type": "department",
+                    "heading": "DEPARTMENT OF FERTILIZERS"
+                  },
+                  {
+                    "type": "entry",
+                    "num": "2"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r1.w493",
+                  "r1.w494"
+                ],
+                "boxes": [
+                  {
+                    "page": 2,
+                    "bbox": [
+                      934,
+                      1877,
+                      1111,
+                      1925
+                    ]
+                  }
+                ]
+              },
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "MINISTRY OF CHEMICALS AND FERTILIZERS"
+                  },
+                  {
+                    "type": "department",
+                    "heading": "DEPARTMENT OF FERTILIZERS"
+                  },
+                  {
+                    "type": "entry",
+                    "num": "3"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r1.w496",
+                  "r1.w496"
+                ],
+                "boxes": [
+                  {
+                    "page": 2,
+                    "bbox": [
+                      1218,
+                      1881,
+                      1254,
+                      1927
+                    ]
+                  }
+                ]
+              }
+            ],
+            "content": [
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "Allocation and supply linkages for movement and distribution of urea in terms of assessment made by the Department of Agriculture and Cooperation."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "Administration of concession schemes and management of subsidy for controlled as well as decontrolled fertilizers including determination of retention price for urea, quantum of concession of decontrolled fertilizers and costing of such fertilizers."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w416",
+              "r1.w475"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  426,
+                  1699,
+                  1644,
+                  1758
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

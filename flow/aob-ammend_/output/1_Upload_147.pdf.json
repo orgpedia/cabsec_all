@@ -1,0 +1,331 @@
+{
+  "file": {
+    "name": "1_Upload_147.pdf",
+    "file_id": "f_f3108fb74cefa07e",
+    "pages": 4,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_147.pdf",
+    "sha256": "f3108fb74cefa07e10a5cdd1c425c4e579f7ec4bc1f5b3fa922ee06d27ff2d5e",
+    "govdoc": "1_Upload_147.pdf.govdoc.json.zst",
+    "revision": 49
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_279E_1975",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_213_1975",
+      "fields": {
+        "number": {
+          "value": "S.O. 279 (E)"
+        },
+        "in_force": {
+          "value": "1975-06-26"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "1975-06-26",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T13:50:10.978024+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r12.rel1",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "entry",
+                  "num": "9"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w204",
+                "r1.w210"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    885,
+                    2350,
+                    1505,
+                    2384
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "ministry",
+                "num": "9",
+                "heading": "Ministry of Home Affairs",
+                "remark": "with a Department of Official Language (Rajbhasha Vibhag)",
+                "heading_hi": "Grih Mantralaya"
+              },
+              {
+                "type": "department",
+                "num": "-",
+                "heading": "Department of Official Language",
+                "heading_hi": "Rajbhasha Vibhag"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w183",
+              "r1.w193"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  280,
+                  2316,
+                  1546,
+                  2350
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "3(a)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r12.rel2",
+            "target": [
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "MINISTRY OF HOME AFFAIRS"
+                  },
+                  {
+                    "type": "entry",
+                    "num": "23"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r1.w257",
+                  "r1.w257"
+                ],
+                "boxes": [
+                  {
+                    "page": 1,
+                    "bbox": [
+                      549,
+                      2630,
+                      591,
+                      2664
+                    ]
+                  }
+                ]
+              },
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "MINISTRY OF HOME AFFAIRS"
+                  },
+                  {
+                    "type": "entry",
+                    "num": "23A"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r1.w258",
+                  "r1.w258"
+                ],
+                "boxes": [
+                  {
+                    "page": 1,
+                    "bbox": [
+                      615,
+                      2630,
+                      679,
+                      2664
+                    ]
+                  }
+                ]
+              },
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "MINISTRY OF HOME AFFAIRS"
+                  },
+                  {
+                    "type": "entry",
+                    "num": "25"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r1.w260",
+                  "r1.w260"
+                ],
+                "boxes": [
+                  {
+                    "page": 1,
+                    "bbox": [
+                      789,
+                      2629,
+                      825,
+                      2663
+                    ]
+                  }
+                ]
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w254",
+              "r1.w263"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  336,
+                  2628,
+                  1151,
+                  2666
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 3,
+            "source_ref": "3(b)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r12.rel3",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF HOME AFFAIRS"
+                },
+                {
+                  "type": "entry",
+                  "num": "125"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w275",
+                "r1.w277"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    451,
+                    340,
+                    740,
+                    376
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "ministry",
+                "heading": "DEPARTMENT OF OFFICIAL LANGUAGE",
+                "heading_hi": "RAJBHASHA VIBHAG"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Implementation of the provisions of the Constitution relating to Official Language and the provisions of the Official Languages Act 1983, except to the extent such implementation has been assigned to any other Department."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "Prior approval of the President for authorising the limited use of a language other than English in the proceedings in the High Court of a State."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "All matters relating to the progressive use of Hindi for the official purposes of the Union."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "Coordination of the work relating to Official Language being done by the various Ministries / Departments in the context of the provisiona of the Constitution, the Presidential Order of 27th April, 1960, the Official Languages Act, 1963 and the Government Resolution on Language dated 18th January, 1968."
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "Hindi Teaching Scheme for the Central Government Employees."
+              },
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "Matters relating to Kendriya Hindi Samiti."
+              },
+              {
+                "type": "entry",
+                "num": "7",
+                "text": "Coordination of work relating to the Hindi Salahakar Samitis set up by the various Ministries / Departments."
+              },
+              {
+                "type": "entry",
+                "num": "8",
+                "text": "Matters relating to the Central Translation Bureau."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w274",
+              "r1.w285"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  378,
+                  340,
+                  1755,
+                  376
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

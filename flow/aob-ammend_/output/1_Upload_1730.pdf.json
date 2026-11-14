@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_1730.pdf",
     "sha256": "5dc9b1f52ed29fac0d4efccb63c4a765012de0f3501be090e0827767a8fa93c4",
     "govdoc": "1_Upload_1730.pdf.govdoc.json.zst",
-    "revision": 65
+    "revision": 209
   },
   "documents": [
     {
@@ -29,9 +29,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "2",
+          "version": "3",
           "model": "gemini-4-argon",
-          "at": "2026-11-03T16:59:03.256321+00:00"
+          "at": "2026-11-12T12:55:58.798353+00:00"
         },
         "ops": [
           {
@@ -39,6 +39,7 @@
             "source_ref": "2(i)",
             "op": "omit",
             "akn_type": "repeal",
+            "relation": "r173.rel1",
             "target": [
               {
                 "cited": [
@@ -52,7 +53,7 @@
                   },
                   {
                     "type": "department",
-                    "heading": "DEPARTMENT OF CHEMICALS AND PETRO- CHEMICALS"
+                    "heading": "DEPARTMENT OF CHEMICALS AND PETRO-CHEMICALS"
                   },
                   {
                     "type": "entry",
@@ -61,8 +62,8 @@
                 ],
                 "eId": null,
                 "words": [
-                  "r17.w337",
-                  "r17.w338"
+                  "r72.w337",
+                  "r72.w338"
                 ],
                 "boxes": [
                   {
@@ -88,7 +89,7 @@
                   },
                   {
                     "type": "department",
-                    "heading": "DEPARTMENT OF CHEMICALS AND PETRO- CHEMICALS"
+                    "heading": "DEPARTMENT OF CHEMICALS AND PETRO-CHEMICALS"
                   },
                   {
                     "type": "entry",
@@ -97,8 +98,8 @@
                 ],
                 "eId": null,
                 "words": [
-                  "r17.w340",
-                  "r17.w340"
+                  "r72.w340",
+                  "r72.w340"
                 ],
                 "boxes": [
                   {
@@ -115,8 +116,8 @@
             ],
             "flags": [],
             "words": [
-              "r17.w310",
-              "r17.w316"
+              "r72.w310",
+              "r72.w316"
             ],
             "boxes": [
               {
@@ -135,6 +136,7 @@
             "source_ref": "2(ii)",
             "op": "insert",
             "akn_type": "insertion",
+            "relation": "r173.rel2",
             "position": "after",
             "anchor": {
               "cited": [
@@ -157,8 +159,8 @@
               ],
               "eId": null,
               "words": [
-                "r17.w379",
-                "r17.w381"
+                "r72.w379",
+                "r72.w381"
               ],
               "boxes": [
                 {
@@ -191,8 +193,8 @@
             ],
             "flags": [],
             "words": [
-              "r17.w344",
-              "r17.w350"
+              "r72.w344",
+              "r72.w350"
             ],
             "boxes": [
               {

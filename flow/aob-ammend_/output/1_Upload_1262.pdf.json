@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_1262.pdf",
     "sha256": "8245db94d0fafafbfb2235c60b1c749e11ebab7542d9f978d61db1c67ed63a55",
     "govdoc": "1_Upload_1262.pdf.govdoc.json.zst",
-    "revision": 65
+    "revision": 201
   },
   "documents": [
     {
@@ -29,9 +29,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "2",
+          "version": "3",
           "model": "gemini-4-argon",
-          "at": "2026-11-03T16:59:03.492145+00:00"
+          "at": "2026-11-12T12:56:16.548122+00:00"
         },
         "ops": [
           {
@@ -39,6 +39,7 @@
             "source_ref": "2(a)",
             "op": "omit",
             "akn_type": "repeal",
+            "relation": "r165.rel1",
             "target": {
               "cited": [
                 {
@@ -93,6 +94,7 @@
             "source_ref": "2(b)(i)",
             "op": "insert",
             "akn_type": "insertion",
+            "relation": "r165.rel2",
             "position": "after",
             "anchor": {
               "cited": [
@@ -165,7 +167,7 @@
               {
                 "type": "item",
                 "num": "vii",
-                "text": "research, development and demonstration on transport, stationary and other applications of bio- fuels."
+                "text": "research, development and demonstration on transport, stationary and other applications of biofuels."
               }
             ],
             "flags": [],
@@ -190,6 +192,7 @@
             "source_ref": "2(b)(ii)",
             "op": "omit",
             "akn_type": "repeal",
+            "relation": "r165.rel3",
             "target": {
               "cited": [
                 {

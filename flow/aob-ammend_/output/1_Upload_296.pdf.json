@@ -1,0 +1,2034 @@
+{
+  "file": {
+    "name": "1_Upload_296.pdf",
+    "file_id": "f_271d55128f569887",
+    "pages": 26,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_296.pdf",
+    "sha256": "271d55128f5698874eb4a233ac867764cf51e645f49e8d11a66129efd47c7657",
+    "govdoc": "1_Upload_296.pdf.govdoc.json.zst",
+    "revision": 123
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_858E_2001",
+      "doc_type": "aob_amendment",
+      "parent": "GAZETTE_ISSUE_271d55128f569887",
+      "fields": {
+        "number": {
+          "value": "S.O. 858(E)"
+        },
+        "in_force": {
+          "value": "2001-09-06"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "2001-09-06",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T12:55:19.950259+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(2)(A)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r84.rel1",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Agriculture"
+                },
+                {
+                  "type": "department",
+                  "heading": "Department of Food Processing Industries"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w2767",
+                "r1.w2778"
+              ],
+              "boxes": [
+                {
+                  "page": 15,
+                  "bbox": [
+                    777,
+                    1172,
+                    2365,
+                    1259
+                  ]
+                }
+              ]
+            },
+            "expect": "(iv) Department of Food Processing Industries (Khadya Prasanskaran Udyog Vibhag)",
+            "flags": [],
+            "words": [
+              "r1.w2755",
+              "r1.w2766"
+            ],
+            "boxes": [
+              {
+                "page": 15,
+                "bbox": [
+                  648,
+                  1130,
+                  2357,
+                  1171
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(2)(B)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r84.rel2",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Agriculture"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w2782",
+                "r1.w2794"
+              ],
+              "boxes": [
+                {
+                  "page": 15,
+                  "bbox": [
+                    778,
+                    1302,
+                    2364,
+                    1386
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "ministry",
+                "num": "1A",
+                "heading": "Ministry of Agro and Rural Industries",
+                "heading_hi": "Krishi Evam Gramin Udyog Mantralaya"
+              }
+            ],
+            "flags": [
+              "new_text_differs"
+            ],
+            "words": [
+              "r1.w2756",
+              "r1.w2790"
+            ],
+            "boxes": [
+              {
+                "page": 15,
+                "bbox": [
+                  648,
+                  1303,
+                  2270,
+                  1346
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 3,
+            "source_ref": "2(2)(C)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r84.rel3",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Coal"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w2814",
+                "r1.w2847"
+              ],
+              "boxes": [
+                {
+                  "page": 15,
+                  "bbox": [
+                    779,
+                    1648,
+                    2252,
+                    1684
+                  ]
+                }
+              ]
+            },
+            "expect": "3A, Ministry of Coal (Koyala Mantralaya)",
+            "content": [
+              {
+                "type": "ministry",
+                "num": "3A",
+                "heading": "Ministry of Coal and Mines",
+                "heading_hi": "Koyala aur Khan Mantralaya"
+              },
+              {
+                "type": "department",
+                "num": "i",
+                "heading": "Department of Coal",
+                "heading_hi": "Koyala Vibhag"
+              },
+              {
+                "type": "department",
+                "num": "ii",
+                "heading": "Department of Mines",
+                "heading_hi": "Khan Vibhag"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w2757",
+              "r1.w2822"
+            ],
+            "boxes": [
+              {
+                "page": 15,
+                "bbox": [
+                  650,
+                  1649,
+                  2223,
+                  1687
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 4,
+            "source_ref": "2(2)(D)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r84.rel4",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Communications"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w2869",
+                "r1.w2882"
+              ],
+              "boxes": [
+                {
+                  "page": 16,
+                  "bbox": [
+                    445,
+                    284,
+                    2209,
+                    385
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "ministry",
+                "num": "6A",
+                "heading": "Ministry of Culture",
+                "heading_hi": "Sanskriti Mantralaya"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w2856",
+              "r1.w2877"
+            ],
+            "boxes": [
+              {
+                "page": 16,
+                "bbox": [
+                  305,
+                  284,
+                  2209,
+                  342
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 5,
+            "source_ref": "2(2)(E)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r84.rel5",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Defence"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w2896",
+                "r1.w2909"
+              ],
+              "boxes": [
+                {
+                  "page": 16,
+                  "bbox": [
+                    431,
+                    564,
+                    2213,
+                    667
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "ministry",
+                "num": "7A",
+                "heading": "Ministry of Disinvestment (Vinivesh Mantralya)"
+              }
+            ],
+            "flags": [
+              "new_text_differs"
+            ],
+            "words": [
+              "r1.w2857",
+              "r1.w2904"
+            ],
+            "boxes": [
+              {
+                "page": 16,
+                "bbox": [
+                  308,
+                  566,
+                  2005,
+                  622
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 6,
+            "source_ref": "2(2)(.AI)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r84.rel6",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Consumer Affairs, Food and Public Distribution"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w2923",
+                "r1.w2943"
+              ],
+              "boxes": [
+                {
+                  "page": 16,
+                  "bbox": [
+                    431,
+                    851,
+                    2219,
+                    999
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "ministry",
+                "num": "12",
+                "heading": "Ministry of Food Processing Industries",
+                "heading_hi": "Khadya Prasanskaran Udyog Mantralaya"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w2858",
+              "r1.w2933"
+            ],
+            "boxes": [
+              {
+                "page": 16,
+                "bbox": [
+                  311,
+                  851,
+                  2218,
+                  908
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 7,
+            "source_ref": "2(2)(G)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r84.rel7",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Mines"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w2967",
+                "r1.w2978"
+              ],
+              "boxes": [
+                {
+                  "page": 16,
+                  "bbox": [
+                    459,
+                    1232,
+                    1948,
+                    1279
+                  ]
+                }
+              ]
+            },
+            "expect": "20. Ministry of Mines (Khan Mantralaya)",
+            "flags": [],
+            "words": [
+              "r1.w2966",
+              "r1.w2980"
+            ],
+            "boxes": [
+              {
+                "page": 16,
+                "bbox": [
+                  315,
+                  1231,
+                  2224,
+                  1280
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 8,
+            "source_ref": "2(2)(H)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r84.rel8",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Small Scale Industries and Agro and Rural Industries"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w2981",
+                "r1.w3001"
+              ],
+              "boxes": [
+                {
+                  "page": 16,
+                  "bbox": [
+                    457,
+                    1419,
+                    2227,
+                    1568
+                  ]
+                }
+              ]
+            },
+            "expect": "29A. Ministry of Small Scale Industries and Agro and Rural Industries (Laghu Udyog aur Krishi Evam Gramin Udyog Mantralaya)",
+            "scope": "heading",
+            "content": [
+              {
+                "type": "ministry",
+                "num": "29A",
+                "heading": "Ministry of Small Scale Industries",
+                "heading_hi": "Laghu Udyog Mantralaya"
+              }
+            ],
+            "flags": [
+              "new_text_differs"
+            ],
+            "words": [
+              "r1.w2971",
+              "r1.w2992"
+            ],
+            "boxes": [
+              {
+                "page": 16,
+                "bbox": [
+                  318,
+                  1419,
+                  2227,
+                  1475
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 9,
+            "source_ref": "2(2)(I)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r84.rel9",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Tourism and Culture"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w3020",
+                "r1.w3037"
+              ],
+              "boxes": [
+                {
+                  "page": 16,
+                  "bbox": [
+                    463,
+                    1707,
+                    2228,
+                    1804
+                  ]
+                }
+              ]
+            },
+            "expect": "32A. Ministry of Tourism and Culture (Paryatan aur Sanskriti Mantralaya)",
+            "content": [
+              {
+                "type": "ministry",
+                "num": "32A",
+                "heading": "Ministry of Tourism",
+                "heading_hi": "Paryatan Mantralaya"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w2972",
+              "r1.w3030"
+            ],
+            "boxes": [
+              {
+                "page": 16,
+                "bbox": [
+                  319,
+                  1707,
+                  2228,
+                  1758
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 10,
+            "source_ref": "2(2)(J)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r84.rel10",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Department of Disinvestment"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w3050",
+                "r1.w3059"
+              ],
+              "boxes": [
+                {
+                  "page": 16,
+                  "bbox": [
+                    460,
+                    1991,
+                    2019,
+                    2089
+                  ]
+                }
+              ]
+            },
+            "expect": "45. Department of Disinvestment (Vinivesh Vibhag)",
+            "scope": "heading",
+            "content": [
+              {
+                "type": "department",
+                "num": "45",
+                "heading": "Department of Development of North Eastern Region",
+                "heading_hi": "Uttar Poorvi Kshetra Vikas Vibhag"
+              }
+            ],
+            "flags": [
+              "new_text_differs"
+            ],
+            "words": [
+              "r1.w2973",
+              "r1.w3058"
+            ],
+            "boxes": [
+              {
+                "page": 16,
+                "bbox": [
+                  323,
+                  1991,
+                  2019,
+                  2044
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 11,
+            "source_ref": "2(2)(A)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r84.rel11",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF AGRICULTURE"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT O F FOOD PROCESSING INDUSTRIES"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w3105",
+                "r1.w3127"
+              ],
+              "boxes": [
+                {
+                  "page": 17,
+                  "bbox": [
+                    582,
+                    373,
+                    2336,
+                    514
+                  ]
+                }
+              ]
+            },
+            "expect": "D. DEPARTMENT O F FOOD PROCESSING INDUSTRIES (KHADYA PRASANSKARAN UDYOG VIBHAG)",
+            "flags": [],
+            "words": [
+              "r1.w3100",
+              "r1.w3105"
+            ],
+            "boxes": [
+              {
+                "page": 17,
+                "bbox": [
+                  436,
+                  372,
+                  2332,
+                  427
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 12,
+            "source_ref": "2(2)(B)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r84.rel12",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF AGRICULTURE"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w3132",
+                "r1.w3145"
+              ],
+              "boxes": [
+                {
+                  "page": 17,
+                  "bbox": [
+                    582,
+                    609,
+                    2337,
+                    708
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "ministry",
+                "heading": "MINISTRY OF AGRO AND RURAL INDUSTRIES",
+                "heading_hi": "KRISHI EVAM GRAMIN UDYOG MANTRALAYA"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Coordination of the development of Village and Cottage Industries and Tiny/Micro Enterprises in both urban and rural areas"
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "Coordination of matters relating to all Rural Industries."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "Coir Industry."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "The Coir Board."
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "Prime Minister's Rozgar Yojana (PMRY)."
+              },
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "Khadi and Village Industries Commission."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w3101",
+              "r1.w3131"
+            ],
+            "boxes": [
+              {
+                "page": 17,
+                "bbox": [
+                  438,
+                  609,
+                  2337,
+                  660
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 13,
+            "source_ref": "2(2)(C)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r84.rel13",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF AGRICULTURE"
+                },
+                {
+                  "type": "department",
+                  "heading": "ANIMAL HUSBANDRY AND DAIRYING"
+                },
+                {
+                  "type": "entry",
+                  "num": "15"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w3237",
+                "r1.w3244"
+              ],
+              "boxes": [
+                {
+                  "page": 17,
+                  "bbox": [
+                    790,
+                    1711,
+                    1152,
+                    1746
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "15",
+                "text": "Matters relating to cattle utilisation and slaughter."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w3216",
+              "r1.w3225"
+            ],
+            "boxes": [
+              {
+                "page": 17,
+                "bbox": [
+                  427,
+                  1607,
+                  2186,
+                  1655
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 14,
+            "source_ref": "2(2)(D)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r84.rel14",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF COAL"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w3260",
+                "r1.w3270"
+              ],
+              "boxes": [
+                {
+                  "page": 17,
+                  "bbox": [
+                    518,
+                    1939,
+                    2346,
+                    2035
+                  ]
+                }
+              ]
+            },
+            "expect": "MINISTRY OF COAL (KOYALA MANTRALAYA) ",
+            "content": [
+              {
+                "type": "ministry",
+                "heading": "MINISTRY OF COAL AND MINES",
+                "heading_hi": "KOYALA AUR KHAN MANTRALAYA"
+              },
+              {
+                "type": "department",
+                "num": "A",
+                "heading": "DEPARTMENT OF COAL",
+                "heading_hi": "KOYALA VIBHAG"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Exploration and development of coking and non-coking coal and lignite deposits in India."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "All matters relating to production supply distribution and prices of coal. 2784 GJ2001-3"
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "Development and operation of coal washeries other than those for which the Department of Steel (Ispat Vibhag) is responsible."
+              },
+              {
+                "type": "group_heading",
+                "num": "A",
+                "text": "Low Temperature carbonisation of coal and production of synthetic oil from coal."
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "Administration of the Coal Mines (Conservation and Development) Act, 1974 (28 of 1974)."
+              },
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "The Coal Mines Provident Fund Organisation."
+              },
+              {
+                "type": "entry",
+                "num": "7",
+                "text": "The Coal Mines Welfare Organisation."
+              },
+              {
+                "type": "entry",
+                "num": "8",
+                "text": "Administration of the Coal Mines Provident Fund and Miscellaneous Provision Act, 1948 (46 of 1948)."
+              },
+              {
+                "type": "entry",
+                "num": "9",
+                "text": "Administration of the Coal Mines Labour Welfare Fund Act, 1947 (32 of 1947)."
+              },
+              {
+                "type": "entry",
+                "num": "10",
+                "text": "Rules under the Mines Act, 1952 (32 of 1952) for the levy and collection of duty of excise on coke and coal produced and despatched from mines and administration of rescue fund."
+              },
+              {
+                "type": "entry",
+                "num": "11",
+                "text": "Administration of the Coal Bearing Areas (Acquisition and Development) Act, 1957 (20 of 1957)."
+              },
+              {
+                "type": "entry",
+                "num": "12",
+                "text": "Public Sector Enterprises dealing with coal and lignite."
+              },
+              {
+                "type": "entry",
+                "num": "13",
+                "text": "Administration of the Mines and Minerals (Development and Regulation) Act, 1957 (67 of 1957) and other Union Laws in so far the said Act and Laws relate to coal and lignite and sand for stowing, business incidental to Buch administration including questions concerning various States."
+              },
+              {
+                "type": "department",
+                "num": "B",
+                "heading": "DEPARTMENT OF MINES",
+                "heading_hi": "KHAN VIBHAG"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": ""
+              },
+              {
+                "type": "item",
+                "num": "i",
+                "text": "Legislation for regulation of mines and development of minerals within the territory of India, including mines and minerals underlying the ocean within the territorial waters or the continental shelf, or the exclusive economic zone and other maritime zones of India as may be specified, from time to time, by or under any law made by Parliament."
+              },
+              {
+                "type": "item",
+                "num": "ii",
+                "text": "Regulation of mines and development of minerals other than coal, lignite and sand for stowing and any other mineral declared A prescribed substances for the purpose of the Atomic Energy Act, 1962 (33 of 1962) under the control of the Union declared by law, including questions. concerning regulation and development of minerals in various States and the matters connected therewith or incidental thereto."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "All other metals and minerals not specifically allotted to any other Ministries/Departments, such as aluminium, zinc, copper, gold, diamonds lead and nickel."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "Planning, development and control of and assistance to, all industries dealt with by the Department."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "Geological Survey of India."
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "Indian Bureau of Mines."
+              },
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "All other Attached or Subordinate Offices other organisations concerned with any of the subjects specified in this list."
+              },
+              {
+                "type": "entry",
+                "num": "7",
+                "text": "The Sikkim Mining Corporation Limited."
+              },
+              {
+                "type": "entry",
+                "num": "8",
+                "text": "Public Sector Enterprises and undertakings falling under the subjects included in this list, except those which are specifically allotted to any other Department."
+              },
+              {
+                "type": "entry",
+                "num": "9",
+                "text": "Metallurgical Grade Silicon."
+              }
+            ],
+            "flags": [
+              "read_page_break"
+            ],
+            "words": [
+              "r1.w3259",
+              "r1.w3258"
+            ],
+            "boxes": [
+              {
+                "page": 17,
+                "bbox": [
+                  430,
+                  1939,
+                  2346,
+                  1990
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 15,
+            "source_ref": "2(2)(E)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r84.rel15",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF COMMUNICATIONS"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w3779",
+                "r1.w3790"
+              ],
+              "boxes": [
+                {
+                  "page": 19,
+                  "bbox": [
+                    447,
+                    2112,
+                    2418,
+                    2202
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "ministry",
+                "heading": "MINISTRY OF CULTURE",
+                "heading_hi": "SANSKRITI MANTRALAYA"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "National Library; the Indian Museum; the Indian War Memorial Museum; the Victoria Memorial, the Asiatic Society, Kolkata and the India War Memorial and all other like institutions financed by the Government of India wholly or in part and declared by Parliament by law to be institutions of national importance. 2784 GT 2001-4"
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "National Research Laboratory for Conservation of Cultural Property, Lucknow."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "Archaeology, Archaeological Museums."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "The Ancient Monuments and Archaeological sites and Remains Act, 1958 (24 of 1958) and the Ancient Monuments Preservation Act, 1904 (7 of 1904)."
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "Grants of Universities and Research Institutions for excavation and exploration of historical and archaeological remains."
+              },
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "International Conventions for the protection of cultural property in the event of armed conflict."
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "History of Freedom Movement."
+              },
+              {
+                "type": "entry",
+                "num": "8",
+                "text": "Jallianwala Bagh National Memorial Trust."
+              },
+              {
+                "type": "entry",
+                "num": "9",
+                "text": "Administration of Gandhi Smriti and Gandhi Darshan."
+              },
+              {
+                "type": "entry",
+                "num": "10",
+                "text": "The delivery of Books and News Papers (Public Libraries) Act, 1954 (27 of 1954) and the Press and Registration of Books Act, 1867 (25 of 1867) (in so far as supply of books and catalogues to the Central Government is concerned)."
+              },
+              {
+                "type": "entry",
+                "num": "11",
+                "text": "Promotion of fine arts."
+              },
+              {
+                "type": "entry",
+                "num": "12",
+                "text": "Sahitya, Lalit Kala and Sangeet Natak Academies."
+              },
+              {
+                "type": "entry",
+                "num": "13",
+                "text": "The Central Secretariat Library; Central Reference Library, Calcutta; Rampur Raza Library, Rampur; Delhi public Library; India Office Library; National Musoum New Delhi; Salar Jung Museum and Library, Hyderabad Khudabux Oriental Public Library; Nehru Memorial Museum and Library; Gandhi Darshan Samiti; National Gallery of Portraits, National School of Drama, New Delhi Centre for Cultural Resources and Training, New Delhi Raja Rammohan Roy Library Foundation, Kolkata Allahabad Museum, Allahabad; General Development of Museums."
+              },
+              {
+                "type": "entry",
+                "num": "14",
+                "text": "Museum of Gems and Jewellery."
+              },
+              {
+                "type": "entry",
+                "num": "15",
+                "text": "National Gallery of Modern Art, New Delhi."
+              },
+              {
+                "type": "entry",
+                "num": "16",
+                "text": "Acquisition of Indian and Foreign Art objects."
+              },
+              {
+                "type": "entry",
+                "num": "17",
+                "text": "Treasure Trove; the Antiquities and Art Treasures Act 1972 (52 of 1972) and Export of antiquities."
+              },
+              {
+                "type": "entry",
+                "num": "18",
+                "text": "Open air theatres in rural areas and theatres in State capitals."
+              },
+              {
+                "type": "entry",
+                "num": "19",
+                "text": "Financial assistance to authors and artists or their survivors in indigent circumstances, other than those belonging to the categories covered under the scheme of the Ministry of Information and Broadcasting (Soochana aur Prasaran Mantralaya) ."
+              },
+              {
+                "type": "entry",
+                "num": "20",
+                "text": "Charities and Charitable institutions, Charities and Religious Endowments pertaining to subjects dealt within this Department."
+              },
+              {
+                "type": "entry",
+                "num": "21",
+                "text": "Scholarships, including those offered by foreign Government and foreign agencies, in respect of subjects dealt with by this Department."
+              },
+              {
+                "type": "entry",
+                "num": "22",
+                "text": "Publication of rare manuscripts."
+              },
+              {
+                "type": "entry",
+                "num": "23",
+                "text": "Grants to all-India Cultural Institutions."
+              },
+              {
+                "type": "entry",
+                "num": "24",
+                "text": "Grants to Indo-foreign Cultural Societies."
+              },
+              {
+                "type": "entry",
+                "num": "25",
+                "text": "Cultural agreements and friendship treaties with foreign countries."
+              },
+              {
+                "type": "entry",
+                "num": "26",
+                "text": "Distribution of gift books received from abroad."
+              },
+              {
+                "type": "entry",
+                "num": "27",
+                "text": "Appointment of Cultural Attaches abroad."
+              },
+              {
+                "type": "entry",
+                "num": "28",
+                "text": "Visit of Cultural Delegations, etc. to India to India, sponsored and unsponsored."
+              },
+              {
+                "type": "entry",
+                "num": "29",
+                "text": "Individuals (including cultural lecturers) sponsored by Government for visits abroad."
+              },
+              {
+                "type": "entry",
+                "num": "30",
+                "text": "Presentation of books to foreign countries."
+              },
+              {
+                "type": "entry",
+                "num": "31",
+                "text": "Establishment of libraries abroad."
+              },
+              {
+                "type": "entry",
+                "num": "32",
+                "text": "Translation of Indian classics into foreign languages."
+              },
+              {
+                "type": "entry",
+                "num": "33",
+                "text": "Exchange of official publications with foreign Governments and institutions and agreements for such exchanges."
+              },
+              {
+                "type": "entry",
+                "num": "34",
+                "text": "Presentation of Indian art objects abroad."
+              },
+              {
+                "type": "entry",
+                "num": "35",
+                "text": "Admission of Foreign students in Cultural Institutions."
+              },
+              {
+                "type": "entry",
+                "num": "36",
+                "text": "Exchange of artists, dancers, musicians, etc. under the Cultural Exchange Programmes."
+              },
+              {
+                "type": "entry",
+                "num": "37",
+                "text": "Revision of Gazetters."
+              },
+              {
+                "type": "entry",
+                "num": "38",
+                "text": "Observance of Centenaries and anniversarios of important personalities."
+              },
+              {
+                "type": "entry",
+                "num": "39",
+                "text": "Publication information and statistics relating to subjects dealt with by this Department."
+              },
+              {
+                "type": "entry",
+                "num": "40",
+                "text": "International Congress of Orientalists."
+              },
+              {
+                "type": "entry",
+                "num": "41",
+                "text": "Anthropological Survey of India."
+              },
+              {
+                "type": "entry",
+                "num": "42",
+                "text": "National Archives of India."
+              },
+              {
+                "type": "entry",
+                "num": "43",
+                "text": "Indira Gandhi Rashtriya Manav Sangrahalaya."
+              },
+              {
+                "type": "entry",
+                "num": "44",
+                "text": "National Council of Science Museums, Calcutta."
+              },
+              {
+                "type": "entry",
+                "num": "45",
+                "text": "All other attached or subordinate offices o r other organisations concerned with any of the subjects specified in this list."
+              },
+              {
+                "type": "entry",
+                "num": "46",
+                "text": "Rabindra Rangshalla."
+              },
+              {
+                "type": "entry",
+                "num": "47",
+                "text": "Zonal Cultural Centres."
+              },
+              {
+                "type": "entry",
+                "num": "48",
+                "text": "National Council of Culture."
+              },
+              {
+                "type": "entry",
+                "num": "49",
+                "text": "Indira Gandhi National Centre for Arts (IGNCA)."
+              },
+              {
+                "type": "entry",
+                "num": "50",
+                "text": "National Theatre."
+              },
+              {
+                "type": "entry",
+                "num": "51",
+                "text": "The Prevention of Cruelty to Animals Act, 1960 (59 of 1960)."
+              },
+              {
+                "type": "entry",
+                "num": "52",
+                "text": "Prevention of cruelty to animals."
+              },
+              {
+                "type": "entry",
+                "num": "53",
+                "text": "Matters relating to pounds and cattle trespass."
+              },
+              {
+                "type": "entry",
+                "num": "54",
+                "text": "Gaushalas and Gausadans."
+              }
+            ],
+            "flags": [
+              "read_page_break"
+            ],
+            "words": [
+              "r1.w3778",
+              "r1.w3777"
+            ],
+            "boxes": [
+              {
+                "page": 19,
+                "bbox": [
+                  362,
+                  2112,
+                  2418,
+                  2151
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 16,
+            "source_ref": "2(2)(F)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r84.rel16",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF DEFENCE"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w4502",
+                "r1.w4517"
+              ],
+              "boxes": [
+                {
+                  "page": 23,
+                  "bbox": [
+                    374,
+                    215,
+                    2180,
+                    298
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "ministry",
+                "heading": "MINISTRY OF DISINVESTMENT",
+                "heading_hi": "VINIVESH MANTRALAYA"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "All matters relating to disinvestment of Central Government equity from Central Public Sector Undertakings."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "Decisions on the recommendations of the Disinvestment Commission on the modalities of disinvestment including restructuring."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "Implementation of disinvestment decisions, including appointment of advisers, pricing of shares, and other terms and conditions of disinvestment."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "Disinvestment Commission."
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "Central Public Sector Undertakings for purposes of disinvestment of Government equity only."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w4496",
+              "r1.w4512"
+            ],
+            "boxes": [
+              {
+                "page": 23,
+                "bbox": [
+                  234,
+                  215,
+                  2180,
+                  251
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 17,
+            "source_ref": "2(2)(G)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r84.rel17",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF CONSUMER AFFAIRS, FOOD AND PUBLIC DISTRIBUTION"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w4603",
+                "r1.w4629"
+              ],
+              "boxes": [
+                {
+                  "page": 23,
+                  "bbox": [
+                    329,
+                    1402,
+                    2289,
+                    1534
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "ministry",
+                "heading": "MINISTRY OF FOOD PROCESSING INDUSTRIES",
+                "heading_hi": "KHADYA PRASANSAKARAN UDYOG MANTRALAYA"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Industries, the control of which by the Union is declared by Parliament by law to be expedient in public interest, as far as these relate to"
+              },
+              {
+                "type": "item",
+                "num": "a",
+                "text": "processing and refrigeration of certain agricultural products (milk powder, infant-milk food, Malted milk food, Condensed milk, Chee and other dairy products), Poultry and eggs, Meat and Meat products"
+              },
+              {
+                "type": "item",
+                "num": "b",
+                "text": "processing of fish (including canning and freezing)"
+              },
+              {
+                "type": "item",
+                "num": "c",
+                "text": "establishment and servicing of Development Council for fish processing industry"
+              },
+              {
+                "type": "item",
+                "num": "d",
+                "text": "technical assistance and advice to fish processing industry"
+              },
+              {
+                "type": "item",
+                "num": "a",
+                "text": "fruit and vegetable processing industry (including freezing and dehydration); and"
+              },
+              {
+                "type": "item",
+                "num": "f",
+                "text": "foodgrains milling industry."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "Planning, development and control of, and assistance to, industries relating to bread, oilseeds meals (edible) breakfast foods biscuits confectionery; (including Cocoa processing and Chocolate making), malt extract, protein isolate high protein food, weaning food and extruded food products (including other ready-to-eat foods)."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "Specialised packaging for food processing industry."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "Beer including non-alcoholic beer."
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "Alcoholic drinks from non-molasses base."
+              },
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "Aerated water and soft drinks."
+              },
+              {
+                "type": "entry",
+                "num": "7",
+                "text": "Modern Food Industries (India) Ltd."
+              },
+              {
+                "type": "entry",
+                "num": "8",
+                "text": "North Eastern Regional Agricultural Marketing Corporation Ltd."
+              }
+            ],
+            "flags": [
+              "read_page_break"
+            ],
+            "words": [
+              "r1.w4602",
+              "r1.w4613"
+            ],
+            "boxes": [
+              {
+                "page": 23,
+                "bbox": [
+                  235,
+                  1402,
+                  2289,
+                  1440
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 18,
+            "source_ref": "2(2)(H)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r84.rel18",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF MINES"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w4842",
+                "r1.w4853"
+              ],
+              "boxes": [
+                {
+                  "page": 24,
+                  "bbox": [
+                    283,
+                    1864,
+                    2138,
+                    1944
+                  ]
+                }
+              ]
+            },
+            "expect": "MINISTRY OF MINES (KHAN MANTRALAYA)",
+            "flags": [],
+            "words": [
+              "r1.w4841",
+              "r1.w4852"
+            ],
+            "boxes": [
+              {
+                "page": 24,
+                "bbox": [
+                  197,
+                  1864,
+                  2138,
+                  1902
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 19,
+            "source_ref": "2(2)(I)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r84.rel19",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY O F SMALL SCALE INDUSTRIES AND AGRO AND RURAL INDUSTRIES"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w4866",
+                "r1.w4898"
+              ],
+              "boxes": [
+                {
+                  "page": 25,
+                  "bbox": [
+                    340,
+                    291,
+                    2306,
+                    437
+                  ]
+                }
+              ]
+            },
+            "expect": "MINISTRY O F SMALL SCALE INDUSTRIES AND AGRO AND RURAL INDUSTRIES (LAGHU UDYOG AUR KRISHI EVAM GRAMIN UDYOG MANTRALAYA)",
+            "content": [
+              {
+                "type": "ministry",
+                "heading": "MINISTRY OF SMALL SCALE INDUSTRIES",
+                "heading_hi": "LAGHU UDYOG MANTRALAYA"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Coordination of the Development of Small Scale Industries, other than Cottage and Village Industries, and Tiny/Micro Enterprises."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "Small Industries Board."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "National Small Industries Corporation Limited."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w4865",
+              "r1.w4879"
+            ],
+            "boxes": [
+              {
+                "page": 25,
+                "bbox": [
+                  255,
+                  291,
+                  2306,
+                  340
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 20,
+            "source_ref": "2(2)(J)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r84.rel20",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF TOURISM AND CULTURE"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w4947",
+                "r1.w4965"
+              ],
+              "boxes": [
+                {
+                  "page": 25,
+                  "bbox": [
+                    360,
+                    1049,
+                    2311,
+                    1145
+                  ]
+                }
+              ]
+            },
+            "expect": "MINISTRY OF TOURISM AND CULTURE (PARYATAN AUR SANSKRITI MANTRALYA)",
+            "content": [
+              {
+                "type": "ministry",
+                "heading": "MINISTRY OF TOURISM",
+                "heading_hi": "PARYATAN MANTRALAYA"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Development of Tourism."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "India Tourism Development Corporation and public Sector Hotels or Motels thereunder."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "Inquiries and Statistics for the purpose of any of the matters specified in this list."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w4940",
+              "r1.w4957"
+            ],
+            "boxes": [
+              {
+                "page": 25,
+                "bbox": [
+                  259,
+                  1049,
+                  2311,
+                  1098
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 21,
+            "source_ref": "2(2)(K)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r84.rel21",
+            "target": [
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "MINISTRY OF SOCIAL JUSTICE AND EMPOWERMENT"
+                  },
+                  {
+                    "type": "entry",
+                    "num": "37"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r1.w5042",
+                  "r1.w5044"
+                ],
+                "boxes": [
+                  {
+                    "page": 26,
+                    "bbox": [
+                      1159,
+                      373,
+                      1501,
+                      408
+                    ]
+                  }
+                ]
+              },
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "MINISTRY OF SOCIAL JUSTICE AND EMPOWERMENT"
+                  },
+                  {
+                    "type": "entry",
+                    "num": "38"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r1.w5046",
+                  "r1.w5046"
+                ],
+                "boxes": [
+                  {
+                    "page": 26,
+                    "bbox": [
+                      1632,
+                      376,
+                      1676,
+                      409
+                    ]
+                  }
+                ]
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w5015",
+              "r1.w5037"
+            ],
+            "boxes": [
+              {
+                "page": 26,
+                "bbox": [
+                  314,
+                  324,
+                  2346,
+                  365
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 22,
+            "source_ref": "2(2)(L)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r84.rel22",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "PLANNING COMMISSION"
+                },
+                {
+                  "type": "entry",
+                  "num": "7"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w5057",
+                "r1.w5060"
+              ],
+              "boxes": [
+                {
+                  "page": 26,
+                  "bbox": [
+                    1828,
+                    513,
+                    2234,
+                    555
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "7",
+                "text": "Hill Areas Development Programme (except in the North Eastern Region) ."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w5016",
+              "r1.w5061"
+            ],
+            "boxes": [
+              {
+                "page": 26,
+                "bbox": [
+                  312,
+                  512,
+                  2344,
+                  555
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 23,
+            "source_ref": "2(2)(M)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r84.rel23",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "DEPARTMENT OF DISINVESTMENT"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w5081",
+                "r1.w5092"
+              ],
+              "boxes": [
+                {
+                  "page": 26,
+                  "bbox": [
+                    352,
+                    797,
+                    2234,
+                    886
+                  ]
+                }
+              ]
+            },
+            "expect": "DEPARTMENT OF DISINVESTMENT (VINIVESH VIBHAG)",
+            "content": [
+              {
+                "type": "ministry",
+                "heading": "DEPARTMENT OF DEVELOPMENT OF NORTH EASTERN REGION",
+                "heading_hi": "UTTAR POORVI KSHETRA VIKAS VIBHAG"
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "Matters relating to the planning, execution and monitoring of developmental schemes and projects of North Eastern Region including those in the sectors of Power, Irrigation, Roads and Communications."
+              },
+              {
+                "type": "note",
+                "text": "Note: In 80 far 88 development planning of North Eastern Region is concerned, the Department will be serviced by the Planning Commission."
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "Hill Area Development Programme in North Eastern Region."
+              },
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "Non-lapsable Fund for the North Eastern Region."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "North Eastern Council."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w5080",
+              "r1.w5090"
+            ],
+            "boxes": [
+              {
+                "page": 26,
+                "bbox": [
+                  265,
+                  797,
+                  2234,
+                  837
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

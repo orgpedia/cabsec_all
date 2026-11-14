@@ -1,0 +1,108 @@
+{
+  "file": {
+    "name": "1_Upload_302.pdf",
+    "file_id": "f_a17aea13652544df",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_302.pdf",
+    "sha256": "a17aea13652544df6ed2034789947664402776fba71faea41d65851550631426",
+    "govdoc": "1_Upload_302.pdf.govdoc.json.zst",
+    "revision": 109
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_566E_2002",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_485_2002",
+      "fields": {
+        "number": {
+          "value": "S.O. 566(E)"
+        },
+        "in_force": {
+          "value": "2002-05-23"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "2002-05-23",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T12:56:37.899500+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r73.rel1",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF DEFENCE"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF DEFENCE"
+                },
+                {
+                  "type": "entry",
+                  "num": "2"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w331",
+                "r1.w333"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    1784,
+                    2418,
+                    1996,
+                    2455
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "2A",
+                "text": "Integrated Headquarters of the Ministry of मुख्यालय, नौसेना मुख्यालय, वायुसेना मुख्यालय और डिफेंस स्टाफ Defence comprising of Army Headquarters, Naval Headquarters, Air Headquarters and Defence Staff Headquarters."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w298",
+              "r1.w309"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  1373,
+                  2214,
+                  2326,
+                  2305
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,226 @@
+{
+  "file": {
+    "name": "1_Upload_210.pdf",
+    "file_id": "f_3e4a79715d7f8e3b",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_210.pdf",
+    "sha256": "3e4a79715d7f8e3b7f61f1b540b0e41acb6d4778b112ad6def93e80ba9f86f36",
+    "govdoc": "1_Upload_210.pdf.govdoc.json.zst",
+    "revision": 46
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_635E_1985",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_413_1985",
+      "fields": {
+        "number": {
+          "value": "SO 635(E)"
+        },
+        "in_force": {
+          "value": "1985-08-29"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "1985-08-29",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T13:49:06.405028+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(a)(1)",
+            "op": "substitute_text",
+            "akn_type": "substitution",
+            "relation": "r10.rel1",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF AGRI- CULTURE AND RURAL DIVILOP- MENT"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF RURAL DEVE- LOPMENT"
+                },
+                {
+                  "type": "entry",
+                  "num": "8"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w468",
+                "r1.w470"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1608,
+                    360,
+                    1810,
+                    397
+                  ]
+                }
+              ]
+            },
+            "old": "rural water supply (excluding centrally spen- sored scheme of accelerated rural supply)",
+            "new": "",
+            "flags": [],
+            "words": [
+              "r1.w467",
+              "r1.w474"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  1532,
+                  360,
+                  2265,
+                  397
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(a)(1)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r10.rel2",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF AGRI- CULTURE AND RURAL DIVILOP- MENT"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF RURAL DEVE- LOPMENT"
+                },
+                {
+                  "type": "entry",
+                  "num": "8"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w491",
+                "r1.w493"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1594,
+                    557,
+                    1846,
+                    595
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "8A",
+                "text": "Rural water supply."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w490",
+              "r1.w498"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  1519,
+                  557,
+                  2388,
+                  597
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 3,
+            "source_ref": "2(b)",
+            "op": "substitute_text",
+            "akn_type": "substitution",
+            "relation": "r10.rel3",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF WORKS AND HOUSING"
+                },
+                {
+                  "type": "entry",
+                  "num": "25"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w518",
+                "r1.w520"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1580,
+                    831,
+                    2395,
+                    910
+                  ]
+                }
+              ]
+            },
+            "old": "(excluding nodal responsibility for rural water supply which is assigned to the Ministry of Rural Development)",
+            "new": "(excluding rural water supply which is assigned to the Department of Rural Development)",
+            "flags": [],
+            "words": [
+              "r1.w506",
+              "r1.w513"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  1490,
+                  741,
+                  2392,
+                  817
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_368.pdf",
     "sha256": "6588b354885bfb8049260c2a65cf4aca8b5b8fb95fb67d73238f728619863ab8",
     "govdoc": "1_Upload_368.pdf.govdoc.json.zst",
-    "revision": 44
+    "revision": 193
   },
   "documents": [
     {
@@ -29,9 +29,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "2",
+          "version": "3",
           "model": "gemini-4-argon",
-          "at": "2026-11-03T16:59:03.314736+00:00"
+          "at": "2026-11-12T12:55:59.192459+00:00"
         },
         "ops": [
           {
@@ -39,6 +39,7 @@
             "source_ref": "2(a)",
             "op": "replace",
             "akn_type": "replacement",
+            "relation": "r157.rel1",
             "target": {
               "cited": [
                 {
@@ -56,8 +57,8 @@
               ],
               "eId": null,
               "words": [
-                "r1.w607",
-                "r1.w615"
+                "r51.w607",
+                "r51.w615"
               ],
               "boxes": [
                 {
@@ -83,8 +84,8 @@
             ],
             "flags": [],
             "words": [
-              "r1.w593",
-              "r1.w600"
+              "r51.w593",
+              "r51.w606"
             ],
             "boxes": [
               {
@@ -92,7 +93,7 @@
                 "bbox": [
                   462,
                   2522,
-                  1364,
+                  2107,
                   2557
                 ]
               }
@@ -103,6 +104,7 @@
             "source_ref": "2(b)(i)",
             "op": "omit",
             "akn_type": "repeal",
+            "relation": "r157.rel2",
             "target": {
               "cited": [
                 {
@@ -124,8 +126,8 @@
               ],
               "eId": null,
               "words": [
-                "r1.w664",
-                "r1.w665"
+                "r51.w664",
+                "r51.w665"
               ],
               "boxes": [
                 {
@@ -141,17 +143,17 @@
             },
             "flags": [],
             "words": [
-              "r1.w652",
-              "r1.w660"
+              "r51.w652",
+              "r51.w663"
             ],
             "boxes": [
               {
                 "page": 2,
                 "bbox": [
-                  603,
+                  602,
                   2907,
-                  1899,
-                  2943
+                  2227,
+                  2987
                 ]
               }
             ]
@@ -161,6 +163,7 @@
             "source_ref": "2(b)(ii)",
             "op": "replace",
             "akn_type": "replacement",
+            "relation": "r157.rel3",
             "target": {
               "cited": [
                 {
@@ -178,8 +181,8 @@
               ],
               "eId": null,
               "words": [
-                "r1.w679",
-                "r1.w691"
+                "r51.w679",
+                "r51.w691"
               ],
               "boxes": [
                 {
@@ -258,17 +261,17 @@
             ],
             "flags": [],
             "words": [
-              "r1.w678",
-              "r1.w684"
+              "r51.w678",
+              "r51.w691"
             ],
             "boxes": [
               {
                 "page": 3,
                 "bbox": [
-                  603,
+                  602,
                   267,
-                  1736,
-                  302
+                  2228,
+                  347
                 ]
               }
             ]

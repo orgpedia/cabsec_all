@@ -16,6 +16,10 @@ documents:
     - {label: Upto, from: export, field: upto,       # as the version prints it, else as the listing says
        fallback: {from: listing, listing: ../../input/documents/aob-rules/items.json, field: upto_amendment}}
     - {label: Date, from: listing, listing: ../../input/documents/aob-rules/items.json, field: date}
+  issue_columns:                          # the open issues counted by the part they are about (studio.md §R3.1)
+    - {label: Sch. 1, step: schedule 1}
+    - {label: Sch. 2, step: schedule 2}
+    - {label: Other}                      # the Order's rules, and issues on no part
 
 issues:
   help: ../aob-ammend_/review/issues.html # what each code means, under the issue ("What this means")

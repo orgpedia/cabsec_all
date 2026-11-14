@@ -1,0 +1,107 @@
+{
+  "file": {
+    "name": "1_Upload_204.pdf",
+    "file_id": "f_c454ee2847238923",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_204.pdf",
+    "sha256": "c454ee28472389239966c0ba957791ba69a7f7f4c8572656c40879a8bca73c6e",
+    "govdoc": "1_Upload_204.pdf.govdoc.json.zst",
+    "revision": 46
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_174E_1985",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_106_1985",
+      "fields": {
+        "number": {
+          "value": "S.O. 174 (E)"
+        },
+        "in_force": {
+          "value": "1985-03-01"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "1985-03-01",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T13:49:51.620531+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r10.rel1",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF LAW AND JUSTICE"
+                },
+                {
+                  "type": "department",
+                  "heading": "LEGISLATIVE DEPARTMENT"
+                },
+                {
+                  "type": "entry",
+                  "num": "2"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w391",
+                "r1.w393"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1820,
+                    1618,
+                    2062,
+                    1662
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "Constitution Orders; 'notifications for bringing into force Constitution (Amendment) Acts."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w351",
+              "r1.w362"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  891,
+                  1430,
+                  2180,
+                  1519
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -6,7 +6,287 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_344.pdf",
     "sha256": "43d9a5f50a3d63c0d065df8cfc2268a66e975b2c341126a6c0b295e8d3f95e08",
     "govdoc": "1_Upload_344.pdf.govdoc.json.zst",
-    "revision": 5
+    "revision": 155
   },
-  "documents": []
+  "documents": [
+    {
+      "id": "GOI_SO_1818E_2011",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_1347_2011",
+      "fields": {
+        "number": {
+          "value": "S.O. 1818 (E)"
+        },
+        "in_force": {
+          "value": "2011-07-13"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "2011-07-13",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T12:55:40.695285+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(1)(A)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r118.rel1",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Development of North Eastern Region"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r9.w482",
+                "r9.w496"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    495,
+                    682,
+                    1941,
+                    796
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "ministry",
+                "num": "9AA",
+                "heading": "Ministry of Drinking Water and Sanitation",
+                "heading_hi": "Peya Jal aur Swachchhata Mantralaya"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r9.w480",
+              "r9.w490"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  365,
+                  682,
+                  1941,
+                  741
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(1)(B)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r118.rel2",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Rural Development"
+                },
+                {
+                  "type": "department",
+                  "heading": "Department of Drinking Water and Sanitation"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r9.w529",
+                "r9.w542"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    493,
+                    1147,
+                    1938,
+                    1259
+                  ]
+                }
+              ]
+            },
+            "expect": "(iii) Department of Drinking Water and Sanitation (Peya Jal aur Swachchhata Vibhag)",
+            "flags": [],
+            "words": [
+              "r9.w517",
+              "r9.w526"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  384,
+                  1089,
+                  1939,
+                  1143
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 3,
+            "source_ref": "2(2)(A)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r118.rel3",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF DEVELOPMENT OF NORTH EASTERN REGION"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r9.w553",
+                "r9.w571"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    497,
+                    1565,
+                    1905,
+                    1728
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "ministry",
+                "heading": "MINISTRY OF DRINKING WATER AND SANITATION",
+                "heading_hi": "PEYA JAL AUR SWACHCHHATA MANTRALAYA"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Rural Water Supply (subject to overall national perspective of water planning and coordination assigned to the Ministry of Water Resources), sewage, drainage and sanitation relating to rural areas; International cooperation and technical assistance in this field."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "Public cooperation, including matters relating to voluntary agencies in so far as they relate to rural water supply sewage, drainage and sanitation in rural areas."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "Co-operatives relatable to the items in this list."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "Coordination with respect to matters relating to drinking water supply projects and issues which cover both urban and rural areas."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r9.w551",
+              "r9.w559"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  347,
+                  1562,
+                  1905,
+                  1611
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 4,
+            "source_ref": "2(2)(B)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r118.rel4",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF RURAL DEVELOPMENT"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF DRINKING WATER AND SANITATION"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r9.w706",
+                "r9.w724"
+              ],
+              "boxes": [
+                {
+                  "page": 4,
+                  "bbox": [
+                    401,
+                    263,
+                    1833,
+                    478
+                  ]
+                }
+              ]
+            },
+            "expect": "C. DEPARTMENT OF DRINKING WATER AND SANITATION (PEYA JAL AUR SWACHCHHATA VIBHAG)",
+            "flags": [],
+            "words": [
+              "r9.w687",
+              "r9.w702"
+            ],
+            "boxes": [
+              {
+                "page": 4,
+                "bbox": [
+                  272,
+                  202,
+                  1836,
+                  254
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
 }

@@ -1,0 +1,199 @@
+{
+  "file": {
+    "name": "1_Upload_231.pdf",
+    "file_id": "f_144662877f948585",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_231.pdf",
+    "sha256": "144662877f948585d36b0be0362ed550574c9ece3d06983bfe94d09ecbcdc4f2",
+    "govdoc": "1_Upload_231.pdf.govdoc.json.zst",
+    "revision": 109
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_440E_1987",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_203_1987",
+      "fields": {
+        "number": {
+          "value": "S.O. 440(E)"
+        },
+        "in_force": {
+          "value": "1987-04-27"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "1987-04-27",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T12:55:19.558966+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(i)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r73.rel1",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF AGRICULTURE"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF AGRICULTURE AND COOPERATION"
+                },
+                {
+                  "type": "group_heading",
+                  "heading": "Part IV"
+                },
+                {
+                  "type": "entry",
+                  "num": "55"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w411",
+                "r1.w416"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1386,
+                    1575,
+                    1730,
+                    1610
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "cxcept the Directorate of Agricultural Aviation"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w386",
+              "r1.w392"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  1037,
+                  1476,
+                  2016,
+                  1508
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(ii)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r73.rel2",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF CIVIL AVIATION"
+                },
+                {
+                  "type": "entry",
+                  "num": "16"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w444",
+                "r1.w446"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1618,
+                    1726,
+                    1845,
+                    1759
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "17",
+                "text": "Agricultural Aviation."
+              },
+              {
+                "type": "entry",
+                "num": "18",
+                "text": "Directorate General of Civil Aviation."
+              },
+              {
+                "type": "entry",
+                "num": "19",
+                "text": "National Airports Authority."
+              },
+              {
+                "type": "entry",
+                "num": "20",
+                "text": "Indira Gandhi Rashtriya Urban Akademi."
+              },
+              {
+                "type": "entry",
+                "num": "21",
+                "text": "Vayudoot Ltd."
+              },
+              {
+                "type": "entry",
+                "num": "22",
+                "text": "Directorate, Civil Aviation Security."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w433",
+              "r1.w440"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  1027,
+                  1693,
+                  2020,
+                  1727
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

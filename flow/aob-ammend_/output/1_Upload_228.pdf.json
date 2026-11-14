@@ -1,0 +1,307 @@
+{
+  "file": {
+    "name": "1_Upload_228.pdf",
+    "file_id": "f_dbb81b1e719245f1",
+    "pages": 4,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_228.pdf",
+    "sha256": "dbb81b1e719245f1a08715b162c6fabb7ab4962ad51380011ba3aa7977d1365e",
+    "govdoc": "1_Upload_228.pdf.govdoc.json.zst",
+    "revision": 109
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_325E_1987",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_163_1987",
+      "fields": {
+        "number": {
+          "value": "S.O. 325(E)"
+        },
+        "in_force": {
+          "value": "1987-04-04"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "1987-04-04",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T12:57:18.844666+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(1)(i)(a)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r73.rel1",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF FINANCE"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF ECO- NOMIC AFFAIRS"
+                },
+                {
+                  "type": "entry",
+                  "num": "1"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w503",
+                "r1.w505"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    861,
+                    1668,
+                    1086,
+                    1713
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Administration of the Foreign Exchange Regulation Act, 1973 (46 of 1973)."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w502",
+              "r1.w511"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  790,
+                  1668,
+                  1937,
+                  1713
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(1)(i)(b)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r73.rel2",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF FINANCE"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF ECO- NOMIC AFFAIRS"
+                },
+                {
+                  "type": "entry",
+                  "num": "7"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w527",
+                "r1.w529"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    868,
+                    1974,
+                    1144,
+                    2021
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "7A",
+                "text": "Enforcement, viz., investigation, adjudication and prosecution of cases arising out of breaches under the Foreign Exchange Regulation Act, 1973 (46 of 1973); Directorate of Enforcement ."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w526",
+              "r1.w535"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  787,
+                  1974,
+                  1939,
+                  2025
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 3,
+            "source_ref": "2(1)(ii)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r73.rel3",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF FINANCE"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF REVENUE"
+                },
+                {
+                  "type": "entry",
+                  "num": "16"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w584",
+                "r1.w586"
+              ],
+              "boxes": [
+                {
+                  "page": 4,
+                  "bbox": [
+                    1631,
+                    397,
+                    1886,
+                    439
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "16",
+                "text": "Directorate General of Revenue Intelligence."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w574",
+              "r1.w580"
+            ],
+            "boxes": [
+              {
+                "page": 4,
+                "bbox": [
+                  813,
+                  347,
+                  1967,
+                  388
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 4,
+            "source_ref": "2(2)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r73.rel4",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF HUMAN RESOURCE DEVELOPMENT"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF CUL- TURE"
+                },
+                {
+                  "type": "entry",
+                  "num": "47"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w627",
+                "r1.w629"
+              ],
+              "boxes": [
+                {
+                  "page": 4,
+                  "bbox": [
+                    1384,
+                    783,
+                    1670,
+                    825
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "48",
+                "text": "National Council of Culture."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w601",
+              "r1.w608"
+            ],
+            "boxes": [
+              {
+                "page": 4,
+                "bbox": [
+                  744,
+                  643,
+                  1968,
+                  682
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

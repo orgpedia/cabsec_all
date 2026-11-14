@@ -1,0 +1,29 @@
+# A person's changes to 1_Upload_314.pdf (GovDoc §8.3), one record per action, in order. Written by
+# GovDoc Studio and brought into the GovDoc file by the pipeline before it runs (Pipeline §P9).
+file: 1_Upload_314.pdf
+file_id: f_6d1be8ec03899c9b
+next: 3
+runs:
+- id: h1
+  by: mukundesh
+  at: '2026-11-12T06:27:48Z'
+  relations:
+  - id: h1.r1
+    label: legal:replacement
+    words: [r1.w357, r1.w364]
+    doc_id: GOI_SO_1295E_2003
+    args:
+    - {name: provision, annotation: {label: 'core:provision', words: [r1.w377, r1.w394]}}
+    - {name: new_text, annotation: {label: 'core:quoted_text', blocks: [r1.w402]}}
+    - {name: seq, value: 1}
+    - {name: clause_ref, value: 2(1)}
+    - {name: scope, value: heading}
+    - name: expect
+      value: (iii) Department of Indian Systems of Medicine and Homoeopathy (Bhartiya Chikitsa Paddhati aur Homoeopathy
+        Vibhag)
+    supersedes: {label: 'legal:replacement', words: [r1.w357, r1.w364]}
+- id: h2
+  by: mukundesh
+  at: '2026-11-12T06:48:55Z'
+  reviews:
+  - {status: rejected, issue: {code: 'aob:read_quote_mismatch', word: r1.w357}}

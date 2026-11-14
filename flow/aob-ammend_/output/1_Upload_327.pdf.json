@@ -1,0 +1,366 @@
+{
+  "file": {
+    "name": "1_Upload_327.pdf",
+    "file_id": "f_3925e93da387306e",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_327.pdf",
+    "sha256": "3925e93da387306e143ce5bf9deeca90f9861e12bbc56ae394b687429093b5b9",
+    "govdoc": "1_Upload_327.pdf.govdoc.json.zst",
+    "revision": 148
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_40E_2006",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_36_2006",
+      "fields": {
+        "number": {
+          "value": "S.O. 40(E)"
+        },
+        "in_force": {
+          "value": "2006-01-12"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "2006-01-12",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T12:55:38.954730+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(i)(a)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r112.rel1",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF FINANCE"
+                },
+                {
+                  "type": "department",
+                  "heading": "Department of Economic Affairs"
+                },
+                {
+                  "type": "entry",
+                  "num": "25"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r6.w490",
+                "r6.w491"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    2020,
+                    954,
+                    2146,
+                    995
+                  ]
+                }
+              ]
+            },
+            "flags": [],
+            "words": [
+              "r6.w478",
+              "r6.w489"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  593,
+                  954,
+                  2010,
+                  1003
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(i)(b)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r112.rel2",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF FINANCE"
+                },
+                {
+                  "type": "department",
+                  "heading": "Department of Disinvestment"
+                },
+                {
+                  "type": "entry",
+                  "num": "5"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r6.w505",
+                "r6.w507"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1880,
+                    1072,
+                    2064,
+                    1113
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "Financial policy in regard to the utilization of the proceeds of disinvestment channellised into the National Investment Fund."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r6.w495",
+              "r6.w504"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  590,
+                  1073,
+                  1871,
+                  1120
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 3,
+            "source_ref": "2(ii)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r112.rel3",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Health and Family Welfare"
+                },
+                {
+                  "type": "department",
+                  "heading": "Department of Health and Family Welfare"
+                },
+                {
+                  "type": "entry",
+                  "num": "1"
+                },
+                {
+                  "type": "item",
+                  "num": "p"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r6.w564",
+                "r6.w566"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    526,
+                    1359,
+                    2279,
+                    1459
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "item",
+                "num": "q",
+                "text": ". National AIDS Control Organisation (NACO)."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r6.w534",
+              "r6.w548"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  450,
+                  1308,
+                  2175,
+                  1358
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 4,
+            "source_ref": "2(iii)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r112.rel4",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Home Affairs"
+                },
+                {
+                  "type": "department",
+                  "heading": "Department of Internal Security"
+                },
+                {
+                  "type": "entry",
+                  "num": "40"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r6.w601",
+                "r6.w603"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1260,
+                    1599,
+                    1456,
+                    1640
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "40",
+                "text": "Parliament questions/matters relating to general crime other than the offences relating to pilferage of railway property and offences relating to crime on Government Railways and non-Government Railways."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r6.w580",
+              "r6.w589"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  442,
+                  1548,
+                  1597,
+                  1596
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 5,
+            "source_ref": "2(iv)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r112.rel5",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Railways"
+                },
+                {
+                  "type": "entry",
+                  "num": "3"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r6.w648",
+                "r6.w650"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1490,
+                    1834,
+                    1660,
+                    1875
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "Parliament questions/matters regarding offences relating to pilferage of railway property and offences relating to crime on Government Railways and non-Government Railways."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r6.w639",
+              "r6.w647"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  439,
+                  1836,
+                  1480,
+                  1883
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

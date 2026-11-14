@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_366.pdf",
     "sha256": "434c775605cbff8c0ab0668f80ec1489e3f9ef3a83e44167387a1d197fa43742",
     "govdoc": "1_Upload_366.pdf.govdoc.json.zst",
-    "revision": 44
+    "revision": 193
   },
   "documents": [
     {
@@ -29,9 +29,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "2",
+          "version": "3",
           "model": "gemini-4-argon",
-          "at": "2026-11-03T16:59:02.992592+00:00"
+          "at": "2026-11-12T12:55:40.615879+00:00"
         },
         "ops": [
           {
@@ -39,6 +39,7 @@
             "source_ref": "2(1)",
             "op": "omit",
             "akn_type": "repeal",
+            "relation": "r157.rel1",
             "target": {
               "cited": [
                 {
@@ -52,8 +53,8 @@
               ],
               "eId": null,
               "words": [
-                "r1.w913",
-                "r1.w924"
+                "r51.w913",
+                "r51.w924"
               ],
               "boxes": [
                 {
@@ -70,8 +71,8 @@
             "expect": "22AA. Ministry of Overseas Indian Affairs (Pravasi Bhartiya Karya Mantralaya)",
             "flags": [],
             "words": [
-              "r1.w908",
-              "r1.w920"
+              "r51.w908",
+              "r51.w914"
             ],
             "boxes": [
               {
@@ -79,7 +80,7 @@
                 "bbox": [
                   476,
                   2473,
-                  2213,
+                  1378,
                   2512
                 ]
               }
@@ -90,6 +91,7 @@
             "source_ref": "2(2)(a)",
             "op": "replace",
             "akn_type": "replacement",
+            "relation": "r157.rel2",
             "target": {
               "cited": [
                 {
@@ -111,8 +113,8 @@
               ],
               "eId": null,
               "words": [
-                "r1.w959",
-                "r1.w961"
+                "r51.w959",
+                "r51.w961"
               ],
               "boxes": [
                 {
@@ -142,8 +144,8 @@
               "read_page_break"
             ],
             "words": [
-              "r1.w933",
-              "r1.w943"
+              "r51.w933",
+              "r51.w939"
             ],
             "boxes": [
               {
@@ -151,7 +153,7 @@
                 "bbox": [
                   476,
                   2669,
-                  2214,
+                  1531,
                   2708
                 ]
               }
@@ -162,6 +164,7 @@
             "source_ref": "2(2)(b)(i)",
             "op": "replace",
             "akn_type": "replacement",
+            "relation": "r157.rel3",
             "target": {
               "cited": [
                 {
@@ -179,8 +182,8 @@
               ],
               "eId": null,
               "words": [
-                "r1.w1034",
-                "r1.w1036"
+                "r51.w1034",
+                "r51.w1036"
               ],
               "boxes": [
                 {
@@ -203,8 +206,8 @@
             ],
             "flags": [],
             "words": [
-              "r1.w1033",
-              "r1.w1043"
+              "r51.w1033",
+              "r51.w1039"
             ],
             "boxes": [
               {
@@ -212,7 +215,7 @@
                 "bbox": [
                   617,
                   492,
-                  1825,
+                  1311,
                   532
                 ]
               }
@@ -223,6 +226,7 @@
             "source_ref": "2(2)(b)(ii)",
             "op": "replace",
             "akn_type": "replacement",
+            "relation": "r157.rel4",
             "target": {
               "cited": [
                 {
@@ -240,8 +244,8 @@
               ],
               "eId": null,
               "words": [
-                "r1.w1068",
-                "r1.w1070"
+                "r51.w1068",
+                "r51.w1070"
               ],
               "boxes": [
                 {
@@ -264,8 +268,8 @@
             ],
             "flags": [],
             "words": [
-              "r1.w1067",
-              "r1.w1077"
+              "r51.w1067",
+              "r51.w1073"
             ],
             "boxes": [
               {
@@ -273,7 +277,7 @@
                 "bbox": [
                   617,
                   688,
-                  1825,
+                  1311,
                   728
                 ]
               }
@@ -284,6 +288,7 @@
             "source_ref": "2(2)(b)(iii)",
             "op": "insert",
             "akn_type": "insertion",
+            "relation": "r157.rel5",
             "position": "after",
             "anchor": {
               "cited": [
@@ -302,8 +307,8 @@
               ],
               "eId": null,
               "words": [
-                "r1.w1089",
-                "r1.w1091"
+                "r51.w1089",
+                "r51.w1091"
               ],
               "boxes": [
                 {
@@ -397,8 +402,8 @@
               "read_page_break"
             ],
             "words": [
-              "r1.w1088",
-              "r1.w1098"
+              "r51.w1088",
+              "r51.w1094"
             ],
             "boxes": [
               {
@@ -406,7 +411,7 @@
                 "bbox": [
                   617,
                   834,
-                  1840,
+                  1376,
                   874
                 ]
               }
@@ -417,6 +422,7 @@
             "source_ref": "2(2)(c)",
             "op": "replace",
             "akn_type": "replacement",
+            "relation": "r157.rel6",
             "target": {
               "cited": [
                 {
@@ -438,8 +444,8 @@
               ],
               "eId": null,
               "words": [
-                "r1.w1515",
-                "r1.w1517"
+                "r51.w1515",
+                "r51.w1517"
               ],
               "boxes": [
                 {
@@ -462,8 +468,8 @@
             ],
             "flags": [],
             "words": [
-              "r1.w1497",
-              "r1.w1506"
+              "r51.w1497",
+              "r51.w1503"
             ],
             "boxes": [
               {
@@ -471,7 +477,7 @@
                 "bbox": [
                   476,
                   384,
-                  2213,
+                  1457,
                   424
                 ]
               }
@@ -482,6 +488,7 @@
             "source_ref": "2(2)(d)",
             "op": "omit",
             "akn_type": "repeal",
+            "relation": "r157.rel7",
             "target": {
               "cited": [
                 {
@@ -495,8 +502,8 @@
               ],
               "eId": null,
               "words": [
-                "r1.w1542",
-                "r1.w1556"
+                "r51.w1542",
+                "r51.w1556"
               ],
               "boxes": [
                 {
@@ -513,8 +520,8 @@
             "expect": "MINISTRY OF OVERSEAS INDIAN AFFAIRS (PRAVASI BHARTIYA KARYA MANTRALAYA)",
             "flags": [],
             "words": [
-              "r1.w1541",
-              "r1.w1550"
+              "r51.w1541",
+              "r51.w1547"
             ],
             "boxes": [
               {
@@ -522,7 +529,7 @@
                 "bbox": [
                   487,
                   679,
-                  2213,
+                  1558,
                   718
                 ]
               }

@@ -1,0 +1,302 @@
+{
+  "file": {
+    "name": "1_Upload_170.pdf",
+    "file_id": "f_b7b1f643c8d2bf92",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_170.pdf",
+    "sha256": "b7b1f643c8d2bf921f65534c6e0469d3261d6f8c69076af42bf026863ab46b51",
+    "govdoc": "1_Upload_170.pdf.govdoc.json.zst",
+    "revision": 46
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_424E_1979",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_306_1979",
+      "fields": {
+        "number": {
+          "value": "S.O. 424(E)"
+        },
+        "in_force": {
+          "value": "1979-07-25"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "1979-07-25",
+          "basis": "stated"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T13:49:50.293184+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(a)(i)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r10.rel1",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF FINANCE"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF REVENUE"
+                },
+                {
+                  "type": "entry",
+                  "num": "13"
+                },
+                {
+                  "type": "item",
+                  "num": "c"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w450",
+                "r1.w452"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    394,
+                    556,
+                    591,
+                    586
+                  ]
+                }
+              ]
+            },
+            "expect": "and",
+            "flags": [],
+            "words": [
+              "r1.w449",
+              "r1.w459"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  331,
+                  556,
+                  1174,
+                  586
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(a)(ii)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r10.rel2",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF FINANCE"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF REVENUE"
+                },
+                {
+                  "type": "entry",
+                  "num": "13"
+                },
+                {
+                  "type": "item",
+                  "num": "d"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w461",
+                "r1.w463"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    393,
+                    614,
+                    626,
+                    647
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "item",
+                "num": "e",
+                "text": "Muscum of Gems and Jewellery."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w460",
+              "r1.w469"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  332,
+                  614,
+                  1214,
+                  647
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 3,
+            "source_ref": "2(b)(1)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r10.rel3",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF LAW, JUSTICE AND COMPANY AFFAIRS"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF LEGAL AFFAIRS"
+                },
+                {
+                  "type": "entry",
+                  "num": "10"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w512",
+                "r1.w514"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1502,
+                    381,
+                    1733,
+                    414
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "10A",
+                "text": "Administration of the Notaries Act, 1952"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w500",
+              "r1.w506"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  1428,
+                  314,
+                  2310,
+                  346
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 4,
+            "source_ref": "2(b)(ii)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r10.rel4",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF LAW, JUSTICE AND COMPANY AFFAIRS"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF JUSTICE"
+                },
+                {
+                  "type": "entry",
+                  "num": "5"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w541",
+                "r1.w542"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    2078,
+                    598,
+                    2200,
+                    630
+                  ]
+                }
+              ]
+            },
+            "flags": [],
+            "words": [
+              "r1.w532",
+              "r1.w531"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  1420,
+                  565,
+                  2312,
+                  597
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

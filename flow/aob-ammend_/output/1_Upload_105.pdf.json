@@ -1,0 +1,162 @@
+{
+  "file": {
+    "name": "1_Upload_105.pdf",
+    "file_id": "f_c6e2b9825dd0c9c6",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_105.pdf",
+    "sha256": "c6e2b9825dd0c9c648b2bbc0df7d74ce2d2cf17ab9a0c5b90b344bf6a4f0de15",
+    "govdoc": "1_Upload_105.pdf.govdoc.json.zst",
+    "revision": 46
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_3393_1968",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_342_1968",
+      "fields": {
+        "number": {
+          "value": "S.O. 3393"
+        },
+        "in_force": {
+          "value": "1968-09-19"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "1968-09-19",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T13:49:51.651886+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "3(a)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r10.rel1",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Finance"
+                },
+                {
+                  "type": "department",
+                  "heading": "Depart- ment of Expenditure"
+                },
+                {
+                  "type": "entry",
+                  "num": "14"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w214",
+                "r1.w215"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    964,
+                    2105,
+                    1125,
+                    2141
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "14",
+                "text": "Bureau of Public Enterprises, including Industrial Management Pool."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w198",
+              "r1.w207"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  344,
+                  2071,
+                  1496,
+                  2107
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "3(b)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r10.rel2",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Home Affairs"
+                },
+                {
+                  "type": "entry",
+                  "num": "52"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w241",
+                "r1.w242"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    1258,
+                    2267,
+                    1403,
+                    2302
+                  ]
+                }
+              ]
+            },
+            "flags": [],
+            "words": [
+              "r1.w233",
+              "r1.w242"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  342,
+                  2264,
+                  1403,
+                  2302
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

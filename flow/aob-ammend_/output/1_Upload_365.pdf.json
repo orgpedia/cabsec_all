@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_365.pdf",
     "sha256": "465e15f5d088ff08fc36cbce71d34160b94f25f27946662ee2ca31855e4fa12b",
     "govdoc": "1_Upload_365.pdf.govdoc.json.zst",
-    "revision": 44
+    "revision": 193
   },
   "documents": [
     {
@@ -29,9 +29,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "2",
+          "version": "3",
           "model": "gemini-4-argon",
-          "at": "2026-11-03T16:59:03.057639+00:00"
+          "at": "2026-11-12T12:55:40.868719+00:00"
         },
         "ops": [
           {
@@ -39,6 +39,7 @@
             "source_ref": "2(1)",
             "op": "insert",
             "akn_type": "insertion",
+            "relation": "r157.rel1",
             "position": "after",
             "anchor": {
               "cited": [
@@ -61,17 +62,17 @@
               ],
               "eId": null,
               "words": [
-                "r1.w252",
-                "r1.w254"
+                "r51.w324",
+                "r51.w326"
               ],
               "boxes": [
                 {
                   "page": 2,
                   "bbox": [
-                    1698,
-                    1000,
-                    1938,
-                    1034
+                    1695,
+                    982,
+                    1934,
+                    1022
                   ]
                 }
               ]
@@ -85,17 +86,17 @@
             ],
             "flags": [],
             "words": [
-              "r1.w233",
-              "r1.w239"
+              "r51.w305",
+              "r51.w311"
             ],
             "boxes": [
               {
                 "page": 2,
                 "bbox": [
-                  483,
-                  960,
-                  1305,
-                  995
+                  480,
+                  961,
+                  1301,
+                  1019
                 ]
               }
             ]
@@ -105,6 +106,7 @@
             "source_ref": "2(2)",
             "op": "omit",
             "akn_type": "repeal",
+            "relation": "r157.rel2",
             "target": {
               "cited": [
                 {
@@ -126,34 +128,34 @@
               ],
               "eId": null,
               "words": [
-                "r1.w289",
-                "r1.w290"
+                "r51.w361",
+                "r51.w362"
               ],
               "boxes": [
                 {
                   "page": 2,
                   "bbox": [
-                    1745,
-                    1254,
-                    1869,
-                    1288
+                    1743,
+                    1236,
+                    1866,
+                    1273
                   ]
                 }
               ]
             },
             "flags": [],
             "words": [
-              "r1.w269",
-              "r1.w275"
+              "r51.w341",
+              "r51.w349"
             ],
             "boxes": [
               {
                 "page": 2,
                 "bbox": [
-                  491,
-                  1212,
-                  1208,
-                  1247
+                  487,
+                  1207,
+                  1463,
+                  1269
                 ]
               }
             ]

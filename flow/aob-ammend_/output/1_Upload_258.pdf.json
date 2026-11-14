@@ -1,0 +1,426 @@
+{
+  "file": {
+    "name": "1_Upload_258.pdf",
+    "file_id": "f_e126bbb01ff9042f",
+    "pages": 4,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_258.pdf",
+    "sha256": "e126bbb01ff9042f1dda413db48115fa9b10df438a6b6b5156e68ee40c7e51f3",
+    "govdoc": "1_Upload_258.pdf.govdoc.json.zst",
+    "revision": 109
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_821E_1991",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_709_1991",
+      "fields": {
+        "number": {
+          "value": "S.O. 821(E)"
+        },
+        "in_force": {
+          "value": "1991-12-04"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "1991-12-04",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T12:57:18.967410+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(1)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r73.rel1",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF CIVIL SUPPLIES AND PUBLIC DISTRIBUTION"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w575",
+                "r1.w590"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    348,
+                    968,
+                    1605,
+                    1090
+                  ]
+                }
+              ]
+            },
+            "expect": "4. MINISTRY OF CIVIL SUPPLIES AND PUBLIC DISTRIBUTION (NAGARIK POORTI AUR SARVAJANIK VITARAN MANTRALAYA)",
+            "content": [
+              {
+                "type": "ministry",
+                "num": "4",
+                "heading": "MINISTRY OF CIVIL SUPPLIES, CONSUMER AFFAIRS AND PUBLIC DISTRIBUTION",
+                "heading_hi": "NAGARIK POORTI, UPBHOKTA MAMLE AUR SARVAJANIK VITARAN MANTRALAYA"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w569",
+              "r1.w576"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  258,
+                  968,
+                  1030,
+                  1007
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(2)(a)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r73.rel2",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF CIVIL SUPPLIES AND PUBLIC DISTRIBUTION"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w624",
+                "r1.w638"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    388,
+                    1399,
+                    1601,
+                    1523
+                  ]
+                }
+              ]
+            },
+            "expect": "MINISTRY OF CIVIL SUPPLIES AND PUBLIC DISTRIBUTION (NAGARIK POORTI AUR SARVAJANIK VITARAN MANTRALAYA)",
+            "scope": "heading",
+            "content": [
+              {
+                "type": "ministry",
+                "heading": "MINISTRY OF CIVIL SUPPLIES, CONSUMER AFFAIRS AND PUBLIC DISTRIBUTION",
+                "heading_hi": "NAGARIK POORTI, UPBHOKTA MAMLE AUR SARVAJANIK VITARAN MANTRALAYA"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w622",
+              "r1.w631"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  297,
+                  1399,
+                  1599,
+                  1438
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 3,
+            "source_ref": "2(2)(b)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r73.rel3",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF EXTERNAL AFFAIRS"
+                },
+                {
+                  "type": "entry",
+                  "num": "6"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w672",
+                "r1.w673"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    1050,
+                    1775,
+                    1197,
+                    1818
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "Extradition of criminals and accused persons from India to foreign & Commonwealth countries & vice versa and general administration of the Extradition Act, 1962 (34 of 1962), and extra-territoriality."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w661",
+              "r1.w668"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  294,
+                  1733,
+                  1594,
+                  1773
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 4,
+            "source_ref": "2(2)(c)",
+            "op": "renumber",
+            "akn_type": "renumbering",
+            "relation": "r73.rel4",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF PERSONNEL, PUBLIC GRIEVANCES AND PENSIONS"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF PERSONNEL AND TRAINING"
+                },
+                {
+                  "type": "entry",
+                  "num": "39"
+                },
+                {
+                  "type": "item",
+                  "num": "e"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w753",
+                "r1.w756"
+              ],
+              "boxes": [
+                {
+                  "page": 4,
+                  "bbox": [
+                    496,
+                    298,
+                    1705,
+                    380
+                  ]
+                }
+              ]
+            },
+            "new_num": "f",
+            "flags": [],
+            "words": [
+              "r1.w712",
+              "r1.w719"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  290,
+                  2118,
+                  1592,
+                  2155
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 5,
+            "source_ref": "2(2)(c)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r73.rel5",
+            "position": "before",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF PERSONNEL, PUBLIC GRIEVANCES AND PENSIONS"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF PERSONNEL AND TRAINING"
+                },
+                {
+                  "type": "entry",
+                  "num": "39"
+                },
+                {
+                  "type": "item",
+                  "num": "f"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w765",
+                "r1.w769"
+              ],
+              "boxes": [
+                {
+                  "page": 4,
+                  "bbox": [
+                    495,
+                    341,
+                    1705,
+                    423
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "item",
+                "num": "e",
+                "text": "All matters relating to Central Administrative Tribunals and State Administrative Tribunals."
+              }
+            ],
+            "ref_seq": 4,
+            "flags": [],
+            "words": [
+              "r1.w712",
+              "r1.w719"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  290,
+                  2118,
+                  1592,
+                  2155
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 6,
+            "source_ref": "2(2)(d)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r73.rel6",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF POWER AND NON-CON- VENTIONAL ENERGY SOURCES"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF POWER"
+                },
+                {
+                  "type": "entry",
+                  "num": "15"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w818",
+                "r1.w819"
+              ],
+              "boxes": [
+                {
+                  "page": 4,
+                  "bbox": [
+                    839,
+                    728,
+                    1013,
+                    768
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "16",
+                "text": "Other Public Sector Enterprises concerned with the subject included under this Department except such projects as are specifically allotted to any other Ministry Department."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w790",
+              "r1.w798"
+            ],
+            "boxes": [
+              {
+                "page": 4,
+                "bbox": [
+                  403,
+                  559,
+                  1701,
+                  598
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

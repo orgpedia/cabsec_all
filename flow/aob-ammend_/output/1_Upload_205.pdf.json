@@ -1,0 +1,861 @@
+{
+  "file": {
+    "name": "1_Upload_205.pdf",
+    "file_id": "f_c12cb39d7b86135e",
+    "pages": 8,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_205.pdf",
+    "sha256": "c12cb39d7b86135e0f59714073d6774b2388a446678eb8daaeea6fd5684987e5",
+    "govdoc": "1_Upload_205.pdf.govdoc.json.zst",
+    "revision": 46
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_192E_1985",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_123_1985",
+      "fields": {
+        "number": {
+          "value": "S.O. 192(E)"
+        },
+        "in_force": {
+          "value": "1985-03-15"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "1985-03-15",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T13:49:50.902404+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(a)(i)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r10.rel1",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Parliamentary Affairs"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w2331",
+                "r1.w2341"
+              ],
+              "boxes": [
+                {
+                  "page": 4,
+                  "bbox": [
+                    421,
+                    2985,
+                    1194,
+                    3117
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "ministry",
+                "num": "17AA",
+                "heading": "Ministry of Personnel and Training Administrative Reforms and Public Grievances and Pension (Karmik aur Prashikshan, Prashasanik Sudhar aur Lok Shikayat tatha Pension Mantralaya)\" :"
+              },
+              {
+                "type": "department",
+                "num": "i",
+                "heading": "Department of Personnel and Training",
+                "heading_hi": "Karmik aur Prashikshan Vibhag"
+              },
+              {
+                "type": "department",
+                "num": "ii",
+                "heading": "Department of Administrative Reforms and Public Grievances",
+                "heading_hi": "Prashasanik Sudhar aur Lok Shikayat Vibhag"
+              },
+              {
+                "type": "department",
+                "num": "iii",
+                "heading": "Department of Pension and Pensioners' Welfare",
+                "heading_hi": "Pension aur Pension Bhogi Kalyan Vibhag"
+              }
+            ],
+            "flags": [
+              "new_text_differs"
+            ],
+            "words": [
+              "r1.w2330",
+              "r1.w2336"
+            ],
+            "boxes": [
+              {
+                "page": 4,
+                "bbox": [
+                  347,
+                  2984,
+                  1192,
+                  3043
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(a)(ii)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r10.rel2",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Department of Personnel and Administrative Reforms"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w2424",
+                "r1.w2437"
+              ],
+              "boxes": [
+                {
+                  "page": 4,
+                  "bbox": [
+                    1491,
+                    1061,
+                    2259,
+                    1228
+                  ]
+                }
+              ]
+            },
+            "expect": "30. Department of Per- sonnel and Administrative Reforms (Karmik aur Prashasanik Sudhar Vibhag)",
+            "flags": [],
+            "words": [
+              "r1.w2423",
+              "r1.w2429"
+            ],
+            "boxes": [
+              {
+                "page": 4,
+                "bbox": [
+                  1406,
+                  1061,
+                  2257,
+                  1106
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 3,
+            "source_ref": "2(b)(i)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r10.rel3",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF PARLIAMENTARY AFFAIRS"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w2450",
+                "r1.w2463"
+              ],
+              "boxes": [
+                {
+                  "page": 4,
+                  "bbox": [
+                    1494,
+                    1352,
+                    2264,
+                    1523
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "ministry",
+                "heading": "MINISTRY OF PERSONNEL AND TRAINING, ADMINISTRATIVE RE- FORMS AND PUBLIC GRIEVAN- CES AND PENSION",
+                "heading_hi": "KARMIK AUR PRASHIKSHAN, PRASHA- SANIK SUDHAR AUR LOK SHIKAYAT TATHA PENSION MANTRALAYA"
+              },
+              {
+                "type": "department",
+                "num": "A",
+                "heading": "DEPARTMENT OF PERSONNEL AND TRAINING",
+                "heading_hi": "KARMIK AUR PRASHIKSHAN VIBHAG"
+              },
+              {
+                "type": "group_heading",
+                "num": "I",
+                "text": "Recruitment, Promotion and Morale of the Services."
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Reservation of posts in Services for certain classes of citizens."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "General questions relating to recruitment promotion and seniority pertaining to Central Services except Railways Services and Services under the control of the Department of Atomic Energy (Parmanu Ôorja Vibhag), the Department of Electronics (Electroniki Vibhag), the Department of Space (Antariksh Vibhag) and the Scientific and Technical Services under the Department of Defence Research and Development (Raksha Anusandhan Tatha Vikas Vibhag):"
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "General policy regarding age limits, medical standards, educational qualifications and recognition of non-technical degrees/diplomas for appointment to Government service."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "General policy matters regarding classification of posts and grant of gazetted status in relation to Services other than Railway Services."
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "Recruitment of ministerial staff for the Government of India Secretariat and its attached offices except that for the Ministry of Railways (Rail Mantralaya), the Department of Atomic Energy (Parmanu Oorja Vibhag), the Department of Electronics (Electroniki Vibhag), and the Department of Space (Antariksh Vibhag)."
+              },
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "Appointment of non-Indians to Civil posts under the Government of India except posts under the Ministry of Railways (Rail Mantralaya), the Department of Atomic Energy (Parmanu Oorja Vibhag), the Department of Electronics (Electroniki Vibhag), and the Department of Space (Antariksh Vibhag)."
+              },
+              {
+                "type": "entry",
+                "num": "7",
+                "text": "General policy regarding employment assistance to persons of Indian origin coming from various countries."
+              },
+              {
+                "type": "entry",
+                "num": "8",
+                "text": "Concessions to War Service candidates in respect of appointments to Civil posts and services."
+              },
+              {
+                "type": "entry",
+                "num": "9",
+                "text": "General policy regarding resettlement of displaced Government servants from areas now in Pakistan, and retrenched temporary employees."
+              },
+              {
+                "type": "entry",
+                "num": "10",
+                "text": "Concessions to political sufferers in the matters of first appointment or reappointment to the Public Services."
+              },
+              {
+                "type": "entry",
+                "num": "11",
+                "text": "General policy regarding grant of extension to or re-employment of superannuated officers. -12. Issue of certificates of eligibility for appointment of Civil Services and posts under the Union in respect of persons other than Indian citizens."
+              },
+              {
+                "type": "entry",
+                "num": "13",
+                "text": ""
+              },
+              {
+                "type": "item",
+                "num": "a",
+                "text": "Deputation of Indian experts abroad under the Indian Technical and Economic Cooperation Programme of the Ministry of External Affairs (Videsh Mantralaya) and on bilateral basis of the developing countries of Asia, Africa and Latin America."
+              },
+              {
+                "type": "item",
+                "num": "b",
+                "text": "Deputation of officers or placements with the United Nations and its allied agencies as also with other international agencies like ILO, FAO, etc."
+              },
+              {
+                "type": "entry",
+                "num": "14",
+                "text": "General - policy regarding verification of character and antecedents-suitability of candidates for appointment to Government service."
+              },
+              {
+                "type": "entry",
+                "num": "15",
+                "text": "Policy matters relating to issue of No Objection certificate to serving personnel for registration with the Employment Exchange for higher posts."
+              },
+              {
+                "type": "entry",
+                "num": "16",
+                "text": "Matters relating to Personal Staff of relating to Ministers. ----T"
+              },
+              {
+                "type": "entry",
+                "num": "17",
+                "text": "Re-deployment of staff renederd surplus in Central Government offices as a result of: --"
+              },
+              {
+                "type": "item",
+                "num": "i",
+                "text": "administrative reforms."
+              },
+              {
+                "type": "item",
+                "num": "ii",
+                "text": "studies made by the S.I.U."
+              },
+              {
+                "type": "item",
+                "num": "iii",
+                "text": "winding up of long term but temporary organisation's."
+              },
+              {
+                "type": "entry",
+                "num": "18",
+                "text": "Advising Ministries on proper management of various cadres under their control."
+              },
+              {
+                "type": "group_heading",
+                "num": "II",
+                "text": "Training."
+              },
+              {
+                "type": "entry",
+                "num": "19",
+                "text": ""
+              },
+              {
+                "type": "item",
+                "num": "a",
+                "text": "Formation and coordination of training policies for the All India and Central the Services."
+              },
+              {
+                "type": "item",
+                "num": "b",
+                "text": "Lal Bahadur Shastri National Academy of Administration and Institute of Secretariat - Training and Management."
+              },
+              {
+                "type": "item",
+                "num": "c",
+                "text": "Training programmes for the Indian Administrative Service and the Central Secretariat Service."
+              },
+              {
+                "type": "item",
+                "num": "d",
+                "text": "Preparation and publication of training material and of information of training - techniques, facilities and programmes."
+              },
+              {
+                "type": "item",
+                "num": "e",
+                "text": "Liaison with training institutions within the States and abroad."
+              },
+              {
+                "type": "item",
+                "num": "f",
+                "text": "Refresher and special courses for Middle and Senior Management levels."
+              },
+              {
+                "type": "group_heading",
+                "num": "III",
+                "text": "Vigilance and Discipline."
+              },
+              {
+                "type": "entry",
+                "num": "20",
+                "text": ""
+              },
+              {
+                "type": "item",
+                "num": "a",
+                "text": "The Prevention of Corruption Act 1947; the Central Bureau of Investigation (the Delhi Special Police Establishment including the Legal Division, the Technical Division, the Policy Division and the Administration Division); the Food Offences Wing; and Economic Offences Wing."
+              },
+              {
+                "type": "item",
+                "num": "b",
+                "text": "Accord of sanction for the prosecution of any person for any offence investigated into by the Delhi Special Police Establishment where such sanction is required to be accorded by the Central Government."
+              },
+              {
+                "type": "note",
+                "text": "Note Sanction for the prosecution of any person for any offence not investigated into by the Delhi Special Police Establishment shall be accorded by the Administrative Department where such sanction is required to be accorded by the Central Government."
+              },
+              {
+                "type": "item",
+                "num": "c",
+                "text": "Central Vigilance Commission. ."
+              },
+              {
+                "type": "item",
+                "num": "d",
+                "text": "All policy matters pertaining to vigilance and discipline among public servants."
+              },
+              {
+                "type": "item",
+                "num": "c",
+                "text": "Relationship between Members of Parliament and the Administration."
+              },
+              {
+                "type": "group_heading",
+                "num": "IV",
+                "text": "Service Conditions."
+              },
+              {
+                "type": "entry",
+                "num": "21",
+                "text": "General questions (other than those which have a financial bearing) including Conduct Rules relating to All India and Union Public Services except in regard to services under the control of the Ministry of Railways (Rail Mantralaya), the Department of Atomic Energy (Parmanu Oorja Vibhag) the Department of Electronics (Electroniki Vibhag), and the Department of Space (Antariksh Vibhag)."
+              },
+              {
+                "type": "entry",
+                "num": "22",
+                "text": "Conditions of service of Central Government employees [excluding those under the control of the Ministry of Railways (Rail Mantralaya), the Department of Atomic Energy (Parmaqu Oorja Vibhag), the Department of Electronics (Electronikı Vibhag), the Department of Space (Antariksh Vibhag) and the Scientific and Technical personnel under the Department of Defence. Research and Development (Raksha Anusandhan Tatha Vikas Vibhag)] other than those having a financial bearing and in so far as they raise points of general service interests."
+              },
+              {
+                "type": "entry",
+                "num": "23",
+                "text": ""
+              },
+              {
+                "type": "item",
+                "num": "a",
+                "text": "The administration of all service rules including F.RS., S.Rs. and C.S.Rs. (but excluding those relating to Pension and other retirement benefits) except--"
+              },
+              {
+                "type": "item",
+                "num": "i",
+                "text": "proposals relating to revisions of pay structure of employees"
+              },
+              {
+                "type": "item",
+                "num": "ii",
+                "text": "proposals for revisions of pay scales of Central Government employees"
+              },
+              {
+                "type": "item",
+                "num": "iii",
+                "text": "appointment of Pay Commission, process. ing of the recommendation and implementation thereof"
+              },
+              {
+                "type": "item",
+                "num": "iv",
+                "text": "dearness allowance and other compensatory allowances and travelling allowances:"
+              },
+              {
+                "type": "item",
+                "num": "v",
+                "text": "any new facility to Government employees by way of service conditions or fringe benefits which involve significant recurring financial implications; and"
+              },
+              {
+                "type": "item",
+                "num": "vi",
+                "text": "matters relating to amendments to service rules having a predominantly financial character."
+              },
+              {
+                "type": "item",
+                "num": "b",
+                "text": "Initiation of proposals for new facility to Government employees by way of service conditions and fringe benefits + involving significant recurring financial implications."
+              },
+              {
+                "type": "item",
+                "num": "c",
+                "text": "Issue of formal orders of the Government of India in matters relating to amendments to service rules including those having a predominantly financial character referred to in item (vi) of clause (a)."
+              },
+              {
+                "type": "item",
+                "num": "d",
+                "text": "Relaxation and liberalisation of any service rules having a long-term financial implications in consultation with the Ministry of Finance."
+              },
+              {
+                "type": "entry",
+                "num": "24",
+                "text": "Grants to the Indian Institute of Public Administration."
+              },
+              {
+                "type": "entry",
+                "num": "25",
+                "text": "Leave travel concession for civil employees other than Railway employees."
+              },
+              {
+                "type": "entry",
+                "num": "26",
+                "text": "The Central Services (Temporary Service) Rules, 1949."
+              },
+              {
+                "type": "entry",
+                "num": "27",
+                "text": "General policy regarding retrenchment and revision of temporary Government_servants except those under the Ministry of Railways (Rail Mantralaya)."
+              },
+              {
+                "type": "entry",
+                "num": "28",
+                "text": "Administration of the Central Services (Safeguarding of National Security) Rules."
+              },
+              {
+                "type": "entry",
+                "num": "29",
+                "text": "Uniforms for Class IV and other Government servants in the Central Secretariat, and its attached offices."
+              },
+              {
+                "type": "entry",
+                "num": "30",
+                "text": "Working Hours and Holidays for Government of India offices."
+              },
+              {
+                "type": "entry",
+                "num": "31",
+                "text": "Administration of service rules with financial content under specific delegation made by the Ministry of Finance (Vitta Mantralaya)."
+              },
+              {
+                "type": "entry",
+                "num": "32",
+                "text": "Advice on proposals in respect of the Ministry of Finance (Vitta Mantralaya) relating to the number or grade of posts to the strength of a service or to the pay and allowances of Government servants or any other conditions of their service having 1 financial implications."
+              },
+              {
+                "type": "entry",
+                "num": "33",
+                "text": "General policy regarding reimbursement of legal expenses incurred by Government -servants."
+              },
+              {
+                "type": "entry",
+                "num": "34",
+                "text": "Proposals for grant of ex-officio Secretarial status."
+              },
+              {
+                "type": "entry",
+                "num": "35",
+                "text": "Honorary appointments of persons in civil posts."
+              },
+              {
+                "type": "entry",
+                "num": "36",
+                "text": "Oath of allegiance to the Constitution."
+              },
+              {
+                "type": "group_heading",
+                "num": "V",
+                "text": "Senior and Middle Management."
+              },
+              {
+                "type": "entry",
+                "num": "37",
+                "text": "All aspects of Senior Senior Management (i.e. Joint Secretaries and above and their equivalents) including developments of personnel for it."
+              },
+              {
+                "type": "entry",
+                "num": "38",
+                "text": ""
+              },
+              {
+                "type": "item",
+                "num": "a",
+                "text": "Establishment Officer to the Government of India."
+              },
+              {
+                "type": "item",
+                "num": "b",
+                "text": "Appointments Committee of the Cabinet."
+              },
+              {
+                "type": "item",
+                "num": "c",
+                "text": "Central Establishment Board."
+              },
+              {
+                "type": "item",
+                "num": "d",
+                "text": "Carcer Development for Middle Management (i.e. Directors, Deputy and Under Secretaries and equivalents)."
+              },
+              {
+                "type": "group_heading",
+                "num": "VI",
+                "text": "Government Employees Relations, including Staff Grievances and Welfare."
+              },
+              {
+                "type": "entry",
+                "num": "39",
+                "text": ""
+              },
+              {
+                "type": "item",
+                "num": "a",
+                "text": "Service Associations of the industrial and non-industrial employces of the Government of India."
+              },
+              {
+                "type": "item",
+                "num": "b",
+                "text": "Joint Consultative Machinery; Departmental Council for the Department of Personnel and Administrative Reforms (Karmik aur Prashasanik Sudhar Vibhag)."
+              },
+              {
+                "type": "item",
+                "num": "c",
+                "text": "Machinery for the redress of staff grievances"
+              },
+              {
+                "type": "item",
+                "num": "d",
+                "text": "Staff welfare including sports, cultural activities, Grih Kalyan Kendras, Canteens Cooperative Stores, etc. [ भाग II - 3 (ii) ]"
+              },
+              {
+                "type": "item",
+                "num": "e",
+                "text": "Other matters involving \"Government Em- B. DEPARTMENT OF ADMINISTRATIVE RE- ployees relations not specifically provided for under any other entry relating to the Department."
+              },
+              {
+                "type": "group_heading",
+                "num": "VII",
+                "text": "*Union Public Services Commission"
+              },
+              {
+                "type": "entry",
+                "num": "40",
+                "text": "Union Public Service Commission."
+              },
+              {
+                "type": "group_heading",
+                "num": "VIII",
+                "text": "Centralised aspects of Managing IAS, Inter- Ministry cadres, including a Career Planning for the members thereof."
+              },
+              {
+                "type": "entry",
+                "num": "41",
+                "text": ""
+              },
+              {
+                "type": "item",
+                "num": "a",
+                "text": "Creation of new All India Services."
+              },
+              {
+                "type": "item",
+                "num": "b",
+                "text": "Rules and Regulations under the All India Services Act, 1951."
+              },
+              {
+                "type": "item",
+                "num": "c",
+                "text": "All matters relating to the Indian Administrative Service including the Indian Civil Service."
+              },
+              {
+                "type": "item",
+                "num": "d",
+                "text": "All India Civil List and History of Services."
+              },
+              {
+                "type": "item",
+                "num": "e",
+                "text": "Central Secretariat Service, Central Secretariat Stenographers' Service and Central Secretariat Clerical Service."
+              },
+              {
+                "type": "group_heading",
+                "num": "IX",
+                "text": "Career Planning and Manpower Planning."
+              },
+              {
+                "type": "entry",
+                "num": "42",
+                "text": ""
+              },
+              {
+                "type": "item",
+                "num": "a",
+                "text": "General policy questions regarding Career Planning and Manpower Planning for the All India and Central Government Services."
+              },
+              {
+                "type": "item",
+                "num": "b",
+                "text": "All matters pertaining to Carcer Planning and Manpower Planning for the Indian Administrative Service and the Central Secretariat Service."
+              },
+              {
+                "type": "group_heading",
+                "num": "X",
+                "text": "Personnel Management Agencies."
+              },
+              {
+                "type": "entry",
+                "num": "43",
+                "text": "Coordination of the work of personnel management agencies within various Ministries."
+              },
+              {
+                "type": "group_heading",
+                "num": "XI",
+                "text": "Research in Personnel Administration etc. :"
+              },
+              {
+                "type": "entry",
+                "num": "44",
+                "text": "Research in Personnel Administration liaison with State Governments, professional Institutions etc., in personnel matters."
+              },
+              {
+                "type": "group_heading",
+                "num": "XII",
+                "text": "Allocation of personnel and integration of Services as a Result of States re-organisation."
+              },
+              {
+                "type": "entry",
+                "num": "45",
+                "text": ""
+              },
+              {
+                "type": "item",
+                "num": "a",
+                "text": "Allocation of service personnel affected. by re-organisation of States."
+              },
+              {
+                "type": "item",
+                "num": "b",
+                "text": "Division and integration of services affected by the re-organisation of States other than in Union Territories."
+              },
+              {
+                "type": "item",
+                "num": "c",
+                "text": "Protection of service conditions of personnel affected by re-organisation of States."
+              },
+              {
+                "type": "item",
+                "num": "d",
+                "text": "Other matters relating to State Services affected by the re-organisation of States. PRINTED BY THE MANAGER, GOVT. OF INDIA FORMS AND PUBLIC GRIEVANCES (PRA- SHASNIK SUDHAR AUR LOK SHIKAYAT VIBHAG)"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Administrative Reforms."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "Organisation and methods."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "Policy and Coordination of issues relating to (i) Redressal of Public Grievances in general; and (ii) Grievances pertaining to Central Government agencies."
+              },
+              {
+                "type": "department",
+                "num": "C",
+                "heading": "DEPARTMENT OF PENSION AND PEN- SIONERS' WELFARE",
+                "heading_hi": "PENSION AUR PEN- SION BHOGI KALYAN VIBHAG"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Administration of all schemes relating to retirement benefits to Central Government employees including"
+              },
+              {
+                "type": "item",
+                "num": "i",
+                "text": "Gratuity"
+              },
+              {
+                "type": "item",
+                "num": "ii",
+                "text": "Pension rules Central Service (Pension) Rules 1972, Pension Regulations for Army 1961 (Parts I and II). Pension Regulations for Air Force 1961, Navy (Pension) Regulations 1964, Freedom Fighters Pension, Commutation of Pension, Disability Pension, Family Pension]"
+              },
+              {
+                "type": "item",
+                "num": "iii",
+                "text": "Pension structure and relief to pensioners"
+              },
+              {
+                "type": "item",
+                "num": "iv",
+                "text": "New facilities or fringe benefits to Government pensioners; and"
+              },
+              {
+                "type": "item",
+                "num": "v",
+                "text": "Matters relating to amendment/relaxation of Pension Rules/other rules concerning retirement benefits. The action in respect of (iii) above will be in consultation with and subject to concurrence by Ministry of Finance (Vitta Mantralaya). The action in respect of (iv) and (v) above involving significant recurring financial implications or having predomi nently financial character only will be in consultation with and subiect to concurrence by Ministry of Finance (Vitta Mantralaya)."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "Pension matters which are administered by the Ministry of Raliways (Rail Mantralaya) will be outside the purview of the Department."
+              }
+            ],
+            "flags": [
+              "read_page_break"
+            ],
+            "words": [
+              "r1.w2449",
+              "r1.w2448"
+            ],
+            "boxes": [
+              {
+                "page": 4,
+                "bbox": [
+                  1419,
+                  1352,
+                  2261,
+                  1395
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 4,
+            "source_ref": "2(b)(ii)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r10.rel4",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "DEPARTMENT OF PERSONNEL AND ADMINISTRATIVE RE- . FORMS"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w4386",
+                "r1.w4404"
+              ],
+              "boxes": [
+                {
+                  "page": 7,
+                  "bbox": [
+                    1399,
+                    2406,
+                    2258,
+                    2612
+                  ]
+                }
+              ]
+            },
+            "expect": "DEPARTMENT OF PER- SONNEL AND ADMINISTRATIVE RE- . FORMS (KARMIK AUR PRASHASANIK SUDHAR VIBHAG)",
+            "flags": [],
+            "words": [
+              "r1.w4385",
+              "r1.w4390"
+            ],
+            "boxes": [
+              {
+                "page": 7,
+                "bbox": [
+                  1344,
+                  2404,
+                  2258,
+                  2454
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

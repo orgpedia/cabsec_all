@@ -1,0 +1,142 @@
+{
+  "file": {
+    "name": "1_Upload_295.pdf",
+    "file_id": "f_474acf37bf533619",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_295.pdf",
+    "sha256": "474acf37bf533619084bfe36794308a0060adb929c9e8b4d0b0a81fd1179d2d4",
+    "govdoc": "1_Upload_295.pdf.govdoc.json.zst",
+    "revision": 109
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_824E_2001",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_609_2001",
+      "fields": {
+        "number": {
+          "value": "S.O. 824(E)"
+        },
+        "in_force": {
+          "value": "2001-08-25"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "2001-08-25",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T12:55:40.908540+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r73.rel1",
+            "target": [
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "Ministry of Petroleurn and Natural Gas"
+                  },
+                  {
+                    "type": "entry",
+                    "num": "1"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r1.w322",
+                  "r1.w326"
+                ],
+                "boxes": [
+                  {
+                    "page": 1,
+                    "bbox": [
+                      1856,
+                      2291,
+                      2189,
+                      2329
+                    ]
+                  }
+                ]
+              },
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "Ministry of Petroleurn and Natural Gas"
+                  },
+                  {
+                    "type": "entry",
+                    "num": "2"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r1.w326",
+                  "r1.w326"
+                ],
+                "boxes": [
+                  {
+                    "page": 1,
+                    "bbox": [
+                      2153,
+                      2291,
+                      2189,
+                      2329
+                    ]
+                  }
+                ]
+              }
+            ],
+            "content": [
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Exploration for, and exploitration of petroleum resources including natural gas and coal bed methane."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "Production, supply, distribution, marketing and pricing of petroleum including natural gas, coal bed methane and petroleum products."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w293",
+              "r1.w300"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  1401,
+                  2141,
+                  2257,
+                  2177
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

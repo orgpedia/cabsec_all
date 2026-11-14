@@ -1,0 +1,116 @@
+# A person's changes to 1_Upload_1144.pdf (GovDoc §8.3), one record per action, in order. Written by
+# GovDoc Studio and brought into the GovDoc file by the pipeline before it runs (Pipeline §P9).
+file: 1_Upload_1144.pdf
+file_id: f_d1b820d2b1c1f83f
+next: 15
+runs:
+- id: h1
+  by: claude
+  at: '2026-11-13T12:03:32Z'
+  note: Second Schedule entry numbers OCR lost or misread (10 of External Affairs, 11 of Finance A, 120-121 of Home
+    Affairs); a group heading in capitals; one department
+  edits:
+  - op: add_word
+    target: h1.w1
+    before: null
+    after: {page: 8, word: {id: h1.w1, text: '10.', bbox: [631, 1320, 691, 1356]}, line: r2.l400, after: null}
+  - {op: text, target: r1.w3429, before: {text: ii.}, after: {text: '11.'}}
+  - {op: text, target: r1.w9157, before: {text: '12'}, after: {text: '120.'}}
+  - {op: text, target: r1.w9167, before: {text: '12'}, after: {text: '121.'}}
+  - {op: text, target: r1.w3821, before: {text: Issues}, after: {text: ISSUES}}
+  - {op: text, target: r1.w12661, before: {text: A-DEPARTMENTS}, after: {text: A-DEPARTMENT}}
+- id: h2
+  by: claude
+  at: '2026-11-13T12:05:46Z'
+  note: entry 11 of Food and Agriculture A, its number not read
+  edits:
+  - op: add_word
+    target: h2.w1
+    before: null
+    after: {page: 13, word: {id: h2.w1, text: '11.', bbox: [551, 409, 611, 438]}, line: r2.l665, after: null}
+- id: h3
+  by: mukundesh
+  at: '2026-11-13T12:56:55Z'
+  edits:
+  - {op: text, target: r1.w1616, before: {text: ex}, after: {text: ex-}}
+- id: h4
+  by: mukundesh
+  at: '2026-11-13T12:57:44Z'
+  edits:
+  - op: remove_word
+    target: r1.w3292
+    before:
+      page: 10
+      word: {id: r1.w3292, text: actuarial, bbox: [334, 1989, 565, 2072], confidence: 0.95}
+      line: r2.l527
+      after: null
+    after: null
+- id: h5
+  by: mukundesh
+  at: '2026-11-13T12:58:02Z'
+  edits:
+  - {op: text, target: r1.w3536, before: {text: actual}, after: {text: acturial}}
+- id: h6
+  by: mukundesh
+  at: '2026-11-13T12:58:41Z'
+  edits:
+  - {op: text, target: r1.w5398, before: {text: (xx}, after: {text: (xxix)}}
+- id: h7
+  by: mukundesh
+  at: '2026-11-13T12:59:26Z'
+  edits:
+  - {op: text, target: r1.w10011, before: {text: '27'}, after: {text: '27.'}}
+- id: h8
+  by: mukundesh
+  at: '2026-11-13T12:59:48Z'
+  edits:
+  - {op: text, target: r1.w10873, before: {text: 'e,'}, after: {text: nce}}
+- id: h9
+  by: mukundesh
+  at: '2026-11-13T12:59:58Z'
+  edits:
+  - {op: text, target: r1.w10872, before: {text: Ordina}, after: {text: Ordinance}}
+  - op: fields
+    target: r1.w10872
+    before: {bbox: [441, 421, 567, 451]}
+    after: {bbox: [441, 421, 637, 452]}
+  - op: remove_word
+    target: r1.w10873
+    before:
+      page: 27
+      word: {id: r1.w10873, text: nce, bbox: [602, 422, 637, 452], confidence: 0.69}
+      line: r2.l1479
+      after: r1.w10872
+    after: null
+- id: h10
+  by: mukundesh
+  at: '2026-11-13T13:00:45Z'
+  edits:
+  - op: add_word
+    target: h10.w1
+    before: null
+    after:
+      page: 34
+      word: {id: h10.w1, text: to, bbox: [1877, 450, 1932, 479]}
+      line: r2.l1878
+      after: r1.w13845
+- id: h11
+  by: mukundesh
+  at: '2026-11-13T13:01:08Z'
+  edits:
+  - {op: text, target: r1.w14523, before: {text: BR.}, after: {text: B.}}
+- id: h12
+  by: mukundesh
+  at: '2026-11-13T13:02:12Z'
+  edits:
+  - {op: text, target: r1.w1495, before: {text: cean}, after: {text: certain}}
+- id: h13
+  by: mukundesh
+  at: '2026-11-13T13:02:49Z'
+  edits:
+  - {op: text, target: r1.w4070, before: {text: reling}, after: {text: relating}}
+- id: h14
+  by: mukundesh
+  at: '2026-11-13T13:03:32Z'
+  edits:
+  - {op: text, target: r1.w555, before: {text: In}, after: {text: Inter-}}

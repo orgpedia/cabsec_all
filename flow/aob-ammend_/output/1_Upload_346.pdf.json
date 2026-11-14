@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_346.pdf",
     "sha256": "ce226beee8d13f59c5dafd58e0afd4319ca30bd949de80540974d39c29dc5faf",
     "govdoc": "1_Upload_346.pdf.govdoc.json.zst",
-    "revision": 44
+    "revision": 180
   },
   "documents": [
     {
@@ -29,9 +29,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "2",
+          "version": "3",
           "model": "gemini-4-argon",
-          "at": "2026-11-03T16:59:06.537053+00:00"
+          "at": "2026-11-12T12:56:58.454586+00:00"
         },
         "ops": [
           {
@@ -39,6 +39,7 @@
             "source_ref": "2(1)",
             "op": "insert",
             "akn_type": "insertion",
+            "relation": "r144.rel1",
             "position": "after",
             "anchor": {
               "cited": [
@@ -104,6 +105,7 @@
             "source_ref": "2(2)(a)",
             "op": "replace",
             "akn_type": "replacement",
+            "relation": "r144.rel2",
             "target": {
               "cited": [
                 {
@@ -147,7 +149,9 @@
                 "text": "The drafting of Bills, including the business of the Draftsmen in Select Committees, drafting and promulgation of Ordinances and Regulations; enactment of State Acts as President's Acts, whenever required; scrutiny of Statutory Rules and Orders (except notifications under clause (a) of section 3 and sections 3A, 3D, 7 and section 8A of the National Highways Act 1956 (48 of 1956)."
               }
             ],
-            "flags": [],
+            "flags": [
+              "new_hindi_differs"
+            ],
             "words": [
               "r1.w1520",
               "r1.w1528"
@@ -169,6 +173,7 @@
             "source_ref": "2(2)(b)",
             "op": "replace",
             "akn_type": "replacement",
+            "relation": "r144.rel3",
             "target": {
               "cited": [
                 {
@@ -230,6 +235,7 @@
             "source_ref": "2(2)(c)",
             "op": "replace",
             "akn_type": "replacement",
+            "relation": "r144.rel4",
             "target": {
               "cited": [
                 {
@@ -333,7 +339,12 @@
               {
                 "type": "entry",
                 "num": "10",
-                "text": "Awareness generation, research, evaluation and training in regard to subjects allocated to the Department. r 11 Charitable and Religious Endowments and promotion and development of Voluntary Effort pertaining to subjects allocated to the Department."
+                "text": "Awareness generation, research, evaluation and training in regard to subjects allocated to the Department. r"
+              },
+              {
+                "type": "entry",
+                "num": "11",
+                "text": "Charitable and Religious Endowments and promotion and development of Voluntary Effort pertaining to subjects allocated to the Department."
               },
               {
                 "type": "entry",
@@ -513,7 +524,17 @@
               {
                 "type": "entry",
                 "num": "21",
-                "text": "National Institute of Mentally Handicapped Secunderabad. 22 Ali Yavar Jung National Institute for the Hearing Handicapped, Mumbai. 23 National Institute of Rehabilitation Training and Research, Cuttack."
+                "text": "National Institute of Mentally Handicapped Secunderabad."
+              },
+              {
+                "type": "entry",
+                "num": "22",
+                "text": "Ali Yavar Jung National Institute for the Hearing Handicapped, Mumbai."
+              },
+              {
+                "type": "entry",
+                "num": "23",
+                "text": "National Institute of Rehabilitation Training and Research, Cuttack."
               },
               {
                 "type": "entry",

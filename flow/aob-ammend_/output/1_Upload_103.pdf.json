@@ -1,0 +1,108 @@
+{
+  "file": {
+    "name": "1_Upload_103.pdf",
+    "file_id": "f_d64103e82e68f124",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_103.pdf",
+    "sha256": "d64103e82e68f1245db25b9314e01d85e9a1d0d4521dbdee506dac6071494398",
+    "govdoc": "1_Upload_103.pdf.govdoc.json.zst",
+    "revision": 46
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_2884_1968",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_293_1968",
+      "fields": {
+        "number": {
+          "value": "S.O. 2884"
+        },
+        "in_force": {
+          "value": "1968-08-23"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "1968-08-23",
+          "basis": "stated"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T13:50:03.345412+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "1",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r10.rel1",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Home Affairs"
+                },
+                {
+                  "type": "group_heading",
+                  "heading": "Part I-Union Subjects"
+                },
+                {
+                  "type": "entry",
+                  "num": "90"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w192",
+                "r1.w194"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    1444,
+                    2018,
+                    1716,
+                    2050
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "90A",
+                "text": "Erection of memorials in honour of freedom fighters."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w173",
+              "r1.w180"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  340,
+                  1984,
+                  1152,
+                  2018
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

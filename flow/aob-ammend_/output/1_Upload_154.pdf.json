@@ -1,0 +1,610 @@
+{
+  "file": {
+    "name": "1_Upload_154.pdf",
+    "file_id": "f_a6e7e5c494c3e087",
+    "pages": 6,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_154.pdf",
+    "sha256": "a6e7e5c494c3e087bf244b38ebb44c5147a5243d8717dfca3f81ae595219b73a",
+    "govdoc": "1_Upload_154.pdf.govdoc.json.zst",
+    "revision": 46
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_563E_1976",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_381_1976",
+      "fields": {
+        "number": {
+          "value": "S.O. 563(E)"
+        },
+        "in_force": {
+          "value": "1976-08-23"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "1976-08-23",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T13:49:37.769005+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(i)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r10.rel1",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "entry",
+                  "num": "1B"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w209",
+                "r1.w210"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    419,
+                    2170,
+                    571,
+                    2206
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "ministry",
+                "num": "1B",
+                "heading": "Ministry of Civil Supplies and Cooperation",
+                "heading_hi": "Nagrik Poorti aur Sahakarita Mantralaya"
+              },
+              {
+                "type": "ministry",
+                "num": "1C",
+                "heading": "Ministry of Commerce",
+                "heading_hi": "Vanijya Mantralaya"
+              },
+              {
+                "type": "department",
+                "num": "i",
+                "heading": "Department of Foreign Trade",
+                "heading_hi": "Videsh Vyapar Vibhag"
+              },
+              {
+                "type": "department",
+                "num": "ii",
+                "heading": "Department of Export Production",
+                "heading_hi": "Niryat Utpadan Vibhag"
+              },
+              {
+                "type": "department",
+                "num": "iii",
+                "heading": "Department of Textiles",
+                "heading_hi": "Vastr Vibhag"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w207",
+              "r1.w217"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  289,
+                  2170,
+                  1453,
+                  2209
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(ii)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r10.rel2",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "entry",
+                  "num": "10"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w273",
+                "r1.w274"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    527,
+                    285,
+                    673,
+                    317
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "ministry",
+                "num": "10",
+                "heading": "Ministry of Industry",
+                "heading_hi": "Udyog Mantralaya"
+              },
+              {
+                "type": "department",
+                "num": "i",
+                "heading": "Department of Industrial Development",
+                "heading_hi": "Audyogik Vikas Vibhag"
+              },
+              {
+                "type": "department",
+                "num": "ii",
+                "heading": "Department of Heavy Industry",
+                "heading_hi": "Bhari Udyog Vibhag"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w271",
+              "r1.w281"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  387,
+                  285,
+                  1528,
+                  317
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 3,
+            "source_ref": "3(i)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r10.rel3",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF AGRICULTURE AND IRRIGATION"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF RURAL DEVELOPMENT"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w326",
+                "r1.w340"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    490,
+                    592,
+                    1760,
+                    697
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "10",
+                "text": "Public Cooperation."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w313",
+              "r1.w321"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  383,
+                  556,
+                  1755,
+                  587
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 4,
+            "source_ref": "3(ii)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r10.rel4",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF CHEMICALS AND FERTILISERS"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w355",
+                "r1.w371"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    453,
+                    761,
+                    1758,
+                    865
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "ministry",
+                "heading": "MINISTRY OF CIVIL SUPPLIES AND COOPERATION",
+                "heading_hi": "NAGRIK POORTI AUR SAHAKARITA MANTRALAYA"
+              },
+              {
+                "type": "group_heading",
+                "num": "I",
+                "text": "INTERNAL TRADE"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Internal Trade."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "Inter-State Trade; the Spirituous Preparations (Inter-State Trade and Commerce) Control Act, 1955."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "Control of futures trading [The Forward Contracts (Regulation) Act, 1952]."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "The Essential Commodities Act, 1955 (Supply, prices and distribution of essential commodities not dealt with specifically by any other Ministry)."
+              },
+              {
+                "type": "group_heading",
+                "num": "II",
+                "text": "TRADE MARKS, ETC."
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "The Trade and Merchandise Marks Act, 1958."
+              },
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "The Emblems and Names (Prevention of Improper Use) Act, 1950."
+              },
+              {
+                "type": "entry",
+                "num": "7",
+                "text": "Standards of Weights and Measures (The Standards of Weights and Measures Act, 1956 The Standards of Weights and Measures Act, 1976)."
+              },
+              {
+                "type": "entry",
+                "num": "8",
+                "text": "All attached or subordinate offices or other organisations concerned with any of the subjects specified in this list, including the Forward Markets Commission, Bombay."
+              },
+              {
+                "type": "group_heading",
+                "num": "III",
+                "text": "CO-OPERATION"
+              },
+              {
+                "type": "entry",
+                "num": "9",
+                "text": "General policy in the field of Co-operation and co-ordination of co-operation activities in all sectors (The Ministries concerned are responsible for Cooperatives in their respective fields)."
+              },
+              {
+                "type": "entry",
+                "num": "10",
+                "text": "Matters relating to National Co-operative Organisations."
+              },
+              {
+                "type": "entry",
+                "num": "11",
+                "text": "National Co-operative Development Corporation."
+              },
+              {
+                "type": "entry",
+                "num": "12",
+                "text": "Incorporation, regulation and winding up of co-operative societies with objects not confined to one State."
+              },
+              {
+                "type": "entry",
+                "num": "13",
+                "text": "Training of personnel of co-operative departments and co-operative institutions (including education of members, office bearers and non-officials)."
+              },
+              {
+                "type": "entry",
+                "num": "14",
+                "text": "Consumer Co-operatives."
+              },
+              {
+                "type": "entry",
+                "num": "15",
+                "text": "Public Distribution System."
+              },
+              {
+                "type": "entry",
+                "num": "16",
+                "text": "Monitoring of prices and availability of essential commodities."
+              },
+              {
+                "type": "entry",
+                "num": "17",
+                "text": "The National Consumer Protection Council."
+              },
+              {
+                "type": "entry",
+                "num": "18",
+                "text": "Regulation of packaged commodities."
+              },
+              {
+                "type": "entry",
+                "num": "19",
+                "text": "Training in Legal Metrology."
+              },
+              {
+                "type": "entry",
+                "num": "20",
+                "text": "The Indian Standards Institution (Certification Marks) Act, 1952."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w354",
+              "r1.w362"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  379,
+                  761,
+                  1755,
+                  792
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 5,
+            "source_ref": "3(ii)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r10.rel5",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF INDUSTRY AND CIVIL SUPPLIES"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w635",
+                "r1.w648"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    443,
+                    2466,
+                    1737,
+                    2536
+                  ]
+                }
+              ]
+            },
+            "expect": "MINISTRY OF INDUSTRY AND CIVIL SUPPLIES (UDYOG AŬR NAGRIK POORTI MANTRALAYA)",
+            "scope": "heading",
+            "content": [
+              {
+                "type": "ministry",
+                "heading": "MINISTRY OF INDUSTRY",
+                "heading_hi": "UDYOG MANTRALAYA"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w634",
+              "r1.w643"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  363,
+                  2466,
+                  1737,
+                  2500
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 6,
+            "source_ref": "3(iv)(a)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r10.rel6",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF INDUSTRY"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF INDUSTRIAL DEVELOPMENT"
+                },
+                {
+                  "type": "entry",
+                  "num": "24"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w691",
+                "r1.w693"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    1270,
+                    333,
+                    1500,
+                    366
+                  ]
+                }
+              ]
+            },
+            "expect": "the Indian Standards Institution (Certification Marks ) Act, 1952",
+            "ref_seq": 5,
+            "flags": [],
+            "words": [
+              "r1.w675",
+              "r1.w684"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  372,
+                  297,
+                  1708,
+                  329
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 7,
+            "source_ref": "3(iv)(b)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r10.rel7",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF INDUSTRY"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF CIVIL SUPPLIES AND COOPERATION"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w712",
+                "r1.w732"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    441,
+                    454,
+                    1708,
+                    557
+                  ]
+                }
+              ]
+            },
+            "expect": "C. DEPARTMENT OF CIVIL SUPPLIES AND COOPE- RATION (NAGRIK POORTI AUR SAHKARITA VIBHAG ) ",
+            "ref_seq": 5,
+            "flags": [],
+            "words": [
+              "r1.w711",
+              "r1.w720"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  369,
+                  454,
+                  1707,
+                  485
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

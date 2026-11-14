@@ -1,0 +1,108 @@
+{
+  "file": {
+    "name": "1_Upload_139.pdf",
+    "file_id": "f_b0e0e0d3eb7575ae",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_139.pdf",
+    "sha256": "b0e0e0d3eb7575ae5998ebfe356d1bd43a24e9305d8c94c2212aa51e6965f73e",
+    "govdoc": "1_Upload_139.pdf.govdoc.json.zst",
+    "revision": 46
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_548E_1974",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_399_1974",
+      "fields": {
+        "number": {
+          "value": "S.O. 548 (E)"
+        },
+        "in_force": {
+          "value": "1974-09-17"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "1974-09-17",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T13:49:50.129755+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r10.rel1",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF FINANCE"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF REVENUE AND INSURANCE"
+                },
+                {
+                  "type": "entry",
+                  "num": "16"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w231",
+                "r1.w233"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    1402,
+                    2131,
+                    1672,
+                    2164
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "17",
+                "text": "Preventive detention for reasons connected with the conservation of foreign exchange or prevention of smuggling; persons subjected to such detention"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w192",
+              "r1.w201"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  322,
+                  2030,
+                  1358,
+                  2061
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

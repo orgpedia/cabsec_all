@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_1241.pdf",
     "sha256": "fa0fbb4366a499040e42fe9740705b77e3936c1c9324b77e431c95b7baaff86c",
     "govdoc": "1_Upload_1241.pdf.govdoc.json.zst",
-    "revision": 66
+    "revision": 202
   },
   "documents": [
     {
@@ -29,9 +29,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "2",
+          "version": "3",
           "model": "gemini-4-argon",
-          "at": "2026-11-03T16:59:06.716101+00:00"
+          "at": "2026-11-12T12:57:34.756850+00:00"
         },
         "ops": [
           {
@@ -39,6 +39,7 @@
             "source_ref": "2(a)",
             "op": "insert",
             "akn_type": "insertion",
+            "relation": "r166.rel1",
             "position": "after",
             "anchor": {
               "cited": [
@@ -105,6 +106,7 @@
             "source_ref": "2(b)",
             "op": "insert",
             "akn_type": "insertion",
+            "relation": "r166.rel2",
             "position": "after",
             "anchor": {
               "cited": [
@@ -167,6 +169,7 @@
             "source_ref": "2(c)",
             "op": "omit",
             "akn_type": "repeal",
+            "relation": "r166.rel3",
             "target": {
               "cited": [
                 {
@@ -225,6 +228,7 @@
             "source_ref": "2(d)(i)",
             "op": "omit",
             "akn_type": "repeal",
+            "relation": "r166.rel4",
             "target": [
               {
                 "cited": [
@@ -313,6 +317,7 @@
             "source_ref": "2(d)(ii)",
             "op": "insert",
             "akn_type": "insertion",
+            "relation": "r166.rel5",
             "position": "after",
             "anchor": {
               "cited": [
@@ -375,6 +380,7 @@
             "source_ref": "2(e)",
             "op": "insert",
             "akn_type": "insertion",
+            "relation": "r166.rel6",
             "position": "after",
             "anchor": {
               "cited": [

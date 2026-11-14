@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_1188.pdf",
     "sha256": "2c868fe073386ceed6d889583d4d1106c7e52a230d3e10eb5fb596009881846b",
     "govdoc": "1_Upload_1188.pdf.govdoc.json.zst",
-    "revision": 65
+    "revision": 215
   },
   "documents": [
     {
@@ -29,9 +29,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "2",
+          "version": "3",
           "model": "gemini-4-argon",
-          "at": "2026-11-03T16:59:02.890856+00:00"
+          "at": "2026-11-12T12:55:20.392996+00:00"
         },
         "ops": [
           {
@@ -39,6 +39,7 @@
             "source_ref": "2(a)",
             "op": "insert",
             "akn_type": "insertion",
+            "relation": "r179.rel1",
             "position": "after",
             "anchor": {
               "cited": [
@@ -61,8 +62,8 @@
               ],
               "eId": null,
               "words": [
-                "r17.w422",
-                "r17.w424"
+                "r73.w422",
+                "r73.w424"
               ],
               "boxes": [
                 {
@@ -85,8 +86,8 @@
             ],
             "flags": [],
             "words": [
-              "r17.w392",
-              "r17.w401"
+              "r73.w392",
+              "r73.w401"
             ],
             "boxes": [
               {
@@ -105,6 +106,7 @@
             "source_ref": "2(b)",
             "op": "insert",
             "akn_type": "insertion",
+            "relation": "r179.rel2",
             "position": "after",
             "anchor": {
               "cited": [
@@ -123,8 +125,8 @@
               ],
               "eId": null,
               "words": [
-                "r17.w459",
-                "r17.w461"
+                "r73.w459",
+                "r73.w461"
               ],
               "boxes": [
                 {
@@ -147,8 +149,8 @@
             ],
             "flags": [],
             "words": [
-              "r17.w448",
-              "r17.w455"
+              "r73.w448",
+              "r73.w457"
             ],
             "boxes": [
               {
@@ -156,7 +158,7 @@
                 "bbox": [
                   376,
                   2090,
-                  1485,
+                  1900,
                   2128
                 ]
               }
@@ -167,6 +169,7 @@
             "source_ref": "2(c)",
             "op": "insert",
             "akn_type": "insertion",
+            "relation": "r179.rel3",
             "position": "after",
             "anchor": {
               "cited": [
@@ -176,7 +179,7 @@
                 },
                 {
                   "type": "ministry",
-                  "heading": "NITI AAYOG"
+                  "heading": "NITI AAYOG (NATIONAL INSTITUTION FOR TRANSFORMING INDIA)"
                 },
                 {
                   "type": "entry",
@@ -193,8 +196,8 @@
               ],
               "eId": null,
               "words": [
-                "r17.w495",
-                "r17.w503"
+                "r73.w495",
+                "r73.w503"
               ],
               "boxes": [
                 {
@@ -217,8 +220,8 @@
             ],
             "flags": [],
             "words": [
-              "r17.w484",
-              "r17.w489"
+              "r73.w484",
+              "r73.w493"
             ],
             "boxes": [
               {
@@ -226,7 +229,7 @@
                 "bbox": [
                   376,
                   2331,
-                  1097,
+                  2040,
                   2369
                 ]
               }

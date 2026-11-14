@@ -1,0 +1,112 @@
+{
+  "file": {
+    "name": "1_Upload_207.pdf",
+    "file_id": "f_373e82d1727d2e7c",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_207.pdf",
+    "sha256": "373e82d1727d2e7c06b96b412186baef0f92d7e3d323229c29887024dad1bb25",
+    "govdoc": "1_Upload_207.pdf.govdoc.json.zst",
+    "revision": 46
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_415E_1985",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_254_1985",
+      "fields": {
+        "number": {
+          "value": "S.O. 415 (E)"
+        },
+        "in_force": {
+          "value": "1985-05-24"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "1985-05-24",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T13:49:06.224897+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r10.rel1",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF HOME AFFAIRS"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF HOME AFFAIRS"
+                },
+                {
+                  "type": "group_heading",
+                  "heading": "Part IA"
+                },
+                {
+                  "type": "entry",
+                  "num": "79B"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w393",
+                "r1.w395"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    878,
+                    1690,
+                    1179,
+                    1733
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "79C",
+                "text": "The Terrorist and Disruptive Activities (Prevention ) Act, 1985 (31 of 1985)."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w356",
+              "r1.w365"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  755,
+                  1522,
+                  1955,
+                  1562
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

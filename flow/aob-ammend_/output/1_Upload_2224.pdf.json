@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_2224.pdf",
     "sha256": "6152f7b4708a5e02c937591caf29faed62ae829c3921ebac20987bc1429e5a4b",
     "govdoc": "1_Upload_2224.pdf.govdoc.json.zst",
-    "revision": 65
+    "revision": 214
   },
   "documents": [
     {
@@ -29,9 +29,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "2",
+          "version": "3",
           "model": "gemini-4-argon",
-          "at": "2026-11-03T16:59:03.266509+00:00"
+          "at": "2026-11-12T12:55:58.885244+00:00"
         },
         "ops": [
           {
@@ -39,6 +39,7 @@
             "source_ref": "2(A)",
             "op": "replace",
             "akn_type": "replacement",
+            "relation": "r178.rel1",
             "target": {
               "cited": [
                 {
@@ -52,8 +53,8 @@
               ],
               "eId": null,
               "words": [
-                "r17.w571",
-                "r17.w587"
+                "r72.w575",
+                "r72.w587"
               ],
               "boxes": [
                 {
@@ -104,8 +105,8 @@
               "read_page_break"
             ],
             "words": [
-              "r17.w570",
-              "r17.w584"
+              "r72.w570",
+              "r72.w577"
             ],
             "boxes": [
               {
@@ -113,7 +114,7 @@
                 "bbox": [
                   327,
                   2960,
-                  2250,
+                  1302,
                   3001
                 ]
               }
@@ -124,6 +125,7 @@
             "source_ref": "2(B)(a)(i)",
             "op": "replace",
             "akn_type": "replacement",
+            "relation": "r178.rel2",
             "target": {
               "cited": [
                 {
@@ -145,8 +147,8 @@
               ],
               "eId": null,
               "words": [
-                "r17.w672",
-                "r17.w674"
+                "r72.w672",
+                "r72.w674"
               ],
               "boxes": [
                 {
@@ -169,8 +171,8 @@
             ],
             "flags": [],
             "words": [
-              "r17.w671",
-              "r17.w681"
+              "r72.w671",
+              "r72.w681"
             ],
             "boxes": [
               {
@@ -189,6 +191,7 @@
             "source_ref": "2(B)(a)(ii)",
             "op": "omit",
             "akn_type": "repeal",
+            "relation": "r178.rel3",
             "target": [
               {
                 "cited": [
@@ -211,14 +214,14 @@
                 ],
                 "eId": null,
                 "words": [
-                  "r17.w721",
-                  "r17.w721"
+                  "r72.w720",
+                  "r72.w721"
                 ],
                 "boxes": [
                   {
                     "page": 3,
                     "bbox": [
-                      739,
+                      605,
                       989,
                       770,
                       1027
@@ -247,8 +250,8 @@
                 ],
                 "eId": null,
                 "words": [
-                  "r17.w722",
-                  "r17.w722"
+                  "r72.w722",
+                  "r72.w722"
                 ],
                 "boxes": [
                   {
@@ -283,8 +286,8 @@
                 ],
                 "eId": null,
                 "words": [
-                  "r17.w723",
-                  "r17.w723"
+                  "r72.w723",
+                  "r72.w723"
                 ],
                 "boxes": [
                   {
@@ -319,8 +322,8 @@
                 ],
                 "eId": null,
                 "words": [
-                  "r17.w725",
-                  "r17.w725"
+                  "r72.w725",
+                  "r72.w725"
                 ],
                 "boxes": [
                   {
@@ -337,8 +340,8 @@
             ],
             "flags": [],
             "words": [
-              "r17.w719",
-              "r17.w728"
+              "r72.w719",
+              "r72.w728"
             ],
             "boxes": [
               {
@@ -357,6 +360,7 @@
             "source_ref": "2(B)(a)(iii)",
             "op": "replace",
             "akn_type": "replacement",
+            "relation": "r178.rel4",
             "target": {
               "cited": [
                 {
@@ -378,8 +382,8 @@
               ],
               "eId": null,
               "words": [
-                "r17.w730",
-                "r17.w732"
+                "r72.w730",
+                "r72.w732"
               ],
               "boxes": [
                 {
@@ -402,8 +406,8 @@
             ],
             "flags": [],
             "words": [
-              "r17.w729",
-              "r17.w738"
+              "r72.w729",
+              "r72.w738"
             ],
             "boxes": [
               {
@@ -422,6 +426,7 @@
             "source_ref": "2(B)(a)(iv)",
             "op": "insert",
             "akn_type": "insertion",
+            "relation": "r178.rel5",
             "position": "after",
             "anchor": {
               "cited": [
@@ -444,8 +449,8 @@
               ],
               "eId": null,
               "words": [
-                "r17.w748",
-                "r17.w750"
+                "r72.w748",
+                "r72.w750"
               ],
               "boxes": [
                 {
@@ -468,8 +473,8 @@
             ],
             "flags": [],
             "words": [
-              "r17.w747",
-              "r17.w756"
+              "r72.w747",
+              "r72.w756"
             ],
             "boxes": [
               {
@@ -488,6 +493,7 @@
             "source_ref": "2(B)(b)",
             "op": "insert",
             "akn_type": "insertion",
+            "relation": "r178.rel6",
             "position": "after",
             "anchor": {
               "cited": [
@@ -506,8 +512,8 @@
               ],
               "eId": null,
               "words": [
-                "r17.w784",
-                "r17.w795"
+                "r72.w784",
+                "r72.w795"
               ],
               "boxes": [
                 {
@@ -571,8 +577,8 @@
             ],
             "flags": [],
             "words": [
-              "r17.w783",
-              "r17.w794"
+              "r72.w783",
+              "r72.w790"
             ],
             "boxes": [
               {
@@ -580,7 +586,7 @@
                 "bbox": [
                   427,
                   1483,
-                  2248,
+                  1584,
                   1525
                 ]
               }

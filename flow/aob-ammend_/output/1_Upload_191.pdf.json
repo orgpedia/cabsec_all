@@ -1,0 +1,607 @@
+{
+  "file": {
+    "name": "1_Upload_191.pdf",
+    "file_id": "f_8c5dd39490349709",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_191.pdf",
+    "sha256": "8c5dd39490349709270364f5154156173d82ca6b236e077fa0172f20534b341d",
+    "govdoc": "1_Upload_191.pdf.govdoc.json.zst",
+    "revision": 46
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_48E_1982",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_31_1982",
+      "fields": {
+        "number": {
+          "value": "S.O. 48(E)"
+        },
+        "in_force": {
+          "value": "1982-01-23"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "1982-01-23",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T13:49:24.241611+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(A)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r10.rel1",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Rural Reconstruction"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w615",
+                "r1.w628"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    379,
+                    2114,
+                    1229,
+                    2191
+                  ]
+                }
+              ]
+            },
+            "expect": "18. Ministry of Rural Reconstruction (Gramin Punarnirman Mantralaya)",
+            "content": [
+              {
+                "type": "ministry",
+                "num": "18",
+                "heading": "Ministry of Rural Development",
+                "heading_hi": "Gramin Vikas Mantralaya"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w614",
+              "r1.w624"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  315,
+                  2114,
+                  1229,
+                  2147
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(B)(a)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r10.rel2",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF HOME AFFAIRS"
+                },
+                {
+                  "type": "entry",
+                  "num": "16C"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w650",
+                "r1.w661"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    445,
+                    2429,
+                    1224,
+                    2546
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "16CC",
+                "text": "Development of Scheduled Castes and Scheduled Tribes."
+              },
+              {
+                "type": "note",
+                "text": "Note The Ministry of Home Affairs will be the nodal Ministry for overall policy, planning and coordination of programmes of development for Scheduled [PART II--SEC. 3(ii)] Castes and Scheduled Tribes. In regard to sectoral programmes and schemes of development of these communities, policy planning, monitoring, evaluation, etc. as also their coordination will be the responsibility of the concerned Central Ministries, State Governments and Union Territory Administrations. Each Central Ministry and Department will be the nodal Ministry or Department concerning its sector."
+              }
+            ],
+            "flags": [
+              "read_page_break"
+            ],
+            "words": [
+              "r1.w649",
+              "r1.w656"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  390,
+                  2429,
+                  1221,
+                  2503
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 3,
+            "source_ref": "2(B)(b)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r10.rel3",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF INDUSTRY"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF INDUSTRIAL DEVELOPMENT"
+                },
+                {
+                  "type": "entry",
+                  "num": "22"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w760",
+                "r1.w782"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1546,
+                    844,
+                    2329,
+                    1058
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "22A",
+                "text": "Village and cottage industries."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w759",
+              "r1.w765"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  1486,
+                  844,
+                  2329,
+                  889
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 4,
+            "source_ref": "2(B)(c)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r10.rel4",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF RURAL RE- CONSTRUCTION"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w795",
+                "r1.w805"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1541,
+                    1183,
+                    2326,
+                    1307
+                  ]
+                }
+              ]
+            },
+            "expect": "MINISTRY OF RURAL RE- CONSTRUCTION (GRAMIN PUNARNIRMAN MANTRALAYA)",
+            "scope": "heading",
+            "content": [
+              {
+                "type": "ministry",
+                "heading": "MINISTRY OF RURAL DEVELOPMENT",
+                "heading_hi": "GRAMIN VIKAS MANTRALAYA"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w794",
+              "r1.w801"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  1489,
+                  1183,
+                  2326,
+                  1233
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 5,
+            "source_ref": "2(B)(d)(i)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r10.rel5",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF RURAL DEVELOPMENT"
+                },
+                {
+                  "type": "entry",
+                  "num": "6"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w834",
+                "r1.w836"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1608,
+                    1626,
+                    1791,
+                    1662
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "Desert development programmes."
+              }
+            ],
+            "ref_seq": 4,
+            "flags": [],
+            "words": [
+              "r1.w833",
+              "r1.w842"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  1563,
+                  1626,
+                  2323,
+                  1670
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 6,
+            "source_ref": "2(B)(d)(i)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r10.rel6",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF RURAL DEVELOPMENT"
+                },
+                {
+                  "type": "entry",
+                  "num": "7"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w851",
+                "r1.w852"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1612,
+                    1792,
+                    1726,
+                    1825
+                  ]
+                }
+              ]
+            },
+            "ref_seq": 4,
+            "flags": [],
+            "words": [
+              "r1.w850",
+              "r1.w855"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  1553,
+                  1792,
+                  2031,
+                  1826
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 7,
+            "source_ref": "2(B)(c)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r10.rel7",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF WORKS AND HOUSING"
+                },
+                {
+                  "type": "entry",
+                  "num": "28"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w857",
+                "r1.w870"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1543,
+                    1849,
+                    2325,
+                    1975
+                  ]
+                }
+              ]
+            },
+            "flags": [],
+            "words": [
+              "r1.w856",
+              "r1.w862"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  1487,
+                  1849,
+                  2325,
+                  1898
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 8,
+            "source_ref": "2(B)(f)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r10.rel8",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "DEPARTMENT OF EN- VIRONMENT"
+                },
+                {
+                  "type": "entry",
+                  "num": "4"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w875",
+                "r1.w886"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1545,
+                    2002,
+                    2327,
+                    2122
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "The Water (Prevention and Control of Pollution) Act, 1974."
+              },
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "The Water (Prevention and Control of Pollution) Cess Act, 1977."
+              },
+              {
+                "type": "entry",
+                "num": "7",
+                "text": "The Air (Prevention and Control of Pollution) Act, 1981."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w874",
+              "r1.w880"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  1494,
+                  2002,
+                  2327,
+                  2048
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 9,
+            "source_ref": "2(B)(g)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r10.rel9",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "PLANNING COMMISSION"
+                },
+                {
+                  "type": "entry",
+                  "num": "6"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w930",
+                "r1.w939"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1537,
+                    2505,
+                    2315,
+                    2587
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "6A",
+                "text": "Hill areas development programme."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w929",
+              "r1.w934"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  1479,
+                  2505,
+                  2315,
+                  2545
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

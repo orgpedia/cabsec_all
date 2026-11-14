@@ -1,0 +1,235 @@
+{
+  "file": {
+    "name": "1_Upload_291.pdf",
+    "file_id": "f_16ec37c0730df966",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_291.pdf",
+    "sha256": "16ec37c0730df9665194e5a2fc4f9b5bf188b8e058bbbcf6a75a1348f4869df1",
+    "govdoc": "1_Upload_291.pdf.govdoc.json.zst",
+    "revision": 109
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_740E_2000",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_528_2000",
+      "fields": {
+        "number": {
+          "value": "S.O. 740(E)"
+        },
+        "in_force": {
+          "value": "2000-08-04"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "2000-08-04",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T12:55:19.593734+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(1)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r73.rel1",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Commerce and Industry"
+                },
+                {
+                  "type": "department",
+                  "heading": "Department of Supply"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w451",
+                "r1.w458"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    907,
+                    1001,
+                    1905,
+                    1041
+                  ]
+                }
+              ]
+            },
+            "expect": "(iii) Department of Supply (Poorti Vibhag)",
+            "flags": [],
+            "words": [
+              "r1.w433",
+              "r1.w440"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  445,
+                  949,
+                  1248,
+                  991
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(2)(A)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r73.rel2",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF COMMERCE AND INDUSTRY"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF COMMERCE"
+                },
+                {
+                  "type": "entry",
+                  "num": "17"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w490",
+                "r1.w492"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1892,
+                    1183,
+                    2126,
+                    1220
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "18",
+                "text": "Purchase and inspection of stores for Central Government Ministries/Departments including their attached and subordinate offices and Union Territories, other than the items of purchase and inspection of stores which are delegated to other authorities by general or special order."
+              },
+              {
+                "type": "entry",
+                "num": "19",
+                "text": "Cadre Management of Indian Supply Service and all matters pertaining to training, career planning and manpower planning for the said Service."
+              },
+              {
+                "type": "entry",
+                "num": "20",
+                "text": "Cadre Management of Indian Inspection Services and all matters pertaining to training, career planning and manpower planning for the said Service."
+              },
+              {
+                "type": "entry",
+                "num": "21",
+                "text": "Administration of Directorate General of Supplies and Disposals, New Delhi."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w480",
+              "r1.w487"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  346,
+                  1183,
+                  1473,
+                  1220
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 3,
+            "source_ref": "2(2)(B)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r73.rel3",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF COMMERCE AND INDUSTRY"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF SUPPLY"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w596",
+                "r1.w608"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    441,
+                    1767,
+                    2185,
+                    1804
+                  ]
+                }
+              ]
+            },
+            "expect": "D. DEPARTMENT OF SUPPLY (POORTI VIBHAG)",
+            "flags": [],
+            "words": [
+              "r1.w500",
+              "r1.w603"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  343,
+                  1766,
+                  1657,
+                  1804
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

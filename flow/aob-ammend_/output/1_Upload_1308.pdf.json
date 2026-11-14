@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_1308.pdf",
     "sha256": "d55c8dcd1eb96e104497bd61843daf47fcd70c5327c6152dca95897f9ec8b829",
     "govdoc": "1_Upload_1308.pdf.govdoc.json.zst",
-    "revision": 65
+    "revision": 201
   },
   "documents": [
     {
@@ -29,9 +29,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "2",
+          "version": "3",
           "model": "gemini-4-argon",
-          "at": "2026-11-03T16:59:06.586907+00:00"
+          "at": "2026-11-12T12:57:18.130731+00:00"
         },
         "ops": [
           {
@@ -39,6 +39,7 @@
             "source_ref": "2(A)(I)",
             "op": "omit",
             "akn_type": "repeal",
+            "relation": "r165.rel1",
             "target": {
               "cited": [
                 {
@@ -101,6 +102,7 @@
             "source_ref": "2(A)(II)(i)",
             "op": "replace",
             "akn_type": "replacement",
+            "relation": "r165.rel2",
             "target": {
               "cited": [
                 {
@@ -191,6 +193,7 @@
             "source_ref": "2(A)(II)(ii)",
             "op": "insert",
             "akn_type": "insertion",
+            "relation": "r165.rel3",
             "position": "after",
             "anchor": {
               "cited": [
@@ -257,6 +260,7 @@
             "source_ref": "2(A)(II)(iii)",
             "op": "insert",
             "akn_type": "insertion",
+            "relation": "r165.rel4",
             "position": "after",
             "anchor": {
               "cited": [
@@ -328,6 +332,7 @@
             "source_ref": "2(A)(II)(iv)",
             "op": "insert",
             "akn_type": "insertion",
+            "relation": "r165.rel5",
             "position": "after",
             "anchor": {
               "cited": [
@@ -419,6 +424,7 @@
             "source_ref": "2(B)",
             "op": "substitute_text",
             "akn_type": "substitution",
+            "relation": "r165.rel6",
             "target": {
               "cited": [
                 {

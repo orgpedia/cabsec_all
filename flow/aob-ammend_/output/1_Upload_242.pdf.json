@@ -1,0 +1,173 @@
+{
+  "file": {
+    "name": "1_Upload_242.pdf",
+    "file_id": "f_a0f005d44e16f269",
+    "pages": 4,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_242.pdf",
+    "sha256": "a0f005d44e16f269a40078379ff9c7ab8121de7416c24e39c050840068bf7c78",
+    "govdoc": "1_Upload_242.pdf.govdoc.json.zst",
+    "revision": 109
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_520E_1989",
+      "doc_type": "aob_amendment",
+      "parent": "GAZETTE_ISSUE_a0f005d44e16f269",
+      "fields": {
+        "number": {
+          "value": "S. O. 520 (E)"
+        },
+        "in_force": {
+          "value": "1989-06-30"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "1989-06-30",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T12:56:37.858615+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(i)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r73.rel1",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF FINANCE"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF REVENUE"
+                },
+                {
+                  "type": "entry",
+                  "num": "5"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w442",
+                "r1.w444"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    958,
+                    367,
+                    1179,
+                    409
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "5A",
+                "text": "Administration of the Benami Transactions (Prohibition) Act 1988 (45 of 1988) ."
+              }
+            ],
+            "flags": [
+              "read_quote_mismatch"
+            ],
+            "words": [
+              "r1.w412",
+              "r1.w418"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  328,
+                  2266,
+                  1323,
+                  2310
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(ii)",
+            "op": "substitute_text",
+            "akn_type": "substitution",
+            "relation": "r73.rel2",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF LAW AND JUSTICE"
+                },
+                {
+                  "type": "department",
+                  "heading": "LEGISLATIVE DEPARTMENT"
+                },
+                {
+                  "type": "entry",
+                  "num": "11"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w487",
+                "r1.w489"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    354,
+                    813,
+                    566,
+                    853
+                  ]
+                }
+              ]
+            },
+            "old": "agricultural land",
+            "new": "agricultural land (excluding benami transactions)",
+            "flags": [
+              "read_quote_mismatch"
+            ],
+            "words": [
+              "r1.w466",
+              "r1.w473"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  273,
+                  634,
+                  1264,
+                  677
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

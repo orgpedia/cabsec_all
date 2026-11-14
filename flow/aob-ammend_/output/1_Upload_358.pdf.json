@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_358.pdf",
     "sha256": "5452ee7ac65f23d5c55249509784ff2351ad73740cfa2603c46541c3e23d4d7a",
     "govdoc": "1_Upload_358.pdf.govdoc.json.zst",
-    "revision": 44
+    "revision": 193
   },
   "documents": [
     {
@@ -29,9 +29,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "2",
+          "version": "3",
           "model": "gemini-4-argon",
-          "at": "2026-11-03T16:59:03.245404+00:00"
+          "at": "2026-11-12T12:55:58.437422+00:00"
         },
         "ops": [
           {
@@ -39,6 +39,7 @@
             "source_ref": "2(i)",
             "op": "insert",
             "akn_type": "insertion",
+            "relation": "r157.rel1",
             "position": "after",
             "anchor": {
               "cited": [
@@ -61,14 +62,14 @@
               ],
               "eId": null,
               "words": [
-                "r1.w425",
-                "r1.w426"
+                "r51.w424",
+                "r51.w426"
               ],
               "boxes": [
                 {
                   "page": 2,
                   "bbox": [
-                    567,
+                    481,
                     1657,
                     713,
                     1696
@@ -85,8 +86,8 @@
             ],
             "flags": [],
             "words": [
-              "r1.w423",
-              "r1.w434"
+              "r51.w423",
+              "r51.w429"
             ],
             "boxes": [
               {
@@ -94,7 +95,7 @@
                 "bbox": [
                   381,
                   1657,
-                  1533,
+                  1044,
                   1696
                 ]
               }
@@ -105,6 +106,7 @@
             "source_ref": "2(ii)",
             "op": "replace",
             "akn_type": "replacement",
+            "relation": "r157.rel2",
             "target": {
               "cited": [
                 {
@@ -126,14 +128,14 @@
               ],
               "eId": null,
               "words": [
-                "r1.w443",
-                "r1.w444"
+                "r51.w442",
+                "r51.w444"
               ],
               "boxes": [
                 {
                   "page": 2,
                   "bbox": [
-                    540,
+                    480,
                     1787,
                     685,
                     1825
@@ -205,8 +207,8 @@
             ],
             "flags": [],
             "words": [
-              "r1.w441",
-              "r1.w451"
+              "r51.w441",
+              "r51.w447"
             ],
             "boxes": [
               {
@@ -214,7 +216,7 @@
                 "bbox": [
                   381,
                   1787,
-                  1542,
+                  1016,
                   1825
                 ]
               }

@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_1369.pdf",
     "sha256": "24a938f486222c94a655b70d29457bfbffbb147ac8a6394016ff3fc4c25a20f1",
     "govdoc": "1_Upload_1369.pdf.govdoc.json.zst",
-    "revision": 65
+    "revision": 215
   },
   "documents": [
     {
@@ -29,9 +29,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "2",
+          "version": "3",
           "model": "gemini-4-argon",
-          "at": "2026-11-03T16:59:02.836427+00:00"
+          "at": "2026-11-12T12:55:19.864311+00:00"
         },
         "ops": [
           {
@@ -39,6 +39,7 @@
             "source_ref": "2(i)",
             "op": "insert",
             "akn_type": "insertion",
+            "relation": "r179.rel1",
             "position": "after",
             "anchor": {
               "cited": [
@@ -57,15 +58,15 @@
               ],
               "eId": null,
               "words": [
-                "r17.w498",
-                "r17.w500"
+                "r73.w499",
+                "r73.w500"
               ],
               "boxes": [
                 {
                   "page": 2,
                   "bbox": [
-                    535,
-                    2184,
+                    624,
+                    2185,
                     753,
                     2224
                   ]
@@ -81,8 +82,8 @@
             ],
             "flags": [],
             "words": [
-              "r17.w497",
-              "r17.w507"
+              "r73.w497",
+              "r73.w503"
             ],
             "boxes": [
               {
@@ -90,7 +91,7 @@
                 "bbox": [
                   462,
                   2184,
-                  1590,
+                  1095,
                   2224
                 ]
               }
@@ -101,6 +102,7 @@
             "source_ref": "2(ii)",
             "op": "replace",
             "akn_type": "replacement",
+            "relation": "r179.rel2",
             "target": {
               "cited": [
                 {
@@ -122,8 +124,8 @@
               ],
               "eId": null,
               "words": [
-                "r17.w543",
-                "r17.w550"
+                "r73.w543",
+                "r73.w550"
               ],
               "boxes": [
                 {
@@ -146,8 +148,8 @@
             ],
             "flags": [],
             "words": [
-              "r17.w542",
-              "r17.w557"
+              "r73.w542",
+              "r73.w550"
             ],
             "boxes": [
               {
@@ -155,7 +157,7 @@
                 "bbox": [
                   462,
                   2479,
-                  1934,
+                  1058,
                   2519
                 ]
               }
@@ -166,6 +168,7 @@
             "source_ref": "2(iii)",
             "op": "replace",
             "akn_type": "replacement",
+            "relation": "r179.rel3",
             "target": {
               "cited": [
                 {
@@ -183,14 +186,14 @@
               ],
               "eId": null,
               "words": [
-                "r17.w574",
-                "r17.w580"
+                "r73.w575",
+                "r73.w580"
               ],
               "boxes": [
                 {
                   "page": 2,
                   "bbox": [
-                    547,
+                    609,
                     2675,
                     1153,
                     2714
@@ -211,8 +214,8 @@
             ],
             "flags": [],
             "words": [
-              "r17.w573",
-              "r17.w586"
+              "r73.w573",
+              "r73.w580"
             ],
             "boxes": [
               {
@@ -220,7 +223,7 @@
                 "bbox": [
                   462,
                   2675,
-                  1942,
+                  1153,
                   2714
                 ]
               }
@@ -231,6 +234,7 @@
             "source_ref": "2(iv)",
             "op": "replace",
             "akn_type": "replacement",
+            "relation": "r179.rel4",
             "target": {
               "cited": [
                 {
@@ -248,14 +252,14 @@
               ],
               "eId": null,
               "words": [
-                "r17.w659",
-                "r17.w661"
+                "r73.w660",
+                "r73.w661"
               ],
               "boxes": [
                 {
                   "page": 3,
                   "bbox": [
-                    545,
+                    606,
                     244,
                     756,
                     283
@@ -272,8 +276,8 @@
             ],
             "flags": [],
             "words": [
-              "r17.w658",
-              "r17.w668"
+              "r73.w658",
+              "r73.w664"
             ],
             "boxes": [
               {
@@ -281,7 +285,7 @@
                 "bbox": [
                   462,
                   244,
-                  1644,
+                  1098,
                   283
                 ]
               }
@@ -292,6 +296,7 @@
             "source_ref": "2(v)",
             "op": "replace",
             "akn_type": "replacement",
+            "relation": "r179.rel5",
             "target": {
               "cited": [
                 {
@@ -309,14 +314,14 @@
               ],
               "eId": null,
               "words": [
-                "r17.w690",
-                "r17.w692"
+                "r73.w691",
+                "r73.w692"
               ],
               "boxes": [
                 {
                   "page": 3,
                   "bbox": [
-                    533,
+                    595,
                     439,
                     744,
                     479
@@ -338,8 +343,8 @@
             ],
             "flags": [],
             "words": [
-              "r17.w689",
-              "r17.w699"
+              "r73.w689",
+              "r73.w695"
             ],
             "boxes": [
               {
@@ -347,7 +352,7 @@
                 "bbox": [
                   462,
                   439,
-                  1659,
+                  1113,
                   479
                 ]
               }

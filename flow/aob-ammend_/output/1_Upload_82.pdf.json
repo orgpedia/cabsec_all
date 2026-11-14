@@ -1,0 +1,251 @@
+{
+  "file": {
+    "name": "1_Upload_82.pdf",
+    "file_id": "f_84deadefc3b1f14c",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_82.pdf",
+    "sha256": "84deadefc3b1f14c1d06ee83e833251511ee7b5f0ad284f254fa79cdabb43bca",
+    "govdoc": "1_Upload_82.pdf.govdoc.json.zst",
+    "revision": 46
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_1033_1966",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_89_1966",
+      "fields": {
+        "number": {
+          "value": "S.O. 1033"
+        },
+        "in_force": {
+          "value": "1966-03-26"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "1966-03-26",
+          "basis": "stated"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T13:49:23.968648+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "(A)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r10.rel1",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "entry",
+                  "num": "18"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w175",
+                "r1.w181"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    301,
+                    2066,
+                    951,
+                    2104
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "ministry",
+                "num": "18",
+                "heading": "Ministry of Supply, Technical Development & Materials Planning"
+              },
+              {
+                "type": "department",
+                "num": "i",
+                "heading": "Department of Supply & Technical Development."
+              },
+              {
+                "type": "department",
+                "num": "ii",
+                "heading": "Department of Materials Planning."
+              }
+            ],
+            "flags": [
+              "read_hindi_missing"
+            ],
+            "words": [
+              "r1.w174",
+              "r1.w181"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  219,
+                  2066,
+                  951,
+                  2104
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "(B)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r10.rel2",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Supply and Technical Development"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w217",
+                "r1.w230"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    323,
+                    2317,
+                    1592,
+                    2389
+                  ]
+                }
+              ]
+            },
+            "expect": "Ministry of Supply and Technical Development",
+            "content": [
+              {
+                "type": "ministry",
+                "heading": "MINISTRY OF SUPPLY TECHNICAL DEVELOPMENT & MATERIALS PLANNING"
+              },
+              {
+                "type": "department",
+                "num": "A",
+                "heading": "Department of Supply & Technical Development"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Purchase, inspection and shipment of stores for the Central Government other than the items the purchase, inspection and shipment of which are delegated to other authorities by a general or special order."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "Disposal of surplus stores."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "Residual work of supply and disposal relating to the late war organisations including the Directorate General, Aircraft, including Civil Maintenance Units, and Directorate General, Ship Repairs."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "Administration of:-"
+              },
+              {
+                "type": "item",
+                "num": "a",
+                "text": "Directorate General of Supplies and Disposals"
+              },
+              {
+                "type": "item",
+                "num": "b",
+                "text": "Government Test House, Allpore, Calcutta"
+              },
+              {
+                "type": "item",
+                "num": "c",
+                "text": "India Store Department, the United Kingdom"
+              },
+              {
+                "type": "item",
+                "num": "d",
+                "text": "India Supply Mission, the U.S.A."
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "Technical Development, including Directorate General of Technical Development."
+              },
+              {
+                "type": "department",
+                "num": "B",
+                "heading": "Department of Materials Planning"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Coordinated assessment of demands for raw materials, by sectors, industries and large units, in relation to particular groups of products and to available capacities."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "Assessment of domestic availability of raw materials, with due regard to the feasibility of import substitution."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "Assessment of requirements of imports of raw materials, with due ....allowance for inventories."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "Determination of principles, priorities and procedures for allocation of raw materials."
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "Any other matters connected with materials planning."
+              }
+            ],
+            "flags": [
+              "read_hindi_missing"
+            ],
+            "words": [
+              "r1.w212",
+              "r1.w220"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  215,
+                  2314,
+                  1201,
+                  2354
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,941 @@
+{
+  "file": {
+    "name": "1_Upload_86.pdf",
+    "file_id": "f_4fe9d86cd9b6b68f",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_86.pdf",
+    "sha256": "4fe9d86cd9b6b68f336349fa16323b7f75ef8c3740f802dcbd45c7ba61f85d6d",
+    "govdoc": "1_Upload_86.pdf.govdoc.json.zst",
+    "revision": 46
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_2000_1966",
+      "doc_type": "aob_amendment",
+      "parent": "GAZETTE_ISSUE_4fe9d86cd9b6b68f",
+      "fields": {
+        "number": {
+          "value": null
+        },
+        "in_force": {
+          "value": null
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": null,
+          "basis": null
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T13:49:13.242733+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "(1)(a)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r10.rel1",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Health and Family Planning"
+                },
+                {
+                  "type": "department",
+                  "heading": "Department of Health"
+                },
+                {
+                  "type": "entry",
+                  "num": "1"
+                },
+                {
+                  "type": "item",
+                  "num": "xv"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w192",
+                "r1.w193"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    1360,
+                    2483,
+                    1564,
+                    2517
+                  ]
+                }
+              ]
+            },
+            "flags": [],
+            "words": [
+              "r1.w184",
+              "r1.w194"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  333,
+                  2483,
+                  1671,
+                  2517
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "(1)(b)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r10.rel2",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Health and Family Planning"
+                },
+                {
+                  "type": "department",
+                  "heading": "Department of Family Planning"
+                },
+                {
+                  "type": "entry",
+                  "num": "5"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w218",
+                "r1.w220"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    492,
+                    321,
+                    1725,
+                    385
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "8",
+                "text": "Demographic Training and Research Centre, Bombay."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w209",
+              "r1.w218"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  384,
+                  316,
+                  1725,
+                  351
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 3,
+            "source_ref": "(2)(a)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r10.rel3",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Home Affairs"
+                },
+                {
+                  "type": "entry",
+                  "num": "14A"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w245",
+                "r1.w247"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    452,
+                    517,
+                    736,
+                    549
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "14B",
+                "text": "Assam Rifles."
+              },
+              {
+                "type": "entry",
+                "num": "14C",
+                "text": "Border Security Force."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w244",
+              "r1.w254"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  384,
+                  517,
+                  1616,
+                  553
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 4,
+            "source_ref": "(2)(b)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r10.rel4",
+            "target": [
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "Ministry of Home Affairs"
+                  },
+                  {
+                    "type": "entry",
+                    "num": "111"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r1.w264",
+                  "r1.w264"
+                ],
+                "boxes": [
+                  {
+                    "page": 2,
+                    "bbox": [
+                      588,
+                      658,
+                      637,
+                      689
+                    ]
+                  }
+                ]
+              },
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "Ministry of Home Affairs"
+                  },
+                  {
+                    "type": "entry",
+                    "num": "113"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r1.w266",
+                  "r1.w266"
+                ],
+                "boxes": [
+                  {
+                    "page": 2,
+                    "bbox": [
+                      739,
+                      658,
+                      789,
+                      690
+                    ]
+                  }
+                ]
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w262",
+              "r1.w269"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  385,
+                  657,
+                  1101,
+                  691
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 5,
+            "source_ref": "(3)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r10.rel5",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Industry"
+                },
+                {
+                  "type": "group_heading",
+                  "heading": "III. Industries and Industrial Development"
+                },
+                {
+                  "type": "entry",
+                  "num": "10"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w284",
+                "r1.w286"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1002,
+                    753,
+                    1260,
+                    787
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "11",
+                "text": "Explosives, administration of the Indian Explosives Act, 1884, and the Rules made thereunder; but not the Explosive Substances Act."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w270",
+              "r1.w280"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  347,
+                  719,
+                  1724,
+                  751
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 6,
+            "source_ref": "(4)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r10.rel6",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Petroleum and Chemicals"
+                },
+                {
+                  "type": "department",
+                  "heading": "Department of Petroleum"
+                },
+                {
+                  "type": "entry",
+                  "num": "5"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w330",
+                "r1.w332"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1267,
+                    974,
+                    1508,
+                    1007
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "group_heading",
+                "num": "BA",
+                "text": "Administration of the Petroleum Act, 1934, and the Eules made thereunder."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w314",
+              "r1.w324"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  346,
+                  939,
+                  1720,
+                  972
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 7,
+            "source_ref": "(5)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r10.rel7",
+            "target": [
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "Ministry of Supply, Technical Development and Materials Planning"
+                  },
+                  {
+                    "type": "department",
+                    "heading": "Department of Supply & Technical Development"
+                  },
+                  {
+                    "type": "entry",
+                    "num": "4"
+                  },
+                  {
+                    "type": "item",
+                    "num": "b"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r1.w382",
+                  "r1.w382"
+                ],
+                "boxes": [
+                  {
+                    "page": 2,
+                    "bbox": [
+                      1511,
+                      1225,
+                      1558,
+                      1258
+                    ]
+                  }
+                ]
+              },
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "Ministry of Supply, Technical Development and Materials Planning"
+                  },
+                  {
+                    "type": "department",
+                    "heading": "Department of Supply & Technical Development"
+                  },
+                  {
+                    "type": "entry",
+                    "num": "4"
+                  },
+                  {
+                    "type": "item",
+                    "num": "c"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r1.w384",
+                  "r1.w384"
+                ],
+                "boxes": [
+                  {
+                    "page": 2,
+                    "bbox": [
+                      1668,
+                      1225,
+                      1721,
+                      1258
+                    ]
+                  }
+                ]
+              }
+            ],
+            "content": [
+              {
+                "type": "item",
+                "num": "b",
+                "text": "National Test House, Alipore, Calcutta."
+              },
+              {
+                "type": "item",
+                "num": "c",
+                "text": "India Supply Mission, the United Kingdom."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w354",
+              "r1.w363"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  345,
+                  1160,
+                  1719,
+                  1193
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 8,
+            "source_ref": "(6)(a)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r10.rel8",
+            "target": [
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "Ministry of Works, Housing and Urban Development"
+                  },
+                  {
+                    "type": "entry",
+                    "num": "14"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r1.w419",
+                  "r1.w419"
+                ],
+                "boxes": [
+                  {
+                    "page": 2,
+                    "bbox": [
+                      647,
+                      1471,
+                      691,
+                      1503
+                    ]
+                  }
+                ]
+              },
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "Ministry of Works, Housing and Urban Development"
+                  },
+                  {
+                    "type": "entry",
+                    "num": "15"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r1.w420",
+                  "r1.w420"
+                ],
+                "boxes": [
+                  {
+                    "page": 2,
+                    "bbox": [
+                      711,
+                      1471,
+                      756,
+                      1503
+                    ]
+                  }
+                ]
+              },
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "Ministry of Works, Housing and Urban Development"
+                  },
+                  {
+                    "type": "entry",
+                    "num": "16"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r1.w421",
+                  "r1.w421"
+                ],
+                "boxes": [
+                  {
+                    "page": 2,
+                    "bbox": [
+                      777,
+                      1471,
+                      809,
+                      1503
+                    ]
+                  }
+                ]
+              },
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "Ministry of Works, Housing and Urban Development"
+                  },
+                  {
+                    "type": "entry",
+                    "num": "17"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r1.w423",
+                  "r1.w423"
+                ],
+                "boxes": [
+                  {
+                    "page": 2,
+                    "bbox": [
+                      915,
+                      1470,
+                      958,
+                      1502
+                    ]
+                  }
+                ]
+              }
+            ],
+            "content": [
+              {
+                "type": "entry",
+                "num": "14",
+                "text": "The Ashoka Hotels Ltd., New Delhi."
+              },
+              {
+                "type": "entry",
+                "num": "15",
+                "text": "Urban Development."
+              },
+              {
+                "type": "entry",
+                "num": "16",
+                "text": "Town and Country Planning; Matters relating to Calcutta Metropolitan Planning Organisation."
+              },
+              {
+                "type": "entry",
+                "num": "17",
+                "text": "Scheme of large scale acquisition, development and disposal of land in Delhi."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w416",
+              "r1.w429"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  377,
+                  1467,
+                  1719,
+                  1505
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 9,
+            "source_ref": "(6)(b)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r10.rel9",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Works, Housing and Urban Development"
+                },
+                {
+                  "type": "entry",
+                  "num": "20"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w469",
+                "r1.w471"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    445,
+                    1872,
+                    671,
+                    1906
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "20",
+                "text": "Master Plan of Delhi. Co-ordination of work in respect of the Master Plan and slum clearance in the Union territory of Delhi."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w468",
+              "r1.w478"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  378,
+                  1872,
+                  1581,
+                  1906
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 10,
+            "source_ref": "(6)(c)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r10.rel10",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Works, Housing and Urban Development"
+                },
+                {
+                  "type": "entry",
+                  "num": "21"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w503",
+                "r1.w505"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    442,
+                    2026,
+                    668,
+                    2059
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "21",
+                "text": "Administration of the Delhi Development Act, 1957."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w502",
+              "r1.w512"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  380,
+                  2026,
+                  1588,
+                  2059
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 11,
+            "source_ref": "(6)(d)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r10.rel11",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Works, Housing and Urban Development"
+                },
+                {
+                  "type": "entry",
+                  "num": "21"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w523",
+                "r1.w525"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    447,
+                    2144,
+                    704,
+                    2177
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "21A",
+                "text": "The Delhi Rent Control Act, 1958; and evictions in Delhi."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w522",
+              "r1.w532"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  380,
+                  2144,
+                  1543,
+                  2177
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

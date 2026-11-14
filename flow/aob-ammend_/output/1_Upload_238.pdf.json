@@ -1,0 +1,407 @@
+{
+  "file": {
+    "name": "1_Upload_238.pdf",
+    "file_id": "f_4312aa4f87fb12a0",
+    "pages": 4,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_238.pdf",
+    "sha256": "4312aa4f87fb12a0d7015b45d276676149e3002e559d77ff0401faa76c7aa24a",
+    "govdoc": "1_Upload_238.pdf.govdoc.json.zst",
+    "revision": 109
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_927E_1988",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_512_1988",
+      "fields": {
+        "number": {
+          "value": "S.O. 927 (E)"
+        },
+        "in_force": {
+          "value": "1988-10-05"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "1988-10-05",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T12:55:40.552633+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(1)(a)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r73.rel1",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Civil Aviation and Tourism"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w696",
+                "r1.w710"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1436,
+                    1198,
+                    2260,
+                    1326
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "( i ) Department of Civil Aviation (Nagar Vimanan Vibhag) ."
+              },
+              {
+                "type": "department",
+                "num": "ii",
+                "heading": "Department of Tourism (Paryatan Vi - bhag) ."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w693",
+              "r1.w702"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  1363,
+                  1198,
+                  2260,
+                  1247
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(2)(a)(i)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r73.rel2",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF CIVIL AVIATION"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w752",
+                "r1.w765"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1270,
+                    1698,
+                    2264,
+                    1820
+                  ]
+                }
+              ]
+            },
+            "expect": "MINISTRY OF CIVIL AVIATION (Nagar Vimanan Mantralaya)",
+            "content": [
+              {
+                "type": "ministry",
+                "heading": "MINISTRY OF CIVIL AVIATION AND TOU- RISM",
+                "heading_hi": "Nagar Vimanan aur Paryatan Mantralaya"
+              },
+              {
+                "type": "department",
+                "num": "A",
+                "heading": "DEPARTMENT OF CIVIL AVIATION",
+                "heading_hi": "Nagar Vimanan Vibhag"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Aircraft and air navigation provisions of aerodromes; regulation and organisation of air traffic and of aerodromes cxcepting sanitary control of air navigation."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "Beacons and other provisions for the safety of aircraft."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "Carriage of passengers and goods by air."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "International Civil Aviation Organisation (ICAO)."
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "International Air Transport Association (IATA) ."
+              },
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "Commonwealth Air Transport Council (CATC) ."
+              },
+              {
+                "type": "entry",
+                "num": "7",
+                "text": "Commonwealth Advisory Aeronautical Research Council ( CAARC)."
+              },
+              {
+                "type": "entry",
+                "num": "8",
+                "text": "Corporations established under the Air Corporations Act, 1958 (27 of 1953) ."
+              },
+              {
+                "type": "entry",
+                "num": "9",
+                "text": "Hotel Corporation of India."
+              },
+              {
+                "type": "entry",
+                "num": "10",
+                "text": "Chief Commissioner of Railway Safety."
+              },
+              {
+                "type": "entry",
+                "num": "11",
+                "text": "International Airports Authority of India (IAAI)."
+              },
+              {
+                "type": "entry",
+                "num": "12",
+                "text": "Offences against laws with respect to any of the matters specified in this list."
+              },
+              {
+                "type": "entry",
+                "num": "15",
+                "text": "Inquiries and statistics for the purpose of any of the matters specified in this list. 14 Fees in respect of any of the matters specified in this list but not including fees taken in any court."
+              },
+              {
+                "type": "entry",
+                "num": "15",
+                "text": "Implementation of treaties and agreements relating to any of the matters specified in this list."
+              },
+              {
+                "type": "entry",
+                "num": "16",
+                "text": "Helicopter Corporation of India."
+              },
+              {
+                "type": "entry",
+                "num": "17",
+                "text": "Agricultural Aviation."
+              },
+              {
+                "type": "entry",
+                "num": "18",
+                "text": "Directorate General of Civil Aviation."
+              },
+              {
+                "type": "entry",
+                "num": "19",
+                "text": "National Airports Authority."
+              },
+              {
+                "type": "entry",
+                "num": "20",
+                "text": "Indira Gandhi Rashtriya Uran Akademi."
+              },
+              {
+                "type": "entry",
+                "num": "21",
+                "text": "Vayudoot Limited."
+              },
+              {
+                "type": "entry",
+                "num": "22",
+                "text": "Directorate, Civil Aviation Security."
+              },
+              {
+                "type": "department",
+                "num": "B",
+                "heading": "DEPARTMENT OF TOURISM",
+                "heading_hi": "Paryatan Vibhag"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Development of Tourism."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "India Tourism Development Corporation and Public Sector Hotels or Motels thereunder. Inquiries and Statistics for the purpose of any of the matters specified in this list."
+              }
+            ],
+            "flags": [
+              "read_page_break"
+            ],
+            "words": [
+              "r1.w750",
+              "r1.w757"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  1325,
+                  1698,
+                  2257,
+                  1740
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 3,
+            "source_ref": "2(2)(a)(ii)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r73.rel3",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF TOURISM"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w1052",
+                "r1.w1062"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    1389,
+                    760,
+                    2367,
+                    843
+                  ]
+                }
+              ]
+            },
+            "expect": "MINISTRY OF TOURISM (Paryatan Mantralaya)",
+            "flags": [],
+            "words": [
+              "r1.w1051",
+              "r1.w1056"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  1472,
+                  760,
+                  2366,
+                  800
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 4,
+            "source_ref": "2(2)(b)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r73.rel4",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF WEL- FARE"
+                },
+                {
+                  "type": "entry",
+                  "num": "32"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w1076",
+                "r1.w1078"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    1961,
+                    961,
+                    2219,
+                    1002
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "38",
+                "text": "Representation to the Anglo-Indian Community."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w1066",
+              "r1.w1072"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  1428,
+                  917,
+                  2370,
+                  958
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

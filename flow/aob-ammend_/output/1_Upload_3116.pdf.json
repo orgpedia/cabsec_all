@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_3116.pdf",
     "sha256": "3c9794905661d9f7246be4c1a789914b095b419526df0bedd8cd919f51f4702a",
     "govdoc": "1_Upload_3116.pdf.govdoc.json.zst",
-    "revision": 65
+    "revision": 214
   },
   "documents": [
     {
@@ -29,9 +29,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "2",
+          "version": "3",
           "model": "gemini-4-argon",
-          "at": "2026-11-03T16:59:02.974560+00:00"
+          "at": "2026-11-12T12:55:39.990589+00:00"
         },
         "ops": [
           {
@@ -39,6 +39,7 @@
             "source_ref": "2(a)",
             "op": "omit",
             "akn_type": "repeal",
+            "relation": "r178.rel1",
             "target": {
               "cited": [
                 {
@@ -60,8 +61,8 @@
               ],
               "eId": null,
               "words": [
-                "r17.w306",
-                "r17.w307"
+                "r72.w306",
+                "r72.w307"
               ],
               "boxes": [
                 {
@@ -77,8 +78,8 @@
             },
             "flags": [],
             "words": [
-              "r17.w296",
-              "r17.w303"
+              "r72.w296",
+              "r72.w303"
             ],
             "boxes": [
               {
@@ -97,6 +98,7 @@
             "source_ref": "2(b)",
             "op": "insert",
             "akn_type": "insertion",
+            "relation": "r178.rel2",
             "position": "after",
             "anchor": {
               "cited": [
@@ -119,15 +121,15 @@
               ],
               "eId": null,
               "words": [
-                "r17.w331",
-                "r17.w332"
+                "r72.w330",
+                "r72.w332"
               ],
               "boxes": [
                 {
                   "page": 2,
                   "bbox": [
-                    597,
-                    1351,
+                    501,
+                    1350,
                     761,
                     1392
                   ]
@@ -143,8 +145,8 @@
             ],
             "flags": [],
             "words": [
-              "r17.w311",
-              "r17.w320"
+              "r72.w311",
+              "r72.w318"
             ],
             "boxes": [
               {
@@ -152,7 +154,7 @@
                 "bbox": [
                   413,
                   1239,
-                  2106,
+                  1765,
                   1282
                 ]
               }

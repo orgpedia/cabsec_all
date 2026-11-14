@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_372.pdf",
     "sha256": "2f79300152d01ce656a259ce49ee26bc148cfe6707906e931fd32983199a3729",
     "govdoc": "1_Upload_372.pdf.govdoc.json.zst",
-    "revision": 44
+    "revision": 194
   },
   "documents": [
     {
@@ -29,9 +29,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "2",
+          "version": "3",
           "model": "gemini-4-argon",
-          "at": "2026-11-03T16:59:02.911154+00:00"
+          "at": "2026-11-12T12:55:38.375639+00:00"
         },
         "ops": [
           {
@@ -39,6 +39,7 @@
             "source_ref": "2(1)(a)",
             "op": "replace",
             "akn_type": "replacement",
+            "relation": "r158.rel1",
             "target": {
               "cited": [
                 {
@@ -52,8 +53,8 @@
               ],
               "eId": null,
               "words": [
-                "r1.w625",
-                "r1.w640"
+                "r52.w624",
+                "r52.w640"
               ],
               "boxes": [
                 {
@@ -90,8 +91,8 @@
             ],
             "flags": [],
             "words": [
-              "r1.w623",
-              "r1.w632"
+              "r52.w623",
+              "r52.w629"
             ],
             "boxes": [
               {
@@ -99,7 +100,7 @@
                 "bbox": [
                   376,
                   1867,
-                  1850,
+                  1336,
                   1905
                 ]
               }
@@ -110,6 +111,7 @@
             "source_ref": "2(1)(b)",
             "op": "insert",
             "akn_type": "insertion",
+            "relation": "r158.rel2",
             "position": "after",
             "anchor": {
               "cited": [
@@ -124,14 +126,14 @@
               ],
               "eId": null,
               "words": [
-                "r1.w670",
-                "r1.w679"
+                "r52.w669",
+                "r52.w679"
               ],
               "boxes": [
                 {
                   "page": 3,
                   "bbox": [
-                    613,
+                    526,
                     2254,
                     1874,
                     2292
@@ -149,8 +151,8 @@
             ],
             "flags": [],
             "words": [
-              "r1.w668",
-              "r1.w676"
+              "r52.w668",
+              "r52.w674"
             ],
             "boxes": [
               {
@@ -158,7 +160,7 @@
                 "bbox": [
                   376,
                   2254,
-                  1358,
+                  1103,
                   2292
                 ]
               }
@@ -169,6 +171,7 @@
             "source_ref": "2(2)(i)",
             "op": "replace",
             "akn_type": "replacement",
+            "relation": "r158.rel3",
             "target": {
               "cited": [
                 {
@@ -182,14 +185,14 @@
               ],
               "eId": null,
               "words": [
-                "r1.w706",
-                "r1.w718"
+                "r52.w705",
+                "r52.w718"
               ],
               "boxes": [
                 {
                   "page": 3,
                   "bbox": [
-                    526,
+                    525,
                     2569,
                     2255,
                     2653
@@ -208,8 +211,8 @@
             ],
             "flags": [],
             "words": [
-              "r1.w704",
-              "r1.w713"
+              "r52.w704",
+              "r52.w710"
             ],
             "boxes": [
               {
@@ -217,7 +220,7 @@
                 "bbox": [
                   376,
                   2569,
-                  2255,
+                  1521,
                   2607
                 ]
               }
@@ -228,6 +231,7 @@
             "source_ref": "2(2)(ii)",
             "op": "omit",
             "akn_type": "repeal",
+            "relation": "r158.rel4",
             "target": {
               "cited": [
                 {
@@ -245,8 +249,8 @@
               ],
               "eId": null,
               "words": [
-                "r1.w732",
-                "r1.w756"
+                "r52.w740",
+                "r52.w756"
               ],
               "boxes": [
                 {
@@ -264,8 +268,8 @@
             "ref_seq": 3,
             "flags": [],
             "words": [
-              "r1.w731",
-              "r1.w739"
+              "r52.w731",
+              "r52.w737"
             ],
             "boxes": [
               {
@@ -273,7 +277,7 @@
                 "bbox": [
                   376,
                   2764,
-                  2102,
+                  1531,
                   2802
                 ]
               }
@@ -284,6 +288,7 @@
             "source_ref": "2(2)(iii)",
             "op": "insert",
             "akn_type": "insertion",
+            "relation": "r158.rel5",
             "position": "after",
             "anchor": {
               "cited": [
@@ -298,8 +303,8 @@
               ],
               "eId": null,
               "words": [
-                "r1.w762",
-                "r1.w774"
+                "r52.w761",
+                "r52.w774"
               ],
               "boxes": [
                 {
@@ -394,8 +399,8 @@
               "read_page_break"
             ],
             "words": [
-              "r1.w760",
-              "r1.w767"
+              "r52.w760",
+              "r52.w766"
             ],
             "boxes": [
               {
@@ -403,7 +408,7 @@
                 "bbox": [
                   376,
                   2956,
-                  1469,
+                  1261,
                   2994
                 ]
               }

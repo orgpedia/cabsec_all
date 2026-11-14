@@ -1,0 +1,212 @@
+{
+  "file": {
+    "name": "1_Upload_33.pdf",
+    "file_id": "f_22c95d815e0d8b38",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_33.pdf",
+    "sha256": "22c95d815e0d8b38e63c2b2d09dfe59dd433fef2d0f46f160f9bc4db6b118c06",
+    "govdoc": "1_Upload_33.pdf.govdoc.json.zst",
+    "revision": 55
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_857_1961",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_89_1961",
+      "fields": {
+        "number": {
+          "value": "S.O. 857"
+        },
+        "in_force": {
+          "value": "1961-04-17"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "1961-04-17",
+          "basis": "stated"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T18:01:24.671560+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "(a)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r28.rel1",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "entry",
+                  "num": "22"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w114",
+                "r1.w120"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    257,
+                    1397,
+                    882,
+                    1430
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "department",
+                "num": "22",
+                "heading": "Cabinet Secretarlat:"
+              },
+              {
+                "type": "department",
+                "num": "i",
+                "heading": "Department of Cabinet Affairs"
+              },
+              {
+                "type": "department",
+                "num": "ii",
+                "heading": "Department of Statistics"
+              }
+            ],
+            "flags": [
+              "read_hindi_missing"
+            ],
+            "words": [
+              "r1.w113",
+              "r1.w127"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  124,
+                  1397,
+                  1619,
+                  1459
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "(b)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r28.rel2",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Cabinet Secre- tariat"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w141",
+                "r1.w153"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    123,
+                    1634,
+                    1618,
+                    1697
+                  ]
+                }
+              ]
+            },
+            "scope": "children",
+            "content": [
+              {
+                "type": "department",
+                "num": "A",
+                "heading": "Department of Cabinet Affairs"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Secretarial assistance to the Cabinet and Cabinet Committees."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "Rules of Business"
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "Organisation and Methods."
+              },
+              {
+                "type": "department",
+                "num": "B",
+                "heading": "Department of Statistics"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Standards and norms and methods of collection of statistics."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "Central Statistical Organisation."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "National Sample Survey."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "Indian Statistical Institute."
+              }
+            ],
+            "flags": [
+              "read_hindi_missing"
+            ],
+            "words": [
+              "r1.w140",
+              "r1.w160"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  123,
+                  1634,
+                  1618,
+                  1702
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

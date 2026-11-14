@@ -1,0 +1,229 @@
+{
+  "file": {
+    "name": "1_Upload_318.pdf",
+    "file_id": "f_464545dce5b4678f",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_318.pdf",
+    "sha256": "464545dce5b4678f606d9cef3b0bdec863c6c2d57e483bc70b5d561ad4269c16",
+    "govdoc": "1_Upload_318.pdf.govdoc.json.zst",
+    "revision": 151
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_665E_2004",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_512_2004",
+      "fields": {
+        "number": {
+          "value": "S.O. 665 (E)"
+        },
+        "in_force": {
+          "value": "2004-06-05"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "2004-06-05",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T12:55:40.821195+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(a)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r114.rel1",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF PERSONNEL, PUBLIC GRIEVANCES AND PENSIONS"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF PER- SONNEL AND TRAINING"
+                },
+                {
+                  "type": "entry",
+                  "num": "20"
+                },
+                {
+                  "type": "item",
+                  "num": "c"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r5.w444",
+                "r5.w448"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1741,
+                    1089,
+                    2072,
+                    1134
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "20A",
+                "text": "The Prevention of Corruption Act, 1947 (2 of 1947); the Central Bureau of Investigation (the Delhi Special Police Establishment including the Legal Division, the Technical Division, the Policy Division and the Administration Division); the Food Offences Wing; and Economic Offences Wing."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r5.w413",
+              "r5.w423"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  434,
+                  985,
+                  1975,
+                  1058
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(b)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r114.rel2",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF POWER"
+                },
+                {
+                  "type": "entry",
+                  "num": "4"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r5.w508",
+                "r5.w511"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1714,
+                    1396,
+                    1946,
+                    1440
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "Administration of the Electricity Act, 2003 (36 of 2003), the Energry Conservation Act, 2001 (52 of 2001), the Damodar Valley Corporation Act, 1948 (14 of 1948) and Bhakra Beas Management Board as provided in the Punjab Reorganisation Act, 1966 (31 of 1966)."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r5.w499",
+              "r5.w507"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  437,
+                  1401,
+                  1707,
+                  1466
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 3,
+            "source_ref": "2(c)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r114.rel3",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "CABINET SECRETARIAT"
+                },
+                {
+                  "type": "entry",
+                  "num": "3"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r5.w570",
+                "r5.w572"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1959,
+                    1696,
+                    2130,
+                    1739
+                  ]
+                }
+              ]
+            },
+            "flags": [],
+            "words": [
+              "r5.w562",
+              "r5.w569"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  443,
+                  1699,
+                  1953,
+                  1771
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

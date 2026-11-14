@@ -1,0 +1,239 @@
+{
+  "file": {
+    "name": "1_Upload_286.pdf",
+    "file_id": "f_f866f477940a696b",
+    "pages": 4,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_286.pdf",
+    "sha256": "f866f477940a696b448a8f5d2d9bac007de6e15c86b0f8a40d3c2be0356513a9",
+    "govdoc": "1_Upload_286.pdf.govdoc.json.zst",
+    "revision": 118
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_1231E_1999",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_763_1999",
+      "fields": {
+        "number": {
+          "value": "S.O. 1231 (E)"
+        },
+        "in_force": {
+          "value": "1999-12-10"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "1999-12-10",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T12:57:34.525390+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(1)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r81.rel1",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Planning Commission"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w434",
+                "r1.w441"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    485,
+                    2983,
+                    2116,
+                    3074
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "department",
+                "num": "45",
+                "heading": "Department of Disinvestment (Vinivesh vibhag) 44"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w414",
+              "r1.w436"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  339,
+                  2985,
+                  1669,
+                  3021
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(2)(A)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r81.rel2",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF HEAVY INDUSTRIES AND PUBLIC ENTERPRISES"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF PUBLIC ENTERPRISES"
+                },
+                {
+                  "type": "entry",
+                  "num": "3"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w501",
+                "r1.w502"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    1900,
+                    522,
+                    2132,
+                    556
+                  ]
+                }
+              ]
+            },
+            "flags": [],
+            "words": [
+              "r1.w466",
+              "r1.w481"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  505,
+                  370,
+                  2132,
+                  415
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 3,
+            "source_ref": "2(2)(B)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r81.rel3",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "PLANNING COMMISSION"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w509",
+                "r1.w519"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    651,
+                    669,
+                    2136,
+                    762
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "department",
+                "num": "45",
+                "heading": "DEPARTMENT OF DISINVESTMENT",
+                "heading_hi": "VINIVESH VIBHAG"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "All matters relating to disinvestment of Central Government equity from Central Public Sector Undertakings."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "Decisions on the recommendations of the Disinvestment Commission on the modalities of disinvestment, including restructuring. { Implementation of disinvestment decisions including appointment of advisers, pricing of shares, and other terms and conditions of disinvestment."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "H Disinvestment Commission."
+              },
+              {
+                "type": "entry",
+                "num": "15",
+                "text": "Central Public Sector Undertakings for purposes of disinvestment of Government equity only."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w508",
+              "r1.w514"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  508,
+                  669,
+                  2136,
+                  713
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

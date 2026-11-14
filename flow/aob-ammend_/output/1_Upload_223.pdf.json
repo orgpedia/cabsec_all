@@ -1,0 +1,427 @@
+{
+  "file": {
+    "name": "1_Upload_223.pdf",
+    "file_id": "f_b12aa77c7690588e",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_223.pdf",
+    "sha256": "b12aa77c7690588ea459641c2a4cace8fbf6295ea6675593dfbe6b0156366106",
+    "govdoc": "1_Upload_223.pdf.govdoc.json.zst",
+    "revision": 109
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_374E_1986",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_247_1986",
+      "fields": {
+        "number": {
+          "value": "S.O. 374(E)"
+        },
+        "in_force": {
+          "value": "1986-06-23"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "1986-06-23",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T12:56:56.636650+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(i)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r73.rel1",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF HEALTH AND FAMILY WELFARE"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF HEALTH"
+                },
+                {
+                  "type": "entry",
+                  "num": "12"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w521",
+                "r1.w523"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    813,
+                    1339,
+                    1069,
+                    1377
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "12",
+                "text": "International Health Regulations."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w497",
+              "r1.w502"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  174,
+                  1121,
+                  1064,
+                  1165
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(ii)(a)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r73.rel2",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF INDUSTRY"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF PUBLIC ENTERPRISES"
+                },
+                {
+                  "type": "entry",
+                  "num": "25"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w559",
+                "r1.w560"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    297,
+                    1860,
+                    464,
+                    1904
+                  ]
+                }
+              ]
+            },
+            "flags": [],
+            "words": [
+              "r1.w558",
+              "r1.w563"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  213,
+                  1856,
+                  831,
+                  1905
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 3,
+            "source_ref": "2(ii)(b)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r73.rel3",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF INDUSTRY"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF PUBLIC ENTERPRISES"
+                },
+                {
+                  "type": "entry",
+                  "num": "56"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w568",
+                "r1.w570"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1390,
+                    299,
+                    1671,
+                    339
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "57",
+                "text": "Bridge and Roof Company."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w567",
+              "r1.w574"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  1302,
+                  299,
+                  2161,
+                  339
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 4,
+            "source_ref": "2(iii)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r73.rel4",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF LABOUR"
+                },
+                {
+                  "type": "entry",
+                  "num": "40"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w593",
+                "r1.w595"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1347,
+                    563,
+                    1626,
+                    604
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "41",
+                "text": "Administration of laws relating to the working conditions and welfare of cinema workers and cinema theatre workers."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w584",
+              "r1.w589"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  1249,
+                  478,
+                  2163,
+                  517
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 5,
+            "source_ref": "2(iv)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r73.rel5",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF PARLIAMENTARY AFFAIRS"
+                },
+                {
+                  "type": "entry",
+                  "num": "4"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w637",
+                "r1.w639"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1350,
+                    923,
+                    2169,
+                    1005
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "Liaison with Leaders and Whips of various Parties and Groups represented in Parliament."
+              }
+            ],
+            "flags": [
+              "read_quote_mismatch"
+            ],
+            "words": [
+              "r1.w623",
+              "r1.w630"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  1252,
+                  835,
+                  2166,
+                  875
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 6,
+            "source_ref": "2(v)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r73.rel6",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF TRANSPORT"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF SURFACE TRANSPORT"
+                },
+                {
+                  "type": "entry",
+                  "num": "37"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w686",
+                "r1.w688"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1808,
+                    1449,
+                    2090,
+                    1489
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "38",
+                "text": "Hooghly Dock and Port Engineers Ltd."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w664",
+              "r1.w669"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  1267,
+                  1234,
+                  2167,
+                  1278
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

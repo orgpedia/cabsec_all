@@ -1,0 +1,233 @@
+{
+  "file": {
+    "name": "1_Upload_221.pdf",
+    "file_id": "f_ec9aaab283a77ed2",
+    "pages": 4,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_221.pdf",
+    "sha256": "ec9aaab283a77ed22d903aed65a24ec72e4e8b75333e10f1df2d1153e9e9583e",
+    "govdoc": "1_Upload_221.pdf.govdoc.json.zst",
+    "revision": 109
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_209E_1986",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_151_1986",
+      "fields": {
+        "number": {
+          "value": "S.O. 209(E)"
+        },
+        "in_force": {
+          "value": "1986-04-24"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "1986-04-24",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T12:57:33.943941+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(a)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r73.rel1",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF DEFENCE"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF DEFENCE PRODUCTION AND SUPPLIES"
+                },
+                {
+                  "type": "entry",
+                  "num": "6A"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w446",
+                "r1.w447"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    612,
+                    278,
+                    788,
+                    316
+                  ]
+                }
+              ]
+            },
+            "flags": [
+              "read_quote_mismatch"
+            ],
+            "words": [
+              "r1.w410",
+              "r1.w417"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  417,
+                  2063,
+                  1425,
+                  2109
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(b)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r73.rel2",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF HOME AFFAIRS"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF INTERNAL SECURITY"
+                },
+                {
+                  "type": "entry",
+                  "num": "41"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w474",
+                "r1.w475"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    984,
+                    493,
+                    1142,
+                    532
+                  ]
+                }
+              ]
+            },
+            "flags": [],
+            "words": [
+              "r1.w451",
+              "r1.w458"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  283,
+                  349,
+                  1435,
+                  397
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 3,
+            "source_ref": "2(c)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r73.rel3",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF INDUSTRY"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF PUBLIC ENTERPRISES"
+                },
+                {
+                  "type": "entry",
+                  "num": "55"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w503",
+                "r1.w505"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    946,
+                    761,
+                    1215,
+                    802
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "56",
+                "text": "Praga Tools Limited."
+              },
+              {
+                "type": "entry",
+                "num": "57",
+                "text": "Rehabilitation Industries Corporation."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w480",
+              "r1.w486"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  285,
+                  621,
+                  1322,
+                  661
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

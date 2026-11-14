@@ -1,0 +1,223 @@
+{
+  "file": {
+    "name": "1_Upload_199.pdf",
+    "file_id": "f_d74898a368bda2a3",
+    "pages": 4,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_199.pdf",
+    "sha256": "d74898a368bda2a322d9710e552f5fdda3eda04750a47790c0a62a170c4a0a36",
+    "govdoc": "1_Upload_199.pdf.govdoc.json.zst",
+    "revision": 46
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_543E_1984",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_357_1984",
+      "fields": {
+        "number": {
+          "value": "S.O. 543 (E)"
+        },
+        "in_force": {
+          "value": "1984-07-28"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "1984-07-28",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T13:50:03.539117+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(a)(i)",
+            "op": "substitute_text",
+            "akn_type": "substitution",
+            "relation": "r10.rel1",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Home Affairs"
+                },
+                {
+                  "type": "group_heading",
+                  "heading": "Part II--Con- current Subjects"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w464",
+                "r1.w467"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    702,
+                    997,
+                    1235,
+                    1041
+                  ]
+                }
+              ]
+            },
+            "old": "(as regards legislation only)",
+            "new": "(as regards legislation only-except in respect of entry 82)",
+            "flags": [],
+            "words": [
+              "r1.w463",
+              "r1.w471"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  610,
+                  997,
+                  1698,
+                  1041
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(a)(i)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r10.rel2",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Home Affairs"
+                },
+                {
+                  "type": "group_heading",
+                  "heading": "Part II--Con- current Subjects"
+                },
+                {
+                  "type": "entry",
+                  "num": "82"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w492",
+                "r1.w494"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    703,
+                    1241,
+                    966,
+                    1285
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "82",
+                "text": "The Terrorist Affected Areas (Special Courts) Ordinance, 1984-Establishment of Special and Additional Special Courts and all other matters, under the Ordinance."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w491",
+              "r1.w500"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  601,
+                  1241,
+                  1694,
+                  1285
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 3,
+            "source_ref": "2(b)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r10.rel3",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Law, Justice and Company Affairs"
+                },
+                {
+                  "type": "department",
+                  "heading": "Depart- ment of Justice"
+                },
+                {
+                  "type": "entry",
+                  "num": "6"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w553",
+                "r1.w554"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    1381,
+                    1792,
+                    1524,
+                    1839
+                  ]
+                }
+              ]
+            },
+            "flags": [],
+            "words": [
+              "r1.w526",
+              "r1.w534"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  565,
+                  1616,
+                  1699,
+                  1659
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

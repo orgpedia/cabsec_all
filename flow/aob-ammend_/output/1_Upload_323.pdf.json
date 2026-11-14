@@ -1,0 +1,985 @@
+{
+  "file": {
+    "name": "1_Upload_323.pdf",
+    "file_id": "f_fc7d02262aa39da9",
+    "pages": 18,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_323.pdf",
+    "sha256": "fc7d02262aa39da9735ac10ff4076115c623138890bb788b52738c9f54e89849",
+    "govdoc": "1_Upload_323.pdf.govdoc.json.zst",
+    "revision": 138
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_277E_2005",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_216_2005",
+      "fields": {
+        "number": {
+          "value": "S.O. 277(E)"
+        },
+        "in_force": {
+          "value": "2005-03-01"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "2005-03-01",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T12:57:34.808638+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(1)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r102.rel1",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Health and Family Welfare"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w2121",
+                "r1.w2139"
+              ],
+              "boxes": [
+                {
+                  "page": 10,
+                  "bbox": [
+                    859,
+                    1218,
+                    2248,
+                    1388
+                  ]
+                }
+              ]
+            },
+            "expect": "15. Ministry of Health and Family Welfare (Swasthya aur Parivar Kalyan Mantralaya)",
+            "content": [
+              {
+                "type": "ministry",
+                "heading": "Ministry of Health and Family Welfare",
+                "heading_hi": "Swasthya aur Parivar Kalyan Mantralaya"
+              },
+              {
+                "type": "department",
+                "num": "i",
+                "heading": "Department of Health and Family Welfare",
+                "heading_hi": "Swasthya aur Parivar Kalyan Vibhag"
+              },
+              {
+                "type": "department",
+                "num": "ii",
+                "heading": "Department of Ayurveda, Yoga and Naturopathy Unani, Siddha and Homoeopathy (AYUSH)",
+                "heading_hi": "Ayurveda Yoga aur Prakratik Chikitsa, Unani, Siddha aur Homoeopathy (AYUSH) Vibhag"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w2115",
+              "r1.w2122"
+            ],
+            "boxes": [
+              {
+                "page": 10,
+                "bbox": [
+                  729,
+                  1218,
+                  1811,
+                  1262
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(2)(i)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r102.rel2",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF COMMUNICATIONS AND INFORMATION TECHNOLOGY"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF INFORMATION TECHNOLOGY"
+                },
+                {
+                  "type": "entry",
+                  "num": "6"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w2228",
+                "r1.w2229"
+              ],
+              "boxes": [
+                {
+                  "page": 10,
+                  "bbox": [
+                    1287,
+                    2718,
+                    1473,
+                    2764
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "Matters relating to promotion and manufacturing of Semiconductor Devices in the country excluding all matters relating to Semiconductor Complex Limited (SCL), Mohali; The Semiconductor Integrated Circuits layout Design Act, 2000 (37 of 2000)."
+              }
+            ],
+            "flags": [
+              "read_page_break"
+            ],
+            "words": [
+              "r1.w2202",
+              "r1.w2196"
+            ],
+            "boxes": [
+              {
+                "page": 10,
+                "bbox": [
+                  783,
+                  2348,
+                  2176,
+                  2451
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 3,
+            "source_ref": "2(2)(ii)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r102.rel3",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF HEALTH AND FAMILY WELFARE"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w2284",
+                "r1.w2303"
+              ],
+              "boxes": [
+                {
+                  "page": 11,
+                  "bbox": [
+                    660,
+                    558,
+                    1898,
+                    795
+                  ]
+                }
+              ]
+            },
+            "expect": "MINISTRY OF HEALTH AND FAMILY WELFARE (SWASTHYA AUR PARIVAR KALYAN MANTRALAYA",
+            "content": [
+              {
+                "type": "ministry",
+                "heading": "MINISTRY OF HEALTH AND FAMILY WELFARE",
+                "heading_hi": "SWASTHYA AUR PARIVAR KALYAN MANTRALAYA"
+              },
+              {
+                "type": "department",
+                "num": "A",
+                "heading": "DEPARTMENT OF HEALTH AND FAMILY WELFARE",
+                "heading_hi": "SWASTHYA AUR PARIVAR KALYAN VIBHAG"
+              },
+              {
+                "type": "group_heading",
+                "num": "I",
+                "text": "UNION BUSINESS"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Union agencies and institutes for research or for the promotion of special studies in medicine and nutrition including all matters relating to -"
+              },
+              {
+                "type": "item",
+                "num": "a",
+                "text": "Central Research Institute"
+              },
+              {
+                "type": "item",
+                "num": "b",
+                "text": "All India Institute of Hygiene and Public Health"
+              },
+              {
+                "type": "item",
+                "num": "c",
+                "text": "National Institute of Communicable Diseases"
+              },
+              {
+                "type": "item",
+                "num": "d",
+                "text": "Central Drugs Laboratory"
+              },
+              {
+                "type": "item",
+                "num": "e",
+                "text": "Rajkumari Amrit Kaur College of Nursing"
+              },
+              {
+                "type": "item",
+                "num": "f",
+                "text": "Lady Reading Health School"
+              },
+              {
+                "type": "item",
+                "num": "g",
+                "text": "Central Institute of Psychiatry"
+              },
+              {
+                "type": "item",
+                "num": "h",
+                "text": "Dr.Ram Manohar Lohia Hospital and Nursing Home"
+              },
+              {
+                "type": "item",
+                "num": "i",
+                "text": "Safdarjang Hospital"
+              },
+              {
+                "type": "item",
+                "num": "j",
+                "text": "Medical Stores Organisation"
+              },
+              {
+                "type": "item",
+                "num": "k",
+                "text": "B.C.G. Vaccine Laboratory 12 [PART II SEC. 3(ii)] (1) Jawaharlal Institute of Post-Graduate Medical Education and = Research"
+              },
+              {
+                "type": "item",
+                "num": "m",
+                "text": "Smt. Sucheta Kirpalani Medical College and Hospital and Kalawati Saran Children's Hospital"
+              },
+              {
+                "type": "item",
+                "num": "n",
+                "text": "Central Government Health Scheme (CGHS) (0) Central Health Service"
+              },
+              {
+                "type": "item",
+                "num": "p",
+                "text": "Serologist and Chemical Examiner to the Government of India."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "All matters relating to the following Institutions-"
+              },
+              {
+                "type": "item",
+                "num": "a",
+                "text": "Central Food Laboratory."
+              },
+              {
+                "type": "item",
+                "num": "b",
+                "text": "Central Food and Standardisation Laboratory."
+              },
+              {
+                "type": "item",
+                "num": "c",
+                "text": "Central Indian Pharmacopoeia Laboratory."
+              },
+              {
+                "type": "item",
+                "num": "d",
+                "text": "All India Institute of Physical Medicine and Rehabilitation."
+              },
+              {
+                "type": "item",
+                "num": "e",
+                "text": "National Tuberculosis Institute."
+              },
+              {
+                "type": "item",
+                "num": "f",
+                "text": "Central Leprosy Teaching and Research Institute."
+              },
+              {
+                "type": "item",
+                "num": "g",
+                "text": "Regional Leprosy Training and Research Centre, Raipur (Uttar Pradesh), Aska (Orissa), Gauripur (West Bengal) Teetulmari (Bihar)."
+              },
+              {
+                "type": "item",
+                "num": "h",
+                "text": "Port Quarantine (sea and air) seamen's and marine hospitals and hospitals connected with port quarantine."
+              },
+              {
+                "type": "item",
+                "num": "i",
+                "text": "Port and Air Port Health Organisations."
+              },
+              {
+                "type": "item",
+                "num": "j",
+                "text": "Medical Examination of seamen."
+              },
+              {
+                "type": "item",
+                "num": "k",
+                "text": "International Health Regulations. (I) World Health Organisation (WHO)."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "Prevention of Food Adulteration Act, 1954 (37 of 1954) and the Central Food Laboratory set up thereunder."
+              },
+              {
+                "type": "group_heading",
+                "num": "A",
+                "text": "Higher training abroad in medical and allied subjects."
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "Coordination of work in respect of International Conferences in India and abroad in medical and related fields."
+              },
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "Health Programmes relating to-"
+              },
+              {
+                "type": "item",
+                "num": "a",
+                "text": ". International aid for Health Programmes."
+              },
+              {
+                "type": "item",
+                "num": "b",
+                "text": "National Programme for Control of Blindness."
+              },
+              {
+                "type": "item",
+                "num": "c",
+                "text": "National Leprosy Eradication Programme."
+              },
+              {
+                "type": "item",
+                "num": "d",
+                "text": "National Tuberculosis Control Programme."
+              },
+              {
+                "type": "item",
+                "num": "e",
+                "text": "National Malaria Eradication Programme."
+              },
+              {
+                "type": "item",
+                "num": "f",
+                "text": "All National Programmes relating to control and eradication of communicable diseases."
+              },
+              {
+                "type": "item",
+                "num": "g",
+                "text": "Bilateral Cultural Exchange Programmes relating to control and eradication of communicable diseases."
+              },
+              {
+                "type": "entry",
+                "num": "7",
+                "text": "Fellowships-for training in India and abroad in various medical and health subjects."
+              },
+              {
+                "type": "entry",
+                "num": "8",
+                "text": "Matters relating to epidemics - Problems connected with supply of medicines, effects of malnutrition and shortage of drinking water leading to various diseases as a result of natural calamities."
+              },
+              {
+                "type": "group_heading",
+                "num": "II",
+                "text": "LIST OF BUSINESS FOR LEGISLATIVE AND EXECUTIVE PURPOSES IN RESPECT OF UNION TERRITORIES."
+              },
+              {
+                "type": "entry",
+                "num": "9",
+                "text": "Public Health hospitals and dispensaries."
+              },
+              {
+                "type": "entry",
+                "num": "10",
+                "text": "Scientific societies and associations pertaining to subjects dealt with in the Department."
+              },
+              {
+                "type": "entry",
+                "num": "11",
+                "text": "Charitable and religious endowments pertaining to subjects dealt with in the Department. LIST OF BUSINESS WITH WHICH THE CENTRAL GOVERNMENT DEAL IN A LEGISLATIVE CAPACITY ONLY FOR THE UNION AND IN BOTH LEGISLATIVE AND EXECUTIVE CAPACITIES FOR ALL UNION TERRITORIES."
+              },
+              {
+                "type": "entry",
+                "num": "12",
+                "text": "All Matters relating to-"
+              },
+              {
+                "type": "item",
+                "num": "a",
+                "text": "The Medical profession and medical education. 68695/05-4 14 [PART II - SEC. 3"
+              },
+              {
+                "type": "item",
+                "num": "b",
+                "text": "The nursing profession and nursing education."
+              },
+              {
+                "type": "item",
+                "num": "c",
+                "text": "Pharmacists and Pharmacy education."
+              },
+              {
+                "type": "item",
+                "num": "d",
+                "text": "The dental profession and dental education."
+              },
+              {
+                "type": "item",
+                "num": "e",
+                "text": "Mental Health."
+              },
+              {
+                "type": "item",
+                "num": "f",
+                "text": "Drugs Standards."
+              },
+              {
+                "type": "item",
+                "num": "g",
+                "text": "Advertisements relating to drugs and medicines."
+              },
+              {
+                "type": "item",
+                "num": "h",
+                "text": "Prevention of the extension from one State to another of infectious or contagious diseases affecting human beings."
+              },
+              {
+                "type": "item",
+                "num": "i",
+                "text": "Prevention of adulteration of foodstuffs and drugs."
+              },
+              {
+                "type": "group_heading",
+                "num": "IV",
+                "text": "MISCELLANEOUS BUSINESS"
+              },
+              {
+                "type": "entry",
+                "num": "13",
+                "text": "All Matters relating to-"
+              },
+              {
+                "type": "item",
+                "num": "a",
+                "text": "The Medical Council of India."
+              },
+              {
+                "type": "item",
+                "num": "b",
+                "text": "The Central Councils of Health and Family Welfare."
+              },
+              {
+                "type": "item",
+                "num": "c",
+                "text": "Dental Council of India."
+              },
+              {
+                "type": "item",
+                "num": "d",
+                "text": "Indian Nursing Council."
+              },
+              {
+                "type": "item",
+                "num": "e",
+                "text": "Pharmacy Council of India"
+              },
+              {
+                "type": "item",
+                "num": "f",
+                "text": "Indian Pharmacopoeia Committee. i"
+              },
+              {
+                "type": "entry",
+                "num": "14",
+                "text": "Concession of medical attendance and treatment for Central Government servants other than (i) those in Railway Service (ii) those paid from Defence Service Estimates (iii) officers governed by the All India Services (Medical Attendance) Rules, 1954 and (iv) officers governed by the Medical Attendance Rules, 1956."
+              },
+              {
+                "type": "entry",
+                "num": "15",
+                "text": "Medical Examination and Medical Boards for Central Civil Services [other than those controlled by the Department of Railways and those paid from Defence Services Estimates excepting Civilian Services.]."
+              },
+              {
+                "type": "entry",
+                "num": "16",
+                "text": "All Matters relating to-"
+              },
+              {
+                "type": "item",
+                "num": "a",
+                "text": "Grants to Vallabhbhai Patel Chest Institute (under Delhi university)."
+              },
+              {
+                "type": "item",
+                "num": "b",
+                "text": "Grants to Indian Red Cross Society."
+              },
+              {
+                "type": "item",
+                "num": "c",
+                "text": "Spas and Health resorts."
+              },
+              {
+                "type": "item",
+                "num": "d",
+                "text": "The Indian Council of Medical Research."
+              },
+              {
+                "type": "item",
+                "num": "e",
+                "text": "National Board of Examination."
+              },
+              {
+                "type": "item",
+                "num": "f",
+                "text": "Chittaranjan National Cancer Research Centre."
+              },
+              {
+                "type": "item",
+                "num": "g",
+                "text": "All India Institute of Medical Sciences."
+              },
+              {
+                "type": "item",
+                "num": "h",
+                "text": "Medical and Bio-medical research."
+              },
+              {
+                "type": "item",
+                "num": "i",
+                "text": "All India Institute of Speech and Hearing."
+              },
+              {
+                "type": "item",
+                "num": "j",
+                "text": "Pasteur Institute of India."
+              },
+              {
+                "type": "item",
+                "num": "k",
+                "text": "Physiotherapy Training Centre, King Edward Memorial Hospital. (I) National Institute of Mental Health and Neuro Sciences."
+              },
+              {
+                "type": "item",
+                "num": "m",
+                "text": "Hospital Services Consultancy Corporation Limited. .V. FAMILY WELFARE MATTERS"
+              },
+              {
+                "type": "entry",
+                "num": "17",
+                "text": "Policy and organisation for Family Welfare."
+              },
+              {
+                "type": "entry",
+                "num": "18",
+                "text": "All matters relating to:- ?"
+              },
+              {
+                "type": "item",
+                "num": "a",
+                "text": "National Rural Health Mission."
+              },
+              {
+                "type": "item",
+                "num": "b",
+                "text": "National Commission on Population."
+              },
+              {
+                "type": "item",
+                "num": "c",
+                "text": "Reproductive and Child Health. R"
+              },
+              {
+                "type": "entry",
+                "num": "19",
+                "text": "Inter-sectoral coordination in accordance with the National Population Policy."
+              },
+              {
+                "type": "entry",
+                "num": "20",
+                "text": "Matters related to Janasankhya Sthiarta Kosh and Empowered Action Group."
+              },
+              {
+                "type": "entry",
+                "num": "21",
+                "text": "Organisation and direction of education, training and research in all aspects of family welfare including higher training abroad."
+              },
+              {
+                "type": "entry",
+                "num": "22",
+                "text": "Production and supply of aids to Family Planning. 6860I105-5"
+              },
+              {
+                "type": "entry",
+                "num": "23",
+                "text": "Liaision with foreign countries and international bodies as regards 1 matters relating to family welfare."
+              },
+              {
+                "type": "entry",
+                "num": "24",
+                "text": "Family Welfare Schemes and projects with external assistance."
+              },
+              {
+                "type": "entry",
+                "num": "25",
+                "text": "International Institute of Population Sciences, Mumbai."
+              },
+              {
+                "type": "entry",
+                "num": "26",
+                "text": "Development and production of audiovisual aids, extensional education and information in relation to population and family welfare."
+              },
+              {
+                "type": "entry",
+                "num": "27",
+                "text": "Promoting Public Private Partnership for the Family Welfare Programme."
+              },
+              {
+                "type": "entry",
+                "num": "28",
+                "text": "All Matters relating to following Institutions:- :"
+              },
+              {
+                "type": "item",
+                "num": "a",
+                "text": "Hindustan Latex Limited, Thiruvananthapuram."
+              },
+              {
+                "type": "item",
+                "num": "b",
+                "text": "National Institute of Health and Family Welfare, New Delhi."
+              },
+              {
+                "type": "entry",
+                "num": "29",
+                "text": "Implementation of Pre-conception and Pre-natal Diagnostic Techniques (Prohibition of Sex Selection) Act, 1994 (57 of 1994) - Medical Termination of Pregnancy Act, 1971 (34 of 1971)."
+              },
+              {
+                "type": "department",
+                "num": "B",
+                "heading": "DEPARTMENT OF AYURVEDA, YOGA AND NATUROPATHY UNANI, SIDDHA AND HOMOEOPATHY (AYUSH)",
+                "heading_hi": "AYURVEDA YOGA AUR PRAKRATIK CHIKITSA, UNANI, SIDDHA AUR CHIKITSA HOMOEOPATHY (AYUSH) VIBHAG"
+              },
+              {
+                "type": "group_heading",
+                "num": "I",
+                "text": "UNION BUSINESS"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Formulation of policy and policy issues for development and propagation of Ayurveda, Siddha, Unani, Homoeopathy, Yoga and Naturopathy systems."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "Development and implementation of programmes including Central schemes and Centrally sponsored schemes for development and propagation of Ayurveda, Siddha, Unani, Homoeopathy, Yoga and Naturopathy systems. 1"
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "Co-ordination and promotion of research and development including assistance therefor in Ayurveda, Siddha, Unani, Homoeopathy Yoga and Naturopathy systems."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "Setting up and maintenance of Central institutions for research and development, education and standards relating to Ayurveda, Siddha Unani, Homoeopathy, Yoga and Naturopathy systems."
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "All issues and matters requiring action at the level of Government in regard to-"
+              },
+              {
+                "type": "item",
+                "num": "a",
+                "text": "Pharmacopoeial Laboratory for Indian Medicine, Ghaziabad"
+              },
+              {
+                "type": "item",
+                "num": "b",
+                "text": "Homoeopathic Pharmacopoeia Laboratory, Ghaziabad"
+              },
+              {
+                "type": "item",
+                "num": "c",
+                "text": "Central Council of Indian Medicines"
+              },
+              {
+                "type": "item",
+                "num": "d",
+                "text": "Central Council of Homoeopathy"
+              },
+              {
+                "type": "item",
+                "num": "e",
+                "text": "Ayurvedic Pharmacopoeia Committee"
+              },
+              {
+                "type": "item",
+                "num": "f",
+                "text": "Homoeopathic Pharmacopoeia Committee"
+              },
+              {
+                "type": "item",
+                "num": "g",
+                "text": "Unani Pharmacopoeia Committee"
+              },
+              {
+                "type": "item",
+                "num": "h",
+                "text": "Siddha Pharmacopoeia Committee"
+              },
+              {
+                "type": "item",
+                "num": "i",
+                "text": "Ayurvedic, Siddha and Unani Drugs Technical Advisory Board"
+              },
+              {
+                "type": "item",
+                "num": "j",
+                "text": "Central Council for Research in Ayurveda and Siddha"
+              },
+              {
+                "type": "item",
+                "num": "k",
+                "text": "Central Councii for Research in Homoeopathy (I) Central Council for Research in Unani Medicine"
+              },
+              {
+                "type": "item",
+                "num": "m",
+                "text": "Central Council for Research in Yoga and Naturopathy"
+              },
+              {
+                "type": "item",
+                "num": "n",
+                "text": "National Institute of Ayurveda"
+              },
+              {
+                "type": "item",
+                "num": "o",
+                "text": "National Institute of Homoeopathy"
+              },
+              {
+                "type": "item",
+                "num": "d",
+                "text": "National Institute of Naturopathy"
+              },
+              {
+                "type": "item",
+                "num": "q",
+                "text": "National Institute of Yoga"
+              },
+              {
+                "type": "item",
+                "num": "r",
+                "text": "National Institute of Unani Medicine"
+              },
+              {
+                "type": "item",
+                "num": "s",
+                "text": "National Institute of Siddha"
+              },
+              {
+                "type": "item",
+                "num": "t",
+                "text": "Institute of Post-Graduate Teaching and Research, Gujarat Ayurveda University"
+              },
+              {
+                "type": "item",
+                "num": "n",
+                "text": "Indian Medicines and Pharmaceuticals Corporation Limited i [PART II SEC. 3(i)]"
+              },
+              {
+                "type": "item",
+                "num": "v",
+                "text": "Rashtriya Ayurveda Vidyapeeth."
+              },
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "Education, Training and Research in all aspects of Indian Systems of Medicine including higher training abroad."
+              },
+              {
+                "type": "entry",
+                "num": "7",
+                "text": "Matters of cadre formation and control including formation and amendment of recruitment rules, recruitment, promotion and all other service matters relating to Indian Systems of Medicine and Homoeopathy doctors of Central Government Health Scheme including doctors in Indian Systems of Medicine and Homoeopathy central hospitals requiring action at Government level."
+              },
+              {
+                "type": "note",
+                "text": "Note: Day-to-day administration and management will continue to be with the Director, Central Government Health Scheme."
+              },
+              {
+                "type": "entry",
+                "num": "8",
+                "text": "Liaison with foreign countries and international bodies as regards matters relating to Indian Systems of Medicine and Homoeopathy."
+              },
+              {
+                "type": "entry",
+                "num": "9",
+                "text": "Matters relating to scientific societies/associations and charitable 7 and religious endowments relating to Indian Systems of Medicine and Homoeopathy."
+              },
+              {
+                "type": "entry",
+                "num": "10",
+                "text": "Matters relating to quality and standards for drugs in Indian Systems of Medicine and Homoeopathy to the extent such matters require action at the level of Government."
+              },
+              {
+                "type": "entry",
+                "num": "11",
+                "text": "Consultation and coordination with State Governments, Non- Government Organisations and institutions for review of work and programmes in Indian Systems of Medicine and Homoeopathy."
+              },
+              {
+                "type": "entry",
+                "num": "12",
+                "text": "Statistics relating to various aspects of Indian Systems of Medicine and Homoeopathy."
+              },
+              {
+                "type": "entry",
+                "num": "13",
+                "text": "Proposals and matters concerning Union Territories requiring sanction and concurrence of Government of India in regard to Indian Systems of Medicine and Homoeopathy."
+              },
+              {
+                "type": "entry",
+                "num": "14",
+                "text": "Legislative proposals pertaining to Indian Systems of Medicine and Homoeopathy of individual states requiring sanction and concurrence of Government of India."
+              },
+              {
+                "type": "entry",
+                "num": "15",
+                "text": "Medicinal Plant Board."
+              }
+            ],
+            "flags": [
+              "read_page_break"
+            ],
+            "words": [
+              "r1.w2272",
+              "r1.w2290"
+            ],
+            "boxes": [
+              {
+                "page": 11,
+                "bbox": [
+                  512,
+                  558,
+                  1895,
+                  602
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 4,
+            "source_ref": "2(2)(iii)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r102.rel4",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "DEPARTMENT OF SPACE"
+                },
+                {
+                  "type": "entry",
+                  "num": "14"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w3859",
+                "r1.w3861"
+              ],
+              "boxes": [
+                {
+                  "page": 18,
+                  "bbox": [
+                    968,
+                    2480,
+                    1341,
+                    2529
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "15",
+                "text": "All matters relating to the Semiconductor Complex Limited (SCL), Mohali."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w3850",
+              "r1.w3857"
+            ],
+            "boxes": [
+              {
+                "page": 18,
+                "bbox": [
+                  539,
+                  2417,
+                  2077,
+                  2470
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

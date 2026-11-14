@@ -1,0 +1,163 @@
+{
+  "file": {
+    "name": "1_Upload_128.pdf",
+    "file_id": "f_e74bba5ff53226d1",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_128.pdf",
+    "sha256": "e74bba5ff53226d16ef344373a712ca4981ae13c3e7468361d62c030d1051837",
+    "govdoc": "1_Upload_128.pdf.govdoc.json.zst",
+    "revision": 46
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_374E_1972",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_262_1972",
+      "fields": {
+        "number": {
+          "value": "S.O. 374(E)"
+        },
+        "in_force": {
+          "value": "1972-06-01"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "1972-06-01",
+          "basis": "stated"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T13:50:04.507486+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(1)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r10.rel1",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF EXTERNAL AFFAIRS"
+                },
+                {
+                  "type": "entry",
+                  "num": "12"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w204",
+                "r1.w205"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    770,
+                    2056,
+                    917,
+                    2088
+                  ]
+                }
+              ]
+            },
+            "flags": [],
+            "words": [
+              "r1.w194",
+              "r1.w201"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  311,
+                  2022,
+                  1489,
+                  2055
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(2)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r10.rel2",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF HOME AFFAIRS"
+                },
+                {
+                  "type": "entry",
+                  "num": "124"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w221",
+                "r1.w223"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    682,
+                    2136,
+                    1000,
+                    2167
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Part IV-MISCELLANEOUS BUSINESS"
+              },
+              {
+                "type": "entry",
+                "num": "124A",
+                "text": "Matters relating to the State of Nagaland."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w210",
+              "r1.w217"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  313,
+                  2103,
+                  1383,
+                  2136
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

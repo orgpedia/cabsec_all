@@ -1,0 +1,232 @@
+{
+  "file": {
+    "name": "1_Upload_247.pdf",
+    "file_id": "f_5380232a989d430d",
+    "pages": 4,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_247.pdf",
+    "sha256": "5380232a989d430dc037117c9fab00dddc55b66554658e5a5dbb487002be3e9a",
+    "govdoc": "1_Upload_247.pdf.govdoc.json.zst",
+    "revision": 109
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_103E_1990",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_47_1990",
+      "fields": {
+        "number": {
+          "value": "S.O. 103 (E)"
+        },
+        "in_force": {
+          "value": "1990-01-25"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "1990-01-25",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T12:55:58.270218+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(i)(a)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r73.rel1",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF FINANCE"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF ECONOMIC AFFAIRS"
+                },
+                {
+                  "type": "entry",
+                  "num": "1"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w451",
+                "r1.w452"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    760,
+                    548,
+                    903,
+                    591
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Administration of the Foreign Exchange Regulation Act, 1973 (46 of 1973), other than enforcement work mentioned under the Department of Revenue (Rajaswa Vibhag)"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w449",
+              "r1.w460"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  606,
+                  548,
+                  1899,
+                  591
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(i)(b)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r73.rel2",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF FINANCE"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF ECONOMIC AFFAIRS"
+                },
+                {
+                  "type": "entry",
+                  "num": "8"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w487",
+                "r1.w488"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    690,
+                    751,
+                    818,
+                    793
+                  ]
+                }
+              ]
+            },
+            "flags": [],
+            "words": [
+              "r1.w486",
+              "r1.w491"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  605,
+                  747,
+                  1150,
+                  795
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 3,
+            "source_ref": "2(ii)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r73.rel3",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF FINANCE"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF REVENUE"
+                },
+                {
+                  "type": "entry",
+                  "num": "17"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w503",
+                "r1.w504"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    1222,
+                    864,
+                    1389,
+                    905
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "17",
+                "text": "Enforcement, viz., investigation, adjudication and prosecution of cases arising out of breaches under the Foreign Exchange Regulation Act, 1973 (46 of 1973); the Directorate General of Revenue Intelligence-cum-Directorate of Enforcement."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w492",
+              "r1.w499"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  550,
+                  820,
+                  1901,
+                  861
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

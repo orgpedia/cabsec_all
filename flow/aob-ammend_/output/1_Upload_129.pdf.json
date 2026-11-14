@@ -1,0 +1,287 @@
+{
+  "file": {
+    "name": "1_Upload_129.pdf",
+    "file_id": "f_2c9db16666f2128f",
+    "pages": 4,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_129.pdf",
+    "sha256": "2c9db16666f2128f9d92e3d16bffaf3f8725572706b171186213b1576fbc9483",
+    "govdoc": "1_Upload_129.pdf.govdoc.json.zst",
+    "revision": 55
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_498E_1972",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_344_1972",
+      "fields": {
+        "number": {
+          "value": "S.O. 498(E)"
+        },
+        "in_force": {
+          "value": "1972-07-18"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "1972-07-18",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T18:25:31.173808+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r28.rel1",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "entry",
+                  "num": "27"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w198",
+                "r1.w200"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    1110,
+                    1958,
+                    1371,
+                    1989
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "department",
+                "num": "27A",
+                "heading": "Department of Space",
+                "heading_hi": "Antareeksh Vibhag"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w176",
+              "r1.w186"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  191,
+                  1924,
+                  1414,
+                  1955
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "3(a)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r28.rel2",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "DEPARTMENT OF ATOMIC ENERGY"
+                },
+                {
+                  "type": "entry",
+                  "num": "9"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w235",
+                "r1.w236"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    738,
+                    2163,
+                    868,
+                    2197
+                  ]
+                }
+              ]
+            },
+            "flags": [],
+            "words": [
+              "r1.w223",
+              "r1.w231"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  257,
+                  2128,
+                  1394,
+                  2163
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 3,
+            "source_ref": "3(b)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r28.rel3",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "DEPARTMENT OF SCIENCE AND TECHNOLOGY"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w241",
+                "r1.w258"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    332,
+                    2221,
+                    1634,
+                    2286
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "ministry",
+                "heading": "DEPARTMENT OF SPACE",
+                "heading_hi": "ANTAREEKSH VIBHAG"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "All matters relating to Space Science, Space Technology, and Space Applica-- tions including-"
+              },
+              {
+                "type": "item",
+                "num": "i",
+                "text": "research (Including fundamental research) in matters connected with- Space and the development of its uses : [PART II (11) all matters connected with Space Technology."
+              },
+              {
+                "type": "item",
+                "num": "iii",
+                "text": "all matters connected with Space Applications (Iv) all activities connected with the development and use of outer Space including-"
+              },
+              {
+                "type": "item",
+                "num": "a",
+                "text": "projects and industries concerned with the utilisation of outer Space"
+              },
+              {
+                "type": "item",
+                "num": "b",
+                "text": "the design, manufacture and launching of Rockets and Satellites; and"
+              },
+              {
+                "type": "item",
+                "num": "c",
+                "text": "work connected with Space Applications."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "Financial Assistance for the furtherance of research and study in Space Science and Space Technology and for building up adequate trained man-power for the development of the Space programme including— (1) assistance to institutions and associations engaged in scientific work and to Universities for advanced study and research in Space Science: and"
+              },
+              {
+                "type": "item",
+                "num": "ii",
+                "text": "grant of scholarships to students in educational institutions, and other forms of financial ald to individuals including those going abroad for studies in the field of Space Science."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "International relations in matters connected with Space including- (1) matters relating to Space in the United Nations specialised agencies and relations with other countries; and"
+              },
+              {
+                "type": "item",
+                "num": "ii",
+                "text": "correspondence with Universities and other educational Institutions abroad in connection with foreign scholarships and the training of Indian scientists."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "All matters relating to the personnel under the control of the Department."
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "Execution of works and purchase of lands debitable to the budget of the Department. 6, Procurement of stores and equipment required by the Department."
+              },
+              {
+                "type": "entry",
+                "num": "7",
+                "text": "Financial sanctions relating to the Department."
+              },
+              {
+                "type": "entry",
+                "num": "8",
+                "text": "All matters relating to the Physical Research Laboratory, Ahmedabad."
+              }
+            ],
+            "flags": [
+              "read_page_break"
+            ],
+            "words": [
+              "r1.w240",
+              "r1.w248"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  260,
+                  2221,
+                  1633,
+                  2257
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

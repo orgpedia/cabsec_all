@@ -1,0 +1,183 @@
+{
+  "file": {
+    "name": "1_Upload_100.pdf",
+    "file_id": "f_b58464ac6f534f49",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_100.pdf",
+    "sha256": "b58464ac6f534f49aad2b03137ba6a0e1da328d74ba25b6882e86218c1a52aab",
+    "govdoc": "1_Upload_100.pdf.govdoc.json.zst",
+    "revision": 46
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_1602_1968",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_153_1968",
+      "fields": {
+        "number": {
+          "value": "S.O. 1602"
+        },
+        "in_force": {
+          "value": null
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": null,
+          "basis": null
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T13:49:50.212333+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "(i)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r10.rel1",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Food, Agriculture, Community Development and Co-operation"
+                },
+                {
+                  "type": "department",
+                  "heading": "Department of Agriculture"
+                },
+                {
+                  "type": "group_heading",
+                  "heading": "Part I"
+                },
+                {
+                  "type": "entry",
+                  "num": "11"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w191",
+                "r1.w195"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    374,
+                    1983,
+                    1644,
+                    2049
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "11A",
+                "text": "Agricultural credit and indebtedness but not including agricultural credit and indebtedness in the co-operative sector."
+              },
+              {
+                "type": "entry",
+                "num": "11B",
+                "text": "Co-ordination of work relating to agricultural credit and indebtedness."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w182",
+              "r1.w189"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  266,
+                  1983,
+                  1319,
+                  2018
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "(i)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r10.rel2",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Food, Agriculture, Community Development and Co-operation"
+                },
+                {
+                  "type": "department",
+                  "heading": "Department of Co-operation"
+                },
+                {
+                  "type": "entry",
+                  "num": "1"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w240",
+                "r1.w241"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    1426,
+                    2221,
+                    1561,
+                    2256
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Agricultural credit and indebtedness in the co-operative sector."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w231",
+              "r1.w238"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  254,
+                  2222,
+                  1335,
+                  2262
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,463 @@
+{
+  "file": {
+    "name": "1_Upload_244.pdf",
+    "file_id": "f_78ac181321fc6043",
+    "pages": 4,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_244.pdf",
+    "sha256": "78ac181321fc6043b06ce768c176ca251aca7242d20612378d499fc4e2b5b7c1",
+    "govdoc": "1_Upload_244.pdf.govdoc.json.zst",
+    "revision": 118
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_1002E_1989",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_820_1989",
+      "fields": {
+        "number": {
+          "value": "S.O. 1002(E)"
+        },
+        "in_force": {
+          "value": "1989-12-06"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "1989-12-06",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T12:56:15.915845+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(1)(a)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r81.rel1",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF INDUSTRY"
+                },
+                {
+                  "type": "department",
+                  "heading": "Department of Chemicals and Petro-Chemicals"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w944",
+                "r1.w957"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    534,
+                    1715,
+                    1251,
+                    1928
+                  ]
+                }
+              ]
+            },
+            "expect": "(iii) Department of Chemicals and Petro-Chemicals (Rasayan aur Petro-Rasayan Vibhag)",
+            "flags": [],
+            "words": [
+              "r1.w933",
+              "r1.w940"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  455,
+                  1607,
+                  1251,
+                  1701
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(1)(b)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r81.rel2",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF PETROLEUM AND NATURAL GAS"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w962",
+                "r1.w978"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    528,
+                    1964,
+                    1250,
+                    2226
+                  ]
+                }
+              ]
+            },
+            "expect": "21. MINISTRY OF PETROLEUM AND NATURAL GAS (PETROLEUM AUR PRAKRITIK GAS MANTRALAYA)",
+            "content": [
+              {
+                "type": "ministry",
+                "num": "21",
+                "heading": "MINISTRY OF PETROLEUM AND CHEMICALS",
+                "heading_hi": "PETROLEUM AUR RASAYAN MANTRALAYA"
+              },
+              {
+                "type": "department",
+                "num": "i",
+                "heading": "Department of Petroleum and Natural Gas",
+                "heading_hi": "Petroleum aur Prakritik Gas Vibhag"
+              },
+              {
+                "type": "department",
+                "num": "ii",
+                "heading": "Department of Chemicals and Petro-Chemicals",
+                "heading_hi": "Rasayan aur Petro-Rasayan Vibhag"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w961",
+              "r1.w968"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  447,
+                  1964,
+                  1250,
+                  2057
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 3,
+            "source_ref": "2(2)(a)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r81.rel3",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF INDUSTRY"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF CHEMICALS AND PETRO-CHEMICALS"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w1024",
+                "r1.w1053"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    430,
+                    2977,
+                    1240,
+                    3405
+                  ]
+                }
+              ]
+            },
+            "expect": "C. DEPARTMENT OF CHEMICALS AND PETRO-CHEMICALS (RASAYAN AUR PETRO-RASAYAN VIBHAG)",
+            "flags": [],
+            "words": [
+              "r1.w1024",
+              "r1.w1030"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  430,
+                  2977,
+                  1231,
+                  3075
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 4,
+            "source_ref": "2(2)(b)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r81.rel4",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF PETROLEUM AND NATURAL GAS"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w1061",
+                "r1.w1078"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    1567,
+                    535,
+                    2365,
+                    793
+                  ]
+                }
+              ]
+            },
+            "expect": "MINISTRY OF PETROLEUM AND NATURAL GAS (RASAYAN AUR PRAKRITIK GAS MANTRALAYA)",
+            "content": [
+              {
+                "type": "ministry",
+                "heading": "MINISTRY OF PETROLEUM AND CHEMICALS",
+                "heading_hi": "PETROLEUM AUR RASAYAN MANTRALAYA"
+              },
+              {
+                "type": "department",
+                "num": "A",
+                "heading": "DEPARTMENT OF PETROLEUM AND NATURAL GAS",
+                "heading_hi": "PETROLEUM AUR PRAKRITIK GAS VIBHAG"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Exploration for, and exploitation of petroleum resources, including natural gas."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "Production, supply, distribution, marketing and pricing of petroleum, including natural gas and petroleum products."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "Oil refineries, including Lube Plants."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "Additives for petroleum and petroleum products."
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "Tube blending and greases."
+              },
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "Planning, development and control of and assistance to, all industries dealt with by the Department."
+              },
+              {
+                "type": "entry",
+                "num": "7",
+                "text": "All attached or subordinate offices or other organisations concerned with any of the subjects specified in this list."
+              },
+              {
+                "type": "entry",
+                "num": "8",
+                "text": "Planning, development and regulation of oilfield services."
+              },
+              {
+                "type": "entry",
+                "num": "9",
+                "text": "Public Sector projects falling under the subjects included in this list. Engineers India Limited and Indo-Burma Petroleum Company, together with its subsidiaries except such projects as are specifically allotted to any other Ministry/Department."
+              },
+              {
+                "type": "entry",
+                "num": "10",
+                "text": "The Oilfields (Regulation and Development) Act, 1948 (53 of 1948)."
+              },
+              {
+                "type": "entry",
+                "num": "11",
+                "text": "The Oil and Natural Gas Commission Act 1959 (43 of 1959)."
+              },
+              {
+                "type": "entry",
+                "num": "12",
+                "text": "The Petroleum Pipelines (Acquisition of Right of User in Land) Act, 1962 (50 of 1962)."
+              },
+              {
+                "type": "entry",
+                "num": "13",
+                "text": "The Esso (Acquisition of Undertaking in India) Act, 1974 (4 of 1974). 4 THE GAZETTE OF INDIA:"
+              },
+              {
+                "type": "entry",
+                "num": "14",
+                "text": "The Oil Industry (Development), Act, 1974 (47 of 1974)."
+              },
+              {
+                "type": "entry",
+                "num": "15",
+                "text": "The Burmah-She (Acquisition of Undertakings in India) Act, 1976 (2 of 1976)."
+              },
+              {
+                "type": "entry",
+                "num": "16",
+                "text": "The Caltex (Acquisition of Shares of Caltex Oil Refining (India) Limited and of the Undertakings in India of Caltex (India) Limited Act. 1977 (17 of 1977)."
+              },
+              {
+                "type": "entry",
+                "num": "17",
+                "text": "Administration of the Petroleum Act, 1934 (30 of 1934) and the rules made thereunder."
+              },
+              {
+                "type": "department",
+                "num": "B",
+                "heading": "DEPARTMENT OF CHEMICALS AND PETRO-CHEMICALS",
+                "heading_hi": "RASAYAN AUR PETRO-RASAYAN VIBHAG"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Drugs and Pharmaceuticals."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "Insecticides [excluding the administration of the Insecticides Act, 1968 (46 of 1968)]."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "Molasses-distribution and pricing."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "Alcohol-industrial and potable (excluding alcoholic drinks from non-molasses base) including the Indian Power Alcohol Act 1948 (22 of 1948)."
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "Dye-stuffs and dye-intermediates."
+              },
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "All organic and inorganic chemicals, not specifically allotted to any other Ministry or Department."
+              },
+              {
+                "type": "entry",
+                "num": "7",
+                "text": "Planning, development and control of and assistance to, all industries dealt with by the Department. EXTRAORDINARY [PART II-SEC."
+              },
+              {
+                "type": "entry",
+                "num": "8",
+                "text": "All attached or subordinate offices or organisations concerned with any o subjects specified under this Departme"
+              },
+              {
+                "type": "entry",
+                "num": "9",
+                "text": "Public Sector projects concerned with subjects included under this Departm except such projects as are specific allotted to any other Ministry or Depa ment."
+              },
+              {
+                "type": "entry",
+                "num": "10",
+                "text": "Bhopal Gas Leak Disaster--Special La relating thereto."
+              },
+              {
+                "type": "entry",
+                "num": "11",
+                "text": "Petro-chemicals."
+              },
+              {
+                "type": "entry",
+                "num": "12",
+                "text": "Industrics relating to production of noi cellulosic synthetic fibres (Nylon Polyester Acrylic) etc."
+              },
+              {
+                "type": "entry",
+                "num": "13",
+                "text": "Synthetic rubber."
+              },
+              {
+                "type": "entry",
+                "num": "14",
+                "text": "Plastics including fabrications of plastic and moulded goods."
+              },
+              {
+                "type": "entry",
+                "num": "15",
+                "text": "All Public Sector units relating to the above matters."
+              },
+              {
+                "type": "entry",
+                "num": "16",
+                "text": "All attached and subordinate offices or other organisations concerned with any of the subjects specified in this list."
+              }
+            ],
+            "flags": [
+              "read_page_break"
+            ],
+            "words": [
+              "r1.w1060",
+              "r1.w1066"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  1482,
+                  535,
+                  2365,
+                  627
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

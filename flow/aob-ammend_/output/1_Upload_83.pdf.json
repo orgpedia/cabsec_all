@@ -1,0 +1,233 @@
+{
+  "file": {
+    "name": "1_Upload_83.pdf",
+    "file_id": "f_7956f67f9f343707",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_83.pdf",
+    "sha256": "7956f67f9f343707113641d03982c1535fec7134f824f8450d38581b25f2e2ca",
+    "govdoc": "1_Upload_83.pdf.govdoc.json.zst",
+    "revision": 46
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_1399_1966",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_132_1966",
+      "fields": {
+        "number": {
+          "value": "S.O. 1399"
+        },
+        "in_force": {
+          "value": null
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": null,
+          "basis": null
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T13:49:23.309283+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "1",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r10.rel1",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Law"
+                },
+                {
+                  "type": "department",
+                  "heading": "Department of Legal Affairs"
+                },
+                {
+                  "type": "entry",
+                  "num": "8"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w190",
+                "r1.w192"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    1185,
+                    2309,
+                    1390,
+                    2345
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "8",
+                "text": "Law Commission. 8A Legal Profession."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w182",
+              "r1.w189"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  169,
+                  2310,
+                  1168,
+                  2350
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(i)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r10.rel2",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Law"
+                },
+                {
+                  "type": "department",
+                  "heading": "Legislative Department"
+                },
+                {
+                  "type": "entry",
+                  "num": "5"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w227",
+                "r1.w229"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    386,
+                    302,
+                    591,
+                    335
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "Elections to Parliament, to the legislatures of States, to the offices of the President and Vice-President; and the E ection Commission."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w226",
+              "r1.w236"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  321,
+                  302,
+                  1523,
+                  341
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 3,
+            "source_ref": "2(ii)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r10.rel3",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Law"
+                },
+                {
+                  "type": "department",
+                  "heading": "Legislative Department"
+                },
+                {
+                  "type": "entry",
+                  "num": "14"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w261",
+                "r1.w266"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    379,
+                    462,
+                    1071,
+                    497
+                  ]
+                }
+              ]
+            },
+            "expect": "Legal Profession",
+            "flags": [],
+            "words": [
+              "r1.w260",
+              "r1.w269"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  301,
+                  462,
+                  1384,
+                  497
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,405 @@
+{
+  "file": {
+    "name": "1_Upload_272.pdf",
+    "file_id": "f_d6ca44c5b41ceba4",
+    "pages": 4,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_272.pdf",
+    "sha256": "d6ca44c5b41ceba462a15a78433a6243d925786d95e7a1e8434d21ad3e6dd4c2",
+    "govdoc": "1_Upload_272.pdf.govdoc.json.zst",
+    "revision": 113
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_544E_1996",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_439_1996",
+      "fields": {
+        "number": {
+          "value": "S.O. 544 (E)"
+        },
+        "in_force": {
+          "value": "1996-07-26"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "1996-07-26",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T12:57:18.242966+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(1)(a)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r76.rel1",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Finance"
+                },
+                {
+                  "type": "department",
+                  "heading": "Department of Revenue"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w625",
+                "r1.w636"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    619,
+                    2912,
+                    2331,
+                    3004
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "department",
+                "num": "iv",
+                "heading": "Department of Company Affairs",
+                "heading_hi": "Kampany Karya Vibhag"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w615",
+              "r1.w624"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  524,
+                  2912,
+                  1671,
+                  2957
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(1)(b)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r76.rel2",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Law, Justice and Company Affairs"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w657",
+                "r1.w679"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    612,
+                    3087,
+                    2333,
+                    3179
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "ministry",
+                "num": "20",
+                "heading": "Ministry of Law and Justice",
+                "heading_hi": "Vidhi aur Nyaya Mantralaya"
+              },
+              {
+                "type": "department",
+                "num": "i",
+                "heading": "Department of Legal Affairs",
+                "heading_hi": "Vidhi Karya Vibhag"
+              },
+              {
+                "type": "item",
+                "num": "ii",
+                "text": "Legislative Department (Vidhayee Vibhag)"
+              },
+              {
+                "type": "department",
+                "num": "iii",
+                "heading": "Department of Justice",
+                "heading_hi": "Nyaya Vibhag"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w656",
+              "r1.w667"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  523,
+                  3087,
+                  1731,
+                  3133
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 3,
+            "source_ref": "2(2)(a)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r76.rel3",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF FINANCE"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF REVENUE"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w744",
+                "r1.w754"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    588,
+                    702,
+                    2176,
+                    800
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "department",
+                "num": "D",
+                "heading": "DEPARTMENT OF COMPANY AFFAIRS",
+                "heading_hi": "KAMPANY KARYA VIBHAG"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Administration of the Companies Act, 1956 ( 1 of 1956)."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "Administration of the Companies (Donations of National Funds) Act, 1951 (54 of 1951)."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "Administration of the Monopolies and Restrictive Trade Practices Act, 1969 (54 of 1969)."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "Monopolies and Restrictive Trade Practices Commission."
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "Profession of Accountancy [Chartered Accountants Act, 1949 (38 of 1949)]; Profession of Costs and Works Accountancy [Cost and Works Accountants Act, 1959 (23 of 1959)] Profession of Company Secretaries [Company Secretaries Act, 1980 (56 of 1980)]."
+              },
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "Collection of statistics relating to Companies."
+              },
+              {
+                "type": "entry",
+                "num": "7",
+                "text": "Legislation relating to law of Partnership and the exercise of certain functions under Chapter VII of the Indian Partnership Act, 1932 (9 of 1932) in centrally administered areas (The administration of the Act vests in the State Governments)."
+              },
+              {
+                "type": "entry",
+                "num": "8",
+                "text": "The responsibility of the Centre relating to matters concerning centrally administered areas in respect of any of the above items."
+              },
+              {
+                "type": "entry",
+                "num": "9",
+                "text": "Legislation in relation to societies registration and exercise of functions under the Societies Registration Act, 1860 (21 of 1860) in centrally administered areas."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w735",
+              "r1.w743"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  503,
+                  702,
+                  1869,
+                  743
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 4,
+            "source_ref": "2(2)(b)(i)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r76.rel4",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF LAW, JUSTICE AND COMPANY AFFAIRS"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w950",
+                "r1.w965"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    698,
+                    1804,
+                    2311,
+                    1892
+                  ]
+                }
+              ]
+            },
+            "scope": "heading",
+            "content": [
+              {
+                "type": "ministry",
+                "heading": "MINISTRY OF LAW AND JUSTICE",
+                "heading_hi": "VIDHI AUR NYAYA MANTRALAYA"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w774",
+              "r1.w959"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  506,
+                  1802,
+                  2002,
+                  1844
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 5,
+            "source_ref": "2(2)(b)(ii)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r76.rel5",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF LAW AND JUSTICE"
+                },
+                {
+                  "type": "department",
+                  "heading": "COMPANY AFFAIRS"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w999",
+                "r1.w1010"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    689,
+                    2079,
+                    2309,
+                    2165
+                  ]
+                }
+              ]
+            },
+            "ref_seq": 4,
+            "flags": [],
+            "words": [
+              "r1.w983",
+              "r1.w994"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  591,
+                  2028,
+                  2311,
+                  2069
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

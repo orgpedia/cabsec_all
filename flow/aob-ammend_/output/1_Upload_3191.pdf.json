@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_3191.pdf",
     "sha256": "32e32c2f3c06b76e704fdb4e27254e8f97f6110139f16e1f99c16db0f0ed024b",
     "govdoc": "1_Upload_3191.pdf.govdoc.json.zst",
-    "revision": 65
+    "revision": 215
   },
   "documents": [
     {
@@ -29,16 +29,17 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "2",
+          "version": "3",
           "model": "gemini-4-argon",
-          "at": "2026-11-03T16:59:02.939050+00:00"
+          "at": "2026-11-12T12:55:38.483232+00:00"
         },
         "ops": [
           {
             "seq": 1,
             "source_ref": "2",
-            "op": "omit",
-            "akn_type": "repeal",
+            "op": "substitute_text",
+            "akn_type": "substitution",
+            "relation": "r179.rel1",
             "target": {
               "cited": [
                 {
@@ -60,8 +61,8 @@
               ],
               "eId": null,
               "words": [
-                "r17.w279",
-                "r17.w281"
+                "r73.w279",
+                "r73.w281"
               ],
               "boxes": [
                 {
@@ -75,20 +76,21 @@
                 }
               ]
             },
-            "expect": "(except Jammu and Kashmir)",
+            "old": "(except Jammu and Kashmir)",
+            "new": "",
             "flags": [],
             "words": [
-              "r17.w246",
-              "r17.w246"
+              "r73.w247",
+              "r73.w256"
             ],
             "boxes": [
               {
                 "page": 2,
                 "bbox": [
-                  251,
+                  401,
                   865,
-                  281,
-                  898
+                  1616,
+                  907
                 ]
               }
             ]

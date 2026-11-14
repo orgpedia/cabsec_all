@@ -1,0 +1,296 @@
+{
+  "file": {
+    "name": "1_Upload_259.pdf",
+    "file_id": "f_837978f288b91afb",
+    "pages": 4,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_259.pdf",
+    "sha256": "837978f288b91afb60ee8ba934fa7a0163ae040b62c01c37968b36e11d2522d1",
+    "govdoc": "1_Upload_259.pdf.govdoc.json.zst",
+    "revision": 109
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_482E_1992",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_418_1992",
+      "fields": {
+        "number": {
+          "value": "S.O. 482 (E)"
+        },
+        "in_force": {
+          "value": "1992-06-25"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "1992-06-25",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T12:56:16.662625+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(1)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r73.rel1",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF HUMAN RESOURCE DEVELOPMENT"
+                },
+                {
+                  "type": "item",
+                  "num": "iii"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w584",
+                "r1.w590"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    323,
+                    550,
+                    1586,
+                    626
+                  ]
+                }
+              ]
+            },
+            "flags": [],
+            "words": [
+              "r1.w563",
+              "r1.w571"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  239,
+                  466,
+                  1159,
+                  503
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(2)(a)(i)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r73.rel2",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF HUMAN RESOURCE DEVELOPMENT"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF ARTS"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w615",
+                "r1.w625"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    402,
+                    858,
+                    1584,
+                    933
+                  ]
+                }
+              ]
+            },
+            "expect": "C. DEPARTMENT OF ARTS (KALA VIBHAG)",
+            "flags": [],
+            "words": [
+              "r1.w614",
+              "r1.w621"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  321,
+                  858,
+                  1584,
+                  896
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 3,
+            "source_ref": "2(2)(a)(ii)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r73.rel3",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF HUMAN RESOURCE DEVELOPMENT"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF CULTURE"
+                },
+                {
+                  "type": "entry",
+                  "num": "49"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w638",
+                "r1.w646"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    411,
+                    1002,
+                    1586,
+                    1085
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "50",
+                "text": "Indira Gandhi National Centre for Arts (IGNCA)."
+              },
+              {
+                "type": "entry",
+                "num": "51",
+                "text": "National Theatre."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w629",
+              "r1.w635"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  314,
+                  959,
+                  1580,
+                  998
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 4,
+            "source_ref": "2(2)(b)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r73.rel4",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF MINES"
+                },
+                {
+                  "type": "entry",
+                  "num": "1"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w676",
+                "r1.w683"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    527,
+                    1265,
+                    1419,
+                    1302
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "1",
+                "text": ""
+              },
+              {
+                "type": "item",
+                "num": "i",
+                "text": "Legislation for regulation of mines and development of minerals within the territory of India, including mines and minerals underlying the ocean within the territorial water of the continental shelf or the exclusive economic zone and other maritime zones of India as may be specified from time to time by or under any law made by Parliament."
+              },
+              {
+                "type": "item",
+                "num": "ii",
+                "text": "Regulation of mines and development of minerals other than coal lignite and sand for stowing and any mineral declared as prescribed substances for the purpose of the Atomic Energy Act, 1962 (33 of 1962) under the control of the Union as declared by law, including question concerning regulation and development of minerals in various States and the matters connected therewith or incidental thereto."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w666",
+              "r1.w674"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  231,
+                  1220,
+                  1581,
+                  1260
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

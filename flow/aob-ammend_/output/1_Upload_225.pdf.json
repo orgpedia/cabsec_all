@@ -1,0 +1,373 @@
+{
+  "file": {
+    "name": "1_Upload_225.pdf",
+    "file_id": "f_a2dbb6c1278e956a",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_225.pdf",
+    "sha256": "a2dbb6c1278e956aa7ee0f4f8e2c79be02d150d12801a1fc18d4e268428f0cdc",
+    "govdoc": "1_Upload_225.pdf.govdoc.json.zst",
+    "revision": 109
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_730E_1986",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_407_1986",
+      "fields": {
+        "number": {
+          "value": "S.O. 730(E)"
+        },
+        "in_force": {
+          "value": "1996-09-30"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "1996-09-30",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T12:56:37.935406+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(I)(i)",
+            "op": "substitute_text",
+            "akn_type": "substitution",
+            "relation": "r73.rel1",
+            "target": {
+              "cited": [
+                {
+                  "type": "rule",
+                  "num": "3"
+                },
+                {
+                  "type": "sub_rule",
+                  "num": "1"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w678",
+                "r1.w680"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    408,
+                    2428,
+                    708,
+                    2466
+                  ]
+                }
+              ]
+            },
+            "old": "sub-rule (2)",
+            "new": "sub-rules (2), (3) and (4)",
+            "flags": [],
+            "words": [
+              "r1.w677",
+              "r1.w685"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  335,
+                  2428,
+                  1231,
+                  2466
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(I)(ii)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r73.rel2",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "rule",
+                  "num": "3"
+                },
+                {
+                  "type": "sub_rule",
+                  "num": "2"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w703",
+                "r1.w705"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    421,
+                    2639,
+                    783,
+                    2677
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "(3) Where sanction for the prosecution of any person for any offence is required to be accorded-"
+              },
+              {
+                "type": "sub_rule",
+                "num": "a",
+                "text": "If he is a Government servant, by the Department which is the Cadre Controlling authority for the service of which he is a member, and in any other case, by the Depatment in which he was working at the time of commission of the alleged offence; and"
+              },
+              {
+                "type": "sub_rule",
+                "num": "b",
+                "text": "If he is a public servant other than a Government servant, appointed by the Central Government, by the Department administratively concerned with the orgaisation in which he was working at the Hac commission of the alleged offence; a"
+              },
+              {
+                "type": "sub_rule",
+                "num": "c",
+                "text": "In any other case, by the Department which administers the Act under which alleged offence is committed:"
+              },
+              {
+                "type": "proviso",
+                "text": "Provided that where, for offences alleged to have been committed, sanction is required under more than one Act, it shall be compelent for the Department which administers any of such Acts to accord sanction under all such Acts. (4) Notwithstanding anything contained in subrule (3) the President may, by general or special order, direct that in any case or class of cases the sanction shall be accorded by the Department of Personnel and Training."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w702",
+              "r1.w708"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  334,
+                  2639,
+                  1228,
+                  2677
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 3,
+            "source_ref": "2(II)(i)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r73.rel3",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Food and Civil Supplies"
+                },
+                {
+                  "type": "department",
+                  "heading": "Department of Food"
+                },
+                {
+                  "type": "entry",
+                  "num": "1"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w945",
+                "r1.w947"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1513,
+                    1724,
+                    1731,
+                    1766
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Purchase of food stuffs for civil requirements and their disposal and also for military requirements of sugar, rice and wheat."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w921",
+              "r1.w928"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  1443,
+                  1556,
+                  2333,
+                  1597
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 4,
+            "source_ref": "2(II)(ii)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r73.rel4",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Human Resource Development"
+                },
+                {
+                  "type": "department",
+                  "heading": "Department of Culture"
+                },
+                {
+                  "type": "entry",
+                  "num": "13"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w1000",
+                "r1.w1002"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1705,
+                    2241,
+                    1974,
+                    2284
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "13A",
+                "text": "Museum of Gems and Jewellery"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w977",
+              "r1.w984"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  1434,
+                  2072,
+                  2329,
+                  2116
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 5,
+            "source_ref": "2(II)(iii)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r73.rel5",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Personnel, Public Grievances and Pensions"
+                },
+                {
+                  "type": "department",
+                  "heading": "Department of Personnel and Training"
+                },
+                {
+                  "type": "group_heading",
+                  "heading": "III Vigilance and Discipline"
+                },
+                {
+                  "type": "entry",
+                  "num": "20"
+                },
+                {
+                  "type": "item",
+                  "num": "b"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w1052",
+                "r1.w1060"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1519,
+                    2706,
+                    2322,
+                    2782
+                  ]
+                }
+              ]
+            },
+            "flags": [
+              "read_quote_mismatch"
+            ],
+            "words": [
+              "r1.w1015",
+              "r1.w1021"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  1424,
+                  2452,
+                  2327,
+                  2497
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

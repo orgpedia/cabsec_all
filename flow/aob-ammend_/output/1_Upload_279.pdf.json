@@ -1,0 +1,283 @@
+{
+  "file": {
+    "name": "1_Upload_279.pdf",
+    "file_id": "f_77dff0d2decfcb07",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_279.pdf",
+    "sha256": "77dff0d2decfcb071e0d9f3581d87e98b08c51c39157284c389aeb3bc8303c7b",
+    "govdoc": "1_Upload_279.pdf.govdoc.json.zst",
+    "revision": 109
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_473E_1998",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_339_1998",
+      "fields": {
+        "number": {
+          "value": "S.O. 473 (E)"
+        },
+        "in_force": {
+          "value": "1998-05-27"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "1998-05-27",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T12:56:15.861429+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(1)(a)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r73.rel1",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Home Affairs"
+                },
+                {
+                  "type": "department",
+                  "heading": "Department of Home"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w418",
+                "r1.w426"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    491,
+                    897,
+                    2292,
+                    985
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "department",
+                "num": "v",
+                "heading": "Department of Jammu and Kashmir Affairs",
+                "heading_hi": "Jammu tatha Kashmir Vibhag"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w407",
+              "r1.w415"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  490,
+                  892,
+                  1429,
+                  937
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(1)(b)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r73.rel2",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Department of Jammu and Kashmir Affairs"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w446",
+                "r1.w458"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    550,
+                    1063,
+                    2132,
+                    1102
+                  ]
+                }
+              ]
+            },
+            "expect": "38. Department of Jammu and Kashmir Affairs (Jammu tatha Kashmir Vibhag)",
+            "flags": [],
+            "words": [
+              "r1.w445",
+              "r1.w453"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  492,
+                  1063,
+                  1444,
+                  1102
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 3,
+            "source_ref": "2(2)(a)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r73.rel3",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Home Affairs"
+                },
+                {
+                  "type": "department",
+                  "heading": "Department of Home"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w477",
+                "r1.w488"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    492,
+                    1233,
+                    2297,
+                    1322
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "department",
+                "num": "E",
+                "heading": "Department of Jammu and Kashmir Affairs",
+                "heading_hi": "Jammu tatha Kashmir Vibhag"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Constitutional provisions with respect to the State of Jammu and Kashmir."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "All other matters relating to the State of Jammu and Kashmir excluding those with which the Ministry of External Affairs (Videsh Mantralaya) is concerned."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w467",
+              "r1.w474"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  490,
+                  1233,
+                  1308,
+                  1271
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 4,
+            "source_ref": "2(2)(b)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r73.rel4",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Department of Jammu and Kashmir Affairs"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w550",
+                "r1.w575"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    490,
+                    1618,
+                    2291,
+                    1709
+                  ]
+                }
+              ]
+            },
+            "expect": "Department of Jammu and Kashmir Affairs (Jammu tatha Kashmir Vibhag)",
+            "flags": [],
+            "words": [
+              "r1.w549",
+              "r1.w557"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  490,
+                  1618,
+                  1484,
+                  1657
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

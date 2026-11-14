@@ -1,0 +1,275 @@
+{
+  "file": {
+    "name": "1_Upload_290.pdf",
+    "file_id": "f_f130d795a52c0cfc",
+    "pages": 6,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_290.pdf",
+    "sha256": "f130d795a52c0cfcf1c40f94c88f91431007e31e9043423acb50a2053d76d385",
+    "govdoc": "1_Upload_290.pdf.govdoc.json.zst",
+    "revision": 118
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_675E_2000",
+      "doc_type": "aob_amendment",
+      "parent": "GAZETTE_ISSUE_f130d795a52c0cfc",
+      "fields": {
+        "number": {
+          "value": "S.O. 675(E)"
+        },
+        "in_force": {
+          "value": "2000-07-17"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "2000-07-17",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T12:57:34.251818+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "3(3)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r81.rel1",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Communications"
+                },
+                {
+                  "type": "department",
+                  "heading": "Department of Telecom Services"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w713",
+                "r1.w723"
+              ],
+              "boxes": [
+                {
+                  "page": 4,
+                  "bbox": [
+                    665,
+                    1111,
+                    2203,
+                    1219
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "department",
+                "num": "iv",
+                "heading": "Department of Telecom Operations",
+                "heading_hi": "Door Sanchar Prachalan Vibhag"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w698",
+              "r1.w706"
+            ],
+            "boxes": [
+              {
+                "page": 4,
+                "bbox": [
+                  517,
+                  1057,
+                  1506,
+                  1106
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "3(4)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r81.rel2",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF COMMUNICATIONS"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF TELECOM SERVICES"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w753",
+                "r1.w768"
+              ],
+              "boxes": [
+                {
+                  "page": 4,
+                  "bbox": [
+                    665,
+                    1580,
+                    2206,
+                    1741
+                  ]
+                }
+              ]
+            },
+            "expect": "C. DEPARTMENT OF TELECOM SERVICES (DOOR SANCHAR SEVA VIBHAG)",
+            "content": [
+              {
+                "type": "department",
+                "num": "C",
+                "heading": "DEPARTMENT OF TELECOM SERVICES",
+                "heading_hi": "DOOR SANCHAR SEVA VIBHAG"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "All matters relating to the Corporatisation of the Department of Telecom Operations and the Department of Telecom Services."
+              },
+              {
+                "type": "entry",
+                "num": "7",
+                "text": "All matters relating to personnel in the Departments of Telecom Services and Telecom Operations, relating to or having a bearing on Corporatisation."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "Mahanagar Telephone Nigam Limited, Videsh Sanchar Nigam Limited and Telecommunications Consultants (India) Limited."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "Financial sanctions relating to the Department of Telecom Services."
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "Enquiries and statistics for the purpose of any of the matters specified in this list."
+              },
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "Fees in respect of any of the matters specified in this list, but not including fees taken in any court."
+              },
+              {
+                "type": "note",
+                "text": "Note-"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "On Corporatisation of this temporary Department, residual work if any, will stand allocated to the Department of Telecommunications."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "The Department of Telecom Services and Department of Telecom Operations shall be serviced by the existing personnel, on the strength of the Department of Telecom Services on the date of this notification, through their respective Secretaries, keeping in view the business allocated to to Department of Telecom Services and Department of Telecom Operations."
+              },
+              {
+                "type": "department",
+                "num": "D",
+                "heading": "DEPARTMENT OF TELECOM OPERATIONS",
+                "heading_hi": "DOOR SANCHAR PRACHALAN VIBHAG"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "All matters other than policy and licensing relating to operations of telephones, wireless, data, facsimile and telematic and other like forms of telecommunications."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "Execution of works including purchase and acquisition of land debitable to the capital Budget pertaining to telecommunications."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "Personnel Administration of the Department of Telecom Operations other than issues having a bearing on Corporatisation."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "Procurement of stores and equipment required by the Department of Telecom Operations."
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "All matters relating to C-DOT."
+              },
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "Financial sanctions relating to the Department of Telecom Operations."
+              },
+              {
+                "type": "entry",
+                "num": "9",
+                "text": "Enquiries and statistics for purpose of any of the matters specified in this list."
+              },
+              {
+                "type": "entry",
+                "num": "10",
+                "text": "Fees in respect of any of the matters specified in this list, but not including fees taken in any Court."
+              },
+              {
+                "type": "note",
+                "text": "Note-"
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "On Corporatisation of this temporary Department, residual work if any, will stand allocated to the Department of Telecommunications."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "The Department of Telecom Services and Department of Telecom Operations shall be serviced by the existing personnel, on the strength of the Department of Telecom Services on the date of this notification, through their respective Secretaries, keeping in view the business allocated to Department of Telecom Services and Department of Telecom Operations."
+              }
+            ],
+            "flags": [
+              "read_page_break"
+            ],
+            "words": [
+              "r1.w699",
+              "r1.w747"
+            ],
+            "boxes": [
+              {
+                "page": 4,
+                "bbox": [
+                  518,
+                  1521,
+                  1757,
+                  1572
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,442 @@
+{
+  "file": {
+    "name": "1_Upload_159.pdf",
+    "file_id": "f_1fc5f6a0055abf4a",
+    "pages": 6,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_159.pdf",
+    "sha256": "1fc5f6a0055abf4a4cc3899118171898f8b3d0eccda78a7ac99d788ec3061970",
+    "govdoc": "1_Upload_159.pdf.govdoc.json.zst",
+    "revision": 55
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_520E_1977",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_285_1977",
+      "fields": {
+        "number": {
+          "value": "SO. 520 (E)"
+        },
+        "in_force": {
+          "value": "1977-07-02"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "1977-07-02",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T18:01:24.641981+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(a)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r28.rel1",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Finance"
+                },
+                {
+                  "type": "entry",
+                  "num": "(ii)"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w210",
+                "r1.w212"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    430,
+                    2137,
+                    1696,
+                    2208
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "department",
+                "num": "iii",
+                "heading": "Department of Revenue",
+                "heading_hi": "Rajaswa Vibhag"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w199",
+              "r1.w209"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  319,
+                  2137,
+                  1594,
+                  2172
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(b)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r28.rel2",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Department of Revenue and Banking"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w228",
+                "r1.w239"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    390,
+                    2261,
+                    1703,
+                    2335
+                  ]
+                }
+              ]
+            },
+            "expect": "6A Department of Revenue and Banking (Rajaswa aur Banking Vibhag)",
+            "flags": [],
+            "words": [
+              "r1.w227",
+              "r1.w235"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  324,
+                  2263,
+                  1436,
+                  2301
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 3,
+            "source_ref": "3(a)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r28.rel3",
+            "target": [
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "MINISTRY OF FINANCE"
+                  },
+                  {
+                    "type": "department",
+                    "heading": "DEPARTMENT OF ECONOMIC AFFAIRS"
+                  },
+                  {
+                    "type": "group_heading",
+                    "heading": "VIII"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r1.w272",
+                  "r1.w273"
+                ],
+                "boxes": [
+                  {
+                    "page": 1,
+                    "bbox": [
+                      1069,
+                      2460,
+                      1253,
+                      2490
+                    ]
+                  }
+                ]
+              },
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "MINISTRY OF FINANCE"
+                  },
+                  {
+                    "type": "department",
+                    "heading": "DEPARTMENT OF ECONOMIC AFFAIRS"
+                  },
+                  {
+                    "type": "group_heading",
+                    "heading": "IX"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r1.w275",
+                  "r1.w275"
+                ],
+                "boxes": [
+                  {
+                    "page": 1,
+                    "bbox": [
+                      1355,
+                      2459,
+                      1400,
+                      2488
+                    ]
+                  }
+                ]
+              }
+            ],
+            "content": [
+              {
+                "type": "text",
+                "text": "VIII Insurance 33 Policy relating to General Insurance, Administration of the Insurance Act, 1938, Insurance Companies Association Pool, Subsidiaries of the Life Insurance Corporation. 34, Policy relating to Life Insurance; Nationalisation of the Life Insurance Business, Administration of the Life Insurance Corporation Act, 1956, Life Insurance Tribunal 35 Office of the Controller of Insurance. 36 The responsibility of the Central Government relating to matters concerning centrally administered areas in respect of any of the entries from 33 to 35 above IX Banking 37 All Indian banks, whether nationalised or not 38 All foreign banks so far as theli operations in India are concerned. 39 All matters relating to the Reserve Bank of India. 40 All matters relating to Co-operative Banking which are the concern of this Department 41 All matters relating to long term financial institutions excluding Unit Trust of India, Life Insurance Corporation and General Insurance Corporation. 42 Chit Funds and other non-banking companies accepting deposits 43 Other matters relating to Banking in India."
+              },
+              {
+                "type": "entry",
+                "num": "44",
+                "text": "Administration of all Statutes, Regulations and other laws connected with entries from 37 to 4 above."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w252",
+              "r1.w260"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  318,
+                  2385,
+                  1679,
+                  2432
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 4,
+            "source_ref": "3(b)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r28.rel4",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "DEPARTMENT OF REVENUE AND BANKING"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w484",
+                "r1.w499"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    460,
+                    1354,
+                    1769,
+                    1417
+                  ]
+                }
+              ]
+            },
+            "expect": "DEPARTMENT OF REVENUE AND BANKING (RAJASWA AUR BANKING VIBHAG)",
+            "content": [
+              {
+                "type": "department",
+                "num": "C",
+                "heading": "DEPARTMENT OF REVENUE",
+                "heading_hi": "RAJASWA VIBHAG"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "All matters relating to Central Boards of Revenue."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "Stamp duties on bills of exchange, cheques, promissory notes bills of lading, letters of credit, policies of insurance, transfer of shares debentures, proxies and receipts"
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "Supply and distribution of all kinds of stamps"
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "All questions relating to income-tax (except questions relating to the Income-tax, Appellate Tribunal), Corporation tax, capital gains tax excess profits tax, business profits tax and estate duty, wealth-tax expenditure tax and gill-tax and also questions relating to Rallway Passenger Fares Act"
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "Administration of excise in the Union Territories, e all questions relating to"
+              },
+              {
+                "type": "item",
+                "num": "a",
+                "text": "Alcoholic liquors for human consumption"
+              },
+              {
+                "type": "item",
+                "num": "b",
+                "text": "Opium, Indian hemp and narcotic drugs and narcotics"
+              },
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "Medical and toilet preparations containing alcohol, or any substance included in 5(b)"
+              },
+              {
+                "type": "entry",
+                "num": "7",
+                "text": "Opium, as regards cultivation, manufacture and sale for export"
+              },
+              {
+                "type": "entry",
+                "num": "8",
+                "text": "International agreements relating to dangerous drugs and their implementation"
+              },
+              {
+                "type": "entry",
+                "num": "9",
+                "text": "All matters relating to Customs (See and Land) including the Customs Tariff Act, 1975, Tariff vɛluations, Customs Cooperation Council Customs nomenclature and similar matters, duties on goods imported or exported; prohibitions and restrictions on imports and exports imposed in the interest of revenue; and interpretation of Customs Tarıff"
+              },
+              {
+                "type": "entry",
+                "num": "10",
+                "text": "All matters relating to Central Excise and Gold Control Administration"
+              },
+              {
+                "type": "entry",
+                "num": "11",
+                "text": "Sales Tax (1) The administration of Sales-Tax Laws Validation Act, 1956. (11) Levy of tax on sales in the course of inter-state trade or commerce problems arising out of the administration of the Central Sales Tax Act, 1956 (1) Declaration of goods as of special importance in inter-Slate trade or commerce under article 286(3) of the Constitution-laying down of the conditions and restrictions to which the State laws providing for the levy of tax on them would be subjected (1) All questions relating to replacement of sales 1ax by additional excise duty including administration of the Additional Duties of Excise (Goods of Special Importance) Act, 1957"
+              },
+              {
+                "type": "item",
+                "num": "v",
+                "text": "All Bills, etc relating to sales-tax levy in States coming up for the previous instruction, recommendations or assent of the President"
+              },
+              {
+                "type": "item",
+                "num": "vi",
+                "text": "Legislative matters corcerning sales-tax in the Union Territories. (V11) Problems arising out of the invalidation of sugarcane cess levies of States including validation of such levies."
+              },
+              {
+                "type": "entry",
+                "num": "12",
+                "text": "All matters relating to pre-partition duty refund claims yn salt"
+              },
+              {
+                "type": "entry",
+                "num": "13",
+                "text": "Subordinatę Organisations -"
+              },
+              {
+                "type": "item",
+                "num": "a",
+                "text": "Income-tax Department"
+              },
+              {
+                "type": "item",
+                "num": "b",
+                "text": "Customs Department"
+              },
+              {
+                "type": "item",
+                "num": "c",
+                "text": "Central Excise Department; and"
+              },
+              {
+                "type": "item",
+                "num": "d",
+                "text": "Narcotics Department."
+              },
+              {
+                "type": "entry",
+                "num": "14",
+                "text": "Preventive detention for reasons connected with the conservation of foreign exchange or prevention of smuggling, persons subjected to such detention."
+              },
+              {
+                "type": "entry",
+                "num": "15",
+                "text": "Enforcement, i̇ız Investigation, adiudication and prosecution of cases arising out of breaches, under the Foreign Exchange Regulation Art. 1973, the Directorate-General of Revenue Intelligence-cum- Directorate of Enforcement."
+              }
+            ],
+            "flags": [
+              "read_page_break"
+            ],
+            "words": [
+              "r1.w483",
+              "r1.w491"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  393,
+                  1354,
+                  1767,
+                  1383
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

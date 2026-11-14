@@ -1,0 +1,177 @@
+{
+  "file": {
+    "name": "1_Upload_304.pdf",
+    "file_id": "f_616bd6d0610b2ecf",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_304.pdf",
+    "sha256": "616bd6d0610b2ecf9aeafd1e304d43900e9a98b9e9faa3d239989c4c6e323f22",
+    "govdoc": "1_Upload_304.pdf.govdoc.json.zst",
+    "revision": 109
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_743E_2002",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_631_2002",
+      "fields": {
+        "number": {
+          "value": "S.O. 743(E)"
+        },
+        "in_force": {
+          "value": "2002-07-13"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "2002-07-13",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T12:55:58.961910+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(a)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r73.rel1",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF ENVIRONMENT AND FORESTS"
+                },
+                {
+                  "type": "entry",
+                  "num": "25"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w360",
+                "r1.w362"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1037,
+                    923,
+                    1263,
+                    961
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "26",
+                "text": "The Prevention of Cruelty to Animals Act, 1960 (59 of 1960)."
+              },
+              {
+                "type": "entry",
+                "num": "27",
+                "text": "Prevention of cruelty to animals."
+              },
+              {
+                "type": "entry",
+                "num": "28",
+                "text": "Matters relating to pounds and cattle trespass."
+              },
+              {
+                "type": "entry",
+                "num": "29",
+                "text": "Gaushalas and Gausadans."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w347",
+              "r1.w355"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  630,
+                  874,
+                  1875,
+                  913
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(b)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r73.rel2",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF STATISTICS AND PROGRAMME IMPLEMENTATION"
+                },
+                {
+                  "type": "entry",
+                  "range": [
+                    "18",
+                    "21"
+                  ]
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w415",
+                "r1.w418"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1676,
+                    1334,
+                    1915,
+                    1367
+                  ]
+                }
+              ]
+            },
+            "flags": [],
+            "words": [
+              "r1.w400",
+              "r1.w409"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  626,
+                  1279,
+                  2169,
+                  1320
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

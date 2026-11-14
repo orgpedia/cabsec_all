@@ -1,0 +1,170 @@
+{
+  "file": {
+    "name": "1_Upload_118.pdf",
+    "file_id": "f_220009869926459f",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_118.pdf",
+    "sha256": "220009869926459f3a37b289a2d95588f25265777b092943352d424a14aa15e1",
+    "govdoc": "1_Upload_118.pdf.govdoc.json.zst",
+    "revision": 46
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_2597_1970",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_368_1970",
+      "fields": {
+        "number": {
+          "value": "S.O. 2597"
+        },
+        "in_force": {
+          "value": "1970-07-29"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "1970-07-29",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T13:48:57.332029+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(a)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r10.rel1",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Home Affairs"
+                },
+                {
+                  "type": "entry",
+                  "num": "32"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w210",
+                "r1.w212"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    1165,
+                    2423,
+                    1381,
+                    2460
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "32",
+                "text": "Central Bureau of Intelligence and the Delhi Special Police Establish - ment."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w200",
+              "r1.w209"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  260,
+                  2424,
+                  1146,
+                  2465
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(b)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r10.rel2",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Cabinet Secretarlat"
+                },
+                {
+                  "type": "department",
+                  "heading": "Depart- ment of Cabinēt Affairs"
+                },
+                {
+                  "type": "entry",
+                  "num": "2"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w261",
+                "r1.w263"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    887,
+                    331,
+                    1129,
+                    364
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "The Directorate General of Revenue Intelligence-cum- Directorate of Enforcement."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w247",
+              "r1.w254"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  296,
+                  297,
+                  1437,
+                  330
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

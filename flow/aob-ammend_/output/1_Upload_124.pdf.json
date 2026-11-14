@@ -1,0 +1,199 @@
+{
+  "file": {
+    "name": "1_Upload_124.pdf",
+    "file_id": "f_2851c2960065b9c8",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_124.pdf",
+    "sha256": "2851c2960065b9c8c9ebb7a67571e2129789e6cb723ba8e15da9ef372f08bd5a",
+    "govdoc": "1_Upload_124.pdf.govdoc.json.zst",
+    "revision": 46
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_2320_1971",
+      "doc_type": "aob_amendment",
+      "parent": "GAZETTE_ISSUE_2851c2960065b9c8",
+      "fields": {
+        "number": {
+          "value": null
+        },
+        "in_force": {
+          "value": "1971-06-17"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "1971-06-17",
+          "basis": "stated"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T13:48:57.408995+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(a)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r10.rel1",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF PLANNING"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w96",
+                "r1.w107"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    916,
+                    1844,
+                    2082,
+                    2167
+                  ]
+                }
+              ]
+            },
+            "scope": "children",
+            "content": [
+              {
+                "type": "text",
+                "text": "11 Responsibility to Parliament in regard to the subject of national planning."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w95",
+              "r1.w103"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  801,
+                  1844,
+                  2082,
+                  2056
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(b)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r10.rel2",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "PRIME MINISTER'S SECRETARIAT"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w129",
+                "r1.w141"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    944,
+                    2391,
+                    2347,
+                    2726
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "ministry",
+                "heading": "PLANNING COMMISSION",
+                "heading_hi": "YOJANA AYOG"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Assessment of the material, capital and human resources of the country, including technical personnel, and formulation of proposals for augmenting such of these resources as are found to be deficient. 2"
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "Formulation of Plans for the most effective and balanced utilisation of the country's resources."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "Definition of stages in which the Plan shoul be carried out on a determination of priorit and allocation of resources for completion c each stage."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "Determination of the nature of the machinery necessary for the implementation of the Plan in all its aspects. i"
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "Appraisal from time to time of the progress achieved in the execution of each stage of the Plan."
+              },
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "Public Co-operation in National Development."
+              },
+              {
+                "type": "entry",
+                "num": "7",
+                "text": "Perspective planning."
+              },
+              {
+                "type": "note",
+                "text": "NOTE: - The Planning Commission (Yojana Ayog) will be concerned broadly with technical questions relating to planning and the planning organisation itself. The policy and details of specific schemes included in the Plan are matters to be dealt with by the Central Administrative Ministries and State Governments."
+              }
+            ],
+            "flags": [
+              "read_page_break"
+            ],
+            "words": [
+              "r1.w128",
+              "r1.w134"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  826,
+                  2391,
+                  2347,
+                  2529
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

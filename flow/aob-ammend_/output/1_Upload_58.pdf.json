@@ -1,0 +1,308 @@
+{
+  "file": {
+    "name": "1_Upload_58.pdf",
+    "file_id": "f_a1add7896d6349dd",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_58.pdf",
+    "sha256": "a1add7896d6349ddf5192f99ad01209d186da7c2a0220baa17b82feb2ee900f8",
+    "govdoc": "1_Upload_58.pdf.govdoc.json.zst",
+    "revision": 55
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_654_1964",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_47_1964",
+      "fields": {
+        "number": {
+          "value": null
+        },
+        "in_force": {
+          "value": null
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": null,
+          "basis": null
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T18:25:35.738288+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "(A)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r28.rel1",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Finance"
+                },
+                {
+                  "type": "department",
+                  "heading": "Department of Revenue"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w130",
+                "r1.w134"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    424,
+                    1868,
+                    1689,
+                    1936
+                  ]
+                }
+              ]
+            },
+            "expect": "(iii)_Department of Revenue",
+            "content": [
+              {
+                "type": "department",
+                "num": "iii",
+                "heading": "Department of Revenue and Company Law"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w119",
+              "r1.w129"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  320,
+                  1868,
+                  1504,
+                  1901
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "(B)(a)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r28.rel2",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Finance"
+                },
+                {
+                  "type": "department",
+                  "heading": "Department of Revenue"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w161",
+                "r1.w168"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    466,
+                    2167,
+                    1691,
+                    2236
+                  ]
+                }
+              ]
+            },
+            "expect": "C. Department of Revenue",
+            "scope": "heading",
+            "content": [
+              {
+                "type": "department",
+                "num": "C",
+                "heading": "Department of Revenue and Company Law"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w154",
+              "r1.w164"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  358,
+                  2167,
+                  1691,
+                  2201
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 3,
+            "source_ref": "(B)(g)(1)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r28.rel3",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Department of Atomic Energy"
+                },
+                {
+                  "type": "entry",
+                  "num": "1"
+                },
+                {
+                  "type": "item",
+                  "num": "1"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w192",
+                "r1.w194"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    461,
+                    2427,
+                    720,
+                    2462
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "1(1) Administration of the Atomic Energy Act, 1962, including control of radio-active substances and regulation of their possession, use, disposal and transport"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w191",
+              "r1.w201"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  398,
+                  2427,
+                  1618,
+                  2466
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 4,
+            "source_ref": "(B)(g)(ii)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r28.rel4",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Department of Atomic Energy"
+                },
+                {
+                  "type": "entry",
+                  "num": "1"
+                },
+                {
+                  "type": "item",
+                  "num": "v"
+                },
+                {
+                  "type": "item",
+                  "num": "c"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w239",
+                "r1.w241"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    486,
+                    258,
+                    806,
+                    295
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "1",
+                "text": ""
+              },
+              {
+                "type": "item",
+                "num": "v",
+                "text": "(c) The Fertilizer Corporation of India Ltd., so far as production of heavy water is concerned."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w238",
+              "r1.w248"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  411,
+                  253,
+                  1713,
+                  296
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

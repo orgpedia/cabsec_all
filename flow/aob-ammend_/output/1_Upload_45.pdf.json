@@ -1,0 +1,297 @@
+{
+  "file": {
+    "name": "1_Upload_45.pdf",
+    "file_id": "f_7e6fef011d35955a",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_45.pdf",
+    "sha256": "7e6fef011d35955a6b94834879d2a26025212273c2407b38a12f06cfb97a337f",
+    "govdoc": "1_Upload_45.pdf.govdoc.json.zst",
+    "revision": 55
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_3482_1962",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_339_1962",
+      "fields": {
+        "number": {
+          "value": "S.O. 3482"
+        },
+        "in_force": {
+          "value": "1962-11-14"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "1962-11-14",
+          "basis": "stated"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T18:01:29.070270+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "(A)(a)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r28.rel1",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "entry",
+                  "num": "3"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w107",
+                "r1.w111"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    370,
+                    1733,
+                    801,
+                    1769
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "ministry",
+                "num": "3A",
+                "heading": "Ministry of Economic and Defence Co-ordination"
+              }
+            ],
+            "flags": [
+              "read_hindi_missing"
+            ],
+            "words": [
+              "r1.w106",
+              "r1.w118"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  298,
+                  1733,
+                  1634,
+                  1769
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "(A)(b)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r28.rel2",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "entry",
+                  "num": "22"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w127",
+                "r1.w129"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    359,
+                    1855,
+                    591,
+                    1888
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "department",
+                "heading": "Cabinet Secretariat"
+              },
+              {
+                "type": "department",
+                "num": "i",
+                "heading": "Department of Cabinet Affairs"
+              },
+              {
+                "type": "department",
+                "num": "ii",
+                "heading": "Department of Statistics"
+              }
+            ],
+            "flags": [
+              "read_hindi_missing"
+            ],
+            "words": [
+              "r1.w126",
+              "r1.w136"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  295,
+                  1855,
+                  1507,
+                  1888
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 3,
+            "source_ref": "(B)(a)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r28.rel3",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Defence"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w154",
+                "r1.w171"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    366,
+                    2183,
+                    1631,
+                    2255
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Ministry of Economic and Defence Co-ordination."
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Co-ordination of civil and defence production and supplies."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "Such other subjects as may be àssigned by the Prime Minister from time to time"
+              }
+            ],
+            "flags": [
+              "read_hindi_missing"
+            ],
+            "words": [
+              "r1.w153",
+              "r1.w162"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  294,
+                  2183,
+                  1474,
+                  2225
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 4,
+            "source_ref": "(B)(b)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r28.rel4",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Cabinet Secretariat"
+                },
+                {
+                  "type": "department",
+                  "heading": "Department of Special Economic Co-ordination."
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w222",
+                "r1.w229"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    498,
+                    247,
+                    1604,
+                    280
+                  ]
+                }
+              ]
+            },
+            "expect": "C. Department of Special Economic Co-ordination. 1. Specific matters of Economic Co-ordination as may be assigned by the Prime Minister from time to time",
+            "flags": [],
+            "words": [
+              "r1.w221",
+              "r1.w231"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  431,
+                  247,
+                  1774,
+                  280
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

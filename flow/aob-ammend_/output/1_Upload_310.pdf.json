@@ -1,0 +1,209 @@
+{
+  "file": {
+    "name": "1_Upload_310.pdf",
+    "file_id": "f_6783e2d3dfaf547f",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_310.pdf",
+    "sha256": "6783e2d3dfaf547f9ec8a94e5874469162f5b113dd35e0a801172aa212d4bc33",
+    "govdoc": "1_Upload_310.pdf.govdoc.json.zst",
+    "revision": 109
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_1310E_2002",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_1052_2002",
+      "fields": {
+        "number": {
+          "value": "S.O. 1310 (E)"
+        },
+        "in_force": {
+          "value": "2002-12-12"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "2002-12-12",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T12:55:59.297484+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(A)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r73.rel1",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF DEFENCE"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF DEFENCE"
+                },
+                {
+                  "type": "entry",
+                  "num": "17"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w523",
+                "r1.w524"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1405,
+                    1566,
+                    1544,
+                    1601
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "17",
+                "text": "All matters relating to Coast Guard Organisation, including:"
+              },
+              {
+                "type": "item",
+                "num": "i",
+                "text": "Surveillance of maritime zones against oil spillst"
+              },
+              {
+                "type": "item",
+                "num": "ii",
+                "text": "Combating oil spills in various maritime zones, except in the waters of ports and within 500 metres of offshore exploration and production platforms, coastal refineries and associated facilities such as Single Buoy Mooring (SBM), Crude Oil Terminal (COT) and pipelines"
+              },
+              {
+                "type": "item",
+                "num": "iii",
+                "text": "Central Coordinating Agency for Combating of Ou Pollution in the coastal and marine environment of various maritime zones"
+              },
+              {
+                "type": "item",
+                "num": "iv",
+                "text": "Implementation of National Contingency Plan spill disaster; and"
+              },
+              {
+                "type": "item",
+                "num": "v",
+                "text": "Undertaking oil spill prevention and controi, inspection of ships and offshore platforms in the country except within the limits of ports as empowered by Merchant Shipping Act. 1956.“."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w490",
+              "r1.w513"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  337,
+                  1516,
+                  1737,
+                  1557
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(B)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r73.rel2",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF SHIPPING"
+                },
+                {
+                  "type": "entry",
+                  "num": "14"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w656",
+                "r1.w658"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1898,
+                    2138,
+                    2128,
+                    2176
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "14A Prevention and control of pollution:"
+              },
+              {
+                "type": "item",
+                "num": "i",
+                "text": "Prevention and control of pollution arising from chips, shipwrecks and abandoned ships in the sea including the port areas"
+              },
+              {
+                "type": "item",
+                "num": "ii",
+                "text": "Enactment and administration of legislation related to prevention. control and combating of pollution arising from ships; and"
+              },
+              {
+                "type": "item",
+                "num": "iii",
+                "text": "Monitoring and combating of oil pollution in the port arcas."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w491",
+              "r1.w655"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  340,
+                  2139,
+                  1892,
+                  2185
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

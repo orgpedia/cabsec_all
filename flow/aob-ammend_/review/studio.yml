@@ -17,6 +17,10 @@ documents:                                # the documents screen
        match: {field: gazette, role: "gazette:notification_no"}}  # one file, two notifications: each its own
     - {label: S.O., role: "gazette:notification_no"}
     - {label: In force, role: "legal:commencement"}
+  issue_columns:                          # the open issues counted by the part they are about (studio.md §R3.1)
+    - {label: Sch. 1, step: schedule 1}
+    - {label: Sch. 2, step: schedule 2}
+    - {label: Other}                      # the Order's rules, and issues on no part
 
 record:
   aob_amendment:

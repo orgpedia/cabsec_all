@@ -1,0 +1,234 @@
+{
+  "file": {
+    "name": "1_Upload_325.pdf",
+    "file_id": "f_8d1985f62088c9c1",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_325.pdf",
+    "sha256": "8d1985f62088c9c1b524abb82a6e9ce64c06642e9d8cdb7f4b53b6212c33a0aa",
+    "govdoc": "1_Upload_325.pdf.govdoc.json.zst",
+    "revision": 143
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_302E_2005",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_238_2005",
+      "fields": {
+        "number": {
+          "value": "S.O. 302(E)"
+        },
+        "in_force": {
+          "value": "2005-03-09"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "2005-03-09",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T12:56:17.358276+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(1)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r107.rel1",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Agriculture"
+                },
+                {
+                  "type": "department",
+                  "heading": "Department of Animal Husbandry and Dairying"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w366",
+                "r1.w379"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    512,
+                    931,
+                    2200,
+                    1023
+                  ]
+                }
+              ]
+            },
+            "expect": "(iii) Department of Animal Husbandry and Dairying (Pashupalan aur Dairy Vibhag)",
+            "scope": "heading",
+            "content": [
+              {
+                "type": "department",
+                "num": "iii",
+                "heading": "Department of Animal Husbandry, Dairying and Fisheries",
+                "heading_hi": "Pashupalan, Dairy aur Matsyapalan Vibhag"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w351",
+              "r1.w358"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  414,
+                  909,
+                  1172,
+                  958
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(2)(i)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r107.rel2",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Agriculture"
+                },
+                {
+                  "type": "department",
+                  "heading": "Department of Animal Husbandry and Dairying"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w415",
+                "r1.w427"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    595,
+                    1281,
+                    2195,
+                    1372
+                  ]
+                }
+              ]
+            },
+            "expect": "C. Department of Animal Husbandry and Dairying (Pashupalan aur Dairy Vibhag)",
+            "scope": "heading",
+            "content": [
+              {
+                "type": "department",
+                "num": "C",
+                "heading": "Department of Animal Husbandry, Dairying and Fisheries",
+                "heading_hi": "Pashupalan, Dairy aur Matsyapalan Vibhag"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w405",
+              "r1.w411"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  510,
+                  1267,
+                  1270,
+                  1315
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 3,
+            "source_ref": "2(2)(ii)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r107.rel3",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Panchayati Raj"
+                },
+                {
+                  "type": "entry",
+                  "num": "1"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w462",
+                "r1.w463"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1997,
+                    1572,
+                    2126,
+                    1612
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "District Planning Committees."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w450",
+              "r1.w456"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  506,
+                  1553,
+                  1305,
+                  1601
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "file": {
+    "name": "1_Upload_126.pdf",
+    "file_id": "f_e782fd29e715c387",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_126.pdf",
+    "sha256": "e782fd29e715c38797a048ad2ccb94649e2e23eac1edb15b4c1b02b994d552b3",
+    "govdoc": "1_Upload_126.pdf.govdoc.json.zst",
+    "revision": 46
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_33E_1972",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_25_1972",
+      "fields": {
+        "number": {
+          "value": "So. 33(E)"
+        },
+        "in_force": {
+          "value": "1972-01-12"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "1972-01-12",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T13:50:04.528631+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r10.rel1",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF PETROLEUM AND CHEMICALS"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF CHEMICALS"
+                },
+                {
+                  "type": "entry",
+                  "num": "17"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w217",
+                "r1.w219"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    1292,
+                    2074,
+                    1519,
+                    2109
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "17",
+                "text": "Pyrites, Phosphates and Chemicals Ltd."
+              },
+              {
+                "type": "entry",
+                "num": "18",
+                "text": "Other Public Sector Projects falling under the subjects included in this list, except such projects as are specifically allotted to any other Department."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w179",
+              "r1.w188"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  293,
+                  1973,
+                  1286,
+                  2002
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

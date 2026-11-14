@@ -1,0 +1,1394 @@
+{
+  "file": {
+    "name": "1_Upload_298.pdf",
+    "file_id": "f_b6ffcdcb94c05302",
+    "pages": 8,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_298.pdf",
+    "sha256": "b6ffcdcb94c05302ee52851fd3d4bfce98d6fb945a401798d6c7cc5df5b89919",
+    "govdoc": "1_Upload_298.pdf.govdoc.json.zst",
+    "revision": 120
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_1251E_2001",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_926_2001",
+      "fields": {
+        "number": {
+          "value": "S.O.1251 (E)"
+        },
+        "in_force": {
+          "value": "2001-12-21"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "2001-12-21",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T12:56:56.757494+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(2)(a)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r81.rel1",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Communications"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w523",
+                "r1.w534"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    588,
+                    1988,
+                    2248,
+                    2025
+                  ]
+                }
+              ]
+            },
+            "expect": "6. Ministry of Communications (Sanchar Mantralaya)",
+            "content": [
+              {
+                "type": "ministry",
+                "num": "6",
+                "heading": "Ministry of Communications and Information Technology",
+                "heading_hi": "Sanchar aur Soochana Praudyogiki Mantralaya"
+              },
+              {
+                "type": "department",
+                "num": "i",
+                "heading": "Department of Telecommunications",
+                "heading_hi": "Doorsanchar Vibhag"
+              },
+              {
+                "type": "department",
+                "num": "ii",
+                "heading": "Department of Posts",
+                "heading_hi": "Dak Vibhag"
+              },
+              {
+                "type": "department",
+                "num": "iii",
+                "heading": "Department of Information Technology",
+                "heading_hi": "Soochana Praudyogiki Vibhag"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w521",
+              "r1.w528"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  460,
+                  1988,
+                  1315,
+                  2025
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(2)(b)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r81.rel2",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Information Technology"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w582",
+                "r1.w595"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    547,
+                    2327,
+                    2029,
+                    2370
+                  ]
+                }
+              ]
+            },
+            "expect": " 17A. Ministry of Information Technology ( Soochana Praudyogiki Mantralaya ) ",
+            "flags": [],
+            "words": [
+              "r1.w581",
+              "r1.w588"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  462,
+                  2327,
+                  1231,
+                  2370
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 3,
+            "source_ref": "2(2)(a)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r81.rel3",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MISTRY OF COMMUNICATIONS"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w609",
+                "r1.w615"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    600,
+                    2444,
+                    2077,
+                    2487
+                  ]
+                }
+              ]
+            },
+            "expect": "MISTRY OF COMMUNICATIONS (SANCHAR MANTRALAYA)",
+            "scope": "heading",
+            "content": [
+              {
+                "type": "ministry",
+                "heading": "MINISTRY OF COMMUNICATIONS AND INFORMATION TECHNOLOGY",
+                "heading_hi": "SANCHAR AUR SCOCHANA PRAUDYOGIKI MANTRALAYA"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w607",
+              "r1.w615"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  458,
+                  2444,
+                  2077,
+                  2487
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 4,
+            "source_ref": "2(2)(b)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r81.rel4",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF COMMUNICATIONS AND INFORMATION TECHNOLOGY"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF POSTS"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w641",
+                "r1.w651"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    534,
+                    2604,
+                    2307,
+                    2694
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "ministry",
+                "heading": "C\". DEPARTMENT OF INFORMATION TECHNOLOGY",
+                "heading_hi": "SOOCHAINA PRAUDYOGIKI VIBHAG"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Policy matters relating to information technology."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "Promotion of knowledge-based enterprises"
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "Development of electronics and coordination amongst its various users."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "All matters relating to the personnel under the control of the Department."
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "Coordination of requirements relating to electronic processing equipment (computers)."
+              },
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "All matters pertaining to silicon facility."
+              },
+              {
+                "type": "entry",
+                "num": "7",
+                "text": "All matters concerning computer based information, technology and processing including hardware and software, standardisation of procedures and matters relevant to international bodies such as IFP, IBI ICC"
+              },
+              {
+                "type": "entry",
+                "num": "8",
+                "text": "Promotion of the internet. 3"
+              },
+              {
+                "type": "entry",
+                "num": "9",
+                "text": "Promotion of E-Commerce."
+              },
+              {
+                "type": "entry",
+                "num": "10",
+                "text": "Promotion of information technology education and information technology-based education."
+              },
+              {
+                "type": "entry",
+                "num": "11",
+                "text": "National Informatics Centre."
+              },
+              {
+                "type": "entry",
+                "num": "12",
+                "text": "Electronics and Computer Software Export Promotion Council."
+              }
+            ],
+            "ref_seq": 3,
+            "flags": [
+              "read_page_break"
+            ],
+            "words": [
+              "r1.w634",
+              "r1.w641"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  459,
+                  2604,
+                  1348,
+                  2645
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 5,
+            "source_ref": "2(2)(c)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r81.rel5",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF INFORMATION TECHNOLOGY"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w798",
+                "r1.w810"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    416,
+                    648,
+                    2238,
+                    742
+                  ]
+                }
+              ]
+            },
+            "expect": "MINISTRY OF INFORMATION TECHNOLOGY (SOOCHANA PRAUDYOGIKI MANTRALAYA)",
+            "flags": [],
+            "words": [
+              "r1.w797",
+              "r1.w804"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  351,
+                  648,
+                  1648,
+                  694
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "GOI_SO_1252E_2001",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_926_2001",
+      "fields": {
+        "number": {
+          "value": "S.O.1252 (E)"
+        },
+        "in_force": {
+          "value": "2001-12-21"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "2001-12-21",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T12:56:56.757494+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(A)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r81.rel6",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF COAL AND MINES"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF MINES"
+                },
+                {
+                  "type": "entry",
+                  "num": "7"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w1284",
+                "r1.w1285"
+              ],
+              "boxes": [
+                {
+                  "page": 4,
+                  "bbox": [
+                    1575,
+                    527,
+                    1685,
+                    570
+                  ]
+                }
+              ]
+            },
+            "flags": [],
+            "words": [
+              "r1.w1262",
+              "r1.w1270"
+            ],
+            "boxes": [
+              {
+                "page": 4,
+                "bbox": [
+                  407,
+                  480,
+                  1411,
+                  522
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(B)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r81.rel7",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF FOOD PROCESSING INDUSTRIES"
+                },
+                {
+                  "type": "entry",
+                  "num": "8"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w1302",
+                "r1.w1303"
+              ],
+              "boxes": [
+                {
+                  "page": 4,
+                  "bbox": [
+                    838,
+                    637,
+                    950,
+                    679
+                  ]
+                }
+              ]
+            },
+            "flags": [],
+            "words": [
+              "r1.w1289",
+              "r1.w1297"
+            ],
+            "boxes": [
+              {
+                "page": 4,
+                "bbox": [
+                  416,
+                  587,
+                  1644,
+                  631
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 3,
+            "source_ref": "2(C)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r81.rel8",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF ROAD TRANSPORT AND HIGHWAYS"
+                },
+                {
+                  "type": "entry",
+                  "num": "10"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w1325",
+                "r1.w1327"
+              ],
+              "boxes": [
+                {
+                  "page": 4,
+                  "bbox": [
+                    836,
+                    748,
+                    1030,
+                    788
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "10",
+                "text": "Road works financed in whole or in part by the Central Government other than those in the North Eastern Region."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w1307",
+              "r1.w1316"
+            ],
+            "boxes": [
+              {
+                "page": 4,
+                "bbox": [
+                  414,
+                  690,
+                  1739,
+                  737
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 4,
+            "source_ref": "2(D)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r81.rel9",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF TEXTILES"
+                },
+                {
+                  "type": "entry",
+                  "num": "20"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w1366",
+                "r1.w1367"
+              ],
+              "boxes": [
+                {
+                  "page": 4,
+                  "bbox": [
+                    1773,
+                    915,
+                    1905,
+                    957
+                  ]
+                }
+              ]
+            },
+            "flags": [],
+            "words": [
+              "r1.w1357",
+              "r1.w1365"
+            ],
+            "boxes": [
+              {
+                "page": 4,
+                "bbox": [
+                  414,
+                  915,
+                  1762,
+                  957
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 5,
+            "source_ref": "2(E)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r81.rel10",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "DEPARTMENT OF DEVELOPMENT OF NORTH EASTERN REGION"
+                },
+                {
+                  "type": "entry",
+                  "range": [
+                    "1",
+                    "4"
+                  ]
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w1389",
+                "r1.w1393"
+              ],
+              "boxes": [
+                {
+                  "page": 4,
+                  "bbox": [
+                    1030,
+                    1025,
+                    1297,
+                    1069
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Matters relating to the planning, execution and monitoring of developmental schemes and projects of North L Eastern Region including those in the sectors of Power, Irrigation, Roads and Communications."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "Hill Area Development Programme and Border Areas Development Programme in North Eastern Region."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "Non-lapsable Fund for the North Eastern Region."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "North Eastern Council."
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "North East Development Finance Institution (NEDFI)."
+              },
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "North Eastern Regional Agricultural Marketing Corporation Limited (NERAMAC)."
+              },
+              {
+                "type": "entry",
+                "num": "7",
+                "text": "The Sikkim Mining Corporation Limited."
+              },
+              {
+                "type": "entry",
+                "num": "8",
+                "text": "North Eastern Handloom and Handicrafts Development Corporation (NEHHDC), Shillong."
+              },
+              {
+                "type": "entry",
+                "num": "9",
+                "text": "Road works financed in whole or in part by the Central Government in the North Eastern Region."
+              },
+              {
+                "type": "entry",
+                "num": "10",
+                "text": "Planning of Road and Inland Waterways Transport in the North Eastern Region."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w1371",
+              "r1.w1381"
+            ],
+            "boxes": [
+              {
+                "page": 4,
+                "bbox": [
+                  416,
+                  973,
+                  2004,
+                  1016
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "GOI_SO_1253E_2001",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_926_2001",
+      "fields": {
+        "number": {
+          "value": "S.O.1253 (E)"
+        },
+        "in_force": {
+          "value": "2001-12-21"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "2001-12-21",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T12:56:56.757494+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(1)(A)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r81.rel11",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Culture"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w2580",
+                "r1.w2587"
+              ],
+              "boxes": [
+                {
+                  "page": 6,
+                  "bbox": [
+                    547,
+                    3254,
+                    1554,
+                    3297
+                  ]
+                }
+              ]
+            },
+            "expect": "6A. Ministry of Culture (Sanskriti Mantralaya)",
+            "flags": [],
+            "words": [
+              "r1.w2579",
+              "r1.w2590"
+            ],
+            "boxes": [
+              {
+                "page": 6,
+                "bbox": [
+                  484,
+                  3252,
+                  1837,
+                  3298
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(1)(B)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r81.rel12",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Tourism"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w2606",
+                "r1.w2614"
+              ],
+              "boxes": [
+                {
+                  "page": 7,
+                  "bbox": [
+                    532,
+                    373,
+                    1629,
+                    414
+                  ]
+                }
+              ]
+            },
+            "expect": "32A. Ministry of Tourism (Paryatan Mantralaya)",
+            "content": [
+              {
+                "type": "ministry",
+                "num": "32A",
+                "heading": "Ministry of Tourism and Culture",
+                "heading_hi": "Paryatan aur Sanskriti Mantralaya"
+              },
+              {
+                "type": "department",
+                "num": "i",
+                "heading": "Department of Tourism",
+                "heading_hi": "Paryatan Vibhag"
+              },
+              {
+                "type": "department",
+                "num": "ii",
+                "heading": "Department of Culture",
+                "heading_hi": "Sanskriti Vibhag"
+              }
+            ],
+            "flags": [
+              "new_text_differs"
+            ],
+            "words": [
+              "r1.w2605",
+              "r1.w2614"
+            ],
+            "boxes": [
+              {
+                "page": 7,
+                "bbox": [
+                  470,
+                  373,
+                  1629,
+                  414
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 3,
+            "source_ref": "2(2)(A)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r81.rel13",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF CULTURE"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w2653",
+                "r1.w2663"
+              ],
+              "boxes": [
+                {
+                  "page": 7,
+                  "bbox": [
+                    530,
+                    716,
+                    2165,
+                    755
+                  ]
+                }
+              ]
+            },
+            "expect": "MINISTRY OF CULTURE (SANSKRITI MANTRALAYA)",
+            "flags": [],
+            "words": [
+              "r1.w2652",
+              "r1.w2665"
+            ],
+            "boxes": [
+              {
+                "page": 7,
+                "bbox": [
+                  468,
+                  716,
+                  2298,
+                  755
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 4,
+            "source_ref": "2(2)(B)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r81.rel14",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF STATISTICS AND PROGRAMME IMPLEMENTATION"
+                },
+                {
+                  "type": "entry",
+                  "num": "17"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w2683",
+                "r1.w2685"
+              ],
+              "boxes": [
+                {
+                  "page": 7,
+                  "bbox": [
+                    1526,
+                    875,
+                    1751,
+                    911
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "18",
+                "text": "The Prevention of Cruelty to Animals Act, 1960 (59 of 1960)."
+              },
+              {
+                "type": "entry",
+                "num": "19",
+                "text": "Prevention of cruelty to animals."
+              },
+              {
+                "type": "entry",
+                "num": "20",
+                "text": "Matters relating to pounds and cattle trespass."
+              },
+              {
+                "type": "entry",
+                "num": "21",
+                "text": "Gaushalas and Gausadans."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w2667",
+              "r1.w2676"
+            ],
+            "boxes": [
+              {
+                "page": 7,
+                "bbox": [
+                  467,
+                  824,
+                  2003,
+                  861
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 5,
+            "source_ref": "2(2)(C)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r81.rel15",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF TOURISM"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w2724",
+                "r1.w2735"
+              ],
+              "boxes": [
+                {
+                  "page": 7,
+                  "bbox": [
+                    465,
+                    1215,
+                    2234,
+                    1257
+                  ]
+                }
+              ]
+            },
+            "expect": "MINISTRY OF TOURISM (PARYATAN MANTRALAYA)",
+            "content": [
+              {
+                "type": "ministry",
+                "heading": "MINISTRY OF TOURISM AND CULTURE",
+                "heading_hi": "PARYATAN AUR SANSKRITI MANTRALAYA"
+              },
+              {
+                "type": "department",
+                "num": "A",
+                "heading": "DEPARTMENT OF TOURISM",
+                "heading_hi": "PARYATAN VIBHAG"
+              },
+              {
+                "type": "paragraph",
+                "text": "Development of Tourism."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "India Tourism Development Corporation and public Sector Hotels or Motels thereunder."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "Inquiries and Statistics for the purpose of any of the matters specified in this list."
+              },
+              {
+                "type": "department",
+                "num": "B",
+                "heading": "DEPARTMENT OF CULTURE",
+                "heading_hi": "SANSKRITI VIBHAG"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "National Library; the Indian Museum; the Indian War Memorial Museum; the Victoria Memorial, the Asiatic Society, Kolkata and the India War Memorial and all other like institutions financed by the Government of India wholly or in part and declared by Parliament by law to be institutions of national importance"
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "National Research Laboratory for Conservation of Cultural Property, Lucknow. Archacology, Archaeological Museums."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "The Ancient Monuments and Archaeological Sites and Remains Act, 1958 (24 of 1958) and the Ancient Monuments Preservation Act, 1904 (7 of 1904)."
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "Grants of Universities and Research Institutions for excavation and exploration of Historical and Archaeological remains."
+              },
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "International Conventions for the protection of cultural property in the event of armed conflict."
+              },
+              {
+                "type": "entry",
+                "num": "7",
+                "text": "History of Freedom Movement."
+              },
+              {
+                "type": "entry",
+                "num": "8",
+                "text": "Jallianwala Bagh National Memorial Trust."
+              },
+              {
+                "type": "entry",
+                "num": "9",
+                "text": "Administration of Gandhi Smriti and Gandhi Darshan"
+              },
+              {
+                "type": "entry",
+                "num": "10",
+                "text": "The delivery of Books and News Papers (Public Libraries) Act, 1954 (27 of 1954) and the Press and Registration of Books Act, 1867 (25 of 1867) (in so far as supply of books and catalogues to the Central Government is concerned)."
+              },
+              {
+                "type": "entry",
+                "num": "11",
+                "text": "Promotion of fine arts."
+              },
+              {
+                "type": "entry",
+                "num": "12",
+                "text": "Sahitya, Lalit Kala and Sangeet Natak Academics."
+              },
+              {
+                "type": "entry",
+                "num": "13",
+                "text": "The Central Secretariat Library; Central Reference Library, Calcutta; Rampur Raza Library, Rampur, Delhi J public Library, India Office Library; National Museum, New Delhi; Salar Jung Museum and Library. Hyderabad ; Khudabux Oriental Public Library; Nehru Memorial Museum and Library, Gandhi Darshan Samiti; National Gallery of Portraits, National School of Drama, New Delhi; Centre for Cultural Resources and Training, New Delhi; Raja Rammohan Roy Library Foundation, Kolkata; Allahabad Museum, Allahabad; General Development of Museums."
+              },
+              {
+                "type": "entry",
+                "num": "14",
+                "text": "Museum of Gems and Jewellery."
+              },
+              {
+                "type": "entry",
+                "num": "15",
+                "text": "National Gallery of Modern Art, New Delhi."
+              },
+              {
+                "type": "entry",
+                "num": "16",
+                "text": "Acquisition of Indian and Foreign Art objects."
+              },
+              {
+                "type": "entry",
+                "num": "17",
+                "text": "Treasure Trove; the Antiquities and Art Treasures Act, 1972 (52 of 1972) and Export of antiquities."
+              },
+              {
+                "type": "entry",
+                "num": "18",
+                "text": "Open air theatres in rural areas and theatres in State capitals. 8 [PART II ---- SEC. 3 (ii)]"
+              },
+              {
+                "type": "entry",
+                "num": "19",
+                "text": "Financial assistance to authors and artists or their survivors in indigent circumstances, other than those belonging to the categories covered under the scheme of the Ministry of Information and Broadcasting (Soochana aur Prasaran Mantralaya)."
+              },
+              {
+                "type": "entry",
+                "num": "20",
+                "text": "Charities and Charitable institutions. Charities and Religious Endowments pertaining to subjects dealt within this Department."
+              },
+              {
+                "type": "entry",
+                "num": "21",
+                "text": "Scholarships, including those offered by foreign Government and foreign agencies, in respect of subjects dealt with by this Department."
+              },
+              {
+                "type": "entry",
+                "num": "22",
+                "text": "Publication of rare manuscripts."
+              },
+              {
+                "type": "entry",
+                "num": "23",
+                "text": "Grants to all-India Cultural Institutions."
+              },
+              {
+                "type": "entry",
+                "num": "24",
+                "text": "Grants to Indo-foreign Cultural Societies."
+              },
+              {
+                "type": "entry",
+                "num": "25",
+                "text": "Cultural agreements and friendship treaties with foreign countries."
+              },
+              {
+                "type": "entry",
+                "num": "26",
+                "text": "Distribution of gift books received from abroad."
+              },
+              {
+                "type": "entry",
+                "num": "27",
+                "text": "Appointment of Cultural Attaches abroad."
+              },
+              {
+                "type": "entry",
+                "num": "28",
+                "text": "Visit of Cultural Delegations, etc. to India, sponsored and unsponsored."
+              },
+              {
+                "type": "entry",
+                "num": "29",
+                "text": "Individuals (including cultural lecturers) sponsored by Government for visits abroad. ("
+              },
+              {
+                "type": "entry",
+                "num": "30",
+                "text": "Presentation of books to foreign countries."
+              },
+              {
+                "type": "entry",
+                "num": "31",
+                "text": "Establishment of libraries abroad."
+              },
+              {
+                "type": "entry",
+                "num": "32",
+                "text": "Translation of Indian classics into foreign languages."
+              },
+              {
+                "type": "entry",
+                "num": "33",
+                "text": "Exchange of official publications with foreign Governments and institutions and agreements for such cxchanges."
+              },
+              {
+                "type": "entry",
+                "num": "34",
+                "text": "Presentation of Indian art objects abroad."
+              },
+              {
+                "type": "entry",
+                "num": "35",
+                "text": "Admission of Foreign students in Cultural Institutions."
+              },
+              {
+                "type": "entry",
+                "num": "36",
+                "text": "Exchange of artists, dancers, musicians, etc. under the Cultural Exchange Programmes."
+              },
+              {
+                "type": "entry",
+                "num": "37",
+                "text": "Revision of Gazetters."
+              },
+              {
+                "type": "entry",
+                "num": "38",
+                "text": "Observance of Centenaries and anniversaries of important personalitics."
+              },
+              {
+                "type": "entry",
+                "num": "39",
+                "text": "Publication information and statistics relating to subjects dealt with by this Department."
+              },
+              {
+                "type": "entry",
+                "num": "40",
+                "text": "International Congress of Orientalists."
+              },
+              {
+                "type": "entry",
+                "num": "41",
+                "text": "Anthropological Survey of India."
+              },
+              {
+                "type": "entry",
+                "num": "42",
+                "text": "National Archives of India."
+              },
+              {
+                "type": "entry",
+                "num": "43",
+                "text": "Indira Gandhi Rashtriya Manav Sangrahalaya."
+              },
+              {
+                "type": "entry",
+                "num": "44",
+                "text": "National Council of Science Museums, Calcutta."
+              },
+              {
+                "type": "entry",
+                "num": "45",
+                "text": "All other attached or subordinate offices or other organisations concerned with any of the subjects specified in this list."
+              },
+              {
+                "type": "entry",
+                "num": "46",
+                "text": "Rabindra Rangshalla."
+              },
+              {
+                "type": "entry",
+                "num": "47",
+                "text": "Zonal Cultural Centres."
+              },
+              {
+                "type": "entry",
+                "num": "48",
+                "text": "National Council of Culture."
+              },
+              {
+                "type": "entry",
+                "num": "49",
+                "text": "Indira Gandhi National Centre for Arts (IGNCA)."
+              },
+              {
+                "type": "entry",
+                "num": "50",
+                "text": "National Theatre."
+              }
+            ],
+            "flags": [
+              "read_page_break"
+            ],
+            "words": [
+              "r1.w2723",
+              "r1.w2735"
+            ],
+            "boxes": [
+              {
+                "page": 7,
+                "bbox": [
+                  396,
+                  1215,
+                  2234,
+                  1257
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

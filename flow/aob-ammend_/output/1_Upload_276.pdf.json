@@ -1,0 +1,526 @@
+{
+  "file": {
+    "name": "1_Upload_276.pdf",
+    "file_id": "f_347a32e47bda6d5c",
+    "pages": 6,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_276.pdf",
+    "sha256": "347a32e47bda6d5c8d28ca8d069e4f19324f620821c8324d2dd5f073cbbfd509",
+    "govdoc": "1_Upload_276.pdf.govdoc.json.zst",
+    "revision": 109
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_427E_1997",
+      "doc_type": "aob_amendment",
+      "parent": "GAZETTE_ISSUE_347a32e47bda6d5c",
+      "fields": {
+        "number": {
+          "value": "S.O. 427 (E)"
+        },
+        "in_force": {
+          "value": "1997-06-04"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "1997-06-04",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T12:55:38.682516+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(1)(a)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r73.rel1",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Civil Supplies Consumer Affairs & Public Distribution"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w1112",
+                "r1.w1135"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    556,
+                    2621,
+                    2224,
+                    2711
+                  ]
+                }
+              ]
+            },
+            "expect": "4. Ministry of Civil Supplies Consumer Affairs & Public Distribution (Nagarik Poorti aur Sarvajanik Vitaran Mantralaya )",
+            "content": [
+              {
+                "type": "ministry",
+                "num": "4",
+                "heading": "Ministry of Food and Consumer Affairs",
+                "heading_hi": "Khadya aur Upbhokta Mamle Mantralaya"
+              },
+              {
+                "type": "department",
+                "num": "i",
+                "heading": "Department of Consumer Affairs",
+                "heading_hi": "Upbhokta Mamle Vibhag"
+              },
+              {
+                "type": "department",
+                "num": "ii",
+                "heading": "Department of Food and Civil Supplies",
+                "heading_hi": "Khadya aur Nagarik Poorti Vibhag"
+              },
+              {
+                "type": "department",
+                "num": "iii",
+                "heading": "Department of Sugar and Edible Oils",
+                "heading_hi": "Sarkara aur Khadya Tel Vibhag"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w1100",
+              "r1.w1123"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  465,
+                  2621,
+                  1965,
+                  2666
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(1)(b)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r73.rel2",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Food"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w1203",
+                "r1.w1213"
+              ],
+              "boxes": [
+                {
+                  "page": 4,
+                  "bbox": [
+                    554,
+                    392,
+                    1986,
+                    430
+                  ]
+                }
+              ]
+            },
+            "expect": "12. Ministry of Food (Khadya Mantralaya)",
+            "flags": [],
+            "words": [
+              "r1.w1202",
+              "r1.w1216"
+            ],
+            "boxes": [
+              {
+                "page": 4,
+                "bbox": [
+                  461,
+                  392,
+                  2220,
+                  430
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 3,
+            "source_ref": "2(2)(a)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r73.rel3",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF CIVIL SUPPLIES, CONSUMER AFFAIRS AND PUBLIC DISTRIBUTION"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w1225",
+                "r1.w1247"
+              ],
+              "boxes": [
+                {
+                  "page": 4,
+                  "bbox": [
+                    556,
+                    551,
+                    2219,
+                    685
+                  ]
+                }
+              ]
+            },
+            "expect": "MINISTRY OF CIVIL SUPPLIES, CONSUMER AFFAIRS AND PUBLIC DISTRIBU- TION (NAGARIK POORTI, UPBHOKTA MAMLE AUR SARVAJANIK VITARAN MANTRALAYA)",
+            "content": [
+              {
+                "type": "ministry",
+                "heading": "MINISTRY OF FOOD AND CONSUMER AFFAIRS",
+                "heading_hi": "KHADYA AUR UPBHOKTA MAMLE MANTRALAYA"
+              },
+              {
+                "type": "department",
+                "num": "A",
+                "heading": "DEPARTMENT OF FOOD AND CIVIL SUPPLIES",
+                "heading_hi": "KHADYA AUR NAGARIK POORTI VIBHAG"
+              },
+              {
+                "type": "paragraph",
+                "text": "Participation in international conferences, Associations and other bodies concerning food, i.e. International Wheat Council, World Food Council, International Food Policy Research Institute, Commission/Committee on Food Security and implementation of decisions made thereat."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "Entering into treaties and agreements with foreign countries and implementing treaties, agreements, conventions with foreign countries relating to trade and commerce in foodgrains and other foodstuffs."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "Hiring and acquisition of godowns for storage of foodgrains including sugar, taking on lease or acquiring land for construction of foodgrains godowns."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "Matters relating to subordinate and attached offices under this Department."
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "Matters relating to the Food Corporation of India and the Central Warehousing Corporation."
+              },
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "Offences against laws with respect to any of the subjects allotted to this Department."
+              },
+              {
+                "type": "entry",
+                "num": "7",
+                "text": "Enquiries and Statistics for the purpose of any of the subjects allotted to this Department."
+              },
+              {
+                "type": "entry",
+                "num": "8",
+                "text": "Fees in respect of any of the subjects allotted to this Department except fees taken in a court."
+              },
+              {
+                "type": "entry",
+                "num": "9",
+                "text": "Purchase of foodstuffs for civil requirements and their disposal and also for military requirements of sugar, rice and wheat."
+              },
+              {
+                "type": "entry",
+                "num": "10",
+                "text": "Inter-State trade and commerce in respect of foodgrains and other foodstuffs."
+              },
+              {
+                "type": "entry",
+                "num": "11",
+                "text": "Trade and commerce in, and supply and distribution of foodgrains."
+              },
+              {
+                "type": "entry",
+                "num": "12",
+                "text": "Trade and commerce in, and the production, supply and distribution of foodstuffs other than foodgrains."
+              },
+              {
+                "type": "entry",
+                "num": "13",
+                "text": "Price control of foodgrains and foodstuffs."
+              },
+              {
+                "type": "entry",
+                "num": "14",
+                "text": "Matters relating to the Food Corporation of India."
+              },
+              {
+                "type": "entry",
+                "num": "15",
+                "text": "Public Distribution System."
+              },
+              {
+                "type": "entry",
+                "num": "16",
+                "text": "Essential Commodities Act, 1955 and Prevention of Black Marketing and Maintenance of Supplies of Essential Commodities Act, 1980, in so far as foodgrains are concerned."
+              },
+              {
+                "type": "entry",
+                "num": "17",
+                "text": "Offences against laws with respect to any of the subject allotted to this Department."
+              },
+              {
+                "type": "entry",
+                "num": "18",
+                "text": "Enquiries and Statistics for the purpose of any subject allotted to this Department."
+              },
+              {
+                "type": "department",
+                "num": "B",
+                "heading": "DEPARTMENT OF CONSUMER AFFAIRS",
+                "heading_hi": "UPBHOKTA MAMLE VIBHAG"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Internal Trade."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "Inter-State Trade: the Spirituous Preparations (Inter-State Trade and Commerce) Control Act, 1955 (39 of 1955)."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "Control of Future Trading: the Forward Contracts (Regulation) Act, 1952 (74 of 1952)."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "The Essential Commodities Act, 1955 (10 of 1955) (Supply, Price and Distribution of Essential Commodities not dealt with specifically by any other Ministry/Department)."
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "Prevention of Blackmarketing and Maintenance of Supplies of Essential Commodities, 1980 (7 of 1980) persons subjected to detention thereunder."
+              },
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "Regulation of Packaged Commodities."
+              },
+              {
+                "type": "entry",
+                "num": "7",
+                "text": "Training in Legal Meterology."
+              },
+              {
+                "type": "entry",
+                "num": "8",
+                "text": "Emblems and Names (Prevention of Improper Use) Act, 1952 (12 of 1952)."
+              },
+              {
+                "type": "entry",
+                "num": "9",
+                "text": "Standards of Weights & Measures. The Standards of Weight & Measures Act, 1976 (60 of 1976)."
+              },
+              {
+                "type": "entry",
+                "num": "10",
+                "text": "The Bureau of Indian Standards Act, 1986 (63 of 1986)."
+              },
+              {
+                "type": "entry",
+                "num": "11",
+                "text": "All attached or subordinate Offices or other organisations concerned with any of the subjects specified in this list including the Forward Markets Commission, Bombay. 5"
+              },
+              {
+                "type": "entry",
+                "num": "12",
+                "text": "Consumer Cooperatives."
+              },
+              {
+                "type": "entry",
+                "num": "13",
+                "text": "Monitoring of prices and availability of essential commodities."
+              },
+              {
+                "type": "entry",
+                "num": "14",
+                "text": "The Consumer Protection Act, 1986 (68 of 1986)."
+              },
+              {
+                "type": "department",
+                "num": "C",
+                "heading": "DEPARTMENT OF SUGAR AND EDIBLE OILS",
+                "heading_hi": "SARKARA AUR KHADYA TEL VIBHAG"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Industries the control of which by the Union is declared by Parliament by law to be expedient in public interest, as far as these relate to Vanaspati, Oilseeds, Vegetable Oils, Cakes and Fats."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "Price Control of and inter-state trade and commerce in and supply and distribution of Vanaspati, Oilseeds, Vegetable Oils, Cakes and Fats."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "Directorate of Vanaspati, Vegetable Oils and Fats."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "Industries, the control of which by the Union is declared by Parliament by law to be expedient in public interest, as far as these relates to Sugar Industry (including development of Sugar Khandsari)."
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "Inter-state Trade and Commerce in respect of Sugar."
+              },
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "Directorate of Sugar, New Delhi."
+              },
+              {
+                "type": "entry",
+                "num": "7",
+                "text": "National Sugar Institute, Kanpur."
+              },
+              {
+                "type": "entry",
+                "num": "8",
+                "text": "National Institute of Sugar and Sugarcane Technology, Mau."
+              },
+              {
+                "type": "entry",
+                "num": "9",
+                "text": "Matters relating to the Development Council of Sugar Industry, New Delhi."
+              },
+              {
+                "type": "entry",
+                "num": "10",
+                "text": "International Sugar Council."
+              },
+              {
+                "type": "entry",
+                "num": "11",
+                "text": "Sugar Development Fund."
+              },
+              {
+                "type": "entry",
+                "num": "12",
+                "text": "Trade and Commerce in, and the production, supply and distribution of sugar."
+              },
+              {
+                "type": "entry",
+                "num": "13",
+                "text": "Price Control of Sugar."
+              }
+            ],
+            "flags": [
+              "read_page_break"
+            ],
+            "words": [
+              "r1.w1223",
+              "r1.w1235"
+            ],
+            "boxes": [
+              {
+                "page": 4,
+                "bbox": [
+                  462,
+                  551,
+                  2219,
+                  588
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 4,
+            "source_ref": "2(2)(b)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r73.rel4",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF FOOD"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w1946",
+                "r1.w1960"
+              ],
+              "boxes": [
+                {
+                  "page": 5,
+                  "bbox": [
+                    387,
+                    1614,
+                    2306,
+                    1652
+                  ]
+                }
+              ]
+            },
+            "expect": "MINISTRY OF FOOD (KHADYA MANTRALAYA)",
+            "flags": [],
+            "words": [
+              "r1.w1945",
+              "r1.w1956"
+            ],
+            "boxes": [
+              {
+                "page": 5,
+                "bbox": [
+                  304,
+                  1614,
+                  1962,
+                  1652
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

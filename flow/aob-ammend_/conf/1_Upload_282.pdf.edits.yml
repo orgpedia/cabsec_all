@@ -1,0 +1,21 @@
+# A person's changes to 1_Upload_282.pdf (GovDoc §8.3), one record per action, in order. Written by
+# GovDoc Studio and brought into the GovDoc file by the pipeline before it runs (Pipeline §P9).
+file: 1_Upload_282.pdf
+file_id: f_3a6c292496e9300f
+next: 4
+runs:
+- id: h1
+  by: claude
+  at: '2026-11-12T05:04:00Z'
+  edits:
+  - {op: text, target: r1.w2775, before: {text: '(Bu'}, after: {text: '(Bhu'}}
+- id: h2
+  by: claude
+  at: '2026-11-12T05:05:00Z'
+  edits:
+  - {op: text, target: r1.w2776, before: {text: 'CA-Sahan'}, after: {text: 'Sansadhan'}}
+- id: h3
+  by: claude
+  at: '2026-11-12T05:06:00Z'
+  edits:
+  - {op: text, target: r1.w2777, before: {text: 'Vithag)":'}, after: {text: 'Vibhag)":'}}

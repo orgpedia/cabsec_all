@@ -1,0 +1,114 @@
+{
+  "file": {
+    "name": "1_Upload_306.pdf",
+    "file_id": "f_b4a452f838eda107",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_306.pdf",
+    "sha256": "b4a452f838eda107889dd831132dfaccae59766fa7e340a8d91dbd88cab7617b",
+    "govdoc": "1_Upload_306.pdf.govdoc.json.zst",
+    "revision": 113
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_1238E_2002",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_1005_2002",
+      "fields": {
+        "number": {
+          "value": "S.O. 1238(E)"
+        },
+        "in_force": {
+          "value": "2002-11-27"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "2002-11-27",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T12:56:56.720296+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r76.rel1",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Commerce and Industry"
+                },
+                {
+                  "type": "department",
+                  "heading": "Department of Commerce"
+                },
+                {
+                  "type": "group_heading",
+                  "heading": "IV"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w369",
+                "r1.w375"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    594,
+                    653,
+                    1319,
+                    700
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "V Special Economic Zones"
+              },
+              {
+                "type": "entry",
+                "num": "22",
+                "text": "All matters relating to development, operation and maintenance of special economic zones and units in special economic zones, including export and import policy. fiscal regime, investment policy, other economic policy and regulatory framework."
+              }
+            ],
+            "flags": [
+              "read_quote_mismatch"
+            ],
+            "words": [
+              "r1.w315",
+              "r1.w343"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  424,
+                  553,
+                  1561,
+                  605
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

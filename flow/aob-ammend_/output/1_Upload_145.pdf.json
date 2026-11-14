@@ -1,0 +1,165 @@
+{
+  "file": {
+    "name": "1_Upload_145.pdf",
+    "file_id": "f_eaf42d315bd50bb8",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_145.pdf",
+    "sha256": "eaf42d315bd50bb8f588588871a3f4d68eadd1fd90026d4d848beee9f084fbf7",
+    "govdoc": "1_Upload_145.pdf.govdoc.json.zst",
+    "revision": 46
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_205E_1975",
+      "doc_type": "aob_amendment",
+      "parent": "GAZETTE_ISSUE_eaf42d315bd50bb8",
+      "fields": {
+        "number": {
+          "value": null
+        },
+        "in_force": {
+          "value": "1975-05-16"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "1975-05-16",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T13:50:04.613981+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(A)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r10.rel1",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF EXTERNAL AFFAIRS"
+                },
+                {
+                  "type": "entry",
+                  "num": "17"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w107",
+                "r1.w108"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    1530,
+                    1621,
+                    1785,
+                    1674
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "17",
+                "text": "Relations with States in special Treaty relations with India such as Bhutan."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w96",
+              "r1.w103"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  629,
+                  1568,
+                  2159,
+                  1624
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(B)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r10.rel2",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF HOME AFFAIRS"
+                },
+                {
+                  "type": "entry",
+                  "num": "124"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w141",
+                "r1.w142"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    1529,
+                    1990,
+                    1843,
+                    2042
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "#125. Matters relating to the State of Sikkim."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w129",
+              "r1.w136"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  630,
+                  1933,
+                  2037,
+                  1989
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

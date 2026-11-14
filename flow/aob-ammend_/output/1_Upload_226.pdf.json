@@ -1,0 +1,873 @@
+{
+  "file": {
+    "name": "1_Upload_226.pdf",
+    "file_id": "f_5973bb96ce92d377",
+    "pages": 6,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_226.pdf",
+    "sha256": "5973bb96ce92d377bb524b8b5bc64db0be34101eaf835c0490621ef2ad4bf8b2",
+    "govdoc": "1_Upload_226.pdf.govdoc.json.zst",
+    "revision": 118
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_797E_1986",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_440_1986",
+      "fields": {
+        "number": {
+          "value": "S.O. 797(E)"
+        },
+        "in_force": {
+          "value": "1986-10-29"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "1986-10-29",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T12:55:58.576329+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(1)(a)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r81.rel1",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Agriculture"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w1436",
+                "r1.w1449"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    291,
+                    2293,
+                    1126,
+                    2421
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "ministry",
+                "num": "1A",
+                "heading": "Ministry of Civil Aviation",
+                "heading_hi": "Nagar Vimanan Mantralaya"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w1435",
+              "r1.w1442"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  218,
+                  2293,
+                  1126,
+                  2340
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(1)(b)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r81.rel2",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Programme Implementation"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w1468",
+                "r1.w1478"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    292,
+                    2586,
+                    1125,
+                    2714
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "ministry",
+                "num": "21A",
+                "heading": "Ministry of Railways Railway Board (Rail Board)",
+                "heading_hi": "Rail Mantralaya"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w1467",
+              "r1.w1474"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  217,
+                  2586,
+                  1125,
+                  2634
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 3,
+            "source_ref": "2(1)(c)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r81.rel3",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Steel and Mines"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w1497",
+                "r1.w1513"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    305,
+                    2873,
+                    1126,
+                    2998
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "ministry",
+                "num": "23A",
+                "heading": "Ministry of Surface Transport",
+                "heading_hi": "Jal- - Bhootal Pariwahan Mantralaya"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w1496",
+              "r1.w1504"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  225,
+                  2873,
+                  1125,
+                  2916
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 4,
+            "source_ref": "2(1)(d)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r81.rel4",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Transport"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w1534",
+                "r1.w1547"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    1378,
+                    247,
+                    2212,
+                    367
+                  ]
+                }
+              ]
+            },
+            "expect": "25. Ministry of Transport (Pa- riwahan Mantralaya)",
+            "flags": [],
+            "words": [
+              "r1.w1533",
+              "r1.w1540"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  1307,
+                  247,
+                  2209,
+                  288
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 5,
+            "source_ref": "2(2)(a)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r81.rel5",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Agriculture"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w1557",
+                "r1.w1569"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    1375,
+                    469,
+                    2210,
+                    598
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "ministry",
+                "heading": "Ministry of Civil Aviation",
+                "heading_hi": "Nagar Vimanan Mantralaya"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Aircraft and air navigation; provision of acrodromes; regulation and organisation. of air traffic and of aerodromes excepting sanitary Control of air navigation."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "Beacons and other provisions of the safety of aircraft."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "Carriage of passengers and goods by air."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "International Civil Aviation Organisation (ICAO)."
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "International Air Transport Association (IATA)."
+              },
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "Commonwealth Air Transport Council (CATC)."
+              },
+              {
+                "type": "entry",
+                "num": "7",
+                "text": "Commonwealth Advisory Aeronautical Research Council (CAARC)."
+              },
+              {
+                "type": "entry",
+                "num": "8",
+                "text": "Corporations established under the Air Corporations Act, 1953 (27 of 1953)."
+              },
+              {
+                "type": "entry",
+                "num": "9",
+                "text": "Hótel Corporation of India."
+              },
+              {
+                "type": "entry",
+                "num": "10",
+                "text": "Chief Commissioner of Railway Safety."
+              },
+              {
+                "type": "entry",
+                "num": "11",
+                "text": "International Airports Authority of India."
+              },
+              {
+                "type": "entry",
+                "num": "12",
+                "text": "Offences aaginst laws with respect to any of the matters specified in this list."
+              },
+              {
+                "type": "entry",
+                "num": "13",
+                "text": "Inquiries and statistics for the purpose of any of the matters specified in this list."
+              },
+              {
+                "type": "entry",
+                "num": "14",
+                "text": "Fees in respect of any of the matters specified in this list but not including fees taken in any court."
+              },
+              {
+                "type": "entry",
+                "num": "15",
+                "text": "Implementation of treaties and agreements relating to any of the matters specified in this list."
+              },
+              {
+                "type": "entry",
+                "num": "16",
+                "text": "Helicopter Corporation of India."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w1556",
+              "r1.w1562"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  1306,
+                  469,
+                  2210,
+                  516
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 6,
+            "source_ref": "2(2)(b)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r81.rel6",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Programm: Implementation"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w1757",
+                "r1.w1770"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    1372,
+                    2452,
+                    2208,
+                    2581
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "ministry",
+                "heading": "Ministry of Railways (Rail Mantralaya), Kailway Board (Rail Board)"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Government Railways-All matters, including those relating to Railway revenues and expenditure, but excluding Railway Inspectorate and Railway Audit."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "Non-Government Railways-Matters in so far as provision for control by the Ministry of Railways (Rail Mantralava) Railway Board (Rail Board) is provided in the Indian Railways Act, 1890 or in the IV. Other subjects which have not been included contracts between the Government and the Railways, or in any other statutory enactments, namely, regulations in respect of safely, maximum and minimum rates and fares, etc."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "Parliament Questions regarding offences relating to pilferage of railway property ether than oflences relating to crime on Government Railways and Non-Government Railways."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "Administration of pension rules applicable to railway employees."
+              }
+            ],
+            "flags": [
+              "read_page_break"
+            ],
+            "words": [
+              "r1.w1756",
+              "r1.w1762"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  1299,
+                  2452,
+                  2201,
+                  2501
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 7,
+            "source_ref": "2(2)(c)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r81.rel7",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Steel and Mines"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w1912",
+                "r1.w1928"
+              ],
+              "boxes": [
+                {
+                  "page": 4,
+                  "bbox": [
+                    371,
+                    845,
+                    1201,
+                    971
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "ministry",
+                "heading": "Ministry of Surface Transport",
+                "heading_hi": "Jal-Bhootal Pariwahan Mantralaya"
+              },
+              {
+                "type": "group_heading",
+                "num": "I",
+                "text": "The following subjects will fall within list I of the 7th Schedule to the Constitution of India :"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Maritime shipping and navigation; provision of education and training for the merchantile marine."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "Lighthouses and lightships."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "Administration of the Indian Ports Act. 1908 (15 of 1908) and ports declared as major ports."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "Compulsory insurance of notor vehicles."
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "Administration of the Road Transport Corporations Act, 1950 (64 of 1950)."
+              },
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "Highways declared by or under law made by Parliament to be national highways."
+              },
+              {
+                "type": "entry",
+                "num": "7",
+                "text": "Shipping and navigation including carriage of passengers and goods on inland waterways declared by Parliament by law to be national waterways as regards mechanically propelled vessels, the rule of the road on such waterways."
+              },
+              {
+                "type": "entry",
+                "num": "8",
+                "text": "Ship-building and Ship-repair industry."
+              },
+              {
+                "type": "entry",
+                "num": "9",
+                "text": "Fishing vessels Industry."
+              },
+              {
+                "type": "entry",
+                "num": "10",
+                "text": "Floating craft industry."
+              },
+              {
+                "type": "group_heading",
+                "num": "IJ",
+                "text": "In respect of the Union Territories:"
+              },
+              {
+                "type": "entry",
+                "num": "11",
+                "text": "Roads other than National Highways.."
+              },
+              {
+                "type": "entry",
+                "num": "12",
+                "text": "Tramways within municipal limits."
+              },
+              {
+                "type": "entry",
+                "num": "13",
+                "text": "Inland waterways and traffic thereon."
+              },
+              {
+                "type": "entry",
+                "num": "14",
+                "text": "Administration of the Motor Vehicles Act, 1 1939 (4 of 1939) and taxation of motor vehicles."
+              },
+              {
+                "type": "entry",
+                "num": "15",
+                "text": "Vehicles other than mechanically propelled vehicles."
+              },
+              {
+                "type": "group_heading",
+                "num": "III",
+                "text": "In respect of the Union territories of the Anda-/ man and Nicobar and Lakshadweep Islands: ।"
+              },
+              {
+                "type": "entry",
+                "num": "16",
+                "text": "Organisation and maintenance of mainand islands and inter-island shipping services. under the previous sub-heads :"
+              },
+              {
+                "type": "entry",
+                "num": "17",
+                "text": "Central Road Fund."
+              },
+              {
+                "type": "entry",
+                "num": "18",
+                "text": "Coordination and Research pertaining to Road Works."
+              },
+              {
+                "type": "entry",
+                "num": "19",
+                "text": "Road works financed in whole or in part by the Central Government other than rural roads and the road works in the tribal areas of Assam specified in Parts I and II of the Table appended to paragraph 20 of the Sixth Schedule to the Constitution."
+              },
+              {
+                "type": "entry",
+                "num": "20",
+                "text": "Motor vehicles legislation."
+              },
+              {
+                "type": "entry",
+                "num": "21",
+                "text": "Legislation relating to shipping and navigation on inland waterways as regar's mechanically propelled vessels and the carriage of passengers and goods on inland waterways."
+              },
+              {
+                "type": "entry",
+                "num": "22",
+                "text": "Planning of Road and inland waterways Transport."
+              },
+              {
+                "type": "entry",
+                "num": "23",
+                "text": "Promotion of Transport Cooperatives in the field of motor transport and inland water transport."
+              },
+              {
+                "type": "entry",
+                "num": "24",
+                "text": "Development of townships of Gandhidham."
+              },
+              {
+                "type": "entry",
+                "num": "25",
+                "text": "Legislation relating to and co-ordination of the development of minor ports."
+              },
+              {
+                "type": "entry",
+                "num": "26",
+                "text": "Centralised arrangements for the servicing and repairs of staff cars belonging to the Central Government, except those under the control and use of Ministry of Railways (Rail Mantralaya) and the Department of Atomic Energy (Parmanu Oorja Vibhag)."
+              },
+              {
+                "type": "entry",
+                "num": "27",
+                "text": "Administration of the Dock Workers (Rcgulation of Employment) Act, 1948 (9 of 1948) and the Schemes framed thereunder other than the Dock Workers (Safety, Health and Welfare) Scheme, 1961."
+              },
+              {
+                "type": "entry",
+                "num": "28",
+                "text": "National Institute of Port Management."
+              },
+              {
+                "type": "entry",
+                "num": "29",
+                "text": "Minor Ports Survey Organisation."
+              },
+              {
+                "type": "entry",
+                "num": "30",
+                "text": "Shipping Corporation of India."
+              },
+              {
+                "type": "entry",
+                "num": "31",
+                "text": "Mogul Lines Limited."
+              },
+              {
+                "type": "entry",
+                "num": "32",
+                "text": "Cochin Shipyard Limited."
+              },
+              {
+                "type": "entry",
+                "num": "33",
+                "text": "Hindustan Shipyard Limited."
+              },
+              {
+                "type": "entry",
+                "num": "34",
+                "text": "Dredging Corporation of India."
+              },
+              {
+                "type": "entry",
+                "num": "35",
+                "text": "Central Inland Water Transport Corporation."
+              },
+              {
+                "type": "entry",
+                "num": "36",
+                "text": "Indian Roads Construction Corporation."
+              },
+              {
+                "type": "entry",
+                "num": "37",
+                "text": "Delhi Transport Corporation."
+              },
+              {
+                "type": "entry",
+                "num": "38",
+                "text": "Hoogbly. Dock and Port Engineers. Ltd."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w1836",
+              "r1.w1919"
+            ],
+            "boxes": [
+              {
+                "page": 4,
+                "bbox": [
+                  268,
+                  845,
+                  1201,
+                  886
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 8,
+            "source_ref": "2(2)(d)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r81.rel8",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Transport"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w2440",
+                "r1.w2452"
+              ],
+              "boxes": [
+                {
+                  "page": 4,
+                  "bbox": [
+                    1463,
+                    3019,
+                    2292,
+                    3149
+                  ]
+                }
+              ]
+            },
+            "expect": "Ministry of Transport (Pariwa- han Mantralaya\")",
+            "flags": [],
+            "words": [
+              "r1.w2439",
+              "r1.w2445"
+            ],
+            "boxes": [
+              {
+                "page": 4,
+                "bbox": [
+                  1389,
+                  3019,
+                  2292,
+                  3072
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 9,
+            "source_ref": "2(2)(e)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r81.rel9",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Urban Development"
+                },
+                {
+                  "type": "entry",
+                  "num": "14"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w2479",
+                "r1.w2481"
+              ],
+              "boxes": [
+                {
+                  "page": 5,
+                  "bbox": [
+                    373,
+                    322,
+                    1180,
+                    405
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "14A",
+                "text": "Planning and Coordination of urban transport systems, with technical planning of road based systems being subject to items 22 and 23 under the Ministry of Surface Transport (Jal-Bhootal Pariwahan Mantralaya) and technical planning of rail 1037 GI/86-2 - i based systems being subject to items 1 and 2 under the Ministry of Railways (Rail Mantralaya), Railway Board (Rail Board)."
+              }
+            ],
+            "flags": [
+              "read_page_break"
+            ],
+            "words": [
+              "r1.w2467",
+              "r1.w2474"
+            ],
+            "boxes": [
+              {
+                "page": 5,
+                "bbox": [
+                  271,
+                  280,
+                  1180,
+                  318
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

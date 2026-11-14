@@ -1,0 +1,372 @@
+{
+  "file": {
+    "name": "1_Upload_87.pdf",
+    "file_id": "f_f52a73fe9843c92b",
+    "pages": 4,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_87.pdf",
+    "sha256": "f52a73fe9843c92b9cb8f5d8b448e19b6c4cf1916695ab625f6b54f923143f4f",
+    "govdoc": "1_Upload_87.pdf.govdoc.json.zst",
+    "revision": 46
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_2839_1966",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_300_1966",
+      "fields": {
+        "number": {
+          "value": "S.O. 2839"
+        },
+        "in_force": {
+          "value": "1966-09-20"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "1966-09-20",
+          "basis": "stated"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T13:50:11.159820+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "(A)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r10.rel1",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "entry",
+                  "num": "19"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w178",
+                "r1.w184"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    379,
+                    2144,
+                    1014,
+                    2178
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "ministry",
+                "num": "19",
+                "heading": "Ministry of Transport and Aviation :"
+              },
+              {
+                "type": "department",
+                "num": "i",
+                "heading": "Department of Aviation and Tourism."
+              },
+              {
+                "type": "department",
+                "num": "ii",
+                "heading": "Department of Transport and Shipping."
+              }
+            ],
+            "flags": [
+              "read_hindi_missing"
+            ],
+            "words": [
+              "r1.w177",
+              "r1.w184"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  299,
+                  2144,
+                  1014,
+                  2178
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "(B)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r10.rel2",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Transport and Aviation"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w213",
+                "r1.w231"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    376,
+                    2432,
+                    1670,
+                    2501
+                  ]
+                }
+              ]
+            },
+            "scope": "children",
+            "content": [
+              {
+                "type": "ministry",
+                "heading": "MINISTRY OF TRANSPORT AND AVIATION"
+              },
+              {
+                "type": "department",
+                "num": "A",
+                "heading": "DEPARTMENT OF AVIATION AND TOURISM"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Meteorological Organisation."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "Aircraft and air navigation; provision of aerodromes; regulation and organisation of air traffic and of aerodromes (excepting sanitary control of air navigation). 3, Beacons and other provisions for the safety of aircraft."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "Carriage of passengers and goods by air."
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "Corporations established under the Air Corporations Act, 1953."
+              },
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "Railway Inspectorate."
+              },
+              {
+                "type": "entry",
+                "num": "7",
+                "text": "Development of tourism."
+              },
+              {
+                "type": "entry",
+                "num": "8",
+                "text": "Offences against laws with respect to any of the matters specified in this Ilst."
+              },
+              {
+                "type": "entry",
+                "num": "9",
+                "text": "Inquiries and statistics for the purpose of any of the matters specified in this list."
+              },
+              {
+                "type": "entry",
+                "num": "10",
+                "text": "Fees in respect of any of the matters specified in this list but not including fees taken in any court."
+              },
+              {
+                "type": "entry",
+                "num": "11",
+                "text": "Implementation of Treaties and Agreements relating to any of the matters specified in this list."
+              },
+              {
+                "type": "department",
+                "num": "B",
+                "heading": "DEPARTMENT OF TRANSPORT AND SHIPPING"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "The following subjects which fall within list I of the Seventh Schedule to the Constitution of India"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Maritime shipping and navigation; provision of education and training for the mercantile marine."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "Lighthouses and lightships."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "Major ports i.e., the ports of Calcutta, Bombay, Madras, Visakhapatnam Cochin and Kandla."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "Compulsory insurance of motor vehicles."
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "Administration of the Road Transport Corporation Act, 1950."
+              },
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "Highways declared by or under law made by Parliament to be national highways."
+              },
+              {
+                "type": "entry",
+                "num": "7",
+                "text": "Shipping and navigation including carriage of passengers and goods on inland waterways declared by Parliament by law to be national waterways as regards mechanically propelled vessels; the rule of the road on such waterways."
+              },
+              {
+                "type": "entry",
+                "num": "8",
+                "text": "Ship building (Public sector)."
+              },
+              {
+                "type": "group_heading",
+                "num": "II",
+                "text": "In respect of the Union Territories"
+              },
+              {
+                "type": "entry",
+                "num": "9",
+                "text": "Roads other than national highways."
+              },
+              {
+                "type": "entry",
+                "num": "10",
+                "text": "Tramways within municipal limits"
+              },
+              {
+                "type": "entry",
+                "num": "11",
+                "text": "Inland waterways and traffic thereon."
+              },
+              {
+                "type": "entry",
+                "num": "12",
+                "text": "Administration of the Motor Vehicles Act, 1939, and taxation of motor vehicles."
+              },
+              {
+                "type": "entry",
+                "num": "13",
+                "text": "Vehicles other than mechanically propelled vehicles."
+              },
+              {
+                "type": "group_heading",
+                "num": "III",
+                "text": "In respect of the Union Territories of Andaman and Nicobar Islands and Laccadive, Minicoy and Amindivi Islands"
+              },
+              {
+                "type": "entry",
+                "num": "14",
+                "text": "Organisation and maintenance of mainland-islands and inter-island shipping services."
+              },
+              {
+                "type": "group_heading",
+                "num": "IV",
+                "text": "Other subjects not included under the preceding sub-headings"
+              },
+              {
+                "type": "entry",
+                "num": "15",
+                "text": "Central Road Fund."
+              },
+              {
+                "type": "entry",
+                "num": "16",
+                "text": "Coordination and research pertaining to road works. SEC. 3(11)] THE GAZETTE OF INDIA EXTRAORDINARY"
+              },
+              {
+                "type": "entry",
+                "num": "17",
+                "text": "Road works financed in whole or in part by the Central Government including road works in Sikkim and the tribal areas of Assam specifiled in parts A and B of the table appended to para 20 of the Sixth Schedule to the Constitution."
+              },
+              {
+                "type": "entry",
+                "num": "18",
+                "text": "Motor vehicles legislation."
+              },
+              {
+                "type": "entry",
+                "num": "19",
+                "text": "Legislation relating to shipping and navigation on inland waterways as regards mechanically propelled vessels and the carriage of passengers and goods on inland waterways."
+              },
+              {
+                "type": "entry",
+                "num": "20",
+                "text": "Planning of road and inland waterways transport."
+              },
+              {
+                "type": "entry",
+                "num": "21",
+                "text": "Promotion of Transport Cooperatives in the field of motor transport and inland water transport."
+              },
+              {
+                "type": "entry",
+                "num": "22",
+                "text": "Development of township of Gandhidham."
+              },
+              {
+                "type": "entry",
+                "num": "23",
+                "text": "Legislation relating to and co-ordination of the development of minor ports."
+              },
+              {
+                "type": "entry",
+                "num": "24",
+                "text": "Centralised arrangements for the servicing and repairs of staff cars belonging to the Central Government except those under the control and use of the Ministry of Railways and the Department of Atomic Energy."
+              }
+            ],
+            "flags": [
+              "read_hindi_missing",
+              "read_page_break"
+            ],
+            "words": [
+              "r1.w212",
+              "r1.w219"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  299,
+                  2432,
+                  1160,
+                  2469
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

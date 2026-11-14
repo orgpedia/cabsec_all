@@ -1,0 +1,186 @@
+{
+  "file": {
+    "name": "1_Upload_270.pdf",
+    "file_id": "f_e57df96eed31fdd0",
+    "pages": 4,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_270.pdf",
+    "sha256": "e57df96eed31fdd05de5f9cf4770a66466842378fb96d1ce10193e696d28cbfc",
+    "govdoc": "1_Upload_270.pdf.govdoc.json.zst",
+    "revision": 113
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_763E_1995",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_518_1995",
+      "fields": {
+        "number": {
+          "value": "S. O. 763 (E)"
+        },
+        "in_force": {
+          "value": "1995-09-04"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "1995-09-04",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T12:57:19.350438+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(i)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r76.rel1",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF WELFARE"
+                },
+                {
+                  "type": "entry",
+                  "num": "24"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w381",
+                "r1.w382"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    630,
+                    378,
+                    779,
+                    417
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "24",
+                "text": ""
+              },
+              {
+                "type": "item",
+                "num": "i",
+                "text": "Appointment, resignation, etc. of Chairperson, Vice-Chairperson and other Members of the National Commission for the Scheduled Castes and Scheduled Tribes."
+              },
+              {
+                "type": "item",
+                "num": "ii",
+                "text": "Reports of the National Commission for the Scheduled Castes and Scheduled Tribes."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w379",
+              "r1.w389"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  508,
+                  378,
+                  1642,
+                  417
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(ii)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r76.rel2",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF WELFARE"
+                },
+                {
+                  "type": "entry",
+                  "num": "34"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w427",
+                "r1.w428"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    671,
+                    720,
+                    819,
+                    759
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "35",
+                "text": ""
+              },
+              {
+                "type": "item",
+                "num": "a",
+                "text": "Appointment, resignation, etc. of Chairperson, Vice-Chairperson and Members of the National Commission for Safai Karamcharis."
+              },
+              {
+                "type": "item",
+                "num": "b",
+                "text": "Reports of the National Commission for Safai Karamcharis."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w425",
+              "r1.w435"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  510,
+                  720,
+                  1615,
+                  759
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

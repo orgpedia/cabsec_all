@@ -1,0 +1,299 @@
+{
+  "file": {
+    "name": "1_Upload_232.pdf",
+    "file_id": "f_0d09148e10929881",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_232.pdf",
+    "sha256": "0d09148e10929881df744f02169dac80f5a7ec6826639b4c525a25039a248f84",
+    "govdoc": "1_Upload_232.pdf.govdoc.json.zst",
+    "revision": 109
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_923E_1987",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_523_1987",
+      "fields": {
+        "number": {
+          "value": "S.O. 923(E)"
+        },
+        "in_force": {
+          "value": "1987-10-13"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "1987-10-13",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T12:55:18.748058+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(A)(i)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r73.rel1",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF FOOD AND CIVIL SUPPLIES"
+                },
+                {
+                  "type": "department",
+                  "heading": "DE- PARTMENT OF CIVIL SUPPLIES"
+                },
+                {
+                  "type": "entry",
+                  "num": "9"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w460",
+                "r1.w462"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1627,
+                    738,
+                    1775,
+                    777
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "9",
+                "text": "The Consumer Protection Act, 1986 (68 of 1986)."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w458",
+              "r1.w467"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  1466,
+                  738,
+                  2329,
+                  777
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(A)(ii)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r73.rel2",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF FOOD AND CIVIL SUPPLIES"
+                },
+                {
+                  "type": "department",
+                  "heading": "DE- PARTMENT OF CIVIL SUPPLIES"
+                },
+                {
+                  "type": "entry",
+                  "num": "17"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w481",
+                "r1.w482"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1621,
+                    960,
+                    1796,
+                    999
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "17",
+                "text": "The Bureau of Indian Standards Act 1986 (63 of 1986)."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w479",
+              "r1.w487"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  1456,
+                  960,
+                  2327,
+                  999
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 3,
+            "source_ref": "2(B)(a)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r73.rel3",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF HUMAN RESOURCE DEVELOPMENT"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF EDUCATION"
+                },
+                {
+                  "type": "entry",
+                  "num": "9"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w526",
+                "r1.w527"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1731,
+                    1457,
+                    1864,
+                    1494
+                  ]
+                }
+              ]
+            },
+            "flags": [],
+            "words": [
+              "r1.w516",
+              "r1.w522"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  1466,
+                  1368,
+                  2330,
+                  1446
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 4,
+            "source_ref": "2(B)(b)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r73.rel4",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF HUMAN RESOURCE DEVELOPMENT"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF YOUTH AFFAIRS AND SPORTS"
+                },
+                {
+                  "type": "entry",
+                  "num": "25"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w547",
+                "r1.w549"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1927,
+                    1654,
+                    2102,
+                    1695
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "26",
+                "text": "Physical Education."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w531",
+              "r1.w537"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  1475,
+                  1522,
+                  2334,
+                  1604
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

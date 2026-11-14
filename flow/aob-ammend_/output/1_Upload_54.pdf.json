@@ -1,0 +1,584 @@
+{
+  "file": {
+    "name": "1_Upload_54.pdf",
+    "file_id": "f_d8f7d493e779a010",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_54.pdf",
+    "sha256": "d8f7d493e779a0105639b5375d4cea47c44e9cc8679555beff8a90baff637d81",
+    "govdoc": "1_Upload_54.pdf.govdoc.json.zst",
+    "revision": 46
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_3054_1963",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_206_1963",
+      "fields": {
+        "number": {
+          "value": "S.O. 3054"
+        },
+        "in_force": {
+          "value": "1963-10-20"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "1963-10-20",
+          "basis": "stated"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T13:50:03.577405+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "(A)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r10.rel1",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "entry",
+                  "num": "9"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w103",
+                "r1.w109"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    392,
+                    1370,
+                    1007,
+                    1404
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "ministry",
+                "num": "9",
+                "heading": "Ministry of Industry"
+              }
+            ],
+            "flags": [
+              "read_hindi_missing"
+            ],
+            "words": [
+              "r1.w102",
+              "r1.w115"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  319,
+                  1370,
+                  1698,
+                  1407
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "(B)(a)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r10.rel2",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Finance"
+                },
+                {
+                  "type": "department",
+                  "heading": "Depart- ment of Revenue"
+                },
+                {
+                  "type": "entry",
+                  "num": "11"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w129",
+                "r1.w144"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    416,
+                    1546,
+                    1698,
+                    1613
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "12",
+                "text": "Administration of the Companies Act"
+              },
+              {
+                "type": "entry",
+                "num": "13",
+                "text": "Profession of Accountancy (Chartered Accountants Act). Profession of Costs and Works Accountancy and Company Secretaryship."
+              },
+              {
+                "type": "entry",
+                "num": "14",
+                "text": "Collection of Statistics relating to Companies"
+              },
+              {
+                "type": "entry",
+                "num": "15",
+                "text": "Legislation of the Indian Partnership Act and the exercise of certain functions under Chapter VII of the Act in centrally administered areas. (The administration of the Act vests in the State Governments)."
+              },
+              {
+                "type": "entry",
+                "num": "16",
+                "text": "Commission of Inquiry."
+              },
+              {
+                "type": "entry",
+                "num": "17",
+                "text": "The responsibility of the Centre relating to matters concerning centrally administered areas in respect of items 12 to 15 above"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w128",
+              "r1.w138"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  352,
+                  1546,
+                  1698,
+                  1581
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 3,
+            "source_ref": "(B)(b)",
+            "op": "renumber",
+            "akn_type": "renumbering",
+            "relation": "r10.rel3",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Finance"
+                },
+                {
+                  "type": "department",
+                  "heading": "Depart- ment of Revenue"
+                },
+                {
+                  "type": "entry",
+                  "num": "12"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w241",
+                "r1.w244"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    410,
+                    2114,
+                    782,
+                    2149
+                  ]
+                }
+              ]
+            },
+            "new_num": "18",
+            "flags": [],
+            "words": [
+              "r1.w240",
+              "r1.w250"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  344,
+                  2110,
+                  1404,
+                  2150
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 4,
+            "source_ref": "(B)(c)(1)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r10.rel4",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Industry"
+                },
+                {
+                  "type": "department",
+                  "heading": "Department of Industry"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w259",
+                "r1.w263"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    438,
+                    2207,
+                    1199,
+                    2244
+                  ]
+                }
+              ]
+            },
+            "expect": "A Department of Industry",
+            "scope": "heading",
+            "flags": [],
+            "words": [
+              "r1.w258",
+              "r1.w267"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  381,
+                  2204,
+                  1610,
+                  2245
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 5,
+            "source_ref": "(B)(c)(11)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r10.rel5",
+            "target": [
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "Ministry of Industry"
+                  },
+                  {
+                    "type": "department",
+                    "heading": "Department of Company Law Administration"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r1.w269",
+                  "r1.w275"
+                ],
+                "boxes": [
+                  {
+                    "page": 1,
+                    "bbox": [
+                      440,
+                      2250,
+                      1600,
+                      2293
+                    ]
+                  }
+                ]
+              },
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "Ministry of Industry"
+                  },
+                  {
+                    "type": "department",
+                    "heading": "Department of Company Law Administration"
+                  },
+                  {
+                    "type": "entry",
+                    "num": "1"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r1.w278",
+                  "r1.w278"
+                ],
+                "boxes": [
+                  {
+                    "page": 1,
+                    "bbox": [
+                      550,
+                      2291,
+                      578,
+                      2323
+                    ]
+                  }
+                ]
+              },
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "Ministry of Industry"
+                  },
+                  {
+                    "type": "department",
+                    "heading": "Department of Company Law Administration"
+                  },
+                  {
+                    "type": "entry",
+                    "num": "2"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r1.w279",
+                  "r1.w279"
+                ],
+                "boxes": [
+                  {
+                    "page": 1,
+                    "bbox": [
+                      594,
+                      2291,
+                      622,
+                      2323
+                    ]
+                  }
+                ]
+              },
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "Ministry of Industry"
+                  },
+                  {
+                    "type": "department",
+                    "heading": "Department of Company Law Administration"
+                  },
+                  {
+                    "type": "entry",
+                    "num": "3"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r1.w280",
+                  "r1.w280"
+                ],
+                "boxes": [
+                  {
+                    "page": 1,
+                    "bbox": [
+                      641,
+                      2291,
+                      666,
+                      2323
+                    ]
+                  }
+                ]
+              },
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "Ministry of Industry"
+                  },
+                  {
+                    "type": "department",
+                    "heading": "Department of Company Law Administration"
+                  },
+                  {
+                    "type": "entry",
+                    "num": "4"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r1.w281",
+                  "r1.w281"
+                ],
+                "boxes": [
+                  {
+                    "page": 1,
+                    "bbox": [
+                      684,
+                      2290,
+                      711,
+                      2322
+                    ]
+                  }
+                ]
+              },
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "Ministry of Industry"
+                  },
+                  {
+                    "type": "department",
+                    "heading": "Department of Company Law Administration"
+                  },
+                  {
+                    "type": "entry",
+                    "num": "5"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r1.w282",
+                  "r1.w282"
+                ],
+                "boxes": [
+                  {
+                    "page": 1,
+                    "bbox": [
+                      732,
+                      2290,
+                      748,
+                      2322
+                    ]
+                  }
+                ]
+              },
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "Ministry of Industry"
+                  },
+                  {
+                    "type": "department",
+                    "heading": "Department of Company Law Administration"
+                  },
+                  {
+                    "type": "entry",
+                    "num": "6"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r1.w284",
+                  "r1.w284"
+                ],
+                "boxes": [
+                  {
+                    "page": 1,
+                    "bbox": [
+                      847,
+                      2289,
+                      863,
+                      2321
+                    ]
+                  }
+                ]
+              }
+            ],
+            "expect": "B. Department of Company Law Administration",
+            "flags": [],
+            "words": [
+              "r1.w268",
+              "r1.w276"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  373,
+                  2250,
+                  1688,
+                  2294
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

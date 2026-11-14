@@ -1,0 +1,479 @@
+{
+  "file": {
+    "name": "1_Upload_201.pdf",
+    "file_id": "f_d246d93c34f982e7",
+    "pages": 4,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_201.pdf",
+    "sha256": "d246d93c34f982e78f8b03d9e499c29a4fe002956dc3987c1aaf59ba1001d04a",
+    "govdoc": "1_Upload_201.pdf.govdoc.json.zst",
+    "revision": 46
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_821E_1984",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_536_1984",
+      "fields": {
+        "number": {
+          "value": "S.O. 821 (E)"
+        },
+        "in_force": {
+          "value": "1984-11-06"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "1984-11-06",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T13:50:03.213693+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(a)(i)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r10.rel1",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Industry"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w660",
+                "r1.w671"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1507,
+                    1248,
+                    2345,
+                    1392
+                  ]
+                }
+              ]
+            },
+            "expect": "13. Ministry of Industry (Udyog Mantralaya)",
+            "content": [
+              {
+                "type": "ministry",
+                "num": "13",
+                "heading": "Ministry of Industry and Company Affairs",
+                "heading_hi": "Udyog aur Kampani Karya Mantralaya"
+              },
+              {
+                "type": "department",
+                "num": "i",
+                "heading": "Department of Industrial Development",
+                "heading_hi": "Audyogik Vikas Vibhag"
+              },
+              {
+                "type": "department",
+                "num": "ii",
+                "heading": "Department of Heavy Industry",
+                "heading_hi": "Bhari Udyog Vibhag"
+              },
+              {
+                "type": "department",
+                "num": "iii",
+                "heading": "Department of Company Affairs",
+                "heading_hi": "Kampani Karya Vibhag"
+              }
+            ],
+            "flags": [
+              "new_extra"
+            ],
+            "words": [
+              "r1.w658",
+              "r1.w665"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  1512,
+                  1246,
+                  2345,
+                  1307
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(a)(ii)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r10.rel2",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Law, Justice, and Company Affairs"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w725",
+                "r1.w744"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1507,
+                    1997,
+                    2368,
+                    2196
+                  ]
+                }
+              ]
+            },
+            "expect": "17. Ministry of Law, Justice, and Company Affairs (Vidhi, Nyaya aur Kampani Karya Mantralaya)",
+            "content": [
+              {
+                "type": "ministry",
+                "num": "17",
+                "heading": "Ministry of Law and Justice (Vidhi aur • Nyaya Mantralaya):"
+              },
+              {
+                "type": "department",
+                "num": "i",
+                "heading": "Department of Legal of Legal Affairs",
+                "heading_hi": "Vidhi Karya Vibhag"
+              },
+              {
+                "type": "item",
+                "num": "ii",
+                "text": "Legislative Department (Vidhayee . Vibhag)."
+              },
+              {
+                "type": "department",
+                "num": "iii",
+                "heading": "Department of Justice",
+                "heading_hi": "Nyaya Vibhag"
+              }
+            ],
+            "flags": [
+              "new_extra",
+              "new_missing"
+            ],
+            "words": [
+              "r1.w723",
+              "r1.w731"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  1439,
+                  1995,
+                  2368,
+                  2055
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 3,
+            "source_ref": "2(b)(i)(1)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r10.rel3",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF INDUSTRY"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w808",
+                "r1.w810"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1656,
+                    2911,
+                    2061,
+                    2961
+                  ]
+                }
+              ]
+            },
+            "expect": "MINISTRY OF INDUSTRY (UDYOG MANTRALAYA)",
+            "scope": "heading",
+            "content": [
+              {
+                "type": "ministry",
+                "heading": "MINISTRY OF INDUSTRY AND COMPANY AFFAIRS (UDYOG AUR KAMPANI KARYA MAN- TRALAYA)"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w806",
+              "r1.w812"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  1517,
+                  2909,
+                  2339,
+                  2966
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 4,
+            "source_ref": "2(b)(i)(2)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r10.rel4",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF INDUSTRY"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF HEAVY INDUSTRY"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w845",
+                "r1.w859"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    376,
+                    338,
+                    1254,
+                    478
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "department",
+                "num": "C",
+                "heading": "DEPARTMENT OF COMPANY AFFAIRS",
+                "heading_hi": "KAMPANI KARYA VIBHAG"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Administration of the Companies Act, 1956."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "Administration of the Companies (Donations to National Funds) Act, 1951."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "Administration of the Monopolies and Restrictive Trade Practices Act, 1969."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "Profession of Accountancy (Chartered Accountants Act, 1949); Profession of Costs and Works Accountancy (Cost and Works Accountants Act, 1959); Profession of Company Secretaries (Company Secretaries Act 1980)."
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "Collection of Statistics relating to Companies."
+              },
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "Legislation relating to Law of Partnership and the excrcise of certain functions under Chapter VII of the Indian Partnership Act 1932 in centrally administered areas. (The administration of the Act vests in the State Governments)."
+              },
+              {
+                "type": "entry",
+                "num": "7",
+                "text": "Monopolies and Restrictive Trade Practices Commission."
+              },
+              {
+                "type": "entry",
+                "num": "8",
+                "text": "The responsibility of the Centre relating to matters concerning centrally administered areas in respect of any of the above items."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w844",
+              "r1.w849"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  306,
+                  338,
+                  1254,
+                  380
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 5,
+            "source_ref": "2(b)(ii)(1)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r10.rel5",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF LAW, JUSTICE AND COMPANY AFFAIRS"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w1031",
+                "r1.w1033"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    1668,
+                    984,
+                    2076,
+                    1033
+                  ]
+                }
+              ]
+            },
+            "expect": "MINISTRY OF LAW, JUSTICE AND COMPANY AFFAIRS (VIDHI, . NYAYA AUR KAMPANI KARYA MANTRALAYA)",
+            "scope": "heading",
+            "content": [
+              {
+                "type": "ministry",
+                "heading": "MINISTRY OF LAW AND JUSTICE",
+                "heading_hi": "VIDHI AUR NYAYA MANTRALAYA"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w1029",
+              "r1.w1035"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  1530,
+                  981,
+                  2361,
+                  1039
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 6,
+            "source_ref": "2(b)(ii)(2)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r10.rel6",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF LAW, JUSTICE AND COMPANY AFFAIRS"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF COMPANY AFFAIRS"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w1052",
+                "r1.w1066"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    1601,
+                    1267,
+                    2358,
+                    1458
+                  ]
+                }
+              ]
+            },
+            "expect": "D. DEPARTMENT OF COMPANY AFFAIRS (KAM- PANI KARYA VIBHAG)",
+            "flags": [],
+            "words": [
+              "r1.w1051",
+              "r1.w1055"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  1538,
+                  1266,
+                  2357,
+                  1323
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_370.pdf",
     "sha256": "2a8b6fd867e5b6e2cfa96badbda0e59700e7554ce79e02cc2b7e81f00c02d592",
     "govdoc": "1_Upload_370.pdf.govdoc.json.zst",
-    "revision": 46
+    "revision": 177
   },
   "documents": [
     {
@@ -29,9 +29,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "2",
+          "version": "3",
           "model": "gemini-4-argon",
-          "at": "2026-11-03T16:59:02.871214+00:00"
+          "at": "2026-11-12T12:55:20.319459+00:00"
         },
         "ops": [
           {
@@ -39,6 +39,7 @@
             "source_ref": "2",
             "op": "replace",
             "akn_type": "replacement",
+            "relation": "r139.rel1",
             "target": {
               "cited": [
                 {
@@ -135,9 +136,7 @@
                 "text": "Earth System Science and Technology Agency or Board."
               }
             ],
-            "flags": [
-              "version_text"
-            ],
+            "flags": [],
             "words": [
               "r1.w398",
               "r1.w434"

@@ -1,0 +1,509 @@
+{
+  "file": {
+    "name": "1_Upload_338.pdf",
+    "file_id": "f_97000bd169fff423",
+    "pages": 6,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_338.pdf",
+    "sha256": "97000bd169fff423f3a7778957e50c526262b2915306aeb723cc316e8746a023",
+    "govdoc": "1_Upload_338.pdf.govdoc.json.zst",
+    "revision": 143
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_1604E_2008",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_920_2008",
+      "fields": {
+        "number": {
+          "value": "S.O. 1604(E)"
+        },
+        "in_force": {
+          "value": "2008-07-01"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "2008-07-01",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T12:56:37.224322+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(1)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r107.rel1",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Chemicals and Fertilizers"
+                },
+                {
+                  "type": "department",
+                  "heading": "Department of Fertilizers"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w716",
+                "r1.w724"
+              ],
+              "boxes": [
+                {
+                  "page": 4,
+                  "bbox": [
+                    664,
+                    2245,
+                    2175,
+                    2350
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "department",
+                "num": "iii",
+                "heading": "Department of Pharmaceuticals",
+                "heading_hi": "Aushadh Nirman Vibhag"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w698",
+              "r1.w705"
+            ],
+            "boxes": [
+              {
+                "page": 4,
+                "bbox": [
+                  518,
+                  2183,
+                  1755,
+                  2230
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(2)(A)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r107.rel2",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF CHEMICALS AND FERTILIZERS"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF CHEMICALS AND PETRO-CHEMICALS"
+                },
+                {
+                  "type": "entry",
+                  "num": "1"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w771",
+                "r1.w772"
+              ],
+              "boxes": [
+                {
+                  "page": 4,
+                  "bbox": [
+                    1717,
+                    3050,
+                    1939,
+                    3098
+                  ]
+                }
+              ]
+            },
+            "flags": [],
+            "words": [
+              "r1.w746",
+              "r1.w753"
+            ],
+            "boxes": [
+              {
+                "page": 4,
+                "bbox": [
+                  669,
+                  2819,
+                  2175,
+                  2866
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 3,
+            "source_ref": "2(2)(B)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r107.rel3",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF CHEMICALS AND FERTILIZERS"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF FERTILIZERS"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w777",
+                "r1.w789"
+              ],
+              "boxes": [
+                {
+                  "page": 4,
+                  "bbox": [
+                    816,
+                    3157,
+                    2173,
+                    3277
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "department",
+                "num": "C",
+                "heading": "DEPARTMENT OF PHARMACEUTICALS",
+                "heading_hi": "AUSHADH NIRMAN VIBHAG"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": ". Drugs and Pharmaceuticals, excluding those specifically allotted to other departments."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "Promotion and co-ordination of basic, applied and other research in areas related to the pharmaceutical sector."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "Development of infrastructure, manpower and skills for the pharmaceutical sector and management of related information."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "Education and training including high end research and grant of fellowships in India and abroad, exchange of information and technical guidance on all matters relating to pharmaceutical sector."
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "Promotion of public - private - partnership in pharmaceutical related areas."
+              },
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "International co-operation in pharmaceutical research including work related to international conferences in related areas in India and abroad."
+              },
+              {
+                "type": "entry",
+                "num": "7",
+                "text": "Inter-sectoral coordination including coordination between organizations and institutes under the Central and State Governments in areas related to the subjects entrusted to the Department."
+              },
+              {
+                "type": "entry",
+                "num": "8",
+                "text": "Technical support for dealing with national hazards in pharmaceutical sector."
+              },
+              {
+                "type": "entry",
+                "num": "9",
+                "text": "All matters relating to National Pharmaceutical Pricing Authority including related functions of price control/monitoring."
+              },
+              {
+                "type": "entry",
+                "num": "10",
+                "text": "All matters relating to National Institutes for Pharmacy Education and Research."
+              },
+              {
+                "type": "entry",
+                "num": "11",
+                "text": "Planning, development and control of, and assistance to all industries dealt with by the Department."
+              },
+              {
+                "type": "entry",
+                "num": "12",
+                "text": "Bengal Chemicals and Pharmaceuticals Limited."
+              },
+              {
+                "type": "entry",
+                "num": "13",
+                "text": "Hindustan Antibiotics Limited."
+              },
+              {
+                "type": "entry",
+                "num": "14",
+                "text": "Indian Drugs and Pharmaceuticals Limited. 250065/08-2 i 6"
+              },
+              {
+                "type": "entry",
+                "num": "15",
+                "text": "Karnataka Antibiotics and Pharmaceuticals Limited."
+              },
+              {
+                "type": "entry",
+                "num": "16",
+                "text": "Rajasthan Drugs and Pharmaceuticals Limited."
+              }
+            ],
+            "flags": [
+              "read_page_break"
+            ],
+            "words": [
+              "r1.w776",
+              "r1.w783"
+            ],
+            "boxes": [
+              {
+                "page": 4,
+                "bbox": [
+                  678,
+                  3157,
+                  2173,
+                  3221
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 4,
+            "source_ref": "2(2)(C)(i)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r107.rel4",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF YOUTH AFFAIRS AND SPORTS"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF YOUTH AFFAIRS"
+                },
+                {
+                  "type": "entry",
+                  "num": "16"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w1067",
+                "r1.w1069"
+              ],
+              "boxes": [
+                {
+                  "page": 6,
+                  "bbox": [
+                    561,
+                    1041,
+                    1770,
+                    1147
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "16",
+                "text": "Exchange of Youth Delegation with foreign countries."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w1055",
+              "r1.w1062"
+            ],
+            "boxes": [
+              {
+                "page": 6,
+                "bbox": [
+                  428,
+                  981,
+                  1765,
+                  1029
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 5,
+            "source_ref": "2(2)(C)(ii)(A)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r107.rel5",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF YOUTH AFFAIRS AND SPORTS"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF SPORTS"
+                },
+                {
+                  "type": "entry",
+                  "num": "10"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w1096",
+                "r1.w1098"
+              ],
+              "boxes": [
+                {
+                  "page": 6,
+                  "bbox": [
+                    670,
+                    1571,
+                    1002,
+                    1618
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "10",
+                "text": "Exchange of Sports persons, experts and teams with foreign countries."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w1095",
+              "r1.w1103"
+            ],
+            "boxes": [
+              {
+                "page": 6,
+                "bbox": [
+                  563,
+                  1571,
+                  1768,
+                  1618
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 6,
+            "source_ref": "2(2)(C)(ii)(B)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r107.rel6",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF YOUTH AFFAIRS AND SPORTS"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF SPORTS"
+                },
+                {
+                  "type": "entry",
+                  "num": "13"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w1118",
+                "r1.w1120"
+              ],
+              "boxes": [
+                {
+                  "page": 6,
+                  "bbox": [
+                    641,
+                    1923,
+                    950,
+                    1969
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "14",
+                "text": "Physical Education."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w1117",
+              "r1.w1126"
+            ],
+            "boxes": [
+              {
+                "page": 6,
+                "bbox": [
+                  561,
+                  1923,
+                  1727,
+                  1969
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

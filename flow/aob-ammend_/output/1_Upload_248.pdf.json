@@ -1,0 +1,167 @@
+{
+  "file": {
+    "name": "1_Upload_248.pdf",
+    "file_id": "f_6c80335262aa3100",
+    "pages": 4,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_248.pdf",
+    "sha256": "6c80335262aa31003f7fafb7ad238bac1aff638e7001a9651a5d14ef7bb0e6b5",
+    "govdoc": "1_Upload_248.pdf.govdoc.json.zst",
+    "revision": 109
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_922E_1990",
+      "doc_type": "aob_amendment",
+      "parent": "GAZETTE_ISSUE_6c80335262aa3100",
+      "fields": {
+        "number": {
+          "value": "S.O. 922 (E)"
+        },
+        "in_force": {
+          "value": "1990-03-13"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "1990-03-13",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T12:55:59.768393+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(a)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r73.rel1",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF AGRICULTURE"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF AGRICULTURE AND COOPERATION"
+                },
+                {
+                  "type": "entry",
+                  "num": "22"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w425",
+                "r1.w426"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1017,
+                    2185,
+                    1169,
+                    2218
+                  ]
+                }
+              ]
+            },
+            "flags": [],
+            "words": [
+              "r1.w403",
+              "r1.w409"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  398,
+                  2057,
+                  1534,
+                  2097
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(b)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r73.rel2",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF ENVIRONMENT AND FORESTS"
+                },
+                {
+                  "type": "department",
+                  "heading": "Department of Environment, FORESTS AND WILDLIFE"
+                },
+                {
+                  "type": "entry",
+                  "num": "12"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w474",
+                "r1.w476"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    605,
+                    392,
+                    875,
+                    434
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "12",
+                "text": "A. Prevention of cruelty to animals."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w445",
+              "r1.w451"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  267,
+                  221,
+                  1462,
+                  269
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

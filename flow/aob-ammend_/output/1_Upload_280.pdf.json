@@ -1,0 +1,198 @@
+{
+  "file": {
+    "name": "1_Upload_280.pdf",
+    "file_id": "f_117e4b73e8bbaf8e",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_280.pdf",
+    "sha256": "117e4b73e8bbaf8e358c9244a6f0c45291cdd243f895f5100ddf49eb725362e2",
+    "govdoc": "1_Upload_280.pdf.govdoc.json.zst",
+    "revision": 109
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_792E_1998",
+      "doc_type": "aob_amendment",
+      "parent": "GAZETTE_ISSUE_117e4b73e8bbaf8e",
+      "fields": {
+        "number": {
+          "value": "S.O. 792 (E)"
+        },
+        "in_force": {
+          "value": "1998-09-03"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "1998-09-03",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T12:55:19.532095+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(a)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r73.rel1",
+            "target": [
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "MINISTRY OF ENVIRONMENT AND FORESTS"
+                  },
+                  {
+                    "type": "entry",
+                    "num": "9"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r1.w346",
+                  "r1.w347"
+                ],
+                "boxes": [
+                  {
+                    "page": 2,
+                    "bbox": [
+                      790,
+                      1036,
+                      930,
+                      1072
+                    ]
+                  }
+                ]
+              },
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "MINISTRY OF ENVIRONMENT AND FORESTS"
+                  },
+                  {
+                    "type": "entry",
+                    "num": "19"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r1.w349",
+                  "r1.w349"
+                ],
+                "boxes": [
+                  {
+                    "page": 2,
+                    "bbox": [
+                      1017,
+                      1036,
+                      1054,
+                      1072
+                    ]
+                  }
+                ]
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w333",
+              "r1.w339"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  333,
+                  984,
+                  1388,
+                  1023
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(b)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r73.rel2",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF SOCIAL JUSTICE AND EMPOWERMENT"
+                },
+                {
+                  "type": "entry",
+                  "num": "36"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w368",
+                "r1.w370"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1059,
+                    1173,
+                    1292,
+                    1212
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "37",
+                "text": "The Prevention of Cruelty to Animals Act, 1960 (59 of 1960)."
+              },
+              {
+                "type": "entry",
+                "num": "38",
+                "text": "Prevention of cruelty to animals."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w353",
+              "r1.w359"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  354,
+                  1123,
+                  1203,
+                  1162
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

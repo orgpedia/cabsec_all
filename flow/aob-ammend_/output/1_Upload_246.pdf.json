@@ -1,0 +1,174 @@
+{
+  "file": {
+    "name": "1_Upload_246.pdf",
+    "file_id": "f_1f4c0ffb117e321a",
+    "pages": 4,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_246.pdf",
+    "sha256": "1f4c0ffb117e321a52e4e2bd636585876ebde254bb3c13b6d8a105643e296f0e",
+    "govdoc": "1_Upload_246.pdf.govdoc.json.zst",
+    "revision": 109
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_1070E_1989",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_871_1989",
+      "fields": {
+        "number": {
+          "value": "S.O. 1070(E)"
+        },
+        "in_force": {
+          "value": "1989-12-26"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "1989-12-26",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T12:55:19.717637+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(a)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r73.rel1",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF INFORMATION AND BROADCASTING"
+                },
+                {
+                  "type": "entry",
+                  "num": "14"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w409",
+                "r1.w410"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1200,
+                    2169,
+                    1366,
+                    2214
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "14",
+                "text": ""
+              },
+              {
+                "type": "item",
+                "num": "i",
+                "text": "Legislation under cntry 61) of the Union List viz, Sanc - trning of Cinematograph Films for Exhibition'. 3 ----"
+              },
+              {
+                "type": "item",
+                "num": "ii",
+                "text": "Administration of Cinematograph Act, 1952 (37 of 19652)"
+              }
+            ],
+            "flags": [
+              "read_page_break"
+            ],
+            "words": [
+              "r1.w392",
+              "r1.w399"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  867,
+                  2085,
+                  2041,
+                  2133
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(b)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r73.rel2",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF HUMAN RESOURCE DEVELOPMENT"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF CUL- TURE"
+                },
+                {
+                  "type": "entry",
+                  "num": "46"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w487",
+                "r1.w488"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    1156,
+                    567,
+                    1313,
+                    607
+                  ]
+                }
+              ]
+            },
+            "flags": [],
+            "words": [
+              "r1.w463",
+              "r1.w470"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  405,
+                  441,
+                  1755,
+                  482
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

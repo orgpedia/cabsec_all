@@ -1,0 +1,212 @@
+{
+  "file": {
+    "name": "1_Upload_535.pdf",
+    "file_id": "f_574bed256f18c0b2",
+    "pages": 300,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_535.pdf",
+    "sha256": "574bed256f18c0b29560139940119493c776c3d6ff19daa5982f11df6ace3967",
+    "govdoc": "1_Upload_535.pdf.govdoc.json.zst",
+    "revision": 143
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_17E_2004",
+      "doc_type": "aob_amendment",
+      "parent": "GAZETTE_ISSUE_574bed256f18c0b2",
+      "fields": {
+        "number": {
+          "value": "S.O. 17(E)"
+        },
+        "in_force": {
+          "value": "2004-01-06"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "2004-01-06",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T12:55:58.486703+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(a)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r107.rel1",
+            "target": {
+              "cited": [
+                {
+                  "type": "rule",
+                  "num": "3"
+                },
+                {
+                  "type": "sub_rule",
+                  "num": "1"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w98",
+                "r1.w103"
+              ],
+              "boxes": [
+                {
+                  "page": 154,
+                  "bbox": [
+                    768,
+                    1236,
+                    1379,
+                    1286
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "(1) The distribution of subjects among the departments shall be as specified in the Second Schedule to these rules and shall include all attached and subordinate offices or other organisations including Public Sector Undertakings concerned with its subjects and subrules (2), (3) and (4) of this rule."
+              }
+            ],
+            "flags": [
+              "new_extra",
+              "new_hindi_differs",
+              "new_missing",
+              "new_text_differs"
+            ],
+            "words": [
+              "r1.w97",
+              "r1.w108"
+            ],
+            "boxes": [
+              {
+                "page": 154,
+                "bbox": [
+                  626,
+                  1235,
+                  2117,
+                  1299
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(b)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r107.rel2",
+            "target": [
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "1"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r1.w161",
+                  "r1.w163"
+                ],
+                "boxes": [
+                  {
+                    "page": 154,
+                    "bbox": [
+                      859,
+                      1805,
+                      1306,
+                      1848
+                    ]
+                  }
+                ]
+              },
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r1.w165",
+                  "r1.w167"
+                ],
+                "boxes": [
+                  {
+                    "page": 154,
+                    "bbox": [
+                      1465,
+                      1813,
+                      1996,
+                      1858
+                    ]
+                  }
+                ]
+              }
+            ],
+            "content": [
+              {
+                "type": "text",
+                "text": "THE FIRST SCHEDULE (Rule 2) MINISTRIES, DEPARTMENTS, SECRETARIATS AND OFFICES (MANTRALAYA, VIBHAG, SACHIVALAYA TATHA KARYALAYA)"
+              },
+              {
+                "type": "ministry",
+                "num": "1",
+                "heading": "Ministry of Agriculture",
+                "heading_hi": "Krishi Mantralaya"
+              },
+              {
+                "type": "department",
+                "num": "i",
+                "heading": "Department of Agriculture and Cooperation",
+                "heading_hi": "Krishi aur Sahkarita Vibhag"
+              },
+              {
+                "type": "department",
+                "num": "ii",
+                "heading": "Department of Agricultural Research and Education",
+                "heading_hi": "Krishi Anusandhan aur Shiksha Vibhag"
+              },
+              {
+                "type": "department",
+                "num": "iii",
+                "heading": "Department of Animal Husbandry and Dairying",
+                "heading_hi": "Pashupalan aur Dairy Vibhag"
+              },
+              {
+                "type": "ministry",
+                "num": "2",
+                "heading": "Ministry of Agro and Rural Industries",
+                "heading_hi": "Krishi Evam Gramin Udyog Mantralaya"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w112",
+              "r1.w168"
+            ],
+            "boxes": [
+              {
+                "page": 154,
+                "bbox": [
+                  633,
+                  1804,
+                  2109,
+                  1859
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

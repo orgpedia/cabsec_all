@@ -1,0 +1,487 @@
+{
+  "file": {
+    "name": "1_Upload_303.pdf",
+    "file_id": "f_33332ea13d6a04ad",
+    "pages": 3,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_303.pdf",
+    "sha256": "33332ea13d6a04ad0981b67098fd62ee449d63ab61dbee58f261d41c9be8d11a",
+    "govdoc": "1_Upload_303.pdf.govdoc.json.zst",
+    "revision": 109
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_688E_2002",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_585_2002",
+      "fields": {
+        "number": {
+          "value": "S.O. 688 (E)"
+        },
+        "in_force": {
+          "value": "2002-07-02"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "2002-07-02",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T12:55:38.519227+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(1)(a)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r73.rel1",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Finance"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w650",
+                "r1.w662"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    548,
+                    2740,
+                    2050,
+                    2789
+                  ]
+                }
+              ]
+            },
+            "expect": " 10. Ministry of Finance (Vitta Mantralaya)",
+            "content": [
+              {
+                "type": "ministry",
+                "num": "10",
+                "heading": "Ministry of Finance and Company Affairs",
+                "heading_hi": "Vitta aur Kanpany Karya Mantralaya"
+              },
+              {
+                "type": "department",
+                "num": "i",
+                "heading": "Department of Economic Affairs",
+                "heading_hi": "Arthik Karya Vibhag"
+              },
+              {
+                "type": "department",
+                "num": "ii",
+                "heading": "Department of Expenditure",
+                "heading_hi": "Vyaya Vibhag"
+              },
+              {
+                "type": "department",
+                "num": "iv",
+                "heading": "Department of Company Affairs",
+                "heading_hi": "Kampany Karya Vibhag"
+              }
+            ],
+            "flags": [
+              "read_page_break"
+            ],
+            "words": [
+              "r1.w648",
+              "r1.w662"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  426,
+                  2740,
+                  2050,
+                  2789
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(1)(b)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r73.rel2",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Law, Justice and Company Affairs"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w726",
+                "r1.w745"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    464,
+                    343,
+                    2199,
+                    437
+                  ]
+                }
+              ]
+            },
+            "expect": "19. Ministry of Law, Justice and Company Affairs (Vidhi, Nyaya aur Kampany Karya Mantralaya)",
+            "content": [
+              {
+                "type": "ministry",
+                "num": "19",
+                "heading": "Ministry of Law and Justice",
+                "heading_hi": "Vidhi aur Nyaya Mantralaya"
+              },
+              {
+                "type": "department",
+                "num": "i",
+                "heading": "Department of Legal Affairs",
+                "heading_hi": "Vidhi Karya Vibhag"
+              },
+              {
+                "type": "item",
+                "num": "ii",
+                "text": "Legislative Department (Vidhayee Vibhag)"
+              },
+              {
+                "type": "department",
+                "num": "iii",
+                "heading": "Department of Justice (Nyaya Vibliag)"
+              }
+            ],
+            "flags": [
+              "new_extra",
+              "new_missing"
+            ],
+            "words": [
+              "r1.w724",
+              "r1.w745"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  393,
+                  343,
+                  2199,
+                  437
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 3,
+            "source_ref": "2(2)(a)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r73.rel3",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF FINANCE"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w790",
+                "r1.w796"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    573,
+                    894,
+                    1711,
+                    938
+                  ]
+                }
+              ]
+            },
+            "expect": "MINISTRY OF FINANCE (VITTA MANTRALAYA)",
+            "scope": "heading",
+            "content": [
+              {
+                "type": "ministry",
+                "heading": "MINISTRY OF FINANCE AND COMPANY AFFAIRS",
+                "heading_hi": "VITTA AUR KAMPANY KARYA MANTRALAYA"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w788",
+              "r1.w796"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  448,
+                  894,
+                  1711,
+                  938
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 4,
+            "source_ref": "2(2)(b)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r73.rel4",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF FINANCE AND COMPANY AFFAIRS"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF REVENUE"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w820",
+                "r1.w831"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    518,
+                    1071,
+                    2194,
+                    1159
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "department",
+                "num": "D",
+                "heading": "DEPARTMENT OF COMPANY AFFAIRS",
+                "heading_hi": "KAMPANY KARYA VIBHAG"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Administration of the Companies Act, 1956 (1 of 1956)."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "Administration of the Companies (Donations of National Funds) Act, 1951 (54 of 1951)."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "Administration of the Monopolies and Restrictive Trade Practices Act, 1969 (54 of 1969)."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "Monopolies and Restrictive Trade Practices Commission."
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "Profession of Accountancy [Chartered Accountants Act, 1949 (38 of 1949)]; Profession of Costs and Works Accountancy [Cost and Works Accountants Act, 1959 (23 of 1959)]; Profession of Company Secretaries [Company Secretaries Act, 1980 (56 of 1980)]."
+              },
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "Collection of Statistics relating to Companies."
+              },
+              {
+                "type": "entry",
+                "num": "7",
+                "text": "Legislation relating to law of Partnership and the exercise of certain functions under Chapter VII of the Indian Partnership Act, 1932 (9 of 1932) in centrally administrated areas. (The administration of the Act vests in the State Governments)."
+              },
+              {
+                "type": "entry",
+                "num": "8",
+                "text": "The responsibility of the Centre relating to matters concerning centrally administered areas in respect of any of the above items."
+              },
+              {
+                "type": "entry",
+                "num": "9",
+                "text": "Legislation in relation to societies registration and exercise of functions under the Societies Registration Act, 1860 (21 of 1860) in centrally administered areas."
+              }
+            ],
+            "ref_seq": 3,
+            "flags": [],
+            "words": [
+              "r1.w813",
+              "r1.w831"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  446,
+                  1071,
+                  2194,
+                  1159
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 5,
+            "source_ref": "2(2)(c)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r73.rel5",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF LAW, JUSTICE AND COMPANY AFFAIRS"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w1027",
+                "r1.w1041"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    518,
+                    2293,
+                    2198,
+                    2379
+                  ]
+                }
+              ]
+            },
+            "expect": "MINISTRY OF LAW, JUSTICE AND COMPANY AFFAIRS (VIDHI, NYAYA AUR KAMPANY KARYA MANTRALAYA)",
+            "scope": "heading",
+            "content": [
+              {
+                "type": "ministry",
+                "heading": "MINISTRY OF LAW AND JUSTICE",
+                "heading_hi": "VIDHI AUR NYAYA MANTRALAYA"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w851",
+              "r1.w1041"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  418,
+                  2293,
+                  2198,
+                  2379
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 6,
+            "source_ref": "2(2)(d)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r73.rel6",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF LAW AND JUSTICE"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF COMPANY AFFAIRS"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w1061",
+                "r1.w1074"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    521,
+                    2467,
+                    2201,
+                    2554
+                  ]
+                }
+              ]
+            },
+            "expect": "D. DEPARTMENT OF COMPANY AFFAIRS (KAMPANY KARYA VIBHAG)",
+            "ref_seq": 5,
+            "flags": [],
+            "words": [
+              "r1.w852",
+              "r1.w1074"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  421,
+                  2467,
+                  2201,
+                  2554
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

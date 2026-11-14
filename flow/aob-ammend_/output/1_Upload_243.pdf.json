@@ -1,0 +1,235 @@
+{
+  "file": {
+    "name": "1_Upload_243.pdf",
+    "file_id": "f_7d60abeee435deeb",
+    "pages": 4,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_243.pdf",
+    "sha256": "7d60abeee435deeb12e9ccdc14292a4901fb7f1e6d63c0fdf47ff3bab009da1c",
+    "govdoc": "1_Upload_243.pdf.govdoc.json.zst",
+    "revision": 109
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_679E_1989",
+      "doc_type": "aob_amendment",
+      "parent": "GAZETTE_ISSUE_7d60abeee435deeb",
+      "fields": {
+        "number": {
+          "value": "S.O. 679 ( E )"
+        },
+        "in_force": {
+          "value": "1989-08-28"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "1989-08-28",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T12:56:16.019640+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(a)(i)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r73.rel1",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF ENERGY"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF POWER"
+                },
+                {
+                  "type": "entry",
+                  "num": "9"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w434",
+                "r1.w435"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    928,
+                    2144,
+                    1061,
+                    2183
+                  ]
+                }
+              ]
+            },
+            "flags": [],
+            "words": [
+              "r1.w422",
+              "r1.w429"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  427,
+                  2104,
+                  1734,
+                  2146
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(a)(ii)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r73.rel2",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF ENERGY"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF NON-CONVEN- TIONAL ENERGY SOURCES"
+                },
+                {
+                  "type": "entry",
+                  "num": "1"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w463",
+                "r1.w465"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    778,
+                    351,
+                    1031,
+                    393
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "Programmes relating to improved chulhas and research and development thereol."
+              },
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "Indian Renewable Energy Development Agency"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w448",
+              "r1.w455"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  252,
+                  263,
+                  1578,
+                  308
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 3,
+            "source_ref": "2(b)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r73.rel3",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF WATER RESOURCES"
+                },
+                {
+                  "type": "entry",
+                  "num": "34"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w502",
+                "r1.w504"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    989,
+                    679,
+                    1278,
+                    717
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "35",
+                "text": "National Projects Construction Corporation Limited."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w491",
+              "r1.w498"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  238,
+                  639,
+                  1469,
+                  679
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

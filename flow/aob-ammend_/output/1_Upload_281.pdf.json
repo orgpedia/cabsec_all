@@ -1,0 +1,172 @@
+{
+  "file": {
+    "name": "1_Upload_281.pdf",
+    "file_id": "f_66f9c8be10a7955e",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_281.pdf",
+    "sha256": "66f9c8be10a7955e9ae1c092e6c00b96e927c6439ec22d54de805d643bb7413e",
+    "govdoc": "1_Upload_281.pdf.govdoc.json.zst",
+    "revision": 109
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_1105E_1998",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_834_1998",
+      "fields": {
+        "number": {
+          "value": "S. O. 1105 (E)"
+        },
+        "in_force": {
+          "value": "1998-12-19"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "1998-12-19",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T12:55:59.260106+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(a)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r73.rel1",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF AGRICULTURE"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF AGRICULTURE AND COOPERATION"
+                },
+                {
+                  "type": "entry",
+                  "num": "22"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w379",
+                "r1.w381"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    407,
+                    962,
+                    644,
+                    999
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "22A",
+                "text": "Setting up of agricultural markets in rural areas."
+              },
+              {
+                "type": "entry",
+                "num": "22B",
+                "text": "The Agricultural Produce (Grading and Marking) Act, 1937 (1 of 1937)."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w357",
+              "r1.w365"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  333,
+                  864,
+                  1826,
+                  906
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(b)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r73.rel2",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF RURAL AREAS AND EMPLOYMENT"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF RURAL DEVELOPMENT"
+                },
+                {
+                  "type": "entry",
+                  "num": "12"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w436",
+                "r1.w437"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    951,
+                    1252,
+                    1084,
+                    1289
+                  ]
+                }
+              ]
+            },
+            "flags": [],
+            "words": [
+              "r1.w410",
+              "r1.w419"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  332,
+                  1149,
+                  1737,
+                  1193
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -2,7 +2,7 @@
 # GovDoc Studio and brought into the GovDoc file by the pipeline before it runs (Pipeline §P9).
 file: 1_Upload_884.pdf
 file_id: f_0ee0b5e8563fa5cb
-next: 3
+next: 4
 runs:
 - id: h1
   by: mukundesh
@@ -20,3 +20,16 @@ runs:
   note: a typo in print, corrected in later versions
   edits:
   - {op: text, target: r1.w21314, before: {text: DEVELOMENT}, after: {text: DEVELOPMENT}}
+- id: h3
+  by: mukundesh
+  at: '2026-11-04T11:04:52Z'
+  reviews:
+  - {status: verified, issue: {code: 'aob:new_text_differs', word: r1.w1659, page: 8}}
+  - {status: verified, issue: {code: 'aob:new_text_differs', word: r1.w3460, page: 14}}
+  - {status: verified, issue: {code: 'aob:new_text_differs', word: r1.w5698, page: 23}}
+  - {status: verified, issue: {code: 'aob:new_text_differs', word: r1.w11389, page: 49}}
+  - {status: verified, issue: {code: 'aob:new_missing', word: r1.w12218, page: 52}}
+  - {status: verified, issue: {code: 'aob:new_missing', word: r1.w19381, page: 83}}
+  - {status: verified, issue: {code: 'aob:new_text_differs', word: r1.w29880, page: 125}}
+  - {status: verified, issue: {code: 'aob:new_text_differs', word: r1.w30114, page: 126}}
+  - {status: verified, issue: {code: 'aob:new_text_differs', word: r1.w35568, page: 149}}

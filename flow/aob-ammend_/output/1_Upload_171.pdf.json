@@ -1,0 +1,460 @@
+{
+  "file": {
+    "name": "1_Upload_171.pdf",
+    "file_id": "f_719d9b4d3a6661fa",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_171.pdf",
+    "sha256": "719d9b4d3a6661faf1a481873a30d548885af47b4235e387f3fd21089d52e0e4",
+    "govdoc": "1_Upload_171.pdf.govdoc.json.zst",
+    "revision": 46
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_467E_1979",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_327_1979",
+      "fields": {
+        "number": {
+          "value": "S. O. 467(E)"
+        },
+        "in_force": {
+          "value": "1979-08-13"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "1979-08-13",
+          "basis": "stated"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T13:49:22.714652+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(a)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r10.rel1",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "entry",
+                  "num": "4A"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w668",
+                "r1.w670"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1423,
+                    424,
+                    1635,
+                    458
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "department",
+                "num": "4A",
+                "heading": "Min'stry of Energy ( Oorja Mantralaya ) : Department of Power",
+                "heading_hi": "Vidyut Vibhag"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w667",
+              "r1.w676"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  1354,
+                  424,
+                  2273,
+                  458
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(b)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r10.rel2",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "entry",
+                  "num": "19"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w696",
+                "r1.w698"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1414,
+                    597,
+                    1618,
+                    629
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "ministry",
+                "num": "19",
+                "heading": "Ministry of Steel, Mines and Coal",
+                "heading_hi": "Jspat Khan aur Koyala Mantralaya"
+              },
+              {
+                "type": "department",
+                "num": "i",
+                "heading": "Department of Steel (Ispat Vibhug)"
+              },
+              {
+                "type": "department",
+                "num": "ii",
+                "heading": "Department of Mines",
+                "heading_hi": "Khan Vibhag"
+              },
+              {
+                "type": "department",
+                "num": "iii",
+                "heading": "Department of Coul",
+                "heading_hi": "koyala Vibhag"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w695",
+              "r1.w705"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  1352,
+                  597,
+                  2272,
+                  629
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 3,
+            "source_ref": "3(a)(i)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r10.rel3",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF ENERGY"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF POWEK"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w762",
+                "r1.w772"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1398,
+                    1075,
+                    2264,
+                    1141
+                  ]
+                }
+              ]
+            },
+            "expect": "A. DEPARTMENT OF POWEK (VIDYUT VIBHAG ) ",
+            "scope": "heading",
+            "content": [
+              {
+                "type": "ministry",
+                "heading": "DEPART- MENT OF POWER",
+                "heading_hi": "VIDYUT VIBHAG"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w761",
+              "r1.w768"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  1348,
+                  1075,
+                  2264,
+                  1106
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 4,
+            "source_ref": "3(a)(ii)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r10.rel4",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF ENERGY"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF COAL"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w786",
+                "r1.w799"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1395,
+                    1223,
+                    2266,
+                    1288
+                  ]
+                }
+              ]
+            },
+            "expect": "B. DEPARTMENT OF COAL (KOYALA VIBHAG ) ",
+            "flags": [],
+            "words": [
+              "r1.w785",
+              "r1.w791"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  1337,
+                  1223,
+                  2266,
+                  1260
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 5,
+            "source_ref": "3(b)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r10.rel5",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF STEEL AND MINES"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w805",
+                "r1.w816"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1406,
+                    1344,
+                    2273,
+                    1412
+                  ]
+                }
+              ]
+            },
+            "expect": "MINISTRY OF STEEL AND MINES (ISPAT AUR KHAN MANTRALAYA)",
+            "scope": "heading",
+            "content": [
+              {
+                "type": "ministry",
+                "heading": "MINISTRY OF STEEL, MINES AND COAL (ISPAT, KHAN AUR KOYALA MANTRA- LAYA)"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w804",
+              "r1.w811"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  1346,
+                  1344,
+                  2261,
+                  1378
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 6,
+            "source_ref": "3(b)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r10.rel6",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF STEEL, MINES AND COAL"
+                },
+                {
+                  "type": "department",
+                  "heading": "DE- PARTMENT OF MINES"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w843",
+                "r1.w856"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1417,
+                    1518,
+                    2266,
+                    1616
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "department",
+                "num": "C",
+                "heading": "DEPARTMENT OF COAL",
+                "heading_hi": "KOYALA VIBHAG"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Exploration and development of coking and noncoking coal and lignite deposits in India."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "All malters relating to production, supply, distribution and prices of coal."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "Development and operation of coal washeries other than those for which the Department of Steel (Tspat Vibhag) is responsible."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "Low temperature carbonisation of coal and production of synthetic oil from coal."
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "Administation of the Coal Mines (Conservation and Develpment) Act, 1974."
+              },
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "Administration of the Coal Bearing Areas (Acquisition and Development) Act, 1957."
+              },
+              {
+                "type": "entry",
+                "num": "7",
+                "text": "Public sector enterprises dealing with coal and lignite."
+              },
+              {
+                "type": "entry",
+                "num": "8",
+                "text": "Administration of the Mines and Minerals (Regulation and Development) Act, 1957 and other Union Laws in so far as the said Act and Laws relate to coal and lignite and sand for stowing business incidental to such administration including questions concerning various States."
+              }
+            ],
+            "ref_seq": 5,
+            "flags": [],
+            "words": [
+              "r1.w804",
+              "r1.w811"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  1346,
+                  1344,
+                  2261,
+                  1378
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

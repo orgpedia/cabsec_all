@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_347.pdf",
     "sha256": "6dd19d5e6a74d13c8d1fd97f9319f16b1792e0286c036749c20d108ff7badaf7",
     "govdoc": "1_Upload_347.pdf.govdoc.json.zst",
-    "revision": 44
+    "revision": 193
   },
   "documents": [
     {
@@ -29,9 +29,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "2",
+          "version": "3",
           "model": "gemini-4-argon",
-          "at": "2026-11-03T16:59:03.349995+00:00"
+          "at": "2026-11-12T12:56:15.155496+00:00"
         },
         "ops": [
           {
@@ -39,6 +39,7 @@
             "source_ref": "2(a)(i)",
             "op": "omit",
             "akn_type": "repeal",
+            "relation": "r157.rel1",
             "target": {
               "cited": [
                 {
@@ -60,8 +61,8 @@
               ],
               "eId": null,
               "words": [
-                "r1.w318",
-                "r1.w319"
+                "r51.w318",
+                "r51.w319"
               ],
               "boxes": [
                 {
@@ -77,8 +78,8 @@
             },
             "flags": [],
             "words": [
-              "r1.w306",
-              "r1.w314"
+              "r51.w306",
+              "r51.w314"
             ],
             "boxes": [
               {
@@ -97,6 +98,7 @@
             "source_ref": "2(a)(ii)",
             "op": "insert",
             "akn_type": "insertion",
+            "relation": "r157.rel2",
             "position": "after",
             "anchor": {
               "cited": [
@@ -119,8 +121,8 @@
               ],
               "eId": null,
               "words": [
-                "r1.w333",
-                "r1.w335"
+                "r51.w333",
+                "r51.w335"
               ],
               "boxes": [
                 {
@@ -153,8 +155,8 @@
             ],
             "flags": [],
             "words": [
-              "r1.w323",
-              "r1.w330"
+              "r51.w323",
+              "r51.w330"
             ],
             "boxes": [
               {

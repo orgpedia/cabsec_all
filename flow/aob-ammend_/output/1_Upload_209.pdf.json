@@ -1,0 +1,526 @@
+{
+  "file": {
+    "name": "1_Upload_209.pdf",
+    "file_id": "f_c2b6f3139964c9aa",
+    "pages": 4,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_209.pdf",
+    "sha256": "c2b6f3139964c9aa83e4ac43af3e232ca83008a936085fe0b32724c0ab928028",
+    "govdoc": "1_Upload_209.pdf.govdoc.json.zst",
+    "revision": 46
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_606E_1985",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_392_1985",
+      "fields": {
+        "number": {
+          "value": "S.O. 606(E)"
+        },
+        "in_force": {
+          "value": "1985-08-13"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "1985-08-13",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T13:49:51.320010+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(a)(i)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r10.rel1",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Communications"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w1047",
+                "r1.w1107"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1506,
+                    3130,
+                    2326,
+                    3213
+                  ]
+                },
+                {
+                  "page": 3,
+                  "bbox": [
+                    392,
+                    344,
+                    598,
+                    385
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "ministry",
+                "num": "4A",
+                "heading": "Ministry of Cultural Affairs",
+                "heading_hi": "Sanskritik Karya Mantralaya"
+              },
+              {
+                "type": "department",
+                "num": "i",
+                "heading": "Department of Culture",
+                "heading_hi": "Sanskriti Vibhag"
+              },
+              {
+                "type": "department",
+                "num": "ii",
+                "heading": "Department of Arts",
+                "heading_hi": "Kala Vibhag"
+              }
+            ],
+            "flags": [
+              "new_extra"
+            ],
+            "words": [
+              "r1.w1045",
+              "r1.w1055"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  1417,
+                  3130,
+                  2326,
+                  3213
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(a)(ii)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r10.rel2",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Department of Culture"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w1083",
+                "r1.w1090"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    359,
+                    696,
+                    1199,
+                    778
+                  ]
+                }
+              ]
+            },
+            "expect": "26A. Department of Culture (Sanskriti Vibhag)",
+            "flags": [],
+            "words": [
+              "r1.w1082",
+              "r1.w1093"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  287,
+                  696,
+                  1199,
+                  782
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 3,
+            "source_ref": "2(b)(i)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r10.rel3",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Communications"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w1137",
+                "r1.w1148"
+              ],
+              "boxes": [
+                {
+                  "page": 3,
+                  "bbox": [
+                    379,
+                    896,
+                    1195,
+                    1023
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "ministry",
+                "heading": "Ministry of Cultural Affairs",
+                "heading_hi": "Sanskritik Karya Mantralaya"
+              },
+              {
+                "type": "department",
+                "num": "A",
+                "heading": "Department of Culture",
+                "heading_hi": "Sanskriti Vibhag"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "National Library; the Indian Museum; the Indian War Memorial Museum; the Victoria Memorial and the India War Memorial and any other like institutions financed by the Government of India wholly or in part and declared by Parliament by law to be an institution of national importance."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "Archaeology, archaeological Museums ci"
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "The Ancient Monuments and Archaeologicri cal Sites and Remains Act, 1958 and the Ancient Monuments Preservation Act, 1904."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "Grants to Universities and Research Institutions for excavation and exploration of historical and archaeological remains. .5. International Conventions for the protection of cultural property in the event of armed conflict."
+              },
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "History of Freedom Movement."
+              },
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "A. Jalianwala Bagh National Memorial Trust."
+              },
+              {
+                "type": "entry",
+                "num": "7",
+                "text": "Administration of Gandhi Smriti Samiti and Gandhi Darshan."
+              },
+              {
+                "type": "entry",
+                "num": "8",
+                "text": "The delivery of Books (Public Libraries) Act and the Press and Registration of Books Act (in so far as supply of books and catalogues to the Central Government is concerned)."
+              },
+              {
+                "type": "entry",
+                "num": "9",
+                "text": "Promotion of fine arts."
+              },
+              {
+                "type": "entry",
+                "num": "10",
+                "text": "Sahitya, Lalit Kala and Sangeet Natak Academies."
+              },
+              {
+                "type": "entry",
+                "num": "11",
+                "text": "The Central Secretariat Library; Central Reference Library, Calcutta; Rampur Raza Library Rampur; Delhi Public Library; India Office Library; National Museum, New Delhi; Salar Jung Museum and Library, Hydrerabad; Khudabux Oriental Public Library; Nehru Memorial Muscum and Library; Gandhi Darshan Samiti; National Gallery of Portraits; General Development of Museums."
+              },
+              {
+                "type": "entry",
+                "num": "12",
+                "text": "National Gallery of Modern Art, New Delhi."
+              },
+              {
+                "type": "entry",
+                "num": "13",
+                "text": "Acquisition of Indian and Foreign Art objects."
+              },
+              {
+                "type": "entry",
+                "num": "14",
+                "text": "Treasure Trove; the Antiquities and Art Treasures Act, 1972 and Export of antiquities."
+              },
+              {
+                "type": "entry",
+                "num": "15",
+                "text": "Open air theatres in rural areas and theatres in State capitals."
+              },
+              {
+                "type": "entry",
+                "num": "16",
+                "text": "Financial assistance to authors and artists or their survivors in indigent circumstances other than those belonging to the categories covered under the Scheme of the Ministry of Information and Broadcasting (Soochna aur Prasaran Mantralaya)."
+              },
+              {
+                "type": "entry",
+                "num": "17",
+                "text": "Charities and Charitable Institutions, Charities and Religious Endowments pertaining to subjects dealt within this Department."
+              },
+              {
+                "type": "entry",
+                "num": "18",
+                "text": "Scholarships, including those offered by foreign Government and foreign agencies. in respect of subjects dealt with by this Department."
+              },
+              {
+                "type": "entry",
+                "num": "19",
+                "text": "Schemes for grant of financial assistance to voluntary organisations for promotion of Modern Indian Languages."
+              },
+              {
+                "type": "entry",
+                "num": "20",
+                "text": "Publication of rare manuscripts."
+              },
+              {
+                "type": "entry",
+                "num": "21",
+                "text": "Grants in All-India Cultural Institutions."
+              },
+              {
+                "type": "entry",
+                "num": "22",
+                "text": "Grants to Indo-foreign Cultural Societies."
+              },
+              {
+                "type": "entry",
+                "num": "23",
+                "text": "Cultural agreements and friendship treaties with foreign countries."
+              },
+              {
+                "type": "entry",
+                "num": "24",
+                "text": "Distribution of gift books received from abroad."
+              },
+              {
+                "type": "entry",
+                "num": "25",
+                "text": "Appointment of Cultural Attaches abroad."
+              },
+              {
+                "type": "entry",
+                "num": "26",
+                "text": "Visit of Cultural Delegations, etc. to India sponsored and unsponsored."
+              },
+              {
+                "type": "entry",
+                "num": "27",
+                "text": "Individuals (including cultural lecturers) sponsored by Government for visits abroad."
+              },
+              {
+                "type": "entry",
+                "num": "28",
+                "text": "Presentation of books to foreign countries."
+              },
+              {
+                "type": "entry",
+                "num": "29",
+                "text": "Establishment of libraries abroad."
+              },
+              {
+                "type": "entry",
+                "num": "30",
+                "text": "Translation of Indian classics into foreign languages."
+              },
+              {
+                "type": "entry",
+                "num": "31",
+                "text": "Exchange of official publications with foreign Governments and institutions and agreements for such exchanges."
+              },
+              {
+                "type": "entry",
+                "num": "32",
+                "text": "Presentation of Indian art objects abroad."
+              },
+              {
+                "type": "entry",
+                "num": "33",
+                "text": "Admission of Foreign students in Cultural Institutions."
+              },
+              {
+                "type": "entry",
+                "num": "34",
+                "text": "Exchange of artists, dancers, musicians, etc. under the Cultural Exchange Programmes."
+              },
+              {
+                "type": "entry",
+                "num": "35",
+                "text": "Revision of Gazetteers."
+              },
+              {
+                "type": "entry",
+                "num": "36",
+                "text": "Observance of Centenaries and Anniversaries of important personalities. [PART II SC. 3(ii)]"
+              },
+              {
+                "type": "entry",
+                "num": "37",
+                "text": "Publication, information and statistics relating to subjects dealt with by this Department."
+              },
+              {
+                "type": "entry",
+                "num": "38",
+                "text": "International Congress of Orientalists."
+              },
+              {
+                "type": "entry",
+                "num": "39",
+                "text": "Anthropological Survey of India."
+              },
+              {
+                "type": "entry",
+                "num": "40",
+                "text": "National Archives of India."
+              },
+              {
+                "type": "entry",
+                "num": "40A",
+                "text": "Rashtriya Manava Sangrahalaya."
+              },
+              {
+                "type": "entry",
+                "num": "41",
+                "text": "National Council of Council of Science Muscums Calcutta."
+              },
+              {
+                "type": "entry",
+                "num": "42",
+                "text": "All other attached or subordinate offices or other organisations concerned with any of the subjects specified in this"
+              },
+              {
+                "type": "department",
+                "num": "B",
+                "heading": "Department of Arts",
+                "heading_hi": "Kala Vibhag"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Indira Gandhi National Centre for Arts (IGNCA)."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "National Theatre."
+              }
+            ],
+            "flags": [
+              "read_page_break"
+            ],
+            "words": [
+              "r1.w1135",
+              "r1.w1144"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  296,
+                  895,
+                  1195,
+                  983
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 4,
+            "source_ref": "2(b)(ii)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r10.rel4",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Department of Culture"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w1740",
+                "r1.w1751"
+              ],
+              "boxes": [
+                {
+                  "page": 4,
+                  "bbox": [
+                    1527,
+                    629,
+                    2375,
+                    724
+                  ]
+                }
+              ]
+            },
+            "expect": "Department of Culture (Sanskriti Vibhag)",
+            "flags": [],
+            "words": [
+              "r1.w1739",
+              "r1.w1754"
+            ],
+            "boxes": [
+              {
+                "page": 4,
+                "bbox": [
+                  1450,
+                  629,
+                  2375,
+                  759
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

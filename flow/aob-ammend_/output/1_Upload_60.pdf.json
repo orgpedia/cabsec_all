@@ -1,0 +1,291 @@
+{
+  "file": {
+    "name": "1_Upload_60.pdf",
+    "file_id": "f_a1baeb312b1316f0",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_60.pdf",
+    "sha256": "a1baeb312b1316f0945dd7bb11aa57ea9c184a1b870c994b3eb386d238374272",
+    "govdoc": "1_Upload_60.pdf.govdoc.json.zst",
+    "revision": 46
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_1110_1964",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_86_1964",
+      "fields": {
+        "number": {
+          "value": "S.O. 1110"
+        },
+        "in_force": {
+          "value": "1964-03-26"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "1964-03-26",
+          "basis": "stated"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T13:49:37.586985+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "(A)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r10.rel1",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "entry",
+                  "num": "8"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w125",
+                "r1.w127"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    270,
+                    1663,
+                    477,
+                    1697
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "ministry",
+                "heading": "Ministry of Home Affairs",
+                "remark": "with a Department of Administrative Reforms within the Ministry"
+              },
+              {
+                "type": "department",
+                "num": "-",
+                "heading": "Department of Administrative Reforms"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w120",
+              "r1.w129"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  236,
+                  1613,
+                  729,
+                  1697
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "(B)(a)(i)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r10.rel2",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Home Affairs"
+                },
+                {
+                  "type": "entry",
+                  "num": "46"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w162",
+                "r1.w163"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    363,
+                    1892,
+                    506,
+                    1925
+                  ]
+                }
+              ]
+            },
+            "flags": [],
+            "words": [
+              "r1.w161",
+              "r1.w166"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  308,
+                  1889,
+                  817,
+                  1926
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 3,
+            "source_ref": "(B)(a)(ii)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r10.rel3",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Home Affairs"
+                },
+                {
+                  "type": "entry",
+                  "num": "125"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w168",
+                "r1.w170"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    368,
+                    1937,
+                    631,
+                    1972
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Department of Administrative Reformis"
+              },
+              {
+                "type": "entry",
+                "num": "126",
+                "text": "Administrative Reforms."
+              },
+              {
+                "type": "entry",
+                "num": "127",
+                "text": "Organisation and Methods."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w167",
+              "r1.w175"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  300,
+                  1932,
+                  1326,
+                  1973
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 4,
+            "source_ref": "(B)(b)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r10.rel4",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Cabinet Secretariat"
+                },
+                {
+                  "type": "department",
+                  "heading": "Depart- ment of Cabinet Affairs"
+                },
+                {
+                  "type": "entry",
+                  "num": "3"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w206",
+                "r1.w210"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    843,
+                    2159,
+                    1507,
+                    2194
+                  ]
+                }
+              ]
+            },
+            "expect": "3. Organisation and Methods.",
+            "flags": [],
+            "words": [
+              "r1.w192",
+              "r1.w199"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  269,
+                  2124,
+                  1377,
+                  2165
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

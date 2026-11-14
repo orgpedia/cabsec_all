@@ -1,0 +1,291 @@
+{
+  "file": {
+    "name": "1_Upload_90.pdf",
+    "file_id": "f_daef1fbcad1e3922",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_90.pdf",
+    "sha256": "daef1fbcad1e39223e789f639fa2c6dfdf14d983d77e4d76fb1fc90187251c55",
+    "govdoc": "1_Upload_90.pdf.govdoc.json.zst",
+    "revision": 46
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_3511_1966",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_377_1966",
+      "fields": {
+        "number": {
+          "value": "S.O. 3511"
+        },
+        "in_force": {
+          "value": "1966-11-18"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "1966-11-18",
+          "basis": "stated"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T13:50:03.656865+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "(1)(a)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r10.rel1",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Education"
+                },
+                {
+                  "type": "entry",
+                  "num": "96"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w189",
+                "r1.w191"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    405,
+                    2277,
+                    678,
+                    2313
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "97",
+                "text": "The Muslim Wakfs Act, 1954."
+              },
+              {
+                "type": "entry",
+                "num": "98",
+                "text": "Work in respect of Wakf properties under the administration of Evacuee Property Act, 1950."
+              },
+              {
+                "type": "entry",
+                "num": "99",
+                "text": "Administration of Dargah Khawaja Saheb Act, 1955."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w188",
+              "r1.w198"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  336,
+                  2277,
+                  1623,
+                  2313
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "(1)(b)",
+            "op": "renumber",
+            "akn_type": "renumbering",
+            "relation": "r10.rel2",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Education"
+                },
+                {
+                  "type": "entry",
+                  "num": "97"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w229",
+                "r1.w232"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    407,
+                    2514,
+                    800,
+                    2549
+                  ]
+                }
+              ]
+            },
+            "new_num": "100",
+            "flags": [],
+            "words": [
+              "r1.w228",
+              "r1.w239"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  336,
+                  2514,
+                  1547,
+                  2549
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 3,
+            "source_ref": "(2)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r10.rel3",
+            "target": [
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "Ministry of Irrigation and Power"
+                  },
+                  {
+                    "type": "entry",
+                    "num": "28"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r1.w259",
+                  "r1.w260"
+                ],
+                "boxes": [
+                  {
+                    "page": 2,
+                    "bbox": [
+                      1481,
+                      203,
+                      1667,
+                      239
+                    ]
+                  }
+                ]
+              },
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "Ministry of Irrigation and Power"
+                  },
+                  {
+                    "type": "entry",
+                    "num": "29"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r1.w261",
+                  "r1.w261"
+                ],
+                "boxes": [
+                  {
+                    "page": 2,
+                    "bbox": [
+                      1690,
+                      203,
+                      1729,
+                      239
+                    ]
+                  }
+                ]
+              },
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "Ministry of Irrigation and Power"
+                  },
+                  {
+                    "type": "entry",
+                    "num": "30"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r1.w263",
+                  "r1.w263"
+                ],
+                "boxes": [
+                  {
+                    "page": 2,
+                    "bbox": [
+                      554,
+                      242,
+                      588,
+                      270
+                    ]
+                  }
+                ]
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w250",
+              "r1.w266"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  359,
+                  203,
+                  1729,
+                  271
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

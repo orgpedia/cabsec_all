@@ -1,0 +1,177 @@
+{
+  "file": {
+    "name": "1_Upload_150.pdf",
+    "file_id": "f_8e2a08c2b5bcc547",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_150.pdf",
+    "sha256": "8e2a08c2b5bcc5471bf8fefd0d98c20b48b3445df6d1916d29c7ca0d4270debb",
+    "govdoc": "1_Upload_150.pdf.govdoc.json.zst",
+    "revision": 49
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_461E_1975",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_337_1975",
+      "fields": {
+        "number": {
+          "value": "S.O. 461(E)"
+        },
+        "in_force": {
+          "value": "1975-08-29"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "1975-08-29",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T13:49:24.440370+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(a)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r12.rel1",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF PLANNING"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF STATISTICS"
+                },
+                {
+                  "type": "entry",
+                  "num": "5"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w209",
+                "r1.w211"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    929,
+                    2298,
+                    1121,
+                    2336
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "Computer Centre."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w191",
+              "r1.w197"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  387,
+                  2230,
+                  1335,
+                  2269
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(b)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r12.rel2",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "DEPARTMENT OF ELECTRONICS"
+                },
+                {
+                  "type": "entry",
+                  "num": "2"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w235",
+                "r1.w237"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    846,
+                    2496,
+                    1071,
+                    2531
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "Co-ordination of requirements relating to electronic processing equipment (computers). (1983) 1984 THE GAZETTE OF INDIA EXTRAORDINARY [PART II – SEC. 3 ( i ) ]"
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "All matters concerning computer based information, technology and processing including hardware and software, standardization of procedures and matters relevant to international bodies such as IFIP, IBI, ICC."
+              }
+            ],
+            "flags": [
+              "read_page_break"
+            ],
+            "words": [
+              "r1.w223",
+              "r1.w229"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  498,
+                  2456,
+                  1538,
+                  2499
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

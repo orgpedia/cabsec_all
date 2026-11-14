@@ -1,0 +1,334 @@
+{
+  "file": {
+    "name": "1_Upload_47.pdf",
+    "file_id": "f_deb357dfb666fce6",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_47.pdf",
+    "sha256": "deb357dfb666fce6625dccc578e436a2fc121c7e027b42f458cbc5acd11fafd2",
+    "govdoc": "1_Upload_47.pdf.govdoc.json.zst",
+    "revision": 46
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_3721_1962",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_355_1962",
+      "fields": {
+        "number": {
+          "value": null
+        },
+        "in_force": {
+          "value": "1962-12-06"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "1962-12-06",
+          "basis": "stated"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T13:50:03.810762+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "(A)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r10.rel1",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "entry",
+                  "num": "19"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w105",
+                "r1.w111"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    328,
+                    1538,
+                    946,
+                    1572
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "ministry",
+                "num": "19",
+                "heading": "Ministry of Works, Housing and Rehabilitation:"
+              },
+              {
+                "type": "department",
+                "num": "i",
+                "heading": "Department of Works and Housing."
+              },
+              {
+                "type": "department",
+                "num": "ii",
+                "heading": "Department of Rehabilitation."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w104",
+              "r1.w117"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  248,
+                  1538,
+                  1674,
+                  1572
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "(B)(a)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r10.rel2",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Works and Housing"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w142",
+                "r1.w150"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    374,
+                    1842,
+                    1424,
+                    1877
+                  ]
+                }
+              ]
+            },
+            "expect": "Ministry of Works and Housing",
+            "scope": "heading",
+            "content": [
+              {
+                "type": "text",
+                "text": "Ministry of Works, Housing and Rehabilitation."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w141",
+              "r1.w152"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  303,
+                  1842,
+                  1677,
+                  1877
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 3,
+            "source_ref": "(B)(b)(i)",
+            "op": "substitute_text",
+            "akn_type": "substitution",
+            "relation": "r10.rel3",
+            "target": [
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "Ministry of Works, Housing and Rehabilitation."
+                  },
+                  {
+                    "type": "department",
+                    "heading": "Department of Works and Housing"
+                  },
+                  {
+                    "type": "entry",
+                    "num": "1"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r1.w174",
+                  "r1.w176"
+                ],
+                "boxes": [
+                  {
+                    "page": 1,
+                    "bbox": [
+                      405,
+                      2026,
+                      618,
+                      2061
+                    ]
+                  }
+                ]
+              },
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "Ministry of Works, Housing and Rehabilitation."
+                  },
+                  {
+                    "type": "department",
+                    "heading": "Department of Works and Housing"
+                  },
+                  {
+                    "type": "entry",
+                    "num": "7"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r1.w178",
+                  "r1.w178"
+                ],
+                "boxes": [
+                  {
+                    "page": 1,
+                    "bbox": [
+                      726,
+                      2026,
+                      755,
+                      2061
+                    ]
+                  }
+                ]
+              }
+            ],
+            "old": "Ministry of Works, Housing and Supply",
+            "new": "Ministry of Works, Housing and Rehabilita- tion",
+            "ref_seq": 2,
+            "flags": [],
+            "words": [
+              "r1.w173",
+              "r1.w186"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  341,
+                  2026,
+                  1675,
+                  2061
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 4,
+            "source_ref": "(B)(b)(ii)",
+            "op": "substitute_text",
+            "akn_type": "substitution",
+            "relation": "r10.rel4",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Works, Housing and Rehabilitation."
+                },
+                {
+                  "type": "department",
+                  "heading": "Department of Works and Housing"
+                },
+                {
+                  "type": "entry",
+                  "num": "23"
+                },
+                {
+                  "type": "item",
+                  "num": "k"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w201",
+                "r1.w203"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    406,
+                    2141,
+                    684,
+                    2179
+                  ]
+                }
+              ]
+            },
+            "old": "W. H. & S. Ministry",
+            "new": "Works, Housing and Rehabilitation Ministry",
+            "ref_seq": 2,
+            "flags": [],
+            "words": [
+              "r1.w200",
+              "r1.w213"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  331,
+                  2135,
+                  1675,
+                  2180
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

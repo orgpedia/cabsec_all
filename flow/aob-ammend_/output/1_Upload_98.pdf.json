@@ -1,0 +1,553 @@
+{
+  "file": {
+    "name": "1_Upload_98.pdf",
+    "file_id": "f_3ae38ae405b42848",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_98.pdf",
+    "sha256": "3ae38ae405b428489b79238ce1c9abab1b022cd5a807a013bbe8b1400a76ebce",
+    "govdoc": "1_Upload_98.pdf.govdoc.json.zst",
+    "revision": 46
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_367_1968",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_27_1968",
+      "fields": {
+        "number": {
+          "value": "S.O. 367"
+        },
+        "in_force": {
+          "value": "1968-01-22"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "1968-01-22",
+          "basis": "stated"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T13:49:06.352930+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "(1)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r10.rel1",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Education"
+                },
+                {
+                  "type": "entry",
+                  "num": "90"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w190",
+                "r1.w198"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    457,
+                    2159,
+                    1727,
+                    2228
+                  ]
+                }
+              ]
+            },
+            "expect": "Central Braille Press, Dehra Dun",
+            "flags": [],
+            "words": [
+              "r1.w181",
+              "r1.w189"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  354,
+                  2159,
+                  1209,
+                  2195
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "(2)(a)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r10.rel2",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Mmistry of Food, Agriculture, Community Develop- ment and Cooperation"
+                },
+                {
+                  "type": "department",
+                  "heading": "Department of Agriculture"
+                },
+                {
+                  "type": "group_heading",
+                  "heading": "Part I"
+                },
+                {
+                  "type": "entry",
+                  "num": "13"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w223",
+                "r1.w228"
+              ],
+              "boxes": [
+                {
+                  "page": 1,
+                  "bbox": [
+                    495,
+                    2321,
+                    1728,
+                    2388
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "13A",
+                "text": "Sugarcane research and sugarcane development scheme."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w216",
+              "r1.w222"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  388,
+                  2321,
+                  1403,
+                  2354
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 3,
+            "source_ref": "(2)(b)(i)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r10.rel3",
+            "target": [
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "Mmistry of Food, Agriculture, Community Develop- ment and Cooperation"
+                  },
+                  {
+                    "type": "department",
+                    "heading": "Department of Food"
+                  },
+                  {
+                    "type": "entry",
+                    "num": "11"
+                  },
+                  {
+                    "type": "item",
+                    "num": "iv"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r1.w263",
+                  "r1.w270"
+                ],
+                "boxes": [
+                  {
+                    "page": 1,
+                    "bbox": [
+                      465,
+                      2553,
+                      1669,
+                      2587
+                    ]
+                  }
+                ]
+              },
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "Mmistry of Food, Agriculture, Community Develop- ment and Cooperation"
+                  },
+                  {
+                    "type": "department",
+                    "heading": "Department of Food"
+                  },
+                  {
+                    "type": "entry",
+                    "num": "11"
+                  },
+                  {
+                    "type": "item",
+                    "num": "v"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r1.w271",
+                  "r1.w275"
+                ],
+                "boxes": [
+                  {
+                    "page": 1,
+                    "bbox": [
+                      481,
+                      2595,
+                      1370,
+                      2636
+                    ]
+                  }
+                ]
+              }
+            ],
+            "expect": "(iv) Indian Institute of Sugarcane Research, Bhadruk, Lucknow. (v) Sugarcane Breeding Institute, Coimbatore.",
+            "content": [
+              {
+                "type": "item",
+                "num": "iv",
+                "text": "Indian Institute of Sugarcane Research, Bhadruk, Lucknow."
+              },
+              {
+                "type": "item",
+                "num": "v",
+                "text": "Sugarcane Breeding Institute, Coimbatore."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w251",
+              "r1.w257"
+            ],
+            "boxes": [
+              {
+                "page": 1,
+                "bbox": [
+                  424,
+                  2506,
+                  1066,
+                  2540
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 4,
+            "source_ref": "(2)(b)(ii)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r10.rel4",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Mmistry of Food, Agriculture, Community Develop- ment and Cooperation"
+                },
+                {
+                  "type": "department",
+                  "heading": "Department of Food"
+                },
+                {
+                  "type": "entry",
+                  "num": "12"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w291",
+                "r1.w293"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    488,
+                    261,
+                    718,
+                    295
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "12",
+                "text": "Matters relating to the Development Council for Sugar Industry New Delhi."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w290",
+              "r1.w296"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  411,
+                  261,
+                  1090,
+                  295
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 5,
+            "source_ref": "(3)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r10.rel5",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Industrial Development and Company Affairs"
+                },
+                {
+                  "type": "department",
+                  "heading": "Department of Industrial Development"
+                },
+                {
+                  "type": "group_heading",
+                  "heading": "IV. Small Scale Industries"
+                },
+                {
+                  "type": "entry",
+                  "num": "25"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w338",
+                "r1.w340"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1249,
+                    470,
+                    1510,
+                    500
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "25A",
+                "text": "Co-ordination of matters relating to Rural Industrialisation."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w314",
+              "r1.w321"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  350,
+                  402,
+                  1458,
+                  437
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 6,
+            "source_ref": "(4)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r10.rel6",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Department of Social Welfare"
+                },
+                {
+                  "type": "entry",
+                  "num": "6"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w364",
+                "r1.w366"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1401,
+                    608,
+                    1647,
+                    641
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "6A",
+                "text": "Central Braille Press, Dehra Dun."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w356",
+              "r1.w363"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  348,
+                  608,
+                  1378,
+                  641
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 7,
+            "source_ref": "(5)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r10.rel7",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Cabinet Secretariat"
+                },
+                {
+                  "type": "department",
+                  "heading": "Depart- ment of Statistics"
+                },
+                {
+                  "type": "entry",
+                  "num": "4"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w394",
+                "r1.w396"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    810,
+                    782,
+                    1044,
+                    818
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "Computer Centre."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w381",
+              "r1.w388"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  346,
+                  747,
+                  1487,
+                  782
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,1109 @@
+{
+  "file": {
+    "name": "1_Upload_250.pdf",
+    "file_id": "f_3b56d8b510bb1bb6",
+    "pages": 6,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_250.pdf",
+    "sha256": "3b56d8b510bb1bb69aad71882642fddb5f830fb234080a0b78ed544f379322da",
+    "govdoc": "1_Upload_250.pdf.govdoc.json.zst",
+    "revision": 114
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_355E_1990",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_228_1990",
+      "fields": {
+        "number": {
+          "value": "S.O. 355 (E)"
+        },
+        "in_force": {
+          "value": "1990-04-23"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "1990-04-23",
+          "basis": "retrospective"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T12:55:39.628292+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2I(a)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r78.rel1",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF HUMAN RESOURCE DEVELOPMENT"
+                },
+                {
+                  "type": "department",
+                  "heading": "DE- PARTMENT OF WOMEN AND CHILD DEVELOPMENT"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w1691",
+                "r1.w1705"
+              ],
+              "boxes": [
+                {
+                  "page": 4,
+                  "bbox": [
+                    479,
+                    2647,
+                    1298,
+                    2814
+                  ]
+                }
+              ]
+            },
+            "expect": "(v) DE- PARTMENT OF WOMEN AND CHILD DEVELOPMENT (MAHILA AUR BAL VIKAS VIBHAG)",
+            "flags": [],
+            "words": [
+              "r1.w1675",
+              "r1.w1685"
+            ],
+            "boxes": [
+              {
+                "page": 4,
+                "bbox": [
+                  397,
+                  2511,
+                  1301,
+                  2593
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2I(b)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r78.rel2",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF INDUSTRY"
+                },
+                {
+                  "type": "item",
+                  "num": "iv"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w1719",
+                "r1.w1721"
+              ],
+              "boxes": [
+                {
+                  "page": 4,
+                  "bbox": [
+                    480,
+                    2927,
+                    912,
+                    2976
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "department",
+                "num": "v",
+                "heading": "Department of Small Scale Industries and Agro and Rural Industries",
+                "heading_hi": "Laghu Udyog aur Krishi evam Grameen Udyog Vibhag"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w1709",
+              "r1.w1718"
+            ],
+            "boxes": [
+              {
+                "page": 4,
+                "bbox": [
+                  393,
+                  2845,
+                  1295,
+                  2923
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 3,
+            "source_ref": "2I(c)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r78.rel3",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "1"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF WELFARE"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w1753",
+                "r1.w1761"
+              ],
+              "boxes": [
+                {
+                  "page": 4,
+                  "bbox": [
+                    1570,
+                    297,
+                    2393,
+                    378
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "department",
+                "num": "i",
+                "heading": "Department of Welfare",
+                "heading_hi": "Kalyan Vibhag"
+              },
+              {
+                "type": "department",
+                "num": "ii",
+                "heading": "Department of Women and Cuild Dovelopment",
+                "heading_hi": "Mahila aur Bal Vikas Vibhag"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w1752",
+              "r1.w1761"
+            ],
+            "boxes": [
+              {
+                "page": 4,
+                "bbox": [
+                  1490,
+                  297,
+                  2393,
+                  378
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 4,
+            "source_ref": "2II(a)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r78.rel4",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF HUMAN RESOURCE DEVELOPMENT"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF WOMEN AND CHILD DEVELOPMENT"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w1805",
+                "r1.w1822"
+              ],
+              "boxes": [
+                {
+                  "page": 4,
+                  "bbox": [
+                    1574,
+                    944,
+                    2396,
+                    1111
+                  ]
+                }
+              ]
+            },
+            "expect": "(e) DEPARTMENT OF WOMEN AND CHILD DEVELOPMENT (MAHILA AUR BAL VIKAS VIBHAG)",
+            "flags": [],
+            "words": [
+              "r1.w1793",
+              "r1.w1801"
+            ],
+            "boxes": [
+              {
+                "page": 4,
+                "bbox": [
+                  1489,
+                  815,
+                  2392,
+                  898
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 5,
+            "source_ref": "2II(b)(i)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r78.rel5",
+            "target": [
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "MINISTRY OF IN- DUSTRY"
+                  },
+                  {
+                    "type": "department",
+                    "heading": "DEPART- MENT OF INDUSTRIAL DEVELOP- MENT"
+                  },
+                  {
+                    "type": "entry",
+                    "num": "26"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r1.w1849",
+                  "r1.w1850"
+                ],
+                "boxes": [
+                  {
+                    "page": 4,
+                    "bbox": [
+                      1625,
+                      1476,
+                      1822,
+                      1512
+                    ]
+                  }
+                ]
+              },
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "MINISTRY OF IN- DUSTRY"
+                  },
+                  {
+                    "type": "department",
+                    "heading": "DEPART- MENT OF INDUSTRIAL DEVELOP- MENT"
+                  },
+                  {
+                    "type": "entry",
+                    "num": "27"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r1.w1851",
+                  "r1.w1851"
+                ],
+                "boxes": [
+                  {
+                    "page": 4,
+                    "bbox": [
+                      1843,
+                      1476,
+                      1900,
+                      1512
+                    ]
+                  }
+                ]
+              },
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "MINISTRY OF IN- DUSTRY"
+                  },
+                  {
+                    "type": "department",
+                    "heading": "DEPART- MENT OF INDUSTRIAL DEVELOP- MENT"
+                  },
+                  {
+                    "type": "entry",
+                    "num": "28"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r1.w1852",
+                  "r1.w1852"
+                ],
+                "boxes": [
+                  {
+                    "page": 4,
+                    "bbox": [
+                      1928,
+                      1476,
+                      1985,
+                      1512
+                    ]
+                  }
+                ]
+              },
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "MINISTRY OF IN- DUSTRY"
+                  },
+                  {
+                    "type": "department",
+                    "heading": "DEPART- MENT OF INDUSTRIAL DEVELOP- MENT"
+                  },
+                  {
+                    "type": "entry",
+                    "num": "38"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r1.w1853",
+                  "r1.w1853"
+                ],
+                "boxes": [
+                  {
+                    "page": 4,
+                    "bbox": [
+                      2014,
+                      1476,
+                      2057,
+                      1512
+                    ]
+                  }
+                ]
+              },
+              {
+                "cited": [
+                  {
+                    "type": "schedule",
+                    "num": "2"
+                  },
+                  {
+                    "type": "ministry",
+                    "heading": "MINISTRY OF IN- DUSTRY"
+                  },
+                  {
+                    "type": "department",
+                    "heading": "DEPART- MENT OF INDUSTRIAL DEVELOP- MENT"
+                  },
+                  {
+                    "type": "entry",
+                    "num": "39"
+                  }
+                ],
+                "eId": null,
+                "words": [
+                  "r1.w1855",
+                  "r1.w1855"
+                ],
+                "boxes": [
+                  {
+                    "page": 4,
+                    "bbox": [
+                      2174,
+                      1476,
+                      2217,
+                      1512
+                    ]
+                  }
+                ]
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w1835",
+              "r1.w1844"
+            ],
+            "boxes": [
+              {
+                "page": 4,
+                "bbox": [
+                  1537,
+                  1344,
+                  2394,
+                  1423
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 6,
+            "source_ref": "2II(b)(ii)",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r78.rel6",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF IN- DUSTRY"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPAKT- ment OF PUBLIC ENTERPRISES"
+                },
+                {
+                  "type": "entry",
+                  "num": "1"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w1875",
+                "r1.w1876"
+              ],
+              "boxes": [
+                {
+                  "page": 4,
+                  "bbox": [
+                    2250,
+                    1694,
+                    2396,
+                    1735
+                  ]
+                }
+              ]
+            },
+            "flags": [],
+            "words": [
+              "r1.w1859",
+              "r1.w1868"
+            ],
+            "boxes": [
+              {
+                "page": 4,
+                "bbox": [
+                  1537,
+                  1605,
+                  2394,
+                  1684
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 7,
+            "source_ref": "2II(b)(iii)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r78.rel7",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF IN- DUSTRY"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPART- MENT OF PUBLIC ENTERPRISES"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w1878",
+                "r1.w1893"
+              ],
+              "boxes": [
+                {
+                  "page": 4,
+                  "bbox": [
+                    1619,
+                    1821,
+                    2395,
+                    1988
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "department",
+                "num": "E",
+                "heading": "DEPARTMENT OF SMALL SCALE INDUSTRIES AND AGRO AND RURAL INDUSTRIES",
+                "heading_hi": "LAGHU UDYOG AUR KRISHI EVAM GRAMEEN UDYOG VIBHAG"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Co-ordination of the Development of smallscale industries :- --"
+              },
+              {
+                "type": "item",
+                "num": "i",
+                "text": "Small Industries Board."
+              },
+              {
+                "type": "item",
+                "num": "ii",
+                "text": "National Small Industries Corporation Ltd."
+              },
+              {
+                "type": "item",
+                "num": "iii",
+                "text": "Setting up of new industries, for providing employment, in places where there are heavy concentrations of displaced persons from West Pakistan."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "Village and cottage industries."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "Coordination of matters relating to Rural Industrialisation."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "Coir Industry."
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "The Coir Board."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w1877",
+              "r1.w1886"
+            ],
+            "boxes": [
+              {
+                "page": 4,
+                "bbox": [
+                  1516,
+                  1821,
+                  2392,
+                  1898
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 8,
+            "source_ref": "2II(c)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r78.rel8",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF PROGRAMME IMPLEMENTATION"
+                },
+                {
+                  "type": "entry",
+                  "num": "1"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w2006",
+                "r1.w2008"
+              ],
+              "boxes": [
+                {
+                  "page": 5,
+                  "bbox": [
+                    857,
+                    483,
+                    1110,
+                    521
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "Bureau of Public Enterprises including Industrial Management Pool"
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w1994",
+              "r1.w2003"
+            ],
+            "boxes": [
+              {
+                "page": 5,
+                "bbox": [
+                  371,
+                  349,
+                  1266,
+                  429
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 9,
+            "source_ref": "2II(d)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r78.rel9",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF WEL- FARE"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w2026",
+                "r1.w2038"
+              ],
+              "boxes": [
+                {
+                  "page": 5,
+                  "bbox": [
+                    447,
+                    739,
+                    1274,
+                    870
+                  ]
+                }
+              ]
+            },
+            "expect": "MINISTRY OF WEL- FARE (KALYAN MANTRALAYA)",
+            "content": [
+              {
+                "type": "ministry",
+                "heading": "MINISTRY OF WELFARE (KALYAN MANTRAL AYA)."
+              },
+              {
+                "type": "department",
+                "num": "A",
+                "heading": "DEPARTMENT OF WELFARE",
+                "heading_hi": "KALYAN VIBHAG"
+              },
+              {
+                "type": "part",
+                "num": "I",
+                "heading": "PART I",
+                "text": "The following subjects which fall within List I of the Seventh Schedule to the Constitution of India :"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Operation of Indo-US, Indo-UK, Indo-German, Indo-Swiss and Indo-Swedish Agreements for duty free receipt of donated relief supplies goods and matters connected with the distribution of supplies coming thereunder."
+              },
+              {
+                "type": "part",
+                "num": "II",
+                "heading": "PART II",
+                "text": "The following subject which falls within List I of the Seventh Schedule to the Constitution of India (as regards legislation only) :"
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "Social Security and Social Insurance save to the extent allotted to any other Department."
+              },
+              {
+                "type": "part",
+                "num": "III",
+                "heading": "PART III",
+                "text": "For the Union territories, the following subicct which falls within Liſt II or List III of the Seventh Schedule to the Constitution of India, in so far as it exits in regard to such territories :"
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "Relief of the disabled and unemployable and measures relating to social security and social Insurance, save to the extent allotted to any other Department."
+              },
+              {
+                "type": "part",
+                "num": "IV",
+                "heading": "PART IV",
+                "text": "GENERAL AND CONSEQUENTIAL."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "Social Welfare: Social Welfare Planning Proiect formulation, research, evaluation. statistics and training."
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "Conventions with other countries in maiters relating to social defence and references from United Nations Organisation 10- lating to prevention of crime and treatment of offenders 1173 GT/90-2"
+              },
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "Institutional and non-institutional services for the care and development of children in need including orphans and orphanages."
+              },
+              {
+                "type": "entry",
+                "num": "7",
+                "text": "Education, training, rehabilitation and welfare of the physically and mentally handicapped."
+              },
+              {
+                "type": "entry",
+                "num": "8",
+                "text": "National Institute for the Physically Handicapped and Mentally Retarded."
+              },
+              {
+                "type": "entry",
+                "num": "9",
+                "text": "National Centre for the Blind including the Central Braille Press, Dehra Dun, Training Centre for the Adult Deaf, and School for the partially deaf children, Hyderabad Modei School for Mentally Retarded Children, New Delhi and other national in,- titutes."
+              },
+              {
+                "type": "entry",
+                "num": "10",
+                "text": "Social and Moral Hygiene Programme. 11, Beggary, Juvenile vagrancy, delinquency and other CARE Programmes."
+              },
+              {
+                "type": "entry",
+                "num": "12",
+                "text": "Probation of Juvenile offenders."
+              },
+              {
+                "type": "entry",
+                "num": "13",
+                "text": "Research, evaluation, training, exchange of information and technical guidance on all social defence matters, including correctional services."
+              },
+              {
+                "type": "entry",
+                "num": "14",
+                "text": "All matters relating to prohibition."
+              },
+              {
+                "type": "entry",
+                "num": "15",
+                "text": "Educational and social welfare aspects of drug addiction."
+              },
+              {
+                "type": "entry",
+                "num": "16",
+                "text": "Charitable and religious endowments pertaining to subjects allocated to this Department."
+              },
+              {
+                "type": "entry",
+                "num": "17",
+                "text": "Promotion and development of voluntary effort on subjects allocated to this Department."
+              },
+              {
+                "type": "entry",
+                "num": "18",
+                "text": "National Institute of Social Defence."
+              },
+              {
+                "type": "entry",
+                "num": "19",
+                "text": "Artificial Limbs Manufacturing Corporation of India, Kanpur (ALIMCO)."
+              },
+              {
+                "type": "entry",
+                "num": "20",
+                "text": "All other attached or Subordinate Offices or other organisations concerned with any of the subjects specified in this list."
+              },
+              {
+                "type": "entry",
+                "num": "21",
+                "text": "Administration of the following Acts -"
+              },
+              {
+                "type": "item",
+                "num": "a",
+                "text": "Probation of Offenders Act, 1958 (20 of 1958); and"
+              },
+              {
+                "type": "item",
+                "num": "b",
+                "text": "Children Act, 1960 (60 of 1960)."
+              },
+              {
+                "type": "entry",
+                "num": "22",
+                "text": "Scheduled Castes, Scheduled Tribes, denotified nomadic and semi-nomadic tribes and other Backward Classes including scholarships to students belonging to such Castes. Tribes and Classes."
+              },
+              {
+                "type": "entry",
+                "num": "23",
+                "text": ""
+              },
+              {
+                "type": "item",
+                "num": "i",
+                "text": "Appointment, resignation etc. of Special Officer for the Scheduled Castes Scheduled Tribes, etc., and"
+              },
+              {
+                "type": "item",
+                "num": "ii",
+                "text": "Reports of the Special Officer. --"
+              },
+              {
+                "type": "entry",
+                "num": "24",
+                "text": "Development of Scheduled Castes and Scheduled Tribes."
+              },
+              {
+                "type": "note",
+                "text": "NOTE : The Ministry of Welfare will be the nodal Ministry for overall policy, planning and coordination or programmes of development for Scheduled Castes and Scheduled Tribes. In regard to sectoral programmes and schemes of development of these communities policy, planning. monitoring, evaluation ctc. as also their coordination will be the responsibility of the concerned Central Ministries, State Governments and Union Territory Adminstrations. Each Central Ministry and Department will be the nodal Ministry or Department concerning its sector."
+              },
+              {
+                "type": "entry",
+                "num": "25",
+                "text": "Repotrs of the Commission to Investigate into the conditions of Backward Classes."
+              },
+              {
+                "type": "entry",
+                "num": "26",
+                "text": ""
+              },
+              {
+                "type": "item",
+                "num": "i",
+                "text": "Scheduled Areas"
+              },
+              {
+                "type": "item",
+                "num": "ii",
+                "text": "Matters relating to autonomous districts of Assam excluding roads and bridge works and ferries thereon; and"
+              },
+              {
+                "type": "item",
+                "num": "iii",
+                "text": "Regulations framed by the Governors of States for Schedule Areas and for Tribal Areas specified in Part 'A' of the Table appended to paragraph 20 of the Sixth Schedule to the Constitution."
+              },
+              {
+                "type": "entry",
+                "num": "27",
+                "text": ""
+              },
+              {
+                "type": "item",
+                "num": "i",
+                "text": "Commission to report on the administration of Scheduled Areas and the welfare of the Scheduled Tribes: and"
+              },
+              {
+                "type": "item",
+                "num": "ii",
+                "text": "Issue of directions regarding the drawing up and execution of schemes essential for the welfare of the Scheduled Tribes in any State.]"
+              },
+              {
+                "type": "entry",
+                "num": "28",
+                "text": ""
+              },
+              {
+                "type": "item",
+                "num": "i",
+                "text": "Appointment, resignation etc. of Special Officer for Linguistic Minorities"
+              },
+              {
+                "type": "item",
+                "num": "ii",
+                "text": "Report of the Special Officer"
+              },
+              {
+                "type": "item",
+                "num": "iii",
+                "text": "All matters relating to Linguistic Minorities."
+              },
+              {
+                "type": "entry",
+                "num": "29",
+                "text": "All matters relating to Minorities Commission."
+              },
+              {
+                "type": "entry",
+                "num": "30",
+                "text": "The Wokf Act. 1954 (29 of 1954)."
+              },
+              {
+                "type": "entry",
+                "num": "31",
+                "text": "Work in respect of Wakf propertics under the Administration of Evacuc Property Act, 1950 (31 of 1950)."
+              },
+              {
+                "type": "entry",
+                "num": "32",
+                "text": "Administration of Durgah Khawaja Saheb Act, 1955 (36 of 1955)."
+              },
+              {
+                "type": "entry",
+                "num": "33",
+                "text": "Representation of the Anglo-Indian Community. ==="
+              },
+              {
+                "type": "department",
+                "num": "B",
+                "heading": "DEPARTMENT OF WOMEN AND CHILD DEVELOPMENT",
+                "heading_hi": "MAHILA AUR BAL VIKAS VIBHAG"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Family Welfare."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "Women and child welfare and co-ordination of activities of other Ministries and Organisations in connection with this subject."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "Reference from the United Nations Organisation relating to traffic in women and children."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "Care of pre-school children."
+              },
+              {
+                "type": "entry",
+                "num": "5",
+                "text": "Coordination of National Nutrition Programme, feeding of pre-school children and Nutrition education of womer."
+              },
+              {
+                "type": "entry",
+                "num": "6",
+                "text": "Charitable and religious endowments pertaining to subjects allocated to this Department"
+              },
+              {
+                "type": "entry",
+                "num": "7",
+                "text": "Promotion and development of voluntary effort on subjects allocated to this Department."
+              },
+              {
+                "type": "entry",
+                "num": "8",
+                "text": "A other attached or subordinate offices or other organisations concerned with any of the subjects specified in this list"
+              },
+              {
+                "type": "entry",
+                "num": "9",
+                "text": "Administration of the Suppression of Immoral Traffic in Women and Girls Act 1956 (104 of 1956)."
+              },
+              {
+                "type": "entry",
+                "num": "10",
+                "text": "The Dowry Prohibition Act, 1961 (28 of 1961)."
+              },
+              {
+                "type": "entry",
+                "num": "11",
+                "text": "Coordination of activities of Cooperative American Relif Everywhere (CARE)."
+              },
+              {
+                "type": "entry",
+                "num": "12",
+                "text": "Planning, Research, Evaluation, Monitor ing. Project Formulations. St. tistics and Training relating to the welfare of women and children."
+              },
+              {
+                "type": "entry",
+                "num": "13",
+                "text": "United Nations Children's Fund (UNICEF)"
+              },
+              {
+                "type": "entry",
+                "num": "14",
+                "text": "Central Social Welfare Board (CSWB)."
+              },
+              {
+                "type": "entry",
+                "num": "15",
+                "text": "National Institute of Public Cooperation and Child Development (NIPCCD)."
+              }
+            ],
+            "flags": [
+              "read_page_break"
+            ],
+            "words": [
+              "r1.w2025",
+              "r1.w2035"
+            ],
+            "boxes": [
+              {
+                "page": 5,
+                "bbox": [
+                  368,
+                  739,
+                  1274,
+                  820
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

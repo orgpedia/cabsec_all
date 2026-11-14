@@ -1,0 +1,213 @@
+{
+  "file": {
+    "name": "1_Upload_271.pdf",
+    "file_id": "f_d5f2a4183575f557",
+    "pages": 2,
+    "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_271.pdf",
+    "sha256": "d5f2a4183575f55752604f61bf0080a19240fbaa659c89c496f9cd246c1dc37b",
+    "govdoc": "1_Upload_271.pdf.govdoc.json.zst",
+    "revision": 109
+  },
+  "documents": [
+    {
+      "id": "GOI_SO_970E_1995",
+      "doc_type": "aob_amendment",
+      "parent": "GOI_GAZETTE_EXT_692_1995",
+      "fields": {
+        "number": {
+          "value": "S.O. 970 (E)"
+        },
+        "in_force": {
+          "value": "1995-12-11"
+        }
+      },
+      "amendment": {
+        "schema_version": "1.0",
+        "in_force": {
+          "date": "1995-12-11",
+          "basis": "at_once"
+        },
+        "extracted_by": {
+          "tool": "model_relations",
+          "version": "3",
+          "model": "gemini-4-argon",
+          "at": "2026-11-12T12:57:18.191491+00:00"
+        },
+        "ops": [
+          {
+            "seq": 1,
+            "source_ref": "2(a)",
+            "op": "insert",
+            "akn_type": "insertion",
+            "relation": "r73.rel1",
+            "position": "after",
+            "anchor": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF EXTERNAL AFFAIRS"
+                },
+                {
+                  "type": "entry",
+                  "num": "43"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w571",
+                "r1.w577"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    392,
+                    1554,
+                    2271,
+                    1641
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "44",
+                "text": "Human Rights:"
+              },
+              {
+                "type": "item",
+                "num": "i",
+                "text": "Interaction with Human Rights Organisations abroad:"
+              },
+              {
+                "type": "item",
+                "num": "ii",
+                "text": "International declarations, treaties, conventions and conferences; references received from the United Nations and other specialised agencies and organisations thereof"
+              },
+              {
+                "type": "item",
+                "num": "iii",
+                "text": "Implementation of reporting obligations, in coordination with the concerned Ministries, required under the United Nations and international conventions, to which India is a State party."
+              },
+              {
+                "type": "note",
+                "text": "NOTE. These functions will be exercised by the Ministry of External Affairs in close co-ordination with the Ministry of Home Affairs, which shall be the nodal Ministry for policy and for co-ordination of all matters relating to Human Rights."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w561",
+              "r1.w568"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  329,
+                  1554,
+                  1387,
+                  1591
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 2,
+            "source_ref": "2(b)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r73.rel2",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF HOME AFFAIRS"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF STATES"
+                },
+                {
+                  "type": "entry",
+                  "num": "14"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w698",
+                "r1.w700"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1096,
+                    2124,
+                    1315,
+                    2162
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "14",
+                "text": "Human Rights -"
+              },
+              {
+                "type": "item",
+                "num": "i",
+                "text": "To act as the nodal agency for the general policies regarding \"Human Rights\" matters including National Human Rights Commission or any other institutional arrangements in this regard"
+              },
+              {
+                "type": "item",
+                "num": "ii",
+                "text": "Human rights violations relating to alleged excesses by personnel of police and paramilitary forces"
+              },
+              {
+                "type": "item",
+                "num": "iii",
+                "text": "Interaction with Human Rights organisations and other related organisations within the country and coordination with various departments and State Governments"
+              },
+              {
+                "type": "item",
+                "num": "iv",
+                "text": "Coordination of policy relating to Human Rights."
+              },
+              {
+                "type": "note",
+                "text": "NOTE. Ministry of Home Affairs will be the nodal Ministry for overall policy relating to Human Rights. The departments primarily concerned with the welfare and socio-economic development of specific groups like members of the Scheduled Castes, Scheduled Tribes, women, minorities, children and bonded labour, shall be responsible in respect of preservation of Human Rights of the specified groups."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w680",
+              "r1.w687"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  330,
+                  2076,
+                  1358,
+                  2113
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

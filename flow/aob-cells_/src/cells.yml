@@ -1,0 +1,11 @@
+# The units as cells (requirements.md): reads the states' output, writes ../output. Paths relative to this file.
+states: ../../aob-states_/output
+base: ../../aob-rules_/output/1_Upload_1144.pdf.json   # the Rules of 1961: frame 0
+base_date: "1961-01-14"
+names: cells-names.yml
+out: ../output
+least: 3          # a good share: at least this many subjects …
+share: 0.2        # … and this share of the unit's
+reissues: [174, 271]                            # both schedules substituted (1985, 2004)
+schedule1_reissues: [30, 46, 58, 73, 88, 89, 135, 217]   # the First Schedule substituted
+restarts: [301]                                 # the states start again from a consolidated version

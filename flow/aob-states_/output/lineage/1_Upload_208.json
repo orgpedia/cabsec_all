@@ -1,0 +1,210 @@
+{
+ "file": "1_Upload_208.pdf",
+ "kind": "amendment",
+ "series": 170,
+ "date": "1985-07-31",
+ "govdoc": "aob-ammend_/output/1_Upload_208.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826687.275643,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_208.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:56:39.298649+00:00",
+  "sha256": "6aab5cd6c5ab8f35f168e7eff6ade01026efb6e7d679ea831e60f0323a026157",
+  "pages": 4
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-12T12:35:28.115906+00:00",
+   "stamp": "4a29ea5889dd98b6"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r50",
+   "at": "2026-11-15T12:41:55.586941+00:00",
+   "stamp": "84a8d9fd1f8191fb"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r51",
+   "at": "2026-11-15T12:41:57.385562+00:00",
+   "stamp": "661f8ae4e74303f8"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r52",
+   "at": "2026-11-15T12:41:58.633052+00:00",
+   "stamp": "073e957f339a5149"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r61",
+   "at": "2026-11-15T16:24:18.060832+00:00",
+   "stamp": "70371b3e9f138459",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r62",
+   "at": "2026-11-15T16:24:19.312481+00:00",
+   "stamp": "702a6b56f27e1f3f",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r63",
+   "at": "2026-11-15T16:24:20.498066+00:00",
+   "stamp": "d67967c7c497c910",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r69",
+   "at": "2026-11-15T16:57:26.459091+00:00",
+   "stamp": "246fe6bce7971c21"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r70",
+   "at": "2026-11-15T17:03:26.366789+00:00",
+   "stamp": "62a1d17b04d8a277"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r75",
+   "at": "2026-11-16T10:58:07.263533+00:00",
+   "stamp": "03fb6901552efbe1"
+  }
+ ],
+ "reviews": [],
+ "issues": [
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 4: its quoted text runs across a page break",
+   "target": "r63.rel4",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
+   "message": "change 3: ministry MINISTRY OF ENVIRONMENT AND FORESTS taken for ministry MINISTRY OF ENVIRONMENT. AND FOREST, named loosely",
+   "target": "r63.rel3",
+   "status": "open"
+  }
+ ],
+ "problems": [
+  {
+   "series": 170,
+   "seq": 2,
+   "code": "old_words_missing",
+   "severity": "error",
+   "message": "change 2: the words to substitute are not in schedule 2 › ministry MINISTRY OF COMMUNICATIONS › department A › entry 3",
+   "cause": "words_differ"
+  },
+  {
+   "series": 170,
+   "seq": 4,
+   "code": "old_path_missing",
+   "severity": "error",
+   "message": "change 4: no ministry DEPARTMENT OF SPACE under schedule 2",
+   "cause": "unit_not_found"
+  }
+ ],
+ "rules": [
+  {
+   "rule": "loose",
+   "seq": 3,
+   "note": "change 3: ministry MINISTRY OF ENVIRONMENT AND FORESTS taken for ministry MINISTRY OF ENVIRONMENT. AND FOREST, named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  }
+ ],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_569E_1985",
+   "op": "insert",
+   "source_ref": "2(i)",
+   "path": "schedule 2 › ministry MINISTRY OF AGRICULTURE AND RURAL DEVELOPMENT › department DEPARTMENT OF AGRICULTURE AND COOPERATION › group_heading IV General and Consequential › entry 42",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_569E_1985",
+   "op": "substitute_text",
+   "source_ref": "2(ii)",
+   "path": "schedule 2 › ministry MINISTRY OF COMMUNICATIONS › department DEPARTMENT OF POSTS › entry 3",
+   "status": "not_applied",
+   "problem": "change 2: the words to substitute are not in schedule 2 › ministry MINISTRY OF COMMUNICATIONS › department A › entry 3",
+   "code": "old_words_missing",
+   "cause": "words_differ",
+   "known": "words"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_569E_1985",
+   "op": "insert",
+   "source_ref": "2(iii)",
+   "path": "schedule 2 › ministry MINISTRY OF ENVIRONMENT AND FORESTS › department DEPARTMENT OF FORESTS AND WILD LIFE › entry 6",
+   "status": "applied"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_569E_1985",
+   "op": "insert",
+   "source_ref": "2(iv)",
+   "path": "schedule 2 › ministry DEPARTMENT OF SPACE › entry 9",
+   "status": "not_applied",
+   "problem": "change 4: no ministry DEPARTMENT OF SPACE under schedule 2",
+   "code": "old_path_missing",
+   "cause": "unit_not_found",
+   "known": "top_level"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

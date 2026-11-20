@@ -2,10 +2,20 @@
 # GovDoc Studio and brought into the GovDoc file by the pipeline before it runs (Pipeline §P9).
 file: 1_Upload_38.pdf
 file_id: f_2a2b0d45858116c3
-next: 2
+next: 4
 runs:
 - id: h1
   by: claude
   at: '2026-11-12T18:01:00Z'
   edits:
-  - {op: text, target: r1.w192, before: {text: "(1)"}, after: {text: "(i)"}}
+  - {op: text, target: r1.w192, before: {text: (1)}, after: {text: (i)}}
+- id: h2
+  by: mukundesh
+  at: '2026-11-14T13:36:17Z'
+  edits:
+  - {op: text, target: r1.w1481, before: {text: '8.'}, after: {text: '6.'}}
+- id: h3
+  by: mukundesh
+  at: '2026-11-15T15:50:53Z'
+  reviews:
+  - {status: rejected, issue: {code: 'aob:read_quote_mismatch', word: r1.w139}}

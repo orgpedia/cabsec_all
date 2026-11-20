@@ -1,0 +1,217 @@
+{
+ "file": "1_Upload_334.pdf",
+ "kind": "amendment",
+ "series": 289,
+ "date": "2007-05-09",
+ "govdoc": "aob-ammend_/output/1_Upload_334.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826695.60199,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_334.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T14:00:16.155240+00:00",
+  "sha256": "e92fa774e81fc74c6e9da81819007a07a4fbca7c3fb61fd1314d0465ede13c71",
+  "pages": 6
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-05T02:57:52.460711+00:00",
+   "stamp": "cef85765c18e1d92"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r147",
+   "at": "2026-11-15T12:42:46.453772+00:00",
+   "stamp": "a3043059e338b7d3"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r148",
+   "at": "2026-11-15T12:42:49.096213+00:00",
+   "stamp": "67b355b0c8ac61e8"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r149",
+   "at": "2026-11-15T12:42:51.252492+00:00",
+   "stamp": "a5a023bb9a5c424f"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r158",
+   "at": "2026-11-15T16:25:04.038189+00:00",
+   "stamp": "2737efc2ab9fe844",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r159",
+   "at": "2026-11-15T16:25:06.102494+00:00",
+   "stamp": "49bdd88983862eb5",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r160",
+   "at": "2026-11-15T16:25:08.144867+00:00",
+   "stamp": "c7dd4cc673ef400d",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r166",
+   "at": "2026-11-15T16:57:38.638161+00:00",
+   "stamp": "0c5060f00c9f988d"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r167",
+   "at": "2026-11-15T17:03:53.617057+00:00",
+   "stamp": "a7ecd5ba04fc0924"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r172",
+   "at": "2026-11-16T10:58:15.561153+00:00",
+   "stamp": "b3e913b6f7f0fb72"
+  }
+ ],
+ "reviews": [],
+ "issues": [
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 9: its quoted text runs across a page break",
+   "target": "r160.rel9",
+   "status": "open"
+  }
+ ],
+ "problems": [],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_750E_2007",
+   "op": "omit",
+   "source_ref": "2(1)(A)",
+   "path": "schedule 1 › ministry Ministry of Agro and Rural Industries",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_750E_2007",
+   "op": "omit",
+   "source_ref": "2(1)(B)",
+   "path": "schedule 1 › ministry Ministry of Company Affairs",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_750E_2007",
+   "op": "insert",
+   "source_ref": "2(1)(C)",
+   "path": "schedule 1 › ministry Ministry of Consumer Affairs, Food and Public Distribution",
+   "status": "applied"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_750E_2007",
+   "op": "replace",
+   "source_ref": "2(1)(D)",
+   "path": "schedule 1 › ministry Ministry of Culture",
+   "status": "applied"
+  },
+  {
+   "seq": 5,
+   "doc_id": "GOI_SO_750E_2007",
+   "op": "replace",
+   "source_ref": "2(1)(E)",
+   "path": "schedule 1 › ministry Ministry of Mines",
+   "status": "applied"
+  },
+  {
+   "seq": 6,
+   "doc_id": "GOI_SO_750E_2007",
+   "op": "omit",
+   "source_ref": "2(1)(F)",
+   "path": "schedule 1 › ministry Ministry of Small Scale Industries",
+   "status": "applied"
+  },
+  {
+   "seq": 7,
+   "doc_id": "GOI_SO_750E_2007",
+   "op": "omit",
+   "source_ref": "2(2)(A)",
+   "path": "schedule 2 › ministry MINISTRY OF AGRO AND RURAL INDUSTRIES",
+   "status": "applied"
+  },
+  {
+   "seq": 8,
+   "doc_id": "GOI_SO_750E_2007",
+   "op": "replace",
+   "source_ref": "2(2)(B)",
+   "path": "schedule 2 › ministry MINISTRY OF COMPANY AFFAIRS",
+   "status": "applied"
+  },
+  {
+   "seq": 9,
+   "doc_id": "GOI_SO_750E_2007",
+   "op": "insert",
+   "source_ref": "2(2)(C)",
+   "path": "schedule 2 › ministry MINISTRY OF LAW AND JUSTICE",
+   "status": "applied"
+  },
+  {
+   "seq": 10,
+   "doc_id": "GOI_SO_750E_2007",
+   "op": "omit",
+   "source_ref": "2(2)(D)",
+   "path": "schedule 2 › ministry MINISTRY OF SMALL SCALE INDUSTRIES",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

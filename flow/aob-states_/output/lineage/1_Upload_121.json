@@ -1,0 +1,181 @@
+{
+ "file": "1_Upload_121.pdf",
+ "kind": "amendment",
+ "series": 87,
+ "date": "1970-10-26",
+ "govdoc": "aob-ammend_/output/1_Upload_121.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826687.0783494,
+ "edits_file": "aob-ammend_/conf/1_Upload_121.pdf.edits.yml",
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_121.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:54:32.209566+00:00",
+  "sha256": "66b5bb731eea9dcf6aa65bd91c3d9d93b3fb0c645a40d795d2b47dae7c334c93",
+  "pages": 2
+ },
+ "edits": [
+  {
+   "run": "h1",
+   "by": "claude",
+   "at": "2026-11-12T15:01:00+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r1.w112",
+     "before": {
+      "text": "5.0."
+     },
+     "after": {
+      "text": "S.O."
+     }
+    }
+   ]
+  },
+  {
+   "run": "h2",
+   "by": "claude",
+   "at": "2026-11-12T15:02:00+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r1.w113",
+     "before": {
+      "text": "8548.-In"
+     },
+     "after": {
+      "text": "3548.-In"
+     }
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-12T12:35:21.340887+00:00",
+   "stamp": "1c1e3dc4af6a7a58"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r52",
+   "at": "2026-11-15T12:41:55.362479+00:00",
+   "stamp": "58f1f5ab8976d50d"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r53",
+   "at": "2026-11-15T12:41:57.073928+00:00",
+   "stamp": "84b8844af8a4b143"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r54",
+   "at": "2026-11-15T12:41:58.434161+00:00",
+   "stamp": "29e4a595f337cc96"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r63",
+   "at": "2026-11-15T16:24:17.888617+00:00",
+   "stamp": "40280dbc01b977be",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r64",
+   "at": "2026-11-15T16:24:19.094744+00:00",
+   "stamp": "51d55142d0b78695",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r65",
+   "at": "2026-11-15T16:24:20.314062+00:00",
+   "stamp": "95ff41dede9395e4",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r71",
+   "at": "2026-11-15T16:57:26.290061+00:00",
+   "stamp": "b9db06c15d01171a"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r72",
+   "at": "2026-11-15T17:03:26.087676+00:00",
+   "stamp": "0f0a6806beb3f609"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r77",
+   "at": "2026-11-16T10:58:07.069140+00:00",
+   "stamp": "fbd9065b6108aa30"
+  }
+ ],
+ "reviews": [],
+ "issues": [
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 1: its quoted text runs across a page break",
+   "target": "r65.rel1",
+   "status": "open"
+  }
+ ],
+ "problems": [],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_3548_1970",
+   "op": "replace",
+   "source_ref": "2",
+   "path": "rule 4",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

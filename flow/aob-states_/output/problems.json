@@ -2668,46 +2668,6 @@
  {
   "series": 271,
   "file": "1_Upload_535.pdf",
-  "doc_id": "GOI_SO_17E_2004",
-  "seq": 1,
-  "code": "new_missing",
-  "severity": "warning",
-  "message": "schedule 1 › ministry 5 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied",
-  "details": {
-   "kind": "missing",
-   "path": [
-    "schedule 1",
-    "ministry 5"
-   ],
-   "version": "Ministry of Coal",
-   "words": [
-    "r1.w288",
-    "r1.w293"
-   ],
-   "page": 155,
-   "state_page": 7,
-   "by": "217:1",
-   "see": [
-    {
-     "file": "1_Upload_535.pdf",
-     "page": 155
-    },
-    {
-     "file": "1_Upload_212.pdf",
-     "page": 7
-    }
-   ]
-  },
-  "key": "new_missing:schedule 1 › ministry 5",
-  "on": {
-   "file": "1_Upload_535.pdf",
-   "doc_id": "GOI_SO_17E_2004",
-   "seq": 1
-  }
- },
- {
-  "series": 271,
-  "file": "1_Upload_535.pdf",
   "doc_id": "GOI_SO_858E_2001",
   "seq": 2,
   "code": "new_text_differs",
@@ -2929,31 +2889,35 @@
   "file": "1_Upload_535.pdf",
   "doc_id": "GOI_SO_17E_2004",
   "seq": 1,
-  "code": "new_extra",
+  "code": "new_text_differs",
   "severity": "warning",
-  "message": "schedule 1 › ministry 3A is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf",
+  "message": "schedule 1 › ministry 3A reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied",
   "details": {
-   "kind": "extra",
+   "kind": "text",
    "path": [
     "schedule 1",
     "ministry 3A"
    ],
-   "state": "Ministry of Coal and Mines ÇA. Ministry of Coal (Koyala Mantralaya)",
-   "page": 154,
-   "state_page": 7,
+   "state": "Ministry of Coal",
+   "version": "Ministry of Coal",
+   "delta": [],
+   "words": [
+    "r1.w288",
+    "r1.w293"
+   ],
+   "page": 155,
    "by": "267:1",
    "see": [
     {
      "file": "1_Upload_535.pdf",
-     "page": 154
+     "page": 155
     },
     {
-     "file": "1_Upload_212.pdf",
-     "page": 7
+     "file": "1_Upload_212.pdf"
     }
    ]
   },
-  "key": "new_extra:schedule 1 › ministry 3A",
+  "key": "new_text_differs:schedule 1 › ministry 3A",
   "on": {
    "file": "1_Upload_535.pdf",
    "doc_id": "GOI_SO_17E_2004",
@@ -4748,7 +4712,7 @@
   "series": 301,
   "file": "1_Upload_346.pdf",
   "doc_id": "GOI_SO_1101E_2012",
-  "seq": null,
+  "seq": 3,
   "code": "new_hindi_differs",
   "severity": "info",
   "message": "schedule 1 › ministry 8A's Hindi name reads differently in 1_Upload_910.pdf than in 1_Upload_535.pdf with the amendments since applied",
@@ -4784,11 +4748,9 @@
   },
   "key": "new_hindi_differs:schedule 1 › ministry 8A",
   "on": {
-   "file": "1_Upload_910.pdf",
-   "words": [
-    "r1.w871",
-    "r1.w878"
-   ]
+   "file": "1_Upload_346.pdf",
+   "doc_id": "GOI_SO_1101E_2012",
+   "seq": 3
   }
  },
  {
@@ -5106,7 +5068,7 @@
   "series": 301,
   "file": "1_Upload_346.pdf",
   "doc_id": "GOI_SO_1101E_2012",
-  "seq": null,
+  "seq": 3,
   "code": "new_hindi_differs",
   "severity": "info",
   "message": "schedule 1 › ministry 40A's Hindi name reads differently in 1_Upload_910.pdf than in 1_Upload_535.pdf with the amendments since applied",
@@ -5142,11 +5104,9 @@
   },
   "key": "new_hindi_differs:schedule 1 › ministry 40A",
   "on": {
-   "file": "1_Upload_910.pdf",
-   "words": [
-    "r1.w1561",
-    "r1.w1574"
-   ]
+   "file": "1_Upload_346.pdf",
+   "doc_id": "GOI_SO_1101E_2012",
+   "seq": 3
   }
  },
  {

@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_87.pdf",
     "sha256": "f52a73fe9843c92b9cb8f5d8b448e19b6c4cf1916695ab625f6b54f923143f4f",
     "govdoc": "1_Upload_87.pdf.govdoc.json.zst",
-    "revision": 46
+    "revision": 79
   },
   "documents": [
     {
@@ -29,9 +29,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "3",
+          "version": "4",
           "model": "gemini-4-argon",
-          "at": "2026-11-12T13:50:11.159820+00:00"
+          "at": "2026-11-15T16:25:17.357700+00:00"
         },
         "ops": [
           {
@@ -39,7 +39,7 @@
             "source_ref": "(A)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel1",
+            "relation": "r71.rel1",
             "target": {
               "cited": [
                 {
@@ -109,7 +109,7 @@
             "source_ref": "(B)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel2",
+            "relation": "r71.rel2",
             "target": {
               "cited": [
                 {
@@ -157,7 +157,12 @@
               {
                 "type": "entry",
                 "num": "2",
-                "text": "Aircraft and air navigation; provision of aerodromes; regulation and organisation of air traffic and of aerodromes (excepting sanitary control of air navigation). 3, Beacons and other provisions for the safety of aircraft."
+                "text": "Aircraft and air navigation; provision of aerodromes; regulation and organisation of air traffic and of aerodromes (excepting sanitary control of air navigation)."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "Beacons and other provisions for the safety of aircraft."
               },
               {
                 "type": "entry",

@@ -1,0 +1,161 @@
+{
+ "file": "1_Upload_320.pdf",
+ "kind": "amendment",
+ "series": 276,
+ "date": "2004-09-22",
+ "govdoc": "aob-ammend_/output/1_Upload_320.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826686.4062066,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_320.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:59:57.614818+00:00",
+  "sha256": "500a44e2de4cc5ac4d87500df752b9478843e1e93d424c6cc9bd5e38b37d9550",
+  "pages": 2
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r5",
+   "at": "2026-11-04T13:34:27.181046+00:00",
+   "stamp": "80563e10323384fc"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r151",
+   "at": "2026-11-15T12:41:54.466807+00:00",
+   "stamp": "2184e8f6f777e56a"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r152",
+   "at": "2026-11-15T12:41:55.913710+00:00",
+   "stamp": "7298627cc59b737b"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r153",
+   "at": "2026-11-15T12:41:57.736647+00:00",
+   "stamp": "093480a413f1d6d0"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r162",
+   "at": "2026-11-15T16:24:17.160129+00:00",
+   "stamp": "538c1d4a63ad9590",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r163",
+   "at": "2026-11-15T16:24:18.370898+00:00",
+   "stamp": "5d683945c9567a48",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r164",
+   "at": "2026-11-15T16:24:19.573376+00:00",
+   "stamp": "af77cec1c2f742b9",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r170",
+   "at": "2026-11-15T16:57:25.554744+00:00",
+   "stamp": "c6571d2ec65ac23d"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r171",
+   "at": "2026-11-15T17:03:24.713157+00:00",
+   "stamp": "3d0ab117e3074827"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r176",
+   "at": "2026-11-16T10:58:06.388733+00:00",
+   "stamp": "bcdea5c537d9d065"
+  }
+ ],
+ "reviews": [],
+ "issues": [],
+ "problems": [],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_1032E_2004",
+   "op": "insert",
+   "source_ref": "2(1)",
+   "path": "schedule 1 › ministry Ministry of Defence › department Department of Defence Research and Development",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_1032E_2004",
+   "op": "omit",
+   "source_ref": "2(2)(A)(a)",
+   "path": "schedule 2 › ministry MINISTRY OF DEFENCE › department DEPARTMENT OF DEFENCE › entry 14 ; schedule 2 › ministry MINISTRY OF DEFENCE › department DEPARTMENT OF DEFENCE › entry 20",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_1032E_2004",
+   "op": "insert",
+   "source_ref": "2(2)(A)(b)",
+   "path": "schedule 2 › ministry MINISTRY OF DEFENCE › department DEPARTMENT OF DEFENCE RESEARCH AND DEVELOPMENT",
+   "status": "applied"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_1032E_2004",
+   "op": "insert",
+   "source_ref": "2(2)(B)",
+   "path": "schedule 2 › ministry MINISTRY OF STATISTICS AND PROGRAMME IMPLEMENTATION › entry 21",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

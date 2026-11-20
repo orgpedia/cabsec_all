@@ -1,0 +1,170 @@
+{
+ "file": "1_Upload_314.pdf",
+ "kind": "amendment",
+ "series": 270,
+ "date": "2003-11-11",
+ "govdoc": "aob-ammend_/output/1_Upload_314.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826687.394232,
+ "edits_file": "aob-ammend_/conf/1_Upload_314.pdf.edits.yml",
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_314.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:59:41.388998+00:00",
+  "sha256": "6d1be8ec03899c9b84544da3d3268442d53ba498c335f8111aa15f9a9d8c605b",
+  "pages": 2
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-11T03:14:01.376383+00:00",
+   "stamp": "f29dd26368056c79"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r115",
+   "at": "2026-11-15T12:41:55.791107+00:00",
+   "stamp": "e2af3adb2be330b4"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r116",
+   "at": "2026-11-15T12:41:57.635384+00:00",
+   "stamp": "696db20610359f0e"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r117",
+   "at": "2026-11-15T12:41:58.793856+00:00",
+   "stamp": "5674382cfad9015d"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r126",
+   "at": "2026-11-15T16:24:18.224802+00:00",
+   "stamp": "cc1e6696592813d7",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r127",
+   "at": "2026-11-15T16:24:19.467530+00:00",
+   "stamp": "c8aab30d40440790",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r128",
+   "at": "2026-11-15T16:24:20.673604+00:00",
+   "stamp": "fa61846efc265357",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r134",
+   "at": "2026-11-15T16:57:26.620962+00:00",
+   "stamp": "22baa92772c5e252"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r135",
+   "at": "2026-11-15T17:03:26.644814+00:00",
+   "stamp": "8322eb4b528631fd"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r140",
+   "at": "2026-11-16T10:58:07.376743+00:00",
+   "stamp": "56c5f6ac62b26a03"
+  }
+ ],
+ "reviews": [
+  {
+   "id": "h2.v1",
+   "target": "r50.i1",
+   "status": "rejected",
+   "by": "mukundesh",
+   "at": "2026-11-12T06:48:55+00:00"
+  }
+ ],
+ "issues": [
+  {
+   "code": "aob:read_quote_mismatch",
+   "severity": "error",
+   "message": "change 1: its expect is not in the text",
+   "target": "h1.r1",
+   "status": "rejected"
+  }
+ ],
+ "problems": [
+  {
+   "series": 271,
+   "seq": 2,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HEALTH AND FAMILY WEL- FARE (SWASTHYA AUR PARIVAR KALYAN MANT- RALAYA) › department C is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  }
+ ],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_1295E_2003",
+   "op": "replace",
+   "source_ref": "2(1)",
+   "path": "schedule 1 › ministry Ministry of Health and Family Welfare › department Department of Indian Systems of Medicine and Homoeopathy",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_1295E_2003",
+   "op": "replace",
+   "source_ref": "2(2)",
+   "path": "schedule 2 › ministry MINISTRY OF HEALTH AND FAMILY WELFARE › department DEPARTMENT OF INDIAN SYSTEMS OF MEDICINE AND HOMOEOPATHY",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

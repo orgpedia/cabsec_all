@@ -1,0 +1,240 @@
+{
+ "file": "1_Upload_1870.pdf",
+ "kind": "amendment",
+ "series": 350,
+ "date": "2019-06-14",
+ "govdoc": "aob-ammend_/output/1_Upload_1870.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826685.7055988,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_1870.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:56:11.667258+00:00",
+  "sha256": "489ffe045a6260a31d60ebd9e3207c92c639f1cf0a75d909b6d94df0ae22aaa2",
+  "pages": 11
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r72",
+   "at": "2026-11-04T13:34:26.604553+00:00",
+   "stamp": "e1add77f622a66a5"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r213",
+   "at": "2026-11-15T12:41:42.116447+00:00",
+   "stamp": "e768d5263569fdf6"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r214",
+   "at": "2026-11-15T12:41:44.630683+00:00",
+   "stamp": "31ff4b0f5122e161"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r215",
+   "at": "2026-11-15T12:41:46.816950+00:00",
+   "stamp": "be738d36211188d4"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r224",
+   "at": "2026-11-15T16:24:07.257645+00:00",
+   "stamp": "b3ddb9d7c9de4dd1",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r225",
+   "at": "2026-11-15T16:24:08.941626+00:00",
+   "stamp": "2c156a0ee6b40bc9",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r226",
+   "at": "2026-11-15T16:24:10.671780+00:00",
+   "stamp": "3c4d63de8f9f6c10",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r232",
+   "at": "2026-11-15T16:57:23.938948+00:00",
+   "stamp": "bfc1a5f7867115e5"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r233",
+   "at": "2026-11-15T17:03:20.237265+00:00",
+   "stamp": "27202c67339ffd3e"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r238",
+   "at": "2026-11-16T10:58:05.602641+00:00",
+   "stamp": "250fa7766c698858"
+  }
+ ],
+ "reviews": [],
+ "issues": [
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 9: its quoted text runs across a page break",
+   "target": "r226.rel9",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 11: its quoted text runs across a page break",
+   "target": "r226.rel11",
+   "status": "open"
+  }
+ ],
+ "problems": [],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_1972E_2019",
+   "op": "omit",
+   "source_ref": "2(1)(a)",
+   "path": "schedule 1 › ministry Ministry of Agriculture and Farmers Welfare › department Department of Animal Husbandry and Dairying ; schedule 1 › ministry Ministry of Agriculture and Farmers Welfare › department Department of Fisheries",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_1972E_2019",
+   "op": "omit",
+   "source_ref": "2(1)(b)",
+   "path": "schedule 1 › ministry Ministry of Drinking Water and Sanitation",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_1972E_2019",
+   "op": "insert",
+   "source_ref": "2(1)(c)",
+   "path": "schedule 1 › ministry Ministry of Finance",
+   "status": "applied"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_1972E_2019",
+   "op": "insert",
+   "source_ref": "2(1)(d)",
+   "path": "schedule 1 › ministry Ministry of Information and Broadcasting",
+   "status": "applied"
+  },
+  {
+   "seq": 5,
+   "doc_id": "GOI_SO_1972E_2019",
+   "op": "omit",
+   "source_ref": "2(1)(e)",
+   "path": "schedule 1 › ministry Ministry of Water Resources, River Development and Ganga Rejuvenation",
+   "status": "applied"
+  },
+  {
+   "seq": 6,
+   "doc_id": "GOI_SO_1972E_2019",
+   "op": "omit",
+   "source_ref": "2(2)(i)",
+   "path": "schedule 2 › ministry MINISTRY OF AGRICULTURE AND FARMERS WELFARE › department DEPARTMENT OF ANIMAL HUSBANDRY AND DAIRYING ; schedule 2 › ministry MINISTRY OF AGRICULTURE AND FARMERS WELFARE › department DEPARTMENT OF FISHERIES",
+   "status": "applied"
+  },
+  {
+   "seq": 7,
+   "doc_id": "GOI_SO_1972E_2019",
+   "op": "omit",
+   "source_ref": "2(2)(ii)",
+   "path": "schedule 2 › ministry MINISTRY OF DRINKING WATER AND SANITATION",
+   "status": "applied"
+  },
+  {
+   "seq": 8,
+   "doc_id": "GOI_SO_1972E_2019",
+   "op": "omit",
+   "source_ref": "2(2)(iii)",
+   "path": "schedule 2 › ministry MINISTRY OF ENVIRONMENT, FOREST AND CLIMATE CHANGE › entry 8 ; schedule 2 › ministry MINISTRY OF ENVIRONMENT, FOREST AND CLIMATE CHANGE › entry 8A",
+   "status": "applied"
+  },
+  {
+   "seq": 9,
+   "doc_id": "GOI_SO_1972E_2019",
+   "op": "insert",
+   "source_ref": "2(2)(iv)",
+   "path": "schedule 2 › ministry MINISTRY OF FINANCE",
+   "status": "applied"
+  },
+  {
+   "seq": 10,
+   "doc_id": "GOI_SO_1972E_2019",
+   "op": "substitute_text",
+   "source_ref": "2(2)(v)",
+   "path": "schedule 2 › ministry MINISTRY OF HOUSING AND URBAN AFFAIRS › entry 21",
+   "status": "applied"
+  },
+  {
+   "seq": 11,
+   "doc_id": "GOI_SO_1972E_2019",
+   "op": "insert",
+   "source_ref": "2(2)(vi)",
+   "path": "schedule 2 › ministry MINISTRY OF INFORMATION AND BROADCASTING",
+   "status": "applied"
+  },
+  {
+   "seq": 12,
+   "doc_id": "GOI_SO_1972E_2019",
+   "op": "omit",
+   "source_ref": "2(2)(vii)",
+   "path": "schedule 2 › ministry MINISTRY OF WATER RESOURCES, RIVER DEVELOPMENT AND GANGA REJUVENATION",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

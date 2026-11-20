@@ -1,0 +1,302 @@
+{
+ "file": "1_Upload_365.pdf",
+ "kind": "amendment",
+ "series": 320,
+ "date": "2015-12-26",
+ "govdoc": "aob-ammend_/output/1_Upload_365.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826685.5887406,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_365.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T14:01:01.000979+00:00",
+  "sha256": "465e15f5d088ff08fc36cbce71d34160b94f25f27946662ee2ca31855e4fa12b",
+  "pages": 2
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r51",
+   "at": "2026-11-04T13:34:26.407319+00:00",
+   "stamp": "af7dcf3ad86973b8"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r197",
+   "at": "2026-11-15T12:41:42.073179+00:00",
+   "stamp": "b425eb3d26267d14"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r198",
+   "at": "2026-11-15T12:41:44.596748+00:00",
+   "stamp": "f34b8fa90d2f5856"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r199",
+   "at": "2026-11-15T12:41:46.789923+00:00",
+   "stamp": "c3031a8feccef210"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r208",
+   "at": "2026-11-15T16:24:07.227800+00:00",
+   "stamp": "ff3dd57da117669f",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r209",
+   "at": "2026-11-15T16:24:08.912238+00:00",
+   "stamp": "0ef9cdfe89b7933f",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r210",
+   "at": "2026-11-15T16:24:10.642747+00:00",
+   "stamp": "72c349970118078e",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r216",
+   "at": "2026-11-15T16:57:23.909067+00:00",
+   "stamp": "ea6ca179b75c7bce"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r217",
+   "at": "2026-11-15T17:03:20.177750+00:00",
+   "stamp": "08e915ddf596b99c"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r222",
+   "at": "2026-11-16T10:58:05.574480+00:00",
+   "stamp": "ba303ec8848fe3a5"
+  }
+ ],
+ "reviews": [],
+ "issues": [],
+ "problems": [
+  {
+   "series": 320,
+   "seq": null,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "order › rule 4 reads differently in 1_Upload_884.pdf than in 1_Upload_887.pdf with the amendments since applied",
+   "taken": {
+    "by": "mukundesh",
+    "at": "2026-11-04T11:04:52+00:00",
+    "note": null
+   }
+  },
+  {
+   "series": 320,
+   "seq": null,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF AGRICULTURE AND FARMERS WELFARE › department A › part I › entry 5 reads differently in 1_Upload_884.pdf than in 1_Upload_887.pdf with the amendments since applied",
+   "taken": {
+    "by": "mukundesh",
+    "at": "2026-11-04T11:04:52+00:00",
+    "note": null
+   }
+  },
+  {
+   "series": 320,
+   "seq": null,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF CHEMICALS AND FERTILIZERS › department B › entry 2 reads differently in 1_Upload_884.pdf than in 1_Upload_887.pdf with the amendments since applied",
+   "taken": {
+    "by": "mukundesh",
+    "at": "2026-11-04T11:04:52+00:00",
+    "note": null
+   }
+  },
+  {
+   "series": 320,
+   "seq": null,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF DRINKING WATER AND SANITATION › entry 1 reads differently in 1_Upload_884.pdf than in 1_Upload_887.pdf with the amendments since applied",
+   "taken": {
+    "by": "mukundesh",
+    "at": "2026-11-04T11:04:52+00:00",
+    "note": null
+   }
+  },
+  {
+   "series": 320,
+   "seq": null,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF ENVIRONMENT, FOREST AND CLIMATE CHANGE › note is in 1_Upload_884.pdf but not in 1_Upload_887.pdf with the amendments since applied",
+   "taken": {
+    "by": "mukundesh",
+    "at": "2026-11-04T11:04:52+00:00",
+    "note": null
+   }
+  },
+  {
+   "series": 320,
+   "seq": null,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF ENVIRONMENT, FOREST AND CLIMATE CHANGE › note is in 1_Upload_887.pdf with the amendments since applied but not in 1_Upload_884.pdf",
+   "taken": {
+    "by": "mukundesh",
+    "at": "2026-11-04T11:04:54+00:00",
+    "note": null
+   }
+  },
+  {
+   "series": 320,
+   "seq": null,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HOME AFFAIRS › department A › group_heading IV is in 1_Upload_884.pdf but not in 1_Upload_887.pdf with the amendments since applied",
+   "taken": {
+    "by": "mukundesh",
+    "at": "2026-11-04T11:04:52+00:00",
+    "note": null
+   }
+  },
+  {
+   "series": 320,
+   "seq": null,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HOME AFFAIRS › department A › group_heading “IV. TRADING WITH THE ENEMY: ENEMY PROPERTY is in 1_Upload_887.pdf with the amendments since applied but not in 1_Upload_884.pdf",
+   "taken": {
+    "by": "mukundesh",
+    "at": "2026-11-04T11:04:54+00:00",
+    "note": null
+   }
+  },
+  {
+   "series": 320,
+   "seq": null,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF LABOUR AND EMPLOYMENT › part V › entry 22 is in 1_Upload_887.pdf with the amendments since applied but not in 1_Upload_884.pdf",
+   "taken": {
+    "by": "mukundesh",
+    "at": "2026-11-04T11:04:54+00:00",
+    "note": null
+   }
+  },
+  {
+   "series": 320,
+   "seq": null,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF PERSONNEL, PUBLIC GRIEVANCES AND PENSIONS › department A › group_heading I › entry 7 is in 1_Upload_887.pdf with the amendments since applied but not in 1_Upload_884.pdf",
+   "taken": {
+    "by": "mukundesh",
+    "at": "2026-11-04T11:04:54+00:00",
+    "note": null
+   }
+  },
+  {
+   "series": 320,
+   "seq": null,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF RURAL DEVELOPMENT › department A › entry 2 reads differently in 1_Upload_884.pdf than in 1_Upload_887.pdf with the amendments since applied",
+   "taken": {
+    "by": "mukundesh",
+    "at": "2026-11-04T11:04:52+00:00",
+    "note": null
+   }
+  },
+  {
+   "series": 320,
+   "seq": null,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF RURAL DEVELOPMENT › department B › entry 17 reads differently in 1_Upload_884.pdf than in 1_Upload_887.pdf with the amendments since applied",
+   "taken": {
+    "by": "mukundesh",
+    "at": "2026-11-04T11:04:52+00:00",
+    "note": null
+   }
+  },
+  {
+   "series": 320,
+   "seq": null,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF URBAN DEVELOPMENT › entry 21 reads differently in 1_Upload_884.pdf than in 1_Upload_887.pdf with the amendments since applied",
+   "taken": {
+    "by": "mukundesh",
+    "at": "2026-11-04T11:04:52+00:00",
+    "note": null
+   }
+  }
+ ],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_8E_2016",
+   "op": "insert",
+   "source_ref": "2(1)",
+   "path": "schedule 2 › ministry MINISTRY OF FINANCE › department DEPARTMENT OF ECONOMIC AFFAIRS › entry 106",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_8E_2016",
+   "op": "omit",
+   "source_ref": "2(2)",
+   "path": "schedule 2 › ministry MINISTRY OF LAW AND JUSTICE › department LEGISLATIVE DEPARTMENT › entry 14",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

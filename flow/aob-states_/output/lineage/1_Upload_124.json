@@ -1,0 +1,217 @@
+{
+ "file": "1_Upload_124.pdf",
+ "kind": "amendment",
+ "series": 90,
+ "date": "1971-06-17",
+ "govdoc": "aob-ammend_/output/1_Upload_124.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826683.4360332,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_124.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:54:35.888418+00:00",
+  "sha256": "2851c2960065b9c8c9ebb7a67571e2129789e6cb723ba8e15da9ef372f08bd5a",
+  "pages": 2
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-12T12:32:18.223500+00:00",
+   "stamp": "36869c80598029a9"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r50",
+   "at": "2026-11-15T12:41:26.752270+00:00",
+   "stamp": "28a5ba64627dc2a2"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r51",
+   "at": "2026-11-15T12:41:29.051689+00:00",
+   "stamp": "a430da3e12cceeaa"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r52",
+   "at": "2026-11-15T12:41:30.831130+00:00",
+   "stamp": "e4aeb19f4ca39a62"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r61",
+   "at": "2026-11-15T16:23:57.066937+00:00",
+   "stamp": "064ebefc4670333d",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r62",
+   "at": "2026-11-15T16:23:58.762120+00:00",
+   "stamp": "0a035c1bf49ff340",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r63",
+   "at": "2026-11-15T16:24:00.176068+00:00",
+   "stamp": "fd5cd12b6dba79a4",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r69",
+   "at": "2026-11-15T16:57:20.848190+00:00",
+   "stamp": "b3c4c1bc359261ee"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r70",
+   "at": "2026-11-15T17:03:13.109513+00:00",
+   "stamp": "157cb5ec0ace871b"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r75",
+   "at": "2026-11-16T10:58:03.427887+00:00",
+   "stamp": "0aade61b8a227f2b"
+  }
+ ],
+ "reviews": [],
+ "issues": [
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 2: its quoted text runs across a page break",
+   "target": "r63.rel2",
+   "status": "open"
+  }
+ ],
+ "problems": [
+  {
+   "series": 174,
+   "seq": 2,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry PLANNING COMMISSION › group_heading PRINTED BY I # M VÅGER, GOVT. OF INDIA AND PUL I. (ED TIE CONTROller of is in 1_Upload_212.pdf but not in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  },
+  {
+   "series": 174,
+   "seq": 2,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry PLANNING COMMISSION › entry 1 reads differently in 1_Upload_212.pdf than in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  },
+  {
+   "series": 174,
+   "seq": 2,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry PLANNING COMMISSION › entry 2 reads differently in 1_Upload_212.pdf than in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  },
+  {
+   "series": 174,
+   "seq": 2,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry PLANNING COMMISSION › entry 3 reads differently in 1_Upload_212.pdf than in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  },
+  {
+   "series": 174,
+   "seq": 2,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry PLANNING COMMISSION › entry 4 reads differently in 1_Upload_212.pdf than in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  },
+  {
+   "series": 174,
+   "seq": 2,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry PLANNING COMMISSION › entry 5 is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
+  },
+  {
+   "series": 174,
+   "seq": 2,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry PLANNING COMMISSION › entry 6 is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
+  },
+  {
+   "series": 174,
+   "seq": 2,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry PLANNING COMMISSION › entry 7 is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
+  },
+  {
+   "series": 174,
+   "seq": 2,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry PLANNING COMMISSION › note is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
+  }
+ ],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_2320_1971",
+   "op": "replace",
+   "source_ref": "2(a)",
+   "path": "schedule 2 › ministry MINISTRY OF PLANNING",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_2320_1971",
+   "op": "insert",
+   "source_ref": "2(b)",
+   "path": "schedule 2 › ministry PRIME MINISTER'S SECRETARIAT",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

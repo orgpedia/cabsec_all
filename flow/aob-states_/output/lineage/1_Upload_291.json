@@ -1,0 +1,182 @@
+{
+ "file": "1_Upload_291.pdf",
+ "kind": "amendment",
+ "series": 251,
+ "date": "2000-08-04",
+ "govdoc": "aob-ammend_/output/1_Upload_291.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826683.065726,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_291.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:58:59.356741+00:00",
+  "sha256": "16ec37c0730df9665194e5a2fc4f9b5bf188b8e058bbbcf6a75a1348f4869df1",
+  "pages": 2
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-11T03:12:17.881739+00:00",
+   "stamp": "6cdc014e4e750fa8"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r113",
+   "at": "2026-11-15T12:41:26.237314+00:00",
+   "stamp": "2daa5898ccf5532d"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r114",
+   "at": "2026-11-15T12:41:28.443287+00:00",
+   "stamp": "071408586e023d26"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r115",
+   "at": "2026-11-15T12:41:30.428602+00:00",
+   "stamp": "bef60cddd8409dd1"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r124",
+   "at": "2026-11-15T16:23:56.685181+00:00",
+   "stamp": "49467ef5f268183e",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r125",
+   "at": "2026-11-15T16:23:58.323866+00:00",
+   "stamp": "2287d353c8186ac5",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r126",
+   "at": "2026-11-15T16:23:59.708882+00:00",
+   "stamp": "648c75c4426b766c",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r132",
+   "at": "2026-11-15T16:57:20.364642+00:00",
+   "stamp": "19dff0c08e4419ab"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r133",
+   "at": "2026-11-15T17:03:12.348656+00:00",
+   "stamp": "ba07a41826df0ec1"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r138",
+   "at": "2026-11-16T10:58:03.050409+00:00",
+   "stamp": "b356297f0c3b5c27"
+  }
+ ],
+ "reviews": [],
+ "issues": [],
+ "problems": [
+  {
+   "series": 271,
+   "seq": 2,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF COMMERCE AND INDUSTRY › department A › group_heading IV › entry 18 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 2,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF COMMERCE AND INDUSTRY › department A › group_heading IV › entry 19 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 2,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF COMMERCE AND INDUSTRY › department A › group_heading IV › entry 20 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 2,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF COMMERCE AND INDUSTRY › department A › group_heading IV › entry 21 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  }
+ ],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_740E_2000",
+   "op": "omit",
+   "source_ref": "2(1)",
+   "path": "schedule 1 › ministry Ministry of Commerce and Industry › department Department of Supply",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_740E_2000",
+   "op": "insert",
+   "source_ref": "2(2)(A)",
+   "path": "schedule 2 › ministry MINISTRY OF COMMERCE AND INDUSTRY › department DEPARTMENT OF COMMERCE › entry 17",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_740E_2000",
+   "op": "omit",
+   "source_ref": "2(2)(B)",
+   "path": "schedule 2 › ministry MINISTRY OF COMMERCE AND INDUSTRY › department DEPARTMENT OF SUPPLY",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

@@ -1,0 +1,184 @@
+{
+ "file": "1_Upload_357.pdf",
+ "kind": "amendment",
+ "series": 312,
+ "date": "2015-03-21",
+ "govdoc": "aob-ammend_/output/1_Upload_357.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826690.0885925,
+ "edits_file": "aob-ammend_/conf/1_Upload_357.pdf.edits.yml",
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_357.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T14:00:49.947549+00:00",
+  "sha256": "90a8d8a274020b5616ddfb78db43bd848d0256da2ef9d6f8877cec2a26f04972",
+  "pages": 4
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-03T03:59:20.575192+00:00",
+   "stamp": "1e900cf28a47e7ca"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r185",
+   "at": "2026-11-15T12:42:18.609998+00:00",
+   "stamp": "e986761732cba9d4"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r186",
+   "at": "2026-11-15T12:42:21.273419+00:00",
+   "stamp": "ef6130b49457cb22"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r187",
+   "at": "2026-11-15T12:42:23.751069+00:00",
+   "stamp": "64afc08ebccd111d"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r196",
+   "at": "2026-11-15T16:24:36.647070+00:00",
+   "stamp": "34f4af73d0450f50",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r197",
+   "at": "2026-11-15T16:24:38.978819+00:00",
+   "stamp": "9bb1710a8491cb55",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r198",
+   "at": "2026-11-15T16:24:41.131221+00:00",
+   "stamp": "fe84ae11faa76df3",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r204",
+   "at": "2026-11-15T16:57:30.795002+00:00",
+   "stamp": "056d226927fc0295"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r205",
+   "at": "2026-11-15T17:03:36.447165+00:00",
+   "stamp": "e60cb9abd5029576"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r210",
+   "at": "2026-11-16T10:58:10.061205+00:00",
+   "stamp": "1a4fdf90b4d23c57"
+  }
+ ],
+ "reviews": [],
+ "issues": [
+  {
+   "code": "aob:read_hindi_missing",
+   "severity": "info",
+   "message": "change 1: a new heading has no Hindi name in brackets",
+   "target": "r198.rel1",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_hindi_missing",
+   "severity": "info",
+   "message": "change 4: a new heading has no Hindi name in brackets",
+   "target": "r198.rel4",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 4: its quoted text runs across a page break",
+   "target": "r198.rel4",
+   "status": "open"
+  }
+ ],
+ "problems": [],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_815E_2015",
+   "op": "replace",
+   "source_ref": "2(1)",
+   "path": "schedule 1 › ministry Planning Commission",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_815E_2015",
+   "op": "insert",
+   "source_ref": "2(2)(I)",
+   "path": "schedule 2 › ministry MINISTRY OF AGRICULTURE › department DEPARTMENT OF AGRICULTURE AND COOPERATION › entry 53",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_815E_2015",
+   "op": "replace",
+   "source_ref": "2(2)(II)",
+   "path": "schedule 2 › ministry MINISTRY OF PLANNING",
+   "status": "applied"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_815E_2015",
+   "op": "replace",
+   "source_ref": "2(2)(III)",
+   "path": "schedule 2 › ministry PLANNING COMMISSION",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

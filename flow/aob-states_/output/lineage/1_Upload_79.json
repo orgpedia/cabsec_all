@@ -1,0 +1,548 @@
+{
+ "file": "1_Upload_79.pdf",
+ "kind": "amendment",
+ "series": 46,
+ "date": "1966-01-25",
+ "govdoc": "aob-ammend_/output/1_Upload_79.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826686.9695659,
+ "edits_file": "aob-ammend_/conf/1_Upload_79.pdf.edits.yml",
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_79.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T14:02:34.019364+00:00",
+  "sha256": "6259bf85299b13e91d43c6172d9f6611ec0694af07b0ed8396a721fd11561889",
+  "pages": 16
+ },
+ "edits": [
+  {
+   "run": "h1",
+   "by": "mukundesh",
+   "at": "2026-11-14T13:43:10+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r1.w2366",
+     "before": {
+      "text": "61."
+     },
+     "after": {
+      "text": "51."
+     }
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-12T12:34:58.538000+00:00",
+   "stamp": "e2d44252032b3191"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r58",
+   "at": "2026-11-15T12:41:55.035042+00:00",
+   "stamp": "b1642e1376365055"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r59",
+   "at": "2026-11-15T12:41:56.723858+00:00",
+   "stamp": "2d0b787b12d10d99"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r60",
+   "at": "2026-11-15T12:41:58.207426+00:00",
+   "stamp": "46775ce394e778d8"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r69",
+   "at": "2026-11-15T16:24:17.666940+00:00",
+   "stamp": "e250793d473f45ff",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r70",
+   "at": "2026-11-15T16:24:18.854923+00:00",
+   "stamp": "b9741287308549ad",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r71",
+   "at": "2026-11-15T16:24:20.027641+00:00",
+   "stamp": "1ec62e18ba630c79",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r77",
+   "at": "2026-11-15T16:57:26.054932+00:00",
+   "stamp": "ca75bd2f0ae5d615"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r78",
+   "at": "2026-11-15T17:03:25.694515+00:00",
+   "stamp": "65289a555c7217c8"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r83",
+   "at": "2026-11-16T10:58:06.852748+00:00",
+   "stamp": "9e050d5d1fbbaeca"
+  }
+ ],
+ "reviews": [],
+ "issues": [
+  {
+   "code": "aob:read_hindi_missing",
+   "severity": "info",
+   "message": "change 1: a new heading has no Hindi name in brackets",
+   "target": "r71.rel1",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 1: its quoted text runs across a page break",
+   "target": "r71.rel1",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_hindi_missing",
+   "severity": "info",
+   "message": "change 7: a new heading has no Hindi name in brackets",
+   "target": "r71.rel7",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_hindi_missing",
+   "severity": "info",
+   "message": "change 11: a new heading has no Hindi name in brackets",
+   "target": "r71.rel11",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_hindi_missing",
+   "severity": "info",
+   "message": "change 12: a new heading has no Hindi name in brackets",
+   "target": "r71.rel12",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_hindi_missing",
+   "severity": "info",
+   "message": "change 13: a new heading has no Hindi name in brackets",
+   "target": "r71.rel13",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 13: its quoted text runs across a page break",
+   "target": "r71.rel13",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_hindi_missing",
+   "severity": "info",
+   "message": "change 14: a new heading has no Hindi name in brackets",
+   "target": "r71.rel14",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_hindi_missing",
+   "severity": "info",
+   "message": "change 16: a new heading has no Hindi name in brackets",
+   "target": "r71.rel16",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_hindi_missing",
+   "severity": "info",
+   "message": "change 17: a new heading has no Hindi name in brackets",
+   "target": "r71.rel17",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 17: its quoted text runs across a page break",
+   "target": "r71.rel17",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_hindi_missing",
+   "severity": "info",
+   "message": "change 18: a new heading has no Hindi name in brackets",
+   "target": "r71.rel18",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_hindi_missing",
+   "severity": "info",
+   "message": "change 19: a new heading has no Hindi name in brackets",
+   "target": "r71.rel19",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 19: its quoted text runs across a page break",
+   "target": "r71.rel19",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_hindi_missing",
+   "severity": "info",
+   "message": "change 22: a new heading has no Hindi name in brackets",
+   "target": "r71.rel22",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_hindi_missing",
+   "severity": "info",
+   "message": "change 25: a new heading has no Hindi name in brackets",
+   "target": "r71.rel25",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 25: its quoted text runs across a page break",
+   "target": "r71.rel25",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_hindi_missing",
+   "severity": "info",
+   "message": "change 26: a new heading has no Hindi name in brackets",
+   "target": "r71.rel26",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 26: its quoted text runs across a page break",
+   "target": "r71.rel26",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_hindi_missing",
+   "severity": "info",
+   "message": "change 27: a new heading has no Hindi name in brackets",
+   "target": "r71.rel27",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 27: its quoted text runs across a page break",
+   "target": "r71.rel27",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_one_heading",
+   "severity": "info",
+   "message": "change 14: the heading MINISTRY OF INDUSTRY & SUPPLY and its sub-heading A Department of Industry put as one heading, Ministry of Industry",
+   "target": "r71.rel14",
+   "status": "open"
+  }
+ ],
+ "problems": [
+  {
+   "series": 174,
+   "seq": 27,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › department Department of Social Welfare is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
+  }
+ ],
+ "rules": [
+  {
+   "rule": "one_heading",
+   "seq": 14,
+   "note": "change 14: the heading MINISTRY OF INDUSTRY & SUPPLY and its sub-heading A Department of Industry put as one heading, Ministry of Industry",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  }
+ ],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_360_1966",
+   "op": "replace",
+   "source_ref": "(A)",
+   "path": "schedule 1",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_360_1966",
+   "op": "omit",
+   "source_ref": "(B)(a)",
+   "path": "schedule 2 › ministry Ministry of Civil Aviation",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_360_1966",
+   "op": "replace",
+   "source_ref": "(B)(b)(i)",
+   "path": "schedule 2 › ministry Ministry of Commerce › entry 29",
+   "status": "applied"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_360_1966",
+   "op": "insert",
+   "source_ref": "(B)(b)(ii)",
+   "path": "schedule 2 › ministry Ministry of Commerce › group_heading VII. Textiles, Jute and Sericulture › entry 32",
+   "status": "applied"
+  },
+  {
+   "seq": 5,
+   "doc_id": "GOI_SO_360_1966",
+   "op": "omit",
+   "source_ref": "(B)(c)",
+   "path": "schedule 2 › ministry Ministry of Community Development and Cooperation",
+   "status": "applied"
+  },
+  {
+   "seq": 6,
+   "doc_id": "GOI_SO_360_1966",
+   "op": "insert",
+   "source_ref": "(B)(d)",
+   "path": "schedule 2 › ministry Ministry of Education › entry 6",
+   "status": "applied"
+  },
+  {
+   "seq": 7,
+   "doc_id": "GOI_SO_360_1966",
+   "op": "replace",
+   "source_ref": "(B)(e)(i)",
+   "path": "schedule 2 › ministry Ministry of Finance › department Department of Revenue",
+   "status": "applied"
+  },
+  {
+   "seq": 8,
+   "doc_id": "GOI_SO_360_1966",
+   "op": "insert",
+   "source_ref": "(B)(e)(ii)",
+   "path": "schedule 2 › ministry Ministry of Finance › department Department of Revenue and Insurance › entry 11",
+   "status": "applied"
+  },
+  {
+   "seq": 9,
+   "doc_id": "GOI_SO_360_1966",
+   "op": "renumber",
+   "source_ref": "(B)(e)(iii)",
+   "path": "schedule 2 › ministry Ministry of Finance › department Department of Revenue and Insurance › entry 12",
+   "status": "applied"
+  },
+  {
+   "seq": 10,
+   "doc_id": "GOI_SO_360_1966",
+   "op": "omit",
+   "source_ref": "(B)(e)(iv)",
+   "path": "schedule 2 › ministry Ministry of Finance › department Department of Company Affairs and Insurance",
+   "status": "applied"
+  },
+  {
+   "seq": 11,
+   "doc_id": "GOI_SO_360_1966",
+   "op": "replace",
+   "source_ref": "(B)(f)(i)",
+   "path": "schedule 2 › ministry Ministry of Food and Agriculture",
+   "status": "applied"
+  },
+  {
+   "seq": 12,
+   "doc_id": "GOI_SO_360_1966",
+   "op": "insert",
+   "source_ref": "(B)(f)(ii)",
+   "path": "schedule 2 › ministry Ministry of Food, Agriculture, Community Development and Co- operation › department Department of Food",
+   "status": "applied"
+  },
+  {
+   "seq": 13,
+   "doc_id": "GOI_SO_360_1966",
+   "op": "replace",
+   "source_ref": "(B)(g)",
+   "path": "schedule 2 › ministry Ministry of Health",
+   "status": "applied"
+  },
+  {
+   "seq": 14,
+   "doc_id": "GOI_SO_360_1966",
+   "op": "replace",
+   "source_ref": "(B)(h)(i)",
+   "path": "schedule 2 › ministry Ministry of Industry and Supply › department Department of Industry",
+   "status": "applied"
+  },
+  {
+   "seq": 15,
+   "doc_id": "GOI_SO_360_1966",
+   "op": "omit",
+   "source_ref": "(B)(h)(ii)",
+   "path": "schedule 2 › ministry Ministry of Industry › department Department of Supply and Technical Development",
+   "status": "applied"
+  },
+  {
+   "seq": 16,
+   "doc_id": "GOI_SO_360_1966",
+   "op": "insert",
+   "source_ref": "(B)(i)",
+   "path": "schedule 2 › ministry Ministry of Information and Broadcasting",
+   "status": "applied"
+  },
+  {
+   "seq": 17,
+   "doc_id": "GOI_SO_360_1966",
+   "op": "replace",
+   "source_ref": "(B)(j)",
+   "path": "schedule 2 › ministry Ministry of Labour and Employment",
+   "status": "applied"
+  },
+  {
+   "seq": 18,
+   "doc_id": "GOI_SO_360_1966",
+   "op": "insert",
+   "source_ref": "(B)(k)",
+   "path": "schedule 2 › ministry Ministry of Law › department Legislative Department",
+   "status": "applied"
+  },
+  {
+   "seq": 19,
+   "doc_id": "GOI_SO_360_1966",
+   "op": "insert",
+   "source_ref": "(B)(l)",
+   "path": "schedule 2 › ministry Ministry of Law › department Department of Company Affairs",
+   "status": "applied"
+  },
+  {
+   "seq": 20,
+   "doc_id": "GOI_SO_360_1966",
+   "op": "insert",
+   "source_ref": "(B)(m)(i)",
+   "path": "schedule 2 › ministry Ministry of Petroleum and Chemicals › department Department of Chemicals › entry 2",
+   "status": "applied"
+  },
+  {
+   "seq": 21,
+   "doc_id": "GOI_SO_360_1966",
+   "op": "replace",
+   "source_ref": "(B)(m)(ii)",
+   "path": "schedule 2 › ministry Ministry of Petroleum and Chemicals › department Department of Chemicals › entry 5",
+   "status": "applied"
+  },
+  {
+   "seq": 22,
+   "doc_id": "GOI_SO_360_1966",
+   "op": "insert",
+   "source_ref": "(B)(n)",
+   "path": "schedule 2 › ministry Ministry of Railways (Railway Board)",
+   "status": "applied"
+  },
+  {
+   "seq": 23,
+   "doc_id": "GOI_SO_360_1966",
+   "op": "omit",
+   "source_ref": "(B)(o)",
+   "path": "schedule 2 › ministry Ministry of Rehabilitation",
+   "status": "applied"
+  },
+  {
+   "seq": 24,
+   "doc_id": "GOI_SO_360_1966",
+   "op": "omit",
+   "source_ref": "(B)(p)",
+   "path": "schedule 2 › ministry Ministry of Steel and Mines",
+   "status": "applied"
+  },
+  {
+   "seq": 25,
+   "doc_id": "GOI_SO_360_1966",
+   "op": "replace",
+   "source_ref": "(B)(q)",
+   "path": "schedule 2 › ministry Ministry of Transport",
+   "status": "applied"
+  },
+  {
+   "seq": 26,
+   "doc_id": "GOI_SO_360_1966",
+   "op": "replace",
+   "source_ref": "(B)(r)",
+   "path": "schedule 2 › ministry Ministry of Works and Housing",
+   "status": "applied"
+  },
+  {
+   "seq": 27,
+   "doc_id": "GOI_SO_360_1966",
+   "op": "replace",
+   "source_ref": "(B)(s)",
+   "path": "schedule 2 › ministry Department of Social Security",
+   "status": "applied"
+  },
+  {
+   "seq": 28,
+   "doc_id": "GOI_SO_360_1966",
+   "op": "insert",
+   "source_ref": "(B)(t)",
+   "path": "schedule 2 › ministry Cabinet Secretariat › department Department of Cabinet Affairs › entry 2",
+   "status": "applied"
+  }
+ ],
+ "bridge": {
+  "substitutes": "the First Schedule",
+  "first_schedule_changes": 46
+ },
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

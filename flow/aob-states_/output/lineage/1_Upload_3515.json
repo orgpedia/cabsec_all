@@ -1,0 +1,170 @@
+{
+ "file": "1_Upload_3515.pdf",
+ "kind": "amendment",
+ "series": 370,
+ "date": "2022-12-23",
+ "govdoc": "aob-ammend_/output/1_Upload_3515.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826683.5779285,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_3515.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T14:00:40.222252+00:00",
+  "sha256": "292dde4220fa4031ae9e741f570cdd070de381b66574baff05c8d5a0d45e3c15",
+  "pages": 2
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r73",
+   "at": "2026-11-04T13:34:20.239244+00:00",
+   "stamp": "9568c0e5b7331bf9"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r219",
+   "at": "2026-11-15T12:41:26.903576+00:00",
+   "stamp": "cafefde1a8da7729"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r220",
+   "at": "2026-11-15T12:41:29.215637+00:00",
+   "stamp": "6362e94093df07f9"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r221",
+   "at": "2026-11-15T12:41:30.926021+00:00",
+   "stamp": "e296a84a197db928"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r230",
+   "at": "2026-11-15T16:23:57.218066+00:00",
+   "stamp": "b0baf089ae7b7bbe",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r231",
+   "at": "2026-11-15T16:23:58.857940+00:00",
+   "stamp": "effb2dbbb2d07ecd",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r232",
+   "at": "2026-11-15T16:24:00.279510+00:00",
+   "stamp": "f108a37758fd7216",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r238",
+   "at": "2026-11-15T16:57:20.956944+00:00",
+   "stamp": "a64dc6c5746e1d0b"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r239",
+   "at": "2026-11-15T17:03:13.289819+00:00",
+   "stamp": "f47b4094ae6be199"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r244",
+   "at": "2026-11-16T10:58:03.562453+00:00",
+   "stamp": "e453325c968b1ae7"
+  }
+ ],
+ "reviews": [],
+ "issues": [],
+ "problems": [
+  {
+   "series": 370,
+   "seq": null,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "order › rule 3 reads differently in 1_Upload_3540.pdf than in 1_Upload_3190.pdf with this amendment applied",
+   "taken": {
+    "by": "mukundesh",
+    "at": "2026-11-02T18:10:06+00:00",
+    "note": "the version's own correction of the Order's wording"
+   }
+  },
+  {
+   "series": 370,
+   "seq": null,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "order › rule 4 reads differently in 1_Upload_3540.pdf than in 1_Upload_3190.pdf with this amendment applied",
+   "taken": {
+    "by": "mukundesh",
+    "at": "2026-11-02T18:10:19+00:00",
+    "note": "the version's own correction of the Order's wording"
+   }
+  }
+ ],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_6062E_2022",
+   "op": "insert",
+   "source_ref": "2(i)",
+   "path": "schedule 2 › ministry MINISTRY OF ELECTRONICS AND INFORMATION TECHNOLOGY › entry 5",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_6062E_2022",
+   "op": "insert",
+   "source_ref": "2(ii)",
+   "path": "schedule 2 › ministry MINISTRY OF YOUTH AFFAIRS AND SPORTS › department DEPARTMENT OF SPORTS › entry 2",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

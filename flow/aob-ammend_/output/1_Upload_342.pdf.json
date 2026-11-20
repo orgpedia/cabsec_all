@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_342.pdf",
     "sha256": "4c07ffcee9f2b845b9757db7d6a6b37b4465ea79c2490bba926cfdb3c57742e7",
     "govdoc": "1_Upload_342.pdf.govdoc.json.zst",
-    "revision": 148
+    "revision": 172
   },
   "documents": [
     {
@@ -29,9 +29,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "3",
+          "version": "4",
           "model": "gemini-4-argon",
-          "at": "2026-11-12T12:55:58.015815+00:00"
+          "at": "2026-11-15T16:24:19.486277+00:00"
         },
         "ops": [
           {
@@ -39,7 +39,7 @@
             "source_ref": "2(1)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r111.rel1",
+            "relation": "r164.rel1",
             "target": {
               "cited": [
                 {
@@ -104,7 +104,7 @@
             "source_ref": "2(2)(A)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r111.rel2",
+            "relation": "r164.rel2",
             "position": "after",
             "anchor": {
               "cited": [
@@ -177,7 +177,7 @@
             "source_ref": "2(2)(B)(a)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r111.rel3",
+            "relation": "r164.rel3",
             "target": {
               "cited": [
                 {
@@ -253,7 +253,7 @@
             "source_ref": "2(2)(B)(b)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r111.rel4",
+            "relation": "r164.rel4",
             "target": [
               {
                 "cited": [
@@ -390,7 +390,7 @@
             "source_ref": "2(2)(C)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r111.rel5",
+            "relation": "r164.rel5",
             "position": "after",
             "anchor": {
               "cited": [
@@ -457,7 +457,7 @@
             "source_ref": "2(2)(D)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r111.rel6",
+            "relation": "r164.rel6",
             "target": {
               "cited": [
                 {

@@ -1,0 +1,201 @@
+{
+ "file": "1_Upload_181.pdf",
+ "kind": "amendment",
+ "series": 143,
+ "date": "1980-05-20",
+ "govdoc": "aob-ammend_/output/1_Upload_181.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826690.7413936,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_181.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:56:01.951247+00:00",
+  "sha256": "9be38aab03f587e51dc4d4074faa6303e6a6cba4ecde45be4c28c13a6bc1030e",
+  "pages": 2
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-12T12:39:16.589698+00:00",
+   "stamp": "8cf95b5ca6bf8739"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r50",
+   "at": "2026-11-15T12:42:19.756858+00:00",
+   "stamp": "dd1253b044a08375"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r51",
+   "at": "2026-11-15T12:42:22.370104+00:00",
+   "stamp": "e7e5e65962511afd"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r52",
+   "at": "2026-11-15T12:42:24.519018+00:00",
+   "stamp": "b53e299704a202f2"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r61",
+   "at": "2026-11-15T16:24:37.687861+00:00",
+   "stamp": "08444d103ad53f45",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r62",
+   "at": "2026-11-15T16:24:39.877626+00:00",
+   "stamp": "321f4f58ec95f2fe",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r63",
+   "at": "2026-11-15T16:24:41.998299+00:00",
+   "stamp": "db981babea8af090",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r69",
+   "at": "2026-11-15T16:57:31.536915+00:00",
+   "stamp": "563f882d84ac3df5"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r70",
+   "at": "2026-11-15T17:03:37.755062+00:00",
+   "stamp": "6ce5003ff0bb3afe"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r75",
+   "at": "2026-11-16T10:58:10.731757+00:00",
+   "stamp": "4a137af9654c2ad8"
+  }
+ ],
+ "reviews": [],
+ "issues": [
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
+   "message": "change 2: department DEPARTMENT OF COMMERCE taken for department DEPARTMENT OF COMMERCF, named loosely",
+   "target": "r63.rel2",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
+   "message": "change 3: department DEPARTMENT OF COMMERCE taken for department DEPARTMENT OF COMMERCF, named loosely",
+   "target": "r63.rel3",
+   "status": "open"
+  }
+ ],
+ "problems": [],
+ "rules": [
+  {
+   "rule": "loose",
+   "seq": 2,
+   "note": "change 2: department DEPARTMENT OF COMMERCE taken for department DEPARTMENT OF COMMERCF, named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "loose",
+   "seq": 3,
+   "note": "change 3: department DEPARTMENT OF COMMERCE taken for department DEPARTMENT OF COMMERCF, named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  }
+ ],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_341E_1980",
+   "op": "omit",
+   "source_ref": "2(a)",
+   "path": "schedule 2 › ministry MINISTRY OF AGRICULTURE AND IRRIGATION › department DEPARTMENT OF AGRICULTURE AND COOPERATION › entry 29 ; schedule 2 › ministry MINISTRY OF AGRICULTURE AND IRRIGATION › department DEPARTMENT OF AGRICULTURE AND COOPERATION › entry 29 ; schedule 2 › ministry MINISTRY OF AGRICULTURE AND IRRIGATION › department DEPARTMENT OF AGRICULTURE AND COOPERATION › entry 29 ; schedule 2 › ministry MINISTRY OF AGRICULTURE AND IRRIGATION › department DEPARTMENT OF AGRICULTURE AND COOPERATION › entry 29 ; schedule 2 › ministry MINISTRY OF AGRICULTURE AND IRRIGATION › department DEPARTMENT OF AGRICULTURE AND COOPERATION › entry 33",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_341E_1980",
+   "op": "omit",
+   "source_ref": "2(b)(1)(i)",
+   "path": "schedule 2 › ministry MINISTRY OF COMMERCE AND CIVIL SUPPLIES › department DEPARTMENT OF COMMERCE › entry 11 › item f",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_341E_1980",
+   "op": "omit",
+   "source_ref": "2(b)(1)(ii)",
+   "path": "schedule 2 › ministry MINISTRY OF COMMERCE AND CIVIL SUPPLIES › department DEPARTMENT OF COMMERCE › entry 15 › item vi",
+   "status": "applied"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_341E_1980",
+   "op": "insert",
+   "source_ref": "2(b)(2)",
+   "path": "schedule 2 › ministry MINISTRY OF COMMERCE AND CIVIL SUPPLIES › department DEPARTMENT OF TEXTILES › entry 18",
+   "status": "applied"
+  },
+  {
+   "seq": 5,
+   "doc_id": "GOI_SO_341E_1980",
+   "op": "insert",
+   "source_ref": "2(c)",
+   "path": "schedule 2 › ministry MINISTRY OF RURAL RECONSTRUCTION › entry 2",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

@@ -1,0 +1,211 @@
+{
+ "file": "1_Upload_61.pdf",
+ "kind": "amendment",
+ "series": 28,
+ "date": "1964-04-15",
+ "govdoc": "aob-ammend_/output/1_Upload_61.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826692.5835874,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_61.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T14:02:11.916546+00:00",
+  "sha256": "bb27d77efd74ef3c60aaede8a566a4f09b9940f071910964e0b6136a7c268163",
+  "pages": 4
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-12T12:42:17.276984+00:00",
+   "stamp": "155fa090727bd758"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r50",
+   "at": "2026-11-15T12:42:31.871875+00:00",
+   "stamp": "48d1c68841f8da35"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r51",
+   "at": "2026-11-15T12:42:34.193422+00:00",
+   "stamp": "15785263f6265873"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r52",
+   "at": "2026-11-15T12:42:36.469098+00:00",
+   "stamp": "7ad66176f9f56c6d"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r61",
+   "at": "2026-11-15T16:24:50.919869+00:00",
+   "stamp": "183717c92e0169ad",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r62",
+   "at": "2026-11-15T16:24:52.680339+00:00",
+   "stamp": "28965102fbfd3dee",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r63",
+   "at": "2026-11-15T16:24:54.470270+00:00",
+   "stamp": "97c1566111ed1921",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r69",
+   "at": "2026-11-15T16:57:34.651342+00:00",
+   "stamp": "bd95c7dff76f03c9"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r70",
+   "at": "2026-11-15T17:03:44.480083+00:00",
+   "stamp": "1ce07e77c2bc3637"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r75",
+   "at": "2026-11-16T10:58:12.563878+00:00",
+   "stamp": "9848a216cc6a878e"
+  }
+ ],
+ "reviews": [],
+ "issues": [
+  {
+   "code": "aob:read_hindi_missing",
+   "severity": "info",
+   "message": "change 1: a new heading has no Hindi name in brackets",
+   "target": "r63.rel1",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_hindi_missing",
+   "severity": "info",
+   "message": "change 2: a new heading has no Hindi name in brackets",
+   "target": "r63.rel2",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_hindi_missing",
+   "severity": "info",
+   "message": "change 4: a new heading has no Hindi name in brackets",
+   "target": "r63.rel4",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_hindi_missing",
+   "severity": "info",
+   "message": "change 5: a new heading has no Hindi name in brackets",
+   "target": "r63.rel5",
+   "status": "open"
+  }
+ ],
+ "problems": [
+  {
+   "series": 28,
+   "seq": 3,
+   "code": "old_words_missing",
+   "severity": "error",
+   "message": "change 3: the words to substitute are not in schedule 2 › ministry MINISTRY OF HOME AFFAIRS",
+   "cause": "words_differ"
+  }
+ ],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_1378_1964",
+   "op": "insert",
+   "source_ref": "(A)(a)",
+   "path": "schedule 1 › entry 15",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_1378_1964",
+   "op": "replace",
+   "source_ref": "(A)(b)",
+   "path": "schedule 1 › entry 18",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_1378_1964",
+   "op": "substitute_text",
+   "source_ref": "(B)(a)",
+   "path": "schedule 2 › ministry Ministry of Home Affairs",
+   "status": "not_applied",
+   "problem": "change 3: the words to substitute are not in schedule 2 › ministry MINISTRY OF HOME AFFAIRS",
+   "code": "old_words_missing",
+   "cause": "words_differ",
+   "known": "home_affairs"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_1378_1964",
+   "op": "insert",
+   "source_ref": "(B)(b)",
+   "path": "schedule 2 › ministry Ministry of Railways",
+   "status": "applied"
+  },
+  {
+   "seq": 5,
+   "doc_id": "GOI_SO_1378_1964",
+   "op": "replace",
+   "source_ref": "(B)(c)",
+   "path": "schedule 2 › ministry Ministry of Works. Housing & Rehabilitation",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

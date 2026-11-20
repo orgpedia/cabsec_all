@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_245.pdf",
     "sha256": "6ec0dbf791706bb2748f2622ecdee1a0263af0a58c39337ec2fd0cc35b3d8194",
     "govdoc": "1_Upload_245.pdf.govdoc.json.zst",
-    "revision": 109
+    "revision": 133
   },
   "documents": [
     {
@@ -29,9 +29,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "3",
+          "version": "4",
           "model": "gemini-4-argon",
-          "at": "2026-11-12T12:56:15.410473+00:00"
+          "at": "2026-11-15T16:24:28.431765+00:00"
         },
         "ops": [
           {
@@ -39,7 +39,7 @@
             "source_ref": "2(1)(a)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r73.rel1",
+            "relation": "r126.rel1",
             "target": {
               "cited": [
                 {
@@ -53,14 +53,14 @@
               ],
               "eId": null,
               "words": [
-                "r1.w678",
+                "r1.w677",
                 "r1.w697"
               ],
               "boxes": [
                 {
                   "page": 2,
                   "bbox": [
-                    1422,
+                    1400,
                     1141,
                     2244,
                     1358
@@ -99,7 +99,7 @@
             "source_ref": "2(1)(b)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r73.rel2",
+            "relation": "r126.rel2",
             "position": "after",
             "anchor": {
               "cited": [
@@ -114,14 +114,14 @@
               ],
               "eId": null,
               "words": [
-                "r1.w717",
+                "r1.w716",
                 "r1.w724"
               ],
               "boxes": [
                 {
                   "page": 2,
                   "bbox": [
-                    1431,
+                    1429,
                     1531,
                     2248,
                     1609
@@ -159,7 +159,7 @@
             "source_ref": "2(2)(a)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r73.rel3",
+            "relation": "r126.rel3",
             "target": {
               "cited": [
                 {
@@ -173,14 +173,14 @@
               ],
               "eId": null,
               "words": [
-                "r1.w746",
+                "r1.w745",
                 "r1.w763"
               ],
               "boxes": [
                 {
                   "page": 2,
                   "bbox": [
-                    1427,
+                    1419,
                     1866,
                     2248,
                     2035
@@ -344,7 +344,7 @@
             "source_ref": "2(2)(b)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r73.rel4",
+            "relation": "r126.rel4",
             "position": "after",
             "anchor": {
               "cited": [
@@ -359,7 +359,7 @@
               ],
               "eId": null,
               "words": [
-                "r1.w1048",
+                "r1.w1047",
                 "r1.w1059"
               ],
               "boxes": [

@@ -1,0 +1,153 @@
+{
+ "file": "1_Upload_246.pdf",
+ "kind": "amendment",
+ "series": 206,
+ "date": "1989-12-26",
+ "govdoc": "aob-ammend_/output/1_Upload_246.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826683.1282032,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_246.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:57:35.286147+00:00",
+  "sha256": "1f4c0ffb117e321a52e4e2bd636585876ebde254bb3c13b6d8a105643e296f0e",
+  "pages": 4
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-11T03:04:37.508642+00:00",
+   "stamp": "850e1ad6c532c93a"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r113",
+   "at": "2026-11-15T12:41:26.311558+00:00",
+   "stamp": "b9aa7e1c106b6f07"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r114",
+   "at": "2026-11-15T12:41:28.567327+00:00",
+   "stamp": "fdfd1c6bc1ef2de0"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r115",
+   "at": "2026-11-15T12:41:30.512829+00:00",
+   "stamp": "84589e29633e965e"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r124",
+   "at": "2026-11-15T16:23:56.749591+00:00",
+   "stamp": "1604945231777b14",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r125",
+   "at": "2026-11-15T16:23:58.440660+00:00",
+   "stamp": "c197785cc0f157f7",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r126",
+   "at": "2026-11-15T16:23:59.775179+00:00",
+   "stamp": "9c79561e3721f0f6",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r132",
+   "at": "2026-11-15T16:57:20.431268+00:00",
+   "stamp": "e526d2f4ffd9f20f"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r133",
+   "at": "2026-11-15T17:03:12.482633+00:00",
+   "stamp": "b77a0df56474cc35"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r138",
+   "at": "2026-11-16T10:58:03.114427+00:00",
+   "stamp": "80e92a7feabc7f8b"
+  }
+ ],
+ "reviews": [],
+ "issues": [
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 1: its quoted text runs across a page break",
+   "target": "r126.rel1",
+   "status": "open"
+  }
+ ],
+ "problems": [],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_1070E_1989",
+   "op": "replace",
+   "source_ref": "2(a)",
+   "path": "schedule 2 › ministry MINISTRY OF INFORMATION AND BROADCASTING › entry 14",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_1070E_1989",
+   "op": "omit",
+   "source_ref": "2(b)",
+   "path": "schedule 2 › ministry MINISTRY OF HUMAN RESOURCE DEVELOPMENT › department DEPARTMENT OF CUL- TURE › entry 46",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

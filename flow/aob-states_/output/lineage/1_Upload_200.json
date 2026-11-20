@@ -1,0 +1,452 @@
+{
+ "file": "1_Upload_200.pdf",
+ "kind": "amendment",
+ "series": 162,
+ "date": "1984-10-17",
+ "govdoc": "aob-ammend_/output/1_Upload_200.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826687.3616886,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_200.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:56:29.429263+00:00",
+  "sha256": "6bd665b62f9302fdba20cf2a707b36104c552a45a2bef46a602f0687fbe74fcc",
+  "pages": 4
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-12T12:35:40.990059+00:00",
+   "stamp": "c6466ec7df7261d0"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r50",
+   "at": "2026-11-15T12:41:55.713833+00:00",
+   "stamp": "e10f13204cac6e7a"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r51",
+   "at": "2026-11-15T12:41:57.573428+00:00",
+   "stamp": "765199686eba02e2"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r52",
+   "at": "2026-11-15T12:41:58.745695+00:00",
+   "stamp": "2f5422956c219819"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r61",
+   "at": "2026-11-15T16:24:18.174321+00:00",
+   "stamp": "1359eedd4e74d9c2",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r62",
+   "at": "2026-11-15T16:24:19.386268+00:00",
+   "stamp": "69966689784d5303",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r63",
+   "at": "2026-11-15T16:24:20.622589+00:00",
+   "stamp": "ddff0d89cd7adced",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r69",
+   "at": "2026-11-15T16:57:26.571331+00:00",
+   "stamp": "c07fac5ecf0ab115"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r70",
+   "at": "2026-11-15T17:03:26.558902+00:00",
+   "stamp": "823b872bf037bb5d"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r75",
+   "at": "2026-11-16T10:58:07.330992+00:00",
+   "stamp": "b344702e231853f3"
+  }
+ ],
+ "reviews": [],
+ "issues": [
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
+   "message": "change 19: ministry DEPARTMENT OF ENVIRONMENT taken for department *DFPARTMENT OF ENVIRONMENT, named loosely",
+   "target": "r63.rel19",
+   "status": "open"
+  }
+ ],
+ "problems": [
+  {
+   "series": 162,
+   "seq": 5,
+   "code": "old_path_missing",
+   "severity": "error",
+   "message": "change 5: no entry 72 under schedule 2 › ministry MINISTRY OF FINANCE › department A",
+   "cause": "entry_not_in_state"
+  },
+  {
+   "series": 162,
+   "seq": 7,
+   "code": "old_path_missing",
+   "severity": "error",
+   "message": "change 7: no group_heading Part 1-Union Subjects under schedule 2 › ministry MINISTRY OF HOME AFFAIRS",
+   "cause": "group_not_found"
+  },
+  {
+   "series": 162,
+   "seq": 8,
+   "code": "old_path_missing",
+   "severity": "error",
+   "message": "change 8: no group_heading Part 1-Union Subjects under schedule 2 › ministry MINISTRY OF HOME AFFAIRS",
+   "cause": "group_not_found"
+  },
+  {
+   "series": 162,
+   "seq": 9,
+   "code": "old_path_missing",
+   "severity": "error",
+   "message": "change 9: no group_heading Part 1-Union Subjects under schedule 2 › ministry MINISTRY OF HOME AFFAIRS",
+   "cause": "group_not_found"
+  },
+  {
+   "series": 162,
+   "seq": 10,
+   "code": "old_path_missing",
+   "severity": "error",
+   "message": "change 10: no group_heading Part IA-Union and Concurrent subjects under schedule 2 › ministry MINISTRY OF HOME AFFAIRS",
+   "cause": "group_not_found"
+  },
+  {
+   "series": 162,
+   "seq": 12,
+   "code": "old_path_missing",
+   "severity": "error",
+   "message": "change 12: no group_heading part II-Concurrent subjects under schedule 2 › ministry MINISTRY OF HOME AFFAIRS",
+   "cause": "group_not_found"
+  },
+  {
+   "series": 162,
+   "seq": 13,
+   "code": "old_path_missing",
+   "severity": "error",
+   "message": "change 13: no group_heading part II-Concurrent subjects under schedule 2 › ministry MINISTRY OF HOME AFFAIRS",
+   "cause": "group_not_found"
+  },
+  {
+   "series": 162,
+   "seq": 14,
+   "code": "old_path_missing",
+   "severity": "error",
+   "message": "change 14: no department DEPARTMENT OF PERSONNEL AND ADMINISTRATIVE REFORMS under schedule 2 › ministry MINISTRY OF HOME AFFAIRS",
+   "cause": "unit_not_found"
+  },
+  {
+   "series": 162,
+   "seq": 15,
+   "code": "old_path_missing",
+   "severity": "error",
+   "message": "change 15: no department DEPARTMENT OF PERSONNEL AND ADMINISTRATIVE REFORMS under schedule 2 › ministry MINISTRY OF HOME AFFAIRS",
+   "cause": "unit_not_found"
+  },
+  {
+   "series": 162,
+   "seq": 16,
+   "code": "old_path_missing",
+   "severity": "error",
+   "message": "change 16: no department DEPARTMENT OF PERSONNEL AND ADMINISTRATIVE REFORMS under schedule 2 › ministry MINISTRY OF HOME AFFAIRS",
+   "cause": "unit_not_found"
+  },
+  {
+   "series": 162,
+   "seq": 17,
+   "code": "old_path_missing",
+   "severity": "error",
+   "message": "change 17: no department DEPARTMENT OF STATISTICS under schedule 2 › ministry MINISTRY OF PLANNING",
+   "cause": "unit_not_found"
+  },
+  {
+   "series": 174,
+   "seq": 4,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF EXTERNAL AFFAIRS › entry 21A is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
+  },
+  {
+   "series": 174,
+   "seq": 6,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FOOD AND CIVIL SUPPLIES › department B › group_heading I › entry 5 reads differently in 1_Upload_212.pdf than in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  },
+  {
+   "series": 174,
+   "seq": 11,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HOME AFFAIRS › part II is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
+  }
+ ],
+ "rules": [
+  {
+   "rule": "loose",
+   "seq": 19,
+   "note": "change 19: ministry DEPARTMENT OF ENVIRONMENT taken for department *DFPARTMENT OF ENVIRONMENT, named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  }
+ ],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_795E_1984",
+   "op": "insert",
+   "source_ref": "2(a)",
+   "path": "schedule 2 › ministry MINISTRY OF EDUCATION AND CULTURE › department DEPARTMENT OF CULTURE › entry 6",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_795E_1984",
+   "op": "insert",
+   "source_ref": "2(b)(1)",
+   "path": "schedule 2 › ministry MINISTRY OF ENERGY › department DEPARTMENT OF PETROLEUM › entry 11",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_795E_1984",
+   "op": "insert",
+   "source_ref": "2(b)(2)",
+   "path": "schedule 2 › ministry MINISTRY OF ENERGY › department DEPARTMENT OF COAL › entry 9",
+   "status": "applied"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_795E_1984",
+   "op": "insert",
+   "source_ref": "2(c)",
+   "path": "schedule 2 › ministry MINISTRY OF EXTERNAL AFFAIRS › entry 21",
+   "status": "applied"
+  },
+  {
+   "seq": 5,
+   "doc_id": "GOI_SO_795E_1984",
+   "op": "insert",
+   "source_ref": "2(d)",
+   "path": "schedule 2 › ministry MINISTRY OF FINANCE › department DEPARTMENT OF ECONOMIC AFFAIRS › entry 72",
+   "status": "not_applied",
+   "problem": "change 5: no entry 72 under schedule 2 › ministry MINISTRY OF FINANCE › department A",
+   "code": "old_path_missing",
+   "cause": "entry_not_in_state",
+   "known": "entries"
+  },
+  {
+   "seq": 6,
+   "doc_id": "GOI_SO_795E_1984",
+   "op": "replace",
+   "source_ref": "2(c)",
+   "path": "schedule 2 › ministry MINISTRY OF FOOD AND CIVIL SUPPLIES › department DEPARTMENT OF CIVIL SUPPLIES › entry 5",
+   "status": "applied"
+  },
+  {
+   "seq": 7,
+   "doc_id": "GOI_SO_795E_1984",
+   "op": "omit",
+   "source_ref": "2(f)(1)(A)(i)",
+   "path": "schedule 2 › ministry MINISTRY OF HOME AFFAIRS › group_heading Part 1-Union Subjects › entry 32",
+   "status": "not_applied",
+   "problem": "change 7: no group_heading Part 1-Union Subjects under schedule 2 › ministry MINISTRY OF HOME AFFAIRS",
+   "code": "old_path_missing",
+   "cause": "group_not_found",
+   "known": "home_affairs"
+  },
+  {
+   "seq": 8,
+   "doc_id": "GOI_SO_795E_1984",
+   "op": "replace",
+   "source_ref": "2(f)(1)(A)(ii)",
+   "path": "schedule 2 › ministry MINISTRY OF HOME AFFAIRS › group_heading Part 1-Union Subjects › entry 33",
+   "status": "not_applied",
+   "problem": "change 8: no group_heading Part 1-Union Subjects under schedule 2 › ministry MINISTRY OF HOME AFFAIRS",
+   "code": "old_path_missing",
+   "cause": "group_not_found",
+   "known": "home_affairs"
+  },
+  {
+   "seq": 9,
+   "doc_id": "GOI_SO_795E_1984",
+   "op": "insert",
+   "source_ref": "2(f)(1)(A)(iii)",
+   "path": "schedule 2 › ministry MINISTRY OF HOME AFFAIRS › group_heading Part 1-Union Subjects › entry 68",
+   "status": "not_applied",
+   "problem": "change 9: no group_heading Part 1-Union Subjects under schedule 2 › ministry MINISTRY OF HOME AFFAIRS",
+   "code": "old_path_missing",
+   "cause": "group_not_found",
+   "known": "home_affairs"
+  },
+  {
+   "seq": 10,
+   "doc_id": "GOI_SO_795E_1984",
+   "op": "insert",
+   "source_ref": "2(f)(1)(B)",
+   "path": "schedule 2 › ministry MINISTRY OF HOME AFFAIRS › group_heading Part IA-Union and Concurrent subjects › entry 79",
+   "status": "not_applied",
+   "problem": "change 10: no group_heading Part IA-Union and Concurrent subjects under schedule 2 › ministry MINISTRY OF HOME AFFAIRS",
+   "code": "old_path_missing",
+   "cause": "group_not_found",
+   "known": "home_affairs"
+  },
+  {
+   "seq": 11,
+   "doc_id": "GOI_SO_795E_1984",
+   "op": "replace",
+   "source_ref": "2(f)(1)(C)(i)",
+   "path": "schedule 2 › ministry MINISTRY OF HOME AFFAIRS › group_heading part II-Concurrent subjects",
+   "status": "applied"
+  },
+  {
+   "seq": 12,
+   "doc_id": "GOI_SO_795E_1984",
+   "op": "replace",
+   "source_ref": "2(f)(1)(C)(ii)",
+   "path": "schedule 2 › ministry MINISTRY OF HOME AFFAIRS › group_heading part II-Concurrent subjects › entry 82",
+   "status": "not_applied",
+   "problem": "change 12: no group_heading part II-Concurrent subjects under schedule 2 › ministry MINISTRY OF HOME AFFAIRS",
+   "code": "old_path_missing",
+   "cause": "group_not_found",
+   "known": "home_affairs"
+  },
+  {
+   "seq": 13,
+   "doc_id": "GOI_SO_795E_1984",
+   "op": "omit",
+   "source_ref": "2(f)(1)(C)(iii)",
+   "path": "schedule 2 › ministry MINISTRY OF HOME AFFAIRS › group_heading part II-Concurrent subjects › entry 83 ; schedule 2 › ministry MINISTRY OF HOME AFFAIRS › group_heading part II-Concurrent subjects › entry 84",
+   "status": "not_applied",
+   "problem": "change 13: no group_heading part II-Concurrent subjects under schedule 2 › ministry MINISTRY OF HOME AFFAIRS",
+   "code": "old_path_missing",
+   "cause": "group_not_found",
+   "known": "home_affairs"
+  },
+  {
+   "seq": 14,
+   "doc_id": "GOI_SO_795E_1984",
+   "op": "replace",
+   "source_ref": "2(f)(2)(i)",
+   "path": "schedule 2 › ministry MINISTRY OF HOME AFFAIRS › department DEPARTMENT OF PERSONNEL AND ADMINISTRATIVE REFORMS › entry 19 › item C",
+   "status": "not_applied",
+   "problem": "change 14: no department DEPARTMENT OF PERSONNEL AND ADMINISTRATIVE REFORMS under schedule 2 › ministry MINISTRY OF HOME AFFAIRS",
+   "code": "old_path_missing",
+   "cause": "unit_not_found",
+   "known": "home_affairs"
+  },
+  {
+   "seq": 15,
+   "doc_id": "GOI_SO_795E_1984",
+   "op": "omit",
+   "source_ref": "2(f)(2)(ii)",
+   "path": "schedule 2 › ministry MINISTRY OF HOME AFFAIRS › department DEPARTMENT OF PERSONNEL AND ADMINISTRATIVE REFORMS › entry 41 › item f",
+   "status": "not_applied",
+   "problem": "change 15: no department DEPARTMENT OF PERSONNEL AND ADMINISTRATIVE REFORMS under schedule 2 › ministry MINISTRY OF HOME AFFAIRS",
+   "code": "old_path_missing",
+   "cause": "unit_not_found",
+   "known": "home_affairs"
+  },
+  {
+   "seq": 16,
+   "doc_id": "GOI_SO_795E_1984",
+   "op": "replace",
+   "source_ref": "2(f)(2)(iii)",
+   "path": "schedule 2 › ministry MINISTRY OF HOME AFFAIRS › department DEPARTMENT OF PERSONNEL AND ADMINISTRATIVE REFORMS › entry 42 › item b",
+   "status": "not_applied",
+   "problem": "change 16: no department DEPARTMENT OF PERSONNEL AND ADMINISTRATIVE REFORMS under schedule 2 › ministry MINISTRY OF HOME AFFAIRS",
+   "code": "old_path_missing",
+   "cause": "unit_not_found",
+   "known": "home_affairs"
+  },
+  {
+   "seq": 17,
+   "doc_id": "GOI_SO_795E_1984",
+   "op": "insert",
+   "source_ref": "2(g)",
+   "path": "schedule 2 › ministry MINISTRY OF PLANNING › department DEPARTMENT OF STATISTICS › entry 5",
+   "status": "not_applied",
+   "problem": "change 17: no department DEPARTMENT OF STATISTICS under schedule 2 › ministry MINISTRY OF PLANNING",
+   "code": "old_path_missing",
+   "cause": "unit_not_found",
+   "known": "planning"
+  },
+  {
+   "seq": 18,
+   "doc_id": "GOI_SO_795E_1984",
+   "op": "replace",
+   "source_ref": "2(h)",
+   "path": "schedule 2 › ministry MINISTRY OF SOCIAL WELFARE › group_heading Part IV › entry 8",
+   "status": "applied"
+  },
+  {
+   "seq": 19,
+   "doc_id": "GOI_SO_795E_1984",
+   "op": "insert",
+   "source_ref": "2(i)",
+   "path": "schedule 2 › ministry DEPARTMENT OF ENVIRONMENT › entry 4",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

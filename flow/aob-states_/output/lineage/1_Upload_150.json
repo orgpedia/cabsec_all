@@ -1,0 +1,197 @@
+{
+ "file": "1_Upload_150.pdf",
+ "kind": "amendment",
+ "series": 113,
+ "date": "1975-08-29",
+ "govdoc": "aob-ammend_/output/1_Upload_150.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826689.2710602,
+ "edits_file": "aob-ammend_/conf/1_Upload_150.pdf.edits.yml",
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_150.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:55:19.701717+00:00",
+  "sha256": "8e2a08c2b5bcc5471bf8fefd0d98c20b48b3445df6d1916d29c7ca0d4270debb",
+  "pages": 2
+ },
+ "edits": [
+  {
+   "run": "h1",
+   "by": "claude",
+   "at": "2026-11-12T15:01:00+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r1.w108",
+     "before": {
+      "text": "8.0."
+     },
+     "after": {
+      "text": "S.O."
+     }
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-12T12:37:58.570989+00:00",
+   "stamp": "7c830390ce024eac"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r52",
+   "at": "2026-11-15T12:42:07.267877+00:00",
+   "stamp": "c1cf1c3c3795107a"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r53",
+   "at": "2026-11-15T12:42:09.469183+00:00",
+   "stamp": "90ff1f8d0e3993cb"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r54",
+   "at": "2026-11-15T12:42:10.947286+00:00",
+   "stamp": "fb7d1f6688f2f3d5"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r63",
+   "at": "2026-11-15T16:24:26.794826+00:00",
+   "stamp": "585437596258c44b",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r64",
+   "at": "2026-11-15T16:24:28.283081+00:00",
+   "stamp": "1c56b40c618ea452",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r65",
+   "at": "2026-11-15T16:24:29.833355+00:00",
+   "stamp": "9288e85e3544af16",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r71",
+   "at": "2026-11-15T16:57:29.273573+00:00",
+   "stamp": "623c3755ce453f77"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r72",
+   "at": "2026-11-15T17:03:32.255944+00:00",
+   "stamp": "808aa6342d9d14fa"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r77",
+   "at": "2026-11-16T10:58:09.259815+00:00",
+   "stamp": "5d18ed5ce69da45c"
+  }
+ ],
+ "reviews": [],
+ "issues": [
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 2: its quoted text runs across a page break",
+   "target": "r65.rel2",
+   "status": "open"
+  }
+ ],
+ "problems": [
+  {
+   "series": 113,
+   "seq": 1,
+   "code": "old_path_missing",
+   "severity": "error",
+   "message": "change 1: no department DEPARTMENT OF STATISTICS under schedule 2 › ministry MINISTRY OF PLANNING",
+   "cause": "unit_not_found"
+  },
+  {
+   "series": 113,
+   "seq": 2,
+   "code": "old_path_missing",
+   "severity": "error",
+   "message": "change 2: no entry 2 under schedule 2 › department DEPARTMENT OF ELECTRONICS",
+   "cause": "entry_not_in_state"
+  }
+ ],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_461E_1975",
+   "op": "replace",
+   "source_ref": "2(a)",
+   "path": "schedule 2 › ministry MINISTRY OF PLANNING › department DEPARTMENT OF STATISTICS › entry 5",
+   "status": "not_applied",
+   "problem": "change 1: no department DEPARTMENT OF STATISTICS under schedule 2 › ministry MINISTRY OF PLANNING",
+   "code": "old_path_missing",
+   "cause": "unit_not_found",
+   "known": "planning"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_461E_1975",
+   "op": "insert",
+   "source_ref": "2(b)",
+   "path": "schedule 2 › ministry DEPARTMENT OF ELECTRONICS › entry 2",
+   "status": "not_applied",
+   "problem": "change 2: no entry 2 under schedule 2 › department DEPARTMENT OF ELECTRONICS",
+   "code": "old_path_missing",
+   "cause": "entry_not_in_state",
+   "known": "top_level"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

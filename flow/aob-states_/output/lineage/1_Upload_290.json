@@ -1,0 +1,189 @@
+{
+ "file": "1_Upload_290.pdf",
+ "kind": "amendment",
+ "series": 250,
+ "date": "2000-07-17",
+ "govdoc": "aob-ammend_/output/1_Upload_290.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826696.5501254,
+ "edits_file": "aob-ammend_/conf/1_Upload_290.pdf.edits.yml",
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_290.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:58:58.003825+00:00",
+  "sha256": "f130d795a52c0cfcf1c40f94c88f91431007e31e9043423acb50a2053d76d385",
+  "pages": 6
+ },
+ "edits": [
+  {
+   "run": "h1",
+   "by": "claude",
+   "at": "2026-11-12T06:01:00+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r1.w731",
+     "before": {
+      "text": "\"("
+     },
+     "after": {
+      "text": "\""
+     }
+    }
+   ]
+  },
+  {
+   "run": "h2",
+   "by": "claude",
+   "at": "2026-11-12T06:02:01+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r1.w732",
+     "before": {
+      "text": "iv)"
+     },
+     "after": {
+      "text": "(iv)"
+     }
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-11T03:12:11.889891+00:00",
+   "stamp": "b4474d0bc1d5f689"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r121",
+   "at": "2026-11-15T12:43:03.162119+00:00",
+   "stamp": "b0264c0d6d0428d5"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r122",
+   "at": "2026-11-15T12:43:04.262002+00:00",
+   "stamp": "446de150d09d5342"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r123",
+   "at": "2026-11-15T12:43:05.234268+00:00",
+   "stamp": "ef72f7ba375fa455"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r132",
+   "at": "2026-11-15T16:25:15.793501+00:00",
+   "stamp": "8028dd672098b498",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r133",
+   "at": "2026-11-15T16:25:16.508110+00:00",
+   "stamp": "c167dda97960ca96",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r134",
+   "at": "2026-11-15T16:25:17.170565+00:00",
+   "stamp": "218a7ce6fd5988cf",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r140",
+   "at": "2026-11-15T16:57:40.646661+00:00",
+   "stamp": "3d174b571f67fbb4"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r141",
+   "at": "2026-11-15T17:03:59.892231+00:00",
+   "stamp": "269f7ba995c528a1"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r146",
+   "at": "2026-11-16T10:58:16.527603+00:00",
+   "stamp": "68d99cb14f3c3b1b"
+  }
+ ],
+ "reviews": [],
+ "issues": [
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 2: its quoted text runs across a page break",
+   "target": "r134.rel2",
+   "status": "open"
+  }
+ ],
+ "problems": [],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_675E_2000",
+   "op": "insert",
+   "source_ref": "3(3)",
+   "path": "schedule 1 › ministry Ministry of Communications › department Department of Telecom Services",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_675E_2000",
+   "op": "replace",
+   "source_ref": "3(4)",
+   "path": "schedule 2 › ministry MINISTRY OF COMMUNICATIONS › department DEPARTMENT OF TELECOM SERVICES",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

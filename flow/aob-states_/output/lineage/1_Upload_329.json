@@ -1,0 +1,137 @@
+{
+ "file": "1_Upload_329.pdf",
+ "kind": "amendment",
+ "series": 284,
+ "date": "2006-02-28",
+ "govdoc": "aob-ammend_/output/1_Upload_329.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826686.7937458,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_329.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T14:00:08.493655+00:00",
+  "sha256": "5e4bc6e8e4a6750ac59bed2c0be9a8169121165971f59354e7d936e2884f0614",
+  "pages": 1
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r5",
+   "at": "2026-11-04T13:34:27.711206+00:00",
+   "stamp": "d0d870f44744a4c9"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r151",
+   "at": "2026-11-15T12:41:54.947352+00:00",
+   "stamp": "fbcb8725525c5bef"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r152",
+   "at": "2026-11-15T12:41:56.553829+00:00",
+   "stamp": "01ba7773756ea5af"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r153",
+   "at": "2026-11-15T12:41:58.135736+00:00",
+   "stamp": "381776d9a9faff98"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r162",
+   "at": "2026-11-15T16:24:17.592247+00:00",
+   "stamp": "6d1836e7e7c8eb05",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r163",
+   "at": "2026-11-15T16:24:18.774590+00:00",
+   "stamp": "e2650e2d4a535e5c",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r164",
+   "at": "2026-11-15T16:24:19.949893+00:00",
+   "stamp": "b4dc59dd6ed80e75",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r170",
+   "at": "2026-11-15T16:57:25.979055+00:00",
+   "stamp": "d1ec749565660eb6"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r171",
+   "at": "2026-11-15T17:03:25.471277+00:00",
+   "stamp": "3643aec097da7115"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r176",
+   "at": "2026-11-16T10:58:06.780810+00:00",
+   "stamp": "8fe1de4dd7379012"
+  }
+ ],
+ "reviews": [],
+ "issues": [],
+ "problems": [],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_261E_2006",
+   "op": "replace",
+   "source_ref": "2",
+   "path": "schedule 2 › ministry Ministry of Minority Affairs › entry 11",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_60.pdf",
     "sha256": "a1baeb312b1316f0945dd7bb11aa57ea9c184a1b870c994b3eb386d238374272",
     "govdoc": "1_Upload_60.pdf.govdoc.json.zst",
-    "revision": 46
+    "revision": 70
   },
   "documents": [
     {
@@ -29,9 +29,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "3",
+          "version": "4",
           "model": "gemini-4-argon",
-          "at": "2026-11-12T13:49:37.586985+00:00"
+          "at": "2026-11-15T16:24:42.522759+00:00"
         },
         "ops": [
           {
@@ -39,7 +39,7 @@
             "source_ref": "(A)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel1",
+            "relation": "r63.rel1",
             "target": {
               "cited": [
                 {
@@ -80,7 +80,9 @@
                 "heading": "Department of Administrative Reforms"
               }
             ],
-            "flags": [],
+            "flags": [
+              "states_inferred_number_kept"
+            ],
             "words": [
               "r1.w120",
               "r1.w129"
@@ -102,7 +104,7 @@
             "source_ref": "(B)(a)(i)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r10.rel2",
+            "relation": "r63.rel2",
             "target": {
               "cited": [
                 {
@@ -157,7 +159,7 @@
             "source_ref": "(B)(a)(ii)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r10.rel3",
+            "relation": "r63.rel3",
             "position": "after",
             "anchor": {
               "cited": [
@@ -193,8 +195,8 @@
             },
             "content": [
               {
-                "type": "text",
-                "text": "Department of Administrative Reformis"
+                "type": "department",
+                "heading": "Department of Administrative Reformis"
               },
               {
                 "type": "entry",
@@ -229,7 +231,7 @@
             "source_ref": "(B)(b)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r10.rel4",
+            "relation": "r63.rel4",
             "target": {
               "cited": [
                 {

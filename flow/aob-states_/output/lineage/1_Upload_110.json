@@ -1,0 +1,254 @@
+{
+ "file": "1_Upload_110.pdf",
+ "kind": "amendment",
+ "series": 76,
+ "date": "1969-11-11",
+ "govdoc": "aob-ammend_/output/1_Upload_110.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826692.480134,
+ "edits_file": "aob-ammend_/conf/1_Upload_110.pdf.edits.yml",
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_110.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:54:14.205556+00:00",
+  "sha256": "b793263f94f2bd9c483bb90183f2849b650c2f4681d9a294ed3e37c8315d14eb",
+  "pages": 2
+ },
+ "edits": [
+  {
+   "run": "h1",
+   "by": "claude",
+   "at": "2026-11-12T15:01:00+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r1.w110",
+     "before": {
+      "text": "O."
+     },
+     "after": {
+      "text": "S.O."
+     }
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-12T12:42:10.908162+00:00",
+   "stamp": "916cb61e5967dd72"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r52",
+   "at": "2026-11-15T12:42:31.746573+00:00",
+   "stamp": "394027a1139aeb11"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r53",
+   "at": "2026-11-15T12:42:34.033982+00:00",
+   "stamp": "a033e94d45db27c3"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r54",
+   "at": "2026-11-15T12:42:36.372916+00:00",
+   "stamp": "e6e7fcc95329fe5c"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r63",
+   "at": "2026-11-15T16:24:50.805661+00:00",
+   "stamp": "5d0193aa8a328e44",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r64",
+   "at": "2026-11-15T16:24:52.574278+00:00",
+   "stamp": "277ceb0c902e1456",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r65",
+   "at": "2026-11-15T16:24:54.353174+00:00",
+   "stamp": "bb23f887b0f0200a",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r71",
+   "at": "2026-11-15T16:57:34.510524+00:00",
+   "stamp": "8c4028ad235bfb11"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r72",
+   "at": "2026-11-15T17:03:44.281421+00:00",
+   "stamp": "a12ea97fa39ccb7e"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r77",
+   "at": "2026-11-16T10:58:12.468907+00:00",
+   "stamp": "5dae82fbb562f7b9"
+  }
+ ],
+ "reviews": [],
+ "issues": [
+  {
+   "code": "aob:read_hindi_missing",
+   "severity": "info",
+   "message": "change 1: a new heading has no Hindi name in brackets",
+   "target": "r65.rel1",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_hindi_missing",
+   "severity": "info",
+   "message": "change 2: a new heading has no Hindi name in brackets",
+   "target": "r65.rel2",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_hindi_missing",
+   "severity": "info",
+   "message": "change 3: a new heading has no Hindi name in brackets",
+   "target": "r65.rel3",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_hindi_missing",
+   "severity": "info",
+   "message": "change 5: a new heading has no Hindi name in brackets",
+   "target": "r65.rel5",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
+   "message": "change 5: ministry Ministry of Steel and Hea Engineering taken for ministry MINISTRY OF STEEL & HEAVY ENGINEERING, named loosely",
+   "target": "r65.rel5",
+   "status": "open"
+  }
+ ],
+ "problems": [
+  {
+   "series": 76,
+   "seq": 4,
+   "code": "old_path_missing",
+   "severity": "error",
+   "message": "change 4: no ministry Ministry of Foreign Trade and Supply under schedule 2",
+   "cause": "unit_not_found"
+  }
+ ],
+ "rules": [
+  {
+   "rule": "loose",
+   "seq": 5,
+   "note": "change 5: ministry Ministry of Steel and Hea Engineering taken for ministry MINISTRY OF STEEL & HEAVY ENGINEERING, named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  }
+ ],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_4630_1969",
+   "op": "replace",
+   "source_ref": "2(a)(i)",
+   "path": "schedule 1 › entry 6",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_4630_1969",
+   "op": "insert",
+   "source_ref": "2(a)(ii)",
+   "path": "schedule 1 › entry 17",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_4630_1969",
+   "op": "replace",
+   "source_ref": "2(b)(i)",
+   "path": "schedule 2 › ministry Ministry of Foreign Trade and Supply ; schedule 2 › ministry Ministry of Foreign Trade and Supply › department Department of Foreign Trade",
+   "status": "applied"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_4630_1969",
+   "op": "omit",
+   "source_ref": "2(b)(ii)",
+   "path": "schedule 2 › ministry Ministry of Foreign Trade and Supply › department Department of Supply",
+   "status": "not_applied",
+   "problem": "change 4: no ministry Ministry of Foreign Trade and Supply under schedule 2",
+   "code": "old_path_missing",
+   "cause": "unit_not_found",
+   "known": "renamed_unit"
+  },
+  {
+   "seq": 5,
+   "doc_id": "GOI_SO_4630_1969",
+   "op": "insert",
+   "source_ref": "2(b)(iii)",
+   "path": "schedule 2 › ministry Ministry of Steel and Hea Engineering",
+   "status": "applied"
+  },
+  {
+   "seq": 6,
+   "doc_id": "GOI_SO_4630_1969",
+   "op": "omit",
+   "source_ref": "2(b)(iv)",
+   "path": "schedule 2 › ministry Ministry of Works, Housing and Supply",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

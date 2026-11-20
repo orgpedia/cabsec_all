@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_171.pdf",
     "sha256": "719d9b4d3a6661faf1a481873a30d548885af47b4235e387f3fd21089d52e0e4",
     "govdoc": "1_Upload_171.pdf.govdoc.json.zst",
-    "revision": 46
+    "revision": 70
   },
   "documents": [
     {
@@ -18,20 +18,20 @@
           "value": "S. O. 467(E)"
         },
         "in_force": {
-          "value": "1979-08-13"
+          "value": "1979-08-10"
         }
       },
       "amendment": {
         "schema_version": "1.0",
         "in_force": {
-          "date": "1979-08-13",
+          "date": "1979-08-10",
           "basis": "stated"
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "3",
+          "version": "4",
           "model": "gemini-4-argon",
-          "at": "2026-11-12T13:49:22.714652+00:00"
+          "at": "2026-11-15T16:24:28.502352+00:00"
         },
         "ops": [
           {
@@ -39,7 +39,7 @@
             "source_ref": "2(a)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel1",
+            "relation": "r63.rel1",
             "target": {
               "cited": [
                 {
@@ -53,14 +53,14 @@
               ],
               "eId": null,
               "words": [
-                "r1.w668",
+                "r1.w669",
                 "r1.w670"
               ],
               "boxes": [
                 {
                   "page": 2,
                   "bbox": [
-                    1423,
+                    1485,
                     424,
                     1635,
                     458
@@ -98,7 +98,7 @@
             "source_ref": "2(b)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel2",
+            "relation": "r63.rel2",
             "target": {
               "cited": [
                 {
@@ -112,14 +112,14 @@
               ],
               "eId": null,
               "words": [
-                "r1.w696",
+                "r1.w697",
                 "r1.w698"
               ],
               "boxes": [
                 {
                   "page": 2,
                   "bbox": [
-                    1414,
+                    1476,
                     597,
                     1618,
                     629
@@ -174,7 +174,7 @@
             "source_ref": "3(a)(i)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel3",
+            "relation": "r63.rel3",
             "target": {
               "cited": [
                 {
@@ -192,14 +192,14 @@
               ],
               "eId": null,
               "words": [
-                "r1.w762",
+                "r1.w763",
                 "r1.w772"
               ],
               "boxes": [
                 {
                   "page": 2,
                   "bbox": [
-                    1398,
+                    1421,
                     1075,
                     2264,
                     1141
@@ -216,7 +216,9 @@
                 "heading_hi": "VIDYUT VIBHAG"
               }
             ],
-            "flags": [],
+            "flags": [
+              "states_inferred_loose"
+            ],
             "words": [
               "r1.w761",
               "r1.w768"
@@ -238,7 +240,7 @@
             "source_ref": "3(a)(ii)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r10.rel4",
+            "relation": "r63.rel4",
             "target": {
               "cited": [
                 {
@@ -294,7 +296,7 @@
             "source_ref": "3(b)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel5",
+            "relation": "r63.rel5",
             "target": {
               "cited": [
                 {
@@ -308,14 +310,14 @@
               ],
               "eId": null,
               "words": [
-                "r1.w805",
+                "r1.w806",
                 "r1.w816"
               ],
               "boxes": [
                 {
                   "page": 2,
                   "bbox": [
-                    1406,
+                    1413,
                     1344,
                     2273,
                     1412
@@ -353,7 +355,7 @@
             "source_ref": "3(b)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r10.rel6",
+            "relation": "r63.rel6",
             "position": "after",
             "anchor": {
               "cited": [
@@ -372,7 +374,7 @@
               ],
               "eId": null,
               "words": [
-                "r1.w843",
+                "r1.w844",
                 "r1.w856"
               ],
               "boxes": [

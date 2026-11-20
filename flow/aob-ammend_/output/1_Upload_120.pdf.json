@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_120.pdf",
     "sha256": "60367ccd8cb754189dbdb45242fb566eea92869b79168e7461d890ef3b6fd073",
     "govdoc": "1_Upload_120.pdf.govdoc.json.zst",
-    "revision": 49
+    "revision": 73
   },
   "documents": [
     {
@@ -29,9 +29,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "3",
+          "version": "4",
           "model": "gemini-4-argon",
-          "at": "2026-11-12T13:49:13.644278+00:00"
+          "at": "2026-11-15T16:24:19.963812+00:00"
         },
         "ops": [
           {
@@ -39,7 +39,7 @@
             "source_ref": "2(a)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r12.rel1",
+            "relation": "r65.rel1",
             "target": {
               "cited": [
                 {
@@ -101,7 +101,7 @@
             "source_ref": "2(b)(i)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r12.rel2",
+            "relation": "r65.rel2",
             "target": {
               "cited": [
                 {
@@ -163,7 +163,7 @@
             "source_ref": "2(b)(ii)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r12.rel3",
+            "relation": "r65.rel3",
             "target": {
               "cited": [
                 {
@@ -225,7 +225,7 @@
             "source_ref": "2(b)(iii)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r12.rel4",
+            "relation": "r65.rel4",
             "target": {
               "cited": [
                 {
@@ -287,7 +287,7 @@
             "source_ref": "2(b)(iv)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r12.rel5",
+            "relation": "r65.rel5",
             "position": "after",
             "anchor": {
               "cited": [
@@ -360,7 +360,7 @@
             "source_ref": "2(b)(v)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r12.rel6",
+            "relation": "r65.rel6",
             "position": "after",
             "anchor": {
               "cited": [
@@ -433,7 +433,7 @@
             "source_ref": "2(c)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r12.rel7",
+            "relation": "r65.rel7",
             "position": "after",
             "anchor": {
               "cited": [

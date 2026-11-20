@@ -1,0 +1,113 @@
+{
+ "file": "1_Upload_1505.pdf",
+ "kind": "checkpoint",
+ "series": 344,
+ "date": "2018-09-20",
+ "govdoc": "aob-rules_/output/1_Upload_1505.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794762089.453612,
+ "edits_file": "aob-rules_/conf/1_Upload_1505.pdf.edits.yml",
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/completeaobrules/english/1_Upload_1505.pdf",
+  "portal": "cabsec_aob_rules",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-29T10:19:51.959352+00:00",
+  "sha256": "ad324907766fd5fe5a80862285fa80154bfa316a60ae2f0eb908b18c73c8d2c8",
+  "pages": 181
+ },
+ "edits": [
+  {
+   "run": "h1",
+   "by": "mukundesh",
+   "at": "2026-11-02T12:40:02+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r5.w18657",
+     "before": {
+      "text": "Liaision"
+     },
+     "after": {
+      "text": "Liaison"
+     }
+    },
+    {
+     "op": "text",
+     "target": "r5.w3757",
+     "before": {
+      "text": "extention"
+     },
+     "after": {
+      "text": "extension"
+     }
+    },
+    {
+     "op": "text",
+     "target": "r5.w4251",
+     "before": {
+      "text": "Machanised"
+     },
+     "after": {
+      "text": "Mechanized"
+     }
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r5",
+   "at": "2026-11-02T04:26:52.777100+00:00",
+   "stamp": "4fff4a78b8222185"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r125",
+   "at": "2026-11-13T11:50:02.261530+00:00",
+   "stamp": "ef7dd3339ba52576"
+  },
+  {
+   "step": "layout",
+   "task": "page_blocks",
+   "version": "3",
+   "tool": "block_builder",
+   "run": "r126",
+   "at": "2026-11-13T11:52:11.017988+00:00",
+   "stamp": "7cb6d7ba5134b85d"
+  },
+  {
+   "step": "split",
+   "task": "one_document",
+   "version": "2",
+   "tool": "splitter",
+   "run": "r127",
+   "at": "2026-11-13T11:55:17.166879+00:00",
+   "stamp": "2201cdef04a19f94"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r141",
+   "at": "2026-11-15T17:01:28.179336+00:00",
+   "stamp": "3548902589c79d84"
+  }
+ ],
+ "reviews": [],
+ "issues": [],
+ "problems": [],
+ "rules": [],
+ "changes": [],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

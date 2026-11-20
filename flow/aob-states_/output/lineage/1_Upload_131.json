@@ -1,0 +1,553 @@
+{
+ "file": "1_Upload_131.pdf",
+ "kind": "amendment",
+ "series": 97,
+ "date": "1973-02-07",
+ "govdoc": "aob-ammend_/output/1_Upload_131.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826687.3297625,
+ "edits_file": "aob-ammend_/conf/1_Upload_131.pdf.edits.yml",
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_131.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:54:49.997015+00:00",
+  "sha256": "6b7346227f1b807bb624ff56705129f9eb09de333d13c1e2074ea4b2e87a627d",
+  "pages": 6
+ },
+ "edits": [
+  {
+   "run": "h1",
+   "by": "claude",
+   "at": "2026-11-12T18:01:00+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r1.w355",
+     "before": {
+      "text": "(lii)"
+     },
+     "after": {
+      "text": "(iii)"
+     }
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-12T12:35:32.686260+00:00",
+   "stamp": "cf1c56b9ae3d3f94"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r58",
+   "at": "2026-11-15T12:41:55.622189+00:00",
+   "stamp": "80809b9ec02a84bf"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r59",
+   "at": "2026-11-15T12:41:57.478080+00:00",
+   "stamp": "2a4b691f239c079f"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r60",
+   "at": "2026-11-15T12:41:58.662314+00:00",
+   "stamp": "93ddeb7f0179fe8b"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r69",
+   "at": "2026-11-15T16:24:18.133104+00:00",
+   "stamp": "8143d14b14234b60",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r70",
+   "at": "2026-11-15T16:24:19.344534+00:00",
+   "stamp": "5730ec79832f9d9d",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r71",
+   "at": "2026-11-15T16:24:20.532377+00:00",
+   "stamp": "b750c1721c3ac9cd",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r77",
+   "at": "2026-11-15T16:57:26.491382+00:00",
+   "stamp": "8d9fa54d9362fca9"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r78",
+   "at": "2026-11-15T17:03:26.420951+00:00",
+   "stamp": "700eded2350fbc3d"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r83",
+   "at": "2026-11-16T10:58:07.294270+00:00",
+   "stamp": "93d832642ff3f4d4"
+  }
+ ],
+ "reviews": [],
+ "issues": [
+  {
+   "code": "core:model_invalid",
+   "severity": "warning",
+   "message": "value {'act': 'ACT_GOI_AOB_RULES_1961', 'path': [{'kind': 'schedule', 'number': '2'}, {'kind': 'ministry', 'text': 'MINISTRY OF PLANNING'}, {'kind': 'entry', 'number': ''}]} is not a provision",
+   "target": "r2.l252",
+   "status": "open"
+  },
+  {
+   "code": "core:model_unanchored",
+   "severity": "warning",
+   "message": "c27: it points at p36, not in the file",
+   "target": null,
+   "status": "open"
+  },
+  {
+   "code": "core:model_invalid",
+   "severity": "warning",
+   "message": "c28: it points at a change that was not written",
+   "target": null,
+   "status": "open"
+  },
+  {
+   "code": "aob:read_clause_missed",
+   "severity": "error",
+   "message": "clause 3(h) says a change is made, but no change was found",
+   "target": "r69.a29",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_sequence",
+   "severity": "error",
+   "message": "changes 27–28 missing, between 26 and 29 (changes numbered [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 29, 30, 31, 32, 33, 34, 35, 36])",
+   "target": "r71.rel29",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 10: its quoted text runs across a page break",
+   "target": "r71.rel10",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
+   "message": "change 20: department DEPARTMENT OF ADMINISTRATIVE REFORMS taken for department Department of Administrative Reformis, named loosely",
+   "target": "r71.rel20",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
+   "message": "change 20: department DEPARTMENT OF ADMINISTRATIVE REFORMS taken for department Department of Administrative Reformis, named loosely",
+   "target": "r71.rel20",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
+   "message": "change 20: department DEPARTMENT OF ADMINISTRATIVE REFORMS taken for department Department of Administrative Reformis, named loosely",
+   "target": "r71.rel20",
+   "status": "open"
+  }
+ ],
+ "problems": [
+  {
+   "series": 97,
+   "seq": 19,
+   "code": "old_path_missing",
+   "severity": "error",
+   "message": "change 19: no entry 98A under schedule 2 › ministry MINISTRY OF HOME AFFAIRS",
+   "cause": "entry_not_in_state"
+  },
+  {
+   "series": 97,
+   "seq": 22,
+   "code": "old_path_ambiguous",
+   "severity": "error",
+   "message": "change 22: 2 parts are entry 7 under schedule 2 › ministry MINISTRY OF INDUSTRIAL DEVELOPMENT",
+   "cause": "number_twice"
+  },
+  {
+   "series": 97,
+   "seq": 32,
+   "code": "old_path_missing",
+   "severity": "error",
+   "message": "change 32: no ministry DEPARTMENT OF SCIENCE AND TECHNOLOGY under schedule 2",
+   "cause": "unit_not_found"
+  },
+  {
+   "series": 174,
+   "seq": 36,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry PLANNING COMMISSION › entry 8 is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
+  }
+ ],
+ "rules": [
+  {
+   "rule": "loose",
+   "seq": 20,
+   "note": "change 20: department DEPARTMENT OF ADMINISTRATIVE REFORMS taken for department Department of Administrative Reformis, named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "loose",
+   "seq": 20,
+   "note": "change 20: department DEPARTMENT OF ADMINISTRATIVE REFORMS taken for department Department of Administrative Reformis, named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "loose",
+   "seq": 20,
+   "note": "change 20: department DEPARTMENT OF ADMINISTRATIVE REFORMS taken for department Department of Administrative Reformis, named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  }
+ ],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_78E_1973",
+   "op": "insert",
+   "source_ref": "2(1)",
+   "path": "schedule 1 › entry 1",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_78E_1973",
+   "op": "omit",
+   "source_ref": "2(ii)",
+   "path": "schedule 1 › entry 7",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_78E_1973",
+   "op": "insert",
+   "source_ref": "2(iii)",
+   "path": "schedule 1 › entry 8",
+   "status": "applied"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_78E_1973",
+   "op": "replace",
+   "source_ref": "2(iv)",
+   "path": "schedule 1 › entry 9",
+   "status": "applied"
+  },
+  {
+   "seq": 5,
+   "doc_id": "GOI_SO_78E_1973",
+   "op": "replace",
+   "source_ref": "2(v)",
+   "path": "schedule 1 › entry 10",
+   "status": "applied"
+  },
+  {
+   "seq": 6,
+   "doc_id": "GOI_SO_78E_1973",
+   "op": "replace",
+   "source_ref": "2(vi)",
+   "path": "schedule 1 › entry 14",
+   "status": "applied"
+  },
+  {
+   "seq": 7,
+   "doc_id": "GOI_SO_78E_1973",
+   "op": "replace",
+   "source_ref": "2(vi)",
+   "path": "schedule 1 › entry 16",
+   "status": "applied"
+  },
+  {
+   "seq": 8,
+   "doc_id": "GOI_SO_78E_1973",
+   "op": "omit",
+   "source_ref": "2(vi)",
+   "path": "schedule 1 › entry 23",
+   "status": "applied"
+  },
+  {
+   "seq": 9,
+   "doc_id": "GOI_SO_78E_1973",
+   "op": "replace",
+   "source_ref": "2(ix)",
+   "path": "schedule 1 › entry 29",
+   "status": "applied"
+  },
+  {
+   "seq": 10,
+   "doc_id": "GOI_SO_78E_1973",
+   "op": "insert",
+   "source_ref": "3(a)",
+   "path": "schedule 2 › ministry MINISTRY OF AGRICULTURE",
+   "status": "applied"
+  },
+  {
+   "seq": 11,
+   "doc_id": "GOI_SO_78E_1973",
+   "op": "omit",
+   "source_ref": "3(b)",
+   "path": "schedule 2 › ministry MINISTRY OF EDUCATION AND SOCIAL WEL- FARE › department DEPARTMENT OF SOCIAL WELFARE › entry 9 ; schedule 2 › ministry MINISTRY OF EDUCATION AND SOCIAL WEL- FARE › department DEPARTMENT OF SOCIAL WELFARE › entry 10 ; schedule 2 › ministry MINISTRY OF EDUCATION AND SOCIAL WEL- FARE › department DEPARTMENT OF SOCIAL WELFARE › entry 11 ; schedule 2 › ministry MINISTRY OF EDUCATION AND SOCIAL WEL- FARE › department DEPARTMENT OF SOCIAL WELFARE › entry 12",
+   "status": "applied"
+  },
+  {
+   "seq": 12,
+   "doc_id": "GOI_SO_78E_1973",
+   "op": "omit",
+   "source_ref": "3(c)(i)",
+   "path": "schedule 2 › ministry MINISTRY OF HEALTH AND FAMILY PLANNING › department DEPARTMENT OF HEALTH › entry 13 ; schedule 2 › ministry MINISTRY OF HEALTH AND FAMILY PLANNING › department DEPARTMENT OF HEALTH › entry 14",
+   "status": "applied"
+  },
+  {
+   "seq": 13,
+   "doc_id": "GOI_SO_78E_1973",
+   "op": "replace",
+   "source_ref": "3(c)(II)",
+   "path": "schedule 2 › ministry MINISTRY OF HEALTH AND FAMILY PLANNING › department DEPARTMENT OF HEALTH › entry 15",
+   "status": "applied"
+  },
+  {
+   "seq": 14,
+   "doc_id": "GOI_SO_78E_1973",
+   "op": "omit",
+   "source_ref": "3(c)(iii)",
+   "path": "schedule 2 › ministry MINISTRY OF HEALTH AND FAMILY PLANNING › department DEPARTMENT OF HEALTH › entry 47",
+   "status": "applied"
+  },
+  {
+   "seq": 15,
+   "doc_id": "GOI_SO_78E_1973",
+   "op": "omit",
+   "source_ref": "3(c)(iv)",
+   "path": "schedule 2 › ministry MINISTRY OF HEALTH AND FAMILY PLANNING › department DEPARTMENT OF HEALTH › entry 51",
+   "status": "applied"
+  },
+  {
+   "seq": 16,
+   "doc_id": "GOI_SO_78E_1973",
+   "op": "insert",
+   "source_ref": "3(d)",
+   "path": "schedule 2 › ministry MINISTRY OF HEALTH AND FAMILY PLANNING",
+   "status": "applied"
+  },
+  {
+   "seq": 17,
+   "doc_id": "GOI_SO_78E_1973",
+   "op": "insert",
+   "source_ref": "3(e)(1)",
+   "path": "schedule 2 › ministry MINISTRY OF HOME AFFAIRS › entry 16",
+   "status": "applied"
+  },
+  {
+   "seq": 18,
+   "doc_id": "GOI_SO_78E_1973",
+   "op": "omit",
+   "source_ref": "3(e)(ii)",
+   "path": "schedule 2 › ministry MINISTRY OF HOME AFFAIRS › entry 69C",
+   "status": "applied"
+  },
+  {
+   "seq": 19,
+   "doc_id": "GOI_SO_78E_1973",
+   "op": "omit",
+   "source_ref": "3(e)(iii)",
+   "path": "schedule 2 › ministry MINISTRY OF HOME AFFAIRS › entry 98A",
+   "status": "not_applied",
+   "problem": "change 19: no entry 98A under schedule 2 › ministry MINISTRY OF HOME AFFAIRS",
+   "code": "old_path_missing",
+   "cause": "entry_not_in_state",
+   "known": "home_affairs"
+  },
+  {
+   "seq": 20,
+   "doc_id": "GOI_SO_78E_1973",
+   "op": "omit",
+   "source_ref": "3(e)(iv)",
+   "path": "schedule 2 › ministry MINISTRY OF HOME AFFAIRS › department DEPARTMENT OF ADMINISTRATIVE REFORMS ; schedule 2 › ministry MINISTRY OF HOME AFFAIRS › department DEPARTMENT OF ADMINISTRATIVE REFORMS › entry 126 ; schedule 2 › ministry MINISTRY OF HOME AFFAIRS › department DEPARTMENT OF ADMINISTRATIVE REFORMS › entry 127",
+   "status": "applied"
+  },
+  {
+   "seq": 21,
+   "doc_id": "GOI_SO_78E_1973",
+   "op": "omit",
+   "source_ref": "3(f)(1)",
+   "path": "schedule 2 › ministry MINISTRY OF INDUSTRIAL DEVELOPMENT › department DEPARTMENT OF INDUSTRIAL DEVELOPMENT",
+   "status": "applied"
+  },
+  {
+   "seq": 22,
+   "doc_id": "GOI_SO_78E_1973",
+   "op": "omit",
+   "source_ref": "3(f)(ii)",
+   "path": "schedule 2 › ministry MINISTRY OF INDUSTRIAL DEVELOPMENT › entry 7 ; schedule 2 › ministry MINISTRY OF INDUSTRIAL DEVELOPMENT › entry 8 ; schedule 2 › ministry MINISTRY OF INDUSTRIAL DEVELOPMENT › entry 9 ; schedule 2 › ministry MINISTRY OF INDUSTRIAL DEVELOPMENT › entry 11",
+   "status": "not_applied",
+   "problem": "change 22: 2 parts are entry 7 under schedule 2 › ministry MINISTRY OF INDUSTRIAL DEVELOPMENT",
+   "code": "old_path_ambiguous",
+   "cause": "number_twice",
+   "known": "number_twice"
+  },
+  {
+   "seq": 23,
+   "doc_id": "GOI_SO_78E_1973",
+   "op": "insert",
+   "source_ref": "3(f)(ii)",
+   "path": "schedule 2 › ministry MINISTRY OF INDUSTRIAL DEVELOPMENT › entry 31",
+   "status": "applied"
+  },
+  {
+   "seq": 24,
+   "doc_id": "GOI_SO_78E_1973",
+   "op": "omit",
+   "source_ref": "3(f)(iv)",
+   "path": "schedule 2 › ministry MINISTRY OF INDUSTRIAL DEVELOPMENT › department DEPARTMENT OF INTERNAL TRADE",
+   "status": "applied"
+  },
+  {
+   "seq": 25,
+   "doc_id": "GOI_SO_78E_1973",
+   "op": "replace",
+   "source_ref": "3(g)(1)",
+   "path": "schedule 2 › ministry MINISTRY OF LAW AND JUSTICE",
+   "status": "applied"
+  },
+  {
+   "seq": 26,
+   "doc_id": "GOI_SO_78E_1973",
+   "op": "insert",
+   "source_ref": "3(g)(ii)",
+   "path": "schedule 2 › ministry MINISTRY OF LAW. JUSTICE AND COMPANY AFFAIRS › department DEPARTMENT OF JUSTICE",
+   "status": "applied"
+  },
+  {
+   "seq": 29,
+   "doc_id": "GOI_SO_78E_1973",
+   "op": "replace",
+   "source_ref": "3(i)",
+   "path": "schedule 2 › ministry MINISTRY OF STEEL AND MINES › department DEPARTMENT OF STEEL › entry 5",
+   "status": "applied"
+  },
+  {
+   "seq": 30,
+   "doc_id": "GOI_SO_78E_1973",
+   "op": "insert",
+   "source_ref": "3(j)",
+   "path": "schedule 2 › ministry MINISTRY OF WORKS AND HOUSING › entry 23",
+   "status": "applied"
+  },
+  {
+   "seq": 31,
+   "doc_id": "GOI_SO_78E_1973",
+   "op": "omit",
+   "source_ref": "3(k)",
+   "path": "schedule 2 › ministry DEPARTMENT OF COMPANY AFFAIRS",
+   "status": "applied"
+  },
+  {
+   "seq": 32,
+   "doc_id": "GOI_SO_78E_1973",
+   "op": "insert",
+   "source_ref": "3(1)",
+   "path": "schedule 2 › ministry DEPARTMENT OF SCIENCE AND TECHNOLOGY › entry 20",
+   "status": "not_applied",
+   "problem": "change 32: no ministry DEPARTMENT OF SCIENCE AND TECHNOLOGY under schedule 2",
+   "code": "old_path_missing",
+   "cause": "unit_not_found",
+   "known": "top_level"
+  },
+  {
+   "seq": 33,
+   "doc_id": "GOI_SO_78E_1973",
+   "op": "replace",
+   "source_ref": "3(m)(i)",
+   "path": "schedule 2 › ministry CABINET SECRETARIAT › department DEPARTMENT OF PERSONNEL",
+   "status": "applied"
+  },
+  {
+   "seq": 34,
+   "doc_id": "GOI_SO_78E_1973",
+   "op": "insert",
+   "source_ref": "3(m)(ii)",
+   "path": "schedule 2 › ministry CABINET SECRETARIAT › department DEPARTMENT OF PERSONNEL AND ADMINISTRATIVE REFORMS › entry 44",
+   "status": "applied"
+  },
+  {
+   "seq": 35,
+   "doc_id": "GOI_SO_78E_1973",
+   "op": "omit",
+   "source_ref": "3(m)(ii)",
+   "path": "schedule 2 › ministry CABINET SECRETARIAT › department DEPARTMENT OF STATISTICS",
+   "status": "applied"
+  },
+  {
+   "seq": 36,
+   "doc_id": "GOI_SO_78E_1973",
+   "op": "insert",
+   "source_ref": "3(n)",
+   "path": "schedule 2 › ministry PLANNING COMMISSION › entry 7",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

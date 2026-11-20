@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_305.pdf",
     "sha256": "c30c15c84479928469f04423fc39dd2cbaf0105548afdbd8a6dc5d4de205d197",
     "govdoc": "1_Upload_305.pdf.govdoc.json.zst",
-    "revision": 109
+    "revision": 133
   },
   "documents": [
     {
@@ -29,9 +29,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "3",
+          "version": "4",
           "model": "gemini-4-argon",
-          "at": "2026-11-12T12:56:58.086702+00:00"
+          "at": "2026-11-15T16:24:55.352966+00:00"
         },
         "ops": [
           {
@@ -39,7 +39,7 @@
             "source_ref": "2(A)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r73.rel1",
+            "relation": "r126.rel1",
             "target": {
               "cited": [
                 {
@@ -79,7 +79,9 @@
                 "text": "Non-Government Railways-Matters in so far as provision for control by the Ministry of Railways (Rail Mantralaya), Railways Board (Rail Board) as provided in the Railways Act, 1989 (24 of 1989) or in the contracts between the Government and Railways, or in any other statutory enactments namely, regulations in respect of safety, maximum and minimum rates and fares, etc. excluding the itcm of work allocated to the Department of Urban Development (Shahari Vikas Vibhag)."
               }
             ],
-            "flags": [],
+            "flags": [
+              "states_inferred_loose"
+            ],
             "words": [
               "r1.w483",
               "r1.w491"
@@ -101,7 +103,7 @@
             "source_ref": "2(B)(i)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r73.rel2",
+            "relation": "r126.rel2",
             "target": {
               "cited": [
                 {
@@ -166,7 +168,7 @@
             "source_ref": "2(B)(ii)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r73.rel3",
+            "relation": "r126.rel3",
             "position": "after",
             "anchor": {
               "cited": [

@@ -1,0 +1,284 @@
+{
+ "file": "1_Upload_44.pdf",
+ "kind": "amendment",
+ "series": 11,
+ "date": "1962-11-03",
+ "govdoc": "aob-ammend_/output/1_Upload_44.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826695.3154345,
+ "edits_file": "aob-ammend_/conf/1_Upload_44.pdf.edits.yml",
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_44.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T14:01:42.346916+00:00",
+  "sha256": "e3a10b2bdb2bee0f4c8314d09b73884eca7bb6af614056cadfd0805b7348d611",
+  "pages": 2
+ },
+ "edits": [
+  {
+   "run": "h1",
+   "by": "claude",
+   "at": "2026-11-13T03:00:00+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r1.w124",
+     "before": {
+      "text": "Defe"
+     },
+     "after": {
+      "text": "Defence"
+     }
+    },
+    {
+     "op": "fields",
+     "target": "r1.w124",
+     "before": {
+      "bbox": [
+       786,
+       1626,
+       861,
+       1659
+      ]
+     },
+     "after": {
+      "bbox": [
+       786,
+       1626,
+       920,
+       1659
+      ]
+     }
+    },
+    {
+     "op": "remove_word",
+     "target": "r1.w125",
+     "before": {
+      "page": 1,
+      "word": {
+       "id": "r1.w125",
+       "text": "ce",
+       "bbox": [
+        887,
+        1626,
+        920,
+        1659
+       ],
+       "confidence": 0.99
+      },
+      "line": "r2.l24",
+      "after": "r1.w124"
+     },
+     "after": null
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-12T12:45:55.311561+00:00",
+   "stamp": "24ccb4426907669c"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r58",
+   "at": "2026-11-15T12:42:46.124204+00:00",
+   "stamp": "7140ae0f51534083"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r59",
+   "at": "2026-11-15T12:42:48.793350+00:00",
+   "stamp": "6aff6c6ce1d745a3"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r60",
+   "at": "2026-11-15T12:42:50.998665+00:00",
+   "stamp": "e5aeb3106a51f5ff"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r69",
+   "at": "2026-11-15T16:25:03.734284+00:00",
+   "stamp": "a2c63ff4142bc590",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r70",
+   "at": "2026-11-15T16:25:05.819780+00:00",
+   "stamp": "9e51c4ba64689569",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r71",
+   "at": "2026-11-15T16:25:07.833278+00:00",
+   "stamp": "33bc7887830073f9",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r77",
+   "at": "2026-11-15T16:57:38.383105+00:00",
+   "stamp": "3f1be25177c202c4"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r78",
+   "at": "2026-11-15T17:03:53.075173+00:00",
+   "stamp": "a252c7cf47149d64"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r83",
+   "at": "2026-11-16T10:58:15.304201+00:00",
+   "stamp": "61d5e3c39482f3a0"
+  }
+ ],
+ "reviews": [],
+ "issues": [
+  {
+   "code": "aob:read_hindi_missing",
+   "severity": "info",
+   "message": "change 1: a new heading has no Hindi name in brackets",
+   "target": "r71.rel1",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_hindi_missing",
+   "severity": "info",
+   "message": "change 2: a new heading has no Hindi name in brackets",
+   "target": "r71.rel2",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 2: its quoted text runs across a page break",
+   "target": "r71.rel2",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_number_kept",
+   "severity": "info",
+   "message": "change 1: schedule 1 › ministry Ministry of Defence. keeps its number 3, the heading put for it quoted without one",
+   "target": "r71.rel1",
+   "status": "open"
+  }
+ ],
+ "problems": [
+  {
+   "series": 174,
+   "seq": 2,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF DEFENCE › department B › entry 14 is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
+  },
+  {
+   "series": 174,
+   "seq": 2,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF DEFENCE › department B › entry 15 is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
+  },
+  {
+   "series": 174,
+   "seq": 2,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF DEFENCE › department B › entry 16 is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
+  },
+  {
+   "series": 174,
+   "seq": 2,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF DEFENCE › department B › entry 17 is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
+  },
+  {
+   "series": 174,
+   "seq": 2,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF DEFENCE › department B › entry 18 is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
+  },
+  {
+   "series": 174,
+   "seq": 2,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF DEFENCE › department B › entry 20 is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
+  }
+ ],
+ "rules": [
+  {
+   "rule": "number_kept",
+   "seq": 1,
+   "note": "change 1: schedule 1 › ministry Ministry of Defence. keeps its number 3, the heading put for it quoted without one",
+   "status": "accepted"
+  }
+ ],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_3339_1962",
+   "op": "replace",
+   "source_ref": "(A)",
+   "path": "schedule 1 › entry 3",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_3339_1962",
+   "op": "replace",
+   "source_ref": "(B)",
+   "path": "schedule 2 › ministry Ministry of Defence",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

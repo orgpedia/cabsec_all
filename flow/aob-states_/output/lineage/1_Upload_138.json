@@ -1,0 +1,258 @@
+{
+ "file": "1_Upload_138.pdf",
+ "kind": "amendment",
+ "series": 104,
+ "date": "1974-06-22",
+ "govdoc": "aob-ammend_/output/1_Upload_138.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826691.3751805,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_138.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:55:03.069994+00:00",
+  "sha256": "a6e5a0ed8914eed35e35676102193dce1744e1a6ba4ba8fc31f6195c7ccb7ec0",
+  "pages": 4
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-12T12:41:32.662517+00:00",
+   "stamp": "cb8f87ac23801c13"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r50",
+   "at": "2026-11-15T12:42:20.718978+00:00",
+   "stamp": "4c19ffafe06e1a6b"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r51",
+   "at": "2026-11-15T12:42:23.264811+00:00",
+   "stamp": "7e70d8947d03eb4c"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r52",
+   "at": "2026-11-15T12:42:25.201130+00:00",
+   "stamp": "2cde21850ed79691"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r61",
+   "at": "2026-11-15T16:24:38.535245+00:00",
+   "stamp": "ebc694a4393238b4",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r62",
+   "at": "2026-11-15T16:24:40.688656+00:00",
+   "stamp": "7e1b35b4303ccc3a",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r63",
+   "at": "2026-11-15T16:24:42.793665+00:00",
+   "stamp": "82e68eed871748a0",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r69",
+   "at": "2026-11-15T16:57:32.368961+00:00",
+   "stamp": "7c0e0f43e386cb8c"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r70",
+   "at": "2026-11-15T17:03:39.105833+00:00",
+   "stamp": "24f5846b69a09863"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r75",
+   "at": "2026-11-16T10:58:11.354275+00:00",
+   "stamp": "cedaf3e773b1e437"
+  }
+ ],
+ "reviews": [],
+ "issues": [
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 2: its quoted text runs across a page break",
+   "target": "r63.rel2",
+   "status": "open"
+  }
+ ],
+ "problems": [
+  {
+   "series": 104,
+   "seq": 6,
+   "code": "old_path_ambiguous",
+   "severity": "error",
+   "message": "change 6: 2 parts are entry 1 under schedule 2 › ministry MINISTRY OF AGRICULTURE › department D",
+   "cause": "number_twice"
+  },
+  {
+   "series": 104,
+   "seq": 7,
+   "code": "old_path_ambiguous",
+   "severity": "error",
+   "message": "change 7: 2 parts are entry 7 under schedule 2 › ministry MINISTRY OF AGRICULTURE › department D",
+   "cause": "number_twice"
+  }
+ ],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_381E_1974",
+   "op": "omit",
+   "source_ref": "2(A)(i)(a)",
+   "path": "schedule 2 › ministry MINISTRY OF AGRICULTURE › department DEPARTMENT OF AGRICULTURE › entry 11A ; schedule 2 › ministry MINISTRY OF AGRICULTURE › department DEPARTMENT OF AGRICULTURE › entry 11B",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_381E_1974",
+   "op": "insert",
+   "source_ref": "2(A)(i)(b)",
+   "path": "schedule 2 › ministry MINISTRY OF AGRICULTURE › department DEPARTMENT OF AGRICULTURE › entry 13B",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_381E_1974",
+   "op": "omit",
+   "source_ref": "2(A)(i)(c)",
+   "path": "schedule 2 › ministry MINISTRY OF AGRICULTURE › department DEPARTMENT OF AGRICULTURE › entry 42 ; schedule 2 › ministry MINISTRY OF AGRICULTURE › department DEPARTMENT OF AGRICULTURE › entry 43",
+   "status": "applied"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_381E_1974",
+   "op": "omit",
+   "source_ref": "2(A)(1)",
+   "path": "schedule 2 › ministry MINISTRY OF AGRICULTURE › department DEPARTMENT OF FOOD › entry 6A ; schedule 2 › ministry MINISTRY OF AGRICULTURE › department DEPARTMENT OF FOOD › entry 6B",
+   "status": "applied"
+  },
+  {
+   "seq": 5,
+   "doc_id": "GOI_SO_381E_1974",
+   "op": "insert",
+   "source_ref": "2(A)(iii)",
+   "path": "schedule 2 › ministry MINISTRY OF AGRICULTURE › department DEPARTMENT OF COMMUNITY DEVELOPMENT › entry 6",
+   "status": "applied"
+  },
+  {
+   "seq": 6,
+   "doc_id": "GOI_SO_381E_1974",
+   "op": "replace",
+   "source_ref": "2(A)(iv)(a)",
+   "path": "schedule 2 › ministry MINISTRY OF AGRICULTURE › department DEPARTMENT QF COOPERATION › entry 1",
+   "status": "not_applied",
+   "problem": "change 6: 2 parts are entry 1 under schedule 2 › ministry MINISTRY OF AGRICULTURE › department D",
+   "code": "old_path_ambiguous",
+   "cause": "number_twice",
+   "known": "agriculture"
+  },
+  {
+   "seq": 7,
+   "doc_id": "GOI_SO_381E_1974",
+   "op": "insert",
+   "source_ref": "2(A)(iv)(b)",
+   "path": "schedule 2 › ministry MINISTRY OF AGRICULTURE › department DEPARTMENT QF COOPERATION › entry 7",
+   "status": "not_applied",
+   "problem": "change 7: 2 parts are entry 7 under schedule 2 › ministry MINISTRY OF AGRICULTURE › department D",
+   "code": "old_path_ambiguous",
+   "cause": "number_twice",
+   "known": "agriculture"
+  },
+  {
+   "seq": 8,
+   "doc_id": "GOI_SO_381E_1974",
+   "op": "replace",
+   "source_ref": "2(B)",
+   "path": "schedule 2 › ministry MINISTRY OF HOME AFFAIRS › entry 32",
+   "status": "applied"
+  },
+  {
+   "seq": 9,
+   "doc_id": "GOI_SO_381E_1974",
+   "op": "replace",
+   "source_ref": "2(B)",
+   "path": "schedule 2 › ministry MINISTRY OF HOME AFFAIRS › entry 43",
+   "status": "applied"
+  },
+  {
+   "seq": 10,
+   "doc_id": "GOI_SO_381E_1974",
+   "op": "replace",
+   "source_ref": "2(C)(1)",
+   "path": "schedule 2 › ministry MINISTRY OF LABOUR › entry 2",
+   "status": "applied"
+  },
+  {
+   "seq": 11,
+   "doc_id": "GOI_SO_381E_1974",
+   "op": "replace",
+   "source_ref": "2(C)(11)",
+   "path": "schedule 2 › ministry MINISTRY OF LABOUR › entry 23",
+   "status": "applied"
+  },
+  {
+   "seq": 12,
+   "doc_id": "GOI_SO_381E_1974",
+   "op": "insert",
+   "source_ref": "2(D)",
+   "path": "schedule 2 › ministry MINISTRY OF SHIPPING AND TRANSPORT › entry 24",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_167.pdf",
     "sha256": "0f435da72e68759c6d903c7ce2e6e1dfb2427e39647274324c627dc140b72bcb",
     "govdoc": "1_Upload_167.pdf.govdoc.json.zst",
-    "revision": 46
+    "revision": 70
   },
   "documents": [
     {
@@ -29,9 +29,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "3",
+          "version": "4",
           "model": "gemini-4-argon",
-          "at": "2026-11-12T13:48:56.753245+00:00"
+          "at": "2026-11-15T16:23:59.482239+00:00"
         },
         "ops": [
           {
@@ -39,7 +39,7 @@
             "source_ref": "2(a)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r10.rel1",
+            "relation": "r63.rel1",
             "target": [
               {
                 "cited": [
@@ -62,14 +62,14 @@
                 ],
                 "eId": null,
                 "words": [
-                  "r1.w794",
+                  "r1.w795",
                   "r1.w795"
                 ],
                 "boxes": [
                   {
                     "page": 2,
                     "bbox": [
-                      2062,
+                      2191,
                       1015,
                       2258,
                       1046
@@ -153,7 +153,7 @@
             "flags": [],
             "words": [
               "r1.w768",
-              "r1.w774"
+              "r1.w777"
             ],
             "boxes": [
               {
@@ -162,7 +162,7 @@
                   1425,
                   837,
                   2337,
-                  872
+                  914
                 ]
               }
             ]
@@ -172,7 +172,7 @@
             "source_ref": "2(b)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r10.rel2",
+            "relation": "r63.rel2",
             "position": "after",
             "anchor": {
               "cited": [
@@ -195,14 +195,14 @@
               ],
               "eId": null,
               "words": [
-                "r1.w825",
+                "r1.w826",
                 "r1.w827"
               ],
               "boxes": [
                 {
                   "page": 2,
                   "bbox": [
-                    1504,
+                    1595,
                     1318,
                     1756,
                     1351
@@ -220,7 +220,7 @@
             "flags": [],
             "words": [
               "r1.w803",
-              "r1.w809"
+              "r1.w811"
             ],
             "boxes": [
               {
@@ -229,7 +229,7 @@
                   1421,
                   1143,
                   2346,
-                  1176
+                  1219
                 ]
               }
             ]
@@ -239,7 +239,7 @@
             "source_ref": "2(c)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel3",
+            "relation": "r63.rel3",
             "target": {
               "cited": [
                 {
@@ -367,7 +367,7 @@
               {
                 "type": "entry",
                 "num": "19",
-                "text": "The Burmah-Shell (Acquisition of Undertakings in India) Act, 1976 (2 of 1976)."
+                "text": "The Burmah-Shell (Acquisition of Undertakings in India) Act, 1976 (2 of 1976). PRINTED BY THE MANAGER, GOVT. OF INDIA AND PUBLISHED BY THE CONTROLLER OF"
               },
               {
                 "type": "entry",
@@ -380,7 +380,7 @@
             ],
             "words": [
               "r1.w846",
-              "r1.w852"
+              "r1.w855"
             ],
             "boxes": [
               {
@@ -389,7 +389,7 @@
                   1424,
                   1555,
                   2349,
-                  1588
+                  1633
                 ]
               }
             ]
@@ -399,7 +399,7 @@
             "source_ref": "2(d)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r10.rel4",
+            "relation": "r63.rel4",
             "position": "after",
             "anchor": {
               "cited": [
@@ -408,7 +408,7 @@
                   "num": "2"
                 },
                 {
-                  "type": "ministry",
+                  "type": "department",
                   "heading": "DEPARTMENT OF CULTURE"
                 },
                 {
@@ -418,14 +418,14 @@
               ],
               "eId": null,
               "words": [
-                "r1.w1166",
+                "r1.w1167",
                 "r1.w1168"
               ],
               "boxes": [
                 {
                   "page": 3,
                   "bbox": [
-                    1927,
+                    2022,
                     616,
                     2208,
                     647
@@ -443,7 +443,7 @@
             "flags": [],
             "words": [
               "r1.w1157",
-              "r1.w1163"
+              "r1.w1165"
             ],
             "boxes": [
               {
@@ -452,7 +452,7 @@
                   1364,
                   573,
                   2281,
-                  604
+                  647
                 ]
               }
             ]
@@ -462,7 +462,7 @@
             "source_ref": "2(e)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel5",
+            "relation": "r63.rel5",
             "target": {
               "cited": [
                 {
@@ -470,7 +470,7 @@
                   "num": "2"
                 },
                 {
-                  "type": "ministry",
+                  "type": "department",
                   "heading": "DEPARTMENT OF SCIENCE AND TECHNOLOGY"
                 },
                 {
@@ -480,15 +480,15 @@
               ],
               "eId": null,
               "words": [
-                "r1.w1199",
+                "r1.w1200",
                 "r1.w1201"
               ],
               "boxes": [
                 {
                   "page": 3,
                   "bbox": [
-                    1756,
-                    959,
+                    1822,
+                    960,
                     1950,
                     994
                   ]
@@ -505,7 +505,7 @@
             "flags": [],
             "words": [
               "r1.w1185",
-              "r1.w1191"
+              "r1.w1193"
             ],
             "boxes": [
               {
@@ -514,7 +514,7 @@
                   1364,
                   875,
                   2283,
-                  905
+                  946
                 ]
               }
             ]

@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_244.pdf",
     "sha256": "78ac181321fc6043b06ce768c176ca251aca7242d20612378d499fc4e2b5b7c1",
     "govdoc": "1_Upload_244.pdf.govdoc.json.zst",
-    "revision": 118
+    "revision": 142
   },
   "documents": [
     {
@@ -29,9 +29,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "3",
+          "version": "4",
           "model": "gemini-4-argon",
-          "at": "2026-11-12T12:56:15.915845+00:00"
+          "at": "2026-11-15T16:24:28.868324+00:00"
         },
         "ops": [
           {
@@ -39,7 +39,7 @@
             "source_ref": "2(1)(a)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r81.rel1",
+            "relation": "r134.rel1",
             "target": {
               "cited": [
                 {
@@ -52,7 +52,7 @@
                 },
                 {
                   "type": "department",
-                  "heading": "Department of Chemicals and Petro-Chemicals"
+                  "heading": "Department of Chemicals and Petro- Chemicals"
                 }
               ],
               "eId": null,
@@ -72,7 +72,7 @@
                 }
               ]
             },
-            "expect": "(iii) Department of Chemicals and Petro-Chemicals (Rasayan aur Petro-Rasayan Vibhag)",
+            "expect": "(iii) Department of Chemicals and Petro- Chemicals (Rasayan aur Petro- Rasayan Vibhag)",
             "flags": [],
             "words": [
               "r1.w933",
@@ -95,7 +95,7 @@
             "source_ref": "2(1)(b)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r81.rel2",
+            "relation": "r134.rel2",
             "target": {
               "cited": [
                 {
@@ -104,7 +104,7 @@
                 },
                 {
                   "type": "ministry",
-                  "heading": "MINISTRY OF PETROLEUM AND NATURAL GAS"
+                  "heading": "MINISTRY OF PETROLEUM AND NATU- RAL GAS"
                 }
               ],
               "eId": null,
@@ -124,7 +124,7 @@
                 }
               ]
             },
-            "expect": "21. MINISTRY OF PETROLEUM AND NATURAL GAS (PETROLEUM AUR PRAKRITIK GAS MANTRALAYA)",
+            "expect": "21. MINISTRY OF PETROLEUM AND NATU- RAL GAS (PETROLEUM AUR PRAKRITIK GAS MANTRALA- YA)",
             "content": [
               {
                 "type": "ministry",
@@ -167,7 +167,7 @@
             "source_ref": "2(2)(a)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r81.rel3",
+            "relation": "r134.rel3",
             "target": {
               "cited": [
                 {
@@ -200,7 +200,7 @@
                 }
               ]
             },
-            "expect": "C. DEPARTMENT OF CHEMICALS AND PETRO-CHEMICALS (RASAYAN AUR PETRO-RASAYAN VIBHAG)",
+            "expect": "C. DEPARTMENT OF CHEMICALS AND PETRO-CHEMICALS (RA- SAYAN AUR PETRO-RASAYAN VIBHAG)",
             "flags": [],
             "words": [
               "r1.w1024",
@@ -223,7 +223,7 @@
             "source_ref": "2(2)(b)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r81.rel4",
+            "relation": "r134.rel4",
             "target": {
               "cited": [
                 {
@@ -389,7 +389,7 @@
               {
                 "type": "entry",
                 "num": "7",
-                "text": "Planning, development and control of and assistance to, all industries dealt with by the Department. EXTRAORDINARY [PART II-SEC."
+                "text": "Planning, development and control of and assistance to, all industries dealt with by the Department. Printed by the Manager, Govt. of India Press EXTRAORDINARY [PART II-SEC."
               },
               {
                 "type": "entry",

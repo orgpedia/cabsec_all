@@ -1,0 +1,190 @@
+{
+ "file": "1_Upload_210.pdf",
+ "kind": "amendment",
+ "series": 172,
+ "date": "1985-08-29",
+ "govdoc": "aob-ammend_/output/1_Upload_210.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826685.3963957,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_210.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:56:41.729660+00:00",
+  "sha256": "3e4a79715d7f8e3b7f61f1b540b0e41acb6d4778b112ad6def93e80ba9f86f36",
+  "pages": 2
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-12T12:33:51.406516+00:00",
+   "stamp": "d9706596d2d79110"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r50",
+   "at": "2026-11-15T12:41:41.688828+00:00",
+   "stamp": "dd33bef65cb56a02"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r51",
+   "at": "2026-11-15T12:41:44.199829+00:00",
+   "stamp": "fdeb939d3a2cfe42"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r52",
+   "at": "2026-11-15T12:41:46.552371+00:00",
+   "stamp": "9cd73716d455abd4"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r61",
+   "at": "2026-11-15T16:24:07.018671+00:00",
+   "stamp": "5f7384ff7f607e1a",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r62",
+   "at": "2026-11-15T16:24:08.702383+00:00",
+   "stamp": "90ecd74471a1c7f2",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r63",
+   "at": "2026-11-15T16:24:10.384985+00:00",
+   "stamp": "ec82b5e6568d94c7",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r69",
+   "at": "2026-11-15T16:57:23.697163+00:00",
+   "stamp": "e8b2c5ab7ebbbc1c"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r70",
+   "at": "2026-11-15T17:03:19.661355+00:00",
+   "stamp": "9907460c755182bf"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r75",
+   "at": "2026-11-16T10:58:05.384886+00:00",
+   "stamp": "a7e4d749b808d70a"
+  }
+ ],
+ "reviews": [],
+ "issues": [],
+ "problems": [
+  {
+   "series": 172,
+   "seq": 1,
+   "code": "old_path_missing",
+   "severity": "error",
+   "message": "change 1: no department DEPARTMENT OF RURAL DEVE- LOPMENT under schedule 2 › ministry Ministry of Agriculture and Rural Development (Krishi aur Gramin Vikas Mantralaya)",
+   "cause": "unit_not_found"
+  },
+  {
+   "series": 172,
+   "seq": 2,
+   "code": "old_path_missing",
+   "severity": "error",
+   "message": "change 2: no department DEPARTMENT OF RURAL DEVE- LOPMENT under schedule 2 › ministry Ministry of Agriculture and Rural Development (Krishi aur Gramin Vikas Mantralaya)",
+   "cause": "unit_not_found"
+  },
+  {
+   "series": 172,
+   "seq": 3,
+   "code": "old_words_missing",
+   "severity": "error",
+   "message": "change 3: the words to substitute are not in schedule 2 › ministry MINISTRY OF WORKS AND HOUSING › entry 25",
+   "cause": "words_differ"
+  }
+ ],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_635E_1985",
+   "op": "omit",
+   "source_ref": "2(a)(1)",
+   "path": "schedule 2 › ministry MINISTRY OF AGRI- CULTURE AND RURAL DIVILOP- MENT › department DEPARTMENT OF RURAL DEVE- LOPMENT › entry 8",
+   "status": "not_applied",
+   "problem": "change 1: no department DEPARTMENT OF RURAL DEVE- LOPMENT under schedule 2 › ministry Ministry of Agriculture and Rural Development (Krishi aur Gramin Vikas Mantralaya)",
+   "code": "old_path_missing",
+   "cause": "unit_not_found",
+   "known": "agriculture"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_635E_1985",
+   "op": "insert",
+   "source_ref": "2(a)(1)",
+   "path": "schedule 2 › ministry MINISTRY OF AGRI- CULTURE AND RURAL DIVILOP- MENT › department DEPARTMENT OF RURAL DEVE- LOPMENT › entry 8",
+   "status": "not_applied",
+   "problem": "change 2: no department DEPARTMENT OF RURAL DEVE- LOPMENT under schedule 2 › ministry Ministry of Agriculture and Rural Development (Krishi aur Gramin Vikas Mantralaya)",
+   "code": "old_path_missing",
+   "cause": "unit_not_found",
+   "known": "agriculture"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_635E_1985",
+   "op": "substitute_text",
+   "source_ref": "2(b)",
+   "path": "schedule 2 › ministry MINISTRY OF WORKS AND HOUSING › entry 25",
+   "status": "not_applied",
+   "problem": "change 3: the words to substitute are not in schedule 2 › ministry MINISTRY OF WORKS AND HOUSING › entry 25",
+   "code": "old_words_missing",
+   "cause": "words_differ",
+   "known": "words"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

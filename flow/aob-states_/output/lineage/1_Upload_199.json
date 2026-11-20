@@ -1,0 +1,178 @@
+{
+ "file": "1_Upload_199.pdf",
+ "kind": "amendment",
+ "series": 161,
+ "date": "1984-07-28",
+ "govdoc": "aob-ammend_/output/1_Upload_199.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826694.887929,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_199.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:56:28.194077+00:00",
+  "sha256": "d74898a368bda2a322d9710e552f5fdda3eda04750a47790c0a62a170c4a0a36",
+  "pages": 4
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-12T12:45:08.966504+00:00",
+   "stamp": "7ff2756293540fc0"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r50",
+   "at": "2026-11-15T12:42:45.569972+00:00",
+   "stamp": "a5e3a2256bed056a"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r51",
+   "at": "2026-11-15T12:42:47.991533+00:00",
+   "stamp": "5d652777ce2fafa1"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r52",
+   "at": "2026-11-15T12:42:50.512229+00:00",
+   "stamp": "0283559e97036143"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r61",
+   "at": "2026-11-15T16:25:03.245296+00:00",
+   "stamp": "9a047ee9fcdefef9",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r62",
+   "at": "2026-11-15T16:25:05.308921+00:00",
+   "stamp": "b2decfeb897cedc4",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r63",
+   "at": "2026-11-15T16:25:07.292419+00:00",
+   "stamp": "f8bb8e71f825e41f",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r69",
+   "at": "2026-11-15T16:57:37.944458+00:00",
+   "stamp": "7594dae1a2a7e43a"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r70",
+   "at": "2026-11-15T17:03:52.292972+00:00",
+   "stamp": "37b50f7c487fb0f3"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r75",
+   "at": "2026-11-16T10:58:14.876437+00:00",
+   "stamp": "7fb3513de4013205"
+  }
+ ],
+ "reviews": [],
+ "issues": [],
+ "problems": [
+  {
+   "series": 161,
+   "seq": 1,
+   "code": "old_words_missing",
+   "severity": "error",
+   "message": "change 1: the words to substitute are not in schedule 2 › ministry MINISTRY OF HOME AFFAIRS › part II",
+   "cause": "words_differ"
+  },
+  {
+   "series": 161,
+   "seq": 2,
+   "code": "old_path_missing",
+   "severity": "error",
+   "message": "change 2: no entry 82 under schedule 2 › ministry MINISTRY OF HOME AFFAIRS › part II",
+   "cause": "entry_not_in_state"
+  }
+ ],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_543E_1984",
+   "op": "substitute_text",
+   "source_ref": "2(a)(i)",
+   "path": "schedule 2 › ministry Ministry of Home Affairs › group_heading Part II--Con- current Subjects",
+   "status": "not_applied",
+   "problem": "change 1: the words to substitute are not in schedule 2 › ministry MINISTRY OF HOME AFFAIRS › part II",
+   "code": "old_words_missing",
+   "cause": "words_differ",
+   "known": "home_affairs"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_543E_1984",
+   "op": "replace",
+   "source_ref": "2(a)(i)",
+   "path": "schedule 2 › ministry Ministry of Home Affairs › group_heading Part II--Con- current Subjects › entry 82",
+   "status": "not_applied",
+   "problem": "change 2: no entry 82 under schedule 2 › ministry MINISTRY OF HOME AFFAIRS › part II",
+   "code": "old_path_missing",
+   "cause": "entry_not_in_state",
+   "known": "home_affairs"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_543E_1984",
+   "op": "omit",
+   "source_ref": "2(b)",
+   "path": "schedule 2 › ministry Ministry of Law, Justice and Company Affairs › department Depart- ment of Justice › entry 6",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

@@ -1,0 +1,293 @@
+{
+ "file": "1_Upload_46.pdf",
+ "kind": "amendment",
+ "series": 13,
+ "date": "1962-11-15",
+ "govdoc": "aob-ammend_/output/1_Upload_46.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826694.4229124,
+ "edits_file": "aob-ammend_/conf/1_Upload_46.pdf.edits.yml",
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_46.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T14:01:44.645870+00:00",
+  "sha256": "d002600cfaca09a2f3bd3bd26e163fb9cfdef8dfa42e16e77f87c85e0db712ee",
+  "pages": 2
+ },
+ "edits": [
+  {
+   "run": "h1",
+   "by": "claude",
+   "at": "2026-11-12T15:01:00+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r1.w24",
+     "before": {
+      "text": "1963/KARTIKA"
+     },
+     "after": {
+      "text": "1962/KARTIKA"
+     }
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-12T12:44:25.442745+00:00",
+   "stamp": "3d135e96425fb60a"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r52",
+   "at": "2026-11-15T12:42:44.889952+00:00",
+   "stamp": "f2fa285e158f9ca4"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r53",
+   "at": "2026-11-15T12:42:47.309974+00:00",
+   "stamp": "32697b5c333f81ab"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r54",
+   "at": "2026-11-15T12:42:50.024973+00:00",
+   "stamp": "52d45c25605a67b0"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r63",
+   "at": "2026-11-15T16:25:02.672798+00:00",
+   "stamp": "9a56632035a7ca27",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r64",
+   "at": "2026-11-15T16:25:04.789581+00:00",
+   "stamp": "08dbb8c4b637c026",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r65",
+   "at": "2026-11-15T16:25:06.814649+00:00",
+   "stamp": "f0d8909eb629a8a5",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r71",
+   "at": "2026-11-15T16:57:37.412971+00:00",
+   "stamp": "72b94b64460f41c8"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r72",
+   "at": "2026-11-15T17:03:51.290488+00:00",
+   "stamp": "b58252797f57021a"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r77",
+   "at": "2026-11-16T10:58:14.411639+00:00",
+   "stamp": "5b88b0fd6a08ca68"
+  }
+ ],
+ "reviews": [],
+ "issues": [
+  {
+   "code": "aob:read_hindi_missing",
+   "severity": "info",
+   "message": "change 1: a new heading has no Hindi name in brackets",
+   "target": "r65.rel1",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_hindi_missing",
+   "severity": "info",
+   "message": "change 2: a new heading has no Hindi name in brackets",
+   "target": "r65.rel2",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_path_unsure",
+   "severity": "warning",
+   "message": "change 4: its path could mean more than one part",
+   "target": "r65.rel4",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_hindi_missing",
+   "severity": "info",
+   "message": "change 4: a new heading has no Hindi name in brackets",
+   "target": "r65.rel4",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_hindi_missing",
+   "severity": "info",
+   "message": "change 6: a new heading has no Hindi name in brackets",
+   "target": "r65.rel6",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_one_heading",
+   "severity": "info",
+   "message": "change 6: the heading MINISTRY OF WORKS, HOUSING & SUPPLY and its sub-heading A Department of Works, Housing & Supply. put as one heading, Ministry of Works and Housing",
+   "target": "r65.rel6",
+   "status": "open"
+  }
+ ],
+ "problems": [
+  {
+   "series": 13,
+   "seq": 3,
+   "code": "old_path_missing",
+   "severity": "error",
+   "message": "change 3: no item 1 under schedule 2 › ministry MINISTRY OF COMMERCE & INDUSTRY › department B › group_heading VII › entry 23 › item a",
+   "cause": "items"
+  },
+  {
+   "series": 13,
+   "seq": 5,
+   "code": "old_path_missing",
+   "severity": "error",
+   "message": "change 5: no department Department of Heavy Industries under schedule 2 › ministry Ministry of Steel & Heavy Industries.",
+   "cause": "unit_not_found"
+  },
+  {
+   "series": 13,
+   "seq": 7,
+   "code": "old_path_missing",
+   "severity": "error",
+   "message": "change 7: no ministry Ministry of Works, Housing and Supply under schedule 2",
+   "cause": "unit_not_found"
+  }
+ ],
+ "rules": [
+  {
+   "rule": "one_heading",
+   "seq": 6,
+   "note": "change 6: the heading MINISTRY OF WORKS, HOUSING & SUPPLY and its sub-heading A Department of Works, Housing & Supply. put as one heading, Ministry of Works and Housing",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  }
+ ],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_3487_1962",
+   "op": "replace",
+   "source_ref": "(A)(a)",
+   "path": "schedule 1 › entry 3A",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_3487_1962",
+   "op": "replace",
+   "source_ref": "(A)(b)",
+   "path": "schedule 1 › entry 19",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_3487_1962",
+   "op": "omit",
+   "source_ref": "(B)(a)",
+   "path": "schedule 2 › ministry Ministry of Commerce and Industry › department Department of Industry › entry 23 › item a › item 1",
+   "status": "not_applied",
+   "problem": "change 3: no item 1 under schedule 2 › ministry MINISTRY OF COMMERCE & INDUSTRY › department B › group_heading VII › entry 23 › item a",
+   "code": "old_path_missing",
+   "cause": "items",
+   "known": "items"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_3487_1962",
+   "op": "replace",
+   "source_ref": "(B)(d)",
+   "path": "schedule 2 › ministry Ministry of Economic and Defence Co-ordination",
+   "status": "applied"
+  },
+  {
+   "seq": 5,
+   "doc_id": "GOI_SO_3487_1962",
+   "op": "omit",
+   "source_ref": "(B)(c)",
+   "path": "schedule 2 › ministry Ministry of Steel and Heavy Industries › department Department of Heavy Industries › entry 12",
+   "status": "not_applied",
+   "problem": "change 5: no department Department of Heavy Industries under schedule 2 › ministry Ministry of Steel & Heavy Industries.",
+   "code": "old_path_missing",
+   "cause": "unit_not_found",
+   "known": "renamed_unit"
+  },
+  {
+   "seq": 6,
+   "doc_id": "GOI_SO_3487_1962",
+   "op": "replace",
+   "source_ref": "(B)(d)",
+   "path": "schedule 2 › ministry Ministry of Works, Housing and Supply › department Department of Works, Housing and Supply",
+   "status": "applied"
+  },
+  {
+   "seq": 7,
+   "doc_id": "GOI_SO_3487_1962",
+   "op": "omit",
+   "source_ref": "(B)(e)",
+   "path": "schedule 2 › ministry Ministry of Works, Housing and Supply › department Department of Works, Housing and Supply › entry 18 ; schedule 2 › ministry Ministry of Works, Housing and Supply › department Department of Works, Housing and Supply › entry 19 ; schedule 2 › ministry Ministry of Works, Housing and Supply › department Department of Works, Housing and Supply › entry 20 ; schedule 2 › ministry Ministry of Works, Housing and Supply › department Department of Works, Housing and Supply › entry 23 › entry",
+   "status": "not_applied",
+   "problem": "change 7: no ministry Ministry of Works, Housing and Supply under schedule 2",
+   "code": "old_path_missing",
+   "cause": "unit_not_found",
+   "known": "renamed_unit"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

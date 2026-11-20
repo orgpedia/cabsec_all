@@ -1,0 +1,337 @@
+{
+ "file": "1_Upload_36.pdf",
+ "kind": "amendment",
+ "series": 3,
+ "date": "1961-08-28",
+ "govdoc": "aob-ammend_/output/1_Upload_36.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826687.2076743,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_36.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T14:00:53.718236+00:00",
+  "sha256": "6a098e2bd716df307d5675b53c851a812468ec628ac22892eddc51b2eb649f7c",
+  "pages": 4
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-12T12:35:23.271997+00:00",
+   "stamp": "113bee5cf93ea324"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r50",
+   "at": "2026-11-15T12:41:55.526189+00:00",
+   "stamp": "3b17c4aa04b36fa5"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r51",
+   "at": "2026-11-15T12:41:57.313030+00:00",
+   "stamp": "974c19833f1c8253"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r52",
+   "at": "2026-11-15T12:41:58.589859+00:00",
+   "stamp": "37b321dc14df94fe"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r61",
+   "at": "2026-11-15T16:24:18.014712+00:00",
+   "stamp": "565538e266659102",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r62",
+   "at": "2026-11-15T16:24:19.266096+00:00",
+   "stamp": "faebc4f9770ab8b2",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r63",
+   "at": "2026-11-15T16:24:20.448764+00:00",
+   "stamp": "304662230c103d92",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r69",
+   "at": "2026-11-15T16:57:26.414620+00:00",
+   "stamp": "8009ffeef9dcf319"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r70",
+   "at": "2026-11-15T17:03:26.295846+00:00",
+   "stamp": "49c9890e12b292a7"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r75",
+   "at": "2026-11-16T10:58:07.188528+00:00",
+   "stamp": "6d089ae78a340138"
+  }
+ ],
+ "reviews": [],
+ "issues": [
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
+   "message": "change 19: department Departments of Communications and Civil Aviation taken for department DEPARTMENT OF COMMUNICATIONS AND CIVIL AVIATION, named loosely",
+   "target": "r63.rel19",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
+   "message": "change 20: department Departments of Communications and Civil Aviation taken for department DEPARTMENT OF COMMUNICATIONS AND CIVIL AVIATION, named loosely",
+   "target": "r63.rel20",
+   "status": "open"
+  }
+ ],
+ "problems": [
+  {
+   "series": 174,
+   "seq": 10,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF EXTERNAL AFFAIRS › entry 42 reads differently in 1_Upload_212.pdf than in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  }
+ ],
+ "rules": [
+  {
+   "rule": "loose",
+   "seq": 19,
+   "note": "change 19: department Departments of Communications and Civil Aviation taken for department DEPARTMENT OF COMMUNICATIONS AND CIVIL AVIATION, named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "loose",
+   "seq": 20,
+   "note": "change 20: department Departments of Communications and Civil Aviation taken for department DEPARTMENT OF COMMUNICATIONS AND CIVIL AVIATION, named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  }
+ ],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_2106_1961",
+   "op": "omit",
+   "source_ref": "(1)(i)(a\"",
+   "path": "schedule 2 › ministry Ministry of Commerce and Industry › department Department of Commerce › entry 42 ; schedule 2 › ministry Ministry of Commerce and Industry › department Department of Commerce › entry 46 › item a › item ix",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_2106_1961",
+   "op": "replace",
+   "source_ref": "(1)(i)(b\"",
+   "path": "schedule 2 › ministry Ministry of Commerce and Industry › department Department of Commerce › entry 46 › item a › item viii",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_2106_1961",
+   "op": "replace",
+   "source_ref": "(1)(ii)(a\"",
+   "path": "schedule 2 › ministry Ministry of Commerce and Industry › department Department of Industry › entry 24 › item iv",
+   "status": "applied"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_2106_1961",
+   "op": "replace",
+   "source_ref": "(1)(ii)(b\"",
+   "path": "schedule 2 › ministry Ministry of Commerce and Industry › department Department of Industry › entry 25 › item b › item iii",
+   "status": "applied"
+  },
+  {
+   "seq": 5,
+   "doc_id": "GOI_SO_2106_1961",
+   "op": "omit",
+   "source_ref": "(1)(ii)(c\"",
+   "path": "schedule 2 › ministry Ministry of Commerce and Industry › department Department of Industry › entry 25 › item b › item iv",
+   "status": "applied"
+  },
+  {
+   "seq": 6,
+   "doc_id": "GOI_SO_2106_1961",
+   "op": "replace",
+   "source_ref": "(1)(ii)(d\"",
+   "path": "schedule 2 › ministry Ministry of Commerce and Industry › department Department of Industry › entry 25 › item b › item v",
+   "status": "applied"
+  },
+  {
+   "seq": 7,
+   "doc_id": "GOI_SO_2106_1961",
+   "op": "insert",
+   "source_ref": "(1)(ii)(e\"",
+   "path": "schedule 2 › ministry Ministry of Commerce and Industry › department Department of Industry › entry 25 › item b › item x",
+   "status": "applied"
+  },
+  {
+   "seq": 8,
+   "doc_id": "GOI_SO_2106_1961",
+   "op": "replace",
+   "source_ref": "(2\"",
+   "path": "schedule 2 › ministry Ministry of Community Development & Cooperation › department Department of Community Development",
+   "status": "applied"
+  },
+  {
+   "seq": 9,
+   "doc_id": "GOI_SO_2106_1961",
+   "op": "insert",
+   "source_ref": "(3\"",
+   "path": "schedule 2 › ministry Ministry of Defence › entry 9",
+   "status": "applied"
+  },
+  {
+   "seq": 10,
+   "doc_id": "GOI_SO_2106_1961",
+   "op": "insert",
+   "source_ref": "(4\"",
+   "path": "schedule 2 › ministry Ministry of External Affairs › entry 42",
+   "status": "applied"
+  },
+  {
+   "seq": 11,
+   "doc_id": "GOI_SO_2106_1961",
+   "op": "replace",
+   "source_ref": "(5)(1\"",
+   "path": "schedule 2 › ministry Ministry of Finance › department Department of Economic Affairs › entry 7",
+   "status": "applied"
+  },
+  {
+   "seq": 12,
+   "doc_id": "GOI_SO_2106_1961",
+   "op": "replace",
+   "source_ref": "(5)(11\"",
+   "path": "schedule 2 › ministry Ministry of Finance › department Department of Revenue › entry 9",
+   "status": "applied"
+  },
+  {
+   "seq": 13,
+   "doc_id": "GOI_SO_2106_1961",
+   "op": "insert",
+   "source_ref": "(6)(i\"",
+   "path": "schedule 2 › ministry Ministry of Food & Agriculture › department Department of Agriculture › entry 21",
+   "status": "applied"
+  },
+  {
+   "seq": 14,
+   "doc_id": "GOI_SO_2106_1961",
+   "op": "insert",
+   "source_ref": "(6)(ii\"",
+   "path": "schedule 2 › ministry Ministry of Food & Agriculture › department Department of Food › entry 7",
+   "status": "applied"
+  },
+  {
+   "seq": 15,
+   "doc_id": "GOI_SO_2106_1961",
+   "op": "substitute_text",
+   "source_ref": "(7\"",
+   "path": "schedule 2 › ministry Ministry of Health › entry 15",
+   "status": "applied"
+  },
+  {
+   "seq": 16,
+   "doc_id": "GOI_SO_2106_1961",
+   "op": "replace",
+   "source_ref": "(8)(a\"",
+   "path": "schedule 2 › ministry Ministry of Scientific Research & Cultural Affairs › entry 1",
+   "status": "applied"
+  },
+  {
+   "seq": 17,
+   "doc_id": "GOI_SO_2106_1961",
+   "op": "substitute_text",
+   "source_ref": "(8)(b\"",
+   "path": "schedule 2 › ministry Ministry of Scientific Research & Cultural Affairs › entry 2 ; schedule 2 › ministry Ministry of Scientific Research & Cultural Affairs › entry 3",
+   "status": "applied"
+  },
+  {
+   "seq": 18,
+   "doc_id": "GOI_SO_2106_1961",
+   "op": "replace",
+   "source_ref": "(8)(c\"",
+   "path": "schedule 2 › ministry Ministry of Scientific Research & Cultural Affairs › entry 11",
+   "status": "applied"
+  },
+  {
+   "seq": 19,
+   "doc_id": "GOI_SO_2106_1961",
+   "op": "substitute_text",
+   "source_ref": "(9)(a\"",
+   "path": "schedule 2 › ministry Ministry of Transport & Communications › department Departments of Communications and Civil Aviation › entry 2",
+   "status": "applied"
+  },
+  {
+   "seq": 20,
+   "doc_id": "GOI_SO_2106_1961",
+   "op": "insert",
+   "source_ref": "(9)(b\"",
+   "path": "schedule 2 › ministry Ministry of Transport & Communications › department Departments of Communications and Civil Aviation › entry 2",
+   "status": "applied"
+  },
+  {
+   "seq": 21,
+   "doc_id": "GOI_SO_2106_1961",
+   "op": "insert",
+   "source_ref": "(10\"",
+   "path": "schedule 2 › ministry Department of Atomic Energy › entry 8",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

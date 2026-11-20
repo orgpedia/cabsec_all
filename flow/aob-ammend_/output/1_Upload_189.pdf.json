@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_189.pdf",
     "sha256": "9e078d462fb7301ad63692db10da8f83243c0d0f41326639c00735f07ee5df35",
     "govdoc": "1_Upload_189.pdf.govdoc.json.zst",
-    "revision": 46
+    "revision": 70
   },
   "documents": [
     {
@@ -29,9 +29,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "3",
+          "version": "4",
           "model": "gemini-4-argon",
-          "at": "2026-11-12T13:49:37.362702+00:00"
+          "at": "2026-11-15T16:24:42.282380+00:00"
         },
         "ops": [
           {
@@ -39,7 +39,7 @@
             "source_ref": "2(i)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r10.rel1",
+            "relation": "r63.rel1",
             "position": "after",
             "anchor": {
               "cited": [
@@ -62,15 +62,15 @@
               ],
               "eId": null,
               "words": [
-                "r1.w572",
+                "r1.w571",
                 "r1.w573"
               ],
               "boxes": [
                 {
                   "page": 2,
                   "bbox": [
-                    1708,
-                    275,
+                    1609,
+                    274,
                     1861,
                     307
                   ]
@@ -80,18 +80,8 @@
             "content": [
               {
                 "type": "entry",
-                "num": "1",
-                "text": "(1) These rules may be called the Government of India (Allocation of Business) (One Hundred and Fifty-first Amendment) Rules, 1981. (2) They shall come into force at once."
-              },
-              {
-                "type": "entry",
-                "num": "2",
-                "text": "In the Government of India (Allocation of Business) Rules, 1961, in the Second Schedule,-"
-              },
-              {
-                "type": "item",
-                "num": "i",
-                "text": "under the heading \"MINISTRY OF AGRICULTURE (KRISHI MANTRALAYA)\", under the sub-heading \"A. DEPARTMENT OF AGRICULTURE AND"
+                "num": "12",
+                "text": "Matters relating to damage to crops and loss of livestock due to natural calamities."
               },
               {
                 "type": "entry",
@@ -110,7 +100,6 @@
               }
             ],
             "flags": [
-              "read_page_break",
               "read_quote_mismatch"
             ],
             "words": [
@@ -134,7 +123,7 @@
             "source_ref": "2(ii)(a)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r10.rel2",
+            "relation": "r63.rel2",
             "position": "after",
             "anchor": {
               "cited": [
@@ -153,14 +142,14 @@
               ],
               "eId": null,
               "words": [
-                "r1.w647",
+                "r1.w646",
                 "r1.w655"
               ],
               "boxes": [
                 {
                   "page": 2,
                   "bbox": [
-                    1429,
+                    1417,
                     811,
                     2239,
                     876
@@ -205,7 +194,7 @@
             "source_ref": "2(ii)(b)(i)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel3",
+            "relation": "r63.rel3",
             "target": {
               "cited": [
                 {
@@ -227,14 +216,14 @@
               ],
               "eId": null,
               "words": [
-                "r1.w697",
+                "r1.w696",
                 "r1.w698"
               ],
               "boxes": [
                 {
                   "page": 2,
                   "bbox": [
-                    1431,
+                    1368,
                     1218,
                     1592,
                     1251
@@ -270,7 +259,7 @@
             "source_ref": "2(ii)(b)(ii)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel4",
+            "relation": "r63.rel4",
             "target": {
               "cited": [
                 {
@@ -292,14 +281,14 @@
               ],
               "eId": null,
               "words": [
-                "r1.w729",
+                "r1.w728",
                 "r1.w730"
               ],
               "boxes": [
                 {
                   "page": 2,
                   "bbox": [
-                    1474,
+                    1406,
                     1445,
                     1654,
                     1477
@@ -335,7 +324,7 @@
             "source_ref": "2(iii)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r10.rel5",
+            "relation": "r63.rel5",
             "target": [
               {
                 "cited": [
@@ -354,14 +343,14 @@
                 ],
                 "eId": null,
                 "words": [
-                  "r1.w759",
+                  "r1.w760",
                   "r1.w760"
                 ],
                 "boxes": [
                   {
                     "page": 2,
                     "bbox": [
-                      1770,
+                      1901,
                       1659,
                       1945,
                       1689

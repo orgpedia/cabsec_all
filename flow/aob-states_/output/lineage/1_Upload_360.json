@@ -1,0 +1,145 @@
+{
+ "file": "1_Upload_360.pdf",
+ "kind": "amendment",
+ "series": 315,
+ "date": "2015-08-05",
+ "govdoc": "aob-ammend_/output/1_Upload_360.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826688.1923127,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_360.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T14:00:54.951348+00:00",
+  "sha256": "74449ae2db682e5cd683b1e29bd7f316a8fd5a037b1f8f05ad5704985bb901b6",
+  "pages": 2
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-03T03:44:24.545781+00:00",
+   "stamp": "21fa0da3d1dd80cd"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r184",
+   "at": "2026-11-15T12:42:05.712658+00:00",
+   "stamp": "d120f3e004e4c854"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r185",
+   "at": "2026-11-15T12:42:07.794916+00:00",
+   "stamp": "34244da513f9f35a"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r186",
+   "at": "2026-11-15T12:42:09.765349+00:00",
+   "stamp": "fd4998317a99c780"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r195",
+   "at": "2026-11-15T16:24:25.545655+00:00",
+   "stamp": "0fd391ea52fe8d39",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r196",
+   "at": "2026-11-15T16:24:27.113977+00:00",
+   "stamp": "ea1efec52fccaeb8",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r197",
+   "at": "2026-11-15T16:24:28.602219+00:00",
+   "stamp": "c6ee8429d767c432",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r203",
+   "at": "2026-11-15T16:57:28.023807+00:00",
+   "stamp": "747a5d2936c5b522"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r204",
+   "at": "2026-11-15T17:03:30.182746+00:00",
+   "stamp": "c62a73b45e4f7530"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r209",
+   "at": "2026-11-16T10:58:08.177320+00:00",
+   "stamp": "b03ece83afb728ad"
+  }
+ ],
+ "reviews": [],
+ "issues": [],
+ "problems": [],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_2130E_2015",
+   "op": "insert",
+   "source_ref": "2(a)",
+   "path": "schedule 2 › ministry MINISTRY OF CHEMICALS AND FERTILIZERS › department DEPARTMENT OF PHARMACEUTICALS › entry 1",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_2130E_2015",
+   "op": "insert",
+   "source_ref": "2(b)",
+   "path": "schedule 2 › ministry MINISTRY OF HEALTH AND FAMILY WELFARE › department DEPARTMENT OF HEALTH AND FAMILY WELFARE › entry 12 › item i",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

@@ -1,0 +1,202 @@
+{
+ "file": "1_Upload_129.pdf",
+ "kind": "amendment",
+ "series": 95,
+ "date": "1972-07-18",
+ "govdoc": "aob-ammend_/output/1_Upload_129.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826683.6776395,
+ "edits_file": "aob-ammend_/conf/1_Upload_129.pdf.edits.yml",
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_129.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:54:46.151796+00:00",
+  "sha256": "2c9db16666f2128f9d92e3d16bffaf3f8725572706b171186213b1576fbc9483",
+  "pages": 4
+ },
+ "edits": [
+  {
+   "run": "h1",
+   "by": "claude",
+   "at": "2026-11-12T19:00:00+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r1.w208",
+     "before": {
+      "text": "\"27."
+     },
+     "after": {
+      "text": "\"27A."
+     }
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-12T12:33:00.851644+00:00",
+   "stamp": "da2eca10fe989597"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r58",
+   "at": "2026-11-15T12:41:27.028353+00:00",
+   "stamp": "83fbac7cfa4f1b0b"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r59",
+   "at": "2026-11-15T12:41:29.447340+00:00",
+   "stamp": "cdc9b398609a8a1f"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r60",
+   "at": "2026-11-15T12:41:31.063882+00:00",
+   "stamp": "daa9f8c4a48cfcc0"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r69",
+   "at": "2026-11-15T16:23:57.322168+00:00",
+   "stamp": "b97906c6f6b22d55",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r70",
+   "at": "2026-11-15T16:23:58.995728+00:00",
+   "stamp": "60b83fc29022b629",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r71",
+   "at": "2026-11-15T16:24:00.426397+00:00",
+   "stamp": "9512a462a298cb7e",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r77",
+   "at": "2026-11-15T16:57:21.060166+00:00",
+   "stamp": "f18b8c4b63da34a9"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r78",
+   "at": "2026-11-15T17:03:13.484067+00:00",
+   "stamp": "1197436dda75b92f"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r83",
+   "at": "2026-11-16T10:58:03.658967+00:00",
+   "stamp": "571a4ee25a7983c3"
+  }
+ ],
+ "reviews": [
+  {
+   "id": "h1.v2",
+   "target": "r8.a6",
+   "status": "pending",
+   "by": "claude",
+   "at": "2026-11-12T19:00:00+00:00",
+   "note": "moved by a loose match after h1.e1"
+  }
+ ],
+ "issues": [
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 3: its quoted text runs across a page break",
+   "target": "r71.rel3",
+   "status": "open"
+  }
+ ],
+ "problems": [
+  {
+   "series": 95,
+   "seq": 3,
+   "code": "old_path_missing",
+   "severity": "error",
+   "message": "change 3: no ministry DEPARTMENT OF SCIENCE AND TECHNOLOGY under schedule 2",
+   "cause": "unit_not_found"
+  }
+ ],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_498E_1972",
+   "op": "insert",
+   "source_ref": "2",
+   "path": "schedule 1 › entry 27",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_498E_1972",
+   "op": "omit",
+   "source_ref": "3(a)",
+   "path": "schedule 2 › ministry DEPARTMENT OF ATOMIC ENERGY › entry 9",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_498E_1972",
+   "op": "insert",
+   "source_ref": "3(b)",
+   "path": "schedule 2 › ministry DEPARTMENT OF SCIENCE AND TECHNOLOGY",
+   "status": "not_applied",
+   "problem": "change 3: no ministry DEPARTMENT OF SCIENCE AND TECHNOLOGY under schedule 2",
+   "code": "old_path_missing",
+   "cause": "unit_not_found",
+   "known": "top_level"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

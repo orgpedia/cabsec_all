@@ -1,0 +1,145 @@
+{
+ "file": "1_Upload_77.pdf",
+ "kind": "amendment",
+ "series": 44,
+ "date": "1965-11-26",
+ "govdoc": "aob-ammend_/output/1_Upload_77.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826684.456217,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_77.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T14:02:31.290906+00:00",
+  "sha256": "2f2e9001ae03c5eb229117c2fbbcfd472cc3344ecadc83de6fb61122f2d107b3",
+  "pages": 2
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-12T12:33:28.172108+00:00",
+   "stamp": "fc7f592c5795fbf5"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r50",
+   "at": "2026-11-15T12:41:40.066670+00:00",
+   "stamp": "985c105c31cadccd"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r51",
+   "at": "2026-11-15T12:41:42.723792+00:00",
+   "stamp": "1f2aac96878a5e96"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r52",
+   "at": "2026-11-15T12:41:45.397140+00:00",
+   "stamp": "096db0872ec2a7d9"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r61",
+   "at": "2026-11-15T16:24:05.993675+00:00",
+   "stamp": "0f5f77c2cf2139e5",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r62",
+   "at": "2026-11-15T16:24:07.692024+00:00",
+   "stamp": "6c9a1723f8725e74",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r63",
+   "at": "2026-11-15T16:24:09.376690+00:00",
+   "stamp": "fe28a0e898a904ce",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r69",
+   "at": "2026-11-15T16:57:22.681437+00:00",
+   "stamp": "06988ab842f04f29"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r70",
+   "at": "2026-11-15T17:03:17.831558+00:00",
+   "stamp": "248ea06a2d73b4f3"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r75",
+   "at": "2026-11-16T10:58:04.449176+00:00",
+   "stamp": "21abd1ac81ad7c4c"
+  }
+ ],
+ "reviews": [],
+ "issues": [],
+ "problems": [],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_3711_1965",
+   "op": "insert",
+   "source_ref": "1(a)",
+   "path": "schedule 2 › ministry Ministry of Rehabilitation › entry 12",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_3711_1965",
+   "op": "replace",
+   "source_ref": "1(b)",
+   "path": "schedule 2 › ministry Ministry of Rehabilitation › entry 21A",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

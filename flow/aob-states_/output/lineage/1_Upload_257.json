@@ -1,0 +1,1028 @@
+{
+ "file": "1_Upload_257.pdf",
+ "kind": "amendment",
+ "series": 217,
+ "date": "1991-07-05",
+ "govdoc": "aob-ammend_/output/1_Upload_257.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826685.3681896,
+ "edits_file": "aob-ammend_/conf/1_Upload_257.pdf.edits.yml",
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_257.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:57:49.095392+00:00",
+  "sha256": "3cf10f7a26ff448c192d7245e97e45fc1a7a42b1a3ac78c7980d706918d82f69",
+  "pages": 12
+ },
+ "edits": [
+  {
+   "run": "h2",
+   "by": "claude",
+   "at": "2026-11-12T12:00:00+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r1.w5823",
+     "before": {
+      "text": "ENVIRON."
+     },
+     "after": {
+      "text": "ENVIRON-"
+     }
+    }
+   ]
+  },
+  {
+   "run": "h3",
+   "by": "claude",
+   "at": "2026-11-12T12:01:00+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r1.w6160",
+     "before": {
+      "text": "DEPART."
+     },
+     "after": {
+      "text": "DEPART-"
+     }
+    }
+   ]
+  },
+  {
+   "run": "h4",
+   "by": "mukundesh",
+   "at": "2026-11-14T16:39:51+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r1.w6478",
+     "before": {
+      "text": "2."
+     },
+     "after": {
+      "text": "1."
+     }
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-11T03:05:26.604828+00:00",
+   "stamp": "7a68ad7338a91207"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r134",
+   "at": "2026-11-15T12:41:41.316608+00:00",
+   "stamp": "ec3820eb63d789f5"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r135",
+   "at": "2026-11-15T12:41:43.951791+00:00",
+   "stamp": "cb0781d71de7861e"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r136",
+   "at": "2026-11-15T12:41:46.363801+00:00",
+   "stamp": "6992b51446bc764c"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r145",
+   "at": "2026-11-15T16:24:06.819516+00:00",
+   "stamp": "75d0bb6a72614e4e",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r146",
+   "at": "2026-11-15T16:24:08.503442+00:00",
+   "stamp": "d8b4efbbedeb1092",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r147",
+   "at": "2026-11-15T16:24:10.198026+00:00",
+   "stamp": "a6f99487b9bf1831",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r153",
+   "at": "2026-11-15T16:57:23.500971+00:00",
+   "stamp": "89f1c2f18b27beda"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r154",
+   "at": "2026-11-15T17:03:19.254133+00:00",
+   "stamp": "bbf66d3b5d76ac05"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r159",
+   "at": "2026-11-16T10:58:05.204273+00:00",
+   "stamp": "f89dcb446524e55c"
+  }
+ ],
+ "reviews": [],
+ "issues": [
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 1: its quoted text runs across a page break",
+   "target": "r147.rel1",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 3: its quoted text runs across a page break",
+   "target": "r147.rel3",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 24: its quoted text runs across a page break",
+   "target": "r147.rel24",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
+   "message": "change 8: ministry MINISTRY OF CIVIL supplie AND PUBLIC DISTRIBUTION taken for ministry Ministry of Civil Supplies and Public Distribution, named loosely",
+   "target": "r147.rel8",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
+   "message": "change 10: ministry MINISTRY OF ENVIRONMENT AND FOREST taken for ministry MINISTRY OF ENVIRONMENT AND FORESTS, named loosely",
+   "target": "r147.rel10",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
+   "message": "change 10: department DEPARTMENT OF ENVIRONMENT, FOREST AND WILD LIFE taken for department DEPARTMENT OF ENVIRONMENT, FORESTS AND WILD LIFE, named loosely",
+   "target": "r147.rel10",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
+   "message": "change 15: ministry MINISTTY OF INDUSTRY taken for ministry MINISTRY OF INDUSTRY, named loosely",
+   "target": "r147.rel15",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
+   "message": "change 19: ministry MINISTRY OF PETROLEU AND CHEMICALS taken for ministry MINISTRY OF PETROLEUM AND CHEMICALS, named loosely",
+   "target": "r147.rel19",
+   "status": "open"
+  }
+ ],
+ "problems": [
+  {
+   "series": 271,
+   "seq": 3,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry Ministry of Chemicals and Fertilizers › department A › entry 11 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 3,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry Ministry of Chemicals and Fertilizers › department A › entry 12 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 3,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry Ministry of Chemicals and Fertilizers › department A › entry 1 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 3,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry Ministry of Chemicals and Fertilizers › department A › entry 3 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 3,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry Ministry of Chemicals and Fertilizers › department A › entry 4 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 3,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry Ministry of Chemicals and Fertilizers › department A › entry 8 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 3,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry Ministry of Chemicals and Fertilizers › department A › entry 9 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 3,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry Ministry of Chemicals and Fertilizers › department A › entry 10 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 3,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry Ministry of Chemicals and Fertilizers › department A › group_heading II is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 3,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry Ministry of Chemicals and Fertilizers › department B › entry 5 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 3,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry Ministry of Chemicals and Fertilizers › department B › entry 6 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 3,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry Ministry of Chemicals and Fertilizers › department B › entry 7 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 3,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry Ministry of Chemicals and Fertilizers › department B › entry 8 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 3,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry Ministry of Chemicals and Fertilizers › department B › entry 9 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 10,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF ENVIRONMENT AND FORESTS › entry 9 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 10,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF ENVIRONMENT AND FORESTS › entry 15 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 10,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF ENVIRONMENT AND FORESTS › entry 16 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 10,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF ENVIRONMENT AND FORESTS › entry 19 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 10,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF ENVIRONMENT AND FORESTS › entry 20 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 10,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF ENVIRONMENT AND FORESTS › entry 21 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 10,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF ENVIRONMENT AND FORESTS › entry 22 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 10,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF ENVIRONMENT AND FORESTS › entry 23 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 10,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF ENVIRONMENT AND FORESTS › entry 24 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 10,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF ENVIRONMENT AND FORESTS › entry 25 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 10,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF ENVIRONMENT AND FORESTS › entry 26 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 10,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF ENVIRONMENT AND FORESTS › entry 27 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 10,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF ENVIRONMENT AND FORESTS › entry 28 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 10,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF ENVIRONMENT AND FORESTS › entry 29 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 10,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF ENVIRONMENT AND FORESTS › entry 30 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 10,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF ENVIRONMENT AND FORESTS › entry 31 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 10,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF ENVIRONMENT AND FORESTS › entry 32 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 10,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF ENVIRONMENT AND FORESTS › entry 33 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 10,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF ENVIRONMENT AND FORESTS › entry 34 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 10,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF ENVIRONMENT AND FORESTS › entry 35 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 10,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF ENVIRONMENT AND FORESTS › entry 36 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 10,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF ENVIRONMENT AND FORESTS › entry 37 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 10,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF ENVIRONMENT AND FORESTS › entry 38 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 10,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF ENVIRONMENT AND FORESTS › entry 39 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 10,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF ENVIRONMENT AND FORESTS › entry 40 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 10,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF ENVIRONMENT AND FORESTS › entry 41 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 10,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF ENVIRONMENT AND FORESTS › entry 42 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 10,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF ENVIRONMENT AND FORESTS › entry 43 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 10,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF ENVIRONMENT AND FORESTS › entry 44 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 10,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF ENVIRONMENT AND FORESTS › entry 45 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 10,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF ENVIRONMENT AND FORESTS › entry 46 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 10,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF ENVIRONMENT AND FORESTS › entry 47 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 10,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF ENVIRONMENT AND FORESTS › entry 2 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 10,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF ENVIRONMENT AND FORESTS › entry 3 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 10,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF ENVIRONMENT AND FORESTS › entry 4 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 10,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF ENVIRONMENT AND FORESTS › entry 5 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 10,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF ENVIRONMENT AND FORESTS › entry 6 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 10,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF ENVIRONMENT AND FORESTS › entry 7 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 10,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF ENVIRONMENT AND FORESTS › entry 8 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 10,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF ENVIRONMENT AND FORESTS › entry 10 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 10,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF ENVIRONMENT AND FORESTS › entry 11 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 10,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF ENVIRONMENT AND FORESTS › entry 12 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 10,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF ENVIRONMENT AND FORESTS › entry 12 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 10,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF ENVIRONMENT AND FORESTS › entry 13 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 10,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF ENVIRONMENT AND FORESTS › entry 14 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 10,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF ENVIRONMENT AND FORESTS › entry 17 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 10,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF ENVIRONMENT AND FORESTS › entry 18 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 20,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF PETRO- LEUM AND NATURAL GAS › entry 6 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 20,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF PETRO- LEUM AND NATURAL GAS › entry 7 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 20,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF PETRO- LEUM AND NATURAL GAS › entry 8 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 20,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF PETRO- LEUM AND NATURAL GAS › entry 9 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 20,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF PETRO- LEUM AND NATURAL GAS › entry 10 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 20,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF PETRO- LEUM AND NATURAL GAS › entry 11 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 20,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF PETRO- LEUM AND NATURAL GAS › entry 12 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 20,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF PETRO- LEUM AND NATURAL GAS › entry 13 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 20,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF PETRO- LEUM AND NATURAL GAS › entry 14 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 20,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF PETRO- LEUM AND NATURAL GAS › entry 15 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 20,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF PETRO- LEUM AND NATURAL GAS › entry 16 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 20,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF PETRO- LEUM AND NATURAL GAS › entry 17 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  }
+ ],
+ "rules": [
+  {
+   "rule": "loose",
+   "seq": 8,
+   "note": "change 8: ministry MINISTRY OF CIVIL supplie AND PUBLIC DISTRIBUTION taken for ministry Ministry of Civil Supplies and Public Distribution, named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "loose",
+   "seq": 10,
+   "note": "change 10: ministry MINISTRY OF ENVIRONMENT AND FOREST taken for ministry MINISTRY OF ENVIRONMENT AND FORESTS, named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "loose",
+   "seq": 10,
+   "note": "change 10: department DEPARTMENT OF ENVIRONMENT, FOREST AND WILD LIFE taken for department DEPARTMENT OF ENVIRONMENT, FORESTS AND WILD LIFE, named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "loose",
+   "seq": 15,
+   "note": "change 15: ministry MINISTTY OF INDUSTRY taken for ministry MINISTRY OF INDUSTRY, named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "loose",
+   "seq": 19,
+   "note": "change 19: ministry MINISTRY OF PETROLEU AND CHEMICALS taken for ministry MINISTRY OF PETROLEUM AND CHEMICALS, named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  }
+ ],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_452E_1991",
+   "op": "replace",
+   "source_ref": "2",
+   "path": "schedule 1",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_452E_1991",
+   "op": "omit",
+   "source_ref": "3(a)",
+   "path": "schedule 2 › ministry Ministry of Agriculture › department Department of Rural Development ; schedule 2 › ministry Ministry of Agriculture › department Department of Fertilizers",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_452E_1991",
+   "op": "insert",
+   "source_ref": "3(b)",
+   "path": "schedule 2 › ministry Ministry of Agriculture",
+   "status": "applied"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_452E_1991",
+   "op": "replace",
+   "source_ref": "3(c)(i)",
+   "path": "schedule 2 › ministry Ministry of Civil Aviation",
+   "status": "applied"
+  },
+  {
+   "seq": 5,
+   "doc_id": "GOI_SO_452E_1991",
+   "op": "insert",
+   "source_ref": "3(c)(ii)",
+   "path": "schedule 2 › ministry Ministry of Civil Aviation and Tourism",
+   "status": "applied"
+  },
+  {
+   "seq": 6,
+   "doc_id": "GOI_SO_452E_1991",
+   "op": "insert",
+   "source_ref": "3(c)(iii)",
+   "path": "schedule 2 › ministry Ministry of Civil Aviation and Tourism › department Department of Civil Aviation",
+   "status": "applied"
+  },
+  {
+   "seq": 7,
+   "doc_id": "GOI_SO_452E_1991",
+   "op": "insert",
+   "source_ref": "3(d)",
+   "path": "schedule 2 › ministry Ministry of Civil Aviation and Tourism",
+   "status": "applied"
+  },
+  {
+   "seq": 8,
+   "doc_id": "GOI_SO_452E_1991",
+   "op": "insert",
+   "source_ref": "3(e)",
+   "path": "schedule 2 › ministry MINISTRY OF CIVIL supplie AND PUBLIC DISTRIBUTION",
+   "status": "applied"
+  },
+  {
+   "seq": 9,
+   "doc_id": "GOI_SO_452E_1991",
+   "op": "omit",
+   "source_ref": "3(f)",
+   "path": "schedule 2 › ministry MINISTRY OF ENERGY",
+   "status": "applied"
+  },
+  {
+   "seq": 10,
+   "doc_id": "GOI_SO_452E_1991",
+   "op": "omit",
+   "source_ref": "3(g)",
+   "path": "schedule 2 › ministry MINISTRY OF ENVIRONMENT AND FOREST › department DEPARTMENT OF ENVIRONMENT, FOREST AND WILD LIFE",
+   "status": "applied"
+  },
+  {
+   "seq": 11,
+   "doc_id": "GOI_SO_452E_1991",
+   "op": "replace",
+   "source_ref": "3(h)(i)",
+   "path": "schedule 2 › ministry MINISTRY OF FOOD AND CIVIL SUPPLIES",
+   "status": "applied"
+  },
+  {
+   "seq": 12,
+   "doc_id": "GOI_SO_452E_1991",
+   "op": "omit",
+   "source_ref": "3(h)(ii)",
+   "path": "schedule 2 › ministry MINISTRY OF FOOD › department DEPARTMENT OF FOOD",
+   "status": "applied"
+  },
+  {
+   "seq": 13,
+   "doc_id": "GOI_SO_452E_1991",
+   "op": "omit",
+   "source_ref": "3(h)(iii)",
+   "path": "schedule 2 › ministry MINISTRY OF FOOD › department DEPARTMENT OF CIVIL SUPPLIES",
+   "status": "applied"
+  },
+  {
+   "seq": 14,
+   "doc_id": "GOI_SO_452E_1991",
+   "op": "insert",
+   "source_ref": "3(i)",
+   "path": "schedule 2 › ministry MINISTRY OF HUMAN RESOURCE DEVELOPMENT › department DEPARTMENT OF CULTURE",
+   "status": "applied"
+  },
+  {
+   "seq": 15,
+   "doc_id": "GOI_SO_452E_1991",
+   "op": "replace",
+   "source_ref": "3(j)",
+   "path": "schedule 2 › ministry MINISTTY OF INDUSTRY › department DEPARTMENT OF COMPANY AFFAIRS",
+   "status": "applied"
+  },
+  {
+   "seq": 16,
+   "doc_id": "GOI_SO_452E_1991",
+   "op": "replace",
+   "source_ref": "3(k)",
+   "path": "schedule 2 › ministry MINISTRY OF LAW AND JUSTICE",
+   "status": "applied"
+  },
+  {
+   "seq": 17,
+   "doc_id": "GOI_SO_452E_1991",
+   "op": "insert",
+   "source_ref": "3(k)",
+   "path": "schedule 2 › ministry MINISTRY OF LAW, JUSTICE AND COMPANY AFFAIRS › department DEPARTMENT OF JUSTICE",
+   "status": "applied"
+  },
+  {
+   "seq": 18,
+   "doc_id": "GOI_SO_452E_1991",
+   "op": "insert",
+   "source_ref": "3(l)",
+   "path": "schedule 2 › ministry MINISTRY OF LAW, JUSTICE AND COMPANY AFFAIRS",
+   "status": "applied"
+  },
+  {
+   "seq": 19,
+   "doc_id": "GOI_SO_452E_1991",
+   "op": "replace",
+   "source_ref": "3(m)(i)",
+   "path": "schedule 2 › ministry MINISTRY OF PETROLEU AND CHEMICALS",
+   "status": "applied"
+  },
+  {
+   "seq": 20,
+   "doc_id": "GOI_SO_452E_1991",
+   "op": "omit",
+   "source_ref": "3(m)(ii)",
+   "path": "schedule 2 › ministry MINISTRY OF PETROLEUM AND NATURAL GAS › department DEPARTMENT OF PETROLEUM AND NATURAL GAS",
+   "status": "applied"
+  },
+  {
+   "seq": 21,
+   "doc_id": "GOI_SO_452E_1991",
+   "op": "omit",
+   "source_ref": "3(m)(iii)",
+   "path": "schedule 2 › ministry MINISTRY OF PETROLEUM AND NATURAL GAS › department DEPARTMENT OF CHEMICALS AND PETRO-CHEMICALS",
+   "status": "applied"
+  },
+  {
+   "seq": 22,
+   "doc_id": "GOI_SO_452E_1991",
+   "op": "replace",
+   "source_ref": "3(n)",
+   "path": "schedule 2 › ministry MINISTRY OF PLANNING ; schedule 2 › ministry MINISTRY OF PROGRAMME IMPLEMENTATION",
+   "status": "applied"
+  },
+  {
+   "seq": 23,
+   "doc_id": "GOI_SO_452E_1991",
+   "op": "insert",
+   "source_ref": "3(o)",
+   "path": "schedule 2 › ministry MINISTRY OF PLANNING AND PROGRAMME IMPLEMENTATION",
+   "status": "applied"
+  },
+  {
+   "seq": 24,
+   "doc_id": "GOI_SO_452E_1991",
+   "op": "insert",
+   "source_ref": "3(p)",
+   "path": "schedule 2 › ministry MINISTRY OF POWER AND NON-CONVENTIONAL ENERGY SOURCES",
+   "status": "applied"
+  },
+  {
+   "seq": 25,
+   "doc_id": "GOI_SO_452E_1991",
+   "op": "replace",
+   "source_ref": "3(q)(i)",
+   "path": "schedule 2 › ministry MINISTRY OF STEEL AND MINES",
+   "status": "applied"
+  },
+  {
+   "seq": 26,
+   "doc_id": "GOI_SO_452E_1991",
+   "op": "omit",
+   "source_ref": "3(q)(ii)",
+   "path": "schedule 2 › ministry MINISTRY OF STEEL › department DEPARTMENT OF STEEL",
+   "status": "applied"
+  },
+  {
+   "seq": 27,
+   "doc_id": "GOI_SO_452E_1991",
+   "op": "omit",
+   "source_ref": "3(q)(iii)",
+   "path": "schedule 2 › ministry MINISTRY OF STEEL › department DEPARTMENT OF MINES",
+   "status": "applied"
+  },
+  {
+   "seq": 28,
+   "doc_id": "GOI_SO_452E_1991",
+   "op": "omit",
+   "source_ref": "3(r)",
+   "path": "schedule 2 › ministry MINISTRY OF WELFARE › department DEPARTMENT OF WELFARE",
+   "status": "applied"
+  },
+  {
+   "seq": 29,
+   "doc_id": "GOI_SO_452E_1991",
+   "op": "omit",
+   "source_ref": "3(r)",
+   "path": "schedule 2 › ministry MINISTRY OF WELFARE › department DEPARTMENT OF WOMEN AND CHILD DEVELOPMENT",
+   "status": "applied"
+  }
+ ],
+ "bridge": {
+  "substitutes": "the First Schedule",
+  "first_schedule_changes": 92
+ },
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

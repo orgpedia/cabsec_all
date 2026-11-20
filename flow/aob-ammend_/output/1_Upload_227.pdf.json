@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_227.pdf",
     "sha256": "9be733aa858a98b9d60441c4bb18f00d06aff1aa222745e8b69fdaea1c04bc97",
     "govdoc": "1_Upload_227.pdf.govdoc.json.zst",
-    "revision": 109
+    "revision": 133
   },
   "documents": [
     {
@@ -29,9 +29,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "3",
+          "version": "4",
           "model": "gemini-4-argon",
-          "at": "2026-11-12T12:56:37.541005+00:00"
+          "at": "2026-11-15T16:24:42.010534+00:00"
         },
         "ops": [
           {
@@ -39,7 +39,7 @@
             "source_ref": "2(a)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r73.rel1",
+            "relation": "r126.rel1",
             "position": "after",
             "anchor": {
               "cited": [
@@ -102,7 +102,7 @@
             "source_ref": "2(b)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r73.rel2",
+            "relation": "r126.rel2",
             "position": "after",
             "anchor": {
               "cited": [
@@ -174,7 +174,7 @@
             "source_ref": "2(c)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r73.rel3",
+            "relation": "r126.rel3",
             "position": "after",
             "anchor": {
               "cited": [
@@ -219,7 +219,9 @@
                 "text": "National Institute of Immunology (NII), New Delhi."
               }
             ],
-            "flags": [],
+            "flags": [
+              "states_inferred_loose"
+            ],
             "words": [
               "r1.w527",
               "r1.w535"

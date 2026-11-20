@@ -1,0 +1,153 @@
+{
+ "file": "1_Upload_63.pdf",
+ "kind": "checkpoint",
+ "series": 30,
+ "date": "1964-06-14",
+ "govdoc": "aob-rules_/output/1_Upload_63.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794762104.8270757,
+ "edits_file": "aob-rules_/conf/1_Upload_63.pdf.edits.yml",
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_63.pdf",
+  "portal": "cabsec_aob_rules",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T14:02:14.635465+00:00",
+  "sha256": "cc2c4a13135ed45292c845b6f63d2d76b3d0431332a55ced516f3b5372ee2bfe",
+  "pages": 8
+ },
+ "edits": [
+  {
+   "run": "h1",
+   "by": "claude",
+   "at": "2026-11-12T16:01:00+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r1.w212",
+     "before": {
+      "text": "6."
+     },
+     "after": {
+      "text": "8."
+     }
+    }
+   ]
+  },
+  {
+   "run": "h2",
+   "by": "claude",
+   "at": "2026-11-12T16:02:00+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r1.w218",
+     "before": {
+      "text": "(1)"
+     },
+     "after": {
+      "text": "(i)"
+     }
+    }
+   ]
+  },
+  {
+   "run": "h3",
+   "by": "claude",
+   "at": "2026-11-12T16:03:00+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r1.w334",
+     "before": {
+      "text": "(1)"
+     },
+     "after": {
+      "text": "(i)"
+     }
+    }
+   ]
+  },
+  {
+   "run": "h4",
+   "by": "claude",
+   "at": "2026-11-12T16:04:00+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r1.w310",
+     "before": {
+      "text": "SFC."
+     },
+     "after": {
+      "text": "SEC."
+     }
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-12T12:35:43.396474+00:00",
+   "stamp": "8cf66bf6a87dbcfc"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r33",
+   "at": "2026-11-13T11:50:17.670234+00:00",
+   "stamp": "6159d3ca24e48b06"
+  },
+  {
+   "step": "layout",
+   "task": "page_blocks",
+   "version": "3",
+   "tool": "block_builder",
+   "run": "r34",
+   "at": "2026-11-13T11:53:07.566787+00:00",
+   "stamp": "2a897222fdb24513"
+  },
+  {
+   "step": "split",
+   "task": "one_document",
+   "version": "2",
+   "tool": "splitter",
+   "run": "r35",
+   "at": "2026-11-13T11:55:27.232836+00:00",
+   "stamp": "5015e2b5797daf09"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r49",
+   "at": "2026-11-15T17:01:44.803079+00:00",
+   "stamp": "8ef627f76027ea75"
+  }
+ ],
+ "reviews": [],
+ "issues": [],
+ "problems": [
+  {
+   "series": 30,
+   "seq": 13,
+   "code": "old_path_missing",
+   "severity": "error",
+   "message": "change 13: no department Department of Technical Development under schedule 2",
+   "cause": "unit_not_found"
+  }
+ ],
+ "rules": [],
+ "changes": [],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

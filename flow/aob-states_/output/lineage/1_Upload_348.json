@@ -1,0 +1,153 @@
+{
+ "file": "1_Upload_348.pdf",
+ "kind": "amendment",
+ "series": 303,
+ "date": "2013-09-05",
+ "govdoc": "aob-ammend_/output/1_Upload_348.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826683.3470757,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_348.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T14:00:34.532694+00:00",
+  "sha256": "26cd480a0ff919ad8210148bb4ae9c15338bdfe38020e3e7111c4d065e642738",
+  "pages": 2
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r52",
+   "at": "2026-11-04T13:34:20.201875+00:00",
+   "stamp": "c1c603dacb3a46f5"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r198",
+   "at": "2026-11-15T12:41:26.566318+00:00",
+   "stamp": "f224a591fd83fe92"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r199",
+   "at": "2026-11-15T12:41:28.867351+00:00",
+   "stamp": "931136ab749fe854"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r200",
+   "at": "2026-11-15T12:41:30.684436+00:00",
+   "stamp": "44e92075a4cab5eb"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r209",
+   "at": "2026-11-15T16:23:56.963855+00:00",
+   "stamp": "ade0ec460ce3ac62",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r210",
+   "at": "2026-11-15T16:23:58.616651+00:00",
+   "stamp": "5d9a49239edb928a",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r211",
+   "at": "2026-11-15T16:24:00.011650+00:00",
+   "stamp": "7af62ccb0d27c909",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r217",
+   "at": "2026-11-15T16:57:20.684297+00:00",
+   "stamp": "7afd39b7519b9b2d"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r218",
+   "at": "2026-11-15T17:03:12.867754+00:00",
+   "stamp": "da500b63dc17cc1b"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r223",
+   "at": "2026-11-16T10:58:03.331582+00:00",
+   "stamp": "e2b09c1a425d1fb4"
+  }
+ ],
+ "reviews": [],
+ "issues": [],
+ "problems": [],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_2694E_2013",
+   "op": "omit",
+   "source_ref": "2(a)(i)",
+   "path": "schedule 2 › ministry MINISTRY OF CONSUMER AFFAIRS, FOOD AND PUBLIC DISTRIBUTION › department DEPARTMENT OF CONSUMER AFFAIRS › entry 3 ; schedule 2 › ministry MINISTRY OF CONSUMER AFFAIRS, FOOD AND PUBLIC DISTRIBUTION › department DEPARTMENT OF CONSUMER AFFAIRS › entry 11",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_2694E_2013",
+   "op": "insert",
+   "source_ref": "2(b)(i)",
+   "path": "schedule 2 › ministry MINISTRY OF FINANCE › department DEPARTMENT OF ECONOMIC AFFAIRS › entry 23 (b)",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_2694E_2013",
+   "op": "insert",
+   "source_ref": "2(b)(ii)",
+   "path": "schedule 2 › ministry MINISTRY OF FINANCE › department DEPARTMENT OF ECONOMIC AFFAIRS › entry 105",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

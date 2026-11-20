@@ -1,0 +1,2292 @@
+{
+ "file": "1_Upload_215.pdf",
+ "kind": "amendment",
+ "series": 177,
+ "date": "1985-12-01",
+ "govdoc": "aob-ammend_/output/1_Upload_215.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826682.8461938,
+ "edits_file": "aob-ammend_/conf/1_Upload_215.pdf.edits.yml",
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_215.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:56:48.783386+00:00",
+  "sha256": "0f209a91b742561013bf884dad22340782e0bbd9c1b945559ec088defafac2c6",
+  "pages": 14
+ },
+ "edits": [
+  {
+   "run": "h1",
+   "by": "mukundesh",
+   "at": "2026-11-11T10:43:58+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r1.w4775",
+     "before": {
+      "text": "Persona.]"
+     },
+     "after": {
+      "text": "Personnel"
+     }
+    }
+   ]
+  },
+  {
+   "run": "h2",
+   "by": "mukundesh",
+   "at": "2026-11-11T11:30:43+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r1.w4772",
+     "before": {
+      "text": "\"1.8"
+     },
+     "after": {
+      "text": "\"18."
+     }
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-11T03:01:08.101060+00:00",
+   "stamp": "b62d643bb136d9c8"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r129",
+   "at": "2026-11-15T12:41:25.588618+00:00",
+   "stamp": "b37bb4ba227a58af"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r130",
+   "at": "2026-11-15T12:41:27.937139+00:00",
+   "stamp": "90c8aeb7246d54b5"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r131",
+   "at": "2026-11-15T12:41:29.966638+00:00",
+   "stamp": "2d9e9519c884df98"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r140",
+   "at": "2026-11-15T16:23:56.262171+00:00",
+   "stamp": "fde0619ed4066c4f",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r141",
+   "at": "2026-11-15T16:26:43.313930+00:00",
+   "stamp": "56da9e0324aa640b",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r142",
+   "at": "2026-11-15T16:26:43.556552+00:00",
+   "stamp": "81e56bfafab296ae",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r148",
+   "at": "2026-11-15T16:57:19.901119+00:00",
+   "stamp": "33c08e3d3d7b6437"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r149",
+   "at": "2026-11-15T17:03:11.541272+00:00",
+   "stamp": "15d9dcd999de9c7b"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r154",
+   "at": "2026-11-16T10:58:02.654856+00:00",
+   "stamp": "ffd25300abb0290a"
+  }
+ ],
+ "reviews": [
+  {
+   "id": "h1.v2",
+   "target": "r24.a5",
+   "status": "pending",
+   "by": "mukundesh",
+   "at": "2026-11-11T10:43:58+00:00",
+   "note": "moved by a loose match after h1.e1"
+  },
+  {
+   "id": "h1.v3",
+   "target": "r25.a1",
+   "status": "pending",
+   "by": "mukundesh",
+   "at": "2026-11-11T10:43:58+00:00",
+   "note": "moved by a loose match after h1.e1"
+  },
+  {
+   "id": "h2.v2",
+   "target": "r24.a5",
+   "status": "pending",
+   "by": "mukundesh",
+   "at": "2026-11-11T11:30:43+00:00",
+   "note": "moved by a loose match after h2.e1"
+  },
+  {
+   "id": "h2.v3",
+   "target": "r25.a1",
+   "status": "pending",
+   "by": "mukundesh",
+   "at": "2026-11-11T11:30:43+00:00",
+   "note": "moved by a loose match after h2.e1"
+  },
+  {
+   "id": "h2.v4",
+   "target": "r36.a3",
+   "status": "pending",
+   "by": "mukundesh",
+   "at": "2026-11-11T11:30:43+00:00",
+   "note": "moved by a loose match after h2.e1"
+  },
+  {
+   "id": "h2.v5",
+   "target": "r37.a1",
+   "status": "pending",
+   "by": "mukundesh",
+   "at": "2026-11-11T11:30:43+00:00",
+   "note": "moved by a loose match after h2.e1"
+  }
+ ],
+ "issues": [
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 12: its quoted text runs across a page break",
+   "target": "r142.rel12",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 23: its quoted text runs across a page break",
+   "target": "r142.rel23",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 69: its quoted text runs across a page break",
+   "target": "r142.rel69",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
+   "message": "change 6: department Dep.itment of Rural Development taken for department DEPARTMENT OF RURAL DEVELOPMENT, named loosely",
+   "target": "r142.rel6",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
+   "message": "change 11: department Department of Defence Production and Sa s taken for department DEPARTMENT OF DEFENCE PRODUCTION AND SUPPLIES, named loosely",
+   "target": "r142.rel11",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
+   "message": "change 12: department Department of Defence Production and Sa s taken for department DEPARTMENT OF DEFENCE PRODUCTION AND SUPPLIES, named loosely",
+   "target": "r142.rel12",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
+   "message": "change 12: department Department of Defence Production and Sa s taken for department DEPARTMENT OF DEFENCE PRODUCTION AND SUPPLIES, named loosely",
+   "target": "r142.rel12",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
+   "message": "change 13: department Department of Defence Production and Sa s taken for department DEPARTMENT OF DEFENCE PRODUCTION AND SUPPLIES, named loosely",
+   "target": "r142.rel13",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
+   "message": "change 14: department Department of Defence Production and Sa s taken for department DEPARTMENT OF DEFENCE PRODUCTION AND SUPPLIES, named loosely",
+   "target": "r142.rel14",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
+   "message": "change 14: department Department of Defence Production and Sa s taken for department DEPARTMENT OF DEFENCE PRODUCTION AND SUPPLIES, named loosely",
+   "target": "r142.rel14",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
+   "message": "change 34: ministry Ministry of Food and Civil Supp- fies taken for ministry MINISTRY OF FOOD AND CIVIL SUPPLIES (KHADYA AUR NAGRIK POORTI MANTRA- LAYA), named loosely",
+   "target": "r142.rel34",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
+   "message": "change 35: ministry Ministry of Food and Civil Supp- fies taken for ministry MINISTRY OF FOOD AND CIVIL SUPPLIES (KHADYA AUR NAGRIK POORTI MANTRA- LAYA), named loosely",
+   "target": "r142.rel35",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
+   "message": "change 36: ministry Ministry of Food and Civil Supp- fies taken for ministry MINISTRY OF FOOD AND CIVIL SUPPLIES (KHADYA AUR NAGRIK POORTI MANTRA- LAYA), named loosely",
+   "target": "r142.rel36",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
+   "message": "change 37: ministry Ministry of Food and Civil Supp- fies taken for ministry MINISTRY OF FOOD AND CIVIL SUPPLIES (KHADYA AUR NAGRIK POORTI MANTRA- LAYA), named loosely",
+   "target": "r142.rel37",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
+   "message": "change 38: ministry Ministry of Food and Civil Supp- fies taken for ministry MINISTRY OF FOOD AND CIVIL SUPPLIES (KHADYA AUR NAGRIK POORTI MANTRA- LAYA), named loosely",
+   "target": "r142.rel38",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
+   "message": "change 59: department Department of Company Affurs taken for department DEPARTMENT OF COMPANY AFFAIRS, named loosely",
+   "target": "r142.rel59",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
+   "message": "change 62: department Department of Iegal Affans taken for department DEPARTMENT OF LEGAL AFFAIRS, named loosely",
+   "target": "r142.rel62",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
+   "message": "change 63: department Department of Iegal Affans taken for department DEPARTMENT OF LEGAL AFFAIRS, named loosely",
+   "target": "r142.rel63",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
+   "message": "change 64: department Department of Iegal Affans taken for department DEPARTMENT OF LEGAL AFFAIRS, named loosely",
+   "target": "r142.rel64",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
+   "message": "change 65: department Department of Iegal Affans taken for department DEPARTMENT OF LEGAL AFFAIRS, named loosely",
+   "target": "r142.rel65",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
+   "message": "change 66: department Department of Iegal Affans taken for department DEPARTMENT OF LEGAL AFFAIRS, named loosely",
+   "target": "r142.rel66",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
+   "message": "change 66: department Department of Iegal Affans taken for department DEPARTMENT OF LEGAL AFFAIRS, named loosely",
+   "target": "r142.rel66",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
+   "message": "change 67: ministry Ministry of Parliamentary Aflairs and tourism taken for ministry MINISTRY OF PARLIAMENTARY AFFAIRS AND TOURISM, named loosely",
+   "target": "r142.rel67",
+   "status": "open"
+  }
+ ],
+ "problems": [
+  {
+   "series": 177,
+   "seq": 4,
+   "code": "old_words_missing",
+   "severity": "error",
+   "message": "change 4: the words to substitute are not in schedule 2 › ministry MINISTRY OF AGRICULTURE › department B › part I › entry 1",
+   "cause": "words_differ"
+  },
+  {
+   "series": 177,
+   "seq": 8,
+   "code": "old_words_missing",
+   "severity": "error",
+   "message": "change 8: the words to substitute are not in schedule 2 › ministry MINISTRY OF COMMUNICATIONS › department A › entry 3",
+   "cause": "words_differ"
+  },
+  {
+   "series": 177,
+   "seq": 13,
+   "code": "old_words_missing",
+   "severity": "error",
+   "message": "change 13: the words to substitute are not in schedule 2 › ministry MINISTRY OF DEFENCE (RANSHA MAN TRALAYA) › department B › entry 8",
+   "cause": "words_differ"
+  },
+  {
+   "series": 177,
+   "seq": 32,
+   "code": "old_words_missing",
+   "severity": "error",
+   "message": "change 32: the words to substitute are not in schedule 2 › ministry MINISTRY OF FINANCE › department C › entry 16",
+   "cause": "words_differ"
+  },
+  {
+   "series": 177,
+   "seq": 49,
+   "code": "old_path_missing",
+   "severity": "error",
+   "message": "change 49: no item 1 under schedule 2 › ministry MINISTRY OF HOME AFFAIRS › department B › group_heading III › entry 9",
+   "cause": "items"
+  },
+  {
+   "series": 177,
+   "seq": 52,
+   "code": "old_words_missing",
+   "severity": "error",
+   "message": "change 52: the words to substitute are not in schedule 2 › ministry MINISTRY OF HUMAN RESOURCE DEVELOP- MENT › department D › entry 1",
+   "cause": "words_differ"
+  },
+  {
+   "series": 271,
+   "seq": 3,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF AGRICULTURE › department A › part IV › entry 44 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 5,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF AGRICULTURE › department B › part I is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 10,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF DEFENCE (RANSHA MAN TRALAYA) › department A › entry 13 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 10,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF DEFENCE (RANSHA MAN TRALAYA) › department A › entry 16 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 11,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF DEFENCE (RANSHA MAN TRALAYA) › department B is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 20,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF EXTERNAL AFFAIRS › entry 19 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 21,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF EXTERNAL AFFAIRS › entry 25 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 22,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF EXTERNAL AFFAIRS › entry 27 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading I is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading II is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading III is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading V is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading I is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading II is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading U is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading III is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading IV › entry 27 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading IV › entry 36 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading IV › entry 44 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading IV › entry 45 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading IV › entry 46 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading IV › entry 47 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading IV › entry 25 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading IV › entry 26 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading IV › entry 28 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading IV › entry 28 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading IV › entry 29 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading IV › entry 30 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading IV › entry 31 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading IV › entry 32 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading IV › entry 33 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading IV › entry 34 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading IV › entry 35 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading IV › entry 37 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading IV › entry 38 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading IV › entry 39 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading IV › entry 40 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading IV › entry 41 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading IV › entry 42 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading IV › entry 43 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading V reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading V › entry 82 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading V › entry 83 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading V › entry 84 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading V › entry 85 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading V › entry 86 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading V › entry 87 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading V › entry 88 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading V › entry 89 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading V › entry 90 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading V › entry 91 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading V › entry 92 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading V › entry 93 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading V › entry 94 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading V › entry 95 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading V › entry 96 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading V › entry 97 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading V › entry 98 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading V › entry 99 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading V › entry 100 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading V › entry 101 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading V › entry 102 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading V › entry 103 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading V › entry 104 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading V › entry 105 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading V › entry 44 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading V › entry 45 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading V › entry 46 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading V › entry 47 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading V › entry 48 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading V › entry 49 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading V › entry 50 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading V › entry 51 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading V › entry 53 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading V › entry 54 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading V › entry 55 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading V › entry 56 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading V › entry 57 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading V › entry 58 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading V › entry 59 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading V › entry 60 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading V › entry 61 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading V › entry 62 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading V › entry 63 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading V › entry 64 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading VI is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading VII › entry 79 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading VII › entry 69 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading VIII › entry 80 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading VIII › entry 81 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading VIII › entry 70 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading VIII › entry 71 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading IX reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading IX › entry 52 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading IX › entry 53 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading IX › entry 54 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading IX › entry 55 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading IX › entry 56 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading IX › entry 57 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading IX › entry 58 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading IX › entry 59 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading IX › entry 60 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading IX › entry 61 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading IX › entry 62 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading IX › entry 63 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading IX › entry 64 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading IX › entry 65 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading IX › entry 66 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading IX › entry 67 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading IX › entry 68 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading IX › entry 69 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading IX › entry 70 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading IX › entry 71 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading IX › entry 72 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading IX › entry 73 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading IX › entry 74 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading IX › entry 75 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading IX › entry 76 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading IX › entry 77 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading IX › entry 78 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading IX › entry 79 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 25,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department C › entry 1 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 26,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department C › entry 4 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 27,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department C › entry 6 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 28,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department C › entry 7 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 29,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department C › entry 8A is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 29,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department C › entry 9 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 29,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department C › entry 10 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 33,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department C › entry 18 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 39,
+   "code": "new_hindi_differs",
+   "severity": "info",
+   "message": "schedule 2 › ministry MINISTRY OF HOME AFFAIRS › department A's Hindi name reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 39,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HOME AFFAIRS › department A › group_heading I › entry 3A is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 41,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HOME AFFAIRS › department A › group_heading I › entry 10A is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 40,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HOME AFFAIRS › department A › group_heading GA is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 42,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HOME AFFAIRS › department A › group_heading II › entry 13 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 43,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HOME AFFAIRS › department A › group_heading II › entry 19A is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 44,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HOME AFFAIRS › department A › group_heading II › entry 20 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 45,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HOME AFFAIRS › department A › group_heading II › entry 22 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 46,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HOME AFFAIRS › department A › group_heading II › entry 25A is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 48,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HOME AFFAIRS › department A › group_heading III is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 61,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF LABOUR › part V › entry 25 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 62,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF LAW AND JUSTICE › department A › entry 1 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 64,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF LAW AND JUSTICE › department A › entry 9 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 65,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF LAW AND JUSTICE › department A › entry 10 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 69,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry Ministry of Personnel Public Grievances and Pen sions (Karmik, lok Shikayat tatha Pension Mantralaya) › department C › entry 1 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 69,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry Ministry of Personnel Public Grievances and Pen sions (Karmik, lok Shikayat tatha Pension Mantralaya) › department C › entry 3 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 69,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry Ministry of Personnel Public Grievances and Pen sions (Karmik, lok Shikayat tatha Pension Mantralaya) › department C › text is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 69,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry Ministry of Personnel Public Grievances and Pen sions (Karmik, lok Shikayat tatha Pension Mantralaya) › department C › entry 2 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 69,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry Ministry of Personnel Public Grievances and Pen sions (Karmik, lok Shikayat tatha Pension Mantralaya) › department C › entry 7 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 69,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry Ministry of Personnel Public Grievances and Pen sions (Karmik, lok Shikayat tatha Pension Mantralaya) › department C › entry 4 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 69,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry Ministry of Personnel Public Grievances and Pen sions (Karmik, lok Shikayat tatha Pension Mantralaya) › department C › note reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  }
+ ],
+ "rules": [
+  {
+   "rule": "loose",
+   "seq": 6,
+   "note": "change 6: department Dep.itment of Rural Development taken for department DEPARTMENT OF RURAL DEVELOPMENT, named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "loose",
+   "seq": 11,
+   "note": "change 11: department Department of Defence Production and Sa s taken for department DEPARTMENT OF DEFENCE PRODUCTION AND SUPPLIES, named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "loose",
+   "seq": 12,
+   "note": "change 12: department Department of Defence Production and Sa s taken for department DEPARTMENT OF DEFENCE PRODUCTION AND SUPPLIES, named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "loose",
+   "seq": 12,
+   "note": "change 12: department Department of Defence Production and Sa s taken for department DEPARTMENT OF DEFENCE PRODUCTION AND SUPPLIES, named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "loose",
+   "seq": 13,
+   "note": "change 13: department Department of Defence Production and Sa s taken for department DEPARTMENT OF DEFENCE PRODUCTION AND SUPPLIES, named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "loose",
+   "seq": 14,
+   "note": "change 14: department Department of Defence Production and Sa s taken for department DEPARTMENT OF DEFENCE PRODUCTION AND SUPPLIES, named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "loose",
+   "seq": 14,
+   "note": "change 14: department Department of Defence Production and Sa s taken for department DEPARTMENT OF DEFENCE PRODUCTION AND SUPPLIES, named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "loose",
+   "seq": 34,
+   "note": "change 34: ministry Ministry of Food and Civil Supp- fies taken for ministry MINISTRY OF FOOD AND CIVIL SUPPLIES (KHADYA AUR NAGRIK POORTI MANTRA- LAYA), named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "loose",
+   "seq": 35,
+   "note": "change 35: ministry Ministry of Food and Civil Supp- fies taken for ministry MINISTRY OF FOOD AND CIVIL SUPPLIES (KHADYA AUR NAGRIK POORTI MANTRA- LAYA), named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "loose",
+   "seq": 36,
+   "note": "change 36: ministry Ministry of Food and Civil Supp- fies taken for ministry MINISTRY OF FOOD AND CIVIL SUPPLIES (KHADYA AUR NAGRIK POORTI MANTRA- LAYA), named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "loose",
+   "seq": 37,
+   "note": "change 37: ministry Ministry of Food and Civil Supp- fies taken for ministry MINISTRY OF FOOD AND CIVIL SUPPLIES (KHADYA AUR NAGRIK POORTI MANTRA- LAYA), named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "loose",
+   "seq": 38,
+   "note": "change 38: ministry Ministry of Food and Civil Supp- fies taken for ministry MINISTRY OF FOOD AND CIVIL SUPPLIES (KHADYA AUR NAGRIK POORTI MANTRA- LAYA), named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "loose",
+   "seq": 59,
+   "note": "change 59: department Department of Company Affurs taken for department DEPARTMENT OF COMPANY AFFAIRS, named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "loose",
+   "seq": 62,
+   "note": "change 62: department Department of Iegal Affans taken for department DEPARTMENT OF LEGAL AFFAIRS, named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "loose",
+   "seq": 63,
+   "note": "change 63: department Department of Iegal Affans taken for department DEPARTMENT OF LEGAL AFFAIRS, named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "loose",
+   "seq": 64,
+   "note": "change 64: department Department of Iegal Affans taken for department DEPARTMENT OF LEGAL AFFAIRS, named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "loose",
+   "seq": 65,
+   "note": "change 65: department Department of Iegal Affans taken for department DEPARTMENT OF LEGAL AFFAIRS, named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "loose",
+   "seq": 66,
+   "note": "change 66: department Department of Iegal Affans taken for department DEPARTMENT OF LEGAL AFFAIRS, named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "loose",
+   "seq": 66,
+   "note": "change 66: department Department of Iegal Affans taken for department DEPARTMENT OF LEGAL AFFAIRS, named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "loose",
+   "seq": 67,
+   "note": "change 67: ministry Ministry of Parliamentary Aflairs and tourism taken for ministry MINISTRY OF PARLIAMENTARY AFFAIRS AND TOURISM, named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  }
+ ],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_893E_1985",
+   "op": "replace",
+   "source_ref": "2(1)(i)",
+   "path": "schedule 1 › ministry Ministry of Personnel and Training, Administrative Reforms and Public Grie- vances and Pension",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_893E_1985",
+   "op": "replace",
+   "source_ref": "2(1)(ii)",
+   "path": "schedule 1 › ministry Ministry of Transport › department Department of Railways",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_893E_1985",
+   "op": "substitute_text",
+   "source_ref": "2(2)(i)(a)",
+   "path": "schedule 2 › ministry Ministry of Agriculture › department Department of Agri- culture and Cooperation › group_heading Part IV › entry 44",
+   "status": "applied"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_893E_1985",
+   "op": "substitute_text",
+   "source_ref": "2(2)(i)(b)(i)",
+   "path": "schedule 2 › ministry Ministry of Agriculture › department Department of Agri- cultural Research and Education › group_heading Part I › entry 1",
+   "status": "not_applied",
+   "problem": "change 4: the words to substitute are not in schedule 2 › ministry MINISTRY OF AGRICULTURE › department B › part I › entry 1",
+   "code": "old_words_missing",
+   "cause": "words_differ",
+   "known": "words"
+  },
+  {
+   "seq": 5,
+   "doc_id": "GOI_SO_893E_1985",
+   "op": "substitute_text",
+   "source_ref": "2(2)(i)(b)(ii)",
+   "path": "schedule 2 › ministry Ministry of Agriculture › department Department of Agri- cultural Research and Education › entry 2",
+   "status": "applied"
+  },
+  {
+   "seq": 6,
+   "doc_id": "GOI_SO_893E_1985",
+   "op": "insert",
+   "source_ref": "2(2)(i)(c)",
+   "path": "schedule 2 › ministry Ministry of Agriculture › department Dep.itment of Rural Development › entry 19",
+   "status": "applied"
+  },
+  {
+   "seq": 7,
+   "doc_id": "GOI_SO_893E_1985",
+   "op": "replace",
+   "source_ref": "2(2)(ii)",
+   "path": "schedule 2 › ministry Ministry of Commerce › department Department of Supply",
+   "status": "applied"
+  },
+  {
+   "seq": 8,
+   "doc_id": "GOI_SO_893E_1985",
+   "op": "substitute_text",
+   "source_ref": "2(2)(iii)(a)",
+   "path": "schedule 2 › ministry Ministry of Communications › department Department of Posts › entry 3",
+   "status": "not_applied",
+   "problem": "change 8: the words to substitute are not in schedule 2 › ministry MINISTRY OF COMMUNICATIONS › department A › entry 3",
+   "code": "old_words_missing",
+   "cause": "words_differ",
+   "known": "words"
+  },
+  {
+   "seq": 9,
+   "doc_id": "GOI_SO_893E_1985",
+   "op": "replace",
+   "source_ref": "2(2)(iii)(b)",
+   "path": "schedule 2 › ministry Ministry of Communications › department Department of Telecom- munications › entry 4",
+   "status": "applied"
+  },
+  {
+   "seq": 10,
+   "doc_id": "GOI_SO_893E_1985",
+   "op": "insert",
+   "source_ref": "2(2)(iv)(a)",
+   "path": "schedule 2 › ministry Ministry of Defence › department Department of Defence › entry 13",
+   "status": "applied"
+  },
+  {
+   "seq": 11,
+   "doc_id": "GOI_SO_893E_1985",
+   "op": "replace",
+   "source_ref": "2(2)(iv)(b)(i)",
+   "path": "schedule 2 › ministry Ministry of Defence › department Department of Defence Production and Sa s › entry 1",
+   "status": "applied"
+  },
+  {
+   "seq": 12,
+   "doc_id": "GOI_SO_893E_1985",
+   "op": "replace",
+   "source_ref": "2(2)(iv)(b)(ii)",
+   "path": "schedule 2 › ministry Ministry of Defence › department Department of Defence Production and Sa s › entry 5 ; schedule 2 › ministry Ministry of Defence › department Department of Defence Production and Sa s › entry 6",
+   "status": "applied"
+  },
+  {
+   "seq": 13,
+   "doc_id": "GOI_SO_893E_1985",
+   "op": "substitute_text",
+   "source_ref": "2(2)(iv)(b)(iii)",
+   "path": "schedule 2 › ministry Ministry of Defence › department Department of Defence Production and Sa s › entry 8",
+   "status": "not_applied",
+   "problem": "change 13: the words to substitute are not in schedule 2 › ministry MINISTRY OF DEFENCE (RANSHA MAN TRALAYA) › department B › entry 8",
+   "code": "old_words_missing",
+   "cause": "words_differ",
+   "known": "words"
+  },
+  {
+   "seq": 14,
+   "doc_id": "GOI_SO_893E_1985",
+   "op": "replace",
+   "source_ref": "2(2)(iv)(b)(iv)",
+   "path": "schedule 2 › ministry Ministry of Defence › department Department of Defence Production and Sa s › entry 9 ; schedule 2 › ministry Ministry of Defence › department Department of Defence Production and Sa s › entry 10",
+   "status": "applied"
+  },
+  {
+   "seq": 15,
+   "doc_id": "GOI_SO_893E_1985",
+   "op": "replace",
+   "source_ref": "2(2)(v)",
+   "path": "schedule 2 › ministry Ministry of Energy › department Depart- ment of Power › entry 10 ; schedule 2 › ministry Ministry of Energy › department Depart- ment of Power › entry 11",
+   "status": "applied"
+  },
+  {
+   "seq": 16,
+   "doc_id": "GOI_SO_893E_1985",
+   "op": "insert",
+   "source_ref": "2(2)(vi)",
+   "path": "schedule 2 › ministry Ministry of Environment and Forests › entry 16",
+   "status": "applied"
+  },
+  {
+   "seq": 17,
+   "doc_id": "GOI_SO_893E_1985",
+   "op": "substitute_text",
+   "source_ref": "2(2)(vii)(a)",
+   "path": "schedule 2 › ministry Ministry of External Affairs › entry 5",
+   "status": "applied"
+  },
+  {
+   "seq": 18,
+   "doc_id": "GOI_SO_893E_1985",
+   "op": "substitute_text",
+   "source_ref": "2(2)(vii)(b)",
+   "path": "schedule 2 › ministry Ministry of External Affairs › entry 11",
+   "status": "applied"
+  },
+  {
+   "seq": 19,
+   "doc_id": "GOI_SO_893E_1985",
+   "op": "substitute_text",
+   "source_ref": "2(2)(vii)(b)",
+   "path": "schedule 2 › ministry Ministry of External Affairs › entry 11",
+   "status": "applied"
+  },
+  {
+   "seq": 20,
+   "doc_id": "GOI_SO_893E_1985",
+   "op": "substitute_text",
+   "source_ref": "2(2)(vii)(c)",
+   "path": "schedule 2 › ministry Ministry of External Affairs › entry 19",
+   "status": "applied"
+  },
+  {
+   "seq": 21,
+   "doc_id": "GOI_SO_893E_1985",
+   "op": "substitute_text",
+   "source_ref": "2(2)(vii)(d)",
+   "path": "schedule 2 › ministry Ministry of External Affairs › entry 25 › item a",
+   "status": "applied"
+  },
+  {
+   "seq": 22,
+   "doc_id": "GOI_SO_893E_1985",
+   "op": "replace",
+   "source_ref": "2(2)(vii)(e)",
+   "path": "schedule 2 › ministry Ministry of External Affairs › entry 27 ; schedule 2 › ministry Ministry of External Affairs › entry 28 ; schedule 2 › ministry Ministry of External Affairs › entry 29",
+   "status": "applied"
+  },
+  {
+   "seq": 23,
+   "doc_id": "GOI_SO_893E_1985",
+   "op": "replace",
+   "source_ref": "2(2)(viii)(a)",
+   "path": "schedule 2 › ministry Ministry of Finance › department Depart- ment of Economic Affairs",
+   "status": "applied"
+  },
+  {
+   "seq": 24,
+   "doc_id": "GOI_SO_893E_1985",
+   "op": "omit",
+   "source_ref": "2(2)(viii)(b)",
+   "path": "schedule 2 › ministry Ministry of Finance › department Department of Expendi- ture › entry 6",
+   "status": "applied"
+  },
+  {
+   "seq": 25,
+   "doc_id": "GOI_SO_893E_1985",
+   "op": "replace",
+   "source_ref": "2(2)(viii)(c)(i)",
+   "path": "schedule 2 › ministry Ministry of Finance › department Department of Revenue › entry 1",
+   "status": "applied"
+  },
+  {
+   "seq": 26,
+   "doc_id": "GOI_SO_893E_1985",
+   "op": "substitute_text",
+   "source_ref": "2(2)(viii)(c)(ii)",
+   "path": "schedule 2 › ministry Ministry of Finance › department Department of Revenue › entry 4",
+   "status": "applied"
+  },
+  {
+   "seq": 27,
+   "doc_id": "GOI_SO_893E_1985",
+   "op": "replace",
+   "source_ref": "2(2)(viii)(c)(iii)",
+   "path": "schedule 2 › ministry Ministry of Finance › department Department of Revenue › entry 6 › item b",
+   "status": "applied"
+  },
+  {
+   "seq": 28,
+   "doc_id": "GOI_SO_893E_1985",
+   "op": "replace",
+   "source_ref": "2(2)(viii)(c)(iv)",
+   "path": "schedule 2 › ministry Ministry of Finance › department Department of Revenue › entry 7",
+   "status": "applied"
+  },
+  {
+   "seq": 29,
+   "doc_id": "GOI_SO_893E_1985",
+   "op": "replace",
+   "source_ref": "2(2)(viii)(c)(v)",
+   "path": "schedule 2 › ministry Ministry of Finance › department Department of Revenue › entry 9 ; schedule 2 › ministry Ministry of Finance › department Department of Revenue › entry 10",
+   "status": "applied"
+  },
+  {
+   "seq": 30,
+   "doc_id": "GOI_SO_893E_1985",
+   "op": "omit",
+   "source_ref": "2(2)(viii)(c)(vi)",
+   "path": "schedule 2 › ministry Ministry of Finance › department Department of Revenue › entry 13",
+   "status": "applied"
+  },
+  {
+   "seq": 31,
+   "doc_id": "GOI_SO_893E_1985",
+   "op": "replace",
+   "source_ref": "2(2)(viii)(c)(vii)",
+   "path": "schedule 2 › ministry Ministry of Finance › department Department of Revenue › entry 15",
+   "status": "applied"
+  },
+  {
+   "seq": 32,
+   "doc_id": "GOI_SO_893E_1985",
+   "op": "substitute_text",
+   "source_ref": "2(2)(viii)(c)(viii)",
+   "path": "schedule 2 › ministry Ministry of Finance › department Department of Revenue › entry 16",
+   "status": "not_applied",
+   "problem": "change 32: the words to substitute are not in schedule 2 › ministry MINISTRY OF FINANCE › department C › entry 16",
+   "code": "old_words_missing",
+   "cause": "words_differ",
+   "known": "words"
+  },
+  {
+   "seq": 33,
+   "doc_id": "GOI_SO_893E_1985",
+   "op": "insert",
+   "source_ref": "2(2)(viii)(c)(ix)",
+   "path": "schedule 2 › ministry Ministry of Finance › department Department of Revenue › entry 16",
+   "status": "applied"
+  },
+  {
+   "seq": 34,
+   "doc_id": "GOI_SO_893E_1985",
+   "op": "replace",
+   "source_ref": "2(2)(ix)(a)(i)",
+   "path": "schedule 2 › ministry Ministry of Food and Civil Supp- fies › department Department of Food › entry 1",
+   "status": "applied"
+  },
+  {
+   "seq": 35,
+   "doc_id": "GOI_SO_893E_1985",
+   "op": "omit",
+   "source_ref": "2(2)(ix)(a)(ii)",
+   "path": "schedule 2 › ministry Ministry of Food and Civil Supp- fies › department Department of Food › entry 7",
+   "status": "applied"
+  },
+  {
+   "seq": 36,
+   "doc_id": "GOI_SO_893E_1985",
+   "op": "insert",
+   "source_ref": "2(2)(ix)(a)(iii)",
+   "path": "schedule 2 › ministry Ministry of Food and Civil Supp- fies › department Department of Food › entry 11",
+   "status": "applied"
+  },
+  {
+   "seq": 37,
+   "doc_id": "GOI_SO_893E_1985",
+   "op": "insert",
+   "source_ref": "2(2)(ix)(a)(iv)",
+   "path": "schedule 2 › ministry Ministry of Food and Civil Supp- fies › department Department of Food › entry 15",
+   "status": "applied"
+  },
+  {
+   "seq": 38,
+   "doc_id": "GOI_SO_893E_1985",
+   "op": "omit",
+   "source_ref": "2(2)(ix)(b)",
+   "path": "schedule 2 › ministry Ministry of Food and Civil Supp- fies › department Department of Civil Supplies › entry 15",
+   "status": "applied"
+  },
+  {
+   "seq": 39,
+   "doc_id": "GOI_SO_893E_1985",
+   "op": "insert",
+   "source_ref": "2(2)(x)(a)(i)",
+   "path": "schedule 2 › ministry Ministry of Home Affairs › department Department of Internal Security › entry 3",
+   "status": "applied"
+  },
+  {
+   "seq": 40,
+   "doc_id": "GOI_SO_893E_1985",
+   "op": "insert",
+   "source_ref": "2(2)(x)(a)(ii)",
+   "path": "schedule 2 › ministry Ministry of Home Affairs › department Department of Internal Security › entry 6",
+   "status": "applied"
+  },
+  {
+   "seq": 41,
+   "doc_id": "GOI_SO_893E_1985",
+   "op": "insert",
+   "source_ref": "2(2)(x)(a)(iii)",
+   "path": "schedule 2 › ministry Ministry of Home Affairs › department Department of Internal Security › entry 10",
+   "status": "applied"
+  },
+  {
+   "seq": 42,
+   "doc_id": "GOI_SO_893E_1985",
+   "op": "replace",
+   "source_ref": "2(2)(x)(a)(iv)",
+   "path": "schedule 2 › ministry Ministry of Home Affairs › department Department of Internal Security › entry 13 ; schedule 2 › ministry Ministry of Home Affairs › department Department of Internal Security › entry 14",
+   "status": "applied"
+  },
+  {
+   "seq": 43,
+   "doc_id": "GOI_SO_893E_1985",
+   "op": "insert",
+   "source_ref": "2(2)(x)(a)(v)",
+   "path": "schedule 2 › ministry Ministry of Home Affairs › department Department of Internal Security › entry 19",
+   "status": "applied"
+  },
+  {
+   "seq": 44,
+   "doc_id": "GOI_SO_893E_1985",
+   "op": "replace",
+   "source_ref": "2(2)(x)(a)(vi)",
+   "path": "schedule 2 › ministry Ministry of Home Affairs › department Department of Internal Security › entry 20",
+   "status": "applied"
+  },
+  {
+   "seq": 45,
+   "doc_id": "GOI_SO_893E_1985",
+   "op": "replace",
+   "source_ref": "2(2)(x)(a)(vii)",
+   "path": "schedule 2 › ministry Ministry of Home Affairs › department Department of Internal Security › entry 22",
+   "status": "applied"
+  },
+  {
+   "seq": 46,
+   "doc_id": "GOI_SO_893E_1985",
+   "op": "insert",
+   "source_ref": "2(2)(x)(a)(viii)",
+   "path": "schedule 2 › ministry Ministry of Home Affairs › department Department of Internal Security › entry 25",
+   "status": "applied"
+  },
+  {
+   "seq": 47,
+   "doc_id": "GOI_SO_893E_1985",
+   "op": "omit",
+   "source_ref": "2(2)(x)(a)(ix)",
+   "path": "schedule 2 › ministry Ministry of Home Affairs › department Department of Internal Security › entry 34",
+   "status": "applied"
+  },
+  {
+   "seq": 48,
+   "doc_id": "GOI_SO_893E_1985",
+   "op": "insert",
+   "source_ref": "2(2)(x)(a)(x)",
+   "path": "schedule 2 › ministry Ministry of Home Affairs › department Department of Internal Security › entry 37",
+   "status": "applied"
+  },
+  {
+   "seq": 49,
+   "doc_id": "GOI_SO_893E_1985",
+   "op": "replace",
+   "source_ref": "2(2)(x)(b)(i)",
+   "path": "schedule 2 › ministry Ministry of Home Affairs › department Department of States › entry 9 › item 1",
+   "status": "not_applied",
+   "problem": "change 49: no item 1 under schedule 2 › ministry MINISTRY OF HOME AFFAIRS › department B › group_heading III › entry 9",
+   "code": "old_path_missing",
+   "cause": "items",
+   "known": "items"
+  },
+  {
+   "seq": 50,
+   "doc_id": "GOI_SO_893E_1985",
+   "op": "insert",
+   "source_ref": "2(2)(x)(b)(ii)",
+   "path": "schedule 2 › ministry Ministry of Home Affairs › department Department of States › entry 9",
+   "status": "applied"
+  },
+  {
+   "seq": 51,
+   "doc_id": "GOI_SO_893E_1985",
+   "op": "insert",
+   "source_ref": "2(2)(xi)(a)",
+   "path": "schedule 2 › ministry Ministry of Human Resource Development › department Department of education › entry 51",
+   "status": "applied"
+  },
+  {
+   "seq": 52,
+   "doc_id": "GOI_SO_893E_1985",
+   "op": "substitute_text",
+   "source_ref": "2(2)(xi)(b)(i)",
+   "path": "schedule 2 › ministry Ministry of Human Resource Development › department Department of Culture › entry 1",
+   "status": "not_applied",
+   "problem": "change 52: the words to substitute are not in schedule 2 › ministry MINISTRY OF HUMAN RESOURCE DEVELOP- MENT › department D › entry 1",
+   "code": "old_words_missing",
+   "cause": "words_differ",
+   "known": "words"
+  },
+  {
+   "seq": 53,
+   "doc_id": "GOI_SO_893E_1985",
+   "op": "insert",
+   "source_ref": "2(2)(xi)(b)(ii)",
+   "path": "schedule 2 › ministry Ministry of Human Resource Development › department Department of Culture › entry 1",
+   "status": "applied"
+  },
+  {
+   "seq": 54,
+   "doc_id": "GOI_SO_893E_1985",
+   "op": "substitute_text",
+   "source_ref": "2(2)(xi)(b)(iii)",
+   "path": "schedule 2 › ministry Ministry of Human Resource Development › department Department of Culture › entry 12",
+   "status": "applied"
+  },
+  {
+   "seq": 55,
+   "doc_id": "GOI_SO_893E_1985",
+   "op": "omit",
+   "source_ref": "2(2)(xi)(b)(iv)",
+   "path": "schedule 2 › ministry Ministry of Human Resource Development › department Department of Culture › entry 20",
+   "status": "applied"
+  },
+  {
+   "seq": 56,
+   "doc_id": "GOI_SO_893E_1985",
+   "op": "replace",
+   "source_ref": "2(2)(xii)(a)(i)",
+   "path": "schedule 2 › ministry Ministry of Industry › department Department of Industrial Development › entry 21",
+   "status": "applied"
+  },
+  {
+   "seq": 57,
+   "doc_id": "GOI_SO_893E_1985",
+   "op": "replace",
+   "source_ref": "2(2)(xii)(a)(ii)",
+   "path": "schedule 2 › ministry Ministry of Industry › department Department of Industrial Development › entry 23",
+   "status": "applied"
+  },
+  {
+   "seq": 58,
+   "doc_id": "GOI_SO_893E_1985",
+   "op": "insert",
+   "source_ref": "2(2)(xii)(a)(iii)",
+   "path": "schedule 2 › ministry Ministry of Industry › department Department of Industrial Development › entry 29",
+   "status": "applied"
+  },
+  {
+   "seq": 59,
+   "doc_id": "GOI_SO_893E_1985",
+   "op": "insert",
+   "source_ref": "2(2)(xii)(b)",
+   "path": "schedule 2 › ministry Ministry of Industry › department Department of Company Affurs › entry 8",
+   "status": "applied"
+  },
+  {
+   "seq": 60,
+   "doc_id": "GOI_SO_893E_1985",
+   "op": "omit",
+   "source_ref": "2(2)(xii)(c)",
+   "path": "schedule 2 › ministry Ministry of Industry › department Department of Public Enterprises › entry 48",
+   "status": "applied"
+  },
+  {
+   "seq": 61,
+   "doc_id": "GOI_SO_893E_1985",
+   "op": "replace",
+   "source_ref": "2(2)(xiii)",
+   "path": "schedule 2 › ministry Ministry of Labour › group_heading Pait V › entry 25",
+   "status": "applied"
+  },
+  {
+   "seq": 62,
+   "doc_id": "GOI_SO_893E_1985",
+   "op": "replace",
+   "source_ref": "2(2)(xiv)(i)",
+   "path": "schedule 2 › ministry Ministry of Law and Justice › department Department of Iegal Affans › entry 1",
+   "status": "applied"
+  },
+  {
+   "seq": 63,
+   "doc_id": "GOI_SO_893E_1985",
+   "op": "substitute_text",
+   "source_ref": "2(2)(xiv)(ii)",
+   "path": "schedule 2 › ministry Ministry of Law and Justice › department Department of Iegal Affans › entry 3",
+   "status": "applied"
+  },
+  {
+   "seq": 64,
+   "doc_id": "GOI_SO_893E_1985",
+   "op": "replace",
+   "source_ref": "2(2)(xiv)(iii)",
+   "path": "schedule 2 › ministry Ministry of Law and Justice › department Department of Iegal Affans › entry 9",
+   "status": "applied"
+  },
+  {
+   "seq": 65,
+   "doc_id": "GOI_SO_893E_1985",
+   "op": "substitute_text",
+   "source_ref": "2(2)(xiv)(iv)",
+   "path": "schedule 2 › ministry Ministry of Law and Justice › department Department of Iegal Affans › entry 10",
+   "status": "applied"
+  },
+  {
+   "seq": 66,
+   "doc_id": "GOI_SO_893E_1985",
+   "op": "omit",
+   "source_ref": "2(2)(xiv)(v)",
+   "path": "schedule 2 › ministry Ministry of Law and Justice › department Department of Iegal Affans › entry 11 ; schedule 2 › ministry Ministry of Law and Justice › department Department of Iegal Affans › entry 13",
+   "status": "applied"
+  },
+  {
+   "seq": 67,
+   "doc_id": "GOI_SO_893E_1985",
+   "op": "insert",
+   "source_ref": "2(2)(xv)",
+   "path": "schedule 2 › ministry Ministry of Parliamentary Aflairs and tourism › department Department of Parliamentary Affairs › entry 16",
+   "status": "applied"
+  },
+  {
+   "seq": 68,
+   "doc_id": "GOI_SO_893E_1985",
+   "op": "replace",
+   "source_ref": "2(2)(xvi)(a)",
+   "path": "schedule 2 › ministry Ministry of Personnel and Training Administrative Reforms and Public Grievances and Pension",
+   "status": "applied"
+  },
+  {
+   "seq": 69,
+   "doc_id": "GOI_SO_893E_1985",
+   "op": "replace",
+   "source_ref": "2(2)(xvi)(b)",
+   "path": "schedule 2 › ministry Ministry of Personnel Public Grievances and Pen sions › department Department of Pension and Pensioners' Welfare",
+   "status": "applied"
+  },
+  {
+   "seq": 70,
+   "doc_id": "GOI_SO_893E_1985",
+   "op": "replace",
+   "source_ref": "2(2)(xvii)",
+   "path": "schedule 2 › ministry Ministry of Planning › department De- partment of Statistics › entry 3",
+   "status": "applied"
+  },
+  {
+   "seq": 71,
+   "doc_id": "GOI_SO_893E_1985",
+   "op": "replace",
+   "source_ref": "2(2)(xviii)",
+   "path": "schedule 2 › ministry Ministry of Steel and Mines › department Department of Steel › entry 8 › item 1",
+   "status": "applied"
+  },
+  {
+   "seq": 72,
+   "doc_id": "GOI_SO_893E_1985",
+   "op": "replace",
+   "source_ref": "2(2)(xix)(a)",
+   "path": "schedule 2 › ministry Ministry of Transport › department Department of Rail- ways",
+   "status": "applied"
+  },
+  {
+   "seq": 73,
+   "doc_id": "GOI_SO_893E_1985",
+   "op": "insert",
+   "source_ref": "2(2)(xix)(b)",
+   "path": "schedule 2 › ministry Ministry of Transport › department Department of Rail- ways (Rail Vibhag), Railway Board › entry 3",
+   "status": "applied"
+  },
+  {
+   "seq": 74,
+   "doc_id": "GOI_SO_893E_1985",
+   "op": "insert",
+   "source_ref": "2(2)(xix)(c)",
+   "path": "schedule 2 › ministry Ministry of Transport › department Department of Civil Aviation › entry 15",
+   "status": "applied"
+  },
+  {
+   "seq": 75,
+   "doc_id": "GOI_SO_893E_1985",
+   "op": "replace",
+   "source_ref": "2(2)(xix)(d)(i)",
+   "path": "schedule 2 › ministry Ministry of Transport › department Department of Sur- face Transport › entry 3",
+   "status": "applied"
+  },
+  {
+   "seq": 76,
+   "doc_id": "GOI_SO_893E_1985",
+   "op": "replace",
+   "source_ref": "2(2)(xix)(d)(ii)",
+   "path": "schedule 2 › ministry Ministry of Transport › department Department of Sur- face Transport › entry 16",
+   "status": "applied"
+  },
+  {
+   "seq": 77,
+   "doc_id": "GOI_SO_893E_1985",
+   "op": "replace",
+   "source_ref": "2(2)(xix)(d)(iii)",
+   "path": "schedule 2 › ministry Ministry of Transport › department Department of Sur- face Transport › entry 19",
+   "status": "applied"
+  },
+  {
+   "seq": 78,
+   "doc_id": "GOI_SO_893E_1985",
+   "op": "insert",
+   "source_ref": "2(2)(xix)(d)(iv)",
+   "path": "schedule 2 › ministry Ministry of Transport › department Department of Sur- face Transport › entry 27",
+   "status": "applied"
+  },
+  {
+   "seq": 79,
+   "doc_id": "GOI_SO_893E_1985",
+   "op": "substitute_text",
+   "source_ref": "2(2)(xx)",
+   "path": "schedule 2 › department Department of Atomic Energy › entry 11",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

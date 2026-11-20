@@ -1,0 +1,179 @@
+{
+ "file": "1_Upload_33.pdf",
+ "kind": "amendment",
+ "series": 1,
+ "date": "1961-04-09",
+ "govdoc": "aob-ammend_/output/1_Upload_33.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826683.2735755,
+ "edits_file": "aob-ammend_/conf/1_Upload_33.pdf.edits.yml",
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_33.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T14:00:09.631420+00:00",
+  "sha256": "22c95d815e0d8b38e63c2b2d09dfe59dd433fef2d0f46f160f9bc4db6b118c06",
+  "pages": 2
+ },
+ "edits": [
+  {
+   "run": "h1",
+   "by": "claude",
+   "at": "2026-11-12T18:01:00+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r1.w131",
+     "before": {
+      "text": "(1)"
+     },
+     "after": {
+      "text": "(i)"
+     }
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-12T12:32:14.757368+00:00",
+   "stamp": "f323fc26fd0c25d3"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r58",
+   "at": "2026-11-15T12:41:26.488158+00:00",
+   "stamp": "2bf6493a3dd77189"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r59",
+   "at": "2026-11-15T12:41:28.738531+00:00",
+   "stamp": "6ad0537b7034cc4c"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r60",
+   "at": "2026-11-15T12:41:30.617375+00:00",
+   "stamp": "b2adc3d0453e70c8"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r69",
+   "at": "2026-11-15T16:23:56.896464+00:00",
+   "stamp": "354a0ab9a1eddba5",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r70",
+   "at": "2026-11-15T16:23:58.549097+00:00",
+   "stamp": "4a94bc70acd7df31",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r71",
+   "at": "2026-11-15T16:23:59.935640+00:00",
+   "stamp": "a00e393abaf8cee9",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r77",
+   "at": "2026-11-15T16:57:20.613829+00:00",
+   "stamp": "ae0a6d1ebaccca6e"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r78",
+   "at": "2026-11-15T17:03:12.750460+00:00",
+   "stamp": "93980858ca4baa95"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r83",
+   "at": "2026-11-16T10:58:03.265604+00:00",
+   "stamp": "0009349743def79c"
+  }
+ ],
+ "reviews": [],
+ "issues": [
+  {
+   "code": "aob:read_hindi_missing",
+   "severity": "info",
+   "message": "change 1: a new heading has no Hindi name in brackets",
+   "target": "r71.rel1",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_hindi_missing",
+   "severity": "info",
+   "message": "change 2: a new heading has no Hindi name in brackets",
+   "target": "r71.rel2",
+   "status": "open"
+  }
+ ],
+ "problems": [],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_857_1961",
+   "op": "replace",
+   "source_ref": "(a)",
+   "path": "schedule 1 › entry 22",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_857_1961",
+   "op": "replace",
+   "source_ref": "(b)",
+   "path": "schedule 2 › ministry Cabinet Secre- tariat",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

@@ -1,0 +1,153 @@
+{
+ "file": "1_Upload_339.pdf",
+ "kind": "amendment",
+ "series": 294,
+ "date": "2008-12-20",
+ "govdoc": "aob-ammend_/output/1_Upload_339.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826687.1266303,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_339.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T14:00:22.380140+00:00",
+  "sha256": "67c83211d1c0f5d89938429bf713cf71e4ac193098c86dfa20c972e6c6697e8f",
+  "pages": 2
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r5",
+   "at": "2026-11-04T13:34:27.923274+00:00",
+   "stamp": "bfd994f23a06c178"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r151",
+   "at": "2026-11-15T12:41:55.422392+00:00",
+   "stamp": "80e02ce93c729484"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r152",
+   "at": "2026-11-15T12:41:57.124547+00:00",
+   "stamp": "b2ea54034eeba871"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r153",
+   "at": "2026-11-15T12:41:58.510420+00:00",
+   "stamp": "76cba24e46c8172b"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r162",
+   "at": "2026-11-15T16:24:17.928862+00:00",
+   "stamp": "0c57b3656819a8c5",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r163",
+   "at": "2026-11-15T16:24:19.138600+00:00",
+   "stamp": "84d46b12cf39b477",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r164",
+   "at": "2026-11-15T16:24:20.359231+00:00",
+   "stamp": "ccb301c83cc720bd",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r170",
+   "at": "2026-11-15T16:57:26.331532+00:00",
+   "stamp": "8e9ddce8984dac99"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r171",
+   "at": "2026-11-15T17:03:26.158400+00:00",
+   "stamp": "2e756c1df9f81218"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r176",
+   "at": "2026-11-16T10:58:07.109396+00:00",
+   "stamp": "d4dfb59ad47367d0"
+  }
+ ],
+ "reviews": [],
+ "issues": [],
+ "problems": [],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_2962E_2008",
+   "op": "insert",
+   "source_ref": "2(1)",
+   "path": "schedule 1 › ministry Ministry of Health and Family Welfare › department Department of Health Research",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_2962E_2008",
+   "op": "omit",
+   "source_ref": "2(2)(A)(i)",
+   "path": "schedule 2 › ministry MINISTRY OF HEALTH AND FAMILY WELFARE › department DEPARTMENT OF HEALTH AND FAMILY WELFARE › entry 1 › item q",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_2962E_2008",
+   "op": "insert",
+   "source_ref": "2(2)(A)(ii)",
+   "path": "schedule 2 › ministry MINISTRY OF HEALTH AND FAMILY WELFARE › department DEPARTMENT OF HEALTH RESEARCH",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

@@ -1,0 +1,242 @@
+{
+ "file": "1_Upload_125.pdf",
+ "kind": "amendment",
+ "series": 91,
+ "date": "1971-10-12",
+ "govdoc": "aob-ammend_/output/1_Upload_125.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826694.410891,
+ "edits_file": "aob-ammend_/conf/1_Upload_125.pdf.edits.yml",
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_125.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:54:40.329358+00:00",
+  "sha256": "ce982a558329dd6492d9b0dc49e0ffffd97b95b829ccb072beb1425f32083ac0",
+  "pages": 4
+ },
+ "edits": [
+  {
+   "run": "h1",
+   "by": "claude",
+   "at": "2026-11-12T15:01:00+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r1.w116",
+     "before": {
+      "text": "1871"
+     },
+     "after": {
+      "text": "1971"
+     }
+    }
+   ]
+  },
+  {
+   "run": "h2",
+   "by": "claude",
+   "at": "2026-11-12T15:02:00+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r1.w117",
+     "before": {
+      "text": "8.0."
+     },
+     "after": {
+      "text": "S.O."
+     }
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-12T12:44:18.673951+00:00",
+   "stamp": "1e5109d0603651c6"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r52",
+   "at": "2026-11-15T12:42:44.814471+00:00",
+   "stamp": "ccf24a9ec5b2ad1e"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r53",
+   "at": "2026-11-15T12:42:47.287462+00:00",
+   "stamp": "30a7e7704404d005"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r54",
+   "at": "2026-11-15T12:42:50.008717+00:00",
+   "stamp": "6e3b333242562cf0"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r63",
+   "at": "2026-11-15T16:25:02.654465+00:00",
+   "stamp": "de98ced9b35a67c1",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r64",
+   "at": "2026-11-15T16:25:04.770742+00:00",
+   "stamp": "0014e0a182b5b879",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r65",
+   "at": "2026-11-15T16:25:06.796900+00:00",
+   "stamp": "c32485d7da3464f2",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r71",
+   "at": "2026-11-15T16:57:37.395332+00:00",
+   "stamp": "f31044707d021446"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r72",
+   "at": "2026-11-15T17:03:51.253392+00:00",
+   "stamp": "eae6fb27181070a4"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r77",
+   "at": "2026-11-16T10:58:14.395339+00:00",
+   "stamp": "ba30af5accdcec07"
+  }
+ ],
+ "reviews": [],
+ "issues": [
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 7: its quoted text runs across a page break",
+   "target": "r65.rel7",
+   "status": "open"
+  }
+ ],
+ "problems": [
+  {
+   "series": 91,
+   "seq": 7,
+   "code": "old_path_missing",
+   "severity": "error",
+   "message": "change 7: no ministry Department of Science and Technology under schedule 2",
+   "cause": "unit_not_found"
+  }
+ ],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_3850_1971",
+   "op": "replace",
+   "source_ref": "2(1)(a)(i)",
+   "path": "schedule 2 › ministry Ministry of Education and Social Welfare › department Department of Education › entry 21",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_3850_1971",
+   "op": "omit",
+   "source_ref": "2(1)(a)(ii)",
+   "path": "schedule 2 › ministry Ministry of Education and Social Welfare › department Department of Education › entry 27",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_3850_1971",
+   "op": "replace",
+   "source_ref": "2(1)(a)(iii)",
+   "path": "schedule 2 › ministry Ministry of Education and Social Welfare › department Department of Education › entry 28",
+   "status": "applied"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_3850_1971",
+   "op": "replace",
+   "source_ref": "2(1)(a)(iv)",
+   "path": "schedule 2 › ministry Ministry of Education and Social Welfare › department Department of Education › entry 36",
+   "status": "applied"
+  },
+  {
+   "seq": 5,
+   "doc_id": "GOI_SO_3850_1971",
+   "op": "omit",
+   "source_ref": "2(1)(a)(v)",
+   "path": "schedule 2 › ministry Ministry of Education and Social Welfare › department Department of Education › entry 38",
+   "status": "applied"
+  },
+  {
+   "seq": 6,
+   "doc_id": "GOI_SO_3850_1971",
+   "op": "replace",
+   "source_ref": "2(1)(b)",
+   "path": "schedule 2 › ministry Ministry of Education and Social Welfare › department Department of Social Welfare › entry 9",
+   "status": "applied"
+  },
+  {
+   "seq": 7,
+   "doc_id": "GOI_SO_3850_1971",
+   "op": "replace",
+   "source_ref": "2(2)",
+   "path": "schedule 2 › ministry Department of Science and Technology",
+   "status": "not_applied",
+   "problem": "change 7: no ministry Department of Science and Technology under schedule 2",
+   "code": "old_path_missing",
+   "cause": "unit_not_found",
+   "known": "top_level"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

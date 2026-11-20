@@ -1,0 +1,233 @@
+{
+ "file": "1_Upload_69.pdf",
+ "kind": "amendment",
+ "series": 36,
+ "date": "1964-11-18",
+ "govdoc": "aob-ammend_/output/1_Upload_69.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826689.005877,
+ "edits_file": "aob-ammend_/conf/1_Upload_69.pdf.edits.yml",
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_69.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T14:02:21.600899+00:00",
+  "sha256": "86922f4a98a91d7e4f343e1886e24dd4ec386c54a6e8e9f3a4037064a7c14d12",
+  "pages": 4
+ },
+ "edits": [
+  {
+   "run": "h1",
+   "by": "claude",
+   "at": "2026-11-12T18:01:00+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r1.w148",
+     "before": {
+      "text": "(H)"
+     },
+     "after": {
+      "text": "(ii)"
+     }
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-12T12:37:40.032161+00:00",
+   "stamp": "7a35c5f2104aa4d3"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r58",
+   "at": "2026-11-15T12:42:06.921085+00:00",
+   "stamp": "e415104e29c7ae56"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r59",
+   "at": "2026-11-15T12:42:09.035113+00:00",
+   "stamp": "425d45ee381556e0"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r60",
+   "at": "2026-11-15T12:42:10.681065+00:00",
+   "stamp": "69303d727383ec81"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r69",
+   "at": "2026-11-15T16:24:26.493605+00:00",
+   "stamp": "85e7d494dc81ce32",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r70",
+   "at": "2026-11-15T16:24:28.037741+00:00",
+   "stamp": "650eb4f850953d70",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r71",
+   "at": "2026-11-15T16:24:29.533733+00:00",
+   "stamp": "e9c6a5831c663a9e",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r77",
+   "at": "2026-11-15T16:57:28.979999+00:00",
+   "stamp": "babbf2be7eee9725"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r78",
+   "at": "2026-11-15T17:03:31.770085+00:00",
+   "stamp": "6e04bc98aad7c22e"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r83",
+   "at": "2026-11-16T10:58:08.989874+00:00",
+   "stamp": "41841fa543d16ab9"
+  }
+ ],
+ "reviews": [],
+ "issues": [
+  {
+   "code": "aob:read_hindi_missing",
+   "severity": "info",
+   "message": "change 4: a new heading has no Hindi name in brackets",
+   "target": "r71.rel4",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_hindi_missing",
+   "severity": "info",
+   "message": "change 7: a new heading has no Hindi name in brackets",
+   "target": "r71.rel7",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_number_kept",
+   "severity": "info",
+   "message": "change 1: schedule 1 › ministry Ministry of Finance: keeps its number 7, the heading put for it quoted without one",
+   "target": "r71.rel1",
+   "status": "open"
+  }
+ ],
+ "problems": [],
+ "rules": [
+  {
+   "rule": "number_kept",
+   "seq": 1,
+   "note": "change 1: schedule 1 › ministry Ministry of Finance: keeps its number 7, the heading put for it quoted without one",
+   "status": "accepted"
+  }
+ ],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_4017_1964",
+   "op": "replace",
+   "source_ref": "A",
+   "path": "schedule 1 › entry 7",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_4017_1964",
+   "op": "insert",
+   "source_ref": "B(a)(i)",
+   "path": "schedule 2 › ministry Ministry of Finance › department Department of Economic Affairs › group_heading III. Internal Finance › entry 9",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_4017_1964",
+   "op": "replace",
+   "source_ref": "B(a)(ii)",
+   "path": "schedule 2 › ministry Ministry of Finance › department Department of Economic Affairs › entry",
+   "status": "applied"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_4017_1964",
+   "op": "replace",
+   "source_ref": "B(b)",
+   "path": "schedule 2 › ministry Ministry of Finance › department Department of Revenue and Company Law",
+   "status": "applied"
+  },
+  {
+   "seq": 5,
+   "doc_id": "GOI_SO_4017_1964",
+   "op": "omit",
+   "source_ref": "B(c)",
+   "path": "schedule 2 › ministry Ministry of Finance › department Department of Revenue › entry 12 ; schedule 2 › ministry Ministry of Finance › department Department of Revenue › entry 12A ; schedule 2 › ministry Ministry of Finance › department Department of Revenue › entry 12B ; schedule 2 › ministry Ministry of Finance › department Department of Revenue › entry 13 ; schedule 2 › ministry Ministry of Finance › department Department of Revenue › entry 14 ; schedule 2 › ministry Ministry of Finance › department Department of Revenue › entry 15 ; schedule 2 › ministry Ministry of Finance › department Department of Revenue › entry 16 ; schedule 2 › ministry Ministry of Finance › department Department of Revenue › entry 17",
+   "status": "applied"
+  },
+  {
+   "seq": 6,
+   "doc_id": "GOI_SO_4017_1964",
+   "op": "renumber",
+   "source_ref": "B(c)",
+   "path": "schedule 2 › ministry Ministry of Finance › department Department of Revenue › entry 18",
+   "status": "applied"
+  },
+  {
+   "seq": 7,
+   "doc_id": "GOI_SO_4017_1964",
+   "op": "insert",
+   "source_ref": "B(d)",
+   "path": "schedule 2 › ministry Ministry of Finance › department Department of Co-ordination",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

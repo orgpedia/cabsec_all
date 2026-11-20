@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_275.pdf",
     "sha256": "8a6dea75836317de09ce6c72c14faac058f7ea0340586f85d25e05e71f7f9d79",
     "govdoc": "1_Upload_275.pdf.govdoc.json.zst",
-    "revision": 109
+    "revision": 133
   },
   "documents": [
     {
@@ -29,9 +29,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "3",
+          "version": "4",
           "model": "gemini-4-argon",
-          "at": "2026-11-12T12:56:17.129556+00:00"
+          "at": "2026-11-15T16:24:29.588355+00:00"
         },
         "ops": [
           {
@@ -39,7 +39,7 @@
             "source_ref": "2(A)(i)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r73.rel1",
+            "relation": "r126.rel1",
             "target": [
               {
                 "cited": [
@@ -148,7 +148,7 @@
             "source_ref": "2(A)(ii)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r73.rel2",
+            "relation": "r126.rel2",
             "position": "after",
             "anchor": {
               "cited": [
@@ -215,7 +215,7 @@
             "source_ref": "2(B)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r73.rel3",
+            "relation": "r126.rel3",
             "position": "after",
             "anchor": {
               "cited": [
@@ -282,7 +282,7 @@
             "source_ref": "2(C)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r73.rel4",
+            "relation": "r126.rel4",
             "position": "after",
             "anchor": {
               "cited": [
@@ -360,7 +360,7 @@
             "source_ref": "2(D)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r73.rel5",
+            "relation": "r126.rel5",
             "target": {
               "cited": [
                 {
@@ -489,7 +489,7 @@
             "source_ref": "2(E)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r73.rel6",
+            "relation": "r126.rel6",
             "target": {
               "cited": [
                 {
@@ -529,7 +529,9 @@
                 "text": "Non-Government Railways-Matters in so far as provision for control by the Ministry of Railways (Rail Mantralaya), Railway Board (Rail Board) as provided in the Railways Act, 1989 (24 of 1989) or in the contract between the Government and the Railways, or in, any other statutory enactments, namely regulations in respect of safety, maximum and minimum rates and fares, etc."
               }
             ],
-            "flags": [],
+            "flags": [
+              "states_inferred_loose"
+            ],
             "words": [
               "r1.w1947",
               "r1.w1955"
@@ -551,7 +553,7 @@
             "source_ref": "2(F)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r73.rel7",
+            "relation": "r126.rel7",
             "target": {
               "cited": [
                 {

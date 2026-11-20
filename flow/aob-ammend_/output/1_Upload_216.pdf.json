@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_216.pdf",
     "sha256": "a4f13f12b76280cb3531c8589e8b0e8f9ca870244353b8d4bf3fcac438209db2",
     "govdoc": "1_Upload_216.pdf.govdoc.json.zst",
-    "revision": 118
+    "revision": 151
   },
   "documents": [
     {
@@ -29,9 +29,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "3",
+          "version": "4",
           "model": "gemini-4-argon",
-          "at": "2026-11-12T12:56:38.000668+00:00"
+          "at": "2026-11-15T16:24:42.576651+00:00"
         },
         "ops": [
           {
@@ -39,7 +39,7 @@
             "source_ref": "2(1)(1)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r81.rel1",
+            "relation": "r142.rel1",
             "target": {
               "cited": [
                 {
@@ -61,17 +61,17 @@
               ],
               "eId": null,
               "words": [
-                "r1.w4123",
+                "r1.w4122",
                 "r1.w4124"
               ],
               "boxes": [
                 {
                   "page": 7,
                   "bbox": [
-                    361,
+                    300,
                     370,
                     484,
-                    406
+                    407
                   ]
                 }
               ]
@@ -83,7 +83,9 @@
                 "text": "All matters relating to panchayati raj and panchayati raj institutions."
               }
             ],
-            "flags": [],
+            "flags": [
+              "states_inferred_loose"
+            ],
             "words": [
               "r1.w4121",
               "r1.w4130"
@@ -105,7 +107,7 @@
             "source_ref": "2(1)(2)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r81.rel2",
+            "relation": "r142.rel2",
             "target": {
               "cited": [
                 {
@@ -127,17 +129,17 @@
               ],
               "eId": null,
               "words": [
-                "r1.w4146",
+                "r1.w4145",
                 "r1.w4147"
               ],
               "boxes": [
                 {
                   "page": 7,
                   "bbox": [
-                    363,
+                    299,
                     540,
                     485,
-                    576
+                    577
                   ]
                 }
               ]
@@ -149,10 +151,12 @@
                 "text": "Water supply, sewage, drainage and sanitation relating to rural areas. International co-operation and technical assistance in this field."
               }
             ],
-            "flags": [],
+            "flags": [
+              "states_inferred_loose"
+            ],
             "words": [
               "r1.w4144",
-              "r1.w4153"
+              "r1.w4154"
             ],
             "boxes": [
               {
@@ -161,17 +165,17 @@
                   243,
                   532,
                   1127,
-                  578
+                  610
                 ]
               }
             ]
           },
           {
             "seq": 3,
-            "source_ref": "2(ii)(a",
+            "source_ref": "2(ii)(a)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r81.rel3",
+            "relation": "r142.rel3",
             "target": {
               "cited": [
                 {
@@ -695,7 +699,7 @@
             ],
             "words": [
               "r1.w4190",
-              "r1.w4197"
+              "r1.w4201"
             ],
             "boxes": [
               {
@@ -703,7 +707,7 @@
                 "bbox": [
                   245,
                   863,
-                  1128,
+                  1131,
                   935
                 ]
               }
@@ -714,7 +718,7 @@
             "source_ref": "2(ii)(b)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r81.rel4",
+            "relation": "r142.rel4",
             "target": {
               "cited": [
                 {
@@ -813,7 +817,7 @@
             "flags": [],
             "words": [
               "r1.w5085",
-              "r1.w5092"
+              "r1.w5095"
             ],
             "boxes": [
               {
@@ -832,7 +836,7 @@
             "source_ref": "2(iii)(a)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r81.rel5",
+            "relation": "r142.rel5",
             "target": {
               "cited": [
                 {
@@ -841,7 +845,7 @@
                 },
                 {
                   "type": "ministry",
-                  "heading": "MINISTRY OF HUMAN RESOURCE DEVELOPMENT"
+                  "heading": "MINISTRY OF HUMAN RE- SOURCE DEVELOPMENT"
                 },
                 {
                   "type": "department",
@@ -996,7 +1000,7 @@
             "flags": [],
             "words": [
               "r1.w5253",
-              "r1.w5260"
+              "r1.w5264"
             ],
             "boxes": [
               {
@@ -1004,8 +1008,8 @@
                 "bbox": [
                   1397,
                   961,
-                  2283,
-                  1023
+                  2287,
+                  1025
                 ]
               }
             ]
@@ -1015,7 +1019,7 @@
             "source_ref": "2(iii)(b)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r81.rel6",
+            "relation": "r142.rel6",
             "position": "after",
             "anchor": {
               "cited": [
@@ -1025,7 +1029,7 @@
                 },
                 {
                   "type": "ministry",
-                  "heading": "MINISTRY OF HUMAN RESOURCE DEVELOPMENT"
+                  "heading": "MINISTRY OF HUMAN RE- SOURCE DEVELOPMENT"
                 },
                 {
                   "type": "department",
@@ -1068,7 +1072,7 @@
             "flags": [],
             "words": [
               "r1.w5475",
-              "r1.w5482"
+              "r1.w5485"
             ],
             "boxes": [
               {
@@ -1077,7 +1081,7 @@
                   1427,
                   2837,
                   2310,
-                  2902
+                  2903
                 ]
               }
             ]
@@ -1087,7 +1091,7 @@
             "source_ref": "2(iv)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r81.rel7",
+            "relation": "r142.rel7",
             "target": {
               "cited": [
                 {
@@ -1236,7 +1240,7 @@
               {
                 "type": "entry",
                 "num": "21",
-                "text": "Preparation of media lists. 1367 GI/85-2"
+                "text": "Preparation of media lists."
               },
               {
                 "type": "group_heading",
@@ -1409,7 +1413,7 @@
             ],
             "words": [
               "r1.w5536",
-              "r1.w5543"
+              "r1.w5547"
             ],
             "boxes": [
               {
@@ -1428,7 +1432,7 @@
             "source_ref": "2(v)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r81.rel8",
+            "relation": "r142.rel8",
             "target": [
               {
                 "cited": [
@@ -1442,7 +1446,7 @@
                   },
                   {
                     "type": "department",
-                    "heading": "LEGISLATIVE DEPARTMENT"
+                    "heading": "LEGISLATIVE DE- PARTMENT"
                   },
                   {
                     "type": "group_heading",
@@ -1478,7 +1482,7 @@
                   },
                   {
                     "type": "department",
-                    "heading": "LEGISLATIVE DEPARTMENT"
+                    "heading": "LEGISLATIVE DE- PARTMENT"
                   },
                   {
                     "type": "entry",
@@ -1514,7 +1518,7 @@
                   },
                   {
                     "type": "department",
-                    "heading": "LEGISLATIVE DEPARTMENT"
+                    "heading": "LEGISLATIVE DE- PARTMENT"
                   },
                   {
                     "type": "entry",
@@ -1550,7 +1554,7 @@
                   },
                   {
                     "type": "department",
-                    "heading": "LEGISLATIVE DEPARTMENT"
+                    "heading": "LEGISLATIVE DE- PARTMENT"
                   },
                   {
                     "type": "entry",
@@ -1575,10 +1579,11 @@
                 ]
               }
             ],
+            "expect": "Other Sub.ects The Wakf Act, 1954 (29 of 1954). 20. Working respect of Wakf properties under the lo ministration of Evacuee Property Act, 1950 (31 of 1950). 21. Administration of Durgah Khawaja Saheb Act, 1955 (36 of 1955).",
             "flags": [],
             "words": [
               "r1.w6341",
-              "r1.w6349"
+              "r1.w6353"
             ],
             "boxes": [
               {
@@ -1586,7 +1591,7 @@
                 "bbox": [
                   253,
                   726,
-                  1187,
+                  1190,
                   798
                 ]
               }
@@ -1597,7 +1602,7 @@
             "source_ref": "2(iv)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r81.rel9",
+            "relation": "r142.rel9",
             "target": {
               "cited": [
                 {
@@ -1873,10 +1878,12 @@
                 "text": "The Handlooms (Reservation of Articles for Production) Act, 1985 (22 of 1985)."
               }
             ],
-            "flags": [],
+            "flags": [
+              "read_page_break"
+            ],
             "words": [
               "r1.w6408",
-              "r1.w6415"
+              "r1.w6420"
             ],
             "boxes": [
               {
@@ -1895,7 +1902,7 @@
             "source_ref": "2(vii)(a)",
             "op": "substitute_text",
             "akn_type": "substitution",
-            "relation": "r81.rel10",
+            "relation": "r142.rel10",
             "target": {
               "cited": [
                 {
@@ -1904,7 +1911,7 @@
                 },
                 {
                   "type": "ministry",
-                  "heading": "MINISTRY OF URBAN DEVELOPMENT"
+                  "heading": "MINISTRY OF URBAN DEVE- LOPMENT"
                 },
                 {
                   "type": "entry",
@@ -1929,11 +1936,11 @@
               ]
             },
             "old": "Human Settlement",
-            "new": "Human Settlements",
+            "new": "Human Settle- ments",
             "flags": [],
             "words": [
               "r1.w6847",
-              "r1.w6854"
+              "r1.w6861"
             ],
             "boxes": [
               {
@@ -1941,8 +1948,8 @@
                 "bbox": [
                   1462,
                   2694,
-                  2310,
-                  2725
+                  2311,
+                  2758
                 ]
               }
             ]
@@ -1952,7 +1959,7 @@
             "source_ref": "2(vii)(b)",
             "op": "substitute_text",
             "akn_type": "substitution",
-            "relation": "r81.rel11",
+            "relation": "r142.rel11",
             "target": {
               "cited": [
                 {
@@ -1961,7 +1968,7 @@
                 },
                 {
                   "type": "ministry",
-                  "heading": "MINISTRY OF URBAN DEVELOPMENT"
+                  "heading": "MINISTRY OF URBAN DEVE- LOPMENT"
                 },
                 {
                   "type": "entry",
@@ -1990,7 +1997,7 @@
             "flags": [],
             "words": [
               "r1.w6867",
-              "r1.w6876"
+              "r1.w6877"
             ],
             "boxes": [
               {
@@ -1999,7 +2006,7 @@
                   1432,
                   2813,
                   2313,
-                  2844
+                  2877
                 ]
               }
             ]
@@ -2009,7 +2016,7 @@
             "source_ref": "2(vii)(c)",
             "op": "substitute_text",
             "akn_type": "substitution",
-            "relation": "r81.rel12",
+            "relation": "r142.rel12",
             "target": {
               "cited": [
                 {
@@ -2018,7 +2025,7 @@
                 },
                 {
                   "type": "ministry",
-                  "heading": "MINISTRY OF URBAN DEVELOPMENT"
+                  "heading": "MINISTRY OF URBAN DEVE- LOPMENT"
                 },
                 {
                   "type": "entry",
@@ -2047,7 +2054,7 @@
             "flags": [],
             "words": [
               "r1.w6878",
-              "r1.w6887"
+              "r1.w6891"
             ],
             "boxes": [
               {
@@ -2056,7 +2063,7 @@
                   1427,
                   2897,
                   2313,
-                  2935
+                  2966
                 ]
               }
             ]
@@ -2066,7 +2073,7 @@
             "source_ref": "2(vii)(d)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r81.rel13",
+            "relation": "r142.rel13",
             "position": "after",
             "anchor": {
               "cited": [
@@ -2076,7 +2083,7 @@
                 },
                 {
                   "type": "ministry",
-                  "heading": "MINISTRY OF URBAN DEVELOPMENT"
+                  "heading": "MINISTRY OF URBAN DEVE- LOPMENT"
                 },
                 {
                   "type": "entry",
@@ -2122,7 +2129,7 @@
             ],
             "words": [
               "r1.w6892",
-              "r1.w6900"
+              "r1.w6903"
             ],
             "boxes": [
               {
@@ -2131,7 +2138,7 @@
                   1430,
                   2984,
                   2316,
-                  3017
+                  3050
                 ]
               }
             ]
@@ -2141,7 +2148,7 @@
             "source_ref": "2(VII)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r81.rel14",
+            "relation": "r142.rel14",
             "target": {
               "cited": [
                 {
@@ -2210,7 +2217,7 @@
               {
                 "type": "entry",
                 "num": "6",
-                "text": "Cadre control and management or the Central Water Fngineering Services II International aspects - International organisations, commissions and conferences relating to water resources development and management. drainage and flood control."
+                "text": "Cadre control and management or the Central Water Fngineering Services II International aspects International organisations, commissions and conferences relating to water resources development and management. drainage and flood control."
               },
               {
                 "type": "entry",
@@ -2265,7 +2272,12 @@
               {
                 "type": "entry",
                 "num": "18",
-                "text": "Central Ground Water Board. 19 (entral Water & Power Research Station."
+                "text": "Central Ground Water Board. PRINTED BY THF MANAGER, GOVT. OF INDIA AND PUBLISHED BY THE CONTROLLER OF"
+              },
+              {
+                "type": "entry",
+                "num": "19",
+                "text": "(entral Water & Power Research Station."
               },
               {
                 "type": "entry",
@@ -2343,10 +2355,12 @@
                 "text": "Water & Power Consultancy Services (IBL) Ltd (WAPCOS). under the heading \"MINISTRY OF WELFARE (KALYAN MANTRALAYA)"
               }
             ],
-            "flags": [],
+            "flags": [
+              "read_page_break"
+            ],
             "words": [
               "r1.w6961",
-              "r1.w6968"
+              "r1.w6972"
             ],
             "boxes": [
               {
@@ -2354,18 +2368,18 @@
                 "bbox": [
                   155,
                   413,
-                  1101,
-                  444
+                  1118,
+                  478
                 ]
               }
             ]
           },
           {
             "seq": 15,
-            "source_ref": "2(a)",
+            "source_ref": "2(ix)(a)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r81.rel15",
+            "relation": "r142.rel15",
             "target": [
               {
                 "cited": [
@@ -2451,10 +2465,10 @@
           },
           {
             "seq": 16,
-            "source_ref": "2(b)",
+            "source_ref": "2(ix)(b)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r81.rel16",
+            "relation": "r142.rel16",
             "position": "after",
             "anchor": {
               "cited": [
@@ -2501,7 +2515,7 @@
             "flags": [],
             "words": [
               "r1.w7379",
-              "r1.w7388"
+              "r1.w7393"
             ],
             "boxes": [
               {
@@ -2510,17 +2524,17 @@
                   1324,
                   1327,
                   2213,
-                  1371
+                  1398
                 ]
               }
             ]
           },
           {
             "seq": 17,
-            "source_ref": "2(4)",
+            "source_ref": "2(ix)(4)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r81.rel17",
+            "relation": "r142.rel17",
             "position": "after",
             "anchor": {
               "cited": [
@@ -2573,7 +2587,7 @@
             "flags": [],
             "words": [
               "r1.w7401",
-              "r1.w7409"
+              "r1.w7411"
             ],
             "boxes": [
               {
@@ -2582,17 +2596,17 @@
                   1325,
                   1461,
                   2212,
-                  1500
+                  1530
                 ]
               }
             ]
           },
           {
             "seq": 18,
-            "source_ref": "2(x)a))",
+            "source_ref": "2(x)(a)(i)",
             "op": "substitute_text",
             "akn_type": "substitution",
-            "relation": "r81.rel18",
+            "relation": "r142.rel18",
             "target": {
               "cited": [
                 {
@@ -2626,11 +2640,11 @@
               ]
             },
             "old": "and Space Technology",
-            "new": "Space Technology and Space Applications",
+            "new": "Space Technology and Space Applica- tions",
             "flags": [],
             "words": [
               "r1.w7469",
-              "r1.w7476"
+              "r1.w7482"
             ],
             "boxes": [
               {
@@ -2638,18 +2652,18 @@
                 "bbox": [
                   1391,
                   2075,
-                  2216,
-                  2114
+                  2217,
+                  2153
                 ]
               }
             ]
           },
           {
             "seq": 19,
-            "source_ref": "2(x)a)(u)",
+            "source_ref": "2(x)(a)(u)",
             "op": "substitute_text",
             "akn_type": "substitution",
-            "relation": "r81.rel19",
+            "relation": "r142.rel19",
             "target": [
               {
                 "cited": [
@@ -2729,7 +2743,7 @@
             "flags": [],
             "words": [
               "r1.w7487",
-              "r1.w7497"
+              "r1.w7503"
             ],
             "boxes": [
               {
@@ -2738,17 +2752,17 @@
                   1360,
                   2197,
                   2217,
-                  2234
+                  2265
                 ]
               }
             ]
           },
           {
             "seq": 20,
-            "source_ref": "2(x)b)",
+            "source_ref": "2(x)(b)",
             "op": "substitute_text",
             "akn_type": "substitution",
-            "relation": "r81.rel20",
+            "relation": "r142.rel20",
             "target": {
               "cited": [
                 {
@@ -2790,7 +2804,7 @@
             "flags": [],
             "words": [
               "r1.w7515",
-              "r1.w7525"
+              "r1.w7533"
             ],
             "boxes": [
               {
@@ -2799,7 +2813,7 @@
                   1341,
                   2356,
                   2217,
-                  2386
+                  2418
                 ]
               }
             ]

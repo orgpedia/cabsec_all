@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_57.pdf",
     "sha256": "28a4cc41225b85adbe5bf77b3c2acf6f6c4b7f10ba94dd9202ad4ae2be37fac7",
     "govdoc": "1_Upload_57.pdf.govdoc.json.zst",
-    "revision": 46
+    "revision": 70
   },
   "documents": [
     {
@@ -29,9 +29,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "3",
+          "version": "4",
           "model": "gemini-4-argon",
-          "at": "2026-11-12T13:48:57.623902+00:00"
+          "at": "2026-11-15T16:24:00.247337+00:00"
         },
         "ops": [
           {
@@ -39,7 +39,7 @@
             "source_ref": "(1)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r10.rel1",
+            "relation": "r63.rel1",
             "position": "after",
             "anchor": {
               "cited": [
@@ -121,7 +121,7 @@
             "source_ref": "(2)(i)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel2",
+            "relation": "r63.rel2",
             "target": {
               "cited": [
                 {
@@ -185,7 +185,7 @@
             "source_ref": "(2)(ii)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r10.rel3",
+            "relation": "r63.rel3",
             "target": [
               {
                 "cited": [
@@ -319,7 +319,7 @@
             "source_ref": "(2)(lil)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r10.rel4",
+            "relation": "r63.rel4",
             "target": [
               {
                 "cited": [
@@ -412,7 +412,7 @@
             "source_ref": "(2)(iv)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r10.rel5",
+            "relation": "r63.rel5",
             "target": [
               {
                 "cited": [
@@ -597,7 +597,7 @@
             "source_ref": "(3)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r10.rel6",
+            "relation": "r63.rel6",
             "target": {
               "cited": [
                 {

@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_298.pdf",
     "sha256": "b6ffcdcb94c05302ee52851fd3d4bfce98d6fb945a401798d6c7cc5df5b89919",
     "govdoc": "1_Upload_298.pdf.govdoc.json.zst",
-    "revision": 120
+    "revision": 144
   },
   "documents": [
     {
@@ -29,9 +29,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "3",
+          "version": "4",
           "model": "gemini-4-argon",
-          "at": "2026-11-12T12:56:56.757494+00:00"
+          "at": "2026-11-15T16:24:54.226811+00:00"
         },
         "ops": [
           {
@@ -39,7 +39,7 @@
             "source_ref": "2(2)(a)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r81.rel1",
+            "relation": "r134.rel1",
             "target": {
               "cited": [
                 {
@@ -117,7 +117,7 @@
             "source_ref": "2(2)(b)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r81.rel2",
+            "relation": "r134.rel2",
             "target": {
               "cited": [
                 {
@@ -169,7 +169,7 @@
             "source_ref": "2(2)(a)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r81.rel3",
+            "relation": "r134.rel3",
             "target": {
               "cited": [
                 {
@@ -207,7 +207,9 @@
                 "heading_hi": "SANCHAR AUR SCOCHANA PRAUDYOGIKI MANTRALAYA"
               }
             ],
-            "flags": [],
+            "flags": [
+              "states_inferred_loose"
+            ],
             "words": [
               "r1.w607",
               "r1.w615"
@@ -229,7 +231,7 @@
             "source_ref": "2(2)(b)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r81.rel4",
+            "relation": "r134.rel4",
             "position": "after",
             "anchor": {
               "cited": [
@@ -355,7 +357,7 @@
             "source_ref": "2(2)(c)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r81.rel5",
+            "relation": "r134.rel5",
             "target": {
               "cited": [
                 {
@@ -425,9 +427,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "3",
+          "version": "4",
           "model": "gemini-4-argon",
-          "at": "2026-11-12T12:56:56.757494+00:00"
+          "at": "2026-11-15T16:24:54.226811+00:00"
         },
         "ops": [
           {
@@ -435,7 +437,7 @@
             "source_ref": "2(A)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r81.rel6",
+            "relation": "r134.rel6",
             "target": {
               "cited": [
                 {
@@ -494,7 +496,7 @@
             "source_ref": "2(B)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r81.rel7",
+            "relation": "r134.rel7",
             "target": {
               "cited": [
                 {
@@ -549,7 +551,7 @@
             "source_ref": "2(C)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r81.rel8",
+            "relation": "r134.rel8",
             "target": {
               "cited": [
                 {
@@ -611,7 +613,7 @@
             "source_ref": "2(D)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r81.rel9",
+            "relation": "r134.rel9",
             "target": {
               "cited": [
                 {
@@ -666,7 +668,7 @@
             "source_ref": "2(E)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r81.rel10",
+            "relation": "r134.rel10",
             "target": {
               "cited": [
                 {
@@ -794,9 +796,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "3",
+          "version": "4",
           "model": "gemini-4-argon",
-          "at": "2026-11-12T12:56:56.757494+00:00"
+          "at": "2026-11-15T16:24:54.226811+00:00"
         },
         "ops": [
           {
@@ -804,7 +806,7 @@
             "source_ref": "2(1)(A)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r81.rel11",
+            "relation": "r134.rel11",
             "target": {
               "cited": [
                 {
@@ -856,7 +858,7 @@
             "source_ref": "2(1)(B)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r81.rel12",
+            "relation": "r134.rel12",
             "target": {
               "cited": [
                 {
@@ -930,7 +932,7 @@
             "source_ref": "2(2)(A)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r81.rel13",
+            "relation": "r134.rel13",
             "target": {
               "cited": [
                 {
@@ -982,7 +984,7 @@
             "source_ref": "2(2)(B)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r81.rel14",
+            "relation": "r134.rel14",
             "position": "after",
             "anchor": {
               "cited": [
@@ -1060,7 +1062,7 @@
             "source_ref": "2(2)(C)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r81.rel15",
+            "relation": "r134.rel15",
             "target": {
               "cited": [
                 {

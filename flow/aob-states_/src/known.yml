@@ -1,0 +1,106 @@
+# The known issues (orgpedia/doc: docflow/products/known.py; aob.md §A6): what the basic checks still raise, each
+# with why. A change not applied, a unit missing or a reading error goes under the first item here that covers it,
+# else under none; a segment passes when nothing is under none. An item covers by all it gives: `series` [first,
+# last], `causes` (the states' cause of a change not applied), `path` (a regex on the problem's message), `files`;
+# a unit by `unit` (a regex on its name). Listed on versions/known-issues.html (known-issues.json) and in each
+# document's lineage. Written November 16, 2026, from the cleanup round's list.
+changes:
+  - id: home_affairs
+    title: Home Affairs' structure
+    series: [1, 173]
+    path: "MINISTRY OF HOM|Home Affairs|Union Territor"
+    why: >-
+      The Second Schedule's Ministry of Home Affairs as the states hold it (from the 1961 base and the 1970s changes)
+      has its departments unlettered and its Parts (I, IA, II, III, IV) and Union Territory sub-headings not as the
+      gazettes cite them; Personnel and Administrative Reforms and the Department of Home Affairs inside it are not
+      found.
+  - id: agriculture
+    title: Agriculture's departments
+    series: [1, 173]
+    path: "(?i)ministry of agr"
+    why: >-
+      The Ministry of Agriculture (and Irrigation; and Rural Development) has departments A–D, but not by the names the
+      gazettes cite (Irrigation, Rural Development, Agricultural Research and Education): the departments' headings in
+      the states lag behind their renames and moves.
+  - id: planning
+    title: Planning's departments
+    path: "MINISTRY OF PLANNING"
+    why: >-
+      The Ministry of Planning's Second Schedule part holds its subjects in words, with no departments under it; the
+      Department of Statistics and the Department of Science and Technology are cited under it.
+  - id: top_level
+    title: Departments of the top level not in the Second Schedule
+    path: "(?i)no (?:ministry|department) DEPARTMENT OF (?:SCIENCE|SPACE|SPORTS|SUPPLY)|DEPARTMENT OF ELECTRONICS"
+    why: >-
+      Departments the First Schedule has at the top level (Science and Technology, Space, Sports, Supply,
+      Electronics) are not headed in the Second Schedule when a change cites them: put in by a change not read, or by
+      one in a notification of their own.
+  - id: finance_revenue
+    title: Finance's Department of Revenue
+    path: "(?i)department of revenue"
+    why: >-
+      The Ministry of Finance's departments read with their letters twice (A, A, B, D, D, E), the Department of
+      Revenue not among them by that name.
+  - id: renamed_unit
+    title: A unit cited by a name the Second Schedule does not have
+    causes: [unit_not_found]
+    why: >-
+      A ministry or department renamed or merged in the First Schedule, its Second Schedule heading not (or another
+      name misread): the change cites a name not there.
+  - id: items
+    title: Items
+    causes: [items]
+    why: An entry's items numbered as misread ("li", "lv" for ii, iv), run into its text, or not there.
+  - id: number_twice
+    title: A number twice
+    causes: [number_twice]
+    why: >-
+      Two parts with the number the change cites: an entry put in by an earlier change without the old one going, or
+      a number misread.
+  - id: words
+    title: Words that differ
+    causes: [words_differ]
+    why: >-
+      The words a change substitutes, or the part it quotes, not as the states have them: a misread beyond a letter or
+      two in one or the other, or an earlier change not applied.
+  - id: entries
+    title: Entries not in the state
+    causes: [entry_not_in_state]
+    why: >-
+      The entry a change cites is not in the unit: missing from the reading the unit came from (the 1985 re-issue's
+      for C2) or put in by a change not applied; beyond the unit's last, in a gap, or an "A" entry (25A, 45A).
+  - id: groups
+    title: Group headings
+    causes: [group_not_found]
+    why: A group heading cited by its words or its numeral where the states have it otherwise.
+missing:
+  - id: hindi_1971
+    unit: "(?i)vibhag|mantralaya"
+    series: [88, 88]
+    why: 1971's Hindi First Schedule (1_Upload_122) names it in Hindi with no English name in the run's First Schedules.
+  - id: pm_office
+    unit: "Prime Minister's Office"
+    why: >-
+      Renamed from the Prime Minister's Secretariat in the First Schedule in 1977; the Second Schedule keeps the old
+      heading until the 1985 re-issue.
+  - id: food_processing
+    unit: "Food Processing Industries"
+    why: >-
+      Its First Schedule entry on 2 June 1988 (1_Upload_236), its Second Schedule part a month later (1_Upload_237):
+      one series apart, as gazetted.
+  - id: top_level_units
+    unit: "(?i)Department of (?:Space|Sports|Science and Technology|Electronics|Supply|Scientific and Industrial)"
+    why: Not headed in the Second Schedule in these years (as the known issue top_level).
+  - id: agriculture_units
+    unit: "(?i)Irrigation|Rural Development|Agricultural Research"
+    why: Agriculture's departments, not by these names in the states (as the known issue agriculture).
+  - id: planning_units
+    unit: "(?i)Statistics"
+    why: Planning's departments, not under it in the states (as the known issue planning).
+read:
+  - id: running_head
+    files: [1_Upload_172, 1_Upload_187, 1_Upload_189, 1_Upload_223, 1_Upload_242, 1_Upload_306]
+    message: "heading is not in the text"
+    why: >-
+      The heading cited is split in the scan by a page's running head or a line out of its place; the change itself
+      applied.

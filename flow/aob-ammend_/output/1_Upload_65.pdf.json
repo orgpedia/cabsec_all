@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_65.pdf",
     "sha256": "abbcf336eb1ddcb03d62262dcd4b035ad8d0851dd0242fcaca36f7a0eba1cf7d",
     "govdoc": "1_Upload_65.pdf.govdoc.json.zst",
-    "revision": 46
+    "revision": 70
   },
   "documents": [
     {
@@ -29,9 +29,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "3",
+          "version": "4",
           "model": "gemini-4-argon",
-          "at": "2026-11-12T13:49:37.997134+00:00"
+          "at": "2026-11-15T16:24:42.959611+00:00"
         },
         "ops": [
           {
@@ -39,7 +39,7 @@
             "source_ref": "(1)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r10.rel1",
+            "relation": "r63.rel1",
             "position": "after",
             "anchor": {
               "cited": [
@@ -110,7 +110,7 @@
             "source_ref": "(2)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r10.rel2",
+            "relation": "r63.rel2",
             "position": "after",
             "anchor": {
               "cited": [
@@ -173,7 +173,7 @@
             "source_ref": "(3)(i)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel3",
+            "relation": "r63.rel3",
             "target": {
               "cited": [
                 {
@@ -217,7 +217,9 @@
                 "text": "Bal Bhavan; Children's Museum"
               }
             ],
-            "flags": [],
+            "flags": [
+              "states_inferred_loose"
+            ],
             "words": [
               "r1.w209",
               "r1.w220"
@@ -239,7 +241,7 @@
             "source_ref": "(3)(ii)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel4",
+            "relation": "r63.rel4",
             "target": {
               "cited": [
                 {
@@ -283,7 +285,9 @@
                 "text": "Beggary, juvenile vagrancy, juvenile delinquency and other 'Care programmes"
               }
             ],
-            "flags": [],
+            "flags": [
+              "states_inferred_loose"
+            ],
             "words": [
               "r1.w228",
               "r1.w239"
@@ -305,7 +309,7 @@
             "source_ref": "(3)(iii)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel5",
+            "relation": "r63.rel5",
             "target": {
               "cited": [
                 {
@@ -349,7 +353,9 @@
                 "text": "Social security measures, including administration of the Employees State Insurance Act, the Employees' Provident Funds Act, and Coal Mines Provident Fund Act"
               }
             ],
-            "flags": [],
+            "flags": [
+              "states_inferred_loose"
+            ],
             "words": [
               "r1.w263",
               "r1.w274"

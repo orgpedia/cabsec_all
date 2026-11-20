@@ -1,0 +1,219 @@
+{
+ "file": "1_Upload_159.pdf",
+ "kind": "amendment",
+ "series": 122,
+ "date": "1977-07-02",
+ "govdoc": "aob-ammend_/output/1_Upload_159.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826683.2028956,
+ "edits_file": "aob-ammend_/conf/1_Upload_159.pdf.edits.yml",
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_159.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:55:33.629189+00:00",
+  "sha256": "1fc5f6a0055abf4a4cc3899118171898f8b3d0eccda78a7ac99d788ec3061970",
+  "pages": 6
+ },
+ "edits": [
+  {
+   "run": "h1",
+   "by": "claude",
+   "at": "2026-11-12T18:01:00+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r1.w220",
+     "before": {
+      "text": "“(11l)"
+     },
+     "after": {
+      "text": "“(iii)"
+     }
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-12T12:32:04.455540+00:00",
+   "stamp": "855035993411f5ba"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r58",
+   "at": "2026-11-15T12:41:26.379462+00:00",
+   "stamp": "4bee11b77477d23c"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r59",
+   "at": "2026-11-15T12:41:28.675083+00:00",
+   "stamp": "ca9e8880e0b943cc"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r60",
+   "at": "2026-11-15T12:41:30.567196+00:00",
+   "stamp": "32b6a5bf0a6ab21f"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r69",
+   "at": "2026-11-15T16:23:56.804490+00:00",
+   "stamp": "dbbd4675d1713ceb",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r70",
+   "at": "2026-11-15T16:23:58.495745+00:00",
+   "stamp": "0c3964f98d5bc421",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r71",
+   "at": "2026-11-15T16:23:59.882304+00:00",
+   "stamp": "3e5fa25098af4584",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r77",
+   "at": "2026-11-15T16:57:20.555677+00:00",
+   "stamp": "cc23f73dc468dbbc"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r78",
+   "at": "2026-11-15T17:03:12.592805+00:00",
+   "stamp": "cafe0ee14a44347d"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r83",
+   "at": "2026-11-16T10:58:03.172033+00:00",
+   "stamp": "ac76f25faccdd8a1"
+  }
+ ],
+ "reviews": [
+  {
+   "id": "h1.v2",
+   "target": "r8.a7",
+   "status": "pending",
+   "by": "claude",
+   "at": "2026-11-12T18:01:00+00:00",
+   "note": "moved by a loose match after h1.e1"
+  }
+ ],
+ "issues": [
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 4: its quoted text runs across a page break",
+   "target": "r71.rel4",
+   "status": "open"
+  }
+ ],
+ "problems": [
+  {
+   "series": 174,
+   "seq": 3,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › text is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
+  },
+  {
+   "series": 174,
+   "seq": 3,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › entry 44 is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
+  },
+  {
+   "series": 174,
+   "seq": 4,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry DEPARTMENT OF REVENUE AND BANKING is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
+  }
+ ],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_520E_1977",
+   "op": "insert",
+   "source_ref": "2(a)",
+   "path": "schedule 1 › ministry Ministry of Finance › entry (ii)",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_520E_1977",
+   "op": "omit",
+   "source_ref": "2(b)",
+   "path": "schedule 1 › ministry Department of Revenue and Banking",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_520E_1977",
+   "op": "replace",
+   "source_ref": "3(a)",
+   "path": "schedule 2 › ministry MINISTRY OF FINANCE › department DEPARTMENT OF ECONOMIC AFFAIRS › group_heading VIII ; schedule 2 › ministry MINISTRY OF FINANCE › department DEPARTMENT OF ECONOMIC AFFAIRS › group_heading IX",
+   "status": "applied"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_520E_1977",
+   "op": "replace",
+   "source_ref": "3(b)",
+   "path": "schedule 2 › ministry DEPARTMENT OF REVENUE AND BANKING",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

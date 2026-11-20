@@ -1,0 +1,186 @@
+{
+ "file": "1_Upload_47.pdf",
+ "kind": "amendment",
+ "series": 14,
+ "date": "1962-12-05",
+ "govdoc": "aob-ammend_/output/1_Upload_47.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826695.0493343,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_47.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T14:01:45.774273+00:00",
+  "sha256": "deb357dfb666fce6625dccc578e436a2fc121c7e027b42f458cbc5acd11fafd2",
+  "pages": 2
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-12T12:45:26.729962+00:00",
+   "stamp": "0ff1264e1c6fc8e6"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r50",
+   "at": "2026-11-15T12:42:45.769717+00:00",
+   "stamp": "d97ef38029fb2043"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r51",
+   "at": "2026-11-15T12:42:48.415731+00:00",
+   "stamp": "7ff6172ee560c3f3"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r52",
+   "at": "2026-11-15T12:42:50.743735+00:00",
+   "stamp": "31db700c77ec390c"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r61",
+   "at": "2026-11-15T16:25:03.441600+00:00",
+   "stamp": "be7c38cc994744ce",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r62",
+   "at": "2026-11-15T16:25:05.530641+00:00",
+   "stamp": "f26ceadce06f8413",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r63",
+   "at": "2026-11-15T16:25:07.535936+00:00",
+   "stamp": "d83082a250cde511",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r69",
+   "at": "2026-11-15T16:57:38.122942+00:00",
+   "stamp": "0e10a3425f0f954b"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r70",
+   "at": "2026-11-15T17:03:52.638828+00:00",
+   "stamp": "e7b061b4036f180e"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r75",
+   "at": "2026-11-16T10:58:15.041999+00:00",
+   "stamp": "8e71cc2e94ba845e"
+  }
+ ],
+ "reviews": [],
+ "issues": [],
+ "problems": [
+  {
+   "series": 14,
+   "seq": 3,
+   "code": "old_path_missing",
+   "severity": "error",
+   "message": "change 3: no entry 1 under schedule 2 › ministry Ministry of Works, Housing and Rehabilitation. › department A",
+   "cause": "entry_not_in_state"
+  },
+  {
+   "series": 14,
+   "seq": 4,
+   "code": "old_path_missing",
+   "severity": "error",
+   "message": "change 4: no entry 23 under schedule 2 › ministry Ministry of Works, Housing and Rehabilitation. › department A",
+   "cause": "entry_not_in_state"
+  }
+ ],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_3721_1962",
+   "op": "replace",
+   "source_ref": "(A)",
+   "path": "schedule 1 › entry 19",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_3721_1962",
+   "op": "replace",
+   "source_ref": "(B)(a)",
+   "path": "schedule 2 › ministry Ministry of Works and Housing",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_3721_1962",
+   "op": "substitute_text",
+   "source_ref": "(B)(b)(i)",
+   "path": "schedule 2 › ministry Ministry of Works, Housing and Rehabilitation. › department Department of Works and Housing › entry 1 ; schedule 2 › ministry Ministry of Works, Housing and Rehabilitation. › department Department of Works and Housing › entry 7",
+   "status": "not_applied",
+   "problem": "change 3: no entry 1 under schedule 2 › ministry Ministry of Works, Housing and Rehabilitation. › department A",
+   "code": "old_path_missing",
+   "cause": "entry_not_in_state",
+   "known": "entries"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_3721_1962",
+   "op": "substitute_text",
+   "source_ref": "(B)(b)(ii)",
+   "path": "schedule 2 › ministry Ministry of Works, Housing and Rehabilitation. › department Department of Works and Housing › entry 23 › item k",
+   "status": "not_applied",
+   "problem": "change 4: no entry 23 under schedule 2 › ministry Ministry of Works, Housing and Rehabilitation. › department A",
+   "code": "old_path_missing",
+   "cause": "entry_not_in_state",
+   "known": "entries"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

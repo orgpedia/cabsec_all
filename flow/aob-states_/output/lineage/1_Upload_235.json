@@ -1,0 +1,265 @@
+{
+ "file": "1_Upload_235.pdf",
+ "kind": "amendment",
+ "series": 195,
+ "date": "1988-03-30",
+ "govdoc": "aob-ammend_/output/1_Upload_235.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826696.7596722,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_235.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:57:15.021744+00:00",
+  "sha256": "f88384b9d3afed9a93efe34592ede16f49cf0ef53ee65ef6b10805ed1397dc90",
+  "pages": 2
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-11T03:03:20.354513+00:00",
+   "stamp": "36af69661d1520bf"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r113",
+   "at": "2026-11-15T12:43:03.460684+00:00",
+   "stamp": "17a09b8ac1a7bcf0"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r114",
+   "at": "2026-11-15T12:43:04.535875+00:00",
+   "stamp": "6d7073a0c836ff36"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r115",
+   "at": "2026-11-15T12:43:05.448519+00:00",
+   "stamp": "f00386bdcb30c2a7"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r124",
+   "at": "2026-11-15T16:25:16.028180+00:00",
+   "stamp": "ab3ac9d1b3f608ab",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r125",
+   "at": "2026-11-15T16:25:16.730017+00:00",
+   "stamp": "4d9cfe587eb2e2bf",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r126",
+   "at": "2026-11-15T16:25:17.408981+00:00",
+   "stamp": "721e6efd6c291fc4",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r132",
+   "at": "2026-11-15T16:57:40.881226+00:00",
+   "stamp": "8ffcd1f8bf9c2dbc"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r133",
+   "at": "2026-11-15T17:04:00.389254+00:00",
+   "stamp": "868175f63c03c36f"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r138",
+   "at": "2026-11-16T10:58:16.741132+00:00",
+   "stamp": "db0805351d23c5d1"
+  }
+ ],
+ "reviews": [],
+ "issues": [
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
+   "message": "change 1: department DEPARTMENT OF EXPENDITNRE taken for department DEPARTMENT OF EXPENDITURE, named loosely",
+   "target": "r126.rel1",
+   "status": "open"
+  }
+ ],
+ "problems": [
+  {
+   "series": 195,
+   "seq": 3,
+   "code": "old_path_missing",
+   "severity": "error",
+   "message": "change 3: no item xiii under schedule 2 › ministry MINISTRY OF HOME AFFAIRS › department B › group_heading III › entry 9",
+   "cause": "items"
+  },
+  {
+   "series": 195,
+   "seq": 4,
+   "code": "old_path_missing",
+   "severity": "error",
+   "message": "change 4: no item xiv under schedule 2 › ministry MINISTRY OF HOME AFFAIRS › department B › group_heading III › entry 9",
+   "cause": "items"
+  },
+  {
+   "series": 195,
+   "seq": 5,
+   "code": "old_path_missing",
+   "severity": "error",
+   "message": "change 5: no entry 12 under schedule 2 › ministry MINISTRY OF HOME AFFAIRS › department B",
+   "cause": "entry_not_in_state"
+  },
+  {
+   "series": 195,
+   "seq": 6,
+   "code": "old_path_missing",
+   "severity": "error",
+   "message": "change 6: no group_heading XI under schedule 2 › ministry Ministry of Personnel Public Grievances and Pen sions (Karmik, lok Shikayat tatha Pension Mantralaya) › department A",
+   "cause": "group_not_found"
+  },
+  {
+   "series": 271,
+   "seq": 2,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HOME AFFAIRS › department B › group_heading III › entry 9 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 7,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry Ministry of Personnel Public Grievances and Pen sions (Karmik, lok Shikayat tatha Pension Mantralaya) › department B › entry 4 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  }
+ ],
+ "rules": [
+  {
+   "rule": "loose",
+   "seq": 1,
+   "note": "change 1: department DEPARTMENT OF EXPENDITNRE taken for department DEPARTMENT OF EXPENDITURE, named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  }
+ ],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_357E_1988",
+   "op": "insert",
+   "source_ref": "2(A)",
+   "path": "schedule 2 › ministry MINISTRY OF FINANCE › department DEPARTMENT OF EXPENDITNRE › entry 11",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_357E_1988",
+   "op": "substitute_text",
+   "source_ref": "2(B)(i)(a)",
+   "path": "schedule 2 › ministry MINISTRY OF HOME AFFAIRS › department DEPARTMENT OF STATES › entry 9",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_357E_1988",
+   "op": "renumber",
+   "source_ref": "2(B)(i)(b)",
+   "path": "schedule 2 › ministry MINISTRY OF HOME AFFAIRS › department DEPARTMENT OF STATES › entry 9 › item xiii",
+   "status": "not_applied",
+   "problem": "change 3: no item xiii under schedule 2 › ministry MINISTRY OF HOME AFFAIRS › department B › group_heading III › entry 9",
+   "code": "old_path_missing",
+   "cause": "items",
+   "known": "items"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_357E_1988",
+   "op": "insert",
+   "source_ref": "2(B)(i)(b)",
+   "path": "schedule 2 › ministry MINISTRY OF HOME AFFAIRS › department DEPARTMENT OF STATES › entry 9 › item xiv",
+   "status": "not_applied",
+   "problem": "change 4: no item xiv under schedule 2 › ministry MINISTRY OF HOME AFFAIRS › department B › group_heading III › entry 9",
+   "code": "old_path_missing",
+   "cause": "items",
+   "known": "items"
+  },
+  {
+   "seq": 5,
+   "doc_id": "GOI_SO_357E_1988",
+   "op": "insert",
+   "source_ref": "2(B)(ii)",
+   "path": "schedule 2 › ministry MINISTRY OF HOME AFFAIRS › department DEPARTMENT OF STATES › entry 12",
+   "status": "not_applied",
+   "problem": "change 5: no entry 12 under schedule 2 › ministry MINISTRY OF HOME AFFAIRS › department B",
+   "code": "old_path_missing",
+   "cause": "entry_not_in_state",
+   "known": "entries"
+  },
+  {
+   "seq": 6,
+   "doc_id": "GOI_SO_357E_1988",
+   "op": "omit",
+   "source_ref": "2(C)(i)",
+   "path": "schedule 2 › ministry MINISTRY OF PER- SONNEL, PUBLIC GRIEVANCES AND PENSIONS › department DEPART- MENT OF PERSONNEL AND TRAIN - ING › group_heading XI ; schedule 2 › ministry MINISTRY OF PER- SONNEL, PUBLIC GRIEVANCES AND PENSIONS › department DEPART- MENT OF PERSONNEL AND TRAIN - ING › group_heading XI › entry 44",
+   "status": "not_applied",
+   "problem": "change 6: no group_heading XI under schedule 2 › ministry Ministry of Personnel Public Grievances and Pen sions (Karmik, lok Shikayat tatha Pension Mantralaya) › department A",
+   "code": "old_path_missing",
+   "cause": "group_not_found",
+   "known": "groups"
+  },
+  {
+   "seq": 7,
+   "doc_id": "GOI_SO_357E_1988",
+   "op": "insert",
+   "source_ref": "2(C)(ii)",
+   "path": "schedule 2 › ministry MINISTRY OF PER- SONNEL, PUBLIC GRIEVANCES AND PENSIONS › department DEPART- MENT OF ADMINISTRATIVE RE- FORMS AND PUBLIC GRIEVANCES › entry 3",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

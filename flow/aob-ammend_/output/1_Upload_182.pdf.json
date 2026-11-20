@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_182.pdf",
     "sha256": "2ca0621cd39d8572439cbf306fc5fd2dfc59221d98d8cf6ab0fafcb43435f127",
     "govdoc": "1_Upload_182.pdf.govdoc.json.zst",
-    "revision": 46
+    "revision": 70
   },
   "documents": [
     {
@@ -29,9 +29,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "3",
+          "version": "4",
           "model": "gemini-4-argon",
-          "at": "2026-11-12T13:48:57.807235+00:00"
+          "at": "2026-11-15T16:24:00.446679+00:00"
         },
         "ops": [
           {
@@ -39,7 +39,7 @@
             "source_ref": "2(a)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel1",
+            "relation": "r63.rel1",
             "target": {
               "cited": [
                 {
@@ -53,14 +53,14 @@
               ],
               "eId": null,
               "words": [
-                "r1.w1653",
+                "r1.w1652",
                 "r1.w1654"
               ],
               "boxes": [
                 {
                   "page": 3,
                   "bbox": [
-                    1534,
+                    1466,
                     1055,
                     1658,
                     1091
@@ -116,7 +116,7 @@
             "source_ref": "2(b)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r10.rel2",
+            "relation": "r63.rel2",
             "position": "after",
             "anchor": {
               "cited": [
@@ -177,7 +177,7 @@
             "source_ref": "2(c)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel3",
+            "relation": "r63.rel3",
             "target": {
               "cited": [
                 {
@@ -191,14 +191,14 @@
               ],
               "eId": null,
               "words": [
-                "r1.w1724",
+                "r1.w1723",
                 "r1.w1725"
               ],
               "boxes": [
                 {
                   "page": 3,
                   "bbox": [
-                    1534,
+                    1465,
                     1654,
                     1659,
                     1689
@@ -248,7 +248,7 @@
             "source_ref": "2(d)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel4",
+            "relation": "r63.rel4",
             "target": {
               "cited": [
                 {
@@ -262,14 +262,14 @@
               ],
               "eId": null,
               "words": [
-                "r1.w1756",
+                "r1.w1755",
                 "r1.w1757"
               ],
               "boxes": [
                 {
                   "page": 3,
                   "bbox": [
-                    1533,
+                    1469,
                     1897,
                     1661,
                     1933
@@ -319,7 +319,7 @@
             "source_ref": "2(e)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r10.rel5",
+            "relation": "r63.rel5",
             "position": "after",
             "anchor": {
               "cited": [
@@ -379,7 +379,7 @@
             "source_ref": "2(f)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel6",
+            "relation": "r63.rel6",
             "target": {
               "cited": [
                 {
@@ -393,14 +393,14 @@
               ],
               "eId": null,
               "words": [
-                "r1.w1807",
+                "r1.w1806",
                 "r1.w1808"
               ],
               "boxes": [
                 {
                   "page": 3,
                   "bbox": [
-                    1527,
+                    1464,
                     2304,
                     1673,
                     2338
@@ -450,7 +450,7 @@
             "source_ref": "3(a)(i)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel7",
+            "relation": "r63.rel7",
             "target": {
               "cited": [
                 {
@@ -510,7 +510,7 @@
             "source_ref": "3(a)(ii)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel8",
+            "relation": "r63.rel8",
             "target": {
               "cited": [
                 {
@@ -527,7 +527,7 @@
                 },
                 {
                   "type": "group_heading",
-                  "heading": "IV"
+                  "heading": "Part IV"
                 },
                 {
                   "type": "entry",
@@ -581,7 +581,7 @@
             "source_ref": "3(a)(iii)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r10.rel9",
+            "relation": "r63.rel9",
             "target": {
               "cited": [
                 {
@@ -614,6 +614,7 @@
                 }
               ]
             },
+            "expect": "D. Department of Irrigation (Sinchai Vibhag ) ",
             "ref_seq": 7,
             "flags": [],
             "words": [
@@ -637,7 +638,7 @@
             "source_ref": "3(b)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r10.rel10",
+            "relation": "r63.rel10",
             "position": "after",
             "anchor": {
               "cited": [
@@ -782,6 +783,7 @@
                 "text": "All attached or subordinate offices or other organisations concerned with any of the subjects specified in this list, including the Forward Markets Commission, Bombay."
               }
             ],
+            "ref_seq": 7,
             "flags": [],
             "words": [
               "r1.w1926",
@@ -804,7 +806,7 @@
             "source_ref": "3(c)(i)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel11",
+            "relation": "r63.rel11",
             "target": {
               "cited": [
                 {
@@ -864,7 +866,7 @@
             "source_ref": "3(c)(ii)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r10.rel12",
+            "relation": "r63.rel12",
             "target": {
               "cited": [
                 {
@@ -897,6 +899,7 @@
                 }
               ]
             },
+            "expect": "B. Department of Civil Supplies (Nagrik Poorti Vibhag",
             "ref_seq": 11,
             "flags": [],
             "words": [
@@ -920,7 +923,7 @@
             "source_ref": "3(c)(ii)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel13",
+            "relation": "r63.rel13",
             "target": {
               "cited": [
                 {
@@ -986,7 +989,7 @@
             "source_ref": "3(d)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel14",
+            "relation": "r63.rel14",
             "target": {
               "cited": [
                 {
@@ -1166,7 +1169,7 @@
             "source_ref": "3(e)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r10.rel15",
+            "relation": "r63.rel15",
             "target": {
               "cited": [
                 {
@@ -1221,7 +1224,7 @@
             "source_ref": "3(f)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r10.rel16",
+            "relation": "r63.rel16",
             "position": "after",
             "anchor": {
               "cited": [
@@ -1304,7 +1307,7 @@
               {
                 "type": "entry",
                 "num": "9",
-                "text": "International Commissions and Conferences relating to irrigation and flood control. 1084/1 ----"
+                "text": "International Commissions and Conferences relating to irrigation and flood control. ----"
               },
               {
                 "type": "entry",
@@ -1341,7 +1344,7 @@
             "source_ref": "3(g)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r10.rel17",
+            "relation": "r63.rel17",
             "position": "after",
             "anchor": {
               "cited": [
@@ -1408,7 +1411,7 @@
             "source_ref": "3(h)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel18",
+            "relation": "r63.rel18",
             "target": {
               "cited": [
                 {
@@ -1470,7 +1473,7 @@
             "source_ref": "3(i)(a)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel19",
+            "relation": "r63.rel19",
             "target": {
               "cited": [
                 {
@@ -1508,7 +1511,9 @@
                 "heading_hi": "Ispat Aur Khan Mantralaya"
               }
             ],
-            "flags": [],
+            "flags": [
+              "states_inferred_loose"
+            ],
             "words": [
               "r1.w2839",
               "r1.w2849"
@@ -1530,7 +1535,7 @@
             "source_ref": "3(i)(b)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r10.rel20",
+            "relation": "r63.rel20",
             "target": {
               "cited": [
                 {
@@ -1563,6 +1568,7 @@
                 }
               ]
             },
+            "expect": "C. Department of Coal (Koyala Vibhag)",
             "ref_seq": 19,
             "flags": [],
             "words": [
@@ -1586,7 +1592,7 @@
             "source_ref": "3(j)(i)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel21",
+            "relation": "r63.rel21",
             "target": {
               "cited": [
                 {
@@ -1594,7 +1600,7 @@
                   "num": "2"
                 },
                 {
-                  "type": "department",
+                  "type": "ministry",
                   "heading": "Department of Atomic Energy"
                 },
                 {
@@ -1666,7 +1672,7 @@
             "source_ref": "3(j)(ii)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel22",
+            "relation": "r63.rel22",
             "target": {
               "cited": [
                 {
@@ -1674,7 +1680,7 @@
                   "num": "2"
                 },
                 {
-                  "type": "department",
+                  "type": "ministry",
                   "heading": "Department of Atomic Energy"
                 },
                 {

@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_170.pdf",
     "sha256": "b7b1f643c8d2bf921f65534c6e0469d3261d6f8c69076af42bf026863ab46b51",
     "govdoc": "1_Upload_170.pdf.govdoc.json.zst",
-    "revision": 46
+    "revision": 70
   },
   "documents": [
     {
@@ -29,17 +29,17 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "3",
+          "version": "4",
           "model": "gemini-4-argon",
-          "at": "2026-11-12T13:49:50.293184+00:00"
+          "at": "2026-11-15T16:24:54.388024+00:00"
         },
         "ops": [
           {
             "seq": 1,
             "source_ref": "2(a)(i)",
-            "op": "omit",
-            "akn_type": "repeal",
-            "relation": "r10.rel1",
+            "op": "substitute_text",
+            "akn_type": "substitution",
+            "relation": "r63.rel1",
             "target": {
               "cited": [
                 {
@@ -80,7 +80,8 @@
                 }
               ]
             },
-            "expect": "and",
+            "old": "and",
+            "new": "",
             "flags": [],
             "words": [
               "r1.w449",
@@ -103,7 +104,7 @@
             "source_ref": "2(a)(ii)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r10.rel2",
+            "relation": "r63.rel2",
             "position": "after",
             "anchor": {
               "cited": [
@@ -174,7 +175,7 @@
             "source_ref": "2(b)(1)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r10.rel3",
+            "relation": "r63.rel3",
             "position": "after",
             "anchor": {
               "cited": [
@@ -241,7 +242,7 @@
             "source_ref": "2(b)(ii)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r10.rel4",
+            "relation": "r63.rel4",
             "target": {
               "cited": [
                 {

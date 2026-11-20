@@ -1,0 +1,387 @@
+{
+ "file": "1_Upload_884.pdf",
+ "kind": "checkpoint",
+ "series": 320,
+ "date": "2016-01-01",
+ "govdoc": "aob-rules_/output/1_Upload_884.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794761975.9009557,
+ "edits_file": "aob-rules_/conf/1_Upload_884.pdf.edits.yml",
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/completeaobrules/english/1_Upload_884.pdf",
+  "portal": "cabsec_aob_rules",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-29T10:23:29.069086+00:00",
+  "sha256": "0ee0b5e8563fa5cb9c81210f1023c19de73c7ec16a601034ae99598fc65767bd",
+  "pages": 176
+ },
+ "edits": [
+  {
+   "run": "h1",
+   "by": "mukundesh",
+   "at": "2026-11-03T04:16:11+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r1.w1707",
+     "before": {
+      "text": "advise"
+     },
+     "after": {
+      "text": "advice"
+     }
+    },
+    {
+     "op": "text",
+     "target": "r1.w14373",
+     "before": {
+      "text": "(Complusory"
+     },
+     "after": {
+      "text": "(Compulsory"
+     }
+    },
+    {
+     "op": "text",
+     "target": "r1.w17405",
+     "before": {
+      "text": "Liaision"
+     },
+     "after": {
+      "text": "Liaison"
+     }
+    },
+    {
+     "op": "text",
+     "target": "r1.w3661",
+     "before": {
+      "text": "extention"
+     },
+     "after": {
+      "text": "extension"
+     }
+    },
+    {
+     "op": "text",
+     "target": "r1.w4155",
+     "before": {
+      "text": "Machanised"
+     },
+     "after": {
+      "text": "Mechanized"
+     }
+    }
+   ]
+  },
+  {
+   "run": "h2",
+   "by": "mukundesh",
+   "at": "2026-11-03T19:23:12+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r1.w21314",
+     "before": {
+      "text": "DEVELOMENT"
+     },
+     "after": {
+      "text": "DEVELOPMENT"
+     }
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-03T03:44:47.121019+00:00",
+   "stamp": "ea71e9cde8c7deb0"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r119",
+   "at": "2026-11-13T11:41:34.936330+00:00",
+   "stamp": "6537d3ca46e0fb19"
+  },
+  {
+   "step": "layout",
+   "task": "page_blocks",
+   "version": "3",
+   "tool": "block_builder",
+   "run": "r120",
+   "at": "2026-11-13T11:43:21.995968+00:00",
+   "stamp": "f206165dc779ad2c"
+  },
+  {
+   "step": "split",
+   "task": "one_document",
+   "version": "2",
+   "tool": "splitter",
+   "run": "r121",
+   "at": "2026-11-13T11:47:23.884873+00:00",
+   "stamp": "f59fe24d19a3e183"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r135",
+   "at": "2026-11-15T16:59:35.176071+00:00",
+   "stamp": "4d78d9e19d564ee5"
+  }
+ ],
+ "reviews": [
+  {
+   "id": "h3.v1",
+   "target": "r40.i1",
+   "status": "verified",
+   "by": "mukundesh",
+   "at": "2026-11-04T11:04:52+00:00"
+  },
+  {
+   "id": "h3.v2",
+   "target": "r40.i2",
+   "status": "verified",
+   "by": "mukundesh",
+   "at": "2026-11-04T11:04:52+00:00"
+  },
+  {
+   "id": "h3.v3",
+   "target": "r40.i3",
+   "status": "verified",
+   "by": "mukundesh",
+   "at": "2026-11-04T11:04:52+00:00"
+  },
+  {
+   "id": "h3.v4",
+   "target": "r40.i4",
+   "status": "verified",
+   "by": "mukundesh",
+   "at": "2026-11-04T11:04:52+00:00"
+  },
+  {
+   "id": "h3.v5",
+   "target": "r40.i5",
+   "status": "verified",
+   "by": "mukundesh",
+   "at": "2026-11-04T11:04:52+00:00"
+  },
+  {
+   "id": "h3.v6",
+   "target": "r40.i6",
+   "status": "verified",
+   "by": "mukundesh",
+   "at": "2026-11-04T11:04:52+00:00"
+  },
+  {
+   "id": "h3.v7",
+   "target": "r40.i7",
+   "status": "verified",
+   "by": "mukundesh",
+   "at": "2026-11-04T11:04:52+00:00"
+  },
+  {
+   "id": "h3.v8",
+   "target": "r40.i8",
+   "status": "verified",
+   "by": "mukundesh",
+   "at": "2026-11-04T11:04:52+00:00"
+  },
+  {
+   "id": "h3.v9",
+   "target": "r40.i9",
+   "status": "verified",
+   "by": "mukundesh",
+   "at": "2026-11-04T11:04:52+00:00"
+  }
+ ],
+ "issues": [
+  {
+   "code": "aob:new_text_differs",
+   "severity": "warning",
+   "message": "order › rule 4 reads differently in 1_Upload_884.pdf than in 1_Upload_887.pdf with the amendments since applied",
+   "target": "r2.l292",
+   "status": "verified"
+  },
+  {
+   "code": "aob:new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF AGRICULTURE AND FARMERS WELFARE › department A › part I › entry 5 reads differently in 1_Upload_884.pdf than in 1_Upload_887.pdf with the amendments since applied",
+   "target": "r2.l537",
+   "status": "verified"
+  },
+  {
+   "code": "aob:new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF CHEMICALS AND FERTILIZERS › department B › entry 2 reads differently in 1_Upload_884.pdf than in 1_Upload_887.pdf with the amendments since applied",
+   "target": "r2.l859",
+   "status": "verified"
+  },
+  {
+   "code": "aob:new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF DRINKING WATER AND SANITATION › entry 1 reads differently in 1_Upload_884.pdf than in 1_Upload_887.pdf with the amendments since applied",
+   "target": "r2.l1706",
+   "status": "verified"
+  },
+  {
+   "code": "aob:new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF ENVIRONMENT, FOREST AND CLIMATE CHANGE › note is in 1_Upload_884.pdf but not in 1_Upload_887.pdf with the amendments since applied",
+   "target": "r2.l1832",
+   "status": "verified"
+  },
+  {
+   "code": "aob:new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HOME AFFAIRS › department A › group_heading IV is in 1_Upload_884.pdf but not in 1_Upload_887.pdf with the amendments since applied",
+   "target": "r2.l2833",
+   "status": "verified"
+  },
+  {
+   "code": "aob:new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF RURAL DEVELOPMENT › department A › entry 2 reads differently in 1_Upload_884.pdf than in 1_Upload_887.pdf with the amendments since applied",
+   "target": "r2.l4251",
+   "status": "verified"
+  },
+  {
+   "code": "aob:new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF RURAL DEVELOPMENT › department B › entry 17 reads differently in 1_Upload_884.pdf than in 1_Upload_887.pdf with the amendments since applied",
+   "target": "r2.l4281",
+   "status": "verified"
+  },
+  {
+   "code": "aob:new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF URBAN DEVELOPMENT › entry 21 reads differently in 1_Upload_884.pdf than in 1_Upload_887.pdf with the amendments since applied",
+   "target": "r2.l5042",
+   "status": "verified"
+  }
+ ],
+ "problems": [
+  {
+   "series": 320,
+   "seq": null,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "order › rule 4 reads differently in 1_Upload_884.pdf than in 1_Upload_887.pdf with the amendments since applied",
+   "taken": {
+    "by": "mukundesh",
+    "at": "2026-11-04T11:04:52+00:00",
+    "note": null
+   }
+  },
+  {
+   "series": 320,
+   "seq": null,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF AGRICULTURE AND FARMERS WELFARE › department A › part I › entry 5 reads differently in 1_Upload_884.pdf than in 1_Upload_887.pdf with the amendments since applied",
+   "taken": {
+    "by": "mukundesh",
+    "at": "2026-11-04T11:04:52+00:00",
+    "note": null
+   }
+  },
+  {
+   "series": 320,
+   "seq": null,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF CHEMICALS AND FERTILIZERS › department B › entry 2 reads differently in 1_Upload_884.pdf than in 1_Upload_887.pdf with the amendments since applied",
+   "taken": {
+    "by": "mukundesh",
+    "at": "2026-11-04T11:04:52+00:00",
+    "note": null
+   }
+  },
+  {
+   "series": 320,
+   "seq": null,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF DRINKING WATER AND SANITATION › entry 1 reads differently in 1_Upload_884.pdf than in 1_Upload_887.pdf with the amendments since applied",
+   "taken": {
+    "by": "mukundesh",
+    "at": "2026-11-04T11:04:52+00:00",
+    "note": null
+   }
+  },
+  {
+   "series": 320,
+   "seq": null,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF ENVIRONMENT, FOREST AND CLIMATE CHANGE › note is in 1_Upload_884.pdf but not in 1_Upload_887.pdf with the amendments since applied",
+   "taken": {
+    "by": "mukundesh",
+    "at": "2026-11-04T11:04:52+00:00",
+    "note": null
+   }
+  },
+  {
+   "series": 320,
+   "seq": null,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HOME AFFAIRS › department A › group_heading IV is in 1_Upload_884.pdf but not in 1_Upload_887.pdf with the amendments since applied",
+   "taken": {
+    "by": "mukundesh",
+    "at": "2026-11-04T11:04:52+00:00",
+    "note": null
+   }
+  },
+  {
+   "series": 320,
+   "seq": null,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF RURAL DEVELOPMENT › department A › entry 2 reads differently in 1_Upload_884.pdf than in 1_Upload_887.pdf with the amendments since applied",
+   "taken": {
+    "by": "mukundesh",
+    "at": "2026-11-04T11:04:52+00:00",
+    "note": null
+   }
+  },
+  {
+   "series": 320,
+   "seq": null,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF RURAL DEVELOPMENT › department B › entry 17 reads differently in 1_Upload_884.pdf than in 1_Upload_887.pdf with the amendments since applied",
+   "taken": {
+    "by": "mukundesh",
+    "at": "2026-11-04T11:04:52+00:00",
+    "note": null
+   }
+  },
+  {
+   "series": 320,
+   "seq": null,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF URBAN DEVELOPMENT › entry 21 reads differently in 1_Upload_884.pdf than in 1_Upload_887.pdf with the amendments since applied",
+   "taken": {
+    "by": "mukundesh",
+    "at": "2026-11-04T11:04:52+00:00",
+    "note": null
+   }
+  }
+ ],
+ "rules": [],
+ "changes": [],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

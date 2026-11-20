@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_36.pdf",
     "sha256": "6a098e2bd716df307d5675b53c851a812468ec628ac22892eddc51b2eb649f7c",
     "govdoc": "1_Upload_36.pdf.govdoc.json.zst",
-    "revision": 46
+    "revision": 70
   },
   "documents": [
     {
@@ -29,9 +29,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "3",
+          "version": "4",
           "model": "gemini-4-argon",
-          "at": "2026-11-12T13:49:14.133664+00:00"
+          "at": "2026-11-15T16:24:20.448764+00:00"
         },
         "ops": [
           {
@@ -39,7 +39,7 @@
             "source_ref": "(1)(i)(a\"",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r10.rel1",
+            "relation": "r63.rel1",
             "target": [
               {
                 "cited": [
@@ -144,7 +144,7 @@
             "source_ref": "(1)(i)(b\"",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel2",
+            "relation": "r63.rel2",
             "target": {
               "cited": [
                 {
@@ -223,7 +223,7 @@
             "source_ref": "(1)(ii)(a\"",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel3",
+            "relation": "r63.rel3",
             "target": {
               "cited": [
                 {
@@ -292,7 +292,7 @@
             "source_ref": "(1)(ii)(b\"",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel4",
+            "relation": "r63.rel4",
             "target": {
               "cited": [
                 {
@@ -371,7 +371,7 @@
             "source_ref": "(1)(ii)(c\"",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r10.rel5",
+            "relation": "r63.rel5",
             "target": {
               "cited": [
                 {
@@ -438,7 +438,7 @@
             "source_ref": "(1)(ii)(d\"",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel6",
+            "relation": "r63.rel6",
             "target": {
               "cited": [
                 {
@@ -517,7 +517,7 @@
             "source_ref": "(1)(ii)(e\"",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r10.rel7",
+            "relation": "r63.rel7",
             "position": "after",
             "anchor": {
               "cited": [
@@ -617,7 +617,7 @@
             "source_ref": "(2\"",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel8",
+            "relation": "r63.rel8",
             "target": {
               "cited": [
                 {
@@ -683,7 +683,7 @@
             "source_ref": "(3\"",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r10.rel9",
+            "relation": "r63.rel9",
             "position": "after",
             "anchor": {
               "cited": [
@@ -745,7 +745,7 @@
             "source_ref": "(4\"",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r10.rel10",
+            "relation": "r63.rel10",
             "position": "after",
             "anchor": {
               "cited": [
@@ -807,7 +807,7 @@
             "source_ref": "(5)(1\"",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel11",
+            "relation": "r63.rel11",
             "target": {
               "cited": [
                 {
@@ -872,7 +872,7 @@
             "source_ref": "(5)(11\"",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel12",
+            "relation": "r63.rel12",
             "target": {
               "cited": [
                 {
@@ -937,7 +937,7 @@
             "source_ref": "(6)(i\"",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r10.rel13",
+            "relation": "r63.rel13",
             "position": "after",
             "anchor": {
               "cited": [
@@ -1004,7 +1004,7 @@
             "source_ref": "(6)(ii\"",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r10.rel14",
+            "relation": "r63.rel14",
             "position": "after",
             "anchor": {
               "cited": [
@@ -1071,7 +1071,7 @@
             "source_ref": "(7\"",
             "op": "substitute_text",
             "akn_type": "substitution",
-            "relation": "r10.rel15",
+            "relation": "r63.rel15",
             "target": {
               "cited": [
                 {
@@ -1128,7 +1128,7 @@
             "source_ref": "(8)(a\"",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel16",
+            "relation": "r63.rel16",
             "target": {
               "cited": [
                 {
@@ -1190,7 +1190,7 @@
             "source_ref": "(8)(b\"",
             "op": "substitute_text",
             "akn_type": "substitution",
-            "relation": "r10.rel17",
+            "relation": "r63.rel17",
             "target": [
               {
                 "cited": [
@@ -1281,7 +1281,7 @@
             "source_ref": "(8)(c\"",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel18",
+            "relation": "r63.rel18",
             "target": {
               "cited": [
                 {
@@ -1343,7 +1343,7 @@
             "source_ref": "(9)(a\"",
             "op": "substitute_text",
             "akn_type": "substitution",
-            "relation": "r10.rel19",
+            "relation": "r63.rel19",
             "target": {
               "cited": [
                 {
@@ -1382,7 +1382,9 @@
             },
             "old": "Post Office Life Insurance Fund (Adminis- tration) and Indian Telephone Industries, Bangalore",
             "new": "and Post Office Life Insurance Fund (Administration).",
-            "flags": [],
+            "flags": [
+              "states_inferred_loose"
+            ],
             "words": [
               "r1.w878",
               "r1.w890"
@@ -1404,7 +1406,7 @@
             "source_ref": "(9)(b\"",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r10.rel20",
+            "relation": "r63.rel20",
             "position": "after",
             "anchor": {
               "cited": [
@@ -1449,7 +1451,9 @@
                 "text": "Indian Telephone Industries, Bangalore and the Hindustan Teleprinters Ltd., Madras"
               }
             ],
-            "flags": [],
+            "flags": [
+              "states_inferred_loose"
+            ],
             "words": [
               "r1.w910",
               "r1.w920"
@@ -1471,7 +1475,7 @@
             "source_ref": "(10\"",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r10.rel21",
+            "relation": "r63.rel21",
             "position": "after",
             "anchor": {
               "cited": [

@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_172.pdf",
     "sha256": "bd918916ef15fa78af2b8dacedf9af7cb4ab503bc284566cf87e8fafbc52503f",
     "govdoc": "1_Upload_172.pdf.govdoc.json.zst",
-    "revision": 64
+    "revision": 88
   },
   "documents": [
     {
@@ -29,9 +29,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "3",
+          "version": "4",
           "model": "gemini-4-argon",
-          "at": "2026-11-12T19:01:23.052299+00:00"
+          "at": "2026-11-15T16:24:54.699907+00:00"
         },
         "ops": [
           {
@@ -39,7 +39,7 @@
             "source_ref": "2",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r39.rel1",
+            "relation": "r79.rel1",
             "target": {
               "cited": [
                 {
@@ -480,7 +480,7 @@
             "source_ref": "3(a)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r39.rel2",
+            "relation": "r79.rel2",
             "target": {
               "cited": [
                 {
@@ -513,7 +513,6 @@
                 }
               ]
             },
-            "expect": "A. DE- PARTMENT OF AGRICULTURE (KRISHI VIBHAG)",
             "content": [
               {
                 "type": "department",
@@ -929,7 +928,7 @@
             "source_ref": "3(b)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r39.rel3",
+            "relation": "r79.rel3",
             "target": {
               "cited": [
                 {
@@ -989,7 +988,7 @@
             "source_ref": "3(b)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r39.rel4",
+            "relation": "r79.rel4",
             "position": "after",
             "anchor": {
               "cited": [
@@ -1133,7 +1132,7 @@
             ],
             "ref_seq": 3,
             "flags": [
-              "read_page_break"
+              "states_inferred_loose"
             ],
             "words": [
               "r1.w4370",
@@ -1156,7 +1155,7 @@
             "source_ref": "3(c)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r39.rel5",
+            "relation": "r79.rel5",
             "target": [
               {
                 "cited": [
@@ -1289,7 +1288,7 @@
             "source_ref": "3(d)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r39.rel6",
+            "relation": "r79.rel6",
             "position": "after",
             "anchor": {
               "cited": [
@@ -1421,7 +1420,7 @@
             "source_ref": "3(e)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r39.rel7",
+            "relation": "r79.rel7",
             "target": {
               "cited": [
                 {

@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_268.pdf",
     "sha256": "9436dc14ad16de347e5fd70ccb01d6eb570f0a3359027b9558989ca8c520ecc5",
     "govdoc": "1_Upload_268.pdf.govdoc.json.zst",
-    "revision": 140
+    "revision": 164
   },
   "documents": [
     {
@@ -29,9 +29,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "3",
+          "version": "4",
           "model": "gemini-4-argon",
-          "at": "2026-11-12T12:56:36.732502+00:00"
+          "at": "2026-11-15T16:24:41.255619+00:00"
         },
         "ops": [
           {
@@ -39,7 +39,7 @@
             "source_ref": "2(1)(a)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r101.rel1",
+            "relation": "r154.rel1",
             "position": "after",
             "anchor": {
               "cited": [
@@ -105,7 +105,7 @@
             "source_ref": "2(1)(b)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r101.rel2",
+            "relation": "r154.rel2",
             "position": "after",
             "anchor": {
               "cited": [
@@ -169,7 +169,7 @@
             "source_ref": "2(1)(c)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r101.rel3",
+            "relation": "r154.rel3",
             "position": "after",
             "anchor": {
               "cited": [
@@ -233,7 +233,7 @@
             "source_ref": "2(1)(d)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r101.rel4",
+            "relation": "r154.rel4",
             "position": "after",
             "anchor": {
               "cited": [
@@ -293,7 +293,7 @@
             "source_ref": "2(1)(e)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r101.rel5",
+            "relation": "r154.rel5",
             "target": {
               "cited": [
                 {
@@ -352,7 +352,7 @@
             "source_ref": "2(1)(f)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r101.rel6",
+            "relation": "r154.rel6",
             "position": "after",
             "anchor": {
               "cited": [
@@ -366,7 +366,7 @@
                 },
                 {
                   "type": "department",
-                  "heading": "Department of Wastelands Develop- ment"
+                  "heading": "Department of Wastelands Development"
                 }
               ],
               "eId": null,
@@ -417,7 +417,7 @@
             "source_ref": "2(1)(g)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r101.rel7",
+            "relation": "r154.rel7",
             "target": {
               "cited": [
                 {
@@ -477,7 +477,7 @@
             "source_ref": "2(1)(h)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r101.rel8",
+            "relation": "r154.rel8",
             "position": "after",
             "anchor": {
               "cited": [
@@ -544,7 +544,7 @@
             "source_ref": "2(2)(a)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r101.rel9",
+            "relation": "r154.rel9",
             "target": {
               "cited": [
                 {
@@ -553,7 +553,7 @@
                 },
                 {
                   "type": "ministry",
-                  "heading": "MINISTRY OF CIVIL SUP- PLIES, CONSUMER AFFAIRS AND PUBLIC DISTRIBUTION"
+                  "heading": "MINISTRY OF CIVIL SUPPLIES, CONSUMER AFFAIRS AND PUBLIC DISTRIBUTION"
                 },
                 {
                   "type": "entry",
@@ -706,7 +706,7 @@
             "source_ref": "2(2)(b)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r101.rel10",
+            "relation": "r154.rel10",
             "target": {
               "cited": [
                 {
@@ -772,7 +772,7 @@
             "source_ref": "2(2)(c)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r101.rel11",
+            "relation": "r154.rel11",
             "target": {
               "cited": [
                 {
@@ -986,7 +986,7 @@
             "source_ref": "2(2)(d)(i)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r101.rel12",
+            "relation": "r154.rel12",
             "target": [
               {
                 "cited": [
@@ -1013,14 +1013,14 @@
                 ],
                 "eId": null,
                 "words": [
-                  "r1.w5121",
+                  "r1.w5120",
                   "r1.w5121"
                 ],
                 "boxes": [
                   {
                     "page": 9,
                     "bbox": [
-                      1657,
+                      1552,
                       831,
                       1697,
                       862
@@ -1700,10 +1700,10 @@
           },
           {
             "seq": 13,
-            "source_ref": "2(2)(d)(ii)",
+            "source_ref": "2(2)(d)(i)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r101.rel13",
+            "relation": "r154.rel13",
             "position": "after",
             "anchor": {
               "cited": [
@@ -1879,7 +1879,7 @@
             "source_ref": "2(2)(e)(i)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r101.rel14",
+            "relation": "r154.rel14",
             "target": {
               "cited": [
                 {
@@ -2057,7 +2057,7 @@
             "source_ref": "2(2)(e)(ii)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r101.rel15",
+            "relation": "r154.rel15",
             "position": "after",
             "anchor": {
               "cited": [
@@ -2261,7 +2261,7 @@
             "source_ref": "2(2)(f)(i)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r101.rel16",
+            "relation": "r154.rel16",
             "target": {
               "cited": [
                 {
@@ -2270,7 +2270,7 @@
                 },
                 {
                   "type": "ministry",
-                  "heading": "MINISTRY OF RURAL DE- VELOPMENT"
+                  "heading": "MINISTRY OF RURAL DEVELOPMENT"
                 }
               ],
               "eId": null,
@@ -2290,7 +2290,7 @@
                 }
               ]
             },
-            "expect": "MINISTRY OF RURAL DE- VELOPMENT (GRAMIN VIKAS MANTRA- LAYA)",
+            "expect": "MINISTRY OF RURAL DEVELOPMENT (GRAMIN VIKAS MANTRALAYA)",
             "scope": "heading",
             "content": [
               {
@@ -2321,7 +2321,7 @@
             "source_ref": "2(2)(f)(ii)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r101.rel17",
+            "relation": "r154.rel17",
             "target": {
               "cited": [
                 {
@@ -2461,10 +2461,10 @@
           },
           {
             "seq": 18,
-            "source_ref": "2(2)(f)(iii)",
+            "source_ref": "2(2)(f)(ii)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r101.rel18",
+            "relation": "r154.rel18",
             "position": "after",
             "anchor": {
               "cited": [
@@ -2478,7 +2478,7 @@
                 },
                 {
                   "type": "department",
-                  "heading": "DEPARTMENT OF WASTE- LAND DEVELOPMENT"
+                  "heading": "DEPARTMENT OF WASTELAND DEVELOPMENT"
                 }
               ],
               "eId": null,
@@ -2562,7 +2562,7 @@
             "source_ref": "2(2)(g)(i)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r101.rel19",
+            "relation": "r154.rel19",
             "target": {
               "cited": [
                 {
@@ -2571,7 +2571,7 @@
                 },
                 {
                   "type": "ministry",
-                  "heading": "MINISTRY OF URBAN DE- VELOPMENT"
+                  "heading": "MINISTRY OF URBAN DEVELOPMENT"
                 }
               ],
               "eId": null,
@@ -2591,7 +2591,7 @@
                 }
               ]
             },
-            "expect": "MINISTRY OF URBAN DE- VELOPMENT (SHAHARI VIKAS MANTRA- LAYA)",
+            "expect": "MINISTRY OF URBAN DEVELOPMENT (SHAHARI VIKAS MANTRALAYA)",
             "scope": "heading",
             "content": [
               {
@@ -2619,10 +2619,10 @@
           },
           {
             "seq": 20,
-            "source_ref": "2(2)(g)(ii)",
+            "source_ref": "2(2)(g)(i)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r101.rel20",
+            "relation": "r154.rel20",
             "target": {
               "cited": [
                 {

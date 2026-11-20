@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_46.pdf",
     "sha256": "d002600cfaca09a2f3bd3bd26e163fb9cfdef8dfa42e16e77f87c85e0db712ee",
     "govdoc": "1_Upload_46.pdf.govdoc.json.zst",
-    "revision": 49
+    "revision": 73
   },
   "documents": [
     {
@@ -29,9 +29,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "3",
+          "version": "4",
           "model": "gemini-4-argon",
-          "at": "2026-11-12T13:50:03.074543+00:00"
+          "at": "2026-11-15T16:25:06.814649+00:00"
         },
         "ops": [
           {
@@ -39,7 +39,7 @@
             "source_ref": "(A)(a)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r12.rel1",
+            "relation": "r65.rel1",
             "target": {
               "cited": [
                 {
@@ -114,7 +114,7 @@
             "source_ref": "(A)(b)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r12.rel2",
+            "relation": "r65.rel2",
             "target": {
               "cited": [
                 {
@@ -184,7 +184,7 @@
             "source_ref": "(B)(a)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r12.rel3",
+            "relation": "r65.rel3",
             "target": {
               "cited": [
                 {
@@ -251,7 +251,7 @@
             "source_ref": "(B)(d)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r12.rel4",
+            "relation": "r65.rel4",
             "target": {
               "cited": [
                 {
@@ -385,7 +385,7 @@
             "source_ref": "(B)(c)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r12.rel5",
+            "relation": "r65.rel5",
             "target": {
               "cited": [
                 {
@@ -444,7 +444,7 @@
             "source_ref": "(B)(d)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r12.rel6",
+            "relation": "r65.rel6",
             "target": {
               "cited": [
                 {
@@ -490,7 +490,8 @@
               }
             ],
             "flags": [
-              "read_hindi_missing"
+              "read_hindi_missing",
+              "states_inferred_one_heading"
             ],
             "words": [
               "r1.w258",
@@ -513,7 +514,7 @@
             "source_ref": "(B)(e)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r12.rel7",
+            "relation": "r65.rel7",
             "target": [
               {
                 "cited": [

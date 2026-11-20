@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_272.pdf",
     "sha256": "d6ca44c5b41ceba462a15a78433a6243d925786d95e7a1e8434d21ad3e6dd4c2",
     "govdoc": "1_Upload_272.pdf.govdoc.json.zst",
-    "revision": 113
+    "revision": 137
   },
   "documents": [
     {
@@ -29,9 +29,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "3",
+          "version": "4",
           "model": "gemini-4-argon",
-          "at": "2026-11-12T12:57:18.242966+00:00"
+          "at": "2026-11-15T16:25:07.043688+00:00"
         },
         "ops": [
           {
@@ -39,7 +39,7 @@
             "source_ref": "2(1)(a)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r76.rel1",
+            "relation": "r129.rel1",
             "position": "after",
             "anchor": {
               "cited": [
@@ -103,7 +103,7 @@
             "source_ref": "2(1)(b)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r76.rel2",
+            "relation": "r129.rel2",
             "target": {
               "cited": [
                 {
@@ -179,7 +179,7 @@
             "source_ref": "2(2)(a)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r76.rel3",
+            "relation": "r129.rel3",
             "position": "after",
             "anchor": {
               "cited": [
@@ -288,7 +288,7 @@
             "source_ref": "2(2)(b)(i)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r76.rel4",
+            "relation": "r129.rel4",
             "target": {
               "cited": [
                 {
@@ -347,7 +347,7 @@
             "source_ref": "2(2)(b)(ii)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r76.rel5",
+            "relation": "r129.rel5",
             "target": {
               "cited": [
                 {
@@ -381,7 +381,9 @@
               ]
             },
             "ref_seq": 4,
-            "flags": [],
+            "flags": [
+              "states_inferred_loose"
+            ],
             "words": [
               "r1.w983",
               "r1.w994"

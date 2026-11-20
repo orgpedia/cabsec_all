@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_294.pdf",
     "sha256": "854ec1a506df84e4077bb3ac29e66e950ef0a539a3d0c4d6cb64bedaedc245de",
     "govdoc": "1_Upload_294.pdf.govdoc.json.zst",
-    "revision": 127
+    "revision": 151
   },
   "documents": [
     {
@@ -29,9 +29,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "3",
+          "version": "4",
           "model": "gemini-4-argon",
-          "at": "2026-11-12T12:56:16.774699+00:00"
+          "at": "2026-11-15T16:24:29.481662+00:00"
         },
         "ops": [
           {
@@ -39,7 +39,7 @@
             "source_ref": "2(1)(A)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r89.rel1",
+            "relation": "r142.rel1",
             "target": [
               {
                 "cited": [
@@ -128,7 +128,7 @@
             "source_ref": "2(1)(B)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r89.rel2",
+            "relation": "r142.rel2",
             "target": {
               "cited": [
                 {
@@ -194,7 +194,7 @@
             "source_ref": "2(2)(A)(i)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r89.rel3",
+            "relation": "r142.rel3",
             "position": "after",
             "anchor": {
               "cited": [
@@ -291,7 +291,7 @@
             "source_ref": "2(2)(A)(ii)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r89.rel4",
+            "relation": "r142.rel4",
             "target": {
               "cited": [
                 {
@@ -411,7 +411,7 @@
             "source_ref": "2(2)(A)(iii)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r89.rel5",
+            "relation": "r142.rel5",
             "target": [
               {
                 "cited": [
@@ -500,7 +500,7 @@
             "source_ref": "2(2)(B)(i)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r89.rel6",
+            "relation": "r142.rel6",
             "target": {
               "cited": [
                 {
@@ -566,7 +566,7 @@
             "source_ref": "2(2)(B)(ii)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r89.rel7",
+            "relation": "r142.rel7",
             "target": {
               "cited": [
                 {
@@ -632,7 +632,7 @@
             "source_ref": "2(2)(C)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r89.rel8",
+            "relation": "r142.rel8",
             "position": "after",
             "anchor": {
               "cited": [
@@ -698,7 +698,7 @@
             "source_ref": "2(2)(D)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r89.rel9",
+            "relation": "r142.rel9",
             "target": {
               "cited": [
                 {
@@ -763,7 +763,7 @@
             "source_ref": "2(2)(E)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r89.rel10",
+            "relation": "r142.rel10",
             "target": {
               "cited": [
                 {
@@ -807,7 +807,9 @@
                 "text": "Appellate Tribunal for Foreign Exchange."
               }
             ],
-            "flags": [],
+            "flags": [
+              "states_inferred_loose"
+            ],
             "words": [
               "r1.w1758",
               "r1.w1765"

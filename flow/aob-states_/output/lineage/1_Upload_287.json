@@ -1,0 +1,166 @@
+{
+ "file": "1_Upload_287.pdf",
+ "kind": "amendment",
+ "series": 247,
+ "date": "1999-12-10",
+ "govdoc": "aob-ammend_/output/1_Upload_287.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826686.4661324,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_287.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:58:51.726391+00:00",
+  "sha256": "50760eeac18e36c6cdf18a8f605cc1d44666f7ef687216bb02a1d741d5357e4a",
+  "pages": 8
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-11T03:11:20.668629+00:00",
+   "stamp": "a1bb3fa2e5c75939"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r113",
+   "at": "2026-11-15T12:41:54.490436+00:00",
+   "stamp": "dbe7bdd2801939b1"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r114",
+   "at": "2026-11-15T12:41:55.933823+00:00",
+   "stamp": "c7aaa0b5d039f43a"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r115",
+   "at": "2026-11-15T12:41:57.755357+00:00",
+   "stamp": "c465931e57083f4e"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r124",
+   "at": "2026-11-15T16:24:17.181084+00:00",
+   "stamp": "908e08eed4b67d2f",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r125",
+   "at": "2026-11-15T16:24:18.391870+00:00",
+   "stamp": "f2f087d95c5442e6",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r126",
+   "at": "2026-11-15T16:24:19.593726+00:00",
+   "stamp": "81cf1eac79f720a3",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r132",
+   "at": "2026-11-15T16:57:25.574361+00:00",
+   "stamp": "7625480432695688"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r133",
+   "at": "2026-11-15T17:03:24.752336+00:00",
+   "stamp": "0a2ea1c3ba30a5ef"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r138",
+   "at": "2026-11-16T10:58:06.407193+00:00",
+   "stamp": "f1c94fcedf3d3774"
+  }
+ ],
+ "reviews": [],
+ "issues": [
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 2: its quoted text runs across a page break",
+   "target": "r126.rel2",
+   "status": "open"
+  }
+ ],
+ "problems": [
+  {
+   "series": 247,
+   "seq": 2,
+   "code": "old_path_missing",
+   "severity": "error",
+   "message": "change 2: no department B under schedule 2 › ministry MINISTRY OF COMMERCE AND INDUSTRY",
+   "cause": "unit_not_found"
+  }
+ ],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_344E_2000",
+   "op": "replace",
+   "source_ref": "2(1)",
+   "path": "schedule 1 › ministry Ministry of Commerce and Industry › department (ii) ; schedule 1 › ministry Ministry of Commerce and Industry › department (iii) ; schedule 1 › ministry Ministry of Commerce and Industry › department (iv)",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_344E_2000",
+   "op": "replace",
+   "source_ref": "2(2)",
+   "path": "schedule 2 › ministry MINISTRY OF COMMERCE AND INDUSTRY › department B ; schedule 2 › ministry MINISTRY OF COMMERCE AND INDUSTRY › department C",
+   "status": "not_applied",
+   "problem": "change 2: no department B under schedule 2 › ministry MINISTRY OF COMMERCE AND INDUSTRY",
+   "code": "old_path_missing",
+   "cause": "unit_not_found",
+   "known": "renamed_unit"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

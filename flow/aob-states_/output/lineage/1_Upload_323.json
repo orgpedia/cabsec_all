@@ -1,0 +1,190 @@
+{
+ "file": "1_Upload_323.pdf",
+ "kind": "amendment",
+ "series": 279,
+ "date": "2005-03-01",
+ "govdoc": "aob-ammend_/output/1_Upload_323.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826696.9331799,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_323.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T14:00:01.730859+00:00",
+  "sha256": "fc7d02262aa39da9735ac10ff4076115c623138890bb788b52738c9f54e89849",
+  "pages": 18
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-05T02:58:08.146543+00:00",
+   "stamp": "50eb8ed18768c871"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r142",
+   "at": "2026-11-15T12:43:03.614157+00:00",
+   "stamp": "8b86e1169320da86"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r143",
+   "at": "2026-11-15T12:43:04.796730+00:00",
+   "stamp": "a081dfeb3e128d81"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r144",
+   "at": "2026-11-15T12:43:05.569378+00:00",
+   "stamp": "f8142144bcb8bdc0"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r153",
+   "at": "2026-11-15T16:25:16.138366+00:00",
+   "stamp": "14308034487515a9",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r154",
+   "at": "2026-11-15T16:25:16.832670+00:00",
+   "stamp": "41ebe712908330e7",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r155",
+   "at": "2026-11-15T16:25:17.544955+00:00",
+   "stamp": "a65c6d2f4c95e096",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r161",
+   "at": "2026-11-15T16:57:41.016762+00:00",
+   "stamp": "bcdc66f49c5d08a1"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r162",
+   "at": "2026-11-15T17:04:00.567310+00:00",
+   "stamp": "a954c6e5f79f401d"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r167",
+   "at": "2026-11-16T10:58:16.868767+00:00",
+   "stamp": "1425d5e56ecf7ed2"
+  }
+ ],
+ "reviews": [],
+ "issues": [
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 2: its quoted text runs across a page break",
+   "target": "r155.rel2",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 3: its quoted text runs across a page break",
+   "target": "r155.rel3",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_number_kept",
+   "severity": "info",
+   "message": "change 1: schedule 1 › ministry Ministry of Health and Family Welfare keeps its number 15, the heading put for it quoted without one",
+   "target": "r155.rel1",
+   "status": "open"
+  }
+ ],
+ "problems": [],
+ "rules": [
+  {
+   "rule": "number_kept",
+   "seq": 1,
+   "note": "change 1: schedule 1 › ministry Ministry of Health and Family Welfare keeps its number 15, the heading put for it quoted without one",
+   "status": "accepted"
+  }
+ ],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_277E_2005",
+   "op": "replace",
+   "source_ref": "2(1)",
+   "path": "schedule 1 › ministry Ministry of Health and Family Welfare",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_277E_2005",
+   "op": "replace",
+   "source_ref": "2(2)(i)",
+   "path": "schedule 2 › ministry MINISTRY OF COMMUNICATIONS AND INFORMATION TECHNOLOGY › department DEPARTMENT OF INFORMATION TECHNOLOGY › entry 6",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_277E_2005",
+   "op": "replace",
+   "source_ref": "2(2)(ii)",
+   "path": "schedule 2 › ministry MINISTRY OF HEALTH AND FAMILY WELFARE",
+   "status": "applied"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_277E_2005",
+   "op": "insert",
+   "source_ref": "2(2)(iii)",
+   "path": "schedule 2 › ministry DEPARTMENT OF SPACE › entry 14",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

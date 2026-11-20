@@ -1,0 +1,185 @@
+{
+ "file": "1_Upload_155.pdf",
+ "kind": "amendment",
+ "series": 118,
+ "date": "1976-11-02",
+ "govdoc": "aob-ammend_/output/1_Upload_155.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826682.5884116,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_155.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:55:28.602411+00:00",
+  "sha256": "0784991c516497cb3f81556e0403f380b292413eb5d6f09e5b4848426e804b3e",
+  "pages": 4
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-12T12:31:32.343893+00:00",
+   "stamp": "67b6f21dc35cbbbc"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r50",
+   "at": "2026-11-15T12:41:25.485080+00:00",
+   "stamp": "83238dbb347d1933"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r51",
+   "at": "2026-11-15T12:41:27.735909+00:00",
+   "stamp": "1fba0a449f8896c6"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r52",
+   "at": "2026-11-15T12:41:29.880943+00:00",
+   "stamp": "3d74bb0ff4b9f7a1"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r61",
+   "at": "2026-11-15T16:23:56.173041+00:00",
+   "stamp": "12d0b1e00ed9a870",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r62",
+   "at": "2026-11-15T16:23:57.762602+00:00",
+   "stamp": "9b2248fe63f8e2d8",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r63",
+   "at": "2026-11-15T16:23:59.391680+00:00",
+   "stamp": "344f2b85bae60f29",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r69",
+   "at": "2026-11-15T16:57:19.811849+00:00",
+   "stamp": "fd5feda66729c7c0"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r70",
+   "at": "2026-11-15T17:03:11.376323+00:00",
+   "stamp": "9b950c5afa8d2983"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r75",
+   "at": "2026-11-16T10:58:02.570969+00:00",
+   "stamp": "0b5ccacd6f3ad043"
+  }
+ ],
+ "reviews": [],
+ "issues": [],
+ "problems": [],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_748E_1976",
+   "op": "replace",
+   "source_ref": "2(1)(a)",
+   "path": "schedule 2 › ministry MINISTRY OF AGRICULTURE AND IRRIGATION › department DEPARTMENT OF AGRICULTURE › entry 19",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_748E_1976",
+   "op": "replace",
+   "source_ref": "2(1)(b)(i)",
+   "path": "schedule 2 › ministry MINISTRY OF AGRICULTURE AND IRRIGATION › department DEPARTMENT OF FOOD › entry 6",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_748E_1976",
+   "op": "replace",
+   "source_ref": "2(1)(b)(ii)",
+   "path": "schedule 2 › ministry MINISTRY OF AGRICULTURE AND IRRIGATION › department DEPARTMENT OF FOOD › entry 7",
+   "status": "applied"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_748E_1976",
+   "op": "replace",
+   "source_ref": "2(1)(b)(iii)",
+   "path": "schedule 2 › ministry MINISTRY OF AGRICULTURE AND IRRIGATION › department DEPARTMENT OF FOOD › entry 9",
+   "status": "applied"
+  },
+  {
+   "seq": 5,
+   "doc_id": "GOI_SO_748E_1976",
+   "op": "replace",
+   "source_ref": "2(1)(b)(iv)",
+   "path": "schedule 2 › ministry MINISTRY OF AGRICULTURE AND IRRIGATION › department DEPARTMENT OF FOOD › entry 10",
+   "status": "applied"
+  },
+  {
+   "seq": 6,
+   "doc_id": "GOI_SO_748E_1976",
+   "op": "replace",
+   "source_ref": "2(1)(b)(v)",
+   "path": "schedule 2 › ministry MINISTRY OF AGRICULTURE AND IRRIGATION › department DEPARTMENT OF FOOD › entry 11 › item ii",
+   "status": "applied"
+  },
+  {
+   "seq": 7,
+   "doc_id": "GOI_SO_748E_1976",
+   "op": "insert",
+   "source_ref": "2(2)",
+   "path": "schedule 2 › ministry MINISTRY OF CIVIL SUPPLIES AND COOPERATION › entry 20",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

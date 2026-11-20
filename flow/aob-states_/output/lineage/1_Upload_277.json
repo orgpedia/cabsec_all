@@ -1,0 +1,877 @@
+{
+ "file": "1_Upload_277.pdf",
+ "kind": "amendment",
+ "series": 237,
+ "date": "1997-10-10",
+ "govdoc": "aob-ammend_/output/1_Upload_277.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826682.4132776,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_277.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:58:33.561996+00:00",
+  "sha256": "01b5377970434939b1440b757e5def7fd9820d89199eb0d045e9e343a8d7cc57",
+  "pages": 24
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-11T03:07:53.797082+00:00",
+   "stamp": "43e19c1bf0d662ef"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r113",
+   "at": "2026-11-15T12:41:25.115339+00:00",
+   "stamp": "b0a918ea0be304d7"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r114",
+   "at": "2026-11-15T12:41:27.356913+00:00",
+   "stamp": "3ea44b599da72497"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r115",
+   "at": "2026-11-15T12:41:29.635307+00:00",
+   "stamp": "f0ab95fd4875e80a"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r124",
+   "at": "2026-11-15T16:23:55.912819+00:00",
+   "stamp": "f62456b95bf709bf",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r125",
+   "at": "2026-11-15T16:23:57.506155+00:00",
+   "stamp": "6dd0801e854ecd21",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r126",
+   "at": "2026-11-15T16:23:59.130515+00:00",
+   "stamp": "07204f7b5a28e531",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r132",
+   "at": "2026-11-15T16:57:19.556761+00:00",
+   "stamp": "d96dad21562038f2"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r133",
+   "at": "2026-11-15T17:03:10.954809+00:00",
+   "stamp": "ae70756b7ecae3a4"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r138",
+   "at": "2026-11-16T10:58:02.329298+00:00",
+   "stamp": "16f315fa9791d0d3"
+  }
+ ],
+ "reviews": [],
+ "issues": [
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 13: its quoted text runs across a page break",
+   "target": "r126.rel13",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 14: its quoted text runs across a page break",
+   "target": "r126.rel14",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 15: its quoted text runs across a page break",
+   "target": "r126.rel15",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
+   "message": "change 6: department DEPARTMENT OF ANIMAL HUSBANDRY AND DAIRYING taken for department DEPARTMENT OF ANIMAL HUSBANDRY AND DAIRY ING PART - I, named loosely",
+   "target": "r126.rel6",
+   "status": "open"
+  }
+ ],
+ "problems": [
+  {
+   "series": 237,
+   "seq": 3,
+   "code": "old_path_missing",
+   "severity": "error",
+   "message": "change 3: no entry 8 under schedule 2 › ministry MINISTRY OF AGRICULTURE › department B",
+   "cause": "entry_not_in_state"
+  },
+  {
+   "series": 237,
+   "seq": 4,
+   "code": "old_path_missing",
+   "severity": "error",
+   "message": "change 4: no entry 8 under schedule 2 › ministry MINISTRY OF AGRICULTURE › department B",
+   "cause": "entry_not_in_state"
+  },
+  {
+   "series": 237,
+   "seq": 11,
+   "code": "old_path_missing",
+   "severity": "error",
+   "message": "change 11: no entry 14 under schedule 2 › ministry MINISTRY OF DEFENCE (RANSHA MAN TRALAYA) › department B",
+   "cause": "entry_not_in_state"
+  },
+  {
+   "series": 271,
+   "seq": 2,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF AGRICULTURE › department B › part III › entry 2 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 5,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF AGRICULTURE › department B › part III › entry 12 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 10,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF DEFENCE (RANSHA MAN TRALAYA) › department A › entry 6 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 13,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF INFORMATION AND BROADCASTING › group_heading I is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 13,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF INFORMATION AND BROADCASTING › group_heading III is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 13,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF INFORMATION AND BROADCASTING › group_heading X is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 13,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF INFORMATION AND BROADCASTING › group_heading XIII is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 13,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF INFORMATION AND BROADCASTING › group_heading I is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 13,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF INFORMATION AND BROADCASTING › group_heading II › entry 5 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 13,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF INFORMATION AND BROADCASTING › group_heading II › entry 6 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 13,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF INFORMATION AND BROADCASTING › group_heading II › entry 1 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 13,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF INFORMATION AND BROADCASTING › group_heading IV › entry 8 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 13,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF INFORMATION AND BROADCASTING › group_heading IV › entry 9 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 13,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF INFORMATION AND BROADCASTING › group_heading IV › entry 10 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 13,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF INFORMATION AND BROADCASTING › group_heading IV › entry 11 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 13,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF INFORMATION AND BROADCASTING › group_heading IV › entry 12 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 13,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF INFORMATION AND BROADCASTING › group_heading V › entry 11 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 13,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF INFORMATION AND BROADCASTING › group_heading V › entry 12 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 13,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF INFORMATION AND BROADCASTING › group_heading V › entry 13 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 13,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF INFORMATION AND BROADCASTING › group_heading V › entry 14 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 13,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF INFORMATION AND BROADCASTING › group_heading V › entry 15 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 13,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF INFORMATION AND BROADCASTING › group_heading V › entry 16 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 13,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF INFORMATION AND BROADCASTING › group_heading V › entry 17 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 13,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF INFORMATION AND BROADCASTING › group_heading V › entry 18 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 13,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF INFORMATION AND BROADCASTING › group_heading V › entry 19 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 13,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF INFORMATION AND BROADCASTING › group_heading V › entry 20 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 13,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF INFORMATION AND BROADCASTING › group_heading V › entry 21 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 13,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF INFORMATION AND BROADCASTING › group_heading V › entry 22 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 13,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF INFORMATION AND BROADCASTING › group_heading V › entry 23 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 13,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF INFORMATION AND BROADCASTING › group_heading V › entry 24 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 13,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF INFORMATION AND BROADCASTING › group_heading V › entry 25 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 13,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF INFORMATION AND BROADCASTING › group_heading VI › entry 23 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 13,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF INFORMATION AND BROADCASTING › group_heading VI › entry 26 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 13,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF INFORMATION AND BROADCASTING › group_heading VII › entry 24 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 13,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF INFORMATION AND BROADCASTING › group_heading VII › entry 25 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 13,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF INFORMATION AND BROADCASTING › group_heading VII › entry 26 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 13,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF INFORMATION AND BROADCASTING › group_heading VII › entry 27 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 13,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF INFORMATION AND BROADCASTING › group_heading VII › entry 28 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 13,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF INFORMATION AND BROADCASTING › group_heading VII › entry 29 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 13,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF INFORMATION AND BROADCASTING › group_heading VII › entry 30 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 13,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF INFORMATION AND BROADCASTING › group_heading VII › entry 31 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 13,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF INFORMATION AND BROADCASTING › group_heading VII › entry 32 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 13,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF INFORMATION AND BROADCASTING › group_heading VIII › entry 31 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 13,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF INFORMATION AND BROADCASTING › group_heading VIII › entry 33 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 13,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF INFORMATION AND BROADCASTING › group_heading IX › entry 32 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 13,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF INFORMATION AND BROADCASTING › group_heading IX › entry 33 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 13,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF INFORMATION AND BROADCASTING › group_heading IX › entry 34 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 13,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF INFORMATION AND BROADCASTING › group_heading IX › entry 35 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 13,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF INFORMATION AND BROADCASTING › group_heading X is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 13,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF INFORMATION AND BROADCASTING › group_heading XI is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 13,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF INFORMATION AND BROADCASTING › group_heading XII is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 13,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF INFORMATION AND BROADCASTING › group_heading XIV reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 13,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF INFORMATION AND BROADCASTING › group_heading XIV › entry 39 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 13,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF INFORMATION AND BROADCASTING › group_heading XIV › entry 36 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 13,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF INFORMATION AND BROADCASTING › group_heading XV reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 13,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF INFORMATION AND BROADCASTING › group_heading XV › entry 40 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 13,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF INFORMATION AND BROADCASTING › group_heading XV › entry 37 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 13,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF INFORMATION AND BROADCASTING › group_heading XV › entry 38 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 13,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF INFORMATION AND BROADCASTING › group_heading XV › entry 39 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 14,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry DEPARTMENT OF ATOMIC ENERGY › entry 10 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 14,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry DEPARTMENT OF ATOMIC ENERGY › entry 1 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 14,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry DEPARTMENT OF ATOMIC ENERGY › entry 2 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 14,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry DEPARTMENT OF ATOMIC ENERGY › entry 3 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 14,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry DEPARTMENT OF ATOMIC ENERGY › entry 4 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 14,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry DEPARTMENT OF ATOMIC ENERGY › entry 5 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 14,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry DEPARTMENT OF ATOMIC ENERGY › entry 6 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 14,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry DEPARTMENT OF ATOMIC ENERGY › entry 7 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 14,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry DEPARTMENT OF ATOMIC ENERGY › entry 8 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 14,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry DEPARTMENT OF ATOMIC ENERGY › entry 9 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 14,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry DEPARTMENT OF ATOMIC ENERGY › entry 11 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 15,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry DEPARTMENT OF SPACE › entry 4 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 15,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry DEPARTMENT OF SPACE › entry 5 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 15,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry DEPARTMENT OF SPACE › entry 6 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 15,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry DEPARTMENT OF SPACE › entry 7 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 15,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry DEPARTMENT OF SPACE › entry 8 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 15,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry DEPARTMENT OF SPACE › entry 14 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 15,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry DEPARTMENT OF SPACE › entry 1 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 15,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry DEPARTMENT OF SPACE › entry 2 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 15,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry DEPARTMENT OF SPACE › entry 3 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  }
+ ],
+ "rules": [
+  {
+   "rule": "loose",
+   "seq": 6,
+   "note": "change 6: department DEPARTMENT OF ANIMAL HUSBANDRY AND DAIRYING taken for department DEPARTMENT OF ANIMAL HUSBANDRY AND DAIRY ING PART - I, named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  }
+ ],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_727E_1997",
+   "op": "omit",
+   "source_ref": "2(A)(i)",
+   "path": "schedule 2 › ministry MINISTRY OF AGRICULTURE › department DEPARTMENT OF AGRICULTURE AND COOPERATION › entry 6",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_727E_1997",
+   "op": "replace",
+   "source_ref": "2(A)(ii)",
+   "path": "schedule 2 › ministry MINISTRY OF AGRICULTURE › department DEPARTMENT OF AGRICULTURAL RESEARCH AND EDUCATION › entry 8",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_727E_1997",
+   "op": "replace",
+   "source_ref": "2(A)(ii)",
+   "path": "schedule 2 › ministry MINISTRY OF AGRICULTURE › department DEPARTMENT OF AGRICULTURAL RESEARCH AND EDUCATION › entry 8",
+   "status": "not_applied",
+   "problem": "change 3: no entry 8 under schedule 2 › ministry MINISTRY OF AGRICULTURE › department B",
+   "code": "old_path_missing",
+   "cause": "entry_not_in_state",
+   "known": "entries"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_727E_1997",
+   "op": "replace",
+   "source_ref": "2(A)(ii)",
+   "path": "schedule 2 › ministry MINISTRY OF AGRICULTURE › department DEPARTMENT OF AGRICULTURAL RESEARCH AND EDUCATION › entry 8",
+   "status": "not_applied",
+   "problem": "change 4: no entry 8 under schedule 2 › ministry MINISTRY OF AGRICULTURE › department B",
+   "code": "old_path_missing",
+   "cause": "entry_not_in_state",
+   "known": "entries"
+  },
+  {
+   "seq": 5,
+   "doc_id": "GOI_SO_727E_1997",
+   "op": "replace",
+   "source_ref": "2(A)(ii)",
+   "path": "schedule 2 › ministry MINISTRY OF AGRICULTURE › department DEPARTMENT OF AGRICULTURAL RESEARCH AND EDUCATION › entry 12",
+   "status": "applied"
+  },
+  {
+   "seq": 6,
+   "doc_id": "GOI_SO_727E_1997",
+   "op": "insert",
+   "source_ref": "2(A)(iii)",
+   "path": "schedule 2 › ministry MINISTRY OF AGRICULTURE › department DEPARTMENT OF ANIMAL HUSBANDRY AND DAIRYING › entry 3",
+   "status": "applied"
+  },
+  {
+   "seq": 7,
+   "doc_id": "GOI_SO_727E_1997",
+   "op": "replace",
+   "source_ref": "2(B)(a)",
+   "path": "schedule 2 › ministry MINISTRY OF COMMUNICATIONS › department DEPARTMENT OF TELECOMMUNICATIONS › entry 6",
+   "status": "applied"
+  },
+  {
+   "seq": 8,
+   "doc_id": "GOI_SO_727E_1997",
+   "op": "replace",
+   "source_ref": "2(B)(a)",
+   "path": "schedule 2 › ministry MINISTRY OF COMMUNICATIONS › department DEPARTMENT OF TELECOMMUNICATIONS › entry 12",
+   "status": "applied"
+  },
+  {
+   "seq": 9,
+   "doc_id": "GOI_SO_727E_1997",
+   "op": "insert",
+   "source_ref": "2(B)(b)",
+   "path": "schedule 2 › ministry MINISTRY OF COMMUNICATIONS › department DEPARTMENT OF TELECOMMUNICATIONS › entry 11",
+   "status": "applied"
+  },
+  {
+   "seq": 10,
+   "doc_id": "GOI_SO_727E_1997",
+   "op": "replace",
+   "source_ref": "2(C)(i)",
+   "path": "schedule 2 › ministry MINISTRY OF DEFENCE › department DEPARTMENT OF DEFENCE › entry 6",
+   "status": "applied"
+  },
+  {
+   "seq": 11,
+   "doc_id": "GOI_SO_727E_1997",
+   "op": "insert",
+   "source_ref": "2(C)(ii)",
+   "path": "schedule 2 › ministry MINISTRY OF DEFENCE › department DEPARTMENT OF DEFENCE PRODUCTION AND SUPPLIES › entry 14",
+   "status": "not_applied",
+   "problem": "change 11: no entry 14 under schedule 2 › ministry MINISTRY OF DEFENCE (RANSHA MAN TRALAYA) › department B",
+   "code": "old_path_missing",
+   "cause": "entry_not_in_state",
+   "known": "entries"
+  },
+  {
+   "seq": 12,
+   "doc_id": "GOI_SO_727E_1997",
+   "op": "omit",
+   "source_ref": "2(D)",
+   "path": "schedule 2 › ministry MINISTRY OF FOOD PROCESSING INDUSTRIES › entry 2",
+   "status": "applied"
+  },
+  {
+   "seq": 13,
+   "doc_id": "GOI_SO_727E_1997",
+   "op": "replace",
+   "source_ref": "2(E)",
+   "path": "schedule 2 › ministry MINISTRY OF INFORMATION AND BROADCASTING",
+   "status": "applied"
+  },
+  {
+   "seq": 14,
+   "doc_id": "GOI_SO_727E_1997",
+   "op": "replace",
+   "source_ref": "2(F)",
+   "path": "schedule 2 › department DEPARTMENT OF ATOMIC ENERGY",
+   "status": "applied"
+  },
+  {
+   "seq": 15,
+   "doc_id": "GOI_SO_727E_1997",
+   "op": "replace",
+   "source_ref": "2(G)",
+   "path": "schedule 2 › department DEPARTMENT OF SPACE",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

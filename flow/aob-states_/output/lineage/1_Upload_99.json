@@ -1,0 +1,233 @@
+{
+ "file": "1_Upload_99.pdf",
+ "kind": "amendment",
+ "series": 65,
+ "date": "1968-02-12",
+ "govdoc": "aob-ammend_/output/1_Upload_99.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826692.8784251,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_99.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T14:02:56.898423+00:00",
+  "sha256": "c11690c75631e2fb1f8efaac00426e3965a972476e7e4286a6f0d372e6833996",
+  "pages": 2
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-12T12:42:46.560272+00:00",
+   "stamp": "47ea19c1687937ff"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r50",
+   "at": "2026-11-15T12:42:32.386114+00:00",
+   "stamp": "9fa6629ac43fff22"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r51",
+   "at": "2026-11-15T12:42:34.844980+00:00",
+   "stamp": "359eded4db192ddf"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r52",
+   "at": "2026-11-15T12:42:36.827117+00:00",
+   "stamp": "402a01f09012f606"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r61",
+   "at": "2026-11-15T16:24:51.342411+00:00",
+   "stamp": "f604f585dc53f7a6",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r62",
+   "at": "2026-11-15T16:24:53.055389+00:00",
+   "stamp": "67165197d6580488",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r63",
+   "at": "2026-11-15T16:24:54.879157+00:00",
+   "stamp": "77a5850388944874",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r69",
+   "at": "2026-11-15T16:57:34.966662+00:00",
+   "stamp": "30903c88101fa4ba"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r70",
+   "at": "2026-11-15T17:03:45.138607+00:00",
+   "stamp": "447db35dc34957f2"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r75",
+   "at": "2026-11-16T10:58:12.867439+00:00",
+   "stamp": "463dd1e6d5e1e707"
+  }
+ ],
+ "reviews": [],
+ "issues": [],
+ "problems": [],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_656_1968",
+   "op": "replace",
+   "source_ref": "A",
+   "path": "schedule 1 › entry 7",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_656_1968",
+   "op": "replace",
+   "source_ref": "B(a)",
+   "path": "schedule 2 › ministry Ministry of Health and Family Planning",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_656_1968",
+   "op": "replace",
+   "source_ref": "B(a)(i)",
+   "path": "schedule 2 › ministry Ministry of Health, Family Planning and Urban Development › department Department of Health",
+   "status": "applied"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_656_1968",
+   "op": "renumber",
+   "source_ref": "B(a)(ii)",
+   "path": "schedule 2 › ministry Ministry of Health, Family Planning and Urban Development › department Department of Health and Urban Development › entry 66",
+   "status": "applied"
+  },
+  {
+   "seq": 5,
+   "doc_id": "GOI_SO_656_1968",
+   "op": "renumber",
+   "source_ref": "B(a)(ii)",
+   "path": "schedule 2 › ministry Ministry of Health, Family Planning and Urban Development › department Department of Health and Urban Development › entry 67",
+   "status": "applied"
+  },
+  {
+   "seq": 6,
+   "doc_id": "GOI_SO_656_1968",
+   "op": "renumber",
+   "source_ref": "B(a)(ii)",
+   "path": "schedule 2 › ministry Ministry of Health, Family Planning and Urban Development › department Department of Health and Urban Development › entry 68",
+   "status": "applied"
+  },
+  {
+   "seq": 7,
+   "doc_id": "GOI_SO_656_1968",
+   "op": "insert",
+   "source_ref": "B(a)(ii)",
+   "path": "schedule 2 › ministry Ministry of Health, Family Planning and Urban Development › department Department of Health and Urban Development › entry 65",
+   "status": "applied"
+  },
+  {
+   "seq": 8,
+   "doc_id": "GOI_SO_656_1968",
+   "op": "omit",
+   "source_ref": "B(b)(i)",
+   "path": "schedule 2 › ministry Ministry of Works, Housing and Supply › department Department of Works and Housing › entry 15 ; schedule 2 › ministry Ministry of Works, Housing and Supply › department Department of Works and Housing › entry 16 ; schedule 2 › ministry Ministry of Works, Housing and Supply › department Department of Works and Housing › entry 17 ; schedule 2 › ministry Ministry of Works, Housing and Supply › department Department of Works and Housing › entry 18 ; schedule 2 › ministry Ministry of Works, Housing and Supply › department Department of Works and Housing › entry 19 ; schedule 2 › ministry Ministry of Works, Housing and Supply › department Department of Works and Housing › entry 20 ; schedule 2 › ministry Ministry of Works, Housing and Supply › department Department of Works and Housing › entry 21",
+   "status": "applied"
+  },
+  {
+   "seq": 9,
+   "doc_id": "GOI_SO_656_1968",
+   "op": "renumber",
+   "source_ref": "B(b)(ii)",
+   "path": "schedule 2 › ministry Ministry of Works, Housing and Supply › department Department of Works and Housing › entry 22",
+   "status": "applied"
+  },
+  {
+   "seq": 10,
+   "doc_id": "GOI_SO_656_1968",
+   "op": "renumber",
+   "source_ref": "B(b)(ii)",
+   "path": "schedule 2 › ministry Ministry of Works, Housing and Supply › department Department of Works and Housing › entry 23",
+   "status": "applied"
+  },
+  {
+   "seq": 11,
+   "doc_id": "GOI_SO_656_1968",
+   "op": "renumber",
+   "source_ref": "B(b)(ii)",
+   "path": "schedule 2 › ministry Ministry of Works, Housing and Supply › department Department of Works and Housing › entry 24",
+   "status": "applied"
+  },
+  {
+   "seq": 12,
+   "doc_id": "GOI_SO_656_1968",
+   "op": "renumber",
+   "source_ref": "B(b)(ii)",
+   "path": "schedule 2 › ministry Ministry of Works, Housing and Supply › department Department of Works and Housing › entry 25",
+   "status": "applied"
+  },
+  {
+   "seq": 13,
+   "doc_id": "GOI_SO_656_1968",
+   "op": "renumber",
+   "source_ref": "B(b)(ii)",
+   "path": "schedule 2 › ministry Ministry of Works, Housing and Supply › department Department of Works and Housing › entry 26",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

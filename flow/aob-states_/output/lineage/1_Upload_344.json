@@ -1,0 +1,180 @@
+{
+ "file": "1_Upload_344.pdf",
+ "kind": "amendment",
+ "series": 299,
+ "date": "2011-07-13",
+ "govdoc": "aob-ammend_/output/1_Upload_344.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826685.5096579,
+ "edits_file": "aob-ammend_/conf/1_Upload_344.pdf.edits.yml",
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_344.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T14:00:29.707612+00:00",
+  "sha256": "43d9a5f50a3d63c0d065df8cfc2268a66e975b2c341126a6c0b295e8d3f95e08",
+  "pages": 4
+ },
+ "edits": [
+  {
+   "run": "h1",
+   "by": "mukundesh",
+   "at": "2026-11-05T03:18:42+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r9.w380",
+     "before": {
+      "text": "S.Q."
+     },
+     "after": {
+      "text": "S.O."
+     }
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r9",
+   "at": "2026-11-04T13:34:25.934845+00:00",
+   "stamp": "64634dfc70feceea"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r158",
+   "at": "2026-11-15T12:41:41.892027+00:00",
+   "stamp": "8333dc913c3a739a"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r159",
+   "at": "2026-11-15T12:41:44.487039+00:00",
+   "stamp": "bc02a4247919d2a7"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r160",
+   "at": "2026-11-15T12:41:46.659027+00:00",
+   "stamp": "bf10bf860e0655fd"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r169",
+   "at": "2026-11-15T16:24:07.132706+00:00",
+   "stamp": "b105dd4c752b5460",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r170",
+   "at": "2026-11-15T16:24:08.816641+00:00",
+   "stamp": "e3a3b414765f9413",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r171",
+   "at": "2026-11-15T16:24:10.551647+00:00",
+   "stamp": "ba376dd873c987e6",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r177",
+   "at": "2026-11-15T16:57:23.815497+00:00",
+   "stamp": "0216219929770ed7"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r178",
+   "at": "2026-11-15T17:03:19.906995+00:00",
+   "stamp": "67b689b80dd8b92f"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r183",
+   "at": "2026-11-16T10:58:05.491466+00:00",
+   "stamp": "46a70df1b20fb843"
+  }
+ ],
+ "reviews": [],
+ "issues": [],
+ "problems": [],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_1818E_2011",
+   "op": "insert",
+   "source_ref": "2(1)(A)",
+   "path": "schedule 1 › ministry Ministry of Development of North Eastern Region",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_1818E_2011",
+   "op": "omit",
+   "source_ref": "2(1)(B)",
+   "path": "schedule 1 › ministry Ministry of Rural Development › department Department of Drinking Water and Sanitation",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_1818E_2011",
+   "op": "insert",
+   "source_ref": "2(2)(A)",
+   "path": "schedule 2 › ministry MINISTRY OF DEVELOPMENT OF NORTH EASTERN REGION",
+   "status": "applied"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_1818E_2011",
+   "op": "omit",
+   "source_ref": "2(2)(B)",
+   "path": "schedule 2 › ministry MINISTRY OF RURAL DEVELOPMENT › department DEPARTMENT OF DRINKING WATER AND SANITATION",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

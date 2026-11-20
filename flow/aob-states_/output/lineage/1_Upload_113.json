@@ -1,0 +1,164 @@
+{
+ "file": "1_Upload_113.pdf",
+ "kind": "amendment",
+ "series": 79,
+ "date": "1970-04-06",
+ "govdoc": "aob-ammend_/output/1_Upload_113.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826696.4570732,
+ "edits_file": "aob-ammend_/conf/1_Upload_113.pdf.edits.yml",
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_113.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:54:17.536389+00:00",
+  "sha256": "ef51413de5e865546a6580d8547036d2e11fedd8357a58cb0b36890a71f958f7",
+  "pages": 2
+ },
+ "edits": [
+  {
+   "run": "h1",
+   "by": "claude",
+   "at": "2026-11-12T15:01:00+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r1.w110",
+     "before": {
+      "text": "1368."
+     },
+     "after": {
+      "text": "1363."
+     }
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-12T12:46:14.558586+00:00",
+   "stamp": "46786ca96a86c5cb"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r52",
+   "at": "2026-11-15T12:43:03.071372+00:00",
+   "stamp": "224add8ab503b159"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r53",
+   "at": "2026-11-15T12:43:04.040605+00:00",
+   "stamp": "ab9b3016100ee09b"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r54",
+   "at": "2026-11-15T12:43:05.157843+00:00",
+   "stamp": "777016d288dc6698"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r63",
+   "at": "2026-11-15T16:25:15.677907+00:00",
+   "stamp": "b1e9fe87a49da43e",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r64",
+   "at": "2026-11-15T16:25:16.406429+00:00",
+   "stamp": "11dedbaf9af2d3b4",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r65",
+   "at": "2026-11-15T16:25:17.087470+00:00",
+   "stamp": "8571b63d0e6af403",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r71",
+   "at": "2026-11-15T16:57:40.565553+00:00",
+   "stamp": "318a38080bdd8ba8"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r72",
+   "at": "2026-11-15T17:03:59.612285+00:00",
+   "stamp": "048560e0587f2cb6"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r77",
+   "at": "2026-11-16T10:58:16.449578+00:00",
+   "stamp": "ca3f089f2736f3cb"
+  }
+ ],
+ "reviews": [],
+ "issues": [],
+ "problems": [],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_1363_1970",
+   "op": "insert",
+   "source_ref": "2(a)",
+   "path": "schedule 2 › ministry Ministry of Health and Family Planning and Works, Housing and Urban Development › department Depart - ment of Works, Housing and Urban Development › entry 19",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_1363_1970",
+   "op": "omit",
+   "source_ref": "2(b)",
+   "path": "schedule 2 › ministry Ministry of Home Affairs › group_heading Part I – Unlon Subjects › entry 90A",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_206.pdf",
     "sha256": "ff0f7b292a59c0ba88d741474ddd5d8d773e1004d0437dcb6d68613099102fd9",
     "govdoc": "1_Upload_206.pdf.govdoc.json.zst",
-    "revision": 46
+    "revision": 70
   },
   "documents": [
     {
@@ -29,9 +29,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "3",
+          "version": "4",
           "model": "gemini-4-argon",
-          "at": "2026-11-12T13:50:11.397624+00:00"
+          "at": "2026-11-15T16:25:17.645532+00:00"
         },
         "ops": [
           {
@@ -39,7 +39,7 @@
             "source_ref": "2(a)(i)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel1",
+            "relation": "r63.rel1",
             "target": {
               "cited": [
                 {
@@ -53,14 +53,14 @@
               ],
               "eId": null,
               "words": [
-                "r1.w806",
+                "r1.w805",
                 "r1.w822"
               ],
               "boxes": [
                 {
                   "page": 2,
                   "bbox": [
-                    1423,
+                    1407,
                     1697,
                     2236,
                     1821
@@ -99,7 +99,7 @@
             "source_ref": "2(a)(ii)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r10.rel2",
+            "relation": "r63.rel2",
             "position": "after",
             "anchor": {
               "cited": [
@@ -114,15 +114,15 @@
               ],
               "eId": null,
               "words": [
-                "r1.w838",
+                "r1.w837",
                 "r1.w858"
               ],
               "boxes": [
                 {
                   "page": 2,
                   "bbox": [
-                    1422,
-                    2045,
+                    1412,
+                    2044,
                     2246,
                     2215
                   ]
@@ -173,7 +173,7 @@
             "source_ref": "2(b)(1)(i)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel3",
+            "relation": "r63.rel3",
             "target": {
               "cited": [
                 {
@@ -187,14 +187,14 @@
               ],
               "eId": null,
               "words": [
-                "r1.w920",
+                "r1.w919",
                 "r1.w922"
               ],
               "boxes": [
                 {
                   "page": 2,
                   "bbox": [
-                    1472,
+                    1399,
                     2776,
                     1858,
                     2818
@@ -232,7 +232,7 @@
             "source_ref": "2(b)(1)(ii)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r10.rel4",
+            "relation": "r63.rel4",
             "target": {
               "cited": [
                 {
@@ -267,7 +267,10 @@
             },
             "expect": "A Department of Coom- merce (Vanijya Vibhag ",
             "scope": "heading",
-            "flags": [],
+            "flags": [
+              "states_inferred_earlier_name",
+              "states_inferred_loose"
+            ],
             "words": [
               "r1.w937",
               "r1.w943"
@@ -289,7 +292,7 @@
             "source_ref": "2(b)(1)(iii)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r10.rel5",
+            "relation": "r63.rel5",
             "target": [
               {
                 "cited": [
@@ -340,23 +343,34 @@
                 ],
                 "eId": null,
                 "words": [
-                  "r1.w962",
-                  "r1.w964"
+                  "r1.w952",
+                  "r1.w987"
                 ],
                 "boxes": [
                   {
                     "page": 2,
                     "bbox": [
-                      1879,
-                      3148,
+                      1332,
+                      3100,
                       2259,
                       3191
+                    ]
+                  },
+                  {
+                    "page": 3,
+                    "bbox": [
+                      128,
+                      196,
+                      1107,
+                      374
                     ]
                   }
                 ]
               }
             ],
-            "flags": [],
+            "flags": [
+              "states_inferred_earlier_name"
+            ],
             "words": [
               "r1.w952",
               "r1.w958"
@@ -378,7 +392,7 @@
             "source_ref": "2(b)(2)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r10.rel6",
+            "relation": "r63.rel6",
             "position": "after",
             "anchor": {
               "cited": [
@@ -393,7 +407,7 @@
               ],
               "eId": null,
               "words": [
-                "r1.w990",
+                "r1.w989",
                 "r1.w1006"
               ],
               "boxes": [

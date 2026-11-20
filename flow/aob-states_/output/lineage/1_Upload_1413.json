@@ -1,0 +1,161 @@
+{
+ "file": "1_Upload_1413.pdf",
+ "kind": "amendment",
+ "series": 341,
+ "date": "2018-05-07",
+ "govdoc": "aob-ammend_/output/1_Upload_1413.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826696.526785,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_1413.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:55:07.517323+00:00",
+  "sha256": "f11b208ee77569cd34ad83c47a8cbc78de8655316d5c5fa18425e99a460c19f4",
+  "pages": 3
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r17",
+   "at": "2026-10-31T12:36:03.841043+00:00",
+   "stamp": "4aa373dd7dfb87c4"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r205",
+   "at": "2026-11-15T12:43:03.142735+00:00",
+   "stamp": "8c92fedfd1fd3bd9"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r206",
+   "at": "2026-11-15T12:43:04.189757+00:00",
+   "stamp": "66ada6a5382d4848"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r207",
+   "at": "2026-11-15T12:43:05.217305+00:00",
+   "stamp": "246542c4dd07cee9"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r216",
+   "at": "2026-11-15T16:25:15.774458+00:00",
+   "stamp": "9e9d9fd9777ae6fa",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r217",
+   "at": "2026-11-15T16:25:16.490538+00:00",
+   "stamp": "d82ed420f98f4ca3",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r218",
+   "at": "2026-11-15T16:25:17.151694+00:00",
+   "stamp": "b9126a5002bb280c",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r224",
+   "at": "2026-11-15T16:57:40.628590+00:00",
+   "stamp": "115f2ca227893b83"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r225",
+   "at": "2026-11-15T17:03:59.840771+00:00",
+   "stamp": "acd9a940895ecfab"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r230",
+   "at": "2026-11-16T10:58:16.510552+00:00",
+   "stamp": "60c3d0e3aa7d56f4"
+  }
+ ],
+ "reviews": [],
+ "issues": [
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 3: its quoted text runs across a page break",
+   "target": "r218.rel3",
+   "status": "open"
+  }
+ ],
+ "problems": [],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_1847E_2018",
+   "op": "omit",
+   "source_ref": "2(i)",
+   "path": "schedule 2 › ministry MINISTRY OF CORPORATE AFFAIRS › entry 3 ; schedule 2 › ministry MINISTRY OF CORPORATE AFFAIRS › entry 4",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_1847E_2018",
+   "op": "replace",
+   "source_ref": "2(ii)",
+   "path": "schedule 2 › ministry MINISTRY OF CORPORATE AFFAIRS › entry 11",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_1847E_2018",
+   "op": "insert",
+   "source_ref": "2(iii)",
+   "path": "schedule 2 › ministry MINISTRY OF CORPORATE AFFAIRS › entry 13",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

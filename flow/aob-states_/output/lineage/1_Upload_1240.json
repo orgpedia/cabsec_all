@@ -1,0 +1,193 @@
+{
+ "file": "1_Upload_1240.pdf",
+ "kind": "amendment",
+ "series": 333,
+ "date": "2017-07-06",
+ "govdoc": "aob-ammend_/output/1_Upload_1240.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826688.2953417,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_1240.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:54:37.859750+00:00",
+  "sha256": "77a1defe32f7e52aafe009923536036f92adbb6298cfeb862b86f7c859de8b80",
+  "pages": 6
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r18",
+   "at": "2026-10-31T11:49:10.517341+00:00",
+   "stamp": "4fcd5ffe9c60f539"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r206",
+   "at": "2026-11-15T12:42:05.848401+00:00",
+   "stamp": "594137f82cbeda8b"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r207",
+   "at": "2026-11-15T12:42:07.947944+00:00",
+   "stamp": "daa1ac191b349b48"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r208",
+   "at": "2026-11-15T12:42:09.885006+00:00",
+   "stamp": "79f46e3cc5154f12"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r217",
+   "at": "2026-11-15T16:24:25.624956+00:00",
+   "stamp": "7f838474cb1b4ce2",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r218",
+   "at": "2026-11-15T16:24:27.195000+00:00",
+   "stamp": "919af7a72893fd10",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r219",
+   "at": "2026-11-15T16:24:28.736437+00:00",
+   "stamp": "4ff8eb8e167b37fa",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r225",
+   "at": "2026-11-15T16:57:28.113874+00:00",
+   "stamp": "c77aebeae823d04a"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r226",
+   "at": "2026-11-15T17:03:30.328391+00:00",
+   "stamp": "7c0a063438929e42"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r231",
+   "at": "2026-11-16T10:58:08.255344+00:00",
+   "stamp": "59a41c80ac65f8f8"
+  }
+ ],
+ "reviews": [],
+ "issues": [
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 5: its quoted text runs across a page break",
+   "target": "r219.rel5",
+   "status": "open"
+  }
+ ],
+ "problems": [],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_2163E_2017",
+   "op": "insert",
+   "source_ref": "2(1)(a)",
+   "path": "schedule 1 › ministry Ministry of Home Affairs",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_2163E_2017",
+   "op": "omit",
+   "source_ref": "2(1)(b)",
+   "path": "schedule 1 › ministry Ministry of Urban Development ; schedule 1 › ministry Ministry of Housing and Urban Poverty Alleviation",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_2163E_2017",
+   "op": "insert",
+   "source_ref": "2(2)(a)",
+   "path": "schedule 2 › ministry MINISTRY OF COMMERCE AND INDUSTRY › department DEPARTMENT OF COMMERCE › entry 32",
+   "status": "applied"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_2163E_2017",
+   "op": "substitute_text",
+   "source_ref": "2(2)(b)",
+   "path": "schedule 2 › ministry MINISTRY OF HOME AFFAIRS › department DEPARTMENT OF INTERNAL SECURITY › entry 47",
+   "status": "applied"
+  },
+  {
+   "seq": 5,
+   "doc_id": "GOI_SO_2163E_2017",
+   "op": "insert",
+   "source_ref": "2(2)(c)",
+   "path": "schedule 2 › ministry MINISTRY OF HOME AFFAIRS",
+   "status": "applied"
+  },
+  {
+   "seq": 6,
+   "doc_id": "GOI_SO_2163E_2017",
+   "op": "substitute_text",
+   "source_ref": "2(2)(d)",
+   "path": "schedule 2 › ministry MINISTRY OF RAILWAYS › entry 2",
+   "status": "applied"
+  },
+  {
+   "seq": 7,
+   "doc_id": "GOI_SO_2163E_2017",
+   "op": "omit",
+   "source_ref": "2(2)(e)",
+   "path": "schedule 2 › ministry MINISTRY OF URBAN DEVELOPMENT ; schedule 2 › ministry MINISTRY OF HOUSING AND URBAN POVERTY ALLEVIATION",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

@@ -1,0 +1,260 @@
+{
+ "file": "1_Upload_98.pdf",
+ "kind": "amendment",
+ "series": 64,
+ "date": "1968-01-20",
+ "govdoc": "aob-ammend_/output/1_Upload_98.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826685.0332942,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_98.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T14:02:55.620378+00:00",
+  "sha256": "3ae38ae405b428489b79238ce1c9abab1b022cd5a807a013bbe8b1400a76ebce",
+  "pages": 2
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-12T12:33:49.025894+00:00",
+   "stamp": "059636d03fcae014"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r50",
+   "at": "2026-11-15T12:41:41.002688+00:00",
+   "stamp": "e1a04b18c80de0bc"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r51",
+   "at": "2026-11-15T12:41:43.675404+00:00",
+   "stamp": "b85f00dde09c78fe"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r52",
+   "at": "2026-11-15T12:41:46.179509+00:00",
+   "stamp": "79433f437b5efb24"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r61",
+   "at": "2026-11-15T16:24:06.627060+00:00",
+   "stamp": "e7bf588a1f9babea",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r62",
+   "at": "2026-11-15T16:24:08.330473+00:00",
+   "stamp": "30fac0a879735434",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r63",
+   "at": "2026-11-15T16:24:10.069059+00:00",
+   "stamp": "d3bfe9a318130fc5",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r69",
+   "at": "2026-11-15T16:57:23.325961+00:00",
+   "stamp": "845e01eeda4d929c"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r70",
+   "at": "2026-11-15T17:03:18.990398+00:00",
+   "stamp": "a11f2189cc52d9bb"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r75",
+   "at": "2026-11-16T10:58:05.022641+00:00",
+   "stamp": "0f1badaf342cb2f1"
+  }
+ ],
+ "reviews": [],
+ "issues": [
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
+   "message": "change 2: ministry Mmistry of Food, Agriculture, Community Develop- ment and Cooperation taken for ministry Ministry of Food, Agriculture, Community Development and Cooperation, named loosely",
+   "target": "r63.rel2",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
+   "message": "change 3: ministry Mmistry of Food, Agriculture, Community Develop- ment and Cooperation taken for ministry Ministry of Food, Agriculture, Community Development and Cooperation, named loosely",
+   "target": "r63.rel3",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
+   "message": "change 3: ministry Mmistry of Food, Agriculture, Community Develop- ment and Cooperation taken for ministry Ministry of Food, Agriculture, Community Development and Cooperation, named loosely",
+   "target": "r63.rel3",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
+   "message": "change 4: ministry Mmistry of Food, Agriculture, Community Develop- ment and Cooperation taken for ministry Ministry of Food, Agriculture, Community Development and Cooperation, named loosely",
+   "target": "r63.rel4",
+   "status": "open"
+  }
+ ],
+ "problems": [
+  {
+   "series": 64,
+   "seq": 3,
+   "code": "old_quote_mismatch",
+   "severity": "error",
+   "message": "change 3: the part's text is not what the amendment quotes",
+   "cause": "words_differ"
+  }
+ ],
+ "rules": [
+  {
+   "rule": "loose",
+   "seq": 2,
+   "note": "change 2: ministry Mmistry of Food, Agriculture, Community Develop- ment and Cooperation taken for ministry Ministry of Food, Agriculture, Community Development and Cooperation, named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "loose",
+   "seq": 3,
+   "note": "change 3: ministry Mmistry of Food, Agriculture, Community Develop- ment and Cooperation taken for ministry Ministry of Food, Agriculture, Community Development and Cooperation, named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "loose",
+   "seq": 3,
+   "note": "change 3: ministry Mmistry of Food, Agriculture, Community Develop- ment and Cooperation taken for ministry Ministry of Food, Agriculture, Community Development and Cooperation, named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "loose",
+   "seq": 4,
+   "note": "change 4: ministry Mmistry of Food, Agriculture, Community Develop- ment and Cooperation taken for ministry Ministry of Food, Agriculture, Community Development and Cooperation, named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  }
+ ],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_367_1968",
+   "op": "omit",
+   "source_ref": "(1)",
+   "path": "schedule 2 › ministry Ministry of Education › entry 90",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_367_1968",
+   "op": "insert",
+   "source_ref": "(2)(a)",
+   "path": "schedule 2 › ministry Mmistry of Food, Agriculture, Community Develop- ment and Cooperation › department Department of Agriculture › group_heading Part I › entry 13",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_367_1968",
+   "op": "omit",
+   "source_ref": "(2)(b)(i)",
+   "path": "schedule 2 › ministry Mmistry of Food, Agriculture, Community Develop- ment and Cooperation › department Department of Food › entry 11 › item iv ; schedule 2 › ministry Mmistry of Food, Agriculture, Community Develop- ment and Cooperation › department Department of Food › entry 11 › item v",
+   "status": "not_applied",
+   "problem": "change 3: the part's text is not what the amendment quotes",
+   "code": "old_quote_mismatch",
+   "cause": "words_differ",
+   "known": "words"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_367_1968",
+   "op": "replace",
+   "source_ref": "(2)(b)(ii)",
+   "path": "schedule 2 › ministry Mmistry of Food, Agriculture, Community Develop- ment and Cooperation › department Department of Food › entry 12",
+   "status": "applied"
+  },
+  {
+   "seq": 5,
+   "doc_id": "GOI_SO_367_1968",
+   "op": "insert",
+   "source_ref": "(3)",
+   "path": "schedule 2 › ministry Ministry of Industrial Development and Company Affairs › department Department of Industrial Development › group_heading IV. Small Scale Industries › entry 25",
+   "status": "applied"
+  },
+  {
+   "seq": 6,
+   "doc_id": "GOI_SO_367_1968",
+   "op": "insert",
+   "source_ref": "(4)",
+   "path": "schedule 2 › ministry Department of Social Welfare › entry 6",
+   "status": "applied"
+  },
+  {
+   "seq": 7,
+   "doc_id": "GOI_SO_367_1968",
+   "op": "insert",
+   "source_ref": "(5)",
+   "path": "schedule 2 › ministry Cabinet Secretariat › department Depart- ment of Statistics › entry 4",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

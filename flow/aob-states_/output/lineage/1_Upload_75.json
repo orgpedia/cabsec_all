@@ -1,0 +1,210 @@
+{
+ "file": "1_Upload_75.pdf",
+ "kind": "amendment",
+ "series": 42,
+ "date": "1965-08-03",
+ "govdoc": "aob-ammend_/output/1_Upload_75.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826696.5098753,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_75.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T14:02:28.943981+00:00",
+  "sha256": "f0a3a968fa12df711556261837826039f17c825806aa50da22360214d4db21ca",
+  "pages": 2
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-12T12:46:17.475611+00:00",
+   "stamp": "52702b8c1551eafc"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r50",
+   "at": "2026-11-15T12:43:03.127979+00:00",
+   "stamp": "45cc304f5055a3aa"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r51",
+   "at": "2026-11-15T12:43:04.174398+00:00",
+   "stamp": "777d5b8be3f87194"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r52",
+   "at": "2026-11-15T12:43:05.205906+00:00",
+   "stamp": "47c2d74db6e71a2c"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r61",
+   "at": "2026-11-15T16:25:15.761395+00:00",
+   "stamp": "4b1269ed69611633",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r62",
+   "at": "2026-11-15T16:25:16.458753+00:00",
+   "stamp": "06bc9beb4496f967",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r63",
+   "at": "2026-11-15T16:25:17.139435+00:00",
+   "stamp": "8ec2308766bdcc94",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r69",
+   "at": "2026-11-15T16:57:40.615068+00:00",
+   "stamp": "281f311aa96c06d0"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r70",
+   "at": "2026-11-15T17:03:59.808865+00:00",
+   "stamp": "74e45c33afa01099"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r75",
+   "at": "2026-11-16T10:58:16.498895+00:00",
+   "stamp": "e4ab9aca57391482"
+  }
+ ],
+ "reviews": [],
+ "issues": [
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 1: its quoted text runs across a page break",
+   "target": "r63.rel1",
+   "status": "open"
+  }
+ ],
+ "problems": [
+  {
+   "series": 42,
+   "seq": 2,
+   "code": "old_path_missing",
+   "severity": "error",
+   "message": "change 2: no group_heading (b) (11) For the Union Territory of Andaman a Nicobar Islands under schedule 2 › ministry MINISTRY OF HOME AFFAIRS › part III",
+   "cause": "group_not_found"
+  },
+  {
+   "series": 42,
+   "seq": 3,
+   "code": "old_path_missing",
+   "severity": "error",
+   "message": "change 3: no group_heading (b)(II) For the Union Territories of Laccadive, Minicoy and Amindivi Islands under schedule 2 › ministry MINISTRY OF HOME AFFAIRS › part III",
+   "cause": "group_not_found"
+  }
+ ],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_2494_1965",
+   "op": "insert",
+   "source_ref": "1(a)",
+   "path": "schedule 2 › ministry Ministry of Home Affairs › entry 32",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_2494_1965",
+   "op": "replace",
+   "source_ref": "1(b)(i)",
+   "path": "schedule 2 › ministry Ministry of Home Affairs › group_heading Part III-Additional subjects with regard to Union Territories › group_heading (b) (11) For the Union Territory of Andaman a Nicobar Islands › entry 123",
+   "status": "not_applied",
+   "problem": "change 2: no group_heading (b) (11) For the Union Territory of Andaman a Nicobar Islands under schedule 2 › ministry MINISTRY OF HOME AFFAIRS › part III",
+   "code": "old_path_missing",
+   "cause": "group_not_found",
+   "known": "home_affairs"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_2494_1965",
+   "op": "replace",
+   "source_ref": "1(b)(ii)",
+   "path": "schedule 2 › ministry Ministry of Home Affairs › group_heading Part III-Additional subjects with regard to Union Territories › group_heading (b)(II) For the Union Territories of Laccadive, Minicoy and Amindivi Islands › entry 124",
+   "status": "not_applied",
+   "problem": "change 3: no group_heading (b)(II) For the Union Territories of Laccadive, Minicoy and Amindivi Islands under schedule 2 › ministry MINISTRY OF HOME AFFAIRS › part III",
+   "code": "old_path_missing",
+   "cause": "group_not_found",
+   "known": "home_affairs"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_2494_1965",
+   "op": "insert",
+   "source_ref": "2",
+   "path": "schedule 2 › ministry Ministry of Industry & Supply › department Department of Industry › group_heading III. Industries and Industrial Development › entry 9",
+   "status": "applied"
+  },
+  {
+   "seq": 5,
+   "doc_id": "GOI_SO_2494_1965",
+   "op": "insert",
+   "source_ref": "3",
+   "path": "schedule 2 › ministry Ministry of Transport › entry 13",
+   "status": "applied"
+  },
+  {
+   "seq": 6,
+   "doc_id": "GOI_SO_2494_1965",
+   "op": "omit",
+   "source_ref": "4",
+   "path": "schedule 2 › ministry Ministry of Works & Housing › entry 16",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

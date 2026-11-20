@@ -1,0 +1,361 @@
+{
+ "file": "1_Upload_182.pdf",
+ "kind": "amendment",
+ "series": 144,
+ "date": "1980-07-22",
+ "govdoc": "aob-ammend_/output/1_Upload_182.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826683.7703125,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_182.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:56:03.201313+00:00",
+  "sha256": "2ca0621cd39d8572439cbf306fc5fd2dfc59221d98d8cf6ab0fafcb43435f127",
+  "pages": 6
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-12T12:33:05.015323+00:00",
+   "stamp": "4c34549ef8c6f5ce"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r50",
+   "at": "2026-11-15T12:41:27.056307+00:00",
+   "stamp": "d139de952df80484"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r51",
+   "at": "2026-11-15T12:41:29.472453+00:00",
+   "stamp": "8d966d78fb0dca2f"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r52",
+   "at": "2026-11-15T12:41:31.084048+00:00",
+   "stamp": "0673b09ae1f98ded"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r61",
+   "at": "2026-11-15T16:23:57.343299+00:00",
+   "stamp": "b32488da21a0ef0b",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r62",
+   "at": "2026-11-15T16:23:59.017038+00:00",
+   "stamp": "72d4c79dd4e4150b",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r63",
+   "at": "2026-11-15T16:24:00.446679+00:00",
+   "stamp": "ab29e761270582c2",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r69",
+   "at": "2026-11-15T16:57:21.121409+00:00",
+   "stamp": "4ae610901f22161b"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r70",
+   "at": "2026-11-15T17:03:13.599535+00:00",
+   "stamp": "2e521736cc6005f9"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r75",
+   "at": "2026-11-16T10:58:03.678621+00:00",
+   "stamp": "50d5bd2a4484f0a7"
+  }
+ ],
+ "reviews": [],
+ "issues": [
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 16: its quoted text runs across a page break",
+   "target": "r63.rel16",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
+   "message": "change 19: ministry Ministry of Steel, Mincs and Coal taken for ministry MINISTRY OF STEEL, MINES AND COAL (ISPAT, KHAN AUR KOYALA MANTRA- LAYA), named loosely",
+   "target": "r63.rel19",
+   "status": "open"
+  }
+ ],
+ "problems": [
+  {
+   "series": 144,
+   "seq": 9,
+   "code": "old_path_missing",
+   "severity": "error",
+   "message": "change 9: no department Department of Irrigation under schedule 2 › ministry Ministry of Agriculture",
+   "cause": "unit_not_found"
+  },
+  {
+   "series": 144,
+   "seq": 10,
+   "code": "old_path_missing",
+   "severity": "error",
+   "message": "change 10: no department Department of Agricultural Research and Education under schedule 2 › ministry Ministry of Agriculture",
+   "cause": "unit_not_found"
+  },
+  {
+   "series": 174,
+   "seq": 21,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry DEPARTMENT OF ATOMIC ENERGY › entry 1 reads differently in 1_Upload_212.pdf than in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  }
+ ],
+ "rules": [
+  {
+   "rule": "loose",
+   "seq": 19,
+   "note": "change 19: ministry Ministry of Steel, Mincs and Coal taken for ministry MINISTRY OF STEEL, MINES AND COAL (ISPAT, KHAN AUR KOYALA MANTRA- LAYA), named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  }
+ ],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_561E_1980",
+   "op": "replace",
+   "source_ref": "2(a)",
+   "path": "schedule 1 › entry 1",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_561E_1980",
+   "op": "insert",
+   "source_ref": "2(b)",
+   "path": "schedule 1 › entry 1",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_561E_1980",
+   "op": "replace",
+   "source_ref": "2(c)",
+   "path": "schedule 1 › entry 2",
+   "status": "applied"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_561E_1980",
+   "op": "replace",
+   "source_ref": "2(d)",
+   "path": "schedule 1 › entry 6",
+   "status": "applied"
+  },
+  {
+   "seq": 5,
+   "doc_id": "GOI_SO_561E_1980",
+   "op": "insert",
+   "source_ref": "2(e)",
+   "path": "schedule 1 › entry 12",
+   "status": "applied"
+  },
+  {
+   "seq": 6,
+   "doc_id": "GOI_SO_561E_1980",
+   "op": "replace",
+   "source_ref": "2(f)",
+   "path": "schedule 1 › entry 20",
+   "status": "applied"
+  },
+  {
+   "seq": 7,
+   "doc_id": "GOI_SO_561E_1980",
+   "op": "replace",
+   "source_ref": "3(a)(i)",
+   "path": "schedule 2 › ministry Ministry of Agriculture and Irrigation",
+   "status": "applied"
+  },
+  {
+   "seq": 8,
+   "doc_id": "GOI_SO_561E_1980",
+   "op": "replace",
+   "source_ref": "3(a)(ii)",
+   "path": "schedule 2 › ministry Ministry of Agriculture › department Department of Agricul ture and Cooperation › group_heading Part IV › entry 43",
+   "status": "applied"
+  },
+  {
+   "seq": 9,
+   "doc_id": "GOI_SO_561E_1980",
+   "op": "omit",
+   "source_ref": "3(a)(iii)",
+   "path": "schedule 2 › ministry Ministry of Agriculture › department Department of Irrigation",
+   "status": "not_applied",
+   "problem": "change 9: no department Department of Irrigation under schedule 2 › ministry Ministry of Agriculture",
+   "code": "old_path_missing",
+   "cause": "unit_not_found",
+   "known": "agriculture"
+  },
+  {
+   "seq": 10,
+   "doc_id": "GOI_SO_561E_1980",
+   "op": "insert",
+   "source_ref": "3(b)",
+   "path": "schedule 2 › ministry Ministry of Agriculture › department Department of Agricultural Research and Education",
+   "status": "not_applied",
+   "problem": "change 10: no department Department of Agricultural Research and Education under schedule 2 › ministry Ministry of Agriculture",
+   "code": "old_path_missing",
+   "cause": "unit_not_found",
+   "known": "agriculture"
+  },
+  {
+   "seq": 11,
+   "doc_id": "GOI_SO_561E_1980",
+   "op": "replace",
+   "source_ref": "3(c)(i)",
+   "path": "schedule 2 › ministry Ministry of Commerce and Civil Supplies",
+   "status": "applied"
+  },
+  {
+   "seq": 12,
+   "doc_id": "GOI_SO_561E_1980",
+   "op": "omit",
+   "source_ref": "3(c)(ii)",
+   "path": "schedule 2 › ministry Ministry of Commerce › department Department of Civil Supplies",
+   "status": "applied"
+  },
+  {
+   "seq": 13,
+   "doc_id": "GOI_SO_561E_1980",
+   "op": "replace",
+   "source_ref": "3(c)(ii)",
+   "path": "schedule 2 › ministry Ministry of Commerce › department Department of Textiles",
+   "status": "applied"
+  },
+  {
+   "seq": 14,
+   "doc_id": "GOI_SO_561E_1980",
+   "op": "replace",
+   "source_ref": "3(d)",
+   "path": "schedule 2 › ministry Ministry of Energy",
+   "status": "applied"
+  },
+  {
+   "seq": 15,
+   "doc_id": "GOI_SO_561E_1980",
+   "op": "omit",
+   "source_ref": "3(e)",
+   "path": "schedule 2 › ministry Ministry of Home Affairs › entry 77",
+   "status": "applied"
+  },
+  {
+   "seq": 16,
+   "doc_id": "GOI_SO_561E_1980",
+   "op": "insert",
+   "source_ref": "3(f)",
+   "path": "schedule 2 › ministry Ministry of Information and Broad- casting",
+   "status": "applied"
+  },
+  {
+   "seq": 17,
+   "doc_id": "GOI_SO_561E_1980",
+   "op": "insert",
+   "source_ref": "3(g)",
+   "path": "schedule 2 › ministry Ministry of Law, Justice and Com- pany Affairs › department Department of Justice › entry 9",
+   "status": "applied"
+  },
+  {
+   "seq": 18,
+   "doc_id": "GOI_SO_561E_1980",
+   "op": "replace",
+   "source_ref": "3(h)",
+   "path": "schedule 2 › ministry Ministry of Social Welfare › entry 24",
+   "status": "applied"
+  },
+  {
+   "seq": 19,
+   "doc_id": "GOI_SO_561E_1980",
+   "op": "replace",
+   "source_ref": "3(i)(a)",
+   "path": "schedule 2 › ministry Ministry of Steel, Mincs and Coal",
+   "status": "applied"
+  },
+  {
+   "seq": 20,
+   "doc_id": "GOI_SO_561E_1980",
+   "op": "omit",
+   "source_ref": "3(i)(b)",
+   "path": "schedule 2 › ministry Ministry of Steel and Mines › department Department of Coal",
+   "status": "applied"
+  },
+  {
+   "seq": 21,
+   "doc_id": "GOI_SO_561E_1980",
+   "op": "replace",
+   "source_ref": "3(j)(i)",
+   "path": "schedule 2 › ministry Department of Atomic Energy › entry 1 › item iv › item d",
+   "status": "applied"
+  },
+  {
+   "seq": 22,
+   "doc_id": "GOI_SO_561E_1980",
+   "op": "replace",
+   "source_ref": "3(j)(ii)",
+   "path": "schedule 2 › ministry Department of Atomic Energy › entry 1 › item v",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

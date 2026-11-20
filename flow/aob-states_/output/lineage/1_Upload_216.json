@@ -1,0 +1,1320 @@
+{
+ "file": "1_Upload_216.pdf",
+ "kind": "amendment",
+ "series": 178,
+ "date": "1986-01-06",
+ "govdoc": "aob-ammend_/output/1_Upload_216.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826691.3419487,
+ "edits_file": "aob-ammend_/conf/1_Upload_216.pdf.edits.yml",
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_216.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:56:50.102750+00:00",
+  "sha256": "a4f13f12b76280cb3531c8589e8b0e8f9ca870244353b8d4bf3fcac438209db2",
+  "pages": 12
+ },
+ "edits": [
+  {
+   "run": "h1",
+   "by": "mukundesh",
+   "at": "2026-11-11T04:06:29+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r1.w4003",
+     "before": {
+      "text": "SCO."
+     },
+     "after": {
+      "text": "S.O."
+     }
+    }
+   ]
+  },
+  {
+   "run": "h2",
+   "by": "mukundesh",
+   "at": "2026-11-14T16:37:52+00:00",
+   "edits": [
+    {
+     "op": "remove_word",
+     "target": "r1.w7134",
+     "before": {
+      "page": 11,
+      "word": {
+       "id": "r1.w7134",
+       "text": "-",
+       "bbox": [
+        270,
+        1617,
+        282,
+        1623
+       ],
+       "confidence": 0.44
+      },
+      "line": "r2.l1168",
+      "after": null
+     },
+     "after": null
+    }
+   ]
+  },
+  {
+   "run": "h3",
+   "by": "mukundesh",
+   "at": "2026-11-14T16:38:21+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r1.w7274",
+     "before": {
+      "text": "19"
+     },
+     "after": {
+      "text": "19."
+     }
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-11T03:01:39.885474+00:00",
+   "stamp": "93106a6fefb0b2ca"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r129",
+   "at": "2026-11-15T12:42:20.402972+00:00",
+   "stamp": "218e1b2e5ee7fd2d"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r130",
+   "at": "2026-11-15T12:42:23.037508+00:00",
+   "stamp": "72c8aca9a03bfb0a"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r131",
+   "at": "2026-11-15T12:42:25.015627+00:00",
+   "stamp": "5a28b345d0b39400"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r140",
+   "at": "2026-11-15T16:24:38.322947+00:00",
+   "stamp": "d3ddbae4ad58926c",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r141",
+   "at": "2026-11-15T16:24:40.487703+00:00",
+   "stamp": "c701569091ff1ae1",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r142",
+   "at": "2026-11-15T16:24:42.576651+00:00",
+   "stamp": "5905d1cb82ea771e",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r148",
+   "at": "2026-11-15T16:57:32.140218+00:00",
+   "stamp": "fcb9779ac403e25f"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r149",
+   "at": "2026-11-15T17:03:38.754126+00:00",
+   "stamp": "e0bf1cb230ff1a68"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r154",
+   "at": "2026-11-16T10:58:11.174902+00:00",
+   "stamp": "757eecd31699dffa"
+  }
+ ],
+ "reviews": [],
+ "issues": [
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 3: its quoted text runs across a page break",
+   "target": "r142.rel3",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 7: its quoted text runs across a page break",
+   "target": "r142.rel7",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 9: its quoted text runs across a page break",
+   "target": "r142.rel9",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 13: its quoted text runs across a page break",
+   "target": "r142.rel13",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 14: its quoted text runs across a page break",
+   "target": "r142.rel14",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
+   "message": "change 1: ministry MINISTRY OF AGRICUI TURE taken for ministry MINISTRY OF AGRICULTURE, named loosely",
+   "target": "r142.rel1",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
+   "message": "change 1: department DEPARTMENT OF RURAL DEVFLOPMENT taken for department DEPARTMENT OF RURAL DEVELOPMENT, named loosely",
+   "target": "r142.rel1",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
+   "message": "change 2: ministry MINISTRY OF AGRICUI TURE taken for ministry MINISTRY OF AGRICULTURE, named loosely",
+   "target": "r142.rel2",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
+   "message": "change 2: department DEPARTMENT OF RURAL DEVFLOPMENT taken for department DEPARTMENT OF RURAL DEVELOPMENT, named loosely",
+   "target": "r142.rel2",
+   "status": "open"
+  }
+ ],
+ "problems": [
+  {
+   "series": 178,
+   "seq": 8,
+   "code": "old_path_missing",
+   "severity": "error",
+   "message": "change 8: no group_heading Other Sub.ects under schedule 2 › ministry MINISTRY OF LAW AND JUSTICE › department B",
+   "cause": "group_not_found"
+  },
+  {
+   "series": 178,
+   "seq": 16,
+   "code": "old_path_missing",
+   "severity": "error",
+   "message": "change 16: no item i under schedule 2 › ministry MINISTRY OF WELFARE › part IV › entry 33",
+   "cause": "items"
+  },
+  {
+   "series": 178,
+   "seq": 19,
+   "code": "old_path_missing",
+   "severity": "error",
+   "message": "change 19: no item 11 under schedule 2 › ministry DEPARTMENT OF SPACE › entry 2",
+   "cause": "items"
+  },
+  {
+   "series": 271,
+   "seq": 3,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HEALTH AND FAMILY WEL- FARE (SWASTHYA AUR PARIVAR KALYAN MANT- RALAYA) › department A › group_heading II is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 3,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HEALTH AND FAMILY WEL- FARE (SWASTHYA AUR PARIVAR KALYAN MANT- RALAYA) › department A › group_heading I › entry 1 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 3,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HEALTH AND FAMILY WEL- FARE (SWASTHYA AUR PARIVAR KALYAN MANT- RALAYA) › department A › group_heading I › entry 8 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 3,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HEALTH AND FAMILY WEL- FARE (SWASTHYA AUR PARIVAR KALYAN MANT- RALAYA) › department A › group_heading I › entry 14 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 3,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HEALTH AND FAMILY WEL- FARE (SWASTHYA AUR PARIVAR KALYAN MANT- RALAYA) › department A › group_heading I › entry 24 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 3,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HEALTH AND FAMILY WEL- FARE (SWASTHYA AUR PARIVAR KALYAN MANT- RALAYA) › department A › group_heading I › entry 25 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 3,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HEALTH AND FAMILY WEL- FARE (SWASTHYA AUR PARIVAR KALYAN MANT- RALAYA) › department A › group_heading II is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 3,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HEALTH AND FAMILY WEL- FARE (SWASTHYA AUR PARIVAR KALYAN MANT- RALAYA) › department A › group_heading III › entry 33 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 3,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HEALTH AND FAMILY WEL- FARE (SWASTHYA AUR PARIVAR KALYAN MANT- RALAYA) › department A › group_heading III › entry 34 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 3,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HEALTH AND FAMILY WEL- FARE (SWASTHYA AUR PARIVAR KALYAN MANT- RALAYA) › department A › group_heading III › entry 35 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 3,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HEALTH AND FAMILY WEL- FARE (SWASTHYA AUR PARIVAR KALYAN MANT- RALAYA) › department A › group_heading III › entry 36 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 3,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HEALTH AND FAMILY WEL- FARE (SWASTHYA AUR PARIVAR KALYAN MANT- RALAYA) › department A › group_heading III › entry 37 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 3,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HEALTH AND FAMILY WEL- FARE (SWASTHYA AUR PARIVAR KALYAN MANT- RALAYA) › department A › group_heading III › entry 38 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 3,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HEALTH AND FAMILY WEL- FARE (SWASTHYA AUR PARIVAR KALYAN MANT- RALAYA) › department A › group_heading IV › entry 38 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 3,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HEALTH AND FAMILY WEL- FARE (SWASTHYA AUR PARIVAR KALYAN MANT- RALAYA) › department A › group_heading IV › entry 39 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 3,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HEALTH AND FAMILY WEL- FARE (SWASTHYA AUR PARIVAR KALYAN MANT- RALAYA) › department A › group_heading IV › entry 41 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 3,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HEALTH AND FAMILY WEL- FARE (SWASTHYA AUR PARIVAR KALYAN MANT- RALAYA) › department A › group_heading IV › entry 43 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 3,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HEALTH AND FAMILY WEL- FARE (SWASTHYA AUR PARIVAR KALYAN MANT- RALAYA) › department A › group_heading IV › entry 48 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 3,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HEALTH AND FAMILY WEL- FARE (SWASTHYA AUR PARIVAR KALYAN MANT- RALAYA) › department A › group_heading IV › entry 53 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 3,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HEALTH AND FAMILY WEL- FARE (SWASTHYA AUR PARIVAR KALYAN MANT- RALAYA) › department A › group_heading IV › entry 54 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 3,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HEALTH AND FAMILY WEL- FARE (SWASTHYA AUR PARIVAR KALYAN MANT- RALAYA) › department A › group_heading IV › entry 57 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 3,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HEALTH AND FAMILY WEL- FARE (SWASTHYA AUR PARIVAR KALYAN MANT- RALAYA) › department A › group_heading IV › entry 58 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 3,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HEALTH AND FAMILY WEL- FARE (SWASTHYA AUR PARIVAR KALYAN MANT- RALAYA) › department A › group_heading IV › entry 40 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 3,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HEALTH AND FAMILY WEL- FARE (SWASTHYA AUR PARIVAR KALYAN MANT- RALAYA) › department A › group_heading IV › entry 42 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 3,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HEALTH AND FAMILY WEL- FARE (SWASTHYA AUR PARIVAR KALYAN MANT- RALAYA) › department A › group_heading IV › entry 44 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 3,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HEALTH AND FAMILY WEL- FARE (SWASTHYA AUR PARIVAR KALYAN MANT- RALAYA) › department A › group_heading IV › entry 45 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 3,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HEALTH AND FAMILY WEL- FARE (SWASTHYA AUR PARIVAR KALYAN MANT- RALAYA) › department A › group_heading IV › entry 46 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 3,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HEALTH AND FAMILY WEL- FARE (SWASTHYA AUR PARIVAR KALYAN MANT- RALAYA) › department A › group_heading IV › entry 47 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 3,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HEALTH AND FAMILY WEL- FARE (SWASTHYA AUR PARIVAR KALYAN MANT- RALAYA) › department A › group_heading IV › entry 49 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 3,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HEALTH AND FAMILY WEL- FARE (SWASTHYA AUR PARIVAR KALYAN MANT- RALAYA) › department A › group_heading IV › entry 1956 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 3,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HEALTH AND FAMILY WEL- FARE (SWASTHYA AUR PARIVAR KALYAN MANT- RALAYA) › department A › group_heading IV › entry 50 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 3,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HEALTH AND FAMILY WEL- FARE (SWASTHYA AUR PARIVAR KALYAN MANT- RALAYA) › department A › group_heading IV › entry 51 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 3,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HEALTH AND FAMILY WEL- FARE (SWASTHYA AUR PARIVAR KALYAN MANT- RALAYA) › department A › group_heading IV › entry 52 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 3,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HEALTH AND FAMILY WEL- FARE (SWASTHYA AUR PARIVAR KALYAN MANT- RALAYA) › department A › group_heading IV › entry 55 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 3,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HEALTH AND FAMILY WEL- FARE (SWASTHYA AUR PARIVAR KALYAN MANT- RALAYA) › department A › group_heading IV › entry 56 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 3,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HEALTH AND FAMILY WEL- FARE (SWASTHYA AUR PARIVAR KALYAN MANT- RALAYA) › department A › group_heading IV › entry 62 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 3,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HEALTH AND FAMILY WEL- FARE (SWASTHYA AUR PARIVAR KALYAN MANT- RALAYA) › department A › group_heading IV › entry 63 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 3,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HEALTH AND FAMILY WEL- FARE (SWASTHYA AUR PARIVAR KALYAN MANT- RALAYA) › department A › group_heading IV › entry 64 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 3,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HEALTH AND FAMILY WEL- FARE (SWASTHYA AUR PARIVAR KALYAN MANT- RALAYA) › department A › group_heading IV › entry 65 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 3,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HEALTH AND FAMILY WEL- FARE (SWASTHYA AUR PARIVAR KALYAN MANT- RALAYA) › department A › group_heading IV › entry 67 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 3,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HEALTH AND FAMILY WEL- FARE (SWASTHYA AUR PARIVAR KALYAN MANT- RALAYA) › department A › group_heading IV › entry 68 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 3,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HEALTH AND FAMILY WEL- FARE (SWASTHYA AUR PARIVAR KALYAN MANT- RALAYA) › department A › group_heading IV › entry 70 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 3,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HEALTH AND FAMILY WEL- FARE (SWASTHYA AUR PARIVAR KALYAN MANT- RALAYA) › department A › group_heading IV › entry 71 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 3,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HEALTH AND FAMILY WEL- FARE (SWASTHYA AUR PARIVAR KALYAN MANT- RALAYA) › department A › group_heading IV › entry 72 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 3,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HEALTH AND FAMILY WEL- FARE (SWASTHYA AUR PARIVAR KALYAN MANT- RALAYA) › department A › group_heading IV › entry 73 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 3,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HEALTH AND FAMILY WEL- FARE (SWASTHYA AUR PARIVAR KALYAN MANT- RALAYA) › department A › group_heading IV › entry 77 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 4,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HEALTH AND FAMILY WEL- FARE (SWASTHYA AUR PARIVAR KALYAN MANT- RALAYA) › department B › entry 13 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 4,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HEALTH AND FAMILY WEL- FARE (SWASTHYA AUR PARIVAR KALYAN MANT- RALAYA) › department B › entry 14 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 4,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HEALTH AND FAMILY WEL- FARE (SWASTHYA AUR PARIVAR KALYAN MANT- RALAYA) › department B › entry 2 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 4,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HEALTH AND FAMILY WEL- FARE (SWASTHYA AUR PARIVAR KALYAN MANT- RALAYA) › department B › entry 3 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 4,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HEALTH AND FAMILY WEL- FARE (SWASTHYA AUR PARIVAR KALYAN MANT- RALAYA) › department B › entry 4 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 4,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HEALTH AND FAMILY WEL- FARE (SWASTHYA AUR PARIVAR KALYAN MANT- RALAYA) › department B › entry 5 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 4,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HEALTH AND FAMILY WEL- FARE (SWASTHYA AUR PARIVAR KALYAN MANT- RALAYA) › department B › entry 6 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 4,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HEALTH AND FAMILY WEL- FARE (SWASTHYA AUR PARIVAR KALYAN MANT- RALAYA) › department B › entry 7 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 4,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HEALTH AND FAMILY WEL- FARE (SWASTHYA AUR PARIVAR KALYAN MANT- RALAYA) › department B › entry 8 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 4,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HEALTH AND FAMILY WEL- FARE (SWASTHYA AUR PARIVAR KALYAN MANT- RALAYA) › department B › entry 9 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 4,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HEALTH AND FAMILY WEL- FARE (SWASTHYA AUR PARIVAR KALYAN MANT- RALAYA) › department B › entry 10 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 4,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HEALTH AND FAMILY WEL- FARE (SWASTHYA AUR PARIVAR KALYAN MANT- RALAYA) › department B › entry 11 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 4,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HEALTH AND FAMILY WEL- FARE (SWASTHYA AUR PARIVAR KALYAN MANT- RALAYA) › department B › entry 12 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 9,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF TEXTILES › group_heading H is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 9,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF TEXTILES › group_heading III is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 9,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF TEXTILES › group_heading IV is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 9,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF TEXTILES › group_heading V is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 9,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF TEXTILES › group_heading VI is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 9,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF TEXTILES › group_heading VII is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 9,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF TEXTILES › group_heading VIII is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 9,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF TEXTILES › group_heading IX is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 9,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF TEXTILES › group_heading X is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 9,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF TEXTILES › text is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 9,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF TEXTILES › entry 1 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 9,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF TEXTILES › entry 4 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 9,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF TEXTILES › entry 5 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 9,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF TEXTILES › entry 6 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 9,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF TEXTILES › entry 7 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 9,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF TEXTILES › entry 8 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 9,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF TEXTILES › entry 9 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 9,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF TEXTILES › entry 10 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 9,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF TEXTILES › entry 11 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 9,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF TEXTILES › entry 12 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 9,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF TEXTILES › entry 13 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 9,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF TEXTILES › entry 14 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 9,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF TEXTILES › entry 15 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 9,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF TEXTILES › entry 16 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 9,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF TEXTILES › entry 17 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 9,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF TEXTILES › entry 18 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 9,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF TEXTILES › entry 19 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 9,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF TEXTILES › entry 21 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 9,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF TEXTILES › entry 23 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 9,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF TEXTILES › entry 24 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 9,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF TEXTILES › entry 25 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 9,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF TEXTILES › entry 26 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 9,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF TEXTILES › entry 27 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 9,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF TEXTILES › entry 28 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 9,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF TEXTILES › entry 29 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 9,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF TEXTILES › entry 30 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 9,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF TEXTILES › entry 31 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 9,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF TEXTILES › entry 32 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 9,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF TEXTILES › entry 33 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 9,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF TEXTILES › entry 34 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 9,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF TEXTILES › entry 35 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 9,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF TEXTILES › entry 36 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 9,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF TEXTILES › entry 37 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 9,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF TEXTILES › entry 38 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 9,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF TEXTILES › entry 39 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 9,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF TEXTILES › entry 40 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 9,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF TEXTILES › entry 41 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 9,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF TEXTILES › entry 42 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 9,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF TEXTILES › entry 43 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 9,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF TEXTILES › entry 44 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 9,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF TEXTILES › entry 45 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 9,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF TEXTILES › entry 46 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 9,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF TEXTILES › entry 47 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 9,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF TEXTILES › entry 48 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 9,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF TEXTILES › entry 49 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 14,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF WATER RESOURCES › group_heading I is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 14,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF WATER RESOURCES › group_heading II is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 14,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF WATER RESOURCES › group_heading III is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 14,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF WATER RESOURCES › group_heading IV is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 14,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF WATER RESOURCES › group_heading I is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  }
+ ],
+ "rules": [
+  {
+   "rule": "loose",
+   "seq": 1,
+   "note": "change 1: ministry MINISTRY OF AGRICUI TURE taken for ministry MINISTRY OF AGRICULTURE, named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "loose",
+   "seq": 1,
+   "note": "change 1: department DEPARTMENT OF RURAL DEVFLOPMENT taken for department DEPARTMENT OF RURAL DEVELOPMENT, named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "loose",
+   "seq": 2,
+   "note": "change 2: ministry MINISTRY OF AGRICUI TURE taken for ministry MINISTRY OF AGRICULTURE, named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "loose",
+   "seq": 2,
+   "note": "change 2: department DEPARTMENT OF RURAL DEVFLOPMENT taken for department DEPARTMENT OF RURAL DEVELOPMENT, named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  }
+ ],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_6E_1986",
+   "op": "replace",
+   "source_ref": "2(1)(1)",
+   "path": "schedule 2 › ministry MINISTRY OF AGRICUI TURE › department DEPARTMENT OF RURAL DEVFLOPMENT › entry 1",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_6E_1986",
+   "op": "replace",
+   "source_ref": "2(1)(2)",
+   "path": "schedule 2 › ministry MINISTRY OF AGRICUI TURE › department DEPARTMENT OF RURAL DEVFLOPMENT › entry 9",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_6E_1986",
+   "op": "replace",
+   "source_ref": "2(ii)(a)",
+   "path": "schedule 2 › ministry MINISTRY OF HEALTH AND FAMILY WELFARE › department DEPARTMENT OF HEALTH",
+   "status": "applied"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_6E_1986",
+   "op": "replace",
+   "source_ref": "2(ii)(b)",
+   "path": "schedule 2 › ministry MINISTRY OF HEALTH AND FAMILY WELFARE › department DEPARTMENT OF FAMILY WELFARE",
+   "status": "applied"
+  },
+  {
+   "seq": 5,
+   "doc_id": "GOI_SO_6E_1986",
+   "op": "replace",
+   "source_ref": "2(iii)(a)",
+   "path": "schedule 2 › ministry MINISTRY OF HUMAN RE- SOURCE DEVELOPMENT › department DEPARTMENT OF YOUTH AFFAIRS AND SPORTS",
+   "status": "applied"
+  },
+  {
+   "seq": 6,
+   "doc_id": "GOI_SO_6E_1986",
+   "op": "insert",
+   "source_ref": "2(iii)(b)",
+   "path": "schedule 2 › ministry MINISTRY OF HUMAN RE- SOURCE DEVELOPMENT › department DEPARTMENT OF WOMEN'S WELFARE › entry 10",
+   "status": "applied"
+  },
+  {
+   "seq": 7,
+   "doc_id": "GOI_SO_6E_1986",
+   "op": "replace",
+   "source_ref": "2(iv)",
+   "path": "schedule 2 › ministry MINISTRY OF INFORMATION AND BROADCASTING",
+   "status": "applied"
+  },
+  {
+   "seq": 8,
+   "doc_id": "GOI_SO_6E_1986",
+   "op": "omit",
+   "source_ref": "2(v)",
+   "path": "schedule 2 › ministry MINISTRY OF LAW AND JUSTICE › department LEGISLATIVE DE- PARTMENT › group_heading Other Sub.ects ; schedule 2 › ministry MINISTRY OF LAW AND JUSTICE › department LEGISLATIVE DE- PARTMENT › entry 19 ; schedule 2 › ministry MINISTRY OF LAW AND JUSTICE › department LEGISLATIVE DE- PARTMENT › entry 20 ; schedule 2 › ministry MINISTRY OF LAW AND JUSTICE › department LEGISLATIVE DE- PARTMENT › entry 21",
+   "status": "not_applied",
+   "problem": "change 8: no group_heading Other Sub.ects under schedule 2 › ministry MINISTRY OF LAW AND JUSTICE › department B",
+   "code": "old_path_missing",
+   "cause": "group_not_found",
+   "known": "groups"
+  },
+  {
+   "seq": 9,
+   "doc_id": "GOI_SO_6E_1986",
+   "op": "replace",
+   "source_ref": "2(iv)",
+   "path": "schedule 2 › ministry MINISTRY OF TEXTILES",
+   "status": "applied"
+  },
+  {
+   "seq": 10,
+   "doc_id": "GOI_SO_6E_1986",
+   "op": "substitute_text",
+   "source_ref": "2(vii)(a)",
+   "path": "schedule 2 › ministry MINISTRY OF URBAN DEVE- LOPMENT › entry 12",
+   "status": "applied"
+  },
+  {
+   "seq": 11,
+   "doc_id": "GOI_SO_6E_1986",
+   "op": "substitute_text",
+   "source_ref": "2(vii)(b)",
+   "path": "schedule 2 › ministry MINISTRY OF URBAN DEVE- LOPMENT › entry 23",
+   "status": "applied"
+  },
+  {
+   "seq": 12,
+   "doc_id": "GOI_SO_6E_1986",
+   "op": "substitute_text",
+   "source_ref": "2(vii)(c)",
+   "path": "schedule 2 › ministry MINISTRY OF URBAN DEVE- LOPMENT › entry 25",
+   "status": "applied"
+  },
+  {
+   "seq": 13,
+   "doc_id": "GOI_SO_6E_1986",
+   "op": "insert",
+   "source_ref": "2(vii)(d)",
+   "path": "schedule 2 › ministry MINISTRY OF URBAN DEVE- LOPMENT › entry 32",
+   "status": "applied"
+  },
+  {
+   "seq": 14,
+   "doc_id": "GOI_SO_6E_1986",
+   "op": "replace",
+   "source_ref": "2(VII)",
+   "path": "schedule 2 › ministry MINISTRY OF WATER RE SOURCES",
+   "status": "applied"
+  },
+  {
+   "seq": 15,
+   "doc_id": "GOI_SO_6E_1986",
+   "op": "omit",
+   "source_ref": "2(ix)(a)",
+   "path": "schedule 2 › ministry MINISTRY OF WELFARE › entry 23 ; schedule 2 › ministry MINISTRY OF WELFARE › entry 28",
+   "status": "applied"
+  },
+  {
+   "seq": 16,
+   "doc_id": "GOI_SO_6E_1986",
+   "op": "insert",
+   "source_ref": "2(ix)(b)",
+   "path": "schedule 2 › ministry MINISTRY OF WELFARE › entry 33 › item i",
+   "status": "not_applied",
+   "problem": "change 16: no item i under schedule 2 › ministry MINISTRY OF WELFARE › part IV › entry 33",
+   "code": "old_path_missing",
+   "cause": "items",
+   "known": "items"
+  },
+  {
+   "seq": 17,
+   "doc_id": "GOI_SO_6E_1986",
+   "op": "insert",
+   "source_ref": "2(ix)(4)",
+   "path": "schedule 2 › ministry MINISTRY OF WELFARE › entry 33",
+   "status": "applied"
+  },
+  {
+   "seq": 18,
+   "doc_id": "GOI_SO_6E_1986",
+   "op": "substitute_text",
+   "source_ref": "2(x)(a)(i)",
+   "path": "schedule 2 › ministry DEPARTMENT OF SPACE › entry 2",
+   "status": "applied"
+  },
+  {
+   "seq": 19,
+   "doc_id": "GOI_SO_6E_1986",
+   "op": "substitute_text",
+   "source_ref": "2(x)(a)(u)",
+   "path": "schedule 2 › ministry DEPARTMENT OF SPACE › entry 2 › item 1 ; schedule 2 › ministry DEPARTMENT OF SPACE › entry 2 › item 11",
+   "status": "not_applied",
+   "problem": "change 19: no item 11 under schedule 2 › ministry DEPARTMENT OF SPACE › entry 2",
+   "code": "old_path_missing",
+   "cause": "items",
+   "known": "items"
+  },
+  {
+   "seq": 20,
+   "doc_id": "GOI_SO_6E_1986",
+   "op": "substitute_text",
+   "source_ref": "2(x)(b)",
+   "path": "schedule 2 › ministry DEPARTMENT OF SPACE › entry 3 › item i",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

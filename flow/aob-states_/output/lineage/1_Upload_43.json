@@ -1,0 +1,329 @@
+{
+ "file": "1_Upload_43.pdf",
+ "kind": "amendment",
+ "series": 10,
+ "date": "1962-09-08",
+ "govdoc": "aob-ammend_/output/1_Upload_43.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826694.6180947,
+ "edits_file": "aob-ammend_/conf/1_Upload_43.pdf.edits.yml",
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_43.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T14:01:41.202372+00:00",
+  "sha256": "d5c0e5ffdfa561002bbe14b5c841e19e8cc13555fd5c95e6c2b0a8287422415f",
+  "pages": 4
+ },
+ "edits": [
+  {
+   "run": "h1",
+   "by": "mukundesh",
+   "at": "2026-11-14T13:37:28+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r1.w446",
+     "before": {
+      "text": "\"11"
+     },
+     "after": {
+      "text": "\""
+     }
+    }
+   ]
+  },
+  {
+   "run": "h2",
+   "by": "mukundesh",
+   "at": "2026-11-14T13:37:48+00:00",
+   "edits": [
+    {
+     "op": "remove_word",
+     "target": "r1.w493",
+     "before": {
+      "page": 2,
+      "word": {
+       "id": "r1.w493",
+       "text": "11",
+       "bbox": [
+        365,
+        1495,
+        398,
+        1525
+       ],
+       "confidence": 0.93
+      },
+      "line": "r2.l74",
+      "after": null
+     },
+     "after": null
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-12T12:44:48.971652+00:00",
+   "stamp": "456140e000e77fdc"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r58",
+   "at": "2026-11-15T12:42:45.117157+00:00",
+   "stamp": "d8ffec9fb3ae5e67"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r59",
+   "at": "2026-11-15T12:42:47.640218+00:00",
+   "stamp": "038a09ba5185d807"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r60",
+   "at": "2026-11-15T12:42:50.226831+00:00",
+   "stamp": "855d395c50d329f1"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r69",
+   "at": "2026-11-15T16:25:02.840752+00:00",
+   "stamp": "927db6b0dcfc4e19",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r70",
+   "at": "2026-11-15T16:25:05.007453+00:00",
+   "stamp": "180cf3ea79590d3a",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r71",
+   "at": "2026-11-15T16:25:06.976278+00:00",
+   "stamp": "18b8b2d5ac79c1e2",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r77",
+   "at": "2026-11-15T16:57:37.629606+00:00",
+   "stamp": "1f4bab6fb3697b33"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r78",
+   "at": "2026-11-15T17:03:51.603992+00:00",
+   "stamp": "9384f5b81819be3f"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r83",
+   "at": "2026-11-16T10:58:14.602495+00:00",
+   "stamp": "dbaab0c86e905421"
+  }
+ ],
+ "reviews": [],
+ "issues": [],
+ "problems": [
+  {
+   "series": 10,
+   "seq": 9,
+   "code": "old_path_missing",
+   "severity": "error",
+   "message": "change 9: no entry 7–A under schedule 2 › ministry MINISTRY OF FOOD AND AGRICULTURE › department B",
+   "cause": "entry_not_in_state"
+  },
+  {
+   "series": 10,
+   "seq": 15,
+   "code": "old_path_missing",
+   "severity": "error",
+   "message": "change 15: no entry 28 under schedule 2 › ministry MINISTRY OF WORKS, HOUSING & SUPPLY › department A",
+   "cause": "entry_not_in_state"
+  }
+ ],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_2875_1962",
+   "op": "replace",
+   "source_ref": "(1)(i)(a)",
+   "path": "schedule 2 › ministry Ministry of Food and Agriculture › department Department of Agriculture › entry 2",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_2875_1962",
+   "op": "replace",
+   "source_ref": "(1)(i)(b)",
+   "path": "schedule 2 › ministry Ministry of Food and Agriculture › department Department of Agriculture › entry 6 › item a",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_2875_1962",
+   "op": "omit",
+   "source_ref": "(1)(i)(c)",
+   "path": "schedule 2 › ministry Ministry of Food and Agriculture › department Department of Agriculture › entry 7 ; schedule 2 › ministry Ministry of Food and Agriculture › department Department of Agriculture › entry 8",
+   "status": "applied"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_2875_1962",
+   "op": "replace",
+   "source_ref": "(1)(i)(d)",
+   "path": "schedule 2 › ministry Ministry of Food and Agriculture › department Department of Agriculture › entry 9",
+   "status": "applied"
+  },
+  {
+   "seq": 5,
+   "doc_id": "GOI_SO_2875_1962",
+   "op": "replace",
+   "source_ref": "(1)(i)(e)",
+   "path": "schedule 2 › ministry Ministry of Food and Agriculture › department Department of Agriculture › entry 43",
+   "status": "applied"
+  },
+  {
+   "seq": 6,
+   "doc_id": "GOI_SO_2875_1962",
+   "op": "omit",
+   "source_ref": "(1)(i)(f)",
+   "path": "schedule 2 › ministry Ministry of Food and Agriculture › department Department of Agriculture › entry 46 › item xx ; schedule 2 › ministry Ministry of Food and Agriculture › department Department of Agriculture › entry 46 › item xxi",
+   "status": "applied"
+  },
+  {
+   "seq": 7,
+   "doc_id": "GOI_SO_2875_1962",
+   "op": "replace",
+   "source_ref": "(1)(ii)(a)",
+   "path": "schedule 2 › ministry Ministry of Food and Agriculture › department Department of Food › entry 3",
+   "status": "applied"
+  },
+  {
+   "seq": 8,
+   "doc_id": "GOI_SO_2875_1962",
+   "op": "replace",
+   "source_ref": "(1)(ii)(b)",
+   "path": "schedule 2 › ministry Ministry of Food and Agriculture › department Department of Food › entry 7",
+   "status": "applied"
+  },
+  {
+   "seq": 9,
+   "doc_id": "GOI_SO_2875_1962",
+   "op": "insert",
+   "source_ref": "(1)(ii)(c)",
+   "path": "schedule 2 › ministry Ministry of Food and Agriculture › department Department of Food › entry 7-A",
+   "status": "not_applied",
+   "problem": "change 9: no entry 7–A under schedule 2 › ministry MINISTRY OF FOOD AND AGRICULTURE › department B",
+   "code": "old_path_missing",
+   "cause": "entry_not_in_state",
+   "known": "entries"
+  },
+  {
+   "seq": 10,
+   "doc_id": "GOI_SO_2875_1962",
+   "op": "insert",
+   "source_ref": "(1)(ii)(d)",
+   "path": "schedule 2 › ministry Ministry of Food and Agriculture › department Department of Food › entry 11 › item iii",
+   "status": "applied"
+  },
+  {
+   "seq": 11,
+   "doc_id": "GOI_SO_2875_1962",
+   "op": "insert",
+   "source_ref": "(1)(ii)(e)",
+   "path": "schedule 2 › ministry Ministry of Food and Agriculture › department Department of Food › entry 15",
+   "status": "applied"
+  },
+  {
+   "seq": 12,
+   "doc_id": "GOI_SO_2875_1962",
+   "op": "replace",
+   "source_ref": "(2)(a)",
+   "path": "schedule 2 › ministry Ministry of Works, Housing and Supply › department Department of Works, Housing and Supply › entry 7",
+   "status": "applied"
+  },
+  {
+   "seq": 13,
+   "doc_id": "GOI_SO_2875_1962",
+   "op": "replace",
+   "source_ref": "(2)(b)",
+   "path": "schedule 2 › ministry Ministry of Works, Housing and Supply › department Department of Works, Housing and Supply › entry 16",
+   "status": "applied"
+  },
+  {
+   "seq": 14,
+   "doc_id": "GOI_SO_2875_1962",
+   "op": "replace",
+   "source_ref": "(2)(c)",
+   "path": "schedule 2 › ministry Ministry of Works, Housing and Supply › department Department of Works, Housing and Supply › entry 18",
+   "status": "applied"
+  },
+  {
+   "seq": 15,
+   "doc_id": "GOI_SO_2875_1962",
+   "op": "omit",
+   "source_ref": "(2)(d)",
+   "path": "schedule 2 › ministry Ministry of Works, Housing and Supply › department Department of Works, Housing and Supply › entry 21 ; schedule 2 › ministry Ministry of Works, Housing and Supply › department Department of Works, Housing and Supply › entry 22 ; schedule 2 › ministry Ministry of Works, Housing and Supply › department Department of Works, Housing and Supply › entry 28 › item j",
+   "status": "not_applied",
+   "problem": "change 15: no entry 28 under schedule 2 › ministry MINISTRY OF WORKS, HOUSING & SUPPLY › department A",
+   "code": "old_path_missing",
+   "cause": "entry_not_in_state",
+   "known": "entries"
+  },
+  {
+   "seq": 16,
+   "doc_id": "GOI_SO_2875_1962",
+   "op": "insert",
+   "source_ref": "(2)(e)",
+   "path": "schedule 2 › ministry Ministry of Works, Housing and Supply › department Department of Works, Housing and Supply › entry 25",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

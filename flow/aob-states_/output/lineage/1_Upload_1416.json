@@ -1,0 +1,123 @@
+{
+ "file": "1_Upload_1416.pdf",
+ "kind": "checkpoint",
+ "series": 340,
+ "date": "2018-05-07",
+ "govdoc": "aob-rules_/output/1_Upload_1416.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794762012.1400847,
+ "edits_file": "aob-rules_/conf/1_Upload_1416.pdf.edits.yml",
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/completeaobrules/english/1_Upload_1416.pdf",
+  "portal": "cabsec_aob_rules",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-29T10:19:33.271688+00:00",
+  "sha256": "6b351e369c335d87a31165cd7ce12acb854b329c6b6ae5b63614cbd96a4dabaa",
+  "pages": 181
+ },
+ "edits": [
+  {
+   "run": "h1",
+   "by": "mukundesh",
+   "at": "2026-11-02T12:40:02+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r5.w15172",
+     "before": {
+      "text": "(Complusory"
+     },
+     "after": {
+      "text": "(Compulsory"
+     }
+    },
+    {
+     "op": "text",
+     "target": "r5.w18474",
+     "before": {
+      "text": "Liaision"
+     },
+     "after": {
+      "text": "Liaison"
+     }
+    },
+    {
+     "op": "text",
+     "target": "r5.w3758",
+     "before": {
+      "text": "extention"
+     },
+     "after": {
+      "text": "extension"
+     }
+    },
+    {
+     "op": "text",
+     "target": "r5.w4252",
+     "before": {
+      "text": "Machanised"
+     },
+     "after": {
+      "text": "Mechanized"
+     }
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r5",
+   "at": "2026-11-02T04:26:38.217445+00:00",
+   "stamp": "c46d1a22e477bc09"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r127",
+   "at": "2026-11-13T11:42:26.667487+00:00",
+   "stamp": "7ec7ffe2ae100e6e"
+  },
+  {
+   "step": "layout",
+   "task": "page_blocks",
+   "version": "3",
+   "tool": "block_builder",
+   "run": "r128",
+   "at": "2026-11-13T11:46:44.622575+00:00",
+   "stamp": "a9d327e22606356f"
+  },
+  {
+   "step": "split",
+   "task": "one_document",
+   "version": "2",
+   "tool": "splitter",
+   "run": "r129",
+   "at": "2026-11-13T11:47:59.423764+00:00",
+   "stamp": "514a6c7b848805ef"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r143",
+   "at": "2026-11-15T17:00:10.275335+00:00",
+   "stamp": "1efadb6b9e2f2680"
+  }
+ ],
+ "reviews": [],
+ "issues": [],
+ "problems": [],
+ "rules": [],
+ "changes": [],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

@@ -1,0 +1,198 @@
+{
+ "file": "1_Upload_178.pdf",
+ "kind": "amendment",
+ "series": 140,
+ "date": "1980-04-07",
+ "govdoc": "aob-ammend_/output/1_Upload_178.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826693.5801039,
+ "edits_file": "aob-ammend_/conf/1_Upload_178.pdf.edits.yml",
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_178.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:55:55.952754+00:00",
+  "sha256": "ca2f1c4e8992b1fe5e647b14c26d7e7d6f43013162d430b538a6dd0cf384a7d7",
+  "pages": 2
+ },
+ "edits": [
+  {
+   "run": "h1",
+   "by": "claude",
+   "at": "2026-11-12T15:01:00+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r1.w268",
+     "before": {
+      "text": "8.0"
+     },
+     "after": {
+      "text": "S.O"
+     }
+    }
+   ]
+  },
+  {
+   "run": "h2",
+   "by": "claude",
+   "at": "2026-11-12T15:30:00+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r1.w58",
+     "before": {
+      "text": "1930"
+     },
+     "after": {
+      "text": "1980"
+     }
+    }
+   ]
+  },
+  {
+   "run": "h3",
+   "by": "claude",
+   "at": "2026-11-12T15:31:00+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r1.w62",
+     "before": {
+      "text": "1992"
+     },
+     "after": {
+      "text": "1902"
+     }
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-12T12:44:06.438363+00:00",
+   "stamp": "f750dc4700ea2311"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r55",
+   "at": "2026-11-15T12:42:33.432974+00:00",
+   "stamp": "8dcd9405b1b279c1"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r56",
+   "at": "2026-11-15T12:42:35.943353+00:00",
+   "stamp": "7cc4745da75c3a85"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r57",
+   "at": "2026-11-15T12:42:37.545028+00:00",
+   "stamp": "713a1a2a26d03707"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r66",
+   "at": "2026-11-15T16:24:52.121225+00:00",
+   "stamp": "fd829e5294422fff",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r67",
+   "at": "2026-11-15T16:24:53.896304+00:00",
+   "stamp": "4364e4e0b5f05538",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r68",
+   "at": "2026-11-15T16:24:55.690364+00:00",
+   "stamp": "af19ded45b604969",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r74",
+   "at": "2026-11-15T16:57:35.747779+00:00",
+   "stamp": "abf0102956ac20b5"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r75",
+   "at": "2026-11-15T17:03:46.423159+00:00",
+   "stamp": "f98ee350fdfd284c"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r80",
+   "at": "2026-11-16T10:58:13.570050+00:00",
+   "stamp": "2cc8d177fe606075"
+  }
+ ],
+ "reviews": [],
+ "issues": [],
+ "problems": [],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_243E_1980",
+   "op": "omit",
+   "source_ref": "2(i)",
+   "path": "schedule 2 › ministry MINISTRY OF HOME AFFAIRS › entry 41F",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_243E_1980",
+   "op": "insert",
+   "source_ref": "2(ii)",
+   "path": "schedule 2 › ministry MINISTRY OF HOME AFFAIRS › entry 125",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

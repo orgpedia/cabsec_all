@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_333.pdf",
     "sha256": "beaa25465b14b023f2b9fbea2d167224dd7baabc7a65567fcd4925c5f4fa47e7",
     "govdoc": "1_Upload_333.pdf.govdoc.json.zst",
-    "revision": 149
+    "revision": 173
   },
   "documents": [
     {
@@ -29,9 +29,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "3",
+          "version": "4",
           "model": "gemini-4-argon",
-          "at": "2026-11-12T12:56:57.557303+00:00"
+          "at": "2026-11-15T16:24:54.807052+00:00"
         },
         "ops": [
           {
@@ -39,7 +39,7 @@
             "source_ref": "2(1)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r112.rel1",
+            "relation": "r165.rel1",
             "target": {
               "cited": [
                 {
@@ -100,7 +100,7 @@
             "source_ref": "2(2)(A)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r112.rel2",
+            "relation": "r165.rel2",
             "target": [
               {
                 "cited": [
@@ -123,14 +123,14 @@
                 ],
                 "eId": null,
                 "words": [
-                  "r1.w619",
+                  "r1.w621",
                   "r1.w621"
                 ],
                 "boxes": [
                   {
                     "page": 2,
                     "bbox": [
-                      677,
+                      939,
                       1937,
                       957,
                       1973
@@ -188,10 +188,12 @@
               },
               {
                 "type": "proviso",
-                "text": "Provided that the administrative Ministry or Department shall be 'the : Printed by the Manager, Govt. of India Press, Ring Central Government' for the purpose of exercising powers under the Multi-State Co-operative Societies Act, 2002 (39 of 2002), for co-operative units functioning under its control"
+                "text": "Provided that the administrative Ministry or Department shall be 'the : Printed by the Manager, Govt. of India Press and Published by the Controller Central Government' for the purpose of exercising powers under the Multi-State Co-operative Societies Act, 2002 (39 of 2002), for co-operative units functioning under its control"
               }
             ],
-            "flags": [],
+            "flags": [
+              "read_page_break"
+            ],
             "words": [
               "r1.w594",
               "r1.w600"
@@ -213,7 +215,7 @@
             "source_ref": "2(2)(B)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r112.rel3",
+            "relation": "r165.rel3",
             "position": "after",
             "anchor": {
               "cited": [
@@ -280,7 +282,7 @@
             "source_ref": "2(2)(C)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r112.rel4",
+            "relation": "r165.rel4",
             "target": {
               "cited": [
                 {
@@ -346,7 +348,7 @@
             "source_ref": "2(2)(D)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r112.rel5",
+            "relation": "r165.rel5",
             "target": {
               "cited": [
                 {
@@ -355,7 +357,7 @@
                 },
                 {
                   "type": "ministry",
-                  "heading": "MINISTRY OF NON-CONVENTIONAL ENERGY SOURCES"
+                  "heading": "MINISTRY OF NON- CONVENTIONAL ENERGY SOURCES"
                 }
               ],
               "eId": null,

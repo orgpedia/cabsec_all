@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_340.pdf",
     "sha256": "7e7cea08f5ba12b786d9e48773015d703ffc2446bf076d452516652ca3b1d4a5",
     "govdoc": "1_Upload_340.pdf.govdoc.json.zst",
-    "revision": 147
+    "revision": 171
   },
   "documents": [
     {
@@ -18,20 +18,20 @@
           "value": "S.O. 1410(E)"
         },
         "in_force": {
-          "value": null
+          "value": "2009-06-04"
         }
       },
       "amendment": {
         "schema_version": "1.0",
         "in_force": {
-          "date": null,
-          "basis": null
+          "date": "2009-06-04",
+          "basis": "at_once"
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "3",
+          "version": "4",
           "model": "gemini-4-argon",
-          "at": "2026-11-12T12:56:16.064042+00:00"
+          "at": "2026-11-15T16:24:28.997720+00:00"
         },
         "ops": [
           {
@@ -39,7 +39,7 @@
             "source_ref": "2(2)(A)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r109.rel1",
+            "relation": "r162.rel1",
             "position": "after",
             "anchor": {
               "cited": [
@@ -54,7 +54,7 @@
               ],
               "eId": null,
               "words": [
-                "r1.w1347",
+                "r1.w1346",
                 "r1.w1354"
               ],
               "boxes": [
@@ -62,7 +62,7 @@
                   "page": 3,
                   "bbox": [
                     1477,
-                    775,
+                    774,
                     2198,
                     865
                   ]
@@ -77,14 +77,29 @@
                 "heading_hi": "Sadak Parivahan aur Raj Marg Mantralaya"
               }
             ],
-            "flags": []
+            "flags": [],
+            "words": [
+              "r1.w1345",
+              "r1.w1352"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  1396,
+                  774,
+                  2198,
+                  818
+                ]
+              }
+            ]
           },
           {
             "seq": 2,
             "source_ref": "2(2)(B)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r109.rel2",
+            "relation": "r162.rel2",
             "target": {
               "cited": [
                 {
@@ -98,7 +113,7 @@
               ],
               "eId": null,
               "words": [
-                "r1.w1378",
+                "r1.w1377",
                 "r1.w1399"
               ],
               "boxes": [
@@ -122,14 +137,29 @@
                 "heading_hi": "Pot Parivahan Mantralaya"
               }
             ],
-            "flags": []
+            "flags": [],
+            "words": [
+              "r1.w1376",
+              "r1.w1383"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  1400,
+                  1130,
+                  2197,
+                  1172
+                ]
+              }
+            ]
           },
           {
             "seq": 3,
             "source_ref": "2(2)(A)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r109.rel3",
+            "relation": "r162.rel3",
             "position": "after",
             "anchor": {
               "cited": [
@@ -144,14 +174,14 @@
               ],
               "eId": null,
               "words": [
-                "r1.w1422",
+                "r1.w1421",
                 "r1.w1432"
               ],
               "boxes": [
                 {
                   "page": 3,
                   "bbox": [
-                    1474,
+                    1472,
                     1656,
                     2194,
                     1800
@@ -160,6 +190,36 @@
               ]
             },
             "content": [
+              {
+                "type": "ministry",
+                "heading": "MINISTRY OF ROAD TRANSPORT AND HIGHWAYS L THE FOLLOWING SUBJECTS WHICH FALL WITHIN LIST I OF THE SEVENTH SCHEDULE TO THE CONSTITUTION OF INDIA :",
+                "heading_hi": "SADAK PARIVAHAN AUR RAJ MARG MANTRALAYA"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Compulsory insurance of motor vehicles."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "Administration of the Road Transport Corporations Act, 1950 (64 of 1950)."
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "Highways declared by or under law made by Parliament to be National Highways."
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "Issuance of notifications under clause (a) of section 3, and Section 3A and Section 3D of the National Highways Act, 1956 (48 of 1956) without being scrutinised and vetted by the Legislative Department."
+              },
+              {
+                "type": "group_heading",
+                "num": "II",
+                "text": "IN RESPECT OF THE UNION TERRITORIES : `"
+              },
               {
                 "type": "entry",
                 "num": "5",
@@ -268,6 +328,21 @@
             ],
             "flags": [
               "read_page_break"
+            ],
+            "words": [
+              "r1.w1420",
+              "r1.w1426"
+            ],
+            "boxes": [
+              {
+                "page": 3,
+                "bbox": [
+                  1392,
+                  1656,
+                  2194,
+                  1746
+                ]
+              }
             ]
           },
           {
@@ -275,7 +350,7 @@
             "source_ref": "2(2)(B)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r109.rel4",
+            "relation": "r162.rel4",
             "target": {
               "cited": [
                 {
@@ -289,14 +364,14 @@
               ],
               "eId": null,
               "words": [
-                "r1.w1735",
+                "r1.w1734",
                 "r1.w1757"
               ],
               "boxes": [
                 {
                   "page": 4,
                   "bbox": [
-                    312,
+                    311,
                     2235,
                     1160,
                     2477

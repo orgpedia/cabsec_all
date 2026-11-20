@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_323.pdf",
     "sha256": "fc7d02262aa39da9735ac10ff4076115c623138890bb788b52738c9f54e89849",
     "govdoc": "1_Upload_323.pdf.govdoc.json.zst",
-    "revision": 138
+    "revision": 162
   },
   "documents": [
     {
@@ -29,9 +29,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "3",
+          "version": "4",
           "model": "gemini-4-argon",
-          "at": "2026-11-12T12:57:34.808638+00:00"
+          "at": "2026-11-15T16:25:17.544955+00:00"
         },
         "ops": [
           {
@@ -39,7 +39,7 @@
             "source_ref": "2(1)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r102.rel1",
+            "relation": "r155.rel1",
             "target": {
               "cited": [
                 {
@@ -88,7 +88,9 @@
                 "heading_hi": "Ayurveda Yoga aur Prakratik Chikitsa, Unani, Siddha aur Homoeopathy (AYUSH) Vibhag"
               }
             ],
-            "flags": [],
+            "flags": [
+              "states_inferred_number_kept"
+            ],
             "words": [
               "r1.w2115",
               "r1.w2122"
@@ -110,7 +112,7 @@
             "source_ref": "2(2)(i)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r102.rel2",
+            "relation": "r155.rel2",
             "target": {
               "cited": [
                 {
@@ -178,7 +180,7 @@
             "source_ref": "2(2)(ii)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r102.rel3",
+            "relation": "r155.rel3",
             "target": {
               "cited": [
                 {
@@ -283,7 +285,7 @@
               {
                 "type": "item",
                 "num": "k",
-                "text": "B.C.G. Vaccine Laboratory 12 [PART II SEC. 3(ii)] (1) Jawaharlal Institute of Post-Graduate Medical Education and = Research"
+                "text": "B.C.G. Vaccine Laboratory 12 (1) Jawaharlal Institute of Post-Graduate Medical Education and = Research"
               },
               {
                 "type": "item",
@@ -834,7 +836,7 @@
               {
                 "type": "item",
                 "num": "n",
-                "text": "Indian Medicines and Pharmaceuticals Corporation Limited i [PART II SEC. 3(i)]"
+                "text": "Indian Medicines and Pharmaceuticals Corporation Limited i"
               },
               {
                 "type": "item",
@@ -920,7 +922,7 @@
             "source_ref": "2(2)(iii)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r102.rel4",
+            "relation": "r155.rel4",
             "position": "after",
             "anchor": {
               "cited": [

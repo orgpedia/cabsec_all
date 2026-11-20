@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_197.pdf",
     "sha256": "38c89be799ad08b76e2c9752cdb4bf854b9f1a0d8bd7217c1e0cee2a9d51b90f",
     "govdoc": "1_Upload_197.pdf.govdoc.json.zst",
-    "revision": 46
+    "revision": 70
   },
   "documents": [
     {
@@ -29,9 +29,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "3",
+          "version": "4",
           "model": "gemini-4-argon",
-          "at": "2026-11-12T13:49:06.270693+00:00"
+          "at": "2026-11-15T16:24:09.718376+00:00"
         },
         "ops": [
           {
@@ -39,140 +39,54 @@
             "source_ref": "2(a)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel1",
-            "target": [
-              {
-                "cited": [
-                  {
-                    "type": "schedule",
-                    "num": "2"
-                  },
-                  {
-                    "type": "ministry",
-                    "heading": "MINISTRY OF EDUCATION AND CULTURE"
-                  },
-                  {
-                    "type": "department",
-                    "heading": "DEPARTMENT OF CULTURE"
-                  },
-                  {
-                    "type": "entry",
-                    "num": "3"
-                  }
-                ],
-                "eId": null,
-                "words": [
-                  "r1.w587",
-                  "r1.w588"
-                ],
-                "boxes": [
-                  {
-                    "page": 2,
-                    "bbox": [
-                      937,
-                      2400,
-                      1112,
-                      2441
-                    ]
-                  }
-                ]
-              },
-              {
-                "cited": [
-                  {
-                    "type": "schedule",
-                    "num": "2"
-                  },
-                  {
-                    "type": "ministry",
-                    "heading": "MINISTRY OF EDUCATION AND CULTURE"
-                  },
-                  {
-                    "type": "department",
-                    "heading": "DEPARTMENT OF CULTURE"
-                  },
-                  {
-                    "type": "entry",
-                    "num": "4"
-                  }
-                ],
-                "eId": null,
-                "words": [
-                  "r1.w589",
-                  "r1.w589"
-                ],
-                "boxes": [
-                  {
-                    "page": 2,
-                    "bbox": [
-                      1130,
-                      2400,
-                      1153,
-                      2440
-                    ]
-                  }
-                ]
-              },
-              {
-                "cited": [
-                  {
-                    "type": "schedule",
-                    "num": "2"
-                  },
-                  {
-                    "type": "ministry",
-                    "heading": "MINISTRY OF EDUCATION AND CULTURE"
-                  },
-                  {
-                    "type": "department",
-                    "heading": "DEPARTMENT OF CULTURE"
-                  },
-                  {
-                    "type": "entry",
-                    "num": "13"
-                  }
-                ],
-                "eId": null,
-                "words": [
-                  "r1.w591",
-                  "r1.w591"
-                ],
-                "boxes": [
-                  {
-                    "page": 2,
-                    "bbox": [
-                      460,
-                      2449,
-                      515,
-                      2496
-                    ]
-                  }
-                ]
-              }
-            ],
+            "relation": "r63.rel1",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF EDUCATION AND CULTURE"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF CULTURE"
+                },
+                {
+                  "type": "entry",
+                  "num": "3"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w586",
+                "r1.w591"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    460,
+                    2400,
+                    1244,
+                    2496
+                  ]
+                }
+              ]
+            },
             "content": [
               {
                 "type": "entry",
                 "num": "3",
                 "text": "The Ancient Monuments and Archaeological Sites and Remains Act 1958 and Ancient Monuments Preservation Act, 1904"
-              },
-              {
-                "type": "entry",
-                "num": "4",
-                "text": "Grants to Universities and Research Institutions for excavation and explorations of historical and archaeological remains.\":"
-              },
-              {
-                "type": "entry",
-                "num": "13",
-                "text": "Treasure Trove Antiquities and Art Treasures Act, 1972 and Export of antiquities."
               }
             ],
-            "flags": [
-              "read_page_break"
-            ],
+            "flags": [],
             "words": [
               "r1.w561",
-              "r1.w566"
+              "r1.w567"
             ],
             "boxes": [
               {
@@ -181,17 +95,149 @@
                   362,
                   2164,
                   1247,
-                  2211
+                  2251
                 ]
               }
             ]
           },
           {
             "seq": 2,
+            "source_ref": "2(a)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r63.rel2",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF EDUCATION AND CULTURE"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF CULTURE"
+                },
+                {
+                  "type": "entry",
+                  "num": "4"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w589",
+                "r1.w589"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    1130,
+                    2400,
+                    1153,
+                    2440
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "Grants to Universities and Research Institutions for excavation and explorations of historical and archaeological remains."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w561",
+              "r1.w567"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  362,
+                  2164,
+                  1247,
+                  2251
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 3,
+            "source_ref": "2(a)",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r63.rel3",
+            "target": {
+              "cited": [
+                {
+                  "type": "schedule",
+                  "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "MINISTRY OF EDUCATION AND CULTURE"
+                },
+                {
+                  "type": "department",
+                  "heading": "DEPARTMENT OF CULTURE"
+                },
+                {
+                  "type": "entry",
+                  "num": "13"
+                }
+              ],
+              "eId": null,
+              "words": [
+                "r1.w591",
+                "r1.w591"
+              ],
+              "boxes": [
+                {
+                  "page": 2,
+                  "bbox": [
+                    460,
+                    2449,
+                    515,
+                    2496
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "entry",
+                "num": "13",
+                "text": "Treasure Trove Antiquities and Art Treasures Act, 1972 and Export of antiquities."
+              }
+            ],
+            "flags": [],
+            "words": [
+              "r1.w561",
+              "r1.w567"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  362,
+                  2164,
+                  1247,
+                  2251
+                ]
+              }
+            ]
+          },
+          {
+            "seq": 4,
             "source_ref": "2(b)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r10.rel2",
+            "relation": "r63.rel4",
             "position": "after",
             "anchor": {
               "cited": [
@@ -214,15 +260,15 @@
               ],
               "eId": null,
               "words": [
-                "r1.w674",
+                "r1.w673",
                 "r1.w675"
               ],
               "boxes": [
                 {
                   "page": 2,
                   "bbox": [
-                    1942,
-                    672,
+                    1835,
+                    671,
                     2121,
                     712
                   ]
@@ -254,7 +300,7 @@
             "flags": [],
             "words": [
               "r1.w654",
-              "r1.w659"
+              "r1.w660"
             ],
             "boxes": [
               {
@@ -263,17 +309,17 @@
                   1475,
                   480,
                   2360,
-                  529
+                  564
                 ]
               }
             ]
           },
           {
-            "seq": 3,
+            "seq": 5,
             "source_ref": "2(c)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r10.rel3",
+            "relation": "r63.rel5",
             "target": {
               "cited": [
                 {
@@ -313,7 +359,7 @@
             "flags": [],
             "words": [
               "r1.w705",
-              "r1.w710"
+              "r1.w711"
             ],
             "boxes": [
               {
@@ -322,17 +368,17 @@
                   1468,
                   1218,
                   2353,
-                  1260
+                  1300
                 ]
               }
             ]
           },
           {
-            "seq": 4,
+            "seq": 6,
             "source_ref": "2(d)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r10.rel4",
+            "relation": "r63.rel6",
             "position": "after",
             "anchor": {
               "cited": [
@@ -351,7 +397,7 @@
               ],
               "eId": null,
               "words": [
-                "r1.w745",
+                "r1.w744",
                 "r1.w746"
               ],
               "boxes": [
@@ -359,7 +405,7 @@
                   "page": 2,
                   "bbox": [
                     1559,
-                    1684,
+                    1683,
                     2349,
                     1771
                   ]
@@ -376,7 +422,7 @@
             "flags": [],
             "words": [
               "r1.w733",
-              "r1.w738"
+              "r1.w739"
             ],
             "boxes": [
               {
@@ -385,17 +431,17 @@
                   1464,
                   1589,
                   2347,
-                  1631
+                  1672
                 ]
               }
             ]
           },
           {
-            "seq": 5,
+            "seq": 7,
             "source_ref": "2(e)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r10.rel5",
+            "relation": "r63.rel7",
             "position": "after",
             "anchor": {
               "cited": [
@@ -414,14 +460,14 @@
               ],
               "eId": null,
               "words": [
-                "r1.w793",
+                "r1.w792",
                 "r1.w794"
               ],
               "boxes": [
                 {
                   "page": 2,
                   "bbox": [
-                    2089,
+                    1987,
                     2277,
                     2264,
                     2318
@@ -444,7 +490,7 @@
             "flags": [],
             "words": [
               "r1.w781",
-              "r1.w785"
+              "r1.w787"
             ],
             "boxes": [
               {
@@ -453,7 +499,7 @@
                   1457,
                   2184,
                   2342,
-                  2223
+                  2267
                 ]
               }
             ]

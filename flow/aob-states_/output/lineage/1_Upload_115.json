@@ -1,0 +1,154 @@
+{
+ "file": "1_Upload_115.pdf",
+ "kind": "amendment",
+ "series": 81,
+ "date": "1970-05-29",
+ "govdoc": "aob-ammend_/output/1_Upload_115.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826695.013035,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_115.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:54:19.775542+00:00",
+  "sha256": "dde36b2ae3fdec7d7eca55294fab02c449989cc5d772c9dc0a2f0446c2cee01b",
+  "pages": 2
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-12T12:45:22.804162+00:00",
+   "stamp": "bdcf89f308dbe68c"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r50",
+   "at": "2026-11-15T12:42:45.728050+00:00",
+   "stamp": "a1ee35d1e3a4a828"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r51",
+   "at": "2026-11-15T12:42:48.311833+00:00",
+   "stamp": "555805f2edf57b67"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r52",
+   "at": "2026-11-15T12:42:50.707630+00:00",
+   "stamp": "8351bd61cc702be3"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r61",
+   "at": "2026-11-15T16:25:03.400770+00:00",
+   "stamp": "37ce859a570bd74a",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r62",
+   "at": "2026-11-15T16:25:05.490288+00:00",
+   "stamp": "b1bde39df820f2a3",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r63",
+   "at": "2026-11-15T16:25:07.495353+00:00",
+   "stamp": "bb71f6fbfdf31f56",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r69",
+   "at": "2026-11-15T16:57:38.084420+00:00",
+   "stamp": "00d8a589495c1f4c"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r70",
+   "at": "2026-11-15T17:03:52.566904+00:00",
+   "stamp": "e4892ad471ae2824"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r75",
+   "at": "2026-11-16T10:58:15.005761+00:00",
+   "stamp": "7e89a587ea6afeea"
+  }
+ ],
+ "reviews": [],
+ "issues": [
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
+   "message": "change 1: ministry Ministry of Industrial Development, Internal Trade and Company Affairs taken for ministry Ministry of Industrial Development, Internal Trade and Company Affairs shall be substituted, named loosely",
+   "target": "r63.rel1",
+   "status": "open"
+  }
+ ],
+ "problems": [],
+ "rules": [
+  {
+   "rule": "loose",
+   "seq": 1,
+   "note": "change 1: ministry Ministry of Industrial Development, Internal Trade and Company Affairs taken for ministry Ministry of Industrial Development, Internal Trade and Company Affairs shall be substituted, named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  }
+ ],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_1979_1970",
+   "op": "insert",
+   "source_ref": "2",
+   "path": "schedule 2 › ministry Ministry of Industrial Development, Internal Trade and Company Affairs › department Department of Company Affairs › entry 1",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

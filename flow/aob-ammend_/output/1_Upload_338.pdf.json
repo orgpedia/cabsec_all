@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_338.pdf",
     "sha256": "97000bd169fff423f3a7778957e50c526262b2915306aeb723cc316e8746a023",
     "govdoc": "1_Upload_338.pdf.govdoc.json.zst",
-    "revision": 143
+    "revision": 167
   },
   "documents": [
     {
@@ -29,9 +29,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "3",
+          "version": "4",
           "model": "gemini-4-argon",
-          "at": "2026-11-12T12:56:37.224322+00:00"
+          "at": "2026-11-15T16:24:41.466844+00:00"
         },
         "ops": [
           {
@@ -39,7 +39,7 @@
             "source_ref": "2(1)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r107.rel1",
+            "relation": "r160.rel1",
             "position": "after",
             "anchor": {
               "cited": [
@@ -103,7 +103,7 @@
             "source_ref": "2(2)(A)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r107.rel2",
+            "relation": "r160.rel2",
             "target": {
               "cited": [
                 {
@@ -162,7 +162,7 @@
             "source_ref": "2(2)(B)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r107.rel3",
+            "relation": "r160.rel3",
             "position": "after",
             "anchor": {
               "cited": [
@@ -308,7 +308,7 @@
             "source_ref": "2(2)(C)(i)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r107.rel4",
+            "relation": "r160.rel4",
             "target": {
               "cited": [
                 {
@@ -374,7 +374,7 @@
             "source_ref": "2(2)(C)(ii)(A)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r107.rel5",
+            "relation": "r160.rel5",
             "target": {
               "cited": [
                 {
@@ -440,7 +440,7 @@
             "source_ref": "2(2)(C)(ii)(B)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r107.rel6",
+            "relation": "r160.rel6",
             "position": "after",
             "anchor": {
               "cited": [

@@ -1,0 +1,219 @@
+{
+ "file": "1_Upload_58.pdf",
+ "kind": "amendment",
+ "series": 25,
+ "date": "1964-02-16",
+ "govdoc": "aob-ammend_/output/1_Upload_58.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826691.1226742,
+ "edits_file": "aob-ammend_/conf/1_Upload_58.pdf.edits.yml",
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_58.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T14:02:07.561176+00:00",
+  "sha256": "a1add7896d6349ddf5192f99ad01209d186da7c2a0220baa17b82feb2ee900f8",
+  "pages": 2
+ },
+ "edits": [
+  {
+   "run": "h1",
+   "by": "claude",
+   "at": "2026-11-12T18:01:00+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r1.w142",
+     "before": {
+      "text": "\"(11)"
+     },
+     "after": {
+      "text": "\"(iii)"
+     }
+    }
+   ]
+  },
+  {
+   "run": "h2",
+   "by": "claude",
+   "at": "2026-11-12T18:02:00+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r1.w132",
+     "before": {
+      "text": "“(ill)_Department"
+     },
+     "after": {
+      "text": "“(iii)_Department"
+     }
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-12T12:41:20.941768+00:00",
+   "stamp": "835f4ee9e0858b81"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r58",
+   "at": "2026-11-15T12:42:20.323010+00:00",
+   "stamp": "dd941d6b0aed3d7f"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r59",
+   "at": "2026-11-15T12:42:22.964673+00:00",
+   "stamp": "6fc1ca12151c9db9"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r60",
+   "at": "2026-11-15T12:42:24.904694+00:00",
+   "stamp": "82b8f93334bf181e"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r69",
+   "at": "2026-11-15T16:24:38.243966+00:00",
+   "stamp": "b731e28dd2470e69",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r70",
+   "at": "2026-11-15T16:24:40.421525+00:00",
+   "stamp": "f5edabadf0dfa41f",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r71",
+   "at": "2026-11-15T16:24:42.459925+00:00",
+   "stamp": "cf0be97c873b1d85",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r77",
+   "at": "2026-11-15T16:57:32.065024+00:00",
+   "stamp": "48ccb467480e456d"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r78",
+   "at": "2026-11-15T17:03:38.629810+00:00",
+   "stamp": "4cfdcaa705e45746"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r83",
+   "at": "2026-11-16T10:58:11.113405+00:00",
+   "stamp": "66214c71fc42068a"
+  }
+ ],
+ "reviews": [
+  {
+   "id": "h2.v2",
+   "target": "r9.a1",
+   "status": "pending",
+   "by": "claude",
+   "at": "2026-11-12T18:02:00+00:00",
+   "note": "moved by a loose match after h2.e1"
+  }
+ ],
+ "issues": [],
+ "problems": [
+  {
+   "series": 25,
+   "seq": 3,
+   "code": "old_path_missing",
+   "severity": "error",
+   "message": "change 3: no item 1 under schedule 2 › ministry DEPARTMENT OF ATOMIC ENERGY › entry 1",
+   "cause": "items"
+  }
+ ],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_654_1964",
+   "op": "replace",
+   "source_ref": "(A)",
+   "path": "schedule 1 › ministry Ministry of Finance › department Department of Revenue",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_654_1964",
+   "op": "replace",
+   "source_ref": "(B)(a)",
+   "path": "schedule 2 › ministry Ministry of Finance › department Department of Revenue",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_654_1964",
+   "op": "replace",
+   "source_ref": "(B)(g)(1)",
+   "path": "schedule 2 › ministry Department of Atomic Energy › entry 1 › item 1",
+   "status": "not_applied",
+   "problem": "change 3: no item 1 under schedule 2 › ministry DEPARTMENT OF ATOMIC ENERGY › entry 1",
+   "code": "old_path_missing",
+   "cause": "items",
+   "known": "items"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_654_1964",
+   "op": "replace",
+   "source_ref": "(B)(g)(ii)",
+   "path": "schedule 2 › ministry Department of Atomic Energy › entry 1 › item v › item c",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

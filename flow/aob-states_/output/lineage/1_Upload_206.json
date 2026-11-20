@@ -1,0 +1,273 @@
+{
+ "file": "1_Upload_206.pdf",
+ "kind": "amendment",
+ "series": 168,
+ "date": "1985-03-30",
+ "govdoc": "aob-ammend_/output/1_Upload_206.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826696.9862864,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_206.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:56:36.963253+00:00",
+  "sha256": "ff0f7b292a59c0ba88d741474ddd5d8d773e1004d0437dcb6d68613099102fd9",
+  "pages": 4
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-12T12:46:48.055883+00:00",
+   "stamp": "1cf65174d99619fc"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r50",
+   "at": "2026-11-15T12:43:03.737369+00:00",
+   "stamp": "342e586854613539"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r51",
+   "at": "2026-11-15T12:43:04.937222+00:00",
+   "stamp": "ecf5bb1601370a90"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r52",
+   "at": "2026-11-15T12:43:05.657483+00:00",
+   "stamp": "fbdaa54b28dc657f"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r61",
+   "at": "2026-11-15T16:25:16.268928+00:00",
+   "stamp": "3e1c6ddcfee322d6",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r62",
+   "at": "2026-11-15T16:25:16.949084+00:00",
+   "stamp": "4d4a9f9237d4ea1a",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r63",
+   "at": "2026-11-15T16:25:17.645532+00:00",
+   "stamp": "e3cdb6b7eb8fccae",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r69",
+   "at": "2026-11-15T16:57:41.116311+00:00",
+   "stamp": "ed8d64c1177b6e63"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r70",
+   "at": "2026-11-15T17:04:00.783318+00:00",
+   "stamp": "9628423f7702793c"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r75",
+   "at": "2026-11-16T10:58:16.962395+00:00",
+   "stamp": "5b19605372c5be81"
+  }
+ ],
+ "reviews": [],
+ "issues": [
+  {
+   "code": "aob:new_extra",
+   "severity": "warning",
+   "message": "schedule 1 › department 23 is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf",
+   "target": "r63.rel2",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_earlier_name",
+   "severity": "info",
+   "message": "change 4: ministry Ministry of Com- merce and Supply taken for ministry MINISTRY OF COMMERCE, its name before the First Schedule renamed it",
+   "target": "r63.rel4",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
+   "message": "change 4: department Department of Coom- merce taken for department DEPARTMENT OF COMMERCF, named loosely",
+   "target": "r63.rel4",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_earlier_name",
+   "severity": "info",
+   "message": "change 5: ministry Ministry of Com- merce and Supply taken for ministry MINISTRY OF COMMERCE, its name before the First Schedule renamed it",
+   "target": "r63.rel5",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_earlier_name",
+   "severity": "info",
+   "message": "change 5: ministry Ministry of Com- merce and Supply taken for ministry MINISTRY OF COMMERCE, its name before the First Schedule renamed it",
+   "target": "r63.rel5",
+   "status": "open"
+  }
+ ],
+ "problems": [
+  {
+   "series": 168,
+   "seq": 4,
+   "code": "old_quote_mismatch",
+   "severity": "error",
+   "message": "change 4: the part's text is not what the amendment quotes",
+   "cause": "words_differ"
+  },
+  {
+   "series": 174,
+   "seq": 2,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 1 › department 23 is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
+  },
+  {
+   "series": 174,
+   "seq": 6,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF SUPPLY AND TEXTILES is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
+  }
+ ],
+ "rules": [
+  {
+   "rule": "earlier_name",
+   "seq": 4,
+   "note": "change 4: ministry Ministry of Com- merce and Supply taken for ministry MINISTRY OF COMMERCE, its name before the First Schedule renamed it",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "loose",
+   "seq": 4,
+   "note": "change 4: department Department of Coom- merce taken for department DEPARTMENT OF COMMERCF, named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "earlier_name",
+   "seq": 5,
+   "note": "change 5: ministry Ministry of Com- merce and Supply taken for ministry MINISTRY OF COMMERCE, its name before the First Schedule renamed it",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "earlier_name",
+   "seq": 5,
+   "note": "change 5: ministry Ministry of Com- merce and Supply taken for ministry MINISTRY OF COMMERCE, its name before the First Schedule renamed it",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  }
+ ],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_284E_1985",
+   "op": "replace",
+   "source_ref": "2(a)(i)",
+   "path": "schedule 1 › ministry Ministry of Commerce and Supply",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_284E_1985",
+   "op": "insert",
+   "source_ref": "2(a)(ii)",
+   "path": "schedule 1 › ministry Ministry of Steel, Mines and Coal",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_284E_1985",
+   "op": "replace",
+   "source_ref": "2(b)(1)(i)",
+   "path": "schedule 2 › ministry Ministry of Com- merce and Supply",
+   "status": "applied"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_284E_1985",
+   "op": "omit",
+   "source_ref": "2(b)(1)(ii)",
+   "path": "schedule 2 › ministry Ministry of Com- merce and Supply › department Department of Coom- merce",
+   "status": "not_applied",
+   "problem": "change 4: the part's text is not what the amendment quotes",
+   "code": "old_quote_mismatch",
+   "cause": "words_differ",
+   "known": "words"
+  },
+  {
+   "seq": 5,
+   "doc_id": "GOI_SO_284E_1985",
+   "op": "omit",
+   "source_ref": "2(b)(1)(iii)",
+   "path": "schedule 2 › ministry Ministry of Com- merce and Supply › department Department of Supply ; schedule 2 › ministry Ministry of Com- merce and Supply › department Department of Textiles",
+   "status": "applied"
+  },
+  {
+   "seq": 6,
+   "doc_id": "GOI_SO_284E_1985",
+   "op": "insert",
+   "source_ref": "2(b)(2)",
+   "path": "schedule 2 › ministry Ministry of Steel, Mines and Coal",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

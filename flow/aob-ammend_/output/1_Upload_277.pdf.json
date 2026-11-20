@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_277.pdf",
     "sha256": "01b5377970434939b1440b757e5def7fd9820d89199eb0d045e9e343a8d7cc57",
     "govdoc": "1_Upload_277.pdf.govdoc.json.zst",
-    "revision": 109
+    "revision": 133
   },
   "documents": [
     {
@@ -29,9 +29,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "3",
+          "version": "4",
           "model": "gemini-4-argon",
-          "at": "2026-11-12T12:55:18.259016+00:00"
+          "at": "2026-11-15T16:23:59.130515+00:00"
         },
         "ops": [
           {
@@ -39,7 +39,7 @@
             "source_ref": "2(A)(i)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r73.rel1",
+            "relation": "r126.rel1",
             "target": {
               "cited": [
                 {
@@ -98,7 +98,7 @@
             "source_ref": "2(A)(ii)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r73.rel2",
+            "relation": "r126.rel2",
             "target": {
               "cited": [
                 {
@@ -164,7 +164,7 @@
             "source_ref": "2(A)(ii)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r73.rel3",
+            "relation": "r126.rel3",
             "target": {
               "cited": [
                 {
@@ -230,7 +230,7 @@
             "source_ref": "2(A)(ii)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r73.rel4",
+            "relation": "r126.rel4",
             "target": {
               "cited": [
                 {
@@ -296,7 +296,7 @@
             "source_ref": "2(A)(ii)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r73.rel5",
+            "relation": "r126.rel5",
             "target": {
               "cited": [
                 {
@@ -362,7 +362,7 @@
             "source_ref": "2(A)(iii)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r73.rel6",
+            "relation": "r126.rel6",
             "position": "after",
             "anchor": {
               "cited": [
@@ -417,7 +417,9 @@
                 "text": "Fishery Survey of India, Mumbai."
               }
             ],
-            "flags": [],
+            "flags": [
+              "states_inferred_loose"
+            ],
             "words": [
               "r1.w3165",
               "r1.w3186"
@@ -439,7 +441,7 @@
             "source_ref": "2(B)(a)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r73.rel7",
+            "relation": "r126.rel7",
             "target": {
               "cited": [
                 {
@@ -505,7 +507,7 @@
             "source_ref": "2(B)(a)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r73.rel8",
+            "relation": "r126.rel8",
             "target": {
               "cited": [
                 {
@@ -586,7 +588,7 @@
             "source_ref": "2(B)(b)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r73.rel9",
+            "relation": "r126.rel9",
             "position": "after",
             "anchor": {
               "cited": [
@@ -658,7 +660,7 @@
             "source_ref": "2(C)(i)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r73.rel10",
+            "relation": "r126.rel10",
             "target": {
               "cited": [
                 {
@@ -724,7 +726,7 @@
             "source_ref": "2(C)(ii)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r73.rel11",
+            "relation": "r126.rel11",
             "position": "after",
             "anchor": {
               "cited": [
@@ -791,7 +793,7 @@
             "source_ref": "2(D)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r73.rel12",
+            "relation": "r126.rel12",
             "target": {
               "cited": [
                 {
@@ -846,7 +848,7 @@
             "source_ref": "2(E)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r73.rel13",
+            "relation": "r126.rel13",
             "target": {
               "cited": [
                 {
@@ -1242,7 +1244,7 @@
             "source_ref": "2(F)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r73.rel14",
+            "relation": "r126.rel14",
             "target": {
               "cited": [
                 {
@@ -1503,7 +1505,7 @@
             "source_ref": "2(G)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r73.rel15",
+            "relation": "r126.rel15",
             "target": {
               "cited": [
                 {

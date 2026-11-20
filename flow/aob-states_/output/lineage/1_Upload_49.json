@@ -1,0 +1,290 @@
+{
+ "file": "1_Upload_49.pdf",
+ "kind": "amendment",
+ "series": 16,
+ "date": "1963-03-21",
+ "govdoc": "aob-ammend_/output/1_Upload_49.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826683.3309352,
+ "edits_file": "aob-ammend_/conf/1_Upload_49.pdf.edits.yml",
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_49.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T14:01:48.098595+00:00",
+  "sha256": "263a59b0162cb666a2ba4cd179fbc0a35eff099bbe142a991a9fe37797a37903",
+  "pages": 2
+ },
+ "edits": [
+  {
+   "run": "h1",
+   "by": "mukundesh",
+   "at": "2026-11-14T16:40:18+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r1.w229",
+     "before": {
+      "text": "“11"
+     },
+     "after": {
+      "text": "“"
+     }
+    }
+   ]
+  },
+  {
+   "run": "h2",
+   "by": "mukundesh",
+   "at": "2026-11-14T16:40:23+00:00",
+   "edits": [
+    {
+     "op": "remove_word",
+     "target": "r1.w238",
+     "before": {
+      "page": 1,
+      "word": {
+       "id": "r1.w238",
+       "text": "11",
+       "bbox": [
+        426,
+        1959,
+        457,
+        1992
+       ],
+       "confidence": 0.93
+      },
+      "line": "r2.l37",
+      "after": null
+     },
+     "after": null
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-12T12:32:16.044822+00:00",
+   "stamp": "910aa9965199e418"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r58",
+   "at": "2026-11-15T12:41:26.554353+00:00",
+   "stamp": "fc3d01974399c300"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r59",
+   "at": "2026-11-15T12:41:28.855522+00:00",
+   "stamp": "4ee907f8473d5fe2"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r60",
+   "at": "2026-11-15T12:41:30.674608+00:00",
+   "stamp": "3e2c5b4390b249d1"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r69",
+   "at": "2026-11-15T16:23:56.953429+00:00",
+   "stamp": "c8d8e0768d455ee2",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r70",
+   "at": "2026-11-15T16:23:58.606675+00:00",
+   "stamp": "53178a7bcd9f6392",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r71",
+   "at": "2026-11-15T16:23:59.999942+00:00",
+   "stamp": "68b175d6f167c227",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r77",
+   "at": "2026-11-15T16:57:20.673626+00:00",
+   "stamp": "61fd159c6b3fb3db"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r78",
+   "at": "2026-11-15T17:03:12.850402+00:00",
+   "stamp": "71a74bcdd28d0885"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r83",
+   "at": "2026-11-16T10:58:03.321588+00:00",
+   "stamp": "cff1f7844d2ed6d2"
+  }
+ ],
+ "reviews": [],
+ "issues": [
+  {
+   "code": "core:model_invalid",
+   "severity": "warning",
+   "message": "value {'act': 'ACT_GOI_AOB_RULES_1961', 'path': [{'kind': 'schedule', 'number': '2'}, {'kind': 'ministry', 'text': 'Ministry of Finance'}, {'kind': 'department', 'text': 'Depart- ment of Expenditure'}, {'kind': 'entry', 'number': ''}]} is not a provision",
+   "target": "r2.l25",
+   "status": "open"
+  },
+  {
+   "code": "core:model_unanchored",
+   "severity": "warning",
+   "message": "c2: it points at p2, not in the file",
+   "target": "r2.l27",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_clause_missed",
+   "severity": "error",
+   "message": "clause (2) says a change is made, but no change was found",
+   "target": "r69.a3",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_sequence",
+   "severity": "error",
+   "message": "change 2 missing, between 1 and 3 (changes numbered [1, 3, 4, 5, 6, 7, 8])",
+   "target": "r71.rel3",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_earlier_name",
+   "severity": "info",
+   "message": "change 1: department Department of International Trade taken for department DEPARTMENT OF COMMERCE, its name before the First Schedule renamed it",
+   "target": "r71.rel1",
+   "status": "open"
+  }
+ ],
+ "problems": [
+  {
+   "series": 16,
+   "seq": 4,
+   "code": "old_path_missing",
+   "severity": "error",
+   "message": "change 4: no item iv under schedule 2 › ministry MINISTRY OF FOOD AND AGRICULTURE › department B › group_heading IV › entry 11",
+   "cause": "items"
+  }
+ ],
+ "rules": [
+  {
+   "rule": "earlier_name",
+   "seq": 1,
+   "note": "change 1: department Department of International Trade taken for department DEPARTMENT OF COMMERCE, its name before the First Schedule renamed it",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  }
+ ],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_876_1963",
+   "op": "replace",
+   "source_ref": "(1)",
+   "path": "schedule 2 › ministry Ministry of Commerce & Industry › department Department of International Trade › entry 13",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_876_1963",
+   "op": "omit",
+   "source_ref": "(3)(i)",
+   "path": "schedule 2 › ministry Ministry of Food and Agriculture › department Department of Agriculture › entry 46 › item xxv ; schedule 2 › ministry Ministry of Food and Agriculture › department Department of Agriculture › entry 46 › item xxvi ; schedule 2 › ministry Ministry of Food and Agriculture › department Department of Agriculture › entry 47 › item iii",
+   "status": "applied"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_876_1963",
+   "op": "renumber",
+   "source_ref": "(3)(ii)(a)",
+   "path": "schedule 2 › ministry Ministry of Food and Agriculture › department Department of Food › entry 11 › item iv",
+   "status": "not_applied",
+   "problem": "change 4: no item iv under schedule 2 › ministry MINISTRY OF FOOD AND AGRICULTURE › department B › group_heading IV › entry 11",
+   "code": "old_path_missing",
+   "cause": "items",
+   "known": "items"
+  },
+  {
+   "seq": 5,
+   "doc_id": "GOI_SO_876_1963",
+   "op": "renumber",
+   "source_ref": "(3)(ii)(a)",
+   "path": "schedule 2 › ministry Ministry of Food and Agriculture › department Department of Food › entry 11 › item v",
+   "status": "applied"
+  },
+  {
+   "seq": 6,
+   "doc_id": "GOI_SO_876_1963",
+   "op": "insert",
+   "source_ref": "(3)(ii)(b)",
+   "path": "schedule 2 › ministry Ministry of Food and Agriculture › department Department of Food › entry 11 › item iii",
+   "status": "applied"
+  },
+  {
+   "seq": 7,
+   "doc_id": "GOI_SO_876_1963",
+   "op": "replace",
+   "source_ref": "(3)(ii)(c)",
+   "path": "schedule 2 › ministry Ministry of Food and Agriculture › department Department of Food › entry 12",
+   "status": "applied"
+  },
+  {
+   "seq": 8,
+   "doc_id": "GOI_SO_876_1963",
+   "op": "omit",
+   "source_ref": "(4)",
+   "path": "schedule 2 › ministry Ministry of Information and Broadcasting › entry 9",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

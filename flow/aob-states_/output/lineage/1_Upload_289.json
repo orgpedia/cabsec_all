@@ -1,0 +1,394 @@
+{
+ "file": "1_Upload_289.pdf",
+ "kind": "amendment",
+ "series": 249,
+ "date": "2000-07-17",
+ "govdoc": "aob-ammend_/output/1_Upload_289.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826689.16593,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_289.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:58:56.523116+00:00",
+  "sha256": "8bc61c5475ce6a1eb1c4a693d2ef2829856ae006a016155d510820856895ec8f",
+  "pages": 11
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-11T03:11:59.198086+00:00",
+   "stamp": "854d0bb51a3924f4"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r113",
+   "at": "2026-11-15T12:42:07.092401+00:00",
+   "stamp": "72c091b8e9905a74"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r114",
+   "at": "2026-11-15T12:42:09.251807+00:00",
+   "stamp": "4c691ec144a02d32"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r115",
+   "at": "2026-11-15T12:42:10.775912+00:00",
+   "stamp": "d5493f53b80a12d4"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r124",
+   "at": "2026-11-15T16:24:26.600037+00:00",
+   "stamp": "ec39aef6fe81a669",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r125",
+   "at": "2026-11-15T16:24:28.141107+00:00",
+   "stamp": "d42ca464a0e093be",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r126",
+   "at": "2026-11-15T16:24:29.637766+00:00",
+   "stamp": "82714eecbc15287e",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r132",
+   "at": "2026-11-15T16:57:29.077163+00:00",
+   "stamp": "c43c47cbe19241fc"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r133",
+   "at": "2026-11-15T17:03:31.936588+00:00",
+   "stamp": "bb73499de59affe7"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r138",
+   "at": "2026-11-16T10:58:09.084171+00:00",
+   "stamp": "b6e42ea7863b13ca"
+  }
+ ],
+ "reviews": [],
+ "issues": [
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 2: its quoted text runs across a page break",
+   "target": "r126.rel2",
+   "status": "open"
+  }
+ ],
+ "problems": [
+  {
+   "series": 249,
+   "seq": 4,
+   "code": "old_words_missing",
+   "severity": "error",
+   "message": "change 4: the words to substitute are not in schedule 2 › ministry MINISTRY OF HUMAN RESOURCE DEVELOP- MENT › department B",
+   "cause": "words_differ"
+  },
+  {
+   "series": 271,
+   "seq": 2,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF CONSUMER AFFAIRS, FOOD AND AND PUBLIC DISTRIBUTION › department A › entry 4 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 2,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF CONSUMER AFFAIRS, FOOD AND AND PUBLIC DISTRIBUTION › department A › entry 15 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 2,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF CONSUMER AFFAIRS, FOOD AND AND PUBLIC DISTRIBUTION › department A › entry 2 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 2,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF CONSUMER AFFAIRS, FOOD AND AND PUBLIC DISTRIBUTION › department A › entry 3 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 2,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF CONSUMER AFFAIRS, FOOD AND AND PUBLIC DISTRIBUTION › department A › entry 5 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 2,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF CONSUMER AFFAIRS, FOOD AND AND PUBLIC DISTRIBUTION › department A › entry 9 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 2,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF CONSUMER AFFAIRS, FOOD AND AND PUBLIC DISTRIBUTION › department A › entry 11 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 2,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF CONSUMER AFFAIRS, FOOD AND AND PUBLIC DISTRIBUTION › department A › entry 14 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 2,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF CONSUMER AFFAIRS, FOOD AND AND PUBLIC DISTRIBUTION › department B › entry 4 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 2,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF CONSUMER AFFAIRS, FOOD AND AND PUBLIC DISTRIBUTION › department B › entry 5 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 2,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF CONSUMER AFFAIRS, FOOD AND AND PUBLIC DISTRIBUTION › department B › entry 6 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 2,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF CONSUMER AFFAIRS, FOOD AND AND PUBLIC DISTRIBUTION › department B › entry 7 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 2,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF CONSUMER AFFAIRS, FOOD AND AND PUBLIC DISTRIBUTION › department B › entry 8 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 2,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF CONSUMER AFFAIRS, FOOD AND AND PUBLIC DISTRIBUTION › department B › entry 9 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 2,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF CONSUMER AFFAIRS, FOOD AND AND PUBLIC DISTRIBUTION › department B › entry 10 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 2,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF CONSUMER AFFAIRS, FOOD AND AND PUBLIC DISTRIBUTION › department B › entry 11 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 2,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF CONSUMER AFFAIRS, FOOD AND AND PUBLIC DISTRIBUTION › department B › entry 12 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 2,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF CONSUMER AFFAIRS, FOOD AND AND PUBLIC DISTRIBUTION › department B › entry 13 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 2,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF CONSUMER AFFAIRS, FOOD AND AND PUBLIC DISTRIBUTION › department B › entry 14 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 2,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF CONSUMER AFFAIRS, FOOD AND AND PUBLIC DISTRIBUTION › department B › entry 15 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 2,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF CONSUMER AFFAIRS, FOOD AND AND PUBLIC DISTRIBUTION › department B › entry 16 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 2,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF CONSUMER AFFAIRS, FOOD AND AND PUBLIC DISTRIBUTION › department B › entry 17 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 2,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF CONSUMER AFFAIRS, FOOD AND AND PUBLIC DISTRIBUTION › department B › entry 18 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 2,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF CONSUMER AFFAIRS, FOOD AND AND PUBLIC DISTRIBUTION › department B › entry 19 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 2,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF CONSUMER AFFAIRS, FOOD AND AND PUBLIC DISTRIBUTION › department B › entry 20 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 2,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF CONSUMER AFFAIRS, FOOD AND AND PUBLIC DISTRIBUTION › department B › group_heading A is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 5,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF POWER › entry 4 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 6,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF POWER › entry 7 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  }
+ ],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_674E_2000",
+   "op": "replace",
+   "source_ref": "2(1)",
+   "path": "schedule 1 › ministry Ministry of Consumer Affairs and Public Distribution",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_674E_2000",
+   "op": "replace",
+   "source_ref": "2(2)(A)",
+   "path": "schedule 2 › ministry MINISTRY OF CONSUMER AFFAIRS AND PUBLIC DISTRIBUTION",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_674E_2000",
+   "op": "omit",
+   "source_ref": "2(2)(B)(i)",
+   "path": "schedule 2 › ministry MINISTRY OF HUMAN RESOURCE DEVELOPMENT › department DEPARTMENT OF ELEMENTARY EDUCATION AND LITERACY › entry 11 ; schedule 2 › ministry MINISTRY OF HUMAN RESOURCE DEVELOPMENT › department DEPARTMENT OF ELEMENTARY EDUCATION AND LITERACY › entry 12",
+   "status": "applied"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_674E_2000",
+   "op": "substitute_text",
+   "source_ref": "2(2)(B)(ii)",
+   "path": "schedule 2 › ministry MINISTRY OF HUMAN RESOURCE DEVELOPMENT › department DEPARTMENT OF SECONDARY EDUCATION AND HIGHER EDUCATION",
+   "status": "not_applied",
+   "problem": "change 4: the words to substitute are not in schedule 2 › ministry MINISTRY OF HUMAN RESOURCE DEVELOP- MENT › department B",
+   "code": "old_words_missing",
+   "cause": "words_differ",
+   "known": "words"
+  },
+  {
+   "seq": 5,
+   "doc_id": "GOI_SO_674E_2000",
+   "op": "replace",
+   "source_ref": "2(2)(c)(i)",
+   "path": "schedule 2 › ministry MINISTRY OF POWER › entry 4",
+   "status": "applied"
+  },
+  {
+   "seq": 6,
+   "doc_id": "GOI_SO_674E_2000",
+   "op": "insert",
+   "source_ref": "2(2)(c)(ii)",
+   "path": "schedule 2 › ministry MINISTRY OF POWER › entry 7 › item m",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

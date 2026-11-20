@@ -1,0 +1,177 @@
+{
+ "file": "1_Upload_118.pdf",
+ "kind": "amendment",
+ "series": 84,
+ "date": "1970-07-29",
+ "govdoc": "aob-ammend_/output/1_Upload_118.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826683.264869,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_118.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:54:24.547720+00:00",
+  "sha256": "220009869926459f3a37b289a2d95588f25265777b092943352d424a14aa15e1",
+  "pages": 2
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-12T12:32:13.233104+00:00",
+   "stamp": "97b435498a114d3a"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r50",
+   "at": "2026-11-15T12:41:26.479277+00:00",
+   "stamp": "139f1c3853c482b7"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r51",
+   "at": "2026-11-15T12:41:28.728397+00:00",
+   "stamp": "9dcff2e840e325d6"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r52",
+   "at": "2026-11-15T12:41:30.609254+00:00",
+   "stamp": "338f399eea173c82"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r61",
+   "at": "2026-11-15T16:23:56.887725+00:00",
+   "stamp": "a300725ee474cd82",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r62",
+   "at": "2026-11-15T16:23:58.540540+00:00",
+   "stamp": "53cb3295ef359ace",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r63",
+   "at": "2026-11-15T16:23:59.926805+00:00",
+   "stamp": "f57cef23e26fdaf5",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r69",
+   "at": "2026-11-15T16:57:20.604951+00:00",
+   "stamp": "6b6ff16645354e8b"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r70",
+   "at": "2026-11-15T17:03:12.735837+00:00",
+   "stamp": "a0361cf619721186"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r75",
+   "at": "2026-11-16T10:58:03.213400+00:00",
+   "stamp": "507cda321eedd20b"
+  }
+ ],
+ "reviews": [],
+ "issues": [
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
+   "message": "change 2: ministry Cabinet Secretarlat taken for ministry CABINET SECRETARIAT, named loosely",
+   "target": "r63.rel2",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
+   "message": "change 2: department Depart- ment of Cabinēt Affairs taken for department Department of Cabinet Affairs, named loosely",
+   "target": "r63.rel2",
+   "status": "open"
+  }
+ ],
+ "problems": [],
+ "rules": [
+  {
+   "rule": "loose",
+   "seq": 2,
+   "note": "change 2: ministry Cabinet Secretarlat taken for ministry CABINET SECRETARIAT, named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "loose",
+   "seq": 2,
+   "note": "change 2: department Depart- ment of Cabinēt Affairs taken for department Department of Cabinet Affairs, named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  }
+ ],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_2597_1970",
+   "op": "replace",
+   "source_ref": "2(a)",
+   "path": "schedule 2 › ministry Ministry of Home Affairs › entry 32",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_2597_1970",
+   "op": "insert",
+   "source_ref": "2(b)",
+   "path": "schedule 2 › ministry Cabinet Secretarlat › department Depart- ment of Cabinēt Affairs › entry 2",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

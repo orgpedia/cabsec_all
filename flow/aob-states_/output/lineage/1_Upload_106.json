@@ -1,0 +1,342 @@
+{
+ "file": "1_Upload_106.pdf",
+ "kind": "amendment",
+ "series": 72,
+ "date": "1969-02-18",
+ "govdoc": "aob-ammend_/output/1_Upload_106.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826688.473762,
+ "edits_file": "aob-ammend_/conf/1_Upload_106.pdf.edits.yml",
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_106.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:54:10.716781+00:00",
+  "sha256": "7ad15ad58de0d2172c73d0816dfd2e5ec45efef47f33114bbf75b49a4ef8df22",
+  "pages": 5
+ },
+ "edits": [
+  {
+   "run": "h1",
+   "by": "claude",
+   "at": "2026-11-12T18:01:00+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r1.w172",
+     "before": {
+      "text": "(1)"
+     },
+     "after": {
+      "text": "(i)"
+     }
+    }
+   ]
+  },
+  {
+   "run": "h2",
+   "by": "claude",
+   "at": "2026-11-12T18:02:00+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r1.w176",
+     "before": {
+      "text": "(11)"
+     },
+     "after": {
+      "text": "(ii)"
+     }
+    }
+   ]
+  },
+  {
+   "run": "h3",
+   "by": "claude",
+   "at": "2026-11-12T18:03:00+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r1.w180",
+     "before": {
+      "text": "(131)"
+     },
+     "after": {
+      "text": "(iii)"
+     }
+    }
+   ]
+  },
+  {
+   "run": "h4",
+   "by": "mukundesh",
+   "at": "2026-11-14T13:49:26+00:00",
+   "edits": [
+    {
+     "op": "remove_word",
+     "target": "r1.w559",
+     "before": {
+      "page": 3,
+      "word": {
+       "id": "r1.w559",
+       "text": "\"",
+       "bbox": [
+        1303,
+        2622,
+        1311,
+        2629
+       ],
+       "confidence": 0.51
+      },
+      "line": "r2.l117",
+      "after": "r1.w561"
+     },
+     "after": null
+    }
+   ]
+  },
+  {
+   "run": "h5",
+   "by": "mukundesh",
+   "at": "2026-11-14T16:32:36+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r1.w572",
+     "before": {
+      "text": "c."
+     },
+     "after": {
+      "text": "C."
+     }
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-12T12:36:30.794839+00:00",
+   "stamp": "68c4e1a16e7b671e"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r66",
+   "at": "2026-11-15T12:42:06.091035+00:00",
+   "stamp": "735cb06fcb9e25f5"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r67",
+   "at": "2026-11-15T12:42:08.195910+00:00",
+   "stamp": "375417a318b3ed38"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r68",
+   "at": "2026-11-15T12:42:10.087650+00:00",
+   "stamp": "a35d3f403aec733a"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r77",
+   "at": "2026-11-15T16:24:25.846971+00:00",
+   "stamp": "336989b2a3a6f2e1",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r78",
+   "at": "2026-11-15T16:24:27.403106+00:00",
+   "stamp": "e559e8cd20c0dc0e",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r79",
+   "at": "2026-11-15T16:24:28.910395+00:00",
+   "stamp": "3a75751127805978",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r85",
+   "at": "2026-11-15T16:57:28.338942+00:00",
+   "stamp": "30dbe64423a17bc7"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r86",
+   "at": "2026-11-15T17:03:30.704123+00:00",
+   "stamp": "2c72d6b4c7f03aed"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r91",
+   "at": "2026-11-16T10:58:08.454576+00:00",
+   "stamp": "f224f4ff1accc81c"
+  }
+ ],
+ "reviews": [],
+ "issues": [
+  {
+   "code": "aob:read_hindi_missing",
+   "severity": "info",
+   "message": "change 5: a new heading has no Hindi name in brackets",
+   "target": "r79.rel5",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_hindi_missing",
+   "severity": "info",
+   "message": "change 6: a new heading has no Hindi name in brackets",
+   "target": "r79.rel6",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 6: its quoted text runs across a page break",
+   "target": "r79.rel6",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_hindi_missing",
+   "severity": "info",
+   "message": "change 7: a new heading has no Hindi name in brackets",
+   "target": "r79.rel7",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 7: its quoted text runs across a page break",
+   "target": "r79.rel7",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_hindi_missing",
+   "severity": "info",
+   "message": "change 8: a new heading has no Hindi name in brackets",
+   "target": "r79.rel8",
+   "status": "open"
+  }
+ ],
+ "problems": [
+  {
+   "series": 174,
+   "seq": 8,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry Ministry of Shipping and Transport is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
+  }
+ ],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_730_1969",
+   "op": "replace",
+   "source_ref": "2(a)(1)",
+   "path": "schedule 1 › entry 3",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_730_1969",
+   "op": "replace",
+   "source_ref": "2(a)(ii)",
+   "path": "schedule 1 › entry 14",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_730_1969",
+   "op": "replace",
+   "source_ref": "2(a)(iii)",
+   "path": "schedule 1 › entry 16",
+   "status": "applied"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_730_1969",
+   "op": "replace",
+   "source_ref": "2(a)(iv)",
+   "path": "schedule 1 › entry 18",
+   "status": "applied"
+  },
+  {
+   "seq": 5,
+   "doc_id": "GOI_SO_730_1969",
+   "op": "replace",
+   "source_ref": "2(b)(1)",
+   "path": "schedule 2 › ministry Ministry of Education",
+   "status": "applied"
+  },
+  {
+   "seq": 6,
+   "doc_id": "GOI_SO_730_1969",
+   "op": "replace",
+   "source_ref": "2(b)(11)",
+   "path": "schedule 2 › ministry Ministry of Petroleum and Chemicals",
+   "status": "applied"
+  },
+  {
+   "seq": 7,
+   "doc_id": "GOI_SO_730_1969",
+   "op": "replace",
+   "source_ref": "2(b)(111)",
+   "path": "schedule 2 › ministry Ministry of Steel, Mines & Metals",
+   "status": "applied"
+  },
+  {
+   "seq": 8,
+   "doc_id": "GOI_SO_730_1969",
+   "op": "replace",
+   "source_ref": "2(b)(iv)",
+   "path": "schedule 2 › ministry Ministry of Transport and Shipping",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

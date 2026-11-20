@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_267.pdf",
     "sha256": "af30459c94282abdbdaed906f443816c0e99d50a0d3c92ab26cd3a00d242a02a",
     "govdoc": "1_Upload_267.pdf.govdoc.json.zst",
-    "revision": 109
+    "revision": 133
   },
   "documents": [
     {
@@ -29,9 +29,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "3",
+          "version": "4",
           "model": "gemini-4-argon",
-          "at": "2026-11-12T12:56:38.886769+00:00"
+          "at": "2026-11-15T16:24:43.117062+00:00"
         },
         "ops": [
           {
@@ -39,7 +39,7 @@
             "source_ref": "2(a)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r73.rel1",
+            "relation": "r126.rel1",
             "target": {
               "cited": [
                 {
@@ -83,10 +83,12 @@
                 "text": "Water supply (subject to overall national perspective of water planning and co-ordination assigned to the Ministry of Water Resources), sewage, drainage and sanitation relating to rural arcas. International co-operation and technical assistance in this field."
               }
             ],
-            "flags": [],
+            "flags": [
+              "states_inferred_loose"
+            ],
             "words": [
               "r1.w464",
-              "r1.w474"
+              "r1.w469"
             ],
             "boxes": [
               {
@@ -95,7 +97,7 @@
                   216,
                   1163,
                   1114,
-                  1285
+                  1206
                 ]
               }
             ]
@@ -105,7 +107,7 @@
             "source_ref": "2(b)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r73.rel2",
+            "relation": "r126.rel2",
             "target": {
               "cited": [
                 {
@@ -114,7 +116,7 @@
                 },
                 {
                   "type": "ministry",
-                  "heading": "MINISTRY OF UR- BAN DEVELOPMENT"
+                  "heading": "MINISTRY OF URBAN DEVELOPMENT"
                 },
                 {
                   "type": "entry",
@@ -148,7 +150,7 @@
             "flags": [],
             "words": [
               "r1.w537",
-              "r1.w548"
+              "r1.w543"
             ],
             "boxes": [
               {
@@ -157,7 +159,7 @@
                   1308,
                   302,
                   2207,
-                  422
+                  342
                 ]
               }
             ]
@@ -167,7 +169,7 @@
             "source_ref": "2(c)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r73.rel3",
+            "relation": "r126.rel3",
             "target": {
               "cited": [
                 {
@@ -176,7 +178,7 @@
                 },
                 {
                   "type": "ministry",
-                  "heading": "MINISTRY OF WA- TER RESOURCES"
+                  "heading": "MINISTRY OF WATER RESOURCES"
                 },
                 {
                   "type": "entry",
@@ -210,7 +212,7 @@
             "flags": [],
             "words": [
               "r1.w604",
-              "r1.w615"
+              "r1.w610"
             ],
             "boxes": [
               {
@@ -219,7 +221,7 @@
                   1314,
                   962,
                   2212,
-                  1102
+                  1003
                 ]
               }
             ]

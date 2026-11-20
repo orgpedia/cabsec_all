@@ -1,0 +1,186 @@
+{
+ "file": "1_Upload_87.pdf",
+ "kind": "amendment",
+ "series": 54,
+ "date": "1966-09-18",
+ "govdoc": "aob-ammend_/output/1_Upload_87.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826696.709752,
+ "edits_file": "aob-ammend_/conf/1_Upload_87.pdf.edits.yml",
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_87.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T14:02:43.343343+00:00",
+  "sha256": "f52a73fe9843c92b9cb8f5d8b448e19b6c4cf1916695ab625f6b54f923143f4f",
+  "pages": 4
+ },
+ "edits": [
+  {
+   "run": "h1",
+   "by": "mukundesh",
+   "at": "2026-11-14T13:43:58+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r1.w298",
+     "before": {
+      "text": "3,"
+     },
+     "after": {
+      "text": "3."
+     }
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-12T12:46:30.620473+00:00",
+   "stamp": "2e5ca3cbbbdaa595"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r58",
+   "at": "2026-11-15T12:43:03.401633+00:00",
+   "stamp": "55d4fe2dc8f467a4"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r59",
+   "at": "2026-11-15T12:43:04.475291+00:00",
+   "stamp": "a3385f85d5548ab9"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r60",
+   "at": "2026-11-15T12:43:05.403370+00:00",
+   "stamp": "403040006efba0b1"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r69",
+   "at": "2026-11-15T16:25:15.979512+00:00",
+   "stamp": "48774f6b3b6c6679",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r70",
+   "at": "2026-11-15T16:25:16.659185+00:00",
+   "stamp": "8941698e45b87530",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r71",
+   "at": "2026-11-15T16:25:17.357700+00:00",
+   "stamp": "31902d1fb773ce6e",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r77",
+   "at": "2026-11-15T16:57:40.829169+00:00",
+   "stamp": "7703ad45e9686618"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r78",
+   "at": "2026-11-15T17:04:00.293039+00:00",
+   "stamp": "869e2832fafb8eb8"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r83",
+   "at": "2026-11-16T10:58:16.694795+00:00",
+   "stamp": "5addd86e2db66c3c"
+  }
+ ],
+ "reviews": [],
+ "issues": [
+  {
+   "code": "aob:read_hindi_missing",
+   "severity": "info",
+   "message": "change 1: a new heading has no Hindi name in brackets",
+   "target": "r71.rel1",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_hindi_missing",
+   "severity": "info",
+   "message": "change 2: a new heading has no Hindi name in brackets",
+   "target": "r71.rel2",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 2: its quoted text runs across a page break",
+   "target": "r71.rel2",
+   "status": "open"
+  }
+ ],
+ "problems": [],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_2839_1966",
+   "op": "replace",
+   "source_ref": "(A)",
+   "path": "schedule 1 › entry 19",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_2839_1966",
+   "op": "replace",
+   "source_ref": "(B)",
+   "path": "schedule 2 › ministry Ministry of Transport and Aviation",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

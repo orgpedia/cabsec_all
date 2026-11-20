@@ -1,0 +1,145 @@
+{
+ "file": "1_Upload_1905.pdf",
+ "kind": "amendment",
+ "series": 351,
+ "date": "2019-08-06",
+ "govdoc": "aob-ammend_/output/1_Upload_1905.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826684.496625,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_1905.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:56:16.356004+00:00",
+  "sha256": "312319f9ca8a42d5f5e5baa5eb9ae3e92b8a7bb3fc6e96fa1cd4c7f056257272",
+  "pages": 2
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r73",
+   "at": "2026-11-04T13:34:20.887221+00:00",
+   "stamp": "a98cb753659762a5"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r219",
+   "at": "2026-11-15T12:41:40.107647+00:00",
+   "stamp": "1d1780066fcb4de6"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r220",
+   "at": "2026-11-15T12:41:42.770169+00:00",
+   "stamp": "daaf63e0a0038734"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r221",
+   "at": "2026-11-15T12:41:45.489285+00:00",
+   "stamp": "e457bebd933c77e7"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r230",
+   "at": "2026-11-15T16:24:06.029304+00:00",
+   "stamp": "c4f015ea66ef1127",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r231",
+   "at": "2026-11-15T16:24:07.729399+00:00",
+   "stamp": "38dfb868c550cbf5",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r232",
+   "at": "2026-11-15T16:24:09.411030+00:00",
+   "stamp": "f1e4e13fd53330cc",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r238",
+   "at": "2026-11-15T16:57:22.762745+00:00",
+   "stamp": "6a17918b8e5f5115"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r239",
+   "at": "2026-11-15T17:03:17.900545+00:00",
+   "stamp": "ce8532659ac6b140"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r244",
+   "at": "2026-11-16T10:58:04.480087+00:00",
+   "stamp": "6394e6c8b0b75082"
+  }
+ ],
+ "reviews": [],
+ "issues": [],
+ "problems": [],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_2886E_2019",
+   "op": "insert",
+   "source_ref": "2(a)",
+   "path": "schedule 1 › ministry NITI Aayog (National Institution for Transforming India)",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_2886E_2019",
+   "op": "insert",
+   "source_ref": "2(b)",
+   "path": "schedule 2 › ministry NITI AAYOG (NATIONAL INSTITUTION FOR TRANSFORMING INDIA)",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

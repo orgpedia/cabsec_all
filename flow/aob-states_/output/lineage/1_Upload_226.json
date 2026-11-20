@@ -1,0 +1,276 @@
+{
+ "file": "1_Upload_226.pdf",
+ "kind": "amendment",
+ "series": 188,
+ "date": "1986-10-29",
+ "govdoc": "aob-ammend_/output/1_Upload_226.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826686.7052097,
+ "edits_file": "aob-ammend_/conf/1_Upload_226.pdf.edits.yml",
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_226.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:57:06.445478+00:00",
+  "sha256": "5973bb96ce92d377bb524b8b5bc64db0be34101eaf835c0490621ef2ad4bf8b2",
+  "pages": 6
+ },
+ "edits": [
+  {
+   "run": "h1",
+   "by": "mukundesh",
+   "at": "2026-11-11T10:59:31+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r1.w1474",
+     "before": {
+      "text": "Programime"
+     },
+     "after": {
+      "text": "Programme"
+     }
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-11T03:02:53.644995+00:00",
+   "stamp": "10e886f2aced04d0"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r121",
+   "at": "2026-11-15T12:41:54.773540+00:00",
+   "stamp": "6ece443d9216aaab"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r122",
+   "at": "2026-11-15T12:41:56.353741+00:00",
+   "stamp": "5bbc73feb988bfb6"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r123",
+   "at": "2026-11-15T12:41:57.982389+00:00",
+   "stamp": "012cd6f124f3813c"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r132",
+   "at": "2026-11-15T16:24:17.429509+00:00",
+   "stamp": "756a8dd7ae77f769",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r133",
+   "at": "2026-11-15T16:24:18.601719+00:00",
+   "stamp": "4d9a2b8acf84e594",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r134",
+   "at": "2026-11-15T16:24:19.827874+00:00",
+   "stamp": "f779fc929f22f1e7",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r140",
+   "at": "2026-11-15T16:57:25.816532+00:00",
+   "stamp": "160752e4abf8c94b"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r141",
+   "at": "2026-11-15T17:03:25.216108+00:00",
+   "stamp": "c0fdc378b7ab51d7"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r146",
+   "at": "2026-11-16T10:58:06.629796+00:00",
+   "stamp": "f8330977c3096da7"
+  }
+ ],
+ "reviews": [
+  {
+   "id": "h1.v2",
+   "target": "r24.a4",
+   "status": "pending",
+   "by": "mukundesh",
+   "at": "2026-11-11T10:59:31+00:00",
+   "note": "moved by a loose match after h1.e1"
+  },
+  {
+   "id": "h1.v3",
+   "target": "r25.a2",
+   "status": "pending",
+   "by": "mukundesh",
+   "at": "2026-11-11T10:59:31+00:00",
+   "note": "moved by a loose match after h1.e1"
+  }
+ ],
+ "issues": [
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 6: its quoted text runs across a page break",
+   "target": "r134.rel6",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 9: its quoted text runs across a page break",
+   "target": "r134.rel9",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
+   "message": "change 6: ministry Ministry of Programm: Implementation taken for ministry MINISTRY OF PROGRAMME IMPLEMENTA- TION, named loosely",
+   "target": "r134.rel6",
+   "status": "open"
+  }
+ ],
+ "problems": [
+  {
+   "series": 271,
+   "seq": 6,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry Ministry of Railways (Rail Mantralaya), Kailway Board (Rail Board) is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  }
+ ],
+ "rules": [
+  {
+   "rule": "loose",
+   "seq": 6,
+   "note": "change 6: ministry Ministry of Programm: Implementation taken for ministry MINISTRY OF PROGRAMME IMPLEMENTA- TION, named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  }
+ ],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_797E_1986",
+   "op": "insert",
+   "source_ref": "2(1)(a)",
+   "path": "schedule 1 › ministry Ministry of Agriculture",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_797E_1986",
+   "op": "insert",
+   "source_ref": "2(1)(b)",
+   "path": "schedule 1 › ministry Ministry of Programme Implementation",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_797E_1986",
+   "op": "insert",
+   "source_ref": "2(1)(c)",
+   "path": "schedule 1 › ministry Ministry of Steel and Mines",
+   "status": "applied"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_797E_1986",
+   "op": "omit",
+   "source_ref": "2(1)(d)",
+   "path": "schedule 1 › ministry Ministry of Transport",
+   "status": "applied"
+  },
+  {
+   "seq": 5,
+   "doc_id": "GOI_SO_797E_1986",
+   "op": "insert",
+   "source_ref": "2(2)(a)",
+   "path": "schedule 2 › ministry Ministry of Agriculture",
+   "status": "applied"
+  },
+  {
+   "seq": 6,
+   "doc_id": "GOI_SO_797E_1986",
+   "op": "insert",
+   "source_ref": "2(2)(b)",
+   "path": "schedule 2 › ministry Ministry of Programm: Implementation",
+   "status": "applied"
+  },
+  {
+   "seq": 7,
+   "doc_id": "GOI_SO_797E_1986",
+   "op": "insert",
+   "source_ref": "2(2)(c)",
+   "path": "schedule 2 › ministry Ministry of Steel and Mines",
+   "status": "applied"
+  },
+  {
+   "seq": 8,
+   "doc_id": "GOI_SO_797E_1986",
+   "op": "omit",
+   "source_ref": "2(2)(d)",
+   "path": "schedule 2 › ministry Ministry of Transport",
+   "status": "applied"
+  },
+  {
+   "seq": 9,
+   "doc_id": "GOI_SO_797E_1986",
+   "op": "insert",
+   "source_ref": "2(2)(e)",
+   "path": "schedule 2 › ministry Ministry of Urban Development › entry 14",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

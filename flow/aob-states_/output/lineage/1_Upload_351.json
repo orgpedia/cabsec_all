@@ -1,0 +1,257 @@
+{
+ "file": "1_Upload_351.pdf",
+ "kind": "amendment",
+ "series": 306,
+ "date": "2014-07-31",
+ "govdoc": "aob-ammend_/output/1_Upload_351.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826685.7467387,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_351.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T14:00:38.251621+00:00",
+  "sha256": "48b91f2c574f298e0488f53f75bf250f55dc9332e7567e384688bcb0dd8c8071",
+  "pages": 8
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r51",
+   "at": "2026-11-04T13:34:26.700351+00:00",
+   "stamp": "b04c27202d0d2ed5"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r197",
+   "at": "2026-11-15T12:41:42.227821+00:00",
+   "stamp": "0c4e4248013fbaab"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r198",
+   "at": "2026-11-15T12:41:44.824775+00:00",
+   "stamp": "596d2aff5c958f88"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r199",
+   "at": "2026-11-15T12:41:46.880361+00:00",
+   "stamp": "d4b2a7f8fef4ab12"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r208",
+   "at": "2026-11-15T16:24:07.376244+00:00",
+   "stamp": "01817ffc6a575c8b",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r209",
+   "at": "2026-11-15T16:24:09.058460+00:00",
+   "stamp": "bd57dd4d49b0066d",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r210",
+   "at": "2026-11-15T16:24:10.741352+00:00",
+   "stamp": "7431100aecf32149",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r216",
+   "at": "2026-11-15T16:57:24.056681+00:00",
+   "stamp": "4a0cf45540b85a3d"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r217",
+   "at": "2026-11-15T17:03:20.354958+00:00",
+   "stamp": "a81bf096182506f2"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r222",
+   "at": "2026-11-16T10:58:05.706934+00:00",
+   "stamp": "316fe537a19fade5"
+  }
+ ],
+ "reviews": [],
+ "issues": [
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 10: its quoted text runs across a page break",
+   "target": "r210.rel10",
+   "status": "open"
+  }
+ ],
+ "problems": [],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_1986E_2014",
+   "op": "replace",
+   "source_ref": "2(1)(a)",
+   "path": "schedule 1 › ministry Ministry of Environment and Forests",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_1986E_2014",
+   "op": "insert",
+   "source_ref": "2(1)(b)",
+   "path": "schedule 1 › ministry Ministry of Shipping",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_1986E_2014",
+   "op": "replace",
+   "source_ref": "2(1)(c)",
+   "path": "schedule 1 › ministry Ministry of Water Resources",
+   "status": "applied"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_1986E_2014",
+   "op": "omit",
+   "source_ref": "2(1)(d)",
+   "path": "schedule 1 › ministry Ministry of Youth Affairs and Sports",
+   "status": "applied"
+  },
+  {
+   "seq": 5,
+   "doc_id": "GOI_SO_1986E_2014",
+   "op": "replace",
+   "source_ref": "2(2)(a)",
+   "path": "schedule 2 › ministry MINISTRY OF ENVIRONMENT AND FORESTS",
+   "status": "applied"
+  },
+  {
+   "seq": 6,
+   "doc_id": "GOI_SO_1986E_2014",
+   "op": "replace",
+   "source_ref": "2(2)(b)(i)",
+   "path": "schedule 2 › ministry MINISTRY OF ENVIRONMENT, FOREST AND CLIMATE CHANGE › entry 8",
+   "status": "applied"
+  },
+  {
+   "seq": 7,
+   "doc_id": "GOI_SO_1986E_2014",
+   "op": "insert",
+   "source_ref": "2(2)(b)(ii)",
+   "path": "schedule 2 › ministry MINISTRY OF ENVIRONMENT, FOREST AND CLIMATE CHANGE › entry 36",
+   "status": "applied"
+  },
+  {
+   "seq": 8,
+   "doc_id": "GOI_SO_1986E_2014",
+   "op": "omit",
+   "source_ref": "2(2)(c)",
+   "path": "schedule 2 › ministry MINISTRY OF FINANCE › department DEPARTMENT OF ECONOMIC AFFAIRS › entry 81A ; schedule 2 › ministry MINISTRY OF FINANCE › department DEPARTMENT OF ECONOMIC AFFAIRS › entry 81B",
+   "status": "applied"
+  },
+  {
+   "seq": 9,
+   "doc_id": "GOI_SO_1986E_2014",
+   "op": "insert",
+   "source_ref": "2(2)(d)",
+   "path": "schedule 2 › ministry MINISTRY OF SHIPPING › entry 5",
+   "status": "applied"
+  },
+  {
+   "seq": 10,
+   "doc_id": "GOI_SO_1986E_2014",
+   "op": "insert",
+   "source_ref": "2(2)(e)",
+   "path": "schedule 2 › ministry MINISTRY OF SHIPPING",
+   "status": "applied"
+  },
+  {
+   "seq": 11,
+   "doc_id": "GOI_SO_1986E_2014",
+   "op": "omit",
+   "source_ref": "2(2)(f)",
+   "path": "schedule 2 › ministry MINISTRY OF STEEL › entry 1",
+   "status": "applied"
+  },
+  {
+   "seq": 12,
+   "doc_id": "GOI_SO_1986E_2014",
+   "op": "replace",
+   "source_ref": "2(2)(g)",
+   "path": "schedule 2 › ministry MINISTRY OF WATER RESOURCES",
+   "status": "applied"
+  },
+  {
+   "seq": 13,
+   "doc_id": "GOI_SO_1986E_2014",
+   "op": "substitute_text",
+   "source_ref": "2(2)(h)(i)",
+   "path": "schedule 2 › ministry MINISTRY OF WATER RESOURCES, RIVER DEVELOPMENT AND GANGA REJUVENATION › entry 1",
+   "status": "applied"
+  },
+  {
+   "seq": 14,
+   "doc_id": "GOI_SO_1986E_2014",
+   "op": "insert",
+   "source_ref": "2(2)(h)(ii)",
+   "path": "schedule 2 › ministry MINISTRY OF WATER RESOURCES, RIVER DEVELOPMENT AND GANGA REJUVENATION › entry 30",
+   "status": "applied"
+  },
+  {
+   "seq": 15,
+   "doc_id": "GOI_SO_1986E_2014",
+   "op": "omit",
+   "source_ref": "2(2)(i)",
+   "path": "schedule 2 › ministry MINISTRY OF YOUTH AFFAIRS AND SPORTS",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

@@ -1,0 +1,145 @@
+{
+ "file": "1_Upload_1522.pdf",
+ "kind": "amendment",
+ "series": 345,
+ "date": "2018-10-17",
+ "govdoc": "aob-ammend_/output/1_Upload_1522.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826685.4120555,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_1522.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:55:25.214621+00:00",
+  "sha256": "3edd2330bf9d32fd8f90f66109217307dc68ef1c3a078d9bf7eaf04d130613b9",
+  "pages": 2
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r72",
+   "at": "2026-11-04T13:34:25.860801+00:00",
+   "stamp": "5a6bb9b81a99c19b"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r218",
+   "at": "2026-11-15T12:41:41.721980+00:00",
+   "stamp": "112281402e1ac412"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r219",
+   "at": "2026-11-15T12:41:44.216973+00:00",
+   "stamp": "5b5b8c321be50dbc"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r220",
+   "at": "2026-11-15T12:41:46.564437+00:00",
+   "stamp": "d2355d9fc50a7993"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r229",
+   "at": "2026-11-15T16:24:07.031965+00:00",
+   "stamp": "37facabccdbe2d46",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r230",
+   "at": "2026-11-15T16:24:08.715547+00:00",
+   "stamp": "70f602423ad8b86c",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r231",
+   "at": "2026-11-15T16:24:10.397917+00:00",
+   "stamp": "d538c10ba79920c7",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r237",
+   "at": "2026-11-15T16:57:23.710311+00:00",
+   "stamp": "d27a59b1fa91eab2"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r238",
+   "at": "2026-11-15T17:03:19.692886+00:00",
+   "stamp": "7831ada888e13c9f"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r243",
+   "at": "2026-11-16T10:58:05.397049+00:00",
+   "stamp": "61e4daa69a2da51a"
+  }
+ ],
+ "reviews": [],
+ "issues": [],
+ "problems": [],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_5343E_2018",
+   "op": "replace",
+   "source_ref": "2(i)",
+   "path": "schedule 2 › ministry MINISTRY OF ELECTRONICS AND INFORMATION TECHNOLOGY › entry 8",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_5343E_2018",
+   "op": "omit",
+   "source_ref": "2(ii)",
+   "path": "schedule 2 › ministry MINISTRY OF SCIENCE AND TECHNOLOGY › department DEPARTMENT OF SCIENCE AND TECHNOLOGY › entry 2",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

@@ -1,0 +1,533 @@
+{
+ "file": "1_Upload_296.pdf",
+ "kind": "amendment",
+ "series": 256,
+ "date": "2001-09-06",
+ "govdoc": "aob-ammend_/output/1_Upload_296.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826683.4265554,
+ "edits_file": "aob-ammend_/conf/1_Upload_296.pdf.edits.yml",
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_296.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:59:08.055036+00:00",
+  "sha256": "271d55128f5698874eb4a233ac867764cf51e645f49e8d11a66129efd47c7657",
+  "pages": 26
+ },
+ "edits": [
+  {
+   "run": "h1",
+   "by": "mukundesh",
+   "at": "2026-11-11T04:06:29+00:00",
+   "edits": [
+    {
+     "op": "remove_word",
+     "target": "r1.w2671",
+     "before": {
+      "page": 15,
+      "word": {
+       "id": "r1.w2671",
+       "text": "85",
+       "bbox": [
+        513,
+        564,
+        577,
+        613
+       ],
+       "confidence": 0.99
+      },
+      "line": "r2.l362",
+      "after": "r1.w2670"
+     },
+     "after": null
+    },
+    {
+     "op": "remove_word",
+     "target": "r1.w2670",
+     "before": {
+      "page": 15,
+      "word": {
+       "id": "r1.w2670",
+       "text": "S.O.",
+       "bbox": [
+        368,
+        590,
+        451,
+        612
+       ],
+       "confidence": 0.85
+      },
+      "line": "r2.l362",
+      "after": null
+     },
+     "after": null
+    }
+   ]
+  },
+  {
+   "run": "h2",
+   "by": "claude",
+   "at": "2026-11-12T06:02:00+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r1.w2841",
+     "before": {
+      "text": "(1)"
+     },
+     "after": {
+      "text": "(i)"
+     }
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-11T03:12:42.026139+00:00",
+   "stamp": "406d70bc147e09a3"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r124",
+   "at": "2026-11-15T12:41:26.584670+00:00",
+   "stamp": "06081e9eb7a53874"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r125",
+   "at": "2026-11-15T12:41:28.887173+00:00",
+   "stamp": "a3e0006188593342"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r126",
+   "at": "2026-11-15T12:41:30.700719+00:00",
+   "stamp": "cab869793823d662"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r135",
+   "at": "2026-11-15T16:23:56.980668+00:00",
+   "stamp": "323140437ccf0e83",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r136",
+   "at": "2026-11-15T16:23:58.633518+00:00",
+   "stamp": "87bd9ffb2a9c1703",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r137",
+   "at": "2026-11-15T16:24:00.031306+00:00",
+   "stamp": "b8fe0755ddc92643",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r143",
+   "at": "2026-11-15T16:57:20.702390+00:00",
+   "stamp": "e3277a138f5b81b4"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r144",
+   "at": "2026-11-15T17:03:12.897427+00:00",
+   "stamp": "fbbdc578b260b0ce"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r149",
+   "at": "2026-11-16T10:58:03.348352+00:00",
+   "stamp": "21aebe22049548c0"
+  }
+ ],
+ "reviews": [],
+ "issues": [
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 14: its quoted text runs across a page break",
+   "target": "r137.rel14",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 15: its quoted text runs across a page break",
+   "target": "r137.rel15",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 17: its quoted text runs across a page break",
+   "target": "r137.rel17",
+   "status": "open"
+  },
+  {
+   "code": "aob:new_text_differs",
+   "severity": "warning",
+   "message": "schedule 1 › ministry 1A reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied",
+   "target": "r137.rel2",
+   "status": "open"
+  },
+  {
+   "code": "aob:new_text_differs",
+   "severity": "warning",
+   "message": "schedule 1 › ministry 7A reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied",
+   "target": "r137.rel5",
+   "status": "open"
+  },
+  {
+   "code": "aob:new_text_differs",
+   "severity": "warning",
+   "message": "schedule 1 › ministry 29A reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied",
+   "target": "r137.rel8",
+   "status": "open"
+  },
+  {
+   "code": "aob:new_text_differs",
+   "severity": "warning",
+   "message": "schedule 1 › department 45 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied",
+   "target": "r137.rel10",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_number_kept",
+   "severity": "info",
+   "message": "change 23: schedule 2 › department DEPARTMENT OF DISINVESTMENT keeps its number 45, the heading put for it quoted without one",
+   "target": "r137.rel23",
+   "status": "open"
+  }
+ ],
+ "problems": [
+  {
+   "series": 256,
+   "seq": 13,
+   "code": "old_path_missing",
+   "severity": "error",
+   "message": "change 13: no department ANIMAL HUSBANDRY AND DAIRYING under schedule 2 › ministry MINISTRY OF AGRICULTURE",
+   "cause": "unit_not_found"
+  },
+  {
+   "series": 256,
+   "seq": 21,
+   "code": "old_path_missing",
+   "severity": "error",
+   "message": "change 21: no entry 37 under schedule 2 › ministry MINISTRY OF SOCIAL JUSTICE AND EMPOWERMENT",
+   "cause": "entry_not_in_state"
+  },
+  {
+   "series": 271,
+   "seq": 2,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 1 › ministry 1A reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 5,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 1 › ministry 7A reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 8,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 1 › ministry 29A reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 10,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 1 › department 45 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 17,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FOOD PROCESSING INDUSTRIES › entry 1 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 17,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FOOD PROCESSING INDUSTRIES › entry 7 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 19,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF SMALL SCALE INDUSTRIES › entry 4 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 22,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry PLANNING COMMISSION › group_heading PRINTED BY I # M VÅGER, GOVT. OF INDIA AND PUL I. (ED TIE CONTROller of is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › department 45 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  }
+ ],
+ "rules": [
+  {
+   "rule": "number_kept",
+   "seq": 23,
+   "note": "change 23: schedule 2 › department DEPARTMENT OF DISINVESTMENT keeps its number 45, the heading put for it quoted without one",
+   "status": "accepted"
+  }
+ ],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_858E_2001",
+   "op": "omit",
+   "source_ref": "2(2)(A)",
+   "path": "schedule 1 › ministry Ministry of Agriculture › department Department of Food Processing Industries",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_858E_2001",
+   "op": "insert",
+   "source_ref": "2(2)(B)",
+   "path": "schedule 1 › ministry Ministry of Agriculture",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_858E_2001",
+   "op": "replace",
+   "source_ref": "2(2)(C)",
+   "path": "schedule 1 › ministry Ministry of Coal",
+   "status": "applied"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_858E_2001",
+   "op": "insert",
+   "source_ref": "2(2)(D)",
+   "path": "schedule 1 › ministry Ministry of Communications",
+   "status": "applied"
+  },
+  {
+   "seq": 5,
+   "doc_id": "GOI_SO_858E_2001",
+   "op": "insert",
+   "source_ref": "2(2)(E)",
+   "path": "schedule 1 › ministry Ministry of Defence",
+   "status": "applied"
+  },
+  {
+   "seq": 6,
+   "doc_id": "GOI_SO_858E_2001",
+   "op": "insert",
+   "source_ref": "2(2)(.AI)",
+   "path": "schedule 1 › ministry Ministry of Consumer Affairs, Food and Public Distribution",
+   "status": "applied"
+  },
+  {
+   "seq": 7,
+   "doc_id": "GOI_SO_858E_2001",
+   "op": "omit",
+   "source_ref": "2(2)(G)",
+   "path": "schedule 1 › ministry Ministry of Mines",
+   "status": "applied"
+  },
+  {
+   "seq": 8,
+   "doc_id": "GOI_SO_858E_2001",
+   "op": "replace",
+   "source_ref": "2(2)(H)",
+   "path": "schedule 1 › ministry Ministry of Small Scale Industries and Agro and Rural Industries",
+   "status": "applied"
+  },
+  {
+   "seq": 9,
+   "doc_id": "GOI_SO_858E_2001",
+   "op": "replace",
+   "source_ref": "2(2)(I)",
+   "path": "schedule 1 › ministry Ministry of Tourism and Culture",
+   "status": "applied"
+  },
+  {
+   "seq": 10,
+   "doc_id": "GOI_SO_858E_2001",
+   "op": "replace",
+   "source_ref": "2(2)(J)",
+   "path": "schedule 1 › ministry Department of Disinvestment",
+   "status": "applied"
+  },
+  {
+   "seq": 11,
+   "doc_id": "GOI_SO_858E_2001",
+   "op": "omit",
+   "source_ref": "2(2)(A)",
+   "path": "schedule 2 › ministry MINISTRY OF AGRICULTURE › department DEPARTMENT O F FOOD PROCESSING INDUSTRIES",
+   "status": "applied"
+  },
+  {
+   "seq": 12,
+   "doc_id": "GOI_SO_858E_2001",
+   "op": "insert",
+   "source_ref": "2(2)(B)",
+   "path": "schedule 2 › ministry MINISTRY OF AGRICULTURE",
+   "status": "applied"
+  },
+  {
+   "seq": 13,
+   "doc_id": "GOI_SO_858E_2001",
+   "op": "replace",
+   "source_ref": "2(2)(C)",
+   "path": "schedule 2 › ministry MINISTRY OF AGRICULTURE › department ANIMAL HUSBANDRY AND DAIRYING › entry 15",
+   "status": "not_applied",
+   "problem": "change 13: no department ANIMAL HUSBANDRY AND DAIRYING under schedule 2 › ministry MINISTRY OF AGRICULTURE",
+   "code": "old_path_missing",
+   "cause": "unit_not_found",
+   "known": "renamed_unit"
+  },
+  {
+   "seq": 14,
+   "doc_id": "GOI_SO_858E_2001",
+   "op": "replace",
+   "source_ref": "2(2)(D)",
+   "path": "schedule 2 › ministry MINISTRY OF COAL",
+   "status": "applied"
+  },
+  {
+   "seq": 15,
+   "doc_id": "GOI_SO_858E_2001",
+   "op": "insert",
+   "source_ref": "2(2)(E)",
+   "path": "schedule 2 › ministry MINISTRY OF COMMUNICATIONS",
+   "status": "applied"
+  },
+  {
+   "seq": 16,
+   "doc_id": "GOI_SO_858E_2001",
+   "op": "insert",
+   "source_ref": "2(2)(F)",
+   "path": "schedule 2 › ministry MINISTRY OF DEFENCE",
+   "status": "applied"
+  },
+  {
+   "seq": 17,
+   "doc_id": "GOI_SO_858E_2001",
+   "op": "insert",
+   "source_ref": "2(2)(G)",
+   "path": "schedule 2 › ministry MINISTRY OF CONSUMER AFFAIRS, FOOD AND PUBLIC DISTRIBUTION",
+   "status": "applied"
+  },
+  {
+   "seq": 18,
+   "doc_id": "GOI_SO_858E_2001",
+   "op": "omit",
+   "source_ref": "2(2)(H)",
+   "path": "schedule 2 › ministry MINISTRY OF MINES",
+   "status": "applied"
+  },
+  {
+   "seq": 19,
+   "doc_id": "GOI_SO_858E_2001",
+   "op": "replace",
+   "source_ref": "2(2)(I)",
+   "path": "schedule 2 › ministry MINISTRY O F SMALL SCALE INDUSTRIES AND AGRO AND RURAL INDUSTRIES",
+   "status": "applied"
+  },
+  {
+   "seq": 20,
+   "doc_id": "GOI_SO_858E_2001",
+   "op": "replace",
+   "source_ref": "2(2)(J)",
+   "path": "schedule 2 › ministry MINISTRY OF TOURISM AND CULTURE",
+   "status": "applied"
+  },
+  {
+   "seq": 21,
+   "doc_id": "GOI_SO_858E_2001",
+   "op": "omit",
+   "source_ref": "2(2)(K)",
+   "path": "schedule 2 › ministry MINISTRY OF SOCIAL JUSTICE AND EMPOWERMENT › entry 37 ; schedule 2 › ministry MINISTRY OF SOCIAL JUSTICE AND EMPOWERMENT › entry 38",
+   "status": "not_applied",
+   "problem": "change 21: no entry 37 under schedule 2 › ministry MINISTRY OF SOCIAL JUSTICE AND EMPOWERMENT",
+   "code": "old_path_missing",
+   "cause": "entry_not_in_state",
+   "known": "entries"
+  },
+  {
+   "seq": 22,
+   "doc_id": "GOI_SO_858E_2001",
+   "op": "replace",
+   "source_ref": "2(2)(L)",
+   "path": "schedule 2 › ministry PLANNING COMMISSION › entry 7",
+   "status": "applied"
+  },
+  {
+   "seq": 23,
+   "doc_id": "GOI_SO_858E_2001",
+   "op": "replace",
+   "source_ref": "2(2)(M)",
+   "path": "schedule 2 › ministry DEPARTMENT OF DISINVESTMENT",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

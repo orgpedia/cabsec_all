@@ -1,0 +1,137 @@
+{
+ "file": "1_Upload_3981.pdf",
+ "kind": "amendment",
+ "series": 379,
+ "date": "2025-01-13",
+ "govdoc": "aob-ammend_/output/1_Upload_3981.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826688.989149,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_3981.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T14:01:27.262748+00:00",
+  "sha256": "869159e6436b9f6f8b2619be16aee8ba7d2ae2e5690539be7e0fcc9496bcfc35",
+  "pages": 2
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r17",
+   "at": "2026-10-31T11:51:37.012353+00:00",
+   "stamp": "d0d09532f88f335d"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r205",
+   "at": "2026-11-15T12:42:06.905737+00:00",
+   "stamp": "47201d231c0e16a5"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r206",
+   "at": "2026-11-15T12:42:08.964906+00:00",
+   "stamp": "81f202d8f89ef671"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r207",
+   "at": "2026-11-15T12:42:10.666787+00:00",
+   "stamp": "a56a0ebeb954cccf"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r216",
+   "at": "2026-11-15T16:24:26.477999+00:00",
+   "stamp": "41baaf9cb83215d3",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r217",
+   "at": "2026-11-15T16:24:27.973603+00:00",
+   "stamp": "60b4b1c1d053d7ce",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r218",
+   "at": "2026-11-15T16:24:29.517892+00:00",
+   "stamp": "cd436abeb88548f5",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r224",
+   "at": "2026-11-15T16:57:28.965045+00:00",
+   "stamp": "0c8df66ee9949942"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r225",
+   "at": "2026-11-15T17:03:31.743492+00:00",
+   "stamp": "eb5dbba5cbbeb1d5"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r230",
+   "at": "2026-11-16T10:58:08.975333+00:00",
+   "stamp": "e5e30c2681cddd50"
+  }
+ ],
+ "reviews": [],
+ "issues": [],
+ "problems": [],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_203E_2025",
+   "op": "insert",
+   "source_ref": "2",
+   "path": "schedule 2 › ministry MINISTRY OF HEALTH AND FAMILY WELFARE › department DEPARTMENT OF HEALTH RESEARCH › entry 10",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

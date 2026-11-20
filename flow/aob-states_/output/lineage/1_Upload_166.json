@@ -1,0 +1,158 @@
+{
+ "file": "1_Upload_166.pdf",
+ "kind": "amendment",
+ "series": 129,
+ "date": "1978-05-20",
+ "govdoc": "aob-ammend_/output/1_Upload_166.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826688.254511,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_166.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:55:41.925877+00:00",
+  "sha256": "76e45f8ba0fa540082f963fb7a051a3cb4d33003ba16a9dc913e1ddb6a59b910",
+  "pages": 2
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-12T12:36:11.245161+00:00",
+   "stamp": "590b801b6d9ff600"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r50",
+   "at": "2026-11-15T12:42:05.834519+00:00",
+   "stamp": "c86a976cd218fee0"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r51",
+   "at": "2026-11-15T12:42:07.933765+00:00",
+   "stamp": "cb0d2064a2474e3e"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r52",
+   "at": "2026-11-15T12:42:09.874247+00:00",
+   "stamp": "b5ae398b5a9cfa43"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r61",
+   "at": "2026-11-15T16:24:25.613042+00:00",
+   "stamp": "848e9a6777b468c1",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r62",
+   "at": "2026-11-15T16:24:27.183625+00:00",
+   "stamp": "917c0092e8ca6edb",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r63",
+   "at": "2026-11-15T16:24:28.723493+00:00",
+   "stamp": "437c4949b43d1042",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r69",
+   "at": "2026-11-15T16:57:28.101354+00:00",
+   "stamp": "c504d6dba2a01bf5"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r70",
+   "at": "2026-11-15T17:03:30.307605+00:00",
+   "stamp": "53a92f5bfaab68fe"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r75",
+   "at": "2026-11-16T10:58:08.244324+00:00",
+   "stamp": "0fb95a71c12cfae4"
+  }
+ ],
+ "reviews": [],
+ "issues": [],
+ "problems": [
+  {
+   "series": 129,
+   "seq": 2,
+   "code": "old_path_missing",
+   "severity": "error",
+   "message": "change 2: no entry 11 under schedule 2 › ministry MINISTRY OF SUPPLY AND REHABILITATION › department A",
+   "cause": "entry_not_in_state"
+  }
+ ],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_352E_1978",
+   "op": "insert",
+   "source_ref": "2(a)",
+   "path": "schedule 2 › ministry MINISTRY OF AGRICULTURE AND IRRIGATION › department DEPARTMENT OF AGRICULTURE › entry 21A",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_352E_1978",
+   "op": "replace",
+   "source_ref": "2(b)",
+   "path": "schedule 2 › ministry MINISTRY OF SUPPLY AND REHABII ITATION › department DEPARTMENT OF REHABILITATION › entry 11",
+   "status": "not_applied",
+   "problem": "change 2: no entry 11 under schedule 2 › ministry MINISTRY OF SUPPLY AND REHABILITATION › department A",
+   "code": "old_path_missing",
+   "cause": "entry_not_in_state",
+   "known": "entries"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

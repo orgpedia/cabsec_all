@@ -1,0 +1,265 @@
+{
+ "file": "1_Upload_127.pdf",
+ "kind": "amendment",
+ "series": 93,
+ "date": "1972-02-24",
+ "govdoc": "aob-ammend_/output/1_Upload_127.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826695.42622,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_127.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:54:43.831455+00:00",
+  "sha256": "e478af476cf401223cc10d0d095567f03205bdae6ef02b3ceedfe6481444543e",
+  "pages": 4
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-12T12:45:57.091194+00:00",
+   "stamp": "9599d52d52b93a0f"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r50",
+   "at": "2026-11-15T12:42:46.195682+00:00",
+   "stamp": "ee0dc7cfd16bb1be"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r51",
+   "at": "2026-11-15T12:42:48.857086+00:00",
+   "stamp": "8c42295d711e6b21"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r52",
+   "at": "2026-11-15T12:42:51.049122+00:00",
+   "stamp": "e9389d121bc13e38"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r61",
+   "at": "2026-11-15T16:25:03.796403+00:00",
+   "stamp": "2acc952dbcf94525",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r62",
+   "at": "2026-11-15T16:25:05.878795+00:00",
+   "stamp": "765b0efd40d646a9",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r63",
+   "at": "2026-11-15T16:25:07.894446+00:00",
+   "stamp": "4d281b3ccf93235d",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r69",
+   "at": "2026-11-15T16:57:38.435191+00:00",
+   "stamp": "61b7a49de388089f"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r70",
+   "at": "2026-11-15T17:03:53.182492+00:00",
+   "stamp": "5e432583dce4173b"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r75",
+   "at": "2026-11-16T10:58:15.408253+00:00",
+   "stamp": "5c594a64cbf51808"
+  }
+ ],
+ "reviews": [],
+ "issues": [
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 1: its quoted text runs across a page break",
+   "target": "r63.rel1",
+   "status": "open"
+  }
+ ],
+ "problems": [
+  {
+   "series": 174,
+   "seq": 4,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF LAW AND JUSTICE › department C › entry 8 reads differently in 1_Upload_212.pdf than in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  }
+ ],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_162E_1972",
+   "op": "insert",
+   "source_ref": "2(1)",
+   "path": "schedule 2 › ministry MINISTRY OF DEFENCE › department DEPARTMENT OF DEFENCE PRODUCTION › entry 19",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_162E_1972",
+   "op": "insert",
+   "source_ref": "2(2)(a)",
+   "path": "schedule 2 › ministry MINISTRY OF HOME AFFAIRS › entry 5",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_162E_1972",
+   "op": "replace",
+   "source_ref": "2(2)(b)",
+   "path": "schedule 2 › ministry MINISTRY OF HOME AFFAIRS › entry 43",
+   "status": "applied"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_162E_1972",
+   "op": "insert",
+   "source_ref": "2(3)",
+   "path": "schedule 2 › ministry MINISTRY OF LAW AND JUSTICE › department DEPARTMENT OF JUSTICE › entry 7",
+   "status": "applied"
+  },
+  {
+   "seq": 5,
+   "doc_id": "GOI_SO_162E_1972",
+   "op": "replace",
+   "source_ref": "2(4)(a)(1)",
+   "path": "schedule 2 › ministry MINISTRY OF STEEL AND MINES › department DEPARTMENT OF STEEL › entry 2",
+   "status": "applied"
+  },
+  {
+   "seq": 6,
+   "doc_id": "GOI_SO_162E_1972",
+   "op": "insert",
+   "source_ref": "2(4)(a)(li)",
+   "path": "schedule 2 › ministry MINISTRY OF STEEL AND MINES › department DEPARTMENT OF STEEL › entry 5",
+   "status": "applied"
+  },
+  {
+   "seq": 7,
+   "doc_id": "GOI_SO_162E_1972",
+   "op": "insert",
+   "source_ref": "2(4)(b)",
+   "path": "schedule 2 › ministry MINISTRY OF STEEL AND MINES › department DEPARTMENT OF MINES › entry 4",
+   "status": "applied"
+  },
+  {
+   "seq": 8,
+   "doc_id": "GOI_SO_162E_1972",
+   "op": "replace",
+   "source_ref": "2(3)(a)",
+   "path": "schedule 2 › ministry DEPARTMENT OF COMPANY AFFAIRS › entry 3",
+   "status": "applied"
+  },
+  {
+   "seq": 9,
+   "doc_id": "GOI_SO_162E_1972",
+   "op": "replace",
+   "source_ref": "2(3)(b)",
+   "path": "schedule 2 › ministry DEPARTMENT OF COMPANY AFFAIRS › entry 6",
+   "status": "applied"
+  },
+  {
+   "seq": 10,
+   "doc_id": "GOI_SO_162E_1972",
+   "op": "replace",
+   "source_ref": "2(6)(a)",
+   "path": "schedule 2 › ministry CABINET SECRETARIAT › department DEPARTMENT OF PERSONNEL › group_heading VI",
+   "status": "applied"
+  },
+  {
+   "seq": 11,
+   "doc_id": "GOI_SO_162E_1972",
+   "op": "replace",
+   "source_ref": "2(6)(b)(i)",
+   "path": "schedule 2 › ministry CABINET SECRETARIAT › department DEPARTMENT OF PERSONNEL › entry 38 › item a",
+   "status": "applied"
+  },
+  {
+   "seq": 12,
+   "doc_id": "GOI_SO_162E_1972",
+   "op": "insert",
+   "source_ref": "2(6)(b)(ii)",
+   "path": "schedule 2 › ministry CABINET SECRETARIAT › department DEPARTMENT OF PERSONNEL › entry 38 › item d",
+   "status": "applied"
+  },
+  {
+   "seq": 13,
+   "doc_id": "GOI_SO_162E_1972",
+   "op": "replace",
+   "source_ref": "2(6)(c)",
+   "path": "schedule 2 › ministry CABINET SECRETARIAT › department DEPARTMENT OF PERSONNEL › entry 40 › item e",
+   "status": "applied"
+  },
+  {
+   "seq": 14,
+   "doc_id": "GOI_SO_162E_1972",
+   "op": "replace",
+   "source_ref": "2(6)(d)",
+   "path": "schedule 2 › ministry CABINET SECRETARIAT › department DEPARTMENT OF PERSONNEL › group_heading IX",
+   "status": "applied"
+  },
+  {
+   "seq": 15,
+   "doc_id": "GOI_SO_162E_1972",
+   "op": "replace",
+   "source_ref": "2(6)(e)",
+   "path": "schedule 2 › ministry CABINET SECRETARIAT › department DEPARTMENT OF PERSONNEL › entry 41",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

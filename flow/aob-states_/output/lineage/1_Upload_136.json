@@ -1,0 +1,209 @@
+{
+ "file": "1_Upload_136.pdf",
+ "kind": "amendment",
+ "series": 102,
+ "date": "1973-12-15",
+ "govdoc": "aob-ammend_/output/1_Upload_136.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826688.0406327,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_136.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:54:59.217016+00:00",
+  "sha256": "6f31ecae73244aef6a19cd33f700af6dc79858c13870233a33c2d00931ea9691",
+  "pages": 6
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-12T12:35:50.159050+00:00",
+   "stamp": "369e1be6d9bfccba"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r50",
+   "at": "2026-11-15T12:42:05.527759+00:00",
+   "stamp": "0f300a5c50986618"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r51",
+   "at": "2026-11-15T12:42:07.541931+00:00",
+   "stamp": "3f956453ddeeb080"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r52",
+   "at": "2026-11-15T12:42:09.644837+00:00",
+   "stamp": "98400cf03c46ff67"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r61",
+   "at": "2026-11-15T16:24:25.419225+00:00",
+   "stamp": "caa6f9cb7806aea8",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r62",
+   "at": "2026-11-15T16:24:26.926074+00:00",
+   "stamp": "ec2d81a1abc720c4",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r63",
+   "at": "2026-11-15T16:24:28.470445+00:00",
+   "stamp": "53b2718f4a4576d7",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r69",
+   "at": "2026-11-15T16:57:27.848242+00:00",
+   "stamp": "20ad00609415e4d5"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r70",
+   "at": "2026-11-15T17:03:29.907225+00:00",
+   "stamp": "05154915da629072"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r75",
+   "at": "2026-11-16T10:58:08.013748+00:00",
+   "stamp": "179a003f4bd3ade4"
+  }
+ ],
+ "reviews": [],
+ "issues": [
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 9: its quoted text runs across a page break",
+   "target": "r63.rel9",
+   "status": "open"
+  }
+ ],
+ "problems": [],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_784E_1973",
+   "op": "insert",
+   "source_ref": "2",
+   "path": "schedule 1 › entry 1 › item iv",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_784E_1973",
+   "op": "replace",
+   "source_ref": "3(1)",
+   "path": "schedule 2 › ministry MINISTRY OF AGRICULTURE › department DEPARTMENT OF AGRICULTURE › entry 9",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_784E_1973",
+   "op": "omit",
+   "source_ref": "3(ii)",
+   "path": "schedule 2 › ministry MINISTRY OF AGRICULTURE › department DEPARTMENT OF AGRICULTURE › entry 10 ; schedule 2 › ministry MINISTRY OF AGRICULTURE › department DEPARTMENT OF AGRICULTURE › entry 13",
+   "status": "applied"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_784E_1973",
+   "op": "replace",
+   "source_ref": "3(iii)",
+   "path": "schedule 2 › ministry MINISTRY OF AGRICULTURE › department DEPARTMENT OF AGRICULTURE › entry 13A",
+   "status": "applied"
+  },
+  {
+   "seq": 5,
+   "doc_id": "GOI_SO_784E_1973",
+   "op": "replace",
+   "source_ref": "3(iv)",
+   "path": "schedule 2 › ministry MINISTRY OF AGRICULTURE › department DEPARTMENT OF AGRICULTURE › entry 15",
+   "status": "applied"
+  },
+  {
+   "seq": 6,
+   "doc_id": "GOI_SO_784E_1973",
+   "op": "replace",
+   "source_ref": "3(v)",
+   "path": "schedule 2 › ministry MINISTRY OF AGRICULTURE › department DEPARTMENT OF AGRICULTURE › entry 22",
+   "status": "applied"
+  },
+  {
+   "seq": 7,
+   "doc_id": "GOI_SO_784E_1973",
+   "op": "replace",
+   "source_ref": "3(vi)",
+   "path": "schedule 2 › ministry MINISTRY OF AGRICULTURE › department DEPARTMENT OF AGRICULTURE › entry 29",
+   "status": "applied"
+  },
+  {
+   "seq": 8,
+   "doc_id": "GOI_SO_784E_1973",
+   "op": "replace",
+   "source_ref": "3(vii)",
+   "path": "schedule 2 › ministry MINISTRY OF AGRICULTURE › department DEPARTMENT OF AGRICULTURE › entry 35",
+   "status": "applied"
+  },
+  {
+   "seq": 9,
+   "doc_id": "GOI_SO_784E_1973",
+   "op": "insert",
+   "source_ref": "3(viii)",
+   "path": "schedule 2 › ministry MINISTRY OF AGRICULTURE › department DEPARTMENT OF CO-OPERATION",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

@@ -1,0 +1,153 @@
+{
+ "file": "1_Upload_112.pdf",
+ "kind": "amendment",
+ "series": 78,
+ "date": "1970-03-10",
+ "govdoc": "aob-ammend_/output/1_Upload_112.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826690.3345222,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_112.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:54:16.422078+00:00",
+  "sha256": "94c883b3e35a4d3c415ebd647cad72895445b5e0c1ae6aa4efb8d1075b604b79",
+  "pages": 2
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-12T12:38:10.755974+00:00",
+   "stamp": "f8d199a0ed0bad6b"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r50",
+   "at": "2026-11-15T12:42:19.052870+00:00",
+   "stamp": "b2c3e0fcdd57d217"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r51",
+   "at": "2026-11-15T12:42:21.766073+00:00",
+   "stamp": "b4ee44ec04c05056"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r52",
+   "at": "2026-11-15T12:42:24.077485+00:00",
+   "stamp": "bfef63605ee60383"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r61",
+   "at": "2026-11-15T16:24:37.055753+00:00",
+   "stamp": "ffbd7b4962c0fbe5",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r62",
+   "at": "2026-11-15T16:24:39.390514+00:00",
+   "stamp": "4247efb7e63e6c7c",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r63",
+   "at": "2026-11-15T16:24:41.456244+00:00",
+   "stamp": "85d6c018f55aaaf5",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r69",
+   "at": "2026-11-15T16:57:31.114658+00:00",
+   "stamp": "2d18903c3ecd5b22"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r70",
+   "at": "2026-11-15T17:03:37.091682+00:00",
+   "stamp": "5698f18b13f91f9e"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r75",
+   "at": "2026-11-16T10:58:10.326045+00:00",
+   "stamp": "b68c247a96b34bbc"
+  }
+ ],
+ "reviews": [],
+ "issues": [],
+ "problems": [],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_1035_1970",
+   "op": "replace",
+   "source_ref": "2(a)(1)",
+   "path": "schedule 2 › ministry Ministry of Food, Agriculture, Community Development and Cooperation › department Department of Agriculture › entry 43",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_1035_1970",
+   "op": "omit",
+   "source_ref": "2(a)(ii)",
+   "path": "schedule 2 › ministry Ministry of Food, Agriculture, Community Development and Cooperation › department Department of Food › entry 16",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_1035_1970",
+   "op": "replace",
+   "source_ref": "2(b)",
+   "path": "schedule 2 › ministry Cabinet Secretariat › department Department of Statistics › entry 5",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

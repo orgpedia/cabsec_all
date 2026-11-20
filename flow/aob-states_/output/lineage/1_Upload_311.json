@@ -1,0 +1,319 @@
+{
+ "file": "1_Upload_311.pdf",
+ "kind": "amendment",
+ "series": 267,
+ "date": "2003-01-30",
+ "govdoc": "aob-ammend_/output/1_Upload_311.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826691.0681682,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_311.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:59:32.657808+00:00",
+  "sha256": "9fe12ad944e7dd252ffa1d2f589be6518735395f9ddad4875c376a07f03eb881",
+  "pages": 7
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-11T03:13:41.765961+00:00",
+   "stamp": "e4ad430efce0cac5"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r113",
+   "at": "2026-11-15T12:42:20.174991+00:00",
+   "stamp": "42efc6a9bab88d78"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r114",
+   "at": "2026-11-15T12:42:22.873411+00:00",
+   "stamp": "c8df09f628b8abb8"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r115",
+   "at": "2026-11-15T12:42:24.828822+00:00",
+   "stamp": "500d3fafcf451422"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r124",
+   "at": "2026-11-15T16:24:38.132834+00:00",
+   "stamp": "d99e9de804553277",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r125",
+   "at": "2026-11-15T16:24:40.318794+00:00",
+   "stamp": "2a621c258450d583",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r126",
+   "at": "2026-11-15T16:24:42.372572+00:00",
+   "stamp": "9099ac2abeeac211",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r132",
+   "at": "2026-11-15T16:57:31.959706+00:00",
+   "stamp": "5c02acc28f48c1d7"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r133",
+   "at": "2026-11-15T17:03:38.462130+00:00",
+   "stamp": "76f0bd5a29940ed7"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r138",
+   "at": "2026-11-16T10:58:11.037407+00:00",
+   "stamp": "8413a592b09604af"
+  }
+ ],
+ "reviews": [],
+ "issues": [
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 3: its quoted text runs across a page break",
+   "target": "r126.rel3",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 6: its quoted text runs across a page break",
+   "target": "r126.rel6",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_number_kept",
+   "severity": "info",
+   "message": "change 1: schedule 1 › ministry Ministry of Coal and Mines keeps its number 3A, the heading put for it quoted without one",
+   "target": "r126.rel1",
+   "status": "open"
+  }
+ ],
+ "problems": [
+  {
+   "series": 267,
+   "seq": 4,
+   "code": "old_path_missing",
+   "severity": "error",
+   "message": "change 4: no entry 19 under schedule 2 › ministry MINISTRY OF COMMERCE AND INDUSTRY › department C",
+   "cause": "entry_not_in_state"
+  },
+  {
+   "series": 271,
+   "seq": 3,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF COAL › entry 2 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 3,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF COAL › entry 3 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 3,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF COAL › entry 1 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 3,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF COAL › entry 4 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 3,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF COAL › entry 12 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 3,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF COAL › entry 13 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 6,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF MINES › entry 1 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 6,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF MINES › entry 2 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 6,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF MINES › entry 6 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 6,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF MINES › entry 7 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 6,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF MINES › entry 8 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 7,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry Ministry of Personnel Public Grievances and Pen sions (Karmik, lok Shikayat tatha Pension Mantralaya) › department A › group_heading III › entry 20 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  }
+ ],
+ "rules": [
+  {
+   "rule": "number_kept",
+   "seq": 1,
+   "note": "change 1: schedule 1 › ministry Ministry of Coal and Mines keeps its number 3A, the heading put for it quoted without one",
+   "status": "accepted"
+  }
+ ],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_107E_2003",
+   "op": "replace",
+   "source_ref": "2(1)(a)",
+   "path": "schedule 1 › ministry Ministry of Coal and Mines",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_107E_2003",
+   "op": "insert",
+   "source_ref": "2(1)(b)",
+   "path": "schedule 1 › ministry Ministry of Law and Justice",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_107E_2003",
+   "op": "replace",
+   "source_ref": "2(2)(A)",
+   "path": "schedule 2 › ministry MINISTRY OF COAL AND MINES",
+   "status": "applied"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_107E_2003",
+   "op": "omit",
+   "source_ref": "2(2)(B)",
+   "path": "schedule 2 › ministry MINISTRY OF COMMERCE AND INDUSTRY › department DEPARTMENT OF INDUSTRIAL POLICY AND PROMOTION › entry 19",
+   "status": "not_applied",
+   "problem": "change 4: no entry 19 under schedule 2 › ministry MINISTRY OF COMMERCE AND INDUSTRY › department C",
+   "code": "old_path_missing",
+   "cause": "entry_not_in_state",
+   "known": "entries"
+  },
+  {
+   "seq": 5,
+   "doc_id": "GOI_SO_107E_2003",
+   "op": "insert",
+   "source_ref": "2(2)(C)",
+   "path": "schedule 2 › ministry MINISTRY OF FINANCE AND COMPANY AFFAIRS › department DEPARTMENT OF ECONOMIC AFFAIRS › entry 16",
+   "status": "applied"
+  },
+  {
+   "seq": 6,
+   "doc_id": "GOI_SO_107E_2003",
+   "op": "insert",
+   "source_ref": "2(2)(D)",
+   "path": "schedule 2 › ministry MINISTRY OF LAW AND JUSTICE",
+   "status": "applied"
+  },
+  {
+   "seq": 7,
+   "doc_id": "GOI_SO_107E_2003",
+   "op": "omit",
+   "source_ref": "2(2)(E)",
+   "path": "schedule 2 › ministry MINISTRY OF PERSONNEL, PUBLIC GRIEVANCES AND PENSIONS › department DEPARTMENT OF PERSONNEL AND TRAINING › entry 20 › item a",
+   "status": "applied"
+  },
+  {
+   "seq": 8,
+   "doc_id": "GOI_SO_107E_2003",
+   "op": "insert",
+   "source_ref": "2(2)(F)",
+   "path": "schedule 2 › ministry CABINET SECRETARIAT › entry 2",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

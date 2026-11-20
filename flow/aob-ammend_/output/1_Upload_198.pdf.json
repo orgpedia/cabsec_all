@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_198.pdf",
     "sha256": "4dfbccacfba5ca6f79592226e2acf87c185d3c2954c4f67ae8e9beafd0bef8a7",
     "govdoc": "1_Upload_198.pdf.govdoc.json.zst",
-    "revision": 46
+    "revision": 70
   },
   "documents": [
     {
@@ -29,9 +29,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "3",
+          "version": "4",
           "model": "gemini-4-argon",
-          "at": "2026-11-12T13:49:13.209061+00:00"
+          "at": "2026-11-15T16:24:19.544650+00:00"
         },
         "ops": [
           {
@@ -39,7 +39,7 @@
             "source_ref": "2(a)(i)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel1",
+            "relation": "r63.rel1",
             "target": {
               "cited": [
                 {
@@ -79,7 +79,9 @@
                 "text": "Environment and Ecology, including environment in coastal waters, in mangroves and coral reefs but excluding marine environment on the high seas."
               }
             ],
-            "flags": [],
+            "flags": [
+              "states_inferred_loose"
+            ],
             "words": [
               "r1.w397",
               "r1.w405"
@@ -101,7 +103,7 @@
             "source_ref": "2(a)(ii)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r10.rel2",
+            "relation": "r63.rel2",
             "position": "after",
             "anchor": {
               "cited": [
@@ -142,7 +144,9 @@
                 "text": "Biosphere Reserve Programme“."
               }
             ],
-            "flags": [],
+            "flags": [
+              "states_inferred_loose"
+            ],
             "words": [
               "r1.w431",
               "r1.w438"
@@ -164,7 +168,7 @@
             "source_ref": "2(b)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r10.rel3",
+            "relation": "r63.rel3",
             "position": "after",
             "anchor": {
               "cited": [
@@ -227,7 +231,7 @@
             "source_ref": "2(c)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r10.rel4",
+            "relation": "r63.rel4",
             "position": "after",
             "anchor": {
               "cited": [
@@ -271,7 +275,7 @@
             "flags": [],
             "words": [
               "r1.w476",
-              "r1.w483"
+              "r1.w482"
             ],
             "boxes": [
               {
@@ -280,7 +284,7 @@
                   1414,
                   672,
                   2303,
-                  758
+                  757
                 ]
               }
             ]

@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_144.pdf",
     "sha256": "9d1ee52e4ac36e7c8a07ee2ff96aaff78d555b3f0fe8b072211f95a7946950e8",
     "govdoc": "1_Upload_144.pdf.govdoc.json.zst",
-    "revision": 46
+    "revision": 79
   },
   "documents": [
     {
@@ -29,9 +29,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "3",
+          "version": "4",
           "model": "gemini-4-argon",
-          "at": "2026-11-12T13:49:36.819652+00:00"
+          "at": "2026-11-15T16:24:42.029737+00:00"
         },
         "ops": [
           {
@@ -39,7 +39,7 @@
             "source_ref": "2(i)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel1",
+            "relation": "r71.rel1",
             "target": {
               "cited": [
                 {
@@ -111,7 +111,7 @@
             "source_ref": "2(ii)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r10.rel2",
+            "relation": "r71.rel2",
             "target": {
               "cited": [
                 {
@@ -162,7 +162,7 @@
             "source_ref": "3(a)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel3",
+            "relation": "r71.rel3",
             "target": {
               "cited": [
                 {
@@ -180,8 +180,8 @@
               ],
               "eId": null,
               "words": [
-                "r1.w273",
-                "r1.w282"
+                "r1.w271",
+                "r1.w286"
               ],
               "boxes": [
                 {
@@ -204,12 +204,24 @@
               {
                 "type": "entry",
                 "num": "1",
-                "text": "Social Security and Social Insurance. Part III For the Union territories, the following subjects which fall within List II or List III of the Seventh Schedule to the Constitution of India, in so far as they exist in regard to such territories:-"
+                "text": "Social Security and Social Insurance."
+              },
+              {
+                "type": "part",
+                "num": "III",
+                "heading": "PART III",
+                "text": "For the Union territories, the following subjects which fall within List II or List III of the Seventh Schedule to the Constitution of India, in so far as they exist in regard to such territories:-"
               },
               {
                 "type": "entry",
                 "num": "2",
-                "text": "Relief of the disabled and unemployable and measures relating to social security and social insurance, save to the extent allotted to any other Department. Part IV General and Consequential:-"
+                "text": "Relief of the disabled and unemployable and measures relating to social security and social insurance, save to the extent allotted to any other Department."
+              },
+              {
+                "type": "part",
+                "num": "IV",
+                "heading": "PART IV",
+                "text": "General and Consequential:-"
               },
               {
                 "type": "entry",
@@ -371,7 +383,7 @@
             "source_ref": "3(b)(i)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel4",
+            "relation": "r71.rel4",
             "target": {
               "cited": [
                 {
@@ -442,7 +454,7 @@
             "source_ref": "3(b)(ii)",
             "op": "renumber",
             "akn_type": "renumbering",
-            "relation": "r10.rel5",
+            "relation": "r71.rel5",
             "target": {
               "cited": [
                 {
@@ -464,14 +476,14 @@
               ],
               "eId": null,
               "words": [
-                "r1.w760",
+                "r1.w759",
                 "r1.w762"
               ],
               "boxes": [
                 {
                   "page": 3,
                   "bbox": [
-                    527,
+                    459,
                     1135,
                     783,
                     1166
@@ -502,7 +514,7 @@
             "source_ref": "3(c)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel6",
+            "relation": "r71.rel6",
             "target": {
               "cited": [
                 {
@@ -516,14 +528,14 @@
               ],
               "eId": null,
               "words": [
-                "r1.w772",
-                "r1.w778"
+                "r1.w770",
+                "r1.w782"
               ],
               "boxes": [
                 {
                   "page": 3,
                   "bbox": [
-                    471,
+                    416,
                     1180,
                     1735,
                     1251
@@ -604,7 +616,7 @@
               },
               {
                 "type": "entry",
-                "num": "8",
+                "num": "9",
                 "text": "Survey of India and National Atlas Organisation."
               },
               {
@@ -721,7 +733,7 @@
             "source_ref": "3(d)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r10.rel7",
+            "relation": "r71.rel7",
             "target": {
               "cited": [
                 {

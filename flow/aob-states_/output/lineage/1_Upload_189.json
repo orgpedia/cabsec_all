@@ -1,0 +1,202 @@
+{
+ "file": "1_Upload_189.pdf",
+ "kind": "amendment",
+ "series": 151,
+ "date": "1981-09-09",
+ "govdoc": "aob-ammend_/output/1_Upload_189.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826690.9764144,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_189.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:56:13.889675+00:00",
+  "sha256": "9e078d462fb7301ad63692db10da8f83243c0d0f41326639c00735f07ee5df35",
+  "pages": 2
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-12T12:40:11.266946+00:00",
+   "stamp": "1b5969ff0670187c"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r50",
+   "at": "2026-11-15T12:42:20.054149+00:00",
+   "stamp": "9bc7ae9a7218d1e4"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r51",
+   "at": "2026-11-15T12:42:22.718898+00:00",
+   "stamp": "59823ef7f8e695f8"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r52",
+   "at": "2026-11-15T12:42:24.750275+00:00",
+   "stamp": "b6e7105cceaf9620"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r61",
+   "at": "2026-11-15T16:24:37.953519+00:00",
+   "stamp": "188951c5b7d46f31",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r62",
+   "at": "2026-11-15T16:24:40.168719+00:00",
+   "stamp": "401f2e1eba71653b",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r63",
+   "at": "2026-11-15T16:24:42.282380+00:00",
+   "stamp": "9a45f2895a63da97",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r69",
+   "at": "2026-11-15T16:57:31.792251+00:00",
+   "stamp": "4bc383a404cec3a3"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r70",
+   "at": "2026-11-15T17:03:38.208510+00:00",
+   "stamp": "9ef53af1af22b5ec"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r75",
+   "at": "2026-11-16T10:58:10.961752+00:00",
+   "stamp": "3f3a16f9fbf5c11f"
+  }
+ ],
+ "reviews": [],
+ "issues": [
+  {
+   "code": "aob:read_quote_mismatch",
+   "severity": "error",
+   "message": "change 1: its anchor's department heading is not in the text",
+   "target": "r63.rel1",
+   "status": "open"
+  }
+ ],
+ "problems": [
+  {
+   "series": 151,
+   "seq": 3,
+   "code": "old_path_missing",
+   "severity": "error",
+   "message": "change 3: no group_heading Part III- Additional Business for Union Territories under schedule 2 › ministry MINISTRY OF HOME AFFAIRS",
+   "cause": "group_not_found"
+  },
+  {
+   "series": 151,
+   "seq": 4,
+   "code": "old_path_missing",
+   "severity": "error",
+   "message": "change 4: no group_heading Part III- Additional Business for Union Territories under schedule 2 › ministry MINISTRY OF HOME AFFAIRS",
+   "cause": "group_not_found"
+  }
+ ],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_691E_1981",
+   "op": "insert",
+   "source_ref": "2(i)",
+   "path": "schedule 2 › ministry MINISTRY OF AGRICULTURE › department DEPARTMENT OF AGRICULTURE AND COOPERATION › entry 11",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_691E_1981",
+   "op": "insert",
+   "source_ref": "2(ii)(a)",
+   "path": "schedule 2 › ministry MINISTRY OF HOME AFFAIRS › group_heading Part I-Union Subjects",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_691E_1981",
+   "op": "replace",
+   "source_ref": "2(ii)(b)(i)",
+   "path": "schedule 2 › ministry MINISTRY OF HOME AFFAIRS › group_heading Part III- Additional Business for Union Territories › item i",
+   "status": "not_applied",
+   "problem": "change 3: no group_heading Part III- Additional Business for Union Territories under schedule 2 › ministry MINISTRY OF HOME AFFAIRS",
+   "code": "old_path_missing",
+   "cause": "group_not_found",
+   "known": "home_affairs"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_691E_1981",
+   "op": "replace",
+   "source_ref": "2(ii)(b)(ii)",
+   "path": "schedule 2 › ministry MINISTRY OF HOME AFFAIRS › group_heading Part III- Additional Business for Union Territories › item iii",
+   "status": "not_applied",
+   "problem": "change 4: no group_heading Part III- Additional Business for Union Territories under schedule 2 › ministry MINISTRY OF HOME AFFAIRS",
+   "code": "old_path_missing",
+   "cause": "group_not_found",
+   "known": "home_affairs"
+  },
+  {
+   "seq": 5,
+   "doc_id": "GOI_SO_691E_1981",
+   "op": "omit",
+   "source_ref": "2(iii)",
+   "path": "schedule 2 › ministry MINISTRY OF RURAL RECONSTRUCTION › entry 14 ; schedule 2 › ministry MINISTRY OF RURAL RECONSTRUCTION › entry 15 ; schedule 2 › ministry MINISTRY OF RURAL RECONSTRUCTION › entry 16 ; schedule 2 › ministry MINISTRY OF RURAL RECONSTRUCTION › entry 17",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

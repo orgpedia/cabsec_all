@@ -1,0 +1,175 @@
+{
+ "file": "1_Upload_83.pdf",
+ "kind": "amendment",
+ "series": 50,
+ "date": "1966-05-01",
+ "govdoc": "aob-ammend_/output/1_Upload_83.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826688.453871,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_83.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T14:02:38.509364+00:00",
+  "sha256": "7956f67f9f343707113641d03982c1535fec7134f824f8450d38581b25f2e2ca",
+  "pages": 2
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-12T12:36:29.227409+00:00",
+   "stamp": "0675d2220db5b4e7"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r50",
+   "at": "2026-11-15T12:42:06.081761+00:00",
+   "stamp": "8889b9ce99000f1b"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r51",
+   "at": "2026-11-15T12:42:08.185564+00:00",
+   "stamp": "fcf91c7ea3cf5dea"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r52",
+   "at": "2026-11-15T12:42:10.079580+00:00",
+   "stamp": "debcf3d781b78faa"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r61",
+   "at": "2026-11-15T16:24:25.837881+00:00",
+   "stamp": "0e2504cb3337c1f9",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r62",
+   "at": "2026-11-15T16:24:27.394440+00:00",
+   "stamp": "a7f026dab70005c9",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r63",
+   "at": "2026-11-15T16:24:28.900969+00:00",
+   "stamp": "8afd7f0228aa8ee5",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r69",
+   "at": "2026-11-15T16:57:28.330169+00:00",
+   "stamp": "a27ec5f992415623"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r70",
+   "at": "2026-11-15T17:03:30.687787+00:00",
+   "stamp": "3c5146f065515e9f"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r75",
+   "at": "2026-11-16T10:58:08.445820+00:00",
+   "stamp": "30e7295265f34147"
+  }
+ ],
+ "reviews": [],
+ "issues": [],
+ "problems": [
+  {
+   "series": 174,
+   "seq": 1,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF LAW AND JUSTICE › department A › entry 8 reads differently in 1_Upload_212.pdf than in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  },
+  {
+   "series": 174,
+   "seq": 2,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF LAW AND JUSTICE › department B › entry 5 reads differently in 1_Upload_212.pdf than in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  },
+  {
+   "series": 174,
+   "seq": 3,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF LAW AND JUSTICE › department B › group_heading The following subjects, which fall within Lists III of the Seventh Schedule to the Constitution of India (as regards Legislation only): is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
+  }
+ ],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_1399_1966",
+   "op": "replace",
+   "source_ref": "1",
+   "path": "schedule 2 › ministry Ministry of Law › department Department of Legal Affairs › entry 8",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_1399_1966",
+   "op": "replace",
+   "source_ref": "2(i)",
+   "path": "schedule 2 › ministry Ministry of Law › department Legislative Department › entry 5",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_1399_1966",
+   "op": "omit",
+   "source_ref": "2(ii)",
+   "path": "schedule 2 › ministry Ministry of Law › department Legislative Department › entry 14",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

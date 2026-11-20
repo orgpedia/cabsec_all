@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_183.pdf",
     "sha256": "49fe3f6c4350248a266fac6ef5f36cdd7ccf45c19eae32bf37d79ef5a1357f71",
     "govdoc": "1_Upload_183.pdf.govdoc.json.zst",
-    "revision": 46
+    "revision": 70
   },
   "documents": [
     {
@@ -29,9 +29,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "3",
+          "version": "4",
           "model": "gemini-4-argon",
-          "at": "2026-11-12T13:49:06.827406+00:00"
+          "at": "2026-11-15T16:24:10.860016+00:00"
         },
         "ops": [
           {
@@ -39,7 +39,7 @@
             "source_ref": "2(A)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel1",
+            "relation": "r63.rel1",
             "target": {
               "cited": [
                 {
@@ -55,13 +55,13 @@
                   "heading": "Department of Food"
                 },
                 {
-                  "type": "group_heading",
-                  "heading": "III"
+                  "type": "item",
+                  "num": "III"
                 }
               ],
               "eId": null,
               "words": [
-                "r1.w1508",
+                "r1.w1507",
                 "r1.w1513"
               ],
               "boxes": [
@@ -105,7 +105,7 @@
             "source_ref": "2(B)(i)(a)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel2",
+            "relation": "r63.rel2",
             "target": {
               "cited": [
                 {
@@ -118,7 +118,7 @@
                 },
                 {
                   "type": "department",
-                  "heading": "Department of Commerce"
+                  "heading": "Department of Com- merce"
                 },
                 {
                   "type": "entry",
@@ -127,14 +127,14 @@
               ],
               "eId": null,
               "words": [
-                "r1.w1570",
+                "r1.w1569",
                 "r1.w1571"
               ],
               "boxes": [
                 {
                   "page": 3,
                   "bbox": [
-                    412,
+                    356,
                     2819,
                     531,
                     2856
@@ -149,7 +149,9 @@
                 "text": "International Agencies connected with commercial policy (e.g. UNCTAD, ECAFE ECA, ECIA, EEC, EFTA, GATT)"
               }
             ],
-            "flags": [],
+            "flags": [
+              "states_inferred_loose"
+            ],
             "words": [
               "r1.w1568",
               "r1.w1577"
@@ -171,7 +173,7 @@
             "source_ref": "2(B)(i)(b)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel3",
+            "relation": "r63.rel3",
             "target": {
               "cited": [
                 {
@@ -184,27 +186,23 @@
                 },
                 {
                   "type": "department",
-                  "heading": "Department of Commerce"
+                  "heading": "Department of Com- merce"
                 },
                 {
                   "type": "entry",
-                  "num": "8"
-                },
-                {
-                  "type": "item",
-                  "num": "i"
+                  "num": "8(i)"
                 }
               ],
               "eId": null,
               "words": [
-                "r1.w1598",
+                "r1.w1597",
                 "r1.w1599"
               ],
               "boxes": [
                 {
                   "page": 3,
                   "bbox": [
-                    420,
+                    358,
                     3061,
                     578,
                     3094
@@ -224,7 +222,9 @@
                 "text": "State Trading Corporation and its subsidiaries excluding Handicrafts and Handlooms Export Corporation and Central Cottage Industries Corporation."
               }
             ],
-            "flags": [],
+            "flags": [
+              "states_inferred_loose"
+            ],
             "words": [
               "r1.w1596",
               "r1.w1605"
@@ -246,7 +246,7 @@
             "source_ref": "2(B)(i)(c)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel4",
+            "relation": "r63.rel4",
             "target": {
               "cited": [
                 {
@@ -259,7 +259,7 @@
                 },
                 {
                   "type": "department",
-                  "heading": "Department of Commerce"
+                  "heading": "Department of Com- merce"
                 },
                 {
                   "type": "entry",
@@ -268,14 +268,14 @@
               ],
               "eId": null,
               "words": [
-                "r1.w1631",
+                "r1.w1630",
                 "r1.w1632"
               ],
               "boxes": [
                 {
                   "page": 3,
                   "bbox": [
-                    1515,
+                    1454,
                     422,
                     1656,
                     453
@@ -290,7 +290,9 @@
                 "text": "International Custom Tariff Bureau including residuary work relating to Tariff Commission"
               }
             ],
-            "flags": [],
+            "flags": [
+              "states_inferred_loose"
+            ],
             "words": [
               "r1.w1629",
               "r1.w1638"
@@ -312,7 +314,7 @@
             "source_ref": "2(B)(i)(d)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel5",
+            "relation": "r63.rel5",
             "target": {
               "cited": [
                 {
@@ -325,27 +327,23 @@
                 },
                 {
                   "type": "department",
-                  "heading": "Department of Commerce"
+                  "heading": "Department of Com- merce"
                 },
                 {
                   "type": "entry",
-                  "num": "12"
-                },
-                {
-                  "type": "item",
-                  "num": "d"
+                  "num": "12(d)"
                 }
               ],
               "eId": null,
               "words": [
-                "r1.w1657",
+                "r1.w1656",
                 "r1.w1658"
               ],
               "boxes": [
                 {
                   "page": 3,
                   "bbox": [
-                    1507,
+                    1451,
                     674,
                     1687,
                     705
@@ -365,7 +363,9 @@
                 "text": "Trade Fair Authority of India"
               }
             ],
-            "flags": [],
+            "flags": [
+              "states_inferred_loose"
+            ],
             "words": [
               "r1.w1655",
               "r1.w1664"
@@ -387,7 +387,7 @@
             "source_ref": "2(B)(i)(a)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel6",
+            "relation": "r63.rel6",
             "target": [
               {
                 "cited": [
@@ -410,14 +410,14 @@
                 ],
                 "eId": null,
                 "words": [
-                  "r1.w1685",
+                  "r1.w1684",
                   "r1.w1686"
                 ],
                 "boxes": [
                   {
                     "page": 3,
                     "bbox": [
-                      1521,
+                      1457,
                       945,
                       1653,
                       979
@@ -496,7 +496,7 @@
             "source_ref": "2(B)(i)(b)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r10.rel7",
+            "relation": "r63.rel7",
             "position": "after",
             "anchor": {
               "cited": [
@@ -519,14 +519,14 @@
               ],
               "eId": null,
               "words": [
-                "r1.w1756",
+                "r1.w1755",
                 "r1.w1757"
               ],
               "boxes": [
                 {
                   "page": 3,
                   "bbox": [
-                    1555,
+                    1460,
                     1532,
                     1696,
                     1563
@@ -568,7 +568,7 @@
             "source_ref": "2(C)(a)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r10.rel8",
+            "relation": "r63.rel8",
             "target": {
               "cited": [
                 {
@@ -581,7 +581,7 @@
                 },
                 {
                   "type": "department",
-                  "heading": "Department of Expenditure"
+                  "heading": "De- partment of Expenditure"
                 },
                 {
                   "type": "entry",
@@ -627,7 +627,7 @@
             "source_ref": "2(C)(b)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel9",
+            "relation": "r63.rel9",
             "target": {
               "cited": [
                 {
@@ -640,7 +640,7 @@
                 },
                 {
                   "type": "department",
-                  "heading": "Department of Expenditure"
+                  "heading": "De- partment of Expenditure"
                 },
                 {
                   "type": "entry",
@@ -649,14 +649,14 @@
               ],
               "eId": null,
               "words": [
-                "r1.w1802",
+                "r1.w1801",
                 "r1.w1803"
               ],
               "boxes": [
                 {
                   "page": 3,
                   "bbox": [
-                    1520,
+                    1458,
                     1951,
                     1670,
                     1982
@@ -730,7 +730,7 @@
             "source_ref": "2(C)(c)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel10",
+            "relation": "r63.rel10",
             "target": {
               "cited": [
                 {
@@ -743,7 +743,7 @@
                 },
                 {
                   "type": "department",
-                  "heading": "Department of Expenditure"
+                  "heading": "De- partment of Expenditure"
                 },
                 {
                   "type": "entry",
@@ -752,14 +752,14 @@
               ],
               "eId": null,
               "words": [
-                "r1.w2007",
+                "r1.w2006",
                 "r1.w2008"
               ],
               "boxes": [
                 {
                   "page": 4,
                   "bbox": [
-                    506,
+                    450,
                     608,
                     626,
                     641
@@ -796,7 +796,7 @@
             "source_ref": "2(C)(d)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r10.rel11",
+            "relation": "r63.rel11",
             "target": {
               "cited": [
                 {
@@ -809,7 +809,7 @@
                 },
                 {
                   "type": "department",
-                  "heading": "Department of Expenditure"
+                  "heading": "De- partment of Expenditure"
                 },
                 {
                   "type": "entry",
@@ -855,7 +855,7 @@
             "source_ref": "2(C)(e)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel12",
+            "relation": "r63.rel12",
             "target": {
               "cited": [
                 {
@@ -868,7 +868,7 @@
                 },
                 {
                   "type": "department",
-                  "heading": "Department of Expenditure"
+                  "heading": "De- partment of Expenditure"
                 },
                 {
                   "type": "entry",
@@ -877,14 +877,14 @@
               ],
               "eId": null,
               "words": [
-                "r1.w2051",
+                "r1.w2050",
                 "r1.w2052"
               ],
               "boxes": [
                 {
                   "page": 4,
                   "bbox": [
-                    519,
+                    454,
                     954,
                     662,
                     985
@@ -921,7 +921,7 @@
             "source_ref": "2(D)(a)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel13",
+            "relation": "r63.rel13",
             "target": {
               "cited": [
                 {
@@ -939,17 +939,17 @@
               ],
               "eId": null,
               "words": [
-                "r1.w2080",
+                "r1.w2079",
                 "r1.w2081"
               ],
               "boxes": [
                 {
                   "page": 4,
                   "bbox": [
-                    511,
+                    453,
                     1266,
                     632,
-                    1298
+                    1299
                   ]
                 }
               ]
@@ -998,7 +998,7 @@
             "source_ref": "2(D)(b)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel14",
+            "relation": "r63.rel14",
             "target": {
               "cited": [
                 {
@@ -1016,14 +1016,14 @@
               ],
               "eId": null,
               "words": [
-                "r1.w2180",
+                "r1.w2179",
                 "r1.w2181"
               ],
               "boxes": [
                 {
                   "page": 4,
                   "bbox": [
-                    516,
+                    458,
                     2030,
                     634,
                     2060
@@ -1060,7 +1060,7 @@
             "source_ref": "2(D)(c)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel15",
+            "relation": "r63.rel15",
             "target": {
               "cited": [
                 {
@@ -1078,14 +1078,14 @@
               ],
               "eId": null,
               "words": [
-                "r1.w2196",
+                "r1.w2195",
                 "r1.w2197"
               ],
               "boxes": [
                 {
                   "page": 4,
                   "bbox": [
-                    514,
+                    457,
                     2195,
                     631,
                     2230
@@ -1122,7 +1122,7 @@
             "source_ref": "2(D)(d)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r10.rel16",
+            "relation": "r63.rel16",
             "target": {
               "cited": [
                 {
@@ -1177,7 +1177,7 @@
             "source_ref": "2(D)(e)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel17",
+            "relation": "r63.rel17",
             "target": {
               "cited": [
                 {
@@ -1195,14 +1195,14 @@
               ],
               "eId": null,
               "words": [
-                "r1.w2242",
+                "r1.w2241",
                 "r1.w2243"
               ],
               "boxes": [
                 {
                   "page": 4,
                   "bbox": [
-                    524,
+                    459,
                     2591,
                     667,
                     2625
@@ -1239,7 +1239,7 @@
             "source_ref": "2(D)(f)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel18",
+            "relation": "r63.rel18",
             "target": {
               "cited": [
                 {
@@ -1257,14 +1257,14 @@
               ],
               "eId": null,
               "words": [
-                "r1.w2273",
+                "r1.w2272",
                 "r1.w2274"
               ],
               "boxes": [
                 {
                   "page": 4,
                   "bbox": [
-                    526,
+                    462,
                     2884,
                     672,
                     2922
@@ -1303,7 +1303,7 @@
             "source_ref": "2(D)(g)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel19",
+            "relation": "r63.rel19",
             "target": {
               "cited": [
                 {
@@ -1321,14 +1321,14 @@
               ],
               "eId": null,
               "words": [
-                "r1.w2350",
+                "r1.w2349",
                 "r1.w2351"
               ],
               "boxes": [
                 {
                   "page": 4,
                   "bbox": [
-                    1619,
+                    1555,
                     628,
                     1764,
                     660
@@ -1365,7 +1365,7 @@
             "source_ref": "2(D)(h)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel20",
+            "relation": "r63.rel20",
             "target": {
               "cited": [
                 {
@@ -1383,14 +1383,14 @@
               ],
               "eId": null,
               "words": [
-                "r1.w2385",
+                "r1.w2384",
                 "r1.w2386"
               ],
               "boxes": [
                 {
                   "page": 4,
                   "bbox": [
-                    1624,
+                    1561,
                     921,
                     1767,
                     956
@@ -1427,7 +1427,7 @@
             "source_ref": "2(D)(i)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r10.rel21",
+            "relation": "r63.rel21",
             "target": {
               "cited": [
                 {
@@ -1482,7 +1482,7 @@
             "source_ref": "2(D)(j)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel22",
+            "relation": "r63.rel22",
             "target": {
               "cited": [
                 {
@@ -1500,14 +1500,14 @@
               ],
               "eId": null,
               "words": [
-                "r1.w2427",
+                "r1.w2426",
                 "r1.w2428"
               ],
               "boxes": [
                 {
                   "page": 4,
                   "bbox": [
-                    1617,
+                    1563,
                     1268,
                     1750,
                     1301
@@ -1544,7 +1544,7 @@
             "source_ref": "2(D)(k)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel23",
+            "relation": "r63.rel23",
             "target": {
               "cited": [
                 {
@@ -1562,14 +1562,14 @@
               ],
               "eId": null,
               "words": [
-                "r1.w2446",
+                "r1.w2445",
                 "r1.w2447"
               ],
               "boxes": [
                 {
                   "page": 4,
                   "bbox": [
-                    1627,
+                    1560,
                     1430,
                     1768,
                     1460
@@ -1606,7 +1606,7 @@
             "source_ref": "2(D)(1)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel24",
+            "relation": "r63.rel24",
             "target": {
               "cited": [
                 {
@@ -1624,14 +1624,14 @@
               ],
               "eId": null,
               "words": [
-                "r1.w2464",
+                "r1.w2463",
                 "r1.w2465"
               ],
               "boxes": [
                 {
                   "page": 4,
                   "bbox": [
-                    1621,
+                    1561,
                     1592,
                     1782,
                     1624
@@ -1668,7 +1668,7 @@
             "source_ref": "2(D)(m)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel25",
+            "relation": "r63.rel25",
             "target": {
               "cited": [
                 {
@@ -1686,14 +1686,14 @@
               ],
               "eId": null,
               "words": [
-                "r1.w2492",
+                "r1.w2491",
                 "r1.w2493"
               ],
               "boxes": [
                 {
                   "page": 4,
                   "bbox": [
-                    1625,
+                    1566,
                     1863,
                     1793,
                     1893
@@ -1730,7 +1730,7 @@
             "source_ref": "2(D)(n)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r10.rel26",
+            "relation": "r63.rel26",
             "target": {
               "cited": [
                 {
@@ -1785,7 +1785,7 @@
             "source_ref": "2(D)(0)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r10.rel27",
+            "relation": "r63.rel27",
             "position": "after",
             "anchor": {
               "cited": [
@@ -1804,14 +1804,14 @@
               ],
               "eId": null,
               "words": [
-                "r1.w2547",
+                "r1.w2546",
                 "r1.w2548"
               ],
               "boxes": [
                 {
                   "page": 4,
                   "bbox": [
-                    1650,
+                    1570,
                     2323,
                     1782,
                     2355

@@ -1,0 +1,253 @@
+{
+ "file": "1_Upload_275.pdf",
+ "kind": "amendment",
+ "series": 234,
+ "date": "1997-01-13",
+ "govdoc": "aob-ammend_/output/1_Upload_275.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826689.0721443,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_275.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:58:30.963448+00:00",
+  "sha256": "8a6dea75836317de09ce6c72c14faac058f7ea0340586f85d25e05e71f7f9d79",
+  "pages": 4
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-11T03:07:38.581657+00:00",
+   "stamp": "dd29ea442e114eb6"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r113",
+   "at": "2026-11-15T12:42:06.981296+00:00",
+   "stamp": "6e5f21d08b317249"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r114",
+   "at": "2026-11-15T12:42:09.150227+00:00",
+   "stamp": "0d535e8149e53629"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r115",
+   "at": "2026-11-15T12:42:10.730304+00:00",
+   "stamp": "faf3db6f7581e92e"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r124",
+   "at": "2026-11-15T16:24:26.548104+00:00",
+   "stamp": "3b7374eba957f749",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r125",
+   "at": "2026-11-15T16:24:28.091988+00:00",
+   "stamp": "97dba0886c2eefc1",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r126",
+   "at": "2026-11-15T16:24:29.588355+00:00",
+   "stamp": "7b3f2bf358cb3bb9",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r132",
+   "at": "2026-11-15T16:57:29.030787+00:00",
+   "stamp": "21247f30ab7d75cf"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r133",
+   "at": "2026-11-15T17:03:31.857268+00:00",
+   "stamp": "6241440681183106"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r138",
+   "at": "2026-11-16T10:58:09.038368+00:00",
+   "stamp": "673ec648e956ea47"
+  }
+ ],
+ "reviews": [],
+ "issues": [
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 5: its quoted text runs across a page break",
+   "target": "r126.rel5",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
+   "message": "change 6: ministry MINISTRY OF RAILWAYS (RAIL MANTRALAYA) RAILWAY BOARD taken for ministry Ministry of Railways (Rail Mantralaya), Kailway Board (Rail Board), named loosely",
+   "target": "r126.rel6",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
+   "message": "change 7: department DEPARTMENT OF URBAN EMPLOYMENT AND POVERTY ALLEVIATON taken for department DEPARTMENT OF URBAN EMPLOYMENT AND POVERTY ALLEVATION, named loosely",
+   "target": "r126.rel7",
+   "status": "open"
+  }
+ ],
+ "problems": [
+  {
+   "series": 271,
+   "seq": 4,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF PARLIAMENTARY AFFAIRS › entry 19 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 4,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF PARLIAMENTARY AFFAIRS › entry 20 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 4,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF PARLIAMENTARY AFFAIRS › entry 21 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 4,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF PARLIAMENTARY AFFAIRS › entry 22 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  }
+ ],
+ "rules": [
+  {
+   "rule": "loose",
+   "seq": 6,
+   "note": "change 6: ministry MINISTRY OF RAILWAYS (RAIL MANTRALAYA) RAILWAY BOARD taken for ministry Ministry of Railways (Rail Mantralaya), Kailway Board (Rail Board), named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "loose",
+   "seq": 7,
+   "note": "change 7: department DEPARTMENT OF URBAN EMPLOYMENT AND POVERTY ALLEVIATON taken for department DEPARTMENT OF URBAN EMPLOYMENT AND POVERTY ALLEVATION, named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  }
+ ],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_39E_1997",
+   "op": "replace",
+   "source_ref": "2(A)(i)",
+   "path": "schedule 2 › ministry MINISTRY OF DEFENCE › department DEPARTMENT OF DEFENCE › entry 4 ; schedule 2 › ministry MINISTRY OF DEFENCE › department DEPARTMENT OF DEFENCE › entry 5",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_39E_1997",
+   "op": "insert",
+   "source_ref": "2(A)(ii)",
+   "path": "schedule 2 › ministry MINISTRY OF DEFENCE › department DEPARTMENT OF DEFENCE › entry 17",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_39E_1997",
+   "op": "insert",
+   "source_ref": "2(B)",
+   "path": "schedule 2 › ministry MINISTRY OF INDUSTRY › department DEPARTMENT OF SMALL SCALE INDUSTRIES AND AGRO AND RURAL INDUSTRIES › entry 5",
+   "status": "applied"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_39E_1997",
+   "op": "insert",
+   "source_ref": "2(C)",
+   "path": "schedule 2 › ministry MINISTRY OF PARLIAMENTARY AFFAIRS › entry 18",
+   "status": "applied"
+  },
+  {
+   "seq": 5,
+   "doc_id": "GOI_SO_39E_1997",
+   "op": "replace",
+   "source_ref": "2(D)",
+   "path": "schedule 2 › ministry MINISTRY OF PLANNING AND PROGRAMME IMPLEMENTATION › department DEPARTMENT OF STATISTICS",
+   "status": "applied"
+  },
+  {
+   "seq": 6,
+   "doc_id": "GOI_SO_39E_1997",
+   "op": "replace",
+   "source_ref": "2(E)",
+   "path": "schedule 2 › ministry MINISTRY OF RAILWAYS (RAIL MANTRALAYA) RAILWAY BOARD › entry 2",
+   "status": "applied"
+  },
+  {
+   "seq": 7,
+   "doc_id": "GOI_SO_39E_1997",
+   "op": "replace",
+   "source_ref": "2(F)",
+   "path": "schedule 2 › ministry MINISTRY OF URBAN AFFAIRS AND EMPLOYMENT › department DEPARTMENT OF URBAN EMPLOYMENT AND POVERTY ALLEVIATON › entry 5",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_359.pdf",
     "sha256": "63be9ca2ac189dcb01f585ea4d39217ada490f196630663ab891bc33cff0b426",
     "govdoc": "1_Upload_359.pdf.govdoc.json.zst",
-    "revision": 188
+    "revision": 212
   },
   "documents": [
     {
@@ -29,9 +29,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "3",
+          "version": "4",
           "model": "gemini-4-argon",
-          "at": "2026-11-12T12:55:59.055441+00:00"
+          "at": "2026-11-15T16:24:20.192785+00:00"
         },
         "ops": [
           {
@@ -39,7 +39,7 @@
             "source_ref": "2(a)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r152.rel1",
+            "relation": "r205.rel1",
             "target": [
               {
                 "cited": [
@@ -128,7 +128,7 @@
             "source_ref": "2(b)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r152.rel2",
+            "relation": "r205.rel2",
             "target": [
               {
                 "cited": [
@@ -225,7 +225,7 @@
             "source_ref": "2(c)(i)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r152.rel3",
+            "relation": "r205.rel3",
             "target": {
               "cited": [
                 {
@@ -268,7 +268,7 @@
             "flags": [],
             "words": [
               "r51.w427",
-              "r51.w436"
+              "r51.w437"
             ],
             "boxes": [
               {
@@ -276,7 +276,7 @@
                 "bbox": [
                   532,
                   2009,
-                  1618,
+                  1825,
                   2050
                 ]
               }
@@ -287,7 +287,7 @@
             "source_ref": "2(c)(ii)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r152.rel4",
+            "relation": "r205.rel4",
             "position": "after",
             "anchor": {
               "cited": [
@@ -346,7 +346,7 @@
             "flags": [],
             "words": [
               "r51.w450",
-              "r51.w460"
+              "r51.w465"
             ],
             "boxes": [
               {
@@ -354,8 +354,8 @@
                 "bbox": [
                   532,
                   2200,
-                  1771,
-                  2241
+                  2248,
+                  2294
                 ]
               }
             ]

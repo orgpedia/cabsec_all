@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_219.pdf",
     "sha256": "e4662d759c64dbf0d36125ddefb7aec61c081ad2cab9d4a751bed0abb6379cb4",
     "govdoc": "1_Upload_219.pdf.govdoc.json.zst",
-    "revision": 114
+    "revision": 138
   },
   "documents": [
     {
@@ -18,20 +18,20 @@
           "value": "S.O. 76(E)"
         },
         "in_force": {
-          "value": null
+          "value": "1986-02-27"
         }
       },
       "amendment": {
         "schema_version": "1.0",
         "in_force": {
-          "date": null,
-          "basis": null
+          "date": "1986-02-27",
+          "basis": "at_once"
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "3",
+          "version": "4",
           "model": "gemini-4-argon",
-          "at": "2026-11-12T12:57:19.185253+00:00"
+          "at": "2026-11-15T16:25:07.865064+00:00"
         },
         "ops": [
           {
@@ -39,7 +39,7 @@
             "source_ref": "2(1)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r78.rel1",
+            "relation": "r131.rel1",
             "position": "after",
             "anchor": {
               "cited": [
@@ -103,7 +103,7 @@
             "source_ref": "2(2)(i)(a)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r78.rel2",
+            "relation": "r131.rel2",
             "target": {
               "cited": [
                 {
@@ -116,7 +116,7 @@
                 },
                 {
                   "type": "department",
-                  "heading": "DEPARTMENT OF SCIENCE AND TECHNOLOGY"
+                  "heading": "DEPART- MENT OF SCIENCE AND TECH- NOLOGY"
                 },
                 {
                   "type": "entry",
@@ -140,10 +140,12 @@
                 }
               ]
             },
-            "flags": [],
+            "flags": [
+              "states_inferred_loose"
+            ],
             "words": [
               "r1.w765",
-              "r1.w776"
+              "r1.w774"
             ],
             "boxes": [
               {
@@ -152,7 +154,7 @@
                   1483,
                   1468,
                   2288,
-                  1588
+                  1543
                 ]
               }
             ]
@@ -162,7 +164,7 @@
             "source_ref": "2(2)(i)(b)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r78.rel3",
+            "relation": "r131.rel3",
             "position": "after",
             "anchor": {
               "cited": [
@@ -176,7 +178,7 @@
                 },
                 {
                   "type": "department",
-                  "heading": "DEPARTMENT OF SCIENTIFIC AND INDUSTRIAL RESEARCH"
+                  "heading": "DEPART- MENT OF SCIENTIFIC AND IN - DUSTRIAL RESEARCH"
                 }
               ],
               "eId": null,
@@ -200,8 +202,13 @@
               {
                 "type": "department",
                 "num": "C",
-                "heading": "DEPARTMENT or BIO. TECHNOLOGY 1 To evolve integrated plans and programme ur biotechnology.",
+                "heading": "DEPARTMENT or BIO. TECHNOLOGY",
                 "heading_hi": "BIOTECHNO. I OGY VIBHAG"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "To evolve integrated plans and programme ur biotechnology."
               },
               {
                 "type": "entry",
@@ -241,7 +248,7 @@
               {
                 "type": "entry",
                 "num": "9",
-                "text": "To evolve programmes of manpower development in the areas of biotechnology where there are gaps incompetence."
+                "text": "To evolve programmes of manpower development in the areas of biotechnology where there are gaps incompetence. FRINTED BY THE MANAGER, GOVT. OF"
               },
               {
                 "type": "entry",
@@ -260,7 +267,23 @@
               }
             ],
             "flags": [
-              "read_page_break"
+              "read_page_break",
+              "states_inferred_loose"
+            ],
+            "words": [
+              "r1.w787",
+              "r1.w796"
+            ],
+            "boxes": [
+              {
+                "page": 2,
+                "bbox": [
+                  1487,
+                  1720,
+                  2286,
+                  1796
+                ]
+              }
             ]
           }
         ]

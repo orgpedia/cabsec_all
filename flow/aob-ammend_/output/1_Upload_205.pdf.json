@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_205.pdf",
     "sha256": "c12cb39d7b86135e0f59714073d6774b2388a446678eb8daaeea6fd5684987e5",
     "govdoc": "1_Upload_205.pdf.govdoc.json.zst",
-    "revision": 46
+    "revision": 70
   },
   "documents": [
     {
@@ -29,9 +29,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "3",
+          "version": "4",
           "model": "gemini-4-argon",
-          "at": "2026-11-12T13:49:50.902404+00:00"
+          "at": "2026-11-15T16:24:54.893292+00:00"
         },
         "ops": [
           {
@@ -39,7 +39,7 @@
             "source_ref": "2(a)(i)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r10.rel1",
+            "relation": "r63.rel1",
             "position": "after",
             "anchor": {
               "cited": [
@@ -99,7 +99,7 @@
             ],
             "words": [
               "r1.w2330",
-              "r1.w2336"
+              "r1.w2338"
             ],
             "boxes": [
               {
@@ -108,7 +108,7 @@
                   347,
                   2984,
                   1192,
-                  3043
+                  3078
                 ]
               }
             ]
@@ -118,7 +118,7 @@
             "source_ref": "2(a)(ii)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r10.rel2",
+            "relation": "r63.rel2",
             "target": {
               "cited": [
                 {
@@ -147,11 +147,11 @@
                 }
               ]
             },
-            "expect": "30. Department of Per- sonnel and Administrative Reforms (Karmik aur Prashasanik Sudhar Vibhag)",
+            "expect": "30. Department of Personnel and Administrative Reforms (Karmik aur Prashasanik Sudhar Vibhag)",
             "flags": [],
             "words": [
               "r1.w2423",
-              "r1.w2429"
+              "r1.w2433"
             ],
             "boxes": [
               {
@@ -160,7 +160,7 @@
                   1406,
                   1061,
                   2257,
-                  1106
+                  1144
                 ]
               }
             ]
@@ -170,7 +170,7 @@
             "source_ref": "2(b)(i)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r10.rel3",
+            "relation": "r63.rel3",
             "position": "after",
             "anchor": {
               "cited": [
@@ -609,7 +609,7 @@
               {
                 "type": "item",
                 "num": "e",
-                "text": "Other matters involving \"Government Em- B. DEPARTMENT OF ADMINISTRATIVE RE- ployees relations not specifically provided for under any other entry relating to the Department."
+                "text": "Other matters involving \"Government Employees relations not specifically provided for under any other entry relating to the Department."
               },
               {
                 "type": "group_heading",
@@ -724,7 +724,13 @@
               {
                 "type": "item",
                 "num": "d",
-                "text": "Other matters relating to State Services affected by the re-organisation of States. PRINTED BY THE MANAGER, GOVT. OF INDIA FORMS AND PUBLIC GRIEVANCES (PRA- SHASNIK SUDHAR AUR LOK SHIKAYAT VIBHAG)"
+                "text": "Other matters relating to State Services affected by the re-organisation of States."
+              },
+              {
+                "type": "department",
+                "num": "B",
+                "heading": "DEPARTMENT OF ADMINISTRATIVE RE- FORMS AND PUBLIC GRIEVANCES",
+                "heading_hi": "PRA- SHASNIK SUDHAR AUR LOK SHIKAYAT VIBHAG"
               },
               {
                 "type": "entry",
@@ -788,7 +794,7 @@
             ],
             "words": [
               "r1.w2449",
-              "r1.w2448"
+              "r1.w2455"
             ],
             "boxes": [
               {
@@ -797,7 +803,7 @@
                   1419,
                   1352,
                   2261,
-                  1395
+                  1436
                 ]
               }
             ]
@@ -807,7 +813,7 @@
             "source_ref": "2(b)(ii)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r10.rel4",
+            "relation": "r63.rel4",
             "target": {
               "cited": [
                 {
@@ -836,11 +842,11 @@
                 }
               ]
             },
-            "expect": "DEPARTMENT OF PER- SONNEL AND ADMINISTRATIVE RE- . FORMS (KARMIK AUR PRASHASANIK SUDHAR VIBHAG)",
+            "expect": "DEPARTMENT OF PERSONNEL AND ADMINISTRATIVE RE- . FORMS (KARMIK AUR PRASHASANIK SUDHAR VIBHAG)",
             "flags": [],
             "words": [
               "r1.w4385",
-              "r1.w4390"
+              "r1.w4393"
             ],
             "boxes": [
               {
@@ -849,7 +855,7 @@
                   1344,
                   2404,
                   2258,
-                  2454
+                  2495
                 ]
               }
             ]

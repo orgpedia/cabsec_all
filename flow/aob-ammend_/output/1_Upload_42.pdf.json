@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_42.pdf",
     "sha256": "c2f44228c727c3714d07628a5b5de7d7d965314dad5468594b8f25ac841be4d1",
     "govdoc": "1_Upload_42.pdf.govdoc.json.zst",
-    "revision": 46
+    "revision": 70
   },
   "documents": [
     {
@@ -29,9 +29,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "3",
+          "version": "4",
           "model": "gemini-4-argon",
-          "at": "2026-11-12T13:49:51.546510+00:00"
+          "at": "2026-11-15T16:24:55.265613+00:00"
         },
         "ops": [
           {
@@ -39,7 +39,7 @@
             "source_ref": "(1)(a)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r10.rel1",
+            "relation": "r63.rel1",
             "position": "after",
             "anchor": {
               "cited": [
@@ -105,7 +105,7 @@
             "source_ref": "(1)(b)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r10.rel2",
+            "relation": "r63.rel2",
             "target": {
               "cited": [
                 {
@@ -164,7 +164,7 @@
             "source_ref": "(2)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel3",
+            "relation": "r63.rel3",
             "target": {
               "cited": [
                 {
@@ -226,7 +226,7 @@
             "source_ref": "(3)(a)(1)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel4",
+            "relation": "r63.rel4",
             "target": {
               "cited": [
                 {
@@ -292,7 +292,7 @@
             "source_ref": "(3)(a)(li)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r10.rel5",
+            "relation": "r63.rel5",
             "target": [
               {
                 "cited": [
@@ -396,7 +396,7 @@
             "source_ref": "(3)(b)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r10.rel6",
+            "relation": "r63.rel6",
             "target": {
               "cited": [
                 {
@@ -455,7 +455,7 @@
             "source_ref": "(3)(c)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r10.rel7",
+            "relation": "r63.rel7",
             "position": "after",
             "anchor": {
               "cited": [
@@ -557,7 +557,7 @@
             "source_ref": "(4)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel8",
+            "relation": "r63.rel8",
             "target": {
               "cited": [
                 {
@@ -623,7 +623,7 @@
             "source_ref": "(5)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r10.rel9",
+            "relation": "r63.rel9",
             "position": "after",
             "anchor": {
               "cited": [
@@ -695,7 +695,7 @@
             "source_ref": "(6)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel10",
+            "relation": "r63.rel10",
             "target": {
               "cited": [
                 {
@@ -886,7 +886,7 @@
             "source_ref": "(7)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r10.rel11",
+            "relation": "r63.rel11",
             "position": "after",
             "anchor": {
               "cited": [
@@ -953,7 +953,7 @@
             "source_ref": "(8)(a)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel12",
+            "relation": "r63.rel12",
             "target": {
               "cited": [
                 {
@@ -1019,7 +1019,7 @@
             "source_ref": "(8)(b)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel13",
+            "relation": "r63.rel13",
             "target": {
               "cited": [
                 {
@@ -1054,12 +1054,12 @@
             },
             "content": [
               {
-                "type": "entry",
+                "type": "note",
                 "num": "1",
                 "text": "As regards rehabilitation matters in States, the Central Government is concerned mainly with questions of policy in respect of the subjects marked with an asterisk and is not directly concerned with administrative and executive details which are the functions of the State Governments, except where camps, rehabilitation colonles, educational institutions, training centres, etc., are directly administered by the Central Government. THE GAZETTE OF INDIA EXTRAORDINARY [PART II-SEC, 3(11)]"
               },
               {
-                "type": "entry",
+                "type": "note",
                 "num": "2",
                 "text": "The administrative control in regard to the items marked with an asterisk, in so far as they relate to the displaced persons from East Pakistan in Tripura, vests in the Ministry of Home Affairs."
               }
@@ -1088,7 +1088,7 @@
             "source_ref": "(9)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r10.rel14",
+            "relation": "r63.rel14",
             "position": "after",
             "anchor": {
               "cited": [

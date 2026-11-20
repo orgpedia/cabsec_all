@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_132.pdf",
     "sha256": "2dc48c524eba57f437d9009f426f4b3eba9152c6fec2fe8628d2593104356ca2",
     "govdoc": "1_Upload_132.pdf.govdoc.json.zst",
-    "revision": 46
+    "revision": 70
   },
   "documents": [
     {
@@ -29,9 +29,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "3",
+          "version": "4",
           "model": "gemini-4-argon",
-          "at": "2026-11-12T13:49:05.964401+00:00"
+          "at": "2026-11-15T16:24:09.264367+00:00"
         },
         "ops": [
           {
@@ -39,7 +39,7 @@
             "source_ref": "2(A)(i)(a)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel1",
+            "relation": "r63.rel1",
             "target": {
               "cited": [
                 {
@@ -105,7 +105,7 @@
             "source_ref": "2(A)(i)(b)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r10.rel2",
+            "relation": "r63.rel2",
             "position": "after",
             "anchor": {
               "cited": [
@@ -172,7 +172,7 @@
             "source_ref": "2(A)(ii)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r10.rel3",
+            "relation": "r63.rel3",
             "position": "after",
             "anchor": {
               "cited": [
@@ -239,7 +239,7 @@
             "source_ref": "2(B)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r10.rel4",
+            "relation": "r63.rel4",
             "target": [
               {
                 "cited": [
@@ -380,7 +380,7 @@
             "source_ref": "2(C)(i)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel5",
+            "relation": "r63.rel5",
             "target": {
               "cited": [
                 {
@@ -446,7 +446,7 @@
             "source_ref": "2(C)(ii)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r10.rel6",
+            "relation": "r63.rel6",
             "position": "after",
             "anchor": {
               "cited": [
@@ -518,7 +518,7 @@
             "source_ref": "2(C)(iii)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r10.rel7",
+            "relation": "r63.rel7",
             "target": [
               {
                 "cited": [
@@ -687,7 +687,7 @@
             "source_ref": "2(C)(iv)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r10.rel8",
+            "relation": "r63.rel8",
             "position": "after",
             "anchor": {
               "cited": [
@@ -754,7 +754,7 @@
             "source_ref": "2(D)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r10.rel9",
+            "relation": "r63.rel9",
             "target": {
               "cited": [
                 {
@@ -805,7 +805,7 @@
             "source_ref": "2(E)(i)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel10",
+            "relation": "r63.rel10",
             "target": {
               "cited": [
                 {
@@ -871,7 +871,7 @@
             "source_ref": "2(E)(ii)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel11",
+            "relation": "r63.rel11",
             "target": {
               "cited": [
                 {
@@ -937,7 +937,7 @@
             "source_ref": "2(E)(iii)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r10.rel12",
+            "relation": "r63.rel12",
             "position": "after",
             "anchor": {
               "cited": [
@@ -1019,7 +1019,7 @@
             "source_ref": "2(F)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r10.rel13",
+            "relation": "r63.rel13",
             "position": "after",
             "anchor": {
               "cited": [
@@ -1092,7 +1092,7 @@
             "source_ref": "2(G)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r10.rel14",
+            "relation": "r63.rel14",
             "position": "after",
             "anchor": {
               "cited": [
@@ -1159,7 +1159,7 @@
             "source_ref": "2(H)(i)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel15",
+            "relation": "r63.rel15",
             "target": {
               "cited": [
                 {
@@ -1274,7 +1274,7 @@
             "source_ref": "2(H)(ii)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel16",
+            "relation": "r63.rel16",
             "target": {
               "cited": [
                 {
@@ -1414,7 +1414,7 @@
             "source_ref": "2(I)(i)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r10.rel17",
+            "relation": "r63.rel17",
             "target": {
               "cited": [
                 {
@@ -1469,7 +1469,7 @@
             "source_ref": "2(I)(ii)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel18",
+            "relation": "r63.rel18",
             "target": {
               "cited": [
                 {
@@ -1531,7 +1531,7 @@
             "source_ref": "2(I)(iii)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r10.rel19",
+            "relation": "r63.rel19",
             "target": [
               {
                 "cited": [
@@ -1620,7 +1620,7 @@
             "source_ref": "2(I)(iv)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r10.rel20",
+            "relation": "r63.rel20",
             "position": "after",
             "anchor": {
               "cited": [
@@ -1703,7 +1703,7 @@
             "source_ref": "2(J)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r10.rel21",
+            "relation": "r63.rel21",
             "position": "after",
             "anchor": {
               "cited": [
@@ -1765,7 +1765,7 @@
             "source_ref": "2(K)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel22",
+            "relation": "r63.rel22",
             "target": {
               "cited": [
                 {

@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_99.pdf",
     "sha256": "c11690c75631e2fb1f8efaac00426e3965a972476e7e4286a6f0d372e6833996",
     "govdoc": "1_Upload_99.pdf.govdoc.json.zst",
-    "revision": 46
+    "revision": 70
   },
   "documents": [
     {
@@ -29,9 +29,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "3",
+          "version": "4",
           "model": "gemini-4-argon",
-          "at": "2026-11-12T13:49:50.864502+00:00"
+          "at": "2026-11-15T16:24:54.879157+00:00"
         },
         "ops": [
           {
@@ -39,7 +39,7 @@
             "source_ref": "A",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel1",
+            "relation": "r63.rel1",
             "target": {
               "cited": [
                 {
@@ -107,7 +107,7 @@
             "source_ref": "B(a)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel2",
+            "relation": "r63.rel2",
             "target": {
               "cited": [
                 {
@@ -166,7 +166,7 @@
             "source_ref": "B(a)(i)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel3",
+            "relation": "r63.rel3",
             "target": {
               "cited": [
                 {
@@ -203,8 +203,9 @@
             "scope": "heading",
             "content": [
               {
-                "type": "text",
-                "text": "A, Department of Health and Urban Development"
+                "type": "department",
+                "num": "A",
+                "heading": "Department of Health and Urban Development"
               }
             ],
             "ref_seq": 2,
@@ -230,7 +231,7 @@
             "source_ref": "B(a)(ii)",
             "op": "renumber",
             "akn_type": "renumbering",
-            "relation": "r10.rel4",
+            "relation": "r63.rel4",
             "target": {
               "cited": [
                 {
@@ -291,7 +292,7 @@
             "source_ref": "B(a)(ii)",
             "op": "renumber",
             "akn_type": "renumbering",
-            "relation": "r10.rel5",
+            "relation": "r63.rel5",
             "target": {
               "cited": [
                 {
@@ -352,7 +353,7 @@
             "source_ref": "B(a)(ii)",
             "op": "renumber",
             "akn_type": "renumbering",
-            "relation": "r10.rel6",
+            "relation": "r63.rel6",
             "target": {
               "cited": [
                 {
@@ -413,7 +414,7 @@
             "source_ref": "B(a)(ii)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r10.rel7",
+            "relation": "r63.rel7",
             "position": "after",
             "anchor": {
               "cited": [
@@ -511,7 +512,7 @@
             "source_ref": "B(b)(i)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r10.rel8",
+            "relation": "r63.rel8",
             "target": [
               {
                 "cited": [
@@ -788,7 +789,7 @@
             "source_ref": "B(b)(ii)",
             "op": "renumber",
             "akn_type": "renumbering",
-            "relation": "r10.rel9",
+            "relation": "r63.rel9",
             "target": {
               "cited": [
                 {
@@ -848,7 +849,7 @@
             "source_ref": "B(b)(ii)",
             "op": "renumber",
             "akn_type": "renumbering",
-            "relation": "r10.rel10",
+            "relation": "r63.rel10",
             "target": {
               "cited": [
                 {
@@ -908,7 +909,7 @@
             "source_ref": "B(b)(ii)",
             "op": "renumber",
             "akn_type": "renumbering",
-            "relation": "r10.rel11",
+            "relation": "r63.rel11",
             "target": {
               "cited": [
                 {
@@ -968,7 +969,7 @@
             "source_ref": "B(b)(ii)",
             "op": "renumber",
             "akn_type": "renumbering",
-            "relation": "r10.rel12",
+            "relation": "r63.rel12",
             "target": {
               "cited": [
                 {
@@ -1028,7 +1029,7 @@
             "source_ref": "B(b)(ii)",
             "op": "renumber",
             "akn_type": "renumbering",
-            "relation": "r10.rel13",
+            "relation": "r63.rel13",
             "target": {
               "cited": [
                 {

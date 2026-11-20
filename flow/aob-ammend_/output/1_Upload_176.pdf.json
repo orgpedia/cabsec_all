@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_176.pdf",
     "sha256": "dcb0a52d41749a951f0eb45690ea7fdc869cce860b48c33756f0e351bed04246",
     "govdoc": "1_Upload_176.pdf.govdoc.json.zst",
-    "revision": 46
+    "revision": 70
   },
   "documents": [
     {
@@ -29,9 +29,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "3",
+          "version": "4",
           "model": "gemini-4-argon",
-          "at": "2026-11-12T13:50:03.683005+00:00"
+          "at": "2026-11-15T16:25:07.472240+00:00"
         },
         "ops": [
           {
@@ -39,7 +39,7 @@
             "source_ref": "2(a)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel1",
+            "relation": "r63.rel1",
             "target": {
               "cited": [
                 {
@@ -105,7 +105,7 @@
             "source_ref": "2(a)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel2",
+            "relation": "r63.rel2",
             "target": {
               "cited": [
                 {
@@ -127,14 +127,14 @@
               ],
               "eId": null,
               "words": [
-                "r1.w743",
+                "r1.w742",
                 "r1.w743"
               ],
               "boxes": [
                 {
                   "page": 2,
                   "bbox": [
-                    416,
+                    334,
                     2599,
                     492,
                     2633
@@ -171,7 +171,7 @@
             "source_ref": "2(b)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r10.rel3",
+            "relation": "r63.rel3",
             "position": "after",
             "anchor": {
               "cited": [
@@ -238,7 +238,7 @@
             "source_ref": "2(c)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel4",
+            "relation": "r63.rel4",
             "target": {
               "cited": [
                 {
@@ -271,7 +271,7 @@
                 }
               ]
             },
-            "scope": "entries",
+            "scope": "children",
             "content": [
               {
                 "type": "entry",
@@ -356,7 +356,7 @@
             "source_ref": "2(d)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r10.rel5",
+            "relation": "r63.rel5",
             "position": "after",
             "anchor": {
               "cited": [

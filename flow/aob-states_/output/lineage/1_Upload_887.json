@@ -1,0 +1,257 @@
+{
+ "file": "1_Upload_887.pdf",
+ "kind": "checkpoint",
+ "series": 317,
+ "date": "2015-08-27",
+ "govdoc": "aob-rules_/output/1_Upload_887.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794762100.9977448,
+ "edits_file": "aob-rules_/conf/1_Upload_887.pdf.edits.yml",
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/completeaobrules/english/1_Upload_887.pdf",
+  "portal": "cabsec_aob_rules",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-29T10:23:35.669918+00:00",
+  "sha256": "c3cbf15ea05a2a8f8a82f34d47097074c004d4bcf5c67f36522d735aa617f5f6",
+  "pages": 173
+ },
+ "edits": [
+  {
+   "run": "h1",
+   "by": "mukundesh",
+   "at": "2026-11-03T04:16:11+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r1.w485",
+     "before": {
+      "text": "advise"
+     },
+     "after": {
+      "text": "advice"
+     }
+    },
+    {
+     "op": "text",
+     "target": "r1.w11917",
+     "before": {
+      "text": "(Complusory"
+     },
+     "after": {
+      "text": "(Compulsory"
+     }
+    },
+    {
+     "op": "text",
+     "target": "r1.w14813",
+     "before": {
+      "text": "Liaision"
+     },
+     "after": {
+      "text": "Liaison"
+     }
+    },
+    {
+     "op": "text",
+     "target": "r1.w1981",
+     "before": {
+      "text": "extention"
+     },
+     "after": {
+      "text": "extension"
+     }
+    },
+    {
+     "op": "text",
+     "target": "r1.w2469",
+     "before": {
+      "text": "Machanised"
+     },
+     "after": {
+      "text": "Mechanized"
+     }
+    }
+   ]
+  },
+  {
+   "run": "h2",
+   "by": "mukundesh",
+   "at": "2026-11-03T19:23:12+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r1.w18586",
+     "before": {
+      "text": "DEVELOMENT"
+     },
+     "after": {
+      "text": "DEVELOPMENT"
+     }
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-03T03:47:15.469248+00:00",
+   "stamp": "d0988e00aa1d20d1"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r116",
+   "at": "2026-11-13T11:50:12.414426+00:00",
+   "stamp": "2afe51040742dc0e"
+  },
+  {
+   "step": "layout",
+   "task": "page_blocks",
+   "version": "3",
+   "tool": "block_builder",
+   "run": "r117",
+   "at": "2026-11-13T11:52:51.573407+00:00",
+   "stamp": "dc9982785e24d183"
+  },
+  {
+   "step": "split",
+   "task": "one_document",
+   "version": "2",
+   "tool": "splitter",
+   "run": "r118",
+   "at": "2026-11-13T11:55:23.956142+00:00",
+   "stamp": "f20beead4d6ec101"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r132",
+   "at": "2026-11-15T17:01:39.811040+00:00",
+   "stamp": "9adde041c718e436"
+  }
+ ],
+ "reviews": [
+  {
+   "id": "h3.v1",
+   "target": "r40.i1",
+   "status": "verified",
+   "by": "mukundesh",
+   "at": "2026-11-04T11:04:54+00:00"
+  },
+  {
+   "id": "h3.v2",
+   "target": "r40.i2",
+   "status": "verified",
+   "by": "mukundesh",
+   "at": "2026-11-04T11:04:54+00:00"
+  },
+  {
+   "id": "h3.v3",
+   "target": "r40.i3",
+   "status": "verified",
+   "by": "mukundesh",
+   "at": "2026-11-04T11:04:54+00:00"
+  },
+  {
+   "id": "h3.v4",
+   "target": "r40.i4",
+   "status": "verified",
+   "by": "mukundesh",
+   "at": "2026-11-04T11:04:54+00:00"
+  }
+ ],
+ "issues": [
+  {
+   "code": "aob:new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF ENVIRONMENT, FOREST AND CLIMATE CHANGE › note is in 1_Upload_887.pdf with the amendments since applied but not in 1_Upload_884.pdf",
+   "target": "r2.l1545",
+   "status": "verified"
+  },
+  {
+   "code": "aob:new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HOME AFFAIRS › department A › group_heading “IV. TRADING WITH THE ENEMY: ENEMY PROPERTY is in 1_Upload_887.pdf with the amendments since applied but not in 1_Upload_884.pdf",
+   "target": "r2.l2543",
+   "status": "verified"
+  },
+  {
+   "code": "aob:new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF LABOUR AND EMPLOYMENT › part V › entry 22 is in 1_Upload_887.pdf with the amendments since applied but not in 1_Upload_884.pdf",
+   "target": "r2.l3097",
+   "status": "verified"
+  },
+  {
+   "code": "aob:new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF PERSONNEL, PUBLIC GRIEVANCES AND PENSIONS › department A › group_heading I › entry 7 is in 1_Upload_887.pdf with the amendments since applied but not in 1_Upload_884.pdf",
+   "target": "r2.l3616",
+   "status": "verified"
+  }
+ ],
+ "problems": [
+  {
+   "series": 320,
+   "seq": null,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF ENVIRONMENT, FOREST AND CLIMATE CHANGE › note is in 1_Upload_887.pdf with the amendments since applied but not in 1_Upload_884.pdf",
+   "taken": {
+    "by": "mukundesh",
+    "at": "2026-11-04T11:04:54+00:00",
+    "note": null
+   }
+  },
+  {
+   "series": 320,
+   "seq": null,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HOME AFFAIRS › department A › group_heading “IV. TRADING WITH THE ENEMY: ENEMY PROPERTY is in 1_Upload_887.pdf with the amendments since applied but not in 1_Upload_884.pdf",
+   "taken": {
+    "by": "mukundesh",
+    "at": "2026-11-04T11:04:54+00:00",
+    "note": null
+   }
+  },
+  {
+   "series": 320,
+   "seq": null,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF LABOUR AND EMPLOYMENT › part V › entry 22 is in 1_Upload_887.pdf with the amendments since applied but not in 1_Upload_884.pdf",
+   "taken": {
+    "by": "mukundesh",
+    "at": "2026-11-04T11:04:54+00:00",
+    "note": null
+   }
+  },
+  {
+   "series": 320,
+   "seq": null,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF PERSONNEL, PUBLIC GRIEVANCES AND PENSIONS › department A › group_heading I › entry 7 is in 1_Upload_887.pdf with the amendments since applied but not in 1_Upload_884.pdf",
+   "taken": {
+    "by": "mukundesh",
+    "at": "2026-11-04T11:04:54+00:00",
+    "note": null
+   }
+  }
+ ],
+ "rules": [],
+ "changes": [],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

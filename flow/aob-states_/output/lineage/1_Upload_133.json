@@ -1,0 +1,235 @@
+{
+ "file": "1_Upload_133.pdf",
+ "kind": "amendment",
+ "series": 99,
+ "date": "1973-07-30",
+ "govdoc": "aob-ammend_/output/1_Upload_133.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826693.2451892,
+ "edits_file": "aob-ammend_/conf/1_Upload_133.pdf.edits.yml",
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_133.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:54:52.473193+00:00",
+  "sha256": "c2de50227f48f7fe2e0a94159de6b3928e01d756718af66657c7bad144ab2333",
+  "pages": 8
+ },
+ "edits": [
+  {
+   "run": "h1",
+   "by": "claude",
+   "at": "2026-11-12T15:01:00+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r1.w112",
+     "before": {
+      "text": "3."
+     },
+     "after": {
+      "text": "S."
+     }
+    }
+   ]
+  },
+  {
+   "run": "h2",
+   "by": "claude",
+   "at": "2026-11-12T15:02:00+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r1.w115",
+     "before": {
+      "text": "(B)"
+     },
+     "after": {
+      "text": "(E)"
+     }
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-12T12:43:13.014443+00:00",
+   "stamp": "701831763d3e5276"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r52",
+   "at": "2026-11-15T12:42:32.887278+00:00",
+   "stamp": "22a5421ab99d399e"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r53",
+   "at": "2026-11-15T12:42:35.338845+00:00",
+   "stamp": "f2c17925a5b0a68f"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r54",
+   "at": "2026-11-15T12:42:37.132552+00:00",
+   "stamp": "8c2b0fc7f8f57297"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r63",
+   "at": "2026-11-15T16:24:51.731912+00:00",
+   "stamp": "115f9c49768f2fea",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r64",
+   "at": "2026-11-15T16:24:53.473237+00:00",
+   "stamp": "3f6587f8890e8d13",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r65",
+   "at": "2026-11-15T16:24:55.225610+00:00",
+   "stamp": "89025542aa8cb930",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r71",
+   "at": "2026-11-15T16:57:35.353123+00:00",
+   "stamp": "19e67fc7c574eaf2"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r72",
+   "at": "2026-11-15T17:03:45.666692+00:00",
+   "stamp": "1f5370375ce3138f"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r77",
+   "at": "2026-11-16T10:58:13.210883+00:00",
+   "stamp": "49affc8a3a686e1a"
+  }
+ ],
+ "reviews": [],
+ "issues": [
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 1: its quoted text runs across a page break",
+   "target": "r65.rel1",
+   "status": "open"
+  }
+ ],
+ "problems": [
+  {
+   "series": 174,
+   "seq": 3,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF INFORMATION AND BROADCASTING › group_heading II › item i is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
+  },
+  {
+   "series": 174,
+   "seq": 3,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF INFORMATION AND BROADCASTING › group_heading II › entry 5 reads differently in 1_Upload_212.pdf than in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  },
+  {
+   "series": 174,
+   "seq": 3,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF INFORMATION AND BROADCASTING › group_heading II › entry 6 reads differently in 1_Upload_212.pdf than in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  }
+ ],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_417E_1973",
+   "op": "replace",
+   "source_ref": "2(A)",
+   "path": "schedule 2 › ministry MINISTRY OF COMMERCE › department DEPARTMENT OF FOREIGN TRADE",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_417E_1973",
+   "op": "insert",
+   "source_ref": "2(B)",
+   "path": "schedule 2 › ministry MINISTRY OF HOME AFFAIRS › entry 41",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_417E_1973",
+   "op": "replace",
+   "source_ref": "2(C)",
+   "path": "schedule 2 › ministry MINISTRY OF INFORMATION AND BROADCASTING › group_heading II. Films › entry",
+   "status": "applied"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_417E_1973",
+   "op": "omit",
+   "source_ref": "2(D)(i)",
+   "path": "schedule 2 › ministry CABINET SECRETARIAT › department DEPARTMENT OF PERSONNEL AND ADMINISTRATIVE REFORMS › entry 20 › item e",
+   "status": "applied"
+  },
+  {
+   "seq": 5,
+   "doc_id": "GOI_SO_417E_1973",
+   "op": "omit",
+   "source_ref": "2(D)(ii)",
+   "path": "schedule 2 › ministry CABINET SECRETARIAT › department DEPARTMENT OF PERSONNEL AND ADMINISTRATIVE REFORMS › entry 33",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

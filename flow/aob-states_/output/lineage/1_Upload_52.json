@@ -1,0 +1,339 @@
+{
+ "file": "1_Upload_52.pdf",
+ "kind": "amendment",
+ "series": 19,
+ "date": "1963-09-01",
+ "govdoc": "aob-ammend_/output/1_Upload_52.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826696.6940851,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_52.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T14:01:52.173658+00:00",
+  "sha256": "f4e8f3145520e88c23e9ed21497f8daeb1d10760dd41b92776128fa00672b242",
+  "pages": 4
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-12T12:46:26.387034+00:00",
+   "stamp": "1d8be07e2ad8f979"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r50",
+   "at": "2026-11-15T12:43:03.370759+00:00",
+   "stamp": "a2515bfe8995fbb1"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r51",
+   "at": "2026-11-15T12:43:04.447453+00:00",
+   "stamp": "0b06a5cbbf2bf32a"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r52",
+   "at": "2026-11-15T12:43:05.382683+00:00",
+   "stamp": "c587f5b66aa18f12"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r61",
+   "at": "2026-11-15T16:25:15.956778+00:00",
+   "stamp": "d4d87f701bdcd5fb",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r62",
+   "at": "2026-11-15T16:25:16.637442+00:00",
+   "stamp": "d7dcc92a483e818d",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r63",
+   "at": "2026-11-15T16:25:17.334807+00:00",
+   "stamp": "36731f1ef63778fe",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r69",
+   "at": "2026-11-15T16:57:40.807233+00:00",
+   "stamp": "ac138c68d7f0dbd5"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r70",
+   "at": "2026-11-15T17:04:00.203306+00:00",
+   "stamp": "fc850e58151b8760"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r75",
+   "at": "2026-11-16T10:58:16.674684+00:00",
+   "stamp": "30bd7f9a32edff7d"
+  }
+ ],
+ "reviews": [],
+ "issues": [
+  {
+   "code": "aob:read_hindi_missing",
+   "severity": "info",
+   "message": "change 9: a new heading has no Hindi name in brackets",
+   "target": "r63.rel9",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_hindi_missing",
+   "severity": "info",
+   "message": "change 10: a new heading has no Hindi name in brackets",
+   "target": "r63.rel10",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_hindi_missing",
+   "severity": "info",
+   "message": "change 16: a new heading has no Hindi name in brackets",
+   "target": "r63.rel16",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 16: its quoted text runs across a page break",
+   "target": "r63.rel16",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_hindi_missing",
+   "severity": "info",
+   "message": "change 17: a new heading has no Hindi name in brackets",
+   "target": "r63.rel17",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_hindi_missing",
+   "severity": "info",
+   "message": "change 18: a new heading has no Hindi name in brackets",
+   "target": "r63.rel18",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_hindi_missing",
+   "severity": "info",
+   "message": "change 19: a new heading has no Hindi name in brackets",
+   "target": "r63.rel19",
+   "status": "open"
+  }
+ ],
+ "problems": [
+  {
+   "series": 174,
+   "seq": 19,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › department DEPARTMENT OF TECHNICAL DEVELOPMENT The Development Wing is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
+  }
+ ],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_2517_1963",
+   "op": "omit",
+   "source_ref": "(A)(a)",
+   "path": "schedule 1 › entry 3",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_2517_1963",
+   "op": "renumber",
+   "source_ref": "(A)(b)",
+   "path": "schedule 1 › entry 4",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_2517_1963",
+   "op": "renumber",
+   "source_ref": "(A)(b)",
+   "path": "schedule 1 › entry 5",
+   "status": "applied"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_2517_1963",
+   "op": "renumber",
+   "source_ref": "(A)(b)",
+   "path": "schedule 1 › entry 6",
+   "status": "applied"
+  },
+  {
+   "seq": 5,
+   "doc_id": "GOI_SO_2517_1963",
+   "op": "renumber",
+   "source_ref": "(A)(b)",
+   "path": "schedule 1 › entry 7",
+   "status": "applied"
+  },
+  {
+   "seq": 6,
+   "doc_id": "GOI_SO_2517_1963",
+   "op": "renumber",
+   "source_ref": "(A)(b)",
+   "path": "schedule 1 › entry 8",
+   "status": "applied"
+  },
+  {
+   "seq": 7,
+   "doc_id": "GOI_SO_2517_1963",
+   "op": "renumber",
+   "source_ref": "(A)(b)",
+   "path": "schedule 1 › entry 9",
+   "status": "applied"
+  },
+  {
+   "seq": 8,
+   "doc_id": "GOI_SO_2517_1963",
+   "op": "renumber",
+   "source_ref": "(A)(b)",
+   "path": "schedule 1 › entry 9A",
+   "status": "applied"
+  },
+  {
+   "seq": 9,
+   "doc_id": "GOI_SO_2517_1963",
+   "op": "replace",
+   "source_ref": "(A)(c)",
+   "path": "schedule 1 › entry 18",
+   "status": "applied"
+  },
+  {
+   "seq": 10,
+   "doc_id": "GOI_SO_2517_1963",
+   "op": "insert",
+   "source_ref": "(A)(d)",
+   "path": "schedule 1 › entry 21",
+   "status": "applied"
+  },
+  {
+   "seq": 11,
+   "doc_id": "GOI_SO_2517_1963",
+   "op": "renumber",
+   "source_ref": "(A)(e)",
+   "path": "schedule 1 › entry 22",
+   "status": "applied"
+  },
+  {
+   "seq": 12,
+   "doc_id": "GOI_SO_2517_1963",
+   "op": "renumber",
+   "source_ref": "(A)(e)",
+   "path": "schedule 1 › entry 23",
+   "status": "applied"
+  },
+  {
+   "seq": 13,
+   "doc_id": "GOI_SO_2517_1963",
+   "op": "renumber",
+   "source_ref": "(A)(e)",
+   "path": "schedule 1 › entry 24",
+   "status": "applied"
+  },
+  {
+   "seq": 14,
+   "doc_id": "GOI_SO_2517_1963",
+   "op": "renumber",
+   "source_ref": "(A)(e)",
+   "path": "schedule 1 › entry 25",
+   "status": "applied"
+  },
+  {
+   "seq": 15,
+   "doc_id": "GOI_SO_2517_1963",
+   "op": "omit",
+   "source_ref": "(B)(a)",
+   "path": "schedule 2 › ministry Ministry of Economic & Defence Co-ordination",
+   "status": "applied"
+  },
+  {
+   "seq": 16,
+   "doc_id": "GOI_SO_2517_1963",
+   "op": "replace",
+   "source_ref": "(B)(b)",
+   "path": "schedule 2 › ministry Ministry of Transport and Communications",
+   "status": "applied"
+  },
+  {
+   "seq": 17,
+   "doc_id": "GOI_SO_2517_1963",
+   "op": "insert",
+   "source_ref": "(B)(c)(i)",
+   "path": "schedule 2 › ministry Department of Parliamentary Affairs",
+   "status": "applied"
+  },
+  {
+   "seq": 18,
+   "doc_id": "GOI_SO_2517_1963",
+   "op": "insert",
+   "source_ref": "(B)(c)(ii)",
+   "path": "schedule 2 › ministry Department of Parliamentary Affairs",
+   "status": "applied"
+  },
+  {
+   "seq": 19,
+   "doc_id": "GOI_SO_2517_1963",
+   "op": "insert",
+   "source_ref": "(B)(c)(iii)",
+   "path": "schedule 2 › ministry Department of Parliamentary Affairs",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

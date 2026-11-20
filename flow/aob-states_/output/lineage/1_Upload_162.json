@@ -1,0 +1,242 @@
+{
+ "file": "1_Upload_162.pdf",
+ "kind": "amendment",
+ "series": 125,
+ "date": "1978-02-09",
+ "govdoc": "aob-ammend_/output/1_Upload_162.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826694.875409,
+ "edits_file": "aob-ammend_/conf/1_Upload_162.pdf.edits.yml",
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_162.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:55:37.215169+00:00",
+  "sha256": "d6ec1a597527bc53105139e28e86eff3cb92e9c5033a63074f64e04e39e0b84e",
+  "pages": 6
+ },
+ "edits": [
+  {
+   "run": "h1",
+   "by": "claude",
+   "at": "2026-11-12T18:01:00+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r1.w1725",
+     "before": {
+      "text": "“IA."
+     },
+     "after": {
+      "text": "“1A."
+     }
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-12T12:44:58.438005+00:00",
+   "stamp": "8368302b6f8ecd98"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r58",
+   "at": "2026-11-15T12:42:45.420924+00:00",
+   "stamp": "31b165356239dd0b"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r59",
+   "at": "2026-11-15T12:42:47.926899+00:00",
+   "stamp": "b72c60c3b97e01dc"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r60",
+   "at": "2026-11-15T12:42:50.462762+00:00",
+   "stamp": "e5f1e94a1f89d0ac"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r69",
+   "at": "2026-11-15T16:25:03.116894+00:00",
+   "stamp": "355056a4af3792d1",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r70",
+   "at": "2026-11-15T16:25:05.257158+00:00",
+   "stamp": "bc12d5db00fbcbd5",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r71",
+   "at": "2026-11-15T16:25:07.237425+00:00",
+   "stamp": "33a8045aebadafbf",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r77",
+   "at": "2026-11-15T16:57:37.833835+00:00",
+   "stamp": "cc5d4ab792b6dfae"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r78",
+   "at": "2026-11-15T17:03:52.090280+00:00",
+   "stamp": "4dda0ad0ba99d3e0"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r83",
+   "at": "2026-11-16T10:58:14.829127+00:00",
+   "stamp": "35573f3b1796d647"
+  }
+ ],
+ "reviews": [],
+ "issues": [
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 5: its quoted text runs across a page break",
+   "target": "r71.rel5",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 6: its quoted text runs across a page break",
+   "target": "r71.rel6",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
+   "message": "change 3: ministry MINISTRY OF CHEMICALS AND FERTILIZERS taken for ministry MINISTRY OF CHEMICALS AND FERTILISERS, named loosely",
+   "target": "r71.rel3",
+   "status": "open"
+  }
+ ],
+ "problems": [
+  {
+   "series": 174,
+   "seq": 5,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF COMMERCE › department A is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
+  },
+  {
+   "series": 174,
+   "seq": 5,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF COMMERCE › department B is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
+  }
+ ],
+ "rules": [
+  {
+   "rule": "loose",
+   "seq": 3,
+   "note": "change 3: ministry MINISTRY OF CHEMICALS AND FERTILIZERS taken for ministry MINISTRY OF CHEMICALS AND FERTILISERS, named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  }
+ ],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_88E_1978",
+   "op": "replace",
+   "source_ref": "2(a)",
+   "path": "schedule 1 › entry 1A ; schedule 1 › entry 1B ; schedule 1 › entry 1C",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_88E_1978",
+   "op": "replace",
+   "source_ref": "2(b)",
+   "path": "schedule 1 › entry 15",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_88E_1978",
+   "op": "omit",
+   "source_ref": "3(a)",
+   "path": "schedule 2 › ministry MINISTRY OF CHEMICALS AND FERTILIZERS",
+   "status": "applied"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_88E_1978",
+   "op": "omit",
+   "source_ref": "3(b)",
+   "path": "schedule 2 › ministry MINISTRY OF CIVIL SUPPLIES AND COOPERATION",
+   "status": "applied"
+  },
+  {
+   "seq": 5,
+   "doc_id": "GOI_SO_88E_1978",
+   "op": "replace",
+   "source_ref": "3(a)",
+   "path": "schedule 2 › ministry MINISTRY OF COMMERCE",
+   "status": "applied"
+  },
+  {
+   "seq": 6,
+   "doc_id": "GOI_SO_88E_1978",
+   "op": "replace",
+   "source_ref": "3(d)",
+   "path": "schedule 2 › ministry MINISTRY OF PETROLEUM",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

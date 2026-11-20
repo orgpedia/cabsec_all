@@ -1,0 +1,264 @@
+{
+ "file": "1_Upload_42.pdf",
+ "kind": "amendment",
+ "series": 9,
+ "date": "1962-08-04",
+ "govdoc": "aob-ammend_/output/1_Upload_42.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826693.2671125,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_42.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T14:01:38.658277+00:00",
+  "sha256": "c2f44228c727c3714d07628a5b5de7d7d965314dad5468594b8f25ac841be4d1",
+  "pages": 4
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-12T12:43:21.305733+00:00",
+   "stamp": "b7221d005a413846"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r50",
+   "at": "2026-11-15T12:42:32.943349+00:00",
+   "stamp": "f1435d89ea46a270"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r51",
+   "at": "2026-11-15T12:42:35.385194+00:00",
+   "stamp": "680ea5e2aca1ee96"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r52",
+   "at": "2026-11-15T12:42:37.168375+00:00",
+   "stamp": "61834f7cef2e3fb0"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r61",
+   "at": "2026-11-15T16:24:51.770923+00:00",
+   "stamp": "eaed69e2dc33d1e8",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r62",
+   "at": "2026-11-15T16:24:53.515054+00:00",
+   "stamp": "2d6109fda0cf8088",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r63",
+   "at": "2026-11-15T16:24:55.265613+00:00",
+   "stamp": "15be9d7b962c7ad0",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r69",
+   "at": "2026-11-15T16:57:35.391932+00:00",
+   "stamp": "480ea1b9d352be2d"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r70",
+   "at": "2026-11-15T17:03:45.730295+00:00",
+   "stamp": "ba5041aab745a66f"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r75",
+   "at": "2026-11-16T10:58:13.246074+00:00",
+   "stamp": "e22c48bd7a149554"
+  }
+ ],
+ "reviews": [],
+ "issues": [
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 10: its quoted text runs across a page break",
+   "target": "r63.rel10",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 13: its quoted text runs across a page break",
+   "target": "r63.rel13",
+   "status": "open"
+  }
+ ],
+ "problems": [
+  {
+   "series": 174,
+   "seq": 3,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF EXTERNAL AFFAIRS › entry 29 reads differently in 1_Upload_212.pdf than in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  }
+ ],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_2566_1962",
+   "op": "insert",
+   "source_ref": "(1)(a)",
+   "path": "schedule 2 › ministry Ministry of Commerce & Industry › department Department of Industry › group_heading IV-Small Scale Industries",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_2566_1962",
+   "op": "omit",
+   "source_ref": "(1)(b)",
+   "path": "schedule 2 › ministry Ministry of Commerce & Industry › department Department of Industry › entry 20",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_2566_1962",
+   "op": "replace",
+   "source_ref": "(2)",
+   "path": "schedule 2 › ministry Ministry of External Affairs › entry 29",
+   "status": "applied"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_2566_1962",
+   "op": "replace",
+   "source_ref": "(3)(a)(1)",
+   "path": "schedule 2 › ministry Ministry of Finance › department Department of Economic Affairs › entry 1",
+   "status": "applied"
+  },
+  {
+   "seq": 5,
+   "doc_id": "GOI_SO_2566_1962",
+   "op": "omit",
+   "source_ref": "(3)(a)(li)",
+   "path": "schedule 2 › ministry Ministry of Finance › department Department of Economic Affairs › group_heading VII-Sales Tax ; schedule 2 › ministry Ministry of Finance › department Department of Economic Affairs › group_heading VII-Sales Tax › entry",
+   "status": "applied"
+  },
+  {
+   "seq": 6,
+   "doc_id": "GOI_SO_2566_1962",
+   "op": "omit",
+   "source_ref": "(3)(b)",
+   "path": "schedule 2 › ministry Ministry of Finance › department Department of Expenditure › entry 8",
+   "status": "applied"
+  },
+  {
+   "seq": 7,
+   "doc_id": "GOI_SO_2566_1962",
+   "op": "insert",
+   "source_ref": "(3)(c)",
+   "path": "schedule 2 › ministry Ministry of Finance › department Department of Revenue › entry 10",
+   "status": "applied"
+  },
+  {
+   "seq": 8,
+   "doc_id": "GOI_SO_2566_1962",
+   "op": "replace",
+   "source_ref": "(4)",
+   "path": "schedule 2 › ministry Ministry of Food & Agriculture › department Department of Food › entry 7",
+   "status": "applied"
+  },
+  {
+   "seq": 9,
+   "doc_id": "GOI_SO_2566_1962",
+   "op": "insert",
+   "source_ref": "(5)",
+   "path": "schedule 2 › ministry Ministry of Home Affairs › group_heading Part III › entry 124",
+   "status": "applied"
+  },
+  {
+   "seq": 10,
+   "doc_id": "GOI_SO_2566_1962",
+   "op": "replace",
+   "source_ref": "(6)",
+   "path": "schedule 2 › ministry Ministry of Irrigation & Power",
+   "status": "applied"
+  },
+  {
+   "seq": 11,
+   "doc_id": "GOI_SO_2566_1962",
+   "op": "insert",
+   "source_ref": "(7)",
+   "path": "schedule 2 › ministry Ministry of Transport & Communications › department Department of Transport › entry 20",
+   "status": "applied"
+  },
+  {
+   "seq": 12,
+   "doc_id": "GOI_SO_2566_1962",
+   "op": "replace",
+   "source_ref": "(8)(a)",
+   "path": "schedule 2 › ministry Ministry of Works, Housing & Supply › department Department of Rehabilitation › entry 19",
+   "status": "applied"
+  },
+  {
+   "seq": 13,
+   "doc_id": "GOI_SO_2566_1962",
+   "op": "replace",
+   "source_ref": "(8)(b)",
+   "path": "schedule 2 › ministry Ministry of Works, Housing & Supply › department Department of Rehabilitation",
+   "status": "applied"
+  },
+  {
+   "seq": 14,
+   "doc_id": "GOI_SO_2566_1962",
+   "op": "insert",
+   "source_ref": "(9)",
+   "path": "schedule 2 › ministry Department of Parliamentary Affairs › entry 15",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

@@ -1,0 +1,279 @@
+{
+ "file": "1_Upload_201.pdf",
+ "kind": "amendment",
+ "series": 163,
+ "date": "1984-11-06",
+ "govdoc": "aob-ammend_/output/1_Upload_201.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826694.5372941,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_201.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:56:30.622920+00:00",
+  "sha256": "d246d93c34f982e78f8b03d9e499c29a4fe002956dc3987c1aaf59ba1001d04a",
+  "pages": 4
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-12T12:44:42.190831+00:00",
+   "stamp": "a20969a97c8d12f6"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r50",
+   "at": "2026-11-15T12:42:44.979027+00:00",
+   "stamp": "82ca421566dc5489"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r51",
+   "at": "2026-11-15T12:42:47.435287+00:00",
+   "stamp": "38cd7d7a1dbaead0"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r52",
+   "at": "2026-11-15T12:42:50.139654+00:00",
+   "stamp": "3c1a6485e0d4fd6a"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r61",
+   "at": "2026-11-15T16:25:02.739228+00:00",
+   "stamp": "91c37e1cc97eb039",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r62",
+   "at": "2026-11-15T16:25:04.911794+00:00",
+   "stamp": "b626ea6515f1f68b",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r63",
+   "at": "2026-11-15T16:25:06.878781+00:00",
+   "stamp": "d4cbd3e2cede5cc5",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r69",
+   "at": "2026-11-15T16:57:37.472805+00:00",
+   "stamp": "dc87994d00bb0dd9"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r70",
+   "at": "2026-11-15T17:03:51.415641+00:00",
+   "stamp": "a52ae206928b70c0"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r75",
+   "at": "2026-11-16T10:58:14.517637+00:00",
+   "stamp": "688b5e30263ed7dc"
+  }
+ ],
+ "reviews": [],
+ "issues": [
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 4: its quoted text runs across a page break",
+   "target": "r63.rel4",
+   "status": "open"
+  },
+  {
+   "code": "aob:new_extra",
+   "severity": "warning",
+   "message": "schedule 1 › ministry 13 is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf",
+   "target": "r63.rel1",
+   "status": "open"
+  },
+  {
+   "code": "aob:new_missing",
+   "severity": "warning",
+   "message": "schedule 1 › ministry 17 › department i is in 1_Upload_212.pdf but not in 1_Upload_1144.pdf with the amendments up to 173 applied",
+   "target": "r63.rel2",
+   "status": "open"
+  },
+  {
+   "code": "aob:new_missing",
+   "severity": "warning",
+   "message": "schedule 1 › ministry 17 › department ii is in 1_Upload_212.pdf but not in 1_Upload_1144.pdf with the amendments up to 173 applied",
+   "target": "r63.rel2",
+   "status": "open"
+  },
+  {
+   "code": "aob:new_extra",
+   "severity": "warning",
+   "message": "schedule 1 › ministry 17 › department i is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf",
+   "target": "r63.rel2",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_so_renamed",
+   "severity": "info",
+   "message": "change 4: ministry MINISTRY OF INDUSTRY taken as MINISTRY OF INDUSTRY AND COMPANY AFFAIRS (UDYOG AUR KAMPANI KARYA MAN- TRALAYA), the name change 3 of this notification gave it",
+   "target": "r63.rel4",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_earlier_name",
+   "severity": "info",
+   "message": "change 6: ministry MINISTRY OF LAW, JUSTICE AND COMPANY AFFAIRS taken for ministry MINISTRY OF LAW AND JUSTICE, its name before the First Schedule renamed it",
+   "target": "r63.rel6",
+   "status": "open"
+  }
+ ],
+ "problems": [
+  {
+   "series": 174,
+   "seq": 1,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 1 › ministry 13 is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
+  },
+  {
+   "series": 174,
+   "seq": 2,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 1 › ministry 17 › department i is in 1_Upload_212.pdf but not in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  },
+  {
+   "series": 174,
+   "seq": 2,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 1 › ministry 17 › department ii is in 1_Upload_212.pdf but not in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  },
+  {
+   "series": 174,
+   "seq": 2,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 1 › ministry 17 › department i is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
+  },
+  {
+   "series": 174,
+   "seq": 3,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF INDUSTRY AND COMPANY AFFAIRS (UDYOG AUR KAMPANI KARYA MAN- TRALAYA) is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
+  }
+ ],
+ "rules": [
+  {
+   "rule": "so_renamed",
+   "seq": 4,
+   "note": "change 4: ministry MINISTRY OF INDUSTRY taken as MINISTRY OF INDUSTRY AND COMPANY AFFAIRS (UDYOG AUR KAMPANI KARYA MAN- TRALAYA), the name change 3 of this notification gave it",
+   "status": "unreviewed",
+   "decided_at": "2026-11-15"
+  },
+  {
+   "rule": "earlier_name",
+   "seq": 6,
+   "note": "change 6: ministry MINISTRY OF LAW, JUSTICE AND COMPANY AFFAIRS taken for ministry MINISTRY OF LAW AND JUSTICE, its name before the First Schedule renamed it",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  }
+ ],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_821E_1984",
+   "op": "replace",
+   "source_ref": "2(a)(i)",
+   "path": "schedule 1 › ministry Ministry of Industry",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_821E_1984",
+   "op": "replace",
+   "source_ref": "2(a)(ii)",
+   "path": "schedule 1 › ministry Ministry of Law, Justice, and Company Affairs",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_821E_1984",
+   "op": "replace",
+   "source_ref": "2(b)(i)(1)",
+   "path": "schedule 2 › ministry MINISTRY OF INDUSTRY",
+   "status": "applied"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_821E_1984",
+   "op": "insert",
+   "source_ref": "2(b)(i)(2)",
+   "path": "schedule 2 › ministry MINISTRY OF INDUSTRY › department DEPARTMENT OF HEAVY INDUSTRY",
+   "status": "applied"
+  },
+  {
+   "seq": 5,
+   "doc_id": "GOI_SO_821E_1984",
+   "op": "replace",
+   "source_ref": "2(b)(ii)(1)",
+   "path": "schedule 2 › ministry MINISTRY OF LAW, JUSTICE AND COMPANY AFFAIRS",
+   "status": "applied"
+  },
+  {
+   "seq": 6,
+   "doc_id": "GOI_SO_821E_1984",
+   "op": "omit",
+   "source_ref": "2(b)(ii)(2)",
+   "path": "schedule 2 › ministry MINISTRY OF LAW, JUSTICE AND COMPANY AFFAIRS › department DEPARTMENT OF COMPANY AFFAIRS",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

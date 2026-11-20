@@ -1,0 +1,169 @@
+{
+ "file": "1_Upload_149.pdf",
+ "kind": "amendment",
+ "series": 112,
+ "date": "1975-08-16",
+ "govdoc": "aob-ammend_/output/1_Upload_149.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826685.4260037,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_149.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:55:18.576786+00:00",
+  "sha256": "410c48887de4b4f01d2bea61672c64436d4e2b80a9cd9efe09a7f903b3225beb",
+  "pages": 4
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-12T12:33:54.272358+00:00",
+   "stamp": "f91acdd41528068c"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r50",
+   "at": "2026-11-15T12:41:41.743632+00:00",
+   "stamp": "5189c272871a2640"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r51",
+   "at": "2026-11-15T12:41:44.372614+00:00",
+   "stamp": "5e4ff4ee1ccf9397"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r52",
+   "at": "2026-11-15T12:41:46.579806+00:00",
+   "stamp": "aa35bff3ce2b9930"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r61",
+   "at": "2026-11-15T16:24:07.048812+00:00",
+   "stamp": "3b40c766c0a307a2",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r62",
+   "at": "2026-11-15T16:24:08.731797+00:00",
+   "stamp": "0538c4e9c37b7f3d",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r63",
+   "at": "2026-11-15T16:24:10.414950+00:00",
+   "stamp": "1a92e294e6b89aff",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r69",
+   "at": "2026-11-15T16:57:23.727061+00:00",
+   "stamp": "d9d3eaa66c67a779"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r70",
+   "at": "2026-11-15T17:03:19.731496+00:00",
+   "stamp": "53ca2128cd6fdd38"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r75",
+   "at": "2026-11-16T10:58:05.412845+00:00",
+   "stamp": "083636ced3bd717b"
+  }
+ ],
+ "reviews": [],
+ "issues": [],
+ "problems": [],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_438E_1975",
+   "op": "insert",
+   "source_ref": "2(A)(i)",
+   "path": "schedule 2 › ministry MINISTRY OF AGRICULTURE AND IRRIGATION › department DEPARTMENT OF AGRICULTURE › group_heading Part I › entry 13D",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_438E_1975",
+   "op": "omit",
+   "source_ref": "2(A)(ii)",
+   "path": "schedule 2 › ministry MINISTRY OF AGRICULTURE AND IRRIGATION › department DEPARTMENT OF FOOD › entry 10A",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_438E_1975",
+   "op": "replace",
+   "source_ref": "2(B)",
+   "path": "schedule 2 › ministry MINISTRY OF EDUCATION AND SOCIAL WELFARE › department DEPARTMENT OF SOCIAL WELFARE › entry 7",
+   "status": "applied"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_438E_1975",
+   "op": "replace",
+   "source_ref": "2(C)",
+   "path": "schedule 2 › ministry MINISTRY OF ENERGY › department DEPARTMENT OF COAL › entry 8",
+   "status": "applied"
+  },
+  {
+   "seq": 5,
+   "doc_id": "GOI_SO_438E_1975",
+   "op": "replace",
+   "source_ref": "2(D)",
+   "path": "schedule 2 › ministry MINISTRY OF STEEL AND MINES › department DEPARTMENT OF MINES › entry 7",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

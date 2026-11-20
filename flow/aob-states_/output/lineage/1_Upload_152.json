@@ -1,0 +1,318 @@
+{
+ "file": "1_Upload_152.pdf",
+ "kind": "amendment",
+ "series": 115,
+ "date": "1976-03-18",
+ "govdoc": "aob-ammend_/output/1_Upload_152.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826682.4434202,
+ "edits_file": "aob-ammend_/conf/1_Upload_152.pdf.edits.yml",
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_152.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:55:23.671683+00:00",
+  "sha256": "01feddb2ead0d688877ec9358e98fc8e13df437cfe404ae01bfc2ca8bb1116eb",
+  "pages": 6
+ },
+ "edits": [
+  {
+   "run": "h1",
+   "by": "claude",
+   "at": "2026-11-12T18:01:00+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r1.w217",
+     "before": {
+      "text": "^1A."
+     },
+     "after": {
+      "text": "1A."
+     }
+    }
+   ]
+  },
+  {
+   "run": "h2",
+   "by": "claude",
+   "at": "2026-11-12T18:02:00+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r1.w250",
+     "before": {
+      "text": "(lii)"
+     },
+     "after": {
+      "text": "(iii)"
+     }
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-12T12:31:25.571387+00:00",
+   "stamp": "40f6dba2c51118dc"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r58",
+   "at": "2026-11-15T12:41:25.281961+00:00",
+   "stamp": "6baef0153012c6dc"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r59",
+   "at": "2026-11-15T12:41:27.542279+00:00",
+   "stamp": "c37cf6ea35ff842e"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r60",
+   "at": "2026-11-15T12:41:29.771088+00:00",
+   "stamp": "9c779994409a1bfc"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r69",
+   "at": "2026-11-15T16:23:56.056980+00:00",
+   "stamp": "2da63e620cc26344",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r70",
+   "at": "2026-11-15T16:23:57.598902+00:00",
+   "stamp": "5f3dfd8aed4631b6",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r71",
+   "at": "2026-11-15T16:23:59.274605+00:00",
+   "stamp": "93037ae18837069f",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r77",
+   "at": "2026-11-15T16:57:19.649458+00:00",
+   "stamp": "4e5410ec63a377c9"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r78",
+   "at": "2026-11-15T17:03:11.102911+00:00",
+   "stamp": "12212397bf56d6eb"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r83",
+   "at": "2026-11-16T10:58:02.416703+00:00",
+   "stamp": "b950ad27f999d850"
+  }
+ ],
+ "reviews": [],
+ "issues": [
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 8: its quoted text runs across a page break",
+   "target": "r71.rel8",
+   "status": "open"
+  }
+ ],
+ "problems": [
+  {
+   "series": 115,
+   "seq": 7,
+   "code": "old_path_missing",
+   "severity": "error",
+   "message": "change 7: no item iii under schedule 2 › ministry MINISTRY OF COMMERCE › department B › entry 6",
+   "cause": "items"
+  },
+  {
+   "series": 115,
+   "seq": 9,
+   "code": "old_path_missing",
+   "severity": "error",
+   "message": "change 9: no entry 23 under schedule 2 › ministry MINISTRY OF INDUSTRY AND CIVIL SUPPLIES › department A › group_heading IV",
+   "cause": "entry_not_in_state"
+  }
+ ],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_215E_1976",
+   "op": "replace",
+   "source_ref": "2A",
+   "path": "schedule 1 › entry 1A",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_215E_1976",
+   "op": "replace",
+   "source_ref": "2B",
+   "path": "schedule 1 › entry 15",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_215E_1976",
+   "op": "insert",
+   "source_ref": "3A",
+   "path": "schedule 2 › ministry MINISTRY OF AGRICULTURE_AND IRRIGATION",
+   "status": "applied"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_215E_1976",
+   "op": "omit",
+   "source_ref": "3B(i)",
+   "path": "schedule 2 › ministry MINISTRY OF COMMERCE › department DEPARTMENT OF FOREIGN TRADE › entry 8 › item i › item a",
+   "status": "applied"
+  },
+  {
+   "seq": 5,
+   "doc_id": "GOI_SO_215E_1976",
+   "op": "omit",
+   "source_ref": "3B(ii)(a)",
+   "path": "schedule 2 › ministry MINISTRY OF COMMERCE › department DEPARTMENT OF EXPORT PRODUCTION › entry 2 › item e",
+   "status": "applied"
+  },
+  {
+   "seq": 6,
+   "doc_id": "GOI_SO_215E_1976",
+   "op": "omit",
+   "source_ref": "3B(ii)(b)",
+   "path": "schedule 2 › ministry MINISTRY OF COMMERCE › department DEPARTMENT OF EXPORT PRODUCTION › entry 5 › item a",
+   "status": "applied"
+  },
+  {
+   "seq": 7,
+   "doc_id": "GOI_SO_215E_1976",
+   "op": "omit",
+   "source_ref": "3B(ii)(c)",
+   "path": "schedule 2 › ministry MINISTRY OF COMMERCE › department DEPARTMENT OF EXPORT PRODUCTION › entry 6 › item i ; schedule 2 › ministry MINISTRY OF COMMERCE › department DEPARTMENT OF EXPORT PRODUCTION › entry 6 › item iii ; schedule 2 › ministry MINISTRY OF COMMERCE › department DEPARTMENT OF EXPORT PRODUCTION › entry 6 › item vii ; schedule 2 › ministry MINISTRY OF COMMERCE › department DEPARTMENT OF EXPORT PRODUCTION › entry 6 › item xii",
+   "status": "not_applied",
+   "problem": "change 7: no item iii under schedule 2 › ministry MINISTRY OF COMMERCE › department B › entry 6",
+   "code": "old_path_missing",
+   "cause": "items",
+   "known": "items"
+  },
+  {
+   "seq": 8,
+   "doc_id": "GOI_SO_215E_1976",
+   "op": "insert",
+   "source_ref": "3B(ii)",
+   "path": "schedule 2 › ministry MINISTRY OF COMMERCE › department DEPARTMENT OF EXPORT PRODUCTION",
+   "status": "applied"
+  },
+  {
+   "seq": 9,
+   "doc_id": "GOI_SO_215E_1976",
+   "op": "insert",
+   "source_ref": "3C(1)",
+   "path": "schedule 2 › ministry MINISTRY OF INDUSTRY AND CIVIL SUPPLIES › department DEPARTMENT OF INDUSTRIAL DEVELOPMENT › group_heading IV. Small Scale Industries › entry 23",
+   "status": "not_applied",
+   "problem": "change 9: no entry 23 under schedule 2 › ministry MINISTRY OF INDUSTRY AND CIVIL SUPPLIES › department A › group_heading IV",
+   "code": "old_path_missing",
+   "cause": "entry_not_in_state",
+   "known": "entries"
+  },
+  {
+   "seq": 10,
+   "doc_id": "GOI_SO_215E_1976",
+   "op": "omit",
+   "source_ref": "3C(ii)",
+   "path": "schedule 2 › ministry MINISTRY OF INDUSTRY AND CIVIL SUPPLIES › department DEPARTMENT OF INDUSTRIAL DEVELOPMENT › entry 32",
+   "status": "applied"
+  },
+  {
+   "seq": 11,
+   "doc_id": "GOI_SO_215E_1976",
+   "op": "replace",
+   "source_ref": "3C(iii)",
+   "path": "schedule 2 › ministry MINISTRY OF INDUSTRY AND CIVIL SUPPLIES › department DEPARTMENT OF INDUSTRIAL DEVELOPMENT › entry 34",
+   "status": "applied"
+  },
+  {
+   "seq": 12,
+   "doc_id": "GOI_SO_215E_1976",
+   "op": "replace",
+   "source_ref": "3D",
+   "path": "schedule 2 › ministry MINISTRY OF PETROLEUM AND CHEMICALS",
+   "status": "applied"
+  },
+  {
+   "seq": 13,
+   "doc_id": "GOI_SO_215E_1976",
+   "op": "omit",
+   "source_ref": "3D(i)",
+   "path": "schedule 2 › ministry MINISTRY OF PETROLEUM › department DEPARTMENT OF PETROLEUM",
+   "status": "applied"
+  },
+  {
+   "seq": 14,
+   "doc_id": "GOI_SO_215E_1976",
+   "op": "replace",
+   "source_ref": "3D(hi)",
+   "path": "schedule 2 › ministry MINISTRY OF PETROLEUM › entry 5D",
+   "status": "applied"
+  },
+  {
+   "seq": 15,
+   "doc_id": "GOI_SO_215E_1976",
+   "op": "omit",
+   "source_ref": "3D(iii)",
+   "path": "schedule 2 › ministry MINISTRY OF PETROLEUM › department DEPARTMENT OF FERTILISERS AND CHEMICALS",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

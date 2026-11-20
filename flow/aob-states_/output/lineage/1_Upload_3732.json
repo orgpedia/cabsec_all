@@ -1,0 +1,103 @@
+{
+ "file": "1_Upload_3732.pdf",
+ "kind": "checkpoint",
+ "series": 371,
+ "date": "2023-07-17",
+ "govdoc": "aob-rules_/output/1_Upload_3732.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794762126.531368,
+ "edits_file": "aob-rules_/conf/1_Upload_3732.pdf.edits.yml",
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/completeaobrules/english/1_Upload_3732.pdf",
+  "portal": "cabsec_aob_rules",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-29T10:21:58.605357+00:00",
+  "sha256": "e41f85b4786ce5a194c8a7119eebc73041a38442bb16cb0243543c239b1f2109",
+  "pages": 198
+ },
+ "edits": [
+  {
+   "run": "h1",
+   "by": "mukundesh",
+   "at": "2026-11-02T12:40:02+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r5.w4570",
+     "before": {
+      "text": "extention"
+     },
+     "after": {
+      "text": "extension"
+     }
+    },
+    {
+     "op": "text",
+     "target": "r5.w5006",
+     "before": {
+      "text": "Machanised"
+     },
+     "after": {
+      "text": "Mechanized"
+     }
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r5",
+   "at": "2026-11-02T04:35:58.069398+00:00",
+   "stamp": "91539cd97e24bc00"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r128",
+   "at": "2026-11-13T11:50:32.212628+00:00",
+   "stamp": "b635a7e26462023f"
+  },
+  {
+   "step": "layout",
+   "task": "page_blocks",
+   "version": "3",
+   "tool": "block_builder",
+   "run": "r129",
+   "at": "2026-11-13T11:54:09.477222+00:00",
+   "stamp": "2412d3156c9eb021"
+  },
+  {
+   "step": "split",
+   "task": "one_document",
+   "version": "2",
+   "tool": "splitter",
+   "run": "r130",
+   "at": "2026-11-13T11:55:38.167784+00:00",
+   "stamp": "3ff95491a13286ca"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r144",
+   "at": "2026-11-15T17:02:04.684708+00:00",
+   "stamp": "302fddb86dde3259"
+  }
+ ],
+ "reviews": [],
+ "issues": [],
+ "problems": [],
+ "rules": [],
+ "changes": [],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

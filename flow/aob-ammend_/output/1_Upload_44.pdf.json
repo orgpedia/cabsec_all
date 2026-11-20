@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_44.pdf",
     "sha256": "e3a10b2bdb2bee0f4c8314d09b73884eca7bb6af614056cadfd0805b7348d611",
     "govdoc": "1_Upload_44.pdf.govdoc.json.zst",
-    "revision": 55
+    "revision": 79
   },
   "documents": [
     {
@@ -29,9 +29,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "3",
+          "version": "4",
           "model": "gemini-4-argon",
-          "at": "2026-11-13T06:56:58.864767+00:00"
+          "at": "2026-11-15T16:25:07.833278+00:00"
         },
         "ops": [
           {
@@ -39,7 +39,7 @@
             "source_ref": "(A)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r34.rel1",
+            "relation": "r71.rel1",
             "target": {
               "cited": [
                 {
@@ -81,7 +81,8 @@
               }
             ],
             "flags": [
-              "read_hindi_missing"
+              "read_hindi_missing",
+              "states_inferred_number_kept"
             ],
             "words": [
               "r1.w102",
@@ -104,7 +105,7 @@
             "source_ref": "(B)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r34.rel2",
+            "relation": "r71.rel2",
             "target": {
               "cited": [
                 {
@@ -136,8 +137,18 @@
             "scope": "children",
             "content": [
               {
-                "type": "text",
-                "text": "; Army; Navy and Air Force."
+                "type": "ministry",
+                "heading": "MINISTRY OF DEFENCE"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Defence of India and every part thereof including preparation for defence and all such acts as may be conducive in times of war to its prosecution, and after its termination to effective demobilisation."
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "The Armed Forces of the Union, namely; Army; Navy and Air Force."
               },
               {
                 "type": "entry",
@@ -192,7 +203,11 @@
               {
                 "type": "entry",
                 "num": "13",
-                "text": "Matters relating to ex-Servicemen including pensioners. DEPARTMENT OF DEFENCE PRODUCTION"
+                "text": "Matters relating to ex-Servicemen including pensioners."
+              },
+              {
+                "type": "department",
+                "heading": "DEPARTMENT OF DEFENCE PRODUCTION"
               },
               {
                 "type": "entry",

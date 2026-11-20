@@ -1,0 +1,587 @@
+{
+ "file": "1_Upload_268.pdf",
+ "kind": "amendment",
+ "series": 228,
+ "date": "1995-03-08",
+ "govdoc": "aob-ammend_/output/1_Upload_268.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826690.324693,
+ "edits_file": "aob-ammend_/conf/1_Upload_268.pdf.edits.yml",
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_268.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:58:10.492723+00:00",
+  "sha256": "9436dc14ad16de347e5fd70ccb01d6eb570f0a3359027b9558989ca8c520ecc5",
+  "pages": 12
+ },
+ "edits": [
+  {
+   "run": "h1",
+   "by": "mukundesh",
+   "at": "2026-11-11T11:01:49+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r1.w4201",
+     "before": {
+      "text": "Fmrloyment"
+     },
+     "after": {
+      "text": "Employment"
+     }
+    }
+   ]
+  },
+  {
+   "run": "h2",
+   "by": "mukundesh",
+   "at": "2026-11-11T11:02:01+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r1.w4205",
+     "before": {
+      "text": "Rozear"
+     },
+     "after": {
+      "text": "Rozgar"
+     }
+    }
+   ]
+  },
+  {
+   "run": "h3",
+   "by": "mukundesh",
+   "at": "2026-11-11T17:42:44+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r1.w4114",
+     "before": {
+      "text": "Mantralaya!\";"
+     },
+     "after": {
+      "text": "Mantralaya)\";"
+     }
+    }
+   ]
+  },
+  {
+   "run": "h4",
+   "by": "claude",
+   "at": "2026-11-12T12:02:00+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r1.w4135",
+     "before": {
+      "text": "Wasteland"
+     },
+     "after": {
+      "text": "Wastelands"
+     }
+    }
+   ]
+  },
+  {
+   "run": "h5",
+   "by": "claude",
+   "at": "2026-11-12T12:03:00+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r1.w5983",
+     "before": {
+      "text": "VEJ"
+     },
+     "after": {
+      "text": "VELOPMENT"
+     }
+    },
+    {
+     "op": "fields",
+     "target": "r1.w5983",
+     "before": {
+      "bbox": [
+       1430,
+       3003,
+       1496,
+       3031
+      ]
+     },
+     "after": {
+      "bbox": [
+       1430,
+       3003,
+       1666,
+       3031
+      ]
+     }
+    },
+    {
+     "op": "remove_word",
+     "target": "r1.w5984",
+     "before": {
+      "page": 10,
+      "word": {
+       "id": "r1.w5984",
+       "text": "OPMENT",
+       "bbox": [
+        1505,
+        3003,
+        1666,
+        3031
+       ],
+       "confidence": 0.99
+      },
+      "line": "r2.l953",
+      "after": "r1.w5983"
+     },
+     "after": null
+    }
+   ]
+  },
+  {
+   "run": "h6",
+   "by": "claude",
+   "at": "2026-11-12T12:04:00+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r1.w5988",
+     "before": {
+      "text": "I"
+     },
+     "after": {
+      "text": "LAYA)\","
+     }
+    },
+    {
+     "op": "fields",
+     "target": "r1.w5988",
+     "before": {
+      "bbox": [
+       1429,
+       3037,
+       1444,
+       3065
+      ]
+     },
+     "after": {
+      "bbox": [
+       1429,
+       3037,
+       1573,
+       3065
+      ]
+     }
+    },
+    {
+     "op": "remove_word",
+     "target": "r1.w5989",
+     "before": {
+      "page": 10,
+      "word": {
+       "id": "r1.w5989",
+       "text": "AYA)\",",
+       "bbox": [
+        1454,
+        3037,
+        1573,
+        3065
+       ],
+       "confidence": 0.66
+      },
+      "line": "r2.l955",
+      "after": "r1.w5988"
+     },
+     "after": null
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-11T03:06:43.828198+00:00",
+   "stamp": "0c226030f459e1b2"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r141",
+   "at": "2026-11-15T12:42:18.747947+00:00",
+   "stamp": "6a5cead891900165"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r142",
+   "at": "2026-11-15T12:42:21.505745+00:00",
+   "stamp": "2ccd8f3f0c7a865c"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r143",
+   "at": "2026-11-15T12:42:23.898568+00:00",
+   "stamp": "d041ca6cc9b78103"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r152",
+   "at": "2026-11-15T16:24:36.835917+00:00",
+   "stamp": "acc8d6592d036695",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r153",
+   "at": "2026-11-15T16:24:39.169410+00:00",
+   "stamp": "405f4d25c8d0113b",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r154",
+   "at": "2026-11-15T16:24:41.255619+00:00",
+   "stamp": "2fb506609ce779c9",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r160",
+   "at": "2026-11-15T16:57:30.941350+00:00",
+   "stamp": "79c2ef71c594d9b8"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r161",
+   "at": "2026-11-15T17:03:36.745521+00:00",
+   "stamp": "004b8015fb981ae4"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r166",
+   "at": "2026-11-16T10:58:10.162257+00:00",
+   "stamp": "ede0d1621c728b4d"
+  }
+ ],
+ "reviews": [
+  {
+   "id": "h1.v2",
+   "target": "r25.a8",
+   "status": "pending",
+   "by": "mukundesh",
+   "at": "2026-11-11T11:01:49+00:00",
+   "note": "moved by a loose match after h1.e1"
+  },
+  {
+   "id": "h2.v2",
+   "target": "r25.a8",
+   "status": "pending",
+   "by": "mukundesh",
+   "at": "2026-11-11T11:02:01+00:00",
+   "note": "moved by a loose match after h2.e1"
+  },
+  {
+   "id": "h4.v2",
+   "target": "r72.a6",
+   "status": "pending",
+   "by": "claude",
+   "at": "2026-11-12T12:02:00+00:00",
+   "note": "moved by a loose match after h4.e1"
+  }
+ ],
+ "issues": [
+  {
+   "code": "aob:read_hindi_missing",
+   "severity": "info",
+   "message": "change 11: a new heading has no Hindi name in brackets",
+   "target": "r154.rel11",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 11: its quoted text runs across a page break",
+   "target": "r154.rel11",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 13: its quoted text runs across a page break",
+   "target": "r154.rel13",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 20: its quoted text runs across a page break",
+   "target": "r154.rel20",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_so_renamed",
+   "severity": "info",
+   "message": "change 17: ministry MINISTRY OF RURAL DEVELOPMENT taken as MINISTRY OF RURAL AREAS AND EMPLOYMENT, the name change 16 of this notification gave it",
+   "target": "r154.rel17",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_so_renamed",
+   "severity": "info",
+   "message": "change 18: ministry MINISTRY OF RURAL DEVELOPMENT taken as MINISTRY OF RURAL AREAS AND EMPLOYMENT, the name change 16 of this notification gave it",
+   "target": "r154.rel18",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
+   "message": "change 18: department DEPARTMENT OF WASTELAND DEVELOPMENT taken for department DEPARTMENT OF WASTE- LANDS DEVELOPMENT, named loosely",
+   "target": "r154.rel18",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_so_renamed",
+   "severity": "info",
+   "message": "change 20: ministry MINISTRY OF URBAN DEVELOPMENT taken as MINISTRY OF URBAN AFFAIRS AND EMPLOYMENT, the name change 19 of this notification gave it",
+   "target": "r154.rel20",
+   "status": "open"
+  }
+ ],
+ "problems": [],
+ "rules": [
+  {
+   "rule": "so_renamed",
+   "seq": 17,
+   "note": "change 17: ministry MINISTRY OF RURAL DEVELOPMENT taken as MINISTRY OF RURAL AREAS AND EMPLOYMENT, the name change 16 of this notification gave it",
+   "status": "unreviewed",
+   "decided_at": "2026-11-15"
+  },
+  {
+   "rule": "so_renamed",
+   "seq": 18,
+   "note": "change 18: ministry MINISTRY OF RURAL DEVELOPMENT taken as MINISTRY OF RURAL AREAS AND EMPLOYMENT, the name change 16 of this notification gave it",
+   "status": "unreviewed",
+   "decided_at": "2026-11-15"
+  },
+  {
+   "rule": "loose",
+   "seq": 18,
+   "note": "change 18: department DEPARTMENT OF WASTELAND DEVELOPMENT taken for department DEPARTMENT OF WASTE- LANDS DEVELOPMENT, named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "so_renamed",
+   "seq": 20,
+   "note": "change 20: ministry MINISTRY OF URBAN DEVELOPMENT taken as MINISTRY OF URBAN AFFAIRS AND EMPLOYMENT, the name change 19 of this notification gave it",
+   "status": "unreviewed",
+   "decided_at": "2026-11-15"
+  }
+ ],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_142E_1995",
+   "op": "insert",
+   "source_ref": "2(1)(a)",
+   "path": "schedule 1 › ministry Ministry of Civil Supplies, Consumer Affairs and Public Distribution",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_142E_1995",
+   "op": "insert",
+   "source_ref": "2(1)(b)",
+   "path": "schedule 1 › ministry Ministry of Food",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_142E_1995",
+   "op": "insert",
+   "source_ref": "2(1)(c)",
+   "path": "schedule 1 › ministry Ministry of Health and Family Welfare › department Department of Family Welfare",
+   "status": "applied"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_142E_1995",
+   "op": "insert",
+   "source_ref": "2(1)(d)",
+   "path": "schedule 1 › ministry Ministry of Industry",
+   "status": "applied"
+  },
+  {
+   "seq": 5,
+   "doc_id": "GOI_SO_142E_1995",
+   "op": "replace",
+   "source_ref": "2(1)(e)",
+   "path": "schedule 1 › ministry Ministry of Rural Development",
+   "status": "applied"
+  },
+  {
+   "seq": 6,
+   "doc_id": "GOI_SO_142E_1995",
+   "op": "insert",
+   "source_ref": "2(1)(f)",
+   "path": "schedule 1 › ministry Ministry of Rural Areas and Employment › department Department of Wastelands Development",
+   "status": "applied"
+  },
+  {
+   "seq": 7,
+   "doc_id": "GOI_SO_142E_1995",
+   "op": "replace",
+   "source_ref": "2(1)(g)",
+   "path": "schedule 1 › ministry Ministry of Urban Development",
+   "status": "applied"
+  },
+  {
+   "seq": 8,
+   "doc_id": "GOI_SO_142E_1995",
+   "op": "insert",
+   "source_ref": "2(1)(h)",
+   "path": "schedule 1 › ministry Ministry of Urban Affairs and Employment",
+   "status": "applied"
+  },
+  {
+   "seq": 9,
+   "doc_id": "GOI_SO_142E_1995",
+   "op": "replace",
+   "source_ref": "2(2)(a)",
+   "path": "schedule 2 › ministry MINISTRY OF CIVIL SUPPLIES, CONSUMER AFFAIRS AND PUBLIC DISTRIBUTION › entry",
+   "status": "applied"
+  },
+  {
+   "seq": 10,
+   "doc_id": "GOI_SO_142E_1995",
+   "op": "replace",
+   "source_ref": "2(2)(b)",
+   "path": "schedule 2 › ministry MINISTRY OF FINANCE › department DEPARTMENT OF ECONOMIC AFFAIRS › entry 5",
+   "status": "applied"
+  },
+  {
+   "seq": 11,
+   "doc_id": "GOI_SO_142E_1995",
+   "op": "replace",
+   "source_ref": "2(2)(c)",
+   "path": "schedule 2 › ministry MINISTRY OF FOOD › entry",
+   "status": "applied"
+  },
+  {
+   "seq": 12,
+   "doc_id": "GOI_SO_142E_1995",
+   "op": "omit",
+   "source_ref": "2(2)(d)(i)",
+   "path": "schedule 2 › ministry MINISTRY OF HEALTH AND FAMILY WELFARE › department DEPARTMENT OF HEALTH › entry 1 › item v ; schedule 2 › ministry MINISTRY OF HEALTH AND FAMILY WELFARE › department DEPARTMENT OF HEALTH › entry 1 › item vi ; schedule 2 › ministry MINISTRY OF HEALTH AND FAMILY WELFARE › department DEPARTMENT OF HEALTH › entry 33 ; schedule 2 › ministry MINISTRY OF HEALTH AND FAMILY WELFARE › department DEPARTMENT OF HEALTH › entry 39 ; schedule 2 › ministry MINISTRY OF HEALTH AND FAMILY WELFARE › department DEPARTMENT OF HEALTH › entry 41 ; schedule 2 › ministry MINISTRY OF HEALTH AND FAMILY WELFARE › department DEPARTMENT OF HEALTH › entry 43 ; schedule 2 › ministry MINISTRY OF HEALTH AND FAMILY WELFARE › department DEPARTMENT OF HEALTH › entry 48 ; schedule 2 › ministry MINISTRY OF HEALTH AND FAMILY WELFARE › department DEPARTMENT OF HEALTH › entry 53 ; schedule 2 › ministry MINISTRY OF HEALTH AND FAMILY WELFARE › department DEPARTMENT OF HEALTH › entry 54 ; schedule 2 › ministry MINISTRY OF HEALTH AND FAMILY WELFARE › department DEPARTMENT OF HEALTH › entry 57 ; schedule 2 › ministry MINISTRY OF HEALTH AND FAMILY WELFARE › department DEPARTMENT OF HEALTH › entry 58 ; schedule 2 › ministry MINISTRY OF HEALTH AND FAMILY WELFARE › department DEPARTMENT OF HEALTH › entry 59 ; schedule 2 › ministry MINISTRY OF HEALTH AND FAMILY WELFARE › department DEPARTMENT OF HEALTH › entry 60 ; schedule 2 › ministry MINISTRY OF HEALTH AND FAMILY WELFARE › department DEPARTMENT OF HEALTH › entry 61 ; schedule 2 › ministry MINISTRY OF HEALTH AND FAMILY WELFARE › department DEPARTMENT OF HEALTH › entry 66 ; schedule 2 › ministry MINISTRY OF HEALTH AND FAMILY WELFARE › department DEPARTMENT OF HEALTH › entry 69 ; schedule 2 › ministry MINISTRY OF HEALTH AND FAMILY WELFARE › department DEPARTMENT OF HEALTH › entry 74 ; schedule 2 › ministry MINISTRY OF HEALTH AND FAMILY WELFARE › department DEPARTMENT OF HEALTH › entry 75 ; schedule 2 › ministry MINISTRY OF HEALTH AND FAMILY WELFARE › department DEPARTMENT OF HEALTH › entry 76",
+   "status": "applied"
+  },
+  {
+   "seq": 13,
+   "doc_id": "GOI_SO_142E_1995",
+   "op": "insert",
+   "source_ref": "2(2)(d)(i)",
+   "path": "schedule 2 › ministry MINISTRY OF HEALTH AND FAMILY WELFARE › department DEPARTMENT OF FAMILY WELFARE",
+   "status": "applied"
+  },
+  {
+   "seq": 14,
+   "doc_id": "GOI_SO_142E_1995",
+   "op": "replace",
+   "source_ref": "2(2)(e)(i)",
+   "path": "schedule 2 › ministry MINISTRY OF INDUSTRY › department DEPARTMENT OF INDUSTRIAL DEVELOPMENT",
+   "status": "applied"
+  },
+  {
+   "seq": 15,
+   "doc_id": "GOI_SO_142E_1995",
+   "op": "insert",
+   "source_ref": "2(2)(e)(ii)",
+   "path": "schedule 2 › ministry MINISTRY OF INDUSTRY › department DEPARTMENT OF SMALL SCALE INDUSTRIES AND AGRO AND RURAL INDUSTRIES",
+   "status": "applied"
+  },
+  {
+   "seq": 16,
+   "doc_id": "GOI_SO_142E_1995",
+   "op": "replace",
+   "source_ref": "2(2)(f)(i)",
+   "path": "schedule 2 › ministry MINISTRY OF RURAL DEVELOPMENT",
+   "status": "applied"
+  },
+  {
+   "seq": 17,
+   "doc_id": "GOI_SO_142E_1995",
+   "op": "replace",
+   "source_ref": "2(2)(f)(ii)",
+   "path": "schedule 2 › ministry MINISTRY OF RURAL DEVELOPMENT › department DEPARTMENT OF RURAL DEVELOPMENT",
+   "status": "applied"
+  },
+  {
+   "seq": 18,
+   "doc_id": "GOI_SO_142E_1995",
+   "op": "insert",
+   "source_ref": "2(2)(f)(ii)",
+   "path": "schedule 2 › ministry MINISTRY OF RURAL DEVELOPMENT › department DEPARTMENT OF WASTELAND DEVELOPMENT",
+   "status": "applied"
+  },
+  {
+   "seq": 19,
+   "doc_id": "GOI_SO_142E_1995",
+   "op": "replace",
+   "source_ref": "2(2)(g)(i)",
+   "path": "schedule 2 › ministry MINISTRY OF URBAN DEVELOPMENT",
+   "status": "applied"
+  },
+  {
+   "seq": 20,
+   "doc_id": "GOI_SO_142E_1995",
+   "op": "replace",
+   "source_ref": "2(2)(g)(i)",
+   "path": "schedule 2 › ministry MINISTRY OF URBAN DEVELOPMENT",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

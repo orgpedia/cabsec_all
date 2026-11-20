@@ -1,0 +1,190 @@
+{
+ "file": "1_Upload_167.pdf",
+ "kind": "amendment",
+ "series": 130,
+ "date": "1978-12-18",
+ "govdoc": "aob-ammend_/output/1_Upload_167.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826682.8718133,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_167.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:55:43.123458+00:00",
+  "sha256": "0f435da72e68759c6d903c7ce2e6e1dfb2427e39647274324c627dc140b72bcb",
+  "pages": 4
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-12T12:31:39.961606+00:00",
+   "stamp": "b89e82bf762d56b2"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r50",
+   "at": "2026-11-15T12:41:25.953270+00:00",
+   "stamp": "8342cf22ee2fb1db"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r51",
+   "at": "2026-11-15T12:41:28.180637+00:00",
+   "stamp": "53c305cc2fc5d855"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r52",
+   "at": "2026-11-15T12:41:30.222292+00:00",
+   "stamp": "b468f2224d0be833"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r61",
+   "at": "2026-11-15T16:23:56.477141+00:00",
+   "stamp": "28cdc65c1484dab9",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r62",
+   "at": "2026-11-15T16:23:58.153396+00:00",
+   "stamp": "2328b92b7b086dad",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r63",
+   "at": "2026-11-15T16:23:59.482239+00:00",
+   "stamp": "e2ec8918b2b6d848",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r69",
+   "at": "2026-11-15T16:57:20.142836+00:00",
+   "stamp": "aadc3dd2bcdf0100"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r70",
+   "at": "2026-11-15T17:03:11.926869+00:00",
+   "stamp": "74613108452f0737"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r75",
+   "at": "2026-11-16T10:58:02.850110+00:00",
+   "stamp": "11cfe49c3cf7fdef"
+  }
+ ],
+ "reviews": [],
+ "issues": [
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 3: its quoted text runs across a page break",
+   "target": "r63.rel3",
+   "status": "open"
+  }
+ ],
+ "problems": [
+  {
+   "series": 130,
+   "seq": 2,
+   "code": "old_path_missing",
+   "severity": "error",
+   "message": "change 2: no entry 20J under schedule 2 › ministry MINISTRY OF INDUSTRY › department A",
+   "cause": "entry_not_in_state"
+  }
+ ],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_720E_1978",
+   "op": "omit",
+   "source_ref": "2(a)",
+   "path": "schedule 2 › ministry MINISTRY OF EDUCATION AND SOCIAL WELFARE › department DEPARTMENT OF EDUCA- TION › entry 53B ; schedule 2 › ministry MINISTRY OF EDUCATION AND SOCIAL WELFARE › department DEPARTMENT OF EDUCA- TION › entry 53C ; schedule 2 › ministry MINISTRY OF EDUCATION AND SOCIAL WELFARE › department DEPARTMENT OF EDUCA- TION › entry 53D",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_720E_1978",
+   "op": "insert",
+   "source_ref": "2(b)",
+   "path": "schedule 2 › ministry MINISTRY OF INDUSTRY › department DEPARTMENT OF INDUSTRIAL DEV- ELOPMENT › entry 20J",
+   "status": "not_applied",
+   "problem": "change 2: no entry 20J under schedule 2 › ministry MINISTRY OF INDUSTRY › department A",
+   "code": "old_path_missing",
+   "cause": "entry_not_in_state",
+   "known": "entries"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_720E_1978",
+   "op": "replace",
+   "source_ref": "2(c)",
+   "path": "schedule 2 › ministry MINISTRY OF PETROLEUM, CHEMICALS AND FERTILIZERS › department DEPARTMENT OF PETROLEUM",
+   "status": "applied"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_720E_1978",
+   "op": "insert",
+   "source_ref": "2(d)",
+   "path": "schedule 2 › department DEPARTMENT OF CULTURE › entry 39E",
+   "status": "applied"
+  },
+  {
+   "seq": 5,
+   "doc_id": "GOI_SO_720E_1978",
+   "op": "replace",
+   "source_ref": "2(e)",
+   "path": "schedule 2 › department DEPARTMENT OF SCIENCE AND TECHNOLOGY › entry 8",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

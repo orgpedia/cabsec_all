@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_225.pdf",
     "sha256": "a2dbb6c1278e956aa7ee0f4f8e2c79be02d150d12801a1fc18d4e268428f0cdc",
     "govdoc": "1_Upload_225.pdf.govdoc.json.zst",
-    "revision": 109
+    "revision": 133
   },
   "documents": [
     {
@@ -29,9 +29,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "3",
+          "version": "4",
           "model": "gemini-4-argon",
-          "at": "2026-11-12T12:56:37.935406+00:00"
+          "at": "2026-11-15T16:24:42.551604+00:00"
         },
         "ops": [
           {
@@ -39,7 +39,7 @@
             "source_ref": "2(I)(i)",
             "op": "substitute_text",
             "akn_type": "substitution",
-            "relation": "r73.rel1",
+            "relation": "r126.rel1",
             "target": {
               "cited": [
                 {
@@ -92,7 +92,7 @@
             "source_ref": "2(I)(ii)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r73.rel2",
+            "relation": "r126.rel2",
             "position": "after",
             "anchor": {
               "cited": [
@@ -147,7 +147,9 @@
                 "text": "Provided that where, for offences alleged to have been committed, sanction is required under more than one Act, it shall be compelent for the Department which administers any of such Acts to accord sanction under all such Acts. (4) Notwithstanding anything contained in subrule (3) the President may, by general or special order, direct that in any case or class of cases the sanction shall be accorded by the Department of Personnel and Training."
               }
             ],
-            "flags": [],
+            "flags": [
+              "read_page_break"
+            ],
             "words": [
               "r1.w702",
               "r1.w708"
@@ -169,7 +171,7 @@
             "source_ref": "2(II)(i)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r73.rel3",
+            "relation": "r126.rel3",
             "target": {
               "cited": [
                 {
@@ -235,7 +237,7 @@
             "source_ref": "2(II)(ii)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r73.rel4",
+            "relation": "r126.rel4",
             "position": "after",
             "anchor": {
               "cited": [
@@ -245,7 +247,7 @@
                 },
                 {
                   "type": "ministry",
-                  "heading": "Ministry of Human Resource Development"
+                  "heading": "Ministry of Human Re- source Development"
                 },
                 {
                   "type": "department",
@@ -302,7 +304,7 @@
             "source_ref": "2(II)(iii)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r73.rel5",
+            "relation": "r126.rel5",
             "target": {
               "cited": [
                 {
@@ -319,7 +321,7 @@
                 },
                 {
                   "type": "group_heading",
-                  "heading": "III Vigilance and Discipline"
+                  "heading": "III \"Vigilance and Discipline\""
                 },
                 {
                   "type": "entry",
@@ -347,9 +349,7 @@
                 }
               ]
             },
-            "flags": [
-              "read_quote_mismatch"
-            ],
+            "flags": [],
             "words": [
               "r1.w1015",
               "r1.w1021"

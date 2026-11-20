@@ -1,0 +1,145 @@
+{
+ "file": "1_Upload_371.pdf",
+ "kind": "amendment",
+ "series": 326,
+ "date": "2016-05-21",
+ "govdoc": "aob-ammend_/output/1_Upload_371.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826689.0206897,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_371.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T14:01:09.555614+00:00",
+  "sha256": "8763e92c1ff1867c6047340b06fd0b63d990f5cf4e73a30c94711540c2700336",
+  "pages": 2
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-03T03:44:24.592010+00:00",
+   "stamp": "01500427ba78c2f6"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r184",
+   "at": "2026-11-15T12:42:06.944637+00:00",
+   "stamp": "d2f536f5e4ecb036"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r185",
+   "at": "2026-11-15T12:42:09.058527+00:00",
+   "stamp": "16fc1a7905f85598"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r186",
+   "at": "2026-11-15T12:42:10.698248+00:00",
+   "stamp": "9895b3281ed45bc9"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r195",
+   "at": "2026-11-15T16:24:26.512787+00:00",
+   "stamp": "f06c7c75b987a784",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r196",
+   "at": "2026-11-15T16:24:28.056926+00:00",
+   "stamp": "3dac4ab494fd1a8d",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r197",
+   "at": "2026-11-15T16:24:29.553380+00:00",
+   "stamp": "7e5a88a525839fbf",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r203",
+   "at": "2026-11-15T16:57:28.998279+00:00",
+   "stamp": "9ef80c81741e7037"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r204",
+   "at": "2026-11-15T17:03:31.799378+00:00",
+   "stamp": "421762656de0286b"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r209",
+   "at": "2026-11-16T10:58:09.006602+00:00",
+   "stamp": "d883ff3e31944e02"
+  }
+ ],
+ "reviews": [],
+ "issues": [],
+ "problems": [],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_1858E_2016",
+   "op": "replace",
+   "source_ref": "2(i)",
+   "path": "schedule 2 › ministry MINISTRY OF HEALTH AND FAMILY WELFARE › department DEPARTMENT OF HEALTH AND FAMILY WELFARE › entry 18 › item a",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_1858E_2016",
+   "op": "insert",
+   "source_ref": "2(ii)",
+   "path": "schedule 2 › ministry MINISTRY OF SOCIAL JUSTICE AND EMPOWERMENT › department DEPARTMENT OF SOCIAL JUSTICE AND EMPOWERMENT › entry 3",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

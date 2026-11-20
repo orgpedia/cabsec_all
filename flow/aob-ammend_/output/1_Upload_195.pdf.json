@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_195.pdf",
     "sha256": "84f560408187cf04f85ba63e0a7913d2aa9d48a54550b9c9039192b31b585cf3",
     "govdoc": "1_Upload_195.pdf.govdoc.json.zst",
-    "revision": 55
+    "revision": 79
   },
   "documents": [
     {
@@ -29,9 +29,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "3",
+          "version": "4",
           "model": "gemini-4-argon",
-          "at": "2026-11-12T18:25:33.405067+00:00"
+          "at": "2026-11-15T16:24:29.382623+00:00"
         },
         "ops": [
           {
@@ -39,7 +39,7 @@
             "source_ref": "2(1)(a)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r28.rel1",
+            "relation": "r71.rel1",
             "target": {
               "cited": [
                 {
@@ -111,7 +111,7 @@
             "source_ref": "2(1)(b)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r28.rel2",
+            "relation": "r71.rel2",
             "target": {
               "cited": [
                 {
@@ -144,7 +144,7 @@
             "flags": [],
             "words": [
               "r1.w1706",
-              "r1.w1718"
+              "r1.w1714"
             ],
             "boxes": [
               {
@@ -153,7 +153,7 @@
                   1375,
                   3037,
                   2293,
-                  3117
+                  3075
                 ]
               }
             ]
@@ -163,7 +163,7 @@
             "source_ref": "2(1)(c)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r28.rel3",
+            "relation": "r71.rel3",
             "target": {
               "cited": [
                 {
@@ -192,11 +192,11 @@
                 }
               ]
             },
-            "expect": "1C. Ministry of Civil Supplies (Nagrik Poorti Mantralaya )",
+            "expect": "1C. Ministry of Civil Supplies (Nagrik Poorti Mantralaya ) ",
             "flags": [],
             "words": [
               "r1.w1719",
-              "r1.w1733"
+              "r1.w1727"
             ],
             "boxes": [
               {
@@ -205,7 +205,7 @@
                   1376,
                   3139,
                   2293,
-                  3219
+                  3180
                 ]
               }
             ]
@@ -215,7 +215,7 @@
             "source_ref": "2(1)(d)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r28.rel4",
+            "relation": "r71.rel4",
             "position": "after",
             "anchor": {
               "cited": [
@@ -270,7 +270,7 @@
             ],
             "words": [
               "r1.w1740",
-              "r1.w1749"
+              "r1.w1750"
             ],
             "boxes": [
               {
@@ -278,7 +278,7 @@
                 "bbox": [
                   313,
                   333,
-                  1130,
+                  1227,
                   364
                 ]
               }
@@ -289,7 +289,7 @@
             "source_ref": "2(1)(e)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r28.rel5",
+            "relation": "r71.rel5",
             "target": {
               "cited": [
                 {
@@ -318,11 +318,11 @@
                 }
               ]
             },
-            "expect": "21. Ministry of Supply (Poort Mantralaya)",
+            "expect": "“21. Ministry of Supply (Poort Mantralaya)",
             "flags": [],
             "words": [
               "r1.w1785",
-              "r1.w1795"
+              "r1.w1792"
             ],
             "boxes": [
               {
@@ -331,7 +331,7 @@
                   308,
                   709,
                   1226,
-                  778
+                  739
                 ]
               }
             ]
@@ -341,7 +341,7 @@
             "source_ref": "2(1)(f)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r28.rel6",
+            "relation": "r71.rel6",
             "target": {
               "cited": [
                 {
@@ -396,7 +396,7 @@
             ],
             "words": [
               "r1.w1796",
-              "r1.w1805"
+              "r1.w1806"
             ],
             "boxes": [
               {
@@ -404,7 +404,7 @@
                 "bbox": [
                   306,
                   811,
-                  1104,
+                  1227,
                   845
                 ]
               }
@@ -415,7 +415,7 @@
             "source_ref": "2(1)(g)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r28.rel7",
+            "relation": "r71.rel7",
             "position": "after",
             "anchor": {
               "cited": [
@@ -475,7 +475,7 @@
             "source_ref": "2(2)(a)(1)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r28.rel8",
+            "relation": "r71.rel8",
             "target": {
               "cited": [
                 {
@@ -509,10 +509,12 @@
               ]
             },
             "expect": "B. DEPARTMENT QF FOOD (KHADYA VIBHAG)",
-            "flags": [],
+            "flags": [
+              "states_inferred_loose"
+            ],
             "words": [
               "r1.w1883",
-              "r1.w1896"
+              "r1.w1888"
             ],
             "boxes": [
               {
@@ -521,7 +523,7 @@
                   388,
                   1529,
                   1216,
-                  1646
+                  1564
                 ]
               }
             ]
@@ -531,7 +533,7 @@
             "source_ref": "2(2)(a)(u)",
             "op": "renumber",
             "akn_type": "renumbering",
-            "relation": "r28.rel9",
+            "relation": "r71.rel9",
             "target": {
               "cited": [
                 {
@@ -544,7 +546,7 @@
                 },
                 {
                   "type": "department",
-                  "heading": "DEPARTMENT OF AGRICULTURAL RESEARCH AND EDUCATION"
+                  "heading": "DEPARTMENT OF AGRICULTURAL RESEARCH AND EDU- CATION"
                 }
               ],
               "eId": null,
@@ -568,7 +570,7 @@
             "flags": [],
             "words": [
               "r1.w1897",
-              "r1.w1906"
+              "r1.w1903"
             ],
             "boxes": [
               {
@@ -577,7 +579,7 @@
                   375,
                   1666,
                   1214,
-                  1739
+                  1702
                 ]
               }
             ]
@@ -587,7 +589,7 @@
             "source_ref": "2(2)(b)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r28.rel10",
+            "relation": "r71.rel10",
             "target": {
               "cited": [
                 {
@@ -620,7 +622,7 @@
             "flags": [],
             "words": [
               "r1.w1922",
-              "r1.w1938"
+              "r1.w1928"
             ],
             "boxes": [
               {
@@ -628,8 +630,8 @@
                 "bbox": [
                   297,
                   1910,
-                  1214,
-                  2024
+                  1212,
+                  1942
                 ]
               }
             ]
@@ -639,7 +641,7 @@
             "source_ref": "2(2)(c)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r28.rel11",
+            "relation": "r71.rel11",
             "target": {
               "cited": [
                 {
@@ -672,7 +674,7 @@
             "flags": [],
             "words": [
               "r1.w1939",
-              "r1.w1956"
+              "r1.w1946"
             ],
             "boxes": [
               {
@@ -681,7 +683,7 @@
                   296,
                   2056,
                   1213,
-                  2170
+                  2086
                 ]
               }
             ]
@@ -691,7 +693,7 @@
             "source_ref": "2(2)(d)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r28.rel12",
+            "relation": "r71.rel12",
             "position": "after",
             "anchor": {
               "cited": [
@@ -746,7 +748,7 @@
               {
                 "type": "entry",
                 "num": "3",
-                "text": "Entering into treaties and agreements with loreign countries and implementing of treaties, agreements conventions with foreign countries relating to trade and commerce in foodgraing and other foodstuffs [PART II SEC. 3(i)]"
+                "text": "Entering into treaties and agreements with loreign countries and implementing of treaties, agreements conventions with foreign countries relating to trade and commerce in foodgraing and other foodstuffs"
               },
               {
                 "type": "entry",
@@ -969,7 +971,7 @@
             ],
             "words": [
               "r1.w1957",
-              "r1.w1969"
+              "r1.w1964"
             ],
             "boxes": [
               {
@@ -978,7 +980,7 @@
                   295,
                   2201,
                   1212,
-                  2274
+                  2232
                 ]
               }
             ]
@@ -988,7 +990,7 @@
             "source_ref": "2(2)(e)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r28.rel13",
+            "relation": "r71.rel13",
             "position": "after",
             "anchor": {
               "cited": [
@@ -1064,7 +1066,7 @@
               {
                 "type": "entry",
                 "num": "2",
-                "text": "Aircraft and air navigation; provision of aerodromes regulation and organisation of air traffic and of aerodromes excepting sanitary control of air navigation. 1350 GI 82-2"
+                "text": "Aircraft and air navigation; provision of aerodromes regulation and organisation of air traffic and of aerodromes excepting sanitary control of air navigation. 1350 GI 82-2 PRINTED BY TI MANAGER GOVT. OF INDIA AND PUBLISHED BY THE CONTROLLER OF"
               },
               {
                 "type": "entry",
@@ -1142,7 +1144,7 @@
             ],
             "words": [
               "r1.w2634",
-              "r1.w2651"
+              "r1.w2642"
             ],
             "boxes": [
               {
@@ -1150,8 +1152,8 @@
                 "bbox": [
                   250,
                   1641,
-                  1169,
-                  1753
+                  1167,
+                  1672
                 ]
               }
             ]
@@ -1161,7 +1163,7 @@
             "source_ref": "2(2)(f)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r28.rel14",
+            "relation": "r71.rel14",
             "target": {
               "cited": [
                 {
@@ -1194,7 +1196,7 @@
             "flags": [],
             "words": [
               "r1.w2887",
-              "r1.w2901"
+              "r1.w2893"
             ],
             "boxes": [
               {
@@ -1203,7 +1205,7 @@
                   1419,
                   1376,
                   2280,
-                  1491
+                  1409
                 ]
               }
             ]
@@ -1213,7 +1215,7 @@
             "source_ref": "2(2)(g)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r28.rel15",
+            "relation": "r71.rel15",
             "position": "after",
             "anchor": {
               "cited": [
@@ -1222,7 +1224,7 @@
                   "num": "2"
                 },
                 {
-                  "type": "department",
+                  "type": "ministry",
                   "heading": "DEPARTMENT OF SPACE"
                 }
               ],
@@ -1287,7 +1289,7 @@
             "flags": [],
             "words": [
               "r1.w2902",
-              "r1.w2915"
+              "r1.w2908"
             ],
             "boxes": [
               {
@@ -1295,8 +1297,8 @@
                 "bbox": [
                   1418,
                   1514,
-                  2268,
-                  1628
+                  2266,
+                  1547
                 ]
               }
             ]

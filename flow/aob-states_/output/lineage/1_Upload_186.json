@@ -1,0 +1,172 @@
+{
+ "file": "1_Upload_186.pdf",
+ "kind": "amendment",
+ "series": 148,
+ "date": "1981-07-24",
+ "govdoc": "aob-ammend_/output/1_Upload_186.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826684.5479033,
+ "edits_file": "aob-ammend_/conf/1_Upload_186.pdf.edits.yml",
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_186.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:56:09.177873+00:00",
+  "sha256": "33e88c2d21988447c96520baad3c0ccd6c900ea8bb034287dcd2de9897783680",
+  "pages": 2
+ },
+ "edits": [
+  {
+   "run": "h1",
+   "by": "claude",
+   "at": "2026-11-12T15:01:00+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r1.w416",
+     "before": {
+      "text": "8.O."
+     },
+     "after": {
+      "text": "S.O."
+     }
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-12T12:33:29.712118+00:00",
+   "stamp": "e63ff03806a03224"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r52",
+   "at": "2026-11-15T12:41:40.208330+00:00",
+   "stamp": "3a352c5ecc0470d9"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r53",
+   "at": "2026-11-15T12:41:42.961826+00:00",
+   "stamp": "62146ba1c1f4e82a"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r54",
+   "at": "2026-11-15T12:41:45.557294+00:00",
+   "stamp": "a3ea1d41998b7fb8"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r63",
+   "at": "2026-11-15T16:24:06.089517+00:00",
+   "stamp": "87c4740ae84c88cf",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r64",
+   "at": "2026-11-15T16:24:07.791146+00:00",
+   "stamp": "e7fb21164e05738b",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r65",
+   "at": "2026-11-15T16:24:09.475013+00:00",
+   "stamp": "52e9de7af13ffe1b",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r71",
+   "at": "2026-11-15T16:57:22.820650+00:00",
+   "stamp": "6f461d62b8ded020"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r72",
+   "at": "2026-11-15T17:03:18.097451+00:00",
+   "stamp": "092e5b96ec0b18f1"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r77",
+   "at": "2026-11-16T10:58:04.534353+00:00",
+   "stamp": "7d777cd4934516c2"
+  }
+ ],
+ "reviews": [],
+ "issues": [],
+ "problems": [],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_608E_1981",
+   "op": "replace",
+   "source_ref": "2(a)",
+   "path": "schedule 1 › ministry Cabinet Secretariat",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_608E_1981",
+   "op": "omit",
+   "source_ref": "2(b)(i)",
+   "path": "schedule 2 › ministry DEPARTMENT OF SCIENCE AND TECHNOLOGY › entry 4 ; schedule 2 › ministry DEPARTMENT OF SCIENCE AND TECHNOLOGY › entry 14",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_608E_1981",
+   "op": "insert",
+   "source_ref": "2(b)(ii)",
+   "path": "schedule 2 › ministry CABINET SECRETARIAT",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

@@ -1,0 +1,137 @@
+{
+ "file": "1_Upload_3786.pdf",
+ "kind": "amendment",
+ "series": 374,
+ "date": "2023-11-23",
+ "govdoc": "aob-ammend_/output/1_Upload_3786.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826695.199864,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_3786.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T14:01:17.531676+00:00",
+  "sha256": "e0b98b755b0d5f57ca103a6c6461fe8ca40e3057f3c310bb3bac7d510ea6e84e",
+  "pages": 2
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r17",
+   "at": "2026-10-31T11:51:37.413569+00:00",
+   "stamp": "c0b6b05e54537ded"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r205",
+   "at": "2026-11-15T12:42:45.958623+00:00",
+   "stamp": "f30767fdf7dd0f56"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r206",
+   "at": "2026-11-15T12:42:48.586169+00:00",
+   "stamp": "4d2634712ef27cc9"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r207",
+   "at": "2026-11-15T12:42:50.832571+00:00",
+   "stamp": "f12ae7dd849bfa61"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r216",
+   "at": "2026-11-15T16:25:03.597306+00:00",
+   "stamp": "7dd1de8c74f7ea35",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r217",
+   "at": "2026-11-15T16:25:05.692530+00:00",
+   "stamp": "82fa91afe9ef99fe",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r218",
+   "at": "2026-11-15T16:25:07.641414+00:00",
+   "stamp": "d7c99388235bbbb7",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r224",
+   "at": "2026-11-15T16:57:38.265792+00:00",
+   "stamp": "db921571b3e9a7e0"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r225",
+   "at": "2026-11-15T17:03:52.791184+00:00",
+   "stamp": "81487f0f783c4eb8"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r230",
+   "at": "2026-11-16T10:58:15.185263+00:00",
+   "stamp": "afd82ece84fd608d"
+  }
+ ],
+ "reviews": [],
+ "issues": [],
+ "problems": [],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_5042E_2023",
+   "op": "insert",
+   "source_ref": "2",
+   "path": "schedule 2 › ministry MINISTRY OF HEAVY INDUSTRIES › entry 44",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

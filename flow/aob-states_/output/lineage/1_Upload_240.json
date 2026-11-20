@@ -1,0 +1,225 @@
+{
+ "file": "1_Upload_240.pdf",
+ "kind": "amendment",
+ "series": 200,
+ "date": "1989-01-18",
+ "govdoc": "aob-ammend_/output/1_Upload_240.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826684.69979,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_240.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:57:27.904737+00:00",
+  "sha256": "3728da50a9509528d3752b54a8c8b469302cef0fd9a7029723873c43e77b5905",
+  "pages": 4
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-11T03:04:07.955838+00:00",
+   "stamp": "2a088db13add7465"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r113",
+   "at": "2026-11-15T12:41:40.352018+00:00",
+   "stamp": "fa25752b9034e418"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r114",
+   "at": "2026-11-15T12:41:43.152446+00:00",
+   "stamp": "b6be40fe12ecb9ac"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r115",
+   "at": "2026-11-15T12:41:45.674219+00:00",
+   "stamp": "ee706071e63e3748"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r124",
+   "at": "2026-11-15T16:24:06.191758+00:00",
+   "stamp": "43c45ca8805530fd",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r125",
+   "at": "2026-11-15T16:24:07.901144+00:00",
+   "stamp": "3625cf6fd0ebd26f",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r126",
+   "at": "2026-11-15T16:24:09.640890+00:00",
+   "stamp": "3f9808fd607210e6",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r132",
+   "at": "2026-11-15T16:57:22.924145+00:00",
+   "stamp": "37dbaf333f3ce81f"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r133",
+   "at": "2026-11-15T17:03:18.293134+00:00",
+   "stamp": "f58ce29120ccab57"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r138",
+   "at": "2026-11-16T10:58:04.674802+00:00",
+   "stamp": "b62f363c26d90131"
+  }
+ ],
+ "reviews": [],
+ "issues": [
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
+   "message": "change 2: department DEPARTMNÉT OF COMMERCE taken for department DEPARTMENT OF COMMERCE, named loosely",
+   "target": "r126.rel2",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
+   "message": "change 6: department DEPARTMENT OF STITISTICS taken for department DEPARTMENT OF STATISTICS, named loosely",
+   "target": "r126.rel6",
+   "status": "open"
+  }
+ ],
+ "problems": [
+  {
+   "series": 271,
+   "seq": 7,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry CABINET SECRETARIAT › entry 8 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  }
+ ],
+ "rules": [
+  {
+   "rule": "loose",
+   "seq": 2,
+   "note": "change 2: department DEPARTMNÉT OF COMMERCE taken for department DEPARTMENT OF COMMERCE, named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "loose",
+   "seq": 6,
+   "note": "change 6: department DEPARTMENT OF STITISTICS taken for department DEPARTMENT OF STATISTICS, named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  }
+ ],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_85E_1989",
+   "op": "insert",
+   "source_ref": "2(a)",
+   "path": "schedule 2 › ministry MINISTRY OF CIVIL AVIATION AND TOURISM › department DEPARTMENT OF CIVIL AVIATION › entry 22",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_85E_1989",
+   "op": "insert",
+   "source_ref": "2(b)",
+   "path": "schedule 2 › ministry MINISTRY OF COMMERCE › department DEPARTMNÉT OF COMMERCE › entry 12",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_85E_1989",
+   "op": "replace",
+   "source_ref": "2(c)(i)",
+   "path": "schedule 2 › ministry MINISTRY OF ENERGY › department DEPARTMENT OF POWER › entry 2",
+   "status": "applied"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_85E_1989",
+   "op": "insert",
+   "source_ref": "2(c)(ii)",
+   "path": "schedule 2 › ministry MINISTRY OF ENERGY › department DEPARTMENT OF NON-CONVENTIONAL ENERGY SOURCES › entry 3",
+   "status": "applied"
+  },
+  {
+   "seq": 5,
+   "doc_id": "GOI_SO_85E_1989",
+   "op": "insert",
+   "source_ref": "2(d)",
+   "path": "schedule 2 › ministry MINISTRY OF INDUSTRY › department DEPARTMENT OF INDUSTRIAL DEVELOPMENT › entry 6",
+   "status": "applied"
+  },
+  {
+   "seq": 6,
+   "doc_id": "GOI_SO_85E_1989",
+   "op": "replace",
+   "source_ref": "2(e)",
+   "path": "schedule 2 › ministry MINISTRY OF PLANNING › department DEPARTMENT OF STITISTICS",
+   "status": "applied"
+  },
+  {
+   "seq": 7,
+   "doc_id": "GOI_SO_85E_1989",
+   "op": "insert",
+   "source_ref": "2(f)",
+   "path": "schedule 2 › ministry CABINET SECRETARIAT › entry 2",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

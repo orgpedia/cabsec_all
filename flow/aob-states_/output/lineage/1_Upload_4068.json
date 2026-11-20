@@ -1,0 +1,177 @@
+{
+ "file": "1_Upload_4068.pdf",
+ "kind": "amendment",
+ "series": 382,
+ "date": "2025-07-03",
+ "govdoc": "aob-ammend_/output/1_Upload_4068.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826690.414598,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_4068.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T14:01:32.497163+00:00",
+  "sha256": "9a4cbcc14b3930fb1b79073b87c7687fa248cadb06cbb76bf887021f5fa4a8b6",
+  "pages": 3
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r24",
+   "at": "2026-10-31T11:51:37.115162+00:00",
+   "stamp": "ed17dec00922cd51"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r212",
+   "at": "2026-11-15T12:42:19.144090+00:00",
+   "stamp": "56d51e3a50177ec4"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r213",
+   "at": "2026-11-15T12:42:21.862044+00:00",
+   "stamp": "dc1ef5af83dedfb8"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r214",
+   "at": "2026-11-15T12:42:24.146150+00:00",
+   "stamp": "4f7daf6b963dd98d"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r223",
+   "at": "2026-11-15T16:24:37.153513+00:00",
+   "stamp": "9f4e4d473cb10325",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r224",
+   "at": "2026-11-15T16:24:39.478578+00:00",
+   "stamp": "4d2b0f85fae971d7",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r225",
+   "at": "2026-11-15T16:24:41.538092+00:00",
+   "stamp": "f246d443fdd18cfb",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r231",
+   "at": "2026-11-15T16:57:31.186813+00:00",
+   "stamp": "c106dc4698d4ce85"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r232",
+   "at": "2026-11-15T17:03:37.259092+00:00",
+   "stamp": "7addc8933a65bd65"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r237",
+   "at": "2026-11-16T10:58:10.395693+00:00",
+   "stamp": "cf4d5a9ecfa6f54e"
+  }
+ ],
+ "reviews": [],
+ "issues": [],
+ "problems": [],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_2988E_2025",
+   "op": "insert",
+   "source_ref": "2(i)",
+   "path": "schedule 2 › ministry MINISTRY OF PERSONNEL, PUBLIC GRIEVANCES AND PENSIONS › department DEPARTMENT OF PERSONNEL AND TRAINING › entry 2",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_2988E_2025",
+   "op": "insert",
+   "source_ref": "2(ii)",
+   "path": "schedule 2 › ministry MINISTRY OF PERSONNEL, PUBLIC GRIEVANCES AND PENSIONS › department DEPARTMENT OF PERSONNEL AND TRAINING › entry 5",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_2988E_2025",
+   "op": "substitute_text",
+   "source_ref": "2(iii)",
+   "path": "schedule 2 › ministry MINISTRY OF PERSONNEL, PUBLIC GRIEVANCES AND PENSIONS › department DEPARTMENT OF PERSONNEL AND TRAINING › entry 20A",
+   "status": "applied"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_2988E_2025",
+   "op": "insert",
+   "source_ref": "2(iv)",
+   "path": "schedule 2 › ministry MINISTRY OF PERSONNEL, PUBLIC GRIEVANCES AND PENSIONS › department DEPARTMENT OF PERSONNEL AND TRAINING › entry 20A",
+   "status": "applied"
+  },
+  {
+   "seq": 5,
+   "doc_id": "GOI_SO_2988E_2025",
+   "op": "substitute_text",
+   "source_ref": "2(v)",
+   "path": "schedule 2 › ministry MINISTRY OF PERSONNEL, PUBLIC GRIEVANCES AND PENSIONS › department DEPARTMENT OF PERSONNEL AND TRAINING › entry 26",
+   "status": "applied"
+  },
+  {
+   "seq": 6,
+   "doc_id": "GOI_SO_2988E_2025",
+   "op": "insert",
+   "source_ref": "2(vi)",
+   "path": "schedule 2 › ministry MINISTRY OF PERSONNEL, PUBLIC GRIEVANCES AND PENSIONS › department DEPARTMENT OF PERSONNEL AND TRAINING › entry 45",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

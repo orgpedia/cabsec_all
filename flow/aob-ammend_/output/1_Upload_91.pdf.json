@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_91.pdf",
     "sha256": "78a469cf293c97f6ac0ae0a9204b636192ab4a268560660dda306addd463e38d",
     "govdoc": "1_Upload_91.pdf.govdoc.json.zst",
-    "revision": 46
+    "revision": 79
   },
   "documents": [
     {
@@ -29,9 +29,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "3",
+          "version": "4",
           "model": "gemini-4-argon",
-          "at": "2026-11-12T13:49:23.052319+00:00"
+          "at": "2026-11-15T16:24:28.818155+00:00"
         },
         "ops": [
           {
@@ -39,7 +39,7 @@
             "source_ref": "(A)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel1",
+            "relation": "r71.rel1",
             "target": {
               "cited": [
                 {
@@ -49,14 +49,14 @@
               ],
               "eId": null,
               "words": [
-                "r1.w178",
+                "r1.w177",
                 "r1.w180"
               ],
               "boxes": [
                 {
                   "page": 1,
                   "bbox": [
-                    433,
+                    369,
                     2069,
                     774,
                     2106
@@ -298,15 +298,15 @@
             ],
             "words": [
               "r1.w176",
-              "r1.w182"
+              "r1.w184"
             ],
             "boxes": [
               {
                 "page": 1,
                 "bbox": [
                   287,
-                  2068,
-                  1020,
+                  2066,
+                  1238,
                   2107
                 ]
               }
@@ -317,7 +317,7 @@
             "source_ref": "(B)(a)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel2",
+            "relation": "r71.rel2",
             "target": {
               "cited": [
                 {
@@ -331,17 +331,17 @@
               ],
               "eId": null,
               "words": [
-                "r1.w201",
+                "r1.w200",
                 "r1.w209"
               ],
               "boxes": [
                 {
                   "page": 1,
                   "bbox": [
-                    474,
+                    402,
                     2196,
                     1667,
-                    2239
+                    2240
                   ]
                 }
               ]
@@ -528,8 +528,13 @@
               },
               {
                 "type": "entry",
-                "num": "20",
-                "text": "Assessment of domestic availability of raw materials with due regard to the feasibility of import substitution. 30 Assessment of requirements of imports of raw materials, with due allowance for inventories."
+                "num": "29",
+                "text": "Assessment of domestic availability of raw materials with due regard to the feasibility of import substitution."
+              },
+              {
+                "type": "entry",
+                "num": "30",
+                "text": "Assessment of requirements of imports of raw materials, with due allowance for inventories."
               },
               {
                 "type": "entry",
@@ -603,15 +608,15 @@
             ],
             "words": [
               "r1.w199",
-              "r1.w205"
+              "r1.w207"
             ],
             "boxes": [
               {
                 "page": 1,
                 "bbox": [
                   329,
-                  2200,
-                  1129,
+                  2198,
+                  1302,
                   2241
                 ]
               }
@@ -622,7 +627,7 @@
             "source_ref": "(B)(b)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r10.rel3",
+            "relation": "r71.rel3",
             "target": {
               "cited": [
                 {
@@ -654,15 +659,15 @@
             "flags": [],
             "words": [
               "r1.w236",
-              "r1.w243"
+              "r1.w244"
             ],
             "boxes": [
               {
                 "page": 1,
                 "bbox": [
                   329,
-                  2348,
-                  1155,
+                  2347,
+                  1243,
                   2392
                 ]
               }
@@ -673,7 +678,7 @@
             "source_ref": "(B)(c)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r10.rel4",
+            "relation": "r71.rel4",
             "target": {
               "cited": [
                 {
@@ -709,15 +714,15 @@
             "flags": [],
             "words": [
               "r1.w251",
-              "r1.w258"
+              "r1.w259"
             ],
             "boxes": [
               {
                 "page": 1,
                 "bbox": [
                   323,
-                  2429,
-                  1137,
+                  2427,
+                  1366,
                   2475
                 ]
               }
@@ -728,7 +733,7 @@
             "source_ref": "(B)(d)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r10.rel5",
+            "relation": "r71.rel5",
             "target": {
               "cited": [
                 {
@@ -760,15 +765,15 @@
             "flags": [],
             "words": [
               "r1.w272",
-              "r1.w279"
+              "r1.w280"
             ],
             "boxes": [
               {
                 "page": 1,
                 "bbox": [
                   328,
-                  2508,
-                  1223,
+                  2507,
+                  1311,
                   2556
                 ]
               }
@@ -779,7 +784,7 @@
             "source_ref": "(B)(e)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r10.rel6",
+            "relation": "r71.rel6",
             "position": "after",
             "anchor": {
               "cited": [
@@ -881,7 +886,7 @@
               },
               {
                 "type": "entry",
-                "num": "8",
+                "num": "6",
                 "text": "Administration of Coal Bearing Areas (Acquisition and Development) Act"
               },
               {
@@ -930,7 +935,7 @@
             ],
             "words": [
               "r1.w297",
-              "r1.w304"
+              "r1.w305"
             ],
             "boxes": [
               {
@@ -938,7 +943,7 @@
                 "bbox": [
                   330,
                   252,
-                  1337,
+                  1501,
                   287
                 ]
               }
@@ -949,7 +954,7 @@
             "source_ref": "(B)(f)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r10.rel7",
+            "relation": "r71.rel7",
             "target": {
               "cited": [
                 {
@@ -981,7 +986,7 @@
             "flags": [],
             "words": [
               "r1.w336",
-              "r1.w343"
+              "r1.w344"
             ],
             "boxes": [
               {
@@ -989,7 +994,7 @@
                 "bbox": [
                   330,
                   411,
-                  1432,
+                  1481,
                   449
                 ]
               }
@@ -1000,7 +1005,7 @@
             "source_ref": "(B)(g)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel8",
+            "relation": "r71.rel8",
             "target": {
               "cited": [
                 {
@@ -1014,14 +1019,14 @@
               ],
               "eId": null,
               "words": [
-                "r1.w359",
+                "r1.w358",
                 "r1.w373"
               ],
               "boxes": [
                 {
                   "page": 2,
                   "bbox": [
-                    440,
+                    402,
                     537,
                     1664,
                     608
@@ -1099,8 +1104,8 @@
                 "heading": "MINISTRY OF TRANSPORT & SHIPPING"
               },
               {
-                "type": "entry",
-                "num": "1",
+                "type": "group_heading",
+                "num": "I",
                 "text": "The following subjects which fall within list I of the Seventh Schedule to the Constitution of India:"
               },
               {
@@ -1130,7 +1135,7 @@
               },
               {
                 "type": "entry",
-                "num": "8",
+                "num": "6",
                 "text": "Highways declared by or under law made by Parliament to be national highways."
               },
               {
@@ -1245,15 +1250,15 @@
             ],
             "words": [
               "r1.w357",
-              "r1.w364"
+              "r1.w365"
             ],
             "boxes": [
               {
                 "page": 2,
                 "bbox": [
                   329,
-                  540,
-                  1211,
+                  539,
+                  1404,
                   579
                 ]
               }
@@ -1264,7 +1269,7 @@
             "source_ref": "(B)(h)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel9",
+            "relation": "r71.rel9",
             "target": {
               "cited": [
                 {
@@ -1278,14 +1283,14 @@
               ],
               "eId": null,
               "words": [
-                "r1.w393",
+                "r1.w392",
                 "r1.w406"
               ],
               "boxes": [
                 {
                   "page": 2,
                   "bbox": [
-                    439,
+                    406,
                     659,
                     1674,
                     724
@@ -1485,7 +1490,7 @@
             ],
             "words": [
               "r1.w391",
-              "r1.w398"
+              "r1.w399"
             ],
             "boxes": [
               {
@@ -1493,7 +1498,7 @@
                 "bbox": [
                   332,
                   659,
-                  1253,
+                  1342,
                   692
                 ]
               }

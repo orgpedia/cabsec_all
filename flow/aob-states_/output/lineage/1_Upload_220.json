@@ -1,0 +1,372 @@
+{
+ "file": "1_Upload_220.pdf",
+ "kind": "amendment",
+ "series": 182,
+ "date": "1986-03-19",
+ "govdoc": "aob-ammend_/output/1_Upload_220.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826692.4957755,
+ "edits_file": "aob-ammend_/conf/1_Upload_220.pdf.edits.yml",
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_220.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:56:54.771249+00:00",
+  "sha256": "b797d80481953c12dba202c936508c21fbba3a4c20359f3e282762e26ff115ee",
+  "pages": 2
+ },
+ "edits": [
+  {
+   "run": "h1",
+   "by": "mukundesh",
+   "at": "2026-11-11T10:57:32+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r1.w409",
+     "before": {
+      "text": "Mini"
+     },
+     "after": {
+      "text": "Minis"
+     }
+    }
+   ]
+  },
+  {
+   "run": "h2",
+   "by": "mukundesh",
+   "at": "2026-11-11T10:57:40+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r1.w409",
+     "before": {
+      "text": "Minis"
+     },
+     "after": {
+      "text": "Ministry"
+     }
+    },
+    {
+     "op": "fields",
+     "target": "r1.w409",
+     "before": {
+      "bbox": [
+       708,
+       1224,
+       794,
+       1262
+      ]
+     },
+     "after": {
+      "bbox": [
+       708,
+       1224,
+       860,
+       1262
+      ]
+     }
+    },
+    {
+     "op": "remove_word",
+     "target": "r1.w410",
+     "before": {
+      "page": 2,
+      "word": {
+       "id": "r1.w410",
+       "text": "try",
+       "bbox": [
+        810,
+        1224,
+        860,
+        1261
+       ],
+       "confidence": 0.77
+      },
+      "line": "r2.l86",
+      "after": "r1.w409"
+     },
+     "after": null
+    }
+   ]
+  },
+  {
+   "run": "h3",
+   "by": "mukundesh",
+   "at": "2026-11-11T10:58:00+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r1.w424",
+     "before": {
+      "text": "foll"
+     },
+     "after": {
+      "text": "follow"
+     }
+    }
+   ]
+  },
+  {
+   "run": "h5",
+   "by": "mukundesh",
+   "at": "2026-11-11T10:58:09+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r1.w424",
+     "before": {
+      "text": "follow"
+     },
+     "after": {
+      "text": "following"
+     }
+    },
+    {
+     "op": "fields",
+     "target": "r1.w424",
+     "before": {
+      "bbox": [
+       620,
+       1356,
+       683,
+       1393
+      ]
+     },
+     "after": {
+      "bbox": [
+       620,
+       1356,
+       789,
+       1393
+      ]
+     }
+    },
+    {
+     "op": "remove_word",
+     "target": "r1.w425",
+     "before": {
+      "page": 2,
+      "word": {
+       "id": "r1.w425",
+       "text": "ing",
+       "bbox": [
+        747,
+        1356,
+        789,
+        1393
+       ],
+       "confidence": 0.78
+      },
+      "line": "r2.l90",
+      "after": "r1.w424"
+     },
+     "after": null
+    }
+   ]
+  },
+  {
+   "run": "h7",
+   "by": "mukundesh",
+   "at": "2026-11-11T10:58:27+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r1.w435",
+     "before": {
+      "text": "Re"
+     },
+     "after": {
+      "text": "Resource"
+     }
+    },
+    {
+     "op": "fields",
+     "target": "r1.w435",
+     "before": {
+      "bbox": [
+       757,
+       1469,
+       807,
+       1506
+      ]
+     },
+     "after": {
+      "bbox": [
+       757,
+       1469,
+       920,
+       1507
+      ]
+     }
+    },
+    {
+     "op": "remove_word",
+     "target": "r1.w436",
+     "before": {
+      "page": 2,
+      "word": {
+       "id": "r1.w436",
+       "text": "source",
+       "bbox": [
+        824,
+        1469,
+        920,
+        1507
+       ],
+       "confidence": 0.88
+      },
+      "line": "r2.l94",
+      "after": "r1.w435"
+     },
+     "after": null
+    }
+   ]
+  },
+  {
+   "run": "h8",
+   "by": "mukundesh",
+   "at": "2026-11-11T10:58:41+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r1.w447",
+     "before": {
+      "text": "Fducation"
+     },
+     "after": {
+      "text": "Education"
+     }
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-11T03:02:31.869857+00:00",
+   "stamp": "1ee3963113647d4f"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r121",
+   "at": "2026-11-15T12:42:31.761274+00:00",
+   "stamp": "910cad9405f11522"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r122",
+   "at": "2026-11-15T12:42:34.046905+00:00",
+   "stamp": "bd6715e3e2040715"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r123",
+   "at": "2026-11-15T12:42:36.384698+00:00",
+   "stamp": "f5f36c2cffd37f7a"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r132",
+   "at": "2026-11-15T16:24:50.820321+00:00",
+   "stamp": "28edc03484b049fd",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r133",
+   "at": "2026-11-15T16:24:52.587281+00:00",
+   "stamp": "2f18286be390836b",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r134",
+   "at": "2026-11-15T16:24:54.368942+00:00",
+   "stamp": "5a7a71c4adc0754b",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r140",
+   "at": "2026-11-15T16:57:34.522507+00:00",
+   "stamp": "47bdaf0875eb55bd"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r141",
+   "at": "2026-11-15T17:03:44.306586+00:00",
+   "stamp": "d55694a8f00bc4d5"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r146",
+   "at": "2026-11-16T10:58:12.480829+00:00",
+   "stamp": "0083853e626fb1c4"
+  }
+ ],
+ "reviews": [],
+ "issues": [],
+ "problems": [],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_102E_1986",
+   "op": "replace",
+   "source_ref": "2(1)(i)",
+   "path": "schedule 1 › ministry Ministry of Human Resource Development",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_102E_1986",
+   "op": "replace",
+   "source_ref": "2(2)",
+   "path": "schedule 2 › ministry MINISTRY OF HUMAN RESOURCE DEVELOPMENT › department DEPARTMENT OF WOMEN'S WELFARE",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

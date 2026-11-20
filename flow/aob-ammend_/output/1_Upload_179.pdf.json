@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_179.pdf",
     "sha256": "d5deff0edd0563e8ff384ebeae64de2ad04af3d0531a42d10f97fa238329b72a",
     "govdoc": "1_Upload_179.pdf.govdoc.json.zst",
-    "revision": 46
+    "revision": 70
   },
   "documents": [
     {
@@ -29,9 +29,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "3",
+          "version": "4",
           "model": "gemini-4-argon",
-          "at": "2026-11-12T13:52:25.937726+00:00"
+          "at": "2026-11-15T16:25:06.996905+00:00"
         },
         "ops": [
           {
@@ -39,7 +39,7 @@
             "source_ref": "2",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel1",
+            "relation": "r63.rel1",
             "target": {
               "cited": [
                 {
@@ -53,14 +53,14 @@
               ],
               "eId": null,
               "words": [
-                "r1.w594",
+                "r1.w593",
                 "r1.w595"
               ],
               "boxes": [
                 {
                   "page": 2,
                   "bbox": [
-                    899,
+                    833,
                     1869,
                     1023,
                     1902
@@ -116,7 +116,7 @@
             "source_ref": "3(a)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r10.rel2",
+            "relation": "r63.rel2",
             "position": "after",
             "anchor": {
               "cited": [
@@ -248,7 +248,9 @@
                 "text": "Northern India Textile Research Association New Delhi."
               }
             ],
-            "flags": [],
+            "flags": [
+              "states_inferred_loose"
+            ],
             "words": [
               "r1.w650",
               "r1.w656"
@@ -270,7 +272,7 @@
             "source_ref": "3(b)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r10.rel3",
+            "relation": "r63.rel3",
             "target": [
               {
                 "cited": [

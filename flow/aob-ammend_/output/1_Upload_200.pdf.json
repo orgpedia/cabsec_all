@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_200.pdf",
     "sha256": "6bd665b62f9302fdba20cf2a707b36104c552a45a2bef46a602f0687fbe74fcc",
     "govdoc": "1_Upload_200.pdf.govdoc.json.zst",
-    "revision": 46
+    "revision": 70
   },
   "documents": [
     {
@@ -29,9 +29,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "3",
+          "version": "4",
           "model": "gemini-4-argon",
-          "at": "2026-11-12T13:49:14.237318+00:00"
+          "at": "2026-11-15T16:24:20.622589+00:00"
         },
         "ops": [
           {
@@ -39,7 +39,7 @@
             "source_ref": "2(a)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r10.rel1",
+            "relation": "r63.rel1",
             "position": "after",
             "anchor": {
               "cited": [
@@ -53,7 +53,7 @@
                 },
                 {
                   "type": "department",
-                  "heading": "DE- PARTMENT OF CULTURE"
+                  "heading": "DEPARTMENT OF CULTURE"
                 },
                 {
                   "type": "entry",
@@ -106,7 +106,7 @@
             "source_ref": "2(b)(1)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r10.rel2",
+            "relation": "r63.rel2",
             "position": "after",
             "anchor": {
               "cited": [
@@ -120,7 +120,7 @@
                 },
                 {
                   "type": "department",
-                  "heading": "DEPARTMENT OF PETRO- LEUM"
+                  "heading": "DEPARTMENT OF PETROLEUM"
                 },
                 {
                   "type": "entry",
@@ -173,7 +173,7 @@
             "source_ref": "2(b)(2)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r10.rel3",
+            "relation": "r63.rel3",
             "position": "after",
             "anchor": {
               "cited": [
@@ -240,7 +240,7 @@
             "source_ref": "2(c)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r10.rel4",
+            "relation": "r63.rel4",
             "position": "after",
             "anchor": {
               "cited": [
@@ -303,7 +303,7 @@
             "source_ref": "2(d)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r10.rel5",
+            "relation": "r63.rel5",
             "position": "after",
             "anchor": {
               "cited": [
@@ -317,7 +317,7 @@
                 },
                 {
                   "type": "department",
-                  "heading": "DE- PARTMENT OF ECONOMIC AFFAIRS"
+                  "heading": "DEPARTMENT OF ECONOMIC AFFAIRS"
                 },
                 {
                   "type": "entry",
@@ -375,7 +375,7 @@
             "source_ref": "2(c)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel6",
+            "relation": "r63.rel6",
             "target": {
               "cited": [
                 {
@@ -441,7 +441,7 @@
             "source_ref": "2(f)(1)(A)(i)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r10.rel7",
+            "relation": "r63.rel7",
             "target": {
               "cited": [
                 {
@@ -450,7 +450,7 @@
                 },
                 {
                   "type": "ministry",
-                  "heading": "MINISTRY OF HOME AFFA- IRS"
+                  "heading": "MINISTRY OF HOME AFFAIRS"
                 },
                 {
                   "type": "group_heading",
@@ -500,7 +500,7 @@
             "source_ref": "2(f)(1)(A)(ii)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel8",
+            "relation": "r63.rel8",
             "target": {
               "cited": [
                 {
@@ -509,7 +509,7 @@
                 },
                 {
                   "type": "ministry",
-                  "heading": "MINISTRY OF HOME AFFA- IRS"
+                  "heading": "MINISTRY OF HOME AFFAIRS"
                 },
                 {
                   "type": "group_heading",
@@ -566,7 +566,7 @@
             "source_ref": "2(f)(1)(A)(iii)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r10.rel9",
+            "relation": "r63.rel9",
             "position": "after",
             "anchor": {
               "cited": [
@@ -576,7 +576,7 @@
                 },
                 {
                   "type": "ministry",
-                  "heading": "MINISTRY OF HOME AFFA- IRS"
+                  "heading": "MINISTRY OF HOME AFFAIRS"
                 },
                 {
                   "type": "group_heading",
@@ -632,7 +632,7 @@
             "source_ref": "2(f)(1)(B)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r10.rel10",
+            "relation": "r63.rel10",
             "position": "after",
             "anchor": {
               "cited": [
@@ -642,7 +642,7 @@
                 },
                 {
                   "type": "ministry",
-                  "heading": "MINISTRY OF HOME AFFA- IRS"
+                  "heading": "MINISTRY OF HOME AFFAIRS"
                 },
                 {
                   "type": "group_heading",
@@ -702,9 +702,9 @@
           {
             "seq": 11,
             "source_ref": "2(f)(1)(C)(i)",
-            "op": "substitute_text",
-            "akn_type": "substitution",
-            "relation": "r10.rel11",
+            "op": "replace",
+            "akn_type": "replacement",
+            "relation": "r63.rel11",
             "target": {
               "cited": [
                 {
@@ -713,7 +713,7 @@
                 },
                 {
                   "type": "ministry",
-                  "heading": "MINISTRY OF HOME AFFA- IRS"
+                  "heading": "MINISTRY OF HOME AFFAIRS"
                 },
                 {
                   "type": "group_heading",
@@ -737,17 +737,13 @@
                 }
               ]
             },
-            "old": "(as regards ... entry 82)",
-            "new": "as regards only legislation and any executive power expressly conferred by the Constitution of any law made by Parliament, upon the Union or authorities thercof.",
             "content": [
               {
                 "type": "text",
                 "text": "as regards only legislation and any executive power expressly conferred by the Constitution of any law made by Parliament, upon the Union or authorities thercof."
               }
             ],
-            "flags": [
-              "read_quote_mismatch"
-            ],
+            "flags": [],
             "words": [
               "r1.w1594",
               "r1.w1602"
@@ -769,7 +765,7 @@
             "source_ref": "2(f)(1)(C)(ii)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel12",
+            "relation": "r63.rel12",
             "target": {
               "cited": [
                 {
@@ -778,7 +774,7 @@
                 },
                 {
                   "type": "ministry",
-                  "heading": "MINISTRY OF HOME AFFA- IRS"
+                  "heading": "MINISTRY OF HOME AFFAIRS"
                 },
                 {
                   "type": "group_heading",
@@ -835,7 +831,7 @@
             "source_ref": "2(f)(1)(C)(iii)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r10.rel13",
+            "relation": "r63.rel13",
             "target": [
               {
                 "cited": [
@@ -845,7 +841,7 @@
                   },
                   {
                     "type": "ministry",
-                    "heading": "MINISTRY OF HOME AFFA- IRS"
+                    "heading": "MINISTRY OF HOME AFFAIRS"
                   },
                   {
                     "type": "group_heading",
@@ -853,13 +849,13 @@
                   },
                   {
                     "type": "entry",
-                    "num": "84"
+                    "num": "83"
                   }
                 ],
                 "eId": null,
                 "words": [
                   "r1.w1684",
-                  "r1.w1687"
+                  "r1.w1685"
                 ],
                 "boxes": [
                   {
@@ -867,7 +863,7 @@
                     "bbox": [
                       1369,
                       857,
-                      1663,
+                      1523,
                       887
                     ]
                   }
@@ -881,7 +877,7 @@
                   },
                   {
                     "type": "ministry",
-                    "heading": "MINISTRY OF HOME AFFA- IRS"
+                    "heading": "MINISTRY OF HOME AFFAIRS"
                   },
                   {
                     "type": "group_heading",
@@ -894,14 +890,14 @@
                 ],
                 "eId": null,
                 "words": [
-                  "r1.w1684",
+                  "r1.w1687",
                   "r1.w1687"
                 ],
                 "boxes": [
                   {
                     "page": 3,
                     "bbox": [
-                      1369,
+                      1626,
                       857,
                       1663,
                       887
@@ -932,7 +928,7 @@
             "source_ref": "2(f)(2)(i)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel14",
+            "relation": "r63.rel14",
             "target": {
               "cited": [
                 {
@@ -941,11 +937,11 @@
                 },
                 {
                   "type": "ministry",
-                  "heading": "MINISTRY OF HOME AFFA- IRS"
+                  "heading": "MINISTRY OF HOME AFFAIRS"
                 },
                 {
                   "type": "department",
-                  "heading": "DEPARTMENT OF PERSON- NEL AND ADMINISTRATIVE REFORMS"
+                  "heading": "DEPARTMENT OF PERSONNEL AND ADMINISTRATIVE REFORMS"
                 },
                 {
                   "type": "entry",
@@ -1002,7 +998,7 @@
             "source_ref": "2(f)(2)(ii)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r10.rel15",
+            "relation": "r63.rel15",
             "target": {
               "cited": [
                 {
@@ -1011,11 +1007,11 @@
                 },
                 {
                   "type": "ministry",
-                  "heading": "MINISTRY OF HOME AFFA- IRS"
+                  "heading": "MINISTRY OF HOME AFFAIRS"
                 },
                 {
                   "type": "department",
-                  "heading": "DEPARTMENT OF PERSON- NEL AND ADMINISTRATIVE REFORMS"
+                  "heading": "DEPARTMENT OF PERSONNEL AND ADMINISTRATIVE REFORMS"
                 },
                 {
                   "type": "entry",
@@ -1065,7 +1061,7 @@
             "source_ref": "2(f)(2)(iii)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel16",
+            "relation": "r63.rel16",
             "target": {
               "cited": [
                 {
@@ -1074,11 +1070,11 @@
                 },
                 {
                   "type": "ministry",
-                  "heading": "MINISTRY OF HOME AFFA- IRS"
+                  "heading": "MINISTRY OF HOME AFFAIRS"
                 },
                 {
                   "type": "department",
-                  "heading": "DEPARTMENT OF PERSON- NEL AND ADMINISTRATIVE REFORMS"
+                  "heading": "DEPARTMENT OF PERSONNEL AND ADMINISTRATIVE REFORMS"
                 },
                 {
                   "type": "entry",
@@ -1135,7 +1131,7 @@
             "source_ref": "2(g)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r10.rel17",
+            "relation": "r63.rel17",
             "position": "after",
             "anchor": {
               "cited": [
@@ -1202,7 +1198,7 @@
             "source_ref": "2(h)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel18",
+            "relation": "r63.rel18",
             "target": {
               "cited": [
                 {
@@ -1211,7 +1207,7 @@
                 },
                 {
                   "type": "ministry",
-                  "heading": "MINISTRY OF SOCIAL WEL- FARE"
+                  "heading": "MINISTRY OF SOCIAL WELFARE"
                 },
                 {
                   "type": "group_heading",
@@ -1268,7 +1264,7 @@
             "source_ref": "2(i)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r10.rel19",
+            "relation": "r63.rel19",
             "position": "after",
             "anchor": {
               "cited": [
@@ -1277,8 +1273,8 @@
                   "num": "2"
                 },
                 {
-                  "type": "department",
-                  "heading": "DEPARTMENT OF ENVIRON- MENT"
+                  "type": "ministry",
+                  "heading": "DEPARTMENT OF ENVIRONMENT"
                 },
                 {
                   "type": "entry",
@@ -1309,7 +1305,9 @@
                 "text": "Padmaja Naidu Himalayan Zoological Park."
               }
             ],
-            "flags": [],
+            "flags": [
+              "states_inferred_loose"
+            ],
             "words": [
               "r1.w1880",
               "r1.w1886"

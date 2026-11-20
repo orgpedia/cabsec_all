@@ -1,0 +1,169 @@
+{
+ "file": "1_Upload_175.pdf",
+ "kind": "amendment",
+ "series": 137,
+ "date": "1979-09-20",
+ "govdoc": "aob-ammend_/output/1_Upload_175.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826691.4216175,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_175.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:55:52.578152+00:00",
+  "sha256": "a75eab79a1e6f4f2c22bcf8b1418458185a08fb3b79ad16afbbc45cfe704fca1",
+  "pages": 2
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-12T12:41:44.712486+00:00",
+   "stamp": "2e47f484bc6a6e47"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r50",
+   "at": "2026-11-15T12:42:20.791052+00:00",
+   "stamp": "0306255e71b233e4"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r51",
+   "at": "2026-11-15T12:42:23.334132+00:00",
+   "stamp": "bac43d247b5f4fa7"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r52",
+   "at": "2026-11-15T12:42:25.253146+00:00",
+   "stamp": "15108f9411a720ea"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r61",
+   "at": "2026-11-15T16:24:38.596175+00:00",
+   "stamp": "9738182fcce76e1e",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r62",
+   "at": "2026-11-15T16:24:40.744532+00:00",
+   "stamp": "ccfb93497684acff",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r63",
+   "at": "2026-11-15T16:24:42.854929+00:00",
+   "stamp": "3af3be69f3182c18",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r69",
+   "at": "2026-11-15T16:57:32.433539+00:00",
+   "stamp": "413e909d33e74751"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r70",
+   "at": "2026-11-15T17:03:39.209501+00:00",
+   "stamp": "b255e5927fb8f333"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r75",
+   "at": "2026-11-16T10:58:11.407456+00:00",
+   "stamp": "552c8d405501c7ae"
+  }
+ ],
+ "reviews": [],
+ "issues": [],
+ "problems": [
+  {
+   "series": 174,
+   "seq": 4,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF LAW AND JUSTICE › department C › entry 4A is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
+  }
+ ],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_542E_1979",
+   "op": "insert",
+   "source_ref": "2(a)",
+   "path": "schedule 2 › ministry Ministry of Home Affairs › entry 101",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_542E_1979",
+   "op": "insert",
+   "source_ref": "2(b)",
+   "path": "schedule 2 › ministry Department of Personnel and Administrative Reforms › entry 20(e)",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_542E_1979",
+   "op": "replace",
+   "source_ref": "2(c)",
+   "path": "schedule 2 › ministry Ministry of Labour › group_heading Part II-Con- current subjects › entry 8",
+   "status": "applied"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_542E_1979",
+   "op": "insert",
+   "source_ref": "2(d)",
+   "path": "schedule 2 › ministry Ministry of Law, Justice and Company Affairs › department Depart- ment of Justice › entry 4",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

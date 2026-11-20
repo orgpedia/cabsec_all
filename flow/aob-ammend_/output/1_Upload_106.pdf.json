@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_106.pdf",
     "sha256": "7ad15ad58de0d2172c73d0816dfd2e5ec45efef47f33114bbf75b49a4ef8df22",
     "govdoc": "1_Upload_106.pdf.govdoc.json.zst",
-    "revision": 55
+    "revision": 88
   },
   "documents": [
     {
@@ -29,9 +29,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "3",
+          "version": "4",
           "model": "gemini-4-argon",
-          "at": "2026-11-12T18:01:29.048684+00:00"
+          "at": "2026-11-15T16:24:28.910395+00:00"
         },
         "ops": [
           {
@@ -39,7 +39,7 @@
             "source_ref": "2(a)(1)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r28.rel1",
+            "relation": "r79.rel1",
             "target": {
               "cited": [
                 {
@@ -97,7 +97,7 @@
             "source_ref": "2(a)(ii)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r28.rel2",
+            "relation": "r79.rel2",
             "target": {
               "cited": [
                 {
@@ -170,7 +170,7 @@
             "source_ref": "2(a)(iii)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r28.rel3",
+            "relation": "r79.rel3",
             "target": {
               "cited": [
                 {
@@ -228,7 +228,7 @@
             "source_ref": "2(a)(iv)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r28.rel4",
+            "relation": "r79.rel4",
             "target": {
               "cited": [
                 {
@@ -286,7 +286,7 @@
             "source_ref": "2(b)(1)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r28.rel5",
+            "relation": "r79.rel5",
             "target": {
               "cited": [
                 {
@@ -323,7 +323,9 @@
                 "text": "Ministry of Education and Youth Services"
               }
             ],
-            "flags": [],
+            "flags": [
+              "read_hindi_missing"
+            ],
             "words": [
               "r1.w229",
               "r1.w236"
@@ -345,7 +347,7 @@
             "source_ref": "2(b)(11)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r28.rel6",
+            "relation": "r79.rel6",
             "target": {
               "cited": [
                 {
@@ -533,12 +535,12 @@
               {
                 "type": "entry",
                 "num": "17",
-                "text": "Public sector projects falling under the subjects included in this list except such projects \" as are specifically allotted to any other Department."
+                "text": "Public sector projects falling under the subjects included in this list except such projects as are specifically allotted to any other Department."
               },
               {
-                "type": "item",
-                "num": "c",
-                "text": "DEPARTMENT OF MINES AND METALS"
+                "type": "department",
+                "num": "C",
+                "heading": "DEPARTMENT OF MINES AND METALS"
               },
               {
                 "type": "entry",
@@ -602,6 +604,7 @@
               }
             ],
             "flags": [
+              "read_hindi_missing",
               "read_page_break"
             ],
             "words": [
@@ -625,7 +628,7 @@
             "source_ref": "2(b)(111)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r28.rel7",
+            "relation": "r79.rel7",
             "target": {
               "cited": [
                 {
@@ -717,6 +720,7 @@
               }
             ],
             "flags": [
+              "read_hindi_missing",
               "read_page_break"
             ],
             "words": [
@@ -740,7 +744,7 @@
             "source_ref": "2(b)(iv)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r28.rel8",
+            "relation": "r79.rel8",
             "target": {
               "cited": [
                 {
@@ -777,7 +781,9 @@
                 "text": "Ministry of Shipping and Transport"
               }
             ],
-            "flags": [],
+            "flags": [
+              "read_hindi_missing"
+            ],
             "words": [
               "r1.w950",
               "r1.w957"

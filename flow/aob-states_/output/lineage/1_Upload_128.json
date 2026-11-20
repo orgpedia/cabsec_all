@@ -1,0 +1,145 @@
+{
+ "file": "1_Upload_128.pdf",
+ "kind": "amendment",
+ "series": 94,
+ "date": "1972-05-19",
+ "govdoc": "aob-ammend_/output/1_Upload_128.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826695.4854352,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_128.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:54:44.935311+00:00",
+  "sha256": "e74bba5ff53226d16ef344373a712ca4981ae13c3e7468361d62c030d1051837",
+  "pages": 2
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-12T12:46:01.147902+00:00",
+   "stamp": "2f6d77443c6bb726"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r50",
+   "at": "2026-11-15T12:42:46.280946+00:00",
+   "stamp": "2fd2e21a5077ff3f"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r51",
+   "at": "2026-11-15T12:42:48.989640+00:00",
+   "stamp": "2664cb7ef0225653"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r52",
+   "at": "2026-11-15T12:42:51.113928+00:00",
+   "stamp": "7eea9ea5ef3f49ed"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r61",
+   "at": "2026-11-15T16:25:03.873161+00:00",
+   "stamp": "81092fce592b24d8",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r62",
+   "at": "2026-11-15T16:25:05.954496+00:00",
+   "stamp": "6228d7c49088b3db",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r63",
+   "at": "2026-11-15T16:25:07.972542+00:00",
+   "stamp": "020e8efb8231e70e",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r69",
+   "at": "2026-11-15T16:57:38.552291+00:00",
+   "stamp": "3ce2a9876b006293"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r70",
+   "at": "2026-11-15T17:03:53.342591+00:00",
+   "stamp": "876e03b469dd5f87"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r75",
+   "at": "2026-11-16T10:58:15.477645+00:00",
+   "stamp": "f3e6ac475bffb7c0"
+  }
+ ],
+ "reviews": [],
+ "issues": [],
+ "problems": [],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_374E_1972",
+   "op": "omit",
+   "source_ref": "2(1)",
+   "path": "schedule 2 › ministry MINISTRY OF EXTERNAL AFFAIRS › entry 12",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_374E_1972",
+   "op": "insert",
+   "source_ref": "2(2)",
+   "path": "schedule 2 › ministry MINISTRY OF HOME AFFAIRS › entry 124",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

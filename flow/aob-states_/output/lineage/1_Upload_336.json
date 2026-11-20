@@ -1,0 +1,206 @@
+{
+ "file": "1_Upload_336.pdf",
+ "kind": "amendment",
+ "series": 291,
+ "date": "2007-09-17",
+ "govdoc": "aob-ammend_/output/1_Upload_336.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826683.0909193,
+ "edits_file": "aob-ammend_/conf/1_Upload_336.pdf.edits.yml",
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_336.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T14:00:18.683344+00:00",
+  "sha256": "185caf9bd31aba7516cd1af950afeb3bec008d81da44378044395f658956d04f",
+  "pages": 3
+ },
+ "edits": [
+  {
+   "run": "h1",
+   "by": "mukundesh",
+   "at": "2026-11-09T03:30:47+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r6.w693",
+     "before": {
+      "text": "flealth"
+     },
+     "after": {
+      "text": "Health"
+     }
+    }
+   ]
+  },
+  {
+   "run": "h2",
+   "by": "mukundesh",
+   "at": "2026-11-09T05:00:56+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r6.w739",
+     "before": {
+      "text": "*(iii)"
+     },
+     "after": {
+      "text": "(iii)"
+     }
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r6",
+   "at": "2026-11-04T13:34:19.859345+00:00",
+   "stamp": "1d500db82a7cfcf3"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r185",
+   "at": "2026-11-15T12:41:26.256196+00:00",
+   "stamp": "ffd997a302a7d484"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r186",
+   "at": "2026-11-15T12:41:28.462190+00:00",
+   "stamp": "a203d0623fa12f97"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r187",
+   "at": "2026-11-15T12:41:30.461173+00:00",
+   "stamp": "2fec8bafd00a40fb"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r196",
+   "at": "2026-11-15T16:23:56.701005+00:00",
+   "stamp": "6c94a9de005b88c3",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r197",
+   "at": "2026-11-15T16:23:58.341128+00:00",
+   "stamp": "f7373106ac27601b",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r198",
+   "at": "2026-11-15T16:23:59.725227+00:00",
+   "stamp": "6a6ba2f1d57ae88d",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r204",
+   "at": "2026-11-15T16:57:20.381220+00:00",
+   "stamp": "f2e1c08b0054f592"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r205",
+   "at": "2026-11-15T17:03:12.382165+00:00",
+   "stamp": "d97217a70c1d47aa"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r210",
+   "at": "2026-11-16T10:58:03.066564+00:00",
+   "stamp": "791dfa2654363523"
+  }
+ ],
+ "reviews": [
+  {
+   "id": "h2.v2",
+   "target": "r46.a10",
+   "status": "pending",
+   "by": "mukundesh",
+   "at": "2026-11-09T05:00:56+00:00",
+   "note": "moved by a loose match after h2.e1"
+  }
+ ],
+ "issues": [],
+ "problems": [],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_1568E_2007",
+   "op": "insert",
+   "source_ref": "2(1)",
+   "path": "schedule 1 › ministry Ministry of Health and Family Welfare › department Department of Ayurveda, Yoga and Naturopathy, Unani, Siddha and Homoeopathy (AYUSH)",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_1568E_2007",
+   "op": "replace",
+   "source_ref": "2(2)(A)(i)",
+   "path": "schedule 2 › ministry Ministry of Health and Family Welfare › department Department of Health and Family Welfare › group_heading I. Union business › entry 3",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_1568E_2007",
+   "op": "omit",
+   "source_ref": "2(2)(A)(ii)",
+   "path": "schedule 2 › ministry Ministry of Health and Family Welfare › department Department of Health and Family Welfare › group_heading IV. Miscellaneous business › entry 16 › item d ; schedule 2 › ministry Ministry of Health and Family Welfare › department Department of Health and Family Welfare › group_heading IV. Miscellaneous business › entry 16 › item h",
+   "status": "applied"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_1568E_2007",
+   "op": "insert",
+   "source_ref": "2(2)(B)",
+   "path": "schedule 2 › ministry Ministry of Health and Family Welfare › department Department of Ayurveda, Yoga and Naturopathy, Unani, Siddha and Homoeopathy (AYUSH)",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

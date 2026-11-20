@@ -1,0 +1,145 @@
+{
+ "file": "1_Upload_3116.pdf",
+ "kind": "amendment",
+ "series": 365,
+ "date": "2021-11-10",
+ "govdoc": "aob-ammend_/output/1_Upload_3116.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826685.2026896,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_3116.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:59:37.790040+00:00",
+  "sha256": "3c9794905661d9f7246be4c1a789914b095b419526df0bedd8cd919f51f4702a",
+  "pages": 2
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r72",
+   "at": "2026-11-04T13:34:25.840579+00:00",
+   "stamp": "c271675b7a5aa717"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r218",
+   "at": "2026-11-15T12:41:41.291367+00:00",
+   "stamp": "0d0a22eb9938529c"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r219",
+   "at": "2026-11-15T12:41:43.872443+00:00",
+   "stamp": "540f1ad3c1b47ec4"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r220",
+   "at": "2026-11-15T12:41:46.347520+00:00",
+   "stamp": "8cb485a5fa1b75cb"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r229",
+   "at": "2026-11-15T16:24:06.801956+00:00",
+   "stamp": "a973b11b3910118f",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r230",
+   "at": "2026-11-15T16:24:08.486087+00:00",
+   "stamp": "4ae741c2fa0e44b5",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r231",
+   "at": "2026-11-15T16:24:10.181402+00:00",
+   "stamp": "bd2f3bd8d8587c62",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r237",
+   "at": "2026-11-15T16:57:23.484037+00:00",
+   "stamp": "55b9925925d968ed"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r238",
+   "at": "2026-11-15T17:03:19.218381+00:00",
+   "stamp": "f9d031188e1ce8dc"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r243",
+   "at": "2026-11-16T10:58:05.187813+00:00",
+   "stamp": "780a21162e64b91c"
+  }
+ ],
+ "reviews": [],
+ "issues": [],
+ "problems": [],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_4726E_2021",
+   "op": "omit",
+   "source_ref": "2(a)",
+   "path": "schedule 2 › ministry MINISTRY OF COMMERCE AND INDUSTRY › department DEPARTMENT OF COMMERCE › entry 33",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_4726E_2021",
+   "op": "insert",
+   "source_ref": "2(b)",
+   "path": "schedule 2 › ministry MINISTRY OF COMMERCE AND INDUSTRY › department DEPARTMENT FOR PROMOTION OF INDUSTRY AND INTERNAL TRADE › entry 4E",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

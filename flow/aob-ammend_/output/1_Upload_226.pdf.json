@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_226.pdf",
     "sha256": "5973bb96ce92d377bb524b8b5bc64db0be34101eaf835c0490621ef2ad4bf8b2",
     "govdoc": "1_Upload_226.pdf.govdoc.json.zst",
-    "revision": 118
+    "revision": 142
   },
   "documents": [
     {
@@ -29,9 +29,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "3",
+          "version": "4",
           "model": "gemini-4-argon",
-          "at": "2026-11-12T12:55:58.576329+00:00"
+          "at": "2026-11-15T16:24:19.827874+00:00"
         },
         "ops": [
           {
@@ -39,7 +39,7 @@
             "source_ref": "2(1)(a)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r81.rel1",
+            "relation": "r134.rel1",
             "position": "after",
             "anchor": {
               "cited": [
@@ -99,7 +99,7 @@
             "source_ref": "2(1)(b)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r81.rel2",
+            "relation": "r134.rel2",
             "position": "after",
             "anchor": {
               "cited": [
@@ -159,7 +159,7 @@
             "source_ref": "2(1)(c)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r81.rel3",
+            "relation": "r134.rel3",
             "position": "after",
             "anchor": {
               "cited": [
@@ -219,7 +219,7 @@
             "source_ref": "2(1)(d)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r81.rel4",
+            "relation": "r134.rel4",
             "target": {
               "cited": [
                 {
@@ -248,7 +248,7 @@
                 }
               ]
             },
-            "expect": "25. Ministry of Transport (Pa- riwahan Mantralaya)",
+            "expect": "25. Ministry of Transport (Pariwahan Mantralaya)",
             "flags": [],
             "words": [
               "r1.w1533",
@@ -271,7 +271,7 @@
             "source_ref": "2(2)(a)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r81.rel5",
+            "relation": "r134.rel5",
             "position": "after",
             "anchor": {
               "cited": [
@@ -410,7 +410,7 @@
             "source_ref": "2(2)(b)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r81.rel6",
+            "relation": "r134.rel6",
             "position": "after",
             "anchor": {
               "cited": [
@@ -453,7 +453,7 @@
               {
                 "type": "entry",
                 "num": "2",
-                "text": "Non-Government Railways-Matters in so far as provision for control by the Ministry of Railways (Rail Mantralava) Railway Board (Rail Board) is provided in the Indian Railways Act, 1890 or in the IV. Other subjects which have not been included contracts between the Government and the Railways, or in any other statutory enactments, namely, regulations in respect of safely, maximum and minimum rates and fares, etc."
+                "text": "Non-Government Railways-Matters in so far as provision for control by the Ministry of Railways (Rail Mantralava) Railway Board (Rail Board) is provided in the Indian Railways Act, 1890 or in the contracts between the Government and the Railways, or in any other statutory enactments, namely, regulations in respect of safely, maximum and minimum rates and fares, etc."
               },
               {
                 "type": "entry",
@@ -467,7 +467,8 @@
               }
             ],
             "flags": [
-              "read_page_break"
+              "read_page_break",
+              "states_inferred_loose"
             ],
             "words": [
               "r1.w1756",
@@ -490,7 +491,7 @@
             "source_ref": "2(2)(c)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r81.rel7",
+            "relation": "r134.rel7",
             "position": "after",
             "anchor": {
               "cited": [
@@ -619,7 +620,12 @@
               {
                 "type": "entry",
                 "num": "16",
-                "text": "Organisation and maintenance of mainand islands and inter-island shipping services. under the previous sub-heads :"
+                "text": "Organisation and maintenance of mainand islands and inter-island shipping services."
+              },
+              {
+                "type": "group_heading",
+                "num": "IV",
+                "text": "Other subjects which have not been included under the previous sub-heads :"
               },
               {
                 "type": "entry",
@@ -754,7 +760,7 @@
             "source_ref": "2(2)(d)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r81.rel8",
+            "relation": "r134.rel8",
             "target": {
               "cited": [
                 {
@@ -783,7 +789,7 @@
                 }
               ]
             },
-            "expect": "Ministry of Transport (Pariwa- han Mantralaya\")",
+            "expect": "Ministry of Transport (Pariwahan Mantralaya\")",
             "flags": [],
             "words": [
               "r1.w2439",
@@ -806,7 +812,7 @@
             "source_ref": "2(2)(e)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r81.rel9",
+            "relation": "r134.rel9",
             "position": "after",
             "anchor": {
               "cited": [
@@ -844,7 +850,7 @@
               {
                 "type": "entry",
                 "num": "14A",
-                "text": "Planning and Coordination of urban transport systems, with technical planning of road based systems being subject to items 22 and 23 under the Ministry of Surface Transport (Jal-Bhootal Pariwahan Mantralaya) and technical planning of rail 1037 GI/86-2 - i based systems being subject to items 1 and 2 under the Ministry of Railways (Rail Mantralaya), Railway Board (Rail Board)."
+                "text": "Planning and Coordination of urban transport systems, with technical planning of road based systems being subject to items 22 and 23 under the Ministry of Surface Transport (Jal-Bhootal Pariwahan Mantralaya) and technical planning of rail - i PRINTED BY THE MANAGER, GOVT. OF INDIA PRESS. RINO based systems being subject to items 1 and 2 under the Ministry of Railways (Rail Mantralaya), Railway Board (Rail Board)."
               }
             ],
             "flags": [

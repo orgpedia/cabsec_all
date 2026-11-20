@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_240.pdf",
     "sha256": "3728da50a9509528d3752b54a8c8b469302cef0fd9a7029723873c43e77b5905",
     "govdoc": "1_Upload_240.pdf.govdoc.json.zst",
-    "revision": 109
+    "revision": 133
   },
   "documents": [
     {
@@ -29,9 +29,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "3",
+          "version": "4",
           "model": "gemini-4-argon",
-          "at": "2026-11-12T12:55:38.811604+00:00"
+          "at": "2026-11-15T16:24:09.640890+00:00"
         },
         "ops": [
           {
@@ -39,7 +39,7 @@
             "source_ref": "2(a)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r73.rel1",
+            "relation": "r126.rel1",
             "position": "after",
             "anchor": {
               "cited": [
@@ -53,7 +53,7 @@
                 },
                 {
                   "type": "department",
-                  "heading": "DE- PARTMENT OF CIVIL AVIATION"
+                  "heading": "DEPARTMENT OF CIVIL AVIATION"
                 },
                 {
                   "type": "entry",
@@ -106,7 +106,7 @@
             "flags": [],
             "words": [
               "r1.w821",
-              "r1.w828"
+              "r1.w827"
             ],
             "boxes": [
               {
@@ -115,7 +115,7 @@
                   1427,
                   3005,
                   2323,
-                  3082
+                  3049
                 ]
               }
             ]
@@ -125,7 +125,7 @@
             "source_ref": "2(b)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r73.rel2",
+            "relation": "r126.rel2",
             "position": "after",
             "anchor": {
               "cited": [
@@ -135,7 +135,7 @@
                 },
                 {
                   "type": "ministry",
-                  "heading": "MINISTRY OF COM- MERCE"
+                  "heading": "MINISTRY OF COMMERCE"
                 },
                 {
                   "type": "department",
@@ -170,10 +170,12 @@
                 "text": "Nodal responsibility in relation to assistance in establishing various industries in foreign countries."
               }
             ],
-            "flags": [],
+            "flags": [
+              "states_inferred_loose"
+            ],
             "words": [
               "r1.w895",
-              "r1.w902"
+              "r1.w901"
             ],
             "boxes": [
               {
@@ -182,7 +184,7 @@
                   298,
                   821,
                   1194,
-                  898
+                  864
                 ]
               }
             ]
@@ -192,7 +194,7 @@
             "source_ref": "2(c)(i)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r73.rel3",
+            "relation": "r126.rel3",
             "target": {
               "cited": [
                 {
@@ -201,7 +203,7 @@
                 },
                 {
                   "type": "ministry",
-                  "heading": "MINISTRY OF EN- ERGY"
+                  "heading": "MINISTRY OF ENERGY"
                 },
                 {
                   "type": "department",
@@ -258,7 +260,7 @@
             "source_ref": "2(c)(ii)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r73.rel4",
+            "relation": "r126.rel4",
             "position": "after",
             "anchor": {
               "cited": [
@@ -268,11 +270,11 @@
                 },
                 {
                   "type": "ministry",
-                  "heading": "MINISTRY OF EN- ERGY"
+                  "heading": "MINISTRY OF ENERGY"
                 },
                 {
                   "type": "department",
-                  "heading": "DEPARTMENT OF NON-CONVENTIONAL EN- ERGY SOURCES"
+                  "heading": "DEPARTMENT OF NON-CONVENTIONAL ENERGY SOURCES"
                 },
                 {
                   "type": "entry",
@@ -325,7 +327,7 @@
             "source_ref": "2(d)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r73.rel5",
+            "relation": "r126.rel5",
             "position": "after",
             "anchor": {
               "cited": [
@@ -335,7 +337,7 @@
                 },
                 {
                   "type": "ministry",
-                  "heading": "MINISTRY OF IN- DUSTRY"
+                  "heading": "MINISTRY OF INDUSTRY"
                 },
                 {
                   "type": "department",
@@ -373,7 +375,7 @@
             "flags": [],
             "words": [
               "r1.w1040",
-              "r1.w1047"
+              "r1.w1046"
             ],
             "boxes": [
               {
@@ -382,7 +384,7 @@
                   283,
                   2347,
                   1183,
-                  2432
+                  2402
                 ]
               }
             ]
@@ -392,7 +394,7 @@
             "source_ref": "2(e)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r73.rel6",
+            "relation": "r126.rel6",
             "target": {
               "cited": [
                 {
@@ -401,7 +403,7 @@
                 },
                 {
                   "type": "ministry",
-                  "heading": "MINISTRY OF PLAN- NING"
+                  "heading": "MINISTRY OF PLANNING"
                 },
                 {
                   "type": "department",
@@ -410,7 +412,7 @@
               ],
               "eId": null,
               "words": [
-                "r1.w1130",
+                "r1.w1122",
                 "r1.w1132"
               ],
               "boxes": [
@@ -418,8 +420,8 @@
                   "page": 3,
                   "bbox": [
                     1469,
-                    666,
-                    1744,
+                    580,
+                    2295,
                     706
                   ]
                 }
@@ -463,10 +465,12 @@
                 "text": "Indian Statistical Institute."
               }
             ],
-            "flags": [],
+            "flags": [
+              "states_inferred_loose"
+            ],
             "words": [
               "r1.w1112",
-              "r1.w1119"
+              "r1.w1118"
             ],
             "boxes": [
               {
@@ -475,7 +479,7 @@
                   1398,
                   497,
                   2296,
-                  571
+                  541
                 ]
               }
             ]
@@ -485,7 +489,7 @@
             "source_ref": "2(f)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r73.rel7",
+            "relation": "r126.rel7",
             "position": "after",
             "anchor": {
               "cited": [
@@ -495,7 +499,7 @@
                 },
                 {
                   "type": "ministry",
-                  "heading": "CABINET SECRE- TARIAT"
+                  "heading": "CABINET SECRETARIAT"
                 },
                 {
                   "type": "entry",
@@ -529,7 +533,7 @@
             "flags": [],
             "words": [
               "r1.w1274",
-              "r1.w1280"
+              "r1.w1279"
             ],
             "boxes": [
               {
@@ -538,7 +542,7 @@
                   1428,
                   1900,
                   2287,
-                  1975
+                  1942
                 ]
               }
             ]

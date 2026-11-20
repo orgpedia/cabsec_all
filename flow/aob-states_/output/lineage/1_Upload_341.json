@@ -1,0 +1,161 @@
+{
+ "file": "1_Upload_341.pdf",
+ "kind": "amendment",
+ "series": 296,
+ "date": "2010-02-22",
+ "govdoc": "aob-ammend_/output/1_Upload_341.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826696.4981465,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_341.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T14:00:26.020456+00:00",
+  "sha256": "f07a6a02a20fdee7fbb3f0736467e6a2e4456e4101786d456727c6be95798507",
+  "pages": 3
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-05T02:58:02.812642+00:00",
+   "stamp": "3ade53f997dcf838"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r147",
+   "at": "2026-11-15T12:43:03.108821+00:00",
+   "stamp": "8bd35f578cb142f1"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r148",
+   "at": "2026-11-15T12:43:04.156428+00:00",
+   "stamp": "b6f80198c6982240"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r149",
+   "at": "2026-11-15T12:43:05.189885+00:00",
+   "stamp": "0466c19e013e3fe1"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r158",
+   "at": "2026-11-15T16:25:15.743150+00:00",
+   "stamp": "19b399d42c56dad2",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r159",
+   "at": "2026-11-15T16:25:16.441424+00:00",
+   "stamp": "0447a05d82fb2df5",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r160",
+   "at": "2026-11-15T16:25:17.122069+00:00",
+   "stamp": "294271a013553c7a",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r166",
+   "at": "2026-11-15T16:57:40.598535+00:00",
+   "stamp": "3abfb79c42177e6d"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r167",
+   "at": "2026-11-15T17:03:59.702772+00:00",
+   "stamp": "08de40854f2a8a3b"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r172",
+   "at": "2026-11-16T10:58:16.482709+00:00",
+   "stamp": "9675c0cfcd693772"
+  }
+ ],
+ "reviews": [],
+ "issues": [],
+ "problems": [],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_458E_2010",
+   "op": "insert",
+   "source_ref": "2(i)",
+   "path": "schedule 2 › ministry MINISTRY OF DEFENCE › department DEPARTMENT OF DEFENCE PRODUCTION › entry 14",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_458E_2010",
+   "op": "omit",
+   "source_ref": "2(ii)",
+   "path": "schedule 2 › ministry MINISTRY OF SHIPPING › entry 31",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_458E_2010",
+   "op": "replace",
+   "source_ref": "2(iii)",
+   "path": "schedule 2 › ministry MINISTRY OF STATISTICS AND PROGRAMME IMPLEMENTATION › entry 19",
+   "status": "applied"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_458E_2010",
+   "op": "insert",
+   "source_ref": "2(iv)",
+   "path": "schedule 2 › ministry PLANNING COMMISSION › entry 11",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

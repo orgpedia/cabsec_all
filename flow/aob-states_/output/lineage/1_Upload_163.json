@@ -1,0 +1,276 @@
+{
+ "file": "1_Upload_163.pdf",
+ "kind": "amendment",
+ "series": 127,
+ "date": "1978-02-23",
+ "govdoc": "aob-ammend_/output/1_Upload_163.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826693.5690632,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_163.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:55:38.398555+00:00",
+  "sha256": "c92ee0dd0b08e75016f1a083c2d7163c3f401c1b481351f7d6a8af6504c975fc",
+  "pages": 4
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-12T12:43:59.606921+00:00",
+   "stamp": "ae591525d34af10a"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r50",
+   "at": "2026-11-15T12:42:33.372422+00:00",
+   "stamp": "2cba051aed691df1"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r51",
+   "at": "2026-11-15T12:42:35.901061+00:00",
+   "stamp": "0942f3262d0f35b9"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r52",
+   "at": "2026-11-15T12:42:37.463854+00:00",
+   "stamp": "e5aae75596c5e21e"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r61",
+   "at": "2026-11-15T16:24:52.083915+00:00",
+   "stamp": "acb513f9dbd6456b",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r62",
+   "at": "2026-11-15T16:24:53.857181+00:00",
+   "stamp": "9bdc8f1db4842287",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r63",
+   "at": "2026-11-15T16:24:55.653984+00:00",
+   "stamp": "356d17dd76443511",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r69",
+   "at": "2026-11-15T16:57:35.714378+00:00",
+   "stamp": "5165c973d3697054"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r70",
+   "at": "2026-11-15T17:03:46.359687+00:00",
+   "stamp": "6d54691815415bea"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r75",
+   "at": "2026-11-16T10:58:13.539279+00:00",
+   "stamp": "8c86e0c1f8d46f8b"
+  }
+ ],
+ "reviews": [],
+ "issues": [
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
+   "message": "change 1: department DE- PARTMENT OF COMMERCE taken for department DEPARTMENT OF COMMERCF, named loosely",
+   "target": "r63.rel1",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
+   "message": "change 2: department DE- PARTMENT OF COMMERCE taken for department DEPARTMENT OF COMMERCF, named loosely",
+   "target": "r63.rel2",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
+   "message": "change 3: department DEPART- MENT OF COMMERCE taken for department DEPARTMENT OF COMMERCF, named loosely",
+   "target": "r63.rel11",
+   "status": "open"
+  }
+ ],
+ "problems": [
+  {
+   "series": 126,
+   "seq": 5,
+   "code": "old_path_missing",
+   "severity": "error",
+   "message": "change 5: no department DEPARTMENT OF PERSONNFI AND ADMINISTRATIVE REFORMS under schedule 2 › ministry MINISTRY OF HOME AFFAIRS",
+   "cause": "unit_not_found"
+  },
+  {
+   "series": 126,
+   "seq": 7,
+   "code": "old_path_ambiguous",
+   "severity": "error",
+   "message": "change 7: 2 parts are entry 5 under schedule 2 › ministry MINISTRY OF INDUSTRY › department B",
+   "cause": "number_twice"
+  },
+  {
+   "series": 126,
+   "seq": 8,
+   "code": "old_path_missing",
+   "severity": "error",
+   "message": "change 8: no entry 2 under schedule 2 › ministry MINISTRY OF SUPPLY AND REHABILITATION › department A",
+   "cause": "entry_not_in_state"
+  },
+  {
+   "series": 127,
+   "seq": 1,
+   "code": "old_quote_mismatch",
+   "severity": "error",
+   "message": "change 1: the part's text is not what the amendment quotes",
+   "cause": "words_differ"
+  },
+  {
+   "series": 174,
+   "seq": 7,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF INFORMATION AND BROADCASTING › group_heading VI › entry 24 reads differently in 1_Upload_212.pdf than in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  }
+ ],
+ "rules": [
+  {
+   "rule": "loose",
+   "seq": 1,
+   "note": "change 1: department DE- PARTMENT OF COMMERCE taken for department DEPARTMENT OF COMMERCF, named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "loose",
+   "seq": 2,
+   "note": "change 2: department DE- PARTMENT OF COMMERCE taken for department DEPARTMENT OF COMMERCF, named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "loose",
+   "seq": 3,
+   "note": "change 3: department DEPART- MENT OF COMMERCE taken for department DEPARTMENT OF COMMERCF, named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  }
+ ],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_129E_1978",
+   "op": "omit",
+   "source_ref": "2(a)(1)",
+   "path": "schedule 2 › ministry MINISTRY OF AGRICUL- TURE AND IRRIGATION › department DEPARTMENT OF AGRICULTURE › entry 6 › item c",
+   "status": "not_applied",
+   "problem": "change 1: the part's text is not what the amendment quotes",
+   "code": "old_quote_mismatch",
+   "cause": "words_differ",
+   "known": "words"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_129E_1978",
+   "op": "insert",
+   "source_ref": "2(a)(ii)",
+   "path": "schedule 2 › ministry MINISTRY OF AGRICUL- TURE AND IRRIGATION › department DEPARTMENT OF AGRICULTURE › entry 6 › item d",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_129E_1978",
+   "op": "replace",
+   "source_ref": "2(b)",
+   "path": "schedule 2 › ministry MINISTRY OF COMMERCE, CIVIL SUPPLIES AND COOPERATION › department DEPART- MENT OF COMMERCE › entry 8",
+   "status": "applied"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_129E_1978",
+   "op": "insert",
+   "source_ref": "2(c)",
+   "path": "schedule 2 › ministry MINISTRY OF EDUCATION AND SOCIAL WELFARE › department DEPARTMENT OF SOCIAL WELFARE › entry 5",
+   "status": "applied"
+  },
+  {
+   "seq": 5,
+   "doc_id": "GOI_SO_129E_1978",
+   "op": "replace",
+   "source_ref": "2(d)(i)",
+   "path": "schedule 2 › ministry MINISTRY OF HOME AFFAIRS › entry 34",
+   "status": "applied"
+  },
+  {
+   "seq": 6,
+   "doc_id": "GOI_SO_129E_1978",
+   "op": "insert",
+   "source_ref": "2(d)(ii)",
+   "path": "schedule 2 › ministry MINISTRY OF HOME AFFAIRS › entry 49",
+   "status": "applied"
+  },
+  {
+   "seq": 7,
+   "doc_id": "GOI_SO_129E_1978",
+   "op": "insert",
+   "source_ref": "2(e)",
+   "path": "schedule 2 › ministry MINISTRY OF INFORMATION AND BROADCASTING › entry 23",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

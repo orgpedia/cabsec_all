@@ -1,0 +1,185 @@
+{
+ "file": "1_Upload_262.pdf",
+ "kind": "amendment",
+ "series": 222,
+ "date": "1993-12-30",
+ "govdoc": "aob-ammend_/output/1_Upload_262.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826687.0304039,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_262.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:58:01.525152+00:00",
+  "sha256": "6479a217528636db76ef9e9d2a7c467662d241585afab1bbe19ba76b7037c60b",
+  "pages": 4
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-11T03:06:18.695072+00:00",
+   "stamp": "0f91cce6b489b637"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r113",
+   "at": "2026-11-15T12:41:55.261351+00:00",
+   "stamp": "61638da3125486bc"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r114",
+   "at": "2026-11-15T12:41:56.941762+00:00",
+   "stamp": "ecd5bb2c95ab004d"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r115",
+   "at": "2026-11-15T12:41:58.380309+00:00",
+   "stamp": "357f1bd079ba2440"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r124",
+   "at": "2026-11-15T16:24:17.834789+00:00",
+   "stamp": "892f5a01fa74a1ec",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r125",
+   "at": "2026-11-15T16:24:19.038105+00:00",
+   "stamp": "7f688e74d9eb94da",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r126",
+   "at": "2026-11-15T16:24:20.211617+00:00",
+   "stamp": "7b16d92396917adf",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r132",
+   "at": "2026-11-15T16:57:26.234787+00:00",
+   "stamp": "6c109fff42175870"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r133",
+   "at": "2026-11-15T17:03:25.935571+00:00",
+   "stamp": "cd728c02a20803a9"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r138",
+   "at": "2026-11-16T10:58:07.014914+00:00",
+   "stamp": "ad9546fbdad15603"
+  }
+ ],
+ "reviews": [],
+ "issues": [],
+ "problems": [],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_1048E_1993",
+   "op": "insert",
+   "source_ref": "2(a)",
+   "path": "schedule 2 › ministry MINISTRY OF ENVIRONMENT AND FORESTS › entry 17",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_1048E_1993",
+   "op": "replace",
+   "source_ref": "2(b)",
+   "path": "schedule 2 › ministry MINISTRY OF HUMAN RESOURCE DEVELOPMENT › department DEPARTMENT OF CULTURE › entry 43",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_1048E_1993",
+   "op": "insert",
+   "source_ref": "2(c)",
+   "path": "schedule 2 › ministry MINISTRY OF NON-CONVENTIONAL ENERGY SOURCES › entry 7",
+   "status": "applied"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_1048E_1993",
+   "op": "omit",
+   "source_ref": "2(d)",
+   "path": "schedule 2 › ministry MINISTRY OF SURFACE TRANSPORT › entry 26",
+   "status": "applied"
+  },
+  {
+   "seq": 5,
+   "doc_id": "GOI_SO_1048E_1993",
+   "op": "omit",
+   "source_ref": "2(e)(i)",
+   "path": "schedule 2 › ministry MINISTRY OF WATER RESOURCES › entry 22",
+   "status": "applied"
+  },
+  {
+   "seq": 6,
+   "doc_id": "GOI_SO_1048E_1993",
+   "op": "replace",
+   "source_ref": "2(e)(ii)",
+   "path": "schedule 2 › ministry MINISTRY OF WATER RESOURCES › entry 23",
+   "status": "applied"
+  },
+  {
+   "seq": 7,
+   "doc_id": "GOI_SO_1048E_1993",
+   "op": "omit",
+   "source_ref": "2(e)(iii)",
+   "path": "schedule 2 › ministry MINISTRY OF WATER RESOURCES › entry 32",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

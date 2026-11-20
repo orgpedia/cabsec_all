@@ -1,0 +1,161 @@
+{
+ "file": "1_Upload_232.pdf",
+ "kind": "amendment",
+ "series": 192,
+ "date": "1988-01-09",
+ "govdoc": "aob-ammend_/output/1_Upload_232.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826682.6114244,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_232.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:57:11.379683+00:00",
+  "sha256": "0d09148e10929881df744f02169dac80f5a7ec6826639b4c525a25039a248f84",
+  "pages": 2
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-11T03:03:12.251353+00:00",
+   "stamp": "c24ec00a64734463"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r113",
+   "at": "2026-11-15T12:41:25.519104+00:00",
+   "stamp": "9ef955ef52b8b4eb"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r114",
+   "at": "2026-11-15T12:41:27.768918+00:00",
+   "stamp": "3c8f331c134da39b"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r115",
+   "at": "2026-11-15T12:41:29.906245+00:00",
+   "stamp": "10b43df604255814"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r124",
+   "at": "2026-11-15T16:23:56.200900+00:00",
+   "stamp": "80f260b2590465ba",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r125",
+   "at": "2026-11-15T16:23:57.791863+00:00",
+   "stamp": "6f5ac808d1f0c8d6",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r126",
+   "at": "2026-11-15T16:23:59.419518+00:00",
+   "stamp": "8835063a52a66fab",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r132",
+   "at": "2026-11-15T16:57:19.839203+00:00",
+   "stamp": "8cc1e992f8a6682b"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r133",
+   "at": "2026-11-15T17:03:11.425154+00:00",
+   "stamp": "6cc4fa5e46c17e66"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r138",
+   "at": "2026-11-16T10:58:02.597047+00:00",
+   "stamp": "6c63e8cd6b4228e2"
+  }
+ ],
+ "reviews": [],
+ "issues": [],
+ "problems": [],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_923E_1987",
+   "op": "replace",
+   "source_ref": "2(A)(i)",
+   "path": "schedule 2 › ministry MINISTRY OF FOOD AND CIVIL SUPPLIES › department DEPARTMENT OF CIVIL SUPPLIES › entry 9",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_923E_1987",
+   "op": "replace",
+   "source_ref": "2(A)(ii)",
+   "path": "schedule 2 › ministry MINISTRY OF FOOD AND CIVIL SUPPLIES › department DEPARTMENT OF CIVIL SUPPLIES › entry 17",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_923E_1987",
+   "op": "omit",
+   "source_ref": "2(B)(a)",
+   "path": "schedule 2 › ministry MINISTRY OF HUMAN RESOURCE DEVELOPMENT › department DEPARTMENT OF EDUCATION › entry 9",
+   "status": "applied"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_923E_1987",
+   "op": "insert",
+   "source_ref": "2(B)(b)",
+   "path": "schedule 2 › ministry MINISTRY OF HUMAN RESOURCE DEVELOPMENT › department DEPARTMENT OF YOUTH AFFAIRS AND SPORTS › entry 25",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

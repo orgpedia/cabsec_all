@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_185.pdf",
     "sha256": "c2acb46d19a1abb2caeb3ad6468e0526dabcdae8d2e3d1eb8a7535ceb405dcfd",
     "govdoc": "1_Upload_185.pdf.govdoc.json.zst",
-    "revision": 46
+    "revision": 70
   },
   "documents": [
     {
@@ -29,9 +29,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "3",
+          "version": "4",
           "model": "gemini-4-argon",
-          "at": "2026-11-12T13:49:51.263613+00:00"
+          "at": "2026-11-15T16:24:55.170700+00:00"
         },
         "ops": [
           {
@@ -39,7 +39,7 @@
             "source_ref": "2(A)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel1",
+            "relation": "r63.rel1",
             "target": {
               "cited": [
                 {
@@ -61,14 +61,14 @@
               ],
               "eId": null,
               "words": [
-                "r1.w653",
+                "r1.w652",
                 "r1.w654"
               ],
               "boxes": [
                 {
                   "page": 2,
                   "bbox": [
-                    1812,
+                    1748,
                     514,
                     1956,
                     547
@@ -86,7 +86,7 @@
             "flags": [],
             "words": [
               "r1.w630",
-              "r1.w639"
+              "r1.w636"
             ],
             "boxes": [
               {
@@ -95,7 +95,7 @@
                   1465,
                   410,
                   2379,
-                  474
+                  446
                 ]
               }
             ]
@@ -105,7 +105,7 @@
             "source_ref": "2(B)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel2",
+            "relation": "r63.rel2",
             "target": {
               "cited": [
                 {
@@ -127,14 +127,14 @@
               ],
               "eId": null,
               "words": [
-                "r1.w720",
+                "r1.w719",
                 "r1.w721"
               ],
               "boxes": [
                 {
                   "page": 2,
                   "bbox": [
-                    1910,
+                    1840,
                     945,
                     2040,
                     978
@@ -149,10 +149,12 @@
                 "text": "International Agencies connected with commercial policy (e.g. UNCTAD, ESCAP, ECA ECLA, EEC, EFTA, GATT)."
               }
             ],
-            "flags": [],
+            "flags": [
+              "states_inferred_loose"
+            ],
             "words": [
               "r1.w697",
-              "r1.w705"
+              "r1.w703"
             ],
             "boxes": [
               {
@@ -161,7 +163,7 @@
                   1464,
                   844,
                   2383,
-                  908
+                  873
                 ]
               }
             ]
@@ -171,7 +173,7 @@
             "source_ref": "2(C)(a)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r10.rel3",
+            "relation": "r63.rel3",
             "position": "after",
             "anchor": {
               "cited": [
@@ -190,14 +192,14 @@
               ],
               "eId": null,
               "words": [
-                "r1.w763",
+                "r1.w762",
                 "r1.w764"
               ],
               "boxes": [
                 {
                   "page": 2,
                   "bbox": [
-                    1648,
+                    1562,
                     1279,
                     1772,
                     1313
@@ -230,7 +232,7 @@
             "flags": [],
             "words": [
               "r1.w761",
-              "r1.w772"
+              "r1.w770"
             ],
             "boxes": [
               {
@@ -239,7 +241,7 @@
                   1505,
                   1279,
                   2384,
-                  1347
+                  1313
                 ]
               }
             ]
@@ -249,7 +251,7 @@
             "source_ref": "2(C)(b)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel4",
+            "relation": "r63.rel4",
             "target": {
               "cited": [
                 {
@@ -267,14 +269,14 @@
               ],
               "eId": null,
               "words": [
-                "r1.w801",
+                "r1.w800",
                 "r1.w802"
               ],
               "boxes": [
                 {
                   "page": 2,
                   "bbox": [
-                    1623,
+                    1565,
                     1680,
                     1745,
                     1714
@@ -292,7 +294,7 @@
             "flags": [],
             "words": [
               "r1.w799",
-              "r1.w810"
+              "r1.w808"
             ],
             "boxes": [
               {
@@ -301,7 +303,7 @@
                   1504,
                   1680,
                   2384,
-                  1747
+                  1714
                 ]
               }
             ]
@@ -311,7 +313,7 @@
             "source_ref": "2(C)(c)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel5",
+            "relation": "r63.rel5",
             "target": {
               "cited": [
                 {
@@ -329,14 +331,14 @@
               ],
               "eId": null,
               "words": [
-                "r1.w819",
+                "r1.w818",
                 "r1.w820"
               ],
               "boxes": [
                 {
                   "page": 2,
                   "bbox": [
-                    1627,
+                    1563,
                     1833,
                     1783,
                     1867
@@ -354,7 +356,7 @@
             "flags": [],
             "words": [
               "r1.w817",
-              "r1.w829"
+              "r1.w826"
             ],
             "boxes": [
               {
@@ -363,7 +365,7 @@
                   1505,
                   1833,
                   2385,
-                  1900
+                  1867
                 ]
               }
             ]
@@ -373,7 +375,7 @@
             "source_ref": "2(C)(d)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r10.rel6",
+            "relation": "r63.rel6",
             "position": "after",
             "anchor": {
               "cited": [
@@ -392,14 +394,14 @@
               ],
               "eId": null,
               "words": [
-                "r1.w844",
+                "r1.w843",
                 "r1.w845"
               ],
               "boxes": [
                 {
                   "page": 2,
                   "bbox": [
-                    1659,
+                    1568,
                     2021,
                     1810,
                     2053
@@ -422,7 +424,7 @@
             "flags": [],
             "words": [
               "r1.w842",
-              "r1.w854"
+              "r1.w851"
             ],
             "boxes": [
               {
@@ -431,7 +433,7 @@
                   1507,
                   2021,
                   2389,
-                  2087
+                  2053
                 ]
               }
             ]
@@ -441,7 +443,7 @@
             "source_ref": "2(D)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r10.rel7",
+            "relation": "r63.rel7",
             "position": "after",
             "anchor": {
               "cited": [
@@ -460,14 +462,14 @@
               ],
               "eId": null,
               "words": [
-                "r1.w877",
+                "r1.w876",
                 "r1.w878"
               ],
               "boxes": [
                 {
                   "page": 2,
                   "bbox": [
-                    2184,
+                    2089,
                     2265,
                     2317,
                     2294
@@ -485,7 +487,7 @@
             "flags": [],
             "words": [
               "r1.w867",
-              "r1.w875"
+              "r1.w873"
             ],
             "boxes": [
               {
@@ -494,7 +496,7 @@
                   1473,
                   2226,
                   2391,
-                  2291
+                  2259
                 ]
               }
             ]

@@ -1,0 +1,145 @@
+{
+ "file": "1_Upload_3735.pdf",
+ "kind": "amendment",
+ "series": 372,
+ "date": "2023-07-28",
+ "govdoc": "aob-ammend_/output/1_Upload_3735.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826687.1877882,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_3735.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T14:01:14.854295+00:00",
+  "sha256": "69a1c60f121464145ca01928182ab193a3962e7d5c2cf5dbb7d8ad222e0027a9",
+  "pages": 2
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r72",
+   "at": "2026-11-04T13:34:28.120799+00:00",
+   "stamp": "2a858ef1e83a30ba"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r218",
+   "at": "2026-11-15T12:41:55.509353+00:00",
+   "stamp": "e8dca0434d5b3601"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r219",
+   "at": "2026-11-15T12:41:57.238379+00:00",
+   "stamp": "a6f8dfe17dc2bfac"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r220",
+   "at": "2026-11-15T12:41:58.574212+00:00",
+   "stamp": "6aef1118d87d3c2f"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r229",
+   "at": "2026-11-15T16:24:17.996947+00:00",
+   "stamp": "24f13188c413e079",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r230",
+   "at": "2026-11-15T16:24:19.248211+00:00",
+   "stamp": "e812b5f5716c7db2",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r231",
+   "at": "2026-11-15T16:24:20.431127+00:00",
+   "stamp": "5609750d8ba650be",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r237",
+   "at": "2026-11-15T16:57:26.397976+00:00",
+   "stamp": "a45dd00b0edf108c"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r238",
+   "at": "2026-11-15T17:03:26.267259+00:00",
+   "stamp": "bce98373e8ce2732"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r243",
+   "at": "2026-11-16T10:58:07.172321+00:00",
+   "stamp": "4380466aff749f20"
+  }
+ ],
+ "reviews": [],
+ "issues": [],
+ "problems": [],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_3412E_2023",
+   "op": "replace",
+   "source_ref": "2(a)",
+   "path": "schedule 2 › ministry MINISTRY OF INFORMATION AND BROADCASTING › entry 22A",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_3412E_2023",
+   "op": "insert",
+   "source_ref": "2(b)",
+   "path": "schedule 2 › ministry MINISTRY OF INFORMATION AND BROADCASTING › entry 22B",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

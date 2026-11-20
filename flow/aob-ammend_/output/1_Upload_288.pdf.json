@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_288.pdf",
     "sha256": "c20b661be53e1de65b25494a628b03abc5f658040eb9ed13a4dd46284be42407",
     "govdoc": "1_Upload_288.pdf.govdoc.json.zst",
-    "revision": 118
+    "revision": 142
   },
   "documents": [
     {
@@ -29,9 +29,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "3",
+          "version": "4",
           "model": "gemini-4-argon",
-          "at": "2026-11-12T12:56:57.700662+00:00"
+          "at": "2026-11-15T16:24:55.009498+00:00"
         },
         "ops": [
           {
@@ -39,7 +39,7 @@
             "source_ref": "2(1)(A)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r81.rel1",
+            "relation": "r134.rel1",
             "position": "after",
             "anchor": {
               "cited": [
@@ -98,7 +98,7 @@
             "source_ref": "2(1)(B)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r81.rel2",
+            "relation": "r134.rel2",
             "target": {
               "cited": [
                 {
@@ -150,7 +150,7 @@
             "source_ref": "2(1)(C)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r81.rel3",
+            "relation": "r134.rel3",
             "target": {
               "cited": [
                 {
@@ -210,7 +210,7 @@
             "source_ref": "2(1)(D)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r81.rel4",
+            "relation": "r134.rel4",
             "target": {
               "cited": [
                 {
@@ -281,7 +281,7 @@
             "source_ref": "2(1)(E)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r81.rel5",
+            "relation": "r134.rel5",
             "target": {
               "cited": [
                 {
@@ -353,7 +353,7 @@
             "source_ref": "2(1)(F)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r81.rel6",
+            "relation": "r134.rel6",
             "target": {
               "cited": [
                 {
@@ -405,7 +405,7 @@
             "source_ref": "2(1)(G)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r81.rel7",
+            "relation": "r134.rel7",
             "position": "after",
             "anchor": {
               "cited": [
@@ -467,7 +467,7 @@
             "source_ref": "2(2)(A)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r81.rel8",
+            "relation": "r134.rel8",
             "position": "after",
             "anchor": {
               "cited": [
@@ -570,7 +570,8 @@
               }
             ],
             "flags": [
-              "read_page_break"
+              "read_page_break",
+              "states_inferred_loose"
             ],
             "words": [
               "r1.w3391",
@@ -593,7 +594,7 @@
             "source_ref": "2(2)(B)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r81.rel9",
+            "relation": "r134.rel9",
             "target": {
               "cited": [
                 {
@@ -645,7 +646,7 @@
             "source_ref": "2(2)(C)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r81.rel10",
+            "relation": "r134.rel10",
             "target": {
               "cited": [
                 {
@@ -751,7 +752,7 @@
             "source_ref": "2(2)(D)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r81.rel11",
+            "relation": "r134.rel11",
             "target": {
               "cited": [
                 {
@@ -1089,7 +1090,7 @@
             "source_ref": "2(2)(E)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r81.rel12",
+            "relation": "r134.rel12",
             "target": {
               "cited": [
                 {
@@ -1377,7 +1378,7 @@
             "source_ref": "2(2)(F)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r81.rel13",
+            "relation": "r134.rel13",
             "target": {
               "cited": [
                 {
@@ -1429,7 +1430,7 @@
             "source_ref": "2(2)(G)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r81.rel14",
+            "relation": "r134.rel14",
             "position": "after",
             "anchor": {
               "cited": [

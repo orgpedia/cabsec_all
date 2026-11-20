@@ -1,0 +1,180 @@
+{
+ "file": "1_Upload_213.pdf",
+ "kind": "amendment",
+ "series": 175,
+ "date": "1985-11-15",
+ "govdoc": "aob-ammend_/output/1_Upload_213.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826687.2625914,
+ "edits_file": "aob-ammend_/conf/1_Upload_213.pdf.edits.yml",
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_213.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:56:46.282042+00:00",
+  "sha256": "6a41af97f3e0cb1efc33e637f7aa4b95120b258ca3dcc60d72e7a703ab3c3349",
+  "pages": 2
+ },
+ "edits": [
+  {
+   "run": "h1",
+   "by": "mukundesh",
+   "at": "2026-11-11T11:35:05+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r1.w653",
+     "before": {
+      "text": "“."
+     },
+     "after": {
+      "text": "“2."
+     }
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-11T03:01:01.236236+00:00",
+   "stamp": "3c4205e617bd01d4"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r121",
+   "at": "2026-11-15T12:41:55.554394+00:00",
+   "stamp": "094b3b43e635f9be"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r122",
+   "at": "2026-11-15T12:41:57.359270+00:00",
+   "stamp": "e4c93ab104033f54"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r123",
+   "at": "2026-11-15T12:41:58.610505+00:00",
+   "stamp": "46d985f74e03b5c5"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r132",
+   "at": "2026-11-15T16:24:18.036919+00:00",
+   "stamp": "36c3ee4d35d47b42",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r133",
+   "at": "2026-11-15T16:24:19.289107+00:00",
+   "stamp": "5f603c312765f167",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r134",
+   "at": "2026-11-15T16:24:20.473883+00:00",
+   "stamp": "d9a558069c4e10f9",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r140",
+   "at": "2026-11-15T16:57:26.436696+00:00",
+   "stamp": "5c74d9f61a76deda"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r141",
+   "at": "2026-11-15T17:03:26.330443+00:00",
+   "stamp": "34de93d3dd0aa377"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r146",
+   "at": "2026-11-16T10:58:07.208417+00:00",
+   "stamp": "e9976ac5f03ab364"
+  }
+ ],
+ "reviews": [],
+ "issues": [],
+ "problems": [],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_831E_1985",
+   "op": "replace",
+   "source_ref": "2(a)(i)",
+   "path": "schedule 1 › ministry Ministry of Commerce",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_831E_1985",
+   "op": "insert",
+   "source_ref": "2(a)(ii)",
+   "path": "schedule 1 › ministry Ministry of Steel and Mines",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_831E_1985",
+   "op": "omit",
+   "source_ref": "2(b)(i)",
+   "path": "schedule 2 › ministry MINISTRY OF COMMERCE › department DEPARTMENT OF TEXTILES",
+   "status": "applied"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_831E_1985",
+   "op": "insert",
+   "source_ref": "2(b)(ii)",
+   "path": "schedule 2 › ministry MINISTRY OF STEEL AND MINES",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

@@ -1,0 +1,215 @@
+{
+ "file": "1_Upload_185.pdf",
+ "kind": "amendment",
+ "series": 147,
+ "date": "1980-12-04",
+ "govdoc": "aob-ammend_/output/1_Upload_185.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826693.180974,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_185.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:56:08.033121+00:00",
+  "sha256": "c2acb46d19a1abb2caeb3ad6468e0526dabcdae8d2e3d1eb8a7535ceb405dcfd",
+  "pages": 2
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-12T12:43:02.049849+00:00",
+   "stamp": "ddb0e05c5cbdb7dc"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r50",
+   "at": "2026-11-15T12:42:32.762347+00:00",
+   "stamp": "92f35472d2c149b5"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r51",
+   "at": "2026-11-15T12:42:35.280511+00:00",
+   "stamp": "270e7405055e183f"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r52",
+   "at": "2026-11-15T12:42:37.084794+00:00",
+   "stamp": "e961eb3c36194ecb"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r61",
+   "at": "2026-11-15T16:24:51.634586+00:00",
+   "stamp": "47ba79375626c705",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r62",
+   "at": "2026-11-15T16:24:53.417369+00:00",
+   "stamp": "28ebde69c6608990",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r63",
+   "at": "2026-11-15T16:24:55.170700+00:00",
+   "stamp": "d7bad3ec17169a6b",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r69",
+   "at": "2026-11-15T16:57:35.246082+00:00",
+   "stamp": "9c985a0d2d562dae"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r70",
+   "at": "2026-11-15T17:03:45.578697+00:00",
+   "stamp": "e285a683e7936c89"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r75",
+   "at": "2026-11-16T10:58:13.163655+00:00",
+   "stamp": "f5e95df2fe10f3a5"
+  }
+ ],
+ "reviews": [],
+ "issues": [
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
+   "message": "change 2: department DEPARTMENT OF COMMERCE taken for department DEPARTMENT OF COMMERCF, named loosely",
+   "target": "r63.rel2",
+   "status": "open"
+  }
+ ],
+ "problems": [
+  {
+   "series": 147,
+   "seq": 7,
+   "code": "old_path_missing",
+   "severity": "error",
+   "message": "change 7: no ministry DEPARTMENT OF SPACE under schedule 2",
+   "cause": "unit_not_found"
+  }
+ ],
+ "rules": [
+  {
+   "rule": "loose",
+   "seq": 2,
+   "note": "change 2: department DEPARTMENT OF COMMERCE taken for department DEPARTMENT OF COMMERCF, named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  }
+ ],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_946E_1980",
+   "op": "replace",
+   "source_ref": "2(A)",
+   "path": "schedule 2 › ministry MINISTRY OF AGRICULTURE › department DEPARTMENT OF FOOD › entry 3",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_946E_1980",
+   "op": "replace",
+   "source_ref": "2(B)",
+   "path": "schedule 2 › ministry MINISTRY OF COMMERCE › department DEPARTMENT OF COMMERCE › entry 2",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_946E_1980",
+   "op": "insert",
+   "source_ref": "2(C)(a)",
+   "path": "schedule 2 › ministry MINISTRY OF TOURISM AND CIVIL AVIATION › entry 4",
+   "status": "applied"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_946E_1980",
+   "op": "replace",
+   "source_ref": "2(C)(b)",
+   "path": "schedule 2 › ministry MINISTRY OF TOURISM AND CIVIL AVIATION › entry 6",
+   "status": "applied"
+  },
+  {
+   "seq": 5,
+   "doc_id": "GOI_SO_946E_1980",
+   "op": "replace",
+   "source_ref": "2(C)(c)",
+   "path": "schedule 2 › ministry MINISTRY OF TOURISM AND CIVIL AVIATION › entry 8A",
+   "status": "applied"
+  },
+  {
+   "seq": 6,
+   "doc_id": "GOI_SO_946E_1980",
+   "op": "insert",
+   "source_ref": "2(C)(d)",
+   "path": "schedule 2 › ministry MINISTRY OF TOURISM AND CIVIL AVIATION › entry 12",
+   "status": "applied"
+  },
+  {
+   "seq": 7,
+   "doc_id": "GOI_SO_946E_1980",
+   "op": "insert",
+   "source_ref": "2(D)",
+   "path": "schedule 2 › ministry DEPARTMENT OF SPACE › entry 8",
+   "status": "not_applied",
+   "problem": "change 7: no ministry DEPARTMENT OF SPACE under schedule 2",
+   "code": "old_path_missing",
+   "cause": "unit_not_found",
+   "known": "top_level"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

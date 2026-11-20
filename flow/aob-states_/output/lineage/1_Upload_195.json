@@ -1,0 +1,602 @@
+{
+ "file": "1_Upload_195.pdf",
+ "kind": "amendment",
+ "series": 157,
+ "date": "1983-06-30",
+ "govdoc": "aob-ammend_/output/1_Upload_195.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826688.9411902,
+ "edits_file": "aob-ammend_/conf/1_Upload_195.pdf.edits.yml",
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_195.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:56:23.599169+00:00",
+  "sha256": "84f560408187cf04f85ba63e0a7913d2aa9d48a54550b9c9039192b31b585cf3",
+  "pages": 6
+ },
+ "edits": [
+  {
+   "run": "h1",
+   "by": "claude",
+   "at": "2026-11-12T18:01:00+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r1.w1693",
+     "before": {
+      "text": "(11)"
+     },
+     "after": {
+      "text": "(ii)"
+     }
+    }
+   ]
+  },
+  {
+   "run": "h2",
+   "by": "claude",
+   "at": "2026-11-12T18:02:00+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r1.w1771",
+     "before": {
+      "text": "(1)"
+     },
+     "after": {
+      "text": "(i)"
+     }
+    }
+   ]
+  },
+  {
+   "run": "h3",
+   "by": "claude",
+   "at": "2026-11-12T18:03:00+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r1.w1835",
+     "before": {
+      "text": "(it)"
+     },
+     "after": {
+      "text": "(ii)"
+     }
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-12T12:37:30.811990+00:00",
+   "stamp": "ee8983b95373051e"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r58",
+   "at": "2026-11-15T12:42:06.760562+00:00",
+   "stamp": "6b376d7d02e7368b"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r59",
+   "at": "2026-11-15T12:42:08.860153+00:00",
+   "stamp": "9c77d5e9e9f86dd8"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r60",
+   "at": "2026-11-15T12:42:10.543266+00:00",
+   "stamp": "f6bf98b72561877b"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r69",
+   "at": "2026-11-15T16:24:26.334936+00:00",
+   "stamp": "74595e89a419d703",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r70",
+   "at": "2026-11-15T16:24:27.880762+00:00",
+   "stamp": "abb989afed784f45",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r71",
+   "at": "2026-11-15T16:24:29.382623+00:00",
+   "stamp": "58b6fdde9df54f0e",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r77",
+   "at": "2026-11-15T16:57:28.838707+00:00",
+   "stamp": "5a6b669b5d6f9a39"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r78",
+   "at": "2026-11-15T17:03:31.604461+00:00",
+   "stamp": "09d4b79dcfdf5961"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r83",
+   "at": "2026-11-16T10:58:08.852626+00:00",
+   "stamp": "9be2b967660840e3"
+  }
+ ],
+ "reviews": [],
+ "issues": [
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 12: its quoted text runs across a page break",
+   "target": "r71.rel12",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 13: its quoted text runs across a page break",
+   "target": "r71.rel13",
+   "status": "open"
+  },
+  {
+   "code": "aob:new_text_differs",
+   "severity": "warning",
+   "message": "schedule 1 › ministry 8A reads differently in 1_Upload_212.pdf than in 1_Upload_1144.pdf with the amendments up to 173 applied",
+   "target": "r71.rel4",
+   "status": "open"
+  },
+  {
+   "code": "aob:new_extra",
+   "severity": "warning",
+   "message": "schedule 1 › ministry 22 is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf",
+   "target": "r71.rel6",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
+   "message": "change 8: ministry MINISTRY OF AGRICULTURF taken for ministry Ministry of Agriculture, named loosely",
+   "target": "r71.rel8",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
+   "message": "change 8: department DEPARTMENT QF FOOD taken for department DEPARTMENT OF FOOD, named loosely",
+   "target": "r71.rel8",
+   "status": "open"
+  }
+ ],
+ "problems": [
+  {
+   "series": 157,
+   "seq": 9,
+   "code": "old_path_missing",
+   "severity": "error",
+   "message": "change 9: no department DEPARTMENT OF AGRICULTURAL RESEARCH AND EDU- CATION under schedule 2 › ministry Ministry of Agriculture",
+   "cause": "unit_not_found"
+  },
+  {
+   "series": 157,
+   "seq": 11,
+   "code": "old_path_missing",
+   "severity": "error",
+   "message": "change 11: no ministry MINISTRY OF CIVIL SUPPLIFS under schedule 2",
+   "cause": "unit_not_found"
+  },
+  {
+   "series": 157,
+   "seq": 15,
+   "code": "old_path_missing",
+   "severity": "error",
+   "message": "change 15: no ministry DEPARTMENT OF SPACE under schedule 2",
+   "cause": "unit_not_found"
+  },
+  {
+   "series": 174,
+   "seq": 4,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 1 › ministry 8A reads differently in 1_Upload_212.pdf than in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  },
+  {
+   "series": 174,
+   "seq": 6,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 1 › ministry 22 is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
+  },
+  {
+   "series": 174,
+   "seq": 12,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FOOD AND CIVIL SUPPLIES › department A › paragraph is in 1_Upload_212.pdf but not in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  },
+  {
+   "series": 174,
+   "seq": 12,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FOOD AND CIVIL SUPPLIES › department A › entry 11 is in 1_Upload_212.pdf but not in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  },
+  {
+   "series": 174,
+   "seq": 12,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FOOD AND CIVIL SUPPLIES › department A › entry 12 is in 1_Upload_212.pdf but not in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  },
+  {
+   "series": 174,
+   "seq": 12,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FOOD AND CIVIL SUPPLIES › department A › entry 13 is in 1_Upload_212.pdf but not in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  },
+  {
+   "series": 174,
+   "seq": 12,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FOOD AND CIVIL SUPPLIES › department A › entry 14 is in 1_Upload_212.pdf but not in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  },
+  {
+   "series": 174,
+   "seq": 12,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FOOD AND CIVIL SUPPLIES › department A › entry 15 is in 1_Upload_212.pdf but not in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  },
+  {
+   "series": 174,
+   "seq": 12,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FOOD AND CIVIL SUPPLIES › department A › entry 1 reads differently in 1_Upload_212.pdf than in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  },
+  {
+   "series": 174,
+   "seq": 12,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FOOD AND CIVIL SUPPLIES › department A › entry 2 reads differently in 1_Upload_212.pdf than in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  },
+  {
+   "series": 174,
+   "seq": 12,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FOOD AND CIVIL SUPPLIES › department A › entry 3 reads differently in 1_Upload_212.pdf than in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  },
+  {
+   "series": 174,
+   "seq": 12,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FOOD AND CIVIL SUPPLIES › department A › entry 5 reads differently in 1_Upload_212.pdf than in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  },
+  {
+   "series": 174,
+   "seq": 12,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FOOD AND CIVIL SUPPLIES › department A › entry 6 reads differently in 1_Upload_212.pdf than in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  },
+  {
+   "series": 174,
+   "seq": 12,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FOOD AND CIVIL SUPPLIES › department A › entry 7 reads differently in 1_Upload_212.pdf than in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  },
+  {
+   "series": 174,
+   "seq": 12,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FOOD AND CIVIL SUPPLIES › department A › entry 9 reads differently in 1_Upload_212.pdf than in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  },
+  {
+   "series": 174,
+   "seq": 12,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FOOD AND CIVIL SUPPLIES › department A › entry 10 reads differently in 1_Upload_212.pdf than in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  },
+  {
+   "series": 174,
+   "seq": 12,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FOOD AND CIVIL SUPPLIES › department A › group_heading III is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
+  },
+  {
+   "series": 174,
+   "seq": 12,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FOOD AND CIVIL SUPPLIES › department A › group_heading IV is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
+  },
+  {
+   "series": 174,
+   "seq": 12,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FOOD AND CIVIL SUPPLIES › department B › group_heading I › entry 2 reads differently in 1_Upload_212.pdf than in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  },
+  {
+   "series": 174,
+   "seq": 12,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FOOD AND CIVIL SUPPLIES › department B › group_heading I › entry 1955 is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
+  },
+  {
+   "series": 174,
+   "seq": 12,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FOOD AND CIVIL SUPPLIES › department B › group_heading I › entry 4 reads differently in 1_Upload_212.pdf than in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  },
+  {
+   "series": 174,
+   "seq": 12,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FOOD AND CIVIL SUPPLIES › department B › group_heading I › entry 9 reads differently in 1_Upload_212.pdf than in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  },
+  {
+   "series": 174,
+   "seq": 12,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FOOD AND CIVIL SUPPLIES › department B › group_heading I › entry 11 reads differently in 1_Upload_212.pdf than in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  },
+  {
+   "series": 174,
+   "seq": 12,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FOOD AND CIVIL SUPPLIES › department B › group_heading I › entry 12 reads differently in 1_Upload_212.pdf than in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  },
+  {
+   "series": 174,
+   "seq": 12,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FOOD AND CIVIL SUPPLIES › department B › group_heading I › entry 13 reads differently in 1_Upload_212.pdf than in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  },
+  {
+   "series": 174,
+   "seq": 12,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FOOD AND CIVIL SUPPLIES › department B › group_heading II › entry 16 reads differently in 1_Upload_212.pdf than in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  },
+  {
+   "series": 174,
+   "seq": 12,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FOOD AND CIVIL SUPPLIES › department B › group_heading II › entry 17 reads differently in 1_Upload_212.pdf than in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  },
+  {
+   "series": 174,
+   "seq": 12,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FOOD AND CIVIL SUPPLIES › department B › group_heading II › entry 19 reads differently in 1_Upload_212.pdf than in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  },
+  {
+   "series": 174,
+   "seq": 13,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF TOURISM AND CIVIL AVIATION is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
+  }
+ ],
+ "rules": [
+  {
+   "rule": "loose",
+   "seq": 8,
+   "note": "change 8: ministry MINISTRY OF AGRICULTURF taken for ministry Ministry of Agriculture, named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "loose",
+   "seq": 8,
+   "note": "change 8: department DEPARTMENT QF FOOD taken for department DEPARTMENT OF FOOD, named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  }
+ ],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_125E_1983",
+   "op": "replace",
+   "source_ref": "2(1)(a)",
+   "path": "schedule 1 › entry 1",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_125E_1983",
+   "op": "omit",
+   "source_ref": "2(1)(b)",
+   "path": "schedule 1 › entry 1B",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_125E_1983",
+   "op": "omit",
+   "source_ref": "2(1)(c)",
+   "path": "schedule 1 › entry 1C",
+   "status": "applied"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_125E_1983",
+   "op": "insert",
+   "source_ref": "2(1)(d)",
+   "path": "schedule 1 › entry 8",
+   "status": "applied"
+  },
+  {
+   "seq": 5,
+   "doc_id": "GOI_SO_125E_1983",
+   "op": "omit",
+   "source_ref": "2(1)(e)",
+   "path": "schedule 1 › entry 21",
+   "status": "applied"
+  },
+  {
+   "seq": 6,
+   "doc_id": "GOI_SO_125E_1983",
+   "op": "replace",
+   "source_ref": "2(1)(f)",
+   "path": "schedule 1 › entry 22",
+   "status": "applied"
+  },
+  {
+   "seq": 7,
+   "doc_id": "GOI_SO_125E_1983",
+   "op": "insert",
+   "source_ref": "2(1)(g)",
+   "path": "schedule 1 › entry 29A",
+   "status": "applied"
+  },
+  {
+   "seq": 8,
+   "doc_id": "GOI_SO_125E_1983",
+   "op": "omit",
+   "source_ref": "2(2)(a)(1)",
+   "path": "schedule 2 › ministry MINISTRY OF AGRICULTURF › department DEPARTMENT QF FOOD",
+   "status": "applied"
+  },
+  {
+   "seq": 9,
+   "doc_id": "GOI_SO_125E_1983",
+   "op": "renumber",
+   "source_ref": "2(2)(a)(u)",
+   "path": "schedule 2 › ministry MINISTRY OF AGRICULTURF › department DEPARTMENT OF AGRICULTURAL RESEARCH AND EDU- CATION",
+   "status": "not_applied",
+   "problem": "change 9: no department DEPARTMENT OF AGRICULTURAL RESEARCH AND EDU- CATION under schedule 2 › ministry Ministry of Agriculture",
+   "code": "old_path_missing",
+   "cause": "unit_not_found",
+   "known": "agriculture"
+  },
+  {
+   "seq": 10,
+   "doc_id": "GOI_SO_125E_1983",
+   "op": "omit",
+   "source_ref": "2(2)(b)",
+   "path": "schedule 2 › ministry MINISTRY OF CIVIL AVIATION",
+   "status": "applied"
+  },
+  {
+   "seq": 11,
+   "doc_id": "GOI_SO_125E_1983",
+   "op": "omit",
+   "source_ref": "2(2)(c)",
+   "path": "schedule 2 › ministry MINISTRY OF CIVIL SUPPLIFS",
+   "status": "not_applied",
+   "problem": "change 11: no ministry MINISTRY OF CIVIL SUPPLIFS under schedule 2",
+   "code": "old_path_missing",
+   "cause": "unit_not_found",
+   "known": "renamed_unit"
+  },
+  {
+   "seq": 12,
+   "doc_id": "GOI_SO_125E_1983",
+   "op": "insert",
+   "source_ref": "2(2)(d)",
+   "path": "schedule 2 › ministry MINISTRY OF FINANCE",
+   "status": "applied"
+  },
+  {
+   "seq": 13,
+   "doc_id": "GOI_SO_125E_1983",
+   "op": "insert",
+   "source_ref": "2(2)(e)",
+   "path": "schedule 2 › ministry MINISTRY OF STEEL AND MINES",
+   "status": "applied"
+  },
+  {
+   "seq": 14,
+   "doc_id": "GOI_SO_125E_1983",
+   "op": "omit",
+   "source_ref": "2(2)(f)",
+   "path": "schedule 2 › ministry MINISTRY OF SUPPLY",
+   "status": "applied"
+  },
+  {
+   "seq": 15,
+   "doc_id": "GOI_SO_125E_1983",
+   "op": "insert",
+   "source_ref": "2(2)(g)",
+   "path": "schedule 2 › ministry DEPARTMENT OF SPACE",
+   "status": "not_applied",
+   "problem": "change 15: no ministry DEPARTMENT OF SPACE under schedule 2",
+   "code": "old_path_missing",
+   "cause": "unit_not_found",
+   "known": "top_level"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

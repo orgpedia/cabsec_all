@@ -1,0 +1,1830 @@
+{
+ "file": "1_Upload_202.pdf",
+ "kind": "amendment",
+ "series": 164,
+ "date": "1985-01-04",
+ "govdoc": "aob-ammend_/output/1_Upload_202.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826690.7297854,
+ "edits_file": "aob-ammend_/conf/1_Upload_202.pdf.edits.yml",
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_202.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:56:32.281132+00:00",
+  "sha256": "9b914e52fcba3fb146cad564366aafc531778d72ec4474371dd15bc87cfa33ed",
+  "pages": 24
+ },
+ "edits": [
+  {
+   "run": "h1",
+   "by": "claude",
+   "at": "2026-11-12T19:11:00+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r1.w7492",
+     "before": {
+      "text": "Producion"
+     },
+     "after": {
+      "text": "Production"
+     }
+    }
+   ]
+  },
+  {
+   "run": "h2",
+   "by": "claude",
+   "at": "2026-11-13T00:13:00+00:00",
+   "edits": [
+    {
+     "op": "add_word",
+     "target": "h2.w1",
+     "before": null,
+     "after": {
+      "page": 12,
+      "word": {
+       "id": "h2.w1",
+       "text": "a",
+       "bbox": [
+        2212,
+        2072,
+        2232,
+        2113
+       ]
+      },
+      "line": "r2.l1201",
+      "after": "r1.w7504"
+     }
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-12T12:38:14.005073+00:00",
+   "stamp": "4f29fc4c808d6ce3"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r66",
+   "at": "2026-11-15T12:42:19.168915+00:00",
+   "stamp": "076615e0b54dc66e"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r67",
+   "at": "2026-11-15T12:42:21.945310+00:00",
+   "stamp": "6582b0d8f0c4f545"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r68",
+   "at": "2026-11-15T12:42:24.168119+00:00",
+   "stamp": "db132515f9d0887f"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r77",
+   "at": "2026-11-15T16:24:37.186048+00:00",
+   "stamp": "9782da7cc7c073a7",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r78",
+   "at": "2026-11-15T16:24:39.505120+00:00",
+   "stamp": "2406c48a54f9e55d",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r79",
+   "at": "2026-11-15T16:24:41.564060+00:00",
+   "stamp": "0121f66a24afe4e2",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r85",
+   "at": "2026-11-15T16:57:31.209408+00:00",
+   "stamp": "750de3af2270f195"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r86",
+   "at": "2026-11-15T17:03:37.302957+00:00",
+   "stamp": "3d4b48b05def94c7"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r91",
+   "at": "2026-11-16T10:58:10.417303+00:00",
+   "stamp": "09a17c3c778058cb"
+  }
+ ],
+ "reviews": [],
+ "issues": [
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 27: its quoted text runs across a page break",
+   "target": "r79.rel27",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_hindi_missing",
+   "severity": "info",
+   "message": "change 29: a new heading has no Hindi name in brackets",
+   "target": "r79.rel29",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 39: its quoted text runs across a page break",
+   "target": "r79.rel39",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 42: its quoted text runs across a page break",
+   "target": "r79.rel42",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 50: its quoted text runs across a page break",
+   "target": "r79.rel50",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 53: its quoted text runs across a page break",
+   "target": "r79.rel53",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 57: its quoted text runs across a page break",
+   "target": "r79.rel57",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 60: its quoted text runs across a page break",
+   "target": "r79.rel60",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 63: its quoted text runs across a page break",
+   "target": "r79.rel63",
+   "status": "open"
+  },
+  {
+   "code": "aob:new_extra",
+   "severity": "warning",
+   "message": "schedule 1 › ministry 1 is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf",
+   "target": "r79.rel1",
+   "status": "open"
+  },
+  {
+   "code": "aob:new_missing",
+   "severity": "warning",
+   "message": "schedule 1 › ministry 4 › department ii is in 1_Upload_212.pdf but not in 1_Upload_1144.pdf with the amendments up to 173 applied",
+   "target": "r79.rel3",
+   "status": "open"
+  },
+  {
+   "code": "aob:new_extra",
+   "severity": "warning",
+   "message": "schedule 1 › ministry 4 › department ii is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf",
+   "target": "r79.rel3",
+   "status": "open"
+  },
+  {
+   "code": "aob:new_hindi_differs",
+   "severity": "info",
+   "message": "schedule 1 › ministry 5 › department ii's Hindi name reads differently in 1_Upload_212.pdf than in 1_Upload_1144.pdf with the amendments up to 173 applied",
+   "target": "r79.rel4",
+   "status": "open"
+  },
+  {
+   "code": "aob:new_hindi_differs",
+   "severity": "info",
+   "message": "schedule 1 › ministry 5 › department iii's Hindi name reads differently in 1_Upload_212.pdf than in 1_Upload_1144.pdf with the amendments up to 173 applied",
+   "target": "r79.rel4",
+   "status": "open"
+  },
+  {
+   "code": "aob:new_extra",
+   "severity": "warning",
+   "message": "schedule 1 › ministry 6 is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf",
+   "target": "r79.rel5",
+   "status": "open"
+  },
+  {
+   "code": "aob:new_missing",
+   "severity": "warning",
+   "message": "schedule 1 › ministry 7 › department - is in 1_Upload_212.pdf but not in 1_Upload_1144.pdf with the amendments up to 173 applied",
+   "target": "r79.rel6",
+   "status": "open"
+  },
+  {
+   "code": "aob:new_extra",
+   "severity": "warning",
+   "message": "schedule 1 › ministry 7 › department i is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf",
+   "target": "r79.rel6",
+   "status": "open"
+  },
+  {
+   "code": "aob:new_extra",
+   "severity": "warning",
+   "message": "schedule 1 › ministry 7 › department ii is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf",
+   "target": "r79.rel6",
+   "status": "open"
+  },
+  {
+   "code": "aob:new_missing",
+   "severity": "warning",
+   "message": "schedule 1 › ministry 12 › department i is in 1_Upload_212.pdf but not in 1_Upload_1144.pdf with the amendments up to 173 applied",
+   "target": "r79.rel7",
+   "status": "open"
+  },
+  {
+   "code": "aob:new_missing",
+   "severity": "warning",
+   "message": "schedule 1 › ministry 12 › department ii is in 1_Upload_212.pdf but not in 1_Upload_1144.pdf with the amendments up to 173 applied",
+   "target": "r79.rel7",
+   "status": "open"
+  },
+  {
+   "code": "aob:new_missing",
+   "severity": "warning",
+   "message": "schedule 1 › ministry 12 › department iv is in 1_Upload_212.pdf but not in 1_Upload_1144.pdf with the amendments up to 173 applied",
+   "target": "r79.rel7",
+   "status": "open"
+  },
+  {
+   "code": "aob:new_extra",
+   "severity": "warning",
+   "message": "schedule 1 › ministry 12 › department i is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf",
+   "target": "r79.rel7",
+   "status": "open"
+  },
+  {
+   "code": "aob:new_hindi_differs",
+   "severity": "info",
+   "message": "schedule 1 › ministry 12 › department ii's Hindi name reads differently in 1_Upload_212.pdf than in 1_Upload_1144.pdf with the amendments up to 173 applied",
+   "target": "r79.rel7",
+   "status": "open"
+  },
+  {
+   "code": "aob:new_text_differs",
+   "severity": "warning",
+   "message": "schedule 1 › ministry 12 › department ii reads differently in 1_Upload_212.pdf than in 1_Upload_1144.pdf with the amendments up to 173 applied",
+   "target": "r79.rel7",
+   "status": "open"
+  },
+  {
+   "code": "aob:new_extra",
+   "severity": "warning",
+   "message": "schedule 1 › ministry 15 is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf",
+   "target": "r79.rel8",
+   "status": "open"
+  },
+  {
+   "code": "aob:new_extra",
+   "severity": "warning",
+   "message": "schedule 1 › ministry 17A is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf",
+   "target": "r79.rel10",
+   "status": "open"
+  },
+  {
+   "code": "aob:new_extra",
+   "severity": "warning",
+   "message": "schedule 1 › ministry 17B is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf",
+   "target": "r79.rel10",
+   "status": "open"
+  },
+  {
+   "code": "aob:new_text_differs",
+   "severity": "warning",
+   "message": "schedule 1 › ministry 18 › department ii reads differently in 1_Upload_212.pdf than in 1_Upload_1144.pdf with the amendments up to 173 applied",
+   "target": "r79.rel11",
+   "status": "open"
+  },
+  {
+   "code": "aob:new_hindi_differs",
+   "severity": "info",
+   "message": "schedule 1 › ministry 20's Hindi name reads differently in 1_Upload_212.pdf than in 1_Upload_1144.pdf with the amendments up to 173 applied",
+   "target": "r79.rel12",
+   "status": "open"
+  },
+  {
+   "code": "aob:new_hindi_differs",
+   "severity": "info",
+   "message": "schedule 1 › ministry 20 › department i's Hindi name reads differently in 1_Upload_212.pdf than in 1_Upload_1144.pdf with the amendments up to 173 applied",
+   "target": "r79.rel12",
+   "status": "open"
+  },
+  {
+   "code": "aob:new_extra",
+   "severity": "warning",
+   "message": "schedule 1 › ministry 20 › department iii is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf",
+   "target": "r79.rel12",
+   "status": "open"
+  },
+  {
+   "code": "aob:new_extra",
+   "severity": "warning",
+   "message": "schedule 1 › ministry 22 is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf",
+   "target": "r79.rel13",
+   "status": "open"
+  },
+  {
+   "code": "aob:new_extra",
+   "severity": "warning",
+   "message": "schedule 1 › ministry 23 is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf",
+   "target": "r79.rel14",
+   "status": "open"
+  },
+  {
+   "code": "aob:new_extra",
+   "severity": "warning",
+   "message": "schedule 1 › department 33 is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf",
+   "target": "r79.rel19",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
+   "message": "change 22: ministry Ministry of Agriculture taken for ministry Ministry of Agriculture and Rural Development (Krishi aur Gramin Vikas Mantralaya), named loosely",
+   "target": "r79.rel22",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
+   "message": "change 23: ministry Ministry of Agriculture taken for ministry Ministry of Agriculture and Rural Development (Krishi aur Gramin Vikas Mantralaya), named loosely",
+   "target": "r79.rel23",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
+   "message": "change 24: ministry Ministry of Agriculture taken for ministry Ministry of Agriculture and Rural Development (Krishi aur Gramin Vikas Mantralaya), named loosely",
+   "target": "r79.rel24",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_so_renamed",
+   "severity": "info",
+   "message": "change 25: ministry Ministry of Agriculture taken as Ministry of Agriculture and Rural Development, the name change 1 of this notification gave it",
+   "target": "r79.rel25",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
+   "message": "change 27: ministry Ministry of Commerce taken for ministry Ministry of Commerce and Supply, named loosely",
+   "target": "r79.rel27",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
+   "message": "change 27: department Department of - Commerce taken for department DEPARTMENT OF COMMERCF, named loosely",
+   "target": "r79.rel27",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
+   "message": "change 28: ministry Ministry of Commerce taken for ministry Ministry of Commerce and Supply, named loosely",
+   "target": "r79.rel28",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
+   "message": "change 28: department Department of Textitles taken for department Department of Textiles, named loosely",
+   "target": "r79.rel28",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
+   "message": "change 34: department Department of Diefence Research and Development taken for department DEPARTMENT OF DEFENCE RESEARCH AND DEVELOPMENT, named loosely",
+   "target": "r79.rel34",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_so_renamed",
+   "severity": "info",
+   "message": "change 37: ministry Ministry of Education and Culture taken as MINISTRY OF EDUCATION (SHIKSHA MAN- TRALAYA), the name change 36 of this notification gave it",
+   "target": "r79.rel37",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_so_renamed",
+   "severity": "info",
+   "message": "change 38: ministry Ministry of Education and Culture taken as MINISTRY OF EDUCATION (SHIKSHA MAN- TRALAYA), the name change 36 of this notification gave it",
+   "target": "r79.rel38",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
+   "message": "change 39: ministry Ministry of Engery taken for ministry MINISTRY OF ENERGY (OORJA MAN- TRALAYA)., named loosely",
+   "target": "r79.rel39",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
+   "message": "change 46: ministry Ministry of Irrigation taken for ministry Ministry of Irrigation and Power, named loosely",
+   "target": "r79.rel46",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_earlier_name",
+   "severity": "info",
+   "message": "change 48: ministry Ministry of Labour and Rehabilitation taken for ministry Ministry of Labour, its name before the First Schedule renamed it",
+   "target": "r79.rel48",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_earlier_name",
+   "severity": "info",
+   "message": "change 49: ministry Ministry of Labour and Rehabilitation taken for ministry Ministry of Labour, its name before the First Schedule renamed it",
+   "target": "r79.rel49",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_earlier_name",
+   "severity": "info",
+   "message": "change 56: ministry MINISTRY OF STEEL AND MINES taken for ministry MINISTRY OF STEEL,MINES AND COAL (ISPAT, KHAN AUR KOYALA MAN- TRALAYA), its name before the First Schedule renamed it",
+   "target": "r79.rel56",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
+   "message": "change 56: department DEPARTMENT OF INES taken for department DEPARTMENT OF MINES, named loosely",
+   "target": "r79.rel56",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_earlier_name",
+   "severity": "info",
+   "message": "change 57: ministry MINISTRY OF STEEL AND MINES taken for ministry MINISTRY OF STEEL,MINES AND COAL (ISPAT, KHAN AUR KOYALA MAN- TRALAYA), its name before the First Schedule renamed it",
+   "target": "r79.rel57",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
+   "message": "change 62: ministry DEPARTMENT OF ENVIRONMENT taken for department *DFPARTMENT OF ENVIRONMENT, named loosely",
+   "target": "r79.rel62",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_so_renamed",
+   "severity": "info",
+   "message": "change 65: ministry Department of Sports taken as Department of Youth Affairs and Sports, the name change 19 of this notification gave it",
+   "target": "r79.rel65",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_so_renamed",
+   "severity": "info",
+   "message": "change 66: ministry Department of Sports taken as Department of Youth Affairs and Sports, the name change 19 of this notification gave it",
+   "target": "r79.rel66",
+   "status": "open"
+  }
+ ],
+ "problems": [
+  {
+   "series": 164,
+   "seq": 25,
+   "code": "old_path_missing",
+   "severity": "error",
+   "message": "change 25: no department Department of Agricultural Research and Education under schedule 2 › ministry Ministry of Agriculture and Rural Development (Krishi aur Gramin Vikas Mantralaya)",
+   "cause": "unit_not_found"
+  },
+  {
+   "series": 164,
+   "seq": 40,
+   "code": "old_path_missing",
+   "severity": "error",
+   "message": "change 40: no department Department of Revenue under schedule 2 › ministry MINISTRY OF FINANCE",
+   "cause": "unit_not_found"
+  },
+  {
+   "series": 164,
+   "seq": 42,
+   "code": "old_path_missing",
+   "severity": "error",
+   "message": "change 42: no group_heading Part IV-Miscellaneous Business under schedule 2 › ministry MINISTRY OF HOME AFFAIRS",
+   "cause": "group_not_found"
+  },
+  {
+   "series": 164,
+   "seq": 44,
+   "code": "old_path_missing",
+   "severity": "error",
+   "message": "change 44: no department Department of Personnel and Administrative Reforms under schedule 2 › ministry MINISTRY OF HOME AFFAIRS",
+   "cause": "unit_not_found"
+  },
+  {
+   "series": 164,
+   "seq": 51,
+   "code": "old_path_ambiguous",
+   "severity": "error",
+   "message": "change 51: 2 parts are entry 1 under schedule 2 › ministry MINISTRY OF PLANNING",
+   "cause": "number_twice"
+  },
+  {
+   "series": 164,
+   "seq": 52,
+   "code": "old_path_missing",
+   "severity": "error",
+   "message": "change 52: no department DEPARTMENT OF STATISTICS under schedule 2 › ministry MINISTRY OF PLANNING",
+   "cause": "unit_not_found"
+  },
+  {
+   "series": 164,
+   "seq": 61,
+   "code": "old_path_missing",
+   "severity": "error",
+   "message": "change 61: no entry 3 under schedule 2 › department DEPARTMENT OF ELECTRONICS",
+   "cause": "entry_not_in_state"
+  },
+  {
+   "series": 164,
+   "seq": 65,
+   "code": "old_path_missing",
+   "severity": "error",
+   "message": "change 65: no ministry Department of Youth Affairs and Sports under schedule 2",
+   "cause": "unit_not_found"
+  },
+  {
+   "series": 164,
+   "seq": 66,
+   "code": "old_path_missing",
+   "severity": "error",
+   "message": "change 66: no ministry Department of Youth Affairs and Sports under schedule 2",
+   "cause": "unit_not_found"
+  },
+  {
+   "series": 164,
+   "seq": 67,
+   "code": "old_path_missing",
+   "severity": "error",
+   "message": "change 67: no ministry DEPARTMENT OF SUPPLY under schedule 2",
+   "cause": "unit_not_found"
+  },
+  {
+   "series": 174,
+   "seq": 1,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 1 › ministry 1 is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
+  },
+  {
+   "series": 174,
+   "seq": 3,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 1 › ministry 4 › department ii is in 1_Upload_212.pdf but not in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  },
+  {
+   "series": 174,
+   "seq": 3,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 1 › ministry 4 › department ii is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
+  },
+  {
+   "series": 174,
+   "seq": 4,
+   "code": "new_hindi_differs",
+   "severity": "info",
+   "message": "schedule 1 › ministry 5 › department ii's Hindi name reads differently in 1_Upload_212.pdf than in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  },
+  {
+   "series": 174,
+   "seq": 4,
+   "code": "new_hindi_differs",
+   "severity": "info",
+   "message": "schedule 1 › ministry 5 › department iii's Hindi name reads differently in 1_Upload_212.pdf than in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  },
+  {
+   "series": 174,
+   "seq": 5,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 1 › ministry 6 is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
+  },
+  {
+   "series": 174,
+   "seq": 6,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 1 › ministry 7 › department - is in 1_Upload_212.pdf but not in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  },
+  {
+   "series": 174,
+   "seq": 6,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 1 › ministry 7 › department i is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
+  },
+  {
+   "series": 174,
+   "seq": 6,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 1 › ministry 7 › department ii is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
+  },
+  {
+   "series": 174,
+   "seq": 7,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 1 › ministry 12 › department i is in 1_Upload_212.pdf but not in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  },
+  {
+   "series": 174,
+   "seq": 7,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 1 › ministry 12 › department ii is in 1_Upload_212.pdf but not in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  },
+  {
+   "series": 174,
+   "seq": 7,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 1 › ministry 12 › department iv is in 1_Upload_212.pdf but not in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  },
+  {
+   "series": 174,
+   "seq": 7,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 1 › ministry 12 › department i is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
+  },
+  {
+   "series": 174,
+   "seq": 7,
+   "code": "new_hindi_differs",
+   "severity": "info",
+   "message": "schedule 1 › ministry 12 › department ii's Hindi name reads differently in 1_Upload_212.pdf than in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  },
+  {
+   "series": 174,
+   "seq": 7,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 1 › ministry 12 › department ii reads differently in 1_Upload_212.pdf than in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  },
+  {
+   "series": 174,
+   "seq": 8,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 1 › ministry 15 is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
+  },
+  {
+   "series": 174,
+   "seq": 10,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 1 › ministry 17A is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
+  },
+  {
+   "series": 174,
+   "seq": 10,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 1 › ministry 17B is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
+  },
+  {
+   "series": 174,
+   "seq": 11,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 1 › ministry 18 › department ii reads differently in 1_Upload_212.pdf than in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  },
+  {
+   "series": 174,
+   "seq": 12,
+   "code": "new_hindi_differs",
+   "severity": "info",
+   "message": "schedule 1 › ministry 20's Hindi name reads differently in 1_Upload_212.pdf than in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  },
+  {
+   "series": 174,
+   "seq": 12,
+   "code": "new_hindi_differs",
+   "severity": "info",
+   "message": "schedule 1 › ministry 20 › department i's Hindi name reads differently in 1_Upload_212.pdf than in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  },
+  {
+   "series": 174,
+   "seq": 12,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 1 › ministry 20 › department iii is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
+  },
+  {
+   "series": 174,
+   "seq": 13,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 1 › ministry 22 is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
+  },
+  {
+   "series": 174,
+   "seq": 14,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 1 › ministry 23 is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
+  },
+  {
+   "series": 174,
+   "seq": 19,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 1 › department 33 is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
+  },
+  {
+   "series": 174,
+   "seq": 30,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF DEFENCE › department A › entry 6 reads differently in 1_Upload_212.pdf than in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  },
+  {
+   "series": 174,
+   "seq": 30,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF DEFENCE › department A › entry 11 reads differently in 1_Upload_212.pdf than in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  },
+  {
+   "series": 174,
+   "seq": 33,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF DEFENCE › entry 21 is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
+  },
+  {
+   "series": 174,
+   "seq": 35,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF DEFENCE › department C › entry 31 is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
+  },
+  {
+   "series": 174,
+   "seq": 36,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF EDUCATION (SHIKSHA MAN- TRALAYA) is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
+  },
+  {
+   "series": 174,
+   "seq": 39,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF ENVIRONMENT. AND FOREST is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
+  },
+  {
+   "series": 174,
+   "seq": 21,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry Ministry of Agriculture and Rural Development (Krishi aur Gramin Vikas Mantralaya) is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
+  },
+  {
+   "series": 174,
+   "seq": 41,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HOME AFFAIRS › part I is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
+  },
+  {
+   "series": 174,
+   "seq": 43,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HOME AFFAIRS › department B reads differently in 1_Upload_212.pdf than in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  },
+  {
+   "series": 174,
+   "seq": 45,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry Ministry of Irrigation and Power is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
+  },
+  {
+   "series": 174,
+   "seq": 45,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › department A is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
+  },
+  {
+   "series": 174,
+   "seq": 50,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF PARLIAMENTARY AFFAIRS is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
+  },
+  {
+   "series": 174,
+   "seq": 50,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF PETROLEUM is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
+  },
+  {
+   "series": 174,
+   "seq": 53,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF SCIENCE AND TECHNO- LOGY › department A › entry 9 is in 1_Upload_212.pdf but not in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  },
+  {
+   "series": 174,
+   "seq": 53,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF SCIENCE AND TECHNO- LOGY › department A › entry 18 is in 1_Upload_212.pdf but not in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  },
+  {
+   "series": 174,
+   "seq": 53,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF SCIENCE AND TECHNO- LOGY › department A › entry 1 reads differently in 1_Upload_212.pdf than in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  },
+  {
+   "series": 174,
+   "seq": 53,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF SCIENCE AND TECHNO- LOGY › department A › entry 2 reads differently in 1_Upload_212.pdf than in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  },
+  {
+   "series": 174,
+   "seq": 53,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF SCIENCE AND TECHNO- LOGY › department A › entry 5 reads differently in 1_Upload_212.pdf than in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  },
+  {
+   "series": 174,
+   "seq": 53,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF SCIENCE AND TECHNO- LOGY › department A › entry 6 reads differently in 1_Upload_212.pdf than in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  },
+  {
+   "series": 174,
+   "seq": 53,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF SCIENCE AND TECHNO- LOGY › department A › entry 8 reads differently in 1_Upload_212.pdf than in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  },
+  {
+   "series": 174,
+   "seq": 53,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF SCIENCE AND TECHNO- LOGY › department A › entry 11 reads differently in 1_Upload_212.pdf than in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  },
+  {
+   "series": 174,
+   "seq": 53,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF SCIENCE AND TECHNO- LOGY › department A › entry 12 reads differently in 1_Upload_212.pdf than in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  },
+  {
+   "series": 174,
+   "seq": 53,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF SCIENCE AND TECHNO- LOGY › department A › entry 13 reads differently in 1_Upload_212.pdf than in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  },
+  {
+   "series": 174,
+   "seq": 53,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF SCIENCE AND TECHNO- LOGY › department A › entry 17 reads differently in 1_Upload_212.pdf than in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  },
+  {
+   "series": 174,
+   "seq": 53,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF SCIENCE AND TECHNO- LOGY › department A › note reads differently in 1_Upload_212.pdf than in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  },
+  {
+   "series": 174,
+   "seq": 53,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF SCIENCE AND TECHNO- LOGY › department B › paragraph is in 1_Upload_212.pdf but not in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  },
+  {
+   "series": 174,
+   "seq": 53,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF SCIENCE AND TECHNO- LOGY › department B › entry 1 reads differently in 1_Upload_212.pdf than in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  },
+  {
+   "series": 174,
+   "seq": 53,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF SCIENCE AND TECHNO- LOGY › department B › entry 2 reads differently in 1_Upload_212.pdf than in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  },
+  {
+   "series": 174,
+   "seq": 53,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF SCIENCE AND TECHNO- LOGY › department B › entry 3 reads differently in 1_Upload_212.pdf than in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  },
+  {
+   "series": 174,
+   "seq": 53,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF SCIENCE AND TECHNO- LOGY › department B › entry 5 reads differently in 1_Upload_212.pdf than in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  },
+  {
+   "series": 174,
+   "seq": 53,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF SCIENCE AND TECHNO- LOGY › department C is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
+  },
+  {
+   "series": 174,
+   "seq": 55,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF STEEL,MINES AND COAL (ISPAT, KHAN AUR KOYALA MAN- TRALAYA) is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
+  },
+  {
+   "series": 174,
+   "seq": 54,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF SOCIAL AND WO- MEN'S WELFARE is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
+  },
+  {
+   "series": 174,
+   "seq": 29,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF COMMUNICATIONS › department A › entry 3 reads differently in 1_Upload_212.pdf than in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  },
+  {
+   "series": 174,
+   "seq": 29,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF COMMUNICATIONS › department B › entry 1 reads differently in 1_Upload_212.pdf than in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  },
+  {
+   "series": 174,
+   "seq": 29,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF COMMUNICATIONS › department B › entry 2 reads differently in 1_Upload_212.pdf than in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  },
+  {
+   "series": 174,
+   "seq": 29,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF COMMUNICATIONS › department B › entry 3 reads differently in 1_Upload_212.pdf than in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  },
+  {
+   "series": 174,
+   "seq": 29,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF COMMUNICATIONS › department B › entry 6 reads differently in 1_Upload_212.pdf than in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  },
+  {
+   "series": 174,
+   "seq": 63,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › department DEPARTMENT OF PERSONNEL AND AD- MINISTRATIVE REFORMS is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
+  }
+ ],
+ "rules": [
+  {
+   "rule": "loose",
+   "seq": 22,
+   "note": "change 22: ministry Ministry of Agriculture taken for ministry Ministry of Agriculture and Rural Development (Krishi aur Gramin Vikas Mantralaya), named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "loose",
+   "seq": 23,
+   "note": "change 23: ministry Ministry of Agriculture taken for ministry Ministry of Agriculture and Rural Development (Krishi aur Gramin Vikas Mantralaya), named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "loose",
+   "seq": 24,
+   "note": "change 24: ministry Ministry of Agriculture taken for ministry Ministry of Agriculture and Rural Development (Krishi aur Gramin Vikas Mantralaya), named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "so_renamed",
+   "seq": 25,
+   "note": "change 25: ministry Ministry of Agriculture taken as Ministry of Agriculture and Rural Development, the name change 1 of this notification gave it",
+   "status": "unreviewed",
+   "decided_at": "2026-11-15"
+  },
+  {
+   "rule": "loose",
+   "seq": 27,
+   "note": "change 27: ministry Ministry of Commerce taken for ministry Ministry of Commerce and Supply, named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "loose",
+   "seq": 27,
+   "note": "change 27: department Department of - Commerce taken for department DEPARTMENT OF COMMERCF, named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "loose",
+   "seq": 28,
+   "note": "change 28: ministry Ministry of Commerce taken for ministry Ministry of Commerce and Supply, named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "loose",
+   "seq": 28,
+   "note": "change 28: department Department of Textitles taken for department Department of Textiles, named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "loose",
+   "seq": 34,
+   "note": "change 34: department Department of Diefence Research and Development taken for department DEPARTMENT OF DEFENCE RESEARCH AND DEVELOPMENT, named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "so_renamed",
+   "seq": 37,
+   "note": "change 37: ministry Ministry of Education and Culture taken as MINISTRY OF EDUCATION (SHIKSHA MAN- TRALAYA), the name change 36 of this notification gave it",
+   "status": "unreviewed",
+   "decided_at": "2026-11-15"
+  },
+  {
+   "rule": "so_renamed",
+   "seq": 38,
+   "note": "change 38: ministry Ministry of Education and Culture taken as MINISTRY OF EDUCATION (SHIKSHA MAN- TRALAYA), the name change 36 of this notification gave it",
+   "status": "unreviewed",
+   "decided_at": "2026-11-15"
+  },
+  {
+   "rule": "loose",
+   "seq": 39,
+   "note": "change 39: ministry Ministry of Engery taken for ministry MINISTRY OF ENERGY (OORJA MAN- TRALAYA)., named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "loose",
+   "seq": 46,
+   "note": "change 46: ministry Ministry of Irrigation taken for ministry Ministry of Irrigation and Power, named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "earlier_name",
+   "seq": 48,
+   "note": "change 48: ministry Ministry of Labour and Rehabilitation taken for ministry Ministry of Labour, its name before the First Schedule renamed it",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "earlier_name",
+   "seq": 49,
+   "note": "change 49: ministry Ministry of Labour and Rehabilitation taken for ministry Ministry of Labour, its name before the First Schedule renamed it",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "earlier_name",
+   "seq": 56,
+   "note": "change 56: ministry MINISTRY OF STEEL AND MINES taken for ministry MINISTRY OF STEEL,MINES AND COAL (ISPAT, KHAN AUR KOYALA MAN- TRALAYA), its name before the First Schedule renamed it",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "loose",
+   "seq": 56,
+   "note": "change 56: department DEPARTMENT OF INES taken for department DEPARTMENT OF MINES, named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "earlier_name",
+   "seq": 57,
+   "note": "change 57: ministry MINISTRY OF STEEL AND MINES taken for ministry MINISTRY OF STEEL,MINES AND COAL (ISPAT, KHAN AUR KOYALA MAN- TRALAYA), its name before the First Schedule renamed it",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "loose",
+   "seq": 62,
+   "note": "change 62: ministry DEPARTMENT OF ENVIRONMENT taken for department *DFPARTMENT OF ENVIRONMENT, named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "so_renamed",
+   "seq": 65,
+   "note": "change 65: ministry Department of Sports taken as Department of Youth Affairs and Sports, the name change 19 of this notification gave it",
+   "status": "unreviewed",
+   "decided_at": "2026-11-15"
+  },
+  {
+   "rule": "so_renamed",
+   "seq": 66,
+   "note": "change 66: ministry Department of Sports taken as Department of Youth Affairs and Sports, the name change 19 of this notification gave it",
+   "status": "unreviewed",
+   "decided_at": "2026-11-15"
+  }
+ ],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_7E_1985",
+   "op": "replace",
+   "source_ref": "2(a)(1)",
+   "path": "schedule 1 › ministry Ministry of Agriculture",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_7E_1985",
+   "op": "replace",
+   "source_ref": "2(a)(2)",
+   "path": "schedule 1 › ministry Ministry of Commerce",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_7E_1985",
+   "op": "replace",
+   "source_ref": "2(a)(3)",
+   "path": "schedule 1 › ministry Ministry of Communications",
+   "status": "applied"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_7E_1985",
+   "op": "replace",
+   "source_ref": "2(a)(4)",
+   "path": "schedule 1 › ministry Ministry of Defence",
+   "status": "applied"
+  },
+  {
+   "seq": 5,
+   "doc_id": "GOI_SO_7E_1985",
+   "op": "replace",
+   "source_ref": "2(a)(5)",
+   "path": "schedule 1 › ministry Ministry of Education and Culture",
+   "status": "applied"
+  },
+  {
+   "seq": 6,
+   "doc_id": "GOI_SO_7E_1985",
+   "op": "replace",
+   "source_ref": "2(a)(6)",
+   "path": "schedule 1 › ministry Ministry of Energy",
+   "status": "applied"
+  },
+  {
+   "seq": 7,
+   "doc_id": "GOI_SO_7E_1985",
+   "op": "replace",
+   "source_ref": "2(a)(7)",
+   "path": "schedule 1 › ministry Ministry of Home Affairs",
+   "status": "applied"
+  },
+  {
+   "seq": 8,
+   "doc_id": "GOI_SO_7E_1985",
+   "op": "replace",
+   "source_ref": "2(a)(8)",
+   "path": "schedule 1 › ministry Ministry of Irrigation",
+   "status": "applied"
+  },
+  {
+   "seq": 9,
+   "doc_id": "GOI_SO_7E_1985",
+   "op": "replace",
+   "source_ref": "2(a)(9)",
+   "path": "schedule 1 › ministry Ministry of Labour and Rehabilitation",
+   "status": "applied"
+  },
+  {
+   "seq": 10,
+   "doc_id": "GOI_SO_7E_1985",
+   "op": "insert",
+   "source_ref": "2(a)(10)",
+   "path": "schedule 1 › ministry Ministry of Law and Justice",
+   "status": "applied"
+  },
+  {
+   "seq": 11,
+   "doc_id": "GOI_SO_7E_1985",
+   "op": "replace",
+   "source_ref": "2(a)(11)",
+   "path": "schedule 1 › ministry Ministry of Planning",
+   "status": "applied"
+  },
+  {
+   "seq": 12,
+   "doc_id": "GOI_SO_7E_1985",
+   "op": "replace",
+   "source_ref": "2(a)(12)",
+   "path": "schedule 1 › ministry Ministry of Rural Development",
+   "status": "applied"
+  },
+  {
+   "seq": 13,
+   "doc_id": "GOI_SO_7E_1985",
+   "op": "replace",
+   "source_ref": "2(a)(13)",
+   "path": "schedule 1 › ministry Ministry of Social Welfare",
+   "status": "applied"
+  },
+  {
+   "seq": 14,
+   "doc_id": "GOI_SO_7E_1985",
+   "op": "replace",
+   "source_ref": "2(a)(14)",
+   "path": "schedule 1 › ministry Ministry of Steel and Mines",
+   "status": "applied"
+  },
+  {
+   "seq": 15,
+   "doc_id": "GOI_SO_7E_1985",
+   "op": "insert",
+   "source_ref": "2(a)(15)",
+   "path": "schedule 1 › ministry Department of Atomic Energy",
+   "status": "applied"
+  },
+  {
+   "seq": 16,
+   "doc_id": "GOI_SO_7E_1985",
+   "op": "omit",
+   "source_ref": "2(a)(16)",
+   "path": "schedule 1 › ministry Department of Environment",
+   "status": "applied"
+  },
+  {
+   "seq": 17,
+   "doc_id": "GOI_SO_7E_1985",
+   "op": "replace",
+   "source_ref": "2(a)(17)",
+   "path": "schedule 1 › ministry Department of Parliamentary. Affairs",
+   "status": "applied"
+  },
+  {
+   "seq": 18,
+   "doc_id": "GOI_SO_7E_1985",
+   "op": "omit",
+   "source_ref": "2(a)(18)",
+   "path": "schedule 1 › ministry Department of Science and Technology",
+   "status": "applied"
+  },
+  {
+   "seq": 19,
+   "doc_id": "GOI_SO_7E_1985",
+   "op": "replace",
+   "source_ref": "2(a)(19)",
+   "path": "schedule 1 › ministry Department of Sports",
+   "status": "applied"
+  },
+  {
+   "seq": 20,
+   "doc_id": "GOI_SO_7E_1985",
+   "op": "omit",
+   "source_ref": "2(a)(20)",
+   "path": "schedule 1 › ministry Department of Supply",
+   "status": "applied"
+  },
+  {
+   "seq": 21,
+   "doc_id": "GOI_SO_7E_1985",
+   "op": "replace",
+   "source_ref": "2(b)(1)(a)",
+   "path": "schedule 2 › ministry Ministry of Agriculture",
+   "status": "applied"
+  },
+  {
+   "seq": 22,
+   "doc_id": "GOI_SO_7E_1985",
+   "op": "omit",
+   "source_ref": "2(b)(1)(b)(i)",
+   "path": "schedule 2 › ministry Ministry of Agriculture › department Department of Agriculture and Cooperation › entry 8",
+   "status": "applied"
+  },
+  {
+   "seq": 23,
+   "doc_id": "GOI_SO_7E_1985",
+   "op": "omit",
+   "source_ref": "2(b)(1)(b)(ii)",
+   "path": "schedule 2 › ministry Ministry of Agriculture › department Department of Agriculture and Cooperation › entry 10",
+   "status": "applied"
+  },
+  {
+   "seq": 24,
+   "doc_id": "GOI_SO_7E_1985",
+   "op": "omit",
+   "source_ref": "2(b)(1)(b)(iii)",
+   "path": "schedule 2 › ministry Ministry of Agriculture › department Department of Agriculture and Cooperation › entry 27",
+   "status": "applied"
+  },
+  {
+   "seq": 25,
+   "doc_id": "GOI_SO_7E_1985",
+   "op": "insert",
+   "source_ref": "2(b)(1)(c)",
+   "path": "schedule 2 › ministry Ministry of Agriculture › department Department of Agricultural Research and Education",
+   "status": "not_applied",
+   "problem": "change 25: no department Department of Agricultural Research and Education under schedule 2 › ministry Ministry of Agriculture and Rural Development (Krishi aur Gramin Vikas Mantralaya)",
+   "code": "old_path_missing",
+   "cause": "unit_not_found",
+   "known": "agriculture"
+  },
+  {
+   "seq": 26,
+   "doc_id": "GOI_SO_7E_1985",
+   "op": "replace",
+   "source_ref": "2(b)(2)(a)",
+   "path": "schedule 2 › ministry Ministry of Commerce",
+   "status": "applied"
+  },
+  {
+   "seq": 27,
+   "doc_id": "GOI_SO_7E_1985",
+   "op": "insert",
+   "source_ref": "2(b)(2)(b)",
+   "path": "schedule 2 › ministry Ministry of Commerce › department Department of - Commerce",
+   "status": "applied"
+  },
+  {
+   "seq": 28,
+   "doc_id": "GOI_SO_7E_1985",
+   "op": "replace",
+   "source_ref": "2(b)(2)(c)",
+   "path": "schedule 2 › ministry Ministry of Commerce › department Department of Textitles",
+   "status": "applied"
+  },
+  {
+   "seq": 29,
+   "doc_id": "GOI_SO_7E_1985",
+   "op": "replace",
+   "source_ref": "2(b)(3)",
+   "path": "schedule 2 › ministry Ministry of Communications",
+   "status": "applied"
+  },
+  {
+   "seq": 30,
+   "doc_id": "GOI_SO_7E_1985",
+   "op": "insert",
+   "source_ref": "2(b)(4)(a)",
+   "path": "schedule 2 › ministry Ministry of Defence › entry 1",
+   "status": "applied"
+  },
+  {
+   "seq": 31,
+   "doc_id": "GOI_SO_7E_1985",
+   "op": "replace",
+   "source_ref": "2(b)(4)(b)",
+   "path": "schedule 2 › ministry Ministry of Defence › department Department of Defence Production",
+   "status": "applied"
+  },
+  {
+   "seq": 32,
+   "doc_id": "GOI_SO_7E_1985",
+   "op": "omit",
+   "source_ref": "2(b)(4)(c)",
+   "path": "schedule 2 › ministry Ministry of Defence › entry 22 ; schedule 2 › ministry Ministry of Defence › entry 25 ; schedule 2 › ministry Ministry of Defence › entry 23",
+   "status": "applied"
+  },
+  {
+   "seq": 33,
+   "doc_id": "GOI_SO_7E_1985",
+   "op": "omit",
+   "source_ref": "2(b)(4)(d)",
+   "path": "schedule 2 › ministry Ministry of Defence › department Department of Defence Supplies",
+   "status": "applied"
+  },
+  {
+   "seq": 34,
+   "doc_id": "GOI_SO_7E_1985",
+   "op": "replace",
+   "source_ref": "2(b)(4)(e)",
+   "path": "schedule 2 › ministry Ministry of Defence › department Department of Diefence Research and Development",
+   "status": "applied"
+  },
+  {
+   "seq": 35,
+   "doc_id": "GOI_SO_7E_1985",
+   "op": "replace",
+   "source_ref": "2(b)(4)(f)",
+   "path": "schedule 2 › ministry Ministry of Defence › entry 31",
+   "status": "applied"
+  },
+  {
+   "seq": 36,
+   "doc_id": "GOI_SO_7E_1985",
+   "op": "replace",
+   "source_ref": "2(b)(5)(a)",
+   "path": "schedule 2 › ministry Ministry of Education and Culture",
+   "status": "applied"
+  },
+  {
+   "seq": 37,
+   "doc_id": "GOI_SO_7E_1985",
+   "op": "omit",
+   "source_ref": "2(b)(5)(b)",
+   "path": "schedule 2 › ministry Ministry of Education and Culture › department Department of Education",
+   "status": "applied"
+  },
+  {
+   "seq": 38,
+   "doc_id": "GOI_SO_7E_1985",
+   "op": "omit",
+   "source_ref": "2(b)(5)(c)",
+   "path": "schedule 2 › ministry Ministry of Education and Culture › department Department of Culture",
+   "status": "applied"
+  },
+  {
+   "seq": 39,
+   "doc_id": "GOI_SO_7E_1985",
+   "op": "replace",
+   "source_ref": "2(b)(6)",
+   "path": "schedule 2 › ministry Ministry of Engery",
+   "status": "applied"
+  },
+  {
+   "seq": 40,
+   "doc_id": "GOI_SO_7E_1985",
+   "op": "omit",
+   "source_ref": "2(b)(7)",
+   "path": "schedule 2 › ministry Ministry of Finance › department Department of Revenue › entry 14 › item e",
+   "status": "not_applied",
+   "problem": "change 40: no department Department of Revenue under schedule 2 › ministry MINISTRY OF FINANCE",
+   "code": "old_path_missing",
+   "cause": "unit_not_found",
+   "known": "finance_revenue"
+  },
+  {
+   "seq": 41,
+   "doc_id": "GOI_SO_7E_1985",
+   "op": "insert",
+   "source_ref": "2(b)(8)(a)",
+   "path": "schedule 2 › ministry Ministry of Home Affairs › group_heading Part I Union Subjects",
+   "status": "applied"
+  },
+  {
+   "seq": 42,
+   "doc_id": "GOI_SO_7E_1985",
+   "op": "insert",
+   "source_ref": "2(b)(8)(b)",
+   "path": "schedule 2 › ministry Ministry of Home Affairs › group_heading Part IV-Miscellaneous Business › entry 104",
+   "status": "not_applied",
+   "problem": "change 42: no group_heading Part IV-Miscellaneous Business under schedule 2 › ministry MINISTRY OF HOME AFFAIRS",
+   "code": "old_path_missing",
+   "cause": "group_not_found",
+   "known": "home_affairs"
+  },
+  {
+   "seq": 43,
+   "doc_id": "GOI_SO_7E_1985",
+   "op": "replace",
+   "source_ref": "2(b)(8)(c)",
+   "path": "schedule 2 › ministry Ministry of Home Affairs › department Department of Official Language",
+   "status": "applied"
+  },
+  {
+   "seq": 44,
+   "doc_id": "GOI_SO_7E_1985",
+   "op": "omit",
+   "source_ref": "2(b)(8)(d)",
+   "path": "schedule 2 › ministry Ministry of Home Affairs › department Department of Personnel and Administrative Reforms",
+   "status": "not_applied",
+   "problem": "change 44: no department Department of Personnel and Administrative Reforms under schedule 2 › ministry MINISTRY OF HOME AFFAIRS",
+   "code": "old_path_missing",
+   "cause": "unit_not_found",
+   "known": "home_affairs"
+  },
+  {
+   "seq": 45,
+   "doc_id": "GOI_SO_7E_1985",
+   "op": "replace",
+   "source_ref": "2(b)(9)(a)",
+   "path": "schedule 2 › ministry Ministry of Irrigation",
+   "status": "applied"
+  },
+  {
+   "seq": 46,
+   "doc_id": "GOI_SO_7E_1985",
+   "op": "insert",
+   "source_ref": "2(b)(9)(b)",
+   "path": "schedule 2 › ministry Ministry of Irrigation › entry 11",
+   "status": "applied"
+  },
+  {
+   "seq": 47,
+   "doc_id": "GOI_SO_7E_1985",
+   "op": "replace",
+   "source_ref": "2(b)(10)(a)",
+   "path": "schedule 2 › ministry Ministry of Labour and Rehabilitation",
+   "status": "applied"
+  },
+  {
+   "seq": 48,
+   "doc_id": "GOI_SO_7E_1985",
+   "op": "omit",
+   "source_ref": "2(b)(10)(b)",
+   "path": "schedule 2 › ministry Ministry of Labour and Rehabilitation › department department of Labour",
+   "status": "applied"
+  },
+  {
+   "seq": 49,
+   "doc_id": "GOI_SO_7E_1985",
+   "op": "omit",
+   "source_ref": "2(b)(10)(c)",
+   "path": "schedule 2 › ministry Ministry of Labour and Rehabilitation › department DEPARTMENT OF REHABILITATION",
+   "status": "applied"
+  },
+  {
+   "seq": 50,
+   "doc_id": "GOI_SO_7E_1985",
+   "op": "insert",
+   "source_ref": "2(b)(11)",
+   "path": "schedule 2 › ministry MINISTRY OF LAW AND JUSTICE",
+   "status": "applied"
+  },
+  {
+   "seq": 51,
+   "doc_id": "GOI_SO_7E_1985",
+   "op": "insert",
+   "source_ref": "2(b)(12)(a)",
+   "path": "schedule 2 › ministry MINISTRY OF PLANNING › entry 1",
+   "status": "not_applied",
+   "problem": "change 51: 2 parts are entry 1 under schedule 2 › ministry MINISTRY OF PLANNING",
+   "code": "old_path_ambiguous",
+   "cause": "number_twice",
+   "known": "planning"
+  },
+  {
+   "seq": 52,
+   "doc_id": "GOI_SO_7E_1985",
+   "op": "replace",
+   "source_ref": "2(b)(12)(b)",
+   "path": "schedule 2 › ministry MINISTRY OF PLANNING › department DEPARTMENT OF STATISTICS",
+   "status": "not_applied",
+   "problem": "change 52: no department DEPARTMENT OF STATISTICS under schedule 2 › ministry MINISTRY OF PLANNING",
+   "code": "old_path_missing",
+   "cause": "unit_not_found",
+   "known": "planning"
+  },
+  {
+   "seq": 53,
+   "doc_id": "GOI_SO_7E_1985",
+   "op": "replace",
+   "source_ref": "2(b)(13)",
+   "path": "schedule 2 › ministry MINISTRY OF RURAL DEVELOPMENT",
+   "status": "applied"
+  },
+  {
+   "seq": 54,
+   "doc_id": "GOI_SO_7E_1985",
+   "op": "replace",
+   "source_ref": "2(b)(14)",
+   "path": "schedule 2 › ministry MINISTRY OF SOCIAL WELFARE",
+   "status": "applied"
+  },
+  {
+   "seq": 55,
+   "doc_id": "GOI_SO_7E_1985",
+   "op": "replace",
+   "source_ref": "2(b)(15)(a)",
+   "path": "schedule 2 › ministry MINISTRY OF STEEL AND MINES",
+   "status": "applied"
+  },
+  {
+   "seq": 56,
+   "doc_id": "GOI_SO_7E_1985",
+   "op": "insert",
+   "source_ref": "2(b)(15)(b)",
+   "path": "schedule 2 › ministry MINISTRY OF STEEL AND MINES › department DEPARTMENT OF INES › entry 8",
+   "status": "applied"
+  },
+  {
+   "seq": 57,
+   "doc_id": "GOI_SO_7E_1985",
+   "op": "insert",
+   "source_ref": "2(b)(15)(c)",
+   "path": "schedule 2 › ministry MINISTRY OF STEEL AND MINES › department DEPARTMENT OF MINES",
+   "status": "applied"
+  },
+  {
+   "seq": 58,
+   "doc_id": "GOI_SO_7E_1985",
+   "op": "omit",
+   "source_ref": "2(b)(16)(a)",
+   "path": "schedule 2 › ministry MINISTRY OF TOURISM AND CIVIL AVIATION › department DEPARTMENT OF TOURISM › entry 2",
+   "status": "applied"
+  },
+  {
+   "seq": 59,
+   "doc_id": "GOI_SO_7E_1985",
+   "op": "omit",
+   "source_ref": "2(b)(16)(b)",
+   "path": "schedule 2 › ministry MINISTRY OF TOURISM AND CIVIL AVIATION › department DEPARTMENT OF CIVIL AVIATION › entry 1",
+   "status": "applied"
+  },
+  {
+   "seq": 60,
+   "doc_id": "GOI_SO_7E_1985",
+   "op": "insert",
+   "source_ref": "2(b)(17)",
+   "path": "schedule 2 › ministry DEPARTMENT OF ATOMIC ENERGY",
+   "status": "applied"
+  },
+  {
+   "seq": 61,
+   "doc_id": "GOI_SO_7E_1985",
+   "op": "insert",
+   "source_ref": "2(b)(18)",
+   "path": "schedule 2 › ministry DEPARTMENT OF ELECTRONIC › entry 3",
+   "status": "not_applied",
+   "problem": "change 61: no entry 3 under schedule 2 › department DEPARTMENT OF ELECTRONICS",
+   "code": "old_path_missing",
+   "cause": "entry_not_in_state",
+   "known": "top_level"
+  },
+  {
+   "seq": 62,
+   "doc_id": "GOI_SO_7E_1985",
+   "op": "omit",
+   "source_ref": "2(b)(19)",
+   "path": "schedule 2 › ministry DEPARTMENT OF ENVIRONMENT",
+   "status": "applied"
+  },
+  {
+   "seq": 63,
+   "doc_id": "GOI_SO_7E_1985",
+   "op": "replace",
+   "source_ref": "2(b)(20)",
+   "path": "schedule 2 › ministry DEPARTMENT OF PARLIAMENTARY AFFAIRS",
+   "status": "applied"
+  },
+  {
+   "seq": 64,
+   "doc_id": "GOI_SO_7E_1985",
+   "op": "omit",
+   "source_ref": "2(b)(21)",
+   "path": "schedule 2 › ministry DEPARTMENT OF SCIENCE AND TECHNOLOGY",
+   "status": "applied"
+  },
+  {
+   "seq": 65,
+   "doc_id": "GOI_SO_7E_1985",
+   "op": "replace",
+   "source_ref": "2(b)(22)(a)",
+   "path": "schedule 2 › ministry DEPARTMENT OF SPORTS",
+   "status": "not_applied",
+   "problem": "change 65: no ministry Department of Youth Affairs and Sports under schedule 2",
+   "code": "old_path_missing",
+   "cause": "unit_not_found",
+   "known": "renamed_unit"
+  },
+  {
+   "seq": 66,
+   "doc_id": "GOI_SO_7E_1985",
+   "op": "insert",
+   "source_ref": "2(b)(22)(b)",
+   "path": "schedule 2 › ministry DEPARTMENT OF SPORTS › entry 3",
+   "status": "not_applied",
+   "problem": "change 66: no ministry Department of Youth Affairs and Sports under schedule 2",
+   "code": "old_path_missing",
+   "cause": "unit_not_found",
+   "known": "renamed_unit"
+  },
+  {
+   "seq": 67,
+   "doc_id": "GOI_SO_7E_1985",
+   "op": "omit",
+   "source_ref": "2(b)(23)",
+   "path": "schedule 2 › ministry DEPARTMENT OF SUPPLY",
+   "status": "not_applied",
+   "problem": "change 67: no ministry DEPARTMENT OF SUPPLY under schedule 2",
+   "code": "old_path_missing",
+   "cause": "unit_not_found",
+   "known": "top_level"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

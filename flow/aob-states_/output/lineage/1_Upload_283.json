@@ -1,0 +1,2082 @@
+{
+ "file": "1_Upload_283.pdf",
+ "kind": "amendment",
+ "series": 243,
+ "date": "1999-10-15",
+ "govdoc": "aob-ammend_/output/1_Upload_283.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826696.0535333,
+ "edits_file": "aob-ammend_/conf/1_Upload_283.pdf.edits.yml",
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_283.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:58:45.960955+00:00",
+  "sha256": "ea0ff7e17bd9878bb30db1969ef148786174bc648e65758cfb7d8a80266e849a",
+  "pages": 100
+ },
+ "edits": [
+  {
+   "run": "h1",
+   "by": "mukundesh",
+   "at": "2026-11-11T18:08:11+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r1.w11922",
+     "before": {
+      "text": "(1)"
+     },
+     "after": {
+      "text": "(i)"
+     }
+    }
+   ]
+  },
+  {
+   "run": "h2",
+   "by": "mukundesh",
+   "at": "2026-11-11T18:08:45+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r1.w12064",
+     "before": {
+      "text": "(1)"
+     },
+     "after": {
+      "text": "(i)"
+     }
+    }
+   ]
+  },
+  {
+   "run": "h3",
+   "by": "mukundesh",
+   "at": "2026-11-11T18:09:31+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r1.w12264",
+     "before": {
+      "text": "(1)"
+     },
+     "after": {
+      "text": "(i)"
+     }
+    }
+   ]
+  },
+  {
+   "run": "h4",
+   "by": "claude",
+   "at": "2026-11-12T05:07:00+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r1.w11755",
+     "before": {
+      "text": "\"ll."
+     },
+     "after": {
+      "text": "\"11."
+     }
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-11T03:09:06.214795+00:00",
+   "stamp": "511730f67b59247e"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r128",
+   "at": "2026-11-15T12:42:46.520284+00:00",
+   "stamp": "3cb3985757d7bcf3"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r129",
+   "at": "2026-11-15T12:42:49.149048+00:00",
+   "stamp": "6f53957abaf012a9"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r130",
+   "at": "2026-11-15T12:42:51.297825+00:00",
+   "stamp": "5f40b6ad7f230d3d"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r139",
+   "at": "2026-11-15T16:25:04.097103+00:00",
+   "stamp": "ebc359f982804c2f",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r140",
+   "at": "2026-11-15T16:25:06.153389+00:00",
+   "stamp": "a91df7c4a2e85c3a",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r141",
+   "at": "2026-11-15T16:25:08.199888+00:00",
+   "stamp": "676898bec622247b",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r147",
+   "at": "2026-11-15T16:57:38.683730+00:00",
+   "stamp": "e142239cd117957f"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r148",
+   "at": "2026-11-15T17:03:53.711488+00:00",
+   "stamp": "dfc3280b4559a14b"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r153",
+   "at": "2026-11-16T10:58:15.605785+00:00",
+   "stamp": "e21952d84efcf2b3"
+  }
+ ],
+ "reviews": [
+  {
+   "id": "h4.v2",
+   "target": "r47.a8",
+   "status": "pending",
+   "by": "claude",
+   "at": "2026-11-12T05:07:00+00:00",
+   "note": "moved by a loose match after h4.e1"
+  },
+  {
+   "id": "h4.v3",
+   "target": "r48.a6",
+   "status": "pending",
+   "by": "claude",
+   "at": "2026-11-12T05:07:00+00:00",
+   "note": "moved by a loose match after h4.e1"
+  }
+ ],
+ "issues": [
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 9: its quoted text runs across a page break",
+   "target": "r141.rel9",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 21: its quoted text runs across a page break",
+   "target": "r141.rel21",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 23: its quoted text runs across a page break",
+   "target": "r141.rel23",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 24: its quoted text runs across a page break",
+   "target": "r141.rel24",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 25: its quoted text runs across a page break",
+   "target": "r141.rel25",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 26: its quoted text runs across a page break",
+   "target": "r141.rel26",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 29: its quoted text runs across a page break",
+   "target": "r141.rel29",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 30: its quoted text runs across a page break",
+   "target": "r141.rel30",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 32: its quoted text runs across a page break",
+   "target": "r141.rel32",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 33: its quoted text runs across a page break",
+   "target": "r141.rel33",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 34: its quoted text runs across a page break",
+   "target": "r141.rel34",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 38: its quoted text runs across a page break",
+   "target": "r141.rel38",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 39: its quoted text runs across a page break",
+   "target": "r141.rel39",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 40: its quoted text runs across a page break",
+   "target": "r141.rel40",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 41: its quoted text runs across a page break",
+   "target": "r141.rel41",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 42: its quoted text runs across a page break",
+   "target": "r141.rel42",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 44: its quoted text runs across a page break",
+   "target": "r141.rel44",
+   "status": "open"
+  },
+  {
+   "code": "aob:new_text_differs",
+   "severity": "warning",
+   "message": "schedule 1 › ministry 13A reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied",
+   "target": "r141.rel8",
+   "status": "open"
+  },
+  {
+   "code": "aob:new_text_differs",
+   "severity": "warning",
+   "message": "schedule 1 › ministry 29B reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied",
+   "target": "r141.rel15",
+   "status": "open"
+  },
+  {
+   "code": "aob:new_hindi_differs",
+   "severity": "info",
+   "message": "schedule 1 › ministry 32B's Hindi name reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied",
+   "target": "r141.rel18",
+   "status": "open"
+  },
+  {
+   "code": "aob:new_text_differs",
+   "severity": "warning",
+   "message": "schedule 1 › ministry 32B reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied",
+   "target": "r141.rel18",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
+   "message": "change 21: department DEPARTMENT OF ANIMAL HUSBANDRY AND DAIRYING taken for department DEPARTMENT OF ANIMAL HUSBANDRY AND DAIRY ING PART - I, named loosely",
+   "target": "r141.rel21",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
+   "message": "change 33: ministry MINISTRY OF LAW, JUSTICE AND COMPANY AFFAIRS taken for ministry MINISTRY OF LAW, JUSTCE AND COMPANY AFFAIRS(, named loosely",
+   "target": "r141.rel33",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
+   "message": "change 34: ministry MINISTRY OF PETROLEUM AND NATRUAL GAS taken for ministry MINISTRY OF PETRO- LEUM AND NATURAL GAS, named loosely",
+   "target": "r141.rel34",
+   "status": "open"
+  }
+ ],
+ "problems": [
+  {
+   "series": 271,
+   "seq": 8,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 1 › ministry 13A reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 15,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 1 › ministry 29B reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 18,
+   "code": "new_hindi_differs",
+   "severity": "info",
+   "message": "schedule 1 › ministry 32B's Hindi name reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 18,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 1 › ministry 32B reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF COMMERCE AND INDUSTRY › department A › group_heading I is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF COMMERCE AND INDUSTRY › department A › group_heading V is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF COMMERCE AND INDUSTRY › department A › group_heading VI is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF COMMERCE AND INDUSTRY › department A › group_heading VII is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF COMMERCE AND INDUSTRY › department A › group_heading VIII is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF COMMERCE AND INDUSTRY › department A › group_heading IX is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF COMMERCE AND INDUSTRY › department A › group_heading X is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF COMMERCE AND INDUSTRY › department A › group_heading I is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF COMMERCE AND INDUSTRY › department A › group_heading II › entry 5 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF COMMERCE AND INDUSTRY › department A › group_heading II › entry 6 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF COMMERCE AND INDUSTRY › department A › group_heading II › entry 7 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF COMMERCE AND INDUSTRY › department A › group_heading III › entry 7 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF COMMERCE AND INDUSTRY › department A › group_heading III › entry 9 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF COMMERCE AND INDUSTRY › department A › group_heading III › entry 10 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF COMMERCE AND INDUSTRY › department A › group_heading III › entry 8 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF COMMERCE AND INDUSTRY › department A › group_heading IV › entry 9 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF COMMERCE AND INDUSTRY › department A › group_heading IV › entry 10 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF COMMERCE AND INDUSTRY › department A › group_heading IV › entry 11 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF COMMERCE AND INDUSTRY › department A › group_heading IV › entry 12 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF COMMERCE AND INDUSTRY › department A › group_heading IV › entry 14 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF COMMERCE AND INDUSTRY › department A › group_heading IV › entry 15 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF COMMERCE AND INDUSTRY › department A › group_heading IV › entry 16 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF COMMERCE AND INDUSTRY › department A › group_heading IV › entry 17 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF COMMERCE AND INDUSTRY › department B is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF COMMERCE AND INDUSTRY › department C reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF COMMERCE AND INDUSTRY › department C › group_heading III is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF COMMERCE AND INDUSTRY › department C › group_heading IV is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF COMMERCE AND INDUSTRY › department C › group_heading V is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF COMMERCE AND INDUSTRY › department C › group_heading VI is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF COMMERCE AND INDUSTRY › department C › group_heading I › entry 3 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF COMMERCE AND INDUSTRY › department C › group_heading I › entry 4 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF COMMERCE AND INDUSTRY › department C › group_heading II › entry 19 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF COMMERCE AND INDUSTRY › department C › group_heading II › entry 20 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF COMMERCE AND INDUSTRY › department C › group_heading II › entry 21 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF COMMERCE AND INDUSTRY › department C › group_heading II › entry 22 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF COMMERCE AND INDUSTRY › department C › group_heading II › entry 3 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF COMMERCE AND INDUSTRY › department C › group_heading II › entry 4 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF COMMERCE AND INDUSTRY › department C › group_heading II › entry 5 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF COMMERCE AND INDUSTRY › department C › group_heading II › entry 6 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF COMMERCE AND INDUSTRY › department C › group_heading II › entry 7 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF COMMERCE AND INDUSTRY › department C › group_heading II › entry 8 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF COMMERCE AND INDUSTRY › department C › group_heading II › entry 9 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF COMMERCE AND INDUSTRY › department C › group_heading II › entry 10 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF COMMERCE AND INDUSTRY › department C › group_heading II › entry 11 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF COMMERCE AND INDUSTRY › department C › group_heading II › entry 12 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF COMMERCE AND INDUSTRY › department C › group_heading II › entry 13 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF COMMERCE AND INDUSTRY › department C › group_heading II › entry 14 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF COMMERCE AND INDUSTRY › department C › group_heading II › entry 15 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF COMMERCE AND INDUSTRY › department C › group_heading II › entry 16 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF COMMERCE AND INDUSTRY › department C › group_heading II › entry 17 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 23,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF COMMERCE AND INDUSTRY › department C › group_heading II › entry 18 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 27,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF EXTERNAL AFFAIRS › entry 45 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 29,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HEAVY INDUSTRIES AND PUBLIC ENTERPRISES › department A › entry 1 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 29,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HEAVY INDUSTRIES AND PUBLIC ENTERPRISES › department A › entry 2 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 29,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HEAVY INDUSTRIES AND PUBLIC ENTERPRISES › department A › entry 9 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 29,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HEAVY INDUSTRIES AND PUBLIC ENTERPRISES › department A › entry 10 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 29,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HEAVY INDUSTRIES AND PUBLIC ENTERPRISES › department A › entry 11 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 29,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HEAVY INDUSTRIES AND PUBLIC ENTERPRISES › department A › entry 12 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 29,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HEAVY INDUSTRIES AND PUBLIC ENTERPRISES › department A › entry 13 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 29,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HEAVY INDUSTRIES AND PUBLIC ENTERPRISES › department A › entry 14 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 29,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HEAVY INDUSTRIES AND PUBLIC ENTERPRISES › department A › entry 15 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 29,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HEAVY INDUSTRIES AND PUBLIC ENTERPRISES › department A › entry 16 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 29,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HEAVY INDUSTRIES AND PUBLIC ENTERPRISES › department A › entry 17 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 29,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HEAVY INDUSTRIES AND PUBLIC ENTERPRISES › department A › entry 18 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 29,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HEAVY INDUSTRIES AND PUBLIC ENTERPRISES › department A › entry 19 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 29,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HEAVY INDUSTRIES AND PUBLIC ENTERPRISES › department A › entry 20 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 29,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HEAVY INDUSTRIES AND PUBLIC ENTERPRISES › department A › entry 21 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 29,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HEAVY INDUSTRIES AND PUBLIC ENTERPRISES › department A › entry 22 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 29,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HEAVY INDUSTRIES AND PUBLIC ENTERPRISES › department A › entry 23 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 29,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HEAVY INDUSTRIES AND PUBLIC ENTERPRISES › department A › entry 24 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 29,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HEAVY INDUSTRIES AND PUBLIC ENTERPRISES › department A › entry 25 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 29,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HEAVY INDUSTRIES AND PUBLIC ENTERPRISES › department A › entry 26 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 29,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HEAVY INDUSTRIES AND PUBLIC ENTERPRISES › department A › entry 27 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 29,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HEAVY INDUSTRIES AND PUBLIC ENTERPRISES › department A › entry 28 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 29,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HEAVY INDUSTRIES AND PUBLIC ENTERPRISES › department A › entry 29 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 29,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HEAVY INDUSTRIES AND PUBLIC ENTERPRISES › department A › entry 30 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 29,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HEAVY INDUSTRIES AND PUBLIC ENTERPRISES › department A › entry 31 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 29,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HEAVY INDUSTRIES AND PUBLIC ENTERPRISES › department A › entry 32 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 29,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HEAVY INDUSTRIES AND PUBLIC ENTERPRISES › department A › entry 33 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 29,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HEAVY INDUSTRIES AND PUBLIC ENTERPRISES › department A › entry 34 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 29,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HEAVY INDUSTRIES AND PUBLIC ENTERPRISES › department A › entry 35 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 29,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HEAVY INDUSTRIES AND PUBLIC ENTERPRISES › department A › entry 36 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 29,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HEAVY INDUSTRIES AND PUBLIC ENTERPRISES › department A › entry 37 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 29,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HEAVY INDUSTRIES AND PUBLIC ENTERPRISES › department A › entry 38 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 29,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HEAVY INDUSTRIES AND PUBLIC ENTERPRISES › department A › entry 39 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 29,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HEAVY INDUSTRIES AND PUBLIC ENTERPRISES › department A › entry 40 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 29,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HEAVY INDUSTRIES AND PUBLIC ENTERPRISES › department A › entry 41 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 29,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HEAVY INDUSTRIES AND PUBLIC ENTERPRISES › department A › entry 42 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 29,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HEAVY INDUSTRIES AND PUBLIC ENTERPRISES › department A › entry 43 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 29,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HEAVY INDUSTRIES AND PUBLIC ENTERPRISES › department B › entry 3 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 29,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HEAVY INDUSTRIES AND PUBLIC ENTERPRISES › department B › entry 4 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 29,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HEAVY INDUSTRIES AND PUBLIC ENTERPRISES › department B › entry 5 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 29,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HEAVY INDUSTRIES AND PUBLIC ENTERPRISES › department B › entry 2 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 30,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HUMAN RESOURCE DEVELOP- MENT › department A › entry 11 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 30,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HUMAN RESOURCE DEVELOP- MENT › department A › entry 12 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 30,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HUMAN RESOURCE DEVELOP- MENT › department A › entry 5 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 30,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HUMAN RESOURCE DEVELOP- MENT › department A › entry 7 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 30,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HUMAN RESOURCE DEVELOP- MENT › department A › entry 13 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 30,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HUMAN RESOURCE DEVELOP- MENT › department A › entry 14 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 30,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HUMAN RESOURCE DEVELOP- MENT › department B › entry 4 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 30,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HUMAN RESOURCE DEVELOP- MENT › department B › entry 8 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 30,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HUMAN RESOURCE DEVELOP- MENT › department B › entry 9 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 30,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HUMAN RESOURCE DEVELOP- MENT › department B › entry 10 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 30,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HUMAN RESOURCE DEVELOP- MENT › department B › entry 1 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 30,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HUMAN RESOURCE DEVELOP- MENT › department B › entry 13 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 30,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HUMAN RESOURCE DEVELOP- MENT › department B › entry 14 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 30,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HUMAN RESOURCE DEVELOP- MENT › department B › entry 15 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 30,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HUMAN RESOURCE DEVELOP- MENT › department B › entry 16 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 30,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HUMAN RESOURCE DEVELOP- MENT › department B › entry 17 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 30,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HUMAN RESOURCE DEVELOP- MENT › department B › entry 18 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 30,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HUMAN RESOURCE DEVELOP- MENT › department B › entry 23 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 30,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HUMAN RESOURCE DEVELOP- MENT › department B › entry 31 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 30,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HUMAN RESOURCE DEVELOP- MENT › department B › entry 32 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 30,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HUMAN RESOURCE DEVELOP- MENT › department B › entry 33 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 30,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HUMAN RESOURCE DEVELOP- MENT › department B › entry 34 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 30,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HUMAN RESOURCE DEVELOP- MENT › department B › entry 35 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 30,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HUMAN RESOURCE DEVELOP- MENT › department B › entry 36 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 30,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HUMAN RESOURCE DEVELOP- MENT › department B › entry 37 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 30,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HUMAN RESOURCE DEVELOP- MENT › department B › entry 38 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 30,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HUMAN RESOURCE DEVELOP- MENT › department B › entry 39 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 30,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HUMAN RESOURCE DEVELOP- MENT › department B › entry 40 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 30,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HUMAN RESOURCE DEVELOP- MENT › department B › entry 41 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 30,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HUMAN RESOURCE DEVELOP- MENT › department B › entry 42 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 30,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HUMAN RESOURCE DEVELOP- MENT › department B › entry 44 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 30,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HUMAN RESOURCE DEVELOP- MENT › department B › entry 45 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 30,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HUMAN RESOURCE DEVELOP- MENT › department B › entry 46 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 30,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HUMAN RESOURCE DEVELOP- MENT › department B › entry 47 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 30,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HUMAN RESOURCE DEVELOP- MENT › department DEPARTMENT OF WOMEN AND CHILD DEVELOPMENT reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 30,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HUMAN RESOURCE DEVELOP- MENT › department DEPARTMENT OF WOMEN AND CHILD DEVELOPMENT › entry 18 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 30,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HUMAN RESOURCE DEVELOP- MENT › department DEPARTMENT OF WOMEN AND CHILD DEVELOPMENT › entry 19 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 30,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HUMAN RESOURCE DEVELOP- MENT › department DEPARTMENT OF WOMEN AND CHILD DEVELOPMENT › paragraph is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 30,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HUMAN RESOURCE DEVELOP- MENT › department DEPARTMENT OF WOMEN AND CHILD DEVELOPMENT › entry 1 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 30,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HUMAN RESOURCE DEVELOP- MENT › department DEPARTMENT OF WOMEN AND CHILD DEVELOPMENT › entry 5 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 30,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HUMAN RESOURCE DEVELOP- MENT › department DEPARTMENT OF WOMEN AND CHILD DEVELOPMENT › entry 8 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 30,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HUMAN RESOURCE DEVELOP- MENT › department DEPARTMENT OF WOMEN AND CHILD DEVELOPMENT › entry 9 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 30,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HUMAN RESOURCE DEVELOP- MENT › department DEPARTMENT OF WOMEN AND CHILD DEVELOPMENT › entry 10 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 30,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HUMAN RESOURCE DEVELOP- MENT › department DEPARTMENT OF WOMEN AND CHILD DEVELOPMENT › entry 11 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 30,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HUMAN RESOURCE DEVELOP- MENT › department DEPARTMENT OF WOMEN AND CHILD DEVELOPMENT › entry 12 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 30,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HUMAN RESOURCE DEVELOP- MENT › department DEPARTMENT OF WOMEN AND CHILD DEVELOPMENT › entry 13 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 30,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HUMAN RESOURCE DEVELOP- MENT › department DEPARTMENT OF WOMEN AND CHILD DEVELOPMENT › entry 14 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 30,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HUMAN RESOURCE DEVELOP- MENT › department DEPARTMENT OF WOMEN AND CHILD DEVELOPMENT › entry 15 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 30,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HUMAN RESOURCE DEVELOP- MENT › department DEPARTMENT OF WOMEN AND CHILD DEVELOPMENT › entry 16 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 30,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HUMAN RESOURCE DEVELOP- MENT › department DEPARTMENT OF WOMEN AND CHILD DEVELOPMENT › entry 17 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 34,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF STATISTICS AND PROGRAMME IMPLEMENTATION › paragraph is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 34,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF STATISTICS AND PROGRAMME IMPLEMENTATION › group_heading I is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 34,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF STATISTICS AND PROGRAMME IMPLEMENTATION › group_heading II is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 34,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF STATISTICS AND PROGRAMME IMPLEMENTATION › entry 1 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 34,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF STATISTICS AND PROGRAMME IMPLEMENTATION › entry 2 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 34,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF STATISTICS AND PROGRAMME IMPLEMENTATION › entry 3 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 34,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF STATISTICS AND PROGRAMME IMPLEMENTATION › entry 4 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 34,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF STATISTICS AND PROGRAMME IMPLEMENTATION › entry 5 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 34,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF STATISTICS AND PROGRAMME IMPLEMENTATION › entry 6 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 34,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF STATISTICS AND PROGRAMME IMPLEMENTATION › entry 7 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 34,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF STATISTICS AND PROGRAMME IMPLEMENTATION › entry 8 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 34,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF STATISTICS AND PROGRAMME IMPLEMENTATION › entry 9 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 34,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF STATISTICS AND PROGRAMME IMPLEMENTATION › entry 10 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 34,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF STATISTICS AND PROGRAMME IMPLEMENTATION › entry 11 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 34,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF STATISTICS AND PROGRAMME IMPLEMENTATION › entry 12 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 34,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF STATISTICS AND PROGRAMME IMPLEMENTATION › entry 13 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 34,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF STATISTICS AND PROGRAMME IMPLEMENTATION › entry 14 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 34,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF STATISTICS AND PROGRAMME IMPLEMENTATION › entry 15 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 34,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF STATISTICS AND PROGRAMME IMPLEMENTATION › entry 16 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 34,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF STATISTICS AND PROGRAMME IMPLEMENTATION › entry 17 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 39,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF STEEL › entry 1 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 39,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF STEEL › entry 2 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 39,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF STEEL › entry 3 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 39,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF STEEL › entry 4 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 39,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF STEEL › entry 5 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 39,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF STEEL › entry 6 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 39,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF STEEL › entry 7 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 39,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF STEEL › entry 8 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 39,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF STEEL › entry 9 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 39,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF STEEL › entry 10 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 40,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF SURFACE TRANSPORT 1 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 41,
+   "code": "new_hindi_differs",
+   "severity": "info",
+   "message": "schedule 2 › ministry MINISTRY OF TRIBAL AFFAIRS's Hindi name reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 41,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF TRIBAL AFFAIRS › entry 6 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 41,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF TRIBAL AFFAIRS › entry 7 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 41,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF TRIBAL AFFAIRS › entry 8 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 41,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF TRIBAL AFFAIRS › entry 9 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 41,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF TRIBAL AFFAIRS › note reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 44,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF SOCIAL JUSTICE AND EMPOWERMENT › part IV › entry 23 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  }
+ ],
+ "rules": [
+  {
+   "rule": "loose",
+   "seq": 21,
+   "note": "change 21: department DEPARTMENT OF ANIMAL HUSBANDRY AND DAIRYING taken for department DEPARTMENT OF ANIMAL HUSBANDRY AND DAIRY ING PART - I, named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "loose",
+   "seq": 33,
+   "note": "change 33: ministry MINISTRY OF LAW, JUSTICE AND COMPANY AFFAIRS taken for ministry MINISTRY OF LAW, JUSTCE AND COMPANY AFFAIRS(, named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "loose",
+   "seq": 34,
+   "note": "change 34: ministry MINISTRY OF PETROLEUM AND NATRUAL GAS taken for ministry MINISTRY OF PETRO- LEUM AND NATURAL GAS, named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  }
+ ],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_1036E_1999",
+   "op": "insert",
+   "source_ref": "2(1)(a)",
+   "path": "schedule 1 › ministry Ministry of Agriculture › department Department of Animal Husbandry and Dairying",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_1036E_1999",
+   "op": "omit",
+   "source_ref": "2(1)(b)",
+   "path": "schedule 1 › ministry Ministry of Coal",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_1036E_1999",
+   "op": "replace",
+   "source_ref": "2(1)(c)",
+   "path": "schedule 1 › ministry Ministry of Commerce",
+   "status": "applied"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_1036E_1999",
+   "op": "insert",
+   "source_ref": "2(1)(d)",
+   "path": "schedule 1 › ministry Ministry of Communications › department Department of Telecommunications",
+   "status": "applied"
+  },
+  {
+   "seq": 5,
+   "doc_id": "GOI_SO_1036E_1999",
+   "op": "insert",
+   "source_ref": "2(1)(e)",
+   "path": "schedule 1 › ministry Ministry of Communications",
+   "status": "applied"
+  },
+  {
+   "seq": 6,
+   "doc_id": "GOI_SO_1036E_1999",
+   "op": "replace",
+   "source_ref": "2(1)(f)",
+   "path": "schedule 1 › ministry Ministry of Food and Consumer Affairs",
+   "status": "applied"
+  },
+  {
+   "seq": 7,
+   "doc_id": "GOI_SO_1036E_1999",
+   "op": "omit",
+   "source_ref": "2(1)(g)",
+   "path": "schedule 1 › ministry Ministry of Food Processing Industries",
+   "status": "applied"
+  },
+  {
+   "seq": 8,
+   "doc_id": "GOI_SO_1036E_1999",
+   "op": "insert",
+   "source_ref": "2(1)(h)",
+   "path": "schedule 1 › ministry Ministry of Health and Family Welfare",
+   "status": "applied"
+  },
+  {
+   "seq": 9,
+   "doc_id": "GOI_SO_1036E_1999",
+   "op": "replace",
+   "source_ref": "2(1)(i)",
+   "path": "schedule 1 › ministry Ministry of Human Resource Development",
+   "status": "applied"
+  },
+  {
+   "seq": 10,
+   "doc_id": "GOI_SO_1036E_1999",
+   "op": "omit",
+   "source_ref": "2(1)(j)",
+   "path": "schedule 1 › ministry Ministry of Industry",
+   "status": "applied"
+  },
+  {
+   "seq": 11,
+   "doc_id": "GOI_SO_1036E_1999",
+   "op": "insert",
+   "source_ref": "2(1)(k)",
+   "path": "schedule 1 › ministry Ministry of Information and Broadcasting",
+   "status": "applied"
+  },
+  {
+   "seq": 12,
+   "doc_id": "GOI_SO_1036E_1999",
+   "op": "insert",
+   "source_ref": "2(1)(l)",
+   "path": "schedule 1 › ministry Ministry of Law, Justice and Company Affairs",
+   "status": "applied"
+  },
+  {
+   "seq": 13,
+   "doc_id": "GOI_SO_1036E_1999",
+   "op": "replace",
+   "source_ref": "2(1)(m)",
+   "path": "schedule 1 › ministry Ministry of Planning and Programme Implementation",
+   "status": "applied"
+  },
+  {
+   "seq": 14,
+   "doc_id": "GOI_SO_1036E_1999",
+   "op": "insert",
+   "source_ref": "2(1)(n)",
+   "path": "schedule 1 › ministry Ministry of Rural Development › department Department of Land Resources",
+   "status": "applied"
+  },
+  {
+   "seq": 15,
+   "doc_id": "GOI_SO_1036E_1999",
+   "op": "insert",
+   "source_ref": "2(1)(o)",
+   "path": "schedule 1 › ministry Ministry of Science and Technology",
+   "status": "applied"
+  },
+  {
+   "seq": 16,
+   "doc_id": "GOI_SO_1036E_1999",
+   "op": "replace",
+   "source_ref": "2(1)(p)",
+   "path": "schedule 1 › ministry Ministry of Steel and Mines",
+   "status": "applied"
+  },
+  {
+   "seq": 17,
+   "doc_id": "GOI_SO_1036E_1999",
+   "op": "insert",
+   "source_ref": "2(1)(q)",
+   "path": "schedule 1 › ministry Ministry of Surface Transport ; schedule 1 › ministry Ministry of Surface Transport",
+   "status": "applied"
+  },
+  {
+   "seq": 18,
+   "doc_id": "GOI_SO_1036E_1999",
+   "op": "insert",
+   "source_ref": "2(1)(r)",
+   "path": "schedule 1 › ministry Ministry of Tourism",
+   "status": "applied"
+  },
+  {
+   "seq": 19,
+   "doc_id": "GOI_SO_1036E_1999",
+   "op": "insert",
+   "source_ref": "2(1)(s)",
+   "path": "schedule 1 › ministry Ministry of Urban Development",
+   "status": "applied"
+  },
+  {
+   "seq": 20,
+   "doc_id": "GOI_SO_1036E_1999",
+   "op": "omit",
+   "source_ref": "2(1)(t)",
+   "path": "schedule 1 › ministry Department of Electronics",
+   "status": "applied"
+  },
+  {
+   "seq": 21,
+   "doc_id": "GOI_SO_1036E_1999",
+   "op": "insert",
+   "source_ref": "2(2)(a)",
+   "path": "schedule 2 › ministry MINISTRY OF AGRICULTURE › department DEPARTMENT OF ANIMAL HUSBANDRY AND DAIRYING",
+   "status": "applied"
+  },
+  {
+   "seq": 22,
+   "doc_id": "GOI_SO_1036E_1999",
+   "op": "omit",
+   "source_ref": "2(2)(b)",
+   "path": "schedule 2 › ministry MINISTRY OF COAL",
+   "status": "applied"
+  },
+  {
+   "seq": 23,
+   "doc_id": "GOI_SO_1036E_1999",
+   "op": "replace",
+   "source_ref": "2(2)(c)",
+   "path": "schedule 2 › ministry MINISTRY OF COMMERCE",
+   "status": "applied"
+  },
+  {
+   "seq": 24,
+   "doc_id": "GOI_SO_1036E_1999",
+   "op": "replace",
+   "source_ref": "2(2)(d)",
+   "path": "schedule 2 › ministry MINISTRY OF COMMUNICATIONS",
+   "status": "applied"
+  },
+  {
+   "seq": 25,
+   "doc_id": "GOI_SO_1036E_1999",
+   "op": "insert",
+   "source_ref": "2(2)(e)",
+   "path": "schedule 2 › ministry MINISTRY OF COMMUNICATIONS",
+   "status": "applied"
+  },
+  {
+   "seq": 26,
+   "doc_id": "GOI_SO_1036E_1999",
+   "op": "replace",
+   "source_ref": "2(2)(g)",
+   "path": "schedule 2 › ministry MINISTRY OF FOOD AND CONSUMER AFFAIRS",
+   "status": "applied"
+  },
+  {
+   "seq": 27,
+   "doc_id": "GOI_SO_1036E_1999",
+   "op": "insert",
+   "source_ref": "2(2)(h)",
+   "path": "schedule 2 › ministry MINISTRY OF EXTERNAL AFFAIRS › entry 44",
+   "status": "applied"
+  },
+  {
+   "seq": 28,
+   "doc_id": "GOI_SO_1036E_1999",
+   "op": "omit",
+   "source_ref": "2(2)(i)",
+   "path": "schedule 2 › ministry MINISTRY OF FOOD PROCESSING INDUSTRIES",
+   "status": "applied"
+  },
+  {
+   "seq": 29,
+   "doc_id": "GOI_SO_1036E_1999",
+   "op": "insert",
+   "source_ref": "2(2)(j)",
+   "path": "schedule 2 › ministry MINISTRY OF HEALTH AND FAMILY WELFARE",
+   "status": "applied"
+  },
+  {
+   "seq": 30,
+   "doc_id": "GOI_SO_1036E_1999",
+   "op": "replace",
+   "source_ref": "2(2)(k)",
+   "path": "schedule 2 › ministry MINISTRY OF HUMAN RESOURCE DEVELOPMENT",
+   "status": "applied"
+  },
+  {
+   "seq": 31,
+   "doc_id": "GOI_SO_1036E_1999",
+   "op": "omit",
+   "source_ref": "2(2)(l)",
+   "path": "schedule 2 › ministry MINISTRY OF INDUSTRY",
+   "status": "applied"
+  },
+  {
+   "seq": 32,
+   "doc_id": "GOI_SO_1036E_1999",
+   "op": "insert",
+   "source_ref": "2(2)(m)",
+   "path": "schedule 2 › ministry MINISTRY OF INFORMATION AND BROADCASTING",
+   "status": "applied"
+  },
+  {
+   "seq": 33,
+   "doc_id": "GOI_SO_1036E_1999",
+   "op": "insert",
+   "source_ref": "2(2)(n)",
+   "path": "schedule 2 › ministry MINISTRY OF LAW, JUSTICE AND COMPANY AFFAIRS",
+   "status": "applied"
+  },
+  {
+   "seq": 34,
+   "doc_id": "GOI_SO_1036E_1999",
+   "op": "insert",
+   "source_ref": "2(2)(o)",
+   "path": "schedule 2 › ministry MINISTRY OF PETROLEUM AND NATRUAL GAS",
+   "status": "applied"
+  },
+  {
+   "seq": 35,
+   "doc_id": "GOI_SO_1036E_1999",
+   "op": "omit",
+   "source_ref": "2(2)(p)",
+   "path": "schedule 2 › ministry MINISTRY OF PLANNING AND PROGRAMME IMPLEMENTATION",
+   "status": "applied"
+  },
+  {
+   "seq": 36,
+   "doc_id": "GOI_SO_1036E_1999",
+   "op": "omit",
+   "source_ref": "2(2)(r)",
+   "path": "schedule 2 › ministry MINISTRY OF RURAL DEVELOPMENT › department DEPARTMENT OF RURAL DEVELOPMENT › entry",
+   "status": "applied"
+  },
+  {
+   "seq": 37,
+   "doc_id": "GOI_SO_1036E_1999",
+   "op": "insert",
+   "source_ref": "2(2)(s)",
+   "path": "schedule 2 › ministry MINISTRY OF RURAL DEVELOPMENT › department DEPARTMENT OF LAND RESOURCES",
+   "status": "applied"
+  },
+  {
+   "seq": 38,
+   "doc_id": "GOI_SO_1036E_1999",
+   "op": "insert",
+   "source_ref": "2(2)(t)",
+   "path": "schedule 2 › ministry MINISTRY OF SCIENCE AND TECHNOLOGY",
+   "status": "applied"
+  },
+  {
+   "seq": 39,
+   "doc_id": "GOI_SO_1036E_1999",
+   "op": "replace",
+   "source_ref": "2(2)(u)",
+   "path": "schedule 2 › ministry MINISTRY OF STEEL AND MINES",
+   "status": "applied"
+  },
+  {
+   "seq": 40,
+   "doc_id": "GOI_SO_1036E_1999",
+   "op": "replace",
+   "source_ref": "2(2)(v)",
+   "path": "schedule 2 › ministry MINISTRY OF SURFACE TRANSPORT",
+   "status": "applied"
+  },
+  {
+   "seq": 41,
+   "doc_id": "GOI_SO_1036E_1999",
+   "op": "insert",
+   "source_ref": "2(2)(w)",
+   "path": "schedule 2 › ministry MINISTRY OF TOURISM",
+   "status": "applied"
+  },
+  {
+   "seq": 42,
+   "doc_id": "GOI_SO_1036E_1999",
+   "op": "replace",
+   "source_ref": "2(2)(x)",
+   "path": "schedule 2 › ministry MINISTRY OF URBAN DEVELOPMENT › entry",
+   "status": "applied"
+  },
+  {
+   "seq": 43,
+   "doc_id": "GOI_SO_1036E_1999",
+   "op": "insert",
+   "source_ref": "2(2)(y)",
+   "path": "schedule 2 › ministry MINISTRY OF URBAN DEVELOPMENT",
+   "status": "applied"
+  },
+  {
+   "seq": 44,
+   "doc_id": "GOI_SO_1036E_1999",
+   "op": "replace",
+   "source_ref": "2(2)(z)(I)",
+   "path": "schedule 2 › ministry MINISTRY OF SOCIAL JUSTICE AND EMPOWERMENT › entry 23 ; schedule 2 › ministry MINISTRY OF SOCIAL JUSTICE AND EMPOWERMENT › entry 24 ; schedule 2 › ministry MINISTRY OF SOCIAL JUSTICE AND EMPOWERMENT › entry 25",
+   "status": "applied"
+  },
+  {
+   "seq": 45,
+   "doc_id": "GOI_SO_1036E_1999",
+   "op": "omit",
+   "source_ref": "2(2)(z)(II)",
+   "path": "schedule 2 › ministry MINISTRY OF SOCIAL JUSTICE AND EMPOWERMENT › entry 27 ; schedule 2 › ministry MINISTRY OF SOCIAL JUSTICE AND EMPOWERMENT › entry 28",
+   "status": "applied"
+  },
+  {
+   "seq": 46,
+   "doc_id": "GOI_SO_1036E_1999",
+   "op": "omit",
+   "source_ref": "2(2)(aa)",
+   "path": "schedule 2 › ministry DEPARTMENT OF ELECTRONICS",
+   "status": "applied"
+  },
+  {
+   "seq": 47,
+   "doc_id": "GOI_SO_1036E_1999",
+   "op": "omit",
+   "source_ref": "2(2)(bb)",
+   "path": "schedule 2 › ministry PLANNING COMMISSION › entry 10",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

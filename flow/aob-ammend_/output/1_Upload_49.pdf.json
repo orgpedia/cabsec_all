@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_49.pdf",
     "sha256": "263a59b0162cb666a2ba4cd179fbc0a35eff099bbe142a991a9fe37797a37903",
     "govdoc": "1_Upload_49.pdf.govdoc.json.zst",
-    "revision": 46
+    "revision": 79
   },
   "documents": [
     {
@@ -29,9 +29,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "3",
+          "version": "4",
           "model": "gemini-4-argon",
-          "at": "2026-11-12T13:48:57.379151+00:00"
+          "at": "2026-11-15T16:23:59.999942+00:00"
         },
         "ops": [
           {
@@ -39,7 +39,7 @@
             "source_ref": "(1)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel1",
+            "relation": "r71.rel1",
             "target": {
               "cited": [
                 {
@@ -61,14 +61,14 @@
               ],
               "eId": null,
               "words": [
-                "r1.w121",
+                "r1.w120",
                 "r1.w122"
               ],
               "boxes": [
                 {
                   "page": 1,
                   "bbox": [
-                    1509,
+                    1433,
                     1290,
                     1672,
                     1324
@@ -83,7 +83,9 @@
                 "text": "Trade Promotion, Publicity and Research."
               }
             ],
-            "flags": [],
+            "flags": [
+              "states_inferred_earlier_name"
+            ],
             "words": [
               "r1.w104",
               "r1.w112"
@@ -105,7 +107,7 @@
             "source_ref": "(3)(i)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r10.rel3",
+            "relation": "r71.rel3",
             "target": [
               {
                 "cited": [
@@ -252,7 +254,7 @@
             "source_ref": "(3)(ii)(a)",
             "op": "renumber",
             "akn_type": "renumbering",
-            "relation": "r10.rel4",
+            "relation": "r71.rel4",
             "target": {
               "cited": [
                 {
@@ -316,7 +318,7 @@
             "source_ref": "(3)(ii)(a)",
             "op": "renumber",
             "akn_type": "renumbering",
-            "relation": "r10.rel5",
+            "relation": "r71.rel5",
             "target": {
               "cited": [
                 {
@@ -380,7 +382,7 @@
             "source_ref": "(3)(ii)(b)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r10.rel6",
+            "relation": "r71.rel6",
             "position": "after",
             "anchor": {
               "cited": [
@@ -407,14 +409,14 @@
               ],
               "eId": null,
               "words": [
-                "r1.w220",
+                "r1.w219",
                 "r1.w221"
               ],
               "boxes": [
                 {
                   "page": 1,
                   "bbox": [
-                    622,
+                    522,
                     1860,
                     849,
                     1897
@@ -424,19 +426,9 @@
             },
             "content": [
               {
-                "type": "entry",
-                "num": "11",
-                "text": ""
-              },
-              {
                 "type": "item",
                 "num": "iv",
                 "text": "Indian Institute of Sugarcane Research, Bhadruk, Lucknow."
-              },
-              {
-                "type": "entry",
-                "num": "11",
-                "text": ""
               },
               {
                 "type": "item",
@@ -447,7 +439,7 @@
             "flags": [],
             "words": [
               "r1.w218",
-              "r1.w227"
+              "r1.w224"
             ],
             "boxes": [
               {
@@ -455,7 +447,7 @@
                 "bbox": [
                   448,
                   1860,
-                  1553,
+                  1234,
                   1897
                 ]
               }
@@ -466,7 +458,7 @@
             "source_ref": "(3)(ii)(c)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel7",
+            "relation": "r71.rel7",
             "target": {
               "cited": [
                 {
@@ -488,14 +480,14 @@
               ],
               "eId": null,
               "words": [
-                "r1.w246",
+                "r1.w245",
                 "r1.w247"
               ],
               "boxes": [
                 {
                   "page": 1,
                   "bbox": [
-                    589,
+                    518,
                     2002,
                     747,
                     2037
@@ -513,7 +505,7 @@
             "flags": [],
             "words": [
               "r1.w244",
-              "r1.w253"
+              "r1.w251"
             ],
             "boxes": [
               {
@@ -521,7 +513,7 @@
                 "bbox": [
                   448,
                   2002,
-                  1494,
+                  1216,
                   2037
                 ]
               }
@@ -532,7 +524,7 @@
             "source_ref": "(4)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r10.rel8",
+            "relation": "r71.rel8",
             "target": {
               "cited": [
                 {

@@ -1,0 +1,288 @@
+{
+ "file": "1_Upload_165.pdf",
+ "kind": "amendment",
+ "series": 128,
+ "date": "1978-04-06",
+ "govdoc": "aob-ammend_/output/1_Upload_165.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826695.3033435,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_165.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:55:40.806547+00:00",
+  "sha256": "e31f0e8453ec893a350b313728a8bc1d734971393e98740c36dbde595eadc0f6",
+  "pages": 4
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-12T12:45:48.653644+00:00",
+   "stamp": "d3846e57a067fc6d"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r50",
+   "at": "2026-11-15T12:42:46.069513+00:00",
+   "stamp": "adec61a8b35a3461"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r51",
+   "at": "2026-11-15T12:42:48.753894+00:00",
+   "stamp": "6eda1acdacbe5f28"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r52",
+   "at": "2026-11-15T12:42:50.969256+00:00",
+   "stamp": "3c0a7eb495665fc6"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r61",
+   "at": "2026-11-15T16:25:03.699724+00:00",
+   "stamp": "242968f937331097",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r62",
+   "at": "2026-11-15T16:25:05.786576+00:00",
+   "stamp": "0219afeda4f2d5b2",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r63",
+   "at": "2026-11-15T16:25:07.798586+00:00",
+   "stamp": "9dae59ae64d42388",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r69",
+   "at": "2026-11-15T16:57:38.352620+00:00",
+   "stamp": "e29f5fa9dfdb1862"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r70",
+   "at": "2026-11-15T17:03:53.019271+00:00",
+   "stamp": "e4c3d7e68a83eea6"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r75",
+   "at": "2026-11-16T10:58:15.273622+00:00",
+   "stamp": "6bb74f0869831db3"
+  }
+ ],
+ "reviews": [],
+ "issues": [
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 6: its quoted text runs across a page break",
+   "target": "r63.rel6",
+   "status": "open"
+  }
+ ],
+ "problems": [
+  {
+   "series": 128,
+   "seq": 1,
+   "code": "old_path_missing",
+   "severity": "error",
+   "message": "change 1: no department DEPARTMENT OF RURAL DEVELOPMENT under schedule 2 › ministry MINISTRY OF AGRICULTURE AND IRRIGATION",
+   "cause": "unit_not_found"
+  },
+  {
+   "series": 174,
+   "seq": 5,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HOME AFFAIRS › department B › entry 43 is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
+  },
+  {
+   "series": 174,
+   "seq": 6,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HOME AFFAIRS › department B › entry 4 reads differently in 1_Upload_212.pdf than in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  },
+  {
+   "series": 174,
+   "seq": 6,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HOME AFFAIRS › department B › entry 5 reads differently in 1_Upload_212.pdf than in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  },
+  {
+   "series": 174,
+   "seq": 9,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF LAW AND JUSTICE › department B › entry 5A is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
+  },
+  {
+   "series": 174,
+   "seq": 9,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF LAW AND JUSTICE › department B › entry 5B is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
+  },
+  {
+   "series": 174,
+   "seq": 9,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF LAW AND JUSTICE › department B › group_heading SC is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
+  }
+ ],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_254E_1978",
+   "op": "insert",
+   "source_ref": "2(a)",
+   "path": "schedule 2 › ministry MINISTRY OF AGRICULTURE AND IRRIGATION › department DEPARTMENT OF RURAL DEVELOPMENT › entry 10",
+   "status": "not_applied",
+   "problem": "change 1: no department DEPARTMENT OF RURAL DEVELOPMENT under schedule 2 › ministry MINISTRY OF AGRICULTURE AND IRRIGATION",
+   "code": "old_path_missing",
+   "cause": "unit_not_found",
+   "known": "agriculture"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_254E_1978",
+   "op": "replace",
+   "source_ref": "2(b)(i)",
+   "path": "schedule 2 › ministry MINISTRY OF EDUCATION AND SOCIAL WELFARE › department DEPARTMENT OF EDUCATION › entry 16",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_254E_1978",
+   "op": "insert",
+   "source_ref": "2(b)(ii)",
+   "path": "schedule 2 › ministry MINISTRY OF EDUCATION AND SOCIAL WELFARE › department DEPARTMENT OF EDUCATION › entry 53A",
+   "status": "applied"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_254E_1978",
+   "op": "insert",
+   "source_ref": "2(c)",
+   "path": "schedule 2 › ministry MINISTRY OF ENERGY › department DEPARTMENT OF COAL › entry 7",
+   "status": "applied"
+  },
+  {
+   "seq": 5,
+   "doc_id": "GOI_SO_254E_1978",
+   "op": "replace",
+   "source_ref": "2(d)(i)",
+   "path": "schedule 2 › ministry MINISTRY OF HOME AFFAIRS › department DEPARTMENT OF OFFICIAL. LANGUAGE › entry 3",
+   "status": "applied"
+  },
+  {
+   "seq": 6,
+   "doc_id": "GOI_SO_254E_1978",
+   "op": "replace",
+   "source_ref": "2(d)(ii)",
+   "path": "schedule 2 › ministry MINISTRY OF HOME AFFAIRS › department DEPARTMENT OF OFFICIAL. LANGUAGE › entry 4 ; schedule 2 › ministry MINISTRY OF HOME AFFAIRS › department DEPARTMENT OF OFFICIAL. LANGUAGE › entry 5",
+   "status": "applied"
+  },
+  {
+   "seq": 7,
+   "doc_id": "GOI_SO_254E_1978",
+   "op": "replace",
+   "source_ref": "2(d)(iii)",
+   "path": "schedule 2 › ministry MINISTRY OF HOME AFFAIRS › department DEPARTMENT OF OFFICIAL. LANGUAGE › entry 6",
+   "status": "applied"
+  },
+  {
+   "seq": 8,
+   "doc_id": "GOI_SO_254E_1978",
+   "op": "insert",
+   "source_ref": "2(e)",
+   "path": "schedule 2 › ministry MINISTRY OF INDUSTRY › department DEPARTMENT OF INDUSTRIAL DEVELOPMENT › entry 20",
+   "status": "applied"
+  },
+  {
+   "seq": 9,
+   "doc_id": "GOI_SO_254E_1978",
+   "op": "replace",
+   "source_ref": "2(f)",
+   "path": "schedule 2 › ministry MINISTRY OF LAW, JUSTICE AND COMPANY AFFAIRS › department LEGISLATIVE DEPARTMENT › entry 5A",
+   "status": "applied"
+  },
+  {
+   "seq": 10,
+   "doc_id": "GOI_SO_254E_1978",
+   "op": "insert",
+   "source_ref": "2(g)",
+   "path": "schedule 2 › ministry MINISTRY OF PETROLEUM CHEMICALS AND FERTILIZERS › department DEPARTMENT OF PETROLEUM › entry 5",
+   "status": "applied"
+  },
+  {
+   "seq": 11,
+   "doc_id": "GOI_SO_254E_1978",
+   "op": "insert",
+   "source_ref": "2(h)",
+   "path": "schedule 2 › ministry MINISTRY OF SHIPPING AND TRANSPORT › entry 16",
+   "status": "applied"
+  },
+  {
+   "seq": 12,
+   "doc_id": "GOI_SO_254E_1978",
+   "op": "insert",
+   "source_ref": "2(i)",
+   "path": "schedule 2 › ministry MINISTRY OF WORKS AND HOUSING › entry 12",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

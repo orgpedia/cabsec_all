@@ -1,0 +1,203 @@
+{
+ "file": "1_Upload_53.pdf",
+ "kind": "amendment",
+ "series": 20,
+ "date": "1963-09-11",
+ "govdoc": "aob-ammend_/output/1_Upload_53.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826684.6487796,
+ "edits_file": "aob-ammend_/conf/1_Upload_53.pdf.edits.yml",
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_53.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T14:01:53.382699+00:00",
+  "sha256": "3506dd65e656d0b90105dcec31078105122e4b36c6cd0eb7988dc2138a6b8006",
+  "pages": 2
+ },
+ "edits": [
+  {
+   "run": "h1",
+   "by": "claude",
+   "at": "2026-11-12T18:01:00+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r1.w132",
+     "before": {
+      "text": "(111)"
+     },
+     "after": {
+      "text": "(iii)"
+     }
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-12T12:33:32.533612+00:00",
+   "stamp": "fa9f0e97290766b8"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r58",
+   "at": "2026-11-15T12:41:40.303622+00:00",
+   "stamp": "87a793be743802e6"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r59",
+   "at": "2026-11-15T12:41:43.045147+00:00",
+   "stamp": "d83cbe3f25dcdfbe"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r60",
+   "at": "2026-11-15T12:41:45.632737+00:00",
+   "stamp": "f4c8910ddd1ac9df"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r69",
+   "at": "2026-11-15T16:24:06.154360+00:00",
+   "stamp": "c46b1df694523659",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r70",
+   "at": "2026-11-15T16:24:07.861903+00:00",
+   "stamp": "6a7429fff0b09389",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r71",
+   "at": "2026-11-15T16:24:09.599945+00:00",
+   "stamp": "9bcfe5f6b56a9ca5",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r77",
+   "at": "2026-11-15T16:57:22.886420+00:00",
+   "stamp": "012dfa6f388312ca"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r78",
+   "at": "2026-11-15T17:03:18.228040+00:00",
+   "stamp": "f584532c459a0dc7"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r83",
+   "at": "2026-11-16T10:58:04.638843+00:00",
+   "stamp": "9ca380aeb3c48b4c"
+  }
+ ],
+ "reviews": [],
+ "issues": [
+  {
+   "code": "aob:read_hindi_missing",
+   "severity": "info",
+   "message": "change 1: a new heading has no Hindi name in brackets",
+   "target": "r71.rel1",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_hindi_missing",
+   "severity": "info",
+   "message": "change 5: a new heading has no Hindi name in brackets",
+   "target": "r71.rel5",
+   "status": "open"
+  }
+ ],
+ "problems": [],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_2653_1963",
+   "op": "replace",
+   "source_ref": "(A)",
+   "path": "schedule 1 › entry 5",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_2653_1963",
+   "op": "insert",
+   "source_ref": "(B)(a)(i)",
+   "path": "schedule 2 › ministry Ministry of Finance › department Department of Economic Affairs › entry 13",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_2653_1963",
+   "op": "insert",
+   "source_ref": "(B)(a)(ii)",
+   "path": "schedule 2 › ministry Ministry of Finance › department Department of Economic Affairs › entry 23",
+   "status": "applied"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_2653_1963",
+   "op": "omit",
+   "source_ref": "(B)(a)(iii)",
+   "path": "schedule 2 › ministry Ministry of Finance › department Department of Economic Affairs › group_heading VI-Planning ; schedule 2 › ministry Ministry of Finance › department Department of Economic Affairs › entry",
+   "status": "applied"
+  },
+  {
+   "seq": 5,
+   "doc_id": "GOI_SO_2653_1963",
+   "op": "insert",
+   "source_ref": "(B)(b)",
+   "path": "schedule 2 › ministry Ministry of Finance › department Department of Revenue",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

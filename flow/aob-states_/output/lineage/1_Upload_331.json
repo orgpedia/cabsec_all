@@ -1,0 +1,264 @@
+{
+ "file": "1_Upload_331.pdf",
+ "kind": "amendment",
+ "series": 286,
+ "date": "2006-06-01",
+ "govdoc": "aob-ammend_/output/1_Upload_331.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826691.6261935,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_331.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T14:00:12.058052+00:00",
+  "sha256": "ae6d95e2350ae0a78dd4f9ed62b1f9f9ec6e74d642a930ab80e5ac54cbf825b2",
+  "pages": 6
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-05T02:50:31.783224+00:00",
+   "stamp": "3a6b5dd64ae5b9aa"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r149",
+   "at": "2026-11-15T12:42:20.972813+00:00",
+   "stamp": "c7a8c1c5e2ff85c9"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r150",
+   "at": "2026-11-15T12:42:23.588483+00:00",
+   "stamp": "9238d3a068f98294"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r151",
+   "at": "2026-11-15T12:42:25.375189+00:00",
+   "stamp": "70490a44b71f3ddb"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r160",
+   "at": "2026-11-15T16:24:38.791169+00:00",
+   "stamp": "6bbb81f8e6222589",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r161",
+   "at": "2026-11-15T16:24:40.880736+00:00",
+   "stamp": "bc446d0b14e669b4",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r162",
+   "at": "2026-11-15T16:24:42.995591+00:00",
+   "stamp": "4ca0be30609566b3",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r168",
+   "at": "2026-11-15T16:57:32.663514+00:00",
+   "stamp": "03a6e3ac61aad43f"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r169",
+   "at": "2026-11-15T17:03:39.428102+00:00",
+   "stamp": "1d6ae5ef0a8ac9bd"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r174",
+   "at": "2026-11-16T10:58:11.580130+00:00",
+   "stamp": "a9553add87209bbb"
+  }
+ ],
+ "reviews": [],
+ "issues": [
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 4: its quoted text runs across a page break",
+   "target": "r162.rel4",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
+   "message": "change 4: ministry Minisatry of Consumer Affairs, Food and Public Distribution taken for ministry MINISTRY OF CONSUMER AFFAIRS, FOOD AND PUBLIC DISTRIBUTION, named loosely",
+   "target": "r162.rel4",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
+   "message": "change 10: ministry Tourism and Culture taken for ministry MINISTRY OF TOURISM AND CULTURE, named loosely",
+   "target": "r162.rel10",
+   "status": "open"
+  }
+ ],
+ "problems": [],
+ "rules": [
+  {
+   "rule": "loose",
+   "seq": 4,
+   "note": "change 4: ministry Minisatry of Consumer Affairs, Food and Public Distribution taken for ministry MINISTRY OF CONSUMER AFFAIRS, FOOD AND PUBLIC DISTRIBUTION, named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "loose",
+   "seq": 10,
+   "note": "change 10: ministry Tourism and Culture taken for ministry MINISTRY OF TOURISM AND CULTURE, named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  }
+ ],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_851E_2006",
+   "op": "insert",
+   "source_ref": "2(1)(A)_",
+   "path": "schedule 1 › ministry Ministry of Consumer Affairs, Food and Public Distribution",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_851E_2006",
+   "op": "replace",
+   "source_ref": "2(1)(B)_",
+   "path": "schedule 1 › ministry Ministry of Tourism and Culture",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_851E_2006",
+   "op": "replace",
+   "source_ref": "2(1)(C)_",
+   "path": "schedule 1 › ministry Ministry of Urban Employment and Poverty Alleviation",
+   "status": "applied"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_851E_2006",
+   "op": "insert",
+   "source_ref": "2(2)(A)_",
+   "path": "schedule 2 › ministry Minisatry of Consumer Affairs, Food and Public Distribution",
+   "status": "applied"
+  },
+  {
+   "seq": 5,
+   "doc_id": "GOI_SO_851E_2006",
+   "op": "insert",
+   "source_ref": "2(2)(B)_",
+   "path": "schedule 2 › ministry Ministry of Human Resource Development › department Department of Secondary and Higher Education › entry 45",
+   "status": "applied"
+  },
+  {
+   "seq": 6,
+   "doc_id": "GOI_SO_851E_2006",
+   "op": "insert",
+   "source_ref": "2(2)(C)_",
+   "path": "schedule 2 › ministry Ministry of Rural Development › department Department of Land Resources › entry 15",
+   "status": "applied"
+  },
+  {
+   "seq": 7,
+   "doc_id": "GOI_SO_851E_2006",
+   "op": "omit",
+   "source_ref": "2(2)(D)_",
+   "path": "schedule 2 › ministry Ministry of Social Justice and Empowerment › entry 6",
+   "status": "applied"
+  },
+  {
+   "seq": 8,
+   "doc_id": "GOI_SO_851E_2006",
+   "op": "replace",
+   "source_ref": "2(2)(E)(a)_",
+   "path": "schedule 2 › ministry Ministry of Steel › entry 4",
+   "status": "applied"
+  },
+  {
+   "seq": 9,
+   "doc_id": "GOI_SO_851E_2006",
+   "op": "omit",
+   "source_ref": "2(2)(E)(b)_",
+   "path": "schedule 2 › ministry Ministry of Steel › entry 5",
+   "status": "applied"
+  },
+  {
+   "seq": 10,
+   "doc_id": "GOI_SO_851E_2006",
+   "op": "replace",
+   "source_ref": "2(2)(F)_",
+   "path": "schedule 2 › ministry Tourism and Culture",
+   "status": "applied"
+  },
+  {
+   "seq": 11,
+   "doc_id": "GOI_SO_851E_2006",
+   "op": "replace",
+   "source_ref": "2(2)(G)_",
+   "path": "schedule 2 › ministry Ministry of Urban Employment and Poverty Alleviation",
+   "status": "applied"
+  },
+  {
+   "seq": 12,
+   "doc_id": "GOI_SO_851E_2006",
+   "op": "insert",
+   "source_ref": "2(2)(H)_",
+   "path": "schedule 2 › ministry Ministry of Women and Child Development › entry 25",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

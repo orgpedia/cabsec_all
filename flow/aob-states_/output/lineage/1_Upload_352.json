@@ -1,0 +1,153 @@
+{
+ "file": "1_Upload_352.pdf",
+ "kind": "amendment",
+ "series": 307,
+ "date": "2014-08-06",
+ "govdoc": "aob-ammend_/output/1_Upload_352.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826690.394898,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_352.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T14:00:41.498512+00:00",
+  "sha256": "998c3f6aacd2774b40f712109f16a3b27d59b9bd4f8d4ed75628c85949a4e62f",
+  "pages": 2
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-03T03:59:20.646712+00:00",
+   "stamp": "b9d8e788c32d50c6"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r184",
+   "at": "2026-11-15T12:42:19.127144+00:00",
+   "stamp": "af260dfb1e14363f"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r185",
+   "at": "2026-11-15T12:42:21.840419+00:00",
+   "stamp": "8f4b33b03e30466b"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r186",
+   "at": "2026-11-15T12:42:24.131401+00:00",
+   "stamp": "a54b2595732455d3"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r195",
+   "at": "2026-11-15T16:24:37.133769+00:00",
+   "stamp": "f313c9db2bbcaedb",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r196",
+   "at": "2026-11-15T16:24:39.458911+00:00",
+   "stamp": "65007170646413e6",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r197",
+   "at": "2026-11-15T16:24:41.520240+00:00",
+   "stamp": "dfdb8c01b54dfae6",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r203",
+   "at": "2026-11-15T16:57:31.171029+00:00",
+   "stamp": "98b87fbaf72e32af"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r204",
+   "at": "2026-11-15T17:03:37.223658+00:00",
+   "stamp": "3b2ba856e817c8c8"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r209",
+   "at": "2026-11-16T10:58:10.380539+00:00",
+   "stamp": "1e6bb90c7371612a"
+  }
+ ],
+ "reviews": [],
+ "issues": [],
+ "problems": [],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_2010E_2014",
+   "op": "omit",
+   "source_ref": "2(1)",
+   "path": "schedule 1 › ministry Ministry of Health and Family Welfare › department Department of AIDS Control",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_2010E_2014",
+   "op": "insert",
+   "source_ref": "2(2)(a)(i)",
+   "path": "schedule 2 › ministry MINISTRY OF HEALTH AND FAMILY WELFARE › department DEPARTMENT OF HEALTH AND FAMILY WELFARE › entry 1 › item p",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_2010E_2014",
+   "op": "omit",
+   "source_ref": "2(2)(a)(ii)",
+   "path": "schedule 2 › ministry MINISTRY OF HEALTH AND FAMILY WELFARE › department DEPARTMENT OF AIDS CONTROL",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

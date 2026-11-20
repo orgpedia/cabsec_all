@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_63.pdf",
     "sha256": "cc2c4a13135ed45292c845b6f63d2d76b3d0431332a55ced516f3b5372ee2bfe",
     "govdoc": "1_Upload_63.pdf.govdoc.json.zst",
-    "revision": 46
+    "revision": 79
   },
   "documents": [
     {
@@ -29,9 +29,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "3",
+          "version": "4",
           "model": "gemini-4-argon",
-          "at": "2026-11-12T13:49:52.168257+00:00"
+          "at": "2026-11-15T16:24:55.701872+00:00"
         },
         "ops": [
           {
@@ -39,7 +39,7 @@
             "source_ref": "(A)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel1",
+            "relation": "r71.rel1",
             "target": {
               "cited": [
                 {
@@ -337,7 +337,7 @@
             "source_ref": "(B)(a)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r10.rel2",
+            "relation": "r71.rel2",
             "position": "before",
             "anchor": {
               "cited": [
@@ -352,14 +352,14 @@
               ],
               "eId": null,
               "words": [
-                "r1.w149",
+                "r1.w148",
                 "r1.w157"
               ],
               "boxes": [
                 {
                   "page": 1,
                   "bbox": [
-                    419,
+                    389,
                     1833,
                     1654,
                     1900
@@ -768,7 +768,7 @@
             ],
             "words": [
               "r1.w147",
-              "r1.w159"
+              "r1.w176"
             ],
             "boxes": [
               {
@@ -777,7 +777,7 @@
                   316,
                   1833,
                   1654,
-                  1900
+                  1934
                 ]
               }
             ]
@@ -787,7 +787,7 @@
             "source_ref": "(B)(b)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r10.rel3",
+            "relation": "r71.rel3",
             "target": [
               {
                 "cited": [
@@ -806,14 +806,14 @@
                 ],
                 "eId": null,
                 "words": [
-                  "r1.w185",
+                  "r1.w184",
                   "r1.w185"
                 ],
                 "boxes": [
                   {
                     "page": 1,
                     "bbox": [
-                      1318,
+                      1184,
                       1946,
                       1344,
                       1979
@@ -1004,7 +1004,7 @@
             "source_ref": "(B)(c)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r10.rel4",
+            "relation": "r71.rel4",
             "target": [
               {
                 "cited": [
@@ -1023,14 +1023,14 @@
                 ],
                 "eId": null,
                 "words": [
-                  "r1.w203",
+                  "r1.w202",
                   "r1.w203"
                 ],
                 "boxes": [
                   {
                     "page": 1,
                     "bbox": [
-                      1314,
+                      1173,
                       2026,
                       1330,
                       2059
@@ -1093,7 +1093,7 @@
             "source_ref": "(B)(d)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r10.rel5",
+            "relation": "r71.rel5",
             "target": [
               {
                 "cited": [
@@ -1112,14 +1112,14 @@
                 ],
                 "eId": null,
                 "words": [
-                  "r1.w218",
+                  "r1.w217",
                   "r1.w218"
                 ],
                 "boxes": [
                   {
                     "page": 1,
                     "bbox": [
-                      1405,
+                      1265,
                       2106,
                       1449,
                       2142
@@ -1310,7 +1310,7 @@
             "source_ref": "(B)(e)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel6",
+            "relation": "r71.rel6",
             "target": {
               "cited": [
                 {
@@ -1452,7 +1452,12 @@
               {
                 "type": "entry",
                 "num": "10",
-                "text": "Light Industries (e.g., Plywood, stationery, matches, cigarettes, etc.). 11, Light Electrical Engineering Industries."
+                "text": "Light Industries (e.g., Plywood, stationery, matches, cigarettes, etc.)."
+              },
+              {
+                "type": "entry",
+                "num": "11",
+                "text": "Light Electrical Engineering Industries."
               },
               {
                 "type": "entry",
@@ -1591,7 +1596,7 @@
             ],
             "words": [
               "r1.w228",
-              "r1.w240"
+              "r1.w263"
             ],
             "boxes": [
               {
@@ -1599,8 +1604,8 @@
                 "bbox": [
                   310,
                   2184,
-                  1645,
-                  2253
+                  1646,
+                  2318
                 ]
               }
             ]
@@ -1610,7 +1615,7 @@
             "source_ref": "(B)(f)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r10.rel7",
+            "relation": "r71.rel7",
             "target": {
               "cited": [
                 {
@@ -1661,7 +1666,7 @@
             "source_ref": "(B)(g)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r10.rel8",
+            "relation": "r71.rel8",
             "target": [
               {
                 "cited": [
@@ -1680,14 +1685,14 @@
                 ],
                 "eId": null,
                 "words": [
-                  "r1.w291",
+                  "r1.w290",
                   "r1.w291"
                 ],
                 "boxes": [
                   {
                     "page": 1,
                     "bbox": [
-                      1622,
+                      1478,
                       2412,
                       1644,
                       2447
@@ -1750,7 +1755,7 @@
             "source_ref": "(B)(h)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel9",
+            "relation": "r71.rel9",
             "target": {
               "cited": [
                 {
@@ -1782,7 +1787,12 @@
             "content": [
               {
                 "type": "ministry",
-                "heading": "MINISTRY OF STEEL & MINES A, Department of Iron and Steel"
+                "heading": "MINISTRY OF STEEL & MINES"
+              },
+              {
+                "type": "department",
+                "num": "A",
+                "heading": "Department of Iron and Steel"
               },
               {
                 "type": "entry",
@@ -1895,7 +1905,7 @@
             ],
             "words": [
               "r1.w306",
-              "r1.w319"
+              "r1.w342"
             ],
             "boxes": [
               {
@@ -1903,8 +1913,8 @@
                 "bbox": [
                   405,
                   265,
-                  1742,
-                  338
+                  1744,
+                  407
                 ]
               }
             ]
@@ -1914,7 +1924,7 @@
             "source_ref": "(B)(i)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r10.rel10",
+            "relation": "r71.rel10",
             "target": {
               "cited": [
                 {
@@ -1972,7 +1982,7 @@
             "source_ref": "(B)(j)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r10.rel11",
+            "relation": "r71.rel11",
             "position": "after",
             "anchor": {
               "cited": [
@@ -1981,21 +1991,21 @@
                   "num": "2"
                 },
                 {
-                  "type": "ministry",
+                  "type": "department",
                   "heading": "Department of Communications"
                 }
               ],
               "eId": null,
               "words": [
-                "r1.w359",
+                "r1.w358",
                 "r1.w369"
               ],
               "boxes": [
                 {
                   "page": 2,
                   "bbox": [
-                    510,
-                    498,
+                    474,
+                    497,
                     1742,
                     568
                   ]
@@ -2129,7 +2139,7 @@
             ],
             "words": [
               "r1.w357",
-              "r1.w369"
+              "r1.w379"
             ],
             "boxes": [
               {
@@ -2138,7 +2148,7 @@
                   404,
                   497,
                   1742,
-                  568
+                  600
                 ]
               }
             ]
@@ -2148,7 +2158,7 @@
             "source_ref": "(B)(k)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r10.rel12",
+            "relation": "r71.rel12",
             "target": {
               "cited": [
                 {
@@ -2156,7 +2166,7 @@
                   "num": "2"
                 },
                 {
-                  "type": "ministry",
+                  "type": "department",
                   "heading": "Department of Supply"
                 }
               ],
@@ -2196,10 +2206,10 @@
           },
           {
             "seq": 13,
-            "source_ref": "(B)(1)",
+            "source_ref": "(B)(l)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r10.rel13",
+            "relation": "r71.rel13",
             "target": {
               "cited": [
                 {
@@ -2207,7 +2217,7 @@
                   "num": "2"
                 },
                 {
-                  "type": "ministry",
+                  "type": "department",
                   "heading": "Department of Technical Development"
                 }
               ],

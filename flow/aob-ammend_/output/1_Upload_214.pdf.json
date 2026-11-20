@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_214.pdf",
     "sha256": "9f166214c0bfcd66372a2d56b4e5a31b7c36ff5d23588b376c17a3900a57d668",
     "govdoc": "1_Upload_214.pdf.govdoc.json.zst",
-    "revision": 109
+    "revision": 133
   },
   "documents": [
     {
@@ -29,9 +29,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "3",
+          "version": "4",
           "model": "gemini-4-argon",
-          "at": "2026-11-12T12:56:37.674427+00:00"
+          "at": "2026-11-15T16:24:42.300509+00:00"
         },
         "ops": [
           {
@@ -39,7 +39,7 @@
             "source_ref": "2(1)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r73.rel1",
+            "relation": "r126.rel1",
             "target": {
               "cited": [
                 {
@@ -48,7 +48,7 @@
                 },
                 {
                   "type": "ministry",
-                  "heading": "***INISTRY F HUMAN RESOURCE DEVELOPMENT"
+                  "heading": "INISTRY F HUMAN RESOURCE DEVELOPMENT"
                 },
                 {
                   "type": "department",
@@ -61,15 +61,15 @@
               ],
               "eId": null,
               "words": [
-                "r1.w419",
+                "r1.w418",
                 "r1.w420"
               ],
               "boxes": [
                 {
                   "page": 2,
                   "bbox": [
-                    2076,
-                    324,
+                    1982,
+                    323,
                     2268,
                     362
                   ]
@@ -93,7 +93,9 @@
                 "text": "Administartion of the Conematograph Act. 1952 except Part III thereof"
               }
             ],
-            "flags": [],
+            "flags": [
+              "states_inferred_loose"
+            ],
             "words": [
               "r1.w389",
               "r1.w397"
@@ -115,7 +117,7 @@
             "source_ref": "2(2)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r73.rel2",
+            "relation": "r126.rel2",
             "target": {
               "cited": [
                 {
@@ -133,15 +135,15 @@
               ],
               "eId": null,
               "words": [
-                "r1.w474",
+                "r1.w473",
                 "r1.w474"
               ],
               "boxes": [
                 {
                   "page": 2,
                   "bbox": [
-                    2036,
-                    877,
+                    1827,
+                    876,
                     2073,
                     912
                   ]
@@ -154,7 +156,9 @@
                 "text": "4 Administration o Da FII of the Cinen 1- 10piarh Act 1942 n so far as I nion erritotics are wierned."
               }
             ],
-            "flags": [],
+            "flags": [
+              "states_inferred_loose"
+            ],
             "words": [
               "r1.w457",
               "r1.w466"

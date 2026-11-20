@@ -1,0 +1,193 @@
+{
+ "file": "1_Upload_349.pdf",
+ "kind": "amendment",
+ "series": 304,
+ "date": "2013-09-05",
+ "govdoc": "aob-ammend_/output/1_Upload_349.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826685.1870432,
+ "edits_file": "aob-ammend_/conf/1_Upload_349.pdf.edits.yml",
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_349.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T14:00:35.715336+00:00",
+  "sha256": "3c5c117a6899000885216f36c4ecbbe5c71713f41755ea9862111eb9967de997",
+  "pages": 1
+ },
+ "edits": [
+  {
+   "run": "h1",
+   "by": "mukundesh",
+   "at": "2026-11-03T12:22:27+00:00",
+   "edits": [
+    {
+     "op": "remove_word",
+     "target": "r1.w157",
+     "before": {
+      "page": 1,
+      "word": {
+       "id": "r1.w157",
+       "text": "iz.kc",
+       "bbox": [
+        1039,
+        2519,
+        1114,
+        2546
+       ]
+      },
+      "line": "r2.l44",
+      "after": null
+     },
+     "after": null
+    }
+   ]
+  },
+  {
+   "run": "h2",
+   "by": "mukundesh",
+   "at": "2026-11-03T12:22:31+00:00",
+   "edits": [
+    {
+     "op": "remove_word",
+     "target": "r1.w158",
+     "before": {
+      "page": 1,
+      "word": {
+       "id": "r1.w158",
+       "text": "eq[kthZ",
+       "bbox": [
+        1128,
+        2508,
+        1226,
+        2555
+       ]
+      },
+      "line": "r2.l44",
+      "after": null
+     },
+     "after": null
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-03T03:44:19.250185+00:00",
+   "stamp": "ecf67b20106a75c3"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r192",
+   "at": "2026-11-15T12:41:41.273696+00:00",
+   "stamp": "6e6c98bcdbe2b642"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r193",
+   "at": "2026-11-15T12:41:43.846684+00:00",
+   "stamp": "31ca4a2335f7c8af"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r194",
+   "at": "2026-11-15T12:41:46.333954+00:00",
+   "stamp": "901556aa14b76cd1"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r203",
+   "at": "2026-11-15T16:24:06.787897+00:00",
+   "stamp": "88258c5f04ec1b92",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r204",
+   "at": "2026-11-15T16:24:08.472494+00:00",
+   "stamp": "b63f2097325e75a3",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r205",
+   "at": "2026-11-15T16:24:10.167790+00:00",
+   "stamp": "3fca13b6ba58924d",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r211",
+   "at": "2026-11-15T16:57:23.469677+00:00",
+   "stamp": "ec9667c5d8264dbf"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r212",
+   "at": "2026-11-15T17:03:19.187886+00:00",
+   "stamp": "90665bd271f1d643"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r217",
+   "at": "2026-11-16T10:58:05.174046+00:00",
+   "stamp": "0376697dc3dda0a7"
+  }
+ ],
+ "reviews": [],
+ "issues": [],
+ "problems": [],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_3091E_2013",
+   "op": "insert",
+   "source_ref": "2",
+   "path": "schedule 2 › ministry MINISTRY OF FINANCE › department DEPARTMENT OF EXPENDITURE › entry 12",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

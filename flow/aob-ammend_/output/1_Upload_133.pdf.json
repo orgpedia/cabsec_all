@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_133.pdf",
     "sha256": "c2de50227f48f7fe2e0a94159de6b3928e01d756718af66657c7bad144ab2333",
     "govdoc": "1_Upload_133.pdf.govdoc.json.zst",
-    "revision": 49
+    "revision": 73
   },
   "documents": [
     {
@@ -29,9 +29,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "3",
+          "version": "4",
           "model": "gemini-4-argon",
-          "at": "2026-11-12T13:49:51.422003+00:00"
+          "at": "2026-11-15T16:24:55.225610+00:00"
         },
         "ops": [
           {
@@ -39,7 +39,7 @@
             "source_ref": "2(A)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r12.rel1",
+            "relation": "r65.rel1",
             "target": {
               "cited": [
                 {
@@ -348,7 +348,7 @@
             "source_ref": "2(B)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r12.rel2",
+            "relation": "r65.rel2",
             "position": "after",
             "anchor": {
               "cited": [
@@ -436,7 +436,7 @@
             "source_ref": "2(C)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r12.rel3",
+            "relation": "r65.rel3",
             "target": {
               "cited": [
                 {
@@ -565,7 +565,7 @@
             "source_ref": "2(D)(i)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r12.rel4",
+            "relation": "r65.rel4",
             "target": {
               "cited": [
                 {
@@ -629,7 +629,7 @@
             "source_ref": "2(D)(ii)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r12.rel5",
+            "relation": "r65.rel5",
             "target": {
               "cited": [
                 {

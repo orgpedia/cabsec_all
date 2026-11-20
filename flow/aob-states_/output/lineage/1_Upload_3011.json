@@ -1,0 +1,169 @@
+{
+ "file": "1_Upload_3011.pdf",
+ "kind": "amendment",
+ "series": 361,
+ "date": "2021-07-06",
+ "govdoc": "aob-ammend_/output/1_Upload_3011.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826682.5369852,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_3011.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:59:19.250076+00:00",
+  "sha256": "037a1b32b07e836c7722d71dc2281afb487589d2c4305af3b7f250685908d953",
+  "pages": 7
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r73",
+   "at": "2026-11-04T13:34:19.751626+00:00",
+   "stamp": "db0c28d33f5bde5a"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r219",
+   "at": "2026-11-15T12:41:25.390049+00:00",
+   "stamp": "3584e318b8904575"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r220",
+   "at": "2026-11-15T12:41:27.595507+00:00",
+   "stamp": "a96b9d9644ac1e83"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r221",
+   "at": "2026-11-15T12:41:29.813411+00:00",
+   "stamp": "8b6a24fb65c1cdef"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r230",
+   "at": "2026-11-15T16:23:56.102763+00:00",
+   "stamp": "866502d7b0850856",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r231",
+   "at": "2026-11-15T16:23:57.690769+00:00",
+   "stamp": "a76363dbe86093a6",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r232",
+   "at": "2026-11-15T16:23:59.320580+00:00",
+   "stamp": "841b3bde022edaeb",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r238",
+   "at": "2026-11-15T16:57:19.739294+00:00",
+   "stamp": "0b30211120409aec"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r239",
+   "at": "2026-11-15T17:03:11.175521+00:00",
+   "stamp": "6e2d1ca4e75d22a2"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r244",
+   "at": "2026-11-16T10:58:02.458285+00:00",
+   "stamp": "ef072f9f1a0a6f1f"
+  }
+ ],
+ "reviews": [],
+ "issues": [
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 4: its quoted text runs across a page break",
+   "target": "r232.rel4",
+   "status": "open"
+  }
+ ],
+ "problems": [],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_2718E_2021",
+   "op": "insert",
+   "source_ref": "2(a)(i)",
+   "path": "schedule 1 › ministry Ministry of Finance › department Department of Financial Services",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_2718E_2021",
+   "op": "replace",
+   "source_ref": "2(a)(ii)",
+   "path": "schedule 1 › ministry Ministry of Heavy Industries and Public Enterprises",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_2718E_2021",
+   "op": "insert",
+   "source_ref": "2(b)(i)",
+   "path": "schedule 2 › ministry MINISTRY OF FINANCE › department DEPARTMENT OF FINANCIAL SERVICES",
+   "status": "applied"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_2718E_2021",
+   "op": "replace",
+   "source_ref": "2(b)(ii)",
+   "path": "schedule 2 › ministry MINISTRY OF HEAVY INDUSTRIES AND PUBLIC ENTERPRISES",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

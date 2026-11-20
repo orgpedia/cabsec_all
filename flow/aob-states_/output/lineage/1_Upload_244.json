@@ -1,0 +1,188 @@
+{
+ "file": "1_Upload_244.pdf",
+ "kind": "amendment",
+ "series": 204,
+ "date": "1989-12-06",
+ "govdoc": "aob-ammend_/output/1_Upload_244.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826688.4449456,
+ "edits_file": "aob-ammend_/conf/1_Upload_244.pdf.edits.yml",
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_244.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:57:32.857539+00:00",
+  "sha256": "78ac181321fc6043b06ce768c176ca251aca7242d20612378d499fc4e2b5b7c1",
+  "pages": 4
+ },
+ "edits": [
+  {
+   "run": "h1",
+   "by": "mukundesh",
+   "at": "2026-11-11T04:06:29+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r1.w850",
+     "before": {
+      "text": ".O."
+     },
+     "after": {
+      "text": "S.O."
+     }
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-11T03:04:23.571120+00:00",
+   "stamp": "a464124d984d6cc4"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r121",
+   "at": "2026-11-15T12:42:06.032665+00:00",
+   "stamp": "d70921f6b0f50c36"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r122",
+   "at": "2026-11-15T12:42:08.147005+00:00",
+   "stamp": "2e2cceca4583bc86"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r123",
+   "at": "2026-11-15T12:42:10.049781+00:00",
+   "stamp": "9e03981ecb9fbf22"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r132",
+   "at": "2026-11-15T16:24:25.806806+00:00",
+   "stamp": "f2b5a637db4c1878",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r133",
+   "at": "2026-11-15T16:24:27.364141+00:00",
+   "stamp": "82e54a8bd7eaf4cf",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r134",
+   "at": "2026-11-15T16:24:28.868324+00:00",
+   "stamp": "34ee03ab3559d59d",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r140",
+   "at": "2026-11-15T16:57:28.298695+00:00",
+   "stamp": "dfabee4219a3009e"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r141",
+   "at": "2026-11-15T17:03:30.552990+00:00",
+   "stamp": "aaf2195227a746ca"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r146",
+   "at": "2026-11-16T10:58:08.374681+00:00",
+   "stamp": "effd56f1594895c7"
+  }
+ ],
+ "reviews": [],
+ "issues": [
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 4: its quoted text runs across a page break",
+   "target": "r134.rel4",
+   "status": "open"
+  }
+ ],
+ "problems": [],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_1002E_1989",
+   "op": "omit",
+   "source_ref": "2(1)(a)",
+   "path": "schedule 1 › ministry MINISTRY OF INDUSTRY › department Department of Chemicals and Petro- Chemicals",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_1002E_1989",
+   "op": "replace",
+   "source_ref": "2(1)(b)",
+   "path": "schedule 1 › ministry MINISTRY OF PETROLEUM AND NATU- RAL GAS",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_1002E_1989",
+   "op": "omit",
+   "source_ref": "2(2)(a)",
+   "path": "schedule 2 › ministry MINISTRY OF INDUSTRY › department DEPARTMENT OF CHEMICALS AND PETRO-CHEMICALS",
+   "status": "applied"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_1002E_1989",
+   "op": "replace",
+   "source_ref": "2(2)(b)",
+   "path": "schedule 2 › ministry MINISTRY OF PETROLEUM AND NATURAL GAS",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

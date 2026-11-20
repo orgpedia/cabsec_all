@@ -1,0 +1,515 @@
+{
+ "file": "1_Upload_143.pdf",
+ "kind": "amendment",
+ "series": 106,
+ "date": "1974-10-11",
+ "govdoc": "aob-ammend_/output/1_Upload_143.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826690.9096534,
+ "edits_file": "aob-ammend_/conf/1_Upload_143.pdf.edits.yml",
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_143.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:55:08.848718+00:00",
+  "sha256": "9d20fd87e275e664a54477d68f777cc1bc48a14557cf5e1dcf0f1958a75c2b71",
+  "pages": 20
+ },
+ "edits": [
+  {
+   "run": "h1",
+   "by": "claude",
+   "at": "2026-11-12T19:00:00+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r1.w243",
+     "before": {
+      "text": "#10."
+     },
+     "after": {
+      "text": "\"10."
+     }
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-12T12:39:28.431941+00:00",
+   "stamp": "a8bc817cf7e79809"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r58",
+   "at": "2026-11-15T12:42:19.846527+00:00",
+   "stamp": "2258ca06d9d50a1c"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r59",
+   "at": "2026-11-15T12:42:22.454708+00:00",
+   "stamp": "fe2094c67a159187"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r60",
+   "at": "2026-11-15T12:42:24.583992+00:00",
+   "stamp": "371ac411e9a254c9"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r69",
+   "at": "2026-11-15T16:24:37.779552+00:00",
+   "stamp": "8f961209f98e3468",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r70",
+   "at": "2026-11-15T16:24:40.027652+00:00",
+   "stamp": "7bfe3332edfd7399",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r71",
+   "at": "2026-11-15T16:24:42.078579+00:00",
+   "stamp": "743439503ea10287",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r77",
+   "at": "2026-11-15T16:57:31.665998+00:00",
+   "stamp": "a2d6f4c2af78e447"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r78",
+   "at": "2026-11-15T17:03:37.965736+00:00",
+   "stamp": "0ffd010c9780e530"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r83",
+   "at": "2026-11-16T10:58:10.795640+00:00",
+   "stamp": "4215581fd519405c"
+  }
+ ],
+ "reviews": [],
+ "issues": [
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 10: its quoted text runs across a page break",
+   "target": "r71.rel10",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 12: its quoted text runs across a page break",
+   "target": "r71.rel12",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 14: its quoted text runs across a page break",
+   "target": "r71.rel14",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 17: its quoted text runs across a page break",
+   "target": "r71.rel17",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 28: its quoted text runs across a page break",
+   "target": "r71.rel28",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
+   "message": "change 8: department INPARTMENT OF AGRICULTURE taken for department DEPARTMENT OF AGRICULTURE, named loosely",
+   "target": "r71.rel8",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
+   "message": "change 10: department DEPARTMENT OF CCOPERATION taken for department DEPARTMENT OF COOPERATION, named loosely",
+   "target": "r71.rel10",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
+   "message": "change 15: ministry MINISTRY O. HEAVY INDUSTRY taken for ministry MINISTRY OF HEAVY INDUSTRY, named loosely",
+   "target": "r71.rel15",
+   "status": "open"
+  }
+ ],
+ "problems": [
+  {
+   "series": 106,
+   "seq": 9,
+   "code": "old_path_missing",
+   "severity": "error",
+   "message": "change 9: no entry 13C under schedule 2 › ministry MINISTRY OF AGRICULTURE AND IRRIGATION › department A",
+   "cause": "entry_not_in_state"
+  },
+  {
+   "series": 106,
+   "seq": 11,
+   "code": "old_path_missing",
+   "severity": "error",
+   "message": "change 11: no department DEPARTMENT OF AGRICULTURAL RESEARCH AND EDUCATION under schedule 2 › ministry MINISTRY OF AGRICULTURE AND IRRIGATION",
+   "cause": "unit_not_found"
+  },
+  {
+   "series": 106,
+   "seq": 12,
+   "code": "old_path_missing",
+   "severity": "error",
+   "message": "change 12: no department DEPARTMENT OF AGRICULTURAL RESEARCH AND EDUCATION under schedule 2 › ministry MINISTRY OF AGRICULTURE AND IRRIGATION",
+   "cause": "unit_not_found"
+  },
+  {
+   "series": 106,
+   "seq": 26,
+   "code": "old_path_missing",
+   "severity": "error",
+   "message": "change 26: no entry 1 under schedule 2 › department DEPARTMENT OF ELECTRONICS",
+   "cause": "entry_not_in_state"
+  },
+  {
+   "series": 106,
+   "seq": 27,
+   "code": "old_path_missing",
+   "severity": "error",
+   "message": "change 27: no entry 1 under schedule 2 › department DEPARTMENT OF ELECTRONICS",
+   "cause": "entry_not_in_state"
+  }
+ ],
+ "rules": [
+  {
+   "rule": "loose",
+   "seq": 8,
+   "note": "change 8: department INPARTMENT OF AGRICULTURE taken for department DEPARTMENT OF AGRICULTURE, named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "loose",
+   "seq": 10,
+   "note": "change 10: department DEPARTMENT OF CCOPERATION taken for department DEPARTMENT OF COOPERATION, named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "loose",
+   "seq": 15,
+   "note": "change 15: ministry MINISTRY O. HEAVY INDUSTRY taken for ministry MINISTRY OF HEAVY INDUSTRY, named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  }
+ ],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_607E_1974",
+   "op": "replace",
+   "source_ref": "2(i)",
+   "path": "schedule 1 › entry 1",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_607E_1974",
+   "op": "replace",
+   "source_ref": "2(ii)",
+   "path": "schedule 1 › entry 1A",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_607E_1974",
+   "op": "insert",
+   "source_ref": "2(iii)",
+   "path": "schedule 1 › entry 4",
+   "status": "applied"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_607E_1974",
+   "op": "omit",
+   "source_ref": "2(iv)",
+   "path": "schedule 1 › entry 8A",
+   "status": "applied"
+  },
+  {
+   "seq": 5,
+   "doc_id": "GOI_SO_607E_1974",
+   "op": "replace",
+   "source_ref": "2(v)",
+   "path": "schedule 1 › entry 10",
+   "status": "applied"
+  },
+  {
+   "seq": 6,
+   "doc_id": "GOI_SO_607E_1974",
+   "op": "omit",
+   "source_ref": "2(vi)",
+   "path": "schedule 1 › entry 12",
+   "status": "applied"
+  },
+  {
+   "seq": 7,
+   "doc_id": "GOI_SO_607E_1974",
+   "op": "replace",
+   "source_ref": "3(a)(i)",
+   "path": "schedule 2 › ministry MINISTRY OF AGRICULTURE",
+   "status": "applied"
+  },
+  {
+   "seq": 8,
+   "doc_id": "GOI_SO_607E_1974",
+   "op": "omit",
+   "source_ref": "3(a)(ii)(a)",
+   "path": "schedule 2 › ministry MINISTRY OF AGRICULTURE AND IRRIGATION › department INPARTMENT OF AGRICULTURE › entry 5",
+   "status": "applied"
+  },
+  {
+   "seq": 9,
+   "doc_id": "GOI_SO_607E_1974",
+   "op": "replace",
+   "source_ref": "3(a)(ii)(b)",
+   "path": "schedule 2 › ministry MINISTRY OF AGRICULTURE AND IRRIGATION › department INPARTMENT OF AGRICULTURE › entry 13C ; schedule 2 › ministry MINISTRY OF AGRICULTURE AND IRRIGATION › department INPARTMENT OF AGRICULTURE › entry 120",
+   "status": "not_applied",
+   "problem": "change 9: no entry 13C under schedule 2 › ministry MINISTRY OF AGRICULTURE AND IRRIGATION › department A",
+   "code": "old_path_missing",
+   "cause": "entry_not_in_state",
+   "known": "agriculture"
+  },
+  {
+   "seq": 10,
+   "doc_id": "GOI_SO_607E_1974",
+   "op": "replace",
+   "source_ref": "3(a)(iii)",
+   "path": "schedule 2 › ministry MINISTRY OF AGRICULTURE AND IRRIGATION › department DEPARTMENT OF COMMUNITY. DEVELOPMENT ; schedule 2 › ministry MINISTRY OF AGRICULTURE AND IRRIGATION › department DEPARTMENT OF CCOPERATION",
+   "status": "applied"
+  },
+  {
+   "seq": 11,
+   "doc_id": "GOI_SO_607E_1974",
+   "op": "replace",
+   "source_ref": "3(a)(iv)",
+   "path": "schedule 2 › ministry MINISTRY OF AGRICULTURE AND IRRIGATION › department DEPARTMENT OF AGRICULTURAL RESEARCH AND EDUCATION",
+   "status": "not_applied",
+   "problem": "change 11: no department DEPARTMENT OF AGRICULTURAL RESEARCH AND EDUCATION under schedule 2 › ministry MINISTRY OF AGRICULTURE AND IRRIGATION",
+   "code": "old_path_missing",
+   "cause": "unit_not_found",
+   "known": "agriculture"
+  },
+  {
+   "seq": 12,
+   "doc_id": "GOI_SO_607E_1974",
+   "op": "insert",
+   "source_ref": "3(a)(v)",
+   "path": "schedule 2 › ministry MINISTRY OF AGRICULTURE AND IRRIGATION › department DEPARTMENT OF AGRICULTURAL RESEARCH AND EDUCATION",
+   "status": "not_applied",
+   "problem": "change 12: no department DEPARTMENT OF AGRICULTURAL RESEARCH AND EDUCATION under schedule 2 › ministry MINISTRY OF AGRICULTURE AND IRRIGATION",
+   "code": "old_path_missing",
+   "cause": "unit_not_found",
+   "known": "agriculture"
+  },
+  {
+   "seq": 13,
+   "doc_id": "GOI_SO_607E_1974",
+   "op": "omit",
+   "source_ref": "3(b)",
+   "path": "schedule 2 › ministry MINISTRY OF COMMERCE › department DEPARTMENT OF INTERNAL TRADE",
+   "status": "applied"
+  },
+  {
+   "seq": 14,
+   "doc_id": "GOI_SO_607E_1974",
+   "op": "insert",
+   "source_ref": "3(c)",
+   "path": "schedule 2 › ministry MINISTRY OF EDUCATION AND SOCIAL WELFARE",
+   "status": "applied"
+  },
+  {
+   "seq": 15,
+   "doc_id": "GOI_SO_607E_1974",
+   "op": "omit",
+   "source_ref": "3(d)",
+   "path": "schedule 2 › ministry MINISTRY O. HEAVY INDUSTRY",
+   "status": "applied"
+  },
+  {
+   "seq": 16,
+   "doc_id": "GOI_SO_607E_1974",
+   "op": "omit",
+   "source_ref": "3(e)",
+   "path": "schedule 2 › ministry MINISTRY OF HOME AFFAIRS › entry 81",
+   "status": "applied"
+  },
+  {
+   "seq": 17,
+   "doc_id": "GOI_SO_607E_1974",
+   "op": "replace",
+   "source_ref": "3(f)",
+   "path": "schedule 2 › ministry MINISTRY OF INDUSTRIAL DEVELOPMENT",
+   "status": "applied"
+  },
+  {
+   "seq": 18,
+   "doc_id": "GOI_SO_607E_1974",
+   "op": "omit",
+   "source_ref": "3(g)",
+   "path": "schedule 2 › ministry MINISTRY OF IRRIGATION AND POWER",
+   "status": "applied"
+  },
+  {
+   "seq": 19,
+   "doc_id": "GOI_SO_607E_1974",
+   "op": "replace",
+   "source_ref": "3(h)",
+   "path": "schedule 2 › ministry MINISTRY OF LAW, JUSTICE AND COMPANY AFFAIRS › department LEGISLATIVE DEPARTMENT › entry 16",
+   "status": "applied"
+  },
+  {
+   "seq": 20,
+   "doc_id": "GOI_SO_607E_1974",
+   "op": "omit",
+   "source_ref": "3(i)(a)",
+   "path": "schedule 2 › ministry MINISTRY OF STEEL AND MINES › department DEPARTMENT OF STEEL › entry 6",
+   "status": "applied"
+  },
+  {
+   "seq": 21,
+   "doc_id": "GOI_SO_607E_1974",
+   "op": "omit",
+   "source_ref": "3(i)(b)(1)",
+   "path": "schedule 2 › ministry MINISTRY OF STEEL AND MINES › department DEPARTMENT OF MINES › entry 1 ; schedule 2 › ministry MINISTRY OF STEEL AND MINES › department DEPARTMENT OF MINES › entry 6 ; schedule 2 › ministry MINISTRY OF STEEL AND MINES › department DEPARTMENT OF MINES › entry 6 ; schedule 2 › ministry MINISTRY OF STEEL AND MINES › department DEPARTMENT OF MINES › entry 6 ; schedule 2 › ministry MINISTRY OF STEEL AND MINES › department DEPARTMENT OF MINES › entry 6 ; schedule 2 › ministry MINISTRY OF STEEL AND MINES › department DEPARTMENT OF MINES › entry 6",
+   "status": "applied"
+  },
+  {
+   "seq": 22,
+   "doc_id": "GOI_SO_607E_1974",
+   "op": "replace",
+   "source_ref": "3(i)(b)(2)",
+   "path": "schedule 2 › ministry MINISTRY OF STEEL AND MINES › department DEPARTMENT OF MINES › entry 13",
+   "status": "applied"
+  },
+  {
+   "seq": 23,
+   "doc_id": "GOI_SO_607E_1974",
+   "op": "replace",
+   "source_ref": "3(j)(1)",
+   "path": "schedule 2 › ministry DEPARTMENT OF CULTURE › entry 1",
+   "status": "applied"
+  },
+  {
+   "seq": 24,
+   "doc_id": "GOI_SO_607E_1974",
+   "op": "replace",
+   "source_ref": "3(j)(2)",
+   "path": "schedule 2 › ministry DEPARTMENT OF CULTURE › entry 11",
+   "status": "applied"
+  },
+  {
+   "seq": 25,
+   "doc_id": "GOI_SO_607E_1974",
+   "op": "omit",
+   "source_ref": "3(j)(3)",
+   "path": "schedule 2 › ministry DEPARTMENT OF CULTURE › entry 13 ; schedule 2 › ministry DEPARTMENT OF CULTURE › entry 14",
+   "status": "applied"
+  },
+  {
+   "seq": 26,
+   "doc_id": "GOI_SO_607E_1974",
+   "op": "renumber",
+   "source_ref": "3(k)",
+   "path": "schedule 2 › ministry DEPARTIET OF ELECTRONICS › entry 1",
+   "status": "not_applied",
+   "problem": "change 26: no entry 1 under schedule 2 › department DEPARTMENT OF ELECTRONICS",
+   "code": "old_path_missing",
+   "cause": "entry_not_in_state",
+   "known": "top_level"
+  },
+  {
+   "seq": 27,
+   "doc_id": "GOI_SO_607E_1974",
+   "op": "insert",
+   "source_ref": "3(k)",
+   "path": "schedule 2 › ministry DEPARTIET OF ELECTRONICS › entry 1",
+   "status": "not_applied",
+   "problem": "change 27: no entry 1 under schedule 2 › department DEPARTMENT OF ELECTRONICS",
+   "code": "old_path_missing",
+   "cause": "entry_not_in_state",
+   "known": "top_level"
+  },
+  {
+   "seq": 28,
+   "doc_id": "GOI_SO_607E_1974",
+   "op": "replace",
+   "source_ref": "3(l)",
+   "path": "schedule 2 › ministry CABINET SECRETARIAT › department DEPARTMENT OF PERSONNEL AND ADMINISTRATIVE REFORMS › entry 2 ; schedule 2 › ministry CABINET SECRETARIAT › department DEPARTMENT OF PERSONNEL AND ADMINISTRATIVE REFORMS › entry 5 ; schedule 2 › ministry CABINET SECRETARIAT › department DEPARTMENT OF PERSONNEL AND ADMINISTRATIVE REFORMS › entry 6 ; schedule 2 › ministry CABINET SECRETARIAT › department DEPARTMENT OF PERSONNEL AND ADMINISTRATIVE REFORMS › entry 21 ; schedule 2 › ministry CABINET SECRETARIAT › department DEPARTMENT OF PERSONNEL AND ADMINISTRATIVE REFORMS › entry 22",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

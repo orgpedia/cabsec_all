@@ -1,0 +1,145 @@
+{
+ "file": "1_Upload_347.pdf",
+ "kind": "amendment",
+ "series": 302,
+ "date": "2013-06-10",
+ "govdoc": "aob-ammend_/output/1_Upload_347.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826687.9466205,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_347.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T14:00:33.372561+00:00",
+  "sha256": "6dd19d5e6a74d13c8d1fd97f9319f16b1792e0286c036749c20d108ff7badaf7",
+  "pages": 2
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r51",
+   "at": "2026-11-04T13:34:28.159641+00:00",
+   "stamp": "0d18bea8cafad5d0"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r197",
+   "at": "2026-11-15T12:42:05.370648+00:00",
+   "stamp": "373794ec61dd3c4b"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r198",
+   "at": "2026-11-15T12:42:07.331991+00:00",
+   "stamp": "b8418b08f735cac6"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r199",
+   "at": "2026-11-15T12:42:09.560674+00:00",
+   "stamp": "09f55198ae7b9b72"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r208",
+   "at": "2026-11-15T16:24:25.282335+00:00",
+   "stamp": "bd365eeb58ca53e9",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r209",
+   "at": "2026-11-15T16:24:26.838484+00:00",
+   "stamp": "616e114bfc841d04",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r210",
+   "at": "2026-11-15T16:24:28.376030+00:00",
+   "stamp": "d9961833cb275f95",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r216",
+   "at": "2026-11-15T16:57:27.759902+00:00",
+   "stamp": "1960e52bb3bccdb0"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r217",
+   "at": "2026-11-15T17:03:29.693167+00:00",
+   "stamp": "4ed575f6c427567d"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r222",
+   "at": "2026-11-16T10:58:07.932331+00:00",
+   "stamp": "b5b940f5113dc000"
+  }
+ ],
+ "reviews": [],
+ "issues": [],
+ "problems": [],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_1521E_2013",
+   "op": "omit",
+   "source_ref": "2(a)(i)",
+   "path": "schedule 2 › ministry MINISTRY OF LAW AND JUSTICE › department DEPARTMENT OF LEGAL AFFAIRS › entry 14",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_1521E_2013",
+   "op": "insert",
+   "source_ref": "2(a)(ii)",
+   "path": "schedule 2 › ministry MINISTRY OF LAW AND JUSTICE › department DEPARTMENT OF JUSTICE › entry 10",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

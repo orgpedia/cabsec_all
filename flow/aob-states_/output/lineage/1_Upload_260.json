@@ -1,0 +1,246 @@
+{
+ "file": "1_Upload_260.pdf",
+ "kind": "amendment",
+ "series": 220,
+ "date": "1992-07-02",
+ "govdoc": "aob-ammend_/output/1_Upload_260.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826687.1714537,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_260.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:57:54.573514+00:00",
+  "sha256": "692bae3e5e8162da90968658101083b314b425fb67d6909dc12a46dcd29a59a0",
+  "pages": 3
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-11T03:05:57.863922+00:00",
+   "stamp": "0d5296b05831bdee"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r113",
+   "at": "2026-11-15T12:41:55.467612+00:00",
+   "stamp": "c73ffb41f1220599"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r114",
+   "at": "2026-11-15T12:41:57.206881+00:00",
+   "stamp": "78fb5ab987364130"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r115",
+   "at": "2026-11-15T12:41:58.547752+00:00",
+   "stamp": "78674b19bec80101"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r124",
+   "at": "2026-11-15T16:24:17.970805+00:00",
+   "stamp": "b43772bc24c484c2",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r125",
+   "at": "2026-11-15T16:24:19.219009+00:00",
+   "stamp": "9610860e2b2866e7",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r126",
+   "at": "2026-11-15T16:24:20.401835+00:00",
+   "stamp": "859298d856b95014",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r132",
+   "at": "2026-11-15T16:57:26.370432+00:00",
+   "stamp": "7108e081f614fd82"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r133",
+   "at": "2026-11-15T17:03:26.222044+00:00",
+   "stamp": "a1b56e3a4d830ee4"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r138",
+   "at": "2026-11-16T10:58:07.145631+00:00",
+   "stamp": "7e3cc518d7376216"
+  }
+ ],
+ "reviews": [],
+ "issues": [
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 5: its quoted text runs across a page break",
+   "target": "r126.rel5",
+   "status": "open"
+  },
+  {
+   "code": "aob:new_hindi_differs",
+   "severity": "info",
+   "message": "schedule 1 › ministry 26's Hindi name reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied",
+   "target": "r126.rel2",
+   "status": "open"
+  }
+ ],
+ "problems": [
+  {
+   "series": 271,
+   "seq": 2,
+   "code": "new_hindi_differs",
+   "severity": "info",
+   "message": "schedule 1 › ministry 26's Hindi name reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 5,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF NON-CONVENTIONAL ENERGY SOURCES (APARAM- PARIK OORJA SROTA MANTRA- LAYA) › entry 1 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 5,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF NON-CONVENTIONAL ENERGY SOURCES (APARAM- PARIK OORJA SROTA MANTRA- LAYA) › entry 5 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  }
+ ],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_496E_1992",
+   "op": "insert",
+   "source_ref": "2(1)(a)",
+   "path": "schedule 1 › entry 21",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_496E_1992",
+   "op": "replace",
+   "source_ref": "2(1)(b)",
+   "path": "schedule 1 › entry 26",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_496E_1992",
+   "op": "replace",
+   "source_ref": "2(1)(c)",
+   "path": "schedule 1 › entry 28",
+   "status": "applied"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_496E_1992",
+   "op": "omit",
+   "source_ref": "2(2)(a)",
+   "path": "schedule 2 › ministry MINISTRY OF ENVIRONMENT AND FORESTS › entry 15 ; schedule 2 › ministry MINISTRY OF ENVIRONMENT AND FORESTS › entry 16",
+   "status": "applied"
+  },
+  {
+   "seq": 5,
+   "doc_id": "GOI_SO_496E_1992",
+   "op": "insert",
+   "source_ref": "2(2)(b)",
+   "path": "schedule 2 › ministry MINISTRY OF MINES",
+   "status": "applied"
+  },
+  {
+   "seq": 6,
+   "doc_id": "GOI_SO_496E_1992",
+   "op": "replace",
+   "source_ref": "2(2)(c)(i)",
+   "path": "schedule 2 › ministry MINISTRY OF POWER AND NON-CONVENTIONAL ENERGY SOURCES",
+   "status": "applied"
+  },
+  {
+   "seq": 7,
+   "doc_id": "GOI_SO_496E_1992",
+   "op": "omit",
+   "source_ref": "2(2)(c)(ii)",
+   "path": "schedule 2 › ministry MINISTRY OF POWER › department DEPARTMENT OF POWER",
+   "status": "applied"
+  },
+  {
+   "seq": 8,
+   "doc_id": "GOI_SO_496E_1992",
+   "op": "omit",
+   "source_ref": "2(2)(c)(iii)",
+   "path": "schedule 2 › ministry MINISTRY OF POWER › department DEPARTMENT OF NON-CONVENTIONAL ENERGY SOURCES",
+   "status": "applied"
+  },
+  {
+   "seq": 9,
+   "doc_id": "GOI_SO_496E_1992",
+   "op": "insert",
+   "source_ref": "2(2)(d)(1)",
+   "path": "schedule 2 › ministry MINISTRY OF RURAL DEVELOPMENT › entry 1",
+   "status": "applied"
+  },
+  {
+   "seq": 10,
+   "doc_id": "GOI_SO_496E_1992",
+   "op": "insert",
+   "source_ref": "2(2)(d)(ii)",
+   "path": "schedule 2 › ministry MINISTRY OF RURAL DEVELOPMENT › department DEPARTMENT OF RURAL DEVELOPMENT › entry 21",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

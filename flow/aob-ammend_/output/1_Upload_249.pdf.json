@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_249.pdf",
     "sha256": "eb10915a81385e52364693c755cd1649955c2485973e4b631a1c459b53bbcbbc",
     "govdoc": "1_Upload_249.pdf.govdoc.json.zst",
-    "revision": 109
+    "revision": 133
   },
   "documents": [
     {
@@ -29,9 +29,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "3",
+          "version": "4",
           "model": "gemini-4-argon",
-          "at": "2026-11-12T12:57:21.087675+00:00"
+          "at": "2026-11-15T16:25:08.771631+00:00"
         },
         "ops": [
           {
@@ -39,7 +39,7 @@
             "source_ref": "2(a)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r73.rel1",
+            "relation": "r126.rel1",
             "target": {
               "cited": [
                 {
@@ -79,9 +79,7 @@
                 "text": "Scholarship to foreign students for study in India under different schemse."
               }
             ],
-            "flags": [
-              "read_quote_mismatch"
-            ],
+            "flags": [],
             "words": [
               "r1.w467",
               "r1.w466"
@@ -103,7 +101,7 @@
             "source_ref": "2(b)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r73.rel2",
+            "relation": "r126.rel2",
             "target": {
               "cited": [
                 {

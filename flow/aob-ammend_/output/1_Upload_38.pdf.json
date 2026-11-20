@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_38.pdf",
     "sha256": "2a2b0d45858116c369168046a70d658a7a290eb282376e31b6b97fff4529a6e2",
     "govdoc": "1_Upload_38.pdf.govdoc.json.zst",
-    "revision": 55
+    "revision": 89
   },
   "documents": [
     {
@@ -29,17 +29,17 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "3",
+          "version": "4",
           "model": "gemini-4-argon",
-          "at": "2026-11-12T18:01:24.680920+00:00"
+          "at": "2026-11-15T16:24:00.295986+00:00"
         },
         "ops": [
           {
             "seq": 1,
-            "source_ref": "(A)(a)",
+            "source_ref": "(A)(a)*",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r28.rel1",
+            "relation": "r79.rel1",
             "target": {
               "cited": [
                 {
@@ -80,10 +80,12 @@
                 "heading": "Department of International Trade."
               }
             ],
-            "flags": [],
+            "flags": [
+              "read_hindi_missing"
+            ],
             "words": [
               "r1.w116",
-              "r1.w126"
+              "r1.w127"
             ],
             "boxes": [
               {
@@ -91,7 +93,7 @@
                 "bbox": [
                   360,
                   1640,
-                  1659,
+                  1734,
                   1674
                 ]
               }
@@ -99,10 +101,10 @@
           },
           {
             "seq": 2,
-            "source_ref": "(A)(b)",
+            "source_ref": "(A)(b)*",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r28.rel2",
+            "relation": "r79.rel2",
             "target": [
               {
                 "cited": [
@@ -161,6 +163,7 @@
                 ]
               }
             ],
+            "expect": "Ministry of Railways (Railway Board) and Ministry of Rehabilitation",
             "content": [
               {
                 "type": "ministry",
@@ -173,7 +176,9 @@
                 "heading": "Ministry of Railways (Railway Board)"
               }
             ],
-            "flags": [],
+            "flags": [
+              "read_hindi_missing"
+            ],
             "words": [
               "r1.w139",
               "r1.w150"
@@ -192,10 +197,10 @@
           },
           {
             "seq": 3,
-            "source_ref": "(A)(c)",
+            "source_ref": "(A)(c)*",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r28.rel3",
+            "relation": "r79.rel3",
             "target": {
               "cited": [
                 {
@@ -241,7 +246,9 @@
                 "heading": "Department of Heavy Industries."
               }
             ],
-            "flags": [],
+            "flags": [
+              "read_hindi_missing"
+            ],
             "words": [
               "r1.w174",
               "r1.w184"
@@ -260,10 +267,10 @@
           },
           {
             "seq": 4,
-            "source_ref": "(B)(a)",
+            "source_ref": "(B)(a)*",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r28.rel4",
+            "relation": "r79.rel4",
             "target": {
               "cited": [
                 {
@@ -296,8 +303,8 @@
             "scope": "children",
             "content": [
               {
-                "type": "ministry",
-                "heading": "DEPARTMENT OF INTERNATIONAL TRADE"
+                "type": "department",
+                "heading": "Department of International Trade"
               },
               {
                 "type": "group_heading",
@@ -592,10 +599,10 @@
           },
           {
             "seq": 5,
-            "source_ref": "(B)(b)",
+            "source_ref": "(B)(b)*",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r28.rel5",
+            "relation": "r79.rel5",
             "target": {
               "cited": [
                 {
@@ -971,6 +978,7 @@
               }
             ],
             "flags": [
+              "read_hindi_missing",
               "read_page_break"
             ],
             "words": [
@@ -991,10 +999,10 @@
           },
           {
             "seq": 6,
-            "source_ref": "(B)(c)",
+            "source_ref": "(B)(c)*",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r28.rel6",
+            "relation": "r79.rel6",
             "position": "after",
             "anchor": {
               "cited": [
@@ -1010,7 +1018,7 @@
               "eId": null,
               "words": [
                 "r1.w276",
-                "r1.w292"
+                "r1.w283"
               ],
               "boxes": [
                 {
@@ -1018,8 +1026,8 @@
                   "bbox": [
                     532,
                     256,
-                    1837,
-                    327
+                    1730,
+                    294
                   ]
                 }
               ]
@@ -1051,10 +1059,10 @@
           },
           {
             "seq": 7,
-            "source_ref": "(B)(d)",
+            "source_ref": "(B)(d)*",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r28.rel7",
+            "relation": "r79.rel7",
             "target": {
               "cited": [
                 {
@@ -1103,10 +1111,10 @@
           },
           {
             "seq": 8,
-            "source_ref": "(B)(e)",
+            "source_ref": "(B)(e)*",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r28.rel8",
+            "relation": "r79.rel8",
             "target": {
               "cited": [
                 {
@@ -1164,10 +1172,10 @@
           },
           {
             "seq": 9,
-            "source_ref": "(B)(f)",
+            "source_ref": "(B)(f)*",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r28.rel9",
+            "relation": "r79.rel9",
             "target": {
               "cited": [
                 {
@@ -1229,7 +1237,7 @@
               },
               {
                 "type": "entry",
-                "num": "8",
+                "num": "6",
                 "text": "Machinery Industries Including Machine Tools and Steel manufacture."
               },
               {
@@ -1285,10 +1293,10 @@
           },
           {
             "seq": 10,
-            "source_ref": "(B)(g)",
+            "source_ref": "(B)(g)*",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r28.rel10",
+            "relation": "r79.rel10",
             "position": "after",
             "anchor": {
               "cited": [
@@ -1347,16 +1355,20 @@
           },
           {
             "seq": 11,
-            "source_ref": "(B)(h)",
+            "source_ref": "(B)(h)*",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r28.rel11",
+            "relation": "r79.rel11",
             "position": "after",
             "anchor": {
               "cited": [
                 {
                   "type": "schedule",
                   "num": "2"
+                },
+                {
+                  "type": "ministry",
+                  "heading": "Ministry of Works, Housing and Supply"
                 },
                 {
                   "type": "department",
@@ -1366,7 +1378,7 @@
               "eId": null,
               "words": [
                 "r1.w428",
-                "r1.w449"
+                "r1.w441"
               ],
               "boxes": [
                 {
@@ -1374,8 +1386,8 @@
                   "bbox": [
                     527,
                     1003,
-                    1830,
-                    1104
+                    1828,
+                    1076
                   ]
                 }
               ]
@@ -1393,7 +1405,7 @@
             ],
             "words": [
               "r1.w427",
-              "r1.w441"
+              "r1.w438"
             ],
             "boxes": [
               {
@@ -1402,7 +1414,7 @@
                   451,
                   1003,
                   1828,
-                  1076
+                  1044
                 ]
               }
             ]

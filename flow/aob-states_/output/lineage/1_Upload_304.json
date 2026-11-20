@@ -1,0 +1,158 @@
+{
+ "file": "1_Upload_304.pdf",
+ "kind": "amendment",
+ "series": 263,
+ "date": "2002-07-13",
+ "govdoc": "aob-ammend_/output/1_Upload_304.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826686.843105,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_304.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:59:25.514226+00:00",
+  "sha256": "616bd6d0610b2ecf9aeafd1e304d43900e9a98b9e9faa3d239989c4c6e323f22",
+  "pages": 2
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-11T03:13:29.971611+00:00",
+   "stamp": "0abfdd12266d62ef"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r113",
+   "at": "2026-11-15T12:41:55.010795+00:00",
+   "stamp": "6932feabd3f917c6"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r114",
+   "at": "2026-11-15T12:41:56.698065+00:00",
+   "stamp": "1b7923d02c3a9340"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r115",
+   "at": "2026-11-15T12:41:58.185889+00:00",
+   "stamp": "b9cec8b0ed4155db"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r124",
+   "at": "2026-11-15T16:24:17.644759+00:00",
+   "stamp": "1c5c80af59a8631b",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r125",
+   "at": "2026-11-15T16:24:18.831082+00:00",
+   "stamp": "ee7425d3402d80c2",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r126",
+   "at": "2026-11-15T16:24:20.004803+00:00",
+   "stamp": "463fb55f6e61a241",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r132",
+   "at": "2026-11-15T16:57:26.032179+00:00",
+   "stamp": "c7f3a53c1d92d510"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r133",
+   "at": "2026-11-15T17:03:25.581786+00:00",
+   "stamp": "fbac390f5c2f726e"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r138",
+   "at": "2026-11-16T10:58:06.830607+00:00",
+   "stamp": "ca505e811beef46e"
+  }
+ ],
+ "reviews": [],
+ "issues": [],
+ "problems": [
+  {
+   "series": 263,
+   "seq": 1,
+   "code": "old_path_missing",
+   "severity": "error",
+   "message": "change 1: no entry 25 under schedule 2 › ministry MINISTRY OF ENVIRONMENT AND FORESTS",
+   "cause": "entry_not_in_state"
+  }
+ ],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_743E_2002",
+   "op": "insert",
+   "source_ref": "2(a)",
+   "path": "schedule 2 › ministry MINISTRY OF ENVIRONMENT AND FORESTS › entry 25",
+   "status": "not_applied",
+   "problem": "change 1: no entry 25 under schedule 2 › ministry MINISTRY OF ENVIRONMENT AND FORESTS",
+   "code": "old_path_missing",
+   "cause": "entry_not_in_state",
+   "known": "entries"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_743E_2002",
+   "op": "omit",
+   "source_ref": "2(b)",
+   "path": "schedule 2 › ministry MINISTRY OF STATISTICS AND PROGRAMME IMPLEMENTATION › entry",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

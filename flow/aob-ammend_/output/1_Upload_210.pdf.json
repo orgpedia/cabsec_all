@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_210.pdf",
     "sha256": "3e4a79715d7f8e3b7f61f1b540b0e41acb6d4778b112ad6def93e80ba9f86f36",
     "govdoc": "1_Upload_210.pdf.govdoc.json.zst",
-    "revision": 46
+    "revision": 70
   },
   "documents": [
     {
@@ -29,17 +29,17 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "3",
+          "version": "4",
           "model": "gemini-4-argon",
-          "at": "2026-11-12T13:49:06.405028+00:00"
+          "at": "2026-11-15T16:24:10.384985+00:00"
         },
         "ops": [
           {
             "seq": 1,
             "source_ref": "2(a)(1)",
-            "op": "substitute_text",
-            "akn_type": "substitution",
-            "relation": "r10.rel1",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r63.rel1",
             "target": {
               "cited": [
                 {
@@ -76,12 +76,11 @@
                 }
               ]
             },
-            "old": "rural water supply (excluding centrally spen- sored scheme of accelerated rural supply)",
-            "new": "",
+            "expect": "rural water supply (excluding centrally spen- sored scheme of accelerated rural supply)",
             "flags": [],
             "words": [
               "r1.w467",
-              "r1.w474"
+              "r1.w475"
             ],
             "boxes": [
               {
@@ -89,7 +88,7 @@
                 "bbox": [
                   1532,
                   360,
-                  2265,
+                  2391,
                   397
                 ]
               }
@@ -100,7 +99,7 @@
             "source_ref": "2(a)(1)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r10.rel2",
+            "relation": "r63.rel2",
             "position": "after",
             "anchor": {
               "cited": [
@@ -167,7 +166,7 @@
             "source_ref": "2(b)",
             "op": "substitute_text",
             "akn_type": "substitution",
-            "relation": "r10.rel3",
+            "relation": "r63.rel3",
             "target": {
               "cited": [
                 {

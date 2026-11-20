@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_211.pdf",
     "sha256": "1f573b53b776b9f2a1f02df9c7beed6052a7824d62919805a4e322f2b82c2b8b",
     "govdoc": "1_Upload_211.pdf.govdoc.json.zst",
-    "revision": 46
+    "revision": 70
   },
   "documents": [
     {
@@ -29,9 +29,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "3",
+          "version": "4",
           "model": "gemini-4-argon",
-          "at": "2026-11-12T13:48:57.155039+00:00"
+          "at": "2026-11-15T16:23:59.789840+00:00"
         },
         "ops": [
           {
@@ -39,7 +39,7 @@
             "source_ref": "2(a)(1)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel1",
+            "relation": "r63.rel1",
             "target": {
               "cited": [
                 {
@@ -52,7 +52,7 @@
                 },
                 {
                   "type": "department",
-                  "heading": "DEPARTMENT OF RURAL DIVE-LOPMENT"
+                  "heading": "DEPARTMENT OF RURAL DIVE- LOPMENT"
                 },
                 {
                   "type": "entry",
@@ -61,14 +61,14 @@
               ],
               "eId": null,
               "words": [
-                "r1.w604",
+                "r1.w605",
                 "r1.w606"
               ],
               "boxes": [
                 {
                   "page": 2,
                   "bbox": [
-                    494,
+                    564,
                     1829,
                     698,
                     1863
@@ -85,7 +85,7 @@
               {
                 "type": "item",
                 "num": "a",
-                "text": "All matters pertaining to rural employment or unemployment such as working out of strategies and programmes for rural employment including special works, wage or income generation and training related thereto"
+                "text": "All matters pertaining to rural employment or unemployment such as working out of strategies and programmes for rural employment including special works, wage or income generation and training related thereto PRINTED BY THE MANAGER, GOVT. OF INDIA AND PUBLISHED BY THE CONTROLLER OF"
               },
               {
                 "type": "item",
@@ -120,7 +120,7 @@
             "source_ref": "2(a)(ii)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel2",
+            "relation": "r63.rel2",
             "target": {
               "cited": [
                 {
@@ -133,7 +133,7 @@
                 },
                 {
                   "type": "department",
-                  "heading": "DEPARTMENT OF RURAL DIVE-LOPMENT"
+                  "heading": "DEPARTMENT OF RURAL DIVE- LOPMENT"
                 },
                 {
                   "type": "entry",
@@ -142,14 +142,14 @@
               ],
               "eId": null,
               "words": [
-                "r1.w694",
+                "r1.w695",
                 "r1.w696"
               ],
               "boxes": [
                 {
                   "page": 2,
                   "bbox": [
-                    1594,
+                    1662,
                     747,
                     1810,
                     778
@@ -186,7 +186,7 @@
             "source_ref": "2(b)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r10.rel3",
+            "relation": "r63.rel3",
             "position": "after",
             "anchor": {
               "cited": [
@@ -213,14 +213,14 @@
               ],
               "eId": null,
               "words": [
-                "r1.w747",
+                "r1.w748",
                 "r1.w749"
               ],
               "boxes": [
                 {
                   "page": 2,
                   "bbox": [
-                    1529,
+                    1618,
                     1231,
                     1780,
                     1261
@@ -257,7 +257,7 @@
             "source_ref": "2(c)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r10.rel4",
+            "relation": "r63.rel4",
             "position": "after",
             "anchor": {
               "cited": [
@@ -267,7 +267,7 @@
                 },
                 {
                   "type": "ministry",
-                  "heading": "MINISTRY OF RAILWAYS (RAILWAY BOARD)"
+                  "heading": "MINISTRY OF RAILWAYS"
                 },
                 {
                   "type": "entry",
@@ -276,14 +276,14 @@
               ],
               "eId": null,
               "words": [
-                "r1.w785",
+                "r1.w786",
                 "r1.w787"
               ],
               "boxes": [
                 {
                   "page": 2,
                   "bbox": [
-                    1536,
+                    1637,
                     1580,
                     1773,
                     1611
@@ -298,9 +298,7 @@
                 "text": "Parliament Questions regarding offences relatng to pilferage of railway property other than ↓ fluting to crime on Government railways and non-Governmental railways."
               }
             ],
-            "flags": [
-              "read_quote_mismatch"
-            ],
+            "flags": [],
             "words": [
               "r1.w774",
               "r1.w780"

@@ -1,0 +1,137 @@
+{
+ "file": "1_Upload_204.pdf",
+ "kind": "amendment",
+ "series": 166,
+ "date": "1985-07-31",
+ "govdoc": "aob-ammend_/output/1_Upload_204.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826693.2943814,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_204.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:56:34.465493+00:00",
+  "sha256": "c454ee28472389239966c0ba957791ba69a7f7f4c8572656c40879a8bca73c6e",
+  "pages": 2
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-12T12:43:26.878132+00:00",
+   "stamp": "be30d5f001c992e4"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r50",
+   "at": "2026-11-15T12:42:32.998127+00:00",
+   "stamp": "812cf0aa9a0db1af"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r51",
+   "at": "2026-11-15T12:42:35.435117+00:00",
+   "stamp": "ccae338edd67ef9b"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r52",
+   "at": "2026-11-15T12:42:37.206689+00:00",
+   "stamp": "6b100ba4dfa6c91a"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r61",
+   "at": "2026-11-15T16:24:51.813920+00:00",
+   "stamp": "00cdb4de1a97e08d",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r62",
+   "at": "2026-11-15T16:24:53.564732+00:00",
+   "stamp": "eb4b8fd53e516960",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r63",
+   "at": "2026-11-15T16:24:55.372781+00:00",
+   "stamp": "cff49f8c031f6c33",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r69",
+   "at": "2026-11-15T16:57:35.436082+00:00",
+   "stamp": "4d8d7eb1bf36ee67"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r70",
+   "at": "2026-11-15T17:03:45.884894+00:00",
+   "stamp": "d9daf313d11f50d6"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r75",
+   "at": "2026-11-16T10:58:13.284963+00:00",
+   "stamp": "d4c26e5615744da9"
+  }
+ ],
+ "reviews": [],
+ "issues": [],
+ "problems": [],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_174E_1985",
+   "op": "replace",
+   "source_ref": "2",
+   "path": "schedule 2 › ministry MINISTRY OF LAW AND JUSTICE › department LEGISLATIVE DEPARTMENT › entry 2",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

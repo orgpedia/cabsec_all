@@ -1,0 +1,137 @@
+{
+ "file": "1_Upload_1438.pdf",
+ "kind": "amendment",
+ "series": 342,
+ "date": "2018-06-26",
+ "govdoc": "aob-ammend_/output/1_Upload_1438.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826696.4489362,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_1438.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:55:10.320598+00:00",
+  "sha256": "ee87d35e5d59e994af0cd402dfcc434c8bdad7d96837b9d19af916385ffbfaff",
+  "pages": 2
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r17",
+   "at": "2026-10-31T12:36:03.794713+00:00",
+   "stamp": "b31ed13b60dff6c2"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r200",
+   "at": "2026-11-15T12:43:03.056315+00:00",
+   "stamp": "ac4a11f88e210db9"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r201",
+   "at": "2026-11-15T12:43:03.972453+00:00",
+   "stamp": "886da69346b12a92"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r202",
+   "at": "2026-11-15T12:43:05.143986+00:00",
+   "stamp": "1c69fe1f9c3280d9"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r211",
+   "at": "2026-11-15T16:25:15.662312+00:00",
+   "stamp": "5ab36a01db0fe95b",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r212",
+   "at": "2026-11-15T16:25:16.391529+00:00",
+   "stamp": "75fee9966484032e",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r213",
+   "at": "2026-11-15T16:25:17.072516+00:00",
+   "stamp": "2b2f46d79f125144",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r219",
+   "at": "2026-11-15T16:57:40.551924+00:00",
+   "stamp": "43d825dd286eb9e0"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r220",
+   "at": "2026-11-15T17:03:59.576725+00:00",
+   "stamp": "17b115bb1b555ae4"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r225",
+   "at": "2026-11-16T10:58:16.435738+00:00",
+   "stamp": "2ece0e4dfdc335b6"
+  }
+ ],
+ "reviews": [],
+ "issues": [],
+ "problems": [],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_3141E_2018",
+   "op": "insert",
+   "source_ref": "2",
+   "path": "schedule 2 › ministry MINISTRY OF LABOUR AND EMPLOYMENT › entry 41",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

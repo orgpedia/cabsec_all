@@ -1,0 +1,205 @@
+{
+ "file": "1_Upload_272.pdf",
+ "kind": "amendment",
+ "series": 232,
+ "date": "1996-07-26",
+ "govdoc": "aob-ammend_/output/1_Upload_272.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826694.6820421,
+ "edits_file": "aob-ammend_/conf/1_Upload_272.pdf.edits.yml",
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_272.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:58:17.076895+00:00",
+  "sha256": "d6ca44c5b41ceba462a15a78433a6243d925786d95e7a1e8434d21ad3e6dd4c2",
+  "pages": 4
+ },
+ "edits": [
+  {
+   "run": "h1",
+   "by": "mukundesh",
+   "at": "2026-11-11T04:06:29+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r1.w522",
+     "before": {
+      "text": "SO."
+     },
+     "after": {
+      "text": "S.O."
+     }
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-11T03:07:22.329766+00:00",
+   "stamp": "ebe9e36ebb636011"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r116",
+   "at": "2026-11-15T12:42:45.201143+00:00",
+   "stamp": "5e552e7b04815940"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r117",
+   "at": "2026-11-15T12:42:47.715681+00:00",
+   "stamp": "bc5a2d70b9960c62"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r118",
+   "at": "2026-11-15T12:42:50.285349+00:00",
+   "stamp": "bb6a698cd259e00f"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r127",
+   "at": "2026-11-15T16:25:02.980151+00:00",
+   "stamp": "372b9a38e682295c",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r128",
+   "at": "2026-11-15T16:25:05.073532+00:00",
+   "stamp": "ca4979a0619837f7",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r129",
+   "at": "2026-11-15T16:25:07.043688+00:00",
+   "stamp": "a043321f7cd1e701",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r135",
+   "at": "2026-11-15T16:57:37.693956+00:00",
+   "stamp": "cfcb533d14314de3"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r136",
+   "at": "2026-11-15T17:03:51.737350+00:00",
+   "stamp": "1964d5b2c8a63d19"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r141",
+   "at": "2026-11-16T10:58:14.661671+00:00",
+   "stamp": "b65a6ac8056b1c85"
+  }
+ ],
+ "reviews": [],
+ "issues": [
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
+   "message": "change 5: department COMPANY AFFAIRS taken for department DEPARTMENT OF COMPANY AFFAIRS, named loosely",
+   "target": "r129.rel5",
+   "status": "open"
+  }
+ ],
+ "problems": [],
+ "rules": [
+  {
+   "rule": "loose",
+   "seq": 5,
+   "note": "change 5: department COMPANY AFFAIRS taken for department DEPARTMENT OF COMPANY AFFAIRS, named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  }
+ ],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_544E_1996",
+   "op": "insert",
+   "source_ref": "2(1)(a)",
+   "path": "schedule 1 › ministry Ministry of Finance › department Department of Revenue",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_544E_1996",
+   "op": "replace",
+   "source_ref": "2(1)(b)",
+   "path": "schedule 1 › ministry Ministry of Law, Justice and Company Affairs",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_544E_1996",
+   "op": "insert",
+   "source_ref": "2(2)(a)",
+   "path": "schedule 2 › ministry MINISTRY OF FINANCE › department DEPARTMENT OF REVENUE",
+   "status": "applied"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_544E_1996",
+   "op": "replace",
+   "source_ref": "2(2)(b)(i)",
+   "path": "schedule 2 › ministry MINISTRY OF LAW, JUSTICE AND COMPANY AFFAIRS",
+   "status": "applied"
+  },
+  {
+   "seq": 5,
+   "doc_id": "GOI_SO_544E_1996",
+   "op": "omit",
+   "source_ref": "2(2)(b)(ii)",
+   "path": "schedule 2 › ministry MINISTRY OF LAW AND JUSTICE › department COMPANY AFFAIRS",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

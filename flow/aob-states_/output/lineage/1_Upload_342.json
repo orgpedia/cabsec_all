@@ -1,0 +1,208 @@
+{
+ "file": "1_Upload_342.pdf",
+ "kind": "amendment",
+ "series": 297,
+ "date": "2010-06-05",
+ "govdoc": "aob-ammend_/output/1_Upload_342.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826686.3299036,
+ "edits_file": "aob-ammend_/conf/1_Upload_342.pdf.edits.yml",
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_342.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T14:00:27.321048+00:00",
+  "sha256": "4c07ffcee9f2b845b9757db7d6a6b37b4465ea79c2490bba926cfdb3c57742e7",
+  "pages": 4
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r5",
+   "at": "2026-11-04T13:34:26.806557+00:00",
+   "stamp": "40cc5f1beef0a3a8"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r151",
+   "at": "2026-11-15T12:41:54.365953+00:00",
+   "stamp": "5d1008cef9b9abab"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r152",
+   "at": "2026-11-15T12:41:55.810837+00:00",
+   "stamp": "daca6c940a044ff2"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r153",
+   "at": "2026-11-15T12:41:57.654989+00:00",
+   "stamp": "28b32a47baa38f8e"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r162",
+   "at": "2026-11-15T16:24:17.074175+00:00",
+   "stamp": "99e5c6032730a9ac",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r163",
+   "at": "2026-11-15T16:24:18.246108+00:00",
+   "stamp": "f3f40c6fe4ecdfeb",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r164",
+   "at": "2026-11-15T16:24:19.486277+00:00",
+   "stamp": "a1514a46239dd128",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r170",
+   "at": "2026-11-15T16:57:25.467197+00:00",
+   "stamp": "16e5f2c350e36244"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r171",
+   "at": "2026-11-15T17:03:24.483165+00:00",
+   "stamp": "0c28a0c9251356f3"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r176",
+   "at": "2026-11-16T10:58:06.308925+00:00",
+   "stamp": "7fcab01ef6f368d6"
+  }
+ ],
+ "reviews": [
+  {
+   "id": "h1.v1001",
+   "target": "r165.i1",
+   "status": "rejected",
+   "by": "mukundesh",
+   "at": "2026-11-14T07:58:37+00:00"
+  },
+  {
+   "id": "h2.v1001",
+   "target": "r165.i2",
+   "status": "rejected",
+   "by": "mukundesh",
+   "at": "2026-11-14T07:58:39+00:00"
+  }
+ ],
+ "issues": [
+  {
+   "code": "aob:read_quote_mismatch",
+   "severity": "error",
+   "message": "change 5: its anchor's department heading is not in the text",
+   "target": "r164.rel5",
+   "status": "rejected"
+  },
+  {
+   "code": "aob:read_quote_mismatch",
+   "severity": "error",
+   "message": "change 6: its expect is not in the text",
+   "target": "r164.rel6",
+   "status": "rejected"
+  }
+ ],
+ "problems": [],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_1336E_2010",
+   "op": "replace",
+   "source_ref": "2(1)",
+   "path": "schedule 1 › ministry Ministry of Rural Development › department Department of Drinking Water Supply",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_1336E_2010",
+   "op": "insert",
+   "source_ref": "2(2)(A)",
+   "path": "schedule 2 › ministry MINISTRY OF EXTERNAL AFFAIRS › entry 35",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_1336E_2010",
+   "op": "replace",
+   "source_ref": "2(2)(B)(a)",
+   "path": "schedule 2 › ministry MINISTRY OF FINANCE › department DEPARTMENT OF ECONOMIC AFFAIRS › entry 1",
+   "status": "applied"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_1336E_2010",
+   "op": "omit",
+   "source_ref": "2(2)(B)(b)",
+   "path": "schedule 2 › ministry MINISTRY OF FINANCE › department DEPARTMENT OF ECONOMIC AFFAIRS › entry 11 › item a ; schedule 2 › ministry MINISTRY OF FINANCE › department DEPARTMENT OF ECONOMIC AFFAIRS › entry 12 ; schedule 2 › ministry MINISTRY OF FINANCE › department DEPARTMENT OF ECONOMIC AFFAIRS › entry 13",
+   "status": "applied"
+  },
+  {
+   "seq": 5,
+   "doc_id": "GOI_SO_1336E_2010",
+   "op": "insert",
+   "source_ref": "2(2)(C)",
+   "path": "schedule 2 › ministry MINISTRY OF HOME AFFAIRS › department DEPARTMENT OF INTERNAL SECURITY › entry 57",
+   "status": "applied"
+  },
+  {
+   "seq": 6,
+   "doc_id": "GOI_SO_1336E_2010",
+   "op": "replace",
+   "source_ref": "2(2)(D)",
+   "path": "schedule 2 › ministry MINISTRY OF RURAL DEVELOPMENT › department DEPARTMENT OF DRINKING WATER SUPPLY",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

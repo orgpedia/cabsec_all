@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_215.pdf",
     "sha256": "0f209a91b742561013bf884dad22340782e0bbd9c1b945559ec088defafac2c6",
     "govdoc": "1_Upload_215.pdf.govdoc.json.zst",
-    "revision": 127
+    "revision": 151
   },
   "documents": [
     {
@@ -29,9 +29,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "3",
+          "version": "4",
           "model": "gemini-4-argon",
-          "at": "2026-11-12T12:55:18.862726+00:00"
+          "at": "2026-11-15T16:26:43.556552+00:00"
         },
         "ops": [
           {
@@ -39,7 +39,7 @@
             "source_ref": "2(1)(i)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r89.rel1",
+            "relation": "r142.rel1",
             "target": {
               "cited": [
                 {
@@ -100,7 +100,7 @@
             "source_ref": "2(1)(ii)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r89.rel2",
+            "relation": "r142.rel2",
             "target": {
               "cited": [
                 {
@@ -162,9 +162,9 @@
           {
             "seq": 3,
             "source_ref": "2(2)(i)(a)",
-            "op": "omit",
-            "akn_type": "repeal",
-            "relation": "r89.rel3",
+            "op": "substitute_text",
+            "akn_type": "substitution",
+            "relation": "r142.rel3",
             "target": {
               "cited": [
                 {
@@ -205,7 +205,8 @@
                 }
               ]
             },
-            "expect": "and Forestry Development",
+            "old": "and Forestry Development",
+            "new": "",
             "flags": [],
             "words": [
               "r1.w4872",
@@ -228,7 +229,7 @@
             "source_ref": "2(2)(i)(b)(i)",
             "op": "substitute_text",
             "akn_type": "substitution",
-            "relation": "r89.rel4",
+            "relation": "r142.rel4",
             "target": {
               "cited": [
                 {
@@ -274,15 +275,15 @@
             "flags": [],
             "words": [
               "r1.w4921",
-              "r1.w4930"
+              "r1.w4920"
             ],
             "boxes": [
               {
                 "page": 8,
                 "bbox": [
                   401,
-                  1535,
-                  1040,
+                  1534,
+                  1303,
                   1566
                 ]
               }
@@ -293,7 +294,7 @@
             "source_ref": "2(2)(i)(b)(ii)",
             "op": "substitute_text",
             "akn_type": "substitution",
-            "relation": "r89.rel5",
+            "relation": "r142.rel5",
             "target": {
               "cited": [
                 {
@@ -354,7 +355,7 @@
             "source_ref": "2(2)(i)(c)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r89.rel6",
+            "relation": "r142.rel6",
             "position": "after",
             "anchor": {
               "cited": [
@@ -377,17 +378,17 @@
               ],
               "eId": null,
               "words": [
-                "r1.w4993",
-                "r1.w4993"
+                "r1.w4980",
+                "r1.w5040"
               ],
               "boxes": [
                 {
                   "page": 8,
                   "bbox": [
-                    1215,
-                    1934,
-                    1291,
-                    1964
+                    411,
+                    1901,
+                    1295,
+                    2190
                   ]
                 }
               ]
@@ -399,7 +400,9 @@
                 "text": "Road works financed in whole or in part by the Central Government in tribal areas of Assam specified in Part I and Part II of the Table appended to paragraph 20 of the Sixth Schedule to the Constitution."
               }
             ],
-            "flags": [],
+            "flags": [
+              "states_inferred_loose"
+            ],
             "words": [
               "r1.w4980",
               "r1.w4987"
@@ -421,7 +424,7 @@
             "source_ref": "2(2)(ii)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r89.rel7",
+            "relation": "r142.rel7",
             "target": {
               "cited": [
                 {
@@ -539,7 +542,7 @@
             "source_ref": "2(2)(iii)(a)",
             "op": "substitute_text",
             "akn_type": "substitution",
-            "relation": "r89.rel8",
+            "relation": "r142.rel8",
             "target": {
               "cited": [
                 {
@@ -600,7 +603,7 @@
             "source_ref": "2(2)(iii)(b)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r89.rel9",
+            "relation": "r142.rel9",
             "target": {
               "cited": [
                 {
@@ -666,7 +669,7 @@
             "source_ref": "2(2)(iv)(a)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r89.rel10",
+            "relation": "r142.rel10",
             "position": "after",
             "anchor": {
               "cited": [
@@ -752,7 +755,7 @@
             "source_ref": "2(2)(iv)(b)(i)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r89.rel11",
+            "relation": "r142.rel11",
             "target": {
               "cited": [
                 {
@@ -795,7 +798,9 @@
                 "text": "I Ordnanc. Factory Board and Ordnance Factories."
               }
             ],
-            "flags": [],
+            "flags": [
+              "states_inferred_loose"
+            ],
             "words": [
               "r1.w5582",
               "r1.w5594"
@@ -817,7 +822,7 @@
             "source_ref": "2(2)(iv)(b)(ii)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r89.rel12",
+            "relation": "r142.rel12",
             "target": [
               {
                 "cited": [
@@ -929,7 +934,8 @@
               }
             ],
             "flags": [
-              "read_page_break"
+              "read_page_break",
+              "states_inferred_loose"
             ],
             "words": [
               "r1.w5604",
@@ -952,7 +958,7 @@
             "source_ref": "2(2)(iv)(b)(iii)",
             "op": "substitute_text",
             "akn_type": "substitution",
-            "relation": "r89.rel13",
+            "relation": "r142.rel13",
             "target": {
               "cited": [
                 {
@@ -991,13 +997,9 @@
             },
             "old": "Department of Atomic Energy (Parmatu Oorja Vibhag)",
             "new": "Department of Space (Antariksh Vibhag)",
-            "content": [
-              {
-                "type": "text",
-                "text": "Department of Space (Antariksh Vibhag)"
-              }
+            "flags": [
+              "states_inferred_loose"
             ],
-            "flags": [],
             "words": [
               "r1.w5662",
               "r1.w5670"
@@ -1019,7 +1021,7 @@
             "source_ref": "2(2)(iv)(b)(iv)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r89.rel14",
+            "relation": "r142.rel14",
             "target": [
               {
                 "cited": [
@@ -1106,7 +1108,9 @@
                 "text": "Procurement exclusive to the defence services."
               }
             ],
-            "flags": [],
+            "flags": [
+              "states_inferred_loose"
+            ],
             "words": [
               "r1.w5686",
               "r1.w5695"
@@ -1128,7 +1132,7 @@
             "source_ref": "2(2)(v)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r89.rel15",
+            "relation": "r142.rel15",
             "target": [
               {
                 "cited": [
@@ -1262,7 +1266,7 @@
             "source_ref": "2(2)(vi)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r89.rel16",
+            "relation": "r142.rel16",
             "position": "after",
             "anchor": {
               "cited": [
@@ -1325,7 +1329,7 @@
             "source_ref": "2(2)(vii)(a)",
             "op": "substitute_text",
             "akn_type": "substitution",
-            "relation": "r89.rel17",
+            "relation": "r142.rel17",
             "target": {
               "cited": [
                 {
@@ -1380,9 +1384,9 @@
           {
             "seq": 18,
             "source_ref": "2(2)(vii)(b)",
-            "op": "omit",
-            "akn_type": "repeal",
-            "relation": "r89.rel18",
+            "op": "substitute_text",
+            "akn_type": "substitution",
+            "relation": "r142.rel18",
             "target": {
               "cited": [
                 {
@@ -1415,7 +1419,8 @@
                 }
               ]
             },
-            "expect": "muleteers, porters",
+            "old": "muleteers, porters",
+            "new": "",
             "flags": [],
             "words": [
               "r1.w5860",
@@ -1436,9 +1441,9 @@
           {
             "seq": 19,
             "source_ref": "2(2)(vii)(b)",
-            "op": "omit",
-            "akn_type": "repeal",
-            "relation": "r89.rel19",
+            "op": "substitute_text",
+            "akn_type": "substitution",
+            "relation": "r142.rel19",
             "target": {
               "cited": [
                 {
@@ -1471,7 +1476,8 @@
                 }
               ]
             },
-            "expect": "and vice versa",
+            "old": "and vice versa",
+            "new": "",
             "flags": [],
             "words": [
               "r1.w5860",
@@ -1494,7 +1500,7 @@
             "source_ref": "2(2)(vii)(c)",
             "op": "substitute_text",
             "akn_type": "substitution",
-            "relation": "r89.rel20",
+            "relation": "r142.rel20",
             "target": {
               "cited": [
                 {
@@ -1551,7 +1557,7 @@
             "source_ref": "2(2)(vii)(d)",
             "op": "substitute_text",
             "akn_type": "substitution",
-            "relation": "r89.rel21",
+            "relation": "r142.rel21",
             "target": {
               "cited": [
                 {
@@ -1612,7 +1618,7 @@
             "source_ref": "2(2)(vii)(e)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r89.rel22",
+            "relation": "r142.rel22",
             "target": [
               {
                 "cited": [
@@ -1740,7 +1746,7 @@
             "source_ref": "2(2)(viii)(a)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r89.rel23",
+            "relation": "r142.rel23",
             "target": {
               "cited": [
                 {
@@ -1788,7 +1794,7 @@
               {
                 "type": "entry",
                 "num": "2",
-                "text": "Foreign Exchange Budgeting. 239 GI/85-2."
+                "text": "Foreign Exchange Budgeting. ."
               },
               {
                 "type": "entry",
@@ -1816,9 +1822,14 @@
                 "text": "Import and Export of gold and silver."
               },
               {
+                "type": "group_heading",
+                "num": "II",
+                "text": "Foreign aid for Fconomic Development."
+              },
+              {
                 "type": "entry",
-                "num": "11",
-                "text": "Foreign aid for Fconomic Development. 8 All matters relating to :"
+                "num": "8",
+                "text": "All matters relating to :"
               },
               {
                 "type": "item",
@@ -2295,7 +2306,7 @@
             "source_ref": "2(2)(viii)(b)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r89.rel24",
+            "relation": "r142.rel24",
             "target": {
               "cited": [
                 {
@@ -2354,7 +2365,7 @@
             "source_ref": "2(2)(viii)(c)(i)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r89.rel25",
+            "relation": "r142.rel25",
             "target": {
               "cited": [
                 {
@@ -2430,7 +2441,7 @@
             "source_ref": "2(2)(viii)(c)(ii)",
             "op": "substitute_text",
             "akn_type": "substitution",
-            "relation": "r89.rel26",
+            "relation": "r142.rel26",
             "target": {
               "cited": [
                 {
@@ -2491,7 +2502,7 @@
             "source_ref": "2(2)(viii)(c)(iii)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r89.rel27",
+            "relation": "r142.rel27",
             "target": {
               "cited": [
                 {
@@ -2517,15 +2528,15 @@
               ],
               "eId": null,
               "words": [
-                "r1.w7302",
+                "r1.w7301",
                 "r1.w7306"
               ],
               "boxes": [
                 {
                   "page": 11,
                   "bbox": [
-                    332,
-                    1057,
+                    267,
+                    1056,
                     749,
                     1094
                   ]
@@ -2561,7 +2572,7 @@
             "source_ref": "2(2)(viii)(c)(iv)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r89.rel28",
+            "relation": "r142.rel28",
             "target": {
               "cited": [
                 {
@@ -2627,7 +2638,7 @@
             "source_ref": "2(2)(viii)(c)(v)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r89.rel29",
+            "relation": "r142.rel29",
             "target": [
               {
                 "cited": [
@@ -2741,7 +2752,7 @@
             "source_ref": "2(2)(viii)(c)(vi)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r89.rel30",
+            "relation": "r142.rel30",
             "target": {
               "cited": [
                 {
@@ -2800,7 +2811,7 @@
             "source_ref": "2(2)(viii)(c)(vii)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r89.rel31",
+            "relation": "r142.rel31",
             "target": {
               "cited": [
                 {
@@ -2864,9 +2875,9 @@
           {
             "seq": 32,
             "source_ref": "2(2)(viii)(c)(viii)",
-            "op": "omit",
-            "akn_type": "repeal",
-            "relation": "r89.rel32",
+            "op": "substitute_text",
+            "akn_type": "substitution",
+            "relation": "r142.rel32",
             "target": {
               "cited": [
                 {
@@ -2903,7 +2914,8 @@
                 }
               ]
             },
-            "expect": "the Directorate General of Revenue Intelligence-cum-Directorate of Enforcement",
+            "old": "the Directorate General of Revenue Intelligence-cum-Directorate of Enforcement",
+            "new": "",
             "flags": [],
             "words": [
               "r1.w7492",
@@ -2926,7 +2938,7 @@
             "source_ref": "2(2)(viii)(c)(ix)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r89.rel33",
+            "relation": "r142.rel33",
             "position": "after",
             "anchor": {
               "cited": [
@@ -2998,7 +3010,7 @@
             "source_ref": "2(2)(ix)(a)(i)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r89.rel34",
+            "relation": "r142.rel34",
             "target": {
               "cited": [
                 {
@@ -3042,7 +3054,9 @@
                 "text": "Purchase of food stuffs for civil requirements and their disposal and also for military requirements of sugar, rice, wheat and wheat production"
               }
             ],
-            "flags": [],
+            "flags": [
+              "states_inferred_loose"
+            ],
             "words": [
               "r1.w7569",
               "r1.w7578"
@@ -3064,7 +3078,7 @@
             "source_ref": "2(2)(ix)(a)(ii)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r89.rel35",
+            "relation": "r142.rel35",
             "target": {
               "cited": [
                 {
@@ -3101,7 +3115,9 @@
                 }
               ]
             },
-            "flags": [],
+            "flags": [
+              "states_inferred_loose"
+            ],
             "words": [
               "r1.w7605",
               "r1.w7610"
@@ -3123,7 +3139,7 @@
             "source_ref": "2(2)(ix)(a)(iii)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r89.rel36",
+            "relation": "r142.rel36",
             "position": "after",
             "anchor": {
               "cited": [
@@ -3183,7 +3199,9 @@
                 "text": "North Fastern Regional Agricultural Marketing Corporation Limited."
               }
             ],
-            "flags": [],
+            "flags": [
+              "states_inferred_loose"
+            ],
             "words": [
               "r1.w7612",
               "r1.w7620"
@@ -3205,7 +3223,7 @@
             "source_ref": "2(2)(ix)(a)(iv)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r89.rel37",
+            "relation": "r142.rel37",
             "position": "after",
             "anchor": {
               "cited": [
@@ -3260,7 +3278,9 @@
                 "text": "Nutrition extension"
               }
             ],
-            "flags": [],
+            "flags": [
+              "states_inferred_loose"
+            ],
             "words": [
               "r1.w7655",
               "r1.w7664"
@@ -3282,7 +3302,7 @@
             "source_ref": "2(2)(ix)(b)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r89.rel38",
+            "relation": "r142.rel38",
             "target": {
               "cited": [
                 {
@@ -3319,7 +3339,9 @@
                 }
               ]
             },
-            "flags": [],
+            "flags": [
+              "states_inferred_loose"
+            ],
             "words": [
               "r1.w7681",
               "r1.w7688"
@@ -3341,7 +3363,7 @@
             "source_ref": "2(2)(x)(a)(i)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r89.rel39",
+            "relation": "r142.rel39",
             "position": "after",
             "anchor": {
               "cited": [
@@ -3408,7 +3430,7 @@
             "source_ref": "2(2)(x)(a)(ii)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r89.rel40",
+            "relation": "r142.rel40",
             "position": "after",
             "anchor": {
               "cited": [
@@ -3475,7 +3497,7 @@
             "source_ref": "2(2)(x)(a)(iii)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r89.rel41",
+            "relation": "r142.rel41",
             "position": "after",
             "anchor": {
               "cited": [
@@ -3542,7 +3564,7 @@
             "source_ref": "2(2)(x)(a)(iv)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r89.rel42",
+            "relation": "r142.rel42",
             "target": [
               {
                 "cited": [
@@ -3646,7 +3668,7 @@
             "source_ref": "2(2)(x)(a)(v)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r89.rel43",
+            "relation": "r142.rel43",
             "position": "after",
             "anchor": {
               "cited": [
@@ -3713,7 +3735,7 @@
             "source_ref": "2(2)(x)(a)(vi)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r89.rel44",
+            "relation": "r142.rel44",
             "target": {
               "cited": [
                 {
@@ -3779,7 +3801,7 @@
             "source_ref": "2(2)(x)(a)(vii)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r89.rel45",
+            "relation": "r142.rel45",
             "target": {
               "cited": [
                 {
@@ -3845,7 +3867,7 @@
             "source_ref": "2(2)(x)(a)(viii)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r89.rel46",
+            "relation": "r142.rel46",
             "position": "after",
             "anchor": {
               "cited": [
@@ -3912,7 +3934,7 @@
             "source_ref": "2(2)(x)(a)(ix)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r89.rel47",
+            "relation": "r142.rel47",
             "target": {
               "cited": [
                 {
@@ -3971,7 +3993,7 @@
             "source_ref": "2(2)(x)(a)(x)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r89.rel48",
+            "relation": "r142.rel48",
             "position": "after",
             "anchor": {
               "cited": [
@@ -4037,7 +4059,7 @@
             "source_ref": "2(2)(x)(b)(i)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r89.rel49",
+            "relation": "r142.rel49",
             "target": {
               "cited": [
                 {
@@ -4063,14 +4085,14 @@
               ],
               "eId": null,
               "words": [
-                "r1.w7995",
+                "r1.w7994",
                 "r1.w7999"
               ],
               "boxes": [
                 {
                   "page": 12,
                   "bbox": [
-                    397,
+                    329,
                     519,
                     810,
                     555
@@ -4106,7 +4128,7 @@
             "source_ref": "2(2)(x)(b)(ii)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r89.rel50",
+            "relation": "r142.rel50",
             "position": "after",
             "anchor": {
               "cited": [
@@ -4172,7 +4194,7 @@
             "source_ref": "2(2)(xi)(a)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r89.rel51",
+            "relation": "r142.rel51",
             "position": "after",
             "anchor": {
               "cited": [
@@ -4239,7 +4261,7 @@
             "source_ref": "2(2)(xi)(b)(i)",
             "op": "substitute_text",
             "akn_type": "substitution",
-            "relation": "r89.rel52",
+            "relation": "r142.rel52",
             "target": {
               "cited": [
                 {
@@ -4300,7 +4322,7 @@
             "source_ref": "2(2)(xi)(b)(ii)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r89.rel53",
+            "relation": "r142.rel53",
             "position": "after",
             "anchor": {
               "cited": [
@@ -4366,7 +4388,7 @@
             "source_ref": "2(2)(xi)(b)(iii)",
             "op": "substitute_text",
             "akn_type": "substitution",
-            "relation": "r89.rel54",
+            "relation": "r142.rel54",
             "target": {
               "cited": [
                 {
@@ -4427,7 +4449,7 @@
             "source_ref": "2(2)(xi)(b)(iv)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r89.rel55",
+            "relation": "r142.rel55",
             "target": {
               "cited": [
                 {
@@ -4486,7 +4508,7 @@
             "source_ref": "2(2)(xii)(a)(i)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r89.rel56",
+            "relation": "r142.rel56",
             "target": {
               "cited": [
                 {
@@ -4551,7 +4573,7 @@
             "source_ref": "2(2)(xii)(a)(ii)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r89.rel57",
+            "relation": "r142.rel57",
             "target": {
               "cited": [
                 {
@@ -4616,7 +4638,7 @@
             "source_ref": "2(2)(xii)(a)(iii)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r89.rel58",
+            "relation": "r142.rel58",
             "position": "after",
             "anchor": {
               "cited": [
@@ -4683,7 +4705,7 @@
             "source_ref": "2(2)(xii)(b)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r89.rel59",
+            "relation": "r142.rel59",
             "position": "after",
             "anchor": {
               "cited": [
@@ -4728,7 +4750,9 @@
                 "text": "Legislation in relation to societies' registration and exercise of functions under the Societies Registration Act, 1860 (21 of 1860) in centrally administered areas"
               }
             ],
-            "flags": [],
+            "flags": [
+              "states_inferred_loose"
+            ],
             "words": [
               "r1.w8303",
               "r1.w8310"
@@ -4750,7 +4774,7 @@
             "source_ref": "2(2)(xii)(c)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r89.rel60",
+            "relation": "r142.rel60",
             "target": {
               "cited": [
                 {
@@ -4809,7 +4833,7 @@
             "source_ref": "2(2)(xiii)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r89.rel61",
+            "relation": "r142.rel61",
             "target": {
               "cited": [
                 {
@@ -4874,7 +4898,7 @@
             "source_ref": "2(2)(xiv)(i)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r89.rel62",
+            "relation": "r142.rel62",
             "target": {
               "cited": [
                 {
@@ -4917,7 +4941,9 @@
                 "text": "1 Advice to Ministries on legal matters including interpretation of the Constitution and the laws, conveyancing and engagement of coun sel to appear on behalf of the Union of India in the High Courts and subor linnite couts where the Union of India 19 a party"
               }
             ],
-            "flags": [],
+            "flags": [
+              "states_inferred_loose"
+            ],
             "words": [
               "r1.w8438",
               "r1.w8447"
@@ -4939,7 +4965,7 @@
             "source_ref": "2(2)(xiv)(ii)",
             "op": "substitute_text",
             "akn_type": "substitution",
-            "relation": "r89.rel63",
+            "relation": "r142.rel63",
             "target": {
               "cited": [
                 {
@@ -4978,7 +5004,9 @@
             },
             "old": "Supreme Court",
             "new": "Supreme Court and the High Courts",
-            "flags": [],
+            "flags": [
+              "states_inferred_loose"
+            ],
             "words": [
               "r1.w8498",
               "r1.w8506"
@@ -5000,7 +5028,7 @@
             "source_ref": "2(2)(xiv)(iii)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r89.rel64",
+            "relation": "r142.rel64",
             "target": {
               "cited": [
                 {
@@ -5043,7 +5071,9 @@
                 "text": "9 Lepal Profession including the Advocates Act 1961 (25 of 1961) and persons entitled to practice before High Courts"
               }
             ],
-            "flags": [],
+            "flags": [
+              "states_inferred_loose"
+            ],
             "words": [
               "r1.w8517",
               "r1.w8525"
@@ -5065,7 +5095,7 @@
             "source_ref": "2(2)(xiv)(iv)",
             "op": "substitute_text",
             "akn_type": "substitution",
-            "relation": "r89.rel65",
+            "relation": "r142.rel65",
             "target": {
               "cited": [
                 {
@@ -5104,7 +5134,9 @@
             },
             "old": "supplemental",
             "new": "further",
-            "flags": [],
+            "flags": [
+              "states_inferred_loose"
+            ],
             "words": [
               "r1.w8547",
               "r1.w8572"
@@ -5126,7 +5158,7 @@
             "source_ref": "2(2)(xiv)(v)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r89.rel66",
+            "relation": "r142.rel66",
             "target": [
               {
                 "cited": [
@@ -5201,7 +5233,9 @@
                 ]
               }
             ],
-            "flags": [],
+            "flags": [
+              "states_inferred_loose"
+            ],
             "words": [
               "r1.w8560",
               "r1.w8567"
@@ -5223,7 +5257,7 @@
             "source_ref": "2(2)(xv)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r89.rel67",
+            "relation": "r142.rel67",
             "position": "after",
             "anchor": {
               "cited": [
@@ -5273,7 +5307,9 @@
                 "text": "Parliamentary Secretarics-functions"
               }
             ],
-            "flags": [],
+            "flags": [
+              "states_inferred_loose"
+            ],
             "words": [
               "r1.w8568",
               "r1.w8575"
@@ -5295,7 +5331,7 @@
             "source_ref": "2(2)(xvi)(a)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r89.rel68",
+            "relation": "r142.rel68",
             "target": {
               "cited": [
                 {
@@ -5354,7 +5390,7 @@
             "source_ref": "2(2)(xvi)(b)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r89.rel69",
+            "relation": "r142.rel69",
             "target": {
               "cited": [
                 {
@@ -5458,7 +5494,7 @@
             "source_ref": "2(2)(xvii)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r89.rel70",
+            "relation": "r142.rel70",
             "target": {
               "cited": [
                 {
@@ -5524,7 +5560,7 @@
             "source_ref": "2(2)(xviii)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r89.rel71",
+            "relation": "r142.rel71",
             "target": {
               "cited": [
                 {
@@ -5593,7 +5629,7 @@
             "source_ref": "2(2)(xix)(a)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r89.rel72",
+            "relation": "r142.rel72",
             "target": {
               "cited": [
                 {
@@ -5657,7 +5693,7 @@
             "source_ref": "2(2)(xix)(b)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r89.rel73",
+            "relation": "r142.rel73",
             "position": "after",
             "anchor": {
               "cited": [
@@ -5725,7 +5761,7 @@
             "source_ref": "2(2)(xix)(c)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r89.rel74",
+            "relation": "r142.rel74",
             "position": "after",
             "anchor": {
               "cited": [
@@ -5748,17 +5784,17 @@
               ],
               "eId": null,
               "words": [
-                "r1.w9078",
-                "r1.w9078"
+                "r1.w9065",
+                "r1.w9088"
               ],
               "boxes": [
                 {
                   "page": 13,
                   "bbox": [
-                    1072,
-                    2396,
-                    1157,
-                    2430
+                    193,
+                    320,
+                    2212,
+                    3139
                   ]
                 }
               ]
@@ -5792,7 +5828,7 @@
             "source_ref": "2(2)(xix)(d)(i)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r89.rel75",
+            "relation": "r142.rel75",
             "target": {
               "cited": [
                 {
@@ -5858,7 +5894,7 @@
             "source_ref": "2(2)(xix)(d)(ii)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r89.rel76",
+            "relation": "r142.rel76",
             "target": {
               "cited": [
                 {
@@ -5924,7 +5960,7 @@
             "source_ref": "2(2)(xix)(d)(iii)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r89.rel77",
+            "relation": "r142.rel77",
             "target": {
               "cited": [
                 {
@@ -5990,7 +6026,7 @@
             "source_ref": "2(2)(xix)(d)(iv)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r89.rel78",
+            "relation": "r142.rel78",
             "position": "after",
             "anchor": {
               "cited": [
@@ -6102,7 +6138,7 @@
             "source_ref": "2(2)(xx)",
             "op": "substitute_text",
             "akn_type": "substitution",
-            "relation": "r89.rel79",
+            "relation": "r142.rel79",
             "target": {
               "cited": [
                 {
@@ -6110,7 +6146,7 @@
                   "num": "2"
                 },
                 {
-                  "type": "ministry",
+                  "type": "department",
                   "heading": "Department of Atomic Energy"
                 },
                 {

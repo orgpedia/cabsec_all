@@ -1,0 +1,239 @@
+{
+ "file": "1_Upload_335.pdf",
+ "kind": "amendment",
+ "series": 290,
+ "date": "2007-06-28",
+ "govdoc": "aob-ammend_/output/1_Upload_335.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826684.4330478,
+ "edits_file": "aob-ammend_/conf/1_Upload_335.pdf.edits.yml",
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_335.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T14:00:17.484540+00:00",
+  "sha256": "2e082903bb9963f6c4b7e163dec3a36c31ab49172c1d57a0282119c57d70c16e",
+  "pages": 6
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r6",
+   "at": "2026-11-04T13:34:20.297617+00:00",
+   "stamp": "347cf1a3f4c877e6"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r158",
+   "at": "2026-11-15T12:41:39.908903+00:00",
+   "stamp": "93183368f3d09d30"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r159",
+   "at": "2026-11-15T12:41:42.577560+00:00",
+   "stamp": "4e0ed57fecb387fd"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r160",
+   "at": "2026-11-15T12:41:45.303097+00:00",
+   "stamp": "568309bd717e1454"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r169",
+   "at": "2026-11-15T16:24:05.864083+00:00",
+   "stamp": "d0b8cbad829c7f07",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r170",
+   "at": "2026-11-15T16:24:07.612001+00:00",
+   "stamp": "45b1caf14c729986",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r171",
+   "at": "2026-11-15T16:24:09.296184+00:00",
+   "stamp": "d349af7f4b533bf7",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r177",
+   "at": "2026-11-15T16:57:22.608920+00:00",
+   "stamp": "36e38f2fd2b2c53c"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r178",
+   "at": "2026-11-15T17:03:17.688363+00:00",
+   "stamp": "85c5667feb2d0f52"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r183",
+   "at": "2026-11-16T10:58:04.382062+00:00",
+   "stamp": "5c5ccfcc9b454bf9"
+  }
+ ],
+ "reviews": [
+  {
+   "id": "h3.v1",
+   "target": "r148.i1",
+   "status": "rejected",
+   "by": "mukundesh",
+   "at": "2026-11-14T08:16:52+00:00"
+  },
+  {
+   "id": "h4.v1",
+   "target": "r148.i2",
+   "status": "rejected",
+   "by": "mukundesh",
+   "at": "2026-11-14T08:16:53+00:00"
+  }
+ ],
+ "issues": [
+  {
+   "code": "aob:read_quote_mismatch",
+   "severity": "error",
+   "message": "change 5: its provision's group_heading heading is not in the text",
+   "target": "h2.r1",
+   "status": "rejected"
+  },
+  {
+   "code": "aob:read_quote_mismatch",
+   "severity": "error",
+   "message": "change 5: its provision's group_heading heading is not in the text",
+   "target": "h2.r1",
+   "status": "rejected"
+  },
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 7: its quoted text runs across a page break",
+   "target": "r171.rel7",
+   "status": "open"
+  }
+ ],
+ "problems": [],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_1050E_2007",
+   "op": "replace",
+   "source_ref": "2(1)(a)",
+   "path": "schedule 1 › ministry Ministry of Defence › department Depart- ment of Ex-Servicemen Welfare",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_1050E_2007",
+   "op": "insert",
+   "source_ref": "2(1)(b)",
+   "path": "schedule 1 › ministry Ministry of Finance › department Depart- ment of Disinvestment",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_1050E_2007",
+   "op": "omit",
+   "source_ref": "2(2)(a)",
+   "path": "schedule 2 › ministry MINISTRY OF COMMERCE AND INDUSTRY › department DEPARTMENT OF COMMERCE › group_heading IV. TRADING WITH THE ENEMY: ENEMY PROPERTY",
+   "status": "applied"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_1050E_2007",
+   "op": "replace",
+   "source_ref": "2(2)(b)",
+   "path": "schedule 2 › ministry MINISTRY OF DEFENCE › department DEPARTMENT OF EX-SERVICEMEN WELFARE",
+   "status": "applied"
+  },
+  {
+   "seq": 5,
+   "doc_id": "GOI_SO_1050E_2007",
+   "op": "omit",
+   "source_ref": "2(2)(c)(i)",
+   "path": "schedule 2 › ministry MINISTRY OF FINANCE › department DEPARTMENT OF ECONOMIC AFFAIRS › group_heading V. INSURANCE ; schedule 2 › ministry MINISTRY OF FINANCE › department DEPARTMENT OF ECONOMIC AFFAIRS › group_heading VI. BANKING",
+   "status": "applied"
+  },
+  {
+   "seq": 6,
+   "doc_id": "GOI_SO_1050E_2007",
+   "op": "replace",
+   "source_ref": "2(2)(c)(ii)",
+   "path": "schedule 2 › ministry MINISTRY OF FINANCE › department DEPARTMENT OF DISINVESTMENT › entry 1",
+   "status": "applied"
+  },
+  {
+   "seq": 7,
+   "doc_id": "GOI_SO_1050E_2007",
+   "op": "insert",
+   "source_ref": "2(2)(c)(iii)",
+   "path": "schedule 2 › ministry MINISTRY OF FINANCE › department DEPARTMENT OF DISINVESTMENT",
+   "status": "applied"
+  },
+  {
+   "seq": 8,
+   "doc_id": "GOI_SO_1050E_2007",
+   "op": "insert",
+   "source_ref": "2(2)(d)",
+   "path": "schedule 2 › ministry MINISTRY OF HOME AFFAIRS › department DEPARTMENT OF INTERNAL SECURITY",
+   "status": "applied"
+  },
+  {
+   "seq": 9,
+   "doc_id": "GOI_SO_1050E_2007",
+   "op": "insert",
+   "source_ref": "2(2)(e)",
+   "path": "schedule 2 › ministry MINISTRY OF PETROLEUM AND NATURAL GAS",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

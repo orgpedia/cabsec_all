@@ -6,32 +6,32 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_174.pdf",
     "sha256": "80806777bfa783ccf077e278fb7b80006ec3eaa7669fefa3b6a066f986f268cf",
     "govdoc": "1_Upload_174.pdf.govdoc.json.zst",
-    "revision": 46
+    "revision": 70
   },
   "documents": [
     {
       "id": "GOI_SO_537E_1979",
       "doc_type": "aob_amendment",
-      "parent": "GOI_GAZETTE_EXT_381_1979",
+      "parent": "GAZETTE_ISSUE_80806777bfa783cc",
       "fields": {
         "number": {
           "value": "S.O. 537(E)"
         },
         "in_force": {
-          "value": "1979-09-17"
+          "value": "1979-09-20"
         }
       },
       "amendment": {
         "schema_version": "1.0",
         "in_force": {
-          "date": "1979-09-17",
+          "date": "1979-09-20",
           "basis": "stated"
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "3",
+          "version": "4",
           "model": "gemini-4-argon",
-          "at": "2026-11-12T13:49:23.425909+00:00"
+          "at": "2026-11-15T16:24:29.114213+00:00"
         },
         "ops": [
           {
@@ -39,7 +39,7 @@
             "source_ref": "2(a)(i)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel1",
+            "relation": "r63.rel1",
             "target": {
               "cited": [
                 {
@@ -53,14 +53,14 @@
               ],
               "eId": null,
               "words": [
-                "r1.w1628",
+                "r1.w1627",
                 "r1.w1629"
               ],
               "boxes": [
                 {
                   "page": 3,
                   "bbox": [
-                    1535,
+                    1472,
                     2967,
                     1660,
                     3002
@@ -112,7 +112,7 @@
             "source_ref": "2(a)(ii)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r10.rel2",
+            "relation": "r63.rel2",
             "position": "after",
             "anchor": {
               "cited": [
@@ -127,14 +127,14 @@
               ],
               "eId": null,
               "words": [
-                "r1.w1669",
+                "r1.w1668",
                 "r1.w1670"
               ],
               "boxes": [
                 {
                   "page": 4,
                   "bbox": [
-                    439,
+                    351,
                     444,
                     579,
                     477
@@ -172,7 +172,7 @@
             "source_ref": "2(a)(iii)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r10.rel3",
+            "relation": "r63.rel3",
             "target": {
               "cited": [
                 {
@@ -223,7 +223,7 @@
             "source_ref": "2(b)(i)(1)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel4",
+            "relation": "r63.rel4",
             "target": {
               "cited": [
                 {
@@ -237,14 +237,14 @@
               ],
               "eId": null,
               "words": [
-                "r1.w1786",
+                "r1.w1785",
                 "r1.w1798"
               ],
               "boxes": [
                 {
                   "page": 4,
                   "bbox": [
-                    410,
+                    393,
                     908,
                     1186,
                     1008
@@ -282,7 +282,7 @@
             "source_ref": "2(b)(i)(2)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r10.rel5",
+            "relation": "r63.rel5",
             "position": "after",
             "anchor": {
               "cited": [
@@ -292,7 +292,7 @@
                 },
                 {
                   "type": "ministry",
-                  "heading": "MINISTRY OF EDUCATION AND SOCIAL WELFARE"
+                  "heading": "MINISTRY OF EDUCATION AND CULTURE"
                 },
                 {
                   "type": "department",
@@ -301,14 +301,14 @@
               ],
               "eId": null,
               "words": [
-                "r1.w1820",
+                "r1.w1819",
                 "r1.w1831"
               ],
               "boxes": [
                 {
                   "page": 4,
                   "bbox": [
-                    411,
+                    397,
                     1186,
                     1188,
                     1288
@@ -529,6 +529,7 @@
                 "text": "All other attached or subordinate offices or other organisations concerned with any of the subjects specified in this list."
               }
             ],
+            "ref_seq": 4,
             "flags": [],
             "words": [
               "r1.w1818",
@@ -551,7 +552,7 @@
             "source_ref": "2(b)(i)(3)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r10.rel6",
+            "relation": "r63.rel6",
             "target": {
               "cited": [
                 {
@@ -560,11 +561,11 @@
                 },
                 {
                   "type": "ministry",
-                  "heading": "MINISTRY OF EDUCATION AND SOCIAL WELFARE"
+                  "heading": "MINISTRY OF EDUCATION AND CULTURE"
                 },
                 {
                   "type": "department",
-                  "heading": "DEPARTMENT OF SOCIAL WELFARE"
+                  "heading": "DEPARTMENT OF SO- CIAL WELFARE"
                 }
               ],
               "eId": null,
@@ -585,6 +586,7 @@
               ]
             },
             "expect": "B. DEPARTMENT OF SO- CIAL WELFARE (SAMAJ KALYAN VI- BHAG)",
+            "ref_seq": 4,
             "flags": [],
             "words": [
               "r1.w2306",
@@ -607,7 +609,7 @@
             "source_ref": "2(b)(ii)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r10.rel7",
+            "relation": "r63.rel7",
             "position": "after",
             "anchor": {
               "cited": [
@@ -622,14 +624,14 @@
               ],
               "eId": null,
               "words": [
-                "r1.w2328",
+                "r1.w2327",
                 "r1.w2344"
               ],
               "boxes": [
                 {
                   "page": 4,
                   "bbox": [
-                    1477,
+                    1460,
                     2346,
                     2294,
                     2481
@@ -640,13 +642,37 @@
             "content": [
               {
                 "type": "ministry",
-                "heading": "MINISTRY OF SOCIAL WELFARE Part I The following subjects which fall within list of the Seventh Schedule to the Constitution of India: Nil. Part II The following subject which falls within List III of the Seventh Schedule to the Constitution of India (as regards legislation only) :",
+                "heading": "MINISTRY OF SOCIAL WELFARE",
                 "heading_hi": "SAMAJ KALYAN MANTRALAYA"
+              },
+              {
+                "type": "part",
+                "num": "I",
+                "heading": "PART I",
+                "text": "The following subjects which fall within list of the Seventh Schedule to the Constitution of India: Nil."
+              },
+              {
+                "type": "part",
+                "num": "II",
+                "heading": "PART II",
+                "text": "The following subject which falls within List III of the Seventh Schedule to the Constitution of India (as regards legislation only) :"
               },
               {
                 "type": "entry",
                 "num": "1",
-                "text": "Social Security and Social Insurance, save to the extent allotted to any other Department. Part III For the Union territories, the following subjects which fall within List II or List Ill of the Seventh Schedule to the Constitution of India, in so far as they exist in regard to such territories: 2, Relief of the disabled and unemployable and measures relating to social security and social insurance, save to the extent allotted to any other Department. Part IV General and Consequential:"
+                "text": "Social Security and Social Insurance, save to the extent allotted to any other Department."
+              },
+              {
+                "type": "part",
+                "num": "III",
+                "heading": "PART III",
+                "text": "For the Union territories, the following subjects which fall within List II or List Ill of the Seventh Schedule to the Constitution of India, in so far as they exist in regard to such territories: 2, Relief of the disabled and unemployable and measures relating to social security and social insurance, save to the extent allotted to any other Department."
+              },
+              {
+                "type": "part",
+                "num": "IV",
+                "heading": "PART IV",
+                "text": "General and Consequential:"
               },
               {
                 "type": "entry",
@@ -706,7 +732,7 @@
               {
                 "type": "entry",
                 "num": "14",
-                "text": "National Centre for the Blind, including the Central Braille Press, Dehradun; Training Centre for the Adult Deaf, and School for the partially deaf children, Hyderabad; Model School for Mentally Re- 635 GI/79-2 PRINTED BY THE MANAGER, GOVT. OF INDIA tarded Children, New Delhi and other national institutes."
+                "text": "National Centre for the Blind, including the Central Braille Press, Dehradun; Training Centre for the Adult Deaf, and School for the partially deaf children, Hyderabad; Model School for Mentally Re- PRINTED BY THE MANAGER, GOVT. OF INDIA tarded Children, New Delhi and other national institutes."
               },
               {
                 "type": "entry",
@@ -823,7 +849,7 @@
             "source_ref": "2(b)(iii)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r10.rel8",
+            "relation": "r63.rel8",
             "target": {
               "cited": [
                 {

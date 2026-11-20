@@ -1,0 +1,199 @@
+{
+ "file": "1_Upload_147.pdf",
+ "kind": "amendment",
+ "series": 110,
+ "date": "1975-06-26",
+ "govdoc": "aob-ammend_/output/1_Upload_147.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826696.673713,
+ "edits_file": "aob-ammend_/conf/1_Upload_147.pdf.edits.yml",
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_147.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:55:16.259048+00:00",
+  "sha256": "f3108fb74cefa07e10a5cdd1c425c4e579f7ec4bc1f5b3fa922ee06d27ff2d5e",
+  "pages": 4
+ },
+ "edits": [
+  {
+   "run": "h1",
+   "by": "claude",
+   "at": "2026-11-12T15:01:00+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r1.w114",
+     "before": {
+      "text": "219"
+     },
+     "after": {
+      "text": "279"
+     }
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-12T12:46:22.708655+00:00",
+   "stamp": "ce1d45a02143fc5c"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r52",
+   "at": "2026-11-15T12:43:03.348960+00:00",
+   "stamp": "1fb1c4c5d296a5e1"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r53",
+   "at": "2026-11-15T12:43:04.427389+00:00",
+   "stamp": "e53cc5c11283f7e8"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r54",
+   "at": "2026-11-15T12:43:05.367036+00:00",
+   "stamp": "d82f812cc1a2407a"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r63",
+   "at": "2026-11-15T16:25:15.914780+00:00",
+   "stamp": "c61edb0bb64f5ba1",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r64",
+   "at": "2026-11-15T16:25:16.620377+00:00",
+   "stamp": "853fea751be1cebb",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r65",
+   "at": "2026-11-15T16:25:17.317676+00:00",
+   "stamp": "de13147b0ff80779",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r71",
+   "at": "2026-11-15T16:57:40.790285+00:00",
+   "stamp": "dd57b979211c5be0"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r72",
+   "at": "2026-11-15T17:04:00.164495+00:00",
+   "stamp": "d4fafccff9e4c081"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r77",
+   "at": "2026-11-16T10:58:16.658176+00:00",
+   "stamp": "fcb0e6c41d244345"
+  }
+ ],
+ "reviews": [],
+ "issues": [],
+ "problems": [
+  {
+   "series": 110,
+   "seq": 2,
+   "code": "old_path_missing",
+   "severity": "error",
+   "message": "change 2: no entry 23A under schedule 2 › ministry MINISTRY OF HOME AFFAIRS",
+   "cause": "entry_not_in_state"
+  },
+  {
+   "series": 174,
+   "seq": 3,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HOME AFFAIRS › department B › entry 1 reads differently in 1_Upload_212.pdf than in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  },
+  {
+   "series": 174,
+   "seq": 3,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HOME AFFAIRS › department B › entry 7 reads differently in 1_Upload_212.pdf than in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  }
+ ],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_279E_1975",
+   "op": "replace",
+   "source_ref": "2",
+   "path": "schedule 1 › entry 9",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_279E_1975",
+   "op": "omit",
+   "source_ref": "3(a)",
+   "path": "schedule 2 › ministry MINISTRY OF HOME AFFAIRS › entry 23 ; schedule 2 › ministry MINISTRY OF HOME AFFAIRS › entry 23A ; schedule 2 › ministry MINISTRY OF HOME AFFAIRS › entry 25",
+   "status": "not_applied",
+   "problem": "change 2: no entry 23A under schedule 2 › ministry MINISTRY OF HOME AFFAIRS",
+   "code": "old_path_missing",
+   "cause": "entry_not_in_state",
+   "known": "home_affairs"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_279E_1975",
+   "op": "insert",
+   "source_ref": "3(b)",
+   "path": "schedule 2 › ministry MINISTRY OF HOME AFFAIRS › entry 125",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

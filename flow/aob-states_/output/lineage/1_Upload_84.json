@@ -1,0 +1,262 @@
+{
+ "file": "1_Upload_84.pdf",
+ "kind": "amendment",
+ "series": 51,
+ "date": "1966-05-16",
+ "govdoc": "aob-ammend_/output/1_Upload_84.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826696.0718882,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_84.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T14:02:39.721450+00:00",
+  "sha256": "ea18bcf16eb9085b3b1da81c28d8deabf75c2dcb7677ea68908cd208de90c113",
+  "pages": 2
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-12T12:46:04.311794+00:00",
+   "stamp": "c6ff09eeb1e019b3"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r50",
+   "at": "2026-11-15T12:42:47.174634+00:00",
+   "stamp": "3c621167089a41f0"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r51",
+   "at": "2026-11-15T12:42:49.887340+00:00",
+   "stamp": "b3dc0ea3dffcf035"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r52",
+   "at": "2026-11-15T12:42:51.797261+00:00",
+   "stamp": "17eb8f1d244ed1c5"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r61",
+   "at": "2026-11-15T16:25:04.706234+00:00",
+   "stamp": "ff598cd3a3c27b53",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r62",
+   "at": "2026-11-15T16:25:06.678560+00:00",
+   "stamp": "d269caf5edba3a07",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r63",
+   "at": "2026-11-15T16:25:08.744633+00:00",
+   "stamp": "9a1e0479e7c51802",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r69",
+   "at": "2026-11-15T16:57:39.237707+00:00",
+   "stamp": "0d3cbd9c047e2dd9"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r70",
+   "at": "2026-11-15T17:03:54.859028+00:00",
+   "stamp": "f95a58a90b46e3d4"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r75",
+   "at": "2026-11-16T10:58:16.056430+00:00",
+   "stamp": "ead306973e3d2e21"
+  }
+ ],
+ "reviews": [],
+ "issues": [],
+ "problems": [
+  {
+   "series": 51,
+   "seq": 14,
+   "code": "old_path_missing",
+   "severity": "error",
+   "message": "change 14: no entry 7B under schedule 2 › ministry Ministry of Food, Agriculture, Community Development and Cooperation › department B",
+   "cause": "entry_not_in_state"
+  }
+ ],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_1528_1966",
+   "op": "replace",
+   "source_ref": "(1)(i)(a)",
+   "path": "schedule 2 › ministry Ministry of Food, Agriculture, Community Development and Cooperation › department Department of Agriculture › entry 2",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_1528_1966",
+   "op": "insert",
+   "source_ref": "(1)(i)(b)",
+   "path": "schedule 2 › ministry Ministry of Food, Agriculture, Community Development and Cooperation › department Department of Agriculture › entry 6",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_1528_1966",
+   "op": "replace",
+   "source_ref": "(1)(i)(c)",
+   "path": "schedule 2 › ministry Ministry of Food, Agriculture, Community Development and Cooperation › department Department of Agriculture › entry 9",
+   "status": "applied"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_1528_1966",
+   "op": "insert",
+   "source_ref": "(1)(i)(d)",
+   "path": "schedule 2 › ministry Ministry of Food, Agriculture, Community Development and Cooperation › department Department of Agriculture › entry 21A",
+   "status": "applied"
+  },
+  {
+   "seq": 5,
+   "doc_id": "GOI_SO_1528_1966",
+   "op": "replace",
+   "source_ref": "(1)(i)(e)",
+   "path": "schedule 2 › ministry Ministry of Food, Agriculture, Community Development and Cooperation › department Department of Agriculture › entry 26",
+   "status": "applied"
+  },
+  {
+   "seq": 6,
+   "doc_id": "GOI_SO_1528_1966",
+   "op": "replace",
+   "source_ref": "(1)(i)(f)",
+   "path": "schedule 2 › ministry Ministry of Food, Agriculture, Community Development and Cooperation › department Department of Agriculture › entry 30",
+   "status": "applied"
+  },
+  {
+   "seq": 7,
+   "doc_id": "GOI_SO_1528_1966",
+   "op": "insert",
+   "source_ref": "(1)(i)(g)",
+   "path": "schedule 2 › ministry Ministry of Food, Agriculture, Community Development and Cooperation › department Department of Agriculture › entry 30",
+   "status": "applied"
+  },
+  {
+   "seq": 8,
+   "doc_id": "GOI_SO_1528_1966",
+   "op": "replace",
+   "source_ref": "(1)(i)(h)",
+   "path": "schedule 2 › ministry Ministry of Food, Agriculture, Community Development and Cooperation › department Department of Agriculture › entry 38",
+   "status": "applied"
+  },
+  {
+   "seq": 9,
+   "doc_id": "GOI_SO_1528_1966",
+   "op": "replace",
+   "source_ref": "(1)(i)(i)",
+   "path": "schedule 2 › ministry Ministry of Food, Agriculture, Community Development and Cooperation › department Department of Agriculture › entry 40",
+   "status": "applied"
+  },
+  {
+   "seq": 10,
+   "doc_id": "GOI_SO_1528_1966",
+   "op": "insert",
+   "source_ref": "(1)(i)(j)",
+   "path": "schedule 2 › ministry Ministry of Food, Agriculture, Community Development and Cooperation › department Department of Agriculture › entry 40",
+   "status": "applied"
+  },
+  {
+   "seq": 11,
+   "doc_id": "GOI_SO_1528_1966",
+   "op": "replace",
+   "source_ref": "(1)(i)(k)",
+   "path": "schedule 2 › ministry Ministry of Food, Agriculture, Community Development and Cooperation › department Department of Agriculture › entry 43",
+   "status": "applied"
+  },
+  {
+   "seq": 12,
+   "doc_id": "GOI_SO_1528_1966",
+   "op": "replace",
+   "source_ref": "(1)(i)(1)",
+   "path": "schedule 2 › ministry Ministry of Food, Agriculture, Community Development and Cooperation › department Department of Agriculture › entry 46 ; schedule 2 › ministry Ministry of Food, Agriculture, Community Development and Cooperation › department Department of Agriculture › entry 47",
+   "status": "applied"
+  },
+  {
+   "seq": 13,
+   "doc_id": "GOI_SO_1528_1966",
+   "op": "replace",
+   "source_ref": "(1)(i)(a)",
+   "path": "schedule 2 › ministry Ministry of Food, Agriculture, Community Development and Cooperation › department Department of Food › entry 3",
+   "status": "applied"
+  },
+  {
+   "seq": 14,
+   "doc_id": "GOI_SO_1528_1966",
+   "op": "omit",
+   "source_ref": "(1)(i)(b)",
+   "path": "schedule 2 › ministry Ministry of Food, Agriculture, Community Development and Cooperation › department Department of Food › entry 7B ; schedule 2 › ministry Ministry of Food, Agriculture, Community Development and Cooperation › department Department of Food › entry 7C ; schedule 2 › ministry Ministry of Food, Agriculture, Community Development and Cooperation › department Department of Food › entry 7D ; schedule 2 › ministry Ministry of Food, Agriculture, Community Development and Cooperation › department Department of Food › entry 11 › item vi ; schedule 2 › ministry Ministry of Food, Agriculture, Community Development and Cooperation › department Department of Food › entry 11 › item vii",
+   "status": "not_applied",
+   "problem": "change 14: no entry 7B under schedule 2 › ministry Ministry of Food, Agriculture, Community Development and Cooperation › department B",
+   "code": "old_path_missing",
+   "cause": "entry_not_in_state",
+   "known": "entries"
+  },
+  {
+   "seq": 15,
+   "doc_id": "GOI_SO_1528_1966",
+   "op": "replace",
+   "source_ref": "(1)(i)(c)",
+   "path": "schedule 2 › ministry Ministry of Food, Agriculture, Community Development and Cooperation › department Department of Food › entry 16",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

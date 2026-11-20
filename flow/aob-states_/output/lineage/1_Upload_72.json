@@ -1,0 +1,158 @@
+{
+ "file": "1_Upload_72.pdf",
+ "kind": "amendment",
+ "series": 39,
+ "date": "1965-05-13",
+ "govdoc": "aob-ammend_/output/1_Upload_72.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826691.4068189,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_72.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T14:02:25.085979+00:00",
+  "sha256": "a7123f0d8142118a93bdd49c40f00ef1c6d985c1d1ff2b168df2d5cb106819a8",
+  "pages": 2
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-12T12:41:43.253750+00:00",
+   "stamp": "b494ff13e1707a67"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r50",
+   "at": "2026-11-15T12:42:20.782976+00:00",
+   "stamp": "486fd6946858223b"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r51",
+   "at": "2026-11-15T12:42:23.325101+00:00",
+   "stamp": "bdcd8da7d9d29b32"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r52",
+   "at": "2026-11-15T12:42:25.246112+00:00",
+   "stamp": "d11915a73394866d"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r61",
+   "at": "2026-11-15T16:24:38.587690+00:00",
+   "stamp": "cb3176cbde212637",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r62",
+   "at": "2026-11-15T16:24:40.736956+00:00",
+   "stamp": "36d8badf5862ffc4",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r63",
+   "at": "2026-11-15T16:24:42.846669+00:00",
+   "stamp": "f121a9ed92356d4f",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r69",
+   "at": "2026-11-15T16:57:32.424930+00:00",
+   "stamp": "8c6a5a7ac9eade51"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r70",
+   "at": "2026-11-15T17:03:39.195913+00:00",
+   "stamp": "3e63da553aea7faa"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r75",
+   "at": "2026-11-16T10:58:11.399718+00:00",
+   "stamp": "46a741ecc4bc381e"
+  }
+ ],
+ "reviews": [],
+ "issues": [],
+ "problems": [
+  {
+   "series": 39,
+   "seq": 2,
+   "code": "old_path_missing",
+   "severity": "error",
+   "message": "change 2: no ministry Ministry of Petroleum & Chernlbals under schedule 2",
+   "cause": "unit_not_found"
+  }
+ ],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_1564_1965",
+   "op": "insert",
+   "source_ref": "(1)",
+   "path": "schedule 2 › ministry Ministry of Education › entry 68",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_1564_1965",
+   "op": "omit",
+   "source_ref": "(2)",
+   "path": "schedule 2 › ministry Ministry of Petroleum & Chernlbals › department Department of Chemicals › entry 17",
+   "status": "not_applied",
+   "problem": "change 2: no ministry Ministry of Petroleum & Chernlbals under schedule 2",
+   "code": "old_path_missing",
+   "cause": "unit_not_found",
+   "known": "renamed_unit"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

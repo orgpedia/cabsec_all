@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_160.pdf",
     "sha256": "a8fbc8f6c45d29bb0cb13d6e5ffc96545a1ec91afd9787837356bd82b22c6ec5",
     "govdoc": "1_Upload_160.pdf.govdoc.json.zst",
-    "revision": 46
+    "revision": 70
   },
   "documents": [
     {
@@ -29,9 +29,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "3",
+          "version": "4",
           "model": "gemini-4-argon",
-          "at": "2026-11-12T13:49:37.941525+00:00"
+          "at": "2026-11-15T16:24:42.926472+00:00"
         },
         "ops": [
           {
@@ -39,7 +39,7 @@
             "source_ref": "2",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel1",
+            "relation": "r63.rel1",
             "target": {
               "cited": [
                 {
@@ -98,7 +98,7 @@
             "source_ref": "3(a)(1)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r10.rel2",
+            "relation": "r63.rel2",
             "position": "after",
             "anchor": {
               "cited": [
@@ -165,7 +165,7 @@
             "source_ref": "3(a)(ii)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r10.rel3",
+            "relation": "r63.rel3",
             "position": "after",
             "anchor": {
               "cited": [
@@ -232,7 +232,7 @@
             "source_ref": "3(a)(iii)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r10.rel4",
+            "relation": "r63.rel4",
             "target": {
               "cited": [
                 {
@@ -288,7 +288,7 @@
             "source_ref": "3(b)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r10.rel5",
+            "relation": "r63.rel5",
             "position": "after",
             "anchor": {
               "cited": [

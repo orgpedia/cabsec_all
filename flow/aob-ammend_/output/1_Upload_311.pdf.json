@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_311.pdf",
     "sha256": "9fe12ad944e7dd252ffa1d2f589be6518735395f9ddad4875c376a07f03eb881",
     "govdoc": "1_Upload_311.pdf.govdoc.json.zst",
-    "revision": 109
+    "revision": 133
   },
   "documents": [
     {
@@ -29,9 +29,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "3",
+          "version": "4",
           "model": "gemini-4-argon",
-          "at": "2026-11-12T12:56:37.714982+00:00"
+          "at": "2026-11-15T16:24:42.372572+00:00"
         },
         "ops": [
           {
@@ -39,7 +39,7 @@
             "source_ref": "2(1)(a)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r73.rel1",
+            "relation": "r126.rel1",
             "target": {
               "cited": [
                 {
@@ -71,8 +71,9 @@
             "expect": "3A. Ministry of Coal and Mines",
             "content": [
               {
-                "type": "text",
-                "text": "ÇA. Ministry of Coal (Koyala Mantralaya)"
+                "type": "ministry",
+                "heading": "Ministry of Coal",
+                "heading_hi": "Koyala Mantralaya"
               }
             ],
             "flags": [],
@@ -97,7 +98,7 @@
             "source_ref": "2(1)(b)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r73.rel2",
+            "relation": "r126.rel2",
             "position": "after",
             "anchor": {
               "cited": [
@@ -157,7 +158,7 @@
             "source_ref": "2(2)(A)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r73.rel3",
+            "relation": "r126.rel3",
             "target": {
               "cited": [
                 {
@@ -273,7 +274,7 @@
             "source_ref": "2(2)(B)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r73.rel4",
+            "relation": "r126.rel4",
             "target": {
               "cited": [
                 {
@@ -332,7 +333,7 @@
             "source_ref": "2(2)(C)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r73.rel5",
+            "relation": "r126.rel5",
             "position": "after",
             "anchor": {
               "cited": [
@@ -399,7 +400,7 @@
             "source_ref": "2(2)(D)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r73.rel6",
+            "relation": "r126.rel6",
             "position": "after",
             "anchor": {
               "cited": [
@@ -510,7 +511,7 @@
             "source_ref": "2(2)(E)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r73.rel7",
+            "relation": "r126.rel7",
             "target": {
               "cited": [
                 {
@@ -573,7 +574,7 @@
             "source_ref": "2(2)(F)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r73.rel8",
+            "relation": "r126.rel8",
             "position": "after",
             "anchor": {
               "cited": [

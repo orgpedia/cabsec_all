@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_168.pdf",
     "sha256": "9d898f1834484de4d4a8dc8c35f312c63c9f4eb911ab3e17bf3bd5ed37fe46ca",
     "govdoc": "1_Upload_168.pdf.govdoc.json.zst",
-    "revision": 46
+    "revision": 70
   },
   "documents": [
     {
@@ -18,20 +18,20 @@
           "value": "S. O. 10(E)"
         },
         "in_force": {
-          "value": "1978-12-30"
+          "value": "1979-01-02"
         }
       },
       "amendment": {
         "schema_version": "1.0",
         "in_force": {
-          "date": "1978-12-30",
+          "date": "1979-01-02",
           "basis": "stated"
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "3",
+          "version": "4",
           "model": "gemini-4-argon",
-          "at": "2026-11-12T13:49:37.317112+00:00"
+          "at": "2026-11-15T16:24:42.244223+00:00"
         },
         "ops": [
           {
@@ -39,7 +39,7 @@
             "source_ref": "2",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r10.rel1",
+            "relation": "r63.rel1",
             "position": "after",
             "anchor": {
               "cited": [
@@ -144,7 +144,9 @@
                 "text": "relaxation and liberalisation of any service rules having a long-term financial implications in consultation with the Ministry of Finance."
               }
             ],
-            "flags": [],
+            "flags": [
+              "read_page_break"
+            ],
             "words": [
               "r1.w513",
               "r1.w522"

@@ -1,0 +1,226 @@
+{
+ "file": "1_Upload_71.pdf",
+ "kind": "amendment",
+ "series": 38,
+ "date": "1965-04-18",
+ "govdoc": "aob-ammend_/output/1_Upload_71.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826695.041358,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_71.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T14:02:23.954472+00:00",
+  "sha256": "de80798acb6e69a110c6d7647c9982a1dbe7397bd3d3cde6c70b5ae39dc065ef",
+  "pages": 2
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-12T12:45:24.232313+00:00",
+   "stamp": "ebf435b7f54fdc0a"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r50",
+   "at": "2026-11-15T12:42:45.753897+00:00",
+   "stamp": "ba4c3c4d024314f3"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r51",
+   "at": "2026-11-15T12:42:48.399074+00:00",
+   "stamp": "737c3aebdd1f9de2"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r52",
+   "at": "2026-11-15T12:42:50.731339+00:00",
+   "stamp": "f2653438939d8e82"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r61",
+   "at": "2026-11-15T16:25:03.427153+00:00",
+   "stamp": "904fbecd3ef1f2bb",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r62",
+   "at": "2026-11-15T16:25:05.516354+00:00",
+   "stamp": "dd78b60944b4eb60",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r63",
+   "at": "2026-11-15T16:25:07.521567+00:00",
+   "stamp": "ba04c54c03891356",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r69",
+   "at": "2026-11-15T16:57:38.109178+00:00",
+   "stamp": "453ae28f3d849b3c"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r70",
+   "at": "2026-11-15T17:03:52.614376+00:00",
+   "stamp": "449a481c9be1d631"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r75",
+   "at": "2026-11-16T10:58:15.029582+00:00",
+   "stamp": "07636dba1c63ea04"
+  }
+ ],
+ "reviews": [],
+ "issues": [
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
+   "message": "change 10: group_heading A. Social Security taken for group_heading Social Security, named loosely",
+   "target": "r63.rel10",
+   "status": "open"
+  }
+ ],
+ "problems": [],
+ "rules": [
+  {
+   "rule": "loose",
+   "seq": 10,
+   "note": "change 10: group_heading A. Social Security taken for group_heading Social Security, named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  }
+ ],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_1319_1965",
+   "op": "insert",
+   "source_ref": "1(a)",
+   "path": "schedule 2 › ministry Ministry of Commerce › group_heading I. Trade › entry 18",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_1319_1965",
+   "op": "insert",
+   "source_ref": "1(b)",
+   "path": "schedule 2 › ministry Ministry of Commerce › entry 21",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_1319_1965",
+   "op": "insert",
+   "source_ref": "1(c)",
+   "path": "schedule 2 › ministry Ministry of Commerce › group_heading V Plantation Industries › entry 27",
+   "status": "applied"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_1319_1965",
+   "op": "replace",
+   "source_ref": "1(d)",
+   "path": "schedule 2 › ministry Ministry of Commerce › entry 41",
+   "status": "applied"
+  },
+  {
+   "seq": 5,
+   "doc_id": "GOI_SO_1319_1965",
+   "op": "replace",
+   "source_ref": "1(e)",
+   "path": "schedule 2 › ministry Ministry of Commerce › entry 42",
+   "status": "applied"
+  },
+  {
+   "seq": 6,
+   "doc_id": "GOI_SO_1319_1965",
+   "op": "insert",
+   "source_ref": "2(a)",
+   "path": "schedule 2 › ministry Ministry of Finance › department Department of Economic Affairs › entry 26",
+   "status": "applied"
+  },
+  {
+   "seq": 7,
+   "doc_id": "GOI_SO_1319_1965",
+   "op": "omit",
+   "source_ref": "2(b)",
+   "path": "schedule 2 › ministry Ministry of Finance › department Department of Coordination › entry 7",
+   "status": "applied"
+  },
+  {
+   "seq": 8,
+   "doc_id": "GOI_SO_1319_1965",
+   "op": "insert",
+   "source_ref": "3",
+   "path": "schedule 2 › ministry Ministry of Health › entry 56",
+   "status": "applied"
+  },
+  {
+   "seq": 9,
+   "doc_id": "GOI_SO_1319_1965",
+   "op": "insert",
+   "source_ref": "4",
+   "path": "schedule 2 › ministry Ministry of Rehabilitation › entry 21",
+   "status": "applied"
+  },
+  {
+   "seq": 10,
+   "doc_id": "GOI_SO_1319_1965",
+   "op": "omit",
+   "source_ref": "5",
+   "path": "schedule 2 › ministry Department of Social Security › group_heading A. Social Security › entry 6",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

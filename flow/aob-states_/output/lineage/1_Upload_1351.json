@@ -1,0 +1,153 @@
+{
+ "file": "1_Upload_1351.pdf",
+ "kind": "amendment",
+ "series": 337,
+ "date": "2017-12-06",
+ "govdoc": "aob-ammend_/output/1_Upload_1351.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826687.2931461,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_1351.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:54:56.611273+00:00",
+  "sha256": "6b067bbde1efcecafd2da5466e2cc7301251a3968e6f27c57c4ac0cd80a3e583",
+  "pages": 2
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r72",
+   "at": "2026-11-04T13:34:28.139275+00:00",
+   "stamp": "8d2faf1cdb9dc263"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r218",
+   "at": "2026-11-15T12:41:55.603082+00:00",
+   "stamp": "e3d5df0eb2bd47cc"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r219",
+   "at": "2026-11-15T12:41:57.404752+00:00",
+   "stamp": "656f13373e9827b1"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r220",
+   "at": "2026-11-15T12:41:58.645290+00:00",
+   "stamp": "cd90907f9fb83b48"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r229",
+   "at": "2026-11-15T16:24:18.074174+00:00",
+   "stamp": "619ed47c7aa15c46",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r230",
+   "at": "2026-11-15T16:24:19.325844+00:00",
+   "stamp": "d862d27a7e496264",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r231",
+   "at": "2026-11-15T16:24:20.511997+00:00",
+   "stamp": "e5918e12e3ea3110",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r237",
+   "at": "2026-11-15T16:57:26.472810+00:00",
+   "stamp": "02f3c4a1c6abd011"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r238",
+   "at": "2026-11-15T17:03:26.388560+00:00",
+   "stamp": "59619d048081f36a"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r243",
+   "at": "2026-11-16T10:58:07.276468+00:00",
+   "stamp": "e3468dbbd06f58fb"
+  }
+ ],
+ "reviews": [],
+ "issues": [],
+ "problems": [],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_3858E_2017",
+   "op": "insert",
+   "source_ref": "2(a)(i)",
+   "path": "schedule 2 › ministry MINISTRY OF HOUSING AND URBAN AFFAIRS › entry 27",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_3858E_2017",
+   "op": "insert",
+   "source_ref": "2(a)(ii)",
+   "path": "schedule 2 › ministry MINISTRY OF HOUSING AND URBAN AFFAIRS › entry 39",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_3858E_2017",
+   "op": "omit",
+   "source_ref": "2(b)",
+   "path": "schedule 2 › ministry MINISTRY OF STEEL › entry 4 › item viii",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

@@ -1,0 +1,265 @@
+{
+ "file": "1_Upload_303.pdf",
+ "kind": "amendment",
+ "series": 262,
+ "date": "2002-07-02",
+ "govdoc": "aob-ammend_/output/1_Upload_303.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826684.5336246,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_303.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:59:24.321565+00:00",
+  "sha256": "33332ea13d6a04ad0981b67098fd62ee449d63ab61dbee58f261d41c9be8d11a",
+  "pages": 3
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-11T03:13:24.799498+00:00",
+   "stamp": "63daec6995a92043"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r113",
+   "at": "2026-11-15T12:41:40.147206+00:00",
+   "stamp": "e9dbf40d7524bdd6"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r114",
+   "at": "2026-11-15T12:41:42.926868+00:00",
+   "stamp": "d73ee60c3e1fef09"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r115",
+   "at": "2026-11-15T12:41:45.528904+00:00",
+   "stamp": "7d1b10f5490728fa"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r124",
+   "at": "2026-11-15T16:24:06.064583+00:00",
+   "stamp": "0866bc20aa0348c5",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r125",
+   "at": "2026-11-15T16:24:07.765706+00:00",
+   "stamp": "040e9e9524b973f8",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r126",
+   "at": "2026-11-15T16:24:09.448175+00:00",
+   "stamp": "c47c0ff2b71b7585",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r132",
+   "at": "2026-11-15T16:57:22.796659+00:00",
+   "stamp": "51351b05a5bf9422"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r133",
+   "at": "2026-11-15T17:03:18.050301+00:00",
+   "stamp": "da3905a9dc6fdb6f"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r138",
+   "at": "2026-11-16T10:58:04.512335+00:00",
+   "stamp": "9fdf1c8525e7d346"
+  }
+ ],
+ "reviews": [],
+ "issues": [
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 1: its quoted text runs across a page break",
+   "target": "r126.rel1",
+   "status": "open"
+  },
+  {
+   "code": "aob:new_missing",
+   "severity": "warning",
+   "message": "schedule 1 › ministry 19 › department ii is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied",
+   "target": "r126.rel2",
+   "status": "open"
+  },
+  {
+   "code": "aob:new_extra",
+   "severity": "warning",
+   "message": "schedule 1 › ministry 19 › department i › item ii is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf",
+   "target": "r126.rel2",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
+   "message": "change 5: ministry MINISTRY OF LAW, JUSTICE AND COMPANY AFFAIRS taken for ministry MINISTRY OF LAW, JUSTCE AND COMPANY AFFAIRS(, named loosely",
+   "target": "r126.rel5",
+   "status": "open"
+  }
+ ],
+ "problems": [
+  {
+   "series": 271,
+   "seq": 2,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 1 › ministry 19 › department ii is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 2,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 1 › ministry 19 › department i › item ii is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 4,
+   "code": "new_hindi_differs",
+   "severity": "info",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department D's Hindi name reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 4,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department D › entry 10 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 4,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department D › entry 11 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 4,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department D › entry 12 is in 1_Upload_535.pdf but not in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 4,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department D › entry 5 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  }
+ ],
+ "rules": [
+  {
+   "rule": "loose",
+   "seq": 5,
+   "note": "change 5: ministry MINISTRY OF LAW, JUSTICE AND COMPANY AFFAIRS taken for ministry MINISTRY OF LAW, JUSTCE AND COMPANY AFFAIRS(, named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  }
+ ],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_688E_2002",
+   "op": "replace",
+   "source_ref": "2(1)(a)",
+   "path": "schedule 1 › ministry Ministry of Finance",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_688E_2002",
+   "op": "replace",
+   "source_ref": "2(1)(b)",
+   "path": "schedule 1 › ministry Ministry of Law, Justice and Company Affairs",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_688E_2002",
+   "op": "replace",
+   "source_ref": "2(2)(a)",
+   "path": "schedule 2 › ministry MINISTRY OF FINANCE",
+   "status": "applied"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_688E_2002",
+   "op": "insert",
+   "source_ref": "2(2)(b)",
+   "path": "schedule 2 › ministry MINISTRY OF FINANCE AND COMPANY AFFAIRS › department DEPARTMENT OF REVENUE",
+   "status": "applied"
+  },
+  {
+   "seq": 5,
+   "doc_id": "GOI_SO_688E_2002",
+   "op": "replace",
+   "source_ref": "2(2)(c)",
+   "path": "schedule 2 › ministry MINISTRY OF LAW, JUSTICE AND COMPANY AFFAIRS",
+   "status": "applied"
+  },
+  {
+   "seq": 6,
+   "doc_id": "GOI_SO_688E_2002",
+   "op": "omit",
+   "source_ref": "2(2)(d)",
+   "path": "schedule 2 › ministry MINISTRY OF LAW AND JUSTICE › department DEPARTMENT OF COMPANY AFFAIRS",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

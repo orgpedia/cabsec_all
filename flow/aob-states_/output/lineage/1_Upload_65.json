@@ -1,0 +1,216 @@
+{
+ "file": "1_Upload_65.pdf",
+ "kind": "amendment",
+ "series": 32,
+ "date": "1964-08-05",
+ "govdoc": "aob-ammend_/output/1_Upload_65.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826691.556648,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_65.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T14:02:16.866037+00:00",
+  "sha256": "abbcf336eb1ddcb03d62262dcd4b035ad8d0851dd0242fcaca36f7a0eba1cf7d",
+  "pages": 2
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-12T12:41:53.793840+00:00",
+   "stamp": "fa7ee2a420cc1fce"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r50",
+   "at": "2026-11-15T12:42:20.938492+00:00",
+   "stamp": "35ab161b62913cdd"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r51",
+   "at": "2026-11-15T12:42:23.500259+00:00",
+   "stamp": "bc8b726a136b0dfc"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r52",
+   "at": "2026-11-15T12:42:25.345092+00:00",
+   "stamp": "bc5c7fda692f9d79"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r61",
+   "at": "2026-11-15T16:24:38.755448+00:00",
+   "stamp": "27a969715450ba14",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r62",
+   "at": "2026-11-15T16:24:40.846108+00:00",
+   "stamp": "07b16f614b1f60e9",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r63",
+   "at": "2026-11-15T16:24:42.959611+00:00",
+   "stamp": "a36527ddb0265c4d",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r69",
+   "at": "2026-11-15T16:57:32.616856+00:00",
+   "stamp": "bc12387468ec3b5f"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r70",
+   "at": "2026-11-15T17:03:39.372641+00:00",
+   "stamp": "e58abc68da550cd3"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r75",
+   "at": "2026-11-16T10:58:11.548046+00:00",
+   "stamp": "7e87e2c891636139"
+  }
+ ],
+ "reviews": [],
+ "issues": [
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
+   "message": "change 3: group_heading A. \"Social Security” taken for group_heading Social Security, named loosely",
+   "target": "r63.rel3",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
+   "message": "change 4: group_heading A. \"Social Security” taken for group_heading Social Security, named loosely",
+   "target": "r63.rel4",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
+   "message": "change 5: group_heading A. \"Social Security” taken for group_heading Social Security, named loosely",
+   "target": "r63.rel5",
+   "status": "open"
+  }
+ ],
+ "problems": [],
+ "rules": [
+  {
+   "rule": "loose",
+   "seq": 3,
+   "note": "change 3: group_heading A. \"Social Security” taken for group_heading Social Security, named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "loose",
+   "seq": 4,
+   "note": "change 4: group_heading A. \"Social Security” taken for group_heading Social Security, named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "loose",
+   "seq": 5,
+   "note": "change 5: group_heading A. \"Social Security” taken for group_heading Social Security, named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  }
+ ],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_2756_1964",
+   "op": "insert",
+   "source_ref": "(1)",
+   "path": "schedule 2 › ministry Ministry of Industry and Supply › department Department of Industry › group_heading III-\"Industries and Industrial Development\" › entry 6",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_2756_1964",
+   "op": "insert",
+   "source_ref": "(2)",
+   "path": "schedule 2 › ministry Ministry of Labour and Employment › entry 25",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_2756_1964",
+   "op": "replace",
+   "source_ref": "(3)(i)",
+   "path": "schedule 2 › ministry Department of Social Security › group_heading A. \"Social Security” › entry 2",
+   "status": "applied"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_2756_1964",
+   "op": "replace",
+   "source_ref": "(3)(ii)",
+   "path": "schedule 2 › ministry Department of Social Security › group_heading A. \"Social Security” › entry 4",
+   "status": "applied"
+  },
+  {
+   "seq": 5,
+   "doc_id": "GOI_SO_2756_1964",
+   "op": "replace",
+   "source_ref": "(3)(iii)",
+   "path": "schedule 2 › ministry Department of Social Security › group_heading A. \"Social Security” › entry 15",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

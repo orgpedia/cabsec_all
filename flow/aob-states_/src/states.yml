@@ -20,5 +20,9 @@ config:
                                           # the units over time, an epoch a version printed: the Rules of 1961, the
                                           # re-issues of 1985 and 2004, the versions after the elections of 2014, 2019
                                           # and 2024, the latest (versions/evolution.html)
+  decisions: decisions.yml                # the calls on the inference rules (accepted, unreviewed, off; single cases
+                                          # rejected; rules left out): versions/inferred.html
+  known: known.yml                        # the known issues: what the basic checks still raise, each with why
+                                          # (versions/known-issues.html; each document's lineage)
   page_skip: [88]                         # 1_Upload_122: its First Schedule in Hindi names alone, re-issued in English
                                           # a month later (89): left off the page, 89 compared with the states at 87

@@ -2,20 +2,37 @@
 # GovDoc Studio and brought into the GovDoc file by the pipeline before it runs (Pipeline §P9).
 file: 1_Upload_106.pdf
 file_id: f_7ad15ad58de0d217
-next: 4
+next: 6
 runs:
 - id: h1
   by: claude
   at: '2026-11-12T18:01:00Z'
   edits:
-  - {op: text, target: r1.w172, before: {text: "(1)"}, after: {text: "(i)"}}
+  - {op: text, target: r1.w172, before: {text: (1)}, after: {text: (i)}}
 - id: h2
   by: claude
   at: '2026-11-12T18:02:00Z'
   edits:
-  - {op: text, target: r1.w176, before: {text: "(11)"}, after: {text: "(ii)"}}
+  - {op: text, target: r1.w176, before: {text: (11)}, after: {text: (ii)}}
 - id: h3
   by: claude
   at: '2026-11-12T18:03:00Z'
   edits:
-  - {op: text, target: r1.w180, before: {text: "(131)"}, after: {text: "(iii)"}}
+  - {op: text, target: r1.w180, before: {text: (131)}, after: {text: (iii)}}
+- id: h4
+  by: mukundesh
+  at: '2026-11-14T13:49:26Z'
+  edits:
+  - op: remove_word
+    target: r1.w559
+    before:
+      page: 3
+      word: {id: r1.w559, text: '"', bbox: [1303, 2622, 1311, 2629], confidence: 0.51}
+      line: r2.l117
+      after: r1.w561
+    after: null
+- id: h5
+  by: mukundesh
+  at: '2026-11-14T16:32:36Z'
+  edits:
+  - {op: text, target: r1.w572, before: {text: c.}, after: {text: C.}}

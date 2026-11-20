@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_250.pdf",
     "sha256": "3b56d8b510bb1bb69aad71882642fddb5f830fb234080a0b78ed544f379322da",
     "govdoc": "1_Upload_250.pdf.govdoc.json.zst",
-    "revision": 114
+    "revision": 138
   },
   "documents": [
     {
@@ -29,9 +29,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "3",
+          "version": "4",
           "model": "gemini-4-argon",
-          "at": "2026-11-12T12:55:39.628292+00:00"
+          "at": "2026-11-15T16:24:10.080926+00:00"
         },
         "ops": [
           {
@@ -39,7 +39,7 @@
             "source_ref": "2I(a)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r78.rel1",
+            "relation": "r131.rel1",
             "target": {
               "cited": [
                 {
@@ -95,7 +95,7 @@
             "source_ref": "2I(b)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r78.rel2",
+            "relation": "r131.rel2",
             "position": "after",
             "anchor": {
               "cited": [
@@ -108,8 +108,8 @@
                   "heading": "MINISTRY OF INDUSTRY"
                 },
                 {
-                  "type": "item",
-                  "num": "iv"
+                  "type": "department",
+                  "heading": "(iv)"
                 }
               ],
               "eId": null,
@@ -140,7 +140,7 @@
             "flags": [],
             "words": [
               "r1.w1709",
-              "r1.w1718"
+              "r1.w1716"
             ],
             "boxes": [
               {
@@ -159,7 +159,7 @@
             "source_ref": "2I(c)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r78.rel3",
+            "relation": "r131.rel3",
             "position": "after",
             "anchor": {
               "cited": [
@@ -206,7 +206,7 @@
             "flags": [],
             "words": [
               "r1.w1752",
-              "r1.w1761"
+              "r1.w1759"
             ],
             "boxes": [
               {
@@ -214,7 +214,7 @@
                 "bbox": [
                   1490,
                   297,
-                  2393,
+                  2386,
                   378
                 ]
               }
@@ -225,7 +225,7 @@
             "source_ref": "2II(a)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r78.rel4",
+            "relation": "r131.rel4",
             "target": {
               "cited": [
                 {
@@ -259,10 +259,12 @@
               ]
             },
             "expect": "(e) DEPARTMENT OF WOMEN AND CHILD DEVELOPMENT (MAHILA AUR BAL VIKAS VIBHAG)",
-            "flags": [],
+            "flags": [
+              "states_inferred_loose"
+            ],
             "words": [
               "r1.w1793",
-              "r1.w1801"
+              "r1.w1800"
             ],
             "boxes": [
               {
@@ -271,7 +273,7 @@
                   1489,
                   815,
                   2392,
-                  898
+                  897
                 ]
               }
             ]
@@ -281,7 +283,7 @@
             "source_ref": "2II(b)(i)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r78.rel5",
+            "relation": "r131.rel5",
             "target": [
               {
                 "cited": [
@@ -295,7 +297,7 @@
                   },
                   {
                     "type": "department",
-                    "heading": "DEPART- MENT OF INDUSTRIAL DEVELOP- MENT"
+                    "heading": "DEPARt- MENT OF INDUSTRIAL DEVELOP- MENT"
                   },
                   {
                     "type": "entry",
@@ -331,7 +333,7 @@
                   },
                   {
                     "type": "department",
-                    "heading": "DEPART- MENT OF INDUSTRIAL DEVELOP- MENT"
+                    "heading": "DEPARt- MENT OF INDUSTRIAL DEVELOP- MENT"
                   },
                   {
                     "type": "entry",
@@ -367,7 +369,7 @@
                   },
                   {
                     "type": "department",
-                    "heading": "DEPART- MENT OF INDUSTRIAL DEVELOP- MENT"
+                    "heading": "DEPARt- MENT OF INDUSTRIAL DEVELOP- MENT"
                   },
                   {
                     "type": "entry",
@@ -403,7 +405,7 @@
                   },
                   {
                     "type": "department",
-                    "heading": "DEPART- MENT OF INDUSTRIAL DEVELOP- MENT"
+                    "heading": "DEPARt- MENT OF INDUSTRIAL DEVELOP- MENT"
                   },
                   {
                     "type": "entry",
@@ -439,7 +441,7 @@
                   },
                   {
                     "type": "department",
-                    "heading": "DEPART- MENT OF INDUSTRIAL DEVELOP- MENT"
+                    "heading": "DEPARt- MENT OF INDUSTRIAL DEVELOP- MENT"
                   },
                   {
                     "type": "entry",
@@ -467,7 +469,7 @@
             "flags": [],
             "words": [
               "r1.w1835",
-              "r1.w1844"
+              "r1.w1843"
             ],
             "boxes": [
               {
@@ -486,7 +488,7 @@
             "source_ref": "2II(b)(ii)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r78.rel6",
+            "relation": "r131.rel6",
             "target": {
               "cited": [
                 {
@@ -523,10 +525,12 @@
                 }
               ]
             },
-            "flags": [],
+            "flags": [
+              "states_inferred_loose"
+            ],
             "words": [
               "r1.w1859",
-              "r1.w1868"
+              "r1.w1867"
             ],
             "boxes": [
               {
@@ -535,7 +539,7 @@
                   1537,
                   1605,
                   2394,
-                  1684
+                  1682
                 ]
               }
             ]
@@ -545,7 +549,7 @@
             "source_ref": "2II(b)(iii)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r78.rel7",
+            "relation": "r131.rel7",
             "position": "after",
             "anchor": {
               "cited": [
@@ -630,7 +634,7 @@
             "flags": [],
             "words": [
               "r1.w1877",
-              "r1.w1886"
+              "r1.w1885"
             ],
             "boxes": [
               {
@@ -649,7 +653,7 @@
             "source_ref": "2II(c)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r78.rel8",
+            "relation": "r131.rel8",
             "position": "after",
             "anchor": {
               "cited": [
@@ -712,7 +716,7 @@
             "source_ref": "2II(d)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r78.rel9",
+            "relation": "r131.rel9",
             "target": {
               "cited": [
                 {
@@ -999,7 +1003,7 @@
               {
                 "type": "entry",
                 "num": "33",
-                "text": "Representation of the Anglo-Indian Community. ==="
+                "text": "Representation of the Anglo-Indian Community. Printed by the Manager, Govt. of India Press ==="
               },
               {
                 "type": "department",
@@ -1088,7 +1092,7 @@
             ],
             "words": [
               "r1.w2025",
-              "r1.w2035"
+              "r1.w2032"
             ],
             "boxes": [
               {
@@ -1096,7 +1100,7 @@
                 "bbox": [
                   368,
                   739,
-                  1274,
+                  1273,
                   820
                 ]
               }

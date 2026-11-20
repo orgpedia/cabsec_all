@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_53.pdf",
     "sha256": "3506dd65e656d0b90105dcec31078105122e4b36c6cd0eb7988dc2138a6b8006",
     "govdoc": "1_Upload_53.pdf.govdoc.json.zst",
-    "revision": 55
+    "revision": 79
   },
   "documents": [
     {
@@ -29,9 +29,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "3",
+          "version": "4",
           "model": "gemini-4-argon",
-          "at": "2026-11-12T18:01:26.198335+00:00"
+          "at": "2026-11-15T16:24:09.599945+00:00"
         },
         "ops": [
           {
@@ -39,7 +39,7 @@
             "source_ref": "(A)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r28.rel1",
+            "relation": "r71.rel1",
             "target": {
               "cited": [
                 {
@@ -119,7 +119,7 @@
             "source_ref": "(B)(a)(i)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r28.rel2",
+            "relation": "r71.rel2",
             "position": "after",
             "anchor": {
               "cited": [
@@ -186,7 +186,7 @@
             "source_ref": "(B)(a)(ii)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r28.rel3",
+            "relation": "r71.rel3",
             "position": "after",
             "anchor": {
               "cited": [
@@ -253,7 +253,7 @@
             "source_ref": "(B)(a)(iii)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r28.rel4",
+            "relation": "r71.rel4",
             "target": [
               {
                 "cited": [
@@ -353,7 +353,7 @@
             "source_ref": "(B)(b)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r28.rel5",
+            "relation": "r71.rel5",
             "position": "after",
             "anchor": {
               "cited": [

@@ -1,0 +1,196 @@
+{
+ "file": "1_Upload_88.pdf",
+ "kind": "amendment",
+ "series": 55,
+ "date": "1966-10-21",
+ "govdoc": "aob-ammend_/output/1_Upload_88.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826691.3535354,
+ "edits_file": "aob-ammend_/conf/1_Upload_88.pdf.edits.yml",
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_88.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T14:02:44.508925+00:00",
+  "sha256": "a62aabe956eecc194645c57f3cbc072c496f3365155c2ddda5f424f1eedf8baf",
+  "pages": 2
+ },
+ "edits": [
+  {
+   "run": "h1",
+   "by": "claude",
+   "at": "2026-11-12T15:01:00+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r1.w107",
+     "before": {
+      "text": "$261.—The"
+     },
+     "after": {
+      "text": "3261.—The"
+     }
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-12T12:41:30.842649+00:00",
+   "stamp": "c51173e04daf97de"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r52",
+   "at": "2026-11-15T12:42:20.706811+00:00",
+   "stamp": "c79191e47b602f5c"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r53",
+   "at": "2026-11-15T12:42:23.251148+00:00",
+   "stamp": "4e321683b109794e"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r54",
+   "at": "2026-11-15T12:42:25.190868+00:00",
+   "stamp": "ff1fb21a44979c24"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r63",
+   "at": "2026-11-15T16:24:38.522784+00:00",
+   "stamp": "a59b5fbc7043fbb5",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r64",
+   "at": "2026-11-15T16:24:40.677187+00:00",
+   "stamp": "db0dcb9c3c43ad64",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r65",
+   "at": "2026-11-15T16:24:42.781877+00:00",
+   "stamp": "507ebad6890ab7e5",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r71",
+   "at": "2026-11-15T16:57:32.355004+00:00",
+   "stamp": "8c9c8e99879b27d9"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r72",
+   "at": "2026-11-15T17:03:39.083385+00:00",
+   "stamp": "7fbb4c3a5722f418"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r77",
+   "at": "2026-11-16T10:58:11.343297+00:00",
+   "stamp": "b0419c7a255ccf70"
+  }
+ ],
+ "reviews": [],
+ "issues": [],
+ "problems": [],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_3261_1966",
+   "op": "replace",
+   "source_ref": "(1)(a)",
+   "path": "schedule 2 › ministry Ministry of Education › entry 14",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_3261_1966",
+   "op": "insert",
+   "source_ref": "(1)(b)",
+   "path": "schedule 2 › ministry Ministry of Education › entry 15",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_3261_1966",
+   "op": "replace",
+   "source_ref": "(2)(a)(1)",
+   "path": "schedule 2 › ministry Ministry of Food, Agriculture, Community Development and Cooperation › department Department of Agriculture › entry 13",
+   "status": "applied"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_3261_1966",
+   "op": "omit",
+   "source_ref": "(2)(a)(ii)",
+   "path": "schedule 2 › ministry Ministry of Food, Agriculture, Community Development and Cooperation › department Department of Agriculture › entry 17",
+   "status": "applied"
+  },
+  {
+   "seq": 5,
+   "doc_id": "GOI_SO_3261_1966",
+   "op": "insert",
+   "source_ref": "(2)(b)",
+   "path": "schedule 2 › ministry Ministry of Food, Agriculture, Community Development and Cooperation › department Department of Food › entry 10",
+   "status": "applied"
+  },
+  {
+   "seq": 6,
+   "doc_id": "GOI_SO_3261_1966",
+   "op": "insert",
+   "source_ref": "(3)",
+   "path": "schedule 2 › ministry Ministry of Transport and Aviation › department Department of Aviation and Tourism › entry 7",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

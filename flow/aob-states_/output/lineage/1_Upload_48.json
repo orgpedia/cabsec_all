@@ -1,0 +1,173 @@
+{
+ "file": "1_Upload_48.pdf",
+ "kind": "amendment",
+ "series": 15,
+ "date": "1963-02-08",
+ "govdoc": "aob-ammend_/output/1_Upload_48.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826683.0987291,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_48.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T14:01:46.930094+00:00",
+  "sha256": "18f4b94ab292c2dd6bdd204db19da2813274a3166ee166e941669bb11b2ba6fe",
+  "pages": 2
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-12T12:31:59.239352+00:00",
+   "stamp": "4a924d543d0810de"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r50",
+   "at": "2026-11-15T12:41:26.288969+00:00",
+   "stamp": "e703b7cba468da65"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r51",
+   "at": "2026-11-15T12:41:28.490519+00:00",
+   "stamp": "f16f37bc8a9e3068"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r52",
+   "at": "2026-11-15T12:41:30.489791+00:00",
+   "stamp": "e0b00064bab61bea"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r61",
+   "at": "2026-11-15T16:23:56.726911+00:00",
+   "stamp": "38dbb192a894f8bf",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r62",
+   "at": "2026-11-15T16:23:58.417563+00:00",
+   "stamp": "2c5a11b5f5f42f11",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r63",
+   "at": "2026-11-15T16:23:59.751951+00:00",
+   "stamp": "107d801bcb5bba57",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r69",
+   "at": "2026-11-15T16:57:20.408235+00:00",
+   "stamp": "6a1ce440cf1e390c"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r70",
+   "at": "2026-11-15T17:03:12.434959+00:00",
+   "stamp": "8e4c4925f1ab698e"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r75",
+   "at": "2026-11-16T10:58:03.091969+00:00",
+   "stamp": "4965e8402395e6fc"
+  }
+ ],
+ "reviews": [],
+ "issues": [
+  {
+   "code": "aob:read_hindi_missing",
+   "severity": "info",
+   "message": "change 1: a new heading has no Hindi name in brackets",
+   "target": "r63.rel1",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_hindi_missing",
+   "severity": "info",
+   "message": "change 2: a new heading has no Hindi name in brackets",
+   "target": "r63.rel2",
+   "status": "open"
+  }
+ ],
+ "problems": [
+  {
+   "series": 15,
+   "seq": 2,
+   "code": "old_path_missing",
+   "severity": "error",
+   "message": "change 2: no department Department of Community Development and Panchayati Raj under schedule 2 › ministry MINISTRY OF COMMUNITY DEVELOPMENT & COOPERATION",
+   "cause": "unit_not_found"
+  }
+ ],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_489_1963",
+   "op": "replace",
+   "source_ref": "(A)",
+   "path": "schedule 1 › entry 2",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_489_1963",
+   "op": "replace",
+   "source_ref": "(B)",
+   "path": "schedule 2 › ministry Ministry of Community Development, Panchayati Raj & Cooperation ; schedule 2 › ministry Ministry of Community Development, Panchayati Raj & Cooperation › department Department of Community Development and Panchayati Raj",
+   "status": "not_applied",
+   "problem": "change 2: no department Department of Community Development and Panchayati Raj under schedule 2 › ministry MINISTRY OF COMMUNITY DEVELOPMENT & COOPERATION",
+   "code": "old_path_missing",
+   "cause": "unit_not_found",
+   "known": "renamed_unit"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

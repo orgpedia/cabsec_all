@@ -1,0 +1,305 @@
+{
+ "file": "1_Upload_282.pdf",
+ "kind": "amendment",
+ "series": 242,
+ "date": "1999-04-09",
+ "govdoc": "aob-ammend_/output/1_Upload_282.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826685.0192864,
+ "edits_file": "aob-ammend_/conf/1_Upload_282.pdf.edits.yml",
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_282.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:58:40.548523+00:00",
+  "sha256": "3a6c292496e9300f6a256d3106019e8b6a973d61c6d19ce6c06ec844931d8ec6",
+  "pages": 20
+ },
+ "edits": [
+  {
+   "run": "h1",
+   "by": "claude",
+   "at": "2026-11-12T05:04:00+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r1.w2775",
+     "before": {
+      "text": "(Bu"
+     },
+     "after": {
+      "text": "(Bhu"
+     }
+    }
+   ]
+  },
+  {
+   "run": "h2",
+   "by": "claude",
+   "at": "2026-11-12T05:05:00+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r1.w2776",
+     "before": {
+      "text": "CA-Sahan"
+     },
+     "after": {
+      "text": "Sansadhan"
+     }
+    }
+   ]
+  },
+  {
+   "run": "h3",
+   "by": "claude",
+   "at": "2026-11-12T05:06:00+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r1.w2777",
+     "before": {
+      "text": "Vithag)\":"
+     },
+     "after": {
+      "text": "Vibhag)\":"
+     }
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-11T03:08:42.426839+00:00",
+   "stamp": "9cf88a5ab374c6a3"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r121",
+   "at": "2026-11-15T12:41:40.833334+00:00",
+   "stamp": "b452325480335917"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r122",
+   "at": "2026-11-15T12:41:43.504294+00:00",
+   "stamp": "82c4884418ae9c2e"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r123",
+   "at": "2026-11-15T12:41:46.046689+00:00",
+   "stamp": "cc6999249ba3c907"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r132",
+   "at": "2026-11-15T16:24:06.542818+00:00",
+   "stamp": "96e170c7d45cc005",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r133",
+   "at": "2026-11-15T16:24:08.248826+00:00",
+   "stamp": "d7b9c5388a8b5f2c",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r134",
+   "at": "2026-11-15T16:24:09.941878+00:00",
+   "stamp": "982b75ef60a273c9",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r140",
+   "at": "2026-11-15T16:57:23.197257+00:00",
+   "stamp": "a2cf046bbaef3bb6"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r141",
+   "at": "2026-11-15T17:03:18.765680+00:00",
+   "stamp": "3fcd1e5e3fd17824"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r146",
+   "at": "2026-11-16T10:58:04.942889+00:00",
+   "stamp": "bdd7d5b5fe15d0da"
+  }
+ ],
+ "reviews": [],
+ "issues": [
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 5: its quoted text runs across a page break",
+   "target": "r134.rel5",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_hindi_missing",
+   "severity": "info",
+   "message": "change 6: a new heading has no Hindi name in brackets",
+   "target": "r134.rel6",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 6: its quoted text runs across a page break",
+   "target": "r134.rel6",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 7: its quoted text runs across a page break",
+   "target": "r134.rel7",
+   "status": "open"
+  },
+  {
+   "code": "aob:new_hindi_differs",
+   "severity": "info",
+   "message": "schedule 1 › ministry 28 › department ii's Hindi name reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied",
+   "target": "r134.rel2",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
+   "message": "change 5: department DEPARTMENT OF PROGRAMME IMPLEMENTATION taken for department DEPARTMENT OF PROGRAMME IMPLEMEN- TATION (KARYAKRAM KARYANVAYAN VIGHAG) (1) Monitoring of 20 point programme, named loosely",
+   "target": "r134.rel5",
+   "status": "open"
+  }
+ ],
+ "problems": [
+  {
+   "series": 271,
+   "seq": 2,
+   "code": "new_hindi_differs",
+   "severity": "info",
+   "message": "schedule 1 › ministry 28 › department ii's Hindi name reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 4,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF AGRICULTURE › department A › part IV › entry 47A is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  }
+ ],
+ "rules": [
+  {
+   "rule": "loose",
+   "seq": 5,
+   "note": "change 5: department DEPARTMENT OF PROGRAMME IMPLEMENTATION taken for department DEPARTMENT OF PROGRAMME IMPLEMEN- TATION (KARYAKRAM KARYANVAYAN VIGHAG) (1) Monitoring of 20 point programme, named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  }
+ ],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_244E_1999",
+   "op": "replace",
+   "source_ref": "2(1)(a)",
+   "path": "schedule 1 › ministry Ministry of Planning and Programme Implementation › department Department of Statistics ; schedule 1 › ministry Ministry of Planning and Programme Implementation › department Department of Programme Implementation",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_244E_1999",
+   "op": "replace",
+   "source_ref": "2(1)(b)",
+   "path": "schedule 1 › ministry Ministry of Rural Areas and Employment",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_244E_1999",
+   "op": "replace",
+   "source_ref": "2(1)(c)",
+   "path": "schedule 1 › ministry Ministry of Urban Affairs and Employment",
+   "status": "applied"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_244E_1999",
+   "op": "insert",
+   "source_ref": "2(2)(a)",
+   "path": "schedule 2 › ministry MINISTRY OF AGRICULTURE › department DEPARTMENT OF AGRICULTURE AND COOPERATION › entry 47",
+   "status": "applied"
+  },
+  {
+   "seq": 5,
+   "doc_id": "GOI_SO_244E_1999",
+   "op": "replace",
+   "source_ref": "2(2)(b)",
+   "path": "schedule 2 › ministry MINISTRY OF PLANNING AND PROGRAMME IMPLEMENTATION › department DEPARTMENT OF STATISTICS ; schedule 2 › ministry MINISTRY OF PLANNING AND PROGRAMME IMPLEMENTATION › department DEPARTMENT OF PROGRAMME IMPLEMENTATION",
+   "status": "applied"
+  },
+  {
+   "seq": 6,
+   "doc_id": "GOI_SO_244E_1999",
+   "op": "replace",
+   "source_ref": "2(2)(c)",
+   "path": "schedule 2 › ministry MINISTRY OF RURAL AREAS AND EMPLOYMENT",
+   "status": "applied"
+  },
+  {
+   "seq": 7,
+   "doc_id": "GOI_SO_244E_1999",
+   "op": "replace",
+   "source_ref": "2(2)(d)",
+   "path": "schedule 2 › ministry MINISTRY OF URBAN AFFAIRS AND EMPLOYMENT",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

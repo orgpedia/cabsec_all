@@ -1,0 +1,146 @@
+{
+ "file": "1_Upload_370.pdf",
+ "kind": "amendment",
+ "series": 325,
+ "date": "2016-05-18",
+ "govdoc": "aob-ammend_/output/1_Upload_370.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826683.6235263,
+ "edits_file": "aob-ammend_/conf/1_Upload_370.pdf.edits.yml",
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_370.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T14:01:08.439687+00:00",
+  "sha256": "2a8b6fd867e5b6e2cfa96badbda0e59700e7554ce79e02cc2b7e81f00c02d592",
+  "pages": 2
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-03T03:44:19.041284+00:00",
+   "stamp": "6b026532c49921d1"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r179",
+   "at": "2026-11-15T12:41:26.967393+00:00",
+   "stamp": "c2cf432926f14b35"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r180",
+   "at": "2026-11-15T12:41:29.331752+00:00",
+   "stamp": "6d40f2b3c8a277fd"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r181",
+   "at": "2026-11-15T12:41:30.971963+00:00",
+   "stamp": "ac164f201e29e118"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r190",
+   "at": "2026-11-15T16:23:57.268484+00:00",
+   "stamp": "035b6296fc3bff50",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r191",
+   "at": "2026-11-15T16:23:58.905097+00:00",
+   "stamp": "cdcc7832164d6631",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r192",
+   "at": "2026-11-15T16:24:00.329289+00:00",
+   "stamp": "b0db11798242468d",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r198",
+   "at": "2026-11-15T16:57:21.007767+00:00",
+   "stamp": "f8584e5cdcb8b600"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r199",
+   "at": "2026-11-15T17:03:13.381383+00:00",
+   "stamp": "4c69047e2dde2b91"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r204",
+   "at": "2026-11-16T10:58:03.607817+00:00",
+   "stamp": "4d7948c59c74b31b"
+  }
+ ],
+ "reviews": [],
+ "issues": [],
+ "problems": [
+  {
+   "series": 325,
+   "seq": 1,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF EARTH SCIENCES › entry 4 reads differently in 1_Upload_876.pdf than in 1_Upload_877.pdf with this amendment applied"
+  }
+ ],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_1832E_2016",
+   "op": "replace",
+   "source_ref": "2",
+   "path": "schedule 2 › ministry MINISTRY OF EARTH SCIENCES",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

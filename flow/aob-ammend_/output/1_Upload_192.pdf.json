@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_192.pdf",
     "sha256": "f2900e7d99b05244ad8fb198c9c50598986e7bacde3389ddaaf0ef456385370f",
     "govdoc": "1_Upload_192.pdf.govdoc.json.zst",
-    "revision": 46
+    "revision": 70
   },
   "documents": [
     {
@@ -29,9 +29,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "3",
+          "version": "4",
           "model": "gemini-4-argon",
-          "at": "2026-11-12T13:50:10.934408+00:00"
+          "at": "2026-11-15T16:25:17.300575+00:00"
         },
         "ops": [
           {
@@ -39,7 +39,7 @@
             "source_ref": "2(a)(i)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r10.rel1",
+            "relation": "r63.rel1",
             "position": "after",
             "anchor": {
               "cited": [
@@ -54,7 +54,7 @@
               ],
               "eId": null,
               "words": [
-                "r1.w530",
+                "r1.w529",
                 "r1.w536"
               ],
               "boxes": [
@@ -99,9 +99,9 @@
           {
             "seq": 2,
             "source_ref": "2(a)(ii)",
-            "op": "substitute_text",
-            "akn_type": "substitution",
-            "relation": "r10.rel2",
+            "op": "omit",
+            "akn_type": "repeal",
+            "relation": "r63.rel2",
             "target": {
               "cited": [
                 {
@@ -130,8 +130,7 @@
                 }
               ]
             },
-            "old": "[with a Department of Ocean Development (Mahasagar Vikas Vibhag) within the Secretariat (Sachivalaya)}",
-            "new": "",
+            "expect": "[with a Department of Ocean Development (Mahasagar Vikas Vibhag) within the Secretariat (Sachivalaya)}",
             "flags": [],
             "words": [
               "r1.w559",
@@ -154,7 +153,7 @@
             "source_ref": "2(b)(i)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r10.rel3",
+            "relation": "r63.rel3",
             "position": "after",
             "anchor": {
               "cited": [
@@ -164,19 +163,19 @@
                 },
                 {
                   "type": "ministry",
-                  "heading": "DEPARTMENT OF ENVIRONMENT"
+                  "heading": "DEPARTMENT OF ENVIRON- MENT"
                 }
               ],
               "eId": null,
               "words": [
-                "r1.w590",
+                "r1.w589",
                 "r1.w601"
               ],
               "boxes": [
                 {
                   "page": 2,
                   "bbox": [
-                    1587,
+                    1565,
                     549,
                     2394,
                     654
@@ -263,7 +262,7 @@
             "source_ref": "2(b)(ii)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r10.rel4",
+            "relation": "r63.rel4",
             "target": {
               "cited": [
                 {
@@ -272,31 +271,30 @@
                 },
                 {
                   "type": "ministry",
-                  "heading": "CABINET SECRETARIAT"
+                  "heading": "CABINET SECRETARIAT."
                 },
                 {
                   "type": "department",
-                  "heading": "DEPARTMENT OF OCEAN DEVELOPMENT"
+                  "heading": "DEPARTMENT OF OCEAN DEVE- LOPMENT"
                 }
               ],
               "eId": null,
               "words": [
-                "r1.w735",
+                "r1.w728",
                 "r1.w748"
               ],
               "boxes": [
                 {
                   "page": 2,
                   "bbox": [
-                    1579,
-                    1867,
-                    2395,
+                    1546,
+                    1834,
+                    2420,
                     2000
                   ]
                 }
               ]
             },
-            "expect": "DEPARTMENT OF OCEAN DEVE- LOPMENT (MAHASAGAR VIKAS VIBHAG)",
             "flags": [],
             "words": [
               "r1.w727",

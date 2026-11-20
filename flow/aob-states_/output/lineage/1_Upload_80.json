@@ -1,0 +1,250 @@
+{
+ "file": "1_Upload_80.pdf",
+ "kind": "amendment",
+ "series": 47,
+ "date": "1966-02-01",
+ "govdoc": "aob-ammend_/output/1_Upload_80.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826688.243509,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_80.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T14:02:35.129752+00:00",
+  "sha256": "75e27a7894b8c70f87a14aceda732670434f31bc5aef3ca1918bfe8a27abf912",
+  "pages": 2
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-12T12:36:09.285868+00:00",
+   "stamp": "020ea3ea0d640c8b"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r50",
+   "at": "2026-11-15T12:42:05.780976+00:00",
+   "stamp": "31ab9f826bf8dfbf"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r51",
+   "at": "2026-11-15T12:42:07.918073+00:00",
+   "stamp": "aa9a4261a248901d"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r52",
+   "at": "2026-11-15T12:42:09.862347+00:00",
+   "stamp": "9fbd50f03fbbd339"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r61",
+   "at": "2026-11-15T16:24:25.600039+00:00",
+   "stamp": "0f290bc212916604",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r62",
+   "at": "2026-11-15T16:24:27.170480+00:00",
+   "stamp": "022478d88e227009",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r63",
+   "at": "2026-11-15T16:24:28.661788+00:00",
+   "stamp": "60851d80a02f9aec",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r69",
+   "at": "2026-11-15T16:57:28.087632+00:00",
+   "stamp": "fab779c59346067f"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r70",
+   "at": "2026-11-15T17:03:30.284722+00:00",
+   "stamp": "a619789b84e8b179"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r75",
+   "at": "2026-11-16T10:58:08.231361+00:00",
+   "stamp": "72b04fc26532515a"
+  }
+ ],
+ "reviews": [],
+ "issues": [],
+ "problems": [
+  {
+   "series": 47,
+   "seq": 2,
+   "code": "old_path_missing",
+   "severity": "error",
+   "message": "change 2: no entry 31 under schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading IX",
+   "cause": "entry_not_in_state"
+  },
+  {
+   "series": 47,
+   "seq": 4,
+   "code": "old_path_missing",
+   "severity": "error",
+   "message": "change 4: no department Department of Labour and Employment under schedule 2 › ministry Ministry of Labour, Employment & Rehabilitation",
+   "cause": "unit_not_found"
+  },
+  {
+   "series": 47,
+   "seq": 5,
+   "code": "old_path_missing",
+   "severity": "error",
+   "message": "change 5: no department Department of Labour and Employment under schedule 2 › ministry Ministry of Labour, Employment & Rehabilitation",
+   "cause": "unit_not_found"
+  },
+  {
+   "series": 47,
+   "seq": 7,
+   "code": "old_path_missing",
+   "severity": "error",
+   "message": "change 7: no group_heading Other Subjects under schedule 2 › ministry MINISTRY OF PETROLEUM & CHEMICALS › department B",
+   "cause": "group_not_found"
+  }
+ ],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_426_1966",
+   "op": "insert",
+   "source_ref": "(1)",
+   "path": "schedule 2 › ministry Ministry of Education › entry 70",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_426_1966",
+   "op": "insert",
+   "source_ref": "(2)",
+   "path": "schedule 2 › ministry Ministry of Finance › department Department of Economic Affairs › group_heading VI. Corporations › entry 31",
+   "status": "not_applied",
+   "problem": "change 2: no entry 31 under schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading IX",
+   "code": "old_path_missing",
+   "cause": "entry_not_in_state",
+   "known": "entries"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_426_1966",
+   "op": "insert",
+   "source_ref": "(3)",
+   "path": "schedule 2 › ministry Ministry of Irrigation and Power › entry 27",
+   "status": "applied"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_426_1966",
+   "op": "insert",
+   "source_ref": "(4)(a)",
+   "path": "schedule 2 › ministry Ministry of Labour, Employment and, Rehabilitation › department Department of Labour and Employment › group_heading Part II-Concurrent Subjects › entry 5",
+   "status": "not_applied",
+   "problem": "change 4: no department Department of Labour and Employment under schedule 2 › ministry Ministry of Labour, Employment & Rehabilitation",
+   "code": "old_path_missing",
+   "cause": "unit_not_found",
+   "known": "renamed_unit"
+  },
+  {
+   "seq": 5,
+   "doc_id": "GOI_SO_426_1966",
+   "op": "insert",
+   "source_ref": "(4)(b)",
+   "path": "schedule 2 › ministry Ministry of Labour, Employment and, Rehabilitation › department Department of Labour and Employment › group_heading Part V-Miscellaneous Business › entry 25",
+   "status": "not_applied",
+   "problem": "change 5: no department Department of Labour and Employment under schedule 2 › ministry Ministry of Labour, Employment & Rehabilitation",
+   "code": "old_path_missing",
+   "cause": "unit_not_found",
+   "known": "renamed_unit"
+  },
+  {
+   "seq": 6,
+   "doc_id": "GOI_SO_426_1966",
+   "op": "omit",
+   "source_ref": "(5)",
+   "path": "schedule 2 › ministry Ministry of Law › department Department of Company Affairs › entry 2 ; schedule 2 › ministry Ministry of Law › department Department of Company Affairs › entry 3",
+   "status": "applied"
+  },
+  {
+   "seq": 7,
+   "doc_id": "GOI_SO_426_1966",
+   "op": "omit",
+   "source_ref": "(6)",
+   "path": "schedule 2 › ministry Ministry of Petroleum and Chemicals › department Department of Chemicals › group_heading Other Subjects ; schedule 2 › ministry Ministry of Petroleum and Chemicals › department Department of Chemicals › group_heading Other Subjects › entry 18 ; schedule 2 › ministry Ministry of Petroleum and Chemicals › department Department of Chemicals › group_heading Other Subjects › entry 10 ; schedule 2 › ministry Ministry of Petroleum and Chemicals › department Department of Chemicals › group_heading Other Subjects › entry 21 ; schedule 2 › ministry Ministry of Petroleum and Chemicals › department Department of Chemicals › group_heading Other Subjects › entry 22",
+   "status": "not_applied",
+   "problem": "change 7: no group_heading Other Subjects under schedule 2 › ministry MINISTRY OF PETROLEUM & CHEMICALS › department B",
+   "code": "old_path_missing",
+   "cause": "group_not_found",
+   "known": "groups"
+  },
+  {
+   "seq": 8,
+   "doc_id": "GOI_SO_426_1966",
+   "op": "omit",
+   "source_ref": "(7)(a)",
+   "path": "schedule 2 › ministry Department of Social Welfare › entry 12",
+   "status": "applied"
+  },
+  {
+   "seq": 9,
+   "doc_id": "GOI_SO_426_1966",
+   "op": "replace",
+   "source_ref": "(7)(b)",
+   "path": "schedule 2 › ministry Department of Social Welfare › entry 13",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

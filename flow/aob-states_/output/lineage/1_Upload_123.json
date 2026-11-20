@@ -1,0 +1,245 @@
+{
+ "file": "1_Upload_123.pdf",
+ "kind": "amendment",
+ "series": 89,
+ "date": "1971-06-17",
+ "govdoc": "aob-ammend_/output/1_Upload_123.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826686.3625622,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_123.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:54:34.771068+00:00",
+  "sha256": "4d37241428607c7a8a9d99ed1f8515bb2c998a97b7242af7a02e927563194d50",
+  "pages": 4
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-12T12:34:19.023260+00:00",
+   "stamp": "0b02297150249194"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r50",
+   "at": "2026-11-15T12:41:54.413219+00:00",
+   "stamp": "a155d411c917157a"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r51",
+   "at": "2026-11-15T12:41:55.861082+00:00",
+   "stamp": "a60bd7dcc96dc81b"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r52",
+   "at": "2026-11-15T12:41:57.695889+00:00",
+   "stamp": "ca12f6883d39d82d"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r61",
+   "at": "2026-11-15T16:24:17.116135+00:00",
+   "stamp": "ec58953673eb3887",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r62",
+   "at": "2026-11-15T16:24:18.287863+00:00",
+   "stamp": "41c8498a70bf690c",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r63",
+   "at": "2026-11-15T16:24:19.526680+00:00",
+   "stamp": "62a859283e2412db",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r69",
+   "at": "2026-11-15T16:57:25.508940+00:00",
+   "stamp": "bae34660623b1496"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r70",
+   "at": "2026-11-15T17:03:24.625865+00:00",
+   "stamp": "704115b3044a86f7"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r75",
+   "at": "2026-11-16T10:58:06.347736+00:00",
+   "stamp": "06d2432810029e1c"
+  }
+ ],
+ "reviews": [],
+ "issues": [
+  {
+   "code": "aob:read_clause_missed",
+   "severity": "error",
+   "message": "clause 3(a) says a change is made, but no change was found",
+   "target": "r61.a4",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_clause_missed",
+   "severity": "error",
+   "message": "clause 3(d)(ii) says a change is made, but no change was found",
+   "target": "r61.a8",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 1: its quoted text runs across a page break",
+   "target": "r63.rel1",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
+   "message": "change 3: department DEPARTMENT OF ELECTRONICS taken for department Department of Electronics Development of Electronics and coordination amongst its various users., named loosely",
+   "target": "r63.rel3",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_hindi_name",
+   "severity": "info",
+   "message": "the Second Schedule's SAMAJ KALYAN VIBHAG read as DEPARTMENT OF SOCIAL WELFARE, the First Schedule's English name for it",
+   "target": "GOI_SO_2319_1971",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_hindi_name",
+   "severity": "info",
+   "message": "the Second Schedule's KARMIK VIBHAG read as DEPARTMENT OF PERSONNEL, the First Schedule's English name for it",
+   "target": "GOI_SO_2319_1971",
+   "status": "open"
+  }
+ ],
+ "problems": [
+  {
+   "series": 89,
+   "seq": 3,
+   "code": "old_quote_mismatch",
+   "severity": "error",
+   "message": "change 3: the part's text is not what the amendment quotes",
+   "cause": "words_differ"
+  },
+  {
+   "series": 174,
+   "seq": 2,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › department DEPARTMENT OF ELECTRONICS is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
+  }
+ ],
+ "rules": [
+  {
+   "rule": "loose",
+   "seq": 3,
+   "note": "change 3: department DEPARTMENT OF ELECTRONICS taken for department Department of Electronics Development of Electronics and coordination amongst its various users., named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "hindi_name",
+   "seq": null,
+   "note": "the Second Schedule's SAMAJ KALYAN VIBHAG read as DEPARTMENT OF SOCIAL WELFARE, the First Schedule's English name for it",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "hindi_name",
+   "seq": null,
+   "note": "the Second Schedule's KARMIK VIBHAG read as DEPARTMENT OF PERSONNEL, the First Schedule's English name for it",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  }
+ ],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_2319_1971",
+   "op": "replace",
+   "source_ref": "2",
+   "path": "schedule 1",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_2319_1971",
+   "op": "insert",
+   "source_ref": "3(c)",
+   "path": "schedule 2 › ministry DEPARTMENT OF CULTURE",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_2319_1971",
+   "op": "omit",
+   "source_ref": "3(d)(i)",
+   "path": "schedule 2 › ministry CABINET SECRETARIAT › department DEPARTMENT OF ELECTRONICS",
+   "status": "not_applied",
+   "problem": "change 3: the part's text is not what the amendment quotes",
+   "code": "old_quote_mismatch",
+   "cause": "words_differ",
+   "known": "words"
+  }
+ ],
+ "bridge": {
+  "substitutes": "the First Schedule",
+  "first_schedule_changes": 128
+ },
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

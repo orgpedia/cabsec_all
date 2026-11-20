@@ -1,0 +1,177 @@
+{
+ "file": "1_Upload_1241.pdf",
+ "kind": "amendment",
+ "series": 334,
+ "date": "2017-07-06",
+ "govdoc": "aob-ammend_/output/1_Upload_1241.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826696.8673737,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_1241.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:54:39.251542+00:00",
+  "sha256": "fa0fbb4366a499040e42fe9740705b77e3936c1c9324b77e431c95b7baaff86c",
+  "pages": 2
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r18",
+   "at": "2026-10-31T11:49:11.373299+00:00",
+   "stamp": "014d93f4ee7db3c2"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r206",
+   "at": "2026-11-15T12:43:03.591639+00:00",
+   "stamp": "ac716a81bd1250be"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r207",
+   "at": "2026-11-15T12:43:04.776270+00:00",
+   "stamp": "0696449c307ddce8"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r208",
+   "at": "2026-11-15T12:43:05.551073+00:00",
+   "stamp": "863ad1714124a87e"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r217",
+   "at": "2026-11-15T16:25:16.117992+00:00",
+   "stamp": "43f060615d3ce2c0",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r218",
+   "at": "2026-11-15T16:25:16.813617+00:00",
+   "stamp": "051305f7e140d91c",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r219",
+   "at": "2026-11-15T16:25:17.524016+00:00",
+   "stamp": "9ffd3a2d533f2489",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r225",
+   "at": "2026-11-15T16:57:40.996004+00:00",
+   "stamp": "68781da187492320"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r226",
+   "at": "2026-11-15T17:04:00.533932+00:00",
+   "stamp": "1e95db4fffcf3c35"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r231",
+   "at": "2026-11-16T10:58:16.826395+00:00",
+   "stamp": "0d9fa6bc11fea758"
+  }
+ ],
+ "reviews": [],
+ "issues": [],
+ "problems": [],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_2164E_2017",
+   "op": "insert",
+   "source_ref": "2(a)",
+   "path": "schedule 2 › ministry MINISTRY OF AGRICULTURE AND FARMERS WELFARE › department DEPARTMENT OF AGRICULTURE, COOPERATION AND FARMERS WELFARE › entry 54",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_2164E_2017",
+   "op": "insert",
+   "source_ref": "2(b)",
+   "path": "schedule 2 › ministry MINISTRY OF CIVIL AVIATION › entry 3",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_2164E_2017",
+   "op": "omit",
+   "source_ref": "2(c)",
+   "path": "schedule 2 › ministry MINISTRY OF DEFENCE › department DEPARTMENT OF DEFENCE PRODUCTION › entry 12A",
+   "status": "applied"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_2164E_2017",
+   "op": "omit",
+   "source_ref": "2(d)(i)",
+   "path": "schedule 2 › ministry MINISTRY OF ENVIRONMENT, FOREST AND CLIMATE CHANGE › entry 38 ; schedule 2 › ministry MINISTRY OF ENVIRONMENT, FOREST AND CLIMATE CHANGE › entry 39",
+   "status": "applied"
+  },
+  {
+   "seq": 5,
+   "doc_id": "GOI_SO_2164E_2017",
+   "op": "insert",
+   "source_ref": "2(d)(ii)",
+   "path": "schedule 2 › ministry MINISTRY OF ENVIRONMENT, FOREST AND CLIMATE CHANGE › entry 47",
+   "status": "applied"
+  },
+  {
+   "seq": 6,
+   "doc_id": "GOI_SO_2164E_2017",
+   "op": "insert",
+   "source_ref": "2(e)",
+   "path": "schedule 2 › ministry MINISTRY OF MICRO, SMALL AND MEDIUM ENTERPRISES › entry 7",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

@@ -1,0 +1,317 @@
+{
+ "file": "1_Upload_119.pdf",
+ "kind": "amendment",
+ "series": 85,
+ "date": "1970-08-01",
+ "govdoc": "aob-ammend_/output/1_Upload_119.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826686.557236,
+ "edits_file": "aob-ammend_/conf/1_Upload_119.pdf.edits.yml",
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_119.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:54:28.572513+00:00",
+  "sha256": "543f77c816fdfd9018051b620086ce85d400132e49312efaeb03ac37dc83b6c6",
+  "pages": 6
+ },
+ "edits": [
+  {
+   "run": "h1",
+   "by": "mukundesh",
+   "at": "2026-11-14T16:35:02+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r1.w1530",
+     "before": {
+      "text": "2."
+     },
+     "after": {
+      "text": "29."
+     }
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-12T12:34:30.559421+00:00",
+   "stamp": "5931090f8036cd84"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r58",
+   "at": "2026-11-15T12:41:54.598274+00:00",
+   "stamp": "a5c06a0e2e84d07b"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r59",
+   "at": "2026-11-15T12:41:56.184805+00:00",
+   "stamp": "bc68117069e388b3"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r60",
+   "at": "2026-11-15T12:41:57.876733+00:00",
+   "stamp": "5a40b07414257143"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r69",
+   "at": "2026-11-15T16:24:17.317958+00:00",
+   "stamp": "e8510b30e7af8f69",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r70",
+   "at": "2026-11-15T16:24:18.487525+00:00",
+   "stamp": "0726c1a8b49a251f",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r71",
+   "at": "2026-11-15T16:24:19.685108+00:00",
+   "stamp": "60c6291eb25a1a73",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r77",
+   "at": "2026-11-15T16:57:25.704369+00:00",
+   "stamp": "2442c96c36c0b79d"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r78",
+   "at": "2026-11-15T17:03:24.934193+00:00",
+   "stamp": "eb5a388467dec0e1"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r83",
+   "at": "2026-11-16T10:58:06.525736+00:00",
+   "stamp": "0f99eecae0284b51"
+  }
+ ],
+ "reviews": [],
+ "issues": [
+  {
+   "code": "aob:read_hindi_missing",
+   "severity": "info",
+   "message": "change 1: a new heading has no Hindi name in brackets",
+   "target": "r71.rel1",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_hindi_missing",
+   "severity": "info",
+   "message": "change 2: a new heading has no Hindi name in brackets",
+   "target": "r71.rel2",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_hindi_missing",
+   "severity": "info",
+   "message": "change 9: a new heading has no Hindi name in brackets",
+   "target": "r71.rel9",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_hindi_missing",
+   "severity": "info",
+   "message": "change 11: a new heading has no Hindi name in brackets",
+   "target": "r71.rel11",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 13: its quoted text runs across a page break",
+   "target": "r71.rel13",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
+   "message": "change 9: ministry MINISTRY OF INDUSTRIAL DEVELOPMENT, INTERNAL TRADE AND COMPANY AFFAIRS taken for ministry Ministry of Industrial Development, Internal Trade and Company Affairs shall be substituted, named loosely",
+   "target": "r71.rel9",
+   "status": "open"
+  }
+ ],
+ "problems": [
+  {
+   "series": 85,
+   "seq": 3,
+   "code": "old_path_missing",
+   "severity": "error",
+   "message": "change 3: no entry 45A under schedule 2 › ministry MINISTRY OF HOME AFFAIRS",
+   "cause": "entry_not_in_state"
+  }
+ ],
+ "rules": [
+  {
+   "rule": "loose",
+   "seq": 9,
+   "note": "change 9: ministry MINISTRY OF INDUSTRIAL DEVELOPMENT, INTERNAL TRADE AND COMPANY AFFAIRS taken for ministry Ministry of Industrial Development, Internal Trade and Company Affairs shall be substituted, named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  }
+ ],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_2667_1970",
+   "op": "replace",
+   "source_ref": "2(a)",
+   "path": "schedule 1 › entry 9",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_2667_1970",
+   "op": "insert",
+   "source_ref": "2(b)",
+   "path": "schedule 1 › entry 21",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_2667_1970",
+   "op": "omit",
+   "source_ref": "3(a)(i)",
+   "path": "schedule 2 › ministry MINISTRY OF HOME AFFAIRS › entry 17 ; schedule 2 › ministry MINISTRY OF HOME AFFAIRS › entry 18 ; schedule 2 › ministry MINISTRY OF HOME AFFAIRS › entry 32A ; schedule 2 › ministry MINISTRY OF HOME AFFAIRS › entry 45 ; schedule 2 › ministry MINISTRY OF HOME AFFAIRS › entry 45A ; schedule 2 › ministry MINISTRY OF HOME AFFAIRS › entry 47 ; schedule 2 › ministry MINISTRY OF HOME AFFAIRS › entry 48 ; schedule 2 › ministry MINISTRY OF HOME AFFAIRS › entry 50 ; schedule 2 › ministry MINISTRY OF HOME AFFAIRS › entry 51 ; schedule 2 › ministry MINISTRY OF HOME AFFAIRS › entry 52A ; schedule 2 › ministry MINISTRY OF HOME AFFAIRS › entry 53 ; schedule 2 › ministry MINISTRY OF HOME AFFAIRS › entry 54 ; schedule 2 › ministry MINISTRY OF HOME AFFAIRS › entry 55 ; schedule 2 › ministry MINISTRY OF HOME AFFAIRS › entry 56 ; schedule 2 › ministry MINISTRY OF HOME AFFAIRS › entry 57 ; schedule 2 › ministry MINISTRY OF HOME AFFAIRS › entry 58 ; schedule 2 › ministry MINISTRY OF HOME AFFAIRS › entry 59 ; schedule 2 › ministry MINISTRY OF HOME AFFAIRS › entry 60 ; schedule 2 › ministry MINISTRY OF HOME AFFAIRS › entry 61 ; schedule 2 › ministry MINISTRY OF HOME AFFAIRS › entry 62 ; schedule 2 › ministry MINISTRY OF HOME AFFAIRS › entry 63 ; schedule 2 › ministry MINISTRY OF HOME AFFAIRS › entry 64 ; schedule 2 › ministry MINISTRY OF HOME AFFAIRS › entry 65 ; schedule 2 › ministry MINISTRY OF HOME AFFAIRS › entry 66 ; schedule 2 › ministry MINISTRY OF HOME AFFAIRS › entry 67 ; schedule 2 › ministry MINISTRY OF HOME AFFAIRS › entry 68 ; schedule 2 › ministry MINISTRY OF HOME AFFAIRS › entry 70 ; schedule 2 › ministry MINISTRY OF HOME AFFAIRS › entry 71 ; schedule 2 › ministry MINISTRY OF HOME AFFAIRS › entry 73",
+   "status": "not_applied",
+   "problem": "change 3: no entry 45A under schedule 2 › ministry MINISTRY OF HOME AFFAIRS",
+   "code": "old_path_missing",
+   "cause": "entry_not_in_state",
+   "known": "home_affairs"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_2667_1970",
+   "op": "replace",
+   "source_ref": "3(a)(ii)",
+   "path": "schedule 2 › ministry MINISTRY OF HOME AFFAIRS › entry 32",
+   "status": "applied"
+  },
+  {
+   "seq": 5,
+   "doc_id": "GOI_SO_2667_1970",
+   "op": "replace",
+   "source_ref": "3(a)(iii)",
+   "path": "schedule 2 › ministry MINISTRY OF HOME AFFAIRS › entry 43",
+   "status": "applied"
+  },
+  {
+   "seq": 6,
+   "doc_id": "GOI_SO_2667_1970",
+   "op": "replace",
+   "source_ref": "3(a)(Iv)",
+   "path": "schedule 2 › ministry MINISTRY OF HOME AFFAIRS › entry 49",
+   "status": "applied"
+  },
+  {
+   "seq": 7,
+   "doc_id": "GOI_SO_2667_1970",
+   "op": "replace",
+   "source_ref": "3(a)(v)",
+   "path": "schedule 2 › ministry MINISTRY OF HOME AFFAIRS › entry 72",
+   "status": "applied"
+  },
+  {
+   "seq": 8,
+   "doc_id": "GOI_SO_2667_1970",
+   "op": "insert",
+   "source_ref": "3(a)(vf)",
+   "path": "schedule 2 › ministry MINISTRY OF HOME AFFAIRS › entry 99",
+   "status": "applied"
+  },
+  {
+   "seq": 9,
+   "doc_id": "GOI_SO_2667_1970",
+   "op": "replace",
+   "source_ref": "3(b)",
+   "path": "schedule 2 › ministry MINISTRY OF INDUSTRIAL DEVELOPMENT, INTERNAL TRADE AND COMPANY AFFAIRS",
+   "status": "applied"
+  },
+  {
+   "seq": 10,
+   "doc_id": "GOI_SO_2667_1970",
+   "op": "omit",
+   "source_ref": "3(b)",
+   "path": "schedule 2 › ministry MINISTRY OF INDUSTRIAL DEVELOPMENT AND INTERNAL TRADE › department DEPARTMENT OF COMPANY AFFAIRS",
+   "status": "applied"
+  },
+  {
+   "seq": 11,
+   "doc_id": "GOI_SO_2667_1970",
+   "op": "insert",
+   "source_ref": "3(c)",
+   "path": "schedule 2 › ministry DEPARTMENT OF COMMUNICATIONS",
+   "status": "applied"
+  },
+  {
+   "seq": 12,
+   "doc_id": "GOI_SO_2667_1970",
+   "op": "omit",
+   "source_ref": "3(d)(i)",
+   "path": "schedule 2 › ministry CABINET SECRETARIAT › department Department of Cabinet Affairs › entry 3",
+   "status": "applied"
+  },
+  {
+   "seq": 13,
+   "doc_id": "GOI_SO_2667_1970",
+   "op": "insert",
+   "source_ref": "3(d)(ii)",
+   "path": "schedule 2 › ministry CABINET SECRETARIAT › department Department of Personnel",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

@@ -1,0 +1,154 @@
+{
+ "file": "1_Upload_203.pdf",
+ "kind": "amendment",
+ "series": 165,
+ "date": "1985-02-20",
+ "govdoc": "aob-ammend_/output/1_Upload_203.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826696.4665742,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_203.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:56:33.389524+00:00",
+  "sha256": "ef8c4522d9ff5b391dbe742bf632af1e281358837626b26e88d19c1a0bd4b187",
+  "pages": 2
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-12T12:46:15.715025+00:00",
+   "stamp": "b46c1f799b48f849"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r50",
+   "at": "2026-11-15T12:43:03.080781+00:00",
+   "stamp": "2260d591610e9c7f"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r51",
+   "at": "2026-11-15T12:43:04.050755+00:00",
+   "stamp": "85171206246de70c"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r52",
+   "at": "2026-11-15T12:43:05.165775+00:00",
+   "stamp": "b4a5832db0f19c2b"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r61",
+   "at": "2026-11-15T16:25:15.687172+00:00",
+   "stamp": "85b969cbbea2fdf7",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r62",
+   "at": "2026-11-15T16:25:16.415229+00:00",
+   "stamp": "522bbe6a0205d82d",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r63",
+   "at": "2026-11-15T16:25:17.095995+00:00",
+   "stamp": "2f7e27c7ead475ad",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r69",
+   "at": "2026-11-15T16:57:40.573659+00:00",
+   "stamp": "0b58e151e8334dce"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r70",
+   "at": "2026-11-15T17:03:59.635905+00:00",
+   "stamp": "07d441edf2f3fcfe"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r75",
+   "at": "2026-11-16T10:58:16.457642+00:00",
+   "stamp": "56015d344cb88f88"
+  }
+ ],
+ "reviews": [],
+ "issues": [
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
+   "message": "change 1: ministry MINIS- TRY OF CHEMICALS AND FERTILIZERS taken for ministry MINISTRY OF CHEMICAL AND FERTI LIZERS, named loosely",
+   "target": "r63.rel1",
+   "status": "open"
+  }
+ ],
+ "problems": [],
+ "rules": [
+  {
+   "rule": "loose",
+   "seq": 1,
+   "note": "change 1: ministry MINIS- TRY OF CHEMICALS AND FERTILIZERS taken for ministry MINISTRY OF CHEMICAL AND FERTI LIZERS, named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  }
+ ],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_156E_1985",
+   "op": "insert",
+   "source_ref": "2",
+   "path": "schedule 2 › ministry MINIS- TRY OF CHEMICALS AND FERTILIZERS › entry 12",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

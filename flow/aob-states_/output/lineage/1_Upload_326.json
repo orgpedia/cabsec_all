@@ -1,0 +1,209 @@
+{
+ "file": "1_Upload_326.pdf",
+ "kind": "amendment",
+ "series": 281,
+ "date": "2005-09-01",
+ "govdoc": "aob-ammend_/output/1_Upload_326.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826693.6912222,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_326.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T14:00:04.165504+00:00",
+  "sha256": "cd6619d033d942a7eca64efbd5d08644b0992fe85beb36f96117dacac200163e",
+  "pages": 3
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-05T02:51:13.787676+00:00",
+   "stamp": "575a4c7cc04fe654"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r147",
+   "at": "2026-11-15T12:42:33.559365+00:00",
+   "stamp": "c1fa6dffafc2fa2c"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r148",
+   "at": "2026-11-15T12:42:36.013358+00:00",
+   "stamp": "edeaecec43384ecf"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r149",
+   "at": "2026-11-15T12:42:37.598566+00:00",
+   "stamp": "566d7d9e23a1afd2"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r158",
+   "at": "2026-11-15T16:24:52.178017+00:00",
+   "stamp": "db6bfd9d95315fb5",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r159",
+   "at": "2026-11-15T16:24:54.005499+00:00",
+   "stamp": "33b60db0229c279f",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r160",
+   "at": "2026-11-15T16:24:55.747617+00:00",
+   "stamp": "dff2152b9c185469",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r166",
+   "at": "2026-11-15T16:57:35.807311+00:00",
+   "stamp": "4b51fc91dadcc6fc"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r167",
+   "at": "2026-11-15T17:03:46.536369+00:00",
+   "stamp": "1bca339b28b6ec32"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r172",
+   "at": "2026-11-16T10:58:13.621774+00:00",
+   "stamp": "98479dde4abbb19f"
+  }
+ ],
+ "reviews": [],
+ "issues": [],
+ "problems": [],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_1229E_2005",
+   "op": "insert",
+   "source_ref": "2(i)",
+   "path": "schedule 2 › ministry Ministry of Commerce and Industry › department Department of Industrial Policy and Promotion › entry 31",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_1229E_2005",
+   "op": "insert",
+   "source_ref": "2(ii)",
+   "path": "schedule 2 › ministry Ministry of Communications and Information Technology › department Department of Information Technology › entry 12",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_1229E_2005",
+   "op": "replace",
+   "source_ref": "2(iii)",
+   "path": "schedule 2 › ministry Ministry of Home Affairs › department Department of Internal Security › entry 56 › item o",
+   "status": "applied"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_1229E_2005",
+   "op": "omit",
+   "source_ref": "2(iv)(a)",
+   "path": "schedule 2 › ministry Ministry of Human Resource Development › department Department of Elementary Education and Literacy › entry 1",
+   "status": "applied"
+  },
+  {
+   "seq": 5,
+   "doc_id": "GOI_SO_1229E_2005",
+   "op": "omit",
+   "source_ref": "2(iv)(b)",
+   "path": "schedule 2 › ministry Ministry of Human Resource Development › department Department of Secondary and Higher Education › entry 8",
+   "status": "applied"
+  },
+  {
+   "seq": 6,
+   "doc_id": "GOI_SO_1229E_2005",
+   "op": "replace",
+   "source_ref": "2(iv)(c)",
+   "path": "schedule 2 › ministry Ministry of Human Resource Development › department Department of Women and Child Development › entry 4",
+   "status": "applied"
+  },
+  {
+   "seq": 7,
+   "doc_id": "GOI_SO_1229E_2005",
+   "op": "replace",
+   "source_ref": "2(v)",
+   "path": "schedule 2 › ministry Ministry of Law and Justice › department Legislative Department › entry 1",
+   "status": "applied"
+  },
+  {
+   "seq": 8,
+   "doc_id": "GOI_SO_1229E_2005",
+   "op": "insert",
+   "source_ref": "2(vi)",
+   "path": "schedule 2 › ministry Ministry of Overseas Indian Affairs › entry 18",
+   "status": "applied"
+  },
+  {
+   "seq": 9,
+   "doc_id": "GOI_SO_1229E_2005",
+   "op": "insert",
+   "source_ref": "2(vii)",
+   "path": "schedule 2 › ministry Ministry of Shipping, Road Transport and Highways › department Department of Road Transport and Highways › entry 3",
+   "status": "applied"
+  },
+  {
+   "seq": 10,
+   "doc_id": "GOI_SO_1229E_2005",
+   "op": "replace",
+   "source_ref": "2(viii)",
+   "path": "schedule 2 › ministry Ministry of Steel › entry 1",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

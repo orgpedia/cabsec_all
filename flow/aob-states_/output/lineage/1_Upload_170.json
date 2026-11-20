@@ -1,0 +1,193 @@
+{
+ "file": "1_Upload_170.pdf",
+ "kind": "amendment",
+ "series": 133,
+ "date": "1979-07-25",
+ "govdoc": "aob-ammend_/output/1_Upload_170.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826692.5080833,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_170.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:55:46.507938+00:00",
+  "sha256": "b7b1f643c8d2bf921f65534c6e0469d3261d6f8c69076af42bf026863ab46b51",
+  "pages": 2
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-12T12:42:14.757705+00:00",
+   "stamp": "ef7838f657970c85"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r50",
+   "at": "2026-11-15T12:42:31.780874+00:00",
+   "stamp": "1ef46d0f11f23500"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r51",
+   "at": "2026-11-15T12:42:34.065953+00:00",
+   "stamp": "f64e28f0c688e7a0"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r52",
+   "at": "2026-11-15T12:42:36.400534+00:00",
+   "stamp": "ed3483414a3ecf81"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r61",
+   "at": "2026-11-15T16:24:50.840122+00:00",
+   "stamp": "94ceee256021c87d",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r62",
+   "at": "2026-11-15T16:24:52.605006+00:00",
+   "stamp": "0ef2fbc564b6a8df",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r63",
+   "at": "2026-11-15T16:24:54.388024+00:00",
+   "stamp": "230ac0c40d865951",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r69",
+   "at": "2026-11-15T16:57:34.538528+00:00",
+   "stamp": "e47f4afc4f667192"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r70",
+   "at": "2026-11-15T17:03:44.338212+00:00",
+   "stamp": "05123a44142d1b93"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r75",
+   "at": "2026-11-16T10:58:12.496519+00:00",
+   "stamp": "ec4f805e53737d00"
+  }
+ ],
+ "reviews": [],
+ "issues": [],
+ "problems": [
+  {
+   "series": 133,
+   "seq": 1,
+   "code": "old_path_missing",
+   "severity": "error",
+   "message": "change 1: no department DEPARTMENT OF REVENUE under schedule 2 › ministry MINISTRY OF FINANCE",
+   "cause": "unit_not_found"
+  },
+  {
+   "series": 133,
+   "seq": 2,
+   "code": "old_path_missing",
+   "severity": "error",
+   "message": "change 2: no department DEPARTMENT OF REVENUE under schedule 2 › ministry MINISTRY OF FINANCE",
+   "cause": "unit_not_found"
+  },
+  {
+   "series": 174,
+   "seq": 3,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF LAW AND JUSTICE › department A › entry 10A is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
+  }
+ ],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_424E_1979",
+   "op": "substitute_text",
+   "source_ref": "2(a)(i)",
+   "path": "schedule 2 › ministry MINISTRY OF FINANCE › department DEPARTMENT OF REVENUE › entry 13 › item c",
+   "status": "not_applied",
+   "problem": "change 1: no department DEPARTMENT OF REVENUE under schedule 2 › ministry MINISTRY OF FINANCE",
+   "code": "old_path_missing",
+   "cause": "unit_not_found",
+   "known": "finance_revenue"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_424E_1979",
+   "op": "insert",
+   "source_ref": "2(a)(ii)",
+   "path": "schedule 2 › ministry MINISTRY OF FINANCE › department DEPARTMENT OF REVENUE › entry 13 › item d",
+   "status": "not_applied",
+   "problem": "change 2: no department DEPARTMENT OF REVENUE under schedule 2 › ministry MINISTRY OF FINANCE",
+   "code": "old_path_missing",
+   "cause": "unit_not_found",
+   "known": "finance_revenue"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_424E_1979",
+   "op": "insert",
+   "source_ref": "2(b)(1)",
+   "path": "schedule 2 › ministry MINISTRY OF LAW, JUSTICE AND COMPANY AFFAIRS › department DEPARTMENT OF LEGAL AFFAIRS › entry 10",
+   "status": "applied"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_424E_1979",
+   "op": "omit",
+   "source_ref": "2(b)(ii)",
+   "path": "schedule 2 › ministry MINISTRY OF LAW, JUSTICE AND COMPANY AFFAIRS › department DEPARTMENT OF JUSTICE › entry 5",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

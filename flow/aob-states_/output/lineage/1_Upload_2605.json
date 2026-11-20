@@ -1,0 +1,169 @@
+{
+ "file": "1_Upload_2605.pdf",
+ "kind": "amendment",
+ "series": 358,
+ "date": "2020-11-09",
+ "govdoc": "aob-ammend_/output/1_Upload_2605.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826687.979382,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_2605.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:57:59.133261+00:00",
+  "sha256": "6e5af1432b47152166428a89491e88d95d414a85617f53a2a333853bcd68ca5c",
+  "pages": 6
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r17",
+   "at": "2026-10-31T11:51:36.855203+00:00",
+   "stamp": "7e0e0c09155f39cd"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r205",
+   "at": "2026-11-15T12:42:05.387379+00:00",
+   "stamp": "b186d4280b42fe5b"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r206",
+   "at": "2026-11-15T12:42:07.395470+00:00",
+   "stamp": "3353db64765ad997"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r207",
+   "at": "2026-11-15T12:42:09.576267+00:00",
+   "stamp": "f616117315bb82fb"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r216",
+   "at": "2026-11-15T16:24:25.297622+00:00",
+   "stamp": "b819fa2ebed8738c",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r217",
+   "at": "2026-11-15T16:24:26.854656+00:00",
+   "stamp": "04111e531ec2145a",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r218",
+   "at": "2026-11-15T16:24:28.393143+00:00",
+   "stamp": "5643916fa512489b",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r224",
+   "at": "2026-11-15T16:57:27.776254+00:00",
+   "stamp": "b43f2f7297be66ba"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r225",
+   "at": "2026-11-15T17:03:29.788006+00:00",
+   "stamp": "ec13da93316d906d"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r230",
+   "at": "2026-11-16T10:58:07.947597+00:00",
+   "stamp": "7f263dbeb400c247"
+  }
+ ],
+ "reviews": [],
+ "issues": [
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 3: its quoted text runs across a page break",
+   "target": "r218.rel3",
+   "status": "open"
+  }
+ ],
+ "problems": [],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_4041E_2020",
+   "op": "insert",
+   "source_ref": "2(A)(i)",
+   "path": "schedule 1 › ministry Ministry of Planning",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_4041E_2020",
+   "op": "omit",
+   "source_ref": "2(A)(ii)",
+   "path": "schedule 1 › ministry Ministry of Shipping",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_4041E_2020",
+   "op": "insert",
+   "source_ref": "2(B)(i)",
+   "path": "schedule 2 › ministry MINISTRY OF PLANNING",
+   "status": "applied"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_4041E_2020",
+   "op": "omit",
+   "source_ref": "2(B)(ii)",
+   "path": "schedule 2 › ministry MINISTRY OF SHIPPING",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

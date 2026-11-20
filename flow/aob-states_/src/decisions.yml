@@ -1,0 +1,62 @@
+# The calls made on the states' inference rules (orgpedia/doc: docflow/products/inferences.py): where a change is
+# applied by a step its reading does not state outright. A rule's status: accepted (applied, counted right),
+# unreviewed (applied, not yet looked at), off (not applied). A single case is rejected under `rejected`
+# ({rule, series, seq}); a rule tried and left out is kept under `left_out` with why. Listed with each case and the
+# amendment's own clause on versions/inferred.html (inferences.json).
+rules:
+  loose:
+    status: accepted
+    at: 2026-11-15
+    by: mukundesh
+    note: misread names ("Minisatry", "VINISTRY", "Iegal Affans") taken for the one unit they can mean; sampled, all right
+  hindi_name:
+    status: accepted
+    at: 2026-11-15
+    by: mukundesh
+    note: >-
+      1_Upload_122 (1971, the Hindi version) heads the Second Schedule's units in Hindi; 1_Upload_123's rule 3(a)
+      gives them the First Schedule's English names
+  hindi_cited:
+    status: accepted
+    at: 2026-11-15
+    by: mukundesh
+    note: 1_Upload_122 cites the units by their Hindi names ("VITTA MANTRALAYA")
+  one_heading:
+    status: accepted
+    at: 2026-11-15
+    by: mukundesh
+    note: >-
+      "for the heading 'Ministry of Industry and Supply' and sub-heading 'A. Department of Industry' thereunder the
+      following heading shall be substituted, namely: 'Ministry of Industry'" (1_Upload_79; 46, 278)
+  earlier_name:
+    status: accepted
+    at: 2026-11-15
+    by: mukundesh
+    note: a Second Schedule heading lagging behind the First Schedule's renames, found by its earlier name
+  put_again:
+    status: unreviewed
+    at: 2026-11-15
+    note: >-
+      a unit put in again by name omits the stale one (1_Upload_278, 1998: the Ministry of Tourism, merged in 1991
+      without its Second Schedule heading omitted); in place of the rule left out below
+  so_renamed:
+    status: unreviewed
+    at: 2026-11-15
+    note: >-
+      a unit cited by the name an earlier change of the same notification replaced ("under the heading so
+      substituted", the path by the old name: 1_Upload_268, 1995, Rural Development and Urban Development)
+  renamed_as_referred:
+    status: accepted
+    note: built earlier (a rename in one schedule followed in the other when a change refers back to it)
+  number_kept:
+    status: accepted
+    note: built earlier (a heading quoted without its number keeps the one it had)
+rejected: []
+left_out:
+  - rule: dropped_with_first
+    at: 2026-11-15
+    by: mukundesh
+    why: >-
+      a unit the First Schedule drops, dropped from the Second too: tried, it broke changes and fixed none; the
+      schedules are amended in separate notifications (Foreign Trade dropped from the First, then amended in the
+      Second by 1_Upload_132) and a rename can look like a drop (Prime Minister's Secretariat to Office)

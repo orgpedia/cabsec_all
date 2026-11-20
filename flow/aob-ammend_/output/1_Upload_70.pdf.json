@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_70.pdf",
     "sha256": "f57b388727f44697e893e7bb0ee7e93c19caa71d4f243c78db02a0c408c5c832",
     "govdoc": "1_Upload_70.pdf.govdoc.json.zst",
-    "revision": 55
+    "revision": 79
   },
   "documents": [
     {
@@ -29,9 +29,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "3",
+          "version": "4",
           "model": "gemini-4-argon",
-          "at": "2026-11-12T18:01:39.177328+00:00"
+          "at": "2026-11-15T16:25:17.375885+00:00"
         },
         "ops": [
           {
@@ -39,7 +39,7 @@
             "source_ref": "(A)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r28.rel1",
+            "relation": "r71.rel1",
             "target": {
               "cited": [
                 {
@@ -79,7 +79,9 @@
                 "heading": "Department of Industry: ( 11 ) Department of Supply and Technical Development"
               }
             ],
-            "flags": [],
+            "flags": [
+              "states_inferred_number_kept"
+            ],
             "words": [
               "r1.w166",
               "r1.w173"
@@ -101,7 +103,7 @@
             "source_ref": "(B)(1)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r28.rel2",
+            "relation": "r71.rel2",
             "target": [
               {
                 "cited": [
@@ -383,7 +385,7 @@
             "source_ref": "(B)(ii)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r28.rel3",
+            "relation": "r71.rel3",
             "target": {
               "cited": [
                 {

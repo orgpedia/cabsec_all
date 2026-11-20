@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_162.pdf",
     "sha256": "d6ec1a597527bc53105139e28e86eff3cb92e9c5033a63074f64e04e39e0b84e",
     "govdoc": "1_Upload_162.pdf.govdoc.json.zst",
-    "revision": 55
+    "revision": 79
   },
   "documents": [
     {
@@ -29,9 +29,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "3",
+          "version": "4",
           "model": "gemini-4-argon",
-          "at": "2026-11-12T18:01:37.329944+00:00"
+          "at": "2026-11-15T16:25:07.237425+00:00"
         },
         "ops": [
           {
@@ -39,7 +39,7 @@
             "source_ref": "2(a)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r28.rel1",
+            "relation": "r71.rel1",
             "target": [
               {
                 "cited": [
@@ -168,7 +168,7 @@
             "source_ref": "2(b)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r28.rel2",
+            "relation": "r71.rel2",
             "target": {
               "cited": [
                 {
@@ -239,7 +239,7 @@
             "source_ref": "3(a)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r28.rel3",
+            "relation": "r71.rel3",
             "target": {
               "cited": [
                 {
@@ -269,7 +269,9 @@
               ]
             },
             "expect": "MINISTRY OF CHEMICALS AND FERTILIZERS (RASAYAN AUR URVARAK MANTRALAYA)",
-            "flags": [],
+            "flags": [
+              "states_inferred_loose"
+            ],
             "words": [
               "r1.w1816",
               "r1.w1822"
@@ -291,7 +293,7 @@
             "source_ref": "3(b)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r28.rel4",
+            "relation": "r71.rel4",
             "target": {
               "cited": [
                 {
@@ -343,7 +345,7 @@
             "source_ref": "3(a)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r28.rel5",
+            "relation": "r71.rel5",
             "target": {
               "cited": [
                 {
@@ -357,14 +359,14 @@
               ],
               "eId": null,
               "words": [
-                "r1.w1860",
-                "r1.w1889"
+                "r1.w1862",
+                "r1.w1879"
               ],
               "boxes": [
                 {
                   "page": 3,
                   "bbox": [
-                    1360,
+                    1432,
                     3169,
                     2289,
                     3236
@@ -374,9 +376,9 @@
                   "page": 4,
                   "bbox": [
                     429,
-                    240,
-                    1316,
-                    404
+                    339,
+                    604,
+                    370
                   ]
                 }
               ]
@@ -764,7 +766,7 @@
             "source_ref": "3(d)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r28.rel6",
+            "relation": "r71.rel6",
             "target": {
               "cited": [
                 {
@@ -869,7 +871,7 @@
               {
                 "type": "entry",
                 "num": "9",
-                "text": "Plastics, including fabrication of plastics and plastic moulded goods."
+                "text": "Plastics, including fabrication of plastics and plastic moulded goods. PRINTED BY THE MANAGER, GOVT. OF"
               },
               {
                 "type": "entry",
@@ -978,7 +980,9 @@
                 "text": "Other Public Sector Projects falling under the subjects included in this list, except such projects as are specifically allotted to any other Department."
               }
             ],
-            "flags": [],
+            "flags": [
+              "read_page_break"
+            ],
             "words": [
               "r1.w2687",
               "r1.w2693"

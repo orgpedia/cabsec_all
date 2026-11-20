@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_117.pdf",
     "sha256": "120cbd019c20e6ba9d3a179c47e434e80b73cc48ddc4b3f9a7614a0da42a80b5",
     "govdoc": "1_Upload_117.pdf.govdoc.json.zst",
-    "revision": 55
+    "revision": 79
   },
   "documents": [
     {
@@ -29,9 +29,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "3",
+          "version": "4",
           "model": "gemini-4-argon",
-          "at": "2026-11-12T18:01:24.629244+00:00"
+          "at": "2026-11-15T16:23:59.627797+00:00"
         },
         "ops": [
           {
@@ -39,7 +39,7 @@
             "source_ref": "2",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r28.rel1",
+            "relation": "r71.rel1",
             "target": {
               "cited": [
                 {
@@ -124,7 +124,7 @@
             "source_ref": "3(a)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r28.rel2",
+            "relation": "r71.rel2",
             "target": {
               "cited": [
                 {
@@ -183,7 +183,7 @@
             "source_ref": "3(b)(i)",
             "op": "substitute_text",
             "akn_type": "substitution",
-            "relation": "r28.rel3",
+            "relation": "r71.rel3",
             "target": {
               "cited": [
                 {
@@ -218,9 +218,7 @@
             },
             "old": "atomic energy",
             "new": "atomic energy or grants to institutions, associations or bodies with which any other department is concerned",
-            "flags": [
-              "read_quote_mismatch"
-            ],
+            "flags": [],
             "words": [
               "r1.w284",
               "r1.w292"
@@ -242,7 +240,7 @@
             "source_ref": "3(b)(ii)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r28.rel4",
+            "relation": "r71.rel4",
             "target": {
               "cited": [
                 {
@@ -297,7 +295,7 @@
             "source_ref": "3(c)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r28.rel5",
+            "relation": "r71.rel5",
             "position": "after",
             "anchor": {
               "cited": [
@@ -346,7 +344,9 @@
                 "text": "Administration of the Petroleum Act, 1934, and the rules made thereunder."
               }
             ],
-            "flags": [],
+            "flags": [
+              "states_inferred_loose"
+            ],
             "words": [
               "r1.w319",
               "r1.w331"
@@ -368,7 +368,7 @@
             "source_ref": "3(d)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r28.rel6",
+            "relation": "r71.rel6",
             "target": {
               "cited": [
                 {
@@ -427,7 +427,7 @@
             "source_ref": "3(e)(i)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r28.rel7",
+            "relation": "r71.rel7",
             "position": "after",
             "anchor": {
               "cited": [
@@ -502,7 +502,7 @@
             "source_ref": "3(e)(ii)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r28.rel8",
+            "relation": "r71.rel8",
             "target": {
               "cited": [
                 {

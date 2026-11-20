@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_1870.pdf",
     "sha256": "489ffe045a6260a31d60ebd9e3207c92c639f1cf0a75d909b6d94df0ae22aaa2",
     "govdoc": "1_Upload_1870.pdf.govdoc.json.zst",
-    "revision": 209
+    "revision": 233
   },
   "documents": [
     {
@@ -29,9 +29,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "3",
+          "version": "4",
           "model": "gemini-4-argon",
-          "at": "2026-11-12T12:55:40.939841+00:00"
+          "at": "2026-11-15T16:24:10.671780+00:00"
         },
         "ops": [
           {
@@ -39,7 +39,7 @@
             "source_ref": "2(1)(a)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r173.rel1",
+            "relation": "r226.rel1",
             "target": [
               {
                 "cited": [
@@ -109,7 +109,7 @@
             "flags": [],
             "words": [
               "r72.w1949",
-              "r72.w1959"
+              "r72.w1956"
             ],
             "boxes": [
               {
@@ -117,7 +117,7 @@
                 "bbox": [
                   543,
                   1637,
-                  1743,
+                  1373,
                   1672
                 ]
               }
@@ -128,7 +128,7 @@
             "source_ref": "2(1)(b)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r173.rel2",
+            "relation": "r226.rel2",
             "target": {
               "cited": [
                 {
@@ -157,11 +157,10 @@
                 }
               ]
             },
-            "expect": "9AA. Ministry of Drinking Water and Sanitation (Peya Jal aur Swachchhata Mantralaya)",
             "flags": [],
             "words": [
               "r72.w1989",
-              "r72.w1998"
+              "r72.w1996"
             ],
             "boxes": [
               {
@@ -169,7 +168,7 @@
                 "bbox": [
                   543,
                   1790,
-                  1578,
+                  1343,
                   1825
                 ]
               }
@@ -180,7 +179,7 @@
             "source_ref": "2(1)(c)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r173.rel3",
+            "relation": "r226.rel3",
             "position": "after",
             "anchor": {
               "cited": [
@@ -233,7 +232,7 @@
             "flags": [],
             "words": [
               "r72.w2007",
-              "r72.w2016"
+              "r72.w2014"
             ],
             "boxes": [
               {
@@ -241,7 +240,7 @@
                 "bbox": [
                   543,
                   1896,
-                  1659,
+                  1320,
                   1932
                 ]
               }
@@ -252,7 +251,7 @@
             "source_ref": "2(1)(d)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r173.rel4",
+            "relation": "r226.rel4",
             "position": "after",
             "anchor": {
               "cited": [
@@ -305,7 +304,7 @@
             "flags": [],
             "words": [
               "r72.w2059",
-              "r72.w2068"
+              "r72.w2066"
             ],
             "boxes": [
               {
@@ -313,7 +312,7 @@
                 "bbox": [
                   573,
                   2227,
-                  1820,
+                  1519,
                   2262
                 ]
               }
@@ -324,7 +323,7 @@
             "source_ref": "2(1)(e)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r173.rel5",
+            "relation": "r226.rel5",
             "target": {
               "cited": [
                 {
@@ -353,11 +352,10 @@
                 }
               ]
             },
-            "expect": "41. Ministry of Water Resources, River Development and Ganga Rejuvenation (Jal Sansadhan, Nadi Vikas aur Ganga Sanrakshan Mantralaya)",
             "flags": [],
             "words": [
               "r72.w2120",
-              "r72.w2129"
+              "r72.w2127"
             ],
             "boxes": [
               {
@@ -365,7 +363,7 @@
                 "bbox": [
                   543,
                   2558,
-                  1726,
+                  1387,
                   2593
                 ]
               }
@@ -373,10 +371,10 @@
           },
           {
             "seq": 6,
-            "source_ref": "2.2(i)",
+            "source_ref": "2(2)(i)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r173.rel6",
+            "relation": "r226.rel6",
             "target": [
               {
                 "cited": [
@@ -446,7 +444,7 @@
             "flags": [],
             "words": [
               "r72.w2149",
-              "r72.w2158"
+              "r72.w2156"
             ],
             "boxes": [
               {
@@ -454,7 +452,7 @@
                 "bbox": [
                   532,
                   2723,
-                  1944,
+                  1551,
                   2759
                 ]
               }
@@ -462,10 +460,10 @@
           },
           {
             "seq": 7,
-            "source_ref": "2.2(ii)",
+            "source_ref": "2(2)(ii)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r173.rel7",
+            "relation": "r226.rel7",
             "target": {
               "cited": [
                 {
@@ -494,11 +492,10 @@
                 }
               ]
             },
-            "expect": "MINISTRY OF DRINKING WATER AND SANITATION (PEYA JAL AUR SWACHCHHATA MANTRALAYA)",
             "flags": [],
             "words": [
               "r72.w2192",
-              "r72.w2200"
+              "r72.w2199"
             ],
             "boxes": [
               {
@@ -506,7 +503,7 @@
                 "bbox": [
                   532,
                   2923,
-                  1879,
+                  1613,
                   2959
                 ]
               }
@@ -514,10 +511,10 @@
           },
           {
             "seq": 8,
-            "source_ref": "2.2(iii)",
+            "source_ref": "2(2)(iii)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r173.rel8",
+            "relation": "r226.rel8",
             "target": [
               {
                 "cited": [
@@ -587,7 +584,7 @@
             "flags": [],
             "words": [
               "r72.w2223",
-              "r72.w2233"
+              "r72.w2230"
             ],
             "boxes": [
               {
@@ -595,7 +592,7 @@
                 "bbox": [
                   532,
                   242,
-                  2227,
+                  1724,
                   278
                 ]
               }
@@ -603,10 +600,10 @@
           },
           {
             "seq": 9,
-            "source_ref": "2.2(iv)",
+            "source_ref": "2(2)(iv)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r173.rel9",
+            "relation": "r226.rel9",
             "position": "after",
             "anchor": {
               "cited": [
@@ -866,7 +863,7 @@
             ],
             "words": [
               "r72.w2247",
-              "r72.w2255"
+              "r72.w2254"
             ],
             "boxes": [
               {
@@ -874,7 +871,7 @@
                 "bbox": [
                   532,
                   396,
-                  1847,
+                  1519,
                   432
                 ]
               }
@@ -882,10 +879,10 @@
           },
           {
             "seq": 10,
-            "source_ref": "2.2(v)",
+            "source_ref": "2(2)(v)",
             "op": "substitute_text",
             "akn_type": "substitution",
-            "relation": "r173.rel10",
+            "relation": "r226.rel10",
             "target": {
               "cited": [
                 {
@@ -923,7 +920,7 @@
             "flags": [],
             "words": [
               "r72.w2970",
-              "r72.w2979"
+              "r72.w2977"
             ],
             "boxes": [
               {
@@ -931,7 +928,7 @@
                 "bbox": [
                   532,
                   2063,
-                  1754,
+                  1438,
                   2099
                 ]
               }
@@ -939,10 +936,10 @@
           },
           {
             "seq": 11,
-            "source_ref": "2.2(vi)",
+            "source_ref": "2(2)(vi)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r173.rel11",
+            "relation": "r226.rel11",
             "position": "after",
             "anchor": {
               "cited": [
@@ -1226,7 +1223,7 @@
             ],
             "words": [
               "r72.w3010",
-              "r72.w3018"
+              "r72.w3017"
             ],
             "boxes": [
               {
@@ -1234,7 +1231,7 @@
                 "bbox": [
                   532,
                   2217,
-                  1881,
+                  1557,
                   2253
                 ]
               }
@@ -1242,10 +1239,10 @@
           },
           {
             "seq": 12,
-            "source_ref": "2.2(vii)",
+            "source_ref": "2(2)(vii)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r173.rel12",
+            "relation": "r226.rel12",
             "target": {
               "cited": [
                 {
@@ -1274,11 +1271,10 @@
                 }
               ]
             },
-            "expect": "MINISTRY OF WATER RESOURCES, RIVER DEVELOPMENT AND GANGA REJUVENATION (JAL SANSADHAN, NADI VIKAS AUR GANGA SANRAKSHAN MANTRALAYA)",
             "flags": [],
             "words": [
               "r72.w3608",
-              "r72.w3618"
+              "r72.w3615"
             ],
             "boxes": [
               {
@@ -1286,7 +1282,7 @@
                 "bbox": [
                   532,
                   646,
-                  2227,
+                  1652,
                   682
                 ]
               }

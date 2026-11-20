@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_122.pdf",
     "sha256": "84787249e79ca237701f5d53deb6196f73cd37480a0a9a6ba25fb15782b461c5",
     "govdoc": "1_Upload_122.pdf.govdoc.json.zst",
-    "revision": 46
+    "revision": 79
   },
   "documents": [
     {
@@ -29,9 +29,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "3",
+          "version": "4",
           "model": "gemini-4-argon",
-          "at": "2026-11-12T13:49:23.592204+00:00"
+          "at": "2026-11-15T16:24:29.302371+00:00"
         },
         "ops": [
           {
@@ -39,7 +39,7 @@
             "source_ref": "2",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel1",
+            "relation": "r71.rel1",
             "target": {
               "cited": [
                 {
@@ -49,14 +49,14 @@
               ],
               "eId": null,
               "words": [
-                "r1.w203",
+                "r1.w204",
                 "r1.w206"
               ],
               "boxes": [
                 {
                   "page": 1,
                   "bbox": [
-                    870,
+                    942,
                     2105,
                     1277,
                     2138
@@ -351,7 +351,7 @@
             "source_ref": "3(a)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel2",
+            "relation": "r71.rel2",
             "target": {
               "cited": [
                 {
@@ -365,14 +365,14 @@
               ],
               "eId": null,
               "words": [
-                "r1.w491",
+                "r1.w492",
                 "r1.w503"
               ],
               "boxes": [
                 {
                   "page": 3,
                   "bbox": [
-                    368,
+                    407,
                     999,
                     1672,
                     1069
@@ -380,11 +380,10 @@
                 }
               ]
             },
-            "expect": "MINISTRY OF EDUCATION AND YOUTH SERVICES",
             "content": [
               {
-                "type": "text",
-                "text": "SHIKSHA AUR SAMAJ KALYAN MANTRALAYA"
+                "type": "ministry",
+                "heading": "SHIKSHA AUR SAMAJ KALYAN MANTRALAYA"
               },
               {
                 "type": "group_heading",
@@ -573,7 +572,7 @@
               },
               {
                 "type": "entry",
-                "num": "38",
+                "num": "39",
                 "text": "Conduct of National Diploma and National Certificate Examinations of the All India Council for Technical Education."
               },
               {
@@ -753,6 +752,7 @@
               }
             ],
             "flags": [
+              "read_hindi_missing",
               "read_page_break"
             ],
             "words": [
@@ -776,7 +776,7 @@
             "source_ref": "3(b)(1)(a)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel3",
+            "relation": "r71.rel3",
             "target": {
               "cited": [
                 {
@@ -798,14 +798,14 @@
               ],
               "eId": null,
               "words": [
-                "r1.w1420",
+                "r1.w1421",
                 "r1.w1422"
               ],
               "boxes": [
                 {
                   "page": 5,
                   "bbox": [
-                    407,
+                    483,
                     2470,
                     617,
                     2503
@@ -820,7 +820,9 @@
                 "text": "Administration of the Foreign Exchange Regulation Act, other than enforcement work mentioned under the Department of Personnel in the Cabinet Secretariat."
               }
             ],
-            "flags": [],
+            "flags": [
+              "states_inferred_hindi_cited"
+            ],
             "words": [
               "r1.w1419",
               "r1.w1429"
@@ -842,7 +844,7 @@
             "source_ref": "3(b)(1)(b)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r10.rel4",
+            "relation": "r71.rel4",
             "target": {
               "cited": [
                 {
@@ -879,7 +881,9 @@
                 }
               ]
             },
-            "flags": [],
+            "flags": [
+              "states_inferred_hindi_cited"
+            ],
             "words": [
               "r1.w1459",
               "r1.w1464"
@@ -901,7 +905,7 @@
             "source_ref": "3(b)(ii)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r10.rel5",
+            "relation": "r71.rel5",
             "position": "after",
             "anchor": {
               "cited": [
@@ -924,15 +928,15 @@
               ],
               "eId": null,
               "words": [
-                "r1.w1472",
+                "r1.w1473",
                 "r1.w1474"
               ],
               "boxes": [
                 {
                   "page": 6,
                   "bbox": [
-                    1290,
-                    280,
+                    1396,
+                    281,
                     1550,
                     312
                   ]
@@ -946,10 +950,12 @@
                 "text": "Grants to the Indian Institute of Public Administration"
               }
             ],
-            "flags": [],
+            "flags": [
+              "states_inferred_hindi_cited"
+            ],
             "words": [
               "r1.w1466",
-              "r1.w1474"
+              "r1.w1476"
             ],
             "boxes": [
               {
@@ -957,8 +963,8 @@
                 "bbox": [
                   375,
                   274,
-                  1550,
-                  312
+                  1710,
+                  314
                 ]
               }
             ]
@@ -968,7 +974,7 @@
             "source_ref": "3(c)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel6",
+            "relation": "r71.rel6",
             "target": {
               "cited": [
                 {
@@ -977,19 +983,19 @@
                 },
                 {
                   "type": "ministry",
-                  "heading": "MINISTRY OF FOOD, 'AGRICULTURE, COMMU- NITY DEVELOPMENT AND COOPERATION"
+                  "heading": "MINISTRY OF FOOD, 'AGRICULTURE, COMMUNITY DEVELOPMENT AND COOPERATION"
                 }
               ],
               "eId": null,
               "words": [
-                "r1.w1494",
+                "r1.w1495",
                 "r1.w1505"
               ],
               "boxes": [
                 {
                   "page": 6,
                   "bbox": [
-                    412,
+                    445,
                     416,
                     1712,
                     484
@@ -997,15 +1003,17 @@
                 }
               ]
             },
-            "expect": "MINISTRY OF FOOD, 'AGRICULTURE, COMMU- NITY DEVELOPMENT AND COOPERATION",
+            "expect": "MINISTRY OF FOOD, 'AGRICULTURE, COMMUNITY DEVELOPMENT AND COOPERATION",
             "scope": "heading",
             "content": [
               {
-                "type": "text",
-                "text": "KRISHI MANTRALAYA"
+                "type": "ministry",
+                "heading": "KRISHI MANTRALAYA"
               }
             ],
-            "flags": [],
+            "flags": [
+              "read_hindi_missing"
+            ],
             "words": [
               "r1.w1493",
               "r1.w1501"
@@ -1027,7 +1035,7 @@
             "source_ref": "3(d)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel7",
+            "relation": "r71.rel7",
             "target": {
               "cited": [
                 {
@@ -1036,35 +1044,37 @@
                 },
                 {
                   "type": "ministry",
-                  "heading": "MINISTRY OF HEALTH AND FAMILY PLAN- NING AND WORKS. HOUSING AND URBAN DEVELOPMENT"
+                  "heading": "MINISTRY OF HEALTH AND FAMILY PLANNING AND WORKS. HOUSING AND URBAN DEVELOPMENT"
                 }
               ],
               "eId": null,
               "words": [
-                "r1.w1517",
+                "r1.w1518",
                 "r1.w1532"
               ],
               "boxes": [
                 {
                   "page": 6,
                   "bbox": [
-                    412,
-                    589,
+                    445,
+                    590,
                     1714,
                     657
                   ]
                 }
               ]
             },
-            "expect": "MINISTRY OF HEALTH AND FAMILY PLAN- NING AND WORKS. HOUSING AND URBAN DEVELOPMENT",
+            "expect": "MINISTRY OF HEALTH AND FAMILY PLANNING AND WORKS. HOUSING AND URBAN DEVELOPMENT",
             "scope": "heading",
             "content": [
               {
-                "type": "text",
-                "text": "SWASTHYA AUR PARIVAR NIYOJAN MANTRALAYA"
+                "type": "ministry",
+                "heading": "SWASTHYA AUR PARIVAR NIYOJAN MANTRALAYA"
               }
             ],
-            "flags": [],
+            "flags": [
+              "read_hindi_missing"
+            ],
             "words": [
               "r1.w1516",
               "r1.w1525"
@@ -1086,7 +1096,7 @@
             "source_ref": "3(e)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r10.rel8",
+            "relation": "r71.rel8",
             "target": {
               "cited": [
                 {
@@ -1095,7 +1105,7 @@
                 },
                 {
                   "type": "ministry",
-                  "heading": "SWASTHYA AUR PARIVAR NIYOJAN MAN- TRALAYA"
+                  "heading": "SWASTHYA AUR PARIVAR NIYOJAN MANTRALAYA"
                 },
                 {
                   "type": "department",
@@ -1119,7 +1129,6 @@
                 }
               ]
             },
-            "expect": "C. DEPARTMENT ' OF WORKS, HOUSING AND URBAN DEVELOPMENT",
             "ref_seq": 7,
             "flags": [],
             "words": [
@@ -1143,7 +1152,7 @@
             "source_ref": "3(f)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r10.rel9",
+            "relation": "r71.rel9",
             "target": [
               {
                 "cited": [
@@ -1162,14 +1171,14 @@
                 ],
                 "eId": null,
                 "words": [
-                  "r1.w1583",
+                  "r1.w1584",
                   "r1.w1584"
                 ],
                 "boxes": [
                   {
                     "page": 6,
                     "bbox": [
-                      1259,
+                      1402,
                       918,
                       1429,
                       952
@@ -1370,7 +1379,9 @@
                 ]
               }
             ],
-            "flags": [],
+            "flags": [
+              "states_inferred_hindi_cited"
+            ],
             "words": [
               "r1.w1577",
               "r1.w1588"
@@ -1392,7 +1403,7 @@
             "source_ref": "3(g)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel10",
+            "relation": "r71.rel10",
             "target": {
               "cited": [
                 {
@@ -1406,14 +1417,14 @@
               ],
               "eId": null,
               "words": [
-                "r1.w1596",
+                "r1.w1597",
                 "r1.w1605"
               ],
               "boxes": [
                 {
                   "page": 6,
                   "bbox": [
-                    408,
+                    447,
                     999,
                     1712,
                     1062
@@ -1425,11 +1436,13 @@
             "scope": "heading",
             "content": [
               {
-                "type": "text",
-                "text": "AUDYOGIK VIKAS MANTRALAYA"
+                "type": "ministry",
+                "heading": "AUDYOGIK VIKAS MANTRALAYA"
               }
             ],
-            "flags": [],
+            "flags": [
+              "read_hindi_missing"
+            ],
             "words": [
               "r1.w1595",
               "r1.w1603"
@@ -1451,7 +1464,7 @@
             "source_ref": "3(h)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel11",
+            "relation": "r71.rel11",
             "target": {
               "cited": [
                 {
@@ -1465,14 +1478,14 @@
               ],
               "eId": null,
               "words": [
-                "r1.w1617",
+                "r1.w1618",
                 "r1.w1625"
               ],
               "boxes": [
                 {
                   "page": 6,
                   "bbox": [
-                    416,
+                    450,
                     1173,
                     1713,
                     1236
@@ -1484,11 +1497,13 @@
             "scope": "heading",
             "content": [
               {
-                "type": "text",
-                "text": "SHRAM AUR PUNARWAS MANTRALAYA"
+                "type": "ministry",
+                "heading": "SHRAM AUR PUNARWAS MANTRALAYA"
               }
             ],
-            "flags": [],
+            "flags": [
+              "read_hindi_missing"
+            ],
             "words": [
               "r1.w1616",
               "r1.w1624"
@@ -1510,7 +1525,7 @@
             "source_ref": "3(1)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel12",
+            "relation": "r71.rel12",
             "target": {
               "cited": [
                 {
@@ -1524,14 +1539,14 @@
               ],
               "eId": null,
               "words": [
-                "r1.w1638",
+                "r1.w1639",
                 "r1.w1643"
               ],
               "boxes": [
                 {
                   "page": 6,
                   "bbox": [
-                    405,
+                    486,
                     1347,
                     1170,
                     1382
@@ -1543,11 +1558,13 @@
             "scope": "heading",
             "content": [
               {
-                "type": "text",
-                "text": "VIDHI AUR NYAYA MANTRALAYA"
+                "type": "ministry",
+                "heading": "VIDHI AUR NYAYA MANTRALAYA"
               }
             ],
-            "flags": [],
+            "flags": [
+              "read_hindi_missing"
+            ],
             "words": [
               "r1.w1637",
               "r1.w1647"
@@ -1569,7 +1586,7 @@
             "source_ref": "3(j)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r10.rel13",
+            "relation": "r71.rel13",
             "position": "after",
             "anchor": {
               "cited": [
@@ -1588,7 +1605,7 @@
               ],
               "eId": null,
               "words": [
-                "r1.w1666",
+                "r1.w1667",
                 "r1.w1675"
               ],
               "boxes": [
@@ -1646,7 +1663,10 @@
               }
             ],
             "ref_seq": 12,
-            "flags": [],
+            "flags": [
+              "read_hindi_missing",
+              "states_inferred_hindi_cited"
+            ],
             "words": [
               "r1.w1655",
               "r1.w1664"
@@ -1668,7 +1688,7 @@
             "source_ref": "3(k)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel14",
+            "relation": "r71.rel14",
             "target": {
               "cited": [
                 {
@@ -1682,14 +1702,14 @@
               ],
               "eId": null,
               "words": [
-                "r1.w1844",
+                "r1.w1845",
                 "r1.w1855"
               ],
               "boxes": [
                 {
                   "page": 6,
                   "bbox": [
-                    407,
+                    440,
                     2466,
                     1707,
                     2539
@@ -1701,11 +1721,14 @@
             "scope": "heading",
             "content": [
               {
-                "type": "text",
-                "text": "PETROLEUM AUR RASAYAN MANTRALAYA"
+                "type": "ministry",
+                "heading": "PETROLEUM AUR RASAYAN MANTRALAYA"
               }
             ],
-            "flags": [],
+            "flags": [
+              "read_hindi_missing",
+              "states_inferred_loose"
+            ],
             "words": [
               "r1.w1843",
               "r1.w1851"
@@ -1727,7 +1750,7 @@
             "source_ref": "3(1)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r10.rel15",
+            "relation": "r71.rel15",
             "target": {
               "cited": [
                 {
@@ -1760,9 +1783,10 @@
                 }
               ]
             },
-            "expect": "C. DEPARTMENT OF MINES METALS",
             "ref_seq": 14,
-            "flags": [],
+            "flags": [
+              "states_inferred_loose"
+            ],
             "words": [
               "r1.w1878",
               "r1.w1885"
@@ -1784,7 +1808,7 @@
             "source_ref": "3(m)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r10.rel16",
+            "relation": "r71.rel16",
             "position": "after",
             "anchor": {
               "cited": [
@@ -1799,14 +1823,14 @@
               ],
               "eId": null,
               "words": [
-                "r1.w1904",
+                "r1.w1905",
                 "r1.w1914"
               ],
               "boxes": [
                 {
                   "page": 7,
                   "bbox": [
-                    335,
+                    360,
                     319,
                     1622,
                     392
@@ -1816,8 +1840,8 @@
             },
             "content": [
               {
-                "type": "text",
-                "text": "YOJANA MANTRALAYA"
+                "type": "ministry",
+                "heading": "YOJANA MANTRALAYA"
               },
               {
                 "type": "entry",
@@ -1860,7 +1884,9 @@
               }
             ],
             "ref_seq": 14,
-            "flags": [],
+            "flags": [
+              "read_hindi_missing"
+            ],
             "words": [
               "r1.w1903",
               "r1.w1910"
@@ -1882,7 +1908,7 @@
             "source_ref": "3(n)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel17",
+            "relation": "r71.rel17",
             "target": {
               "cited": [
                 {
@@ -1896,14 +1922,14 @@
               ],
               "eId": null,
               "words": [
-                "r1.w2095",
+                "r1.w2096",
                 "r1.w2107"
               ],
               "boxes": [
                 {
                   "page": 7,
                   "bbox": [
-                    340,
+                    377,
                     1346,
                     1643,
                     1412
@@ -1911,11 +1937,10 @@
                 }
               ]
             },
-            "expect": "MINISTRY OF STEEL AND HEAVY ENGINEERING",
             "content": [
               {
-                "type": "text",
-                "text": "ISPAT AUR KHAN MANTRALAYA"
+                "type": "ministry",
+                "heading": "ISPAT AUR KHAN MANTRALAYA"
               },
               {
                 "type": "group_heading",
@@ -2044,6 +2069,7 @@
               }
             ],
             "flags": [
+              "read_hindi_missing",
               "read_page_break"
             ],
             "words": [
@@ -2067,7 +2093,7 @@
             "source_ref": "3(o)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r10.rel18",
+            "relation": "r71.rel18",
             "target": {
               "cited": [
                 {
@@ -2096,7 +2122,6 @@
                 }
               ]
             },
-            "expect": "MINISTRY OF SUPPLY",
             "flags": [],
             "words": [
               "r1.w2463",
@@ -2119,7 +2144,7 @@
             "source_ref": "3(p)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r10.rel19",
+            "relation": "r71.rel19",
             "position": "after",
             "anchor": {
               "cited": [
@@ -2134,14 +2159,14 @@
               ],
               "eId": null,
               "words": [
-                "r1.w2477",
+                "r1.w2478",
                 "r1.w2488"
               ],
               "boxes": [
                 {
                   "page": 8,
                   "bbox": [
-                    429,
+                    465,
                     1156,
                     1731,
                     1223
@@ -2151,8 +2176,8 @@
             },
             "content": [
               {
-                "type": "text",
-                "text": "NIRMAN AUR AWAS MANTRALAYA"
+                "type": "ministry",
+                "heading": "NIRMAN AUR AWAS MANTRALAYA"
               },
               {
                 "type": "entry",
@@ -2286,7 +2311,9 @@
               }
             ],
             "flags": [
-              "read_page_break"
+              "read_hindi_missing",
+              "read_page_break",
+              "states_inferred_hindi_cited"
             ],
             "words": [
               "r1.w2476",
@@ -2309,7 +2336,7 @@
             "source_ref": "3(q)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r10.rel20",
+            "relation": "r71.rel20",
             "target": {
               "cited": [
                 {
@@ -2338,7 +2365,6 @@
                 }
               ]
             },
-            "expect": "Department of Parliamentary Affairs",
             "flags": [],
             "words": [
               "r1.w2952",
@@ -2361,7 +2387,7 @@
             "source_ref": "3(r)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel21",
+            "relation": "r71.rel21",
             "target": {
               "cited": [
                 {
@@ -2375,14 +2401,14 @@
               ],
               "eId": null,
               "words": [
-                "r1.w2967",
+                "r1.w2968",
                 "r1.w2972"
               ],
               "boxes": [
                 {
                   "page": 9,
                   "bbox": [
-                    428,
+                    496,
                     1517,
                     1483,
                     1548
@@ -2394,11 +2420,13 @@
             "scope": "heading",
             "content": [
               {
-                "type": "text",
-                "text": "SANCHAR MANTRALAYA"
+                "type": "ministry",
+                "heading": "SANCHAR MANTRALAYA"
               }
             ],
-            "flags": [],
+            "flags": [
+              "read_hindi_missing"
+            ],
             "words": [
               "r1.w2966",
               "r1.w2974"
@@ -2420,7 +2448,7 @@
             "source_ref": "3(s)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r10.rel22",
+            "relation": "r71.rel22",
             "position": "after",
             "anchor": {
               "cited": [
@@ -2435,14 +2463,14 @@
               ],
               "eId": null,
               "words": [
-                "r1.w2985",
+                "r1.w2986",
                 "r1.w2995"
               ],
               "boxes": [
                 {
                   "page": 9,
                   "bbox": [
-                    431,
+                    467,
                     1654,
                     1734,
                     1726
@@ -2452,8 +2480,8 @@
             },
             "content": [
               {
-                "type": "text",
-                "text": "SANSKRITI VIBHAG"
+                "type": "department",
+                "heading": "SANSKRITI VIBHAG"
               },
               {
                 "type": "entry",
@@ -2653,7 +2681,16 @@
               {
                 "type": "entry",
                 "num": "40",
-                "text": "All other attached or subordinate offices or other organisations concerned with any of the subjects specifled in this list. SANSADIYA KARYA VIBHAG 1 Dates of summoning and prorogation of the two Houses of Parliament; dissolution of Lok Sabha, President's address to Parliament."
+                "text": "All other attached or subordinate offices or other organisations concerned with any of the subjects specifled in this list."
+              },
+              {
+                "type": "department",
+                "heading": "SANSADIYA KARYA VIBHAG"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Dates of summoning and prorogation of the two Houses of Parliament; dissolution of Lok Sabha, President's address to Parliament."
               },
               {
                 "type": "entry",
@@ -2728,7 +2765,11 @@
               {
                 "type": "entry",
                 "num": "16",
-                "text": "Matters connected with powers, privileges and immunities of Members of Parlament. Vigyan Aur Irodyagiki Vibhag"
+                "text": "Matters connected with powers, privileges and immunities of Members of Parlament."
+              },
+              {
+                "type": "department",
+                "heading": "Vigyan Aur Irodyagiki Vibhag"
               },
               {
                 "type": "entry",
@@ -2773,7 +2814,11 @@
               {
                 "type": "entry",
                 "num": "9",
-                "text": "Oceanography and the scientific aspects of the sea-bed, ecology, environment and Futurology. POORTI VIBHAG"
+                "text": "Oceanography and the scientific aspects of the sea-bed, ecology, environment and Futurology."
+              },
+              {
+                "type": "department",
+                "heading": "POORTI VIBHAG"
               },
               {
                 "type": "entry",
@@ -2817,7 +2862,9 @@
               }
             ],
             "flags": [
-              "read_page_break"
+              "read_hindi_missing",
+              "read_page_break",
+              "states_inferred_hindi_cited"
             ],
             "words": [
               "r1.w2984",
@@ -2840,7 +2887,7 @@
             "source_ref": "3(t)(i)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r10.rel23",
+            "relation": "r71.rel23",
             "target": {
               "cited": [
                 {
@@ -2853,7 +2900,7 @@
                 },
                 {
                   "type": "department",
-                  "heading": "DEPARTMENT OF SCIENTIFIC AND INDUS- TRIAL RESEARCH"
+                  "heading": "DEPARTMENT OF SCIENTIFIC AND INDUSTRIAL RESEARCH"
                 }
               ],
               "eId": null,
@@ -2873,8 +2920,10 @@
                 }
               ]
             },
-            "expect": "C. DEPARTMENT OF SCIENTIFIC AND INDUS- TRIAL RESEARCH",
-            "flags": [],
+            "flags": [
+              "states_inferred_hindi_cited",
+              "states_inferred_loose"
+            ],
             "words": [
               "r1.w3841",
               "r1.w3848"
@@ -2896,7 +2945,7 @@
             "source_ref": "3(t)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel24",
+            "relation": "r71.rel24",
             "target": {
               "cited": [
                 {
@@ -2914,14 +2963,14 @@
               ],
               "eId": null,
               "words": [
-                "r1.w3867",
+                "r1.w3868",
                 "r1.w3872"
               ],
               "boxes": [
                 {
                   "page": 12,
                   "bbox": [
-                    418,
+                    494,
                     227,
                     1437,
                     262
@@ -2938,7 +2987,10 @@
                 "text": "KARMIK VIBHAG"
               }
             ],
-            "flags": [],
+            "flags": [
+              "read_hindi_missing",
+              "states_inferred_hindi_cited"
+            ],
             "words": [
               "r1.w3867",
               "r1.w3875"
@@ -2960,7 +3012,7 @@
             "source_ref": "3(t)(ii)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel25",
+            "relation": "r71.rel25",
             "target": {
               "cited": [
                 {
@@ -2978,14 +3030,14 @@
               ],
               "eId": null,
               "words": [
-                "r1.w3885",
+                "r1.w3886",
                 "r1.w3890"
               ],
               "boxes": [
                 {
                   "page": 12,
                   "bbox": [
-                    505,
+                    575,
                     371,
                     1464,
                     404
@@ -2993,7 +3045,7 @@
                 }
               ]
             },
-            "expect": "E. DEPARTMENT OF STATISTICS",
+            "expect": " E. DEPARTMENT OF STATISTICS",
             "scope": "heading",
             "content": [
               {
@@ -3002,7 +3054,10 @@
                 "text": "SANKHIKI VIBHAG"
               }
             ],
-            "flags": [],
+            "flags": [
+              "read_hindi_missing",
+              "states_inferred_hindi_cited"
+            ],
             "words": [
               "r1.w3884",
               "r1.w3893"
@@ -3024,7 +3079,7 @@
             "source_ref": "3(u)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r10.rel26",
+            "relation": "r71.rel26",
             "target": {
               "cited": [
                 {
@@ -3053,7 +3108,6 @@
                 }
               ]
             },
-            "expect": "PLANNING COMMISSION",
             "flags": [],
             "words": [
               "r1.w3902",

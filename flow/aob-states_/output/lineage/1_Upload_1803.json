@@ -1,0 +1,225 @@
+{
+ "file": "1_Upload_1803.pdf",
+ "kind": "amendment",
+ "series": 348,
+ "date": "2019-02-05",
+ "govdoc": "aob-ammend_/output/1_Upload_1803.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826688.1764357,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_1803.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:56:00.860831+00:00",
+  "sha256": "742a37252c3375b76bb9fadd7d625fd4ec452c4dc8b6001325b75274cb6d260a",
+  "pages": 5
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r17",
+   "at": "2026-10-31T11:51:36.896285+00:00",
+   "stamp": "4ec9e47416864acd"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r205",
+   "at": "2026-11-15T12:42:05.666040+00:00",
+   "stamp": "c60c54be123d51bb"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r206",
+   "at": "2026-11-15T12:42:07.656576+00:00",
+   "stamp": "0b701e871c8a0307"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r207",
+   "at": "2026-11-15T12:42:09.732929+00:00",
+   "stamp": "e59f9d7d32d2fa88"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r216",
+   "at": "2026-11-15T16:24:25.511447+00:00",
+   "stamp": "e8e942a63ccc0ef3",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r217",
+   "at": "2026-11-15T16:24:27.076802+00:00",
+   "stamp": "74f5f017fe5c5a46",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r218",
+   "at": "2026-11-15T16:24:28.567481+00:00",
+   "stamp": "173cad58cf351c51",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r224",
+   "at": "2026-11-15T16:57:27.989234+00:00",
+   "stamp": "05c10d96c2e4168f"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r225",
+   "at": "2026-11-15T17:03:30.060169+00:00",
+   "stamp": "9bb1eb93d0cb81a7"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r230",
+   "at": "2026-11-16T10:58:08.145330+00:00",
+   "stamp": "3a6206c2d78935a7"
+  }
+ ],
+ "reviews": [],
+ "issues": [
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 11: its quoted text runs across a page break",
+   "target": "r218.rel11",
+   "status": "open"
+  }
+ ],
+ "problems": [],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_762E_2019",
+   "op": "replace",
+   "source_ref": "2(1)(a)",
+   "path": "schedule 1 › ministry Ministry of Agriculture and Farmers Welfare › department Department of Animal Husbandry, Dairying and Fisheries",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_762E_2019",
+   "op": "insert",
+   "source_ref": "2(1)(b)",
+   "path": "schedule 1 › ministry Ministry of Agriculture and Farmers Welfare › department Department of Animal Husbandry and Dairying",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_762E_2019",
+   "op": "replace",
+   "source_ref": "2(2)(a)",
+   "path": "schedule 2 › ministry MINISTRY OF AGRICULTURE AND FARMERS WELFARE › department DEPARTMENT OF ANIMAL HUSBANDRY, DAIRYING AND FISHERIES",
+   "status": "applied"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_762E_2019",
+   "op": "substitute_text",
+   "source_ref": "2(2)(b)(i)",
+   "path": "schedule 2 › ministry MINISTRY OF AGRICULTURE AND FARMERS WELFARE › department DEPARTMENT OF ANIMAL HUSBANDRY AND DAIRYING › group_heading PART I › entry 1",
+   "status": "applied"
+  },
+  {
+   "seq": 5,
+   "doc_id": "GOI_SO_762E_2019",
+   "op": "insert",
+   "source_ref": "2(2)(b)(ii)",
+   "path": "schedule 2 › ministry MINISTRY OF AGRICULTURE AND FARMERS WELFARE › department DEPARTMENT OF ANIMAL HUSBANDRY AND DAIRYING › group_heading PART I › entry 1",
+   "status": "applied"
+  },
+  {
+   "seq": 6,
+   "doc_id": "GOI_SO_762E_2019",
+   "op": "substitute_text",
+   "source_ref": "2(2)(b)(iii)",
+   "path": "schedule 2 › ministry MINISTRY OF AGRICULTURE AND FARMERS WELFARE › department DEPARTMENT OF ANIMAL HUSBANDRY AND DAIRYING › group_heading PART I › entry 2",
+   "status": "applied"
+  },
+  {
+   "seq": 7,
+   "doc_id": "GOI_SO_762E_2019",
+   "op": "omit",
+   "source_ref": "2(2)(b)(iv)",
+   "path": "schedule 2 › ministry MINISTRY OF AGRICULTURE AND FARMERS WELFARE › department DEPARTMENT OF ANIMAL HUSBANDRY AND DAIRYING › group_heading PART I › entry 7 ; schedule 2 › ministry MINISTRY OF AGRICULTURE AND FARMERS WELFARE › department DEPARTMENT OF ANIMAL HUSBANDRY AND DAIRYING › group_heading PART I › entry 8",
+   "status": "applied"
+  },
+  {
+   "seq": 8,
+   "doc_id": "GOI_SO_762E_2019",
+   "op": "substitute_text",
+   "source_ref": "2(2)(c)",
+   "path": "schedule 2 › ministry MINISTRY OF AGRICULTURE AND FARMERS WELFARE › department DEPARTMENT OF ANIMAL HUSBANDRY AND DAIRYING › group_heading PART II › entry 10",
+   "status": "applied"
+  },
+  {
+   "seq": 9,
+   "doc_id": "GOI_SO_762E_2019",
+   "op": "substitute_text",
+   "source_ref": "2(2)(d)(i)",
+   "path": "schedule 2 › ministry MINISTRY OF AGRICULTURE AND FARMERS WELFARE › department DEPARTMENT OF ANIMAL HUSBANDRY AND DAIRYING › group_heading PART III › entry 13",
+   "status": "applied"
+  },
+  {
+   "seq": 10,
+   "doc_id": "GOI_SO_762E_2019",
+   "op": "substitute_text",
+   "source_ref": "2(2)(d)(ii)",
+   "path": "schedule 2 › ministry MINISTRY OF AGRICULTURE AND FARMERS WELFARE › department DEPARTMENT OF ANIMAL HUSBANDRY AND DAIRYING › group_heading PART III › entry 15",
+   "status": "applied"
+  },
+  {
+   "seq": 11,
+   "doc_id": "GOI_SO_762E_2019",
+   "op": "insert",
+   "source_ref": "2(2)(e)",
+   "path": "schedule 2 › ministry MINISTRY OF AGRICULTURE AND FARMERS WELFARE › department DEPARTMENT OF ANIMAL HUSBANDRY AND DAIRYING",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

@@ -1,0 +1,177 @@
+{
+ "file": "1_Upload_343.pdf",
+ "kind": "amendment",
+ "series": 298,
+ "date": "2010-08-17",
+ "govdoc": "aob-ammend_/output/1_Upload_343.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826686.628809,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_343.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T14:00:28.509281+00:00",
+  "sha256": "58da0994ce63a4fe52f0c9827415ddbefb8e6f89460a83fc29c0e8319a3d36a6",
+  "pages": 2
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r5",
+   "at": "2026-11-04T13:34:27.483387+00:00",
+   "stamp": "dbbc9e01e52527c8"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r151",
+   "at": "2026-11-15T12:41:54.749967+00:00",
+   "stamp": "e5564c5605186792"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r152",
+   "at": "2026-11-15T12:41:56.299601+00:00",
+   "stamp": "54fbe813922a64a6"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r153",
+   "at": "2026-11-15T12:41:57.963919+00:00",
+   "stamp": "8a63448a6338a498"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r162",
+   "at": "2026-11-15T16:24:17.410313+00:00",
+   "stamp": "7f231e33a09efc99",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r163",
+   "at": "2026-11-15T16:24:18.580767+00:00",
+   "stamp": "dea12c93f8660337",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r164",
+   "at": "2026-11-15T16:24:19.808759+00:00",
+   "stamp": "baeea644e185e50c",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r170",
+   "at": "2026-11-15T16:57:25.796937+00:00",
+   "stamp": "422a2d47c75e27cf"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r171",
+   "at": "2026-11-15T17:03:25.177345+00:00",
+   "stamp": "653eda5d8a3cf77b"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r176",
+   "at": "2026-11-16T10:58:06.611125+00:00",
+   "stamp": "a5be3d5df20746c8"
+  }
+ ],
+ "reviews": [],
+ "issues": [],
+ "problems": [],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_2039E_2010",
+   "op": "replace",
+   "source_ref": "2(1)",
+   "path": "schedule 1 › ministry Ministry of Chemicals and Fertilizers › department Department of Pharmaceuticals",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_2039E_2010",
+   "op": "replace",
+   "source_ref": "2(2)(i)",
+   "path": "schedule 2 › ministry MINISTRY OF CHEMICALS AND FERTILIZERS › department DEPARTMENT OF PHARMACEUTICALS",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_2039E_2010",
+   "op": "replace",
+   "source_ref": "2(2)(ii)",
+   "path": "schedule 2 › ministry MINISTRY OF DEVELOPMENT OF NORTH EASTERN REGION › entry 2",
+   "status": "applied"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_2039E_2010",
+   "op": "replace",
+   "source_ref": "2(2)(iii)",
+   "path": "schedule 2 › ministry MINISTRY OF HOME AFFAIRS › department DEPARTMENT OF BORDER MANAGEMENT › entry 5",
+   "status": "applied"
+  },
+  {
+   "seq": 5,
+   "doc_id": "GOI_SO_2039E_2010",
+   "op": "insert",
+   "source_ref": "2(2)(iv)",
+   "path": "schedule 2 › ministry MINISTRY OF HUMAN RESOURCE DEVELOPMENT › department DEPARTMENT OF HIGHER EDUCATION › entry 42",
+   "status": "applied"
+  },
+  {
+   "seq": 6,
+   "doc_id": "GOI_SO_2039E_2010",
+   "op": "insert",
+   "source_ref": "2(2)(v)",
+   "path": "schedule 2 › ministry PLANNING COMMISSION › entry 12",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

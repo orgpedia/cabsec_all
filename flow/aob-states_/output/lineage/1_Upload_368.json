@@ -1,0 +1,153 @@
+{
+ "file": "1_Upload_368.pdf",
+ "kind": "amendment",
+ "series": 323,
+ "date": "2016-04-14",
+ "govdoc": "aob-ammend_/output/1_Upload_368.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826687.0682883,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_368.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T14:01:04.835502+00:00",
+  "sha256": "6588b354885bfb8049260c2a65cf4aca8b5b8fb95fb67d73238f728619863ab8",
+  "pages": 3
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r51",
+   "at": "2026-11-04T13:34:27.900768+00:00",
+   "stamp": "d2985b5ecfc1cbe6"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r197",
+   "at": "2026-11-15T12:41:55.297003+00:00",
+   "stamp": "65f5bb5007d4075c"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r198",
+   "at": "2026-11-15T12:41:57.038274+00:00",
+   "stamp": "ef270ea2f5dbac07"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r199",
+   "at": "2026-11-15T12:41:58.411638+00:00",
+   "stamp": "43a7395012873802"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r208",
+   "at": "2026-11-15T16:24:17.866529+00:00",
+   "stamp": "41a1896c8b80caa8",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r209",
+   "at": "2026-11-15T16:24:19.071557+00:00",
+   "stamp": "9a92de2b895507cc",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r210",
+   "at": "2026-11-15T16:24:20.246792+00:00",
+   "stamp": "733b5aa87e8702d3",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r216",
+   "at": "2026-11-15T16:57:26.267460+00:00",
+   "stamp": "670c09be07a11486"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r217",
+   "at": "2026-11-15T17:03:26.049430+00:00",
+   "stamp": "5cf68061aeb49db8"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r222",
+   "at": "2026-11-16T10:58:07.046543+00:00",
+   "stamp": "3a6433c86d41f87b"
+  }
+ ],
+ "reviews": [],
+ "issues": [],
+ "problems": [],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_1435E_2016",
+   "op": "replace",
+   "source_ref": "2(a)",
+   "path": "schedule 1 › ministry Ministry of Finance › department Department of Disinvestment",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_1435E_2016",
+   "op": "omit",
+   "source_ref": "2(b)(i)",
+   "path": "schedule 2 › ministry MINISTRY OF FINANCE › department DEPARTMENT OF ECONOMIC AFFAIRS › entry 93",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_1435E_2016",
+   "op": "replace",
+   "source_ref": "2(b)(ii)",
+   "path": "schedule 2 › ministry MINISTRY OF FINANCE › department DEPARTMENT OF DISINVESTMENT",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

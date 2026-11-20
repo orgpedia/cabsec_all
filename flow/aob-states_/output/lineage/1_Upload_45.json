@@ -1,0 +1,231 @@
+{
+ "file": "1_Upload_45.pdf",
+ "kind": "amendment",
+ "series": 12,
+ "date": "1962-11-14",
+ "govdoc": "aob-ammend_/output/1_Upload_45.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826688.4972808,
+ "edits_file": "aob-ammend_/conf/1_Upload_45.pdf.edits.yml",
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_45.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T14:01:43.469962+00:00",
+  "sha256": "7e6fef011d35955a6b94834879d2a26025212273c2407b38a12f06cfb97a337f",
+  "pages": 2
+ },
+ "edits": [
+  {
+   "run": "h1",
+   "by": "claude",
+   "at": "2026-11-12T18:01:00+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r1.w144",
+     "before": {
+      "text": "(li)"
+     },
+     "after": {
+      "text": "(ii)"
+     }
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-12T12:37:01.462174+00:00",
+   "stamp": "5303dadc2a300fde"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r58",
+   "at": "2026-11-15T12:42:06.176806+00:00",
+   "stamp": "4a78e5c30d53eac3"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r59",
+   "at": "2026-11-15T12:42:08.239853+00:00",
+   "stamp": "44fceb0cd9a04eea"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r60",
+   "at": "2026-11-15T12:42:10.122050+00:00",
+   "stamp": "789473668a9c371d"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r69",
+   "at": "2026-11-15T16:24:25.883228+00:00",
+   "stamp": "5e90ae80327ad7d3",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r70",
+   "at": "2026-11-15T16:24:27.438349+00:00",
+   "stamp": "8515385ff2e98560",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r71",
+   "at": "2026-11-15T16:24:28.949132+00:00",
+   "stamp": "10b0a40cb4157072",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r77",
+   "at": "2026-11-15T16:57:28.376543+00:00",
+   "stamp": "f6cceab5b9c6d824"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r78",
+   "at": "2026-11-15T17:03:30.772740+00:00",
+   "stamp": "42fddda7558dab5a"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r83",
+   "at": "2026-11-16T10:58:08.488930+00:00",
+   "stamp": "246e59dd3398a696"
+  }
+ ],
+ "reviews": [],
+ "issues": [
+  {
+   "code": "aob:read_hindi_missing",
+   "severity": "info",
+   "message": "change 1: a new heading has no Hindi name in brackets",
+   "target": "r71.rel1",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_hindi_missing",
+   "severity": "info",
+   "message": "change 2: a new heading has no Hindi name in brackets",
+   "target": "r71.rel2",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_hindi_missing",
+   "severity": "info",
+   "message": "change 3: a new heading has no Hindi name in brackets",
+   "target": "r71.rel3",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_number_kept",
+   "severity": "info",
+   "message": "change 2: schedule 1 › department Cabinet Secretariat: keeps its number 22, the heading put for it quoted without one",
+   "target": "r71.rel2",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
+   "message": "change 4: department Department of Special Economic Co-ordination. taken for department Department of Special Economic Co-ordination. Specific matters of economic co-ordination as may be assigned by the Prime Minister from time to time., named loosely",
+   "target": "r71.rel4",
+   "status": "open"
+  }
+ ],
+ "problems": [],
+ "rules": [
+  {
+   "rule": "number_kept",
+   "seq": 2,
+   "note": "change 2: schedule 1 › department Cabinet Secretariat: keeps its number 22, the heading put for it quoted without one",
+   "status": "accepted"
+  },
+  {
+   "rule": "loose",
+   "seq": 4,
+   "note": "change 4: department Department of Special Economic Co-ordination. taken for department Department of Special Economic Co-ordination. Specific matters of economic co-ordination as may be assigned by the Prime Minister from time to time., named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  }
+ ],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_3482_1962",
+   "op": "insert",
+   "source_ref": "(A)(a)",
+   "path": "schedule 1 › entry 3",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_3482_1962",
+   "op": "replace",
+   "source_ref": "(A)(b)",
+   "path": "schedule 1 › entry 22",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_3482_1962",
+   "op": "insert",
+   "source_ref": "(B)(a)",
+   "path": "schedule 2 › ministry Ministry of Defence",
+   "status": "applied"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_3482_1962",
+   "op": "omit",
+   "source_ref": "(B)(b)",
+   "path": "schedule 2 › ministry Cabinet Secretariat › department Department of Special Economic Co-ordination.",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

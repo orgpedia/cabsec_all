@@ -1,0 +1,373 @@
+{
+ "file": "1_Upload_38.pdf",
+ "kind": "amendment",
+ "series": 5,
+ "date": "1962-04-09",
+ "govdoc": "aob-ammend_/output/1_Upload_38.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826683.6069932,
+ "edits_file": "aob-ammend_/conf/1_Upload_38.pdf.edits.yml",
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_38.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T14:01:18.727747+00:00",
+  "sha256": "2a2b0d45858116c369168046a70d658a7a290eb282376e31b6b97fff4529a6e2",
+  "pages": 6
+ },
+ "edits": [
+  {
+   "run": "h1",
+   "by": "claude",
+   "at": "2026-11-12T18:01:00+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r1.w192",
+     "before": {
+      "text": "(1)"
+     },
+     "after": {
+      "text": "(i)"
+     }
+    }
+   ]
+  },
+  {
+   "run": "h2",
+   "by": "mukundesh",
+   "at": "2026-11-14T13:36:17+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r1.w1481",
+     "before": {
+      "text": "8."
+     },
+     "after": {
+      "text": "6."
+     }
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-12T12:32:53.627187+00:00",
+   "stamp": "8cf2c33b4281e0c8"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r66",
+   "at": "2026-11-15T12:41:26.922336+00:00",
+   "stamp": "54e5bf625a8bc81a"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r67",
+   "at": "2026-11-15T12:41:29.289970+00:00",
+   "stamp": "7f45fbe472e8b496"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r68",
+   "at": "2026-11-15T12:41:30.941986+00:00",
+   "stamp": "d51544ca6351f154"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r77",
+   "at": "2026-11-15T16:23:57.235806+00:00",
+   "stamp": "71994de1f65912e6",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r78",
+   "at": "2026-11-15T16:23:58.874234+00:00",
+   "stamp": "2653dcf79b2aef1d",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r79",
+   "at": "2026-11-15T16:24:00.295986+00:00",
+   "stamp": "df43581cbbb9c9de",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r85",
+   "at": "2026-11-15T16:57:20.974362+00:00",
+   "stamp": "286be0cf54d99fa6"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r86",
+   "at": "2026-11-15T17:03:13.321434+00:00",
+   "stamp": "14835d8775ed8553"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r91",
+   "at": "2026-11-16T10:58:03.578907+00:00",
+   "stamp": "003b92062856cc35"
+  }
+ ],
+ "reviews": [
+  {
+   "id": "h3.v1001",
+   "target": "r80.i2",
+   "status": "rejected",
+   "by": "mukundesh",
+   "at": "2026-11-15T15:50:53+00:00"
+  }
+ ],
+ "issues": [
+  {
+   "code": "aob:read_quote_mismatch",
+   "severity": "error",
+   "message": "change 2: its expect is not in the text",
+   "target": "r79.rel2",
+   "status": "rejected"
+  },
+  {
+   "code": "aob:read_hindi_missing",
+   "severity": "info",
+   "message": "change 1: a new heading has no Hindi name in brackets",
+   "target": "r79.rel1",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_hindi_missing",
+   "severity": "info",
+   "message": "change 2: a new heading has no Hindi name in brackets",
+   "target": "r79.rel2",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_hindi_missing",
+   "severity": "info",
+   "message": "change 3: a new heading has no Hindi name in brackets",
+   "target": "r79.rel3",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_hindi_missing",
+   "severity": "info",
+   "message": "change 4: a new heading has no Hindi name in brackets",
+   "target": "r79.rel4",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 4: its quoted text runs across a page break",
+   "target": "r79.rel4",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_hindi_missing",
+   "severity": "info",
+   "message": "change 5: a new heading has no Hindi name in brackets",
+   "target": "r79.rel5",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 5: its quoted text runs across a page break",
+   "target": "r79.rel5",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_hindi_missing",
+   "severity": "info",
+   "message": "change 6: a new heading has no Hindi name in brackets",
+   "target": "r79.rel6",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_hindi_missing",
+   "severity": "info",
+   "message": "change 8: a new heading has no Hindi name in brackets",
+   "target": "r79.rel8",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_hindi_missing",
+   "severity": "info",
+   "message": "change 9: a new heading has no Hindi name in brackets",
+   "target": "r79.rel9",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 9: its quoted text runs across a page break",
+   "target": "r79.rel9",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_hindi_missing",
+   "severity": "info",
+   "message": "change 10: a new heading has no Hindi name in brackets",
+   "target": "r79.rel10",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_hindi_missing",
+   "severity": "info",
+   "message": "change 11: a new heading has no Hindi name in brackets",
+   "target": "r79.rel11",
+   "status": "open"
+  }
+ ],
+ "problems": [
+  {
+   "series": 5,
+   "seq": 9,
+   "code": "old_path_missing",
+   "severity": "error",
+   "message": "change 9: no department Department of Mines & Fuel under schedule 2",
+   "cause": "unit_not_found"
+  }
+ ],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_1140_1962",
+   "op": "replace",
+   "source_ref": "(A)(a)*",
+   "path": "schedule 1 › entry 1 › item 1",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_1140_1962",
+   "op": "replace",
+   "source_ref": "(A)(b)*",
+   "path": "schedule 1 › entry 14 ; schedule 1 › entry 15",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_1140_1962",
+   "op": "replace",
+   "source_ref": "(A)(c)*",
+   "path": "schedule 1 › entry 17",
+   "status": "applied"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_1140_1962",
+   "op": "replace",
+   "source_ref": "(B)(a)*",
+   "path": "schedule 2 › department Department of Commerce",
+   "status": "applied"
+  },
+  {
+   "seq": 5,
+   "doc_id": "GOI_SO_1140_1962",
+   "op": "replace",
+   "source_ref": "(B)(b)*",
+   "path": "schedule 2 › department Department of Industry",
+   "status": "applied"
+  },
+  {
+   "seq": 6,
+   "doc_id": "GOI_SO_1140_1962",
+   "op": "insert",
+   "source_ref": "(B)(c)*",
+   "path": "schedule 2 › department Legislative Department",
+   "status": "applied"
+  },
+  {
+   "seq": 7,
+   "doc_id": "GOI_SO_1140_1962",
+   "op": "omit",
+   "source_ref": "(B)(d)*",
+   "path": "schedule 2 › ministry Ministry of Rehabilitation",
+   "status": "applied"
+  },
+  {
+   "seq": 8,
+   "doc_id": "GOI_SO_1140_1962",
+   "op": "replace",
+   "source_ref": "(B)(e)*",
+   "path": "schedule 2 › ministry Ministry of Steel, Mines & Fuel",
+   "status": "applied"
+  },
+  {
+   "seq": 9,
+   "doc_id": "GOI_SO_1140_1962",
+   "op": "replace",
+   "source_ref": "(B)(f)*",
+   "path": "schedule 2 › department Department of Mines & Fuel",
+   "status": "not_applied",
+   "problem": "change 9: no department Department of Mines & Fuel under schedule 2",
+   "code": "old_path_missing",
+   "cause": "unit_not_found",
+   "known": "renamed_unit"
+  },
+  {
+   "seq": 10,
+   "doc_id": "GOI_SO_1140_1962",
+   "op": "insert",
+   "source_ref": "(B)(g)*",
+   "path": "schedule 2 › ministry Ministry of Works, Housing and Supply",
+   "status": "applied"
+  },
+  {
+   "seq": 11,
+   "doc_id": "GOI_SO_1140_1962",
+   "op": "insert",
+   "source_ref": "(B)(h)*",
+   "path": "schedule 2 › ministry Ministry of Works, Housing and Supply › department Department of Works, Housing & Supply",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

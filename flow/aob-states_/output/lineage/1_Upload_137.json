@@ -1,0 +1,220 @@
+{
+ "file": "1_Upload_137.pdf",
+ "kind": "amendment",
+ "series": 103,
+ "date": "1974-01-19",
+ "govdoc": "aob-ammend_/output/1_Upload_137.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826696.809623,
+ "edits_file": "aob-ammend_/conf/1_Upload_137.pdf.edits.yml",
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_137.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:55:01.970700+00:00",
+  "sha256": "f99beec970d0d68a1984d2beda213441d145b7d4fb5dd5714801925594866591",
+  "pages": 8
+ },
+ "edits": [
+  {
+   "run": "h1",
+   "by": "claude",
+   "at": "2026-11-12T18:01:00+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r1.w224",
+     "before": {
+      "text": "(11)"
+     },
+     "after": {
+      "text": "(ii)"
+     }
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-12T12:46:37.892631+00:00",
+   "stamp": "a2e6a3d0d53ad2f4"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r58",
+   "at": "2026-11-15T12:43:03.527255+00:00",
+   "stamp": "c107f1ead9369919"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r59",
+   "at": "2026-11-15T12:43:04.650159+00:00",
+   "stamp": "6ed1ef1d3ed1740e"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r60",
+   "at": "2026-11-15T12:43:05.504334+00:00",
+   "stamp": "47230ad4e1815856"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r69",
+   "at": "2026-11-15T16:25:16.066435+00:00",
+   "stamp": "051ace525b54675d",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r70",
+   "at": "2026-11-15T16:25:16.767059+00:00",
+   "stamp": "0f4997b9cbd96eae",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r71",
+   "at": "2026-11-15T16:25:17.471722+00:00",
+   "stamp": "c18632c7469b4cc2",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r77",
+   "at": "2026-11-15T16:57:40.919710+00:00",
+   "stamp": "b4e4abf267f9802d"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r78",
+   "at": "2026-11-15T17:04:00.452380+00:00",
+   "stamp": "37add8f60a765c68"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r83",
+   "at": "2026-11-16T10:58:16.775538+00:00",
+   "stamp": "b4b0cf0f25de3803"
+  }
+ ],
+ "reviews": [],
+ "issues": [
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 4: its quoted text runs across a page break",
+   "target": "r71.rel4",
+   "status": "open"
+  }
+ ],
+ "problems": [],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_64E_1974",
+   "op": "replace",
+   "source_ref": "2(i)",
+   "path": "schedule 1 › entry 1A",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_64E_1974",
+   "op": "replace",
+   "source_ref": "2(II)",
+   "path": "schedule 1 › entry 15",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_64E_1974",
+   "op": "replace",
+   "source_ref": "3(a)(i)",
+   "path": "schedule 2 › ministry MINISTRY OF COMMERCE › department DEPARTMENT OF FOREIGN TRADE",
+   "status": "applied"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_64E_1974",
+   "op": "insert",
+   "source_ref": "3(a)(ii)",
+   "path": "schedule 2 › ministry MINISTRY OF COMMERCE › department DEPARTMENT OF FOREIGN TRADE",
+   "status": "applied"
+  },
+  {
+   "seq": 5,
+   "doc_id": "GOI_SO_64E_1974",
+   "op": "replace",
+   "source_ref": "3(a)(iii)",
+   "path": "schedule 2 › ministry MINISTRY OF COMMERCE › department DEPARTMENT OF INTERNAL TRADE",
+   "status": "applied"
+  },
+  {
+   "seq": 6,
+   "doc_id": "GOI_SO_64E_1974",
+   "op": "insert",
+   "source_ref": "3(b)(i)",
+   "path": "schedule 2 › ministry MINISTRY OF PETROLEUM AND CHEMICALS › department DEPARTMENT OF PETROLEUM › entry 5",
+   "status": "applied"
+  },
+  {
+   "seq": 7,
+   "doc_id": "GOI_SO_64E_1974",
+   "op": "replace",
+   "source_ref": "3(b)(11)",
+   "path": "schedule 2 › ministry MINISTRY OF PETROLEUM AND CHEMICALS › department DEPARTMENT OF CHEMICALS",
+   "status": "applied"
+  },
+  {
+   "seq": 8,
+   "doc_id": "GOI_SO_64E_1974",
+   "op": "omit",
+   "source_ref": "3(b)(iii)",
+   "path": "schedule 2 › ministry MINISTRY OF PETROLEUM AND CHEMICALS › department DEPARTMENT OF FERTILISERS AND CHEMICALS › entry 2 ; schedule 2 › ministry MINISTRY OF PETROLEUM AND CHEMICALS › department DEPARTMENT OF FERTILISERS AND CHEMICALS › entry 3 ; schedule 2 › ministry MINISTRY OF PETROLEUM AND CHEMICALS › department DEPARTMENT OF FERTILISERS AND CHEMICALS › entry 4 ; schedule 2 › ministry MINISTRY OF PETROLEUM AND CHEMICALS › department DEPARTMENT OF FERTILISERS AND CHEMICALS › entry 7",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

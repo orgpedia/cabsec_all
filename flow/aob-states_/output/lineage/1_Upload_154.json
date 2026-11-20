@@ -1,0 +1,210 @@
+{
+ "file": "1_Upload_154.pdf",
+ "kind": "amendment",
+ "series": 117,
+ "date": "1976-08-23",
+ "govdoc": "aob-ammend_/output/1_Upload_154.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826691.398955,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_154.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:55:27.465636+00:00",
+  "sha256": "a6e7e5c494c3e087bf244b38ebb44c5147a5243d8717dfca3f81ae595219b73a",
+  "pages": 6
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-12T12:41:37.046906+00:00",
+   "stamp": "4b65bab25232c129"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r50",
+   "at": "2026-11-15T12:42:20.749117+00:00",
+   "stamp": "948c34ee29f4af2b"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r51",
+   "at": "2026-11-15T12:42:23.293876+00:00",
+   "stamp": "7ef0940c6f539942"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r52",
+   "at": "2026-11-15T12:42:25.222345+00:00",
+   "stamp": "969c09a2502a7e80"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r61",
+   "at": "2026-11-15T16:24:38.560259+00:00",
+   "stamp": "7d1d378a1dfcb769",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r62",
+   "at": "2026-11-15T16:24:40.711960+00:00",
+   "stamp": "9150cf6daf0f0d34",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r63",
+   "at": "2026-11-15T16:24:42.818903+00:00",
+   "stamp": "7362f90462c810af",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r69",
+   "at": "2026-11-15T16:57:32.396559+00:00",
+   "stamp": "83d0167d54e39c32"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r70",
+   "at": "2026-11-15T17:03:39.149493+00:00",
+   "stamp": "e9ea7a7d2ace9383"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r75",
+   "at": "2026-11-16T10:58:11.376099+00:00",
+   "stamp": "a6cef8f3bcd746dc"
+  }
+ ],
+ "reviews": [],
+ "issues": [],
+ "problems": [
+  {
+   "series": 117,
+   "seq": 3,
+   "code": "old_path_missing",
+   "severity": "error",
+   "message": "change 3: no department DEPARTMENT OF RURAL DEVELOPMENT under schedule 2 › ministry MINISTRY OF AGRICULTURE AND IRRIGATION",
+   "cause": "unit_not_found"
+  },
+  {
+   "series": 117,
+   "seq": 7,
+   "code": "old_path_missing",
+   "severity": "error",
+   "message": "change 7: no department DEPARTMENT OF CIVIL SUPPLIES AND COOPERATION under schedule 2 › ministry MINISTRY OF INDUSTRY",
+   "cause": "unit_not_found"
+  }
+ ],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_563E_1976",
+   "op": "replace",
+   "source_ref": "2(i)",
+   "path": "schedule 1 › entry 1B",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_563E_1976",
+   "op": "replace",
+   "source_ref": "2(ii)",
+   "path": "schedule 1 › entry 10",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_563E_1976",
+   "op": "insert",
+   "source_ref": "3(i)",
+   "path": "schedule 2 › ministry MINISTRY OF AGRICULTURE AND IRRIGATION › department DEPARTMENT OF RURAL DEVELOPMENT",
+   "status": "not_applied",
+   "problem": "change 3: no department DEPARTMENT OF RURAL DEVELOPMENT under schedule 2 › ministry MINISTRY OF AGRICULTURE AND IRRIGATION",
+   "code": "old_path_missing",
+   "cause": "unit_not_found",
+   "known": "agriculture"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_563E_1976",
+   "op": "insert",
+   "source_ref": "3(ii)",
+   "path": "schedule 2 › ministry MINISTRY OF CHEMICALS AND FERTILISERS",
+   "status": "applied"
+  },
+  {
+   "seq": 5,
+   "doc_id": "GOI_SO_563E_1976",
+   "op": "replace",
+   "source_ref": "3(ii)",
+   "path": "schedule 2 › ministry MINISTRY OF INDUSTRY AND CIVIL SUPPLIES",
+   "status": "applied"
+  },
+  {
+   "seq": 6,
+   "doc_id": "GOI_SO_563E_1976",
+   "op": "omit",
+   "source_ref": "3(iv)(a)",
+   "path": "schedule 2 › ministry MINISTRY OF INDUSTRY › department DEPARTMENT OF INDUSTRIAL DEVELOPMENT › entry 24",
+   "status": "applied"
+  },
+  {
+   "seq": 7,
+   "doc_id": "GOI_SO_563E_1976",
+   "op": "omit",
+   "source_ref": "3(iv)(b)",
+   "path": "schedule 2 › ministry MINISTRY OF INDUSTRY › department DEPARTMENT OF CIVIL SUPPLIES AND COOPERATION",
+   "status": "not_applied",
+   "problem": "change 7: no department DEPARTMENT OF CIVIL SUPPLIES AND COOPERATION under schedule 2 › ministry MINISTRY OF INDUSTRY",
+   "code": "old_path_missing",
+   "cause": "unit_not_found",
+   "known": "renamed_unit"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

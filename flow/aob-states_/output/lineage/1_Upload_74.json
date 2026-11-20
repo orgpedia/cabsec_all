@@ -1,0 +1,205 @@
+{
+ "file": "1_Upload_74.pdf",
+ "kind": "amendment",
+ "series": 41,
+ "date": "1965-08-01",
+ "govdoc": "aob-ammend_/output/1_Upload_74.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826686.7539256,
+ "edits_file": "aob-ammend_/conf/1_Upload_74.pdf.edits.yml",
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_74.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T14:02:27.601699+00:00",
+  "sha256": "5d36e62de72314e43fce4b0dbba4f7a24c51af63036a13c3c4596ff15bc65075",
+  "pages": 2
+ },
+ "edits": [
+  {
+   "run": "h1",
+   "by": "claude",
+   "at": "2026-11-12T15:01:00+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r1.w110",
+     "before": {
+      "text": "8.0."
+     },
+     "after": {
+      "text": "S.O."
+     }
+    }
+   ]
+  },
+  {
+   "run": "h2",
+   "by": "claude",
+   "at": "2026-11-12T15:02:00+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r1.w111",
+     "before": {
+      "text": "8427—The"
+     },
+     "after": {
+      "text": "2427—The"
+     }
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-12T12:34:50.576675+00:00",
+   "stamp": "d1f0dd16acd84775"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r52",
+   "at": "2026-11-15T12:41:54.906873+00:00",
+   "stamp": "ed3913f9eaec5307"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r53",
+   "at": "2026-11-15T12:41:56.460944+00:00",
+   "stamp": "660e2a5e05f05c6b"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r54",
+   "at": "2026-11-15T12:41:58.101316+00:00",
+   "stamp": "f5437128c64818af"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r63",
+   "at": "2026-11-15T16:24:17.555852+00:00",
+   "stamp": "6cc53f1c1c8271b8",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r64",
+   "at": "2026-11-15T16:24:18.735039+00:00",
+   "stamp": "5d96562e46408c89",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r65",
+   "at": "2026-11-15T16:24:19.912312+00:00",
+   "stamp": "395c2e871ed6d1d9",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r71",
+   "at": "2026-11-15T16:57:25.942450+00:00",
+   "stamp": "526f7a53489d86e3"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r72",
+   "at": "2026-11-15T17:03:25.388225+00:00",
+   "stamp": "d68c9a47a8f7d20c"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r77",
+   "at": "2026-11-16T10:58:06.744653+00:00",
+   "stamp": "aff3800a4fc8dcea"
+  }
+ ],
+ "reviews": [],
+ "issues": [
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 3: its quoted text runs across a page break",
+   "target": "r65.rel3",
+   "status": "open"
+  }
+ ],
+ "problems": [],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_2427_1965",
+   "op": "replace",
+   "source_ref": "A(a)",
+   "path": "schedule 2 › ministry Ministry of External Affairs › entry 12",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_2427_1965",
+   "op": "omit",
+   "source_ref": "A(b)",
+   "path": "schedule 2 › ministry Ministry of External Affairs › entry 23",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_2427_1965",
+   "op": "insert",
+   "source_ref": "B(a)",
+   "path": "schedule 2 › ministry Ministry of Home Affairs › group_heading Part I Union Subjects › entry 14",
+   "status": "applied"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_2427_1965",
+   "op": "insert",
+   "source_ref": "B(b)",
+   "path": "schedule 2 › ministry Ministry of Home Affairs › group_heading Part I Union Subjects › entry 50",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

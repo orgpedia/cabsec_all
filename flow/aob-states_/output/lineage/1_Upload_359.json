@@ -1,0 +1,161 @@
+{
+ "file": "1_Upload_359.pdf",
+ "kind": "amendment",
+ "series": 314,
+ "date": "2015-05-02",
+ "govdoc": "aob-ammend_/output/1_Upload_359.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826687.0142386,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_359.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T14:00:52.411202+00:00",
+  "sha256": "63be9ca2ac189dcb01f585ea4d39217ada490f196630663ab891bc33cff0b426",
+  "pages": 2
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r51",
+   "at": "2026-11-04T13:34:27.866191+00:00",
+   "stamp": "71308c4b36d2de3b"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r192",
+   "at": "2026-11-15T12:41:55.241056+00:00",
+   "stamp": "bc567719cfe18d25"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r193",
+   "at": "2026-11-15T12:41:56.918231+00:00",
+   "stamp": "ef87da0b44829b3d"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r194",
+   "at": "2026-11-15T12:41:58.363947+00:00",
+   "stamp": "4aa04f917dd32e1a"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r203",
+   "at": "2026-11-15T16:24:17.817864+00:00",
+   "stamp": "45e838e81aadb31c",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r204",
+   "at": "2026-11-15T16:24:19.019818+00:00",
+   "stamp": "a2c76ab27eaebdd8",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r205",
+   "at": "2026-11-15T16:24:20.192785+00:00",
+   "stamp": "9e26a561e169ac3c",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r211",
+   "at": "2026-11-15T16:57:26.217403+00:00",
+   "stamp": "623063eedc73d5d3"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r212",
+   "at": "2026-11-15T17:03:25.905041+00:00",
+   "stamp": "67292d0eacc5193f"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r217",
+   "at": "2026-11-16T10:58:06.998669+00:00",
+   "stamp": "fbc8d06f9220d56a"
+  }
+ ],
+ "reviews": [],
+ "issues": [],
+ "problems": [],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_1200E_2015",
+   "op": "omit",
+   "source_ref": "2(a)",
+   "path": "schedule 2 › ministry MINISTRY OF LABOUR AND EMPLOYMENT › entry 10 ; schedule 2 › ministry MINISTRY OF LABOUR AND EMPLOYMENT › entry 15",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_1200E_2015",
+   "op": "omit",
+   "source_ref": "2(b)",
+   "path": "schedule 2 › ministry MINISTRY OF MICRO, SMALL AND MEDIUM ENTERPRISES › entry 12 › item ii ; schedule 2 › ministry MINISTRY OF MICRO, SMALL AND MEDIUM ENTERPRISES › entry 12 › item iii",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_1200E_2015",
+   "op": "replace",
+   "source_ref": "2(c)(i)",
+   "path": "schedule 2 › ministry MINISTRY OF SKILL DEVELOPMENT AND ENTREPRENEURSHIP › entry 10",
+   "status": "applied"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_1200E_2015",
+   "op": "insert",
+   "source_ref": "2(c)(ii)",
+   "path": "schedule 2 › ministry MINISTRY OF SKILL DEVELOPMENT AND ENTREPRENEURSHIP › entry 13",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

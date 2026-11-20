@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_61.pdf",
     "sha256": "bb27d77efd74ef3c60aaede8a566a4f09b9940f071910964e0b6136a7c268163",
     "govdoc": "1_Upload_61.pdf.govdoc.json.zst",
-    "revision": 46
+    "revision": 70
   },
   "documents": [
     {
@@ -29,9 +29,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "3",
+          "version": "4",
           "model": "gemini-4-argon",
-          "at": "2026-11-12T13:49:50.333200+00:00"
+          "at": "2026-11-15T16:24:54.470270+00:00"
         },
         "ops": [
           {
@@ -39,7 +39,7 @@
             "source_ref": "(A)(a)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r10.rel1",
+            "relation": "r63.rel1",
             "position": "after",
             "anchor": {
               "cited": [
@@ -100,7 +100,7 @@
             "source_ref": "(A)(b)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel2",
+            "relation": "r63.rel2",
             "target": {
               "cited": [
                 {
@@ -160,7 +160,7 @@
             "source_ref": "(B)(a)",
             "op": "substitute_text",
             "akn_type": "substitution",
-            "relation": "r10.rel3",
+            "relation": "r63.rel3",
             "target": {
               "cited": [
                 {
@@ -213,7 +213,7 @@
             "source_ref": "(B)(b)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r10.rel4",
+            "relation": "r63.rel4",
             "position": "after",
             "anchor": {
               "cited": [
@@ -359,12 +359,12 @@
                 "text": "All Attached or Subordinate Offices or other organisations concerned with any of the subjects specified in this list."
               },
               {
-                "type": "entry",
+                "type": "note",
                 "num": "1",
                 "text": "As regards rehabilitation matters in States, the Central Government is concerned mainly with questions of policy in respect of the subjects marked with an asterisk and is not directly concerned with administrative and executive details which are the functions of the State Governments, except where camps, rehabilitation colonies, educational institutions, training centres, etc. are directly administered by the Central Government."
               },
               {
-                "type": "entry",
+                "type": "note",
                 "num": "2",
                 "text": "The administrative control in regard to the items marked with an asterisk in so far as they relate to the displaced persons from East Pakistan in Tripura vests in the Ministry of Home Affairs."
               }
@@ -393,7 +393,7 @@
             "source_ref": "(B)(c)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel5",
+            "relation": "r63.rel5",
             "target": {
               "cited": [
                 {
@@ -425,7 +425,7 @@
             "content": [
               {
                 "type": "ministry",
-                "heading": "MINISTRY OF WORKS & HOUSING"
+                "heading": "Ministry of Works & Housing"
               },
               {
                 "type": "entry",
@@ -525,7 +525,7 @@
               {
                 "type": "entry",
                 "num": "20",
-                "text": "Public sector projects falling under the subjects included in this list except such projects as are specifically allotted to any other Department."
+                "text": "Public sector projects falling under the subjects included in this list except such projects as are specifically allotted to any other Department. §. RADHAKRISHNAN"
               }
             ],
             "flags": [

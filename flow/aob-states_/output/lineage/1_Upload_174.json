@@ -1,0 +1,208 @@
+{
+ "file": "1_Upload_174.pdf",
+ "kind": "amendment",
+ "series": 136,
+ "date": "1979-09-17",
+ "govdoc": "aob-ammend_/output/1_Upload_174.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826688.6839209,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_174.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:55:51.444666+00:00",
+  "sha256": "80806777bfa783ccf077e278fb7b80006ec3eaa7669fefa3b6a066f986f268cf",
+  "pages": 6
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-12T12:37:03.150967+00:00",
+   "stamp": "796f4699cfa889ed"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r50",
+   "at": "2026-11-15T12:42:06.354965+00:00",
+   "stamp": "0cd0c474aa1f5def"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r51",
+   "at": "2026-11-15T12:42:08.434182+00:00",
+   "stamp": "b32f030c75b8eeea"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r52",
+   "at": "2026-11-15T12:42:10.285884+00:00",
+   "stamp": "0796549ab153b2f3"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r61",
+   "at": "2026-11-15T16:24:26.052789+00:00",
+   "stamp": "4b84df58bfcc65ab",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r62",
+   "at": "2026-11-15T16:24:27.608206+00:00",
+   "stamp": "161798db7ae364c4",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r63",
+   "at": "2026-11-15T16:24:29.114213+00:00",
+   "stamp": "5a4cf4df78ec736e",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r69",
+   "at": "2026-11-15T16:57:28.547654+00:00",
+   "stamp": "d4444619454066a2"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r70",
+   "at": "2026-11-15T17:03:31.008291+00:00",
+   "stamp": "acebe47421b38197"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r75",
+   "at": "2026-11-16T10:58:08.598635+00:00",
+   "stamp": "10ca44908a4aa4f9"
+  }
+ ],
+ "reviews": [],
+ "issues": [
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 1: its quoted text runs across a page break",
+   "target": "r63.rel1",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 7: its quoted text runs across a page break",
+   "target": "r63.rel7",
+   "status": "open"
+  }
+ ],
+ "problems": [],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_537E_1979",
+   "op": "replace",
+   "source_ref": "2(a)(i)",
+   "path": "schedule 1 › entry 5",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_537E_1979",
+   "op": "insert",
+   "source_ref": "2(a)(ii)",
+   "path": "schedule 1 › entry 19",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_537E_1979",
+   "op": "omit",
+   "source_ref": "2(a)(iii)",
+   "path": "schedule 1 › entry 25",
+   "status": "applied"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_537E_1979",
+   "op": "replace",
+   "source_ref": "2(b)(i)(1)",
+   "path": "schedule 2 › ministry MINISTRY OF EDUCATION AND SOCIAL WELFARE",
+   "status": "applied"
+  },
+  {
+   "seq": 5,
+   "doc_id": "GOI_SO_537E_1979",
+   "op": "insert",
+   "source_ref": "2(b)(i)(2)",
+   "path": "schedule 2 › ministry MINISTRY OF EDUCATION AND CULTURE › department DEPARTMENT OF EDUCATION",
+   "status": "applied"
+  },
+  {
+   "seq": 6,
+   "doc_id": "GOI_SO_537E_1979",
+   "op": "omit",
+   "source_ref": "2(b)(i)(3)",
+   "path": "schedule 2 › ministry MINISTRY OF EDUCATION AND CULTURE › department DEPARTMENT OF SO- CIAL WELFARE",
+   "status": "applied"
+  },
+  {
+   "seq": 7,
+   "doc_id": "GOI_SO_537E_1979",
+   "op": "insert",
+   "source_ref": "2(b)(ii)",
+   "path": "schedule 2 › ministry MINISTRY OF SHIPPING AND TRANSPORT",
+   "status": "applied"
+  },
+  {
+   "seq": 8,
+   "doc_id": "GOI_SO_537E_1979",
+   "op": "omit",
+   "source_ref": "2(b)(iii)",
+   "path": "schedule 2 › ministry DEPARTMENT OF CULTURE",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_260.pdf",
     "sha256": "692bae3e5e8162da90968658101083b314b425fb67d6909dc12a46dcd29a59a0",
     "govdoc": "1_Upload_260.pdf.govdoc.json.zst",
-    "revision": 109
+    "revision": 133
   },
   "documents": [
     {
@@ -29,9 +29,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "3",
+          "version": "4",
           "model": "gemini-4-argon",
-          "at": "2026-11-12T12:55:59.452688+00:00"
+          "at": "2026-11-15T16:24:20.401835+00:00"
         },
         "ops": [
           {
@@ -39,7 +39,7 @@
             "source_ref": "2(1)(a)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r73.rel1",
+            "relation": "r126.rel1",
             "position": "after",
             "anchor": {
               "cited": [
@@ -54,14 +54,14 @@
               ],
               "eId": null,
               "words": [
-                "r1.w732",
+                "r1.w733",
                 "r1.w734"
               ],
               "boxes": [
                 {
                   "page": 2,
                   "bbox": [
-                    1692,
+                    1831,
                     1323,
                     2029,
                     1361
@@ -99,7 +99,7 @@
             "source_ref": "2(1)(b)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r73.rel2",
+            "relation": "r126.rel2",
             "target": {
               "cited": [
                 {
@@ -113,7 +113,7 @@
               ],
               "eId": null,
               "words": [
-                "r1.w757",
+                "r1.w758",
                 "r1.w764"
               ],
               "boxes": [
@@ -160,7 +160,7 @@
             "source_ref": "2(1)(c)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r73.rel3",
+            "relation": "r126.rel3",
             "target": {
               "cited": [
                 {
@@ -174,14 +174,14 @@
               ],
               "eId": null,
               "words": [
-                "r1.w781",
+                "r1.w782",
                 "r1.w783"
               ],
               "boxes": [
                 {
                   "page": 2,
                   "bbox": [
-                    1691,
+                    1836,
                     1852,
                     2038,
                     1894
@@ -230,7 +230,7 @@
             "source_ref": "2(2)(a)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r73.rel4",
+            "relation": "r126.rel4",
             "target": [
               {
                 "cited": [
@@ -249,15 +249,15 @@
                 ],
                 "eId": null,
                 "words": [
-                  "r1.w842",
+                  "r1.w843",
                   "r1.w844"
                 ],
                 "boxes": [
                   {
                     "page": 2,
                     "bbox": [
-                      1825,
-                      2573,
+                      1974,
+                      2575,
                       2144,
                       2613
                     ]
@@ -300,7 +300,7 @@
             "flags": [],
             "words": [
               "r1.w828",
-              "r1.w836"
+              "r1.w833"
             ],
             "boxes": [
               {
@@ -309,7 +309,7 @@
                   1488,
                   2450,
                   2292,
-                  2533
+                  2491
                 ]
               }
             ]
@@ -319,7 +319,7 @@
             "source_ref": "2(2)(b)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r73.rel5",
+            "relation": "r126.rel5",
             "position": "after",
             "anchor": {
               "cited": [
@@ -395,7 +395,7 @@
             ],
             "words": [
               "r1.w850",
-              "r1.w858"
+              "r1.w855"
             ],
             "boxes": [
               {
@@ -404,7 +404,7 @@
                   1499,
                   2673,
                   2299,
-                  2755
+                  2720
                 ]
               }
             ]
@@ -414,7 +414,7 @@
             "source_ref": "2(2)(c)(i)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r73.rel6",
+            "relation": "r126.rel6",
             "target": {
               "cited": [
                 {
@@ -443,7 +443,7 @@
                 }
               ]
             },
-            "expect": "MINISTRY OF POWER AND NON-CONVENTIONAL ENERGY SOURCES (VIDHYUT AUR APARAMPARIK OORJA SROTA MANTRALAYA),",
+            "expect": "MINISTRY OF POWER AND NON-CONVEN- TIONAL ENERGY SOURCES (VIDHYUT AUR APARAMPARIK OORJA SROTA MANTRA- LAYA),",
             "scope": "heading",
             "content": [
               {
@@ -455,7 +455,7 @@
             "flags": [],
             "words": [
               "r1.w1029",
-              "r1.w1038"
+              "r1.w1035"
             ],
             "boxes": [
               {
@@ -464,7 +464,7 @@
                   353,
                   1231,
                   1209,
-                  1316
+                  1286
                 ]
               }
             ]
@@ -474,7 +474,7 @@
             "source_ref": "2(2)(c)(ii)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r73.rel7",
+            "relation": "r126.rel7",
             "target": {
               "cited": [
                 {
@@ -507,13 +507,13 @@
                 }
               ]
             },
-            "expect": "A. DEPARTMENT OF POWER (VIDHYUT VIEHAG)",
+            "expect": "A. DEPARTMENT OF POWER (VIDHYUT VIE- HAG)",
             "scope": "heading",
             "ref_seq": 6,
             "flags": [],
             "words": [
               "r1.w1061",
-              "r1.w1069"
+              "r1.w1065"
             ],
             "boxes": [
               {
@@ -522,7 +522,7 @@
                   440,
                   1662,
                   1219,
-                  1752
+                  1715
                 ]
               }
             ]
@@ -532,7 +532,7 @@
             "source_ref": "2(2)(c)(iii)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r73.rel8",
+            "relation": "r126.rel8",
             "target": {
               "cited": [
                 {
@@ -565,12 +565,12 @@
                 }
               ]
             },
-            "expect": "B. DEPARTMENT OF NON-CONVENTIONAL ENERGY SOURCES (APARAMPARIK OORJA SROTA VIBHAG)",
+            "expect": "B. DEPARTMENT OF NON-CONVENTIONAL ENERGY SOURCES (APARAM- PARIK OORJA SROTA VIBHAG)",
             "ref_seq": 6,
             "flags": [],
             "words": [
               "r1.w1081",
-              "r1.w1087"
+              "r1.w1085"
             ],
             "boxes": [
               {
@@ -579,7 +579,7 @@
                   432,
                   1860,
                   1223,
-                  1941
+                  1909
                 ]
               }
             ]
@@ -589,7 +589,7 @@
             "source_ref": "2(2)(d)(1)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r73.rel9",
+            "relation": "r126.rel9",
             "position": "before",
             "anchor": {
               "cited": [
@@ -608,17 +608,17 @@
               ],
               "eId": null,
               "words": [
-                "r1.w1124",
+                "r1.w1123",
                 "r1.w1126"
               ],
               "boxes": [
                 {
                   "page": 3,
                   "bbox": [
-                    780,
+                    640,
                     2322,
                     1151,
-                    2360
+                    2361
                   ]
                 }
               ]
@@ -635,7 +635,7 @@
             "flags": [],
             "words": [
               "r1.w1109",
-              "r1.w1118"
+              "r1.w1115"
             ],
             "boxes": [
               {
@@ -643,8 +643,8 @@
                 "bbox": [
                   375,
                   2193,
-                  1232,
-                  2273
+                  1229,
+                  2240
                 ]
               }
             ]
@@ -654,7 +654,7 @@
             "source_ref": "2(2)(d)(ii)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r73.rel10",
+            "relation": "r126.rel10",
             "position": "after",
             "anchor": {
               "cited": [
@@ -677,14 +677,14 @@
               ],
               "eId": null,
               "words": [
-                "r1.w962",
+                "r1.w961",
                 "r1.w969"
               ],
               "boxes": [
                 {
                   "page": 3,
                   "bbox": [
-                    1613,
+                    1608,
                     381,
                     2290,
                     468
@@ -733,7 +733,7 @@
             "flags": [],
             "words": [
               "r1.w959",
-              "r1.w969"
+              "r1.w966"
             ],
             "boxes": [
               {
@@ -742,7 +742,7 @@
                   1513,
                   381,
                   2290,
-                  468
+                  427
                 ]
               }
             ]

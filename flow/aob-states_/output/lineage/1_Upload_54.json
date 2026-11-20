@@ -1,0 +1,190 @@
+{
+ "file": "1_Upload_54.pdf",
+ "kind": "amendment",
+ "series": 21,
+ "date": "1963-10-20",
+ "govdoc": "aob-ammend_/output/1_Upload_54.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826694.8972862,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_54.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T14:02:02.680096+00:00",
+  "sha256": "d8f7d493e779a0105639b5375d4cea47c44e9cc8679555beff8a90baff637d81",
+  "pages": 2
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-12T12:45:12.301402+00:00",
+   "stamp": "dbf34b1bf3bd35e3"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r50",
+   "at": "2026-11-15T12:42:45.584756+00:00",
+   "stamp": "ab324b0ffc044699"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r51",
+   "at": "2026-11-15T12:42:48.007453+00:00",
+   "stamp": "4f2ca41ffed68c8a"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r52",
+   "at": "2026-11-15T12:42:50.524185+00:00",
+   "stamp": "f5e9ddcc3870772e"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r61",
+   "at": "2026-11-15T16:25:03.259766+00:00",
+   "stamp": "d605f816f5c2ea18",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r62",
+   "at": "2026-11-15T16:25:05.367497+00:00",
+   "stamp": "c681b32542018f51",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r63",
+   "at": "2026-11-15T16:25:07.306014+00:00",
+   "stamp": "17852b654d503074",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r69",
+   "at": "2026-11-15T16:57:37.957837+00:00",
+   "stamp": "b536fc224975f0e2"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r70",
+   "at": "2026-11-15T17:03:52.318863+00:00",
+   "stamp": "a9ca1b61c9da3a48"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r75",
+   "at": "2026-11-16T10:58:14.888576+00:00",
+   "stamp": "e4120d4885ad2e49"
+  }
+ ],
+ "reviews": [],
+ "issues": [
+  {
+   "code": "aob:read_hindi_missing",
+   "severity": "info",
+   "message": "change 1: a new heading has no Hindi name in brackets",
+   "target": "r63.rel1",
+   "status": "open"
+  }
+ ],
+ "problems": [
+  {
+   "series": 21,
+   "seq": 5,
+   "code": "old_quote_mismatch",
+   "severity": "error",
+   "message": "change 5: the part's text is not what the amendment quotes",
+   "cause": "words_differ"
+  }
+ ],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_3054_1963",
+   "op": "replace",
+   "source_ref": "(A)",
+   "path": "schedule 1 › entry 9",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_3054_1963",
+   "op": "insert",
+   "source_ref": "(B)(a)",
+   "path": "schedule 2 › ministry Ministry of Finance › department Depart- ment of Revenue › entry 11",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_3054_1963",
+   "op": "renumber",
+   "source_ref": "(B)(b)",
+   "path": "schedule 2 › ministry Ministry of Finance › department Depart- ment of Revenue › entry 12",
+   "status": "applied"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_3054_1963",
+   "op": "omit",
+   "source_ref": "(B)(c)(1)",
+   "path": "schedule 2 › ministry Ministry of Industry › department Department of Industry",
+   "status": "applied"
+  },
+  {
+   "seq": 5,
+   "doc_id": "GOI_SO_3054_1963",
+   "op": "omit",
+   "source_ref": "(B)(c)(11)",
+   "path": "schedule 2 › ministry Ministry of Industry › department Department of Company Law Administration ; schedule 2 › ministry Ministry of Industry › department Department of Company Law Administration › entry 1 ; schedule 2 › ministry Ministry of Industry › department Department of Company Law Administration › entry 2 ; schedule 2 › ministry Ministry of Industry › department Department of Company Law Administration › entry 3 ; schedule 2 › ministry Ministry of Industry › department Department of Company Law Administration › entry 4 ; schedule 2 › ministry Ministry of Industry › department Department of Company Law Administration › entry 5 ; schedule 2 › ministry Ministry of Industry › department Department of Company Law Administration › entry 6",
+   "status": "not_applied",
+   "problem": "change 5: the part's text is not what the amendment quotes",
+   "code": "old_quote_mismatch",
+   "cause": "words_differ",
+   "known": "words"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

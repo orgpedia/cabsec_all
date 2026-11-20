@@ -1,0 +1,200 @@
+{
+ "file": "1_Upload_111.pdf",
+ "kind": "amendment",
+ "series": 77,
+ "date": "1970-02-11",
+ "govdoc": "aob-ammend_/output/1_Upload_111.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826691.6365242,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_111.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:54:15.298301+00:00",
+  "sha256": "aea0873418d2e4f1c0537d31cd539d6851617a5425ca7191a5609ae7f1e807db",
+  "pages": 2
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-12T12:41:56.983138+00:00",
+   "stamp": "d93a29cc7bc69117"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r50",
+   "at": "2026-11-15T12:42:21.059358+00:00",
+   "stamp": "639b606e3a8174e0"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r51",
+   "at": "2026-11-15T12:42:23.646503+00:00",
+   "stamp": "eb0ad64e1f7ed30a"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r52",
+   "at": "2026-11-15T12:42:25.474666+00:00",
+   "stamp": "053bc2b821a11fe6"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r61",
+   "at": "2026-11-15T16:24:38.848228+00:00",
+   "stamp": "cf2b1ad14c2780c1",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r62",
+   "at": "2026-11-15T16:24:41.008211+00:00",
+   "stamp": "07b157b86cda567f",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r63",
+   "at": "2026-11-15T16:24:43.105775+00:00",
+   "stamp": "b026c22a1435efb3",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r69",
+   "at": "2026-11-15T16:57:32.732708+00:00",
+   "stamp": "c75481bce088bf75"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r70",
+   "at": "2026-11-15T17:03:39.589317+00:00",
+   "stamp": "583af99a1680059e"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r75",
+   "at": "2026-11-16T10:58:11.627083+00:00",
+   "stamp": "01eb1116f1a80ead"
+  }
+ ],
+ "reviews": [],
+ "issues": [
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 2: its quoted text runs across a page break",
+   "target": "r63.rel2",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
+   "message": "change 2: department Legis- lative Departinent taken for department LEGISLATIVE DEPARTMENT., named loosely",
+   "target": "r63.rel2",
+   "status": "open"
+  }
+ ],
+ "problems": [
+  {
+   "series": 174,
+   "seq": 2,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF LAW AND JUSTICE › department B › entry 43 is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
+  },
+  {
+   "series": 174,
+   "seq": 4,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry DEPARTMENT OF ATOMIC ENERGY › entry 10 reads differently in 1_Upload_212.pdf than in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  }
+ ],
+ "rules": [
+  {
+   "rule": "loose",
+   "seq": 2,
+   "note": "change 2: department Legis- lative Departinent taken for department LEGISLATIVE DEPARTMENT., named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  }
+ ],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_614_1970",
+   "op": "insert",
+   "source_ref": "2(a)",
+   "path": "schedule 2 › ministry Ministry of Food, Agriculture, Community Develop- ment and Cooperation › department Department of Agri- culture › entry 38",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_614_1970",
+   "op": "replace",
+   "source_ref": "2(b)",
+   "path": "schedule 2 › ministry Ministry of Law › department Legis- lative Departinent › entry 3",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_614_1970",
+   "op": "replace",
+   "source_ref": "2(c)",
+   "path": "schedule 2 › ministry Ministry of Petroleum and Chemicals and Mines & Metals › department Department of Chemicals › entry 12",
+   "status": "applied"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_614_1970",
+   "op": "replace",
+   "source_ref": "2(d)",
+   "path": "schedule 2 › ministry Department of Atomic Energy › entry 10",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

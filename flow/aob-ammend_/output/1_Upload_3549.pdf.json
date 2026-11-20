@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_3549.pdf",
     "sha256": "9fbf4078d6d2f9c91699db4dad923dcae83ccde4d87c704389fd3e276543b54f",
     "govdoc": "1_Upload_3549.pdf.govdoc.json.zst",
-    "revision": 55
+    "revision": 92
   },
   "documents": [
     {
@@ -29,9 +29,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "3",
+          "version": "4",
           "model": "gemini-4-argon",
-          "at": "2026-11-12T18:01:33.259650+00:00"
+          "at": "2026-11-15T16:24:42.317933+00:00"
         },
         "ops": [
           {
@@ -39,7 +39,7 @@
             "source_ref": "2(a)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r28.rel1",
+            "relation": "r82.rel1",
             "target": {
               "cited": [
                 {
@@ -50,7 +50,7 @@
               "eId": null,
               "words": [
                 "r1.w130",
-                "r1.w136"
+                "r1.w133"
               ],
               "boxes": [
                 {
@@ -58,8 +58,8 @@
                   "bbox": [
                     981,
                     2492,
-                    2140,
-                    2552
+                    1644,
+                    2545
                   ]
                 }
               ]
@@ -362,7 +362,7 @@
             "source_ref": "2(b)(i)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r28.rel2",
+            "relation": "r82.rel2",
             "target": {
               "cited": [
                 {
@@ -414,7 +414,7 @@
             "source_ref": "2(b)(ii)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r28.rel3",
+            "relation": "r82.rel3",
             "position": "after",
             "anchor": {
               "cited": [
@@ -497,7 +497,12 @@
               {
                 "type": "entry",
                 "num": "8",
-                "text": "Export Trade Control. Control of Prices of export goods."
+                "text": "Export Trade Control."
+              },
+              {
+                "type": "entry",
+                "num": "9",
+                "text": "Control of Prices of export goods."
               },
               {
                 "type": "entry",
@@ -785,7 +790,7 @@
             "source_ref": "2(b)(iii)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r28.rel4",
+            "relation": "r82.rel4",
             "target": {
               "cited": [
                 {
@@ -1158,7 +1163,12 @@
               {
                 "type": "entry",
                 "num": "51",
-                "text": "Drinking water supply and sanitation. 52, Collection and collation of information with regard to local bodies, all States and Union Territories."
+                "text": "Drinking water supply and sanitation."
+              },
+              {
+                "type": "entry",
+                "num": "52",
+                "text": "Collection and collation of information with regard to local bodies, all States and Union Territories."
               },
               {
                 "type": "entry",
@@ -1203,12 +1213,7 @@
               {
                 "type": "entry",
                 "num": "61",
-                "text": "Physiothebapy Training Centre, King Edward"
-              },
-              {
-                "type": "entry",
-                "num": "61",
-                "text": "Memorial Hospital, Bombay."
+                "text": "Physiothebapy Training Centre, King Edward Memorial Hospital, Bombay."
               },
               {
                 "type": "entry",
@@ -1431,7 +1436,7 @@
             "source_ref": "2(b)(iv)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r28.rel5",
+            "relation": "r82.rel5",
             "target": {
               "cited": [
                 {
@@ -1492,7 +1497,7 @@
             "source_ref": "2(b)(v)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r28.rel6",
+            "relation": "r82.rel6",
             "position": "after",
             "anchor": {
               "cited": [
@@ -1533,8 +1538,8 @@
                 "heading": "DEPARTMENT OF INTERNAL TRADE"
               },
               {
-                "type": "entry",
-                "num": "1",
+                "type": "group_heading",
+                "num": "I",
                 "text": "Trade"
               },
               {
@@ -1611,7 +1616,8 @@
             "ref_seq": 5,
             "flags": [
               "read_hindi_missing",
-              "read_page_break"
+              "read_page_break",
+              "states_inferred_loose"
             ],
             "words": [
               "r1.w2464",
@@ -1634,7 +1640,7 @@
             "source_ref": "2(b)(vi)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r28.rel7",
+            "relation": "r82.rel7",
             "target": {
               "cited": [
                 {
@@ -1678,7 +1684,8 @@
             ],
             "ref_seq": 5,
             "flags": [
-              "read_hindi_missing"
+              "read_hindi_missing",
+              "states_inferred_loose"
             ],
             "words": [
               "r1.w2560",
@@ -1701,7 +1708,7 @@
             "source_ref": "2(b)(vii)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r28.rel8",
+            "relation": "r82.rel8",
             "position": "after",
             "anchor": {
               "cited": [

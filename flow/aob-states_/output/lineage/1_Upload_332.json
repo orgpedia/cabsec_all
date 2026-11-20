@@ -1,0 +1,281 @@
+{
+ "file": "1_Upload_332.pdf",
+ "kind": "amendment",
+ "series": 287,
+ "date": "2006-07-12",
+ "govdoc": "aob-ammend_/output/1_Upload_332.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826695.5597417,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_332.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T14:00:13.694184+00:00",
+  "sha256": "e8deba36c85d411c3dda9d2ced39627f297b1c22f052866a0236d54c001fd631",
+  "pages": 10
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-05T02:57:30.173098+00:00",
+   "stamp": "f7c256484de20408"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r147",
+   "at": "2026-11-15T12:42:46.299149+00:00",
+   "stamp": "cbc7254b0bde3366"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r148",
+   "at": "2026-11-15T12:42:49.008956+00:00",
+   "stamp": "d44eb8e187e1852d"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r149",
+   "at": "2026-11-15T12:42:51.129180+00:00",
+   "stamp": "1f2817ab63f6d58b"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r158",
+   "at": "2026-11-15T16:25:03.891958+00:00",
+   "stamp": "a99e3655c5e677e5",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r159",
+   "at": "2026-11-15T16:25:06.026939+00:00",
+   "stamp": "6e6d4cd0443dc0ab",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r160",
+   "at": "2026-11-15T16:25:07.990516+00:00",
+   "stamp": "3af0916fc4e4c2c6",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r166",
+   "at": "2026-11-15T16:57:38.568025+00:00",
+   "stamp": "cc0e4b9df08f4d5a"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r167",
+   "at": "2026-11-15T17:03:53.378933+00:00",
+   "stamp": "ed5bc35b1f0b6189"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r172",
+   "at": "2026-11-16T10:58:15.494863+00:00",
+   "stamp": "9ef3679250ba363b"
+  }
+ ],
+ "reviews": [],
+ "issues": [
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 5: its quoted text runs across a page break",
+   "target": "r160.rel5",
+   "status": "open"
+  }
+ ],
+ "problems": [],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_1120E_2006",
+   "op": "insert",
+   "source_ref": "2(1)(A)",
+   "path": "schedule 1 › ministry Ministry of Development of North Eastern Region",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_1120E_2006",
+   "op": "replace",
+   "source_ref": "2(1)(B)",
+   "path": "schedule 1 › ministry Ministry of Human Resource Development",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_1120E_2006",
+   "op": "omit",
+   "source_ref": "2(1)(C)",
+   "path": "schedule 1 › ministry Ministry of Ocean Development",
+   "status": "applied"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_1120E_2006",
+   "op": "replace",
+   "source_ref": "2(2)(A)",
+   "path": "schedule 2 › ministry Ministry of Human Resource Development › department Department of Elementary Education and Literacy",
+   "status": "applied"
+  },
+  {
+   "seq": 5,
+   "doc_id": "GOI_SO_1120E_2006",
+   "op": "replace",
+   "source_ref": "2(2)(B)",
+   "path": "schedule 2 › ministry Ministry of Human Resource Development › department Department of Secondary and Higher Education",
+   "status": "applied"
+  },
+  {
+   "seq": 6,
+   "doc_id": "GOI_SO_1120E_2006",
+   "op": "insert",
+   "source_ref": "2(2)(C)",
+   "path": "schedule 2 › ministry MINISTRY OF DEVELOPMENT OF NORTH EASTERN REGION",
+   "status": "applied"
+  },
+  {
+   "seq": 7,
+   "doc_id": "GOI_SO_1120E_2006",
+   "op": "omit",
+   "source_ref": "2(2)(D)",
+   "path": "schedule 2 › ministry MINISTRY OF OCEAN DEVELOPMENT",
+   "status": "applied"
+  },
+  {
+   "seq": 8,
+   "doc_id": "GOI_SO_1120E_2006",
+   "op": "insert",
+   "source_ref": "2(2)(E)(i)",
+   "path": "schedule 2 › ministry MINISTRY OF AGRICULTURE › department DEPARTMENT OF AGRICULTURE AND COOPERATION › entry 46",
+   "status": "applied"
+  },
+  {
+   "seq": 9,
+   "doc_id": "GOI_SO_1120E_2006",
+   "op": "insert",
+   "source_ref": "2(2)(E)(ii)",
+   "path": "schedule 2 › ministry MINISTRY OF AGRICULTURE › department DEPARTMENT OF AGRICULTURAL RESEARCH AND EDUCATION › entry 11",
+   "status": "applied"
+  },
+  {
+   "seq": 10,
+   "doc_id": "GOI_SO_1120E_2006",
+   "op": "insert",
+   "source_ref": "2(2)(F)",
+   "path": "schedule 2 › ministry MINISTRY OF CONSUMER AFFAIRS, FOOD AND PUBLIC DISTRIBUTION › department DEPARTMENT OF CONSUMER AFFAIRS › entry 10",
+   "status": "applied"
+  },
+  {
+   "seq": 11,
+   "doc_id": "GOI_SO_1120E_2006",
+   "op": "replace",
+   "source_ref": "2(2)(G)",
+   "path": "schedule 2 › ministry MINISTRY OF SCIENCE AND TECHNOLOGY › department DEPARTMENT OF SCIENCE AND TECHNOLOGY › entry 8 › item f ; schedule 2 › ministry MINISTRY OF SCIENCE AND TECHNOLOGY › department DEPARTMENT OF SCIENCE AND TECHNOLOGY › entry 8 › item h",
+   "status": "applied"
+  },
+  {
+   "seq": 12,
+   "doc_id": "GOI_SO_1120E_2006",
+   "op": "insert",
+   "source_ref": "2(2)(II)",
+   "path": "schedule 2 › ministry MINISTRY OF ENVIRONMENT AND FORESTS › entry 23",
+   "status": "applied"
+  },
+  {
+   "seq": 13,
+   "doc_id": "GOI_SO_1120E_2006",
+   "op": "insert",
+   "source_ref": "2(2)(I)",
+   "path": "schedule 2 › ministry MINISTRY OF NON-CONVENTIONAL ENERGY SOURCES › entry 10",
+   "status": "applied"
+  },
+  {
+   "seq": 14,
+   "doc_id": "GOI_SO_1120E_2006",
+   "op": "insert",
+   "source_ref": "2(2)(J)",
+   "path": "schedule 2 › ministry MINISTRY OF PETROLEUM AND NATURAL GAS › entry 5",
+   "status": "applied"
+  },
+  {
+   "seq": 15,
+   "doc_id": "GOI_SO_1120E_2006",
+   "op": "insert",
+   "source_ref": "2(2)(K)",
+   "path": "schedule 2 › ministry MINISTRY OF RURAL DEVELOPMENT › department DEPARTMENT OF LAND RESOURCES › entry 16",
+   "status": "applied"
+  },
+  {
+   "seq": 16,
+   "doc_id": "GOI_SO_1120E_2006",
+   "op": "insert",
+   "source_ref": "2(2)(1)",
+   "path": "schedule 2 › ministry MINISTRY OF SCIENCE AND TECHNOLOGY › department DEPARTMENT OF SCIENCE AND TECHNOLOGY. › entry 3",
+   "status": "applied"
+  },
+  {
+   "seq": 17,
+   "doc_id": "GOI_SO_1120E_2006",
+   "op": "insert",
+   "source_ref": "2(2)(M)",
+   "path": "schedule 2 › ministry MINISTRY OF SCIENCE AND TECHNOLOGY › department DEPARTMENT OF BIOTECHNOLOGY › entry 5",
+   "status": "applied"
+  },
+  {
+   "seq": 18,
+   "doc_id": "GOI_SO_1120E_2006",
+   "op": "insert",
+   "source_ref": "2(2)(N)",
+   "path": "schedule 2 › ministry MINISTRY OF COAL › entry 4",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

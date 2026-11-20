@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_355.pdf",
     "sha256": "bcc812f5c0c8b33d2d3f1b8e20bb53e9d082c088edeacf81dfa27cf89ad5017f",
     "govdoc": "1_Upload_355.pdf.govdoc.json.zst",
-    "revision": 175
+    "revision": 199
   },
   "documents": [
     {
@@ -29,9 +29,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "3",
+          "version": "4",
           "model": "gemini-4-argon",
-          "at": "2026-11-12T12:56:57.183983+00:00"
+          "at": "2026-11-15T16:24:54.550635+00:00"
         },
         "ops": [
           {
@@ -39,7 +39,7 @@
             "source_ref": "2(1)(a)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r139.rel1",
+            "relation": "r192.rel1",
             "position": "after",
             "anchor": {
               "cited": [
@@ -99,7 +99,7 @@
             "source_ref": "2(1)(b)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r139.rel2",
+            "relation": "r192.rel2",
             "target": {
               "cited": [
                 {
@@ -132,7 +132,6 @@
                 }
               ]
             },
-            "expect": "(ii) Department of Ayurveda, Yoga and Naturopathy, Unani, Siddha and Homoeopathy (AYUSH) (Ayurveda, Yoga aur Prakratik Chikitsa, Unani, Siddha aur Homoeopathy (AYUSH) Vibhag),",
             "flags": [],
             "words": [
               "r1.w1617",
@@ -155,7 +154,7 @@
             "source_ref": "2(1)(c)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r139.rel3",
+            "relation": "r192.rel3",
             "target": {
               "cited": [
                 {
@@ -184,7 +183,6 @@
                 }
               ]
             },
-            "expect": "33. Ministry of Skill Development, Entrepreneurship, Youth Affairs and Sports (Kaushal Vikas, Udyamshilta, Yuvak Karyakram aur Khel Mantralaya)",
             "content": [
               {
                 "type": "ministry",
@@ -196,7 +194,7 @@
             "flags": [],
             "words": [
               "r1.w1661",
-              "r1.w1668"
+              "r1.w1669"
             ],
             "boxes": [
               {
@@ -204,7 +202,7 @@
                 "bbox": [
                   526,
                   926,
-                  1338,
+                  1592,
                   964
                 ]
               }
@@ -215,7 +213,7 @@
             "source_ref": "2(1)(d)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r139.rel4",
+            "relation": "r192.rel4",
             "position": "after",
             "anchor": {
               "cited": [
@@ -287,7 +285,7 @@
             "source_ref": "2(2)(a)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r139.rel5",
+            "relation": "r192.rel5",
             "position": "after",
             "anchor": {
               "cited": [
@@ -542,7 +540,7 @@
             "source_ref": "2(2)(b)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r139.rel6",
+            "relation": "r192.rel6",
             "target": {
               "cited": [
                 {
@@ -575,7 +573,6 @@
                 }
               ]
             },
-            "expect": "B. DEPARTMENT OF AYURVEDA, YOGA AND NATUROPATHY, UNANI, SIDDHA AND HOMOEOPATHY (AYUSH) (AYURVEDA, YOGA AUR PRAKRATIK CHIKITSA, UNANI, SIDDHA AUR HOMOEOPATHY (AYUSH) VIBHAG)",
             "flags": [],
             "words": [
               "r1.w2298",
@@ -598,7 +595,7 @@
             "source_ref": "2(2)(c)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r139.rel7",
+            "relation": "r192.rel7",
             "target": {
               "cited": [
                 {
@@ -627,7 +624,6 @@
                 }
               ]
             },
-            "expect": "MINISTRY OF SKILL DEVELOPMENT, ENTREPRENEURSHIP, YOUTH AFFAIRS AND SPORTS (KAUSHAL VIKAS, UDYAMSHILTA, YUVAK KARYAKRAM AUR KHEL MANTRALAYA)",
             "content": [
               {
                 "type": "ministry",
@@ -718,7 +714,7 @@
             "flags": [],
             "words": [
               "r1.w2355",
-              "r1.w2361"
+              "r1.w2362"
             ],
             "boxes": [
               {
@@ -726,7 +722,7 @@
                 "bbox": [
                   676,
                   347,
-                  1528,
+                  1842,
                   385
                 ]
               }
@@ -737,7 +733,7 @@
             "source_ref": "2(2)(d)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r139.rel8",
+            "relation": "r192.rel8",
             "position": "after",
             "anchor": {
               "cited": [

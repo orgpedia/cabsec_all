@@ -1,0 +1,413 @@
+{
+ "file": "1_Upload_294.pdf",
+ "kind": "amendment",
+ "series": 254,
+ "date": "2001-03-07",
+ "govdoc": "aob-ammend_/output/1_Upload_294.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826688.9744227,
+ "edits_file": "aob-ammend_/conf/1_Upload_294.pdf.edits.yml",
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_294.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:59:04.120840+00:00",
+  "sha256": "854ec1a506df84e4077bb3ac29e66e950ef0a539a3d0c4d6cb64bedaedc245de",
+  "pages": 4
+ },
+ "edits": [
+  {
+   "run": "h1",
+   "by": "mukundesh",
+   "at": "2026-11-11T11:02:42+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r1.w1038",
+     "before": {
+      "text": "Telecome"
+     },
+     "after": {
+      "text": "Telecom"
+     }
+    }
+   ]
+  },
+  {
+   "run": "h2",
+   "by": "claude",
+   "at": "2026-11-12T06:02:00+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r1.w1048",
+     "before": {
+      "text": "Telecome"
+     },
+     "after": {
+      "text": "Telecom"
+     }
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-11T03:12:34.953608+00:00",
+   "stamp": "7834b998723b1705"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r129",
+   "at": "2026-11-15T12:42:06.855699+00:00",
+   "stamp": "fcf5f997fcef4a3c"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r130",
+   "at": "2026-11-15T12:42:08.923763+00:00",
+   "stamp": "80722ee64b9f082d"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r131",
+   "at": "2026-11-15T12:42:10.591897+00:00",
+   "stamp": "f72268805623d36f"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r140",
+   "at": "2026-11-15T16:24:26.438617+00:00",
+   "stamp": "d7a87386644ad08d",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r141",
+   "at": "2026-11-15T16:24:27.936236+00:00",
+   "stamp": "741a162beafd4179",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r142",
+   "at": "2026-11-15T16:24:29.481662+00:00",
+   "stamp": "a50035903c3730cd",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r148",
+   "at": "2026-11-15T16:57:28.891778+00:00",
+   "stamp": "58a658674a3e61c7"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r149",
+   "at": "2026-11-15T17:03:31.686564+00:00",
+   "stamp": "add9af6e53e3b0f9"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r154",
+   "at": "2026-11-16T10:58:08.942530+00:00",
+   "stamp": "97066b1ebb79d9cf"
+  }
+ ],
+ "reviews": [
+  {
+   "id": "h1.v2",
+   "target": "r25.a1",
+   "status": "pending",
+   "by": "mukundesh",
+   "at": "2026-11-11T11:02:42+00:00",
+   "note": "moved by a loose match after h1.e1"
+  },
+  {
+   "id": "h2.v2",
+   "target": "r38.a2",
+   "status": "pending",
+   "by": "claude",
+   "at": "2026-11-12T06:02:00+00:00",
+   "note": "moved by a loose match after h2.e1"
+  }
+ ],
+ "issues": [
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 4: its quoted text runs across a page break",
+   "target": "r142.rel4",
+   "status": "open"
+  },
+  {
+   "code": "aob:new_hindi_differs",
+   "severity": "info",
+   "message": "schedule 1 › ministry 16 › department ii's Hindi name reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied",
+   "target": "r142.rel2",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
+   "message": "change 10: ministry MINISTRY OF LAW, JUSTICE AND COMPANY AFFAIRS taken for ministry MINISTRY OF LAW, JUSTCE AND COMPANY AFFAIRS(, named loosely",
+   "target": "r142.rel10",
+   "status": "open"
+  }
+ ],
+ "problems": [
+  {
+   "series": 271,
+   "seq": 2,
+   "code": "new_hindi_differs",
+   "severity": "info",
+   "message": "schedule 1 › ministry 16 › department ii's Hindi name reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 3,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF COMMUNICATIONS AND INFORMATION TECHNOLOGY › department A › entry 17 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 3,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF COMMUNICATIONS AND INFORMATION TECHNOLOGY › department A › entry 18 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 3,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF COMMUNICATIONS AND INFORMATION TECHNOLOGY › department A › entry 19 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 3,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF COMMUNICATIONS AND INFORMATION TECHNOLOGY › department A › entry 20 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 3,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF COMMUNICATIONS AND INFORMATION TECHNOLOGY › department A › entry 21 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 4,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF COMMUNICATIONS AND INFORMATION TECHNOLOGY › department B › entry 1 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 4,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF COMMUNICATIONS AND INFORMATION TECHNOLOGY › department B › entry 2 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 4,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF COMMUNICATIONS AND INFORMATION TECHNOLOGY › department B › entry 3 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 4,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF COMMUNICATIONS AND INFORMATION TECHNOLOGY › department B › entry 4 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 4,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF COMMUNICATIONS AND INFORMATION TECHNOLOGY › department B › entry 5 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 4,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF COMMUNICATIONS AND INFORMATION TECHNOLOGY › department B › entry 6 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 4,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF COMMUNICATIONS AND INFORMATION TECHNOLOGY › department B › entry 7 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 4,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF COMMUNICATIONS AND INFORMATION TECHNOLOGY › department B › entry 8 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 4,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF COMMUNICATIONS AND INFORMATION TECHNOLOGY › department B › entry 9 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 4,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF COMMUNICATIONS AND INFORMATION TECHNOLOGY › department B › entry 10 is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 7,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department C › entry 17 reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  }
+ ],
+ "rules": [
+  {
+   "rule": "loose",
+   "seq": 10,
+   "note": "change 10: ministry MINISTRY OF LAW, JUSTICE AND COMPANY AFFAIRS taken for ministry MINISTRY OF LAW, JUSTCE AND COMPANY AFFAIRS(, named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  }
+ ],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_209E_2001",
+   "op": "omit",
+   "source_ref": "2(1)(A)",
+   "path": "schedule 1 › ministry Ministry of Communications › department Department of Telecom Services ; schedule 1 › ministry Ministry of Communications › department Department of Telecom Operations",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_209E_2001",
+   "op": "replace",
+   "source_ref": "2(1)(B)",
+   "path": "schedule 1 › ministry Ministry of Human Resource Development › department Department of Secondary Education and Higher Education",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_209E_2001",
+   "op": "insert",
+   "source_ref": "2(2)(A)(i)",
+   "path": "schedule 2 › ministry MINISTRY OF COMMUNICATIONS › department DEPARTMENT OF TELECOMMUNICATIONS › entry 16",
+   "status": "applied"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_209E_2001",
+   "op": "replace",
+   "source_ref": "2(2)(A)(ii)",
+   "path": "schedule 2 › ministry MINISTRY OF COMMUNICATIONS › department DEPARTMENT OF POSTS › entry",
+   "status": "applied"
+  },
+  {
+   "seq": 5,
+   "doc_id": "GOI_SO_209E_2001",
+   "op": "omit",
+   "source_ref": "2(2)(A)(iii)",
+   "path": "schedule 2 › ministry MINISTRY OF COMMUNICATIONS › department DEPARTMENT OF TELECOM SERVICES ; schedule 2 › ministry MINISTRY OF COMMUNICATIONS › department DEPARTMENT OF TELECOM OPERATIONS",
+   "status": "applied"
+  },
+  {
+   "seq": 6,
+   "doc_id": "GOI_SO_209E_2001",
+   "op": "replace",
+   "source_ref": "2(2)(B)(i)",
+   "path": "schedule 2 › ministry MINISTRY OF FINANCE › department DEPARTMENT OF ECONOMIC AFFAIRS › entry 1",
+   "status": "applied"
+  },
+  {
+   "seq": 7,
+   "doc_id": "GOI_SO_209E_2001",
+   "op": "replace",
+   "source_ref": "2(2)(B)(ii)",
+   "path": "schedule 2 › ministry MINISTRY OF FINANCE › department DEPARTMENT OF REVENUE › entry 17",
+   "status": "applied"
+  },
+  {
+   "seq": 8,
+   "doc_id": "GOI_SO_209E_2001",
+   "op": "insert",
+   "source_ref": "2(2)(C)",
+   "path": "schedule 2 › ministry MINISTRY OF HEALTH AND FAMILY WELFARE › department DEPARTMENT OF INDIAN SYSTEMS OF MEDICINE AND HOMOEOPATHY › entry 14",
+   "status": "applied"
+  },
+  {
+   "seq": 9,
+   "doc_id": "GOI_SO_209E_2001",
+   "op": "replace",
+   "source_ref": "2(2)(D)",
+   "path": "schedule 2 › ministry MINISTRY OF HUMAN RESOURCE DEVELOPMENT › department DEPARTMENT OF SECONDARY EDUCATION AND HIGHER EDUCATION",
+   "status": "applied"
+  },
+  {
+   "seq": 10,
+   "doc_id": "GOI_SO_209E_2001",
+   "op": "replace",
+   "source_ref": "2(2)(E)",
+   "path": "schedule 2 › ministry MINISTRY OF LAW, JUSTICE AND COMPANY AFFAIRS › department DEPARTMENT OF LEGAL AFFAIRS › entry 13",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

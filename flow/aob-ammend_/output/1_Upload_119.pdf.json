@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_119.pdf",
     "sha256": "543f77c816fdfd9018051b620086ce85d400132e49312efaeb03ac37dc83b6c6",
     "govdoc": "1_Upload_119.pdf.govdoc.json.zst",
-    "revision": 46
+    "revision": 79
   },
   "documents": [
     {
@@ -29,9 +29,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "3",
+          "version": "4",
           "model": "gemini-4-argon",
-          "at": "2026-11-12T13:49:13.287366+00:00"
+          "at": "2026-11-15T16:24:19.685108+00:00"
         },
         "ops": [
           {
@@ -39,7 +39,7 @@
             "source_ref": "2(a)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel1",
+            "relation": "r71.rel1",
             "target": {
               "cited": [
                 {
@@ -109,7 +109,7 @@
             "source_ref": "2(b)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r10.rel2",
+            "relation": "r71.rel2",
             "position": "after",
             "anchor": {
               "cited": [
@@ -170,7 +170,7 @@
             "source_ref": "3(a)(i)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r10.rel3",
+            "relation": "r71.rel3",
             "target": [
               {
                 "cited": [
@@ -1123,7 +1123,7 @@
             "source_ref": "3(a)(ii)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel4",
+            "relation": "r71.rel4",
             "target": {
               "cited": [
                 {
@@ -1185,7 +1185,7 @@
             "source_ref": "3(a)(iii)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel5",
+            "relation": "r71.rel5",
             "target": {
               "cited": [
                 {
@@ -1244,10 +1244,10 @@
           },
           {
             "seq": 6,
-            "source_ref": "3(a)(iv)",
+            "source_ref": "3(a)(Iv)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel6",
+            "relation": "r71.rel6",
             "target": {
               "cited": [
                 {
@@ -1309,7 +1309,7 @@
             "source_ref": "3(a)(v)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel7",
+            "relation": "r71.rel7",
             "target": {
               "cited": [
                 {
@@ -1368,10 +1368,10 @@
           },
           {
             "seq": 8,
-            "source_ref": "3(a)(vi)",
+            "source_ref": "3(a)(vf)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r10.rel8",
+            "relation": "r71.rel8",
             "position": "after",
             "anchor": {
               "cited": [
@@ -1434,7 +1434,7 @@
             "source_ref": "3(b)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel9",
+            "relation": "r71.rel9",
             "target": {
               "cited": [
                 {
@@ -1472,7 +1472,8 @@
               }
             ],
             "flags": [
-              "read_hindi_missing"
+              "read_hindi_missing",
+              "states_inferred_loose"
             ],
             "words": [
               "r1.w483",
@@ -1495,7 +1496,7 @@
             "source_ref": "3(b)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r10.rel10",
+            "relation": "r71.rel10",
             "target": {
               "cited": [
                 {
@@ -1528,6 +1529,7 @@
                 }
               ]
             },
+            "expect": "C. DEPARTMENT OF COMPANY AFFAIRS",
             "ref_seq": 9,
             "flags": [],
             "words": [
@@ -1551,7 +1553,7 @@
             "source_ref": "3(c)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r10.rel11",
+            "relation": "r71.rel11",
             "position": "after",
             "anchor": {
               "cited": [
@@ -1646,7 +1648,7 @@
             "source_ref": "3(d)(i)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r10.rel12",
+            "relation": "r71.rel12",
             "target": {
               "cited": [
                 {
@@ -1668,15 +1670,15 @@
               ],
               "eId": null,
               "words": [
-                "r1.w672",
+                "r1.w664",
                 "r1.w673"
               ],
               "boxes": [
                 {
                   "page": 2,
                   "bbox": [
-                    1405,
-                    1934,
+                    321,
+                    1928,
                     1533,
                     1969
                   ]
@@ -1705,7 +1707,7 @@
             "source_ref": "3(d)(ii)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r10.rel13",
+            "relation": "r71.rel13",
             "position": "after",
             "anchor": {
               "cited": [
@@ -1724,15 +1726,15 @@
               ],
               "eId": null,
               "words": [
-                "r1.w678",
+                "r1.w679",
                 "r1.w684"
               ],
               "boxes": [
                 {
                   "page": 2,
                   "bbox": [
-                    323,
-                    2011,
+                    445,
+                    2012,
                     1341,
                     2048
                   ]
@@ -1982,7 +1984,7 @@
               },
               {
                 "type": "entry",
-                "num": "2",
+                "num": "29",
                 "text": "Administration of service rules with fiancial content under specific delegation made by the Ministry of Finance."
               },
               {

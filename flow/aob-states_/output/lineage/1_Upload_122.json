@@ -1,0 +1,1188 @@
+{
+ "file": "1_Upload_122.pdf",
+ "kind": "amendment",
+ "series": 88,
+ "date": "1971-05-03",
+ "govdoc": "aob-ammend_/output/1_Upload_122.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826688.8400288,
+ "edits_file": "aob-ammend_/conf/1_Upload_122.pdf.edits.yml",
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_122.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:54:33.619173+00:00",
+  "sha256": "84787249e79ca237701f5d53deb6196f73cd37480a0a9a6ba25fb15782b461c5",
+  "pages": 12
+ },
+ "edits": [
+  {
+   "run": "h1",
+   "by": "mukundesh",
+   "at": "2026-11-14T16:35:18+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r1.w1016",
+     "before": {
+      "text": "38."
+     },
+     "after": {
+      "text": "39."
+     }
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-12T12:37:12.724967+00:00",
+   "stamp": "7b182df6d585eec4"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r58",
+   "at": "2026-11-15T12:42:06.596538+00:00",
+   "stamp": "7dd19b4d87f7483b"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r59",
+   "at": "2026-11-15T12:42:08.707411+00:00",
+   "stamp": "a70da5bb690efb2c"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r60",
+   "at": "2026-11-15T12:42:10.424159+00:00",
+   "stamp": "60707c6ad95e0734"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r69",
+   "at": "2026-11-15T16:24:26.251367+00:00",
+   "stamp": "4db36e517e5cadeb",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r70",
+   "at": "2026-11-15T16:24:27.751077+00:00",
+   "stamp": "2da6fc4b3c4b8c12",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r71",
+   "at": "2026-11-15T16:24:29.302371+00:00",
+   "stamp": "4b3122efd3480b87",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r77",
+   "at": "2026-11-15T16:57:28.708133+00:00",
+   "stamp": "9a93105a6fddb6fe"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r78",
+   "at": "2026-11-15T17:03:31.373133+00:00",
+   "stamp": "b18cd545a6611941"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r83",
+   "at": "2026-11-16T10:58:08.778130+00:00",
+   "stamp": "88babb8d405119f6"
+  }
+ ],
+ "reviews": [],
+ "issues": [
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 1: its quoted text runs across a page break",
+   "target": "r71.rel1",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_hindi_missing",
+   "severity": "info",
+   "message": "change 2: a new heading has no Hindi name in brackets",
+   "target": "r71.rel2",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 2: its quoted text runs across a page break",
+   "target": "r71.rel2",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_hindi_missing",
+   "severity": "info",
+   "message": "change 6: a new heading has no Hindi name in brackets",
+   "target": "r71.rel6",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_hindi_missing",
+   "severity": "info",
+   "message": "change 7: a new heading has no Hindi name in brackets",
+   "target": "r71.rel7",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_hindi_missing",
+   "severity": "info",
+   "message": "change 10: a new heading has no Hindi name in brackets",
+   "target": "r71.rel10",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_hindi_missing",
+   "severity": "info",
+   "message": "change 11: a new heading has no Hindi name in brackets",
+   "target": "r71.rel11",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_hindi_missing",
+   "severity": "info",
+   "message": "change 12: a new heading has no Hindi name in brackets",
+   "target": "r71.rel12",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_hindi_missing",
+   "severity": "info",
+   "message": "change 13: a new heading has no Hindi name in brackets",
+   "target": "r71.rel13",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_hindi_missing",
+   "severity": "info",
+   "message": "change 14: a new heading has no Hindi name in brackets",
+   "target": "r71.rel14",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_hindi_missing",
+   "severity": "info",
+   "message": "change 16: a new heading has no Hindi name in brackets",
+   "target": "r71.rel16",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_hindi_missing",
+   "severity": "info",
+   "message": "change 17: a new heading has no Hindi name in brackets",
+   "target": "r71.rel17",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 17: its quoted text runs across a page break",
+   "target": "r71.rel17",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_hindi_missing",
+   "severity": "info",
+   "message": "change 19: a new heading has no Hindi name in brackets",
+   "target": "r71.rel19",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 19: its quoted text runs across a page break",
+   "target": "r71.rel19",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_hindi_missing",
+   "severity": "info",
+   "message": "change 21: a new heading has no Hindi name in brackets",
+   "target": "r71.rel21",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_hindi_missing",
+   "severity": "info",
+   "message": "change 22: a new heading has no Hindi name in brackets",
+   "target": "r71.rel22",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 22: its quoted text runs across a page break",
+   "target": "r71.rel22",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_hindi_missing",
+   "severity": "info",
+   "message": "change 24: a new heading has no Hindi name in brackets",
+   "target": "r71.rel24",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_hindi_missing",
+   "severity": "info",
+   "message": "change 25: a new heading has no Hindi name in brackets",
+   "target": "r71.rel25",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_hindi_cited",
+   "severity": "info",
+   "message": "change 3: ministry VITTA MANTRALAYA taken for ministry MINISTRY OF FINANCE, cited by its Hindi name",
+   "target": "r71.rel3",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_hindi_cited",
+   "severity": "info",
+   "message": "change 3: department ARTHIK KARYA VIBH 10 taken for department Department of Economic Affairs, cited by its Hindi name",
+   "target": "r71.rel3",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_hindi_cited",
+   "severity": "info",
+   "message": "change 4: ministry VITTA MANTRALAYA taken for ministry MINISTRY OF FINANCE, cited by its Hindi name",
+   "target": "r71.rel4",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_hindi_cited",
+   "severity": "info",
+   "message": "change 4: department ARTHIK KARYA VIBH 10 taken for department Department of Economic Affairs, cited by its Hindi name",
+   "target": "r71.rel4",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_hindi_cited",
+   "severity": "info",
+   "message": "change 5: ministry VITTA MANTRALAYA taken for ministry MINISTRY OF FINANCE, cited by its Hindi name",
+   "target": "r71.rel5",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_hindi_cited",
+   "severity": "info",
+   "message": "change 5: department VYAYA VIBHAG taken for department Department of Expenditure, cited by its Hindi name",
+   "target": "r71.rel5",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_hindi_cited",
+   "severity": "info",
+   "message": "change 9: ministry GRIH MANTRALAYA taken for ministry MINISTRY OF HOME AFFAIRS, cited by its Hindi name",
+   "target": "r71.rel9",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_hindi_cited",
+   "severity": "info",
+   "message": "change 9: ministry GRIH MANTRALAYA taken for ministry MINISTRY OF HOME AFFAIRS, cited by its Hindi name",
+   "target": "r71.rel9",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_hindi_cited",
+   "severity": "info",
+   "message": "change 9: ministry GRIH MANTRALAYA taken for ministry MINISTRY OF HOME AFFAIRS, cited by its Hindi name",
+   "target": "r71.rel9",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_hindi_cited",
+   "severity": "info",
+   "message": "change 9: ministry GRIH MANTRALAYA taken for ministry MINISTRY OF HOME AFFAIRS, cited by its Hindi name",
+   "target": "r71.rel9",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_hindi_cited",
+   "severity": "info",
+   "message": "change 9: ministry GRIH MANTRALAYA taken for ministry MINISTRY OF HOME AFFAIRS, cited by its Hindi name",
+   "target": "r71.rel9",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_hindi_cited",
+   "severity": "info",
+   "message": "change 9: ministry GRIH MANTRALAYA taken for ministry MINISTRY OF HOME AFFAIRS, cited by its Hindi name",
+   "target": "r71.rel9",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_hindi_cited",
+   "severity": "info",
+   "message": "change 9: ministry GRIH MANTRALAYA taken for ministry MINISTRY OF HOME AFFAIRS, cited by its Hindi name",
+   "target": "r71.rel9",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_hindi_cited",
+   "severity": "info",
+   "message": "change 13: department VIDHAYE VIBHAG taken for department LEGISLATIVE DEPARTMENT., cited by its Hindi name",
+   "target": "r71.rel13",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
+   "message": "change 14: ministry MINISTRYY OF PETROLEUM AND CHEMICALS AND MINES AND METALS taken for ministry MINISTRY OF PETROLEUM AND CHEMICALS AND MINES & METALS, named loosely",
+   "target": "r71.rel14",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
+   "message": "change 15: department DEPARTMENT OF MINES METALS taken for department DEPARTMENT OF MINES AND METALS, named loosely",
+   "target": "r71.rel15",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_hindi_cited",
+   "severity": "info",
+   "message": "change 19: ministry Paryatan aur Nagar Vimanan Mantralaya taken for ministry MINISTRY OF TOURISM & CIVIL AVIATION, cited by its Hindi name",
+   "target": "r71.rel19",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_hindi_cited",
+   "severity": "info",
+   "message": "change 22: ministry Company Karya Vibhag taken for ministry DEPARTMENT OF COMPANY AFFAIRS, cited by its Hindi name",
+   "target": "r71.rel22",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_hindi_cited",
+   "severity": "info",
+   "message": "change 23: ministry MANTRI MANDAL SACHIVALAYA taken for ministry CABINET SECRETARIAT, cited by its Hindi name",
+   "target": "r71.rel23",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
+   "message": "change 23: department DEPARTMENT OF SCIENTIFIC AND INDUSTRIAL RESEARCH taken for department Department of Scientific and Industrial Research. All matters relating to the Council of Scientific and Industrial Research., named loosely",
+   "target": "r71.rel23",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_hindi_cited",
+   "severity": "info",
+   "message": "change 24: ministry MANTRI MANDAL SACHIVALAYA taken for ministry CABINET SECRETARIAT, cited by its Hindi name",
+   "target": "r71.rel24",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_hindi_cited",
+   "severity": "info",
+   "message": "change 25: ministry MANTRI MANDAL SACHIVALAYA taken for ministry CABINET SECRETARIAT, cited by its Hindi name",
+   "target": "r71.rel25",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_hindi_name",
+   "severity": "info",
+   "message": "the Second Schedule's SHIKSHA AUR SAMAJ KALYAN MANTRALAYA read as MINISTRY OF EDUCATION AND SOCIAL WELFARE, the First Schedule's English name for it",
+   "target": "GOI_SO_1914_1971",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_hindi_name",
+   "severity": "info",
+   "message": "the Second Schedule's SHIKSHA VIBHAG read as DEPARTMENT OF EDUCATION, the First Schedule's English name for it",
+   "target": "GOI_SO_1914_1971",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_hindi_name",
+   "severity": "info",
+   "message": "the Second Schedule's KRISHI MANTRALAYA read as MINISTRY OF AGRICULTURE, the First Schedule's English name for it",
+   "target": "GOI_SO_1914_1971",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_hindi_name",
+   "severity": "info",
+   "message": "the Second Schedule's SWASTHYA AUR PARIVAR NIYOJAN MANTRALAYA read as MINISTRY OF HEALTH AND FAMILY PLANNING, the First Schedule's English name for it",
+   "target": "GOI_SO_1914_1971",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_hindi_name",
+   "severity": "info",
+   "message": "the Second Schedule's AUDYOGIK VIKAS MANTRALAYA read as MINISTRY OF INDUSTRIAL DEVELOPMENT, the First Schedule's English name for it",
+   "target": "GOI_SO_1914_1971",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_hindi_name",
+   "severity": "info",
+   "message": "the Second Schedule's SHRAM AUR PUNARWAS MANTRALAYA read as MINISTRY OF LABOUR AND REHABILITATION, the First Schedule's English name for it",
+   "target": "GOI_SO_1914_1971",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_hindi_name",
+   "severity": "info",
+   "message": "the Second Schedule's VIDHI AUR NYAYA MANTRALAYA read as MINISTRY OF LAW AND JUSTICE, the First Schedule's English name for it",
+   "target": "GOI_SO_1914_1971",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_hindi_name",
+   "severity": "info",
+   "message": "the Second Schedule's NYAYA VIBHAG read as DEPARTMENT OF JUSTICE, the First Schedule's English name for it",
+   "target": "GOI_SO_1914_1971",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_hindi_name",
+   "severity": "info",
+   "message": "the Second Schedule's PETROLEUM AUR RASAYAN MANTRALAYA read as MINISTRY OF PETROLEUM AND CHEMICALS, the First Schedule's English name for it",
+   "target": "GOI_SO_1914_1971",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_hindi_name",
+   "severity": "info",
+   "message": "the Second Schedule's YOJANA MANTRALAYA read as MINISTRY OF PLANNING, the First Schedule's English name for it",
+   "target": "GOI_SO_1914_1971",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_hindi_name",
+   "severity": "info",
+   "message": "the Second Schedule's ISPAT AUR KHAN MANTRALAYA read as MINISTRY OF STEEL AND MINES, the First Schedule's English name for it",
+   "target": "GOI_SO_1914_1971",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_hindi_name",
+   "severity": "info",
+   "message": "the Second Schedule's ISPAT VIBHAG read as DEPARTMENT OF STEEL, the First Schedule's English name for it",
+   "target": "GOI_SO_1914_1971",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_hindi_name",
+   "severity": "info",
+   "message": "the Second Schedule's KHAN VIBHAG read as DEPARTMENT OF MINES, the First Schedule's English name for it",
+   "target": "GOI_SO_1914_1971",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_hindi_name",
+   "severity": "info",
+   "message": "the Second Schedule's NIRMAN AUR AWAS MANTRALAYA read as MINISTRY OF WORKS AND HOUSING, the First Schedule's English name for it",
+   "target": "GOI_SO_1914_1971",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_hindi_name",
+   "severity": "info",
+   "message": "the Second Schedule's SANCHAR MANTRALAYA read as MINISTRY OF COMMUNICATIONS, the First Schedule's English name for it",
+   "target": "GOI_SO_1914_1971",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_hindi_name",
+   "severity": "info",
+   "message": "the Second Schedule's SANSKRITI VIBHAG read as DEPARTMENT OF CULTURE, the First Schedule's English name for it",
+   "target": "GOI_SO_1914_1971",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_hindi_name",
+   "severity": "info",
+   "message": "the Second Schedule's SANSADIYA KARYA VIBHAG read as DEPARTMENT OF PARLIAMENTARY AFFAIRS, the First Schedule's English name for it",
+   "target": "GOI_SO_1914_1971",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_hindi_name",
+   "severity": "info",
+   "message": "the Second Schedule's POORTI VIBHAG read as DEPARTMENT OF SUPPLY, the First Schedule's English name for it",
+   "target": "GOI_SO_1914_1971",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_hindi_name",
+   "severity": "info",
+   "message": "the Second Schedule's SANKHIKI VIBHAG read as DEPARTMENT OF STATISTICS, the First Schedule's English name for it",
+   "target": "GOI_SO_1914_1971",
+   "status": "open"
+  }
+ ],
+ "problems": [
+  {
+   "series": 174,
+   "seq": 3,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading I › entry 1 reads differently in 1_Upload_212.pdf than in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  },
+  {
+   "series": 174,
+   "seq": 9,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF HOME AFFAIRS › part III is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
+  },
+  {
+   "series": 174,
+   "seq": 13,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF LAW AND JUSTICE › department C › entry 5 is in 1_Upload_212.pdf but not in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  },
+  {
+   "series": 174,
+   "seq": 13,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF LAW AND JUSTICE › department C › entry 6 is in 1_Upload_212.pdf but not in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  },
+  {
+   "series": 174,
+   "seq": 13,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF LAW AND JUSTICE › department C › entry 2 reads differently in 1_Upload_212.pdf than in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  },
+  {
+   "series": 174,
+   "seq": 13,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF LAW AND JUSTICE › department C › entry 3 reads differently in 1_Upload_212.pdf than in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  },
+  {
+   "series": 174,
+   "seq": 13,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF LAW AND JUSTICE › department C › entry 4 reads differently in 1_Upload_212.pdf than in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  },
+  {
+   "series": 174,
+   "seq": 13,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF LAW AND JUSTICE › department C › entry 7 reads differently in 1_Upload_212.pdf than in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  },
+  {
+   "series": 174,
+   "seq": 19,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF WORKS AND HOUSING is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
+  },
+  {
+   "series": 174,
+   "seq": 22,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › department Vigyan Aur Irodyagiki Vibhag is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
+  }
+ ],
+ "rules": [
+  {
+   "rule": "hindi_cited",
+   "seq": 3,
+   "note": "change 3: ministry VITTA MANTRALAYA taken for ministry MINISTRY OF FINANCE, cited by its Hindi name",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "hindi_cited",
+   "seq": 3,
+   "note": "change 3: department ARTHIK KARYA VIBH 10 taken for department Department of Economic Affairs, cited by its Hindi name",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "hindi_cited",
+   "seq": 4,
+   "note": "change 4: ministry VITTA MANTRALAYA taken for ministry MINISTRY OF FINANCE, cited by its Hindi name",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "hindi_cited",
+   "seq": 4,
+   "note": "change 4: department ARTHIK KARYA VIBH 10 taken for department Department of Economic Affairs, cited by its Hindi name",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "hindi_cited",
+   "seq": 5,
+   "note": "change 5: ministry VITTA MANTRALAYA taken for ministry MINISTRY OF FINANCE, cited by its Hindi name",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "hindi_cited",
+   "seq": 5,
+   "note": "change 5: department VYAYA VIBHAG taken for department Department of Expenditure, cited by its Hindi name",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "hindi_cited",
+   "seq": 9,
+   "note": "change 9: ministry GRIH MANTRALAYA taken for ministry MINISTRY OF HOME AFFAIRS, cited by its Hindi name",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "hindi_cited",
+   "seq": 9,
+   "note": "change 9: ministry GRIH MANTRALAYA taken for ministry MINISTRY OF HOME AFFAIRS, cited by its Hindi name",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "hindi_cited",
+   "seq": 9,
+   "note": "change 9: ministry GRIH MANTRALAYA taken for ministry MINISTRY OF HOME AFFAIRS, cited by its Hindi name",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "hindi_cited",
+   "seq": 9,
+   "note": "change 9: ministry GRIH MANTRALAYA taken for ministry MINISTRY OF HOME AFFAIRS, cited by its Hindi name",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "hindi_cited",
+   "seq": 9,
+   "note": "change 9: ministry GRIH MANTRALAYA taken for ministry MINISTRY OF HOME AFFAIRS, cited by its Hindi name",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "hindi_cited",
+   "seq": 9,
+   "note": "change 9: ministry GRIH MANTRALAYA taken for ministry MINISTRY OF HOME AFFAIRS, cited by its Hindi name",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "hindi_cited",
+   "seq": 9,
+   "note": "change 9: ministry GRIH MANTRALAYA taken for ministry MINISTRY OF HOME AFFAIRS, cited by its Hindi name",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "hindi_cited",
+   "seq": 13,
+   "note": "change 13: department VIDHAYE VIBHAG taken for department LEGISLATIVE DEPARTMENT., cited by its Hindi name",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "loose",
+   "seq": 14,
+   "note": "change 14: ministry MINISTRYY OF PETROLEUM AND CHEMICALS AND MINES AND METALS taken for ministry MINISTRY OF PETROLEUM AND CHEMICALS AND MINES & METALS, named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "loose",
+   "seq": 15,
+   "note": "change 15: department DEPARTMENT OF MINES METALS taken for department DEPARTMENT OF MINES AND METALS, named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "hindi_cited",
+   "seq": 19,
+   "note": "change 19: ministry Paryatan aur Nagar Vimanan Mantralaya taken for ministry MINISTRY OF TOURISM & CIVIL AVIATION, cited by its Hindi name",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "hindi_cited",
+   "seq": 22,
+   "note": "change 22: ministry Company Karya Vibhag taken for ministry DEPARTMENT OF COMPANY AFFAIRS, cited by its Hindi name",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "hindi_cited",
+   "seq": 23,
+   "note": "change 23: ministry MANTRI MANDAL SACHIVALAYA taken for ministry CABINET SECRETARIAT, cited by its Hindi name",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "loose",
+   "seq": 23,
+   "note": "change 23: department DEPARTMENT OF SCIENTIFIC AND INDUSTRIAL RESEARCH taken for department Department of Scientific and Industrial Research. All matters relating to the Council of Scientific and Industrial Research., named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "hindi_cited",
+   "seq": 24,
+   "note": "change 24: ministry MANTRI MANDAL SACHIVALAYA taken for ministry CABINET SECRETARIAT, cited by its Hindi name",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "hindi_cited",
+   "seq": 25,
+   "note": "change 25: ministry MANTRI MANDAL SACHIVALAYA taken for ministry CABINET SECRETARIAT, cited by its Hindi name",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "hindi_name",
+   "seq": null,
+   "note": "the Second Schedule's SHIKSHA AUR SAMAJ KALYAN MANTRALAYA read as MINISTRY OF EDUCATION AND SOCIAL WELFARE, the First Schedule's English name for it",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "hindi_name",
+   "seq": null,
+   "note": "the Second Schedule's SHIKSHA VIBHAG read as DEPARTMENT OF EDUCATION, the First Schedule's English name for it",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "hindi_name",
+   "seq": null,
+   "note": "the Second Schedule's KRISHI MANTRALAYA read as MINISTRY OF AGRICULTURE, the First Schedule's English name for it",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "hindi_name",
+   "seq": null,
+   "note": "the Second Schedule's SWASTHYA AUR PARIVAR NIYOJAN MANTRALAYA read as MINISTRY OF HEALTH AND FAMILY PLANNING, the First Schedule's English name for it",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "hindi_name",
+   "seq": null,
+   "note": "the Second Schedule's AUDYOGIK VIKAS MANTRALAYA read as MINISTRY OF INDUSTRIAL DEVELOPMENT, the First Schedule's English name for it",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "hindi_name",
+   "seq": null,
+   "note": "the Second Schedule's SHRAM AUR PUNARWAS MANTRALAYA read as MINISTRY OF LABOUR AND REHABILITATION, the First Schedule's English name for it",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "hindi_name",
+   "seq": null,
+   "note": "the Second Schedule's VIDHI AUR NYAYA MANTRALAYA read as MINISTRY OF LAW AND JUSTICE, the First Schedule's English name for it",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "hindi_name",
+   "seq": null,
+   "note": "the Second Schedule's NYAYA VIBHAG read as DEPARTMENT OF JUSTICE, the First Schedule's English name for it",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "hindi_name",
+   "seq": null,
+   "note": "the Second Schedule's PETROLEUM AUR RASAYAN MANTRALAYA read as MINISTRY OF PETROLEUM AND CHEMICALS, the First Schedule's English name for it",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "hindi_name",
+   "seq": null,
+   "note": "the Second Schedule's YOJANA MANTRALAYA read as MINISTRY OF PLANNING, the First Schedule's English name for it",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "hindi_name",
+   "seq": null,
+   "note": "the Second Schedule's ISPAT AUR KHAN MANTRALAYA read as MINISTRY OF STEEL AND MINES, the First Schedule's English name for it",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "hindi_name",
+   "seq": null,
+   "note": "the Second Schedule's ISPAT VIBHAG read as DEPARTMENT OF STEEL, the First Schedule's English name for it",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "hindi_name",
+   "seq": null,
+   "note": "the Second Schedule's KHAN VIBHAG read as DEPARTMENT OF MINES, the First Schedule's English name for it",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "hindi_name",
+   "seq": null,
+   "note": "the Second Schedule's NIRMAN AUR AWAS MANTRALAYA read as MINISTRY OF WORKS AND HOUSING, the First Schedule's English name for it",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "hindi_name",
+   "seq": null,
+   "note": "the Second Schedule's SANCHAR MANTRALAYA read as MINISTRY OF COMMUNICATIONS, the First Schedule's English name for it",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "hindi_name",
+   "seq": null,
+   "note": "the Second Schedule's SANSKRITI VIBHAG read as DEPARTMENT OF CULTURE, the First Schedule's English name for it",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "hindi_name",
+   "seq": null,
+   "note": "the Second Schedule's SANSADIYA KARYA VIBHAG read as DEPARTMENT OF PARLIAMENTARY AFFAIRS, the First Schedule's English name for it",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "hindi_name",
+   "seq": null,
+   "note": "the Second Schedule's POORTI VIBHAG read as DEPARTMENT OF SUPPLY, the First Schedule's English name for it",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "hindi_name",
+   "seq": null,
+   "note": "the Second Schedule's SANKHIKI VIBHAG read as DEPARTMENT OF STATISTICS, the First Schedule's English name for it",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  }
+ ],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_1914_1971",
+   "op": "replace",
+   "source_ref": "2",
+   "path": "schedule 1",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_1914_1971",
+   "op": "replace",
+   "source_ref": "3(a)",
+   "path": "schedule 2 › ministry MINISTRY OF EDUCATION AND YOUTH SERVICES",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_1914_1971",
+   "op": "replace",
+   "source_ref": "3(b)(1)(a)",
+   "path": "schedule 2 › ministry VITTA MANTRALAYA › department ARTHIK KARYA VIBH 10 › entry 1",
+   "status": "applied"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_1914_1971",
+   "op": "omit",
+   "source_ref": "3(b)(1)(b)",
+   "path": "schedule 2 › ministry VITTA MANTRALAYA › department ARTHIK KARYA VIBH 10 › entry 28",
+   "status": "applied"
+  },
+  {
+   "seq": 5,
+   "doc_id": "GOI_SO_1914_1971",
+   "op": "insert",
+   "source_ref": "3(b)(ii)",
+   "path": "schedule 2 › ministry VITTA MANTRALAYA › department VYAYA VIBHAG › entry 14",
+   "status": "applied"
+  },
+  {
+   "seq": 6,
+   "doc_id": "GOI_SO_1914_1971",
+   "op": "replace",
+   "source_ref": "3(c)",
+   "path": "schedule 2 › ministry MINISTRY OF FOOD, 'AGRICULTURE, COMMUNITY DEVELOPMENT AND COOPERATION",
+   "status": "applied"
+  },
+  {
+   "seq": 7,
+   "doc_id": "GOI_SO_1914_1971",
+   "op": "replace",
+   "source_ref": "3(d)",
+   "path": "schedule 2 › ministry MINISTRY OF HEALTH AND FAMILY PLANNING AND WORKS. HOUSING AND URBAN DEVELOPMENT",
+   "status": "applied"
+  },
+  {
+   "seq": 8,
+   "doc_id": "GOI_SO_1914_1971",
+   "op": "omit",
+   "source_ref": "3(e)",
+   "path": "schedule 2 › ministry SWASTHYA AUR PARIVAR NIYOJAN MANTRALAYA › department DEPARTMENT ' OF WORKS, HOUSING AND URBAN DEVELOPMENT",
+   "status": "applied"
+  },
+  {
+   "seq": 9,
+   "doc_id": "GOI_SO_1914_1971",
+   "op": "omit",
+   "source_ref": "3(f)",
+   "path": "schedule 2 › ministry GRIH MANTRALAYA › entry 7 ; schedule 2 › ministry GRIH MANTRALAYA › entry 11 ; schedule 2 › ministry GRIH MANTRALAYA › entry 75 ; schedule 2 › ministry GRIH MANTRALAYA › entry 76 ; schedule 2 › ministry GRIH MANTRALAYA › entry 97 ; schedule 2 › ministry GRIH MANTRALAYA › entry 108 ; schedule 2 › ministry GRIH MANTRALAYA › entry 116",
+   "status": "applied"
+  },
+  {
+   "seq": 10,
+   "doc_id": "GOI_SO_1914_1971",
+   "op": "replace",
+   "source_ref": "3(g)",
+   "path": "schedule 2 › ministry MINISTRY OF INDUSTRIAL DEVELOPMENT AND INTERNAL TRADE",
+   "status": "applied"
+  },
+  {
+   "seq": 11,
+   "doc_id": "GOI_SO_1914_1971",
+   "op": "replace",
+   "source_ref": "3(h)",
+   "path": "schedule 2 › ministry MINISTRY OF LABOUR, EMPLOYMENT AND REHABILITATION",
+   "status": "applied"
+  },
+  {
+   "seq": 12,
+   "doc_id": "GOI_SO_1914_1971",
+   "op": "replace",
+   "source_ref": "3(1)",
+   "path": "schedule 2 › ministry MINISTRY OF LAW",
+   "status": "applied"
+  },
+  {
+   "seq": 13,
+   "doc_id": "GOI_SO_1914_1971",
+   "op": "insert",
+   "source_ref": "3(j)",
+   "path": "schedule 2 › ministry VIDHI AUR NYAYA MANTRALAYA › department VIDHAYE VIBHAG",
+   "status": "applied"
+  },
+  {
+   "seq": 14,
+   "doc_id": "GOI_SO_1914_1971",
+   "op": "replace",
+   "source_ref": "3(k)",
+   "path": "schedule 2 › ministry MINISTRYY OF PETROLEUM AND CHEMICALS AND MINES AND METALS",
+   "status": "applied"
+  },
+  {
+   "seq": 15,
+   "doc_id": "GOI_SO_1914_1971",
+   "op": "omit",
+   "source_ref": "3(1)",
+   "path": "schedule 2 › ministry PETROLEUM AUR RASAYAN MANTRALAYA › department DEPARTMENT OF MINES METALS",
+   "status": "applied"
+  },
+  {
+   "seq": 16,
+   "doc_id": "GOI_SO_1914_1971",
+   "op": "insert",
+   "source_ref": "3(m)",
+   "path": "schedule 2 › ministry PETROLEUM AUR RASAYAN MANTRALAYA",
+   "status": "applied"
+  },
+  {
+   "seq": 17,
+   "doc_id": "GOI_SO_1914_1971",
+   "op": "replace",
+   "source_ref": "3(n)",
+   "path": "schedule 2 › ministry MINISTRY OF STEEL AND HEAVY ENGINEERING",
+   "status": "applied"
+  },
+  {
+   "seq": 18,
+   "doc_id": "GOI_SO_1914_1971",
+   "op": "omit",
+   "source_ref": "3(o)",
+   "path": "schedule 2 › ministry MINISTRY OF SUPPLY",
+   "status": "applied"
+  },
+  {
+   "seq": 19,
+   "doc_id": "GOI_SO_1914_1971",
+   "op": "insert",
+   "source_ref": "3(p)",
+   "path": "schedule 2 › ministry Paryatan aur Nagar Vimanan Mantralaya",
+   "status": "applied"
+  },
+  {
+   "seq": 20,
+   "doc_id": "GOI_SO_1914_1971",
+   "op": "omit",
+   "source_ref": "3(q)",
+   "path": "schedule 2 › ministry Department of Parliamentary Affairs",
+   "status": "applied"
+  },
+  {
+   "seq": 21,
+   "doc_id": "GOI_SO_1914_1971",
+   "op": "replace",
+   "source_ref": "3(r)",
+   "path": "schedule 2 › ministry DEPARTMENT OF COMMUNICATIONS",
+   "status": "applied"
+  },
+  {
+   "seq": 22,
+   "doc_id": "GOI_SO_1914_1971",
+   "op": "insert",
+   "source_ref": "3(s)",
+   "path": "schedule 2 › ministry Company Karya Vibhag",
+   "status": "applied"
+  },
+  {
+   "seq": 23,
+   "doc_id": "GOI_SO_1914_1971",
+   "op": "omit",
+   "source_ref": "3(t)(i)",
+   "path": "schedule 2 › ministry MANTRI MANDAL SACHIVALAYA › department DEPARTMENT OF SCIENTIFIC AND INDUSTRIAL RESEARCH",
+   "status": "applied"
+  },
+  {
+   "seq": 24,
+   "doc_id": "GOI_SO_1914_1971",
+   "op": "replace",
+   "source_ref": "3(t)",
+   "path": "schedule 2 › ministry MANTRI MANDAL SACHIVALAYA › department DEPARTMENT OF PERSONNEL",
+   "status": "applied"
+  },
+  {
+   "seq": 25,
+   "doc_id": "GOI_SO_1914_1971",
+   "op": "replace",
+   "source_ref": "3(t)(ii)",
+   "path": "schedule 2 › ministry MANTRI MANDAL SACHIVALAYA › department DEPARTMENT OF STATISTICS",
+   "status": "applied"
+  },
+  {
+   "seq": 26,
+   "doc_id": "GOI_SO_1914_1971",
+   "op": "omit",
+   "source_ref": "3(u)",
+   "path": "schedule 2 › ministry PLANNING COMMISSION",
+   "status": "applied"
+  }
+ ],
+ "bridge": {
+  "substitutes": "the First Schedule",
+  "page_skip": true
+ },
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

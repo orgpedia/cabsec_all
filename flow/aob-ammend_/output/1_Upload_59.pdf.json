@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_59.pdf",
     "sha256": "4574cf831adb4fa967c5d9827c01bfc270ccec2ec4429096413ec862312cec8a",
     "govdoc": "1_Upload_59.pdf.govdoc.json.zst",
-    "revision": 46
+    "revision": 79
   },
   "documents": [
     {
@@ -29,9 +29,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "3",
+          "version": "4",
           "model": "gemini-4-argon",
-          "at": "2026-11-12T13:49:06.696413+00:00"
+          "at": "2026-11-15T16:24:10.599838+00:00"
         },
         "ops": [
           {
@@ -39,7 +39,7 @@
             "source_ref": "(A)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel1",
+            "relation": "r71.rel1",
             "target": {
               "cited": [
                 {
@@ -75,21 +75,19 @@
                 "heading": "Ministry of Education"
               }
             ],
-            "flags": [
-              "read_hindi_missing"
-            ],
+            "flags": [],
             "words": [
               "r1.w115",
-              "r1.w130"
+              "r1.w122"
             ],
             "boxes": [
               {
                 "page": 1,
                 "bbox": [
                   331,
-                  1669,
-                  1708,
-                  1738
+                  1672,
+                  1035,
+                  1707
                 ]
               }
             ]
@@ -99,7 +97,7 @@
             "source_ref": "(B)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel2",
+            "relation": "r71.rel2",
             "target": [
               {
                 "cited": [
@@ -398,7 +396,7 @@
               },
               {
                 "type": "entry",
-                "num": "48",
+                "num": "46",
                 "text": "Open-air Theatres in rural areas and Theatres in State Capitals"
               },
               {
@@ -503,7 +501,7 @@
               },
               {
                 "type": "entry",
-                "num": "87",
+                "num": "67",
                 "text": "Scientific liaison through the Indian Scientific Liaison Officer."
               },
               {
@@ -639,7 +637,12 @@
               {
                 "type": "entry",
                 "num": "94",
-                "text": "Indian School of Mines & Applied Geology, Dhanbad. 1 95. Indian Institutes of Technology at Kharagpur, Bombay, Kanpur, Madras and Delhi."
+                "text": "Indian School of Mines & Applied Geology, Dhanbad."
+              },
+              {
+                "type": "entry",
+                "num": "95",
+                "text": "Indian Institutes of Technology at Kharagpur, Bombay, Kanpur, Madras and Delhi."
               },
               {
                 "type": "entry",
@@ -648,7 +651,7 @@
               },
               {
                 "type": "entry",
-                "num": "7",
+                "num": "97",
                 "text": "All other attached or subordinate offices or other organisations concerned with any of the subjects specified in this list."
               }
             ],
@@ -657,15 +660,15 @@
             ],
             "words": [
               "r1.w136",
-              "r1.w147"
+              "r1.w143"
             ],
             "boxes": [
               {
                 "page": 1,
                 "bbox": [
                   330,
-                  1794,
-                  1704,
+                  1797,
+                  1179,
                   1833
                 ]
               }

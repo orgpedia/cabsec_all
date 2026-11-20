@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_50.pdf",
     "sha256": "016e3390e68cbf83f6c96ee55502eab9e895bb7b6ed4b8d7e98f408ed16e9a37",
     "govdoc": "1_Upload_50.pdf.govdoc.json.zst",
-    "revision": 46
+    "revision": 70
   },
   "documents": [
     {
@@ -29,9 +29,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "3",
+          "version": "4",
           "model": "gemini-4-argon",
-          "at": "2026-11-12T13:48:56.460470+00:00"
+          "at": "2026-11-15T16:23:59.103049+00:00"
         },
         "ops": [
           {
@@ -39,7 +39,7 @@
             "source_ref": "(A)(a)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r10.rel1",
+            "relation": "r63.rel1",
             "target": {
               "cited": [
                 {
@@ -90,7 +90,7 @@
             "source_ref": "(A)(b)",
             "op": "renumber",
             "akn_type": "renumbering",
-            "relation": "r10.rel2",
+            "relation": "r63.rel2",
             "target": {
               "cited": [
                 {
@@ -142,7 +142,7 @@
             "source_ref": "(A)(b)",
             "op": "renumber",
             "akn_type": "renumbering",
-            "relation": "r10.rel3",
+            "relation": "r63.rel3",
             "target": {
               "cited": [
                 {
@@ -194,7 +194,7 @@
             "source_ref": "(A)(b)",
             "op": "renumber",
             "akn_type": "renumbering",
-            "relation": "r10.rel4",
+            "relation": "r63.rel4",
             "target": {
               "cited": [
                 {
@@ -246,7 +246,7 @@
             "source_ref": "(A)(c)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r10.rel5",
+            "relation": "r63.rel5",
             "position": "after",
             "anchor": {
               "cited": [
@@ -317,7 +317,7 @@
             "source_ref": "(A)(d)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r10.rel6",
+            "relation": "r63.rel6",
             "position": "after",
             "anchor": {
               "cited": [
@@ -378,7 +378,7 @@
             "source_ref": "(B)(a)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r10.rel7",
+            "relation": "r63.rel7",
             "target": {
               "cited": [
                 {
@@ -429,7 +429,7 @@
             "source_ref": "(B)(b)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r10.rel8",
+            "relation": "r63.rel8",
             "position": "after",
             "anchor": {
               "cited": [
@@ -461,8 +461,8 @@
             },
             "content": [
               {
-                "type": "text",
-                "text": "Ministry of International Trade\" and the entries given in Appendix III to this Order. APPENDIX I"
+                "type": "ministry",
+                "heading": "Ministry of Industry"
               },
               {
                 "type": "department",
@@ -756,7 +756,7 @@
               {
                 "type": "item",
                 "num": "xi",
-                "text": "Indian Drugs & Pharmaceuticals Ltd., New Delhi. (xill) Indian Handicrafts Development Corporation Ltd. APPENDIX II"
+                "text": "Indian Drugs & Pharmaceuticals Ltd., New Delhi. (xill) Indian Handicrafts Development Corporation Ltd."
               },
               {
                 "type": "department",
@@ -781,7 +781,7 @@
               {
                 "type": "entry",
                 "num": "4",
-                "text": "Legislation of the Indian Partnership Act and the exercise of certain functions under Chapter VII of the Act in centrally_administered areas. (The administration of the Act vests in the State Governments). 370 THE GÁZETTE OF INDIA EXTRAORDINARY"
+                "text": "Legislation of the Indian Partnership Act and the exercise of certain functions under Chapter VII of the Act in centrally_administered areas. (The administration of the Act vests in the State Governments). THE GÁZETTE OF INDIA EXTRAORDINARY"
               },
               {
                 "type": "entry",
@@ -819,7 +819,7 @@
             "source_ref": "(B)(c)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r10.rel9",
+            "relation": "r63.rel9",
             "position": "after",
             "anchor": {
               "cited": [
@@ -851,341 +851,8 @@
             },
             "content": [
               {
-                "type": "text",
-                "text": "Ministry of International Trade\" and the entries given in Appendix III to this Order. APPENDIX I"
-              },
-              {
-                "type": "department",
-                "num": "A",
-                "heading": "DEPARTMENT OF INDUSTRY"
-              },
-              {
-                "type": "group_heading",
-                "num": "I",
-                "text": "Industrial Policy"
-              },
-              {
-                "type": "entry",
-                "num": "1",
-                "text": "General Industrial Policy."
-              },
-              {
-                "type": "entry",
-                "num": "2",
-                "text": "The Administration of the Industries (Development and Regulation), Act"
-              },
-              {
-                "type": "entry",
-                "num": "1951"
-              },
-              {
-                "type": "entry",
-                "num": "3",
-                "text": "Industrial Management."
-              },
-              {
-                "type": "entry",
-                "num": "4",
-                "text": "Productivity in Industry."
-              },
-              {
-                "type": "group_heading",
-                "num": "II",
-                "text": "Industries and Industrial Development"
-              },
-              {
-                "type": "entry",
-                "num": "5",
-                "text": "Planning, development and control of and assistance to all industries (with the exception of the industries falling under the Ministries of Steel & Heavy Industries and Food & Agriculture)."
-              },
-              {
-                "type": "entry",
-                "num": "6",
-                "text": "Cables."
-              },
-              {
-                "type": "entry",
-                "num": "7",
-                "text": "Light Engineering Industries (eg. Sewing machines, typewriters, weighing machines, bicycles, etc.)."
-              },
-              {
-                "type": "entry",
-                "num": "8",
-                "text": "Optical Glass Project."
-              },
-              {
-                "type": "entry",
-                "num": "9",
-                "text": "Light Industries (e.g. Plywood, stationery, matches, cigarettes, etc.)."
-              },
-              {
-                "type": "entry",
-                "num": "10",
-                "text": "Light Electrical Engineering Industries."
-              },
-              {
-                "type": "group_heading",
-                "num": "III",
-                "text": "Chemicals and Drugs"
-              },
-              {
-                "type": "entry",
-                "num": "11",
-                "text": "Chemical Industries (e.g. Caustic Soda, Soda Ash, Raw films, Hardboard Paper and Newsprint, Synthetic Rubber, Tyres and Tubes, Dyestuffs Drugs and other fine chemicals, Plastics, Soap, etc)."
-              },
-              {
-                "type": "entry",
-                "num": "12",
-                "text": "Insecticides."
-              },
-              {
-                "type": "entry",
-                "num": "13",
-                "text": "Antibiotics."
-              },
-              {
-                "type": "entry",
-                "num": "14",
-                "text": "Salt."
-              },
-              {
-                "type": "entry",
-                "num": "15",
-                "text": "Power Alcohol (The Indian Power Alcohol Act, 1948)."
-              },
-              {
-                "type": "group_heading",
-                "num": "IV",
-                "text": "Small Scale Industries"
-              },
-              {
-                "type": "entry",
-                "num": "16",
-                "text": "Co-ordination of the development of small-scale industries:"
-              },
-              {
-                "type": "item",
-                "num": "i",
-                "text": "Small Scale Industries Board."
-              },
-              {
-                "type": "item",
-                "num": "ii",
-                "text": "National Small Industries Corporation."
-              },
-              {
-                "type": "item",
-                "num": "iii",
-                "text": "Setting up of new industries in displaced persons townships ant. colonies and places where there are heavy concentrations of displaced persons for mitigating their unemployment in the Western Region, viz., Punjab, Uttar Pradesh, Maharashtra, Gujarat Rajasthan, Madhya Pradesh and the Union territory of Delhi. IV-A. Industrial Cooperation 16A, Cooperation in the industrial sector, excepting Cooperative Sugar Factories"
-              },
-              {
-                "type": "group_heading",
-                "num": "V",
-                "text": "Village Industries"
-              },
-              {
-                "type": "entry",
-                "num": "17",
-                "text": "Co-ordination and development of village industries including Khadi & Handicrafts."
-              },
-              {
-                "type": "entry",
-                "num": "18",
-                "text": "Ambar Charkha."
-              },
-              {
-                "type": "entry",
-                "num": "19",
-                "text": "Sericulture."
-              },
-              {
-                "type": "entry",
-                "num": "20",
-                "text": "* : SEG. 3 (II)]"
-              },
-              {
-                "type": "group_heading",
-                "num": "VI",
-                "text": "Patents and Designs, etc."
-              },
-              {
-                "type": "entry",
-                "num": "21",
-                "text": "Standardisation of international products and raw materials; the Indian Standards Institution (Certification Marks) Act, 1952."
-              },
-              {
-                "type": "entry",
-                "num": "22",
-                "text": "Patents & Designs (The Indian Patents and Designs Act, 1911)"
-              },
-              {
-                "type": "group_heading",
-                "num": "VII",
-                "text": "All matters relating to the following:"
-              },
-              {
-                "type": "entry",
-                "num": "23",
-                "text": ""
-              },
-              {
-                "type": "item",
-                "num": "a",
-                "text": "Attached/Subordinate Offices:"
-              },
-              {
-                "type": "item",
-                "num": "i",
-                "text": "(ii) The Development Commissioner, Small Scale Industries, New Delhi."
-              },
-              {
-                "type": "item",
-                "num": "iii",
-                "text": "The Salt Commissioner, Jaipur."
-              },
-              {
-                "type": "item",
-                "num": "iv",
-                "text": "Government Salt Works."
-              },
-              {
-                "type": "item",
-                "num": "v",
-                "text": "Economic Adviser to the Government of India, New Delhi."
-              },
-              {
-                "type": "item",
-                "num": "vi",
-                "text": "Controller General of Patents, Designs and Trade Marks, Bombay."
-              },
-              {
-                "type": "item",
-                "num": "vi",
-                "text": "Indian Standards Institution, New Delhi. (viii) Khadi and Village Industries Commission, Bombay."
-              },
-              {
-                "type": "item",
-                "num": "ix",
-                "text": "Khadi and Village Industries Board"
-              },
-              {
-                "type": "item",
-                "num": "x",
-                "text": "Central Silk Board, Bombay."
-              },
-              {
-                "type": "item",
-                "num": "xi",
-                "text": "Central Sericultural Research Station, Berhampur."
-              },
-              {
-                "type": "item",
-                "num": "xli",
-                "text": "All India Handicrafts Board."
-              },
-              {
-                "type": "item",
-                "num": "b",
-                "text": "State Industrial Undertakings and Government Corporations:"
-              },
-              {
-                "type": "item",
-                "num": "i",
-                "text": "The National Industrial Development Corporation Ltd. R"
-              },
-              {
-                "type": "item",
-                "num": "ii",
-                "text": "The National Small Industries Corporation Ltd."
-              },
-              {
-                "type": "item",
-                "num": "ii",
-                "text": "Hindustan Insecticides Ltd., Delhi and Alwaye (Kerala State)."
-              },
-              {
-                "type": "item",
-                "num": "iv",
-                "text": "Hindustan Antibiotics Ltd., Pimpri."
-              },
-              {
-                "type": "item",
-                "num": "v",
-                "text": "National Instruments Ltd., Calcutta."
-              },
-              {
-                "type": "item",
-                "num": "vi",
-                "text": "Hindustan Cables Ltd., Roopnarainpur, West Bengal"
-              },
-              {
-                "type": "item",
-                "num": "vii",
-                "text": "Hindustan Salt Company Ltd., Jaipur."
-              },
-              {
-                "type": "item",
-                "num": "vii",
-                "text": "Rehabilitation Industries Corporation Ltd."
-              },
-              {
-                "type": "item",
-                "num": "ix",
-                "text": "Hindustan Photo Films Manufacturing Co. Ltd., Madras."
-              },
-              {
-                "type": "item",
-                "num": "x",
-                "text": "Hindustan Organic Chemicals Ltd., Bombay."
-              },
-              {
-                "type": "item",
-                "num": "xi",
-                "text": "National Newsprint and Paper Mills Ltd., Nepanagar."
-              },
-              {
-                "type": "item",
-                "num": "xi",
-                "text": "Indian Drugs & Pharmaceuticals Ltd., New Delhi. (xill) Indian Handicrafts Development Corporation Ltd. APPENDIX II"
-              },
-              {
-                "type": "department",
-                "num": "B",
-                "heading": "DEPARTMENT OF COMPANY LAW ADMINISTRATION"
-              },
-              {
-                "type": "entry",
-                "num": "1",
-                "text": "Administration of the Companies Act."
-              },
-              {
-                "type": "entry",
-                "num": "2",
-                "text": "Profession of Accountancy (Chartered Accountants Act). Profession of Costs and Works Accountancy and Company Secretaryship."
-              },
-              {
-                "type": "entry",
-                "num": "3",
-                "text": "Collection of Statistics relating to Companies."
-              },
-              {
-                "type": "entry",
-                "num": "4",
-                "text": "Legislation of the Indian Partnership Act and the exercise of certain functions under Chapter VII of the Act in centrally_administered areas. (The administration of the Act vests in the State Governments). 370 THE GÁZETTE OF INDIA EXTRAORDINARY"
-              },
-              {
-                "type": "entry",
-                "num": "5",
-                "text": "Commission of Inquiry."
-              },
-              {
-                "type": "entry",
-                "num": "6",
-                "text": "The responsibility of the Centre relating to matters concerning centrally administered areas in respect of items 1 to 4 above. APPENDIX III"
-              },
-              {
                 "type": "ministry",
-                "heading": "MINISTRY OF INTERNATIONAL TRADE"
+                "heading": "Ministry of International Trade"
               },
               {
                 "type": "group_heading",

@@ -1,0 +1,162 @@
+{
+ "file": "1_Upload_354.pdf",
+ "kind": "amendment",
+ "series": 309,
+ "date": "2014-12-08",
+ "govdoc": "aob-ammend_/output/1_Upload_354.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826685.1584163,
+ "edits_file": "aob-ammend_/conf/1_Upload_354.pdf.edits.yml",
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_354.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T14:00:44.021679+00:00",
+  "sha256": "3b794e8ce0384e0ef4f9abf8b2066c30a6a0ba2099adf6fc4aafa71521deb58b",
+  "pages": 2
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-03T03:44:19.170261+00:00",
+   "stamp": "3954e6dcd8c7120c"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r190",
+   "at": "2026-11-15T12:41:41.216542+00:00",
+   "stamp": "26e65c5fa276b1a3"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r191",
+   "at": "2026-11-15T12:41:43.767937+00:00",
+   "stamp": "bc8f9fc430bcd927"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r192",
+   "at": "2026-11-15T12:41:46.296833+00:00",
+   "stamp": "20b37f5b338808e9"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r201",
+   "at": "2026-11-15T16:24:06.747486+00:00",
+   "stamp": "09cf6f6167e9ab8b",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r202",
+   "at": "2026-11-15T16:24:08.439547+00:00",
+   "stamp": "a177f49eb4a6207e",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r203",
+   "at": "2026-11-15T16:24:10.134486+00:00",
+   "stamp": "000fa8c2f31e1b91",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r209",
+   "at": "2026-11-15T16:57:23.390205+00:00",
+   "stamp": "8bac75b4a266a0a7"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r210",
+   "at": "2026-11-15T17:03:19.106654+00:00",
+   "stamp": "035b993a70420d03"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r215",
+   "at": "2026-11-16T10:58:05.136142+00:00",
+   "stamp": "1d976cfd1f5f53c0"
+  }
+ ],
+ "reviews": [],
+ "issues": [],
+ "problems": [],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_3106E_2014",
+   "op": "replace",
+   "source_ref": "2(1)",
+   "path": "schedule 1 › ministry Ministry of Social Justice and Empowerment › department Department of Disability Affairs",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_3106E_2014",
+   "op": "insert",
+   "source_ref": "2(2)(i)",
+   "path": "schedule 2 › ministry MINISTRY OF SOCIAL JUSTICE AND EMPOWERMENT › department DEPARTMENT OF SOCIAL JUSTICE AND EMPOWERMENT › entry 4",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_3106E_2014",
+   "op": "replace",
+   "source_ref": "2(2)(ii)",
+   "path": "schedule 2 › ministry MINISTRY OF SOCIAL JUSTICE AND EMPOWERMENT › department DEPARTMENT OF DISABILITY AFFAIRS",
+   "status": "applied"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_3106E_2014",
+   "op": "substitute_text",
+   "source_ref": "2(2)(iii)",
+   "path": "schedule 2 › ministry MINISTRY OF SOCIAL JUSTICE AND EMPOWERMENT › department DEPARTMENT OF EMPOWERMENT OF PERSONS WITH DISABILITIES › entry 4 › note",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

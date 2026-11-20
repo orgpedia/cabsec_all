@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_110.pdf",
     "sha256": "b793263f94f2bd9c483bb90183f2849b650c2f4681d9a294ed3e37c8315d14eb",
     "govdoc": "1_Upload_110.pdf.govdoc.json.zst",
-    "revision": 49
+    "revision": 73
   },
   "documents": [
     {
@@ -29,9 +29,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "3",
+          "version": "4",
           "model": "gemini-4-argon",
-          "at": "2026-11-12T13:49:50.256941+00:00"
+          "at": "2026-11-15T16:24:54.353174+00:00"
         },
         "ops": [
           {
@@ -39,7 +39,7 @@
             "source_ref": "2(a)(i)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r12.rel1",
+            "relation": "r65.rel1",
             "target": {
               "cited": [
                 {
@@ -99,7 +99,7 @@
             "source_ref": "2(a)(ii)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r12.rel2",
+            "relation": "r65.rel2",
             "position": "after",
             "anchor": {
               "cited": [
@@ -160,7 +160,7 @@
             "source_ref": "2(b)(i)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r12.rel3",
+            "relation": "r65.rel3",
             "target": [
               {
                 "cited": [
@@ -254,7 +254,7 @@
             "source_ref": "2(b)(ii)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r12.rel4",
+            "relation": "r65.rel4",
             "target": {
               "cited": [
                 {
@@ -309,7 +309,7 @@
             "source_ref": "2(b)(iii)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r12.rel5",
+            "relation": "r65.rel5",
             "position": "after",
             "anchor": {
               "cited": [
@@ -386,7 +386,8 @@
               }
             ],
             "flags": [
-              "read_hindi_missing"
+              "read_hindi_missing",
+              "states_inferred_loose"
             ],
             "words": [
               "r1.w286",
@@ -409,7 +410,7 @@
             "source_ref": "2(b)(iv)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r12.rel6",
+            "relation": "r65.rel6",
             "target": {
               "cited": [
                 {

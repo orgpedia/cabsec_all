@@ -1,0 +1,177 @@
+{
+ "file": "1_Upload_214.pdf",
+ "kind": "amendment",
+ "series": 176,
+ "date": "1985-11-22",
+ "govdoc": "aob-ammend_/output/1_Upload_214.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826690.9909291,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_214.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:56:47.380143+00:00",
+  "sha256": "9f166214c0bfcd66372a2d56b4e5a31b7c36ff5d23588b376c17a3900a57d668",
+  "pages": 2
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-11T03:01:05.079746+00:00",
+   "stamp": "8a7133f7be897df9"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r113",
+   "at": "2026-11-15T12:42:20.076766+00:00",
+   "stamp": "2eaec28e8e7a326a"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r114",
+   "at": "2026-11-15T12:42:22.738399+00:00",
+   "stamp": "0414240d7fee639e"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r115",
+   "at": "2026-11-15T12:42:24.765346+00:00",
+   "stamp": "e05447e19e2a1556"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r124",
+   "at": "2026-11-15T16:24:37.975576+00:00",
+   "stamp": "b286ad8f6a49e8ab",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r125",
+   "at": "2026-11-15T16:24:40.186338+00:00",
+   "stamp": "36841bd732bd9934",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r126",
+   "at": "2026-11-15T16:24:42.300509+00:00",
+   "stamp": "84cc43e8dd851758",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r132",
+   "at": "2026-11-15T16:57:31.812497+00:00",
+   "stamp": "df3b7e634cf715a8"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r133",
+   "at": "2026-11-15T17:03:38.242160+00:00",
+   "stamp": "39f0318ae63ad988"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r138",
+   "at": "2026-11-16T10:58:10.977190+00:00",
+   "stamp": "cffb730f3e1184d7"
+  }
+ ],
+ "reviews": [],
+ "issues": [
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
+   "message": "change 1: ministry INISTRY F HUMAN RESOURCE DEVELOPMENT taken for ministry MINISTRY OF HUMAN RESOURCE DEVELOP- MENT, named loosely",
+   "target": "r126.rel1",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
+   "message": "change 2: ministry MINISTRY OF N- FORMATION AND BROADCASTING taken for ministry MINISTRY OF INFORMATION AND BROADCASTING, named loosely",
+   "target": "r126.rel2",
+   "status": "open"
+  }
+ ],
+ "problems": [],
+ "rules": [
+  {
+   "rule": "loose",
+   "seq": 1,
+   "note": "change 1: ministry INISTRY F HUMAN RESOURCE DEVELOPMENT taken for ministry MINISTRY OF HUMAN RESOURCE DEVELOP- MENT, named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "loose",
+   "seq": 2,
+   "note": "change 2: ministry MINISTRY OF N- FORMATION AND BROADCASTING taken for ministry MINISTRY OF INFORMATION AND BROADCASTING, named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  }
+ ],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_842E_1985",
+   "op": "replace",
+   "source_ref": "2(1)",
+   "path": "schedule 2 › ministry INISTRY F HUMAN RESOURCE DEVELOPMENT › department DEPARTMENT OF CULTURE › entry 45",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_842E_1985",
+   "op": "replace",
+   "source_ref": "2(2)",
+   "path": "schedule 2 › ministry MINISTRY OF N- FORMATION AND BROADCASTING › entry 6",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

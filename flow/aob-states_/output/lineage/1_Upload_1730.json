@@ -1,0 +1,145 @@
+{
+ "file": "1_Upload_1730.pdf",
+ "kind": "amendment",
+ "series": 346,
+ "date": "2018-11-02",
+ "govdoc": "aob-ammend_/output/1_Upload_1730.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826686.7800016,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_1730.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:55:50.229380+00:00",
+  "sha256": "5dc9b1f52ed29fac0d4efccb63c4a765012de0f3501be090e0827767a8fa93c4",
+  "pages": 2
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r72",
+   "at": "2026-11-04T13:34:27.691452+00:00",
+   "stamp": "8b66520be0c73626"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r213",
+   "at": "2026-11-15T12:41:54.928910+00:00",
+   "stamp": "1aacb8b2970ce426"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r214",
+   "at": "2026-11-15T12:41:56.484585+00:00",
+   "stamp": "1b65c6b7e46c541c"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r215",
+   "at": "2026-11-15T12:41:58.119581+00:00",
+   "stamp": "f93b02d58ee8703c"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r224",
+   "at": "2026-11-15T16:24:17.575554+00:00",
+   "stamp": "40e071b3a390b0e6",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r225",
+   "at": "2026-11-15T16:24:18.755407+00:00",
+   "stamp": "da1bceab54aee943",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r226",
+   "at": "2026-11-15T16:24:19.932063+00:00",
+   "stamp": "754d40e200cabea9",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r232",
+   "at": "2026-11-15T16:57:25.962076+00:00",
+   "stamp": "68bb2ab2f2ec698f"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r233",
+   "at": "2026-11-15T17:03:25.432872+00:00",
+   "stamp": "4a23985eeed135de"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r238",
+   "at": "2026-11-16T10:58:06.764724+00:00",
+   "stamp": "3086124f208a440e"
+  }
+ ],
+ "reviews": [],
+ "issues": [],
+ "problems": [],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_5661E_2018",
+   "op": "omit",
+   "source_ref": "2(i)",
+   "path": "schedule 2 › ministry MINISTRY OF CHEMICALS AND FERTILIZERS › department DEPARTMENT OF CHEMICALS AND PETRO- CHEMICALS › entry 3 ; schedule 2 › ministry MINISTRY OF CHEMICALS AND FERTILIZERS › department DEPARTMENT OF CHEMICALS AND PETRO- CHEMICALS › entry 4",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_5661E_2018",
+   "op": "insert",
+   "source_ref": "2(ii)",
+   "path": "schedule 2 › ministry MINISTRY OF CONSUMER AFFAIRS, FOOD AND PUBLIC DISTRIBUTION › department DEPARTMENT OF FOOD AND PUBLIC DISTRIBUTION › entry 20",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

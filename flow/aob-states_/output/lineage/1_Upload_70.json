@@ -1,0 +1,194 @@
+{
+ "file": "1_Upload_70.pdf",
+ "kind": "amendment",
+ "series": 37,
+ "date": "1965-02-05",
+ "govdoc": "aob-ammend_/output/1_Upload_70.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826696.7242546,
+ "edits_file": "aob-ammend_/conf/1_Upload_70.pdf.edits.yml",
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_70.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T14:02:22.778512+00:00",
+  "sha256": "f57b388727f44697e893e7bb0ee7e93c19caa71d4f243c78db02a0c408c5c832",
+  "pages": 4
+ },
+ "edits": [
+  {
+   "run": "h1",
+   "by": "claude",
+   "at": "2026-11-12T18:01:00+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r1.w187",
+     "before": {
+      "text": "(1)"
+     },
+     "after": {
+      "text": "(i)"
+     }
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-12T12:46:34.317229+00:00",
+   "stamp": "565dbdcc2c1ba9ab"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r58",
+   "at": "2026-11-15T12:43:03.423646+00:00",
+   "stamp": "fa654618c59511a3"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r59",
+   "at": "2026-11-15T12:43:04.496518+00:00",
+   "stamp": "ef81d4b6c92f3dca"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r60",
+   "at": "2026-11-15T12:43:05.419102+00:00",
+   "stamp": "b0b53d010ecd67bc"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r69",
+   "at": "2026-11-15T16:25:15.996460+00:00",
+   "stamp": "4522ecdf850bfecc",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r70",
+   "at": "2026-11-15T16:25:16.698039+00:00",
+   "stamp": "f1bc9c14ab81a933",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r71",
+   "at": "2026-11-15T16:25:17.375885+00:00",
+   "stamp": "b10b34eda508179e",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r77",
+   "at": "2026-11-15T16:57:40.846274+00:00",
+   "stamp": "06d7da22643ebf30"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r78",
+   "at": "2026-11-15T17:04:00.327506+00:00",
+   "stamp": "81405fa907c74b76"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r83",
+   "at": "2026-11-16T10:58:16.710447+00:00",
+   "stamp": "dd2010971d2190ea"
+  }
+ ],
+ "reviews": [],
+ "issues": [
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 2: its quoted text runs across a page break",
+   "target": "r71.rel2",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_number_kept",
+   "severity": "info",
+   "message": "change 1: schedule 1 › ministry Ministry of Industry and Supply: keeps its number 11, the heading put for it quoted without one",
+   "target": "r71.rel1",
+   "status": "open"
+  }
+ ],
+ "problems": [],
+ "rules": [
+  {
+   "rule": "number_kept",
+   "seq": 1,
+   "note": "change 1: schedule 1 › ministry Ministry of Industry and Supply: keeps its number 11, the heading put for it quoted without one",
+   "status": "accepted"
+  }
+ ],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_466_1965",
+   "op": "replace",
+   "source_ref": "(A)",
+   "path": "schedule 1 › entry 11",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_466_1965",
+   "op": "replace",
+   "source_ref": "(B)(1)",
+   "path": "schedule 2 › ministry Ministry of Industry and Supply › department Department of Heavy Engineering ; schedule 2 › ministry Ministry of Industry and Supply › department Department of Industry",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_466_1965",
+   "op": "replace",
+   "source_ref": "(B)(ii)",
+   "path": "schedule 2 › ministry Ministry of Industry and Supply › department Department of Supply and Technical Development",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

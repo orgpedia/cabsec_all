@@ -2,10 +2,27 @@
 # GovDoc Studio and brought into the GovDoc file by the pipeline before it runs (Pipeline §P9).
 file: 1_Upload_216.pdf
 file_id: f_a4f13f12b76280cb
-next: 2
+next: 4
 runs:
 - id: h1
   by: mukundesh
   at: '2026-11-11T04:06:29Z'
   edits:
   - {op: text, target: r1.w4003, before: {text: SCO.}, after: {text: S.O.}}
+- id: h2
+  by: mukundesh
+  at: '2026-11-14T16:37:52Z'
+  edits:
+  - op: remove_word
+    target: r1.w7134
+    before:
+      page: 11
+      word: {id: r1.w7134, text: '-', bbox: [270, 1617, 282, 1623], confidence: 0.44}
+      line: r2.l1168
+      after: null
+    after: null
+- id: h3
+  by: mukundesh
+  at: '2026-11-14T16:38:21Z'
+  edits:
+  - {op: text, target: r1.w7274, before: {text: '19'}, after: {text: '19.'}}

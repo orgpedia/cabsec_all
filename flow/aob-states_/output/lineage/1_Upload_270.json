@@ -1,0 +1,177 @@
+{
+ "file": "1_Upload_270.pdf",
+ "kind": "amendment",
+ "series": 230,
+ "date": "1995-09-04",
+ "govdoc": "aob-ammend_/output/1_Upload_270.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826695.4769218,
+ "edits_file": "aob-ammend_/conf/1_Upload_270.pdf.edits.yml",
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_270.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:58:14.544935+00:00",
+  "sha256": "e57df96eed31fdd05de5f9cf4770a66466842378fb96d1ce10193e696d28cbfc",
+  "pages": 4
+ },
+ "edits": [
+  {
+   "run": "h1",
+   "by": "mukundesh",
+   "at": "2026-11-11T04:06:29+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r1.w271",
+     "before": {
+      "text": "5."
+     },
+     "after": {
+      "text": "S."
+     }
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-11T03:07:15.283017+00:00",
+   "stamp": "30d814106999222e"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r116",
+   "at": "2026-11-15T12:42:46.265833+00:00",
+   "stamp": "43b2e76eecfe8813"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r117",
+   "at": "2026-11-15T12:42:48.971855+00:00",
+   "stamp": "a5f3f1d1916819fd"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r118",
+   "at": "2026-11-15T12:42:51.100485+00:00",
+   "stamp": "63463b227599fc1a"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r127",
+   "at": "2026-11-15T16:25:03.857590+00:00",
+   "stamp": "bfe86dc7c154044a",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r128",
+   "at": "2026-11-15T16:25:05.938933+00:00",
+   "stamp": "e996584b0aa145e9",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r129",
+   "at": "2026-11-15T16:25:07.955249+00:00",
+   "stamp": "706239e915000325",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r135",
+   "at": "2026-11-15T16:57:38.538457+00:00",
+   "stamp": "2f34ce3238bd64ba"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r136",
+   "at": "2026-11-15T17:03:53.312931+00:00",
+   "stamp": "d21a2bd7667dc3c6"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r141",
+   "at": "2026-11-16T10:58:15.462852+00:00",
+   "stamp": "b96dbed066c616d6"
+  }
+ ],
+ "reviews": [],
+ "issues": [],
+ "problems": [
+  {
+   "series": 230,
+   "seq": 2,
+   "code": "old_path_missing",
+   "severity": "error",
+   "message": "change 2: no entry 34 under schedule 2 › ministry MINISTRY OF WELFARE (KALYAN MANTRAL AYA).",
+   "cause": "entry_not_in_state"
+  }
+ ],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_763E_1995",
+   "op": "replace",
+   "source_ref": "2(i)",
+   "path": "schedule 2 › ministry MINISTRY OF WELFARE › entry 24",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_763E_1995",
+   "op": "insert",
+   "source_ref": "2(ii)",
+   "path": "schedule 2 › ministry MINISTRY OF WELFARE › entry 34",
+   "status": "not_applied",
+   "problem": "change 2: no entry 34 under schedule 2 › ministry MINISTRY OF WELFARE (KALYAN MANTRAL AYA).",
+   "code": "old_path_missing",
+   "cause": "entry_not_in_state",
+   "known": "entries"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

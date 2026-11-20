@@ -1,0 +1,177 @@
+{
+ "file": "1_Upload_372.pdf",
+ "kind": "amendment",
+ "series": 327,
+ "date": "2016-07-16",
+ "govdoc": "aob-ammend_/output/1_Upload_372.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826684.4792173,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_372.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T14:01:10.798241+00:00",
+  "sha256": "2f79300152d01ce656a259ce49ee26bc148cfe6707906e931fd32983199a3729",
+  "pages": 4
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r52",
+   "at": "2026-11-04T13:34:20.860099+00:00",
+   "stamp": "a100a15281abf017"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r198",
+   "at": "2026-11-15T12:41:40.075524+00:00",
+   "stamp": "1e483899ef1904a9"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r199",
+   "at": "2026-11-15T12:41:42.734056+00:00",
+   "stamp": "64cc345f1d22df9c"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r200",
+   "at": "2026-11-15T12:41:45.461129+00:00",
+   "stamp": "e6730ab3a546fd19"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r209",
+   "at": "2026-11-15T16:24:06.002638+00:00",
+   "stamp": "cf8eeb6826a45f27",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r210",
+   "at": "2026-11-15T16:24:07.700171+00:00",
+   "stamp": "b4fba9606a983f22",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r211",
+   "at": "2026-11-15T16:24:09.385226+00:00",
+   "stamp": "619675de91d3d01e",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r217",
+   "at": "2026-11-15T16:57:22.689580+00:00",
+   "stamp": "df0b16465807b753"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r218",
+   "at": "2026-11-15T17:03:17.848076+00:00",
+   "stamp": "2047ca8f129a852c"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r223",
+   "at": "2026-11-16T10:58:04.456926+00:00",
+   "stamp": "8fa0c15f10247ee9"
+  }
+ ],
+ "reviews": [],
+ "issues": [
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 5: its quoted text runs across a page break",
+   "target": "r211.rel5",
+   "status": "open"
+  }
+ ],
+ "problems": [],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_2449E_2016",
+   "op": "replace",
+   "source_ref": "2(1)(a)",
+   "path": "schedule 1 › ministry Ministry of Communications and Information Technology",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_2449E_2016",
+   "op": "insert",
+   "source_ref": "2(1)(b)",
+   "path": "schedule 1 › ministry Ministry of Earth Sciences",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_2449E_2016",
+   "op": "replace",
+   "source_ref": "2(2)(i)",
+   "path": "schedule 2 › ministry MINISTRY OF COMMUNICATIONS AND INFORMATION TECHNOLOGY",
+   "status": "applied"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_2449E_2016",
+   "op": "omit",
+   "source_ref": "2(2)(ii)",
+   "path": "schedule 2 › ministry MINISTRY OF COMMUNICATIONS › department DEPARTMENT OF ELECTRONICS AND INFORMATION TECHNOLOGY",
+   "status": "applied"
+  },
+  {
+   "seq": 5,
+   "doc_id": "GOI_SO_2449E_2016",
+   "op": "insert",
+   "source_ref": "2(2)(iii)",
+   "path": "schedule 2 › ministry MINISTRY OF EARTH SCIENCES",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

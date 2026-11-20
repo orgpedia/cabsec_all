@@ -1,0 +1,169 @@
+{
+ "file": "1_Upload_363.pdf",
+ "kind": "amendment",
+ "series": 319,
+ "date": "2015-09-12",
+ "govdoc": "aob-ammend_/output/1_Upload_363.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826685.5333135,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_363.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T14:00:58.624047+00:00",
+  "sha256": "452fb5a854ac6c25d4f85bcccb0c191d200d1d36b28815bb0dcacb9783aa2309",
+  "pages": 3
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r51",
+   "at": "2026-11-04T13:34:26.198965+00:00",
+   "stamp": "6636b1cdfebc2d82"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r197",
+   "at": "2026-11-15T12:41:41.917857+00:00",
+   "stamp": "5a53751dda9d8b5a"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r198",
+   "at": "2026-11-15T12:41:44.509511+00:00",
+   "stamp": "5cbbcd7086a67236"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r199",
+   "at": "2026-11-15T12:41:46.678009+00:00",
+   "stamp": "a22174633a252362"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r208",
+   "at": "2026-11-15T16:24:07.155190+00:00",
+   "stamp": "61eddd6dba510ba6",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r209",
+   "at": "2026-11-15T16:24:08.839718+00:00",
+   "stamp": "bcf96039dcde5a2d",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r210",
+   "at": "2026-11-15T16:24:10.572473+00:00",
+   "stamp": "5a3a3f738104b2ed",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r216",
+   "at": "2026-11-15T16:57:23.837129+00:00",
+   "stamp": "0bc68827d926022b"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r217",
+   "at": "2026-11-15T17:03:19.949782+00:00",
+   "stamp": "628b9ad0c2f78197"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r222",
+   "at": "2026-11-16T10:58:05.510502+00:00",
+   "stamp": "0cdc5965de8d7553"
+  }
+ ],
+ "reviews": [],
+ "issues": [],
+ "problems": [],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_2493E_2015",
+   "op": "omit",
+   "source_ref": "2(1)(a)",
+   "path": "schedule 2 › ministry MINISTRY OF AGRICULTURE AND FARMERS WELFARE › department DEPARTMENT OF AGRICULTURE, COOPERATION AND FARMERS WELFARE › group_heading PART I › entry 7 ; schedule 2 › ministry MINISTRY OF AGRICULTURE AND FARMERS WELFARE › department DEPARTMENT OF AGRICULTURE, COOPERATION AND FARMERS WELFARE › group_heading PART I › entry 8 ; schedule 2 › ministry MINISTRY OF AGRICULTURE AND FARMERS WELFARE › department DEPARTMENT OF AGRICULTURE, COOPERATION AND FARMERS WELFARE › group_heading PART I › entry 9",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_2493E_2015",
+   "op": "replace",
+   "source_ref": "2(1)(b)(A)",
+   "path": "schedule 2 › ministry MINISTRY OF AGRICULTURE AND FARMERS WELFARE › department DEPARTMENT OF AGRICULTURE, COOPERATION AND FARMERS WELFARE › group_heading PART III › entry 19",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_2493E_2015",
+   "op": "omit",
+   "source_ref": "2(1)(b)(B)",
+   "path": "schedule 2 › ministry MINISTRY OF AGRICULTURE AND FARMERS WELFARE › department DEPARTMENT OF AGRICULTURE, COOPERATION AND FARMERS WELFARE › group_heading PART III › entry 21 ; schedule 2 › ministry MINISTRY OF AGRICULTURE AND FARMERS WELFARE › department DEPARTMENT OF AGRICULTURE, COOPERATION AND FARMERS WELFARE › group_heading PART III › entry 23",
+   "status": "applied"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_2493E_2015",
+   "op": "omit",
+   "source_ref": "2(1)(c)",
+   "path": "schedule 2 › ministry MINISTRY OF AGRICULTURE AND FARMERS WELFARE › department DEPARTMENT OF AGRICULTURE, COOPERATION AND FARMERS WELFARE › group_heading PART IV › entry 45 ; schedule 2 › ministry MINISTRY OF AGRICULTURE AND FARMERS WELFARE › department DEPARTMENT OF AGRICULTURE, COOPERATION AND FARMERS WELFARE › group_heading PART IV › entry 47 ; schedule 2 › ministry MINISTRY OF AGRICULTURE AND FARMERS WELFARE › department DEPARTMENT OF AGRICULTURE, COOPERATION AND FARMERS WELFARE › group_heading PART IV › entry 51",
+   "status": "applied"
+  },
+  {
+   "seq": 5,
+   "doc_id": "GOI_SO_2493E_2015",
+   "op": "insert",
+   "source_ref": "2(1)(d)",
+   "path": "schedule 2 › ministry MINISTRY OF AGRICULTURE AND FARMERS WELFARE › department DEPARTMENT OF AGRICULTURE, COOPERATION AND FARMERS WELFARE › group_heading PART IV",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

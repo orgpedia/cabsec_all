@@ -22,10 +22,11 @@ flow:
 
   # Lines, then paragraphs in reading order. Only English stays in the flow: the Hindi half of a bilingual
   # gazette, and its running headers, are out of it. An amendment has no tables of its own. A page set in columns
-  # (the gazettes before 2005) has no line running across a gutter.
+  # (the gazettes before 2005) has no line running across a gutter, cut where fewest words cross it (an indented
+  # column reaches into the gutter: 1_Upload_340, 2009, its lines merged across it in the middle cut)
   - name: lines
     task: word_lines
-    config: {columns: true}
+    config: {columns: true, cut: fewest}
   - name: layout
     task: pdftable_finder
     config: {scripts: [LATIN], min_rows: 1000, columns: true}
@@ -116,3 +117,9 @@ flow:
   - name: states_check
     task: problems_check
     config: {problems: ../../aob-states_/output/problems.json, prefix: aob}
+
+  # The states' inferences (a change applied by a step its reading does not state outright), as information on
+  # the change they acted on: aob:states_inferred_<rule>, with the call on the rule (aob-states_/src/decisions.yml)
+  - name: inferred_check
+    task: problems_check
+    config: {problems: ../../aob-states_/output/inferences.json, prefix: aob}

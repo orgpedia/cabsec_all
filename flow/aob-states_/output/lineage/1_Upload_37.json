@@ -1,0 +1,145 @@
+{
+ "file": "1_Upload_37.pdf",
+ "kind": "amendment",
+ "series": 4,
+ "date": "1962-02-01",
+ "govdoc": "aob-ammend_/output/1_Upload_37.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826693.3666258,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_37.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T14:01:07.153216+00:00",
+  "sha256": "c74b00151a5b2a48bbcd6fa3343d35b4091ff5beb86335af5eba39ac50b624a8",
+  "pages": 2
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-12T12:43:30.244498+00:00",
+   "stamp": "928e38202cd36e3a"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r50",
+   "at": "2026-11-15T12:42:33.090408+00:00",
+   "stamp": "0a3631f779e1f575"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r51",
+   "at": "2026-11-15T12:42:35.625414+00:00",
+   "stamp": "ecca67dc0f7e98c0"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r52",
+   "at": "2026-11-15T12:42:37.329402+00:00",
+   "stamp": "1b9475125d9621ae"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r61",
+   "at": "2026-11-15T16:24:51.895309+00:00",
+   "stamp": "300bbd78091e7976",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r62",
+   "at": "2026-11-15T16:24:53.651470+00:00",
+   "stamp": "ca8ca688c5618a9c",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r63",
+   "at": "2026-11-15T16:24:55.456285+00:00",
+   "stamp": "130ba9c8468df740",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r69",
+   "at": "2026-11-15T16:57:35.518343+00:00",
+   "stamp": "65d30bbf9ec605d1"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r70",
+   "at": "2026-11-15T17:03:46.026950+00:00",
+   "stamp": "7dbf9594362a7c50"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r75",
+   "at": "2026-11-16T10:58:13.360484+00:00",
+   "stamp": "079957cb93be1866"
+  }
+ ],
+ "reviews": [],
+ "issues": [],
+ "problems": [],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_386_1962",
+   "op": "omit",
+   "source_ref": "(1)",
+   "path": "schedule 2 › ministry Ministry of Health › entry 66 ; schedule 2 › ministry Ministry of Health › entry 67",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_386_1962",
+   "op": "insert",
+   "source_ref": "(2)",
+   "path": "schedule 2 › ministry Department of Atomic Energy › entry 9",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

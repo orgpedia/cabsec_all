@@ -1,0 +1,572 @@
+{
+ "file": "1_Upload_172.pdf",
+ "kind": "amendment",
+ "series": 135,
+ "date": "1979-08-18",
+ "govdoc": "aob-ammend_/output/1_Upload_172.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826692.8288112,
+ "edits_file": "aob-ammend_/conf/1_Upload_172.pdf.edits.yml",
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_172.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:55:49.049897+00:00",
+  "sha256": "bd918916ef15fa78af2b8dacedf9af7cb4ab503bc284566cf87e8fafbc52503f",
+  "pages": 8
+ },
+ "edits": [
+  {
+   "run": "h1",
+   "by": "claude",
+   "at": "2026-11-12T18:01:00+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r1.w2980",
+     "before": {
+      "text": "(ij)"
+     },
+     "after": {
+      "text": "(ii)"
+     }
+    }
+   ]
+  },
+  {
+   "run": "h2",
+   "by": "claude",
+   "at": "2026-11-13T00:12:00+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r1.w3001",
+     "before": {
+      "text": "(Sankhyki"
+     },
+     "after": {
+      "text": "(Sankhyiki"
+     }
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-12T12:42:29.509434+00:00",
+   "stamp": "e366bff16b9c007a"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r66",
+   "at": "2026-11-15T12:42:32.127679+00:00",
+   "stamp": "b7f66a8548fb3447"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r67",
+   "at": "2026-11-15T12:42:34.599638+00:00",
+   "stamp": "55a8e7189c0c82b4"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r68",
+   "at": "2026-11-15T12:42:36.666381+00:00",
+   "stamp": "3047130bee146a95"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r77",
+   "at": "2026-11-15T16:24:51.144127+00:00",
+   "stamp": "bc1d446a98320b7d",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r78",
+   "at": "2026-11-15T16:24:52.917332+00:00",
+   "stamp": "233eb49942b184d6",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r79",
+   "at": "2026-11-15T16:24:54.699907+00:00",
+   "stamp": "fc72f5534e44b9c7",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r85",
+   "at": "2026-11-15T16:57:34.803757+00:00",
+   "stamp": "7e46684f04eabfb7"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r86",
+   "at": "2026-11-15T17:03:44.868448+00:00",
+   "stamp": "b6fb1810d62c090a"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r91",
+   "at": "2026-11-16T10:58:12.756056+00:00",
+   "stamp": "a7b1f3c0ece96f1d"
+  }
+ ],
+ "reviews": [],
+ "issues": [
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 2: its quoted text runs across a page break",
+   "target": "r79.rel2",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_quote_mismatch",
+   "severity": "error",
+   "message": "change 6: its anchor's ministry heading is not in the text",
+   "target": "r79.rel6",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 6: its quoted text runs across a page break",
+   "target": "r79.rel6",
+   "status": "open"
+  },
+  {
+   "code": "aob:new_missing",
+   "severity": "warning",
+   "message": "schedule 1 › ministry 1 is in 1_Upload_212.pdf but not in 1_Upload_1144.pdf with the amendments up to 173 applied",
+   "target": "r79.rel1",
+   "status": "open"
+  },
+  {
+   "code": "aob:new_missing",
+   "severity": "warning",
+   "message": "schedule 1 › ministry 5 is in 1_Upload_212.pdf but not in 1_Upload_1144.pdf with the amendments up to 173 applied",
+   "target": "r79.rel1",
+   "status": "open"
+  },
+  {
+   "code": "aob:new_missing",
+   "severity": "warning",
+   "message": "schedule 1 › ministry 12 is in 1_Upload_212.pdf but not in 1_Upload_1144.pdf with the amendments up to 173 applied",
+   "target": "r79.rel1",
+   "status": "open"
+  },
+  {
+   "code": "aob:new_missing",
+   "severity": "warning",
+   "message": "schedule 1 › ministry 13 is in 1_Upload_212.pdf but not in 1_Upload_1144.pdf with the amendments up to 173 applied",
+   "target": "r79.rel1",
+   "status": "open"
+  },
+  {
+   "code": "aob:new_missing",
+   "severity": "warning",
+   "message": "schedule 1 › ministry 17 is in 1_Upload_212.pdf but not in 1_Upload_1144.pdf with the amendments up to 173 applied",
+   "target": "r79.rel1",
+   "status": "open"
+  },
+  {
+   "code": "aob:new_missing",
+   "severity": "warning",
+   "message": "schedule 1 › ministry 19 is in 1_Upload_212.pdf but not in 1_Upload_1144.pdf with the amendments up to 173 applied",
+   "target": "r79.rel1",
+   "status": "open"
+  },
+  {
+   "code": "aob:new_missing",
+   "severity": "warning",
+   "message": "schedule 1 › ministry 21 is in 1_Upload_212.pdf but not in 1_Upload_1144.pdf with the amendments up to 173 applied",
+   "target": "r79.rel1",
+   "status": "open"
+  },
+  {
+   "code": "aob:new_missing",
+   "severity": "warning",
+   "message": "schedule 1 › ministry 23 is in 1_Upload_212.pdf but not in 1_Upload_1144.pdf with the amendments up to 173 applied",
+   "target": "r79.rel1",
+   "status": "open"
+  },
+  {
+   "code": "aob:new_missing",
+   "severity": "warning",
+   "message": "schedule 1 › ministry 24 is in 1_Upload_212.pdf but not in 1_Upload_1144.pdf with the amendments up to 173 applied",
+   "target": "r79.rel1",
+   "status": "open"
+  },
+  {
+   "code": "aob:new_missing",
+   "severity": "warning",
+   "message": "schedule 1 › ministry 25 is in 1_Upload_212.pdf but not in 1_Upload_1144.pdf with the amendments up to 173 applied",
+   "target": "r79.rel1",
+   "status": "open"
+  },
+  {
+   "code": "aob:new_missing",
+   "severity": "warning",
+   "message": "schedule 1 › ministry 26 is in 1_Upload_212.pdf but not in 1_Upload_1144.pdf with the amendments up to 173 applied",
+   "target": "r79.rel1",
+   "status": "open"
+  },
+  {
+   "code": "aob:new_missing",
+   "severity": "warning",
+   "message": "schedule 1 › ministry 27 is in 1_Upload_212.pdf but not in 1_Upload_1144.pdf with the amendments up to 173 applied",
+   "target": "r79.rel1",
+   "status": "open"
+  },
+  {
+   "code": "aob:new_hindi_differs",
+   "severity": "info",
+   "message": "schedule 1 › ministry 8 › department ii's Hindi name reads differently in 1_Upload_212.pdf than in 1_Upload_1144.pdf with the amendments up to 173 applied",
+   "target": "r79.rel1",
+   "status": "open"
+  },
+  {
+   "code": "aob:new_hindi_differs",
+   "severity": "info",
+   "message": "schedule 1 › ministry 8 › department iii's Hindi name reads differently in 1_Upload_212.pdf than in 1_Upload_1144.pdf with the amendments up to 173 applied",
+   "target": "r79.rel1",
+   "status": "open"
+  },
+  {
+   "code": "aob:new_text_differs",
+   "severity": "warning",
+   "message": "schedule 1 › ministry 9 reads differently in 1_Upload_212.pdf than in 1_Upload_1144.pdf with the amendments up to 173 applied",
+   "target": "r79.rel1",
+   "status": "open"
+  },
+  {
+   "code": "aob:new_extra",
+   "severity": "warning",
+   "message": "schedule 1 › ministry 17 is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf",
+   "target": "r79.rel1",
+   "status": "open"
+  },
+  {
+   "code": "aob:new_extra",
+   "severity": "warning",
+   "message": "schedule 1 › ministry 19 is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf",
+   "target": "r79.rel1",
+   "status": "open"
+  },
+  {
+   "code": "aob:new_extra",
+   "severity": "warning",
+   "message": "schedule 1 › ministry 23 is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf",
+   "target": "r79.rel1",
+   "status": "open"
+  },
+  {
+   "code": "aob:new_text_differs",
+   "severity": "warning",
+   "message": "schedule 1 › department 24 reads differently in 1_Upload_212.pdf than in 1_Upload_1144.pdf with the amendments up to 173 applied",
+   "target": "r79.rel1",
+   "status": "open"
+  },
+  {
+   "code": "aob:new_hindi_differs",
+   "severity": "info",
+   "message": "schedule 1 › department 26's Hindi name reads differently in 1_Upload_212.pdf than in 1_Upload_1144.pdf with the amendments up to 173 applied",
+   "target": "r79.rel1",
+   "status": "open"
+  },
+  {
+   "code": "aob:new_text_differs",
+   "severity": "warning",
+   "message": "schedule 1 › department 26 reads differently in 1_Upload_212.pdf than in 1_Upload_1144.pdf with the amendments up to 173 applied",
+   "target": "r79.rel1",
+   "status": "open"
+  },
+  {
+   "code": "aob:new_hindi_differs",
+   "severity": "info",
+   "message": "schedule 1 › department 29's Hindi name reads differently in 1_Upload_212.pdf than in 1_Upload_1144.pdf with the amendments up to 173 applied",
+   "target": "r79.rel1",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
+   "message": "change 4: department DEPARTMENT OF COMMERCE taken for department DEPARTMENT OF COMMERCF, named loosely",
+   "target": "r79.rel4",
+   "status": "open"
+  }
+ ],
+ "problems": [
+  {
+   "series": 174,
+   "seq": 1,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 1 › ministry 1 is in 1_Upload_212.pdf but not in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  },
+  {
+   "series": 174,
+   "seq": 1,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 1 › ministry 5 is in 1_Upload_212.pdf but not in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  },
+  {
+   "series": 174,
+   "seq": 1,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 1 › ministry 12 is in 1_Upload_212.pdf but not in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  },
+  {
+   "series": 174,
+   "seq": 1,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 1 › ministry 13 is in 1_Upload_212.pdf but not in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  },
+  {
+   "series": 174,
+   "seq": 1,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 1 › ministry 17 is in 1_Upload_212.pdf but not in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  },
+  {
+   "series": 174,
+   "seq": 1,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 1 › ministry 19 is in 1_Upload_212.pdf but not in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  },
+  {
+   "series": 174,
+   "seq": 1,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 1 › ministry 21 is in 1_Upload_212.pdf but not in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  },
+  {
+   "series": 174,
+   "seq": 1,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 1 › ministry 23 is in 1_Upload_212.pdf but not in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  },
+  {
+   "series": 174,
+   "seq": 1,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 1 › ministry 24 is in 1_Upload_212.pdf but not in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  },
+  {
+   "series": 174,
+   "seq": 1,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 1 › ministry 25 is in 1_Upload_212.pdf but not in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  },
+  {
+   "series": 174,
+   "seq": 1,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 1 › ministry 26 is in 1_Upload_212.pdf but not in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  },
+  {
+   "series": 174,
+   "seq": 1,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 1 › ministry 27 is in 1_Upload_212.pdf but not in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  },
+  {
+   "series": 174,
+   "seq": 1,
+   "code": "new_hindi_differs",
+   "severity": "info",
+   "message": "schedule 1 › ministry 8 › department ii's Hindi name reads differently in 1_Upload_212.pdf than in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  },
+  {
+   "series": 174,
+   "seq": 1,
+   "code": "new_hindi_differs",
+   "severity": "info",
+   "message": "schedule 1 › ministry 8 › department iii's Hindi name reads differently in 1_Upload_212.pdf than in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  },
+  {
+   "series": 174,
+   "seq": 1,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 1 › ministry 9 reads differently in 1_Upload_212.pdf than in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  },
+  {
+   "series": 174,
+   "seq": 1,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 1 › ministry 17 is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
+  },
+  {
+   "series": 174,
+   "seq": 1,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 1 › ministry 19 is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
+  },
+  {
+   "series": 174,
+   "seq": 1,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 1 › ministry 23 is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
+  },
+  {
+   "series": 174,
+   "seq": 1,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 1 › department 24 reads differently in 1_Upload_212.pdf than in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  },
+  {
+   "series": 174,
+   "seq": 1,
+   "code": "new_hindi_differs",
+   "severity": "info",
+   "message": "schedule 1 › department 26's Hindi name reads differently in 1_Upload_212.pdf than in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  },
+  {
+   "series": 174,
+   "seq": 1,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 1 › department 26 reads differently in 1_Upload_212.pdf than in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  },
+  {
+   "series": 174,
+   "seq": 1,
+   "code": "new_hindi_differs",
+   "severity": "info",
+   "message": "schedule 1 › department 29's Hindi name reads differently in 1_Upload_212.pdf than in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  }
+ ],
+ "rules": [
+  {
+   "rule": "loose",
+   "seq": 4,
+   "note": "change 4: department DEPARTMENT OF COMMERCE taken for department DEPARTMENT OF COMMERCF, named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  }
+ ],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_474E_1979",
+   "op": "replace",
+   "source_ref": "2",
+   "path": "schedule 1",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_474E_1979",
+   "op": "replace",
+   "source_ref": "3(a)",
+   "path": "schedule 2 › ministry MINISTRY OF AGRICULTURE AND IRRIGATION › department DEPARTMENT OF AGRICULTURE",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_474E_1979",
+   "op": "replace",
+   "source_ref": "3(b)",
+   "path": "schedule 2 › ministry MINISTRY OF COMMERCE, CIVIL SUPPLIES AND COOPERATION",
+   "status": "applied"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_474E_1979",
+   "op": "insert",
+   "source_ref": "3(b)",
+   "path": "schedule 2 › ministry MINISTRY OF COMMERCE AND CIVIL SUPPLIES › department DEPARTMENT OF COMMERCE",
+   "status": "applied"
+  },
+  {
+   "seq": 5,
+   "doc_id": "GOI_SO_474E_1979",
+   "op": "omit",
+   "source_ref": "3(c)",
+   "path": "schedule 2 › ministry MINISTRY OF INDUSTRY › department DEPARTMENT OF INDUSTRIAL DEVELOPMENT › group_heading VII. Village Industries ; schedule 2 › ministry MINISTRY OF INDUSTRY › department DEPARTMENT OF INDUSTRIAL DEVELOPMENT › entry 36 ; schedule 2 › ministry MINISTRY OF INDUSTRY › department DEPARTMENT OF INDUSTRIAL DEVELOPMENT › entry 37",
+   "status": "applied"
+  },
+  {
+   "seq": 6,
+   "doc_id": "GOI_SO_474E_1979",
+   "op": "insert",
+   "source_ref": "3(d)",
+   "path": "schedule 2 › ministry MINISTRY OF RAILWAYS (RAILWAY BOARD)",
+   "status": "applied"
+  },
+  {
+   "seq": 7,
+   "doc_id": "GOI_SO_474E_1979",
+   "op": "replace",
+   "source_ref": "3(e)",
+   "path": "schedule 2 › ministry MINISTRY OF WORKS AND HOUSING › entry 23E",
+   "status": "applied"
+  }
+ ],
+ "bridge": {
+  "substitutes": "the First Schedule",
+  "first_schedule_changes": 61
+ },
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

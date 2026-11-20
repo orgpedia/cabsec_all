@@ -1,0 +1,183 @@
+{
+ "file": "1_Upload_179.pdf",
+ "kind": "amendment",
+ "series": 141,
+ "date": "1980-04-24",
+ "govdoc": "aob-ammend_/output/1_Upload_179.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826694.6350882,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_179.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:55:57.143525+00:00",
+  "sha256": "d5deff0edd0563e8ff384ebeae64de2ad04af3d0531a42d10f97fa238329b72a",
+  "pages": 2
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-12T12:44:53.340602+00:00",
+   "stamp": "4269139afe2934c1"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r50",
+   "at": "2026-11-15T12:42:45.141038+00:00",
+   "stamp": "4c1184ba8cce8412"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r51",
+   "at": "2026-11-15T12:42:47.662883+00:00",
+   "stamp": "14f9c7832ef3898f"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r52",
+   "at": "2026-11-15T12:42:50.243387+00:00",
+   "stamp": "9a67df8423b1ada9"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r61",
+   "at": "2026-11-15T16:25:02.861849+00:00",
+   "stamp": "2f50d9321f1a97aa",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r62",
+   "at": "2026-11-15T16:25:05.026621+00:00",
+   "stamp": "ec75ca5bfc8affb3",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r63",
+   "at": "2026-11-15T16:25:06.996905+00:00",
+   "stamp": "2c2c1f5e0b093553",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r69",
+   "at": "2026-11-15T16:57:37.648285+00:00",
+   "stamp": "ec3bb6e4c7c0db09"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r70",
+   "at": "2026-11-15T17:03:51.640055+00:00",
+   "stamp": "7a43ccb98a1c6f66"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r75",
+   "at": "2026-11-16T10:58:14.618859+00:00",
+   "stamp": "92815f0f555b4cf6"
+  }
+ ],
+ "reviews": [],
+ "issues": [
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
+   "message": "change 2: ministry MINISTRY OF COMMECE AND CIVIL SUPPLIES taken for ministry MINISTRY OF COMMERCE AND CIVIL SUPPLIES, named loosely",
+   "target": "r63.rel2",
+   "status": "open"
+  }
+ ],
+ "problems": [
+  {
+   "series": 141,
+   "seq": 3,
+   "code": "old_path_missing",
+   "severity": "error",
+   "message": "change 3: no entry 6A–6K under schedule 2 › ministry MINISTRY OF INDUSTRY › department A",
+   "cause": "entry_not_in_state"
+  }
+ ],
+ "rules": [
+  {
+   "rule": "loose",
+   "seq": 2,
+   "note": "change 2: ministry MINISTRY OF COMMECE AND CIVIL SUPPLIES taken for ministry MINISTRY OF COMMERCE AND CIVIL SUPPLIES, named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  }
+ ],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_270E_1980",
+   "op": "replace",
+   "source_ref": "2",
+   "path": "schedule 1 › entry 2",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_270E_1980",
+   "op": "insert",
+   "source_ref": "3(a)",
+   "path": "schedule 2 › ministry MINISTRY OF COMMECE AND CIVIL SUPPLIES › department DEPARTMENT OF CIVIL SUPPLIES",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_270E_1980",
+   "op": "omit",
+   "source_ref": "3(b)",
+   "path": "schedule 2 › ministry MINISTRY OF INDUSTRY › department DEPARTMENT OF INDUSTRIAL DEVE- LOPMENT › entry ; schedule 2 › ministry MINISTRY OF INDUSTRY › department DEPARTMENT OF INDUSTRIAL DEVE- LOPMENT › entry ; schedule 2 › ministry MINISTRY OF INDUSTRY › department DEPARTMENT OF INDUSTRIAL DEVE- LOPMENT › entry 20K",
+   "status": "not_applied",
+   "problem": "change 3: no entry 6A–6K under schedule 2 › ministry MINISTRY OF INDUSTRY › department A",
+   "code": "old_path_missing",
+   "cause": "entry_not_in_state",
+   "known": "entries"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

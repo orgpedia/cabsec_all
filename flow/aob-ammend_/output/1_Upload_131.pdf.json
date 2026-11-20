@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_131.pdf",
     "sha256": "6b7346227f1b807bb624ff56705129f9eb09de333d13c1e2074ea4b2e87a627d",
     "govdoc": "1_Upload_131.pdf.govdoc.json.zst",
-    "revision": 55
+    "revision": 79
   },
   "documents": [
     {
@@ -29,9 +29,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "3",
+          "version": "4",
           "model": "gemini-4-argon",
-          "at": "2026-11-12T18:25:32.507221+00:00"
+          "at": "2026-11-15T16:24:20.532377+00:00"
         },
         "ops": [
           {
@@ -39,7 +39,7 @@
             "source_ref": "2(1)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r28.rel1",
+            "relation": "r71.rel1",
             "position": "after",
             "anchor": {
               "cited": [
@@ -111,7 +111,7 @@
             "source_ref": "2(ii)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r28.rel2",
+            "relation": "r71.rel2",
             "target": {
               "cited": [
                 {
@@ -162,7 +162,7 @@
             "source_ref": "2(iii)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r28.rel3",
+            "relation": "r71.rel3",
             "position": "after",
             "anchor": {
               "cited": [
@@ -222,7 +222,7 @@
             "source_ref": "2(iv)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r28.rel4",
+            "relation": "r71.rel4",
             "target": {
               "cited": [
                 {
@@ -281,7 +281,7 @@
             "source_ref": "2(v)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r28.rel5",
+            "relation": "r71.rel5",
             "target": {
               "cited": [
                 {
@@ -340,7 +340,7 @@
             "source_ref": "2(vi)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r28.rel6",
+            "relation": "r71.rel6",
             "target": {
               "cited": [
                 {
@@ -422,7 +422,7 @@
             "source_ref": "2(vi)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r28.rel7",
+            "relation": "r71.rel7",
             "target": {
               "cited": [
                 {
@@ -488,7 +488,7 @@
             "source_ref": "2(vi)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r28.rel8",
+            "relation": "r71.rel8",
             "target": {
               "cited": [
                 {
@@ -539,7 +539,7 @@
             "source_ref": "2(ix)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r28.rel9",
+            "relation": "r71.rel9",
             "target": {
               "cited": [
                 {
@@ -610,7 +610,7 @@
             "source_ref": "3(a)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r28.rel10",
+            "relation": "r71.rel10",
             "position": "after",
             "anchor": {
               "cited": [
@@ -1008,7 +1008,7 @@
             "source_ref": "3(b)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r28.rel11",
+            "relation": "r71.rel11",
             "target": [
               {
                 "cited": [
@@ -1177,7 +1177,7 @@
             "source_ref": "3(c)(i)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r28.rel12",
+            "relation": "r71.rel12",
             "target": [
               {
                 "cited": [
@@ -1274,7 +1274,7 @@
             "source_ref": "3(c)(II)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r28.rel13",
+            "relation": "r71.rel13",
             "target": {
               "cited": [
                 {
@@ -1340,7 +1340,7 @@
             "source_ref": "3(c)(iii)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r28.rel14",
+            "relation": "r71.rel14",
             "target": {
               "cited": [
                 {
@@ -1399,7 +1399,7 @@
             "source_ref": "3(c)(iv)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r28.rel15",
+            "relation": "r71.rel15",
             "target": {
               "cited": [
                 {
@@ -1458,7 +1458,7 @@
             "source_ref": "3(d)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r28.rel16",
+            "relation": "r71.rel16",
             "position": "after",
             "anchor": {
               "cited": [
@@ -1567,7 +1567,7 @@
             "source_ref": "3(e)(1)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r28.rel17",
+            "relation": "r71.rel17",
             "position": "after",
             "anchor": {
               "cited": [
@@ -1660,7 +1660,7 @@
             "source_ref": "3(e)(ii)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r28.rel18",
+            "relation": "r71.rel18",
             "target": {
               "cited": [
                 {
@@ -1715,7 +1715,7 @@
             "source_ref": "3(e)(iii)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r28.rel19",
+            "relation": "r71.rel19",
             "target": {
               "cited": [
                 {
@@ -1770,7 +1770,7 @@
             "source_ref": "3(e)(iv)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r28.rel20",
+            "relation": "r71.rel20",
             "target": [
               {
                 "cited": [
@@ -1877,7 +1877,9 @@
                 ]
               }
             ],
-            "flags": [],
+            "flags": [
+              "states_inferred_loose"
+            ],
             "words": [
               "r1.w1343",
               "r1.w1349"
@@ -1899,7 +1901,7 @@
             "source_ref": "3(f)(1)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r28.rel21",
+            "relation": "r71.rel21",
             "target": {
               "cited": [
                 {
@@ -1955,7 +1957,7 @@
             "source_ref": "3(f)(ii)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r28.rel22",
+            "relation": "r71.rel22",
             "target": [
               {
                 "cited": [
@@ -2108,7 +2110,7 @@
             "source_ref": "3(f)(ii)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r28.rel23",
+            "relation": "r71.rel23",
             "position": "after",
             "anchor": {
               "cited": [
@@ -2186,7 +2188,7 @@
             "source_ref": "3(f)(iv)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r28.rel24",
+            "relation": "r71.rel24",
             "target": {
               "cited": [
                 {
@@ -2241,7 +2243,7 @@
             "source_ref": "3(g)(1)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r28.rel25",
+            "relation": "r71.rel25",
             "target": {
               "cited": [
                 {
@@ -2300,7 +2302,7 @@
             "source_ref": "3(g)(ii)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r28.rel26",
+            "relation": "r71.rel26",
             "position": "after",
             "anchor": {
               "cited": [
@@ -2404,7 +2406,7 @@
             "source_ref": "3(i)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r28.rel29",
+            "relation": "r71.rel29",
             "target": {
               "cited": [
                 {
@@ -2472,7 +2474,7 @@
             "source_ref": "3(j)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r28.rel30",
+            "relation": "r71.rel30",
             "position": "after",
             "anchor": {
               "cited": [
@@ -2555,7 +2557,7 @@
             "source_ref": "3(k)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r28.rel31",
+            "relation": "r71.rel31",
             "target": {
               "cited": [
                 {
@@ -2606,7 +2608,7 @@
             "source_ref": "3(1)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r28.rel32",
+            "relation": "r71.rel32",
             "position": "after",
             "anchor": {
               "cited": [
@@ -2669,7 +2671,7 @@
             "source_ref": "3(m)(i)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r28.rel33",
+            "relation": "r71.rel33",
             "target": {
               "cited": [
                 {
@@ -2733,7 +2735,7 @@
             "source_ref": "3(m)(ii)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r28.rel34",
+            "relation": "r71.rel34",
             "position": "after",
             "anchor": {
               "cited": [
@@ -2811,7 +2813,7 @@
             "source_ref": "3(m)(ii)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r28.rel35",
+            "relation": "r71.rel35",
             "target": {
               "cited": [
                 {
@@ -2866,7 +2868,7 @@
             "source_ref": "3(n)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r28.rel36",
+            "relation": "r71.rel36",
             "position": "after",
             "anchor": {
               "cited": [

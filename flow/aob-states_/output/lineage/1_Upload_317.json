@@ -1,0 +1,440 @@
+{
+ "file": "1_Upload_317.pdf",
+ "kind": "amendment",
+ "series": 273,
+ "date": "2004-07-27",
+ "govdoc": "aob-ammend_/output/1_Upload_317.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826694.8251235,
+ "edits_file": "aob-ammend_/conf/1_Upload_317.pdf.edits.yml",
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_317.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:59:52.043611+00:00",
+  "sha256": "d6dcf49ecd2f9728d75b5456aa6c73f27588a71fbd9ffc339f5f2a2260ca8f6b",
+  "pages": 29
+ },
+ "edits": [
+  {
+   "run": "h1",
+   "by": "mukundesh",
+   "at": "2026-11-05T03:18:41+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r1.w2934",
+     "before": {
+      "text": "$.0.636(E).-"
+     },
+     "after": {
+      "text": "S.O.636(E).-"
+     }
+    }
+   ]
+  },
+  {
+   "run": "h2",
+   "by": "mukundesh",
+   "at": "2026-11-05T05:37:50+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r1.w3153",
+     "before": {
+      "text": "Ministi/"
+     },
+     "after": {
+      "text": "Ministry"
+     }
+    }
+   ]
+  },
+  {
+   "run": "h3",
+   "by": "mukundesh",
+   "at": "2026-11-09T03:22:24+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r1.w3127",
+     "before": {
+      "text": "Developmerit"
+     },
+     "after": {
+      "text": "Development"
+     }
+    },
+    {
+     "op": "text",
+     "target": "r1.w3136",
+     "before": {
+      "text": "Mantralaya}\";"
+     },
+     "after": {
+      "text": "Mantralaya)\";"
+     }
+    }
+   ]
+  },
+  {
+   "run": "h4",
+   "by": "mukundesh",
+   "at": "2026-11-10T10:51:07+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r1.w3234",
+     "before": {
+      "text": "Indians"
+     },
+     "after": {
+      "text": "Indian"
+     }
+    },
+    {
+     "op": "text",
+     "target": "r1.w4799",
+     "before": {
+      "text": "INDIANS"
+     },
+     "after": {
+      "text": "INDIAN"
+     }
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-05T02:51:34.267076+00:00",
+   "stamp": "b0cbd8c20692604a"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r176",
+   "at": "2026-11-15T12:42:45.230735+00:00",
+   "stamp": "ea6712a56fe47414"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r177",
+   "at": "2026-11-15T12:42:47.743398+00:00",
+   "stamp": "53379685914ef557"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r178",
+   "at": "2026-11-15T12:42:50.308180+00:00",
+   "stamp": "db1b8688f9ffc27c"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r187",
+   "at": "2026-11-15T16:25:03.005060+00:00",
+   "stamp": "cb15633cc0e1d9df",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r188",
+   "at": "2026-11-15T16:25:05.098180+00:00",
+   "stamp": "1185c15226958e71",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r189",
+   "at": "2026-11-15T16:25:07.068300+00:00",
+   "stamp": "df3e937e72388193",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r195",
+   "at": "2026-11-15T16:57:37.717517+00:00",
+   "stamp": "cca00ba2d5bdd1cc"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r196",
+   "at": "2026-11-15T17:03:51.884944+00:00",
+   "stamp": "d563b9c3f7aa0e0e"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r201",
+   "at": "2026-11-16T10:58:14.683599+00:00",
+   "stamp": "25ad703b5dbb36d1"
+  }
+ ],
+ "reviews": [
+  {
+   "id": "h2.v2",
+   "target": "r8.a7",
+   "status": "pending",
+   "by": "mukundesh",
+   "at": "2026-11-05T05:37:50+00:00",
+   "note": "moved by a loose match after h2.e1"
+  }
+ ],
+ "issues": [
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 11: its quoted text runs across a page break",
+   "target": "r189.rel11",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 12: its quoted text runs across a page break",
+   "target": "r189.rel12",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 21: its quoted text runs across a page break",
+   "target": "r189.rel21",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_number_kept",
+   "severity": "info",
+   "message": "change 16: schedule 2 › ministry MINISTRY OF FINANCE › department DEPARTMENT OF COMPANY AFFAIRS keeps its number D, the heading put for it quoted without one",
+   "target": "r189.rel16",
+   "status": "open"
+  }
+ ],
+ "problems": [],
+ "rules": [
+  {
+   "rule": "number_kept",
+   "seq": 16,
+   "note": "change 16: schedule 2 › ministry MINISTRY OF FINANCE › department DEPARTMENT OF COMPANY AFFAIRS keeps its number D, the heading put for it quoted without one",
+   "status": "accepted"
+  }
+ ],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_636E_2004",
+   "op": "insert",
+   "source_ref": "2(1)(a)",
+   "path": "schedule 1 › ministry Ministry of Communications and Information Technology",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_636E_2004",
+   "op": "insert",
+   "source_ref": "2(1)(b)",
+   "path": "schedule 1 › ministry Ministry of Consumer Affairs, Food and Public Distribution",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_636E_2004",
+   "op": "insert",
+   "source_ref": "2(1)(c)",
+   "path": "schedule 1 › ministry Ministry of Defence",
+   "status": "applied"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_636E_2004",
+   "op": "omit",
+   "source_ref": "2(1)(d)",
+   "path": "schedule 1 › ministry Ministry of Disinvestment",
+   "status": "applied"
+  },
+  {
+   "seq": 5,
+   "doc_id": "GOI_SO_636E_2004",
+   "op": "replace",
+   "source_ref": "2(1)(e)",
+   "path": "schedule 1 › ministry Ministry of Finance › department Department of Company Affairs",
+   "status": "applied"
+  },
+  {
+   "seq": 6,
+   "doc_id": "GOI_SO_636E_2004",
+   "op": "replace",
+   "source_ref": "2(1)(f)",
+   "path": "schedule 1 › ministry Ministry of Labour",
+   "status": "applied"
+  },
+  {
+   "seq": 7,
+   "doc_id": "GOI_SO_636E_2004",
+   "op": "insert",
+   "source_ref": "2(1)(g)",
+   "path": "schedule 1 › ministry Ministry of Non-Conventional Energy Sources",
+   "status": "applied"
+  },
+  {
+   "seq": 8,
+   "doc_id": "GOI_SO_636E_2004",
+   "op": "replace",
+   "source_ref": "2(1)(h)",
+   "path": "schedule 1 › ministry Ministry of Tourism and Culture",
+   "status": "applied"
+  },
+  {
+   "seq": 9,
+   "doc_id": "GOI_SO_636E_2004",
+   "op": "replace",
+   "source_ref": "2(1)(i)",
+   "path": "schedule 1 › ministry Ministry of Urban Development and Poverty Alleviation",
+   "status": "applied"
+  },
+  {
+   "seq": 10,
+   "doc_id": "GOI_SO_636E_2004",
+   "op": "omit",
+   "source_ref": "2(1)(j)",
+   "path": "schedule 1 › ministry Department of Development of North Eastern Region",
+   "status": "applied"
+  },
+  {
+   "seq": 11,
+   "doc_id": "GOI_SO_636E_2004",
+   "op": "insert",
+   "source_ref": "2(2)(A)",
+   "path": "schedule 2 › ministry MINISTRY OF COMMUNICATIONS AND INFORMATION TECHNOLOGY",
+   "status": "applied"
+  },
+  {
+   "seq": 12,
+   "doc_id": "GOI_SO_636E_2004",
+   "op": "insert",
+   "source_ref": "2(2)(B)",
+   "path": "schedule 2 › ministry MINISTRY OF CONSUMER AFFAIRS, FOOD AND PUBLIC DISTRIBUTION",
+   "status": "applied"
+  },
+  {
+   "seq": 13,
+   "doc_id": "GOI_SO_636E_2004",
+   "op": "insert",
+   "source_ref": "2(2)(C)",
+   "path": "schedule 2 › ministry MINISTRY OF DEFENCE",
+   "status": "applied"
+  },
+  {
+   "seq": 14,
+   "doc_id": "GOI_SO_636E_2004",
+   "op": "omit",
+   "source_ref": "2(2)(D)",
+   "path": "schedule 2 › ministry MINISTRY OF DISINVESTMENT",
+   "status": "applied"
+  },
+  {
+   "seq": 15,
+   "doc_id": "GOI_SO_636E_2004",
+   "op": "omit",
+   "source_ref": "2(2)(E)",
+   "path": "schedule 2 › ministry MINISTRY OF EXTERNAL AFFAIRS › entry 40",
+   "status": "applied"
+  },
+  {
+   "seq": 16,
+   "doc_id": "GOI_SO_636E_2004",
+   "op": "replace",
+   "source_ref": "2(2)(F)",
+   "path": "schedule 2 › ministry MINISTRY OF FINANCE › department DEPARTMENT OF COMPANY AFFAIRS",
+   "status": "applied"
+  },
+  {
+   "seq": 17,
+   "doc_id": "GOI_SO_636E_2004",
+   "op": "replace",
+   "source_ref": "2(2)(G)",
+   "path": "schedule 2 › ministry MINISTRY OF LABOUR",
+   "status": "applied"
+  },
+  {
+   "seq": 18,
+   "doc_id": "GOI_SO_636E_2004",
+   "op": "insert",
+   "source_ref": "2(2)(H)",
+   "path": "schedule 2 › ministry MINISTRY OF NON-CONVENTIONAL ENERGY SOURCES",
+   "status": "applied"
+  },
+  {
+   "seq": 19,
+   "doc_id": "GOI_SO_636E_2004",
+   "op": "omit",
+   "source_ref": "2(2)(I)",
+   "path": "schedule 2 › ministry MINISTRY OF RURAL DEVELOPMENT › department DEPARTMENT OF RURAL DEVELOPMENT › entry 1",
+   "status": "applied"
+  },
+  {
+   "seq": 20,
+   "doc_id": "GOI_SO_636E_2004",
+   "op": "replace",
+   "source_ref": "2(2)(J)",
+   "path": "schedule 2 › ministry MINISTRY OF TOURISM AND CULTURE",
+   "status": "applied"
+  },
+  {
+   "seq": 21,
+   "doc_id": "GOI_SO_636E_2004",
+   "op": "replace",
+   "source_ref": "2(2)(K)",
+   "path": "schedule 2 › ministry MINISTRY OF URBAN DEVELOPMENT AND POVERTY ALLEVIATION",
+   "status": "applied"
+  },
+  {
+   "seq": 22,
+   "doc_id": "GOI_SO_636E_2004",
+   "op": "omit",
+   "source_ref": "2(2)(L)",
+   "path": "schedule 2 › ministry DEPARTMENT OF DEVELOPMENT OF NORTH EASTERN REGION",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

@@ -1,0 +1,164 @@
+{
+ "file": "1_Upload_330.pdf",
+ "kind": "amendment",
+ "series": 285,
+ "date": "2006-03-17",
+ "govdoc": "aob-ammend_/output/1_Upload_330.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826693.3263657,
+ "edits_file": "aob-ammend_/conf/1_Upload_330.pdf.edits.yml",
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_330.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T14:00:10.762082+00:00",
+  "sha256": "c6737501efec4cf9f3c65ea41d106f0c3c463c51e534a6ce0e544cd9b2eee13e",
+  "pages": 2
+ },
+ "edits": [
+  {
+   "run": "h1",
+   "by": "mukundesh",
+   "at": "2026-11-05T03:18:41+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r1.w279",
+     "before": {
+      "text": "$.0.367(E).—In"
+     },
+     "after": {
+      "text": "S.O.367(E).—In"
+     }
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-05T02:51:09.903476+00:00",
+   "stamp": "79c467515ecd267a"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r150",
+   "at": "2026-11-15T12:42:33.031316+00:00",
+   "stamp": "112df4eab24e6197"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r151",
+   "at": "2026-11-15T12:42:35.469752+00:00",
+   "stamp": "bbedd84b20fa73a6"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r152",
+   "at": "2026-11-15T12:42:37.233500+00:00",
+   "stamp": "b11a0a5674c09d08"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r161",
+   "at": "2026-11-15T16:24:51.843373+00:00",
+   "stamp": "5696ea7d8540d616",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r162",
+   "at": "2026-11-15T16:24:53.596452+00:00",
+   "stamp": "97ce276e281d2992",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r163",
+   "at": "2026-11-15T16:24:55.402549+00:00",
+   "stamp": "6e7975783d2bd208",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r169",
+   "at": "2026-11-15T16:57:35.466830+00:00",
+   "stamp": "f39efcd7f9ca8d7d"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r170",
+   "at": "2026-11-15T17:03:45.936482+00:00",
+   "stamp": "b1a8d095e2c826cb"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r175",
+   "at": "2026-11-16T10:58:13.312248+00:00",
+   "stamp": "1b4183aa91ae26e5"
+  }
+ ],
+ "reviews": [],
+ "issues": [],
+ "problems": [],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_367E_2006",
+   "op": "insert",
+   "source_ref": "2(i)",
+   "path": "schedule 2 › ministry Ministry of Environment and Forests › entry 47",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_367E_2006",
+   "op": "insert",
+   "source_ref": "2(ii)",
+   "path": "schedule 2 › ministry Ministry of Tribal Affairs › entry 5",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_201.pdf",
     "sha256": "d246d93c34f982e78f8b03d9e499c29a4fe002956dc3987c1aaf59ba1001d04a",
     "govdoc": "1_Upload_201.pdf.govdoc.json.zst",
-    "revision": 46
+    "revision": 70
   },
   "documents": [
     {
@@ -29,9 +29,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "3",
+          "version": "4",
           "model": "gemini-4-argon",
-          "at": "2026-11-12T13:50:03.213693+00:00"
+          "at": "2026-11-15T16:25:06.878781+00:00"
         },
         "ops": [
           {
@@ -39,7 +39,7 @@
             "source_ref": "2(a)(i)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel1",
+            "relation": "r63.rel1",
             "target": {
               "cited": [
                 {
@@ -119,7 +119,7 @@
             "source_ref": "2(a)(ii)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel2",
+            "relation": "r63.rel2",
             "target": {
               "cited": [
                 {
@@ -198,7 +198,7 @@
             "source_ref": "2(b)(i)(1)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel3",
+            "relation": "r63.rel3",
             "target": {
               "cited": [
                 {
@@ -212,22 +212,21 @@
               ],
               "eId": null,
               "words": [
-                "r1.w808",
+                "r1.w807",
                 "r1.w810"
               ],
               "boxes": [
                 {
                   "page": 2,
                   "bbox": [
-                    1656,
-                    2911,
+                    1585,
+                    2910,
                     2061,
                     2961
                   ]
                 }
               ]
             },
-            "expect": "MINISTRY OF INDUSTRY (UDYOG MANTRALAYA)",
             "scope": "heading",
             "content": [
               {
@@ -257,7 +256,7 @@
             "source_ref": "2(b)(i)(2)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r10.rel4",
+            "relation": "r63.rel4",
             "position": "after",
             "anchor": {
               "cited": [
@@ -276,14 +275,14 @@
               ],
               "eId": null,
               "words": [
-                "r1.w845",
+                "r1.w846",
                 "r1.w859"
               ],
               "boxes": [
                 {
                   "page": 3,
                   "bbox": [
-                    376,
+                    378,
                     338,
                     1254,
                     478
@@ -326,7 +325,7 @@
               {
                 "type": "entry",
                 "num": "6",
-                "text": "Legislation relating to Law of Partnership and the excrcise of certain functions under Chapter VII of the Indian Partnership Act 1932 in centrally administered areas. (The administration of the Act vests in the State Governments)."
+                "text": "Legislation relating to Law of Partnership and the excrcise of certain functions under Chapter VII of the Indian Partnership Act 1932 in centrally administered areas. (The PRINTED BY THE MANAGER, GOVT. OF INDIA AND PUBLISHED BY THE CONTROLLER OF administration of the Act vests in the State Governments)."
               },
               {
                 "type": "entry",
@@ -339,7 +338,9 @@
                 "text": "The responsibility of the Centre relating to matters concerning centrally administered areas in respect of any of the above items."
               }
             ],
-            "flags": [],
+            "flags": [
+              "read_page_break"
+            ],
             "words": [
               "r1.w844",
               "r1.w849"
@@ -361,7 +362,7 @@
             "source_ref": "2(b)(ii)(1)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel5",
+            "relation": "r63.rel5",
             "target": {
               "cited": [
                 {
@@ -375,22 +376,21 @@
               ],
               "eId": null,
               "words": [
-                "r1.w1031",
+                "r1.w1030",
                 "r1.w1033"
               ],
               "boxes": [
                 {
                   "page": 3,
                   "bbox": [
-                    1668,
-                    984,
+                    1594,
+                    982,
                     2076,
                     1033
                   ]
                 }
               ]
             },
-            "expect": "MINISTRY OF LAW, JUSTICE AND COMPANY AFFAIRS (VIDHI, . NYAYA AUR KAMPANI KARYA MANTRALAYA)",
             "scope": "heading",
             "content": [
               {
@@ -421,7 +421,7 @@
             "source_ref": "2(b)(ii)(2)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r10.rel6",
+            "relation": "r63.rel6",
             "target": {
               "cited": [
                 {
@@ -455,7 +455,9 @@
               ]
             },
             "expect": "D. DEPARTMENT OF COMPANY AFFAIRS (KAM- PANI KARYA VIBHAG)",
-            "flags": [],
+            "flags": [
+              "states_inferred_earlier_name"
+            ],
             "words": [
               "r1.w1051",
               "r1.w1055"

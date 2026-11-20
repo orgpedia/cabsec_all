@@ -1,0 +1,284 @@
+{
+ "file": "1_Upload_117.pdf",
+ "kind": "amendment",
+ "series": 83,
+ "date": "1970-06-26",
+ "govdoc": "aob-ammend_/output/1_Upload_117.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826682.9914837,
+ "edits_file": "aob-ammend_/conf/1_Upload_117.pdf.edits.yml",
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_117.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:54:23.482098+00:00",
+  "sha256": "120cbd019c20e6ba9d3a179c47e434e80b73cc48ddc4b3f9a7614a0da42a80b5",
+  "pages": 2
+ },
+ "edits": [
+  {
+   "run": "h1",
+   "by": "claude",
+   "at": "2026-11-12T18:01:00+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r1.w204",
+     "before": {
+      "text": "(1)"
+     },
+     "after": {
+      "text": "(i)"
+     }
+    }
+   ]
+  },
+  {
+   "run": "h2",
+   "by": "claude",
+   "at": "2026-11-12T18:02:00+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r1.w220",
+     "before": {
+      "text": "((iv)"
+     },
+     "after": {
+      "text": "(iv)"
+     }
+    }
+   ]
+  },
+  {
+   "run": "h3",
+   "by": "claude",
+   "at": "2026-11-12T18:03:00+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r1.w224",
+     "before": {
+      "text": "((v)"
+     },
+     "after": {
+      "text": "(v)"
+     }
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-12T12:31:44.954442+00:00",
+   "stamp": "c941cf1a8bcf2b43"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r58",
+   "at": "2026-11-15T12:41:26.131046+00:00",
+   "stamp": "4b52912fc528e49f"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r59",
+   "at": "2026-11-15T12:41:28.296171+00:00",
+   "stamp": "c78659f518def3e3"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r60",
+   "at": "2026-11-15T12:41:30.310641+00:00",
+   "stamp": "d1c295468e328a3a"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r69",
+   "at": "2026-11-15T16:23:56.610394+00:00",
+   "stamp": "fc53a7a1f1c90796",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r70",
+   "at": "2026-11-15T16:23:58.245249+00:00",
+   "stamp": "01a5723dba812a9e",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r71",
+   "at": "2026-11-15T16:23:59.627797+00:00",
+   "stamp": "5a93125fad2d7946",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r77",
+   "at": "2026-11-15T16:57:20.285323+00:00",
+   "stamp": "28d2d0c642cff255"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r78",
+   "at": "2026-11-15T17:03:12.195927+00:00",
+   "stamp": "1c8c15b4fe688aee"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r83",
+   "at": "2026-11-16T10:58:02.979766+00:00",
+   "stamp": "2ccca352e6b3a6da"
+  }
+ ],
+ "reviews": [],
+ "issues": [
+  {
+   "code": "aob:read_hindi_missing",
+   "severity": "info",
+   "message": "change 1: a new heading has no Hindi name in brackets",
+   "target": "r71.rel1",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_hindi_missing",
+   "severity": "info",
+   "message": "change 7: a new heading has no Hindi name in brackets",
+   "target": "r71.rel7",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_hindi_missing",
+   "severity": "info",
+   "message": "change 8: a new heading has no Hindi name in brackets",
+   "target": "r71.rel8",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
+   "message": "change 5: ministry Ministry of Industrial Development, Internal Trade and Company Affairs taken for ministry Ministry of Industrial Development, Internal Trade and Company Affairs shall be substituted, named loosely",
+   "target": "r71.rel5",
+   "status": "open"
+  }
+ ],
+ "problems": [],
+ "rules": [
+  {
+   "rule": "loose",
+   "seq": 5,
+   "note": "change 5: ministry Ministry of Industrial Development, Internal Trade and Company Affairs taken for ministry Ministry of Industrial Development, Internal Trade and Company Affairs shall be substituted, named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  }
+ ],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_2247_1970",
+   "op": "replace",
+   "source_ref": "2",
+   "path": "schedule 1 › entry 23",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_2247_1970",
+   "op": "omit",
+   "source_ref": "3(a)",
+   "path": "schedule 2 › ministry Ministry of Defence › department Department of Defence Supplies › entry 21A",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_2247_1970",
+   "op": "substitute_text",
+   "source_ref": "3(b)(i)",
+   "path": "schedule 2 › ministry Ministry of Education and Youth Services › entry 51",
+   "status": "applied"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_2247_1970",
+   "op": "omit",
+   "source_ref": "3(b)(ii)",
+   "path": "schedule 2 › ministry Ministry of Education and Youth Services › entry 91",
+   "status": "applied"
+  },
+  {
+   "seq": 5,
+   "doc_id": "GOI_SO_2247_1970",
+   "op": "insert",
+   "source_ref": "3(c)",
+   "path": "schedule 2 › ministry Ministry of Industrial Development, Internal Trade and Company Affairs › department Department of Industrial Development › group_heading III. Industries and Industrial and Technical Development › entry 12",
+   "status": "applied"
+  },
+  {
+   "seq": 6,
+   "doc_id": "GOI_SO_2247_1970",
+   "op": "omit",
+   "source_ref": "3(d)",
+   "path": "schedule 2 › ministry Ministry of Petroleum and Chemicals and Mines and Metals › department Department of Petroleum › entry 6",
+   "status": "applied"
+  },
+  {
+   "seq": 7,
+   "doc_id": "GOI_SO_2247_1970",
+   "op": "insert",
+   "source_ref": "3(e)(i)",
+   "path": "schedule 2 › ministry Cabinet Secretariat › department Department of Cabinet Affairs",
+   "status": "applied"
+  },
+  {
+   "seq": 8,
+   "doc_id": "GOI_SO_2247_1970",
+   "op": "replace",
+   "source_ref": "3(e)(ii)",
+   "path": "schedule 2 › ministry Cabinet Secretariat › department Department of Statistics",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

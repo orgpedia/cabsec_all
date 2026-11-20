@@ -1,0 +1,153 @@
+{
+ "file": "1_Upload_102.pdf",
+ "kind": "amendment",
+ "series": 68,
+ "date": "1968-07-20",
+ "govdoc": "aob-ammend_/output/1_Upload_102.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826684.9417202,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_102.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:54:05.890154+00:00",
+  "sha256": "3a65d7142d535e35e3dde9d9d0ed52380d3673965098716ee48b1604356b3ac9",
+  "pages": 2
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-12T12:33:47.158121+00:00",
+   "stamp": "8eb83007c1c00a48"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r50",
+   "at": "2026-11-15T12:41:40.822544+00:00",
+   "stamp": "7cfdbfb8ae228d2d"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r51",
+   "at": "2026-11-15T12:41:43.491296+00:00",
+   "stamp": "6d6c7c1b716296cd"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r52",
+   "at": "2026-11-15T12:41:46.037350+00:00",
+   "stamp": "05c53cbb4a9a1f89"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r61",
+   "at": "2026-11-15T16:24:06.532639+00:00",
+   "stamp": "47e2f93125608995",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r62",
+   "at": "2026-11-15T16:24:08.239628+00:00",
+   "stamp": "ff6b6bcd9625bccc",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r63",
+   "at": "2026-11-15T16:24:09.932178+00:00",
+   "stamp": "a17d50035af04792",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r69",
+   "at": "2026-11-15T16:57:23.188204+00:00",
+   "stamp": "072f31588ba6b2e0"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r70",
+   "at": "2026-11-15T17:03:18.749466+00:00",
+   "stamp": "f2a31bd9e9e8c2fb"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r75",
+   "at": "2026-11-16T10:58:04.933767+00:00",
+   "stamp": "00b35cea50156de9"
+  }
+ ],
+ "reviews": [],
+ "issues": [],
+ "problems": [],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_2618_1968",
+   "op": "insert",
+   "source_ref": "(A)",
+   "path": "schedule 2 › ministry Ministry of Tourism and Civil Aviation › entry 8",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_2618_1968",
+   "op": "replace",
+   "source_ref": "(B)(a)",
+   "path": "schedule 2 › ministry Ministry of Works, Housing and Supply › department Department of Works and Housing › entry 8",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_2618_1968",
+   "op": "omit",
+   "source_ref": "(B)(b)",
+   "path": "schedule 2 › ministry Ministry of Works, Housing and Supply › department Department of Works and Housing › entry 14",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

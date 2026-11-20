@@ -1,0 +1,434 @@
+{
+ "file": "1_Upload_151.pdf",
+ "kind": "amendment",
+ "series": 114,
+ "date": "1976-03-12",
+ "govdoc": "aob-ammend_/output/1_Upload_151.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826695.1820314,
+ "edits_file": "aob-ammend_/conf/1_Upload_151.pdf.edits.yml",
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_151.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:55:22.540281+00:00",
+  "sha256": "e009de05da7e36602ef05d2a075892db01d629bef23c0e3974c22d7b28038bc1",
+  "pages": 16
+ },
+ "edits": [
+  {
+   "run": "h1",
+   "by": "claude",
+   "at": "2026-11-12T18:01:00+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r1.w227",
+     "before": {
+      "text": "(1)"
+     },
+     "after": {
+      "text": "(i)"
+     }
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-12T12:45:28.445541+00:00",
+   "stamp": "9cd4a7025eea0bb8"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r58",
+   "at": "2026-11-15T12:42:45.778995+00:00",
+   "stamp": "ad0283b1f4430820"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r59",
+   "at": "2026-11-15T12:42:48.426073+00:00",
+   "stamp": "83a7cbfd621457f7"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r60",
+   "at": "2026-11-15T12:42:50.751885+00:00",
+   "stamp": "4f051bab98ebc4cc"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r69",
+   "at": "2026-11-15T16:25:03.451193+00:00",
+   "stamp": "b388e842b7760cc4",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r70",
+   "at": "2026-11-15T16:25:05.540102+00:00",
+   "stamp": "efdb1d700466a4f7",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r71",
+   "at": "2026-11-15T16:25:07.545425+00:00",
+   "stamp": "9180046c357ee56d",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r77",
+   "at": "2026-11-15T16:57:38.131825+00:00",
+   "stamp": "852e33bb9138976c"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r78",
+   "at": "2026-11-15T17:03:52.655420+00:00",
+   "stamp": "b854c5893835d179"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r83",
+   "at": "2026-11-16T10:58:15.050419+00:00",
+   "stamp": "3b766cc2454b6517"
+  }
+ ],
+ "reviews": [],
+ "issues": [
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 17: its quoted text runs across a page break",
+   "target": "r71.rel17",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 20: its quoted text runs across a page break",
+   "target": "r71.rel20",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 22: its quoted text runs across a page break",
+   "target": "r71.rel22",
+   "status": "open"
+  }
+ ],
+ "problems": [
+  {
+   "series": 114,
+   "seq": 16,
+   "code": "old_words_missing",
+   "severity": "error",
+   "message": "change 16: the words to substitute are not in schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading VIII › entry 33",
+   "cause": "words_differ"
+  },
+  {
+   "series": 114,
+   "seq": 21,
+   "code": "old_path_missing",
+   "severity": "error",
+   "message": "change 21: no entry 25A under schedule 2 › ministry MINISTRY OF LABOUR",
+   "cause": "entry_not_in_state"
+  },
+  {
+   "series": 174,
+   "seq": 8,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading I › entry 5A is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
+  },
+  {
+   "series": 174,
+   "seq": 10,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading III › entry 11 is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
+  },
+  {
+   "series": 174,
+   "seq": 11,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading III › entry 11A is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
+  },
+  {
+   "series": 174,
+   "seq": 12,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading IV › entry 12 is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
+  },
+  {
+   "series": 174,
+   "seq": 13,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading V › entry 14 is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
+  },
+  {
+   "series": 174,
+   "seq": 13,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading V › entry 22 reads differently in 1_Upload_212.pdf than in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  },
+  {
+   "series": 174,
+   "seq": 14,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading V › entry 29A is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
+  },
+  {
+   "series": 174,
+   "seq": 14,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading V › entry 29C is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
+  },
+  {
+   "series": 174,
+   "seq": 15,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading VIIA is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
+  }
+ ],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_203E_1976",
+   "op": "replace",
+   "source_ref": "2(i)",
+   "path": "schedule 1 › entry 6",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_203E_1976",
+   "op": "insert",
+   "source_ref": "2(ii)",
+   "path": "schedule 1 › entry 6",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_203E_1976",
+   "op": "replace",
+   "source_ref": "3(a)(1)",
+   "path": "schedule 2 › ministry MINISTRY OF EDUCATION AND SOCIAL WELFARE › department DEPARTMENT OF SOCIAL WELFARE › entry 1",
+   "status": "applied"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_203E_1976",
+   "op": "replace",
+   "source_ref": "3(a)(il)",
+   "path": "schedule 2 › ministry MINISTRY OF EDUCATION AND SOCIAL WELFARE › department DEPARTMENT OF SOCIAL WELFARE › entry 23",
+   "status": "applied"
+  },
+  {
+   "seq": 5,
+   "doc_id": "GOI_SO_203E_1976",
+   "op": "replace",
+   "source_ref": "3(a)(iii)",
+   "path": "schedule 2 › ministry MINISTRY OF EDUCATION AND SOCIAL WELFARE › department DEPARTMENT OF SOCIAL WELFARE › entry 24",
+   "status": "applied"
+  },
+  {
+   "seq": 6,
+   "doc_id": "GOI_SO_203E_1976",
+   "op": "omit",
+   "source_ref": "3(b)(1)",
+   "path": "schedule 2 › ministry MINISTRY OF FINANCE › department DEPARTMENT OF BANKING",
+   "status": "applied"
+  },
+  {
+   "seq": 7,
+   "doc_id": "GOI_SO_203E_1976",
+   "op": "replace",
+   "source_ref": "3(b)(i)",
+   "path": "schedule 2 › ministry MINISTRY OF FINANCE › department DEPARTMENT OF ECONOMIC AFFAIRS",
+   "status": "applied"
+  },
+  {
+   "seq": 8,
+   "doc_id": "GOI_SO_203E_1976",
+   "op": "insert",
+   "source_ref": "3(b)(iii)(a)",
+   "path": "schedule 2 › ministry MINISTRY OF FINANCE › department DEPARTMENT OF ECONOMIC AFFAIRS › group_heading I › entry 5",
+   "status": "applied"
+  },
+  {
+   "seq": 9,
+   "doc_id": "GOI_SO_203E_1976",
+   "op": "insert",
+   "source_ref": "3(b)(iii)(b)",
+   "path": "schedule 2 › ministry MINISTRY OF FINANCE › department DEPARTMENT OF ECONOMIC AFFAIRS › group_heading II › entry 8",
+   "status": "applied"
+  },
+  {
+   "seq": 10,
+   "doc_id": "GOI_SO_203E_1976",
+   "op": "replace",
+   "source_ref": "3(b)(iii)(c)(i)",
+   "path": "schedule 2 › ministry MINISTRY OF FINANCE › department DEPARTMENT OF ECONOMIC AFFAIRS › group_heading III › entry 11",
+   "status": "applied"
+  },
+  {
+   "seq": 11,
+   "doc_id": "GOI_SO_203E_1976",
+   "op": "insert",
+   "source_ref": "3(b)(iii)(c)(i)",
+   "path": "schedule 2 › ministry MINISTRY OF FINANCE › department DEPARTMENT OF ECONOMIC AFFAIRS › group_heading III › entry 11",
+   "status": "applied"
+  },
+  {
+   "seq": 12,
+   "doc_id": "GOI_SO_203E_1976",
+   "op": "replace",
+   "source_ref": "3(b)(iii)(d)(1)",
+   "path": "schedule 2 › ministry MINISTRY OF FINANCE › department DEPARTMENT OF ECONOMIC AFFAIRS › group_heading IV › entry 12",
+   "status": "applied"
+  },
+  {
+   "seq": 13,
+   "doc_id": "GOI_SO_203E_1976",
+   "op": "replace",
+   "source_ref": "3(b)(iii)(e)(i)",
+   "path": "schedule 2 › ministry MINISTRY OF FINANCE › department DEPARTMENT OF ECONOMIC AFFAIRS › group_heading V › entry 14 ; schedule 2 › ministry MINISTRY OF FINANCE › department DEPARTMENT OF ECONOMIC AFFAIRS › group_heading V › entry 22",
+   "status": "applied"
+  },
+  {
+   "seq": 14,
+   "doc_id": "GOI_SO_203E_1976",
+   "op": "insert",
+   "source_ref": "3(b)(iii)(e)(ii)",
+   "path": "schedule 2 › ministry MINISTRY OF FINANCE › department DEPARTMENT OF ECONOMIC AFFAIRS › group_heading V › entry 29",
+   "status": "applied"
+  },
+  {
+   "seq": 15,
+   "doc_id": "GOI_SO_203E_1976",
+   "op": "insert",
+   "source_ref": "3(b)(iii)(f)",
+   "path": "schedule 2 › ministry MINISTRY OF FINANCE › department DEPARTMENT OF ECONOMIC AFFAIRS › entry 32",
+   "status": "applied"
+  },
+  {
+   "seq": 16,
+   "doc_id": "GOI_SO_203E_1976",
+   "op": "substitute_text",
+   "source_ref": "3(b)(iii)(g)",
+   "path": "schedule 2 › ministry MINISTRY OF FINANCE › department DEPARTMENT OF ECONOMIC AFFAIRS › group_heading VIII › entry 33",
+   "status": "not_applied",
+   "problem": "change 16: the words to substitute are not in schedule 2 › ministry MINISTRY OF FINANCE › department A › group_heading VIII › entry 33",
+   "code": "old_words_missing",
+   "cause": "words_differ",
+   "known": "words"
+  },
+  {
+   "seq": 17,
+   "doc_id": "GOI_SO_203E_1976",
+   "op": "insert",
+   "source_ref": "3(b)(iii)(h)",
+   "path": "schedule 2 › ministry MINISTRY OF FINANCE › department DEPARTMENT OF ECONOMIC AFFAIRS › entry 33",
+   "status": "applied"
+  },
+  {
+   "seq": 18,
+   "doc_id": "GOI_SO_203E_1976",
+   "op": "replace",
+   "source_ref": "3(b)(iv)",
+   "path": "schedule 2 › ministry MINISTRY OF FINANCE › department DEPARTMENT OF EXPENDITURE",
+   "status": "applied"
+  },
+  {
+   "seq": 19,
+   "doc_id": "GOI_SO_203E_1976",
+   "op": "omit",
+   "source_ref": "3(b)(v)",
+   "path": "schedule 2 › ministry MINISTRY OF FINANCE › department DEPARTMENT OF REVENUE AND INSURANCE",
+   "status": "applied"
+  },
+  {
+   "seq": 20,
+   "doc_id": "GOI_SO_203E_1976",
+   "op": "insert",
+   "source_ref": "3(c)",
+   "path": "schedule 2 › ministry MINISTRY OF FINANCE",
+   "status": "applied"
+  },
+  {
+   "seq": 21,
+   "doc_id": "GOI_SO_203E_1976",
+   "op": "replace",
+   "source_ref": "3(d)",
+   "path": "schedule 2 › ministry MINISTRY OF LABOUR › entry 5 ; schedule 2 › ministry MINISTRY OF LABOUR › entry 25A",
+   "status": "not_applied",
+   "problem": "change 21: no entry 25A under schedule 2 › ministry MINISTRY OF LABOUR",
+   "code": "old_path_missing",
+   "cause": "entry_not_in_state",
+   "known": "entries"
+  },
+  {
+   "seq": 22,
+   "doc_id": "GOI_SO_203E_1976",
+   "op": "replace",
+   "source_ref": "3(e)",
+   "path": "schedule 2 › ministry MINISTRY OF SUPPLY AND REHABILITATION › department DEPARTMENT OF REHABILITATION",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

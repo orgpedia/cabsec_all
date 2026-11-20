@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_533.pdf",
     "sha256": "f25558924a4c1981d519e386e6066f8ee7034031a6e5b1e4dfaf86c21fc7c080",
     "govdoc": "1_Upload_533.pdf.govdoc.json.zst",
-    "revision": 109
+    "revision": 133
   },
   "documents": [
     {
@@ -29,9 +29,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "3",
+          "version": "4",
           "model": "gemini-4-argon",
-          "at": "2026-11-12T12:57:34.358677+00:00"
+          "at": "2026-11-15T16:25:17.213064+00:00"
         },
         "ops": [
           {
@@ -39,7 +39,7 @@
             "source_ref": "2(a)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r73.rel1",
+            "relation": "r126.rel1",
             "target": {
               "cited": [
                 {
@@ -226,7 +226,7 @@
             "source_ref": "2(b)(i)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r73.rel2",
+            "relation": "r126.rel2",
             "target": {
               "cited": [
                 {
@@ -285,7 +285,7 @@
             "source_ref": "2(b)(ii)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r73.rel3",
+            "relation": "r126.rel3",
             "target": {
               "cited": [
                 {
@@ -344,7 +344,7 @@
             "source_ref": "2(b)(iii)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r73.rel4",
+            "relation": "r126.rel4",
             "position": "after",
             "anchor": {
               "cited": [
@@ -411,7 +411,7 @@
             "source_ref": "2(c)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r73.rel5",
+            "relation": "r126.rel5",
             "target": {
               "cited": [
                 {
@@ -725,7 +725,7 @@
             "source_ref": "2(D)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r73.rel6",
+            "relation": "r126.rel6",
             "target": {
               "cited": [
                 {
@@ -864,7 +864,7 @@
               {
                 "type": "entry",
                 "num": "20",
-                "text": "21. Legislation relating to shipping and navigation on inland waterways as regards mechanically propelled vessels and the carriage of passengers and goods on inland waterways. 4151 GI/97 10"
+                "text": "21. Legislation relating to shipping and navigation on inland waterways as regards mechanically propelled vessels and the carriage of passengers and goods on inland waterways. 10"
               },
               {
                 "type": "part",
@@ -1112,7 +1112,7 @@
             "source_ref": "2(c)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r73.rel7",
+            "relation": "r126.rel7",
             "position": "after",
             "anchor": {
               "cited": [

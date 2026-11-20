@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_319.pdf",
     "sha256": "d53b85aa6c4f680ed9508d29190ccbba10916b2623612418af090379a33245dc",
     "govdoc": "1_Upload_319.pdf.govdoc.json.zst",
-    "revision": 145
+    "revision": 169
   },
   "documents": [
     {
@@ -29,9 +29,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "3",
+          "version": "4",
           "model": "gemini-4-argon",
-          "at": "2026-11-12T12:57:17.887930+00:00"
+          "at": "2026-11-15T16:25:06.903347+00:00"
         },
         "ops": [
           {
@@ -39,7 +39,7 @@
             "source_ref": "2(1)(a)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r109.rel1",
+            "relation": "r162.rel1",
             "target": {
               "cited": [
                 {
@@ -99,7 +99,7 @@
             "source_ref": "2(1)(b)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r109.rel2",
+            "relation": "r162.rel2",
             "target": {
               "cited": [
                 {
@@ -151,7 +151,7 @@
             "source_ref": "2(1)(c)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r109.rel3",
+            "relation": "r162.rel3",
             "target": {
               "cited": [
                 {
@@ -223,7 +223,7 @@
             "source_ref": "2(2)(A)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r109.rel4",
+            "relation": "r162.rel4",
             "target": {
               "cited": [
                 {
@@ -289,7 +289,7 @@
             "source_ref": "2(2)(B)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r109.rel5",
+            "relation": "r162.rel5",
             "target": {
               "cited": [
                 {
@@ -348,7 +348,7 @@
             "source_ref": "2(2)(C)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r109.rel6",
+            "relation": "r162.rel6",
             "target": {
               "cited": [
                 {
@@ -400,7 +400,7 @@
             "source_ref": "2(2)(D)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r109.rel7",
+            "relation": "r162.rel7",
             "target": {
               "cited": [
                 {
@@ -765,7 +765,7 @@
               {
                 "type": "entry",
                 "num": "10",
-                "text": "Motor vehicles legislation. 2690 GI/011-2 2 Printed by the Manager, Govt. of India Press"
+                "text": "Motor vehicles legislation."
               },
               {
                 "type": "entry",

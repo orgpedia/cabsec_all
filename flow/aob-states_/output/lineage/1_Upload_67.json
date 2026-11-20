@@ -1,0 +1,198 @@
+{
+ "file": "1_Upload_67.pdf",
+ "kind": "amendment",
+ "series": 34,
+ "date": "1964-09-10",
+ "govdoc": "aob-ammend_/output/1_Upload_67.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826685.764471,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_67.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T14:02:19.164905+00:00",
+  "sha256": "49e4ddf0822ebc2b4c11ba878229d2d69c6ea4631a115f634714188132506574",
+  "pages": 2
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-12T12:34:08.731440+00:00",
+   "stamp": "72030f3773b911c1"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r50",
+   "at": "2026-11-15T12:41:42.314106+00:00",
+   "stamp": "3258860e6779522f"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r51",
+   "at": "2026-11-15T12:41:44.922325+00:00",
+   "stamp": "3ba342f4696738ac"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r52",
+   "at": "2026-11-15T12:41:46.930547+00:00",
+   "stamp": "003618749f4e2230"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r61",
+   "at": "2026-11-15T16:24:07.430037+00:00",
+   "stamp": "9aea56719edfe4f8",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r62",
+   "at": "2026-11-15T16:24:09.112709+00:00",
+   "stamp": "3620b8af8a0cec42",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r63",
+   "at": "2026-11-15T16:24:10.850131+00:00",
+   "stamp": "0e80ca17ae97d6e3",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r69",
+   "at": "2026-11-15T16:57:24.111083+00:00",
+   "stamp": "f9d386c96517a57a"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r70",
+   "at": "2026-11-15T17:03:20.440127+00:00",
+   "stamp": "5338f66e96a87662"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r75",
+   "at": "2026-11-16T10:58:05.756223+00:00",
+   "stamp": "cc73363ba5545602"
+  }
+ ],
+ "reviews": [],
+ "issues": [
+  {
+   "code": "aob:read_path_unsure",
+   "severity": "warning",
+   "message": "change 6: its path could mean more than one part",
+   "target": "r63.rel6",
+   "status": "open"
+  }
+ ],
+ "problems": [
+  {
+   "series": 34,
+   "seq": 2,
+   "code": "old_path_missing",
+   "severity": "error",
+   "message": "change 2: no group_heading (iv) under schedule 2 › ministry MINISTRY OF HOME AFFAIRS",
+   "cause": "group_not_found"
+  }
+ ],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_3315_1964",
+   "op": "replace",
+   "source_ref": "(1)",
+   "path": "schedule 2 › ministry Ministry of Finance › department Depart- ment of Revenue & Company Law › entry 10A › item vi",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_3315_1964",
+   "op": "omit",
+   "source_ref": "(2)",
+   "path": "schedule 2 › ministry Ministry of Home Affairs › group_heading (iv) ; schedule 2 › ministry Ministry of Home Affairs › entry 125",
+   "status": "not_applied",
+   "problem": "change 2: no group_heading (iv) under schedule 2 › ministry MINISTRY OF HOME AFFAIRS",
+   "code": "old_path_missing",
+   "cause": "group_not_found",
+   "known": "home_affairs"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_3315_1964",
+   "op": "insert",
+   "source_ref": "(3)",
+   "path": "schedule 2 › ministry Ministry of Industry & Supply › department Department of Industry › entry 22",
+   "status": "applied"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_3315_1964",
+   "op": "omit",
+   "source_ref": "(4)(a)",
+   "path": "schedule 2 › ministry Ministry of Petroleum & Chemicals › department Department of Chemicals › entry 20",
+   "status": "applied"
+  },
+  {
+   "seq": 5,
+   "doc_id": "GOI_SO_3315_1964",
+   "op": "insert",
+   "source_ref": "(4)(b)",
+   "path": "schedule 2 › ministry Ministry of Petroleum & Chemicals › department Department of Chemicals › entry 21",
+   "status": "applied"
+  },
+  {
+   "seq": 6,
+   "doc_id": "GOI_SO_3315_1964",
+   "op": "omit",
+   "source_ref": "(5)",
+   "path": "schedule 2 › ministry Ministry of Rehabilitation › note 2",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

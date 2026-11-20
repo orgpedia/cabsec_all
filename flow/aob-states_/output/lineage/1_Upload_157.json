@@ -1,0 +1,237 @@
+{
+ "file": "1_Upload_157.pdf",
+ "kind": "amendment",
+ "series": 120,
+ "date": "1977-04-07",
+ "govdoc": "aob-ammend_/output/1_Upload_157.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826683.5331233,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_157.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:55:31.274111+00:00",
+  "sha256": "28a0083c8b390dd3647d246a412b6d7bc899ebc263f3fcf8056aa060b2f9198b",
+  "pages": 12
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-12T12:32:21.361122+00:00",
+   "stamp": "1e360ee7d0ba52ea"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r50",
+   "at": "2026-11-15T12:41:26.762966+00:00",
+   "stamp": "cb20b60f7defa07a"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r51",
+   "at": "2026-11-15T12:41:29.062841+00:00",
+   "stamp": "13005c4af63b94db"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r52",
+   "at": "2026-11-15T12:41:30.839917+00:00",
+   "stamp": "c0b94d01e8c03ece"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r61",
+   "at": "2026-11-15T16:23:57.076379+00:00",
+   "stamp": "aa851e1efabdaa4f",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r62",
+   "at": "2026-11-15T16:23:58.771124+00:00",
+   "stamp": "b48442b9bc558028",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r63",
+   "at": "2026-11-15T16:24:00.185973+00:00",
+   "stamp": "fa35b85fb24a69c3",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r69",
+   "at": "2026-11-15T16:57:20.858486+00:00",
+   "stamp": "9eaa569892e0901b"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r70",
+   "at": "2026-11-15T17:03:13.127170+00:00",
+   "stamp": "4b0b365a2d439878"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r75",
+   "at": "2026-11-16T10:58:03.437039+00:00",
+   "stamp": "d62e512de824ac49"
+  }
+ ],
+ "reviews": [],
+ "issues": [
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 1: its quoted text runs across a page break",
+   "target": "r63.rel1",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 7: its quoted text runs across a page break",
+   "target": "r63.rel7",
+   "status": "open"
+  }
+ ],
+ "problems": [
+  {
+   "series": 174,
+   "seq": 7,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry DEPARTMENT OF PERSONNEL AND ADMINISTRATIVE REFORMS is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
+  },
+  {
+   "series": 174,
+   "seq": 8,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry CABINET SECRETARIAT › entry 1 is in 1_Upload_212.pdf but not in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  },
+  {
+   "series": 174,
+   "seq": 8,
+   "code": "new_missing",
+   "severity": "warning",
+   "message": "schedule 2 › ministry CABINET SECRETARIAT › entry 2 is in 1_Upload_212.pdf but not in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  },
+  {
+   "series": 174,
+   "seq": 8,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry CABINET SECRETARIAT › text is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
+  }
+ ],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_291E_1977",
+   "op": "replace",
+   "source_ref": "2(1)",
+   "path": "schedule 1 › entry 8",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_291E_1977",
+   "op": "replace",
+   "source_ref": "2(11)",
+   "path": "schedule 1 › entry 9",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_291E_1977",
+   "op": "replace",
+   "source_ref": "2(111)",
+   "path": "schedule 1 › entry 29",
+   "status": "applied"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_291E_1977",
+   "op": "insert",
+   "source_ref": "3(i)",
+   "path": "schedule 2 › ministry DEPARTMENT OF REVENUE AND BANKING › entry 14",
+   "status": "applied"
+  },
+  {
+   "seq": 5,
+   "doc_id": "GOI_SO_291E_1977",
+   "op": "replace",
+   "source_ref": "3(ii)",
+   "path": "schedule 2 › ministry MINISTRY OF HEALTH AND FAMILY PLANNING",
+   "status": "applied"
+  },
+  {
+   "seq": 6,
+   "doc_id": "GOI_SO_291E_1977",
+   "op": "replace",
+   "source_ref": "3(i)",
+   "path": "schedule 2 › ministry MINISTRY OF HEALTH AND FAMILY WELFARE › department DEPARTMENT OF FAMILY PLANNING",
+   "status": "applied"
+  },
+  {
+   "seq": 7,
+   "doc_id": "GOI_SO_291E_1977",
+   "op": "insert",
+   "source_ref": "3(lv)",
+   "path": "schedule 2 › ministry MINISTRY OF HOME AFFAIRS › department DEPARTMENT OF OFFICIAL LANGUAGE",
+   "status": "applied"
+  },
+  {
+   "seq": 8,
+   "doc_id": "GOI_SO_291E_1977",
+   "op": "replace",
+   "source_ref": "3(v)",
+   "path": "schedule 2 › ministry CABINET SECRETARIAT",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

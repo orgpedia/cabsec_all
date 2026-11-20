@@ -1,0 +1,397 @@
+{
+ "file": "1_Upload_278.pdf",
+ "kind": "amendment",
+ "series": 238,
+ "date": "1998-05-23",
+ "govdoc": "aob-ammend_/output/1_Upload_278.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826682.965633,
+ "edits_file": "aob-ammend_/conf/1_Upload_278.pdf.edits.yml",
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_278.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:58:34.770419+00:00",
+  "sha256": "1152b7ff7e464cb754f8b24e6c1d03ddbd52b7e1d35c0af05301b572abce3fdb",
+  "pages": 8
+ },
+ "edits": [
+  {
+   "run": "h1",
+   "by": "claude",
+   "at": "2026-11-12T05:03:00+00:00",
+   "edits": [
+    {
+     "op": "add_word",
+     "target": "h1.w1",
+     "before": null,
+     "after": {
+      "page": 5,
+      "word": {
+       "id": "h1.w1",
+       "text": "of",
+       "bbox": [
+        701,
+        1178,
+        709,
+        1217
+       ]
+      },
+      "line": "r2.l192",
+      "after": "r1.w1862"
+     }
+    }
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-11T03:08:23.331133+00:00",
+   "stamp": "5fd9ef5bfd3e3150"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r121",
+   "at": "2026-11-15T12:41:25.990535+00:00",
+   "stamp": "f7b1b63ce8ed2863"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r122",
+   "at": "2026-11-15T12:41:28.210528+00:00",
+   "stamp": "77e1f94e5cb8c4b6"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r123",
+   "at": "2026-11-15T12:41:30.244983+00:00",
+   "stamp": "323fd73289fbf374"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r132",
+   "at": "2026-11-15T16:23:56.500845+00:00",
+   "stamp": "6d3e683e83864af2",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r133",
+   "at": "2026-11-15T16:23:58.177275+00:00",
+   "stamp": "84f439e14d14eafd",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r134",
+   "at": "2026-11-15T16:23:59.507479+00:00",
+   "stamp": "2ca9f3d4e6928566",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r140",
+   "at": "2026-11-15T16:57:20.166869+00:00",
+   "stamp": "8fa8ec041a7d8a31"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r141",
+   "at": "2026-11-15T17:03:11.977400+00:00",
+   "stamp": "c13b56258d9d90a1"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r146",
+   "at": "2026-11-16T10:58:02.872912+00:00",
+   "stamp": "eb971a5ff10cc2b7"
+  }
+ ],
+ "reviews": [],
+ "issues": [
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 8: its quoted text runs across a page break",
+   "target": "r134.rel8",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 14: its quoted text runs across a page break",
+   "target": "r134.rel14",
+   "status": "open"
+  },
+  {
+   "code": "aob:new_hindi_differs",
+   "severity": "info",
+   "message": "schedule 1 › ministry 35's Hindi name reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied",
+   "target": "r134.rel7",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_one_heading",
+   "severity": "info",
+   "message": "change 8: the heading Ministry of Civil Aviation and Tourism (Nagar Vimanan Aur Paryatan Mantralaya) and its sub-heading  Department of Civil Aviation put as one heading, MINISTRY OF CIVIL AVAIATION",
+   "target": "r134.rel8",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
+   "message": "change 9: ministry MINISTRY OF CIVIL AVIATION taken for ministry MINISTRY OF CIVIL AVAIATION, named loosely",
+   "target": "r134.rel9",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
+   "message": "change 12: ministry MINISTRY OF LAW, JUSTICE AND COMPANY AFFAIRS taken for ministry MINISTRY OF LAW, JUSTCE AND COMPANY AFFAIRS(, named loosely",
+   "target": "r134.rel12",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_put_again",
+   "severity": "info",
+   "message": "change 15: MINISTRY OF TOURISM put in again; the one there before omitted, a schedule holding one unit by a name",
+   "target": "r134.rel15",
+   "status": "open"
+  }
+ ],
+ "problems": [
+  {
+   "series": 271,
+   "seq": 7,
+   "code": "new_hindi_differs",
+   "severity": "info",
+   "message": "schedule 1 › ministry 35's Hindi name reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  },
+  {
+   "series": 271,
+   "seq": 8,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF CIVIL AVAIATION is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 12,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF LAW AND JUSTICE › department C › paragraph is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+  },
+  {
+   "series": 271,
+   "seq": 16,
+   "code": "new_hindi_differs",
+   "severity": "info",
+   "message": "schedule 2 › ministry MINISTRY OF SOCIAL JUSTICE AND EMPOWERMENT's Hindi name reads differently in 1_Upload_535.pdf than in 1_Upload_212.pdf with the amendments up to 270 applied"
+  }
+ ],
+ "rules": [
+  {
+   "rule": "one_heading",
+   "seq": 8,
+   "note": "change 8: the heading Ministry of Civil Aviation and Tourism (Nagar Vimanan Aur Paryatan Mantralaya) and its sub-heading  Department of Civil Aviation put as one heading, MINISTRY OF CIVIL AVAIATION",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "loose",
+   "seq": 9,
+   "note": "change 9: ministry MINISTRY OF CIVIL AVIATION taken for ministry MINISTRY OF CIVIL AVAIATION, named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "loose",
+   "seq": 12,
+   "note": "change 12: ministry MINISTRY OF LAW, JUSTICE AND COMPANY AFFAIRS taken for ministry MINISTRY OF LAW, JUSTCE AND COMPANY AFFAIRS(, named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "put_again",
+   "seq": 15,
+   "note": "change 15: MINISTRY OF TOURISM put in again; the one there before omitted, a schedule holding one unit by a name",
+   "status": "unreviewed",
+   "decided_at": "2026-11-15"
+  }
+ ],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_455E_1998",
+   "op": "replace",
+   "source_ref": "2(1)(a)",
+   "path": "schedule 1 › ministry Ministry of Civil Aviation and Tourism",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_455E_1998",
+   "op": "omit",
+   "source_ref": "2(1)(b)",
+   "path": "schedule 1 › ministry Ministry of Finance › department Department of company Affairs",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_455E_1998",
+   "op": "replace",
+   "source_ref": "2(1)(c)",
+   "path": "schedule 1 › ministry Ministry of Law and Justice",
+   "status": "applied"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_455E_1998",
+   "op": "omit",
+   "source_ref": "2(1)(d)",
+   "path": "schedule 1 › ministry Ministry of Mines",
+   "status": "applied"
+  },
+  {
+   "seq": 5,
+   "doc_id": "GOI_SO_455E_1998",
+   "op": "replace",
+   "source_ref": "2(1)(e)",
+   "path": "schedule 1 › ministry Ministry of Steel",
+   "status": "applied"
+  },
+  {
+   "seq": 6,
+   "doc_id": "GOI_SO_455E_1998",
+   "op": "insert",
+   "source_ref": "2(1)(f)",
+   "path": "schedule 1 › ministry Ministry of Textiles",
+   "status": "applied"
+  },
+  {
+   "seq": 7,
+   "doc_id": "GOI_SO_455E_1998",
+   "op": "replace",
+   "source_ref": "2(1)(g)",
+   "path": "schedule 1 › ministry Ministry of Welfare",
+   "status": "applied"
+  },
+  {
+   "seq": 8,
+   "doc_id": "GOI_SO_455E_1998",
+   "op": "replace",
+   "source_ref": "2(2)(a)(i)",
+   "path": "schedule 2 › ministry MINISTRY OF CIVIL AVIATION AND TOURISM › department DEPARTMENT OF CIVIL AVIATION",
+   "status": "applied"
+  },
+  {
+   "seq": 9,
+   "doc_id": "GOI_SO_455E_1998",
+   "op": "omit",
+   "source_ref": "2(2)(a)(ii)",
+   "path": "schedule 2 › ministry MINISTRY OF CIVIL AVIATION › department DEPARTMENT OF TOURISM",
+   "status": "applied"
+  },
+  {
+   "seq": 10,
+   "doc_id": "GOI_SO_455E_1998",
+   "op": "omit",
+   "source_ref": "2(2)(b)",
+   "path": "schedule 2 › ministry MINISTRY OF FINANCE › department DEPARTMENT OF COMPANY AFFAIRS",
+   "status": "applied"
+  },
+  {
+   "seq": 11,
+   "doc_id": "GOI_SO_455E_1998",
+   "op": "replace",
+   "source_ref": "2(2)(c)(i)",
+   "path": "schedule 2 › ministry MINISTRY OF LAW AND JUSTICE",
+   "status": "applied"
+  },
+  {
+   "seq": 12,
+   "doc_id": "GOI_SO_455E_1998",
+   "op": "insert",
+   "source_ref": "2(2)(c)(ii)",
+   "path": "schedule 2 › ministry MINISTRY OF LAW, JUSTICE AND COMPANY AFFAIRS › department DEPARTMENT OF JUSTICE",
+   "status": "applied"
+  },
+  {
+   "seq": 13,
+   "doc_id": "GOI_SO_455E_1998",
+   "op": "omit",
+   "source_ref": "2(2)(d)",
+   "path": "schedule 2 › ministry MINISTRY OF MINES",
+   "status": "applied"
+  },
+  {
+   "seq": 14,
+   "doc_id": "GOI_SO_455E_1998",
+   "op": "replace",
+   "source_ref": "2(2)(e)",
+   "path": "schedule 2 › ministry MINISTRY OF STEEL",
+   "status": "applied"
+  },
+  {
+   "seq": 15,
+   "doc_id": "GOI_SO_455E_1998",
+   "op": "insert",
+   "source_ref": "2(2)(b)",
+   "path": "schedule 2 › ministry MINISTRY OF TEXTILES",
+   "status": "applied"
+  },
+  {
+   "seq": 16,
+   "doc_id": "GOI_SO_455E_1998",
+   "op": "replace",
+   "source_ref": "2(2)(g)",
+   "path": "schedule 2 › ministry MINISTRY OF WELFARE",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

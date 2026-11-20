@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_98.pdf",
     "sha256": "3ae38ae405b428489b79238ce1c9abab1b022cd5a807a013bbe8b1400a76ebce",
     "govdoc": "1_Upload_98.pdf.govdoc.json.zst",
-    "revision": 46
+    "revision": 70
   },
   "documents": [
     {
@@ -29,9 +29,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "3",
+          "version": "4",
           "model": "gemini-4-argon",
-          "at": "2026-11-12T13:49:06.352930+00:00"
+          "at": "2026-11-15T16:24:10.069059+00:00"
         },
         "ops": [
           {
@@ -39,7 +39,7 @@
             "source_ref": "(1)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r10.rel1",
+            "relation": "r63.rel1",
             "target": {
               "cited": [
                 {
@@ -95,7 +95,7 @@
             "source_ref": "(2)(a)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r10.rel2",
+            "relation": "r63.rel2",
             "position": "after",
             "anchor": {
               "cited": [
@@ -144,7 +144,9 @@
                 "text": "Sugarcane research and sugarcane development scheme."
               }
             ],
-            "flags": [],
+            "flags": [
+              "states_inferred_loose"
+            ],
             "words": [
               "r1.w216",
               "r1.w222"
@@ -166,7 +168,7 @@
             "source_ref": "(2)(b)(i)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r10.rel3",
+            "relation": "r63.rel3",
             "target": [
               {
                 "cited": [
@@ -262,7 +264,9 @@
                 "text": "Sugarcane Breeding Institute, Coimbatore."
               }
             ],
-            "flags": [],
+            "flags": [
+              "states_inferred_loose"
+            ],
             "words": [
               "r1.w251",
               "r1.w257"
@@ -284,7 +288,7 @@
             "source_ref": "(2)(b)(ii)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel4",
+            "relation": "r63.rel4",
             "target": {
               "cited": [
                 {
@@ -328,7 +332,9 @@
                 "text": "Matters relating to the Development Council for Sugar Industry New Delhi."
               }
             ],
-            "flags": [],
+            "flags": [
+              "states_inferred_loose"
+            ],
             "words": [
               "r1.w290",
               "r1.w296"
@@ -350,7 +356,7 @@
             "source_ref": "(3)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r10.rel5",
+            "relation": "r63.rel5",
             "position": "after",
             "anchor": {
               "cited": [
@@ -421,7 +427,7 @@
             "source_ref": "(4)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r10.rel6",
+            "relation": "r63.rel6",
             "position": "after",
             "anchor": {
               "cited": [
@@ -484,7 +490,7 @@
             "source_ref": "(5)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r10.rel7",
+            "relation": "r63.rel7",
             "position": "after",
             "anchor": {
               "cited": [

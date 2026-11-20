@@ -1,0 +1,173 @@
+{
+ "file": "1_Upload_66.pdf",
+ "kind": "amendment",
+ "series": 33,
+ "date": "1964-08-31",
+ "govdoc": "aob-ammend_/output/1_Upload_66.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826691.4299214,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_66.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T14:02:17.989952+00:00",
+  "sha256": "a7f205c814a0d652e61bc0976a43aa46d591183fff12d5af68a2dea01d16ee42",
+  "pages": 2
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-12T12:41:47.641537+00:00",
+   "stamp": "d6168a9a3ee8bbbd"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r50",
+   "at": "2026-11-15T12:42:20.812698+00:00",
+   "stamp": "d5d90c623337f677"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r51",
+   "at": "2026-11-15T12:42:23.352418+00:00",
+   "stamp": "ca77d797507344c7"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r52",
+   "at": "2026-11-15T12:42:25.267674+00:00",
+   "stamp": "feca827563c15711"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r61",
+   "at": "2026-11-15T16:24:38.612411+00:00",
+   "stamp": "434a4bf5e6f67add",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r62",
+   "at": "2026-11-15T16:24:40.759955+00:00",
+   "stamp": "db04d8799b6e6963",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r63",
+   "at": "2026-11-15T16:24:42.871716+00:00",
+   "stamp": "3fbeb725a22255e2",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r69",
+   "at": "2026-11-15T16:57:32.451182+00:00",
+   "stamp": "d74e22e3f6280916"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r70",
+   "at": "2026-11-15T17:03:39.237167+00:00",
+   "stamp": "9f498b8ce4b8ee33"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r75",
+   "at": "2026-11-16T10:58:11.422261+00:00",
+   "stamp": "dc2eb585a46a87e2"
+  }
+ ],
+ "reviews": [],
+ "issues": [],
+ "problems": [
+  {
+   "series": 33,
+   "seq": 3,
+   "code": "old_path_missing",
+   "severity": "error",
+   "message": "change 3: no group_heading (i) For the Union Territories of Delhi, Himachal Pradesh, Manipur and Tripura under schedule 2 › ministry MINISTRY OF HOME AFFAIRS › part III",
+   "cause": "group_not_found"
+  },
+  {
+   "series": 174,
+   "seq": 2,
+   "code": "new_text_differs",
+   "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF EXTERNAL AFFAIRS › entry 16 reads differently in 1_Upload_212.pdf than in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  }
+ ],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_2986_1964",
+   "op": "omit",
+   "source_ref": "(1)(a)",
+   "path": "schedule 2 › ministry Ministry of External Affairs › entry 15",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_2986_1964",
+   "op": "replace",
+   "source_ref": "(1)(b)",
+   "path": "schedule 2 › ministry Ministry of External Affairs › entry 16",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_2986_1964",
+   "op": "replace",
+   "source_ref": "(2)",
+   "path": "schedule 2 › ministry Ministry of Home Affairs › group_heading Part III-Addi- tional subjects with regard to Union Territories › group_heading (i) For the Union Territories of Delhi, Himachal Pradesh, Manipur and Tripura",
+   "status": "not_applied",
+   "problem": "change 3: no group_heading (i) For the Union Territories of Delhi, Himachal Pradesh, Manipur and Tripura under schedule 2 › ministry MINISTRY OF HOME AFFAIRS › part III",
+   "code": "old_path_missing",
+   "cause": "group_not_found",
+   "known": "home_affairs"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

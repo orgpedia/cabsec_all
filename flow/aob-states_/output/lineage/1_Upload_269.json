@@ -1,0 +1,206 @@
+{
+ "file": "1_Upload_269.pdf",
+ "kind": "amendment",
+ "series": 229,
+ "date": "1995-06-26",
+ "govdoc": "aob-ammend_/output/1_Upload_269.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826683.5616133,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_269.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:58:13.393829+00:00",
+  "sha256": "28df450d1046751ad63b788d95e53bbe49abf626df3f08f4de15dcff9cdff1c6",
+  "pages": 2
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-11T03:07:08.850855+00:00",
+   "stamp": "37992fa9dff73af0"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r113",
+   "at": "2026-11-15T12:41:26.871608+00:00",
+   "stamp": "c38e3ab56bb8f98e"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r114",
+   "at": "2026-11-15T12:41:29.149945+00:00",
+   "stamp": "5bf9dd69a0d6f29b"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r115",
+   "at": "2026-11-15T12:41:30.906648+00:00",
+   "stamp": "0a0bf27126316d2e"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r124",
+   "at": "2026-11-15T16:23:57.196629+00:00",
+   "stamp": "c886b5974d2a1eee",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r125",
+   "at": "2026-11-15T16:23:58.837826+00:00",
+   "stamp": "2fa56083915ca968",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r126",
+   "at": "2026-11-15T16:24:00.257019+00:00",
+   "stamp": "d92f945998d2dadd",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r132",
+   "at": "2026-11-15T16:57:20.934181+00:00",
+   "stamp": "611022da37c5d0dd"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r133",
+   "at": "2026-11-15T17:03:13.249847+00:00",
+   "stamp": "eafd184caf0f94e1"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r138",
+   "at": "2026-11-16T10:58:03.543067+00:00",
+   "stamp": "52fd6dd655bbd890"
+  }
+ ],
+ "reviews": [],
+ "issues": [],
+ "problems": [
+  {
+   "series": 229,
+   "seq": 2,
+   "code": "old_path_missing",
+   "severity": "error",
+   "message": "change 2: no item 8 under schedule 2 › ministry MINISTRY OF FOOD › department A › group_heading III › entry 5",
+   "cause": "items"
+  }
+ ],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_571E_1995",
+   "op": "insert",
+   "source_ref": "2(a)()",
+   "path": "schedule 2 › ministry MINISTRY OF FOOD › department DEPARTMENT OF FOOD › entry 4",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_571E_1995",
+   "op": "insert",
+   "source_ref": "2(a)(ii)",
+   "path": "schedule 2 › ministry MINISTRY OF FOOD › department DEPARTMENT OF FOOD › entry 5 › item 8",
+   "status": "not_applied",
+   "problem": "change 2: no item 8 under schedule 2 › ministry MINISTRY OF FOOD › department A › group_heading III › entry 5",
+   "code": "old_path_missing",
+   "cause": "items",
+   "known": "items"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_571E_1995",
+   "op": "replace",
+   "source_ref": "2(a)(iii)",
+   "path": "schedule 2 › ministry MINISTRY OF FOOD › department DEPARTMENT OF FOOD › entry 11",
+   "status": "applied"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_571E_1995",
+   "op": "insert",
+   "source_ref": "2(a)(iv)",
+   "path": "schedule 2 › ministry MINISTRY OF FOOD › department DEPARTMENT OF FOOD › entry 11",
+   "status": "applied"
+  },
+  {
+   "seq": 5,
+   "doc_id": "GOI_SO_571E_1995",
+   "op": "replace",
+   "source_ref": "2(b)(i)",
+   "path": "schedule 2 › ministry MINISTRY OF FOOD › department DEPARTMENT OF FOOD PROCUREMENT AND DISTRI- BUTION › entry 2",
+   "status": "applied"
+  },
+  {
+   "seq": 6,
+   "doc_id": "GOI_SO_571E_1995",
+   "op": "replace",
+   "source_ref": "2(b)(ii)",
+   "path": "schedule 2 › ministry MINISTRY OF FOOD › department DEPARTMENT OF FOOD PROCUREMENT AND DISTRI- BUTION › entry 4",
+   "status": "applied"
+  },
+  {
+   "seq": 7,
+   "doc_id": "GOI_SO_571E_1995",
+   "op": "replace",
+   "source_ref": "2(b)(iii)",
+   "path": "schedule 2 › ministry MINISTRY OF FOOD › department DEPARTMENT OF FOOD PROCUREMENT AND DISTRI- BUTION › entry 5",
+   "status": "applied"
+  },
+  {
+   "seq": 8,
+   "doc_id": "GOI_SO_571E_1995",
+   "op": "insert",
+   "source_ref": "2(c)",
+   "path": "schedule 2 › ministry MINISTRY OF HU- MAN RESOURCE DEVELOPMENT › department DEPARTMENT OF WOMEN AND CHILD DEVELOPMENT › entry 16",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

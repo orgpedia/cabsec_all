@@ -1,0 +1,161 @@
+{
+ "file": "1_Upload_251.pdf",
+ "kind": "amendment",
+ "series": 211,
+ "date": "1990-05-09",
+ "govdoc": "aob-ammend_/output/1_Upload_251.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826682.6287386,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_251.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:57:41.431391+00:00",
+  "sha256": "0dd415d9a3934adebefdc0c052550279b0a572530ecd932683383b6a1dd4762d",
+  "pages": 4
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-11T03:05:04.294578+00:00",
+   "stamp": "d97cf33b96c5c1c8"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r113",
+   "at": "2026-11-15T12:41:25.539396+00:00",
+   "stamp": "9f95b1d6d8148d84"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r114",
+   "at": "2026-11-15T12:41:27.787735+00:00",
+   "stamp": "54f67082da7ea2c0"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r115",
+   "at": "2026-11-15T12:41:29.921629+00:00",
+   "stamp": "9cca826eec1f6afc"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r124",
+   "at": "2026-11-15T16:23:56.217396+00:00",
+   "stamp": "b338021734685037",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r125",
+   "at": "2026-11-15T16:23:57.808554+00:00",
+   "stamp": "a5b22b44dd32d8aa",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r126",
+   "at": "2026-11-15T16:23:59.435943+00:00",
+   "stamp": "6caf2aaeeb60ca0e",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r132",
+   "at": "2026-11-15T16:57:19.855653+00:00",
+   "stamp": "dde2c6489c8c44dd"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r133",
+   "at": "2026-11-15T17:03:11.454751+00:00",
+   "stamp": "7635296414fc3700"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r138",
+   "at": "2026-11-16T10:58:02.612131+00:00",
+   "stamp": "7760eca0609eab0e"
+  }
+ ],
+ "reviews": [],
+ "issues": [],
+ "problems": [],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_378E_1990",
+   "op": "replace",
+   "source_ref": "2I(a)",
+   "path": "schedule 1 › ministry MINISTRY OF INDUSTRY › department DEPARTMENT OF PUBLIC ENTERPRISES",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_378E_1990",
+   "op": "insert",
+   "source_ref": "2I(b)",
+   "path": "schedule 1 › ministry MINISTRY OF PROGRAMME IMPLEMENTATION",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_378E_1990",
+   "op": "replace",
+   "source_ref": "2II(a)",
+   "path": "schedule 2 › ministry MINISTRY OF INDUSTRY › department DEPARTMENT OF PUBLIC ENTERPRISES",
+   "status": "applied"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_378E_1990",
+   "op": "replace",
+   "source_ref": "2II(b)",
+   "path": "schedule 2 › ministry MINISTRY OF PROGRAMME IMPLEMENTATION",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

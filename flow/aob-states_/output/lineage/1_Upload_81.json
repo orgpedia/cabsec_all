@@ -1,0 +1,145 @@
+{
+ "file": "1_Upload_81.pdf",
+ "kind": "amendment",
+ "series": 48,
+ "date": "1966-02-20",
+ "govdoc": "aob-ammend_/output/1_Upload_81.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826682.596218,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_81.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T14:02:36.210420+00:00",
+  "sha256": "0b12c734c82b870996d98dee7439e775d563eb317603c224b2d05dee9593386e",
+  "pages": 2
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-12T12:31:36.428082+00:00",
+   "stamp": "086dfcbb158c9018"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r50",
+   "at": "2026-11-15T12:41:25.510840+00:00",
+   "stamp": "eb1ed72a0ddfe38a"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r51",
+   "at": "2026-11-15T12:41:27.759904+00:00",
+   "stamp": "9501f5f2559856b2"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r52",
+   "at": "2026-11-15T12:41:29.898911+00:00",
+   "stamp": "16f12be7b81d4147"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r61",
+   "at": "2026-11-15T16:23:56.192661+00:00",
+   "stamp": "6d4cb43aaf886fa2",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r62",
+   "at": "2026-11-15T16:23:57.783522+00:00",
+   "stamp": "8a37e1bbc83208ee",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r63",
+   "at": "2026-11-15T16:23:59.411169+00:00",
+   "stamp": "4b3880231dc7010f",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r69",
+   "at": "2026-11-15T16:57:19.831356+00:00",
+   "stamp": "fc3ec6dbc6cd92b7"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r70",
+   "at": "2026-11-15T17:03:11.410127+00:00",
+   "stamp": "2dea4be01bd1d26c"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r75",
+   "at": "2026-11-16T10:58:02.589098+00:00",
+   "stamp": "7fa64b7567759853"
+  }
+ ],
+ "reviews": [],
+ "issues": [],
+ "problems": [],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_614_1966",
+   "op": "insert",
+   "source_ref": "(1)",
+   "path": "schedule 2 › ministry Ministry of Defence › department Department of Defence Supplies › entry 21",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_614_1966",
+   "op": "omit",
+   "source_ref": "(2)",
+   "path": "schedule 2 › ministry Ministry of Industry › entry 11",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

@@ -1,0 +1,177 @@
+{
+ "file": "1_Upload_2976.pdf",
+ "kind": "amendment",
+ "series": 360,
+ "date": "2021-04-13",
+ "govdoc": "aob-ammend_/output/1_Upload_2976.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826688.735789,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_2976.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:59:11.816921+00:00",
+  "sha256": "827dfdd4c141527808365fced1a309310f60d50f9292cfad2dd07d02c15eff5e",
+  "pages": 3
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r17",
+   "at": "2026-10-31T11:51:36.985585+00:00",
+   "stamp": "b9a9c4afb918a329"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r205",
+   "at": "2026-11-15T12:42:06.521239+00:00",
+   "stamp": "392f45d07cfb03f0"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r206",
+   "at": "2026-11-15T12:42:08.621836+00:00",
+   "stamp": "1ac7fcad71d0cac8"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r207",
+   "at": "2026-11-15T12:42:10.362152+00:00",
+   "stamp": "5464868105699a75"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r216",
+   "at": "2026-11-15T16:24:26.137739+00:00",
+   "stamp": "9d61ca1eab0a5df2",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r217",
+   "at": "2026-11-15T16:24:27.690043+00:00",
+   "stamp": "ffac7279d5525bf1",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r218",
+   "at": "2026-11-15T16:24:29.244040+00:00",
+   "stamp": "ef8d1e65f21d3cfb",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r224",
+   "at": "2026-11-15T16:57:28.638535+00:00",
+   "stamp": "25fd114b38ae7776"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r225",
+   "at": "2026-11-15T17:03:31.240541+00:00",
+   "stamp": "24a96061187649d2"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r230",
+   "at": "2026-11-16T10:58:08.716210+00:00",
+   "stamp": "e3caeba1ad1fbd3c"
+  }
+ ],
+ "reviews": [],
+ "issues": [],
+ "problems": [],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_1605E_2021",
+   "op": "replace",
+   "source_ref": "2(A)",
+   "path": "schedule 1 › ministry Ministry of Ayurveda, Yoga and Naturopathy, Unani, Siddha and Homoeopathy (AYUSH)",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_1605E_2021",
+   "op": "replace",
+   "source_ref": "2(B)(i)",
+   "path": "schedule 2 › ministry MINISTRY OF AYURVEDA, YOGA AND NATUROPATHY, UNANI, SIDDHA AND HOMOEOPATHY (AYUSH)",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_1605E_2021",
+   "op": "replace",
+   "source_ref": "2(B)(ii)(a)",
+   "path": "schedule 2 › ministry MINISTRY OF AYUSH › entry 1 ; schedule 2 › ministry MINISTRY OF AYUSH › entry 2 ; schedule 2 › ministry MINISTRY OF AYUSH › entry 3 ; schedule 2 › ministry MINISTRY OF AYUSH › entry 4",
+   "status": "applied"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_1605E_2021",
+   "op": "omit",
+   "source_ref": "2(B)(ii)(b)",
+   "path": "schedule 2 › ministry MINISTRY OF AYUSH › entry 4A",
+   "status": "applied"
+  },
+  {
+   "seq": 5,
+   "doc_id": "GOI_SO_1605E_2021",
+   "op": "replace",
+   "source_ref": "2(B)(ii)(c)(i)",
+   "path": "schedule 2 › ministry MINISTRY OF AYUSH › entry 5 › item a",
+   "status": "applied"
+  },
+  {
+   "seq": 6,
+   "doc_id": "GOI_SO_1605E_2021",
+   "op": "omit",
+   "source_ref": "2(B)(ii)(c)(ii)",
+   "path": "schedule 2 › ministry MINISTRY OF AYUSH › entry 5 › item b",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

@@ -1,0 +1,194 @@
+{
+ "file": "1_Upload_171.pdf",
+ "kind": "amendment",
+ "series": 134,
+ "date": "1979-08-10",
+ "govdoc": "aob-ammend_/output/1_Upload_171.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826688.0595562,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_171.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T13:55:47.690307+00:00",
+  "sha256": "719d9b4d3a6661faf1a481873a30d548885af47b4235e387f3fd21089d52e0e4",
+  "pages": 2
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-12T12:35:57.012825+00:00",
+   "stamp": "1fd828f27ec1b8fb"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r50",
+   "at": "2026-11-15T12:42:05.570829+00:00",
+   "stamp": "bb545b1fcc7f211b"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r51",
+   "at": "2026-11-15T12:42:07.581106+00:00",
+   "stamp": "5cc6a8d21a746268"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r52",
+   "at": "2026-11-15T12:42:09.673842+00:00",
+   "stamp": "2e2bef2d7ebe7abf"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r61",
+   "at": "2026-11-15T16:24:25.450520+00:00",
+   "stamp": "a789b806afda8f4c",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r62",
+   "at": "2026-11-15T16:24:26.958161+00:00",
+   "stamp": "7a21d567eeec4d73",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r63",
+   "at": "2026-11-15T16:24:28.502352+00:00",
+   "stamp": "44e4421ba35c5a02",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r69",
+   "at": "2026-11-15T16:57:27.879110+00:00",
+   "stamp": "34115f117b071661"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r70",
+   "at": "2026-11-15T17:03:29.956866+00:00",
+   "stamp": "53d5cbe2b6ba85c0"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r75",
+   "at": "2026-11-16T10:58:08.041434+00:00",
+   "stamp": "9e42776c65be94f8"
+  }
+ ],
+ "reviews": [],
+ "issues": [
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
+   "message": "change 3: department DEPARTMENT OF POWEK taken for department DEPARTMENT OF POWER(VI DYUT VI BHAG), named loosely",
+   "target": "r63.rel3",
+   "status": "open"
+  }
+ ],
+ "problems": [],
+ "rules": [
+  {
+   "rule": "loose",
+   "seq": 3,
+   "note": "change 3: department DEPARTMENT OF POWEK taken for department DEPARTMENT OF POWER(VI DYUT VI BHAG), named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  }
+ ],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_467E_1979",
+   "op": "replace",
+   "source_ref": "2(a)",
+   "path": "schedule 1 › entry 4A",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_467E_1979",
+   "op": "replace",
+   "source_ref": "2(b)",
+   "path": "schedule 1 › entry 19",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_467E_1979",
+   "op": "replace",
+   "source_ref": "3(a)(i)",
+   "path": "schedule 2 › ministry MINISTRY OF ENERGY › department DEPARTMENT OF POWEK",
+   "status": "applied"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_467E_1979",
+   "op": "omit",
+   "source_ref": "3(a)(ii)",
+   "path": "schedule 2 › ministry MINISTRY OF ENERGY › department DEPARTMENT OF COAL",
+   "status": "applied"
+  },
+  {
+   "seq": 5,
+   "doc_id": "GOI_SO_467E_1979",
+   "op": "replace",
+   "source_ref": "3(b)",
+   "path": "schedule 2 › ministry MINISTRY OF STEEL AND MINES",
+   "status": "applied"
+  },
+  {
+   "seq": 6,
+   "doc_id": "GOI_SO_467E_1979",
+   "op": "insert",
+   "source_ref": "3(b)",
+   "path": "schedule 2 › ministry MINISTRY OF STEEL, MINES AND COAL › department DE- PARTMENT OF MINES",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

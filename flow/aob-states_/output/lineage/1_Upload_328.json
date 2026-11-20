@@ -1,0 +1,324 @@
+{
+ "file": "1_Upload_328.pdf",
+ "kind": "amendment",
+ "series": 283,
+ "date": "2006-02-16",
+ "govdoc": "aob-ammend_/output/1_Upload_328.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826684.9117362,
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_328.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T14:00:07.411973+00:00",
+  "sha256": "3a2d5edd717a41d7a50770a11cd10a8f552f8a02690280936e4e9329119dda83",
+  "pages": 27
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r5",
+   "at": "2026-11-04T13:34:21.467659+00:00",
+   "stamp": "4af649239a6843a6"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r151",
+   "at": "2026-11-15T12:41:40.598217+00:00",
+   "stamp": "f6fb84afab897853"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r152",
+   "at": "2026-11-15T12:41:43.284598+00:00",
+   "stamp": "cba0f9081271a597"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r153",
+   "at": "2026-11-15T12:41:45.912867+00:00",
+   "stamp": "d45dcae485c4eb08"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r162",
+   "at": "2026-11-15T16:24:06.352365+00:00",
+   "stamp": "366c4f4761c5fc8f",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r163",
+   "at": "2026-11-15T16:24:08.066410+00:00",
+   "stamp": "fb7dfdfa60d71c0e",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r164",
+   "at": "2026-11-15T16:24:09.758891+00:00",
+   "stamp": "38cb44a23c9b3ac9",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r170",
+   "at": "2026-11-15T16:57:23.071538+00:00",
+   "stamp": "685f47c7c06b5172"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r171",
+   "at": "2026-11-15T17:03:18.478437+00:00",
+   "stamp": "6199f71ee11f87d7"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r176",
+   "at": "2026-11-16T10:58:04.778848+00:00",
+   "stamp": "72eaed2347fa6ab0"
+  }
+ ],
+ "reviews": [],
+ "issues": [
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 12: its quoted text runs across a page break",
+   "target": "r164.rel12",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 13: its quoted text runs across a page break",
+   "target": "r164.rel13",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 14: its quoted text runs across a page break",
+   "target": "r164.rel14",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_hindi_missing",
+   "severity": "info",
+   "message": "change 17: a new heading has no Hindi name in brackets",
+   "target": "r164.rel17",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 17: its quoted text runs across a page break",
+   "target": "r164.rel17",
+   "status": "open"
+  },
+  {
+   "code": "aob:read_page_break",
+   "severity": "info",
+   "message": "change 18: its quoted text runs across a page break",
+   "target": "r164.rel18",
+   "status": "open"
+  }
+ ],
+ "problems": [],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_219E_2006",
+   "op": "omit",
+   "source_ref": "2(1)(i)",
+   "path": "schedule 1 › ministry Ministry of Culture",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_219E_2006",
+   "op": "omit",
+   "source_ref": "2(1)(ii)",
+   "path": "schedule 1 › ministry Ministry of Human Resource Development › department Department of Women and Child Development",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_219E_2006",
+   "op": "insert",
+   "source_ref": "2(1)(iii)",
+   "path": "schedule 1 › ministry Ministry of Mines",
+   "status": "applied"
+  },
+  {
+   "seq": 4,
+   "doc_id": "GOI_SO_219E_2006",
+   "op": "replace",
+   "source_ref": "2(1)(iv)",
+   "path": "schedule 1 › ministry Ministry of Overseas Indian Affairs",
+   "status": "applied"
+  },
+  {
+   "seq": 5,
+   "doc_id": "GOI_SO_219E_2006",
+   "op": "insert",
+   "source_ref": "2(1)(v)",
+   "path": "schedule 1 › ministry Ministry of Ocean Development",
+   "status": "applied"
+  },
+  {
+   "seq": 6,
+   "doc_id": "GOI_SO_219E_2006",
+   "op": "replace",
+   "source_ref": "2(1)(vi)",
+   "path": "schedule 1 › ministry Ministry of Tourism",
+   "status": "applied"
+  },
+  {
+   "seq": 7,
+   "doc_id": "GOI_SO_219E_2006",
+   "op": "insert",
+   "source_ref": "2(1)(vii)",
+   "path": "schedule 1 › ministry Ministry of Water Resources",
+   "status": "applied"
+  },
+  {
+   "seq": 8,
+   "doc_id": "GOI_SO_219E_2006",
+   "op": "omit",
+   "source_ref": "2(1)(viii)",
+   "path": "schedule 1 › ministry Department of Ocean Development",
+   "status": "applied"
+  },
+  {
+   "seq": 9,
+   "doc_id": "GOI_SO_219E_2006",
+   "op": "omit",
+   "source_ref": "2(2)(i)",
+   "path": "schedule 2 › ministry MINISTRY OF CULTURE",
+   "status": "applied"
+  },
+  {
+   "seq": 10,
+   "doc_id": "GOI_SO_219E_2006",
+   "op": "omit",
+   "source_ref": "2(2)(ii)",
+   "path": "schedule 2 › ministry MINISTRY OF EXTERNAL AFFAIRS › entry 26",
+   "status": "applied"
+  },
+  {
+   "seq": 11,
+   "doc_id": "GOI_SO_219E_2006",
+   "op": "omit",
+   "source_ref": "2(2)(iii)",
+   "path": "schedule 2 › ministry MINISTRY OF HUMAN RESOURCE DEVELOPMENT › department DEPARTMENT OF WOMEN AND CHILD DEVELOPMENT",
+   "status": "applied"
+  },
+  {
+   "seq": 12,
+   "doc_id": "GOI_SO_219E_2006",
+   "op": "insert",
+   "source_ref": "2(2)(iv)",
+   "path": "schedule 2 › ministry Ministry of Mines",
+   "status": "applied"
+  },
+  {
+   "seq": 13,
+   "doc_id": "GOI_SO_219E_2006",
+   "op": "replace",
+   "source_ref": "2(2)(v)",
+   "path": "schedule 2 › ministry MINISTRY OF OVERSEAS INDIAN AFFAIRS",
+   "status": "applied"
+  },
+  {
+   "seq": 14,
+   "doc_id": "GOI_SO_219E_2006",
+   "op": "insert",
+   "source_ref": "2(2)(vi)",
+   "path": "schedule 2 › ministry MINISTRY OF OCEAN DEVELOPMENT",
+   "status": "applied"
+  },
+  {
+   "seq": 15,
+   "doc_id": "GOI_SO_219E_2006",
+   "op": "replace",
+   "source_ref": "2(2)(vii)(a)",
+   "path": "schedule 2 › ministry MINISTRY OF SOCIAL JUSTICE AND EMPOWERMENT › entry 12",
+   "status": "applied"
+  },
+  {
+   "seq": 16,
+   "doc_id": "GOI_SO_219E_2006",
+   "op": "omit",
+   "source_ref": "2(2)(vii)(b)",
+   "path": "schedule 2 › ministry MINISTRY OF SOCIAL JUSTICE AND EMPOWERMENT › entry 13 ; schedule 2 › ministry MINISTRY OF SOCIAL JUSTICE AND EMPOWERMENT › entry 14 ; schedule 2 › ministry MINISTRY OF SOCIAL JUSTICE AND EMPOWERMENT › entry 39 ; schedule 2 › ministry MINISTRY OF SOCIAL JUSTICE AND EMPOWERMENT › entry 40 ; schedule 2 › ministry MINISTRY OF SOCIAL JUSTICE AND EMPOWERMENT › entry 41 ; schedule 2 › ministry MINISTRY OF SOCIAL JUSTICE AND EMPOWERMENT › entry 42 ; schedule 2 › ministry MINISTRY OF SOCIAL JUSTICE AND EMPOWERMENT › entry 43 ; schedule 2 › ministry MINISTRY OF SOCIAL JUSTICE AND EMPOWERMENT › entry 45 ; schedule 2 › ministry MINISTRY OF SOCIAL JUSTICE AND EMPOWERMENT › entry 47",
+   "status": "applied"
+  },
+  {
+   "seq": 17,
+   "doc_id": "GOI_SO_219E_2006",
+   "op": "replace",
+   "source_ref": "2(2)(viii)",
+   "path": "schedule 2 › ministry MINISTRY OF TOURISM",
+   "status": "applied"
+  },
+  {
+   "seq": 18,
+   "doc_id": "GOI_SO_219E_2006",
+   "op": "insert",
+   "source_ref": "2(2)(ix)",
+   "path": "schedule 2 › ministry MINISTRY OF WATER RESOURCES",
+   "status": "applied"
+  },
+  {
+   "seq": 19,
+   "doc_id": "GOI_SO_219E_2006",
+   "op": "omit",
+   "source_ref": "2(2)(x)",
+   "path": "schedule 2 › ministry DEPARTMENT OF OCEAN DEVELOPMENT",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

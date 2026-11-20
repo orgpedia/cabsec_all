@@ -1,0 +1,162 @@
+{
+ "file": "1_Upload_373.pdf",
+ "kind": "amendment",
+ "series": 328,
+ "date": "2016-07-29",
+ "govdoc": "aob-ammend_/output/1_Upload_373.pdf.govdoc.json.zst",
+ "govdoc_mtime": 1794826684.448491,
+ "edits_file": "aob-ammend_/conf/1_Upload_373.pdf.edits.yml",
+ "source": {
+  "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_373.pdf",
+  "portal": "cabsec_aob",
+  "publisher": "Cabinet Secretariat",
+  "downloaded_at": "2026-10-24T14:01:12.042748+00:00",
+  "sha256": "2f24b2f36ad0543456de68da8a85183d070a707fa751f098a5ec07064c75851b",
+  "pages": 2
+ },
+ "edits": [],
+ "steps": [
+  {
+   "step": "text",
+   "task": "ocr",
+   "version": "4",
+   "tool": "extractor",
+   "run": "r1",
+   "at": "2026-11-03T03:44:19.096974+00:00",
+   "stamp": "09304fe328d0de93"
+  },
+  {
+   "step": "lines",
+   "task": "word_lines",
+   "version": "2",
+   "tool": "line_builder",
+   "run": "r179",
+   "at": "2026-11-15T12:41:40.048924+00:00",
+   "stamp": "b9d74c5280654d58"
+  },
+  {
+   "step": "layout",
+   "task": "pdftable_finder",
+   "version": "4",
+   "tool": "block_builder",
+   "run": "r180",
+   "at": "2026-11-15T12:41:42.699092+00:00",
+   "stamp": "9b8e6421dbcd4b04"
+  },
+  {
+   "step": "split",
+   "task": "section_splitter",
+   "version": "1",
+   "tool": "splitter",
+   "run": "r181",
+   "at": "2026-11-15T12:41:45.378517+00:00",
+   "stamp": "1763150c667858f2"
+  },
+  {
+   "step": "ops_roles",
+   "task": "model_tagger",
+   "version": "4",
+   "tool": "tagger",
+   "run": "r190",
+   "at": "2026-11-15T16:24:05.978432+00:00",
+   "stamp": "b2eb73f168ea51f0",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_provisions",
+   "task": "model_entities",
+   "version": "4",
+   "tool": "entity",
+   "run": "r191",
+   "at": "2026-11-15T16:24:07.676438+00:00",
+   "stamp": "347ae9a481b70055",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops",
+   "task": "model_relations",
+   "version": "4",
+   "tool": "relation",
+   "run": "r192",
+   "at": "2026-11-15T16:24:09.360515+00:00",
+   "stamp": "1b220cf7d688a351",
+   "model": "gemini-4-argon",
+   "instructions": "prompts/ops.md",
+   "config_hash": "ec3ea61a4977c729"
+  },
+  {
+   "step": "ops_check",
+   "task": "legal_ops_check",
+   "version": "11",
+   "tool": "checker",
+   "run": "r198",
+   "at": "2026-11-15T16:57:22.666075+00:00",
+   "stamp": "37c90a657ffc227f"
+  },
+  {
+   "step": "states_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r199",
+   "at": "2026-11-15T17:03:17.796760+00:00",
+   "stamp": "5a1924beffa9c3e5"
+  },
+  {
+   "step": "inferred_check",
+   "task": "problems_check",
+   "version": "2",
+   "tool": "checker",
+   "run": "r204",
+   "at": "2026-11-16T10:58:04.434160+00:00",
+   "stamp": "efc9618b3d630452"
+  }
+ ],
+ "reviews": [],
+ "issues": [],
+ "problems": [
+  {
+   "series": 328,
+   "seq": 1,
+   "code": "new_hindi_differs",
+   "severity": "info",
+   "message": "schedule 2 › ministry MINISTRY OF CORPORATE AFFAIRS's Hindi name reads differently in 1_Upload_28.pdf than in 1_Upload_833.pdf with this amendment applied"
+  }
+ ],
+ "rules": [],
+ "changes": [
+  {
+   "seq": 1,
+   "doc_id": "GOI_SO_2577E_2016",
+   "op": "insert",
+   "source_ref": "2(1)",
+   "path": "schedule 2 › ministry MINISTRY OF CORPORATE AFFAIRS › entry 12",
+   "status": "applied"
+  },
+  {
+   "seq": 2,
+   "doc_id": "GOI_SO_2577E_2016",
+   "op": "omit",
+   "source_ref": "2(2)(i)",
+   "path": "schedule 2 › ministry MINISTRY OF FINANCE › department DEPARTMENT OF ECONOMIC AFFAIRS › entry 107",
+   "status": "applied"
+  },
+  {
+   "seq": 3,
+   "doc_id": "GOI_SO_2577E_2016",
+   "op": "omit",
+   "source_ref": "2(2)(ii)",
+   "path": "schedule 2 › ministry MINISTRY OF FINANCE › department DEPARTMENT OF FINANCIAL SERVICES › entry 22",
+   "status": "applied"
+  }
+ ],
+ "made_by": {
+  "docflow": "0.1.0",
+  "commit": "91ec7ab",
+  "at": "2026-11-16T11:05:53+00:00"
+ }
+}

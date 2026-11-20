@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_257.pdf",
     "sha256": "3cf10f7a26ff448c192d7245e97e45fc1a7a42b1a3ac78c7980d706918d82f69",
     "govdoc": "1_Upload_257.pdf.govdoc.json.zst",
-    "revision": 123
+    "revision": 156
   },
   "documents": [
     {
@@ -29,9 +29,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "3",
+          "version": "4",
           "model": "gemini-4-argon",
-          "at": "2026-11-12T12:55:40.032299+00:00"
+          "at": "2026-11-15T16:24:10.198026+00:00"
         },
         "ops": [
           {
@@ -39,7 +39,7 @@
             "source_ref": "2",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r86.rel1",
+            "relation": "r147.rel1",
             "target": {
               "cited": [
                 {
@@ -232,7 +232,7 @@
               {
                 "type": "ministry",
                 "num": "14",
-                "heading": "Ministry of Health and Family Welfare q",
+                "heading": "Ministry of Health and Family Welfare",
                 "heading_hi": "Swasthya aur Pariwar Kalyan Mantralaya"
               },
               {
@@ -599,7 +599,7 @@
             "source_ref": "3(a)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r86.rel2",
+            "relation": "r147.rel2",
             "target": [
               {
                 "cited": [
@@ -645,13 +645,13 @@
                   },
                   {
                     "type": "department",
-                    "heading": "Depart- ment of Fertilizers"
+                    "heading": "Department of Fertilizers"
                   }
                 ],
                 "eId": null,
                 "words": [
                   "r1.w4710",
-                  "r1.w4721"
+                  "r1.w4716"
                 ],
                 "boxes": [
                   {
@@ -659,8 +659,8 @@
                     "bbox": [
                       286,
                       2380,
-                      1231,
-                      2511
+                      1229,
+                      2465
                     ]
                   }
                 ]
@@ -669,15 +669,15 @@
             "flags": [],
             "words": [
               "r1.w4689",
-              "r1.w4696"
+              "r1.w4695"
             ],
             "boxes": [
               {
                 "page": 8,
                 "bbox": [
                   320,
-                  2297,
-                  1223,
+                  2298,
+                  1098,
                   2338
                 ]
               }
@@ -688,7 +688,7 @@
             "source_ref": "3(b)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r86.rel3",
+            "relation": "r147.rel3",
             "position": "after",
             "anchor": {
               "cited": [
@@ -743,7 +743,7 @@
               {
                 "type": "entry",
                 "num": "3",
-                "text": "Molasses-distibution and pricing. [PART II - 3(i)]"
+                "text": "Molasses-distibution and pricing."
               },
               {
                 "type": "entry",
@@ -867,15 +867,15 @@
             ],
             "words": [
               "r1.w4725",
-              "r1.w4732"
+              "r1.w4731"
             ],
             "boxes": [
               {
                 "page": 8,
                 "bbox": [
                   321,
-                  2527,
-                  1230,
+                  2528,
+                  1098,
                   2567
                 ]
               }
@@ -886,7 +886,7 @@
             "source_ref": "3(c)(i)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r86.rel4",
+            "relation": "r147.rel4",
             "target": {
               "cited": [
                 {
@@ -926,15 +926,15 @@
             "flags": [],
             "words": [
               "r1.w5116",
-              "r1.w5125"
+              "r1.w5123"
             ],
             "boxes": [
               {
                 "page": 8,
                 "bbox": [
                   1423,
-                  2965,
-                  2328,
+                  2967,
+                  2059,
                   3006
                 ]
               }
@@ -945,7 +945,7 @@
             "source_ref": "3(c)(ii)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r86.rel5",
+            "relation": "r147.rel5",
             "position": "after",
             "anchor": {
               "cited": [
@@ -1005,7 +1005,7 @@
             "source_ref": "3(c)(iii)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r86.rel6",
+            "relation": "r147.rel6",
             "position": "after",
             "anchor": {
               "cited": [
@@ -1019,7 +1019,7 @@
                 },
                 {
                   "type": "department",
-                  "heading": "Department of Civil Avia- tion"
+                  "heading": "Department of Civil Aviation"
                 }
               ],
               "eId": null,
@@ -1080,7 +1080,7 @@
             "source_ref": "3(d)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r86.rel7",
+            "relation": "r147.rel7",
             "position": "after",
             "anchor": {
               "cited": [
@@ -1090,7 +1090,7 @@
                 },
                 {
                   "type": "ministry",
-                  "heading": "Ministry of Civil Aviation and Tou- rism"
+                  "heading": "Ministry of Civil Aviation and Tourism"
                 }
               ],
               "eId": null,
@@ -1210,7 +1210,7 @@
             "flags": [],
             "words": [
               "r1.w5242",
-              "r1.w5251"
+              "r1.w5249"
             ],
             "boxes": [
               {
@@ -1218,7 +1218,7 @@
                 "bbox": [
                   266,
                   1062,
-                  1165,
+                  1015,
                   1095
                 ]
               }
@@ -1229,7 +1229,7 @@
             "source_ref": "3(e)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r86.rel8",
+            "relation": "r147.rel8",
             "position": "after",
             "anchor": {
               "cited": [
@@ -1332,7 +1332,9 @@
               }
             ],
             "ref_seq": 7,
-            "flags": [],
+            "flags": [
+              "states_inferred_loose"
+            ],
             "words": [
               "r1.w5533",
               "r1.w5540"
@@ -1354,7 +1356,7 @@
             "source_ref": "3(f)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r86.rel9",
+            "relation": "r147.rel9",
             "target": {
               "cited": [
                 {
@@ -1405,7 +1407,7 @@
             "source_ref": "3(g)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r86.rel10",
+            "relation": "r147.rel10",
             "target": {
               "cited": [
                 {
@@ -1418,7 +1420,7 @@
                 },
                 {
                   "type": "department",
-                  "heading": "DEPARTMENT OF ENVIRON- MENT, FOREST AND WILD LIFE"
+                  "heading": "DEPARTMENT OF ENVIRONMENT, FOREST AND WILD LIFE"
                 }
               ],
               "eId": null,
@@ -1438,9 +1440,11 @@
                 }
               ]
             },
-            "expect": "DEPARTMENT OF ENVIRON- MENT, FOREST AND WILD LIFE (PARYAVARAN, VAN AUR VANYA JEEV VIBHAG)",
+            "expect": "DEPARTMENT OF ENVIRONMENT, FOREST AND WILD LIFE (PARYAVARAN, VAN AUR VANYA JEEV VIBHAG)",
             "scope": "heading",
-            "flags": [],
+            "flags": [
+              "states_inferred_loose"
+            ],
             "words": [
               "r1.w5806",
               "r1.w5812"
@@ -1462,7 +1466,7 @@
             "source_ref": "3(h)(i)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r86.rel11",
+            "relation": "r147.rel11",
             "target": {
               "cited": [
                 {
@@ -1522,7 +1526,7 @@
             "source_ref": "3(h)(ii)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r86.rel12",
+            "relation": "r147.rel12",
             "target": {
               "cited": [
                 {
@@ -1580,7 +1584,7 @@
             "source_ref": "3(h)(iii)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r86.rel13",
+            "relation": "r147.rel13",
             "target": {
               "cited": [
                 {
@@ -1613,6 +1617,7 @@
                 }
               ]
             },
+            "ref_seq": 11,
             "flags": [],
             "words": [
               "r1.w5888",
@@ -1635,7 +1640,7 @@
             "source_ref": "3(i)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r86.rel14",
+            "relation": "r147.rel14",
             "position": "after",
             "anchor": {
               "cited": [
@@ -1645,11 +1650,11 @@
                 },
                 {
                   "type": "ministry",
-                  "heading": "MINISTRY OF HUMAN RE- SOURCE DEVELOPMENT"
+                  "heading": "MINISTRY OF HUMAN RESOURCE DEVELOPMENT"
                 },
                 {
                   "type": "department",
-                  "heading": "DE- PARTMENT OF CULTURE"
+                  "heading": "DEPARTMENT OF CULTURE"
                 }
               ],
               "eId": null,
@@ -1783,7 +1788,7 @@
             "source_ref": "3(j)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r86.rel15",
+            "relation": "r147.rel15",
             "target": {
               "cited": [
                 {
@@ -1796,7 +1801,7 @@
                 },
                 {
                   "type": "department",
-                  "heading": "DEPART- MENT OF COMPANY AFFAIRS"
+                  "heading": "DEPARTMENT OF COMPANY AFFAIRS"
                 }
               ],
               "eId": null,
@@ -1829,7 +1834,9 @@
                 "text": "Bureau of Public Enterprises including Industrial Management Pool."
               }
             ],
-            "flags": [],
+            "flags": [
+              "states_inferred_loose"
+            ],
             "words": [
               "r1.w6148",
               "r1.w6147"
@@ -1851,7 +1858,7 @@
             "source_ref": "3(k)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r86.rel16",
+            "relation": "r147.rel16",
             "target": {
               "cited": [
                 {
@@ -1860,7 +1867,7 @@
                 },
                 {
                   "type": "ministry",
-                  "heading": "MINISTRY OF LAW AND JUS- TICE"
+                  "heading": "MINISTRY OF LAW AND JUSTICE"
                 }
               ],
               "eId": null,
@@ -1880,7 +1887,7 @@
                 }
               ]
             },
-            "expect": "MINISTRY OF LAW AND JUS- TICE (VIDHI AUR NYAYA MANTRALAYA)",
+            "expect": "MINISTRY OF LAW AND JUSTICE (VIDHI AUR NYAYA MANTRALAYA)",
             "scope": "heading",
             "content": [
               {
@@ -1911,7 +1918,7 @@
             "source_ref": "3(k)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r86.rel17",
+            "relation": "r147.rel17",
             "position": "after",
             "anchor": {
               "cited": [
@@ -1999,9 +2006,7 @@
               }
             ],
             "ref_seq": 16,
-            "flags": [
-              "read_page_break"
-            ],
+            "flags": [],
             "words": [
               "r1.w6200",
               "r1.w6208"
@@ -2023,7 +2028,7 @@
             "source_ref": "3(l)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r86.rel18",
+            "relation": "r147.rel18",
             "position": "after",
             "anchor": {
               "cited": [
@@ -2061,7 +2066,7 @@
               },
               {
                 "type": "entry",
-                "num": "2",
+                "num": "1",
                 "text": "Regulation of mines and development of minerals other than coal and lignite and sand for stowing under the Mines and Minerals (Regulation and Development) Act, 1957 (67 of 1957), and other Union Laws, including questions concerning various States and incidental business in respect of these."
               },
               {
@@ -2128,7 +2133,7 @@
             "source_ref": "3(m)(i)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r86.rel19",
+            "relation": "r147.rel19",
             "target": {
               "cited": [
                 {
@@ -2166,7 +2171,9 @@
                 "heading_hi": "PETROLEUM AUR PRAKRITIK GAS MANTRALAYA"
               }
             ],
-            "flags": [],
+            "flags": [
+              "states_inferred_loose"
+            ],
             "words": [
               "r1.w6629",
               "r1.w6636"
@@ -2188,7 +2195,7 @@
             "source_ref": "3(m)(ii)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r86.rel20",
+            "relation": "r147.rel20",
             "target": {
               "cited": [
                 {
@@ -2197,7 +2204,7 @@
                 },
                 {
                   "type": "ministry",
-                  "heading": "MINISTRY OF PETRO- ' LEUM AND NATURAL GAS"
+                  "heading": "MINISTRY OF PETROLEUM AND NATURAL GAS"
                 },
                 {
                   "type": "department",
@@ -2246,7 +2253,7 @@
             "source_ref": "3(m)(iii)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r86.rel21",
+            "relation": "r147.rel21",
             "target": {
               "cited": [
                 {
@@ -2255,7 +2262,7 @@
                 },
                 {
                   "type": "ministry",
-                  "heading": "MINISTRY OF PETRO- ' LEUM AND NATURAL GAS"
+                  "heading": "MINISTRY OF PETROLEUM AND NATURAL GAS"
                 },
                 {
                   "type": "department",
@@ -2302,7 +2309,7 @@
             "source_ref": "3(n)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r86.rel22",
+            "relation": "r147.rel22",
             "target": [
               {
                 "cited": [
@@ -2317,7 +2324,7 @@
                 ],
                 "eId": null,
                 "words": [
-                  "r1.w6703",
+                  "r1.w6706",
                   "r1.w6711"
                 ],
                 "boxes": [
@@ -2340,13 +2347,13 @@
                   },
                   {
                     "type": "ministry",
-                    "heading": "MINISTRY OF PRO- GRAMME IMPLEMENTATION"
+                    "heading": "MINISTRY OF PROGRAMME IMPLEMENTATION"
                   }
                 ],
                 "eId": null,
                 "words": [
                   "r1.w6713",
-                  "r1.w6728"
+                  "r1.w6721"
                 ],
                 "boxes": [
                   {
@@ -2355,7 +2362,7 @@
                       165,
                       388,
                       1098,
-                      546
+                      499
                     ]
                   }
                 ]
@@ -2460,7 +2467,7 @@
             "source_ref": "3(o)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r86.rel23",
+            "relation": "r147.rel23",
             "position": "after",
             "anchor": {
               "cited": [
@@ -2614,9 +2621,7 @@
               }
             ],
             "ref_seq": 22,
-            "flags": [
-              "read_page_break"
-            ],
+            "flags": [],
             "words": [
               "r1.w6933",
               "r1.w6940"
@@ -2638,7 +2643,7 @@
             "source_ref": "3(p)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r86.rel24",
+            "relation": "r147.rel24",
             "position": "after",
             "anchor": {
               "cited": [
@@ -2772,7 +2777,7 @@
               {
                 "type": "entry",
                 "num": "17",
-                "text": "Cooperatives relating to the items in this list."
+                "text": "Cooperatives relating to the items in this list. Printed by the Manager, Govt. of"
               },
               {
                 "type": "entry",
@@ -2820,7 +2825,7 @@
             "source_ref": "3(q)(i)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r86.rel25",
+            "relation": "r147.rel25",
             "target": {
               "cited": [
                 {
@@ -2879,7 +2884,7 @@
             "source_ref": "3(q)(ii)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r86.rel26",
+            "relation": "r147.rel26",
             "target": {
               "cited": [
                 {
@@ -2937,7 +2942,7 @@
             "source_ref": "3(q)(iii)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r86.rel27",
+            "relation": "r147.rel27",
             "target": {
               "cited": [
                 {
@@ -2993,7 +2998,7 @@
             "source_ref": "3(r)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r86.rel28",
+            "relation": "r147.rel28",
             "target": {
               "cited": [
                 {
@@ -3050,7 +3055,7 @@
             "source_ref": "3(r)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r86.rel29",
+            "relation": "r147.rel29",
             "target": {
               "cited": [
                 {

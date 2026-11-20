@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_163.pdf",
     "sha256": "c92ee0dd0b08e75016f1a083c2d7163c3f401c1b481351f7d6a8af6504c975fc",
     "govdoc": "1_Upload_163.pdf.govdoc.json.zst",
-    "revision": 47
+    "revision": 71
   },
   "documents": [
     {
@@ -29,17 +29,17 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "3",
+          "version": "4",
           "model": "gemini-4-argon",
-          "at": "2026-11-12T14:00:30.302386+00:00"
+          "at": "2026-11-15T16:24:55.653984+00:00"
         },
         "ops": [
           {
             "seq": 1,
-            "source_ref": "2(i)(a)",
+            "source_ref": "2(i)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r10.rel1",
+            "relation": "r63.rel1",
             "position": "after",
             "anchor": {
               "cited": [
@@ -53,7 +53,7 @@
                 },
                 {
                   "type": "department",
-                  "heading": "DEPARTMENT OF COMMERCE"
+                  "heading": "DE- PARTMENT OF COMMERCE"
                 },
                 {
                   "type": "entry",
@@ -84,20 +84,20 @@
               }
             ],
             "flags": [
-              "read_quote_mismatch"
+              "states_inferred_loose"
             ],
             "words": [
-              "r1.w680",
-              "r1.w686"
+              "r1.w638",
+              "r1.w645"
             ],
             "boxes": [
               {
                 "page": 2,
                 "bbox": [
-                  431,
-                  1735,
-                  1310,
-                  1770
+                  395,
+                  1467,
+                  1311,
+                  1508
                 ]
               }
             ]
@@ -107,7 +107,7 @@
             "source_ref": "2(i)(b)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r10.rel2",
+            "relation": "r63.rel2",
             "position": "after",
             "anchor": {
               "cited": [
@@ -121,7 +121,7 @@
                 },
                 {
                   "type": "department",
-                  "heading": "DEPARTMENT OF COMMERCE"
+                  "heading": "DE- PARTMENT OF COMMERCE"
                 },
                 {
                   "type": "entry",
@@ -157,11 +157,11 @@
               }
             ],
             "flags": [
-              "read_quote_mismatch"
+              "states_inferred_loose"
             ],
             "words": [
               "r1.w698",
-              "r1.w704"
+              "r1.w707"
             ],
             "boxes": [
               {
@@ -169,7 +169,7 @@
                 "bbox": [
                   432,
                   1872,
-                  977,
+                  1306,
                   1906
                 ]
               }
@@ -180,7 +180,7 @@
             "source_ref": "2(ii)(a)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r10.rel3",
+            "relation": "r63.rel3",
             "target": {
               "cited": [
                 {
@@ -217,9 +217,7 @@
                 }
               ]
             },
-            "flags": [
-              "read_quote_mismatch"
-            ],
+            "flags": [],
             "words": [
               "r1.w726",
               "r1.w732"
@@ -241,7 +239,7 @@
             "source_ref": "2(ii)(b)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r10.rel4",
+            "relation": "r63.rel4",
             "position": "after",
             "anchor": {
               "cited": [
@@ -289,7 +287,7 @@
             "flags": [],
             "words": [
               "r1.w744",
-              "r1.w751"
+              "r1.w750"
             ],
             "boxes": [
               {
@@ -298,7 +296,7 @@
                   435,
                   2264,
                   1314,
-                  2329
+                  2296
                 ]
               }
             ]
@@ -308,7 +306,7 @@
             "source_ref": "2(iii)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel5",
+            "relation": "r63.rel5",
             "target": {
               "cited": [
                 {
@@ -378,7 +376,7 @@
             "source_ref": "2(iv)(a)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel6",
+            "relation": "r63.rel6",
             "target": {
               "cited": [
                 {
@@ -425,7 +423,7 @@
             "flags": [],
             "words": [
               "r1.w843",
-              "r1.w851"
+              "r1.w849"
             ],
             "boxes": [
               {
@@ -434,7 +432,7 @@
                   439,
                   3063,
                   1315,
-                  3127
+                  3097
                 ]
               }
             ]
@@ -444,7 +442,7 @@
             "source_ref": "2(iv)(b)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r10.rel7",
+            "relation": "r63.rel7",
             "position": "after",
             "anchor": {
               "cited": [
@@ -492,7 +490,7 @@
             "flags": [],
             "words": [
               "r1.w938",
-              "r1.w946"
+              "r1.w944"
             ],
             "boxes": [
               {
@@ -501,7 +499,7 @@
                   1526,
                   692,
                   2404,
-                  752
+                  723
                 ]
               }
             ]
@@ -511,7 +509,7 @@
             "source_ref": "2(v)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel8",
+            "relation": "r63.rel8",
             "target": {
               "cited": [
                 {
@@ -595,9 +593,9 @@
         },
         "extracted_by": {
           "tool": "model_relations",
-          "version": "3",
+          "version": "4",
           "model": "gemini-4-argon",
-          "at": "2026-11-12T14:00:30.302386+00:00"
+          "at": "2026-11-15T16:24:55.653984+00:00"
         },
         "ops": [
           {
@@ -605,7 +603,7 @@
             "source_ref": "2(a)(1)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r10.rel9",
+            "relation": "r63.rel9",
             "target": {
               "cited": [
                 {
@@ -614,7 +612,7 @@
                 },
                 {
                   "type": "ministry",
-                  "heading": "MINISTRY OF AGRICULTURE AND IRRIGATION"
+                  "heading": "MINISTRY OF AGRICUL- TURE AND IRRIGATION"
                 },
                 {
                   "type": "department",
@@ -650,7 +648,7 @@
             "flags": [],
             "words": [
               "r1.w1563",
-              "r1.w1575"
+              "r1.w1571"
             ],
             "boxes": [
               {
@@ -658,8 +656,8 @@
                 "bbox": [
                   264,
                   2746,
-                  1143,
-                  2781
+                  792,
+                  2779
                 ]
               }
             ]
@@ -669,7 +667,7 @@
             "source_ref": "2(a)(ii)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r10.rel10",
+            "relation": "r63.rel10",
             "position": "after",
             "anchor": {
               "cited": [
@@ -679,7 +677,7 @@
                 },
                 {
                   "type": "ministry",
-                  "heading": "MINISTRY OF AGRICULTURE AND IRRIGATION"
+                  "heading": "MINISTRY OF AGRICUL- TURE AND IRRIGATION"
                 },
                 {
                   "type": "department",
@@ -721,15 +719,15 @@
             "flags": [],
             "words": [
               "r1.w1581",
-              "r1.w1590"
+              "r1.w1587"
             ],
             "boxes": [
               {
                 "page": 3,
                 "bbox": [
                   1353,
-                  294,
-                  2246,
+                  296,
+                  1987,
                   333
                 ]
               }
@@ -740,7 +738,7 @@
             "source_ref": "2(b)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel11",
+            "relation": "r63.rel11",
             "target": {
               "cited": [
                 {
@@ -753,7 +751,7 @@
                 },
                 {
                   "type": "department",
-                  "heading": "DEPARTMENT OF COMMERCE"
+                  "heading": "DEPART- MENT OF COMMERCE"
                 },
                 {
                   "type": "entry",
@@ -794,7 +792,9 @@
                 "text": "Minerals and Metals Trading Corporation and its subsidiaries."
               }
             ],
-            "flags": [],
+            "flags": [
+              "states_inferred_loose"
+            ],
             "words": [
               "r1.w1616",
               "r1.w1622"
@@ -816,7 +816,7 @@
             "source_ref": "2(c)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r10.rel12",
+            "relation": "r63.rel12",
             "position": "after",
             "anchor": {
               "cited": [
@@ -888,7 +888,7 @@
             "source_ref": "2(d)(i)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r10.rel13",
+            "relation": "r63.rel13",
             "target": {
               "cited": [
                 {
@@ -931,7 +931,7 @@
             "flags": [],
             "words": [
               "r1.w1765",
-              "r1.w1774"
+              "r1.w1771"
             ],
             "boxes": [
               {
@@ -939,7 +939,7 @@
                 "bbox": [
                   1398,
                   1720,
-                  2245,
+                  2019,
                   1754
                 ]
               }
@@ -950,7 +950,7 @@
             "source_ref": "2(d)(ii)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r10.rel14",
+            "relation": "r63.rel14",
             "position": "after",
             "anchor": {
               "cited": [
@@ -994,7 +994,7 @@
             "flags": [],
             "words": [
               "r1.w1814",
-              "r1.w1823"
+              "r1.w1820"
             ],
             "boxes": [
               {
@@ -1002,8 +1002,8 @@
                 "bbox": [
                   1365,
                   2090,
-                  2243,
-                  2126
+                  1971,
+                  2125
                 ]
               }
             ]
@@ -1013,7 +1013,7 @@
             "source_ref": "2(e)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r10.rel15",
+            "relation": "r63.rel15",
             "position": "after",
             "anchor": {
               "cited": [

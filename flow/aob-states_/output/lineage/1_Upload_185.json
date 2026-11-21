@@ -4,7 +4,7 @@
  "series": 147,
  "date": "1980-12-04",
  "govdoc": "aob-ammend_/output/1_Upload_185.pdf.govdoc.json.zst",
- "govdoc_mtime": 1794826693.180974,
+ "govdoc_mtime": 1795268104.894647,
  "source": {
   "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_185.pdf",
   "portal": "cabsec_aob",
@@ -101,18 +101,18 @@
    "task": "problems_check",
    "version": "2",
    "tool": "checker",
-   "run": "r70",
-   "at": "2026-11-15T17:03:45.578697+00:00",
-   "stamp": "e285a683e7936c89"
+   "run": "r78",
+   "at": "2026-11-21T11:11:29.691262+00:00",
+   "stamp": "3c1ca57bdc9d1b56"
   },
   {
    "step": "inferred_check",
    "task": "problems_check",
    "version": "2",
    "tool": "checker",
-   "run": "r75",
-   "at": "2026-11-16T10:58:13.163655+00:00",
-   "stamp": "f5e95df2fe10f3a5"
+   "run": "r86",
+   "at": "2026-11-21T13:35:04.875947+00:00",
+   "stamp": "22342c42626bf65b"
   }
  ],
  "reviews": [],
@@ -125,16 +125,7 @@
    "status": "open"
   }
  ],
- "problems": [
-  {
-   "series": 147,
-   "seq": 7,
-   "code": "old_path_missing",
-   "severity": "error",
-   "message": "change 7: no ministry DEPARTMENT OF SPACE under schedule 2",
-   "cause": "unit_not_found"
-  }
- ],
+ "problems": [],
  "rules": [
   {
    "rule": "loose",
@@ -200,16 +191,12 @@
    "op": "insert",
    "source_ref": "2(D)",
    "path": "schedule 2 › ministry DEPARTMENT OF SPACE › entry 8",
-   "status": "not_applied",
-   "problem": "change 7: no ministry DEPARTMENT OF SPACE under schedule 2",
-   "code": "old_path_missing",
-   "cause": "unit_not_found",
-   "known": "top_level"
+   "status": "applied"
   }
  ],
  "made_by": {
   "docflow": "0.1.0",
-  "commit": "91ec7ab",
-  "at": "2026-11-16T11:05:53+00:00"
+  "commit": "4113d7f",
+  "at": "2026-11-21T13:36:25+00:00"
  }
 }

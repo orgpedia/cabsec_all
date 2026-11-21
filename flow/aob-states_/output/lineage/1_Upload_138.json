@@ -4,7 +4,7 @@
  "series": 104,
  "date": "1974-06-22",
  "govdoc": "aob-ammend_/output/1_Upload_138.pdf.govdoc.json.zst",
- "govdoc_mtime": 1794826691.3751805,
+ "govdoc_mtime": 1795268102.9701073,
  "source": {
   "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_138.pdf",
   "portal": "cabsec_aob",
@@ -101,18 +101,18 @@
    "task": "problems_check",
    "version": "2",
    "tool": "checker",
-   "run": "r70",
-   "at": "2026-11-15T17:03:39.105833+00:00",
-   "stamp": "24f5846b69a09863"
+   "run": "r78",
+   "at": "2026-11-21T11:11:26.349954+00:00",
+   "stamp": "4dc5d03b07a2d6c9"
   },
   {
    "step": "inferred_check",
    "task": "problems_check",
    "version": "2",
    "tool": "checker",
-   "run": "r75",
-   "at": "2026-11-16T10:58:11.354275+00:00",
-   "stamp": "cedaf3e773b1e437"
+   "run": "r86",
+   "at": "2026-11-21T13:35:02.947818+00:00",
+   "stamp": "fd0d565275f85c5c"
   }
  ],
  "reviews": [],
@@ -125,25 +125,25 @@
    "status": "open"
   }
  ],
- "problems": [
+ "problems": [],
+ "rules": [
   {
-   "series": 104,
+   "rule": "loose",
    "seq": 6,
-   "code": "old_path_ambiguous",
-   "severity": "error",
-   "message": "change 6: 2 parts are entry 1 under schedule 2 › ministry MINISTRY OF AGRICULTURE › department D",
-   "cause": "number_twice"
+   "note": "change 6: department DEPARTMENT QF COOPERATION taken for department DEPARTMENT OF COOPERATION, named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
   },
   {
-   "series": 104,
+   "rule": "loose",
    "seq": 7,
-   "code": "old_path_ambiguous",
-   "severity": "error",
-   "message": "change 7: 2 parts are entry 7 under schedule 2 › ministry MINISTRY OF AGRICULTURE › department D",
-   "cause": "number_twice"
+   "note": "change 7: department DEPARTMENT QF COOPERATION taken for department DEPARTMENT OF COOPERATION, named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
   }
  ],
- "rules": [],
  "changes": [
   {
    "seq": 1,
@@ -191,11 +191,7 @@
    "op": "replace",
    "source_ref": "2(A)(iv)(a)",
    "path": "schedule 2 › ministry MINISTRY OF AGRICULTURE › department DEPARTMENT QF COOPERATION › entry 1",
-   "status": "not_applied",
-   "problem": "change 6: 2 parts are entry 1 under schedule 2 › ministry MINISTRY OF AGRICULTURE › department D",
-   "code": "old_path_ambiguous",
-   "cause": "number_twice",
-   "known": "agriculture"
+   "status": "applied"
   },
   {
    "seq": 7,
@@ -203,11 +199,7 @@
    "op": "insert",
    "source_ref": "2(A)(iv)(b)",
    "path": "schedule 2 › ministry MINISTRY OF AGRICULTURE › department DEPARTMENT QF COOPERATION › entry 7",
-   "status": "not_applied",
-   "problem": "change 7: 2 parts are entry 7 under schedule 2 › ministry MINISTRY OF AGRICULTURE › department D",
-   "code": "old_path_ambiguous",
-   "cause": "number_twice",
-   "known": "agriculture"
+   "status": "applied"
   },
   {
    "seq": 8,
@@ -252,7 +244,7 @@
  ],
  "made_by": {
   "docflow": "0.1.0",
-  "commit": "91ec7ab",
-  "at": "2026-11-16T11:05:53+00:00"
+  "commit": "4113d7f",
+  "at": "2026-11-21T13:36:25+00:00"
  }
 }

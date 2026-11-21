@@ -4,7 +4,7 @@
  "series": 0,
  "date": "1961-01-14",
  "govdoc": "aob-rules_/output/1_Upload_1144.pdf.govdoc.json.zst",
- "govdoc_mtime": 1794762109.2652893,
+ "govdoc_mtime": 1795259432.234531,
  "edits_file": "aob-rules_/conf/1_Upload_1144.pdf.edits.yml",
  "source": {
   "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/completeaobrules/english/1_Upload_1144.pdf",
@@ -411,9 +411,9 @@
    "task": "problems_check",
    "version": "2",
    "tool": "checker",
-   "run": "r57",
-   "at": "2026-11-15T17:01:48.736236+00:00",
-   "stamp": "0055d088f5e19832"
+   "run": "r58",
+   "at": "2026-11-21T11:10:32.010853+00:00",
+   "stamp": "12e5e80fe6149746"
   }
  ],
  "reviews": [],
@@ -425,20 +425,13 @@
    "code": "new_extra",
    "severity": "warning",
    "message": "schedule 2 › ministry DEPARTMENT OF ATOMIC ENERGY › entry 7 is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
-  },
-  {
-   "series": 174,
-   "seq": null,
-   "code": "new_extra",
-   "severity": "warning",
-   "message": "schedule 2 › ministry PRIME MINISTER'S SECRETARIAT is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
   }
  ],
  "rules": [],
  "changes": [],
  "made_by": {
   "docflow": "0.1.0",
-  "commit": "91ec7ab",
-  "at": "2026-11-16T11:05:53+00:00"
+  "commit": "4113d7f",
+  "at": "2026-11-21T13:36:25+00:00"
  }
 }

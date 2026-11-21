@@ -4,7 +4,7 @@
  "series": 167,
  "date": "1985-03-15",
  "govdoc": "aob-ammend_/output/1_Upload_205.pdf.govdoc.json.zst",
- "govdoc_mtime": 1794826692.985895,
+ "govdoc_mtime": 1795268104.6941717,
  "source": {
   "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_205.pdf",
   "portal": "cabsec_aob",
@@ -101,18 +101,18 @@
    "task": "problems_check",
    "version": "2",
    "tool": "checker",
-   "run": "r70",
-   "at": "2026-11-15T17:03:45.160149+00:00",
-   "stamp": "d40957c260688abf"
+   "run": "r78",
+   "at": "2026-11-21T11:11:29.419044+00:00",
+   "stamp": "ab71e1cc71c73fbf"
   },
   {
    "step": "inferred_check",
    "task": "problems_check",
    "version": "2",
    "tool": "checker",
-   "run": "r75",
-   "at": "2026-11-16T10:58:12.879402+00:00",
-   "stamp": "3d1d1a8b6ec5b5b5"
+   "run": "r86",
+   "at": "2026-11-21T13:35:04.626317+00:00",
+   "stamp": "ec2b2ec0b4148ec4"
   }
  ],
  "reviews": [],
@@ -140,14 +140,6 @@
   }
  ],
  "problems": [
-  {
-   "series": 167,
-   "seq": 4,
-   "code": "old_path_ambiguous",
-   "severity": "error",
-   "message": "change 4: 2 parts are ministry DEPARTMENT OF PERSONNEL AND ADMINISTRATIVE RE- . FORMS under schedule 2",
-   "cause": "number_twice"
-  },
   {
    "series": 174,
    "seq": 1,
@@ -510,16 +502,12 @@
    "op": "omit",
    "source_ref": "2(b)(ii)",
    "path": "schedule 2 › ministry DEPARTMENT OF PERSONNEL AND ADMINISTRATIVE RE- . FORMS",
-   "status": "not_applied",
-   "problem": "change 4: 2 parts are ministry DEPARTMENT OF PERSONNEL AND ADMINISTRATIVE RE- . FORMS under schedule 2",
-   "code": "old_path_ambiguous",
-   "cause": "number_twice",
-   "known": "number_twice"
+   "status": "applied"
   }
  ],
  "made_by": {
   "docflow": "0.1.0",
-  "commit": "91ec7ab",
-  "at": "2026-11-16T11:05:53+00:00"
+  "commit": "4113d7f",
+  "at": "2026-11-21T13:36:25+00:00"
  }
 }

@@ -5,7 +5,7 @@
   "start": 0,
   "file": "1_Upload_63.pdf",
   "doc_id": "GOI_AOB_RULES_1961@cc2c4a13135ed452",
-  "units": 54,
+  "units": 53,
   "unexplained": [],
   "changes": [
    {
@@ -87,6 +87,21 @@
      "seq": "1",
      "doc": "GOI_SO_489_1963",
      "relation": "r63.rel1"
+    }
+   },
+   {
+    "kind": "spelled",
+    "before": "2. Ministry of Defence.",
+    "after": "4. Ministry of Defence",
+    "how": "name",
+    "depth": 0,
+    "routine": true,
+    "eId": "sch_1__hcontainer_4",
+    "by": {
+     "series": 17,
+     "seq": "3",
+     "doc": "GOI_SO_2054_1963",
+     "relation": "r63.rel3"
     }
    },
    {
@@ -386,11 +401,24 @@
     }
    },
    {
-    "kind": "inserted",
-    "after": "18. Ministry of Rehablitation.",
+    "kind": "renumbered",
+    "before": "15A. Ministry of Rehabilitation.",
+    "after": "18. Ministry of Rehabilitation.",
+    "how": "name",
+    "from": "15A",
+    "to": "18",
+    "from_last": "15A",
+    "to_last": "18",
+    "count": 1,
     "depth": 0,
-    "routine": false,
-    "eId": "sch_1__hcontainer_18"
+    "routine": true,
+    "eId": "sch_1__hcontainer_18",
+    "by": {
+     "series": 28,
+     "seq": "1",
+     "doc": "GOI_SO_1378_1964",
+     "relation": "r63.rel1"
+    }
    },
    {
     "kind": "renamed",
@@ -623,19 +651,6 @@
    },
    {
     "kind": "omitted",
-    "before": "15A. Ministry of Rehabilitation.",
-    "depth": 0,
-    "routine": false,
-    "eId": null,
-    "by": {
-     "series": 28,
-     "seq": "1",
-     "doc": "GOI_SO_1378_1964",
-     "relation": "r63.rel1"
-    }
-   },
-   {
-    "kind": "omitted",
     "before": "22. Department of Supply",
     "depth": 0,
     "routine": false,
@@ -668,7 +683,7 @@
   "start": 30,
   "file": "1_Upload_79.pdf",
   "doc_id": "GOI_AOB_RULES_1961@6259bf85299b13e9",
-  "units": 60,
+  "units": 61,
   "unexplained": [],
   "changes": [
    {
@@ -688,7 +703,7 @@
      "series": 30,
      "seq": "1",
      "doc": "GOI_SO_2180_1964",
-     "relation": "r71.rel1",
+     "relation": "r90.rel1",
      "untouched": 30
     }
    },
@@ -720,18 +735,26 @@
    },
    {
     "kind": "renamed",
-    "before": "(-) Department of Defence Supplics",
-    "after": "(-) Department of Defence Supplies",
+    "before": "(-) Department of Defence Production and a",
+    "after": "(-) Department of Defence Production",
     "how": "number",
     "depth": 1,
     "routine": false,
-    "eId": "sch_1__hcontainer_2__hcontainer_2",
+    "eId": "sch_1__hcontainer_2__hcontainer_1",
     "by": {
      "series": 43,
      "seq": "1",
      "doc": "GOI_SO_3545_1965",
      "relation": "r63.rel1"
     }
+   },
+   {
+    "kind": "inserted",
+    "after": "(-) Department of Defence Supplies",
+    "under": "2. Ministry of Defence",
+    "depth": 1,
+    "routine": false,
+    "eId": "sch_1__hcontainer_2__hcontainer_2"
    },
    {
     "kind": "spelled",
@@ -805,7 +828,7 @@
      "series": 30,
      "seq": "1",
      "doc": "GOI_SO_2180_1964",
-     "relation": "r71.rel1",
+     "relation": "r90.rel1",
      "untouched": 30
     }
    },
@@ -826,7 +849,7 @@
      "series": 30,
      "seq": "1",
      "doc": "GOI_SO_2180_1964",
-     "relation": "r71.rel1",
+     "relation": "r90.rel1",
      "untouched": 30
     }
    },
@@ -844,7 +867,7 @@
      "series": 30,
      "seq": "1",
      "doc": "GOI_SO_2180_1964",
-     "relation": "r71.rel1",
+     "relation": "r90.rel1",
      "untouched": 30
     }
    },
@@ -862,7 +885,7 @@
      "series": 30,
      "seq": "1",
      "doc": "GOI_SO_2180_1964",
-     "relation": "r71.rel1",
+     "relation": "r90.rel1",
      "untouched": 30
     }
    },
@@ -883,7 +906,7 @@
      "series": 30,
      "seq": "1",
      "doc": "GOI_SO_2180_1964",
-     "relation": "r71.rel1",
+     "relation": "r90.rel1",
      "untouched": 30
     }
    },
@@ -904,7 +927,7 @@
      "series": 30,
      "seq": "1",
      "doc": "GOI_SO_2180_1964",
-     "relation": "r71.rel1",
+     "relation": "r90.rel1",
      "untouched": 30
     }
    },
@@ -920,7 +943,7 @@
      "series": 30,
      "seq": "1",
      "doc": "GOI_SO_2180_1964",
-     "relation": "r71.rel1",
+     "relation": "r90.rel1",
      "untouched": 30
     }
    },
@@ -941,7 +964,7 @@
      "series": 30,
      "seq": "1",
      "doc": "GOI_SO_2180_1964",
-     "relation": "r71.rel1",
+     "relation": "r90.rel1",
      "untouched": 30
     },
     "eIds": [
@@ -1006,7 +1029,7 @@
      "series": 30,
      "seq": "1",
      "doc": "GOI_SO_2180_1964",
-     "relation": "r71.rel1",
+     "relation": "r90.rel1",
      "untouched": 30
     },
     "eIds": [
@@ -1027,7 +1050,7 @@
      "series": 30,
      "seq": "1",
      "doc": "GOI_SO_2180_1964",
-     "relation": "r71.rel1",
+     "relation": "r90.rel1",
      "untouched": 30
     }
    },
@@ -1059,7 +1082,7 @@
      "series": 30,
      "seq": "1",
      "doc": "GOI_SO_2180_1964",
-     "relation": "r71.rel1",
+     "relation": "r90.rel1",
      "untouched": 30
     }
    },
@@ -1134,7 +1157,7 @@
      "series": 30,
      "seq": "1",
      "doc": "GOI_SO_2180_1964",
-     "relation": "r71.rel1",
+     "relation": "r90.rel1",
      "untouched": 30
     }
    },
@@ -1157,7 +1180,7 @@
      "series": 30,
      "seq": "1",
      "doc": "GOI_SO_2180_1964",
-     "relation": "r71.rel1",
+     "relation": "r90.rel1",
      "untouched": 30
     }
    },
@@ -1178,7 +1201,7 @@
      "series": 30,
      "seq": "1",
      "doc": "GOI_SO_2180_1964",
-     "relation": "r71.rel1",
+     "relation": "r90.rel1",
      "untouched": 30
     },
     "eIds": [
@@ -1217,7 +1240,7 @@
      "series": 30,
      "seq": "1",
      "doc": "GOI_SO_2180_1964",
-     "relation": "r71.rel1",
+     "relation": "r90.rel1",
      "untouched": 30
     }
    },
@@ -1245,7 +1268,7 @@
      "series": 30,
      "seq": "1",
      "doc": "GOI_SO_2180_1964",
-     "relation": "r71.rel1",
+     "relation": "r90.rel1",
      "untouched": 30
     },
     "eIds": [
@@ -1267,7 +1290,7 @@
      "series": 30,
      "seq": "1",
      "doc": "GOI_SO_2180_1964",
-     "relation": "r71.rel1",
+     "relation": "r90.rel1",
      "untouched": 30
     }
    },
@@ -1281,8 +1304,21 @@
      "series": 30,
      "seq": "1",
      "doc": "GOI_SO_2180_1964",
-     "relation": "r71.rel1",
+     "relation": "r90.rel1",
      "untouched": 30
+    }
+   },
+   {
+    "kind": "omitted",
+    "before": "Department of Defence Supplics within the Ministry)",
+    "depth": 1,
+    "routine": false,
+    "eId": null,
+    "by": {
+     "series": 43,
+     "seq": "1",
+     "doc": "GOI_SO_3545_1965",
+     "relation": "r63.rel1"
     }
    },
    {
@@ -1296,7 +1332,7 @@
      "series": 30,
      "seq": "1",
      "doc": "GOI_SO_2180_1964",
-     "relation": "r71.rel1",
+     "relation": "r90.rel1",
      "untouched": 30
     }
    },
@@ -1315,7 +1351,7 @@
    },
    {
     "kind": "omitted",
-    "before": "18. Ministry of Rehablitation.",
+    "before": "18. Ministry of Rehabilitation.",
     "depth": 0,
     "routine": false,
     "eId": null,
@@ -1323,7 +1359,7 @@
      "series": 30,
      "seq": "1",
      "doc": "GOI_SO_2180_1964",
-     "relation": "r71.rel1",
+     "relation": "r90.rel1",
      "untouched": 30
     }
    },
@@ -1337,7 +1373,7 @@
      "series": 30,
      "seq": "1",
      "doc": "GOI_SO_2180_1964",
-     "relation": "r71.rel1",
+     "relation": "r90.rel1",
      "untouched": 30
     }
    },
@@ -1351,7 +1387,7 @@
      "series": 30,
      "seq": "1",
      "doc": "GOI_SO_2180_1964",
-     "relation": "r71.rel1",
+     "relation": "r90.rel1",
      "untouched": 30
     }
    },
@@ -1365,7 +1401,7 @@
      "series": 30,
      "seq": "1",
      "doc": "GOI_SO_2180_1964",
-     "relation": "r71.rel1",
+     "relation": "r90.rel1",
      "untouched": 30
     }
    },
@@ -1379,7 +1415,7 @@
      "series": 30,
      "seq": "1",
      "doc": "GOI_SO_2180_1964",
-     "relation": "r71.rel1",
+     "relation": "r90.rel1",
      "untouched": 30
     }
    }
@@ -4559,7 +4595,7 @@
   "start": 89,
   "file": "1_Upload_172.pdf",
   "doc_id": "GOI_AOB_RULES_1961@bd918916ef15fa78",
-  "units": 68,
+  "units": 71,
   "unexplained": [],
   "changes": [
    {
@@ -4814,11 +4850,56 @@
     }
    },
    {
-    "kind": "inserted",
+    "kind": "renamed",
+    "before": "4A. Ministry of Energy",
     "after": "6. Ministry of Energy (Oorja Mantralaya) Department of Power",
+    "how": "similar",
     "depth": 0,
     "routine": false,
-    "eId": "sch_1__hcontainer_6"
+    "eId": "sch_1__hcontainer_6",
+    "by": {
+     "series": 134,
+     "seq": "1",
+     "doc": "GOI_SO_467E_1979",
+     "relation": "r82.rel1"
+    }
+   },
+   {
+    "kind": "renumbered",
+    "before": "4A. Ministry of Energy",
+    "after": "6. Ministry of Energy (Oorja Mantralaya) Department of Power",
+    "how": "similar",
+    "from": "4A",
+    "to": "6",
+    "from_last": "4A",
+    "to_last": "6",
+    "count": 1,
+    "depth": 0,
+    "routine": true,
+    "eId": "sch_1__hcontainer_6",
+    "by": {
+     "series": 134,
+     "seq": "1",
+     "doc": "GOI_SO_467E_1979",
+     "relation": "r82.rel1"
+    }
+   },
+   {
+    "kind": "hindi",
+    "before": "4A. Ministry of Energy",
+    "after": "6. Ministry of Energy (Oorja Mantralaya) Department of Power",
+    "how": "similar",
+    "from": "Oorja Mantralaya",
+    "to": "Vidyut Vibhag",
+    "depth": 0,
+    "routine": true,
+    "eId": "sch_1__hcontainer_6",
+    "by": {
+     "series": 134,
+     "seq": "1",
+     "doc": "GOI_SO_467E_1979",
+     "relation": "r82.rel1"
+    }
    },
    {
     "kind": "renumbered",
@@ -4948,7 +5029,7 @@
    },
    {
     "kind": "moved",
-    "before": "(-) Department of Official Language (Rajbhasha Vibhag) and Ɑ Department of Personnel and Administrative Reforms (Karmik nur Prashasanık Sudhar Vibhag)",
+    "before": "(-) Department of Official Language (Rajbhasha Vibhag) and Ɑ",
     "after": "(-) Department of Official Language",
     "how": "similar",
     "from": "9. Ministry of Home Affaus",
@@ -4965,7 +5046,7 @@
    },
    {
     "kind": "renamed",
-    "before": "(-) Department of Official Language (Rajbhasha Vibhag) and Ɑ Department of Personnel and Administrative Reforms (Karmik nur Prashasanık Sudhar Vibhag)",
+    "before": "(-) Department of Official Language (Rajbhasha Vibhag) and Ɑ",
     "after": "(-) Department of Official Language",
     "how": "similar",
     "depth": 1,
@@ -4980,7 +5061,7 @@
    },
    {
     "kind": "hindi",
-    "before": "(-) Department of Official Language (Rajbhasha Vibhag) and Ɑ Department of Personnel and Administrative Reforms (Karmik nur Prashasanık Sudhar Vibhag)",
+    "before": "(-) Department of Official Language (Rajbhasha Vibhag) and Ɑ",
     "after": "(-) Department of Official Language",
     "how": "similar",
     "to": "Rajbhasha Vibhag",
@@ -5183,7 +5264,7 @@
      "series": 134,
      "seq": "2",
      "doc": "GOI_SO_467E_1979",
-     "relation": "r63.rel2"
+     "relation": "r82.rel2"
     }
    },
    {
@@ -5198,7 +5279,7 @@
      "series": 134,
      "seq": "2",
      "doc": "GOI_SO_467E_1979",
-     "relation": "r63.rel2"
+     "relation": "r82.rel2"
     }
    },
    {
@@ -5214,7 +5295,7 @@
      "series": 134,
      "seq": "2",
      "doc": "GOI_SO_467E_1979",
-     "relation": "r63.rel2"
+     "relation": "r82.rel2"
     }
    },
    {
@@ -5234,7 +5315,7 @@
      "series": 134,
      "seq": "2",
      "doc": "GOI_SO_467E_1979",
-     "relation": "r63.rel2"
+     "relation": "r82.rel2"
     }
    },
    {
@@ -5538,15 +5619,15 @@
    },
    {
     "kind": "omitted",
-    "before": "4A. Min'stry of Energy ( Oorja Mantralaya ) : Department of Power",
-    "depth": 0,
+    "before": "Department of Power",
+    "depth": 1,
     "routine": false,
     "eId": null,
     "by": {
      "series": 134,
      "seq": "1",
      "doc": "GOI_SO_467E_1979",
-     "relation": "r63.rel1"
+     "relation": "r82.rel1"
     }
    },
    {
@@ -5554,6 +5635,19 @@
     "before": "9. Ministry of Home Affaus",
     "into": "10. Ministry of Home Affairs",
     "depth": 0,
+    "routine": false,
+    "eId": null,
+    "by": {
+     "series": 120,
+     "seq": "2",
+     "doc": "GOI_SO_291E_1977",
+     "relation": "r63.rel2"
+    }
+   },
+   {
+    "kind": "omitted",
+    "before": "Department of Personnel and Administrative Reforms (Karmik nur Prashasanık Sudhar Vibhag) within the Ministry (Mantralaya)]",
+    "depth": 1,
     "routine": false,
     "eId": null,
     "by": {
@@ -5573,7 +5667,33 @@
      "series": 134,
      "seq": "2",
      "doc": "GOI_SO_467E_1979",
-     "relation": "r63.rel2"
+     "relation": "r82.rel2"
+    }
+   },
+   {
+    "kind": "omitted",
+    "before": "27 Department of Science and Technology (Vigyan and Prodyogiki Vibhag)",
+    "depth": 1,
+    "routine": false,
+    "eId": null,
+    "by": {
+     "series": 124,
+     "seq": "2",
+     "doc": "GOI_SO_790E_1977",
+     "relation": "r65.rel2"
+    }
+   },
+   {
+    "kind": "omitted",
+    "before": "29 Cabinet Secretariat (Mantrimandal Sachivalaya)",
+    "depth": 1,
+    "routine": false,
+    "eId": null,
+    "by": {
+     "series": 120,
+     "seq": "3",
+     "doc": "GOI_SO_291E_1977",
+     "relation": "r63.rel3"
     }
    }
   ]
@@ -5599,7 +5719,7 @@
      "series": 164,
      "seq": "1",
      "doc": "GOI_SO_7E_1985",
-     "relation": "r79.rel1"
+     "relation": "r98.rel1"
     }
    },
    {
@@ -5616,7 +5736,7 @@
      "series": 164,
      "seq": "1",
      "doc": "GOI_SO_7E_1985",
-     "relation": "r79.rel1"
+     "relation": "r98.rel1"
     }
    },
    {
@@ -5633,7 +5753,7 @@
      "series": 164,
      "seq": "1",
      "doc": "GOI_SO_7E_1985",
-     "relation": "r79.rel1"
+     "relation": "r98.rel1"
     }
    },
    {
@@ -5753,7 +5873,7 @@
      "series": 164,
      "seq": "4",
      "doc": "GOI_SO_7E_1985",
-     "relation": "r79.rel4"
+     "relation": "r98.rel4"
     }
    },
    {
@@ -5770,7 +5890,7 @@
      "series": 164,
      "seq": "4",
      "doc": "GOI_SO_7E_1985",
-     "relation": "r79.rel4"
+     "relation": "r98.rel4"
     }
    },
    {
@@ -5794,7 +5914,7 @@
      "series": 164,
      "seq": "14",
      "doc": "GOI_SO_7E_1985",
-     "relation": "r79.rel14"
+     "relation": "r98.rel14"
     }
    },
    {
@@ -5814,7 +5934,7 @@
      "series": 164,
      "seq": "14",
      "doc": "GOI_SO_7E_1985",
-     "relation": "r79.rel14"
+     "relation": "r98.rel14"
     }
    },
    {
@@ -5831,7 +5951,7 @@
      "series": 164,
      "seq": "8",
      "doc": "GOI_SO_7E_1985",
-     "relation": "r79.rel8"
+     "relation": "r98.rel8"
     }
    },
    {
@@ -5848,7 +5968,7 @@
      "series": 164,
      "seq": "12",
      "doc": "GOI_SO_7E_1985",
-     "relation": "r79.rel12"
+     "relation": "r98.rel12"
     }
    },
    {
@@ -5865,7 +5985,7 @@
      "series": 164,
      "seq": "12",
      "doc": "GOI_SO_7E_1985",
-     "relation": "r79.rel12"
+     "relation": "r98.rel12"
     }
    },
    {
@@ -5885,7 +6005,7 @@
      "series": 164,
      "seq": "6",
      "doc": "GOI_SO_7E_1985",
-     "relation": "r79.rel6"
+     "relation": "r98.rel6"
     }
    },
    {
@@ -5900,7 +6020,7 @@
      "series": 164,
      "seq": "6",
      "doc": "GOI_SO_7E_1985",
-     "relation": "r79.rel6"
+     "relation": "r98.rel6"
     }
    },
    {
@@ -5920,7 +6040,7 @@
      "series": 164,
      "seq": "6",
      "doc": "GOI_SO_7E_1985",
-     "relation": "r79.rel6"
+     "relation": "r98.rel6"
     }
    },
    {
@@ -5937,7 +6057,7 @@
      "series": 164,
      "seq": "6",
      "doc": "GOI_SO_7E_1985",
-     "relation": "r79.rel6"
+     "relation": "r98.rel6"
     }
    },
    {
@@ -6034,7 +6154,7 @@
      "series": 164,
      "seq": "7",
      "doc": "GOI_SO_7E_1985",
-     "relation": "r79.rel7"
+     "relation": "r98.rel7"
     }
    },
    {
@@ -6070,7 +6190,7 @@
      "series": 164,
      "seq": "7",
      "doc": "GOI_SO_7E_1985",
-     "relation": "r79.rel7"
+     "relation": "r98.rel7"
     }
    },
    {
@@ -6087,7 +6207,7 @@
      "series": 164,
      "seq": "7",
      "doc": "GOI_SO_7E_1985",
-     "relation": "r79.rel7"
+     "relation": "r98.rel7"
     }
    },
    {
@@ -6102,7 +6222,7 @@
      "series": 164,
      "seq": "7",
      "doc": "GOI_SO_7E_1985",
-     "relation": "r79.rel7"
+     "relation": "r98.rel7"
     }
    },
    {
@@ -6122,7 +6242,7 @@
      "series": 164,
      "seq": "7",
      "doc": "GOI_SO_7E_1985",
-     "relation": "r79.rel7"
+     "relation": "r98.rel7"
     }
    },
    {
@@ -6154,7 +6274,7 @@
      "series": 164,
      "seq": "19",
      "doc": "GOI_SO_7E_1985",
-     "relation": "r79.rel19"
+     "relation": "r98.rel19"
     }
    },
    {
@@ -6174,7 +6294,7 @@
      "series": 164,
      "seq": "19",
      "doc": "GOI_SO_7E_1985",
-     "relation": "r79.rel19"
+     "relation": "r98.rel19"
     }
    },
    {
@@ -6191,7 +6311,7 @@
      "series": 164,
      "seq": "19",
      "doc": "GOI_SO_7E_1985",
-     "relation": "r79.rel19"
+     "relation": "r98.rel19"
     }
    },
    {
@@ -6382,7 +6502,7 @@
      "series": 164,
      "seq": "9",
      "doc": "GOI_SO_7E_1985",
-     "relation": "r79.rel9"
+     "relation": "r98.rel9"
     },
     "eIds": [
      "sch_1__hcontainer_15",
@@ -6455,7 +6575,7 @@
      "series": 164,
      "seq": "10",
      "doc": "GOI_SO_7E_1985",
-     "relation": "r79.rel10"
+     "relation": "r98.rel10"
     }
    },
    {
@@ -6475,7 +6595,7 @@
      "series": 164,
      "seq": "10",
      "doc": "GOI_SO_7E_1985",
-     "relation": "r79.rel10"
+     "relation": "r98.rel10"
     }
    },
    {
@@ -6492,7 +6612,7 @@
      "series": 164,
      "seq": "10",
      "doc": "GOI_SO_7E_1985",
-     "relation": "r79.rel10"
+     "relation": "r98.rel10"
     }
    },
    {
@@ -6623,7 +6743,7 @@
      "series": 164,
      "seq": "10",
      "doc": "GOI_SO_7E_1985",
-     "relation": "r79.rel10"
+     "relation": "r98.rel10"
     }
    },
    {
@@ -6643,7 +6763,7 @@
      "series": 164,
      "seq": "10",
      "doc": "GOI_SO_7E_1985",
-     "relation": "r79.rel10"
+     "relation": "r98.rel10"
     }
    },
    {
@@ -6660,7 +6780,7 @@
      "series": 164,
      "seq": "10",
      "doc": "GOI_SO_7E_1985",
-     "relation": "r79.rel10"
+     "relation": "r98.rel10"
     }
    },
    {
@@ -6680,7 +6800,7 @@
      "series": 164,
      "seq": "11",
      "doc": "GOI_SO_7E_1985",
-     "relation": "r79.rel11"
+     "relation": "r98.rel11"
     }
    },
    {
@@ -6695,7 +6815,7 @@
      "series": 164,
      "seq": "11",
      "doc": "GOI_SO_7E_1985",
-     "relation": "r79.rel11"
+     "relation": "r98.rel11"
     }
    },
    {
@@ -6715,7 +6835,7 @@
      "series": 164,
      "seq": "11",
      "doc": "GOI_SO_7E_1985",
-     "relation": "r79.rel11"
+     "relation": "r98.rel11"
     }
    },
    {
@@ -6742,7 +6862,7 @@
      "series": 164,
      "seq": "12",
      "doc": "GOI_SO_7E_1985",
-     "relation": "r79.rel12"
+     "relation": "r98.rel12"
     }
    },
    {
@@ -6759,7 +6879,7 @@
      "series": 164,
      "seq": "12",
      "doc": "GOI_SO_7E_1985",
-     "relation": "r79.rel12"
+     "relation": "r98.rel12"
     }
    },
    {
@@ -6776,7 +6896,7 @@
      "series": 164,
      "seq": "12",
      "doc": "GOI_SO_7E_1985",
-     "relation": "r79.rel12"
+     "relation": "r98.rel12"
     }
    },
    {
@@ -6791,7 +6911,7 @@
      "series": 164,
      "seq": "14",
      "doc": "GOI_SO_7E_1985",
-     "relation": "r79.rel14"
+     "relation": "r98.rel14"
     }
    },
    {
@@ -6808,7 +6928,7 @@
      "series": 164,
      "seq": "14",
      "doc": "GOI_SO_7E_1985",
-     "relation": "r79.rel14"
+     "relation": "r98.rel14"
     }
    },
    {
@@ -6925,7 +7045,7 @@
      "series": 164,
      "seq": "13",
      "doc": "GOI_SO_7E_1985",
-     "relation": "r79.rel13"
+     "relation": "r98.rel13"
     }
    },
    {
@@ -6945,7 +7065,7 @@
      "series": 164,
      "seq": "13",
      "doc": "GOI_SO_7E_1985",
-     "relation": "r79.rel13"
+     "relation": "r98.rel13"
     }
    },
    {
@@ -6962,7 +7082,7 @@
      "series": 164,
      "seq": "13",
      "doc": "GOI_SO_7E_1985",
-     "relation": "r79.rel13"
+     "relation": "r98.rel13"
     }
    },
    {
@@ -7147,7 +7267,7 @@
      "series": 164,
      "seq": "3",
      "doc": "GOI_SO_7E_1985",
-     "relation": "r79.rel3"
+     "relation": "r98.rel3"
     }
    },
    {
@@ -7166,7 +7286,7 @@
    },
    {
     "kind": "omitted",
-    "before": "6. Ministry of Education (Shiksha Mantrala-",
+    "before": "6. Ministry of Education",
     "depth": 0,
     "routine": false,
     "eId": null,
@@ -7174,7 +7294,7 @@
      "series": 164,
      "seq": "5",
      "doc": "GOI_SO_7E_1985",
-     "relation": "r79.rel5"
+     "relation": "r98.rel5"
     }
    },
    {
@@ -7187,7 +7307,7 @@
      "series": 164,
      "seq": "6",
      "doc": "GOI_SO_7E_1985",
-     "relation": "r79.rel6"
+     "relation": "r98.rel6"
     }
    },
    {
@@ -7214,7 +7334,7 @@
      "series": 164,
      "seq": "8",
      "doc": "GOI_SO_7E_1985",
-     "relation": "r79.rel8"
+     "relation": "r98.rel8"
     }
    },
    {
@@ -7227,7 +7347,7 @@
      "series": 164,
      "seq": "8",
      "doc": "GOI_SO_7E_1985",
-     "relation": "r79.rel8"
+     "relation": "r98.rel8"
     }
    },
    {
@@ -8167,7 +8287,7 @@
      "series": 188,
      "seq": "2",
      "doc": "GOI_SO_797E_1986",
-     "relation": "r134.rel2"
+     "relation": "r153.rel2"
     }
    },
    {
@@ -8187,7 +8307,7 @@
      "series": 188,
      "seq": "2",
      "doc": "GOI_SO_797E_1986",
-     "relation": "r134.rel2"
+     "relation": "r153.rel2"
     }
    },
    {
@@ -8267,7 +8387,7 @@
      "series": 188,
      "seq": "3",
      "doc": "GOI_SO_797E_1986",
-     "relation": "r134.rel3"
+     "relation": "r153.rel3"
     }
    },
    {
@@ -8284,7 +8404,7 @@
      "series": 188,
      "seq": "3",
      "doc": "GOI_SO_797E_1986",
-     "relation": "r134.rel3"
+     "relation": "r153.rel3"
     }
    },
    {

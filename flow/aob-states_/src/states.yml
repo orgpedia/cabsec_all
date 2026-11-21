@@ -24,5 +24,48 @@ config:
                                           # rejected; rules left out): versions/inferred.html
   known: known.yml                        # the known issues: what the basic checks still raise, each with why
                                           # (versions/known-issues.html; each document's lineage)
+  renames:                                # a person's decisions, not the gazette's: a rename no amendment records
+    - series: 135                         # 1977: the First Schedule (1_Upload_172) renamed it "Prime Minister's Office";
+      schedule: 2                         # the Second Schedule kept "Prime Minister's Secretariat" until the 1985
+      from: "PRIME MINISTER'S SECRETARIAT"  # re-issue printed "PRIME MINISTER'S OFFICE"
+      to: "PRIME MINISTER'S OFFICE"
+      to_hi: "PRADHAN MANTRI KARYALAYA"
+      note: "decided by mukundesh, 21 Nov 2026: the Second Schedule follows the First's 1977 rename"
+    - series: 88                          # 1971's Hindi-only First Schedule: the English name the June 1971 re-issue
+      schedule: 1                         # (1_Upload_123) prints with this Hindi name
+      from: "Banking Vibhag"
+      to: "Department of Banking"
+      to_hi: "Banking Vibhag"
+      note: "English name from 1_Upload_123, decided by mukundesh, 21 Nov 2026"
+    - series: 88                          # 1971's Hindi-only First Schedule: the English name the June 1971 re-issue
+      schedule: 1                         # (1_Upload_123) prints with this Hindi name
+      from: "Rajaswa Aur Bima Vibhag"
+      to: "Department of Revenue and Insurance"
+      to_hi: "Rajaswa Aur Bima Vibhag"
+      note: "English name from 1_Upload_123, decided by mukundesh, 21 Nov 2026"
+    - series: 88                          # 1971's Hindi-only First Schedule: the English name the June 1971 re-issue
+      schedule: 1                         # (1_Upload_123) prints with this Hindi name
+      from: "Sahkarita Vibhag"
+      to: "Department of Cooperation"
+      to_hi: "Sahkarita Vibhag"
+      note: "English name from 1_Upload_123, decided by mukundesh, 21 Nov 2026"
+    - series: 88                          # 1971's Hindi-only First Schedule: the English name the June 1971 re-issue
+      schedule: 1                         # (1_Upload_123) prints with this Hindi name
+      from: "Parivar Niyojan Vibhag"
+      to: "Department of Family Planning"
+      to_hi: "Parivar Niyojan Vibhag"
+      note: "English name from 1_Upload_123, decided by mukundesh, 21 Nov 2026"
+    - series: 88                          # 1971's Hindi-only First Schedule: the English name the June 1971 re-issue
+      schedule: 1                         # (1_Upload_123) prints with this Hindi name
+      from: "Shram Aur Rozgar Vibhag"
+      to: "Department of Labour and Employment"
+      to_hi: "Shram Aur Rozgar Vibhag"
+      note: "English name from 1_Upload_123, decided by mukundesh, 21 Nov 2026"
+    - series: 88                          # 1971's Hindi-only First Schedule: the English name the June 1971 re-issue
+      schedule: 1                         # (1_Upload_123) prints with this Hindi name
+      from: "Rasayan Vibhag"
+      to: "Department of Chemicals"
+      to_hi: "Rasayan Vibhag"
+      note: "English name from 1_Upload_123, decided by mukundesh, 21 Nov 2026"
   page_skip: [88]                         # 1_Upload_122: its First Schedule in Hindi names alone, re-issued in English
                                           # a month later (89): left off the page, 89 compared with the states at 87

@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_38.pdf",
     "sha256": "2a2b0d45858116c369168046a70d658a7a290eb282376e31b6b97fff4529a6e2",
     "govdoc": "1_Upload_38.pdf.govdoc.json.zst",
-    "revision": 89
+    "revision": 105
   },
   "documents": [
     {
@@ -300,7 +300,6 @@
               ]
             },
             "expect": "Department of Commerce",
-            "scope": "children",
             "content": [
               {
                 "type": "department",
@@ -579,7 +578,8 @@
             ],
             "flags": [
               "read_hindi_missing",
-              "read_page_break"
+              "read_page_break",
+              "states_inferred_number_kept"
             ],
             "words": [
               "r1.w208",
@@ -634,7 +634,7 @@
             "scope": "children",
             "content": [
               {
-                "type": "ministry",
+                "type": "department",
                 "heading": "DEPARTMENT OF INDUSTRY"
               },
               {
@@ -1207,7 +1207,7 @@
             "expect": "Department of Mines & Fuel",
             "content": [
               {
-                "type": "ministry",
+                "type": "department",
                 "heading": "DEPARTMENT OF HEAVY INDUSTRIES"
               },
               {

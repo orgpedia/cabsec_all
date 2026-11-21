@@ -4,7 +4,7 @@
  "series": 95,
  "date": "1972-07-18",
  "govdoc": "aob-ammend_/output/1_Upload_129.pdf.govdoc.json.zst",
- "govdoc_mtime": 1794826683.6776395,
+ "govdoc_mtime": 1795268094.0088584,
  "edits_file": "aob-ammend_/conf/1_Upload_129.pdf.edits.yml",
  "source": {
   "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_129.pdf",
@@ -120,18 +120,18 @@
    "task": "problems_check",
    "version": "2",
    "tool": "checker",
-   "run": "r78",
-   "at": "2026-11-15T17:03:13.484067+00:00",
-   "stamp": "1197436dda75b92f"
+   "run": "r86",
+   "at": "2026-11-21T11:11:13.565089+00:00",
+   "stamp": "6298350aab94b204"
   },
   {
    "step": "inferred_check",
    "task": "problems_check",
    "version": "2",
    "tool": "checker",
-   "run": "r83",
-   "at": "2026-11-16T10:58:03.658967+00:00",
-   "stamp": "571a4ee25a7983c3"
+   "run": "r94",
+   "at": "2026-11-21T13:34:53.986962+00:00",
+   "stamp": "01fbbf88fc663b5e"
   }
  ],
  "reviews": [
@@ -155,12 +155,11 @@
  ],
  "problems": [
   {
-   "series": 95,
+   "series": 174,
    "seq": 3,
-   "code": "old_path_missing",
-   "severity": "error",
-   "message": "change 3: no ministry DEPARTMENT OF SCIENCE AND TECHNOLOGY under schedule 2",
-   "cause": "unit_not_found"
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › department DEPARTMENT OF SPACE is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
   }
  ],
  "rules": [],
@@ -187,16 +186,12 @@
    "op": "insert",
    "source_ref": "3(b)",
    "path": "schedule 2 › ministry DEPARTMENT OF SCIENCE AND TECHNOLOGY",
-   "status": "not_applied",
-   "problem": "change 3: no ministry DEPARTMENT OF SCIENCE AND TECHNOLOGY under schedule 2",
-   "code": "old_path_missing",
-   "cause": "unit_not_found",
-   "known": "top_level"
+   "status": "applied"
   }
  ],
  "made_by": {
   "docflow": "0.1.0",
-  "commit": "91ec7ab",
-  "at": "2026-11-16T11:05:53+00:00"
+  "commit": "4113d7f",
+  "at": "2026-11-21T13:36:25+00:00"
  }
 }

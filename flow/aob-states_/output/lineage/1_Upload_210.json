@@ -4,7 +4,7 @@
  "series": 172,
  "date": "1985-08-29",
  "govdoc": "aob-ammend_/output/1_Upload_210.pdf.govdoc.json.zst",
- "govdoc_mtime": 1794826685.3963957,
+ "govdoc_mtime": 1795268095.894411,
  "source": {
   "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_210.pdf",
   "portal": "cabsec_aob",
@@ -101,18 +101,18 @@
    "task": "problems_check",
    "version": "2",
    "tool": "checker",
-   "run": "r70",
-   "at": "2026-11-15T17:03:19.661355+00:00",
-   "stamp": "9907460c755182bf"
+   "run": "r78",
+   "at": "2026-11-21T11:11:16.618186+00:00",
+   "stamp": "837842b68544ae6f"
   },
   {
    "step": "inferred_check",
    "task": "problems_check",
    "version": "2",
    "tool": "checker",
-   "run": "r75",
-   "at": "2026-11-16T10:58:05.384886+00:00",
-   "stamp": "a7e4d749b808d70a"
+   "run": "r86",
+   "at": "2026-11-21T13:34:55.880705+00:00",
+   "stamp": "962bcb55a7df7e58"
   }
  ],
  "reviews": [],
@@ -121,18 +121,10 @@
   {
    "series": 172,
    "seq": 1,
-   "code": "old_path_missing",
+   "code": "old_quote_mismatch",
    "severity": "error",
-   "message": "change 1: no department DEPARTMENT OF RURAL DEVE- LOPMENT under schedule 2 › ministry Ministry of Agriculture and Rural Development (Krishi aur Gramin Vikas Mantralaya)",
-   "cause": "unit_not_found"
-  },
-  {
-   "series": 172,
-   "seq": 2,
-   "code": "old_path_missing",
-   "severity": "error",
-   "message": "change 2: no department DEPARTMENT OF RURAL DEVE- LOPMENT under schedule 2 › ministry Ministry of Agriculture and Rural Development (Krishi aur Gramin Vikas Mantralaya)",
-   "cause": "unit_not_found"
+   "message": "change 1: the part's text is not what the amendment quotes",
+   "cause": "words_differ"
   },
   {
    "series": 172,
@@ -143,7 +135,24 @@
    "cause": "words_differ"
   }
  ],
- "rules": [],
+ "rules": [
+  {
+   "rule": "loose",
+   "seq": 1,
+   "note": "change 1: ministry MINISTRY OF AGRI- CULTURE AND RURAL DIVILOP- MENT taken for ministry Ministry of Agriculture and Rural Development (Krishi aur Gramin Vikas Mantralaya), named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "loose",
+   "seq": 2,
+   "note": "change 2: ministry MINISTRY OF AGRI- CULTURE AND RURAL DIVILOP- MENT taken for ministry Ministry of Agriculture and Rural Development (Krishi aur Gramin Vikas Mantralaya), named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  }
+ ],
  "changes": [
   {
    "seq": 1,
@@ -152,10 +161,10 @@
    "source_ref": "2(a)(1)",
    "path": "schedule 2 › ministry MINISTRY OF AGRI- CULTURE AND RURAL DIVILOP- MENT › department DEPARTMENT OF RURAL DEVE- LOPMENT › entry 8",
    "status": "not_applied",
-   "problem": "change 1: no department DEPARTMENT OF RURAL DEVE- LOPMENT under schedule 2 › ministry Ministry of Agriculture and Rural Development (Krishi aur Gramin Vikas Mantralaya)",
-   "code": "old_path_missing",
-   "cause": "unit_not_found",
-   "known": "agriculture"
+   "problem": "change 1: the part's text is not what the amendment quotes",
+   "code": "old_quote_mismatch",
+   "cause": "words_differ",
+   "known": "words"
   },
   {
    "seq": 2,
@@ -163,11 +172,7 @@
    "op": "insert",
    "source_ref": "2(a)(1)",
    "path": "schedule 2 › ministry MINISTRY OF AGRI- CULTURE AND RURAL DIVILOP- MENT › department DEPARTMENT OF RURAL DEVE- LOPMENT › entry 8",
-   "status": "not_applied",
-   "problem": "change 2: no department DEPARTMENT OF RURAL DEVE- LOPMENT under schedule 2 › ministry Ministry of Agriculture and Rural Development (Krishi aur Gramin Vikas Mantralaya)",
-   "code": "old_path_missing",
-   "cause": "unit_not_found",
-   "known": "agriculture"
+   "status": "applied"
   },
   {
    "seq": 3,
@@ -184,7 +189,7 @@
  ],
  "made_by": {
   "docflow": "0.1.0",
-  "commit": "91ec7ab",
-  "at": "2026-11-16T11:05:53+00:00"
+  "commit": "4113d7f",
+  "at": "2026-11-21T13:36:25+00:00"
  }
 }

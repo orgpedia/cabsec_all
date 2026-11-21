@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_171.pdf",
     "sha256": "719d9b4d3a6661faf1a481873a30d548885af47b4235e387f3fd21089d52e0e4",
     "govdoc": "1_Upload_171.pdf.govdoc.json.zst",
-    "revision": 70
+    "revision": 95
   },
   "documents": [
     {
@@ -31,15 +31,15 @@
           "tool": "model_relations",
           "version": "4",
           "model": "gemini-4-argon",
-          "at": "2026-11-15T16:24:28.502352+00:00"
+          "at": "2026-11-21T11:07:35.736247+00:00"
         },
         "ops": [
           {
             "seq": 1,
-            "source_ref": "2(a)",
+            "source_ref": "2(a\"",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r63.rel1",
+            "relation": "r82.rel1",
             "target": {
               "cited": [
                 {
@@ -70,9 +70,14 @@
             },
             "content": [
               {
-                "type": "department",
+                "type": "ministry",
                 "num": "4A",
-                "heading": "Min'stry of Energy ( Oorja Mantralaya ) : Department of Power",
+                "heading": "Ministry of Energy",
+                "heading_hi": "Oorja Mantralaya"
+              },
+              {
+                "type": "department",
+                "heading": "Department of Power",
                 "heading_hi": "Vidyut Vibhag"
               }
             ],
@@ -95,10 +100,10 @@
           },
           {
             "seq": 2,
-            "source_ref": "2(b)",
+            "source_ref": "2(b\"",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r63.rel2",
+            "relation": "r82.rel2",
             "target": {
               "cited": [
                 {
@@ -171,10 +176,10 @@
           },
           {
             "seq": 3,
-            "source_ref": "3(a)(i)",
+            "source_ref": "3(a)(i\"",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r63.rel3",
+            "relation": "r82.rel3",
             "target": {
               "cited": [
                 {
@@ -192,7 +197,7 @@
               ],
               "eId": null,
               "words": [
-                "r1.w763",
+                "r1.w764",
                 "r1.w772"
               ],
               "boxes": [
@@ -207,7 +212,7 @@
                 }
               ]
             },
-            "expect": "A. DEPARTMENT OF POWEK (VIDYUT VIBHAG ) ",
+            "expect": "A. DEPARTMENT OF POWEK (VIDYUT VIBHAG )",
             "scope": "heading",
             "content": [
               {
@@ -237,10 +242,10 @@
           },
           {
             "seq": 4,
-            "source_ref": "3(a)(ii)",
+            "source_ref": "3(a)(ii\"",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r63.rel4",
+            "relation": "r82.rel4",
             "target": {
               "cited": [
                 {
@@ -258,14 +263,14 @@
               ],
               "eId": null,
               "words": [
-                "r1.w786",
+                "r1.w787",
                 "r1.w799"
               ],
               "boxes": [
                 {
                   "page": 2,
                   "bbox": [
-                    1395,
+                    1418,
                     1223,
                     2266,
                     1288
@@ -273,7 +278,7 @@
                 }
               ]
             },
-            "expect": "B. DEPARTMENT OF COAL (KOYALA VIBHAG ) ",
+            "expect": "B. DEPARTMENT OF COAL (KOYALA VIBHAG )",
             "flags": [],
             "words": [
               "r1.w785",
@@ -293,10 +298,10 @@
           },
           {
             "seq": 5,
-            "source_ref": "3(b)",
+            "source_ref": "3(b\"",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r63.rel5",
+            "relation": "r82.rel5",
             "target": {
               "cited": [
                 {
@@ -310,7 +315,7 @@
               ],
               "eId": null,
               "words": [
-                "r1.w806",
+                "r1.w807",
                 "r1.w816"
               ],
               "boxes": [
@@ -318,7 +323,7 @@
                   "page": 2,
                   "bbox": [
                     1413,
-                    1344,
+                    1345,
                     2273,
                     1412
                   ]
@@ -352,10 +357,10 @@
           },
           {
             "seq": 6,
-            "source_ref": "3(b)",
+            "source_ref": "3(b\"",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r63.rel6",
+            "relation": "r82.rel6",
             "position": "after",
             "anchor": {
               "cited": [
@@ -369,12 +374,12 @@
                 },
                 {
                   "type": "department",
-                  "heading": "DE- PARTMENT OF MINES"
+                  "heading": "DEPARTMENT OF MINES"
                 }
               ],
               "eId": null,
               "words": [
-                "r1.w844",
+                "r1.w843",
                 "r1.w856"
               ],
               "boxes": [

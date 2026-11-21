@@ -4,7 +4,7 @@
  "series": 31,
  "date": "1964-06-26",
  "govdoc": "aob-ammend_/output/1_Upload_64.pdf.govdoc.json.zst",
- "govdoc_mtime": 1794826694.9198925,
+ "govdoc_mtime": 1795268106.867777,
  "edits_file": "aob-ammend_/conf/1_Upload_64.pdf.edits.yml",
  "source": {
   "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_64.pdf",
@@ -120,18 +120,18 @@
    "task": "problems_check",
    "version": "2",
    "tool": "checker",
-   "run": "r72",
-   "at": "2026-11-15T17:03:52.373067+00:00",
-   "stamp": "ec238fc4db943468"
+   "run": "r80",
+   "at": "2026-11-21T11:11:32.823677+00:00",
+   "stamp": "14cd804d3bf6d3a9"
   },
   {
    "step": "inferred_check",
    "task": "problems_check",
    "version": "2",
    "tool": "checker",
-   "run": "r77",
-   "at": "2026-11-16T10:58:14.913018+00:00",
-   "stamp": "1d44b1578945bd3f"
+   "run": "r88",
+   "at": "2026-11-21T13:35:06.859109+00:00",
+   "stamp": "e67f89d32aaf1b29"
   }
  ],
  "reviews": [],
@@ -150,7 +150,7 @@
    "seq": 2,
    "code": "old_path_missing",
    "severity": "error",
-   "message": "change 2: no department Social Security under schedule 2 › ministry DEPARTMENT OF SOCIAL SECURITY",
+   "message": "change 2: no department Social Security under schedule 2 › department DEPARTMENT OF SOCIAL SECURITY",
    "cause": "unit_not_found"
   }
  ],
@@ -175,7 +175,7 @@
    "source_ref": "2",
    "path": "schedule 2 › ministry Department of Social Security › department Social Security › entry 15",
    "status": "not_applied",
-   "problem": "change 2: no department Social Security under schedule 2 › ministry DEPARTMENT OF SOCIAL SECURITY",
+   "problem": "change 2: no department Social Security under schedule 2 › department DEPARTMENT OF SOCIAL SECURITY",
    "code": "old_path_missing",
    "cause": "unit_not_found",
    "known": "renamed_unit"
@@ -183,7 +183,7 @@
  ],
  "made_by": {
   "docflow": "0.1.0",
-  "commit": "91ec7ab",
-  "at": "2026-11-16T11:05:53+00:00"
+  "commit": "4113d7f",
+  "at": "2026-11-21T13:36:25+00:00"
  }
 }

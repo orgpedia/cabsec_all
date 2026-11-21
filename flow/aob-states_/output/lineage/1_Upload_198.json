@@ -4,7 +4,7 @@
  "series": 160,
  "date": "1984-01-19",
  "govdoc": "aob-ammend_/output/1_Upload_198.pdf.govdoc.json.zst",
- "govdoc_mtime": 1794826686.3749535,
+ "govdoc_mtime": 1795268096.9565527,
  "source": {
   "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_198.pdf",
   "portal": "cabsec_aob",
@@ -101,18 +101,18 @@
    "task": "problems_check",
    "version": "2",
    "tool": "checker",
-   "run": "r70",
-   "at": "2026-11-15T17:03:24.658835+00:00",
-   "stamp": "a1ffd8a190435b7f"
+   "run": "r78",
+   "at": "2026-11-21T11:11:19.056745+00:00",
+   "stamp": "91694553257eae91"
   },
   {
    "step": "inferred_check",
    "task": "problems_check",
    "version": "2",
    "tool": "checker",
-   "run": "r75",
-   "at": "2026-11-16T10:58:06.363599+00:00",
-   "stamp": "e5ca71e385cac583"
+   "run": "r86",
+   "at": "2026-11-21T13:34:56.943360+00:00",
+   "stamp": "d1554cf5dda2de61"
   }
  ],
  "reviews": [],
@@ -132,23 +132,7 @@
    "status": "open"
   }
  ],
- "problems": [
-  {
-   "series": 160,
-   "seq": 4,
-   "code": "old_path_missing",
-   "severity": "error",
-   "message": "change 4: no department DEPARTMENT OF SPORTS under schedule 2",
-   "cause": "unit_not_found"
-  },
-  {
-   "series": 174,
-   "seq": 3,
-   "code": "new_extra",
-   "severity": "warning",
-   "message": "schedule 2 › ministry DEPARTMENT OF OCEAN DEVELOPMENT › entry 2A is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
-  }
- ],
+ "problems": [],
  "rules": [
   {
    "rule": "loose",
@@ -198,16 +182,12 @@
    "op": "insert",
    "source_ref": "2(c)",
    "path": "schedule 2 › department DEPARTMENT OF SPORTS › entry 2",
-   "status": "not_applied",
-   "problem": "change 4: no department DEPARTMENT OF SPORTS under schedule 2",
-   "code": "old_path_missing",
-   "cause": "unit_not_found",
-   "known": "top_level"
+   "status": "applied"
   }
  ],
  "made_by": {
   "docflow": "0.1.0",
-  "commit": "91ec7ab",
-  "at": "2026-11-16T11:05:53+00:00"
+  "commit": "4113d7f",
+  "at": "2026-11-21T13:36:25+00:00"
  }
 }

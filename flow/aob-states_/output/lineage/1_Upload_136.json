@@ -4,7 +4,8 @@
  "series": 102,
  "date": "1973-12-15",
  "govdoc": "aob-ammend_/output/1_Upload_136.pdf.govdoc.json.zst",
- "govdoc_mtime": 1794826688.0406327,
+ "govdoc_mtime": 1795268099.0481117,
+ "edits_file": "aob-ammend_/conf/1_Upload_136.pdf.edits.yml",
  "source": {
   "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_136.pdf",
   "portal": "cabsec_aob",
@@ -13,7 +14,25 @@
   "sha256": "6f31ecae73244aef6a19cd33f700af6dc79858c13870233a33c2d00931ea9691",
   "pages": 6
  },
- "edits": [],
+ "edits": [
+  {
+   "run": "h1",
+   "by": "claude",
+   "at": "2026-11-21T13:20:00+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r1.w478",
+     "before": {
+      "text": "DEPARTMESNT"
+     },
+     "after": {
+      "text": "DEPARTMENT"
+     }
+    }
+   ]
+  }
+ ],
  "steps": [
   {
    "step": "text",
@@ -29,36 +48,36 @@
    "task": "word_lines",
    "version": "2",
    "tool": "line_builder",
-   "run": "r50",
-   "at": "2026-11-15T12:42:05.527759+00:00",
-   "stamp": "0f300a5c50986618"
+   "run": "r86",
+   "at": "2026-11-21T13:10:12.562118+00:00",
+   "stamp": "308e342083523395"
   },
   {
    "step": "layout",
    "task": "pdftable_finder",
    "version": "4",
    "tool": "block_builder",
-   "run": "r51",
-   "at": "2026-11-15T12:42:07.541931+00:00",
-   "stamp": "3f956453ddeeb080"
+   "run": "r87",
+   "at": "2026-11-21T13:10:12.616008+00:00",
+   "stamp": "a00ac5fe5ce556c9"
   },
   {
    "step": "split",
    "task": "section_splitter",
    "version": "1",
    "tool": "splitter",
-   "run": "r52",
-   "at": "2026-11-15T12:42:09.644837+00:00",
-   "stamp": "98400cf03c46ff67"
+   "run": "r88",
+   "at": "2026-11-21T13:10:12.751460+00:00",
+   "stamp": "086ec88c36e34c8d"
   },
   {
    "step": "ops_roles",
    "task": "model_tagger",
    "version": "4",
    "tool": "tagger",
-   "run": "r61",
-   "at": "2026-11-15T16:24:25.419225+00:00",
-   "stamp": "caa6f9cb7806aea8",
+   "run": "r89",
+   "at": "2026-11-21T13:34:58.529394+00:00",
+   "stamp": "f53d8c1abb4d7270",
    "model": "gemini-4-argon",
    "instructions": "prompts/ops.md",
    "config_hash": "ec3ea61a4977c729"
@@ -68,9 +87,9 @@
    "task": "model_entities",
    "version": "4",
    "tool": "entity",
-   "run": "r62",
-   "at": "2026-11-15T16:24:26.926074+00:00",
-   "stamp": "ec2d81a1abc720c4",
+   "run": "r90",
+   "at": "2026-11-21T13:34:58.578013+00:00",
+   "stamp": "bc979a76d095e909",
    "model": "gemini-4-argon",
    "instructions": "prompts/ops.md",
    "config_hash": "ec3ea61a4977c729"
@@ -80,9 +99,9 @@
    "task": "model_relations",
    "version": "4",
    "tool": "relation",
-   "run": "r63",
-   "at": "2026-11-15T16:24:28.470445+00:00",
-   "stamp": "53b2718f4a4576d7",
+   "run": "r91",
+   "at": "2026-11-21T13:34:58.668236+00:00",
+   "stamp": "e8dde5e0dd3e15fb",
    "model": "gemini-4-argon",
    "instructions": "prompts/ops.md",
    "config_hash": "ec3ea61a4977c729"
@@ -92,27 +111,27 @@
    "task": "legal_ops_check",
    "version": "11",
    "tool": "checker",
-   "run": "r69",
-   "at": "2026-11-15T16:57:27.848242+00:00",
-   "stamp": "20ad00609415e4d5"
+   "run": "r92",
+   "at": "2026-11-21T13:34:58.717451+00:00",
+   "stamp": "eeeab12a6f361df3"
   },
   {
    "step": "states_check",
    "task": "problems_check",
    "version": "2",
    "tool": "checker",
-   "run": "r70",
-   "at": "2026-11-15T17:03:29.907225+00:00",
-   "stamp": "05154915da629072"
+   "run": "r93",
+   "at": "2026-11-21T13:34:58.823732+00:00",
+   "stamp": "e6b5fdf5add17dff"
   },
   {
    "step": "inferred_check",
    "task": "problems_check",
    "version": "2",
    "tool": "checker",
-   "run": "r75",
-   "at": "2026-11-16T10:58:08.013748+00:00",
-   "stamp": "179a003f4bd3ade4"
+   "run": "r94",
+   "at": "2026-11-21T13:34:59.015157+00:00",
+   "stamp": "84f06f1ccf61c4f9"
   }
  ],
  "reviews": [],
@@ -121,7 +140,7 @@
    "code": "aob:read_page_break",
    "severity": "info",
    "message": "change 9: its quoted text runs across a page break",
-   "target": "r63.rel9",
+   "target": "r91.rel9",
    "status": "open"
   }
  ],
@@ -203,7 +222,7 @@
  ],
  "made_by": {
   "docflow": "0.1.0",
-  "commit": "91ec7ab",
-  "at": "2026-11-16T11:05:53+00:00"
+  "commit": "4113d7f",
+  "at": "2026-11-21T13:36:25+00:00"
  }
 }

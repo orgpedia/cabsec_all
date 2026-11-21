@@ -4,7 +4,7 @@
  "series": 11,
  "date": "1962-11-03",
  "govdoc": "aob-ammend_/output/1_Upload_44.pdf.govdoc.json.zst",
- "govdoc_mtime": 1794826695.3154345,
+ "govdoc_mtime": 1795268107.3852332,
  "edits_file": "aob-ammend_/conf/1_Upload_44.pdf.edits.yml",
  "source": {
   "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_44.pdf",
@@ -161,18 +161,18 @@
    "task": "problems_check",
    "version": "2",
    "tool": "checker",
-   "run": "r78",
-   "at": "2026-11-15T17:03:53.075173+00:00",
-   "stamp": "a252c7cf47149d64"
+   "run": "r86",
+   "at": "2026-11-21T11:11:33.193944+00:00",
+   "stamp": "ddb64a731020bd66"
   },
   {
    "step": "inferred_check",
    "task": "problems_check",
    "version": "2",
    "tool": "checker",
-   "run": "r83",
-   "at": "2026-11-16T10:58:15.304201+00:00",
-   "stamp": "61d5e3c39482f3a0"
+   "run": "r94",
+   "at": "2026-11-21T13:35:07.372382+00:00",
+   "stamp": "856a1778517d58d1"
   }
  ],
  "reviews": [],
@@ -196,13 +196,6 @@
    "severity": "info",
    "message": "change 2: its quoted text runs across a page break",
    "target": "r71.rel2",
-   "status": "open"
-  },
-  {
-   "code": "aob:states_inferred_number_kept",
-   "severity": "info",
-   "message": "change 1: schedule 1 › ministry Ministry of Defence. keeps its number 3, the heading put for it quoted without one",
-   "target": "r71.rel1",
    "status": "open"
   }
  ],
@@ -250,14 +243,7 @@
    "message": "schedule 2 › ministry MINISTRY OF DEFENCE › department B › entry 20 is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
   }
  ],
- "rules": [
-  {
-   "rule": "number_kept",
-   "seq": 1,
-   "note": "change 1: schedule 1 › ministry Ministry of Defence. keeps its number 3, the heading put for it quoted without one",
-   "status": "accepted"
-  }
- ],
+ "rules": [],
  "changes": [
   {
    "seq": 1,
@@ -278,7 +264,7 @@
  ],
  "made_by": {
   "docflow": "0.1.0",
-  "commit": "91ec7ab",
-  "at": "2026-11-16T11:05:53+00:00"
+  "commit": "4113d7f",
+  "at": "2026-11-21T13:36:25+00:00"
  }
 }

@@ -2,10 +2,15 @@
 # GovDoc Studio and brought into the GovDoc file by the pipeline before it runs (Pipeline §P9).
 file: 1_Upload_122.pdf
 file_id: f_84787249e79ca237
-next: 2
+next: 3
 runs:
 - id: h1
   by: mukundesh
   at: '2026-11-14T16:35:18Z'
   edits:
   - {op: text, target: r1.w1016, before: {text: '38.'}, after: {text: '39.'}}
+- id: h2
+  by: claude
+  at: '2026-11-21T09:35:00Z'
+  edits:
+  - {op: text, target: r1.w3649, before: {text: Irodyagiki}, after: {text: Prodyogiki}}

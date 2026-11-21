@@ -4,7 +4,7 @@
  "series": 106,
  "date": "1974-10-11",
  "govdoc": "aob-ammend_/output/1_Upload_143.pdf.govdoc.json.zst",
- "govdoc_mtime": 1794826690.9096534,
+ "govdoc_mtime": 1795268102.4102044,
  "edits_file": "aob-ammend_/conf/1_Upload_143.pdf.edits.yml",
  "source": {
   "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_143.pdf",
@@ -120,18 +120,18 @@
    "task": "problems_check",
    "version": "2",
    "tool": "checker",
-   "run": "r78",
-   "at": "2026-11-15T17:03:37.965736+00:00",
-   "stamp": "0ffd010c9780e530"
+   "run": "r86",
+   "at": "2026-11-21T11:11:25.820362+00:00",
+   "stamp": "da54e2e02162b771"
   },
   {
    "step": "inferred_check",
    "task": "problems_check",
    "version": "2",
    "tool": "checker",
-   "run": "r83",
-   "at": "2026-11-16T10:58:10.795640+00:00",
-   "stamp": "4215581fd519405c"
+   "run": "r94",
+   "at": "2026-11-21T13:35:02.337268+00:00",
+   "stamp": "8709f4a22e7e7585"
   }
  ],
  "reviews": [],
@@ -201,22 +201,6 @@
    "severity": "error",
    "message": "change 9: no entry 13C under schedule 2 › ministry MINISTRY OF AGRICULTURE AND IRRIGATION › department A",
    "cause": "entry_not_in_state"
-  },
-  {
-   "series": 106,
-   "seq": 11,
-   "code": "old_path_missing",
-   "severity": "error",
-   "message": "change 11: no department DEPARTMENT OF AGRICULTURAL RESEARCH AND EDUCATION under schedule 2 › ministry MINISTRY OF AGRICULTURE AND IRRIGATION",
-   "cause": "unit_not_found"
-  },
-  {
-   "series": 106,
-   "seq": 12,
-   "code": "old_path_missing",
-   "severity": "error",
-   "message": "change 12: no department DEPARTMENT OF AGRICULTURAL RESEARCH AND EDUCATION under schedule 2 › ministry MINISTRY OF AGRICULTURE AND IRRIGATION",
-   "cause": "unit_not_found"
   },
   {
    "series": 106,
@@ -352,11 +336,7 @@
    "op": "replace",
    "source_ref": "3(a)(iv)",
    "path": "schedule 2 › ministry MINISTRY OF AGRICULTURE AND IRRIGATION › department DEPARTMENT OF AGRICULTURAL RESEARCH AND EDUCATION",
-   "status": "not_applied",
-   "problem": "change 11: no department DEPARTMENT OF AGRICULTURAL RESEARCH AND EDUCATION under schedule 2 › ministry MINISTRY OF AGRICULTURE AND IRRIGATION",
-   "code": "old_path_missing",
-   "cause": "unit_not_found",
-   "known": "agriculture"
+   "status": "applied"
   },
   {
    "seq": 12,
@@ -364,11 +344,7 @@
    "op": "insert",
    "source_ref": "3(a)(v)",
    "path": "schedule 2 › ministry MINISTRY OF AGRICULTURE AND IRRIGATION › department DEPARTMENT OF AGRICULTURAL RESEARCH AND EDUCATION",
-   "status": "not_applied",
-   "problem": "change 12: no department DEPARTMENT OF AGRICULTURAL RESEARCH AND EDUCATION under schedule 2 › ministry MINISTRY OF AGRICULTURE AND IRRIGATION",
-   "code": "old_path_missing",
-   "cause": "unit_not_found",
-   "known": "agriculture"
+   "status": "applied"
   },
   {
    "seq": 13,
@@ -509,7 +485,7 @@
  ],
  "made_by": {
   "docflow": "0.1.0",
-  "commit": "91ec7ab",
-  "at": "2026-11-16T11:05:53+00:00"
+  "commit": "4113d7f",
+  "at": "2026-11-21T13:36:25+00:00"
  }
 }

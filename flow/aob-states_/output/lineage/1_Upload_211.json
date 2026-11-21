@@ -4,7 +4,7 @@
  "series": 173,
  "date": "1985-09-16",
  "govdoc": "aob-ammend_/output/1_Upload_211.pdf.govdoc.json.zst",
- "govdoc_mtime": 1794826683.1452365,
+ "govdoc_mtime": 1795268093.4161756,
  "source": {
   "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_211.pdf",
   "portal": "cabsec_aob",
@@ -101,39 +101,23 @@
    "task": "problems_check",
    "version": "2",
    "tool": "checker",
-   "run": "r70",
-   "at": "2026-11-15T17:03:12.512368+00:00",
-   "stamp": "176a618cb6ba3f66"
+   "run": "r78",
+   "at": "2026-11-21T11:11:13.046566+00:00",
+   "stamp": "45b39c4200ff6aeb"
   },
   {
    "step": "inferred_check",
    "task": "problems_check",
    "version": "2",
    "tool": "checker",
-   "run": "r75",
-   "at": "2026-11-16T10:58:03.129104+00:00",
-   "stamp": "303b401b3e6f507d"
+   "run": "r86",
+   "at": "2026-11-21T13:34:53.398277+00:00",
+   "stamp": "3520223a9b9ff1ce"
   }
  ],
  "reviews": [],
  "issues": [],
  "problems": [
-  {
-   "series": 173,
-   "seq": 1,
-   "code": "old_path_missing",
-   "severity": "error",
-   "message": "change 1: no department DEPARTMENT OF RURAL DIVE- LOPMENT under schedule 2 › ministry Ministry of Agriculture and Rural Development (Krishi aur Gramin Vikas Mantralaya)",
-   "cause": "unit_not_found"
-  },
-  {
-   "series": 173,
-   "seq": 2,
-   "code": "old_path_missing",
-   "severity": "error",
-   "message": "change 2: no department DEPARTMENT OF RURAL DIVE- LOPMENT under schedule 2 › ministry Ministry of Agriculture and Rural Development (Krishi aur Gramin Vikas Mantralaya)",
-   "cause": "unit_not_found"
-  },
   {
    "series": 173,
    "seq": 3,
@@ -150,7 +134,40 @@
    "message": "schedule 2 › ministry MINISTRY OF RAILWAYS (RAILWAY BOARD) is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
   }
  ],
- "rules": [],
+ "rules": [
+  {
+   "rule": "loose",
+   "seq": 1,
+   "note": "change 1: ministry MINISTRY :'{ *GRKULTURE AND RURAL DEVELOPMENT taken for ministry Ministry of Agriculture and Rural Development (Krishi aur Gramin Vikas Mantralaya), named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "loose",
+   "seq": 1,
+   "note": "change 1: department DEPARTMENT OF RURAL DIVE- LOPMENT taken for department DEPARTMENT OF RURAL DEVELOPMENT, named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "loose",
+   "seq": 2,
+   "note": "change 2: ministry MINISTRY :'{ *GRKULTURE AND RURAL DEVELOPMENT taken for ministry Ministry of Agriculture and Rural Development (Krishi aur Gramin Vikas Mantralaya), named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "loose",
+   "seq": 2,
+   "note": "change 2: department DEPARTMENT OF RURAL DIVE- LOPMENT taken for department DEPARTMENT OF RURAL DEVELOPMENT, named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  }
+ ],
  "changes": [
   {
    "seq": 1,
@@ -158,11 +175,7 @@
    "op": "replace",
    "source_ref": "2(a)(1)",
    "path": "schedule 2 › ministry MINISTRY :'{ *GRKULTURE AND RURAL DEVELOPMENT › department DEPARTMENT OF RURAL DIVE- LOPMENT › entry 9",
-   "status": "not_applied",
-   "problem": "change 1: no department DEPARTMENT OF RURAL DIVE- LOPMENT under schedule 2 › ministry Ministry of Agriculture and Rural Development (Krishi aur Gramin Vikas Mantralaya)",
-   "code": "old_path_missing",
-   "cause": "unit_not_found",
-   "known": "agriculture"
+   "status": "applied"
   },
   {
    "seq": 2,
@@ -170,11 +183,7 @@
    "op": "replace",
    "source_ref": "2(a)(ii)",
    "path": "schedule 2 › ministry MINISTRY :'{ *GRKULTURE AND RURAL DEVELOPMENT › department DEPARTMENT OF RURAL DIVE- LOPMENT › entry 12",
-   "status": "not_applied",
-   "problem": "change 2: no department DEPARTMENT OF RURAL DIVE- LOPMENT under schedule 2 › ministry Ministry of Agriculture and Rural Development (Krishi aur Gramin Vikas Mantralaya)",
-   "code": "old_path_missing",
-   "cause": "unit_not_found",
-   "known": "agriculture"
+   "status": "applied"
   },
   {
    "seq": 3,
@@ -199,7 +208,7 @@
  ],
  "made_by": {
   "docflow": "0.1.0",
-  "commit": "91ec7ab",
-  "at": "2026-11-16T11:05:53+00:00"
+  "commit": "4113d7f",
+  "at": "2026-11-21T13:36:25+00:00"
  }
 }

@@ -4,7 +4,7 @@
  "series": 149,
  "date": "1981-08-01",
  "govdoc": "aob-ammend_/output/1_Upload_187.pdf.govdoc.json.zst",
- "govdoc_mtime": 1794826689.2977285,
+ "govdoc_mtime": 1795268100.4521077,
  "source": {
   "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_187.pdf",
   "portal": "cabsec_aob",
@@ -101,18 +101,18 @@
    "task": "problems_check",
    "version": "2",
    "tool": "checker",
-   "run": "r70",
-   "at": "2026-11-15T17:03:32.278482+00:00",
-   "stamp": "079876f32d8d1b46"
+   "run": "r78",
+   "at": "2026-11-21T11:11:22.976835+00:00",
+   "stamp": "85622e8207dd9265"
   },
   {
    "step": "inferred_check",
    "task": "problems_check",
    "version": "2",
    "tool": "checker",
-   "run": "r75",
-   "at": "2026-11-16T10:58:09.271808+00:00",
-   "stamp": "e4a08ad19f778f77"
+   "run": "r86",
+   "at": "2026-11-21T13:35:00.380537+00:00",
+   "stamp": "3cca31fbd9295306"
   }
  ],
  "reviews": [],
@@ -130,6 +130,13 @@
    "message": "change 12: its quoted text runs across a page break",
    "target": "r63.rel12",
    "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
+   "message": "change 9: department DEPARTMENT OF PERSONNEL AND ADMINISTRATIVE RFORMS taken for department DEPARTMENT OF PERSONNEL AND ADMINISTRATIVE REFORMS, named loosely",
+   "target": "r63.rel9",
+   "status": "open"
   }
  ],
  "problems": [
@@ -139,30 +146,6 @@
    "code": "old_path_missing",
    "severity": "error",
    "message": "change 6: no department DEPARTMENT OF REVENUE under schedule 2 › ministry MINISTRY OF FINANCE",
-   "cause": "unit_not_found"
-  },
-  {
-   "series": 149,
-   "seq": 7,
-   "code": "old_path_ambiguous",
-   "severity": "error",
-   "message": "change 7: 2 parts are entry 2 under schedule 2 › ministry MINISTRY OF HOME AFFAIRS",
-   "cause": "number_twice"
-  },
-  {
-   "series": 149,
-   "seq": 8,
-   "code": "old_path_ambiguous",
-   "severity": "error",
-   "message": "change 8: 2 parts are entry 6 under schedule 2 › ministry MINISTRY OF HOME AFFAIRS",
-   "cause": "number_twice"
-  },
-  {
-   "series": 149,
-   "seq": 9,
-   "code": "old_path_missing",
-   "severity": "error",
-   "message": "change 9: no department DEPARTMENT OF PERSONNEL AND ADMINISTRATIVE RFORMS under schedule 2 › ministry MINISTRY OF HOME AFFAIRS",
    "cause": "unit_not_found"
   },
   {
@@ -181,7 +164,16 @@
    "message": "schedule 2 › ministry MINISTRY OF EXTERNAL AFFAIRS › entry 8 reads differently in 1_Upload_212.pdf than in 1_Upload_1144.pdf with the amendments up to 173 applied"
   }
  ],
- "rules": [],
+ "rules": [
+  {
+   "rule": "loose",
+   "seq": 9,
+   "note": "change 9: department DEPARTMENT OF PERSONNEL AND ADMINISTRATIVE RFORMS taken for department DEPARTMENT OF PERSONNEL AND ADMINISTRATIVE REFORMS, named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  }
+ ],
  "changes": [
   {
    "seq": 1,
@@ -241,11 +233,7 @@
    "op": "replace",
    "source_ref": "2(v)(a)",
    "path": "schedule 2 › ministry MINISTRY OF HOME AFFAIRS › entry 2",
-   "status": "not_applied",
-   "problem": "change 7: 2 parts are entry 2 under schedule 2 › ministry MINISTRY OF HOME AFFAIRS",
-   "code": "old_path_ambiguous",
-   "cause": "number_twice",
-   "known": "home_affairs"
+   "status": "applied"
   },
   {
    "seq": 8,
@@ -253,11 +241,7 @@
    "op": "replace",
    "source_ref": "2(v)(a)",
    "path": "schedule 2 › ministry MINISTRY OF HOME AFFAIRS › entry 6",
-   "status": "not_applied",
-   "problem": "change 8: 2 parts are entry 6 under schedule 2 › ministry MINISTRY OF HOME AFFAIRS",
-   "code": "old_path_ambiguous",
-   "cause": "number_twice",
-   "known": "home_affairs"
+   "status": "applied"
   },
   {
    "seq": 9,
@@ -265,11 +249,7 @@
    "op": "insert",
    "source_ref": "2(v)(b)",
    "path": "schedule 2 › ministry MINISTRY OF HOME AFFAIRS › department DEPARTMENT OF PERSONNEL AND ADMINISTRATIVE RFORMS › entry 22A",
-   "status": "not_applied",
-   "problem": "change 9: no department DEPARTMENT OF PERSONNEL AND ADMINISTRATIVE RFORMS under schedule 2 › ministry MINISTRY OF HOME AFFAIRS",
-   "code": "old_path_missing",
-   "cause": "unit_not_found",
-   "known": "home_affairs"
+   "status": "applied"
   },
   {
    "seq": 10,
@@ -350,7 +330,7 @@
  ],
  "made_by": {
   "docflow": "0.1.0",
-  "commit": "91ec7ab",
-  "at": "2026-11-16T11:05:53+00:00"
+  "commit": "4113d7f",
+  "at": "2026-11-21T13:36:25+00:00"
  }
 }

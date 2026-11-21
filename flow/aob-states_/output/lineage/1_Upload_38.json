@@ -4,7 +4,7 @@
  "series": 5,
  "date": "1962-04-09",
  "govdoc": "aob-ammend_/output/1_Upload_38.pdf.govdoc.json.zst",
- "govdoc_mtime": 1794826683.6069932,
+ "govdoc_mtime": 1795268093.9301488,
  "edits_file": "aob-ammend_/conf/1_Upload_38.pdf.edits.yml",
  "source": {
   "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_38.pdf",
@@ -137,18 +137,18 @@
    "task": "problems_check",
    "version": "2",
    "tool": "checker",
-   "run": "r86",
-   "at": "2026-11-15T17:03:13.321434+00:00",
-   "stamp": "14835d8775ed8553"
+   "run": "r94",
+   "at": "2026-11-21T11:11:13.484061+00:00",
+   "stamp": "74f4727b1f1f5278"
   },
   {
    "step": "inferred_check",
    "task": "problems_check",
    "version": "2",
    "tool": "checker",
-   "run": "r91",
-   "at": "2026-11-16T10:58:03.578907+00:00",
-   "stamp": "003b92062856cc35"
+   "run": "r102",
+   "at": "2026-11-21T13:34:53.899641+00:00",
+   "stamp": "53d7c9842f1ec372"
   }
  ],
  "reviews": [
@@ -258,6 +258,20 @@
    "message": "change 11: a new heading has no Hindi name in brackets",
    "target": "r79.rel11",
    "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_number_kept",
+   "severity": "info",
+   "message": "change 4: schedule 2 › ministry MINISTRY OF COMMERCE & INDUSTRY › department DEPARTMENT OF COMMERCE keeps its number A, the heading put for it quoted without one",
+   "target": "r79.rel4",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_number_kept",
+   "severity": "info",
+   "message": "change 5: schedule 2 › ministry MINISTRY OF COMMERCE & INDUSTRY › department DEPARTMENT OF INDUSTRY keeps its number B, the heading put for it quoted without one",
+   "target": "r79.rel5",
+   "status": "open"
   }
  ],
  "problems": [
@@ -270,7 +284,20 @@
    "cause": "unit_not_found"
   }
  ],
- "rules": [],
+ "rules": [
+  {
+   "rule": "number_kept",
+   "seq": 4,
+   "note": "change 4: schedule 2 › ministry MINISTRY OF COMMERCE & INDUSTRY › department DEPARTMENT OF COMMERCE keeps its number A, the heading put for it quoted without one",
+   "status": "accepted"
+  },
+  {
+   "rule": "number_kept",
+   "seq": 5,
+   "note": "change 5: schedule 2 › ministry MINISTRY OF COMMERCE & INDUSTRY › department DEPARTMENT OF INDUSTRY keeps its number B, the heading put for it quoted without one",
+   "status": "accepted"
+  }
+ ],
  "changes": [
   {
    "seq": 1,
@@ -367,7 +394,7 @@
  ],
  "made_by": {
   "docflow": "0.1.0",
-  "commit": "91ec7ab",
-  "at": "2026-11-16T11:05:53+00:00"
+  "commit": "4113d7f",
+  "at": "2026-11-21T13:36:25+00:00"
  }
 }

@@ -4,7 +4,7 @@
  "series": 127,
  "date": "1978-02-23",
  "govdoc": "aob-ammend_/output/1_Upload_163.pdf.govdoc.json.zst",
- "govdoc_mtime": 1794826693.5690632,
+ "govdoc_mtime": 1795268105.3134272,
  "source": {
   "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_163.pdf",
   "portal": "cabsec_aob",
@@ -101,18 +101,18 @@
    "task": "problems_check",
    "version": "2",
    "tool": "checker",
-   "run": "r70",
-   "at": "2026-11-15T17:03:46.359687+00:00",
-   "stamp": "6d54691815415bea"
+   "run": "r78",
+   "at": "2026-11-21T11:11:30.052871+00:00",
+   "stamp": "dc994b2e810fd7d5"
   },
   {
    "step": "inferred_check",
    "task": "problems_check",
    "version": "2",
    "tool": "checker",
-   "run": "r75",
-   "at": "2026-11-16T10:58:13.539279+00:00",
-   "stamp": "8c86e0c1f8d46f8b"
+   "run": "r86",
+   "at": "2026-11-21T13:35:05.280228+00:00",
+   "stamp": "b08439747b370531"
   }
  ],
  "reviews": [],
@@ -134,20 +134,19 @@
   {
    "code": "aob:states_inferred_loose",
    "severity": "info",
+   "message": "change 5: department DEPARTMENT OF PERSONNFI AND ADMINISTRATIVE REFORMS taken for department DEPARTMENT OF PERSONNEL AND ADMINISTRATIVE REFORMS, named loosely",
+   "target": "r63.rel5",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
    "message": "change 3: department DEPART- MENT OF COMMERCE taken for department DEPARTMENT OF COMMERCF, named loosely",
    "target": "r63.rel11",
    "status": "open"
   }
  ],
  "problems": [
-  {
-   "series": 126,
-   "seq": 5,
-   "code": "old_path_missing",
-   "severity": "error",
-   "message": "change 5: no department DEPARTMENT OF PERSONNFI AND ADMINISTRATIVE REFORMS under schedule 2 › ministry MINISTRY OF HOME AFFAIRS",
-   "cause": "unit_not_found"
-  },
   {
    "series": 126,
    "seq": 7,
@@ -193,6 +192,14 @@
    "rule": "loose",
    "seq": 2,
    "note": "change 2: department DE- PARTMENT OF COMMERCE taken for department DEPARTMENT OF COMMERCF, named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "loose",
+   "seq": 5,
+   "note": "change 5: department DEPARTMENT OF PERSONNFI AND ADMINISTRATIVE REFORMS taken for department DEPARTMENT OF PERSONNEL AND ADMINISTRATIVE REFORMS, named loosely",
    "status": "accepted",
    "decided_at": "2026-11-15",
    "decided_by": "mukundesh"
@@ -270,7 +277,7 @@
  ],
  "made_by": {
   "docflow": "0.1.0",
-  "commit": "91ec7ab",
-  "at": "2026-11-16T11:05:53+00:00"
+  "commit": "4113d7f",
+  "at": "2026-11-21T13:36:25+00:00"
  }
 }

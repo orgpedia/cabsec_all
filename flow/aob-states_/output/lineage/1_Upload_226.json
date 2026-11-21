@@ -4,7 +4,7 @@
  "series": 188,
  "date": "1986-10-29",
  "govdoc": "aob-ammend_/output/1_Upload_226.pdf.govdoc.json.zst",
- "govdoc_mtime": 1794826686.7052097,
+ "govdoc_mtime": 1795268097.2917376,
  "edits_file": "aob-ammend_/conf/1_Upload_226.pdf.edits.yml",
  "source": {
   "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_226.pdf",
@@ -31,6 +31,23 @@
      }
     }
    ]
+  },
+  {
+   "run": "h2",
+   "by": "claude",
+   "at": "2026-11-21T11:30:00+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r1.w1787",
+     "before": {
+      "text": "Kail-"
+     },
+     "after": {
+      "text": "Rail-"
+     }
+    }
+   ]
   }
  ],
  "steps": [
@@ -48,36 +65,36 @@
    "task": "word_lines",
    "version": "2",
    "tool": "line_builder",
-   "run": "r121",
-   "at": "2026-11-15T12:41:54.773540+00:00",
-   "stamp": "6ece443d9216aaab"
+   "run": "r148",
+   "at": "2026-11-21T10:54:13.946929+00:00",
+   "stamp": "2e864976e010a04b"
   },
   {
    "step": "layout",
    "task": "pdftable_finder",
    "version": "4",
    "tool": "block_builder",
-   "run": "r122",
-   "at": "2026-11-15T12:41:56.353741+00:00",
-   "stamp": "5bbc73feb988bfb6"
+   "run": "r149",
+   "at": "2026-11-21T10:54:14.069894+00:00",
+   "stamp": "7d8fc668b92f755c"
   },
   {
    "step": "split",
    "task": "section_splitter",
    "version": "1",
    "tool": "splitter",
-   "run": "r123",
-   "at": "2026-11-15T12:41:57.982389+00:00",
-   "stamp": "012cd6f124f3813c"
+   "run": "r150",
+   "at": "2026-11-21T10:54:14.188790+00:00",
+   "stamp": "d504246b46df9621"
   },
   {
    "step": "ops_roles",
    "task": "model_tagger",
    "version": "4",
    "tool": "tagger",
-   "run": "r132",
-   "at": "2026-11-15T16:24:17.429509+00:00",
-   "stamp": "756a8dd7ae77f769",
+   "run": "r151",
+   "at": "2026-11-21T11:07:34.816030+00:00",
+   "stamp": "d9824dcd02c009c0",
    "model": "gemini-4-argon",
    "instructions": "prompts/ops.md",
    "config_hash": "ec3ea61a4977c729"
@@ -87,9 +104,9 @@
    "task": "model_entities",
    "version": "4",
    "tool": "entity",
-   "run": "r133",
-   "at": "2026-11-15T16:24:18.601719+00:00",
-   "stamp": "4d9a2b8acf84e594",
+   "run": "r152",
+   "at": "2026-11-21T11:07:34.872836+00:00",
+   "stamp": "cc2ef2c138bf8c36",
    "model": "gemini-4-argon",
    "instructions": "prompts/ops.md",
    "config_hash": "ec3ea61a4977c729"
@@ -99,9 +116,9 @@
    "task": "model_relations",
    "version": "4",
    "tool": "relation",
-   "run": "r134",
-   "at": "2026-11-15T16:24:19.827874+00:00",
-   "stamp": "f779fc929f22f1e7",
+   "run": "r153",
+   "at": "2026-11-21T11:07:34.929838+00:00",
+   "stamp": "32a07d67ee31bff3",
    "model": "gemini-4-argon",
    "instructions": "prompts/ops.md",
    "config_hash": "ec3ea61a4977c729"
@@ -111,27 +128,27 @@
    "task": "legal_ops_check",
    "version": "11",
    "tool": "checker",
-   "run": "r140",
-   "at": "2026-11-15T16:57:25.816532+00:00",
-   "stamp": "160752e4abf8c94b"
+   "run": "r154",
+   "at": "2026-11-21T11:07:34.985124+00:00",
+   "stamp": "cbda1277a1e065fc"
   },
   {
    "step": "states_check",
    "task": "problems_check",
    "version": "2",
    "tool": "checker",
-   "run": "r141",
-   "at": "2026-11-15T17:03:25.216108+00:00",
-   "stamp": "c0fdc378b7ab51d7"
+   "run": "r157",
+   "at": "2026-11-21T11:11:19.321573+00:00",
+   "stamp": "9a9a07a0208421bf"
   },
   {
    "step": "inferred_check",
    "task": "problems_check",
    "version": "2",
    "tool": "checker",
-   "run": "r146",
-   "at": "2026-11-16T10:58:06.629796+00:00",
-   "stamp": "f8330977c3096da7"
+   "run": "r165",
+   "at": "2026-11-21T13:34:57.243504+00:00",
+   "stamp": "5aeb1a4946535432"
   }
  ],
  "reviews": [
@@ -157,21 +174,21 @@
    "code": "aob:read_page_break",
    "severity": "info",
    "message": "change 6: its quoted text runs across a page break",
-   "target": "r134.rel6",
+   "target": "r153.rel6",
    "status": "open"
   },
   {
    "code": "aob:read_page_break",
    "severity": "info",
    "message": "change 9: its quoted text runs across a page break",
-   "target": "r134.rel9",
+   "target": "r153.rel9",
    "status": "open"
   },
   {
    "code": "aob:states_inferred_loose",
    "severity": "info",
    "message": "change 6: ministry Ministry of Programm: Implementation taken for ministry MINISTRY OF PROGRAMME IMPLEMENTA- TION, named loosely",
-   "target": "r134.rel6",
+   "target": "r153.rel6",
    "status": "open"
   }
  ],
@@ -181,7 +198,7 @@
    "seq": 6,
    "code": "new_extra",
    "severity": "warning",
-   "message": "schedule 2 › ministry Ministry of Railways (Rail Mantralaya), Kailway Board (Rail Board) is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
+   "message": "schedule 2 › ministry Ministry of Railways (Rail Mantralaya), Railway Board (Rail Board) is in 1_Upload_212.pdf with the amendments up to 270 applied but not in 1_Upload_535.pdf"
   }
  ],
  "rules": [
@@ -270,7 +287,7 @@
  ],
  "made_by": {
   "docflow": "0.1.0",
-  "commit": "91ec7ab",
-  "at": "2026-11-16T11:05:53+00:00"
+  "commit": "4113d7f",
+  "at": "2026-11-21T13:36:25+00:00"
  }
 }

@@ -2,7 +2,7 @@
 # GovDoc Studio and brought into the GovDoc file by the pipeline before it runs (Pipeline §P9).
 file: 1_Upload_202.pdf
 file_id: f_9b914e52fcba3fb1
-next: 3
+next: 4
 runs:
 - id: h1
   by: claude
@@ -21,3 +21,8 @@ runs:
       word: {id: h2.w1, text: a, bbox: [2212, 2072, 2232, 2113]}
       line: r2.l1201
       after: r1.w7504
+- id: h3
+  by: claude
+  at: '2026-11-21T11:30:00Z'
+  edits:
+  - {op: text, target: r1.w7596, before: {text: '(ya).";'}, after: {text: 'ya).";'}}

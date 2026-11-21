@@ -4,7 +4,7 @@
  "series": 157,
  "date": "1983-06-30",
  "govdoc": "aob-ammend_/output/1_Upload_195.pdf.govdoc.json.zst",
- "govdoc_mtime": 1794826688.9411902,
+ "govdoc_mtime": 1795268100.0081584,
  "edits_file": "aob-ammend_/conf/1_Upload_195.pdf.edits.yml",
  "source": {
   "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_195.pdf",
@@ -154,18 +154,18 @@
    "task": "problems_check",
    "version": "2",
    "tool": "checker",
-   "run": "r78",
-   "at": "2026-11-15T17:03:31.604461+00:00",
-   "stamp": "09d4b79dcfdf5961"
+   "run": "r86",
+   "at": "2026-11-21T11:11:22.608054+00:00",
+   "stamp": "d0887e0e4f54a949"
   },
   {
    "step": "inferred_check",
    "task": "problems_check",
    "version": "2",
    "tool": "checker",
-   "run": "r83",
-   "at": "2026-11-16T10:58:08.852626+00:00",
-   "stamp": "9be2b967660840e3"
+   "run": "r94",
+   "at": "2026-11-21T13:34:59.956871+00:00",
+   "stamp": "b579b8d595434848"
   }
  ],
  "reviews": [],
@@ -211,33 +211,16 @@
    "message": "change 8: department DEPARTMENT QF FOOD taken for department DEPARTMENT OF FOOD, named loosely",
    "target": "r71.rel8",
    "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_loose",
+   "severity": "info",
+   "message": "change 11: ministry MINISTRY OF CIVIL SUPPLIFS taken for ministry MINISTRY OF CIVIL SUPPLIES, named loosely",
+   "target": "r71.rel11",
+   "status": "open"
   }
  ],
  "problems": [
-  {
-   "series": 157,
-   "seq": 9,
-   "code": "old_path_missing",
-   "severity": "error",
-   "message": "change 9: no department DEPARTMENT OF AGRICULTURAL RESEARCH AND EDU- CATION under schedule 2 › ministry Ministry of Agriculture",
-   "cause": "unit_not_found"
-  },
-  {
-   "series": 157,
-   "seq": 11,
-   "code": "old_path_missing",
-   "severity": "error",
-   "message": "change 11: no ministry MINISTRY OF CIVIL SUPPLIFS under schedule 2",
-   "cause": "unit_not_found"
-  },
-  {
-   "series": 157,
-   "seq": 15,
-   "code": "old_path_missing",
-   "severity": "error",
-   "message": "change 15: no ministry DEPARTMENT OF SPACE under schedule 2",
-   "cause": "unit_not_found"
-  },
   {
    "series": 174,
    "seq": 4,
@@ -458,6 +441,22 @@
    "status": "accepted",
    "decided_at": "2026-11-15",
    "decided_by": "mukundesh"
+  },
+  {
+   "rule": "loose",
+   "seq": 9,
+   "note": "change 9: ministry MINISTRY OF AGRICULTURF taken for ministry Ministry of Agriculture, named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "loose",
+   "seq": 11,
+   "note": "change 11: ministry MINISTRY OF CIVIL SUPPLIFS taken for ministry MINISTRY OF CIVIL SUPPLIES, named loosely",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
   }
  ],
  "changes": [
@@ -531,11 +530,7 @@
    "op": "renumber",
    "source_ref": "2(2)(a)(u)",
    "path": "schedule 2 › ministry MINISTRY OF AGRICULTURF › department DEPARTMENT OF AGRICULTURAL RESEARCH AND EDU- CATION",
-   "status": "not_applied",
-   "problem": "change 9: no department DEPARTMENT OF AGRICULTURAL RESEARCH AND EDU- CATION under schedule 2 › ministry Ministry of Agriculture",
-   "code": "old_path_missing",
-   "cause": "unit_not_found",
-   "known": "agriculture"
+   "status": "applied"
   },
   {
    "seq": 10,
@@ -551,11 +546,7 @@
    "op": "omit",
    "source_ref": "2(2)(c)",
    "path": "schedule 2 › ministry MINISTRY OF CIVIL SUPPLIFS",
-   "status": "not_applied",
-   "problem": "change 11: no ministry MINISTRY OF CIVIL SUPPLIFS under schedule 2",
-   "code": "old_path_missing",
-   "cause": "unit_not_found",
-   "known": "renamed_unit"
+   "status": "applied"
   },
   {
    "seq": 12,
@@ -587,16 +578,12 @@
    "op": "insert",
    "source_ref": "2(2)(g)",
    "path": "schedule 2 › ministry DEPARTMENT OF SPACE",
-   "status": "not_applied",
-   "problem": "change 15: no ministry DEPARTMENT OF SPACE under schedule 2",
-   "code": "old_path_missing",
-   "cause": "unit_not_found",
-   "known": "top_level"
+   "status": "applied"
   }
  ],
  "made_by": {
   "docflow": "0.1.0",
-  "commit": "91ec7ab",
-  "at": "2026-11-16T11:05:53+00:00"
+  "commit": "4113d7f",
+  "at": "2026-11-21T13:36:25+00:00"
  }
 }

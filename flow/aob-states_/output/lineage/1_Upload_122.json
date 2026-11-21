@@ -4,7 +4,7 @@
  "series": 88,
  "date": "1971-05-03",
  "govdoc": "aob-ammend_/output/1_Upload_122.pdf.govdoc.json.zst",
- "govdoc_mtime": 1794826688.8400288,
+ "govdoc_mtime": 1795268099.9429774,
  "edits_file": "aob-ammend_/conf/1_Upload_122.pdf.edits.yml",
  "source": {
   "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_122.pdf",
@@ -31,6 +31,23 @@
      }
     }
    ]
+  },
+  {
+   "run": "h2",
+   "by": "claude",
+   "at": "2026-11-21T09:35:00+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r1.w3649",
+     "before": {
+      "text": "Irodyagiki"
+     },
+     "after": {
+      "text": "Prodyogiki"
+     }
+    }
+   ]
   }
  ],
  "steps": [
@@ -48,36 +65,36 @@
    "task": "word_lines",
    "version": "2",
    "tool": "line_builder",
-   "run": "r58",
-   "at": "2026-11-15T12:42:06.596538+00:00",
-   "stamp": "7dd19b4d87f7483b"
+   "run": "r84",
+   "at": "2026-11-21T09:33:12.434241+00:00",
+   "stamp": "6f9cdee0b5518567"
   },
   {
    "step": "layout",
    "task": "pdftable_finder",
    "version": "4",
    "tool": "block_builder",
-   "run": "r59",
-   "at": "2026-11-15T12:42:08.707411+00:00",
-   "stamp": "a70da5bb690efb2c"
+   "run": "r85",
+   "at": "2026-11-21T09:33:12.592620+00:00",
+   "stamp": "95ab6a9e9c409dd4"
   },
   {
    "step": "split",
    "task": "section_splitter",
    "version": "1",
    "tool": "splitter",
-   "run": "r60",
-   "at": "2026-11-15T12:42:10.424159+00:00",
-   "stamp": "60707c6ad95e0734"
+   "run": "r86",
+   "at": "2026-11-21T09:33:12.769837+00:00",
+   "stamp": "709ad1541e971159"
   },
   {
    "step": "ops_roles",
    "task": "model_tagger",
    "version": "4",
    "tool": "tagger",
-   "run": "r69",
-   "at": "2026-11-15T16:24:26.251367+00:00",
-   "stamp": "4db36e517e5cadeb",
+   "run": "r87",
+   "at": "2026-11-21T10:02:06.347814+00:00",
+   "stamp": "c0db8f9d075b791b",
    "model": "gemini-4-argon",
    "instructions": "prompts/ops.md",
    "config_hash": "ec3ea61a4977c729"
@@ -87,9 +104,9 @@
    "task": "model_entities",
    "version": "4",
    "tool": "entity",
-   "run": "r70",
-   "at": "2026-11-15T16:24:27.751077+00:00",
-   "stamp": "2da6fc4b3c4b8c12",
+   "run": "r88",
+   "at": "2026-11-21T10:02:06.499569+00:00",
+   "stamp": "f2c3921ad3472f8b",
    "model": "gemini-4-argon",
    "instructions": "prompts/ops.md",
    "config_hash": "ec3ea61a4977c729"
@@ -99,9 +116,9 @@
    "task": "model_relations",
    "version": "4",
    "tool": "relation",
-   "run": "r71",
-   "at": "2026-11-15T16:24:29.302371+00:00",
-   "stamp": "4b3122efd3480b87",
+   "run": "r89",
+   "at": "2026-11-21T10:02:06.584246+00:00",
+   "stamp": "554880a0610f934b",
    "model": "gemini-4-argon",
    "instructions": "prompts/ops.md",
    "config_hash": "ec3ea61a4977c729"
@@ -111,27 +128,27 @@
    "task": "legal_ops_check",
    "version": "11",
    "tool": "checker",
-   "run": "r77",
-   "at": "2026-11-15T16:57:28.708133+00:00",
-   "stamp": "9a93105a6fddb6fe"
+   "run": "r90",
+   "at": "2026-11-21T10:02:06.706307+00:00",
+   "stamp": "89d6103b65552dce"
   },
   {
    "step": "states_check",
    "task": "problems_check",
    "version": "2",
    "tool": "checker",
-   "run": "r78",
-   "at": "2026-11-15T17:03:31.373133+00:00",
-   "stamp": "b18cd545a6611941"
+   "run": "r95",
+   "at": "2026-11-21T11:11:22.492256+00:00",
+   "stamp": "eac22b858a3c78b0"
   },
   {
    "step": "inferred_check",
    "task": "problems_check",
    "version": "2",
    "tool": "checker",
-   "run": "r83",
-   "at": "2026-11-16T10:58:08.778130+00:00",
-   "stamp": "88babb8d405119f6"
+   "run": "r103",
+   "at": "2026-11-21T13:34:59.873602+00:00",
+   "stamp": "83202c2e3aa16e4c"
   }
  ],
  "reviews": [],
@@ -140,294 +157,189 @@
    "code": "aob:read_page_break",
    "severity": "info",
    "message": "change 1: its quoted text runs across a page break",
-   "target": "r71.rel1",
-   "status": "open"
-  },
-  {
-   "code": "aob:read_hindi_missing",
-   "severity": "info",
-   "message": "change 2: a new heading has no Hindi name in brackets",
-   "target": "r71.rel2",
+   "target": "r89.rel1",
    "status": "open"
   },
   {
    "code": "aob:read_page_break",
    "severity": "info",
    "message": "change 2: its quoted text runs across a page break",
-   "target": "r71.rel2",
-   "status": "open"
-  },
-  {
-   "code": "aob:read_hindi_missing",
-   "severity": "info",
-   "message": "change 6: a new heading has no Hindi name in brackets",
-   "target": "r71.rel6",
-   "status": "open"
-  },
-  {
-   "code": "aob:read_hindi_missing",
-   "severity": "info",
-   "message": "change 7: a new heading has no Hindi name in brackets",
-   "target": "r71.rel7",
-   "status": "open"
-  },
-  {
-   "code": "aob:read_hindi_missing",
-   "severity": "info",
-   "message": "change 10: a new heading has no Hindi name in brackets",
-   "target": "r71.rel10",
-   "status": "open"
-  },
-  {
-   "code": "aob:read_hindi_missing",
-   "severity": "info",
-   "message": "change 11: a new heading has no Hindi name in brackets",
-   "target": "r71.rel11",
-   "status": "open"
-  },
-  {
-   "code": "aob:read_hindi_missing",
-   "severity": "info",
-   "message": "change 12: a new heading has no Hindi name in brackets",
-   "target": "r71.rel12",
-   "status": "open"
-  },
-  {
-   "code": "aob:read_hindi_missing",
-   "severity": "info",
-   "message": "change 13: a new heading has no Hindi name in brackets",
-   "target": "r71.rel13",
-   "status": "open"
-  },
-  {
-   "code": "aob:read_hindi_missing",
-   "severity": "info",
-   "message": "change 14: a new heading has no Hindi name in brackets",
-   "target": "r71.rel14",
-   "status": "open"
-  },
-  {
-   "code": "aob:read_hindi_missing",
-   "severity": "info",
-   "message": "change 16: a new heading has no Hindi name in brackets",
-   "target": "r71.rel16",
-   "status": "open"
-  },
-  {
-   "code": "aob:read_hindi_missing",
-   "severity": "info",
-   "message": "change 17: a new heading has no Hindi name in brackets",
-   "target": "r71.rel17",
+   "target": "r89.rel2",
    "status": "open"
   },
   {
    "code": "aob:read_page_break",
    "severity": "info",
    "message": "change 17: its quoted text runs across a page break",
-   "target": "r71.rel17",
-   "status": "open"
-  },
-  {
-   "code": "aob:read_hindi_missing",
-   "severity": "info",
-   "message": "change 19: a new heading has no Hindi name in brackets",
-   "target": "r71.rel19",
+   "target": "r89.rel17",
    "status": "open"
   },
   {
    "code": "aob:read_page_break",
    "severity": "info",
    "message": "change 19: its quoted text runs across a page break",
-   "target": "r71.rel19",
-   "status": "open"
-  },
-  {
-   "code": "aob:read_hindi_missing",
-   "severity": "info",
-   "message": "change 21: a new heading has no Hindi name in brackets",
-   "target": "r71.rel21",
-   "status": "open"
-  },
-  {
-   "code": "aob:read_hindi_missing",
-   "severity": "info",
-   "message": "change 22: a new heading has no Hindi name in brackets",
-   "target": "r71.rel22",
+   "target": "r89.rel19",
    "status": "open"
   },
   {
    "code": "aob:read_page_break",
    "severity": "info",
    "message": "change 22: its quoted text runs across a page break",
-   "target": "r71.rel22",
-   "status": "open"
-  },
-  {
-   "code": "aob:read_hindi_missing",
-   "severity": "info",
-   "message": "change 24: a new heading has no Hindi name in brackets",
-   "target": "r71.rel24",
-   "status": "open"
-  },
-  {
-   "code": "aob:read_hindi_missing",
-   "severity": "info",
-   "message": "change 25: a new heading has no Hindi name in brackets",
-   "target": "r71.rel25",
+   "target": "r89.rel22",
    "status": "open"
   },
   {
    "code": "aob:states_inferred_hindi_cited",
    "severity": "info",
    "message": "change 3: ministry VITTA MANTRALAYA taken for ministry MINISTRY OF FINANCE, cited by its Hindi name",
-   "target": "r71.rel3",
+   "target": "r89.rel3",
    "status": "open"
   },
   {
    "code": "aob:states_inferred_hindi_cited",
    "severity": "info",
    "message": "change 3: department ARTHIK KARYA VIBH 10 taken for department Department of Economic Affairs, cited by its Hindi name",
-   "target": "r71.rel3",
+   "target": "r89.rel3",
    "status": "open"
   },
   {
    "code": "aob:states_inferred_hindi_cited",
    "severity": "info",
    "message": "change 4: ministry VITTA MANTRALAYA taken for ministry MINISTRY OF FINANCE, cited by its Hindi name",
-   "target": "r71.rel4",
+   "target": "r89.rel4",
    "status": "open"
   },
   {
    "code": "aob:states_inferred_hindi_cited",
    "severity": "info",
    "message": "change 4: department ARTHIK KARYA VIBH 10 taken for department Department of Economic Affairs, cited by its Hindi name",
-   "target": "r71.rel4",
+   "target": "r89.rel4",
    "status": "open"
   },
   {
    "code": "aob:states_inferred_hindi_cited",
    "severity": "info",
    "message": "change 5: ministry VITTA MANTRALAYA taken for ministry MINISTRY OF FINANCE, cited by its Hindi name",
-   "target": "r71.rel5",
+   "target": "r89.rel5",
    "status": "open"
   },
   {
    "code": "aob:states_inferred_hindi_cited",
    "severity": "info",
    "message": "change 5: department VYAYA VIBHAG taken for department Department of Expenditure, cited by its Hindi name",
-   "target": "r71.rel5",
+   "target": "r89.rel5",
    "status": "open"
   },
   {
    "code": "aob:states_inferred_hindi_cited",
    "severity": "info",
    "message": "change 9: ministry GRIH MANTRALAYA taken for ministry MINISTRY OF HOME AFFAIRS, cited by its Hindi name",
-   "target": "r71.rel9",
+   "target": "r89.rel9",
    "status": "open"
   },
   {
    "code": "aob:states_inferred_hindi_cited",
    "severity": "info",
    "message": "change 9: ministry GRIH MANTRALAYA taken for ministry MINISTRY OF HOME AFFAIRS, cited by its Hindi name",
-   "target": "r71.rel9",
+   "target": "r89.rel9",
    "status": "open"
   },
   {
    "code": "aob:states_inferred_hindi_cited",
    "severity": "info",
    "message": "change 9: ministry GRIH MANTRALAYA taken for ministry MINISTRY OF HOME AFFAIRS, cited by its Hindi name",
-   "target": "r71.rel9",
+   "target": "r89.rel9",
    "status": "open"
   },
   {
    "code": "aob:states_inferred_hindi_cited",
    "severity": "info",
    "message": "change 9: ministry GRIH MANTRALAYA taken for ministry MINISTRY OF HOME AFFAIRS, cited by its Hindi name",
-   "target": "r71.rel9",
+   "target": "r89.rel9",
    "status": "open"
   },
   {
    "code": "aob:states_inferred_hindi_cited",
    "severity": "info",
    "message": "change 9: ministry GRIH MANTRALAYA taken for ministry MINISTRY OF HOME AFFAIRS, cited by its Hindi name",
-   "target": "r71.rel9",
+   "target": "r89.rel9",
    "status": "open"
   },
   {
    "code": "aob:states_inferred_hindi_cited",
    "severity": "info",
    "message": "change 9: ministry GRIH MANTRALAYA taken for ministry MINISTRY OF HOME AFFAIRS, cited by its Hindi name",
-   "target": "r71.rel9",
+   "target": "r89.rel9",
    "status": "open"
   },
   {
    "code": "aob:states_inferred_hindi_cited",
    "severity": "info",
    "message": "change 9: ministry GRIH MANTRALAYA taken for ministry MINISTRY OF HOME AFFAIRS, cited by its Hindi name",
-   "target": "r71.rel9",
+   "target": "r89.rel9",
    "status": "open"
   },
   {
    "code": "aob:states_inferred_hindi_cited",
    "severity": "info",
    "message": "change 13: department VIDHAYE VIBHAG taken for department LEGISLATIVE DEPARTMENT., cited by its Hindi name",
-   "target": "r71.rel13",
+   "target": "r89.rel13",
    "status": "open"
   },
   {
    "code": "aob:states_inferred_loose",
    "severity": "info",
    "message": "change 14: ministry MINISTRYY OF PETROLEUM AND CHEMICALS AND MINES AND METALS taken for ministry MINISTRY OF PETROLEUM AND CHEMICALS AND MINES & METALS, named loosely",
-   "target": "r71.rel14",
+   "target": "r89.rel14",
    "status": "open"
   },
   {
    "code": "aob:states_inferred_loose",
    "severity": "info",
    "message": "change 15: department DEPARTMENT OF MINES METALS taken for department DEPARTMENT OF MINES AND METALS, named loosely",
-   "target": "r71.rel15",
+   "target": "r89.rel15",
    "status": "open"
   },
   {
    "code": "aob:states_inferred_hindi_cited",
    "severity": "info",
    "message": "change 19: ministry Paryatan aur Nagar Vimanan Mantralaya taken for ministry MINISTRY OF TOURISM & CIVIL AVIATION, cited by its Hindi name",
-   "target": "r71.rel19",
+   "target": "r89.rel19",
    "status": "open"
   },
   {
    "code": "aob:states_inferred_hindi_cited",
    "severity": "info",
-   "message": "change 22: ministry Company Karya Vibhag taken for ministry DEPARTMENT OF COMPANY AFFAIRS, cited by its Hindi name",
-   "target": "r71.rel22",
+   "message": "change 22: ministry Company Karya Vibhag taken for department DEPARTMENT OF COMPANY AFFAIRS, cited by its Hindi name",
+   "target": "r89.rel22",
    "status": "open"
   },
   {
    "code": "aob:states_inferred_hindi_cited",
    "severity": "info",
    "message": "change 23: ministry MANTRI MANDAL SACHIVALAYA taken for ministry CABINET SECRETARIAT, cited by its Hindi name",
-   "target": "r71.rel23",
+   "target": "r89.rel23",
    "status": "open"
   },
   {
    "code": "aob:states_inferred_loose",
    "severity": "info",
    "message": "change 23: department DEPARTMENT OF SCIENTIFIC AND INDUSTRIAL RESEARCH taken for department Department of Scientific and Industrial Research. All matters relating to the Council of Scientific and Industrial Research., named loosely",
-   "target": "r71.rel23",
+   "target": "r89.rel23",
    "status": "open"
   },
   {
    "code": "aob:states_inferred_hindi_cited",
    "severity": "info",
    "message": "change 24: ministry MANTRI MANDAL SACHIVALAYA taken for ministry CABINET SECRETARIAT, cited by its Hindi name",
-   "target": "r71.rel24",
+   "target": "r89.rel24",
    "status": "open"
   },
   {
    "code": "aob:states_inferred_hindi_cited",
    "severity": "info",
    "message": "change 25: ministry MANTRI MANDAL SACHIVALAYA taken for ministry CABINET SECRETARIAT, cited by its Hindi name",
-   "target": "r71.rel25",
+   "target": "r89.rel25",
    "status": "open"
   },
   {
@@ -552,6 +464,13 @@
   {
    "code": "aob:states_inferred_hindi_name",
    "severity": "info",
+   "message": "the Second Schedule's Vigyan Aur Prodyogiki Vibhag read as DEPARTMENT OF SCIENCE AND TECHNOLOGY, the First Schedule's English name for it",
+   "target": "GOI_SO_1914_1971",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_hindi_name",
+   "severity": "info",
    "message": "the Second Schedule's POORTI VIBHAG read as DEPARTMENT OF SUPPLY, the First Schedule's English name for it",
    "target": "GOI_SO_1914_1971",
    "status": "open"
@@ -560,6 +479,48 @@
    "code": "aob:states_inferred_hindi_name",
    "severity": "info",
    "message": "the Second Schedule's SANKHIKI VIBHAG read as DEPARTMENT OF STATISTICS, the First Schedule's English name for it",
+   "target": "GOI_SO_1914_1971",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_renamed_by_decision",
+   "severity": "info",
+   "message": "Banking Vibhag renamed Department of Banking by a person's decision, not by the gazette (English name from 1_Upload_123, decided by mukundesh, 21 Nov 2026)",
+   "target": "GOI_SO_1914_1971",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_renamed_by_decision",
+   "severity": "info",
+   "message": "Rajaswa Aur Bima Vibhag renamed Department of Revenue and Insurance by a person's decision, not by the gazette (English name from 1_Upload_123, decided by mukundesh, 21 Nov 2026)",
+   "target": "GOI_SO_1914_1971",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_renamed_by_decision",
+   "severity": "info",
+   "message": "Sahkarita Vibhag renamed Department of Cooperation by a person's decision, not by the gazette (English name from 1_Upload_123, decided by mukundesh, 21 Nov 2026)",
+   "target": "GOI_SO_1914_1971",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_renamed_by_decision",
+   "severity": "info",
+   "message": "Parivar Niyojan Vibhag renamed Department of Family Planning by a person's decision, not by the gazette (English name from 1_Upload_123, decided by mukundesh, 21 Nov 2026)",
+   "target": "GOI_SO_1914_1971",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_renamed_by_decision",
+   "severity": "info",
+   "message": "Shram Aur Rozgar Vibhag renamed Department of Labour and Employment by a person's decision, not by the gazette (English name from 1_Upload_123, decided by mukundesh, 21 Nov 2026)",
+   "target": "GOI_SO_1914_1971",
+   "status": "open"
+  },
+  {
+   "code": "aob:states_inferred_renamed_by_decision",
+   "severity": "info",
+   "message": "Rasayan Vibhag renamed Department of Chemicals by a person's decision, not by the gazette (English name from 1_Upload_123, decided by mukundesh, 21 Nov 2026)",
    "target": "GOI_SO_1914_1971",
    "status": "open"
   }
@@ -627,13 +588,6 @@
    "code": "new_extra",
    "severity": "warning",
    "message": "schedule 2 › ministry MINISTRY OF WORKS AND HOUSING is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
-  },
-  {
-   "series": 174,
-   "seq": 22,
-   "code": "new_extra",
-   "severity": "warning",
-   "message": "schedule 2 › department Vigyan Aur Irodyagiki Vibhag is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
   }
  ],
  "rules": [
@@ -776,7 +730,7 @@
   {
    "rule": "hindi_cited",
    "seq": 22,
-   "note": "change 22: ministry Company Karya Vibhag taken for ministry DEPARTMENT OF COMPANY AFFAIRS, cited by its Hindi name",
+   "note": "change 22: ministry Company Karya Vibhag taken for department DEPARTMENT OF COMPANY AFFAIRS, cited by its Hindi name",
    "status": "accepted",
    "decided_at": "2026-11-15",
    "decided_by": "mukundesh"
@@ -952,6 +906,14 @@
   {
    "rule": "hindi_name",
    "seq": null,
+   "note": "the Second Schedule's Vigyan Aur Prodyogiki Vibhag read as DEPARTMENT OF SCIENCE AND TECHNOLOGY, the First Schedule's English name for it",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "hindi_name",
+   "seq": null,
    "note": "the Second Schedule's POORTI VIBHAG read as DEPARTMENT OF SUPPLY, the First Schedule's English name for it",
    "status": "accepted",
    "decided_at": "2026-11-15",
@@ -964,6 +926,42 @@
    "status": "accepted",
    "decided_at": "2026-11-15",
    "decided_by": "mukundesh"
+  },
+  {
+   "rule": "renamed_by_decision",
+   "seq": null,
+   "note": "Banking Vibhag renamed Department of Banking by a person's decision, not by the gazette (English name from 1_Upload_123, decided by mukundesh, 21 Nov 2026)",
+   "status": "unreviewed"
+  },
+  {
+   "rule": "renamed_by_decision",
+   "seq": null,
+   "note": "Rajaswa Aur Bima Vibhag renamed Department of Revenue and Insurance by a person's decision, not by the gazette (English name from 1_Upload_123, decided by mukundesh, 21 Nov 2026)",
+   "status": "unreviewed"
+  },
+  {
+   "rule": "renamed_by_decision",
+   "seq": null,
+   "note": "Sahkarita Vibhag renamed Department of Cooperation by a person's decision, not by the gazette (English name from 1_Upload_123, decided by mukundesh, 21 Nov 2026)",
+   "status": "unreviewed"
+  },
+  {
+   "rule": "renamed_by_decision",
+   "seq": null,
+   "note": "Parivar Niyojan Vibhag renamed Department of Family Planning by a person's decision, not by the gazette (English name from 1_Upload_123, decided by mukundesh, 21 Nov 2026)",
+   "status": "unreviewed"
+  },
+  {
+   "rule": "renamed_by_decision",
+   "seq": null,
+   "note": "Shram Aur Rozgar Vibhag renamed Department of Labour and Employment by a person's decision, not by the gazette (English name from 1_Upload_123, decided by mukundesh, 21 Nov 2026)",
+   "status": "unreviewed"
+  },
+  {
+   "rule": "renamed_by_decision",
+   "seq": null,
+   "note": "Rasayan Vibhag renamed Department of Chemicals by a person's decision, not by the gazette (English name from 1_Upload_123, decided by mukundesh, 21 Nov 2026)",
+   "status": "unreviewed"
   }
  ],
  "changes": [
@@ -1182,7 +1180,7 @@
  },
  "made_by": {
   "docflow": "0.1.0",
-  "commit": "91ec7ab",
-  "at": "2026-11-16T11:05:53+00:00"
+  "commit": "4113d7f",
+  "at": "2026-11-21T13:36:25+00:00"
  }
 }

@@ -4,7 +4,8 @@
  "series": 134,
  "date": "1979-08-10",
  "govdoc": "aob-ammend_/output/1_Upload_171.pdf.govdoc.json.zst",
- "govdoc_mtime": 1794826688.0595562,
+ "govdoc_mtime": 1795268099.0704536,
+ "edits_file": "aob-ammend_/conf/1_Upload_171.pdf.edits.yml",
  "source": {
   "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_171.pdf",
   "portal": "cabsec_aob",
@@ -13,7 +14,25 @@
   "sha256": "719d9b4d3a6661faf1a481873a30d548885af47b4235e387f3fd21089d52e0e4",
   "pages": 2
  },
- "edits": [],
+ "edits": [
+  {
+   "run": "h1",
+   "by": "claude",
+   "at": "2026-11-21T11:30:00+00:00",
+   "edits": [
+    {
+     "op": "text",
+     "target": "r1.w680",
+     "before": {
+      "text": "Min'stry"
+     },
+     "after": {
+      "text": "Ministry"
+     }
+    }
+   ]
+  }
+ ],
  "steps": [
   {
    "step": "text",
@@ -29,36 +48,36 @@
    "task": "word_lines",
    "version": "2",
    "tool": "line_builder",
-   "run": "r50",
-   "at": "2026-11-15T12:42:05.570829+00:00",
-   "stamp": "bb545b1fcc7f211b"
+   "run": "r77",
+   "at": "2026-11-21T10:54:16.365283+00:00",
+   "stamp": "1fcb262ad80e30c3"
   },
   {
    "step": "layout",
    "task": "pdftable_finder",
    "version": "4",
    "tool": "block_builder",
-   "run": "r51",
-   "at": "2026-11-15T12:42:07.581106+00:00",
-   "stamp": "5cc6a8d21a746268"
+   "run": "r78",
+   "at": "2026-11-21T10:54:16.415918+00:00",
+   "stamp": "b9cb0dc8633491f8"
   },
   {
    "step": "split",
    "task": "section_splitter",
    "version": "1",
    "tool": "splitter",
-   "run": "r52",
-   "at": "2026-11-15T12:42:09.673842+00:00",
-   "stamp": "2e2bef2d7ebe7abf"
+   "run": "r79",
+   "at": "2026-11-21T10:54:16.453348+00:00",
+   "stamp": "1e6e4df5a29a0e99"
   },
   {
    "step": "ops_roles",
    "task": "model_tagger",
    "version": "4",
    "tool": "tagger",
-   "run": "r61",
-   "at": "2026-11-15T16:24:25.450520+00:00",
-   "stamp": "a789b806afda8f4c",
+   "run": "r80",
+   "at": "2026-11-21T11:07:35.672154+00:00",
+   "stamp": "8c0be7229bbf8fb4",
    "model": "gemini-4-argon",
    "instructions": "prompts/ops.md",
    "config_hash": "ec3ea61a4977c729"
@@ -68,9 +87,9 @@
    "task": "model_entities",
    "version": "4",
    "tool": "entity",
-   "run": "r62",
-   "at": "2026-11-15T16:24:26.958161+00:00",
-   "stamp": "7a21d567eeec4d73",
+   "run": "r81",
+   "at": "2026-11-21T11:07:35.704749+00:00",
+   "stamp": "49e264f8bc115989",
    "model": "gemini-4-argon",
    "instructions": "prompts/ops.md",
    "config_hash": "ec3ea61a4977c729"
@@ -80,9 +99,9 @@
    "task": "model_relations",
    "version": "4",
    "tool": "relation",
-   "run": "r63",
-   "at": "2026-11-15T16:24:28.502352+00:00",
-   "stamp": "44e4421ba35c5a02",
+   "run": "r82",
+   "at": "2026-11-21T11:07:35.736247+00:00",
+   "stamp": "c69a0b026c9d3589",
    "model": "gemini-4-argon",
    "instructions": "prompts/ops.md",
    "config_hash": "ec3ea61a4977c729"
@@ -92,36 +111,45 @@
    "task": "legal_ops_check",
    "version": "11",
    "tool": "checker",
-   "run": "r69",
-   "at": "2026-11-15T16:57:27.879110+00:00",
-   "stamp": "34115f117b071661"
+   "run": "r83",
+   "at": "2026-11-21T11:07:35.767691+00:00",
+   "stamp": "a89083d1d6153f86"
   },
   {
    "step": "states_check",
    "task": "problems_check",
    "version": "2",
    "tool": "checker",
-   "run": "r70",
-   "at": "2026-11-15T17:03:29.956866+00:00",
-   "stamp": "53d5cbe2b6ba85c0"
+   "run": "r86",
+   "at": "2026-11-21T11:11:21.770251+00:00",
+   "stamp": "7c18752409d6f4e0"
   },
   {
    "step": "inferred_check",
    "task": "problems_check",
    "version": "2",
    "tool": "checker",
-   "run": "r75",
-   "at": "2026-11-16T10:58:08.041434+00:00",
-   "stamp": "9e42776c65be94f8"
+   "run": "r94",
+   "at": "2026-11-21T13:34:59.049000+00:00",
+   "stamp": "05039e48e3cc21d4"
   }
  ],
- "reviews": [],
+ "reviews": [
+  {
+   "id": "h1.v2",
+   "target": "r61.a8",
+   "status": "pending",
+   "by": "claude",
+   "at": "2026-11-21T11:30:00+00:00",
+   "note": "moved by a loose match after h1.e1"
+  }
+ ],
  "issues": [
   {
    "code": "aob:states_inferred_loose",
    "severity": "info",
    "message": "change 3: department DEPARTMENT OF POWEK taken for department DEPARTMENT OF POWER(VI DYUT VI BHAG), named loosely",
-   "target": "r63.rel3",
+   "target": "r82.rel3",
    "status": "open"
   }
  ],
@@ -141,7 +169,7 @@
    "seq": 1,
    "doc_id": "GOI_SO_467E_1979",
    "op": "replace",
-   "source_ref": "2(a)",
+   "source_ref": "2(a\"",
    "path": "schedule 1 › entry 4A",
    "status": "applied"
   },
@@ -149,7 +177,7 @@
    "seq": 2,
    "doc_id": "GOI_SO_467E_1979",
    "op": "replace",
-   "source_ref": "2(b)",
+   "source_ref": "2(b\"",
    "path": "schedule 1 › entry 19",
    "status": "applied"
   },
@@ -157,7 +185,7 @@
    "seq": 3,
    "doc_id": "GOI_SO_467E_1979",
    "op": "replace",
-   "source_ref": "3(a)(i)",
+   "source_ref": "3(a)(i\"",
    "path": "schedule 2 › ministry MINISTRY OF ENERGY › department DEPARTMENT OF POWEK",
    "status": "applied"
   },
@@ -165,7 +193,7 @@
    "seq": 4,
    "doc_id": "GOI_SO_467E_1979",
    "op": "omit",
-   "source_ref": "3(a)(ii)",
+   "source_ref": "3(a)(ii\"",
    "path": "schedule 2 › ministry MINISTRY OF ENERGY › department DEPARTMENT OF COAL",
    "status": "applied"
   },
@@ -173,7 +201,7 @@
    "seq": 5,
    "doc_id": "GOI_SO_467E_1979",
    "op": "replace",
-   "source_ref": "3(b)",
+   "source_ref": "3(b\"",
    "path": "schedule 2 › ministry MINISTRY OF STEEL AND MINES",
    "status": "applied"
   },
@@ -181,14 +209,14 @@
    "seq": 6,
    "doc_id": "GOI_SO_467E_1979",
    "op": "insert",
-   "source_ref": "3(b)",
-   "path": "schedule 2 › ministry MINISTRY OF STEEL, MINES AND COAL › department DE- PARTMENT OF MINES",
+   "source_ref": "3(b\"",
+   "path": "schedule 2 › ministry MINISTRY OF STEEL, MINES AND COAL › department DEPARTMENT OF MINES",
    "status": "applied"
   }
  ],
  "made_by": {
   "docflow": "0.1.0",
-  "commit": "91ec7ab",
-  "at": "2026-11-16T11:05:53+00:00"
+  "commit": "4113d7f",
+  "at": "2026-11-21T13:36:25+00:00"
  }
 }

@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_157.pdf",
     "sha256": "28a0083c8b390dd3647d246a412b6d7bc899ebc263f3fcf8056aa060b2f9198b",
     "govdoc": "1_Upload_157.pdf.govdoc.json.zst",
-    "revision": 70
+    "revision": 86
   },
   "documents": [
     {
@@ -141,12 +141,16 @@
                 "num": "9",
                 "heading": "Ministry of Home Affaus",
                 "heading_hi": "Grih Mantralaya",
-                "remark": "with a Department of Official Language (Rajbhasha Vibhag) and Ɑ Department of Personnel and Administrative Reforms (Karmik nur Prashasanık Sudhar Vibhag) within the Ministry (Mantralaya)]"
+                "remark": "with a Department of Official Language (Rajbhasha Vibhag) and Ɑ"
               },
               {
                 "type": "department",
                 "num": "-",
-                "heading": "Department of Official Language (Rajbhasha Vibhag) and Ɑ Department of Personnel and Administrative Reforms (Karmik nur Prashasanık Sudhar Vibhag)"
+                "heading": "Department of Official Language (Rajbhasha Vibhag) and Ɑ"
+              },
+              {
+                "type": "department",
+                "heading": "Department of Personnel and Administrative Reforms (Karmik nur Prashasanık Sudhar Vibhag) within the Ministry (Mantralaya)]"
               }
             ],
             "flags": [],
@@ -452,14 +456,34 @@
             },
             "content": [
               {
-                "type": "ministry",
+                "type": "department",
                 "heading": "DEPARTMENT OF PERSONNEL AND ADMINISTRATIVE REFORMS",
                 "heading_hi": "KARMIK AUR PRASHASANIK SUDHAR VIBHAG"
               },
               {
                 "type": "group_heading",
                 "num": "I",
-                "text": "Recruitment, Promotion and Morale of the Services. 1 Reservation of posts in Services for certain classes of citizens 2 General questions relating to recruitment, promotion and seniority pertaining to Central Services except Railway Services and Services under the control of the Department of Atomic Energy (Parmanu Oorja Vibhag), the Department of Electronics (Electronics Vibhag), and the Department of Space (Antareeksh Vibhag) 3 General policy regarding age limits, medical standards, educational qualifications and recognition of non-technical degrees/diplomas for appointment to Government service 4 General policy matters regarding classification of posts and grant of gazetted status in relation to Services other than Railway Services"
+                "text": "Recruitment, Promotion and Morale of the Services."
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Reservation of posts in Services for certain classes of citizens"
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "General questions relating to recruitment, promotion and seniority pertaining to Central Services except Railway Services and Services under the control of the Department of Atomic Energy (Parmanu Oorja Vibhag), the Department of Electronics (Electronics Vibhag), and the Department of Space (Antareeksh Vibhag)"
+              },
+              {
+                "type": "entry",
+                "num": "3",
+                "text": "General policy regarding age limits, medical standards, educational qualifications and recognition of non-technical degrees/diplomas for appointment to Government service"
+              },
+              {
+                "type": "entry",
+                "num": "4",
+                "text": "General policy matters regarding classification of posts and grant of gazetted status in relation to Services other than Railway Services"
               },
               {
                 "type": "entry",
@@ -923,8 +947,19 @@
             "expect": "CABINET SECRETARIAT (MANTRIMANDAL SACHIVALAYA)",
             "content": [
               {
-                "type": "text",
-                "text": "CABINET SECRETARIAT (MANTRIMANDAL SACHIVALAYA) 1 Secretarial assistance to the Cabinet and Cabinet Committees 2 Rules of Business."
+                "type": "ministry",
+                "heading": "CABINET SECRETARIAT",
+                "heading_hi": "MANTRIMANDAL SACHIVALAYA"
+              },
+              {
+                "type": "entry",
+                "num": "1",
+                "text": "Secretarial assistance to the Cabinet and Cabinet Committees"
+              },
+              {
+                "type": "entry",
+                "num": "2",
+                "text": "Rules of Business."
               }
             ],
             "flags": [],

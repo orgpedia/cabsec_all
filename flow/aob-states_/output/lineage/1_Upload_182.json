@@ -4,7 +4,7 @@
  "series": 144,
  "date": "1980-07-22",
  "govdoc": "aob-ammend_/output/1_Upload_182.pdf.govdoc.json.zst",
- "govdoc_mtime": 1794826683.7703125,
+ "govdoc_mtime": 1795268094.0616589,
  "source": {
   "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_182.pdf",
   "portal": "cabsec_aob",
@@ -101,18 +101,18 @@
    "task": "problems_check",
    "version": "2",
    "tool": "checker",
-   "run": "r70",
-   "at": "2026-11-15T17:03:13.599535+00:00",
-   "stamp": "2e521736cc6005f9"
+   "run": "r78",
+   "at": "2026-11-21T11:11:13.584739+00:00",
+   "stamp": "4ac42c8cd5bdbe19"
   },
   {
    "step": "inferred_check",
    "task": "problems_check",
    "version": "2",
    "tool": "checker",
-   "run": "r75",
-   "at": "2026-11-16T10:58:03.678621+00:00",
-   "stamp": "50d5bd2a4484f0a7"
+   "run": "r86",
+   "at": "2026-11-21T13:34:54.009876+00:00",
+   "stamp": "8742d7b4641ad327"
   }
  ],
  "reviews": [],
@@ -125,6 +125,13 @@
    "status": "open"
   },
   {
+   "code": "aob:states_inferred_after_its_ministry",
+   "severity": "info",
+   "message": "change 10: the Department of Agricultural Research and Education not in the states: MINISTRY OF CIVIL SUPPLIES put after its ministry, Ministry of Agriculture",
+   "target": "r63.rel10",
+   "status": "open"
+  },
+  {
    "code": "aob:states_inferred_loose",
    "severity": "info",
    "message": "change 19: ministry Ministry of Steel, Mincs and Coal taken for ministry MINISTRY OF STEEL, MINES AND COAL (ISPAT, KHAN AUR KOYALA MANTRA- LAYA), named loosely",
@@ -133,22 +140,6 @@
   }
  ],
  "problems": [
-  {
-   "series": 144,
-   "seq": 9,
-   "code": "old_path_missing",
-   "severity": "error",
-   "message": "change 9: no department Department of Irrigation under schedule 2 › ministry Ministry of Agriculture",
-   "cause": "unit_not_found"
-  },
-  {
-   "series": 144,
-   "seq": 10,
-   "code": "old_path_missing",
-   "severity": "error",
-   "message": "change 10: no department Department of Agricultural Research and Education under schedule 2 › ministry Ministry of Agriculture",
-   "cause": "unit_not_found"
-  },
   {
    "series": 174,
    "seq": 21,
@@ -238,11 +229,7 @@
    "op": "omit",
    "source_ref": "3(a)(iii)",
    "path": "schedule 2 › ministry Ministry of Agriculture › department Department of Irrigation",
-   "status": "not_applied",
-   "problem": "change 9: no department Department of Irrigation under schedule 2 › ministry Ministry of Agriculture",
-   "code": "old_path_missing",
-   "cause": "unit_not_found",
-   "known": "agriculture"
+   "status": "applied"
   },
   {
    "seq": 10,
@@ -250,11 +237,7 @@
    "op": "insert",
    "source_ref": "3(b)",
    "path": "schedule 2 › ministry Ministry of Agriculture › department Department of Agricultural Research and Education",
-   "status": "not_applied",
-   "problem": "change 10: no department Department of Agricultural Research and Education under schedule 2 › ministry Ministry of Agriculture",
-   "code": "old_path_missing",
-   "cause": "unit_not_found",
-   "known": "agriculture"
+   "status": "applied"
   },
   {
    "seq": 11,
@@ -355,7 +338,7 @@
  ],
  "made_by": {
   "docflow": "0.1.0",
-  "commit": "91ec7ab",
-  "at": "2026-11-16T11:05:53+00:00"
+  "commit": "4113d7f",
+  "at": "2026-11-21T13:36:25+00:00"
  }
 }

@@ -4,7 +4,7 @@
  "series": 174,
  "date": "1985-09-25",
  "govdoc": "aob-rules_/output/1_Upload_212.pdf.govdoc.json.zst",
- "govdoc_mtime": 1794762083.2243428,
+ "govdoc_mtime": 1795259419.2439208,
  "edits_file": "aob-rules_/conf/1_Upload_212.pdf.edits.yml",
  "source": {
   "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_212.pdf",
@@ -3907,9 +3907,9 @@
    "task": "problems_check",
    "version": "2",
    "tool": "checker",
-   "run": "r117",
-   "at": "2026-11-15T17:01:22.392412+00:00",
-   "stamp": "d6cac10584e2a1c2"
+   "run": "r118",
+   "at": "2026-11-21T11:10:18.811858+00:00",
+   "stamp": "d5ba9eb4c56dbc5e"
   }
  ],
  "reviews": [],
@@ -4411,6 +4411,13 @@
    "seq": null,
    "code": "new_missing",
    "severity": "warning",
+   "message": "schedule 2 › ministry MINISTRY OF COMMUNICATIONS is in 1_Upload_212.pdf but not in 1_Upload_1144.pdf with the amendments up to 173 applied"
+  },
+  {
+   "series": 174,
+   "seq": null,
+   "code": "new_missing",
+   "severity": "warning",
    "message": "schedule 2 › ministry MINISTRY OF ENERGY is in 1_Upload_212.pdf but not in 1_Upload_1144.pdf with the amendments up to 173 applied"
   },
   {
@@ -4502,14 +4509,14 @@
    "seq": null,
    "code": "new_missing",
    "severity": "warning",
-   "message": "schedule 2 › ministry DEPARTMENT OF SPACE is in 1_Upload_212.pdf but not in 1_Upload_1144.pdf with the amendments up to 173 applied"
+   "message": "schedule 2 › ministry DEPARTMENT OF OCEAN DEVELOPMENT . is in 1_Upload_212.pdf but not in 1_Upload_1144.pdf with the amendments up to 173 applied"
   },
   {
    "series": 174,
    "seq": null,
    "code": "new_missing",
    "severity": "warning",
-   "message": "schedule 2 › ministry PRIME MINISTER'S OFFICE is in 1_Upload_212.pdf but not in 1_Upload_1144.pdf with the amendments up to 173 applied"
+   "message": "schedule 2 › ministry DEPARTMENT OF SPACE is in 1_Upload_212.pdf but not in 1_Upload_1144.pdf with the amendments up to 173 applied"
   },
   {
    "series": 174,
@@ -4783,6 +4790,13 @@
    "code": "new_extra",
    "severity": "warning",
    "message": "schedule 2 › ministry MINISTRY OF DEFENCE › department C › entry 33 is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
+  },
+  {
+   "series": 174,
+   "seq": 17,
+   "code": "new_extra",
+   "severity": "warning",
+   "message": "schedule 2 › text is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
   },
   {
    "series": 174,
@@ -6550,13 +6564,6 @@
   },
   {
    "series": 174,
-   "seq": 7,
-   "code": "new_extra",
-   "severity": "warning",
-   "message": "schedule 2 › ministry DEPARTMENT OF PERSONNEL AND ADMINISTRATIVE REFORMS is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
-  },
-  {
-   "series": 174,
    "seq": 3,
    "code": "new_extra",
    "severity": "warning",
@@ -6666,13 +6673,6 @@
    "code": "new_extra",
    "severity": "warning",
    "message": "schedule 2 › ministry Ministry of Irrigation and Power is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
-  },
-  {
-   "series": 174,
-   "seq": 45,
-   "code": "new_extra",
-   "severity": "warning",
-   "message": "schedule 2 › department A is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
   },
   {
    "series": 174,
@@ -7503,205 +7503,23 @@
   {
    "series": 174,
    "seq": 6,
-   "code": "new_missing",
-   "severity": "warning",
-   "message": "schedule 2 › ministry MINISTRY OF PLANNING › department B is in 1_Upload_212.pdf but not in 1_Upload_1144.pdf with the amendments up to 173 applied"
-  },
-  {
-   "series": 174,
-   "seq": 6,
    "code": "new_extra",
    "severity": "warning",
    "message": "schedule 2 › ministry MINISTRY OF PLANNING › text is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
   },
   {
    "series": 174,
-   "seq": 6,
+   "seq": 51,
    "code": "new_extra",
    "severity": "warning",
-   "message": "schedule 2 › ministry MINISTRY OF PLANNING › entry 1 is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
+   "message": "schedule 2 › ministry MINISTRY OF PLANNING › department B › group_heading A is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
   },
   {
    "series": 174,
-   "seq": 6,
-   "code": "new_extra",
+   "seq": 17,
+   "code": "new_text_differs",
    "severity": "warning",
-   "message": "schedule 2 › ministry MINISTRY OF PLANNING › entry 2 is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
-  },
-  {
-   "series": 174,
-   "seq": 6,
-   "code": "new_extra",
-   "severity": "warning",
-   "message": "schedule 2 › ministry MINISTRY OF PLANNING › entry 3 is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
-  },
-  {
-   "series": 174,
-   "seq": 6,
-   "code": "new_extra",
-   "severity": "warning",
-   "message": "schedule 2 › ministry MINISTRY OF PLANNING › entry 4 is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
-  },
-  {
-   "series": 174,
-   "seq": 6,
-   "code": "new_extra",
-   "severity": "warning",
-   "message": "schedule 2 › ministry MINISTRY OF PLANNING › entry 5 is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
-  },
-  {
-   "series": 174,
-   "seq": 6,
-   "code": "new_extra",
-   "severity": "warning",
-   "message": "schedule 2 › ministry MINISTRY OF PLANNING › entry 1 is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
-  },
-  {
-   "series": 174,
-   "seq": 6,
-   "code": "new_extra",
-   "severity": "warning",
-   "message": "schedule 2 › ministry MINISTRY OF PLANNING › entry 2 is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
-  },
-  {
-   "series": 174,
-   "seq": 6,
-   "code": "new_extra",
-   "severity": "warning",
-   "message": "schedule 2 › ministry MINISTRY OF PLANNING › entry 3 is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
-  },
-  {
-   "series": 174,
-   "seq": 6,
-   "code": "new_extra",
-   "severity": "warning",
-   "message": "schedule 2 › ministry MINISTRY OF PLANNING › entry 4 is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
-  },
-  {
-   "series": 174,
-   "seq": 6,
-   "code": "new_extra",
-   "severity": "warning",
-   "message": "schedule 2 › ministry MINISTRY OF PLANNING › entry 5 is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
-  },
-  {
-   "series": 174,
-   "seq": 6,
-   "code": "new_extra",
-   "severity": "warning",
-   "message": "schedule 2 › ministry MINISTRY OF PLANNING › entry 6 is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
-  },
-  {
-   "series": 174,
-   "seq": 6,
-   "code": "new_extra",
-   "severity": "warning",
-   "message": "schedule 2 › ministry MINISTRY OF PLANNING › entry 7 is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
-  },
-  {
-   "series": 174,
-   "seq": 6,
-   "code": "new_extra",
-   "severity": "warning",
-   "message": "schedule 2 › ministry MINISTRY OF PLANNING › entry 8 is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
-  },
-  {
-   "series": 174,
-   "seq": 6,
-   "code": "new_extra",
-   "severity": "warning",
-   "message": "schedule 2 › ministry MINISTRY OF PLANNING › entry 9 is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
-  },
-  {
-   "series": 174,
-   "seq": 6,
-   "code": "new_extra",
-   "severity": "warning",
-   "message": "schedule 2 › ministry MINISTRY OF PLANNING › entry 10 is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
-  },
-  {
-   "series": 174,
-   "seq": 6,
-   "code": "new_extra",
-   "severity": "warning",
-   "message": "schedule 2 › ministry MINISTRY OF PLANNING › entry 11 is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
-  },
-  {
-   "series": 174,
-   "seq": 6,
-   "code": "new_extra",
-   "severity": "warning",
-   "message": "schedule 2 › ministry MINISTRY OF PLANNING › entry 12 is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
-  },
-  {
-   "series": 174,
-   "seq": 6,
-   "code": "new_extra",
-   "severity": "warning",
-   "message": "schedule 2 › ministry MINISTRY OF PLANNING › entry 13 is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
-  },
-  {
-   "series": 174,
-   "seq": 6,
-   "code": "new_extra",
-   "severity": "warning",
-   "message": "schedule 2 › ministry MINISTRY OF PLANNING › entry 14 is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
-  },
-  {
-   "series": 174,
-   "seq": 6,
-   "code": "new_extra",
-   "severity": "warning",
-   "message": "schedule 2 › ministry MINISTRY OF PLANNING › entry 15 is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
-  },
-  {
-   "series": 174,
-   "seq": 6,
-   "code": "new_extra",
-   "severity": "warning",
-   "message": "schedule 2 › ministry MINISTRY OF PLANNING › entry 16 is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
-  },
-  {
-   "series": 174,
-   "seq": 6,
-   "code": "new_extra",
-   "severity": "warning",
-   "message": "schedule 2 › ministry MINISTRY OF PLANNING › entry 17 is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
-  },
-  {
-   "series": 174,
-   "seq": 6,
-   "code": "new_extra",
-   "severity": "warning",
-   "message": "schedule 2 › ministry MINISTRY OF PLANNING › entry 18 is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
-  },
-  {
-   "series": 174,
-   "seq": 6,
-   "code": "new_extra",
-   "severity": "warning",
-   "message": "schedule 2 › ministry MINISTRY OF PLANNING › entry 19 is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
-  },
-  {
-   "series": 174,
-   "seq": 6,
-   "code": "new_extra",
-   "severity": "warning",
-   "message": "schedule 2 › ministry MINISTRY OF PLANNING › entry 20 is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
-  },
-  {
-   "series": 174,
-   "seq": 6,
-   "code": "new_extra",
-   "severity": "warning",
-   "message": "schedule 2 › ministry MINISTRY OF PLANNING › ministry Ministry of External Affairs is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
-  },
-  {
-   "series": 174,
-   "seq": 6,
-   "code": "new_extra",
-   "severity": "warning",
-   "message": "schedule 2 › ministry MINISTRY OF PLANNING › note is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
+   "message": "schedule 2 › ministry MINISTRY OF PLANNING › department B › entry 6 reads differently in 1_Upload_212.pdf than in 1_Upload_1144.pdf with the amendments up to 173 applied"
   },
   {
    "series": 174,
@@ -7971,45 +7789,10 @@
   },
   {
    "series": 174,
-   "seq": 19,
+   "seq": 29,
    "code": "new_extra",
    "severity": "warning",
-   "message": "schedule 2 › department DEPARTMENT OF TECHNICAL DEVELOPMENT The Development Wing is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
-  },
-  {
-   "series": 174,
-   "seq": 29,
-   "code": "new_text_differs",
-   "severity": "warning",
-   "message": "schedule 2 › ministry MINISTRY OF COMMUNICATIONS › department A › entry 3 reads differently in 1_Upload_212.pdf than in 1_Upload_1144.pdf with the amendments up to 173 applied"
-  },
-  {
-   "series": 174,
-   "seq": 29,
-   "code": "new_text_differs",
-   "severity": "warning",
-   "message": "schedule 2 › ministry MINISTRY OF COMMUNICATIONS › department B › entry 1 reads differently in 1_Upload_212.pdf than in 1_Upload_1144.pdf with the amendments up to 173 applied"
-  },
-  {
-   "series": 174,
-   "seq": 29,
-   "code": "new_text_differs",
-   "severity": "warning",
-   "message": "schedule 2 › ministry MINISTRY OF COMMUNICATIONS › department B › entry 2 reads differently in 1_Upload_212.pdf than in 1_Upload_1144.pdf with the amendments up to 173 applied"
-  },
-  {
-   "series": 174,
-   "seq": 29,
-   "code": "new_text_differs",
-   "severity": "warning",
-   "message": "schedule 2 › ministry MINISTRY OF COMMUNICATIONS › department B › entry 3 reads differently in 1_Upload_212.pdf than in 1_Upload_1144.pdf with the amendments up to 173 applied"
-  },
-  {
-   "series": 174,
-   "seq": 29,
-   "code": "new_text_differs",
-   "severity": "warning",
-   "message": "schedule 2 › ministry MINISTRY OF COMMUNICATIONS › department B › entry 6 reads differently in 1_Upload_212.pdf than in 1_Upload_1144.pdf with the amendments up to 173 applied"
+   "message": "schedule 2 › department MINISTRY OF COMMUNICATIONS is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
   },
   {
    "series": 174,
@@ -8028,58 +7811,23 @@
   {
    "series": 174,
    "seq": 3,
-   "code": "new_missing",
+   "code": "new_extra",
    "severity": "warning",
-   "message": "schedule 2 › ministry DEPARTMENT OF OCEAN DEVELOPMENT › entry 6 is in 1_Upload_212.pdf but not in 1_Upload_1144.pdf with the amendments up to 173 applied"
-  },
-  {
-   "series": 174,
-   "seq": 6,
-   "code": "new_text_differs",
-   "severity": "warning",
-   "message": "schedule 2 › ministry DEPARTMENT OF OCEAN DEVELOPMENT › entry 2 reads differently in 1_Upload_212.pdf than in 1_Upload_1144.pdf with the amendments up to 173 applied"
+   "message": "schedule 2 › department DEPARTMENT OF OCEAN DEVELOPMENT is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
   },
   {
    "series": 174,
    "seq": 3,
    "code": "new_extra",
    "severity": "warning",
-   "message": "schedule 2 › ministry DEPARTMENT OF OCEAN DEVELOPMENT › entry 2A is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
+   "message": "schedule 2 › department DEPARTMENT OF SPACE is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
   },
   {
    "series": 174,
-   "seq": 3,
-   "code": "new_text_differs",
-   "severity": "warning",
-   "message": "schedule 2 › ministry DEPARTMENT OF OCEAN DEVELOPMENT › entry 3 reads differently in 1_Upload_212.pdf than in 1_Upload_1144.pdf with the amendments up to 173 applied"
-  },
-  {
-   "series": 174,
-   "seq": 3,
-   "code": "new_text_differs",
-   "severity": "warning",
-   "message": "schedule 2 › ministry DEPARTMENT OF OCEAN DEVELOPMENT › entry 4 reads differently in 1_Upload_212.pdf than in 1_Upload_1144.pdf with the amendments up to 173 applied"
-  },
-  {
-   "series": 174,
-   "seq": 3,
-   "code": "new_text_differs",
-   "severity": "warning",
-   "message": "schedule 2 › ministry DEPARTMENT OF OCEAN DEVELOPMENT › entry 5 reads differently in 1_Upload_212.pdf than in 1_Upload_1144.pdf with the amendments up to 173 applied"
-  },
-  {
-   "series": 174,
-   "seq": 63,
+   "seq": 65,
    "code": "new_extra",
    "severity": "warning",
-   "message": "schedule 2 › department DEPARTMENT OF PERSONNEL AND AD- MINISTRATIVE REFORMS is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
-  },
-  {
-   "series": 174,
-   "seq": 22,
-   "code": "new_extra",
-   "severity": "warning",
-   "message": "schedule 2 › department Vigyan Aur Irodyagiki Vibhag is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
+   "message": "schedule 2 › ministry DEPARTMENT OF YOUTH AFFAIRS AND SPORTS is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
   },
   {
    "series": 174,
@@ -8090,31 +7838,10 @@
   },
   {
    "series": 174,
-   "seq": 8,
-   "code": "new_missing",
-   "severity": "warning",
-   "message": "schedule 2 › ministry CABINET SECRETARIAT › entry 1 is in 1_Upload_212.pdf but not in 1_Upload_1144.pdf with the amendments up to 173 applied"
-  },
-  {
-   "series": 174,
-   "seq": 8,
-   "code": "new_missing",
-   "severity": "warning",
-   "message": "schedule 2 › ministry CABINET SECRETARIAT › entry 2 is in 1_Upload_212.pdf but not in 1_Upload_1144.pdf with the amendments up to 173 applied"
-  },
-  {
-   "series": 174,
-   "seq": 8,
-   "code": "new_extra",
-   "severity": "warning",
-   "message": "schedule 2 › ministry CABINET SECRETARIAT › text is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
-  },
-  {
-   "series": 174,
    "seq": null,
-   "code": "new_extra",
+   "code": "new_text_differs",
    "severity": "warning",
-   "message": "schedule 2 › ministry PRIME MINISTER'S SECRETARIAT is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
+   "message": "schedule 2 › ministry PRIME MINISTER'S OFFICE › entry 1 reads differently in 1_Upload_212.pdf than in 1_Upload_1144.pdf with the amendments up to 173 applied"
   },
   {
    "series": 174,
@@ -8604,7 +8331,7 @@
  "changes": [],
  "made_by": {
   "docflow": "0.1.0",
-  "commit": "91ec7ab",
-  "at": "2026-11-16T11:05:53+00:00"
+  "commit": "4113d7f",
+  "at": "2026-11-21T13:36:25+00:00"
  }
 }

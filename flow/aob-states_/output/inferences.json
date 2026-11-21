@@ -36,20 +36,56 @@
   "new": false
  },
  {
-  "series": 11,
-  "file": "1_Upload_44.pdf",
-  "doc_id": "GOI_SO_3339_1962",
-  "seq": 1,
+  "series": 5,
+  "file": "1_Upload_38.pdf",
+  "doc_id": "GOI_SO_1140_1962",
+  "seq": 4,
   "code": "states_inferred_number_kept",
   "severity": "info",
   "rule": "number_kept",
   "status": "accepted",
-  "message": "change 1: schedule 1 › ministry Ministry of Defence. keeps its number 3, the heading put for it quoted without one",
-  "key": "states_inferred_number_kept:1",
+  "message": "change 4: schedule 2 › ministry MINISTRY OF COMMERCE & INDUSTRY › department DEPARTMENT OF COMMERCE keeps its number A, the heading put for it quoted without one",
+  "key": "states_inferred_number_kept:4",
   "on": {
-   "file": "1_Upload_44.pdf",
-   "doc_id": "GOI_SO_3339_1962",
-   "seq": 1
+   "file": "1_Upload_38.pdf",
+   "doc_id": "GOI_SO_1140_1962",
+   "seq": 4
+  },
+  "new": false
+ },
+ {
+  "series": 5,
+  "file": "1_Upload_38.pdf",
+  "doc_id": "GOI_SO_1140_1962",
+  "seq": 5,
+  "code": "states_inferred_number_kept",
+  "severity": "info",
+  "rule": "number_kept",
+  "status": "accepted",
+  "message": "change 5: schedule 2 › ministry MINISTRY OF COMMERCE & INDUSTRY › department DEPARTMENT OF INDUSTRY keeps its number B, the heading put for it quoted without one",
+  "key": "states_inferred_number_kept:5",
+  "on": {
+   "file": "1_Upload_38.pdf",
+   "doc_id": "GOI_SO_1140_1962",
+   "seq": 5
+  },
+  "new": false
+ },
+ {
+  "series": 6,
+  "file": "1_Upload_39.pdf",
+  "doc_id": "GOI_SO_1276_1962",
+  "seq": 3,
+  "code": "states_inferred_number_kept",
+  "severity": "info",
+  "rule": "number_kept",
+  "status": "accepted",
+  "message": "change 3: schedule 2 › ministry MINISTRY OF COMMERCE & INDUSTRY › department Department of International Trade keeps its number A, the heading put for it quoted without one",
+  "key": "states_inferred_number_kept:3",
+  "on": {
+   "file": "1_Upload_39.pdf",
+   "doc_id": "GOI_SO_1276_1962",
+   "seq": 3
   },
   "new": false
  },
@@ -104,24 +140,6 @@
    "file": "1_Upload_46.pdf",
    "doc_id": "GOI_SO_3487_1962",
    "seq": 6
-  },
-  "new": false
- },
- {
-  "series": 16,
-  "file": "1_Upload_49.pdf",
-  "doc_id": "GOI_SO_876_1963",
-  "seq": 1,
-  "code": "states_inferred_earlier_name",
-  "severity": "info",
-  "rule": "earlier_name",
-  "status": "accepted",
-  "message": "change 1: department Department of International Trade taken for department DEPARTMENT OF COMMERCE, its name before the First Schedule renamed it",
-  "key": "states_inferred_earlier_name:1",
-  "on": {
-   "file": "1_Upload_49.pdf",
-   "doc_id": "GOI_SO_876_1963",
-   "seq": 1
   },
   "new": false
  },
@@ -818,7 +836,7 @@
   "severity": "info",
   "rule": "hindi_cited",
   "status": "accepted",
-  "message": "change 22: ministry Company Karya Vibhag taken for ministry DEPARTMENT OF COMPANY AFFAIRS, cited by its Hindi name",
+  "message": "change 22: ministry Company Karya Vibhag taken for department DEPARTMENT OF COMPANY AFFAIRS, cited by its Hindi name",
   "key": "states_inferred_hindi_cited:22",
   "on": {
    "file": "1_Upload_122.pdf",
@@ -1214,6 +1232,24 @@
   "severity": "info",
   "rule": "hindi_name",
   "status": "accepted",
+  "message": "the Second Schedule's Vigyan Aur Prodyogiki Vibhag read as DEPARTMENT OF SCIENCE AND TECHNOLOGY, the First Schedule's English name for it",
+  "key": "states_inferred_hindi_name:None",
+  "on": {
+   "file": "1_Upload_122.pdf",
+   "doc_id": "GOI_SO_1914_1971",
+   "seq": null
+  },
+  "new": false
+ },
+ {
+  "series": 88,
+  "file": "1_Upload_122.pdf",
+  "doc_id": "GOI_SO_1914_1971",
+  "seq": null,
+  "code": "states_inferred_hindi_name",
+  "severity": "info",
+  "rule": "hindi_name",
+  "status": "accepted",
   "message": "the Second Schedule's POORTI VIBHAG read as DEPARTMENT OF SUPPLY, the First Schedule's English name for it",
   "key": "states_inferred_hindi_name:None",
   "on": {
@@ -1234,6 +1270,114 @@
   "status": "accepted",
   "message": "the Second Schedule's SANKHIKI VIBHAG read as DEPARTMENT OF STATISTICS, the First Schedule's English name for it",
   "key": "states_inferred_hindi_name:None",
+  "on": {
+   "file": "1_Upload_122.pdf",
+   "doc_id": "GOI_SO_1914_1971",
+   "seq": null
+  },
+  "new": false
+ },
+ {
+  "series": 88,
+  "file": "1_Upload_122.pdf",
+  "doc_id": "GOI_SO_1914_1971",
+  "seq": null,
+  "code": "states_inferred_renamed_by_decision",
+  "severity": "info",
+  "rule": "renamed_by_decision",
+  "status": "unreviewed",
+  "message": "Banking Vibhag renamed Department of Banking by a person's decision, not by the gazette (English name from 1_Upload_123, decided by mukundesh, 21 Nov 2026)",
+  "key": "states_inferred_renamed_by_decision:None",
+  "on": {
+   "file": "1_Upload_122.pdf",
+   "doc_id": "GOI_SO_1914_1971",
+   "seq": null
+  },
+  "new": false
+ },
+ {
+  "series": 88,
+  "file": "1_Upload_122.pdf",
+  "doc_id": "GOI_SO_1914_1971",
+  "seq": null,
+  "code": "states_inferred_renamed_by_decision",
+  "severity": "info",
+  "rule": "renamed_by_decision",
+  "status": "unreviewed",
+  "message": "Rajaswa Aur Bima Vibhag renamed Department of Revenue and Insurance by a person's decision, not by the gazette (English name from 1_Upload_123, decided by mukundesh, 21 Nov 2026)",
+  "key": "states_inferred_renamed_by_decision:None",
+  "on": {
+   "file": "1_Upload_122.pdf",
+   "doc_id": "GOI_SO_1914_1971",
+   "seq": null
+  },
+  "new": false
+ },
+ {
+  "series": 88,
+  "file": "1_Upload_122.pdf",
+  "doc_id": "GOI_SO_1914_1971",
+  "seq": null,
+  "code": "states_inferred_renamed_by_decision",
+  "severity": "info",
+  "rule": "renamed_by_decision",
+  "status": "unreviewed",
+  "message": "Sahkarita Vibhag renamed Department of Cooperation by a person's decision, not by the gazette (English name from 1_Upload_123, decided by mukundesh, 21 Nov 2026)",
+  "key": "states_inferred_renamed_by_decision:None",
+  "on": {
+   "file": "1_Upload_122.pdf",
+   "doc_id": "GOI_SO_1914_1971",
+   "seq": null
+  },
+  "new": false
+ },
+ {
+  "series": 88,
+  "file": "1_Upload_122.pdf",
+  "doc_id": "GOI_SO_1914_1971",
+  "seq": null,
+  "code": "states_inferred_renamed_by_decision",
+  "severity": "info",
+  "rule": "renamed_by_decision",
+  "status": "unreviewed",
+  "message": "Parivar Niyojan Vibhag renamed Department of Family Planning by a person's decision, not by the gazette (English name from 1_Upload_123, decided by mukundesh, 21 Nov 2026)",
+  "key": "states_inferred_renamed_by_decision:None",
+  "on": {
+   "file": "1_Upload_122.pdf",
+   "doc_id": "GOI_SO_1914_1971",
+   "seq": null
+  },
+  "new": false
+ },
+ {
+  "series": 88,
+  "file": "1_Upload_122.pdf",
+  "doc_id": "GOI_SO_1914_1971",
+  "seq": null,
+  "code": "states_inferred_renamed_by_decision",
+  "severity": "info",
+  "rule": "renamed_by_decision",
+  "status": "unreviewed",
+  "message": "Shram Aur Rozgar Vibhag renamed Department of Labour and Employment by a person's decision, not by the gazette (English name from 1_Upload_123, decided by mukundesh, 21 Nov 2026)",
+  "key": "states_inferred_renamed_by_decision:None",
+  "on": {
+   "file": "1_Upload_122.pdf",
+   "doc_id": "GOI_SO_1914_1971",
+   "seq": null
+  },
+  "new": false
+ },
+ {
+  "series": 88,
+  "file": "1_Upload_122.pdf",
+  "doc_id": "GOI_SO_1914_1971",
+  "seq": null,
+  "code": "states_inferred_renamed_by_decision",
+  "severity": "info",
+  "rule": "renamed_by_decision",
+  "status": "unreviewed",
+  "message": "Rasayan Vibhag renamed Department of Chemicals by a person's decision, not by the gazette (English name from 1_Upload_123, decided by mukundesh, 21 Nov 2026)",
+  "key": "states_inferred_renamed_by_decision:None",
   "on": {
    "file": "1_Upload_122.pdf",
    "doc_id": "GOI_SO_1914_1971",
@@ -1350,6 +1494,42 @@
   "new": false
  },
  {
+  "series": 104,
+  "file": "1_Upload_138.pdf",
+  "doc_id": "GOI_SO_381E_1974",
+  "seq": 6,
+  "code": "states_inferred_loose",
+  "severity": "info",
+  "rule": "loose",
+  "status": "accepted",
+  "message": "change 6: department DEPARTMENT QF COOPERATION taken for department DEPARTMENT OF COOPERATION, named loosely",
+  "key": "states_inferred_loose:6",
+  "on": {
+   "file": "1_Upload_138.pdf",
+   "doc_id": "GOI_SO_381E_1974",
+   "seq": 6
+  },
+  "new": true
+ },
+ {
+  "series": 104,
+  "file": "1_Upload_138.pdf",
+  "doc_id": "GOI_SO_381E_1974",
+  "seq": 7,
+  "code": "states_inferred_loose",
+  "severity": "info",
+  "rule": "loose",
+  "status": "accepted",
+  "message": "change 7: department DEPARTMENT QF COOPERATION taken for department DEPARTMENT OF COOPERATION, named loosely",
+  "key": "states_inferred_loose:7",
+  "on": {
+   "file": "1_Upload_138.pdf",
+   "doc_id": "GOI_SO_381E_1974",
+   "seq": 7
+  },
+  "new": true
+ },
+ {
   "series": 106,
   "file": "1_Upload_143.pdf",
   "doc_id": "GOI_SO_607E_1974",
@@ -1458,6 +1638,24 @@
   "new": false
  },
  {
+  "series": 126,
+  "file": "1_Upload_163.pdf",
+  "doc_id": "GOI_SO_128E_1978",
+  "seq": 5,
+  "code": "states_inferred_loose",
+  "severity": "info",
+  "rule": "loose",
+  "status": "accepted",
+  "message": "change 5: department DEPARTMENT OF PERSONNFI AND ADMINISTRATIVE REFORMS taken for department DEPARTMENT OF PERSONNEL AND ADMINISTRATIVE REFORMS, named loosely",
+  "key": "states_inferred_loose:5",
+  "on": {
+   "file": "1_Upload_163.pdf",
+   "doc_id": "GOI_SO_128E_1978",
+   "seq": 5
+  },
+  "new": false
+ },
+ {
   "series": 127,
   "file": "1_Upload_163.pdf",
   "doc_id": "GOI_SO_129E_1978",
@@ -1508,6 +1706,42 @@
    "file": "1_Upload_172.pdf",
    "doc_id": "GOI_SO_474E_1979",
    "seq": 4
+  },
+  "new": false
+ },
+ {
+  "series": 135,
+  "file": "1_Upload_172.pdf",
+  "doc_id": "GOI_SO_474E_1979",
+  "seq": null,
+  "code": "states_inferred_renamed_by_decision",
+  "severity": "info",
+  "rule": "renamed_by_decision",
+  "status": "unreviewed",
+  "message": "PRIME MINISTER'S SECRETARIAT renamed PRIME MINISTER'S OFFICE by a person's decision, not by the gazette (decided by mukundesh, 21 Nov 2026: the Second Schedule follows the First's 1977 rename)",
+  "key": "states_inferred_renamed_by_decision:None",
+  "on": {
+   "file": "1_Upload_172.pdf",
+   "doc_id": "GOI_SO_474E_1979",
+   "seq": null
+  },
+  "new": false
+ },
+ {
+  "series": 137,
+  "file": "1_Upload_175.pdf",
+  "doc_id": "GOI_SO_542E_1979",
+  "seq": 2,
+  "code": "states_inferred_loose",
+  "severity": "info",
+  "rule": "loose",
+  "status": "accepted",
+  "message": "change 2: ministry Department of Personnel and Administrative Reforms found within MINISTRY OF HOME AFFAIRS, found loosely",
+  "key": "states_inferred_loose:2",
+  "on": {
+   "file": "1_Upload_175.pdf",
+   "doc_id": "GOI_SO_542E_1979",
+   "seq": 2
   },
   "new": false
  },
@@ -1710,6 +1944,24 @@
   "new": false
  },
  {
+  "series": 149,
+  "file": "1_Upload_187.pdf",
+  "doc_id": "GOI_SO_628E_1981",
+  "seq": 9,
+  "code": "states_inferred_loose",
+  "severity": "info",
+  "rule": "loose",
+  "status": "accepted",
+  "message": "change 9: department DEPARTMENT OF PERSONNEL AND ADMINISTRATIVE RFORMS taken for department DEPARTMENT OF PERSONNEL AND ADMINISTRATIVE REFORMS, named loosely",
+  "key": "states_inferred_loose:9",
+  "on": {
+   "file": "1_Upload_187.pdf",
+   "doc_id": "GOI_SO_628E_1981",
+   "seq": 9
+  },
+  "new": false
+ },
+ {
   "series": 155,
   "file": "1_Upload_193.pdf",
   "doc_id": "GOI_SO_652E_1982",
@@ -1760,6 +2012,42 @@
    "file": "1_Upload_195.pdf",
    "doc_id": "GOI_SO_125E_1983",
    "seq": 8
+  },
+  "new": false
+ },
+ {
+  "series": 157,
+  "file": "1_Upload_195.pdf",
+  "doc_id": "GOI_SO_125E_1983",
+  "seq": 9,
+  "code": "states_inferred_loose",
+  "severity": "info",
+  "rule": "loose",
+  "status": "accepted",
+  "message": "change 9: ministry MINISTRY OF AGRICULTURF taken for ministry Ministry of Agriculture, named loosely",
+  "key": "states_inferred_loose:9",
+  "on": {
+   "file": "1_Upload_195.pdf",
+   "doc_id": "GOI_SO_125E_1983",
+   "seq": 9
+  },
+  "new": true
+ },
+ {
+  "series": 157,
+  "file": "1_Upload_195.pdf",
+  "doc_id": "GOI_SO_125E_1983",
+  "seq": 11,
+  "code": "states_inferred_loose",
+  "severity": "info",
+  "rule": "loose",
+  "status": "accepted",
+  "message": "change 11: ministry MINISTRY OF CIVIL SUPPLIFS taken for ministry MINISTRY OF CIVIL SUPPLIES, named loosely",
+  "key": "states_inferred_loose:11",
+  "on": {
+   "file": "1_Upload_195.pdf",
+   "doc_id": "GOI_SO_125E_1983",
+   "seq": 11
   },
   "new": false
  },
@@ -1912,18 +2200,18 @@
   "file": "1_Upload_202.pdf",
   "doc_id": "GOI_SO_7E_1985",
   "seq": 25,
-  "code": "states_inferred_so_renamed",
+  "code": "states_inferred_loose",
   "severity": "info",
-  "rule": "so_renamed",
-  "status": "unreviewed",
-  "message": "change 25: ministry Ministry of Agriculture taken as Ministry of Agriculture and Rural Development, the name change 1 of this notification gave it",
-  "key": "states_inferred_so_renamed:25",
+  "rule": "loose",
+  "status": "accepted",
+  "message": "change 25: ministry Ministry of Agriculture taken for ministry Ministry of Agriculture and Rural Development (Krishi aur Gramin Vikas Mantralaya), named loosely",
+  "key": "states_inferred_loose:25",
   "on": {
    "file": "1_Upload_202.pdf",
    "doc_id": "GOI_SO_7E_1985",
    "seq": 25
   },
-  "new": false
+  "new": true
  },
  {
   "series": 164,
@@ -2199,30 +2487,12 @@
   "series": 164,
   "file": "1_Upload_202.pdf",
   "doc_id": "GOI_SO_7E_1985",
-  "seq": 65,
-  "code": "states_inferred_so_renamed",
-  "severity": "info",
-  "rule": "so_renamed",
-  "status": "unreviewed",
-  "message": "change 65: ministry Department of Sports taken as Department of Youth Affairs and Sports, the name change 19 of this notification gave it",
-  "key": "states_inferred_so_renamed:65",
-  "on": {
-   "file": "1_Upload_202.pdf",
-   "doc_id": "GOI_SO_7E_1985",
-   "seq": 65
-  },
-  "new": false
- },
- {
-  "series": 164,
-  "file": "1_Upload_202.pdf",
-  "doc_id": "GOI_SO_7E_1985",
   "seq": 66,
   "code": "states_inferred_so_renamed",
   "severity": "info",
   "rule": "so_renamed",
   "status": "unreviewed",
-  "message": "change 66: ministry Department of Sports taken as Department of Youth Affairs and Sports, the name change 19 of this notification gave it",
+  "message": "change 66: ministry DEPARTMENT OF SPORTS taken as DEPARTMENT OF YOUTH AFFAIRS AND SPORTS, the name change 65 of this notification gave it",
   "key": "states_inferred_so_renamed:66",
   "on": {
    "file": "1_Upload_202.pdf",
@@ -2338,6 +2608,114 @@
    "seq": 3
   },
   "new": false
+ },
+ {
+  "series": 172,
+  "file": "1_Upload_210.pdf",
+  "doc_id": "GOI_SO_635E_1985",
+  "seq": 1,
+  "code": "states_inferred_loose",
+  "severity": "info",
+  "rule": "loose",
+  "status": "accepted",
+  "message": "change 1: ministry MINISTRY OF AGRI- CULTURE AND RURAL DIVILOP- MENT taken for ministry Ministry of Agriculture and Rural Development (Krishi aur Gramin Vikas Mantralaya), named loosely",
+  "key": "states_inferred_loose:1",
+  "on": {
+   "file": "1_Upload_210.pdf",
+   "doc_id": "GOI_SO_635E_1985",
+   "seq": 1
+  },
+  "new": true
+ },
+ {
+  "series": 172,
+  "file": "1_Upload_210.pdf",
+  "doc_id": "GOI_SO_635E_1985",
+  "seq": 2,
+  "code": "states_inferred_loose",
+  "severity": "info",
+  "rule": "loose",
+  "status": "accepted",
+  "message": "change 2: ministry MINISTRY OF AGRI- CULTURE AND RURAL DIVILOP- MENT taken for ministry Ministry of Agriculture and Rural Development (Krishi aur Gramin Vikas Mantralaya), named loosely",
+  "key": "states_inferred_loose:2",
+  "on": {
+   "file": "1_Upload_210.pdf",
+   "doc_id": "GOI_SO_635E_1985",
+   "seq": 2
+  },
+  "new": true
+ },
+ {
+  "series": 173,
+  "file": "1_Upload_211.pdf",
+  "doc_id": "GOI_SO_673E_1985",
+  "seq": 1,
+  "code": "states_inferred_loose",
+  "severity": "info",
+  "rule": "loose",
+  "status": "accepted",
+  "message": "change 1: ministry MINISTRY :'{ *GRKULTURE AND RURAL DEVELOPMENT taken for ministry Ministry of Agriculture and Rural Development (Krishi aur Gramin Vikas Mantralaya), named loosely",
+  "key": "states_inferred_loose:1",
+  "on": {
+   "file": "1_Upload_211.pdf",
+   "doc_id": "GOI_SO_673E_1985",
+   "seq": 1
+  },
+  "new": true
+ },
+ {
+  "series": 173,
+  "file": "1_Upload_211.pdf",
+  "doc_id": "GOI_SO_673E_1985",
+  "seq": 1,
+  "code": "states_inferred_loose",
+  "severity": "info",
+  "rule": "loose",
+  "status": "accepted",
+  "message": "change 1: department DEPARTMENT OF RURAL DIVE- LOPMENT taken for department DEPARTMENT OF RURAL DEVELOPMENT, named loosely",
+  "key": "states_inferred_loose:1",
+  "on": {
+   "file": "1_Upload_211.pdf",
+   "doc_id": "GOI_SO_673E_1985",
+   "seq": 1
+  },
+  "new": true
+ },
+ {
+  "series": 173,
+  "file": "1_Upload_211.pdf",
+  "doc_id": "GOI_SO_673E_1985",
+  "seq": 2,
+  "code": "states_inferred_loose",
+  "severity": "info",
+  "rule": "loose",
+  "status": "accepted",
+  "message": "change 2: ministry MINISTRY :'{ *GRKULTURE AND RURAL DEVELOPMENT taken for ministry Ministry of Agriculture and Rural Development (Krishi aur Gramin Vikas Mantralaya), named loosely",
+  "key": "states_inferred_loose:2",
+  "on": {
+   "file": "1_Upload_211.pdf",
+   "doc_id": "GOI_SO_673E_1985",
+   "seq": 2
+  },
+  "new": true
+ },
+ {
+  "series": 173,
+  "file": "1_Upload_211.pdf",
+  "doc_id": "GOI_SO_673E_1985",
+  "seq": 2,
+  "code": "states_inferred_loose",
+  "severity": "info",
+  "rule": "loose",
+  "status": "accepted",
+  "message": "change 2: department DEPARTMENT OF RURAL DIVE- LOPMENT taken for department DEPARTMENT OF RURAL DEVELOPMENT, named loosely",
+  "key": "states_inferred_loose:2",
+  "on": {
+   "file": "1_Upload_211.pdf",
+   "doc_id": "GOI_SO_673E_1985",
+   "seq": 2
+  },
+  "new": true
  },
  {
   "series": 176,
@@ -3189,24 +3567,6 @@
   "series": 234,
   "file": "1_Upload_275.pdf",
   "doc_id": "GOI_SO_39E_1997",
-  "seq": 6,
-  "code": "states_inferred_loose",
-  "severity": "info",
-  "rule": "loose",
-  "status": "accepted",
-  "message": "change 6: ministry MINISTRY OF RAILWAYS (RAIL MANTRALAYA) RAILWAY BOARD taken for ministry Ministry of Railways (Rail Mantralaya), Kailway Board (Rail Board), named loosely",
-  "key": "states_inferred_loose:6",
-  "on": {
-   "file": "1_Upload_275.pdf",
-   "doc_id": "GOI_SO_39E_1997",
-   "seq": 6
-  },
-  "new": false
- },
- {
-  "series": 234,
-  "file": "1_Upload_275.pdf",
-  "doc_id": "GOI_SO_39E_1997",
   "seq": 7,
   "code": "states_inferred_loose",
   "severity": "info",
@@ -3410,7 +3770,7 @@
   "severity": "info",
   "rule": "loose",
   "status": "accepted",
-  "message": "change 4: ministry MINISTRY OF RAILWAYS taken for ministry Ministry of Railways (Rail Mantralaya), Kailway Board (Rail Board), named loosely",
+  "message": "change 4: ministry MINISTRY OF RAILWAYS taken for ministry Ministry of Railways (Rail Mantralaya), Railway Board (Rail Board), named loosely",
   "key": "states_inferred_loose:4",
   "on": {
    "file": "1_Upload_293.pdf",
@@ -3536,7 +3896,7 @@
   "severity": "info",
   "rule": "loose",
   "status": "accepted",
-  "message": "change 1: ministry MINISTRY OF RAILWAYS taken for ministry Ministry of Railways (Rail Mantralaya), Kailway Board (Rail Board), named loosely",
+  "message": "change 1: ministry MINISTRY OF RAILWAYS taken for ministry Ministry of Railways (Rail Mantralaya), Railway Board (Rail Board), named loosely",
   "key": "states_inferred_loose:1",
   "on": {
    "file": "1_Upload_305.pdf",

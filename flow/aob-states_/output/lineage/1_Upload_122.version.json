@@ -4,7 +4,7 @@
  "series": 88,
  "date": "1971-05-03",
  "govdoc": "aob-rules_/output/1_Upload_122.pdf.govdoc.json.zst",
- "govdoc_mtime": 1794762016.3898842,
+ "govdoc_mtime": 1795259391.4914308,
  "edits_file": "aob-rules_/conf/1_Upload_122.pdf.edits.yml",
  "source": {
   "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_122.pdf",
@@ -262,9 +262,9 @@
    "task": "problems_check",
    "version": "2",
    "tool": "checker",
-   "run": "r52",
-   "at": "2026-11-15T17:00:16.351267+00:00",
-   "stamp": "dbde3853a3cc0491"
+   "run": "r53",
+   "at": "2026-11-21T11:09:51.479545+00:00",
+   "stamp": "f277728d4561adb5"
   }
  ],
  "reviews": [],
@@ -332,13 +332,6 @@
    "code": "new_extra",
    "severity": "warning",
    "message": "schedule 2 › ministry MINISTRY OF WORKS AND HOUSING is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
-  },
-  {
-   "series": 174,
-   "seq": 22,
-   "code": "new_extra",
-   "severity": "warning",
-   "message": "schedule 2 › department Vigyan Aur Irodyagiki Vibhag is in 1_Upload_1144.pdf with the amendments up to 173 applied but not in 1_Upload_212.pdf"
   }
  ],
  "rules": [
@@ -481,7 +474,7 @@
   {
    "rule": "hindi_cited",
    "seq": 22,
-   "note": "change 22: ministry Company Karya Vibhag taken for ministry DEPARTMENT OF COMPANY AFFAIRS, cited by its Hindi name",
+   "note": "change 22: ministry Company Karya Vibhag taken for department DEPARTMENT OF COMPANY AFFAIRS, cited by its Hindi name",
    "status": "accepted",
    "decided_at": "2026-11-15",
    "decided_by": "mukundesh"
@@ -657,6 +650,14 @@
   {
    "rule": "hindi_name",
    "seq": null,
+   "note": "the Second Schedule's Vigyan Aur Prodyogiki Vibhag read as DEPARTMENT OF SCIENCE AND TECHNOLOGY, the First Schedule's English name for it",
+   "status": "accepted",
+   "decided_at": "2026-11-15",
+   "decided_by": "mukundesh"
+  },
+  {
+   "rule": "hindi_name",
+   "seq": null,
    "note": "the Second Schedule's POORTI VIBHAG read as DEPARTMENT OF SUPPLY, the First Schedule's English name for it",
    "status": "accepted",
    "decided_at": "2026-11-15",
@@ -669,12 +670,48 @@
    "status": "accepted",
    "decided_at": "2026-11-15",
    "decided_by": "mukundesh"
+  },
+  {
+   "rule": "renamed_by_decision",
+   "seq": null,
+   "note": "Banking Vibhag renamed Department of Banking by a person's decision, not by the gazette (English name from 1_Upload_123, decided by mukundesh, 21 Nov 2026)",
+   "status": "unreviewed"
+  },
+  {
+   "rule": "renamed_by_decision",
+   "seq": null,
+   "note": "Rajaswa Aur Bima Vibhag renamed Department of Revenue and Insurance by a person's decision, not by the gazette (English name from 1_Upload_123, decided by mukundesh, 21 Nov 2026)",
+   "status": "unreviewed"
+  },
+  {
+   "rule": "renamed_by_decision",
+   "seq": null,
+   "note": "Sahkarita Vibhag renamed Department of Cooperation by a person's decision, not by the gazette (English name from 1_Upload_123, decided by mukundesh, 21 Nov 2026)",
+   "status": "unreviewed"
+  },
+  {
+   "rule": "renamed_by_decision",
+   "seq": null,
+   "note": "Parivar Niyojan Vibhag renamed Department of Family Planning by a person's decision, not by the gazette (English name from 1_Upload_123, decided by mukundesh, 21 Nov 2026)",
+   "status": "unreviewed"
+  },
+  {
+   "rule": "renamed_by_decision",
+   "seq": null,
+   "note": "Shram Aur Rozgar Vibhag renamed Department of Labour and Employment by a person's decision, not by the gazette (English name from 1_Upload_123, decided by mukundesh, 21 Nov 2026)",
+   "status": "unreviewed"
+  },
+  {
+   "rule": "renamed_by_decision",
+   "seq": null,
+   "note": "Rasayan Vibhag renamed Department of Chemicals by a person's decision, not by the gazette (English name from 1_Upload_123, decided by mukundesh, 21 Nov 2026)",
+   "status": "unreviewed"
   }
  ],
  "changes": [],
  "made_by": {
   "docflow": "0.1.0",
-  "commit": "91ec7ab",
-  "at": "2026-11-16T11:05:53+00:00"
+  "commit": "4113d7f",
+  "at": "2026-11-21T13:36:25+00:00"
  }
 }

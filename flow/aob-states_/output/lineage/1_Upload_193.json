@@ -4,7 +4,7 @@
  "series": 155,
  "date": "1982-09-06",
  "govdoc": "aob-ammend_/output/1_Upload_193.pdf.govdoc.json.zst",
- "govdoc_mtime": 1794826693.5199895,
+ "govdoc_mtime": 1795268105.2612588,
  "edits_file": "aob-ammend_/conf/1_Upload_193.pdf.edits.yml",
  "source": {
   "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_193.pdf",
@@ -137,18 +137,18 @@
    "task": "problems_check",
    "version": "2",
    "tool": "checker",
-   "run": "r81",
-   "at": "2026-11-15T17:03:46.070401+00:00",
-   "stamp": "01ea8cc157c1229e"
+   "run": "r89",
+   "at": "2026-11-21T11:11:29.906699+00:00",
+   "stamp": "8a9d43f360a77bbe"
   },
   {
    "step": "inferred_check",
    "task": "problems_check",
    "version": "2",
    "tool": "checker",
-   "run": "r86",
-   "at": "2026-11-16T10:58:13.383040+00:00",
-   "stamp": "e85d96a97763d36f"
+   "run": "r97",
+   "at": "2026-11-21T13:35:05.119202+00:00",
+   "stamp": "233ddff3e12b5fca"
   }
  ],
  "reviews": [
@@ -221,14 +221,6 @@
    "severity": "error",
    "message": "change 13: no entry 10 under schedule 2 › ministry MINISTRY OF EDUCATION AND CULTURE (SHIKSHA AUR SANSKRITI MANTRA- LAYA) › department A",
    "cause": "entry_not_in_state"
-  },
-  {
-   "series": 155,
-   "seq": 20,
-   "code": "old_path_missing",
-   "severity": "error",
-   "message": "change 20: no department DEPARTMENT OF SPACE under schedule 2",
-   "cause": "unit_not_found"
   },
   {
    "series": 174,
@@ -635,16 +627,12 @@
    "op": "insert",
    "source_ref": "2(2)(j)",
    "path": "schedule 2 › department DEPARTMENT OF SPACE",
-   "status": "not_applied",
-   "problem": "change 20: no department DEPARTMENT OF SPACE under schedule 2",
-   "code": "old_path_missing",
-   "cause": "unit_not_found",
-   "known": "top_level"
+   "status": "applied"
   }
  ],
  "made_by": {
   "docflow": "0.1.0",
-  "commit": "91ec7ab",
-  "at": "2026-11-16T11:05:53+00:00"
+  "commit": "4113d7f",
+  "at": "2026-11-21T13:36:25+00:00"
  }
 }

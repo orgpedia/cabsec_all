@@ -4,7 +4,7 @@
  "series": 7,
  "date": "1962-04-26",
  "govdoc": "aob-ammend_/output/1_Upload_39.pdf.govdoc.json.zst",
- "govdoc_mtime": 1794826688.2148178,
+ "govdoc_mtime": 1795268099.1966577,
  "source": {
   "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_39.pdf",
   "portal": "cabsec_aob",
@@ -101,18 +101,18 @@
    "task": "problems_check",
    "version": "2",
    "tool": "checker",
-   "run": "r70",
-   "at": "2026-11-15T17:03:30.210582+00:00",
-   "stamp": "30c06839ec9e962b"
+   "run": "r78",
+   "at": "2026-11-21T11:11:21.917435+00:00",
+   "stamp": "e76047cc094bfd93"
   },
   {
    "step": "inferred_check",
    "task": "problems_check",
    "version": "2",
    "tool": "checker",
-   "run": "r75",
-   "at": "2026-11-16T10:58:08.193150+00:00",
-   "stamp": "8c4768113257006b"
+   "run": "r86",
+   "at": "2026-11-21T13:34:59.171500+00:00",
+   "stamp": "3520099740ec27bc"
   }
  ],
  "reviews": [],
@@ -165,23 +165,28 @@
    "message": "change 4: its quoted text runs across a page break",
    "target": "r63.rel4",
    "status": "open"
-  }
- ],
- "problems": [
+  },
   {
-   "series": 6,
-   "seq": 3,
-   "code": "old_path_missing",
-   "severity": "error",
-   "message": "change 3: no department Department of International Trade under schedule 2",
-   "cause": "unit_not_found"
+   "code": "aob:states_inferred_number_kept",
+   "severity": "info",
+   "message": "change 3: schedule 2 › ministry MINISTRY OF COMMERCE & INDUSTRY › department Department of International Trade keeps its number A, the heading put for it quoted without one",
+   "target": "r63.rel3",
+   "status": "open"
   }
  ],
- "rules": [],
+ "problems": [],
+ "rules": [
+  {
+   "rule": "number_kept",
+   "seq": 3,
+   "note": "change 3: schedule 2 › ministry MINISTRY OF COMMERCE & INDUSTRY › department Department of International Trade keeps its number A, the heading put for it quoted without one",
+   "status": "accepted"
+  }
+ ],
  "changes": [],
  "made_by": {
   "docflow": "0.1.0",
-  "commit": "91ec7ab",
-  "at": "2026-11-16T11:05:53+00:00"
+  "commit": "4113d7f",
+  "at": "2026-11-21T13:36:25+00:00"
  }
 }

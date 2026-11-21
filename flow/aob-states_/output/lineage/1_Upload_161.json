@@ -4,7 +4,7 @@
  "series": 124,
  "date": "1977-11-26",
  "govdoc": "aob-ammend_/output/1_Upload_161.pdf.govdoc.json.zst",
- "govdoc_mtime": 1794826689.2588422,
+ "govdoc_mtime": 1795268100.3666358,
  "edits_file": "aob-ammend_/conf/1_Upload_161.pdf.edits.yml",
  "source": {
   "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_161.pdf",
@@ -137,32 +137,23 @@
    "task": "problems_check",
    "version": "2",
    "tool": "checker",
-   "run": "r72",
-   "at": "2026-11-15T17:03:32.214266+00:00",
-   "stamp": "f708173cd8159e0c"
+   "run": "r80",
+   "at": "2026-11-21T11:11:22.943368+00:00",
+   "stamp": "cb0f38333c640181"
   },
   {
    "step": "inferred_check",
    "task": "problems_check",
    "version": "2",
    "tool": "checker",
-   "run": "r77",
-   "at": "2026-11-16T10:58:09.236619+00:00",
-   "stamp": "e4ba505c2e9699ee"
+   "run": "r88",
+   "at": "2026-11-21T13:35:00.341870+00:00",
+   "stamp": "b47ad1575677c015"
   }
  ],
  "reviews": [],
  "issues": [],
- "problems": [
-  {
-   "series": 124,
-   "seq": 3,
-   "code": "old_path_missing",
-   "severity": "error",
-   "message": "change 3: no department DEPARTMENT OF SCIENCE AND TECH- NOLOGY under schedule 2 › ministry MINISTRY OF PLANNING",
-   "cause": "unit_not_found"
-  }
- ],
+ "problems": [],
  "rules": [],
  "changes": [
   {
@@ -187,11 +178,7 @@
    "op": "omit",
    "source_ref": "3(a)",
    "path": "schedule 2 › ministry MINISTRY OF PLANNING › department DEPARTMENT OF SCIENCE AND TECH- NOLOGY",
-   "status": "not_applied",
-   "problem": "change 3: no department DEPARTMENT OF SCIENCE AND TECH- NOLOGY under schedule 2 › ministry MINISTRY OF PLANNING",
-   "code": "old_path_missing",
-   "cause": "unit_not_found",
-   "known": "planning"
+   "status": "applied"
   },
   {
    "seq": 4,
@@ -204,7 +191,7 @@
  ],
  "made_by": {
   "docflow": "0.1.0",
-  "commit": "91ec7ab",
-  "at": "2026-11-16T11:05:53+00:00"
+  "commit": "4113d7f",
+  "at": "2026-11-21T13:36:25+00:00"
  }
 }

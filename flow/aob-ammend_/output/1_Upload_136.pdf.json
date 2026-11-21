@@ -6,7 +6,7 @@
     "source_url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_136.pdf",
     "sha256": "6f31ecae73244aef6a19cd33f700af6dc79858c13870233a33c2d00931ea9691",
     "govdoc": "1_Upload_136.pdf.govdoc.json.zst",
-    "revision": 70
+    "revision": 94
   },
   "documents": [
     {
@@ -31,7 +31,7 @@
           "tool": "model_relations",
           "version": "4",
           "model": "gemini-4-argon",
-          "at": "2026-11-15T16:24:28.470445+00:00"
+          "at": "2026-11-21T13:34:58.668236+00:00"
         },
         "ops": [
           {
@@ -39,7 +39,7 @@
             "source_ref": "2",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r63.rel1",
+            "relation": "r91.rel1",
             "position": "after",
             "anchor": {
               "cited": [
@@ -103,7 +103,7 @@
             "source_ref": "3(1)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r63.rel2",
+            "relation": "r91.rel2",
             "target": {
               "cited": [
                 {
@@ -169,7 +169,7 @@
             "source_ref": "3(ii)",
             "op": "omit",
             "akn_type": "repeal",
-            "relation": "r63.rel3",
+            "relation": "r91.rel3",
             "target": [
               {
                 "cited": [
@@ -266,7 +266,7 @@
             "source_ref": "3(iii)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r63.rel4",
+            "relation": "r91.rel4",
             "target": {
               "cited": [
                 {
@@ -332,7 +332,7 @@
             "source_ref": "3(iv)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r63.rel5",
+            "relation": "r91.rel5",
             "target": {
               "cited": [
                 {
@@ -398,7 +398,7 @@
             "source_ref": "3(v)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r63.rel6",
+            "relation": "r91.rel6",
             "target": {
               "cited": [
                 {
@@ -464,7 +464,7 @@
             "source_ref": "3(vi)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r63.rel7",
+            "relation": "r91.rel7",
             "target": {
               "cited": [
                 {
@@ -530,7 +530,7 @@
             "source_ref": "3(vii)",
             "op": "replace",
             "akn_type": "replacement",
-            "relation": "r63.rel8",
+            "relation": "r91.rel8",
             "target": {
               "cited": [
                 {
@@ -596,7 +596,7 @@
             "source_ref": "3(viii)",
             "op": "insert",
             "akn_type": "insertion",
-            "relation": "r63.rel9",
+            "relation": "r91.rel9",
             "position": "after",
             "anchor": {
               "cited": [
@@ -632,9 +632,10 @@
             },
             "content": [
               {
-                "type": "group_heading",
+                "type": "department",
                 "num": "E",
-                "text": "DEPARTMESNT OF AGRICULTURAL RESEARCH AND EDUCA- TION (KRISHI ANUSANDHAN AUR SHIKSHA VIBHAG)"
+                "heading": "DEPARTMENT OF AGRICULTURAL RESEARCH AND EDUCA- TION",
+                "heading_hi": "KRISHI ANUSANDHAN AUR SHIKSHA VIBHAG"
               },
               {
                 "type": "part",

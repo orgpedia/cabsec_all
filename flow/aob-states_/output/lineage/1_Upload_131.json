@@ -4,7 +4,7 @@
  "series": 97,
  "date": "1973-02-07",
  "govdoc": "aob-ammend_/output/1_Upload_131.pdf.govdoc.json.zst",
- "govdoc_mtime": 1794826687.3297625,
+ "govdoc_mtime": 1795268098.0074236,
  "edits_file": "aob-ammend_/conf/1_Upload_131.pdf.edits.yml",
  "source": {
   "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_131.pdf",
@@ -120,18 +120,18 @@
    "task": "problems_check",
    "version": "2",
    "tool": "checker",
-   "run": "r78",
-   "at": "2026-11-15T17:03:26.420951+00:00",
-   "stamp": "700eded2350fbc3d"
+   "run": "r86",
+   "at": "2026-11-21T11:11:19.997562+00:00",
+   "stamp": "aea0921a9671487d"
   },
   {
    "step": "inferred_check",
    "task": "problems_check",
    "version": "2",
    "tool": "checker",
-   "run": "r83",
-   "at": "2026-11-16T10:58:07.294270+00:00",
-   "stamp": "93d832642ff3f4d4"
+   "run": "r94",
+   "at": "2026-11-21T13:34:57.931869+00:00",
+   "stamp": "43db11d1eb877d2d"
   }
  ],
  "reviews": [],
@@ -208,22 +208,6 @@
    "severity": "error",
    "message": "change 19: no entry 98A under schedule 2 › ministry MINISTRY OF HOME AFFAIRS",
    "cause": "entry_not_in_state"
-  },
-  {
-   "series": 97,
-   "seq": 22,
-   "code": "old_path_ambiguous",
-   "severity": "error",
-   "message": "change 22: 2 parts are entry 7 under schedule 2 › ministry MINISTRY OF INDUSTRIAL DEVELOPMENT",
-   "cause": "number_twice"
-  },
-  {
-   "series": 97,
-   "seq": 32,
-   "code": "old_path_missing",
-   "severity": "error",
-   "message": "change 32: no ministry DEPARTMENT OF SCIENCE AND TECHNOLOGY under schedule 2",
-   "cause": "unit_not_found"
   },
   {
    "series": 174,
@@ -438,11 +422,7 @@
    "op": "omit",
    "source_ref": "3(f)(ii)",
    "path": "schedule 2 › ministry MINISTRY OF INDUSTRIAL DEVELOPMENT › entry 7 ; schedule 2 › ministry MINISTRY OF INDUSTRIAL DEVELOPMENT › entry 8 ; schedule 2 › ministry MINISTRY OF INDUSTRIAL DEVELOPMENT › entry 9 ; schedule 2 › ministry MINISTRY OF INDUSTRIAL DEVELOPMENT › entry 11",
-   "status": "not_applied",
-   "problem": "change 22: 2 parts are entry 7 under schedule 2 › ministry MINISTRY OF INDUSTRIAL DEVELOPMENT",
-   "code": "old_path_ambiguous",
-   "cause": "number_twice",
-   "known": "number_twice"
+   "status": "applied"
   },
   {
    "seq": 23,
@@ -506,11 +486,7 @@
    "op": "insert",
    "source_ref": "3(1)",
    "path": "schedule 2 › ministry DEPARTMENT OF SCIENCE AND TECHNOLOGY › entry 20",
-   "status": "not_applied",
-   "problem": "change 32: no ministry DEPARTMENT OF SCIENCE AND TECHNOLOGY under schedule 2",
-   "code": "old_path_missing",
-   "cause": "unit_not_found",
-   "known": "top_level"
+   "status": "applied"
   },
   {
    "seq": 33,
@@ -547,7 +523,7 @@
  ],
  "made_by": {
   "docflow": "0.1.0",
-  "commit": "91ec7ab",
-  "at": "2026-11-16T11:05:53+00:00"
+  "commit": "4113d7f",
+  "at": "2026-11-21T13:36:25+00:00"
  }
 }

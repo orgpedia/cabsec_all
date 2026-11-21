@@ -4,7 +4,7 @@
  "series": 131,
  "date": "1978-12-30",
  "govdoc": "aob-ammend_/output/1_Upload_168.pdf.govdoc.json.zst",
- "govdoc_mtime": 1794826690.9423063,
+ "govdoc_mtime": 1795268102.4455483,
  "source": {
   "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_168.pdf",
   "portal": "cabsec_aob",
@@ -101,18 +101,18 @@
    "task": "problems_check",
    "version": "2",
    "tool": "checker",
-   "run": "r70",
-   "at": "2026-11-15T17:03:38.136930+00:00",
-   "stamp": "f27565b055e25d21"
+   "run": "r78",
+   "at": "2026-11-21T11:11:25.898513+00:00",
+   "stamp": "11bb2fa00145a160"
   },
   {
    "step": "inferred_check",
    "task": "problems_check",
    "version": "2",
    "tool": "checker",
-   "run": "r75",
-   "at": "2026-11-16T10:58:10.928442+00:00",
-   "stamp": "e77255faf43adba3"
+   "run": "r86",
+   "at": "2026-11-21T13:35:02.429282+00:00",
+   "stamp": "20dbf1d1d3f63144"
   }
  ],
  "reviews": [],
@@ -125,16 +125,7 @@
    "status": "open"
   }
  ],
- "problems": [
-  {
-   "series": 131,
-   "seq": 1,
-   "code": "old_path_missing",
-   "severity": "error",
-   "message": "change 1: no department DEPARTMENT OF PERSONNEL AND ADMINISTRATIVE REFORMS under schedule 2 › ministry MINISTRY OF HOME AFFAIRS",
-   "cause": "unit_not_found"
-  }
- ],
+ "problems": [],
  "rules": [],
  "changes": [
   {
@@ -143,16 +134,12 @@
    "op": "insert",
    "source_ref": "2",
    "path": "schedule 2 › ministry MINISTRY OF HOME AFFAIRS › department DEPARTMENT OF PERSONNEL AND ADMINISTRATIVE REFORMS › entry 22",
-   "status": "not_applied",
-   "problem": "change 1: no department DEPARTMENT OF PERSONNEL AND ADMINISTRATIVE REFORMS under schedule 2 › ministry MINISTRY OF HOME AFFAIRS",
-   "code": "old_path_missing",
-   "cause": "unit_not_found",
-   "known": "home_affairs"
+   "status": "applied"
   }
  ],
  "made_by": {
   "docflow": "0.1.0",
-  "commit": "91ec7ab",
-  "at": "2026-11-16T11:05:53+00:00"
+  "commit": "4113d7f",
+  "at": "2026-11-21T13:36:25+00:00"
  }
 }

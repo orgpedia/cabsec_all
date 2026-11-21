@@ -4,7 +4,7 @@
  "series": 170,
  "date": "1985-07-31",
  "govdoc": "aob-ammend_/output/1_Upload_208.pdf.govdoc.json.zst",
- "govdoc_mtime": 1794826687.275643,
+ "govdoc_mtime": 1795268097.9108472,
  "source": {
   "url": "https://cabsec.gov.in/writereaddata/allocationbusinessrule/amendment/english/1_Upload_208.pdf",
   "portal": "cabsec_aob",
@@ -101,18 +101,18 @@
    "task": "problems_check",
    "version": "2",
    "tool": "checker",
-   "run": "r70",
-   "at": "2026-11-15T17:03:26.366789+00:00",
-   "stamp": "62a1d17b04d8a277"
+   "run": "r78",
+   "at": "2026-11-21T11:11:19.935287+00:00",
+   "stamp": "24edd05b53a6b4a6"
   },
   {
    "step": "inferred_check",
    "task": "problems_check",
    "version": "2",
    "tool": "checker",
-   "run": "r75",
-   "at": "2026-11-16T10:58:07.263533+00:00",
-   "stamp": "03fb6901552efbe1"
+   "run": "r86",
+   "at": "2026-11-21T13:34:57.897505+00:00",
+   "stamp": "1d0e9e53d907cf5f"
   }
  ],
  "reviews": [],
@@ -138,16 +138,8 @@
    "seq": 2,
    "code": "old_words_missing",
    "severity": "error",
-   "message": "change 2: the words to substitute are not in schedule 2 › ministry MINISTRY OF COMMUNICATIONS › department A › entry 3",
+   "message": "change 2: the words to substitute are not in schedule 2 › department MINISTRY OF COMMUNICATIONS › department A › entry 3",
    "cause": "words_differ"
-  },
-  {
-   "series": 170,
-   "seq": 4,
-   "code": "old_path_missing",
-   "severity": "error",
-   "message": "change 4: no ministry DEPARTMENT OF SPACE under schedule 2",
-   "cause": "unit_not_found"
   }
  ],
  "rules": [
@@ -176,7 +168,7 @@
    "source_ref": "2(ii)",
    "path": "schedule 2 › ministry MINISTRY OF COMMUNICATIONS › department DEPARTMENT OF POSTS › entry 3",
    "status": "not_applied",
-   "problem": "change 2: the words to substitute are not in schedule 2 › ministry MINISTRY OF COMMUNICATIONS › department A › entry 3",
+   "problem": "change 2: the words to substitute are not in schedule 2 › department MINISTRY OF COMMUNICATIONS › department A › entry 3",
    "code": "old_words_missing",
    "cause": "words_differ",
    "known": "words"
@@ -195,16 +187,12 @@
    "op": "insert",
    "source_ref": "2(iv)",
    "path": "schedule 2 › ministry DEPARTMENT OF SPACE › entry 9",
-   "status": "not_applied",
-   "problem": "change 4: no ministry DEPARTMENT OF SPACE under schedule 2",
-   "code": "old_path_missing",
-   "cause": "unit_not_found",
-   "known": "top_level"
+   "status": "applied"
   }
  ],
  "made_by": {
   "docflow": "0.1.0",
-  "commit": "91ec7ab",
-  "at": "2026-11-16T11:05:53+00:00"
+  "commit": "4113d7f",
+  "at": "2026-11-21T13:36:25+00:00"
  }
 }

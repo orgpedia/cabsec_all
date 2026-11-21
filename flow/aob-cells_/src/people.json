@@ -1,0 +1,27 @@
+{
+  "about": "Who held the three offices shown in the 'In office' strip (ui-requirements.md §8), from January 2004. 'to' is null while in office. 'image' is a path under ui/people/, added by hand from a source we have the right to use; until then the circle shows initials.",
+  "sources": {
+    "pm": "https://www.pmindia.gov.in/en/former-prime-ministers/ (former PMs, with dates); the current PM from india.gov.in Who's Who",
+    "president": "https://www.presidentofindia.gov.in/former-presidents (names only, no dates on the page); the dates are each term's 25 July swearing-in and should be checked",
+    "cabsec": "https://cabsec.gov.in/about/cabinet-secretaries (names and dates)"
+  },
+  "people": [
+    {"office": "president", "name": "A. P. J. Abdul Kalam",   "from": "2002-07-25", "to": "2007-07-25", "image": null, "check": "dates"},
+    {"office": "president", "name": "Pratibha Devisingh Patil", "from": "2007-07-25", "to": "2012-07-25", "image": null, "check": "dates"},
+    {"office": "president", "name": "Pranab Mukherjee",       "from": "2012-07-25", "to": "2017-07-25", "image": null, "check": "dates"},
+    {"office": "president", "name": "Ram Nath Kovind",        "from": "2017-07-25", "to": "2022-07-25", "image": null, "check": "dates"},
+    {"office": "president", "name": "Droupadi Murmu",         "from": "2022-07-25", "to": null,         "image": null},
+
+    {"office": "pm", "name": "Atal Bihari Vajpayee", "from": "1998-03-19", "to": "2004-05-22", "image": null},
+    {"office": "pm", "name": "Manmohan Singh",       "from": "2004-05-22", "to": "2014-05-26", "image": null},
+    {"office": "pm", "name": "Narendra Modi",        "from": "2014-05-26", "to": null,         "image": null},
+
+    {"office": "cabsec", "name": "Kamal Pande",          "from": "2002-11-01", "to": "2004-06-14", "image": null},
+    {"office": "cabsec", "name": "B. K. Chaturvedi",     "from": "2004-06-14", "to": "2007-06-13", "image": null},
+    {"office": "cabsec", "name": "K. M. Chandrasekhar",  "from": "2007-06-14", "to": "2011-06-13", "image": null},
+    {"office": "cabsec", "name": "Ajit Kumar Seth",      "from": "2011-06-14", "to": "2015-06-13", "image": null},
+    {"office": "cabsec", "name": "Pradeep Kumar Sinha",  "from": "2015-06-13", "to": "2019-08-30", "image": null},
+    {"office": "cabsec", "name": "Rajiv Gauba",          "from": "2019-08-30", "to": "2024-08-30", "image": null},
+    {"office": "cabsec", "name": "T. V. Somanathan",     "from": "2024-08-30", "to": null,         "image": null}
+  ]
+}

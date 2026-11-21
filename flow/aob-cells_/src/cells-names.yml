@@ -1,5 +1,195 @@
-# Kept by a person, read on every run.
-# units: how a unit is shown, by its id: {name: …, short: …, hindi: …}
-# events: a call on an event, by "<series>:<kind>:<first from or to id>": keep | drop | <another kind>
+# Kept by a person, read on every run (requirements R18, ui-requirements U19, U22, U29). Units are named by their
+# name as the data prints it, so this file serves both cells.yml (from 1961) and cells-2004.yml.
+# DRAFT 0.1 for Mukund's review, November 21, 2026.
+
+# sectors: each unit's colour. A unit not listed takes its first parent's sector; one with neither is listed in the
+# review (no_sector). The colours are in ui-requirements U19.
+sectors:
+  econ:     # Economy & industry
+    - Ministry of Finance
+    - Ministry of Commerce and Industry
+    - Ministry of Company Affairs
+    - Ministry of Corporate Affairs
+    - Ministry of Disinvestment
+    - Ministry of Statistics and Programme Implementation
+    - Ministry of Heavy Industries and Public Enterprises
+    - Ministry of Heavy Industries
+    - Ministry of Textiles
+    - Ministry of Chemicals and Fertilizers
+    - Ministry of Steel
+    - Ministry of Food Processing Industries
+    - Ministry of Agro and Rural Industries
+    - Ministry of Small Scale Industries
+    - Ministry of Micro, Small and Medium Enterprises
+    - Ministry of Consumer Affairs, Food and Public Distribution
+  infra:    # Infrastructure & energy
+    - Ministry of Coal
+    - Ministry of Mines
+    - Ministry of Coal and Mines
+    - Ministry of Power
+    - Ministry of Petroleum and Natural Gas
+    - Ministry of Non-Conventional Energy Sources
+    - Ministry of New and Renewable Energy
+    - Ministry of Railways
+    - Ministry of Civil Aviation
+    - Ministry of Shipping
+    - Ministry of Road Transport and Highways
+    - Ministry of Shipping, Road Transport and Highways
+    - Ministry of Ports, Shipping and Waterways
+    - Ministry of Communications and Information Technology
+    - Ministry of Communications
+    - Ministry of Electronics and Information Technology
+    - Ministry of Urban Development and Poverty Alleviation
+    - Ministry of Urban Development
+    - Ministry of Housing and Urban Affairs
+    - Ministry of Urban Employment and Poverty Alleviation
+    - Ministry of Housing and Urban Poverty Alleviation
+  land:     # Land, water & rural
+    - Ministry of Agriculture
+    - Ministry of Agriculture and Farmers Welfare
+    - Ministry of Fisheries, Animal Husbandry and Dairying
+    - Ministry of Cooperation
+    - Ministry of Rural Development
+    - Ministry of Panchayati Raj
+    - Ministry of Drinking Water and Sanitation
+    - Ministry of Water Resources
+    - Ministry of Water Resources, River Development and Ganga Rejuvenation
+    - Ministry of Jal Shakti
+    - Ministry of Environment and Forests
+    - Ministry of Environment, Forest and Climate Change
+    - Department of Development of North Eastern Region
+    - Ministry of Development of North Eastern Region
+  social:   # Social & culture
+    - Ministry of Health and Family Welfare
+    - Ministry of Ayurveda, Yoga and Naturopathy, Unani, Siddha and Homoeopathy (AYUSH)
+    - Ministry of Ayush
+    - Ministry of Human Resource Development
+    - Ministry of Education
+    - Ministry of Women and Child Development
+    - Ministry of Social Justice and Empowerment
+    - Ministry of Minority Affairs
+    - Ministry of Tribal Affairs
+    - Ministry of Labour
+    - Ministry of Labour and Employment
+    - Ministry of Youth Affairs and Sports
+    - Ministry of Skill Development, Entrepreneurship, Youth Affairs and Sports
+    - Ministry of Skill Development and Entrepreneurship
+    - Ministry of Information and Broadcasting
+    - Ministry of Tourism and Culture
+    - Ministry of Culture
+    - Ministry of Tourism
+  secur:    # Security & external
+    - Ministry of Home Affairs
+    - Ministry of Defence
+    - Ministry of External Affairs
+    - Ministry of Non Resident Indian Affairs
+    - Ministry of Overseas Indian Affairs
+    - National Security Council Secretariat
+  sci:      # Science
+    - Ministry of Science and Technology
+    - Department of Atomic Energy
+    - Department of Space
+    - Department of Ocean Development
+    - Ministry of Ocean Development
+    - Ministry of Earth Sciences
+  gov:      # Centre of government
+    - Prime Minister's Office
+    - Cabinet Secretariat
+    - President's Secretariat
+    - Planning Commission
+    - NITI Aayog (National Institution for Transforming India)
+    - Ministry of Planning
+    - Ministry of Personnel, Public Grievances and Pensions
+    - Ministry of Parliamentary Affairs
+    - Ministry of Law and Justice
+
+# short: a label for a long name. A name not listed is shown without "Ministry of" / "Department of".
+short:
+  Ministry of Ayurveda, Yoga and Naturopathy, Unani, Siddha and Homoeopathy (AYUSH): AYUSH
+  Ministry of Ayush: Ayush
+  NITI Aayog (National Institution for Transforming India): NITI Aayog
+  Ministry of Personnel, Public Grievances and Pensions: Personnel
+  Ministry of Consumer Affairs, Food and Public Distribution: Consumer Affairs & Food
+  Ministry of Statistics and Programme Implementation: Statistics
+  Ministry of Skill Development, Entrepreneurship, Youth Affairs and Sports: Skills, Youth & Sports
+  Ministry of Skill Development and Entrepreneurship: Skill Development
+  Ministry of Water Resources, River Development and Ganga Rejuvenation: Water Resources & Ganga
+  Ministry of Environment, Forest and Climate Change: Environment & Climate
+  Ministry of Communications and Information Technology: Communications & IT
+  Ministry of Electronics and Information Technology: Electronics & IT
+  Ministry of Micro, Small and Medium Enterprises: MSME
+  Ministry of Fisheries, Animal Husbandry and Dairying: Fisheries & Dairying
+  Ministry of Heavy Industries and Public Enterprises: Heavy Industries & PSEs
+  Ministry of Shipping, Road Transport and Highways: Shipping & Roads
+  Ministry of Ports, Shipping and Waterways: Ports & Shipping
+  Ministry of Road Transport and Highways: Road Transport
+  Ministry of Urban Development and Poverty Alleviation: Urban Development
+  Ministry of Urban Employment and Poverty Alleviation: Urban Poverty
+  Ministry of Housing and Urban Poverty Alleviation: Housing & Urban Poverty
+  Ministry of Non-Conventional Energy Sources: Non-Conventional Energy
+  Ministry of Non Resident Indian Affairs: NRI Affairs
+  Department of Development of North Eastern Region: North East
+  Ministry of Development of North Eastern Region: North East
+  Ministry of Agriculture and Farmers Welfare: Agriculture
+  Ministry of Petroleum and Natural Gas: Petroleum
+  Ministry of Social Justice and Empowerment: Social Justice
+  Ministry of Women and Child Development: Women & Child
+  Ministry of Food Processing Industries: Food Processing
+  Ministry of Information and Broadcasting: Information & Broadcasting
+  National Security Council Secretariat: NSC Secretariat
+
+# events: a call on an event, by its key ("<series> <kind> <short name>", as in cells-2004.json's events[].key):
+#   keep | drop | <another kind>, or {salient: true, caption: "…"} for the Story and the video (ui-requirements U10).
+# 16 salient events, 2004–2021. Captions are short, plain and factual; each shows on screen for about 4 seconds.
+events:
+  "272 merged Coal and Mines":
+    salient: true
+    caption: "Coal and Mines merge into one ministry."
+  "273 absorbed Disinvestment":
+    salient: true
+    caption: "The Ministry of Disinvestment is folded into Finance."
+  "277 split Coal and Mines":
+    salient: true
+    caption: "Eleven months later, Coal and Mines part again."
+  "283 spun_off Women & Child":
+    salient: true
+    caption: "Women and Child Development becomes a ministry of its own, out of HRD."
+  "283 spun_off Minority Affairs":
+    salient: true
+    caption: "Minority Affairs is carved out of Social Justice."
+  "310 split Skills, Youth & Sports":
+    salient: true
+    caption: "Skills and Sports, joined in July, divide in December."
+  "310 spun_off AYUSH":
+    salient: true
+    caption: "AYUSH buds off Health and Family Welfare."
+  "312 ended Planning Commission":
+    salient: true
+    caption: "The Planning Commission is abolished…"
+  "312 born NITI Aayog":
+    salient: true
+    caption: "…and NITI Aayog is created in its place."
+  "321 absorbed Overseas Indian Affairs":
+    salient: true
+    caption: "Overseas Indian Affairs folds into External Affairs."
+  "327 split Communications & IT":
+    salient: true
+    caption: "Communications and IT divide: Electronics & IT becomes a ministry."
+  "350 absorbed Drinking Water and Sanitation":
+    salient: true
+    caption: "Drinking Water and Sanitation folds into Water Resources…"
+  "350 renamed Water Resources & Ganga":
+    salient: true
+    caption: "…which is renamed the Ministry of Jal Shakti."
+  "350 spun_off Fisheries & Dairying":
+    salient: true
+    caption: "Fisheries, Animal Husbandry and Dairying leaves Agriculture."
+  "356 renamed Human Resource Development":
+    salient: true
+    caption: "Human Resource Development is renamed Education."
+  "362 spun_off Cooperation":
+    salient: true
+    caption: "A new Ministry of Cooperation is carved out of Agriculture."
+
+# units: how a unit is shown, by its id, overriding the above: {name: …, short: …, hindi: …}
 units: {}
-events: {}

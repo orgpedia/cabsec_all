@@ -31,11 +31,16 @@ def base(path: Path) -> dict[str, Any]:
   return json.loads(path.read_text(encoding="utf-8"))["documents"][0]["tree"]
 
 
-def frames(states: Path, base_path: Path, base_date: str) -> Iterator[dict[str, Any]]:
-  """Frame 0, the 1961 Rules, then one frame per amendment in series order: {series, date, file, docs, tree}."""
+def frames(states: Path, base_path: Path, base_date: str, start: int = 0) -> Iterator[dict[str, Any]]:
+  """Frame 0, the 1961 Rules, then one frame per amendment in series order: {series, date, file, docs, tree}. With
+  `start`, the frames begin at the Rules after that amendment (2004: series 271)."""
   links = chain(states)
-  yield {"series": 0, "date": base_date, "file": base_path.name.replace(".json", ""), "docs": [], "tree": base(base_path)}
+  if start <= 0:
+    yield {"series": 0, "date": base_date, "file": base_path.name.replace(".json", ""), "docs": [],
+           "tree": base(base_path)}
   for p in sorted((states / "states").glob("*.json"), key=lambda p: int(p.stem)):
+    if int(p.stem) < start:
+      continue
     s = json.loads(p.read_text(encoding="utf-8"))
     c = links.get(s["series"], {})
     yield {"series": s["series"], "date": s.get("date") or c.get("date"), "file": c.get("file") or s.get("amendment"),

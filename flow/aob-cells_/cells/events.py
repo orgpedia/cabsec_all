@@ -107,7 +107,14 @@ def step(a: list[dict[str, Any]], a_ids: list[str], b: list[dict[str, Any]], f: 
     if i in kept or ("a", i) in busy:
       continue
     d = big_out(i)
-    if len(d) >= 2:
+    if len(d) >= 2 and d[0] not in src and ("b", d[0]) not in busy and all(j in src for j in d[1:]):
+      # one new unit takes the most and the rest go to units that stay: the same unit under another name, and
+      # subjects moved out of it (2021: "Heavy Industries and Public Enterprises" → "Heavy Industries", the
+      # Department of Public Enterprises → Finance) — not a split
+      src[d[0]] = i
+      b_ids[d[0]] = a_ids[i]
+      kept.add(i)
+    elif len(d) >= 2:
       add("split", [i], d, [out_of[i][j] for j in d])
     elif len(d) == 1 and d[0] in src:
       add("absorbed", [i], d, [out_of[i][d[0]]], was=a[src[d[0]]]["size"])
@@ -150,25 +157,29 @@ def renamed(old: str, new: str) -> bool:
   return a != b and SequenceMatcher(None, a, b).ratio() < 0.9
 
 
+def _n(n: int) -> str:
+  return f"{n} subject" if n == 1 else f"{n} subjects"
+
+
 def caption(e: dict[str, Any], a: list[dict[str, Any]], b: list[dict[str, Any]]) -> str:
   fa = [a[i]["name"] for i in e["from"]]
   tb = [b[j]["name"] for j in e["to"]]
   k = e["kind"]
   if k == "born":
-    return f"{tb[0]} is created ({b[e['to'][0]]['size']} subjects)"
+    return f"{tb[0]} is created ({_n(b[e['to'][0]]['size'])})"
   if k == "ended":
     return f"{fa[0]} is abolished"
   if k == "split":
     parts = " and ".join(f"{n} ({m})" for n, m in zip(tb, e["moved"]))
     return f"{fa[0]} splits into {parts}"
   if k == "spun_off":
-    return f"{tb[0]} is separated from {fa[0]} ({e['moved'][0]} subjects)"
+    return f"{tb[0]} is separated from {fa[0]} ({_n(e['moved'][0])})"
   if k == "merged":
     return f"{' and '.join(fa)} merge into {tb[0]}"
   if k == "absorbed":
     return f"{fa[0]} joins {tb[0]} ({e['was']} → {b[e['to'][0]]['size']})"
   if k == "moved":
-    return f"{e['moved'][0]} subjects move from {fa[0]} to {tb[0]}"
+    return f"{_n(e['moved'][0])} move{'s' if e['moved'][0] == 1 else ''} from {fa[0]} to {tb[0]}"
   if k == "renamed":
     return f"{fa[0]} is renamed {tb[0]}"
   if k == "grew":

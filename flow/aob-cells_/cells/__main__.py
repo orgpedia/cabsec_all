@@ -17,9 +17,10 @@ def main(path: str) -> None:
   cells, review = build(cfg, root)
   out = (root / cfg.get("out", "../output")).resolve()
   out.mkdir(parents=True, exist_ok=True)
-  (out / "cells.json").write_text(json.dumps(cells, ensure_ascii=False, indent=1), encoding="utf-8")
-  (out / "cells-review.json").write_text(json.dumps(review, ensure_ascii=False, indent=1), encoding="utf-8")
-  (out / "cells-review.html").write_text(review_page(cells, review), encoding="utf-8")
+  stem = cfg.get("stem", "cells")  # cells.json, or cells-2004.json for the frames from 2004
+  (out / f"{stem}.json").write_text(json.dumps(cells, ensure_ascii=False, indent=1), encoding="utf-8")
+  (out / f"{stem}-review.json").write_text(json.dumps(review, ensure_ascii=False, indent=1), encoding="utf-8")
+  (out / f"{stem}-review.html").write_text(review_page(cells, review), encoding="utf-8")
   kinds: dict[str, int] = {}
   for e in cells["events"]:
     kinds[e["kind"]] = kinds.get(e["kind"], 0) + 1

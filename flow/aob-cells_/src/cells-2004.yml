@@ -1,0 +1,15 @@
+# The units as cells from the 2004 re-issue (series 271) on: the same build as cells.yml, its first frame the Rules
+# after series 271. The chart and the video are built against this while the earlier years' data is fixed; moving
+# `start` back to 0 (cells.yml) gives the whole run in the same format. Paths relative to this file.
+states: ../../aob-states_/output
+base: ../../aob-rules_/output/1_Upload_1144.pdf.json   # the Rules of 1961 (not read when start > 0)
+base_date: "1961-01-14"
+names: cells-names.yml
+out: ../output
+stem: cells-2004
+start: 271
+least: 3
+share: 0.2
+reissues: [174, 271]
+schedule1_reissues: [30, 46, 58, 73, 88, 89, 135, 217]
+restarts: [301]

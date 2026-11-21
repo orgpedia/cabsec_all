@@ -1,6 +1,6 @@
 # Requirements: the AoB units as cells
 
-**Version:** 0.1 · **Date:** November 20, 2026 · **Status:** requirements only. This document is kept apart from `aob.md`, and it does not describe the code.
+**Version:** 0.2 · **Date:** November 20, 2026 · **Status:** requirements only. This document is kept apart from `aob.md`, and it does not describe the code.
 
 ---
 
@@ -105,8 +105,14 @@ Two things about the data matter here:
 
 - **R1. A unit** is a top-level item of the First Schedule: a ministry, or a department, secretariat or office in no ministry. A department inside a ministry is part of its ministry's cell, not a cell of its own.
 - **R2. A unit's size** is the number of its numbered subjects in the Second Schedule, under its heading and through its departments, group headings and parts. Omitted entries are not counted.
+- **R2a. A unit with no numbered subjects** stays a unit, with size 0. The gazette prints some this way: the Ministry of Planning's Second Schedule entry is one paragraph, on answering to Parliament for NITI Aayog's subjects. How a size-0 unit is drawn is for the chart.
 - **R3. A frame** is the Rules after one amendment, dated by the notification's date. Frame 0 is the 1961 Rules (14 January 1961). There are 387 frames.
 - **R4.** A Second Schedule unit is named from the First Schedule item with the same heading. The First Schedule's spelling is used, and its Hindi name.
+- **R4a. Pairing past OCR.** The Second Schedule's headings are read from scans and carry errors the First Schedule's do not ("MINISTRY OF CIVIL AVAIATION", "MINISTRY OF CHEMICAL AND FERTI LIZERS"); some are cut short ("MINISTRY OF CORPORATE" for the Ministry of Corporate Affairs), run on into the next words ("Ministry of Railways (Rail Mantralaya), Kailway Board (Rail Board)"), or printed in their Hindi name alone ("Vigyan Aur Irodyagiki Vibhag"). So a unit is paired with its First Schedule item:
+  1. first by the same heading, for every unit, so that a near heading cannot take an item another unit carries exactly;
+  2. then, among the rest, closest first, by the likeness of the letters, by one heading being the start of the other, by the Hindi name, or by most of the words in common.
+
+  A pair is taken at a closeness of 0.85 or more. A First Schedule item left unpaired is listed for review (R17).
 - **R5.** At the seven epochs, the sizes must equal the evolution page's counts.
 
 ## 4. The events
@@ -118,7 +124,7 @@ Two things about the data matter here:
 |---|---|---|
 | **born** | A new unit, with less than a good share from any unit before it | a cell appears |
 | **ended** | A unit with no successor | the cell pops |
-| **split** | A unit ends, and its subjects go to two or more units, a good share to each. Also: a unit renamed while a new unit takes the rest of its name ("Steel, Mines and Fuel" into "Steel & Heavy Industries" and "Mines & Fuel") | the cell divides |
+| **split** | A unit ends, and its subjects go to two or more units, a good share to each. Also: a unit renamed while a new unit takes the rest of its name ("Steel, Mines and Fuel" into "Steel & Heavy Industries" and "Mines & Fuel"). Not a split: when one *new* unit takes the most and the rest go to units that *stay*, that is the same unit **renamed**, with the rest **moved** (2021: "Heavy Industries and Public Enterprises" becomes "Heavy Industries", and the Department of Public Enterprises moves to Finance) | the cell divides |
 | **spun off** | A unit stays, and a new unit gets a good share of its subjects | a smaller cell buds off |
 | **merged** | Two or more units end in one new unit | the cells fuse |
 | **absorbed** | A unit ends, and most of its subjects go to one unit that stays | the small cell is swallowed |
@@ -131,6 +137,8 @@ Two things about the data matter here:
 - **R10. Only touched units.** An event counts only at a unit whose heading or subjects the amendment's own changes reach. A difference elsewhere is a reading or matching fault, and goes to review.
 - **R11. Re-issues and restarts.** Frames at the re-issues, the First Schedule substitutions and the restart after series 301 are marked, because many units change at once there.
 - **R12. Captions.** Every event has a one-line caption naming its units and counts, for example "Ministry of Rehabilitation joins Works, Housing & Supply (25 → 45)".
+
+- **R12a. A first frame from 2004.** The build can start at any amendment (`start`). From the 2004 re-issue (series 271) on, every First Schedule item has its Second Schedule unit, and each step follows at least 98% of subjects, except at the restart (series 301). The chart and the video are first built against these frames (`cells-2004.json`, 116 frames) while the earlier years' data is fixed; the whole run is the same format with `start: 0`. The first frame is marked `start`, and its units are shown as `born` there.
 
 ## 5. Units through time
 
@@ -174,7 +182,8 @@ Only these files, read from the states' output, and the 1961 Rules from the chec
 }
 ```
 
-- `frames[].flags` marks `reissue`, `schedule1_reissue` and `restart` frames.
+- `frames[].flags` marks `reissue`, `schedule1_reissue`, `restart` and `start` frames (the first frame of a run).
+- `source.start` is the first amendment of the run: 0 for the whole run, 271 for `cells-2004.json`.
 - Every frame lists every unit present in it.
 
 ### 6.3 Review and corrections
@@ -209,7 +218,7 @@ Only these files, read from the states' output, and the 1961 Rules from the chec
 - **The step-through chart:** layout, colours, how cells move, labels, the slider, and how events are animated.
 - **The video:** length, pace, size for LinkedIn, captions and narration.
 
-Both are to be specified with Mukund before any work starts.
+Both are specified in `ui-requirements.md`, agreed with Mukund on November 21, 2026.
 
 ## 10. Open questions
 

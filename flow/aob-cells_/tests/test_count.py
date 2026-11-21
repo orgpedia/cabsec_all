@@ -36,3 +36,21 @@ def test_names_and_hindi():
       {"type": "ministry", "heading": "Omitted.", "children": []}]}]}
   us = count.units(tree)["units"]
   assert [(u["name"], u["hindi"], u["size"]) for u in us] == [("Ministry of Coal", "Koyala Mantralaya", 1)]
+
+
+def test_pairs_past_ocr_and_cut_headings():
+  tree = {"children": [
+    {"type": "schedule", "num": "1", "children": [
+      {"type": "ministry", "num": "1", "heading": "Ministry of Civil Aviation", "heading_hi": "Nagar Vimanan Mantralaya"},
+      {"type": "ministry", "num": "2", "heading": "Ministry of Corporate Affairs"},
+      {"type": "ministry", "num": "3", "heading": "Ministry of Coal"},
+      {"type": "ministry", "num": "4", "heading": "Ministry of Coal and Mines"}]},
+    {"type": "schedule", "num": "2", "children": [
+      {"type": "ministry", "heading": "MINISTRY OF CIVIL AVAIATION", "children": [{"type": "entry", "num": "1", "text": "Air."}]},
+      {"type": "ministry", "heading": "MINISTRY OF CORPORATE", "children": [{"type": "entry", "num": "1", "text": "Cos."}]},
+      {"type": "ministry", "heading": "MINISTRY OF COAL AND MINES", "children": [{"type": "entry", "num": "1", "text": "Ore."}]},
+      {"type": "ministry", "heading": "MINISTRY OF COAL", "children": [{"type": "entry", "num": "1", "text": "Coal."}]}]}]}
+  got = count.units(tree)
+  assert [u["name"] for u in got["units"]] == ["Ministry of Civil Aviation", "Ministry of Corporate Affairs",
+                                               "Ministry of Coal and Mines", "Ministry of Coal"]
+  assert got["first_only"] == []

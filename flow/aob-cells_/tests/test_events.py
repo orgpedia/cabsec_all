@@ -69,3 +69,12 @@ def test_touched_by_path_and_number():
   ch = [{"before": [{"path": "schedule 1 › ministry 14"}], "after": []},
         {"before": [{"path": "schedule 2"}], "after": [{"path": "schedule 2 › ministry MINISTRY OF LAW. › department B"}]}]
   assert ev.touched(ch, firsts) == {hkey("Ministry of Steel, Mines and Fuel"), hkey("MINISTRY OF LAW")}
+
+
+def test_renamed_and_moved_is_not_a_split():
+  # a unit renamed while a part of its work goes to a unit that stays (2021, Heavy Industries and Public Enterprises)
+  a_ids, b_ids, got = run([U("Ministry of Heavy Industries and Public Enterprises", S), U("Ministry of Finance", T)],
+                          [U("Ministry of Heavy Industries", S[:6]), U("Ministry of Finance", T + S[6:])])
+  assert not any(k == "split" for k, _, _ in got)
+  assert ("renamed", (0,), (0,)) in got and ("moved", (0,), (1,)) in got
+  assert b_ids == a_ids

@@ -1,4 +1,4 @@
-# The amendments to the Allocation of Business Rules (orgpedia/doc: specs/aob.md §A5): input/*.pdf ->
+# The amendments to the Allocation of Business Rules (doc/aob.md §A5): input/*.pdf ->
 # output/<name>.govdoc.json.zst, one document per notification, its ops as legal: relations. docflow keeps its
 # working store in .storage/ (GovDoc files by id, the call cache, state); output/ links each file there by name.
 # The ops come from Gemini on Vertex AI: set GOOGLE_CLOUD_PROJECT and log in with

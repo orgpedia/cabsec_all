@@ -1,5 +1,5 @@
 # The consolidated versions of the Government of India (Allocation of Business) Rules, 1961, from 2016 on
-# (orgpedia/doc: specs/aob.md §A5): the checkpoints. Paths are relative to this file: the PDFs are ../input/,
+# (doc/aob.md §A5): the checkpoints. Paths are relative to this file: the PDFs are ../input/,
 # links into the collection's input/documents/aob-rules/pdfs/. Settings are collection-wide.
 data: {profiles: aob-rules-1}
 
@@ -51,7 +51,7 @@ flow:
     task: rules_export
     config: {dir: ../output, doc_types: [aob_rules]}
 
-  # The Rules' states' problems in parts no amendment touched (../aob-states_/output/problems.json, specs/aob.md
+  # The Rules' states' problems in parts no amendment touched (../aob-states_/output/problems.json, doc/aob.md
   # §A6), as aob: issues on the version's words: a misreading, or the compilers' own correction, dismissed with
   # a note in the studio.
   - name: states_check

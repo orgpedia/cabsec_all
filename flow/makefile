@@ -1,4 +1,4 @@
-# The AoB flows together (orgpedia/doc: specs/aob.md §A5-A6). After a correction in a studio, `make refresh` here
+# The AoB flows together (doc/aob.md §A5-A6). After a correction in a studio, `make refresh` here
 # brings it in and builds everything that follows from it, in order:
 #   1. the versions and the amendments (aob-rules_, aob-ammend_): each file's edits, and the steps they change
 #   2. the Rules' states (aob-states_): the changes applied, the problems found

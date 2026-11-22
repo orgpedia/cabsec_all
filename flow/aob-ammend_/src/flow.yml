@@ -1,4 +1,4 @@
-# The amendments to the Government of India (Allocation of Business) Rules, 1961 (orgpedia/doc: specs/aob.md §A5,
+# The amendments to the Government of India (Allocation of Business) Rules, 1961 (doc/aob.md §A5,
 # and AoB Amendment Extraction – Requirements, "the ops spec"). Paths are relative to this file: the PDFs are
 # ../input/, links into the collection's input/documents/aob-ammend/pdfs/. Settings are collection-wide; mistakes
 # are found by checkers and fixed in the reviewer (edits in ../conf/), never by per-document settings.
@@ -111,7 +111,7 @@ flow:
     task: amendment_export
     config: {dir: ../output, doc_types: [aob_amendment]}
 
-  # The Rules' states' problems (../aob-states_/output/problems.json, specs/aob.md §A6) as aob: issues on the
+  # The Rules' states' problems (../aob-states_/output/problems.json, doc/aob.md §A6) as aob: issues on the
   # changes they belong to: a person fixes the change in the studio, or dismisses the issue with a note, and the
   # states are built again. A problem in a part no change touched goes to the consolidated version instead.
   - name: states_check

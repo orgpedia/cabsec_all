@@ -1,4 +1,4 @@
-# The consolidated versions of the Allocation of Business Rules (orgpedia/doc: specs/aob.md §A5), the checkpoints:
+# The consolidated versions of the Allocation of Business Rules (doc/aob.md §A5), the checkpoints:
 # input/*.pdf -> output/<name>.govdoc.json.zst, and output/<name>.json, the version read into its tree of parts and
 # its footnotes. docflow keeps its working store in .storage/; output/ links each file there by name.
 # Messages go to logs/info*.log, run logs to logs/run-*.jsonl.

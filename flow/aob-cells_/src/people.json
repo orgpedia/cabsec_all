@@ -1,27 +1,515 @@
 {
-  "about": "Who held the three offices shown in the 'In office' strip (ui-requirements.md §8), from January 2004. 'to' is null while in office. 'image' is a path under ui/people/, added by hand from a source we have the right to use; until then the circle shows initials.",
-  "sources": {
-    "pm": "https://www.pmindia.gov.in/en/former-prime-ministers/ (former PMs, with dates); the current PM from india.gov.in Who's Who",
-    "president": "https://www.presidentofindia.gov.in/former-presidents (names only, no dates on the page); the dates are each term's 25 July swearing-in and should be checked",
-    "cabsec": "https://cabsec.gov.in/about/cabinet-secretaries (names and dates)"
+ "about": "Who held the three offices shown in the 'In office' strip (ui-requirements.md §8). 'to' is null while in office. 'image' is the photo's path under ui/ (people/<office>/<file>.jpg), added by hand from a source we have the right to use; null shows the person's initials. 'crop' (optional) frames a photo that is not a head-and-shoulders portrait: the centre (x, y, as fractions of the width and height) and the side of the square (size, as a fraction of the shorter side).",
+ "sources": {
+  "pm": "https://www.pmindia.gov.in/en/former-prime-ministers/ (former PMs, with dates); the current PM from india.gov.in Who's Who",
+  "president": "https://www.presidentofindia.gov.in/former-presidents (names only, no dates on the page); the dates are each term's swearing-in and end, and the acting Presidents in the gaps, and should be checked ('check': 'dates')",
+  "cabsec": "https://cabsec.gov.in/about/cabinet-secretaries (names and dates)"
+ },
+ "people": [
+  {
+   "office": "president",
+   "name": "Rajendra Prasad",
+   "from": "1950-01-26",
+   "to": "1962-05-13",
+   "image": "people/president/rajendra_prasad.jpg",
+   "check": "dates"
   },
-  "people": [
-    {"office": "president", "name": "A. P. J. Abdul Kalam",   "from": "2002-07-25", "to": "2007-07-25", "image": null, "check": "dates"},
-    {"office": "president", "name": "Pratibha Devisingh Patil", "from": "2007-07-25", "to": "2012-07-25", "image": null, "check": "dates"},
-    {"office": "president", "name": "Pranab Mukherjee",       "from": "2012-07-25", "to": "2017-07-25", "image": null, "check": "dates"},
-    {"office": "president", "name": "Ram Nath Kovind",        "from": "2017-07-25", "to": "2022-07-25", "image": null, "check": "dates"},
-    {"office": "president", "name": "Droupadi Murmu",         "from": "2022-07-25", "to": null,         "image": null},
-
-    {"office": "pm", "name": "Atal Bihari Vajpayee", "from": "1998-03-19", "to": "2004-05-22", "image": null},
-    {"office": "pm", "name": "Manmohan Singh",       "from": "2004-05-22", "to": "2014-05-26", "image": null},
-    {"office": "pm", "name": "Narendra Modi",        "from": "2014-05-26", "to": null,         "image": null},
-
-    {"office": "cabsec", "name": "Kamal Pande",          "from": "2002-11-01", "to": "2004-06-14", "image": null},
-    {"office": "cabsec", "name": "B. K. Chaturvedi",     "from": "2004-06-14", "to": "2007-06-13", "image": null},
-    {"office": "cabsec", "name": "K. M. Chandrasekhar",  "from": "2007-06-14", "to": "2011-06-13", "image": null},
-    {"office": "cabsec", "name": "Ajit Kumar Seth",      "from": "2011-06-14", "to": "2015-06-13", "image": null},
-    {"office": "cabsec", "name": "Pradeep Kumar Sinha",  "from": "2015-06-13", "to": "2019-08-30", "image": null},
-    {"office": "cabsec", "name": "Rajiv Gauba",          "from": "2019-08-30", "to": "2024-08-30", "image": null},
-    {"office": "cabsec", "name": "T. V. Somanathan",     "from": "2024-08-30", "to": null,         "image": null}
-  ]
+  {
+   "office": "president",
+   "name": "Sarvepalli Radhakrishnan",
+   "from": "1962-05-13",
+   "to": "1967-05-13",
+   "image": "people/president/sarvapalli_radhakrishnan.jpg",
+   "check": "dates"
+  },
+  {
+   "office": "president",
+   "name": "Zakir Husain",
+   "from": "1967-05-13",
+   "to": "1969-05-03",
+   "image": "people/president/zakir_hussain.jpg",
+   "check": "dates"
+  },
+  {
+   "office": "president",
+   "name": "V. V. Giri (acting)",
+   "from": "1969-05-03",
+   "to": "1969-07-20",
+   "image": "people/president/varagiri_venkata_giri.jpg",
+   "check": "dates"
+  },
+  {
+   "office": "president",
+   "name": "M. Hidayatullah (acting)",
+   "from": "1969-07-20",
+   "to": "1969-08-24",
+   "image": "people/president/Mohammad_Hidayatullah.jpg",
+   "check": "dates"
+  },
+  {
+   "office": "president",
+   "name": "V. V. Giri",
+   "from": "1969-08-24",
+   "to": "1974-08-24",
+   "image": "people/president/varagiri_venkata_giri.jpg",
+   "check": "dates"
+  },
+  {
+   "office": "president",
+   "name": "Fakhruddin Ali Ahmed",
+   "from": "1974-08-24",
+   "to": "1977-02-11",
+   "image": "people/president/fakhruddin_ali_ahmed.jpg",
+   "check": "dates"
+  },
+  {
+   "office": "president",
+   "name": "B. D. Jatti (acting)",
+   "from": "1977-02-11",
+   "to": "1977-07-25",
+   "image": "people/president/bd_jatti.jpg",
+   "check": "dates"
+  },
+  {
+   "office": "president",
+   "name": "Neelam Sanjiva Reddy",
+   "from": "1977-07-25",
+   "to": "1982-07-25",
+   "image": "people/president/neelam_sanjiva_reddy.jpg",
+   "check": "dates"
+  },
+  {
+   "office": "president",
+   "name": "Giani Zail Singh",
+   "from": "1982-07-25",
+   "to": "1987-07-25",
+   "image": "people/president/giani_zail_singh.jpg",
+   "check": "dates"
+  },
+  {
+   "office": "president",
+   "name": "R. Venkataraman",
+   "from": "1987-07-25",
+   "to": "1992-07-25",
+   "image": "people/president/r_venkataraman.jpg",
+   "check": "dates"
+  },
+  {
+   "office": "president",
+   "name": "Shanker Dayal Sharma",
+   "from": "1992-07-25",
+   "to": "1997-07-25",
+   "image": "people/president/shanker_dayal_sharma.jpg",
+   "check": "dates"
+  },
+  {
+   "office": "president",
+   "name": "K. R. Narayanan",
+   "from": "1997-07-25",
+   "to": "2002-07-25",
+   "image": "people/president/kr_narayanan.jpg",
+   "check": "dates"
+  },
+  {
+   "office": "president",
+   "name": "A. P. J. Abdul Kalam",
+   "from": "2002-07-25",
+   "to": "2007-07-25",
+   "image": "people/president/apj_abdul_kalam.jpg",
+   "check": "dates"
+  },
+  {
+   "office": "president",
+   "name": "Pratibha Devisingh Patil",
+   "from": "2007-07-25",
+   "to": "2012-07-25",
+   "image": "people/president/pratibha_patil.jpg",
+   "check": "dates"
+  },
+  {
+   "office": "president",
+   "name": "Pranab Mukherjee",
+   "from": "2012-07-25",
+   "to": "2017-07-25",
+   "image": "people/president/pranab_mukherjee.jpg",
+   "check": "dates"
+  },
+  {
+   "office": "president",
+   "name": "Ram Nath Kovind",
+   "from": "2017-07-25",
+   "to": "2022-07-25",
+   "image": "people/president/ram_nath_kovind.jpg",
+   "check": "dates"
+  },
+  {
+   "office": "president",
+   "name": "Droupadi Murmu",
+   "from": "2022-07-25",
+   "to": null,
+   "image": "people/president/droupadi_murmu.jpg"
+  },
+  {
+   "office": "pm",
+   "name": "Jawaharlal Nehru",
+   "from": "1947-08-15",
+   "to": "1964-05-27",
+   "image": "people/pm/jawaharlal_nehru.jpg"
+  },
+  {
+   "office": "pm",
+   "name": "Gulzari Lal Nanda (acting)",
+   "from": "1964-05-27",
+   "to": "1964-06-09",
+   "image": "people/pm/gulzarilal_nanda.jpg"
+  },
+  {
+   "office": "pm",
+   "name": "Lal Bahadur Shastri",
+   "from": "1964-06-09",
+   "to": "1966-01-11",
+   "image": "people/pm/lal_bahadur_shastri.jpg"
+  },
+  {
+   "office": "pm",
+   "name": "Gulzari Lal Nanda (acting)",
+   "from": "1966-01-11",
+   "to": "1966-01-24",
+   "image": "people/pm/gulzarilal_nanda.jpg"
+  },
+  {
+   "office": "pm",
+   "name": "Indira Gandhi",
+   "from": "1966-01-24",
+   "to": "1977-03-24",
+   "image": "people/pm/indira_gandhi.jpg"
+  },
+  {
+   "office": "pm",
+   "name": "Morarji Desai",
+   "from": "1977-03-24",
+   "to": "1979-07-28",
+   "image": "people/pm/morarji_desai.jpg"
+  },
+  {
+   "office": "pm",
+   "name": "Charan Singh",
+   "from": "1979-07-28",
+   "to": "1980-01-14",
+   "image": "people/pm/charan_singh.jpg"
+  },
+  {
+   "office": "pm",
+   "name": "Indira Gandhi",
+   "from": "1980-01-14",
+   "to": "1984-10-31",
+   "image": "people/pm/indira_gandhi.jpg"
+  },
+  {
+   "office": "pm",
+   "name": "Rajiv Gandhi",
+   "from": "1984-10-31",
+   "to": "1989-12-02",
+   "image": "people/pm/rajiv_gandhi.jpg"
+  },
+  {
+   "office": "pm",
+   "name": "Vishwanath Pratap Singh",
+   "from": "1989-12-02",
+   "to": "1990-11-10",
+   "image": "people/pm/vp_singh.jpg"
+  },
+  {
+   "office": "pm",
+   "name": "Chandra Shekhar",
+   "from": "1990-11-10",
+   "to": "1991-06-21",
+   "image": "people/pm/chandra_shekhar.jpg"
+  },
+  {
+   "office": "pm",
+   "name": "P. V. Narasimha Rao",
+   "from": "1991-06-21",
+   "to": "1996-05-16",
+   "image": "people/pm/pv_narasimha_rao.jpg"
+  },
+  {
+   "office": "pm",
+   "name": "Atal Bihari Vajpayee",
+   "from": "1996-05-16",
+   "to": "1996-06-01",
+   "image": "people/pm/atal_bihari_vajpayee.jpg"
+  },
+  {
+   "office": "pm",
+   "name": "H. D. Deve Gowda",
+   "from": "1996-06-01",
+   "to": "1997-04-21",
+   "image": "people/pm/hd_dewe_gowda.jpg"
+  },
+  {
+   "office": "pm",
+   "name": "Inder Kumar Gujral",
+   "from": "1997-04-21",
+   "to": "1998-03-19",
+   "image": "people/pm/inder_kumar_gujral.jpg"
+  },
+  {
+   "office": "pm",
+   "name": "Atal Bihari Vajpayee",
+   "from": "1998-03-19",
+   "to": "2004-05-22",
+   "image": "people/pm/atal_bihari_vajpayee.jpg"
+  },
+  {
+   "office": "pm",
+   "name": "Manmohan Singh",
+   "from": "2004-05-22",
+   "to": "2014-05-26",
+   "image": "people/pm/manmohan_singh.jpg"
+  },
+  {
+   "office": "pm",
+   "name": "Narendra Modi",
+   "from": "2014-05-26",
+   "to": null,
+   "image": "people/pm/narendra_modi.jpg",
+   "crop": {
+    "x": 0.5,
+    "y": 0.28,
+    "size": 0.45
+   }
+  },
+  {
+   "office": "cabsec",
+   "name": "N. R. Pillai",
+   "from": "1950-02-06",
+   "to": "1953-05-13",
+   "image": null
+  },
+  {
+   "office": "cabsec",
+   "name": "Y. N. Sukthankar",
+   "from": "1953-05-14",
+   "to": "1957-07-31",
+   "image": null
+  },
+  {
+   "office": "cabsec",
+   "name": "M. K. Vellodi",
+   "from": "1957-08-01",
+   "to": "1958-06-04",
+   "image": null
+  },
+  {
+   "office": "cabsec",
+   "name": "Vishnu Sahay",
+   "from": "1958-07-01",
+   "to": "1960-11-10",
+   "image": null
+  },
+  {
+   "office": "cabsec",
+   "name": "B. N. Jha",
+   "from": "1960-11-10",
+   "to": "1961-03-08",
+   "image": null
+  },
+  {
+   "office": "cabsec",
+   "name": "Vishnu Sahay",
+   "from": "1961-03-09",
+   "to": "1962-04-15",
+   "image": null
+  },
+  {
+   "office": "cabsec",
+   "name": "S. S. Khera",
+   "from": "1962-04-15",
+   "to": "1964-11-18",
+   "image": null
+  },
+  {
+   "office": "cabsec",
+   "name": "Dharam Vira",
+   "from": "1964-11-18",
+   "to": "1966-06-27",
+   "image": null
+  },
+  {
+   "office": "cabsec",
+   "name": "D. S. Joshi",
+   "from": "1966-06-27",
+   "to": "1968-12-31",
+   "image": null
+  },
+  {
+   "office": "cabsec",
+   "name": "B. Sivaraman",
+   "from": "1969-01-01",
+   "to": "1970-11-30",
+   "image": null
+  },
+  {
+   "office": "cabsec",
+   "name": "T. Swaminathan",
+   "from": "1970-12-01",
+   "to": "1972-11-02",
+   "image": null
+  },
+  {
+   "office": "cabsec",
+   "name": "B. D. Pande",
+   "from": "1972-11-02",
+   "to": "1977-03-31",
+   "image": null
+  },
+  {
+   "office": "cabsec",
+   "name": "N. K. Mukarji",
+   "from": "1977-03-31",
+   "to": "1980-03-31",
+   "image": null
+  },
+  {
+   "office": "cabsec",
+   "name": "S. S. Grewal",
+   "from": "1980-04-02",
+   "to": "1981-04-30",
+   "image": null
+  },
+  {
+   "office": "cabsec",
+   "name": "C. R. Krishnaswamy Rao",
+   "from": "1981-04-30",
+   "to": "1985-02-08",
+   "image": null
+  },
+  {
+   "office": "cabsec",
+   "name": "P. K. Kaul",
+   "from": "1985-02-08",
+   "to": "1986-08-22",
+   "image": null
+  },
+  {
+   "office": "cabsec",
+   "name": "B. G. Deshmukh",
+   "from": "1986-08-23",
+   "to": "1989-03-27",
+   "image": null
+  },
+  {
+   "office": "cabsec",
+   "name": "T. N. Seshan",
+   "from": "1989-03-27",
+   "to": "1989-12-23",
+   "image": null
+  },
+  {
+   "office": "cabsec",
+   "name": "V. C. Pande",
+   "from": "1989-12-23",
+   "to": "1990-12-11",
+   "image": null
+  },
+  {
+   "office": "cabsec",
+   "name": "Naresh Chandra",
+   "from": "1990-12-11",
+   "to": "1992-07-31",
+   "image": null
+  },
+  {
+   "office": "cabsec",
+   "name": "S. Rajgopal",
+   "from": "1992-08-01",
+   "to": "1993-07-31",
+   "image": null
+  },
+  {
+   "office": "cabsec",
+   "name": "Zafar Saifullah",
+   "from": "1993-07-31",
+   "to": "1994-07-31",
+   "image": null
+  },
+  {
+   "office": "cabsec",
+   "name": "Surendra Singh",
+   "from": "1994-08-01",
+   "to": "1996-07-31",
+   "image": null
+  },
+  {
+   "office": "cabsec",
+   "name": "T. S. R. Subramanian",
+   "from": "1996-08-01",
+   "to": "1998-03-31",
+   "image": null
+  },
+  {
+   "office": "cabsec",
+   "name": "Prabhat Kumar",
+   "from": "1998-04-01",
+   "to": "2000-10-31",
+   "image": null
+  },
+  {
+   "office": "cabsec",
+   "name": "T. R. Prasad",
+   "from": "2000-11-01",
+   "to": "2002-10-31",
+   "image": null
+  },
+  {
+   "office": "cabsec",
+   "name": "Kamal Pande",
+   "from": "2002-11-01",
+   "to": "2004-06-14",
+   "image": null
+  },
+  {
+   "office": "cabsec",
+   "name": "B. K. Chaturvedi",
+   "from": "2004-06-14",
+   "to": "2007-06-13",
+   "image": null
+  },
+  {
+   "office": "cabsec",
+   "name": "K. M. Chandrasekhar",
+   "from": "2007-06-14",
+   "to": "2011-06-13",
+   "image": null
+  },
+  {
+   "office": "cabsec",
+   "name": "Ajit Kumar Seth",
+   "from": "2011-06-14",
+   "to": "2015-06-13",
+   "image": null
+  },
+  {
+   "office": "cabsec",
+   "name": "Pradeep Kumar Sinha",
+   "from": "2015-06-13",
+   "to": "2019-08-30",
+   "image": null
+  },
+  {
+   "office": "cabsec",
+   "name": "Rajiv Gauba",
+   "from": "2019-08-30",
+   "to": "2024-08-30",
+   "image": "people/cabsec/rajiv_gauba.jpg"
+  },
+  {
+   "office": "cabsec",
+   "name": "T. V. Somanathan",
+   "from": "2024-08-30",
+   "to": null,
+   "image": "people/cabsec/tv_somanathan.jpg"
+  }
+ ]
 }

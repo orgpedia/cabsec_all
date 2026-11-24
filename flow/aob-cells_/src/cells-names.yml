@@ -6,6 +6,40 @@
 # review (no_sector). The colours are in ui-requirements U19.
 sectors:
   econ:     # Economy & industry
+    # before 2004 (draft, November 22, 2026)
+    - "Ministry of Commerce & Industry"
+    - "Ministry of Steel & Heavy Industries"
+    - "Ministry of Industry"
+    - "Ministry of Industry and Supply"
+    - "Ministry of Industrial Development & Company Affairs"
+    - "Ministry of Industrial Development, Internal Trade and Company Affairs"
+    - "Ministry of Industrial Development and Internal Trade"
+    - "Ministry of Industrial Development"
+    - "Ministry of Industry and Civil Supplies"
+    - "Ministry of Industry and Company Affairs"
+    - "Ministry of International Trade"
+    - "Ministry of Commerce"
+    - "Ministry of Foreign Trade and Supply"
+    - "Ministry of Foreign Trade"
+    - "Department of Technical Development"
+    - "Ministry of Iron and Steel"
+    - "Ministry of Supply and Technical Development"
+    - "Ministry of Supply, Technical Development & Materials Planning"
+    - "Ministry of Steel and Heavy Engineering"
+    - "Department of Company Affairs"
+    - "Ministry of Heavy Industry"
+    - "Ministry of Chemicals and Fertilisers"
+    - "Ministry of Civil Supplies and Cooperation"
+    - "Ministry of Commerce, Civil Supplies and Cooperation"
+    - "Ministry of Commerce and Civil Supplies"
+    - "Ministry of Civil Supplies"
+    - "Ministry of Food and Civil Supplies"
+    - "Ministry of Commerce and Supply"
+    - "Ministry of Supply and Textiles"
+    - "Ministry of Civil Supplies & Public Distribution"
+    - "Ministry of Civil Supplies, Consumer Affairs and Public Distribution"
+    - "Ministry of Food"
+    - "Ministry of Small Scale Industries and Agro and Rural Industries"
     - Ministry of Finance
     - Ministry of Commerce and Industry
     - Ministry of Company Affairs
@@ -23,6 +57,37 @@ sectors:
     - Ministry of Micro, Small and Medium Enterprises
     - Ministry of Consumer Affairs, Food and Public Distribution
   infra:    # Infrastructure & energy
+    # before 2004 (draft, November 22, 2026)
+    - "Ministry of Irrigation & Power"
+    - "Ministry of Steel, Mines & Fuel"
+    - "Ministry of Transport & Communications"
+    - "Ministry of Transport"
+    - "Ministry of Works, Housing & Supply"
+    - "Ministry of Works and Housing"
+    - "Ministry of Works, Housing and Rehabilitation"
+    - "Ministry of Mines & Fuel"
+    - "Ministry of Petroleum & Chemicals"
+    - "Ministry of Steel, Mines & Heavy Engineering"
+    - "Ministry of Steel and Mines"
+    - "Ministry of Works & Housing"
+    - "Ministry of Works, Housing and Urban Development"
+    - "Ministry of Supply"
+    - "Ministry of Mines and Metals"
+    - "Ministry of Transport and Aviation"
+    - "Ministry of Steel, Mines & Metals"
+    - "Ministry of Transport & Shipping"
+    - "Ministry of Shipping and Transport"
+    - "Ministry of Petroleum and Chemicals and Mines & Metals"
+    - "Ministry of Petroleum and Chemicals"
+    - "Ministry of Steel, Mines and Coal"
+    - "Department of Electronics"
+    - "Ministry of Information Technology"
+    - "Ministry of Energy"
+    - "Ministry of Energy Department of Power"
+    - "Ministry of Petroleum"
+    - "Ministry of Petroleum, Chemicals and Fertilizers"
+    - "Ministry of Irrigation and Power"
+    - "Ministry of Power and Non-Conventional Energy Sources"
     - Ministry of Coal
     - Ministry of Mines
     - Ministry of Coal and Mines
@@ -45,6 +110,10 @@ sectors:
     - Ministry of Urban Employment and Poverty Alleviation
     - Ministry of Housing and Urban Poverty Alleviation
   land:     # Land, water & rural
+    # before 2004 (draft, November 22, 2026)
+    - "Ministry of Community Development & Cooperation"
+    - "Ministry of Community Development, Panchayati Raj and Co-operation"
+    - "Ministry of Community Development and Co-operation"
     - Ministry of Agriculture
     - Ministry of Agriculture and Farmers Welfare
     - Ministry of Fisheries, Animal Husbandry and Dairying
@@ -60,6 +129,19 @@ sectors:
     - Department of Development of North Eastern Region
     - Ministry of Development of North Eastern Region
   social:   # Social & culture
+    # before 2004 (draft, November 22, 2026)
+    - "Ministry of Health"
+    - "Ministry of Health and Family Planning"
+    - "Ministry of Health, Family Planning and Urban Development"
+    - "Ministry of Health and Family Planning, and Works Housing & Urban Development"
+    - "Ministry of Information & Broadcasting"
+    - "Ministry of Labour & Employment"
+    - "Ministry of Rehabilitation"
+    - "Ministry of Labour, Employment and Rehabilitation"
+    - "Ministry of Labour and Rehabilitation"
+    - "Ministry of Supply and Rehabilitation"
+    - "Department of Sports"
+    - "Department of Youth Affairs and Sports"
     - Ministry of Health and Family Welfare
     - Ministry of Ayurveda, Yoga and Naturopathy, Unani, Siddha and Homoeopathy (AYUSH)
     - Ministry of Ayush
@@ -79,6 +161,10 @@ sectors:
     - Ministry of Culture
     - Ministry of Tourism
   secur:    # Security & external
+    # before 2004 (draft, November 22, 2026)
+    - "Ministry of Economic and Defence Co-ordination"
+    - "Department of Supply"
+    - "Department of Jammu and Kashmir Affairs"
     - Ministry of Home Affairs
     - Ministry of Defence
     - Ministry of External Affairs
@@ -86,6 +172,9 @@ sectors:
     - Ministry of Overseas Indian Affairs
     - National Security Council Secretariat
   sci:      # Science
+    # before 2004 (draft, November 22, 2026)
+    - "Ministry of Scientific Research & Cultural Affairs"
+    - "Department of Science and Technology"
     - Ministry of Science and Technology
     - Department of Atomic Energy
     - Department of Space
@@ -93,6 +182,9 @@ sectors:
     - Ministry of Ocean Development
     - Ministry of Earth Sciences
   gov:      # Centre of government
+    # before 2004 (draft, November 22, 2026)
+    - "Prime Minister's Secretariat"
+    - "Ministry of Programme Implementation"
     - Prime Minister's Office
     - Cabinet Secretariat
     - President's Secretariat
@@ -137,6 +229,23 @@ short:
   Ministry of Food Processing Industries: Food Processing
   Ministry of Information and Broadcasting: Information & Broadcasting
   National Security Council Secretariat: NSC Secretariat
+
+# spelling: a name as the data prints it, shown as it should read. For a misread or run-on heading in the states'
+# First Schedule that a re-issue later mends; the states should be fixed too (aob.md §A11), and the line here then
+# goes. Each with the series it is seen in.
+spelling:
+  # 120–134: 1_Upload_157 (S.O. 291(E), 1977), "Affaus"
+  "Ministry of Home Affaus": "Ministry of Home Affairs"
+  # 167–173: the commas lost in the reading
+  "Ministry of Personnel and Training Administrative Reforms and Public Grievances and Pension": "Ministry of Personnel and Training, Administrative Reforms and Public Grievances and Pensions"
+  # 217–231: S.O. 452(E) of 1991's First Schedule; its Hindi name without "Mantralaya"
+  "Ministry of Law, Justice and Company Affairs (Vidhi, Nyaya aur Kampani Karya)": "Ministry of Law, Justice and Company Affairs"
+  # 217: a word broken at a line's end
+  "Ministry of Planning and Programme Implementa tion": "Ministry of Planning and Programme Implementation"
+  # 5–216: the Railway Board printed with the name, three ways
+  "Ministry of Railways (Railway Board)": "Ministry of Railways"
+  "Ministry of Railways Railway Board": "Ministry of Railways"
+  "Ministry of Railways Railway Board (Rail Board)": "Ministry of Railways"
 
 # events: a call on an event, by its key ("<series> <kind> <short name>", as in cells-2004.json's events[].key):
 #   keep | drop | <another kind>, or {salient: true, caption: "…"} for the Story and the video (ui-requirements U10).
@@ -187,6 +296,44 @@ events:
   "356 renamed Human Resource Development":
     salient: true
     caption: "Human Resource Development is renamed Education."
+  # 1961–2003 (draft, November 22, 2026)
+  "5 split Steel, Mines & Fuel":
+    salient: true
+    caption: "Steel, Mines and Fuel divides into Mines and Fuel, and Steel and Heavy Industries."
+  "17 split Commerce & Industry":
+    salient: true
+    caption: "Commerce and Industry divides: International Trade and Industry become ministries of their own."
+  "46 merged Labour, Employment and Rehabilitation":
+    salient: true
+    caption: "Labour and Employment, and Rehabilitation, merge into one ministry."
+  "95 born Space":
+    salient: true
+    caption: "The Department of Space is created."
+  "146 spun_off Environment":
+    salient: true
+    caption: "A Department of Environment is carved out of Science and Technology."
+  "174 split Irrigation and Power":
+    salient: true
+    caption: "In the 1985 re-issue, Irrigation and Power divides into Water Resources and Energy."
+  "188 split Transport":
+    salient: true
+    caption: "Transport divides into Surface Transport and Civil Aviation."
+  "217 split Energy":
+    salient: true
+    caption: "Energy divides into Power and Non-Conventional Energy Sources, and Coal."
+  "243 born Tribal Affairs":
+    salient: true
+    caption: "A Ministry of Tribal Affairs is created."
+  "243 split Planning and Programme Implementation":
+    salient: true
+    caption: "Planning and Programme Implementation divides: Statistics and Programme Implementation, and Planning."
+  "256 born North East":
+    salient: true
+    caption: "A Department of Development of North Eastern Region is created."
+  "257 merged Communications & IT":
+    salient: true
+    caption: "Communications and Information Technology merge into one ministry."
+  # 2004–2026
   "362 spun_off Cooperation":
     salient: true
     caption: "A new Ministry of Cooperation is carved out of Agriculture."

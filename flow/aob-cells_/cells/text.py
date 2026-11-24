@@ -55,9 +55,10 @@ def unmarked(s: str) -> str:
 def name(heading: Optional[str]) -> str:
   """A heading as a person reads it: the Hindi name in brackets off, a broken word joined, capitals as a title."""
   s = re.sub(r"(\w)- (\w)", r"\1\2", (heading or "").strip())
+  s = re.sub(r"^[^\w(]+", "", s)  # a footnote's mark before it: "* Ministry of Tourism and Civil Aviation"
   if (m := BRACKETED.search(s)) and HINDI_WORD.search(m.group(0)):
     s = s[:m.start()]
-  s = re.sub(r"[\s.,;:\"”']+$", "", s)
+  s = re.sub(r"[\s.,;:\"”'\-]+$", "", s)  # "Ministry of Industry and Supply :-"
   s = re.sub(r"\s+\d{1,3}$", "", s)  # a footnote's number
   s = re.sub(r"^[A-Z]\.\s+(?=Ministry|Department)", "", s)  # a misread label: "A. Ministry of Supply"
   if (m := BRACKETED.search(s)) and HINDI_WORD.search(m.group(0)):

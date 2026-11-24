@@ -54,3 +54,10 @@ def test_pairs_past_ocr_and_cut_headings():
   assert [u["name"] for u in got["units"]] == ["Ministry of Civil Aviation", "Ministry of Corporate Affairs",
                                                "Ministry of Coal and Mines", "Ministry of Coal"]
   assert got["first_only"] == []
+
+
+def test_names_lose_marks_and_trailing_punctuation():
+  from cells.text import name
+  assert name("* Ministry of Tourism and Civil Aviation") == "Ministry of Tourism and Civil Aviation"
+  assert name("Ministry of Industry and Supply :-") == "Ministry of Industry and Supply"
+  assert count.kind_of("department", "* Ministry of Tourism and Civil Aviation") == "ministry"

@@ -136,6 +136,19 @@ def step(a: list[dict[str, Any]], a_ids: list[str], b: list[dict[str, Any]], f: 
       b_ids[j] = a_ids[ended[0]]  # its one successor, the rest gone or moved: the same unit, another name
       src[j] = ended[0]
       busy.add(("a", ended[0]))
+    else:  # its subjects from a unit that splits this frame, in a share the split did not count: one more part of it
+      e = next(e for e in events if e["kind"] == "split" and ended[0] in e["from"])
+      e["to"].append(j)
+      e["moved"].append(into[j][ended[0]])
+      busy.add(("b", j))
+  for i, u in enumerate(a):  # a unit that ends with no event yet: into the unit most of its subjects went to, else gone
+    if i in kept or i in src.values() or ("a", i) in busy or any(i in e["from"] for e in events):
+      continue
+    d = sorted(out_of.get(i, {}), key=lambda j: -out_of[i][j])
+    if d:   # 1979: the Department of Culture into the new Ministry of Education and Culture, which a split makes
+      add("absorbed", [i], [d[0]], [out_of[i][d[0]]], was=a[src[d[0]]]["size"] if d[0] in src else None)
+    else:
+      add("ended", [i], [], [u["size"]])
   for (i, j), n in sorted(f["pairs"].items()):  # moved between two units that stay
     if i in kept and j in src and src[j] != i and good(n, a[i]["size"]):
       add("moved", [i], [j], [n])
@@ -177,6 +190,8 @@ def caption(e: dict[str, Any], a: list[dict[str, Any]], b: list[dict[str, Any]])
   if k == "merged":
     return f"{' and '.join(fa)} merge into {tb[0]}"
   if k == "absorbed":
+    if e.get("was") is None:   # into a unit new this frame
+      return f"{fa[0]} joins {tb[0]} ({_n(e['moved'][0])})"
     return f"{fa[0]} joins {tb[0]} ({e['was']} → {b[e['to'][0]]['size']})"
   if k == "moved":
     return f"{_n(e['moved'][0])} move{'s' if e['moved'][0] == 1 else ''} from {fa[0]} to {tb[0]}"

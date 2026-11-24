@@ -37,6 +37,7 @@ class Data {
     this.bySeries = new Map(tl.frames.map((f, i) => [f.series, i]));
     this.events = tl.events.map((e, i) => ({...e, i}));
     this.people = tl.people;
+    this.reissues = tl.reissues || {};   // series -> what the page says at a re-issue (U24)
   }
   nameAt(uid, series){ const ns = this.units[uid].names; let n = ns[0]; for (const x of ns) if (x.from <= series) n = x; return n; }
   sector(uid){ return this.units[uid].sector || "gov"; }
@@ -47,9 +48,10 @@ class Data {
 // ---------- the director: when everything happens, for one view ----------
 // Full run: a steady pace per year, events at their date's place in the year. Story: faster years, and a hold with
 // focus and a caption at each salient event (U8, U9).
-function direct(data, view){
-  const full = view === "full";
-  const yearDur = full ? 1.8 : 1.05, INTRO = 1.6, END = 3.0;
+function direct(data, view, hidden){
+  hidden = hidden || new Set();
+  const full = view === "full", isHidden = e => hidden.has(e.kind);
+  const yearDur = full ? 1.8 : 1.05, quietYear = full ? 0.5 : 0.35, INTRO = 1.6, END = 3.0;
   const frames = data.frames, y0 = +frames[0].date.slice(0, 4), y1 = +frames[frames.length - 1].date.slice(0, 4);
   const beats = [], times = [], focus = [], captions = [];
   const busy = {};
@@ -57,26 +59,38 @@ function direct(data, view){
   const evBySeries = new Map();
   for (const e of data.events){ if (!evBySeries.has(e.series)) evBySeries.set(e.series, []); evBySeries.get(e.series).push(e); }
   times.push([0, parseDate(frames[0].date)]);
+  // a year with no shown change passes quickly (the hidden ones still happen, quietly)
+  const yd = {}, base = {}; let acc = INTRO;
   for (let y = y0; y <= y1; y++){
-    const yStart = Math.max(INTRO + (y - y0) * yearDur + shift, cursor);
-    shift = yStart - (INTRO + (y - y0) * yearDur);
+    const shown = data.events.some(e => +e.date.slice(0, 4) === y && !isHidden(e));
+    yd[y] = shown ? yearDur : quietYear; base[y] = acc; acc += yd[y];
+  }
+  base[y1 + 1] = acc;
+  const nat = (y, frac) => base[y] + frac * yd[y];
+  for (let y = y0; y <= y1; y++){
+    const yStart = Math.max(nat(y, 0) + shift, cursor);
+    shift = yStart - nat(y, 0);
     if (y > y0) times.push([yStart, Date.UTC(y, 0, 1)]);
     for (const f of frames){
       if (+f.date.slice(0, 4) !== y || f === frames[0]) continue;
-      let t = Math.max(INTRO + (y - y0 + yearFrac(f.date)) * yearDur + shift, cursor);
-      shift = t - (INTRO + (y - y0 + yearFrac(f.date)) * yearDur);
+      let t = Math.max(nat(y, yearFrac(f.date)) + shift, cursor);
+      shift = t - nat(y, yearFrac(f.date));
       times.push([t, parseDate(f.date)]);
       const evs = (evBySeries.get(f.series) || []).map(e => ({...e}));
       const beat = {series: f.series, date: f.date, t, events: evs};
-      let stagger = 0;
-      const sal = full ? [] : evs.filter(e => e.salient);
-      for (const e of evs.filter(e => full || !e.salient)){   // the quick ones
+      for (const e of evs) e.beatT = t;   // the frame's time: the safety net waits for its events
+      const note = data.reissues[f.series];   // a re-issue: one caption first, then its changes (U24)
+      if (note) captions.push({t0: t, t1: t + 3.4, note, date: f.date});
+      let stagger = note ? 0.6 : 0;
+      const sal = full ? [] : evs.filter(e => e.salient && !isHidden(e));
+      for (const e of evs.filter(e => !sal.includes(e))){   // the quick ones; a hidden kind plays quietly and faster
         const ids = [...e.from, ...e.to];
+        e.quiet = isHidden(e);
         let s = t + stagger; for (const u of ids) s = Math.max(s, busy[u] || 0);
-        e.t0 = s; e.dur = DUR[e.kind] * (full ? 0.85 : 0.8); stagger += 0.12;
-        for (const u of ids) busy[u] = s + e.dur;
+        e.t0 = s; e.dur = DUR[e.kind] * (e.quiet ? 0.55 : full ? 0.85 : 0.8); stagger += e.quiet ? 0.04 : 0.12;
+        for (const u of ids) busy[u] = Math.max(busy[u] || 0, e.quiet ? s + 0.1 : s + e.dur);   // a hidden change holds up no one
       }
-      let hold = t + (sal.length ? 0.2 : 0);
+      let hold = note ? t + 3.4 : t + (sal.length ? 0.2 : 0);
       for (const e of sal){                                   // the Story's salient events, one after the other
         const ids = [...e.from, ...e.to];
         let s = hold; for (const u of ids) s = Math.max(s, (busy[u] || 0) - 1.1);
@@ -87,11 +101,11 @@ function direct(data, view){
         for (const u of ids) busy[u] = a1;
         hold = fe;
       }
-      if (sal.length){ times.push([t + 0.01, parseDate(f.date)], [hold, parseDate(f.date)]); cursor = hold; }
+      if (sal.length || note){ times.push([t + 0.01, parseDate(f.date)], [hold, parseDate(f.date)]); cursor = hold; }
       beats.push(beat);
     }
   }
-  const lastT = Math.max(INTRO + (y1 - y0 + 1) * yearDur + shift, cursor, ...data.events.map(() => 0));
+  const lastT = Math.max(base[y1 + 1] + shift, cursor);
   let tEnd = lastT;
   for (const b of beats) for (const e of b.events) tEnd = Math.max(tEnd, e.t0 + e.dur + 0.5);
   times.push([tEnd, Date.UTC(y1, 11, 31)]);
@@ -100,7 +114,7 @@ function direct(data, view){
   // keep the date mapping monotonic
   for (let i = 1; i < times.length; i++) if (times[i][0] < times[i - 1][0]) times[i][0] = times[i - 1][0];
   const all = beats.flatMap(b => b.events).sort((a, b) => a.t0 - b.t0);
-  return {view, T, INTRO, beats, events: all, times, focus, captions, yearDur};
+  return {view, T, INTRO, beats, events: all, times, focus, captions, yearDur, hidden};
 }
 
 function dateAt(dir, t){
@@ -118,7 +132,9 @@ class Sim {
   constructor(data, dir, W, H){
     this.data = data; this.dir = dir; this.W = W; this.H = H;
     this.CX = W / 2; this.CY = H / 2 + 6;
-    const area = W * H * 0.40, total = Object.values(data.frames[0].sizes).reduce((a, b) => a + b, 0);
+    // cells sized for the run's largest frame, so the government fits the stage in every year (864 subjects in
+    // 1961, 1,846 at most)
+    const area = W * H * 0.40, total = Math.max(...data.frames.map(f => Object.values(f.sizes).reduce((a, b) => a + b, 0)));
     this.K = Math.sqrt(area / (Math.PI * Math.max(total, 1)));
     this.RMIN = Math.max(7, this.K * 1.25); this.PAD = 13;
     this.anchor = {};
@@ -126,11 +142,19 @@ class Sim {
     order.forEach((s, i) => { const a = -Math.PI / 2 + i * 2 * Math.PI / order.length;
       this.anchor[s] = {x: this.CX + Math.cos(a) * W * 0.28, y: this.CY + Math.sin(a) * H * 0.27}; });
     this.cues = null;  // sound cues, collected only while playing live
+    // each unit's event windows, from its frame's time to its last event's end: while one is open, the safety net
+    // leaves the unit's cell to the event
+    this.windows = new Map();
+    for (const e of dir.events) for (const u of [...e.from, ...e.to]){
+      if (!this.windows.has(u)) this.windows.set(u, []);
+      this.windows.get(u).push([e.beatT, e.t0 + e.dur + 0.7]);
+    }
   }
+  pending(uid, t){ const w = this.windows.get(uid); return !!w && w.some(([b, e]) => b <= t + 1e-9 && t < e); }
   rad(s){ return Math.max(this.RMIN, this.K * Math.sqrt(Math.max(0, s))); }
 
   initial(){
-    const f = this.data.frames[0], st = {t: 0, cells: {}, fx: [], mem: {}, gone: {}, cam: {x: this.CX, y: this.CY, s: 1}, veil: 0};
+    const f = this.data.frames[0], st = {t: 0, bi: -1, cells: {}, fx: [], mem: {}, gone: {}, cam: {x: this.CX, y: this.CY, s: 1}, veil: 0};
     for (const uid of Object.keys(f.sizes).sort()){
       const a = this.anchor[this.data.sector(uid)];
       const c = this.cell(uid, f.sizes[uid], f.series, a.x + (hash(uid, 1) - .5) * 160, a.y + (hash(uid, 2) - .5) * 110);
@@ -163,6 +187,7 @@ class Sim {
       if (t1 < e.t0 || t0 > e.t0 + e.dur + 0.6) continue;
       this.run(st, e, Math.max(0, t1 - e.t0), t0 - e.t0);
     }
+    this.reconcile(st, t1);
     this.physics(st, false);
     this.effects(st);
     this.camera(st, t1);
@@ -171,8 +196,28 @@ class Sim {
 
   cue(name){ if (this.cues) this.cues.push(name); }
 
+  // the safety net: at every frame the stage holds the frame's units, whatever the events say. A cell whose unit is
+  // not in the frame fades out; a unit with no cell fades in; while an event on the unit plays, it is left alone
+  reconcile(st, t1){
+    const beats = this.dir.beats;
+    while (st.bi + 1 < beats.length && beats[st.bi + 1].t <= t1) st.bi++;
+    if (t1 < this.dir.INTRO) return;
+    const series = st.bi < 0 ? this.data.frames[0].series : beats[st.bi].series, exp = this.data.sizes(series);
+    for (const c of Object.values(st.cells)){
+      if (exp[c.id] == null && !c.vanish && !this.pending(c.id, t1)){ c.vanish = true; c.rt = 0; c.hideLabel = true; c.pin = null; c.ghost = []; }
+      if (c.vanish && c.rt === 0 && c.r < 0.6) delete st.cells[c.id];
+    }
+    for (const id in exp){
+      if (st.cells[id] || this.pending(id, t1)) continue;
+      const a = this.anchor[this.data.sector(id)];
+      const c = this.cell(id, exp[id], series, a.x + (hash(id, "rx") - .5) * 60, a.y + (hash(id, "ry") - .5) * 60);
+      c.r = 0; c.rv = 1.5; st.cells[id] = c;
+    }
+  }
+
   // ---------- the event animations (U24 table §7) ----------
   run(st, e, tau, prev){
+    const cue = e.quiet ? () => {} : n => this.cue(n), ring = e.quiet ? () => {} : (...a) => this.ring(...a);
     const cr = x => prev < x && tau >= x;
     const C = id => st.cells[id];
     const sz = this.data.sizes(e.series), m = st.mem[e.i] || (st.mem[e.i] = {}), D = e.dur, k = DUR[e.kind] / D;
@@ -197,11 +242,11 @@ class Sim {
             const f = tau < T(.9) ? .5 : 1; s.pin = {x: s.x + (big.x - s.x) * f, y: s.y + (big.y - s.y) * f, k: tau < T(.9) ? .035 : .07}; }
         }
         if (cr(T(1.4))){
-          this.cue("squelch");
+          cue("squelch");
           for (const sid of m.small){ const s = C(sid); if (s){ s.rt = 0; s.ghost.push(newId); s.hideLabel = true; } }
           this.rekey(st, big, newId, e.series);
           big.size = sz[newId] ?? big.size; big.rt = this.rad(big.size); big.rv += 4;
-          this.ring(st, big.id, SECTORS[big.sector].c, 26, .9);
+          ring(st, big.id, SECTORS[big.sector].c, 26, .9);
         }
         if (cr(T(1.85)) || (end && !m.done)){
           m.done = true;
@@ -215,7 +260,7 @@ class Sim {
         const s = C(s0), b = C(into);
         if (cr(0) && s && b){ s.ghost.push(into); b.ghost.push(s0); }
         if (s && b && tau < T(1.3)) s.pin = {x: s.x + (b.x - s.x) * (tau < T(.7) ? .4 : 1), y: s.y + (b.y - s.y) * (tau < T(.7) ? .4 : 1), k: tau < T(.7) ? .04 : .09};
-        if (cr(T(1.0)) && s){ this.cue("squelch"); s.rt = 0; s.hideLabel = true; if (b){ b.size = sz[into] ?? b.size; b.rt = this.rad(b.size); b.rv += 3; } }
+        if (cr(T(1.0)) && s){ cue("squelch"); s.rt = 0; s.hideLabel = true; if (b){ b.size = sz[into] ?? b.size; b.rt = this.rad(b.size); b.rv += 3; } }
         if ((cr(T(1.5)) || (end && !m.done))){ m.done = true; delete st.cells[s0]; if (b){ b.ghost = b.ghost.filter(x => x !== s0); b.pin = null; } }
         break;
       }
@@ -241,7 +286,7 @@ class Sim {
         else if (tau < T(1.27)) sep = .32 + .30 * ease((tau - T(.85)) / T(.42));
         else sep = .62 + .12 * ease((tau - T(1.27)) / T(.2));
         if (cr(T(.85))) kids.forEach(kc => kc.rv += 1.5);
-        if (cr(T(1.27))){ this.cue("snap"); }
+        if (cr(T(1.27))){ cue("snap"); }
         if (cr(T(1.45))) kids.forEach(kc => kc.rv += 3);
         if (tau < T(2.0)){
           kids.forEach((kc, i) => {
@@ -273,14 +318,14 @@ class Sim {
           p.pin = {x: m.px, y: m.py, k: .08}; kc.pin = {x: p.x + m.ux * p.r * d, y: p.y + m.uy * p.r * d, k: .25}; }
         if (cr(T(1.1))){ p.size = sz[p0] ?? p.size; p.rt = this.rad(p.size); }
         if (tau >= T(1.1) && tau < T(1.8)) kc.pin = {x: p.x + m.ux * (p.r + kc.r * .55), y: p.y + m.uy * (p.r + kc.r * .55), k: .15};
-        if (cr(T(1.8))){ this.cue("snap"); kc.hideLabel = false; kc.morph = {to: kc.label, t0: st.t, dur: .5}; kc.rv += 3; p.rv += 2; }
+        if (cr(T(1.8))){ cue("snap"); kc.hideLabel = false; kc.morph = {to: kc.label, t0: st.t, dur: .5}; kc.rv += 3; p.rv += 2; }
         if (tau >= T(1.8) && tau < T(2.4)) kc.pin = {x: p.x + m.ux * (p.r + kc.r + 20), y: p.y + m.uy * (p.r + kc.r + 20), k: .2};
         if (cr(T(2.4)) || (end && !m.done)){ m.done = true; kc.pin = null; p.pin = null; kc.ghost = []; p.ghost = p.ghost.filter(x => x !== id); kc.hideLabel = false; }
         break;
       }
       case "moved": {
         const a = C(e.from[0]), b = C(e.to[0]);
-        if (cr(0) && a && b){ this.cue("pop"); st.fx.push({kind: "flow", a: a.id, b: b.id, t0: st.t, life: T(1.0), color: SECTORS[a.sector].c, r: Math.max(5, this.rad(e.moved[0] || 3) * .45)});
+        if (cr(0) && a && b){ cue("pop"); st.fx.push({kind: "flow", a: a.id, b: b.id, t0: st.t, life: T(1.0), color: SECTORS[a.sector].c, r: Math.max(5, this.rad(e.moved[0] || 3) * .45)});
           a.size = sz[a.id] ?? a.size; a.rt = this.rad(a.size); }
         if (cr(T(1.0)) && b){ b.size = sz[b.id] ?? b.size; b.rt = this.rad(b.size); b.rv += 3; }
         break;
@@ -291,9 +336,9 @@ class Sim {
           const sec = this.data.sector(id), g = st.gone[e.series + ":" + sec], a = this.anchor[sec];
           const x = g ? g.x : a.x + (hash(id, "x") - .5) * 60, y = g ? g.y : a.y + (hash(id, "y") - .5) * 60;
           const c = this.cell(id, sz[id] || 1, e.series, x, y); c.rv = 5; c.pin = {x, y, k: .3};
-          st.cells[id] = c; this.cue("born"); this.ring(st, id, "#3D5A80", 34, 1.1);
+          st.cells[id] = c; cue("born"); ring(st, id, "#3D5A80", 34, 1.1);
         }
-        if (cr(T(.25)) && C(id)) this.ring(st, id, "#94a3b8", 52, 1.2);
+        if (cr(T(.25)) && C(id)) ring(st, id, "#94a3b8", 52, 1.2);
         if ((cr(T(1.2)) || end) && C(id)) C(id).pin = null;
         break;
       }
@@ -303,7 +348,7 @@ class Sim {
         if (cr(0)){ m.x = c.x; m.y = c.y; }
         if (tau < T(.95)){ c.pin = {x: m.x, y: m.y, k: .2}; for (let i = 0; i < 6; i++) if (cr(T(.12 * i))) c.rv += (i % 2 ? -2.2 : 2.2); }
         if (cr(T(.75))) c.rt = c.r * 1.18;
-        if (cr(T(.95))){ this.cue("burst"); this.drops(st, c, 16, e.key); this.ring(st, c.id, SECTORS[c.sector].d, 30, .6);
+        if (cr(T(.95))){ cue("burst"); this.drops(st, c, 16, e.key); ring(st, c.id, SECTORS[c.sector].d, 30, .6);
           c.rt = 0; c.r *= .4; c.hideLabel = true; st.gone[e.series + ":" + c.sector] = {x: c.x, y: c.y}; }
         if (cr(T(1.4)) || (end && !m.done)){ m.done = true; delete st.cells[c.id]; }
         break;
@@ -312,14 +357,14 @@ class Sim {
         const c = C(e.to[0]); if (!c) return;
         if (cr(0)){
           const n = this.data.nameAt(c.id, e.series); c.label = n.short; c.kind = n.kind;
-          c.morph = {to: n.short, t0: st.t, dur: T(1.1)}; this.ring(st, c.id, "#3D5A80", 22, 1.0); this.cue("chime");
+          if (!e.quiet) c.morph = {to: n.short, t0: st.t, dur: T(1.1)}; ring(st, c.id, "#3D5A80", 22, 1.0); cue("chime");
           if (sz[c.id] != null && sz[c.id] !== c.size){ c.size = sz[c.id]; c.rt = this.rad(c.size); c.rv += 3; }
         }
         break;
       }
       case "grew": case "shrank": {
         const c = C(e.to[0]); if (!c) return;
-        if (cr(0)){ c.size = sz[c.id] ?? c.size; c.rt = this.rad(c.size); c.rv += e.kind === "grew" ? 4 : -2; this.cue("grow"); }
+        if (cr(0)){ c.size = sz[c.id] ?? c.size; c.rt = this.rad(c.size); c.rv += e.kind === "grew" ? 4 : -2; cue("grow"); }
         break;
       }
     }
@@ -395,12 +440,12 @@ class Sim {
 
 // ---------- the player: snapshots, seeking, playing ----------
 class Player {
-  constructor(data, view, W, H){
-    this.data = data; this.W = W; this.H = H; this.setView(view);
+  constructor(data, view, W, H, hidden){
+    this.data = data; this.W = W; this.H = H; this.setView(view, hidden);
   }
-  setView(view){
-    this.view = view;
-    this.dir = direct(this.data, view);
+  setView(view, hidden){
+    this.view = view; this.hidden = hidden || new Set();
+    this.dir = direct(this.data, view, this.hidden);
     this.sim = new Sim(this.data, this.dir, this.W, this.H);
     const st = this.sim.initial();
     this.snaps = [structuredClone(st)];
@@ -444,12 +489,13 @@ class Renderer {
       <g filter="url(#goo)"><g id="memF"></g><g id="fillF"></g></g><g id="decoF"></g><g id="fx"></g><g id="labelsF"></g></g>`;
     this.g = id => svg.querySelector("#" + id);
     for (const id of ["labels", "labelsF"]) this.g(id).setAttribute("font-family", "ui-sans-serif,system-ui,sans-serif");
-    this.els = new Map(); this.fxEls = [];
+    this.els = new Map(); this.fxEls = []; this.highlight = null;   // a Set of ids picked by search
   }
   draw(st){
     const s = st.cam.s, tx = this.W / 2 - st.cam.x * s, ty = this.H / 2 - st.cam.y * s;
     this.g("cam").setAttribute("transform", `translate(${tx.toFixed(2)} ${ty.toFixed(2)}) scale(${s.toFixed(4)})`);
-    this.g("veil").setAttribute("opacity", st.veil.toFixed(3));
+    const hl = this.highlight && this.highlight.size ? this.highlight : null;
+    this.g("veil").setAttribute("opacity", Math.max(st.veil, hl && !st.focusIds ? 0.55 : 0).toFixed(3));
     const seen = new Set();
     for (const c of Object.values(st.cells)){
       seen.add(c.id);
@@ -461,7 +507,7 @@ class Renderer {
         this.els.set(c.id, E);
       }
       if (E.sector !== c.sector){ const col = SECTORS[c.sector]; E.mem.setAttribute("fill", col.d); E.fill.setAttribute("fill", col.c); E.nuc.setAttribute("fill", col.d); E.sector = c.sector; }
-      const front = !!st.focusIds && st.focusIds.includes(c.id);
+      const front = (!!st.focusIds && st.focusIds.includes(c.id)) || (!st.focusIds && !!hl && hl.has(c.id));
       if (E.front !== front){
         const f = front ? "F" : "";
         this.g("mem" + f).appendChild(E.mem); this.g("fill" + f).appendChild(E.fill);

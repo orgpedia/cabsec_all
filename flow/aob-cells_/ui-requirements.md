@@ -1,13 +1,13 @@
 # Requirements: the cells chart and video
 
-**Version:** 0.2 · **Date:** November 21, 2026 · **Status:** requirements only, agreed with Mukund before coding. The data is specified in `requirements.md`; this document specifies what is drawn from it. The look and the event animations follow the storyboard (`ui/storyboard.html`).
+**Version:** 0.5 · **Date:** November 24, 2026 · **Status:** requirements only, agreed with Mukund before coding. The data is specified in `requirements.md`; this document specifies what is drawn from it. The look and the event animations follow the storyboard (`ui/storyboard.html`).
 
 ---
 
 ## 1. Purpose and scope
 
 - **U1. Two outputs, one engine.** An interactive web page and a short video for LinkedIn and X are drawn by the same code from the same data, so they never differ.
-- **U2. 2004 first.** The first build covers the 2004 re-issue onwards (`cells-2004.json`: series 271–386, 116 frames, about 60 events). The whole run from 1961 is the same format (`cells.json`) and needs no change to the UI, only more data.
+- **U2. Two periods.** The page plays the whole run from the Rules of 14 January 1961 (`timeline.json`: 387 frames, 352 events, 28 salient) or from the 2004 re-issue (`timeline-2004.json`: 116 frames, 61 events, 16 salient), chosen by a switch above the stage ("1961–2026" / "2004–2026"; the second's link ends `#from-2004`). Before 2004 the readings of the scanned gazettes still have known gaps (`review/states-issues.md`), noted under the stage. A cell's size is scaled to the period's largest frame, so the government fits the stage in every year (864 subjects in 1961, 1,846 at most).
 - **U3. Top-level units only.** A cell is a top-level unit of the First Schedule (requirements R1). Departments inside a ministry are not drawn.
 - **U4. English only** for now. The data keeps the Hindi names for later.
 
@@ -36,11 +36,29 @@
 | Stage, top right | "In office" (§8): the President, the Prime Minister and the Cabinet Secretary as three small circles |
 | Stage, bottom | The caption card (Story), or the badges (Full run) |
 | Under the stage | Play/pause, the timeline scrubber with year ticks and a mark for each event, step to the previous or next event, speed, the Story / Full run toggle, sound on/off (off by default) |
-| Under the controls | The sector legend. There is no other chart: the cells are the whole picture. |
+| Under the controls | The kinds of change shown (§4a), then the sector legend. There is no other chart: the cells are the whole picture. |
 
 - **U13. Hover or tap a cell:** its full name, subjects, sector, and its names over time.
 - **U14.** The page works on a phone: the event list moves under the stage, and the "In office" strip shrinks.
 - **U15. Hosting.** A self-contained static page, with no server. For now a published page; later on orgpedia.in.
+
+## 4a. Search and the kinds shown
+
+- **U37. Search.** A search box above the event list finds every unit whose names, at any time, hold all the words typed ("education" finds HRD; "jal shakti" finds Water Resources). It shows:
+  - the units found, each with its years ("Planning Commission (2004–2015)", "Defence (since 2004)");
+  - the number of matches, "2 of 7": each shown change that involves a unit found, in time order, or the unit's first appearance if it has none;
+  - ▲ / ▼ (and Enter / Shift+Enter) to go to the previous or next match, which moves the playhead there.
+
+  While searching, the units found are lifted above a veil, and the event list shows only their changes.
+- **U38. The kinds shown.** A row of chips, one per kind of change (merged, absorbed, split, spun off, created, abolished, moved, renamed, size changes) and "In office", each with its count. A kind turned off is **not shown**, but it still happens, because the cells must stay true to the Rules:
+  - it plays quietly and faster: no badge, caption, zoom, ring or sound; a renamed label changes without the scramble;
+  - it leaves the event list, the scrubber's marks and the previous/next steps;
+  - in the Story, a salient event of a hidden kind gets no pause;
+  - a hidden change does not hold up a shown one on the same unit.
+
+  "In office" turned off hides the three circles and their lines in the list.
+- **U39. Quiet years pass quickly.** A year with no shown change takes 0.5 seconds in the Full run and 0.35 in the Story, instead of 1.8 and 1.05, so hiding kinds shortens the run.
+- **U40.** The choice of kinds is remembered in the viewer's browser. The video uses its own fixed choice.
 
 ## 5. The video
 
@@ -93,11 +111,12 @@
 | renamed | The label scrambles into the new name; a ring pulses | chime |
 | grew / shrank | A spring to the new size, with a jelly wobble | soft swell |
 
-- **U24.** At the re-issue and restart frames (requirements R11), many units change at once: the changes play together, with one caption.
+- **U24a. The safety net.** At every frame the stage holds the frame's units, whatever the events say: a cell whose unit is not in the frame fades out; a unit with no cell fades in; while an event on the unit is still playing, it is left to the event. A unit's absence, not its size, decides it: a unit with 0 subjects (the Ministry of Planning) stays, a dot. Checked by a test: with no event playing, the cells on stage are the frame's units, in both periods and both views.
+- **U24.** At a re-issue (requirements R11: 1985, 2004), one caption first ("Re-issue", its date, and what it did, from `reissue_notes`), held for about 3 seconds in both views, then its structural changes; its size changes are plain resizes.
 
 ## 8. In office
 
-- **U25.** Three small circles, top right: the **President**, the **Prime Minister** and the **Cabinet Secretary** in office on the frame's date. Each has a photo (greyscale, to match the palette), the name and the title. When the office-holder changes, the circle crossfades, and the change is listed in the event list (not as a cell event).
+- **U25.** Three small circles, top right: the **President**, the **Prime Minister** and the **Cabinet Secretary** in office on the frame's date. Each has a photo, the name and the title. The three in office today are shown in colour; those before them in greyscale, to match the palette. A photo is cropped near its top, where the face is, unless `people.json` gives it a `crop`. When the office-holder changes, the circle crossfades, and the change is listed in the event list (not as a cell event).
 - **U26.** The office-holders are kept in their own file, `src/people.json`, not in `cells.json`, so that the AoB data stays the Rules alone. The names and dates come from the official lists (pmindia.gov.in, presidentofindia.gov.in, cabsec.gov.in), each named in the file:
 
 ```json
@@ -112,7 +131,7 @@
   - each unit's **kind** (ministry, department, or secretariat/office), from its First Schedule item, for the count under the year;
   - each unit's **sector** and **short name**, from the corrections file.
 - **U29.** The corrections file (`cells-names.yml`) names units by their name as the data prints it, not by id, so one file serves the 2004 build and the whole run. It holds `sectors` (each sector's list of names), `short` (a label per long name), and `events`, keyed `"<series> <kind> <short name>"` (as in `events[].key`), each `keep`, `drop`, another kind, or `{salient: true, caption: …}`. A call that names no event is listed in the review (`unused_calls`); a unit with no sector too (`no_sector`).
-- **U30.** A build step (`make timeline`) writes `timeline.json`: per year, its events in order, the frames' sizes, the salient flags and captions, and the in-office changes. The web page and the video both read it.
+- **U30.** A build step (`make timeline`) writes `ui/timeline.json` (from 1961) and `ui/timeline-2004.json`: per year, its events in order, the frames' sizes, the salient flags and captions, and the in-office changes. The web page and the video both read it.
 - **U31.** `people.json`, as in §8.
 
 ## 10. Technology
@@ -136,8 +155,12 @@
 - **U35.** The video is under 2:20, 1080 × 1350, plays on a phone with the sound off, and every caption stays on screen long enough to read (about 3 words a second).
 - **U36.** No label overlaps another in the focus of a salient event.
 
-## 12. Open
+## 12. Later
+
+- **Follow:** a button on a search result that keeps the camera on that cell through the whole run.
+
+## 13. Open
 
 - Review of the drafts in `cells-names.yml`: the sectors of the 77 units, the short names, and the 16 salient events and their captions.
 - The Presidents' term dates in `src/people.json` (the official page gives names only).
-- The photos for the "In office" circles (§8).
+- The photos for the "In office" circles (§8): `src/people.json` names each file (`ui/people/<name>.jpg`); a circle shows initials until its file is there.

@@ -16,8 +16,9 @@ cells:
 cells-2004:
 	$(run) python -m cells src/cells-2004.yml
 
-# what the chart and the video read (ui-requirements U30): ui/timeline-2004.json
-timeline: cells-2004
+# what the chart and the video read (ui-requirements U30): ui/timeline.json (from 1961) and ui/timeline-2004.json
+timeline: cells cells-2004
+	$(run) python -m cells.timeline src/cells.yml
 	$(run) python -m cells.timeline src/cells-2004.yml
 
 test:

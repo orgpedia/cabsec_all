@@ -1,6 +1,6 @@
 # Requirements: the AoB units as cells
 
-**Version:** 0.2 · **Date:** November 20, 2026 · **Status:** requirements only. This document is kept apart from `aob.md`, and it does not describe the code.
+**Version:** 0.3 · **Date:** November 24, 2026 · **Status:** requirements only. This document is kept apart from `aob.md`, and it does not describe the code.
 
 ---
 
@@ -132,10 +132,12 @@ Two things about the data matter here:
 | **renamed** | The unit stays, under another name. A different spelling or reading of the same name is not a rename | the label changes |
 | **grew / shrank** | The unit stays, and its size changes by a good share, not already shown by an event above | the cell swells or shrinks |
 
+- **R7a. No unit starts or ends without an event.** A unit that ends with no event yet is **absorbed** into the unit most of its subjects went to, even one new in that frame (1979: the Department of Culture into the new Ministry of Education and Culture, which a split makes); with nowhere, it **ended**. A new unit whose subjects come from a unit that splits in that frame, in a share the split did not count, is **one more part of that split** (1971: the Department of Science and Technology, a third part of Education and Youth Services). The review lists any unit that still starts or ends without an event (`silent`); there should be none.
+- **R7b. A transfer across two notifications.** Subjects taken out of a unit and not followed are kept for 90 days (`move_window_days`); if a later notification puts them into another unit that still exists, a good share of them, that is one **moved** at the later frame, its caption naming both dates, and the earlier "shrank" and later "grew" it explains are dropped. A re-issue clears them: its text is rewritten. (Checked on November 24, 2026: across the whole run only 11 subjects, one or two at a time, are taken out in one notification and put in elsewhere in a later one; transfers are made within one notification.)
 - **R8. Which event wins.** For one unit at one amendment, the order is: ended or born, then split, spun off, merged or absorbed, then moved, then renamed, then grew or shrank. A rename and a size change can both be shown.
 - **R9. Small changes** below a good share resize the bubble but are not events.
 - **R10. Only touched units.** An event counts only at a unit whose heading or subjects the amendment's own changes reach. A difference elsewhere is a reading or matching fault, and goes to review.
-- **R11. Re-issues and restarts.** Frames at the re-issues, the First Schedule substitutions and the restart after series 301 are marked, because many units change at once there.
+- **R11. Re-issues and restarts.** Frames at the re-issues, the First Schedule substitutions and the restart after series 301 are marked, because many units change at once there. At a re-issue of the Second Schedule (174, 1985; 271, 2004) the subjects are reworded and renumbered, so its size changes and moves are not events (the cells resize, R9; the review lists them, `reissue_quiet`); its structural events stay. What the page says there is in `reissue_notes` (the cells' config).
 - **R12. Captions.** Every event has a one-line caption naming its units and counts, for example "Ministry of Rehabilitation joins Works, Housing & Supply (25 → 45)".
 
 - **R12a. A first frame from 2004.** The build can start at any amendment (`start`). From the 2004 re-issue (series 271) on, every First Schedule item has its Second Schedule unit, and each step follows at least 98% of subjects, except at the restart (series 301). The chart and the video are first built against these frames (`cells-2004.json`, 116 frames) while the earlier years' data is fixed; the whole run is the same format with `start: 0`. The first frame is marked `start`, and its units are shown as `born` there.

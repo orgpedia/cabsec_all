@@ -8,4 +8,10 @@ least: 3          # a good share: at least this many subjects …
 share: 0.2        # … and this share of the unit's
 reissues: [174, 271]                            # both schedules substituted (1985, 2004)
 schedule1_reissues: [30, 46, 58, 73, 88, 89, 135, 217]   # the First Schedule substituted
-restarts: [301]                                 # the states start again from a consolidated version
+restarts: [301]
+move_window_days: 90   # a transfer made across two notifications this far apart is one move (requirements R7b)
+people: people.json
+# what the page says at a re-issue (ui-requirements U24): its size changes and moves are left out as events (R11)
+reissue_notes:
+  174: "The Second Schedule is printed afresh (S.O. 696(E), 25 September 1985): its subjects reworded and renumbered, with the year's reorganisation."
+  271: "Both schedules are printed afresh (S.O. 17(E), 6 January 2004): the units' subjects reworded and renumbered."

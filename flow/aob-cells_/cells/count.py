@@ -42,7 +42,7 @@ def _omitted(n: dict[str, Any]) -> bool:
 def kind_of(typ: Optional[str], nm: str) -> str:
   """ministry, department, or office (a secretariat, office, commission or aayog in no ministry), for the count of
   units under the year (ui-requirements U28)."""
-  if typ == "ministry" or nm.lower().startswith("ministry"):
+  if typ == "ministry" or re.sub(r"^[^\w]+", "", nm).lower().startswith("ministry"):
     return "ministry"
   if re.search(r"(?i)secretariat|office|commission|aayog", nm):
     return "office"

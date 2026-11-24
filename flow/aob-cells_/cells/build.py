@@ -2,7 +2,7 @@
 
 import re
 import subprocess
-from datetime import date
+from datetime import date, datetime
 from pathlib import Path
 from typing import Any
 
@@ -33,6 +33,15 @@ def _nm(u: dict[str, Any], s: int, short: dict[str, str]) -> dict[str, Any]:
           "kind": u["kind"], "from": s}
 
 
+def _days(a: str, b: str) -> int:
+  return (datetime.strptime(b, "%Y-%m-%d") - datetime.strptime(a, "%Y-%m-%d")).days
+
+
+def _fmt(d: str) -> str:
+  x = datetime.strptime(d, "%Y-%m-%d")
+  return f"{x.day} {x.strftime('%B')} {x.year}"
+
+
 def build(cfg: dict[str, Any], root: Path) -> tuple[dict[str, Any], dict[str, Any]]:
   states = (root / cfg["states"]).resolve()
   base = (root / cfg["base"]).resolve()
@@ -42,6 +51,7 @@ def build(cfg: dict[str, Any], root: Path) -> tuple[dict[str, Any], dict[str, An
   names_cfg = cfg.get("_names") or {}
   calls = names_cfg.get("events") or {}
   short = names_cfg.get("short") or {}
+  spelling = names_cfg.get("spelling") or {}   # a name as the data prints it -> as it is shown (R18); not a data fix
   sector_of = {n: sec for sec, ns in (names_cfg.get("sectors") or {}).items() for n in (ns or [])}
   changes = read.changes(states)
   ids = ev.Ids()
@@ -49,11 +59,17 @@ def build(cfg: dict[str, Any], root: Path) -> tuple[dict[str, Any], dict[str, An
   frames_out: list[dict[str, Any]] = []
   events_out: list[dict[str, Any]] = []
   review: dict[str, Any] = {"dropped_untouched": [], "unnamed": [], "first_only": [], "empty": [], "steps": [],
-                            "flagged": [], "no_sector": []}
+                            "flagged": [], "no_sector": [], "silent": [], "reissue_quiet": [],
+                            "moves_across": []}
+  window = int(cfg.get("move_window_days", 90))   # a transfer made across two notifications this far apart (R7b)
+  buffer: list[dict[str, Any]] = []                # subjects taken out and not yet seen put in elsewhere
   prev, prev_ids, prev_first = None, [], []
   start = int(cfg.get("start", 0))
   for fr in read.frames(states, base, cfg.get("base_date", "1961-01-14"), start):
     got = count.units(fr["tree"])
+    for u in got["units"]:
+      if u["name"] in spelling:
+        u["name"] = spelling[u["name"]]
     us = []
     for u in got["units"]:
       if not u["name"].strip():
@@ -87,15 +103,65 @@ def build(cfg: dict[str, Any], root: Path) -> tuple[dict[str, Any], dict[str, An
                               "flags": flags})
       cur_ids, evs = ev.step(prev, prev_ids, us, f, ids, least, share)
       heads = ev.touched(changes.get(s, []), [prev_first, first])
+      # R7b: subjects taken out of a unit in one notification and put into another in a later one, within the window
+      across = []
+      if "reissue" in flags:
+        buffer = []   # a re-issue rewrites the text: nothing before it can be followed across it
+      else:
+        cands = [b for b in buffer if not b["used"] and _days(b["date"], fr["date"]) <= window and b["uid"] in cur_ids]
+        if cands and f["new_list"]:
+          bef = [{"text": b["text"], "unit": k} for k, b in enumerate(cands)]
+          aft = [{"text": t, "unit": j} for j, t in f["new_list"]]
+          hit = match.match(bef, aft, {})
+          tally: dict[tuple[str, str], list[int]] = {}
+          for x, k in hit.items():
+            pair = (cands[k]["uid"], cur_ids[aft[x]["unit"]])
+            if pair[0] != pair[1]:
+              tally.setdefault(pair, []).append(k)
+          for (ua, ub), ks in tally.items():
+            b0 = cands[ks[0]]
+            if len(ks) >= least and len(ks) >= share * max(b0["size"], 1):
+              for k in ks:
+                cands[k]["used"] = True
+              across.append({"from": ua, "to": ub, "n": len(ks), "series": b0["series"], "date": b0["date"]})
     whole = bool(flags) or s == 0
     a = prev or []
+    if "reissue" in flags:   # R11: at a re-issue the size changes and moves come from the rewritten text
+      kept = []
+      for e in evs:
+        if e["kind"] in ("grew", "shrank", "moved"):
+          review["reissue_quiet"].append({"series": s, "kind": e["kind"], "caption": ev.caption(e, a, us)})
+        else:
+          kept.append(e)
+      evs = kept
+    if prev is not None:
+      for m in across:   # one "moved" for each transfer across notifications; the size changes it explains go
+        ja, jb = cur_ids.index(m["from"]), cur_ids.index(m["to"])
+        e = {"kind": "moved", "from": [prev_ids.index(m["from"])] if m["from"] in prev_ids else [], "to": [jb],
+             "moved": [m["n"]], "across": m}
+        evs = [x for x in evs if not (x["kind"] == "grew" and x["to"] == [jb] and x["moved"][1] - x["moved"][0] <= m["n"] * 1.5 + 1)]
+        for old in list(events_out):
+          if old["series"] == m["series"] and old["kind"] == "shrank" and old["to"] == [m["from"]] \
+              and old["moved"][0] - old["moved"][1] <= m["n"] * 1.5 + 1:
+            events_out.remove(old)
+            review["moves_across"].append({"series": m["series"], "dropped": old["caption"]})
+        review["moves_across"].append({"series": s, "from_series": m["series"], "n": m["n"], "from": m["from"], "to": m["to"]})
+        evs.append(e)
     for e in evs:
-      out = {"series": s, "date": fr["date"], "kind": e["kind"],
-             "from": [prev_ids[i] for i in e["from"]], "to": [cur_ids[j] for j in e["to"]], "moved": e["moved"],
-             "caption": ev.caption(e, a, us)}
-      who = us[e["to"][0]]["name"] if e["kind"] in ("born", "spun_off", "merged") or not e["from"] else a[e["from"][0]]["name"]
+      if e.get("across"):
+        m = e["across"]; na = us[cur_ids.index(m["from"])]["name"]; nb = us[cur_ids.index(m["to"])]["name"]
+        out = {"series": s, "date": fr["date"], "kind": "moved", "from": [m["from"]], "to": [m["to"]], "moved": [m["n"]],
+               "caption": f"{m['n']} subject{'s' if m['n'] != 1 else ''} move from {na} to {nb}, taken out on "
+                          f"{_fmt(m['date'])} and put in on {_fmt(fr['date'])}",
+               "across": {"series": m["series"], "date": m["date"]}}
+        who = na
+      else:
+        out = {"series": s, "date": fr["date"], "kind": e["kind"],
+               "from": [prev_ids[i] for i in e["from"]], "to": [cur_ids[j] for j in e["to"]], "moved": e["moved"],
+               "caption": ev.caption(e, a, us)}
+        who = us[e["to"][0]]["name"] if e["kind"] in ("born", "spun_off", "merged") or not e["from"] else a[e["from"][0]]["name"]
       out["key"] = _key(s, e["kind"], who, short)
-      if not ev.is_touched(e, a, us, heads, whole):
+      if not e.get("across") and not ev.is_touched(e, a, us, heads, whole):
         review["dropped_untouched"].append(out)
         continue
       call = calls.get(out["key"]) or calls.get(f"{s}:{e['kind']}:{(out['from'] or out['to'])[0]}")
@@ -115,6 +181,20 @@ def build(cfg: dict[str, Any], root: Path) -> tuple[dict[str, Any], dict[str, An
         out["flags"] = flags
         review["flagged"].append(out)
       events_out.append(out)
+    if prev is not None:
+      kept_ids = [x for x in evs if x["kind"] != "renamed"]
+      in_ev_from = {prev_ids[i] for x in evs for i in x["from"]}
+      in_ev_to = {cur_ids[j] for x in evs for j in x["to"]}
+      for uid in set(prev_ids) - set(cur_ids) - in_ev_from:
+        review["silent"].append({"series": s, "unit": uid, "ends": True})
+      for uid in set(cur_ids) - set(prev_ids) - in_ev_to:
+        review["silent"].append({"series": s, "unit": uid, "starts": True})
+    if prev is not None and "reissue" not in flags:
+      buffer = [b for b in buffer if not b["used"] and _days(b["date"], fr["date"]) <= window]
+      for i, t in f["gone_list"]:
+        if prev_ids[i] in cur_ids:
+          buffer.append({"text": t, "uid": prev_ids[i], "size": prev[i]["size"], "series": s, "date": fr["date"],
+                         "used": False})
     renamed_to = {cur_ids[j] for e in evs if e["kind"] == "renamed" and ev.is_touched(e, a, us, heads, whole)
                   for j in e["to"]}
     for j, u in enumerate(us):
@@ -145,7 +225,9 @@ def build(cfg: dict[str, Any], root: Path) -> tuple[dict[str, Any], dict[str, An
                        "sizes": {cur_ids[j]: u["size"] for j, u in enumerate(us)}})
     prev, prev_ids, prev_first = us, cur_ids, first
   used = {e["key"] for e in events_out} | {e["key"] for e in review["dropped_untouched"]}
-  review["unused_calls"] = sorted(k for k in calls if " " in str(k) and k not in used)  # a call that names no event
+  first = frames_out[0]["series"] if frames_out else 0   # a call before the run's first frame is not this run's
+  review["unused_calls"] = sorted(k for k in calls if " " in str(k) and k not in used
+                                  and not (str(k).split()[0].isdigit() and int(str(k).split()[0]) <= first))
   for uid in sorted(units_out):  # a unit's sector: by any of its names, else its first parent's (ui-requirements U19)
     rec = units_out[uid]
     sec = next((sector_of[n["name"]] for n in rec["names"] if n["name"] in sector_of), None)

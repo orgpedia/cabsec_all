@@ -78,3 +78,25 @@ def test_renamed_and_moved_is_not_a_split():
   assert not any(k == "split" for k, _, _ in got)
   assert ("renamed", (0,), (0,)) in got and ("moved", (0,), (1,)) in got
   assert b_ids == a_ids
+
+
+def test_a_unit_ending_into_a_new_unit_is_absorbed():
+  # 1979: Education and Social Welfare splits into Education and Culture and Social Welfare; the Department of
+  # Culture's subjects go to Education and Culture, which the split makes
+  edu = [f"Education subject {w}." for w in "a b c d e f g h".split()]
+  sw = [f"Welfare subject {w}." for w in "a b c d".split()]
+  cul = [f"Culture subject {w}." for w in "a b c d e".split()]
+  _, _, got = run([U("Ministry of Education and Social Welfare", edu + sw), U("Department of Culture", cul)],
+                  [U("Ministry of Education and Culture", edu + cul), U("Ministry of Social Welfare", sw)])
+  assert any(k == "split" for k, _, _ in got)
+  assert ("absorbed", (1,), (0,)) in got
+
+
+def test_a_small_part_of_a_split_is_one_of_its_parts():
+  # 1971: a unit splits, and a third, smaller unit gets a share of its subjects too small for the split to count
+  big = [f"Subject {w} of the old ministry." for w in "a b c d e f g h i j k l m n o p q r s t".split()]
+  _, b_ids, got = run([U("Ministry of Education and Youth Services", big)],
+                      [U("Ministry of Education and Social Welfare", big[:9]), U("Department of Culture", big[9:17]),
+                       U("Department of Science and Technology", big[17:])])
+  split = [x for x in got if x[0] == "split"]
+  assert split and set(split[0][2]) == {0, 1, 2}

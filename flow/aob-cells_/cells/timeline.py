@@ -26,6 +26,7 @@ def timeline(cells: dict[str, Any], people: dict[str, Any]) -> dict[str, Any]:
     "events": [{k: e[k] for k in ("series", "date", "kind", "from", "to", "moved", "caption", "key", "salient", "story",
                                   "flags") if k in e} for e in events],
     "people": holders,
+    "reissues": {},
   }
 
 
@@ -38,6 +39,8 @@ def main(path: str) -> None:
   cells = json.loads((out / f"{stem}.json").read_text(encoding="utf-8"))
   people = json.loads((root / cfg.get("people", "people.json")).read_text(encoding="utf-8"))
   tl = timeline(cells, people)
+  first = tl["frames"][0]["series"]
+  tl["reissues"] = {str(k): v for k, v in (cfg.get("reissue_notes") or {}).items() if int(k) > first}
   ui = (root / cfg.get("ui", "../ui")).resolve()
   ui.mkdir(parents=True, exist_ok=True)
   name = stem.replace("cells", "timeline")

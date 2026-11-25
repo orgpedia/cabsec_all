@@ -1,5 +1,5 @@
 version = 1
-revision = 3
+revision = 5
 requires-python = ">=3.12"
 resolution-markers = [
     "python_full_version >= '3.14'",
@@ -586,6 +586,9 @@ requires-dist = [
     { name = "google-cloud-vision", marker = "extra == 'gcv'", specifier = ">=3.7" },
     { name = "google-genai", marker = "extra == 'gemini'", specifier = ">=1.20" },
     { name = "govdoc", editable = "../doc/packages/govdoc" },
+    { name = "httpx", marker = "extra == 'indic'", specifier = ">=0.27" },
+    { name = "modal", marker = "extra == 'indic'", specifier = ">=1.6" },
+    { name = "numpy", marker = "extra == 'scans'", specifier = ">=1.26" },
     { name = "pillow", marker = "extra == 'gcv'", specifier = ">=10" },
     { name = "pillow", marker = "extra == 'ocr'", specifier = ">=10" },
     { name = "pillow", marker = "extra == 'unipdf'", specifier = ">=10" },
@@ -594,7 +597,7 @@ requires-dist = [
     { name = "pyyaml", specifier = ">=6" },
     { name = "unipdf", marker = "extra == 'unipdf'", git = "https://github.com/mukundesh/unipdf?rev=v0.2.2" },
 ]
-provides-extras = ["ocr", "gcv", "gemini", "unipdf"]
+provides-extras = ["ocr", "gcv", "gemini", "indic", "scans", "unipdf"]
 
 [[package]]
 name = "govdoc-studio"

@@ -81,5 +81,7 @@ def flows(a: list[dict[str, Any]], b: list[dict[str, Any]], peer: dict[int, int]
   # the subjects not followed, with their units: kept for a transfer made across two notifications (build.py)
   gone_list = [(e["unit"], e["text"]) for i, e in enumerate(eb) if i not in followed]
   new_list = [(e["unit"], e["text"]) for j, e in enumerate(ea) if j not in got]
+  # each subject followed: (before unit, after unit, its text after), for the subjects a change moved (site pages)
+  links = [(eb[i]["unit"], ea[j]["unit"], ea[j]["text"]) for j, i in got.items()]
   return {"pairs": pairs, "gone": gone, "new": new, "followed": len(got), "before": len(eb), "after": len(ea),
-          "gone_list": gone_list, "new_list": new_list}
+          "gone_list": gone_list, "new_list": new_list, "links": links}

@@ -1,0 +1,95 @@
+# Before the Allocation of Business Rules, 1961 (requirements R12, ui-requirements U41).
+#
+# There is no Second Schedule before 14 January 1961, so these frames come from the lists of ministers and their
+# portfolios (1947-1961.firstschedule.txt), read as ministries:
+#   - a portfolio naming two ministries ("Home Affairs and States") is two units;
+#     Transport and Railways are one ministry until 1957; Law & Minority Affairs is Law;
+#   - ministries held by a Minister of State count; "Minister of State in the Ministry of X" and Deputy Ministers don't;
+#   - a ministry missing from one list but present before and after is carried through (I&B, Jan 1950;
+#     Commerce and Industry & Supply, May 1950);
+#   - the three secretariats are on stage from the start, as in 1961.
+# Sizes are worked back from 1961: each ministry gets the subjects of the 1961 cell(s) it leads to, shared where two
+# ministries lead to one. They are approximate, and the page says so (frames flagged "approx").
+# Ids: a unit that reaches 1961 keeps its 1961 id (U...); one that ends before gets a P id.
+# Names: [from series, full name, short name, kind (default ministry)].
+
+note: "The Allocation of Business Rules, 1961 begin (14 January 1961). From here a ministry's size is its count of
+  subjects in the Second Schedule; before this, ministries come from the cabinet lists and sizes are worked back from 1961."
+
+frames:
+  - {series: -5, date: "1947-08-15", order: 1_Upload_2027.pdf}
+  - {series: -4, date: "1950-01-26", order: 1_Upload_2025.pdf}
+  - {series: -3, date: "1950-05-06", order: 1_Upload_2026.pdf}
+  - {series: -2, date: "1952-05-13", order: 1_Upload_2945.pdf}
+  - {series: -1, date: "1957-04-16", order: 1_Upload_2023.pdf}
+
+units:
+  # ministries that end before 1961
+  P01: {sector: gov,   names: [[-5, Ministry of States, States]]}
+  P02: {sector: sci,   names: [[-5, Ministry of Scientific Research, Scientific Research],
+                               [-2, Ministry of Natural Resources and Scientific Research, Natural Resources & Scientific Research]]}
+  P03: {sector: infra, names: [[-5, Ministry of Communications, Communications]]}
+  P04: {sector: econ,  names: [[-5, Ministry of Commerce, Commerce]]}
+  P05: {sector: econ,  names: [[-5, Ministry of Industry and Supply, Industry & Supply]]}
+  P06: {sector: infra, names: [[-5, "Ministry of Works, Mines and Power", "Works, Mines & Power"]]}
+  # names before 1961 for the units that reach it
+  U001: {names: [[-2, Ministry of Commerce & Industry, Commerce & Industry]]}
+  U002: {names: [[-1, Ministry of Community Development, Community Development]]}
+  U004: {names: [[-5, Ministry of Education, Education],
+                 [-1, Ministry of Education and Scientific Research, Education & Scientific Research]]}
+  U005: {names: [[-5, Ministry of External Affairs and Commonwealth Relations, External Affairs & Commonwealth Relations],
+                 [-4, Ministry of External Affairs, External Affairs]]}
+  U012: {names: [[-5, Ministry of Labour, Labour],
+                 [-1, Ministry of Labour & Employment, Labour & Employment]]}
+  U017: {names: [[-2, Ministry of Production, Production],
+                 [-1, "Ministry of Steel, Mines & Fuel", "Steel, Mines & Fuel"]]}
+  U018: {names: [[-5, Ministry of Transport, Transport],
+                 [-4, Ministry of Transport and Railways, Transport & Railways],
+                 [-1, Ministry of Transport & Communications, Transport & Communications]]}
+  U021: {names: [[-3, Ministry of Parliamentary Affairs, Parliamentary Affairs]]}
+  U025: {names: [[-2, Ministry of Planning and River Valley Schemes, Planning & River Valley Schemes]]}
+  U019: {names: [[-2, "Ministry of Works, Housing & Supply", "Works, Housing & Supply"]]}
+
+# sizes at each frame (worked back from series 0)
+sizes:
+  -5: &y1947 {U005: 42, U009: 62, P01: 62, U003: 17, U006: 70, U004: 31, P02: 80, U007: 65, U012: 39, U008: 77,
+              U013: 29, U010: 23, P03: 16, U018: 20, P04: 38, P05: 39, P06: 87, U022: 6, U023: 1, U024: 1}
+  -4: *y1947
+  -3: {<<: *y1947, U015: 20, U021: 15}
+  -2: {U005: 42, U009: 62, P01: 62, U003: 17, U006: 70, U004: 31, P02: 80, U007: 65, U012: 39, U008: 77,
+       U013: 29, U010: 23, P03: 16, U018: 20, U015: 20, U021: 15, U022: 6, U023: 1, U024: 1,
+       U001: 77, U019: 25, U017: 24, U025: 45}
+  -1: {U005: 42, U009: 124, U003: 17, U006: 70, U004: 111, U007: 65, U012: 39, U008: 77, U013: 29, U010: 23,
+       U018: 34, U014: 2, U015: 20, U021: 15, U022: 6, U023: 1, U024: 1, U001: 77, U019: 25, U017: 24,
+       U025: 7, U011: 38, U020: 7, U002: 10}
+
+# the changes; series 0 is the Rules of 1961, whose sizes come from cells.json
+events:
+  - {series: -4, kind: renamed, from: [U005], to: [U005]}
+  - {series: -4, kind: renamed, from: [U018], to: [U018]}
+  - {series: -3, kind: born, to: [U015], moved: [20]}
+  - {series: -3, kind: born, to: [U021], moved: [15]}
+  - {series: -2, kind: merged, from: [P04, P05], to: [U001], moved: [38, 39], salient: true,
+     story: "Commerce, and Industry and Supply, merge into one Ministry of Commerce and Industry."}
+  - {series: -2, kind: split, from: [P06], to: [U019, U017, U025], moved: [25, 24, 38], salient: true,
+     story: "Works, Mines and Power breaks up: Works, Housing and Supply; Production; and river valley schemes go to Planning."}
+  - {series: -2, kind: renamed, from: [P02], to: [P02]}
+  - {series: -1, kind: absorbed, from: [P01], to: [U009], moved: [62], salient: true,
+     story: "The Ministry of States, which integrated the princely states, joins Home Affairs."}
+  - {series: -1, kind: absorbed, from: [P02], to: [U004], moved: [80]}
+  - {series: -1, kind: renamed, from: [U004], to: [U004]}
+  - {series: -1, kind: absorbed, from: [P03], to: [U018], moved: [16]}
+  - {series: -1, kind: renamed, from: [U018], to: [U018]}
+  - {series: -1, kind: spun_off, from: [U018], to: [U014], moved: [2], salient: true,
+     story: "Railways becomes a ministry of its own; Transport takes in Communications."}
+  - {series: -1, kind: spun_off, from: [U025], to: [U011], moved: [38]}
+  - {series: -1, kind: renamed, from: [U017], to: [U017]}
+  - {series: -1, kind: renamed, from: [U012], to: [U012]}
+  - {series: -1, kind: born, to: [U020], moved: [7]}
+  - {series: -1, kind: born, to: [U002], moved: [10]}
+  - {series: 0, kind: spun_off, from: [U004], to: [U016], moved: [80], salient: true,
+     story: "Scientific Research and Cultural Affairs separates from Education."}
+  - {series: 0, kind: renamed, from: [U004], to: [U004]}
+  - {series: 0, kind: renamed, from: [U002], to: [U002]}
+  - {series: 0, kind: renamed, from: [U025], to: [U025]}
+  - {series: 0, kind: renamed, from: [U021], to: [U021]}

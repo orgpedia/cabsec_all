@@ -11,6 +11,8 @@ schedule1_reissues: [30, 46, 58, 73, 88, 89, 135, 217]   # the First Schedule su
 restarts: [301]
 move_window_days: 90   # a transfer made across two notifications this far apart is one move (requirements R7b)
 people: people.json
+# the years before the Rules, from the cabinet lists (requirements R12); only for the run from the start
+prologue: prologue.yml
 # what the page says at a re-issue (ui-requirements U24): its size changes and moves are left out as events (R11)
 reissue_notes:
   174: "The Second Schedule is printed afresh (S.O. 696(E), 25 September 1985): its subjects reworded and renumbered, with the year's reorganisation."

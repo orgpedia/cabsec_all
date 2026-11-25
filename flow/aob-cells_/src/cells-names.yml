@@ -340,3 +340,8 @@ events:
 
 # units: how a unit is shown, by its id, overriding the above: {name: …, short: …, hindi: …}
 units: {}
+
+# A ministry's line (ui-requirements U67): worked out from its splits and mergers; here, a step set by hand.
+# <unit id>: <the unit it carries on> | stop
+lines:
+  U109: U014   # Railways from 1986 carries on Railways 1957–1985 (the data has no Railways for 1985–86)

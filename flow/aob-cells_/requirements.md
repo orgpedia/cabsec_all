@@ -1,6 +1,6 @@
 # Requirements: the AoB units as cells
 
-**Version:** 0.3 · **Date:** November 24, 2026 · **Status:** requirements only. This document is kept apart from `aob.md`, and it does not describe the code.
+**Version:** 0.4 · **Date:** November 24, 2026 · **Status:** requirements only. This document is kept apart from `aob.md`, and it does not describe the code.
 
 ---
 
@@ -138,6 +138,7 @@ Two things about the data matter here:
 - **R9. Small changes** below a good share resize the bubble but are not events.
 - **R10. Only touched units.** An event counts only at a unit whose heading or subjects the amendment's own changes reach. A difference elsewhere is a reading or matching fault, and goes to review.
 - **R11. Re-issues and restarts.** Frames at the re-issues, the First Schedule substitutions and the restart after series 301 are marked, because many units change at once there. At a re-issue of the Second Schedule (174, 1985; 271, 2004) the subjects are reworded and renumbered, so its size changes and moves are not events (the cells resize, R9; the review lists them, `reissue_quiet`); its structural events stay. What the page says there is in `reissue_notes` (the cells' config).
+- **R12. Before the Rules (1947–1960).** There is no Second Schedule before 14 January 1961, so the run from the start begins with frames read from the lists of ministers and their portfolios (15 August 1947, 26 January 1950, 6 May 1950, 13 May 1952, 16 April 1957), written by hand in `src/prologue.yml`. A portfolio naming two ministries is two units ("Home Affairs and States"); Transport and Railways are one ministry until Railways becomes its own in 1957; ministries held by a Minister of State count, but "Minister of State in the Ministry of X" and Deputy Ministers don't; a ministry missing from one list but present before and after is carried through. A unit that reaches 1961 keeps its 1961 id; one that ends before has a `P` id. Sizes are worked back from 1961 (each ministry gets the subjects of the 1961 cell or cells it leads to, shared where two lead to one), so they are approximate, and those frames and events are flagged `approx`. The events are written by hand with the kinds of §3. The 2004 run has no prologue.
 - **R12. Captions.** Every event has a one-line caption naming its units and counts, for example "Ministry of Rehabilitation joins Works, Housing & Supply (25 → 45)".
 
 - **R12a. A first frame from 2004.** The build can start at any amendment (`start`). From the 2004 re-issue (series 271) on, every First Schedule item has its Second Schedule unit, and each step follows at least 98% of subjects, except at the restart (series 301). The chart and the video are first built against these frames (`cells-2004.json`, 116 frames) while the earlier years' data is fixed; the whole run is the same format with `start: 0`. The first frame is marked `start`, and its units are shown as `born` there.

@@ -55,7 +55,7 @@ def first_items(tree: dict[str, Any]) -> list[dict[str, Any]]:
   for m in schedule(tree, "1").get("children", []):
     if m.get("type") in TOP and not _omitted(m) and (m.get("heading") or "").strip():
       h = m["heading"]
-      out.append({"num": m.get("num"), "heading": h, "name": name(h), "type": m.get("type"),
+      out.append({"num": m.get("num"), "heading": h, "name": name(h), "type": m.get("type"), "eid": m.get("eId"),
                   "hindi": (m.get("heading_hi") or "").strip() or hindi_in(h)})
   return out
 
@@ -119,6 +119,7 @@ def units(tree: dict[str, Any]) -> dict[str, Any]:
     out.append({"name": it["name"] if it else name(h), "heading": h, "hkey": hkey(h),
                 "hindi": (it["hindi"] if it else None) or hindi_in(h),
                 "first": it["heading"] if it else None, "first_num": it["num"] if it else None,
+                "eid": m.get("eId"), "first_eid": it.get("eid") if it else None,   # its places in the two schedules
                 "kind": kind_of(it["type"] if it else m.get("type"), it["name"] if it else name(h)),
                 "size": len(subs), "texts": [unmarked(full(e)) for e in subs]})
   taken = set(pair.values())

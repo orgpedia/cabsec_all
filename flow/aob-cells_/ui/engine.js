@@ -50,8 +50,9 @@ class Data {
 // focus and a caption at each salient event (U8, U9).
 function direct(data, view, hidden){
   hidden = hidden || new Set();
-  const full = view === "full", isHidden = e => hidden.has(e.kind);
-  const yearDur = full ? 1.8 : 1.05, quietYear = full ? 0.5 : 0.35, INTRO = 1.6, END = 3.0;
+  const full = view === "full", isHidden = e => hidden.has(e.kind) || e.mute;   // mute: not this run's to show (a ministry's own run, U54)
+  const fast = !!data.tl.center;   // a ministry's own run (U54): the rest goes by as fast as it can
+  const yearDur = full ? 1.8 : 1.05, quietYear = fast ? 0.12 : full ? 0.5 : 0.35, INTRO = 1.6, END = 3.0;
   const frames = data.frames, y0 = +frames[0].date.slice(0, 4), y1 = +frames[frames.length - 1].date.slice(0, 4);
   const beats = [], times = [], focus = [], captions = [];
   const busy = {};
@@ -79,15 +80,16 @@ function direct(data, view, hidden){
       const evs = (evBySeries.get(f.series) || []).map(e => ({...e}));
       const beat = {series: f.series, date: f.date, t, events: evs};
       for (const e of evs) e.beatT = t;   // the frame's time: the safety net waits for its events
-      const note = data.reissues[f.series];   // a re-issue: one caption first, then its changes (U24)
-      if (note) captions.push({t0: t, t1: t + 3.4, note, date: f.date});
+      const r = data.reissues[f.series];   // a re-issue, or the Rules beginning: one caption first, then its changes (U24)
+      const note = r && (r.text || r);
+      if (note) captions.push({t0: t, t1: t + 3.4, note, label: r.label || "Re-issue", date: f.date});
       let stagger = note ? 0.6 : 0;
       const sal = full ? [] : evs.filter(e => e.salient && !isHidden(e));
       for (const e of evs.filter(e => !sal.includes(e))){   // the quick ones; a hidden kind plays quietly and faster
         const ids = [...e.from, ...e.to];
         e.quiet = isHidden(e);
         let s = t + stagger; for (const u of ids) s = Math.max(s, busy[u] || 0);
-        e.t0 = s; e.dur = DUR[e.kind] * (e.quiet ? 0.55 : full ? 0.85 : 0.8); stagger += e.quiet ? 0.04 : 0.12;
+        e.t0 = s; e.dur = DUR[e.kind] * (e.quiet ? (fast ? 0.22 : 0.55) : full ? 0.85 : 0.8); stagger += e.quiet ? (fast ? 0.005 : 0.04) : 0.12;
         for (const u of ids) busy[u] = Math.max(busy[u] || 0, e.quiet ? s + 0.1 : s + e.dur);   // a hidden change holds up no one
       }
       let hold = note ? t + 3.4 : t + (sal.length ? 0.2 : 0);
@@ -108,9 +110,10 @@ function direct(data, view, hidden){
   const lastT = Math.max(base[y1 + 1] + shift, cursor);
   let tEnd = lastT;
   for (const b of beats) for (const e of b.events) tEnd = Math.max(tEnd, e.t0 + e.dur + 0.5);
-  times.push([tEnd, Date.UTC(y1, 11, 31)]);
+  const endMs = data.tl.endDate ? parseDate(data.tl.endDate) : Date.UTC(y1, 11, 31);   // a past term ends the day before the next PM
+  times.push([tEnd, endMs]);
   const T = tEnd + END;
-  times.push([T, Date.UTC(y1, 11, 31)]);
+  times.push([T, endMs]);
   // keep the date mapping monotonic
   for (let i = 1; i < times.length; i++) if (times[i][0] < times[i - 1][0]) times[i][0] = times[i - 1][0];
   const all = beats.flatMap(b => b.events).sort((a, b) => a.t0 - b.t0);
@@ -131,10 +134,13 @@ function dateAt(dir, t){
 class Sim {
   constructor(data, dir, W, H){
     this.data = data; this.dir = dir; this.W = W; this.H = H;
+    // a ministry's own run (U54): its line held in the middle (U67), its kin drawn in
+    this.line = data.tl.center ? [].concat(data.tl.center) : null; this.center = this.line ? new Set(this.line) : null;
+    this.kin = data.tl.kin ? new Set(data.tl.kin) : null;
     this.CX = W / 2; this.CY = H / 2 + 6;
     // cells sized for the run's largest frame, so the government fits the stage in every year (864 subjects in
     // 1961, 1,846 at most)
-    const area = W * H * 0.40, total = Math.max(...data.frames.map(f => Object.values(f.sizes).reduce((a, b) => a + b, 0)));
+    const area = W * H * 0.40, total = data.tl.scaleTotal || Math.max(...data.frames.map(f => Object.values(f.sizes).reduce((a, b) => a + b, 0)));   // a term uses the whole run's scale
     this.K = Math.sqrt(area / (Math.PI * Math.max(total, 1)));
     this.RMIN = Math.max(7, this.K * 1.25); this.PAD = 13;
     this.anchor = {};
@@ -390,10 +396,14 @@ class Sim {
       c.rv += (c.rt - c.r) * 0.085; c.rv *= 0.80; c.r += c.rv; if (c.r < 0){ c.r = 0; c.rv = 0; }
       if (settling) c.r = c.rt;
       if (c.pin){ c.x += (c.pin.x - c.x) * c.pin.k; c.y += (c.pin.y - c.y) * c.pin.k; c.vx = c.vy = 0; }
+      else if (this.center && this.center.has(c.id)){   // a ministry's own run: it keeps the middle
+        c.vx += (this.CX - c.x) * 0.03; c.vy += (this.CY - c.y) * 0.03; c.vx *= 0.8; c.vy *= 0.8; c.x += c.vx; c.y += c.vy;
+      }
       else {
-        const a = this.anchor[c.sector];
-        c.vx += (a.x - c.x) * 0.0016 + (this.CX - c.x) * 0.0012;
-        c.vy += (a.y - c.y) * 0.0016 + (this.CY - c.y) * 0.0018;
+        const a = this.kin && this.kin.has(c.id) ? {x: this.CX, y: this.CY} : this.anchor[c.sector];
+        const k = this.kin && !this.kin.has(c.id) ? 0.0010 : 0.0016;
+        c.vx += (a.x - c.x) * k + (this.CX - c.x) * 0.0012;
+        c.vy += (a.y - c.y) * k + (this.CY - c.y) * 0.0018;
         c.vx += Math.sin(t * 0.6 + c.phase) * 0.012; c.vy += Math.cos(t * 0.5 + c.phase) * 0.012;
         c.vx *= 0.86; c.vy *= 0.86; c.x += c.vx; c.y += c.vy;
       }
@@ -423,13 +433,15 @@ class Sim {
   camera(st, t){
     const f = this.focusAt(t);
     let tx = this.CX, ty = this.CY, ts = 1;
+    const mc = this.line && [...this.line].reverse().map(id => st.cells[id]).find(Boolean);   // the line's latest unit on stage
+    if (mc && !f){ tx = this.CX + (mc.x - this.CX) * 0.7; ty = this.CY + (mc.y - this.CY) * 0.7; ts = 1.12; }   // the camera stays with it
     if (f){
       const cs = f.ids.map(id => st.cells[id]).filter(Boolean);
       let x0 = 1e9, y0 = 1e9, x1 = -1e9, y1 = -1e9;
       const add = (x, y, r) => { x0 = Math.min(x0, x - r); x1 = Math.max(x1, x + r); y0 = Math.min(y0, y - r); y1 = Math.max(y1, y + r); };
       for (const c of cs) add(c.x, c.y, Math.max(c.r, c.rt) + 40);
       if (!cs.length){ const g = st.gone[f.e.series + ":" + f.sector] || this.anchor[f.sector]; add(g.x, g.y, 90); }
-      ts = clamp(Math.min(this.W / (x1 - x0), this.H / (y1 - y0)) * 0.5, 1, 1.75);
+      ts = clamp(Math.min(this.W / (x1 - x0), this.H / (y1 - y0)) * 0.5, 1, (typeof window !== "undefined" && window.CELLS_MAXZOOM) || 1.75);   // the video zooms in less
       tx = (x0 + x1) / 2; ty = (y0 + y1) / 2 + 14 / ts;
     }
     st.cam.x += (tx - st.cam.x) * 0.045; st.cam.y += (ty - st.cam.y) * 0.045; st.cam.s += (ts - st.cam.s) * 0.045;
@@ -474,6 +486,8 @@ class Player {
 const NS = "http://www.w3.org/2000/svg";
 function svgEl(tag, attrs, parent){ const e = document.createElementNS(NS, tag); for (const k in attrs) e.setAttribute(k, attrs[k]); if (parent) parent.appendChild(e); return e; }
 
+const GREY = {c: "#dfe2e6", d: "#c9cdd3"};   // the cells a ministry's own run leaves out
+
 class Renderer {
   constructor(svg, W, H){
     this.svg = svg; this.W = W; this.H = H;
@@ -506,7 +520,8 @@ class Renderer {
              shine: svgEl("circle", {fill: "url(#shine)"}), text: svgEl("text", {"text-anchor": "middle", "font-weight": 600}), front: null, key: "", sector: c.sector};
         this.els.set(c.id, E);
       }
-      if (E.sector !== c.sector){ const col = SECTORS[c.sector]; E.mem.setAttribute("fill", col.d); E.fill.setAttribute("fill", col.c); E.nuc.setAttribute("fill", col.d); E.sector = c.sector; }
+      const grey = !!this.keep && !this.keep.has(c.id), ck = c.sector + (grey ? "-" : "");   // a ministry's own run: only its kin in colour
+      if (E.sector !== ck){ const col = grey ? GREY : SECTORS[c.sector] || SECTORS.gov; E.mem.setAttribute("fill", col.d); E.fill.setAttribute("fill", col.c); E.nuc.setAttribute("fill", col.d); E.sector = ck; E.key = ""; }
       const front = (!!st.focusIds && st.focusIds.includes(c.id)) || (!st.focusIds && !!hl && hl.has(c.id));
       if (E.front !== front){
         const f = front ? "F" : "";
@@ -529,7 +544,7 @@ class Renderer {
       const key = text + "|" + lr + "|" + front + "|" + (front ? Math.round(s * 20) : 0);
       if (E.key !== key){ E.key = key; E.L = layoutLabel(text, lr, front, s); E.text.textContent = "";
         if (E.L){ E.L.lines.forEach((ln, i) => { const t = svgEl("tspan", {x: 0, dy: i ? "1.1em" : 0}, E.text); t.textContent = ln; });
-          E.text.setAttribute("font-size", E.L.fs.toFixed(2)); E.text.setAttribute("fill", E.L.out ? "#111827" : "#fff");
+          E.text.setAttribute("font-size", E.L.fs.toFixed(2)); E.text.setAttribute("fill", E.L.out ? "#111827" : (this.keep && !this.keep.has(c.id) ? "#6b7280" : "#fff"));
           E.text.setAttribute("stroke", E.L.out ? "#fff" : "none"); E.text.setAttribute("stroke-width", E.L.out ? 3.5 / s : 0); E.text.setAttribute("paint-order", "stroke"); } }
       if (E.L){ const h = E.L.fs * 1.1 * E.L.lines.length, y = E.L.out ? c.y + br + 6 + E.L.fs : c.y - h / 2 + E.L.fs * .82;
         E.text.setAttribute("transform", `translate(${c.x.toFixed(1)} ${y.toFixed(1)})`); E.text.setAttribute("opacity", vis && br > 6 ? 1 : 0); }

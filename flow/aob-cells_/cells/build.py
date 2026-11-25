@@ -1,6 +1,7 @@
 """cells.json and cells-review.json from the frames (requirements.md)."""
 
 import re
+from concurrent.futures import ProcessPoolExecutor
 import subprocess
 from datetime import date, datetime
 from pathlib import Path
@@ -33,6 +34,39 @@ def _nm(u: dict[str, Any], s: int, short: dict[str, str]) -> dict[str, Any]:
           "kind": u["kind"], "from": s}
 
 
+def _moved_subjects(e: dict[str, Any], f: dict[str, Any], prev_ids: list[str], cur_ids: list[str],
+                    most: int = 120) -> dict[str, list[str]]:
+  """The subjects an event moved, by their text after it, under the unit that took them: those followed from one
+  of its units before to one of its units after under another id; for a unit created from nothing, its subjects
+  not followed from anywhere."""
+  fr, to = set(e["from"]), set(e["to"])
+  if e["kind"] in ("renamed", "grew", "shrank", "ended"):
+    return {}
+  out: dict[str, list[str]] = {}
+  for i, j, t in f.get("links", []):
+    if i in fr and j in to and prev_ids[i] != cur_ids[j]:
+      out.setdefault(cur_ids[j], []).append(t)
+  if e["kind"] == "born" or not fr:
+    for j, t in f.get("new_list", []):
+      if j in to:
+        out.setdefault(cur_ids[j], []).append(t)
+  return {u: ts[:most] for u, ts in out.items()}
+
+
+def _changes_at(changes: list[dict[str, Any]], places: list[Any]) -> list[int]:
+  """The numbers (seq) of an amendment's changes whose place, before or after, is in one of the units' places in
+  the schedules (eIds, and everything under them)."""
+  ps = {p for ps in places if ps for p in ps if p}
+  out = set()
+  for c in changes:
+    for side in ("before", "after"):
+      for x in c.get(side) or []:
+        e = x.get("eId") or ""
+        if any(e == p or e.startswith(p + "__") for p in ps):
+          out.add(c["seq"])
+  return sorted(out)
+
+
 def _days(a: str, b: str) -> int:
   return (datetime.strptime(b, "%Y-%m-%d") - datetime.strptime(a, "%Y-%m-%d")).days
 
@@ -63,10 +97,12 @@ def build(cfg: dict[str, Any], root: Path) -> tuple[dict[str, Any], dict[str, An
                             "moves_across": []}
   window = int(cfg.get("move_window_days", 90))   # a transfer made across two notifications this far apart (R7b)
   buffer: list[dict[str, Any]] = []                # subjects taken out and not yet seen put in elsewhere
-  prev, prev_ids, prev_first = None, [], []
+  prev, prev_ids, prev_first, prev_eids = None, [], [], {}
   start = int(cfg.get("start", 0))
-  for fr in read.frames(states, base, cfg.get("base_date", "1961-01-14"), start):
-    got = count.units(fr["tree"])
+  all_frames = list(read.frames(states, base, cfg.get("base_date", "1961-01-14"), start))
+  with ProcessPoolExecutor() as ex:   # each frame's units, read in parallel: the slow part of the build
+    all_units = list(ex.map(count.units, [fr["tree"] for fr in all_frames], chunksize=8))
+  for fr, got in zip(all_frames, all_units):
     for u in got["units"]:
       if u["name"] in spelling:
         u["name"] = spelling[u["name"]]
@@ -85,6 +121,7 @@ def build(cfg: dict[str, Any], root: Path) -> tuple[dict[str, Any], dict[str, An
       if not u["size"]:
         review["empty"].append({"series": fr["series"], "unit": u["name"]})
     s = fr["series"]
+    cur_eids: dict[str, list[str]] = {}
     flags = (["reissue"] if s in reissues else []) + (["schedule1_reissue"] if s in s1 else []) + \
             (["restart"] if s in restarts else []) + (["start"] if prev is None else [])
     if prev is None:
@@ -102,6 +139,7 @@ def build(cfg: dict[str, Any], root: Path) -> tuple[dict[str, Any], dict[str, An
       review["steps"].append({"series": s, "followed": f["followed"], "before": f["before"], "after": f["after"],
                               "flags": flags})
       cur_ids, evs = ev.step(prev, prev_ids, us, f, ids, least, share)
+      cur_eids = {cur_ids[j]: [x for x in (u.get("eid"), u.get("first_eid")) if x] for j, u in enumerate(us)}
       heads = ev.touched(changes.get(s, []), [prev_first, first])
       # R7b: subjects taken out of a unit in one notification and put into another in a later one, within the window
       across = []
@@ -180,6 +218,14 @@ def build(cfg: dict[str, Any], root: Path) -> tuple[dict[str, Any], dict[str, An
       if flags:
         out["flags"] = flags
         review["flagged"].append(out)
+      if prev is not None and "reissue" not in flags and not e.get("across"):
+        subs = _moved_subjects(e, f, prev_ids, cur_ids)
+        if subs:
+          out["subjects"] = subs   # the subjects it moved, by their text (ui-requirements U56)
+      seqs = _changes_at(changes.get(s, []), [prev_eids.get(u) for u in out["from"] + out["to"]]
+                         + [cur_eids.get(u) for u in out["from"] + out["to"]])
+      if seqs:
+        out["changes"] = seqs   # the amendment's changes that reach the event's units (ui-requirements U41)
       events_out.append(out)
     if prev is not None:
       kept_ids = [x for x in evs if x["kind"] != "renamed"]
@@ -222,8 +268,10 @@ def build(cfg: dict[str, Any], root: Path) -> tuple[dict[str, Any], dict[str, An
       units_out[uid]["ended"] = s
     frames_out.append({"series": s, "date": fr["date"], "notification": ", ".join(fr["docs"]), "file": fr["file"],
                        **({"flags": flags} if flags else {}),
-                       "sizes": {cur_ids[j]: u["size"] for j, u in enumerate(us)}})
+                       "sizes": {cur_ids[j]: u["size"] for j, u in enumerate(us)},
+                       "eids": {cur_ids[j]: [u.get("eid"), u.get("first_eid")] for j, u in enumerate(us)}})
     prev, prev_ids, prev_first = us, cur_ids, first
+    prev_eids = {cur_ids[j]: [x for x in (u.get("eid"), u.get("first_eid")) if x] for j, u in enumerate(us)}
   used = {e["key"] for e in events_out} | {e["key"] for e in review["dropped_untouched"]}
   first = frames_out[0]["series"] if frames_out else 0   # a call before the run's first frame is not this run's
   review["unused_calls"] = sorted(k for k in calls if " " in str(k) and k not in used

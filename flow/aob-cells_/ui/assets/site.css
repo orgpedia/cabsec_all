@@ -1,0 +1,102 @@
+/* The document pages (amendments, Rules): orgpedia's style, as on the chart (ui-requirements U18, U51). */
+:root{--bg:#f3f4f6;--card:#fff;--line:#e5e7eb;--line2:#d1d5db;--ink:#333;--ink-strong:#111827;--muted:#4b5563;--muted2:#6b7280;
+  --blue:#2563eb;--blue-800:#1e40af;--blue-100:#dbeafe;--blue-50:#eff6ff;--ok:#15803d;--bad:#b91c1c;--mark:#fde68a}
+*{box-sizing:border-box} html,body{margin:0}
+body{background:var(--bg);color:var(--ink);font-family:ui-sans-serif,system-ui,sans-serif,"Apple Color Emoji","Segoe UI Emoji";font-size:16px;line-height:1.5}
+a{color:var(--blue)} a:hover{color:var(--blue-800)}
+.site-bar{position:fixed;top:0;left:0;right:0;z-index:50;background:#000;color:#f9fafb;padding:6px 16px;border-bottom:3px solid #3b82f6}
+.site-in{display:flex;align-items:center;gap:14px;width:100%;max-width:1280px;margin:0 auto;height:40px}
+.site-brand{display:flex;align-items:center;color:#f9fafb;text-decoration:none}
+.site-op{width:34px;height:34px;border-radius:9999px;background:#fff;display:flex;align-items:center;justify-content:center;margin-right:8px;flex:none}
+.site-op p{margin:0;font-size:19px;line-height:28px;color:#000} .site-op span{color:#3b82f6}
+.site-word img{display:block;width:120px;height:auto}
+.site-title{font-size:17px;font-weight:600;color:#f9fafb;border-left:1px solid #374151;padding-left:14px;white-space:nowrap;text-decoration:none}
+a.site-title:hover{color:#93c5fd}
+@media (max-width:480px){.site-word{display:none}.site-title{border:0;padding-left:0}}
+main{max-width:1280px;margin:0 auto;padding:66px 32px 28px}
+.crumbs{display:flex;flex-wrap:wrap;align-items:center;gap:8px;font-size:14px;line-height:20px;padding:8px 0;margin:0 0 16px}
+.crumbs a{color:#000;font-weight:700;text-decoration:none} .crumbs a:hover{color:var(--blue)}
+.crumbs svg{width:16px;height:16px;stroke:#9ca3af;fill:none} .crumbs .here{color:#4b5563}
+h1{color:var(--ink-strong);font-size:28px;line-height:1.2;font-weight:700;margin:0 0 6px;letter-spacing:-.01em}
+h2{color:var(--ink-strong);font-size:20px;margin:28px 0 10px}
+h3{color:var(--ink-strong);font-size:16px;margin:0}
+.meta{color:var(--muted);font-size:15px;margin:0 0 10px}
+.links{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0 18px}
+.links a,.links span{font-size:13.5px;border:1px solid var(--line2);background:#fff;border-radius:8px;padding:5px 10px;text-decoration:none;color:var(--ink)}
+.links a:hover{border-color:var(--blue);color:var(--blue-800)} .links a.ext::after{content:" ↗";color:var(--muted2)}
+.links span{color:var(--muted2)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 16px;margin:0 0 14px}
+.note{font-size:13.5px;color:var(--muted);background:#f9fafb;border:1px solid var(--line);border-radius:8px;padding:8px 12px;margin:0 0 14px}
+.k{display:inline-block;font-size:10.5px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;padding:1px 6px;border-radius:4px;background:#f3f4f6;color:var(--muted);margin-right:6px;vertical-align:1px}
+.k.b{background:var(--blue-100);color:var(--blue-800)} .k.ok{background:#dcfce7;color:var(--ok)} .k.no{background:#fee2e2;color:var(--bad)}
+.evs{margin:0;padding:0;list-style:none} .evs li{padding:4px 0;font-size:14.5px}
+footer{font-size:12.5px;color:var(--muted2);margin-top:28px;border-top:1px solid var(--line);padding-top:12px}
+/* amendment pages: a page image and its changes side by side (U44) */
+.pg{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:14px;align-items:start;margin:0 0 22px}
+.pg h2{grid-column:1/-1;margin:6px 0 0;font-size:15px;color:var(--muted)}
+.img{position:relative;margin:0;background:#fff;border:1px solid var(--line);border-radius:8px;overflow:hidden;position:sticky;top:62px}
+.img img{display:block;width:100%;height:auto}
+.bx{position:absolute;border:2px solid rgba(37,99,235,.75);background:rgba(37,99,235,.06);border-radius:3px;text-decoration:none}
+.bx span{position:absolute;left:-2px;top:-17px;background:var(--blue);color:#fff;font-size:10.5px;font-weight:700;line-height:15px;padding:0 4px;border-radius:3px 3px 0 0}
+.bx.on,.bx:hover{border-color:#d97706;background:rgba(253,230,138,.35)} .bx.on span,.bx:hover span{background:#d97706}
+.cards{display:flex;flex-direction:column;gap:10px}
+.ch{background:#fff;border:1px solid var(--line);border-left:4px solid var(--line2);border-radius:8px;padding:9px 12px;font-size:14px;scroll-margin-top:110px}
+.ch.on,.ch:target{border-left-color:#d97706;box-shadow:0 0 0 3px rgba(253,230,138,.6)}
+.ch .hd{display:flex;flex-wrap:wrap;align-items:center;gap:4px 6px;margin-bottom:3px}
+.ch .hd a.n{font-weight:700;color:var(--ink-strong);text-decoration:none}
+.ch .ref{color:var(--muted2);font-size:12.5px}
+.ch .cite{color:var(--muted);font-size:13px}
+.ch ul{margin:4px 0 0;padding-left:18px} .ch li{margin:1px 0}
+.ch .res{margin-top:6px;font-size:13px;color:var(--muted)} .ch .res b{color:var(--ink)}
+.ch details summary{cursor:pointer;color:var(--blue);font-size:13px}
+.ch .fl{font-size:11.5px;color:var(--muted2)}
+table.ed{width:100%;border-collapse:collapse;font-size:13px;background:#fff}
+table.ed th,table.ed td{border-bottom:1px solid var(--line);padding:5px 8px;text-align:left;vertical-align:top}
+table.ed th{color:var(--muted2);font-weight:600;font-size:12px;text-transform:uppercase;letter-spacing:.04em}
+table.ed del{color:var(--bad)} table.ed ins{color:var(--ok);text-decoration:none}
+/* Rules pages (U47) */
+.toc{display:flex;gap:10px;margin:0 0 14px;font-size:14px}
+ol.s1{margin:0;padding-left:0;list-style:none;columns:2;column-gap:28px}
+ol.s1>li{break-inside:avoid;padding:3px 0;font-size:14.5px} ol.s1 .n{color:var(--muted2);display:inline-block;min-width:46px}
+ol.s1 ul{margin:2px 0 4px 46px;padding:0;list-style:none;font-size:13px;color:var(--muted)}
+.u{background:#fff;border:1px solid var(--line);border-radius:10px;padding:12px 16px;margin:0 0 12px;scroll-margin-top:100px}
+.u:target{box-shadow:0 0 0 3px var(--blue-100);border-color:#93c5fd}
+.u h3{display:flex;align-items:center;gap:8px} .u h3 i{width:10px;height:10px;border-radius:50%;flex:none}
+.u h3 a.hl{color:var(--line2);text-decoration:none;font-weight:400} .u h3 a.hl:hover{color:var(--blue)}
+.u .hi{color:var(--muted2);font-size:13px;margin:0 0 6px 18px}
+.u h4{font-size:14px;margin:12px 0 4px;color:var(--ink-strong)}
+.u p{margin:3px 0;font-size:14px}
+.u .e{display:flex;gap:8px} .u .e .n{color:var(--muted2);min-width:30px;flex:none;text-align:right}
+.u .e .t{flex:1} .u .om{color:var(--muted2);font-style:italic}
+.u .by{font-size:10.5px;color:var(--muted2);text-decoration:none;border:1px solid var(--line);border-radius:4px;padding:0 4px;margin-left:6px;white-space:nowrap}
+.u .by:hover{color:var(--blue);border-color:var(--blue)}
+.u .lv2{margin-left:18px} .u .lv3{margin-left:36px} .u .lv4{margin-left:54px}
+details.order summary{cursor:pointer;font-weight:600;color:var(--ink-strong)}
+@media (max-width:900px){.pg{grid-template-columns:1fr}.img{position:relative;top:0}ol.s1{columns:1}main{padding:62px 12px 20px}}
+@media (prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}
+/* ministry pages (U52–U57a) */
+.dot{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:6px;vertical-align:0}
+.formerly{font-size:14.5px;color:var(--muted);margin:0 0 6px} .formerly span{color:var(--muted2);font-size:13px}
+.fam p{margin:3px 0;font-size:14.5px}
+.strip{display:block;width:100%;height:auto;max-height:160px}
+ol.mevs{list-style:none;margin:0;padding:0}
+.mev{display:grid;grid-template-columns:150px 1fr;gap:12px;background:#fff;border:1px solid var(--line);border-radius:8px;padding:10px 14px;margin:0 0 8px;font-size:14.5px}
+.mev .when{color:var(--ink-strong);font-size:13.5px} .mev .when span{color:var(--muted2);font-size:12.5px}
+.mev .oth{font-size:13px;color:var(--muted);margin-top:3px}
+.mev .am{font-size:12.5px;margin-top:3px} .mev .am a{text-decoration:none} .mev .am a.doc{font-weight:600} .mev .am a.doc::after{content:" ↗";font-weight:400}
+details.subs{margin-top:5px;font-size:13.5px} details.subs summary{cursor:pointer;color:var(--blue)} details.subs ul{margin:4px 0 0;padding-left:18px}
+details.subj summary{cursor:pointer} details.subj ol{font-size:14px;padding-left:22px}
+.sect h3{display:flex;align-items:center;gap:8px;margin-bottom:6px} .sect h3 i{width:10px;height:10px;border-radius:50%}
+ul.ix{list-style:none;margin:0;padding:0;columns:2;column-gap:24px} ul.ix li{padding:2px 0;font-size:14.5px;break-inside:avoid}
+ul.ix li span{color:var(--muted2);font-size:12.5px} ul.ix.past a{color:var(--muted)}
+.sect details summary{cursor:pointer;color:var(--muted);font-size:13.5px;margin-top:6px}
+@media (max-width:900px){.mev{grid-template-columns:1fr}ul.ix{columns:1}}
+.u h3 a.hist{margin-left:auto;font-size:12.5px;font-weight:600;text-decoration:none;white-space:nowrap}
+.hists{font-size:12.5px;color:var(--muted2)} .hists a{color:var(--muted)}
+.anim iframe{display:block;width:100%;aspect-ratio:1000/655;border:0;border-radius:8px}
+@media (max-width:900px){.anim iframe{aspect-ratio:1000/780}}
+.srcnote{font-size:12.5px;color:var(--muted2);margin-top:24px;border-top:1px solid var(--line);padding-top:10px}
+.site-foot{background:#000;color:#d1d5db;border-top:3px solid #3b82f6}
+.site-foot .in{max-width:1280px;margin:0 auto;padding:12px 32px;display:flex;flex-wrap:wrap;align-items:center;gap:6px 18px;font-size:13px}
+.site-foot img{width:96px;height:auto;display:block} .site-foot a{color:#d1d5db;text-decoration:none} .site-foot a:hover{color:#60a5fa}
+.line{font-size:14.5px} .line span{color:var(--muted2);font-size:12.5px} .line .arr{color:var(--line2);margin:0 2px}
